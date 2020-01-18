@@ -32,7 +32,7 @@ effort and resources on grants. Available at
 or
 <http://ucdmc.ucdavis.edu/ctsc/area/biostatistics/financialConsiderations.html>.
 
-![](../../../images/biostatistician-effort01.png)
+![](../../images/biostatistician-effort01.png)
 
 
 :::

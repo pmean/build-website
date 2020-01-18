@@ -22,7 +22,7 @@ showing the first ten rows. Now, you don't have to type the numbers 1 to
 the cell beneath it, highlight both cells, and then extend down to
 10,000. Import this file into SPSS.
 
-![](../../../images/simulating-power01.png)
+![](../../images/simulating-power01.png)
 
 
 
@@ -33,43 +33,43 @@ probability of success of 50%. We want a one-sided test at an alpha
 level of 0.05. First simulate the number of successes in the treatment
 group as binomial with n=200 and p=0.6.
 
-![](../../../images/simulating-power02.png)
+![](../../images/simulating-power02.png)
 
 
 
 Next simulate the number of success in the control group as binomial
 with n=100 and p=0.5.
 
-![](../../../images/simulating-power03.png)
+![](../../images/simulating-power03.png)
 
 
 
 Calculate the difference in proportions
 
-![](../../../images/simulating-power04.png)
+![](../../images/simulating-power04.png)
 
 
 
 and the standard error.
 
-![](../../../images/simulating-power05.png)
+![](../../images/simulating-power05.png)
 
 
 
 Then calculate for each row whether you exceeded the 0.95 percentile of
 a standard normal distribution.
 
-![](../../../images/simulating-power06.png)
+![](../../images/simulating-power06.png)
 
 
 
 Here's what the first few rows of your simulation look like.
 
-Â 
+ 
 
 Now tally your results.
 
-Â 
+ 
 
 Hey look at that. You rejected the null hypothesis exactly 50% of the
 time. That means that your power is 50%. Re run this simulation with

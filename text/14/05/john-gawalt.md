@@ -18,10 +18,10 @@ Meet John Gawalt, Director of the National Center for Science and
 Engineering Statistics. Amstat News (1 May 2014). Available at:
 <http://magazine.amstat.org/blog/2014/05/01/meet-john-gawalt/>.
 
-![](../../../images/john-gawalt01.png)
+![](../../images/john-gawalt01.png)
 
 
 
-Â 
+ 
 :::
 

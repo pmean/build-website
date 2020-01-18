@@ -17,7 +17,7 @@ research.
 
 Ram K. Git can facilitate greater reproducibility and increased
 transparency in science. Source Code for Biology and Medicine.
-2013;8(1):7. Abstract: "Background:Â  Reproducibility is the hallmark of
+2013;8(1):7. Abstract: "Background:  Reproducibility is the hallmark of
 good science. Maintaining a high degree of transparency in scientific
 reporting is essential not just for gaining trust and credibility within
 the scientific community but also for facilitating the development of
@@ -26,7 +26,7 @@ is becoming increasingly common, motivated partly in response to data
 deposition requirements from journals and mandates from funders. Despite
 this increase in transparency, it is still difficult to reproduce or
 build upon the findings of most scientific publications without access
-to a more complete workflow. Findings:Â  Version control systems (VCS),
+to a more complete workflow. Findings:  Version control systems (VCS),
 which have long been used to maintain code repositories in the software
 industry, are now finding new applications in science. One such open
 source VCS, Git, provides a lightweight yet robust framework that is
@@ -44,10 +44,10 @@ collaborations, and support novel uses. Keywords: Reproducible research;
 Version control; Open science." doi:10.1186/1751-0473-8-7. Available at:
 <http://www.scfbm.org/content/8/1/7>.
 
-![](../../../images/git01.png)
+![](../../images/git01.png)
 
 
 
-Â 
+ 
 :::
 

@@ -39,7 +39,7 @@ based on announcements of interim analyses. Trials. 2014;15(1):73.
 doi:10.1186/1745-6215-15-73. Available at:
 <http://www.trialsjournal.com/content/15/1/73>
 
-![](../../../images/predicting-trial-results01.png)
+![](../../images/predicting-trial-results01.png)
 
 
 :::

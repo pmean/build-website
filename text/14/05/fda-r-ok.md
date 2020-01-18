@@ -20,10 +20,10 @@ SAS).
 Smith D. FDA: R OK for drug trials. R-bloggers. Available at:
 <http://www.r-bloggers.com/fda-r-ok-for-drug-trials/>
 
-![](../../../images/fda-r-ok01.png)
+![](../../images/fda-r-ok01.png)
 
 
 
-Â 
+ 
 :::
 

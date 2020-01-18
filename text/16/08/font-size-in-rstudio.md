@@ -18,7 +18,7 @@ Go to the menu in RStudio and click on Tools and then Global Options.
 Select the Appearance tab on the left. Again buried in the middle of
 things is the font size.
 
-![](../../../images/font-size-in-rstudio01.png)
+![](../../images/font-size-in-rstudio01.png)
 
 
 

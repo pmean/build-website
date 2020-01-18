@@ -14,14 +14,14 @@ blinded as to treatment status during their deliberations.
 
 <!---More--->
 
-BRADLEY D. FREEMAN, ROBERT L. DANNER, STEVEN M. BANKS, and CHARLES
+BRADLEY D. FREEMAN, ROBERT L. DANNER, STEVEN M. BANKS, and CHARLES
 NATANSON "Safeguarding Patients in Clinical Trials with High Mortality
 Rates", American Journal of Respiratory and Critical Care Medicine, Vol.
 164, No. 2 (2001), pp. 190-192. doi: 10.1164/ajrccm.164.2.2011028.
 Available at
 <http://www.atsjournals.org/doi/full/10.1164/ajrccm.164.2.2011028>.
 
-![](../../../images/safeguarding01.png)
+![](../../images/safeguarding01.png)
 
 
 :::

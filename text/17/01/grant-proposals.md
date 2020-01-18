@@ -24,7 +24,7 @@ Non-Statistics Proposals for Funding from the American Statistical
 Association Committee on Funded Research. Available at
 <http://ww2.amstat.org/misc/StatisticalIssuesInProposals.pdf>.
 
-![](../../../images/grant-proposals01.png)
+![](../../images/grant-proposals01.png)
 
 
 :::

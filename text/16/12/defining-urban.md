@@ -22,10 +22,10 @@ and Rural Areas in U.S. Epidemiologic Studies. J Urban Health. 2006 Mar;
 83(2): 162--175. doi: 10.1007/s11524-005-9016-3. Available at
 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2527174/>
 
-![](../../../images/defining-urban01.png)
+![](../../images/defining-urban01.png)
 
 
 
-Â 
+ 
 :::
 

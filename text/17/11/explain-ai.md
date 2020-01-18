@@ -3,7 +3,7 @@ title: "Recommendation: Can A.I. be taught to explain itself"
 author: "Steve Simon"
 source: "http://blog.pmean.com/explain-ai/"
 date: "2017-11-27"
-category: Recommended
+category: Recommendation
 tags: Big data
 output: html_document
 ---
@@ -22,4 +22,4 @@ Cliff Kuang. Can A.I. Be Taught to Explain Itself. The New York Times
 Magazine. November 26, 2017. Available at
 <https://www.nytimes.com/2017/11/21/magazine/can-ai-be-taught-to-explain-itself.html>.
 
-![](../../../images/explain-ai01.png)
+![](../../images/explain-ai01.png)

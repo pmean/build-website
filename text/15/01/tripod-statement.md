@@ -24,7 +24,7 @@ multivariable prediction model for individual prognosis or diagnosis
 doi:10.1186/s12916-014-0241-z. Available at
 <http://www.biomedcentral.com/1741-7015/13/1>
 
-![](../../../images/tripod-statement01.png)
+![](../../images/tripod-statement01.png)
 
 
 :::

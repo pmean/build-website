@@ -26,7 +26,7 @@ National Institutes of Health. Notice of Revised NIH Definition of
 "Clinical Trial". Notice Number: NOT-OD-15-015. Available at
 <https://grants.nih.gov/grants/guide/notice-files/NOT-OD-15-015.html>.
 
-![](../../../images/clinical-trial01.png)
+![](../../images/clinical-trial01.png)
 
 
 :::

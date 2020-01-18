@@ -25,7 +25,7 @@ to understand the fundamental science itself, and can form part of the
 broad skill set of most politicians." Available at
 <http://www.nature.com/news/policy-twenty-tips-for-interpreting-scientific-claims-1.14183>
 
-![](../../../images/twenty-tips01.png)
+![](../../images/twenty-tips01.png)
 
 
 :::

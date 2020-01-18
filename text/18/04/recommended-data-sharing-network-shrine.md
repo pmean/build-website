@@ -21,7 +21,7 @@ this has tremendous potential.
 Data Sharing Network (SHRINE). Available at
 <https://www.i2b2.org/work/shrine.html>.
 
-![](../../../images/recommended-data-sharing-network-shrine01.png)
+![](../../images/recommended-data-sharing-network-shrine01.png)
 
 
 :::

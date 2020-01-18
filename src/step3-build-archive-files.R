@@ -5,16 +5,16 @@
 ## Step 3-0. Preliminaries
 
 source(file="src/prelims.R", echo=FALSE)
-wb_root <- "c:/Users/steve/Dropbox/professional/web"
-summ_path <- wb_root %s% "md/summ"
-link_path <- wb_root %s% "md/link"
+wb_root <- "../web"
+summ_path <- wb_root %s% "summ"
+link_path <- wb_root %s% "links"
 
 ## Step 3-1. Read files
 
-summ_files <- list.files(summ_path, pattern="*.md") 
+summ_files <- list.files(summ_path, pattern="*.txt") 
 n_summ <- length(summ_files)
 summ_tx <- NULL
-summ_files %>% str_remove(fixed(".md")) -> summ_names 
+summ_files %>% str_remove(fixed(".txt")) -> summ_names 
 for (i in 1:n_summ) {
   summ_tx[[summ_names[i]]] <- readLines(summ_path %s% summ_files[i])
 }
@@ -49,7 +49,7 @@ for (i in 1:n_link) {
 o <- order(dat, link_names)
 
 dat[rev(o)]
-most_recent <- link_name[rev(o)]
+most_recent <- link_names[rev(o)]
 
 most_recent[1:20]
 
@@ -57,10 +57,10 @@ most_recent[1:20]
 
 if (verbose) {"\nWriting index.md." %>% cat}
 
-yaml_divider                                               %1%
+'---'                                                      %1%
   'title: '                    %q% 'Recent blog entries'   %1%
   'output: '                   %0% 'html_document'         %1%
-  yaml_divider                                             -> md_file_header
+  '---'                                                    -> md_file_header
 
 n_files <- length(most_recent)
 md_file_body <- character(0)
@@ -70,7 +70,7 @@ for (i in 1:n_files) {
   top_line <- "\n\n### B-" %0% j %0% "." %b% summ_tx[[i_file]][1] 
   md_file_body <- c(md_file_body, top_line, summ_tx[[i_file]][-1])
 }
-new_name <- md_root %s% "archive" %s% "index.md"
+new_name <- wb_root %s% "md/archive" %s% "index.md"
 writeLines(c(md_file_header, md_file_body), new_name)
 
 ## Step 3-3. Build all other archive pages
@@ -88,11 +88,15 @@ for (i_arch in arch_list) {
   sb <- name_vector[arch_vector==i_arch]
   sb_list <- intersect(most_recent, sb)
   n_sb <- length(sb_list)
+  verb <- ifelse(str_detect(i_arch, "^20|19"), "added in","tagged as")
 
-  yaml_divider                                               %1%
+  '---'                                                      %1%
     'title: '                    %q% i_arch                  %1%
     'output: '                   %0% 'html_document'         %1%
-    yaml_divider                                             -> md_file_header
+    '---'                                                    %2%
+
+    "This page lists all blog posts and recommendations"     %1%
+    verb                         %b% i_arch %0% "."          -> md_file_header
 
   md_file_body <- character(0)
   for (i in 1:n_sb) {
@@ -101,11 +105,9 @@ for (i_arch in arch_list) {
     top_line <- "\n\n### B-" %0% j %0% "." %b% summ_tx[[i_file]][1] 
     md_file_body <- c(md_file_body, top_line, summ_tx[[i_file]][-1])
   }
-  new_name <- md_root %s% i_arch %0% ".md"
+  i_arch %>% tolower %>% str_replace_all(" ", "-") -> j_arch
+  new_name <- wb_root %s% "md/archive" %s% j_arch %0% ".md"
   if (verbose) "\nPreparing" %b% new_name %>% cat
   writeLines(c(md_file_header, md_file_body), new_name)
 }
 
-## Save everything
-
-save.image("data/step3.RData")

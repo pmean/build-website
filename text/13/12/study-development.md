@@ -10,7 +10,7 @@ output: html_document
 
 This is an excellent local resource for those of you in the Kansas City
 area. They have guidance on coming up with a study idea, finding
-funding,Â  and identifying study participants. This site offers general
+funding,  and identifying study participants. This site offers general
 information and links to resources with Frontiers (aka the Heartland
 Institute for Clinical and Translational Research).
 
@@ -20,12 +20,12 @@ The Heartland Institute for Clinical and Translational Research. Study
 Development. Excerpt: "Study Development is a key phase of the research
 process and investigators must take many considerations into account.
 From formulating a research idea, to considering and seeking funding, a
-systematic approach will make the process navigable.Â  Click on the
+systematic approach will make the process navigable.  Click on the
 titles below to see the drop-down information on each component and find
 out how Frontiers can assist." Last accessed on December 12, 2013.
 Available at <http://frontiersresearch.org/frontiers/study-development>.
 
-![](../../../images/study-development01.png)
+![](../../images/study-development01.png)
 
 
 :::

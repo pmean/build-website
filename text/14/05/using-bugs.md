@@ -1,4 +1,4 @@
-﻿---
+---
 title: "PMean: Using BUGS within the R programming environment"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-bugs/"
@@ -68,7 +68,7 @@ The mathematics of Bayesian data analysis is quite complex. Here's a
 description on the [Wikipedia page on posterior
 distributions](http://en.wikipedia.org/wiki/Posterior_probability).
 
-![](../../../images/using-bugs01.png)
+![](../../images/using-bugs01.png)
 
 
 
@@ -151,6 +151,6 @@ Bayesian methods are especially useful for multi-level models (also
 known as mixed models), which are difficult to the point of being almost
 intractactable using classical methods.
 
- 
+�
 :::
 

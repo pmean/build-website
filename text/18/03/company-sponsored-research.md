@@ -25,7 +25,7 @@ Medical Research: GPP3. Ann Intern Med. 2015;163:461--464. doi:
 10.7326/M15-0288. Available at
 <http://annals.org/aim/fullarticle/2424869/good-publication-practice-communicating-company-sponsored-medical-research-gpp3>.
 
-![](../../../images/company-sponsored-research01.png)
+![](../../images/company-sponsored-research01.png)
 
 
 :::

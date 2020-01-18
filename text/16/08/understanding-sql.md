@@ -21,7 +21,7 @@ Lukas Eder. 10 Easy Steps to a Complete Understanding of SQL. Created
 March 17, 2016. Available at
 <https://blog.jooq.org/2016/03/17/10-easy-steps-to-a-complete-understanding-of-sql/>
 
-![](../../../images/understanding-sql01.png)
+![](../../images/understanding-sql01.png)
 
 
 :::

@@ -21,10 +21,10 @@ Failure to employ physiological statistics, or the only formula a
 clinician-trialist is ever likely to need (or understand!). CMAJ.
 2001;165(9):1226--1237.
 
-![](../../../images/physiological-statistics01.png)
+![](../../images/physiological-statistics01.png)
 
 
 
-Â 
+ 
 :::
 

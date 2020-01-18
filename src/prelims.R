@@ -47,7 +47,7 @@ build_file_list <- function(dir_root, file_pattern) {
 # appropriate page.
 
 build_link <- function(x, p="../archive") {
-  x %>% str_split(", ") %>% unlist -> y
+  x %>% str_split(", *") %>% unlist -> y
   p %s% y %>% 
     tolower %>% 
     str_replace_all(" ", "-") %0% ".html" -> added_dashes
@@ -111,11 +111,7 @@ parse_bibtex <- function(tx, f0) {
     remove_punctuation %>%
     str_remove("mendeley-") %>%
     str_replace("annote"       , "note"    ) %>%
-    str_replace("urldate"      , "blogdate") %>%
-    str_replace("misc"         , "name"    ) %>%
-    str_replace("inproceedings", "name"    ) %>%
-    str_replace("book"         , "name"    ) %>%
-    str_replace("article"      , "name"    ) -> field_names
+    str_replace("urldate"      , "blogdate") -> field_names
   tx %>%
     str_subset("^\\}", negate=TRUE) %>%
     str_remove(".*?[=\\{]") %>%
@@ -124,6 +120,9 @@ parse_bibtex <- function(tx, f0) {
     set_names(field_names) -> fields
   fields$full_name <- f0
   fields$modified <- str_sub(file.info(f0)$mtime, 1, 10)
+  f0 %>%
+    str_remove("^.*/") %>%
+    str_remove(fixed(".bib")) -> fields$name
   return(fields)
 }
 
@@ -188,7 +187,7 @@ modify_bib_fields <- function(fields) {
   fields$full_link_name <- "../web/links"    %s% short_name %d% "txt"
   fields$full_summ_name <- "../web/summ"     %s% short_name %d% "txt"
   
-  fields$category <- "Recomendation"
+  fields$category <- "Recommendation"
   fields$month    <- str_sub(fields$blogdate, 1, 7)
   fields$day      <- str_sub(fields$blogdate, 8, 10)
   
@@ -250,8 +249,13 @@ parse_yaml <- function(tx, f0) {
     as.list  %>%
     set_names(field_names) -> fields
   note_range <- (yaml_lines[2]+1):(yaml_lines[3]-1)
-  fields$note <- str_c(tx[note_range], collapse="/n")
+  fields$note <- str_c(tx[note_range], collapse="\n")
+  
   fields$full_name <- f0
+  f0 %>% 
+    str_remove("^.*/") %>% 
+    str_remove(fixed(".md")) -> fields$name
+    
   fields$modified <- str_sub(file.info(f0)$mtime, 1, 10)
   fields %>% return
 }
@@ -275,33 +279,30 @@ if (verbose) {
 # This function updates information in yaml
 # fields.
 
-modify_yaml_fields <- function(f) {
+modify_yaml_fields <- function(fields) {
   # Build full file names
-  fields$full_tail_name <- str_replace(fields$full_post_name, "md$|Rmd$", "tail")
-  fields$full_link_name <- str_replace(fields$full_post_name, "md$|Rmd$", "link")
-  fields$full_summ_name <- str_replace(fields$full_post_name, "md$|Rmd$", "summ")
+  fields$full_name %>%
+    str_remove("^.*/") %>%
+    str_remove(fixed(".md")) -> short_name
+  fields$full_body_name <- "../web/md/blog"  %s% short_name %d% "md"
+  fields$full_link_name <- "../web/links"    %s% short_name %d% "txt"
+  fields$full_summ_name <- "../web/summ"     %s% short_name %d% "txt"
   
-  fields$month    <- str_sub(fields$date, 1, 7)
-  fields$day      <- str_sub(fields$date, 8, 10)
-  
-  fields$blogdate <- fields$date
-  
-  return(f)
+  fields$month    <- str_sub(fields$blogdate, 1, 7)
+  fields$day      <- str_sub(fields$blogdate, 8, 10)
+  return(fields)
 }
 
-flag_unused_yaml_fields <- function(fields, f0) {
+flag_unused_yaml_fields <- function(fields) {
   key_fields <- c(
     "author",
     "category",
-    "date",
+    "source",
     "tags",
     "title"
   )
-  field_names <- names(fields)
-  unused_fields <- setdiff(key_fields, field_names)
-  if (verbose) {"\nUnused fields:" %b% str_c(unused_fields, collapse=", ") %>% cat}
-  for (i_field in unused_fields) {
-    fields[[i_field]] <- "Not found"
+  for (f in key_fields) {
+    if (is.null(fields[[f]])) fields[[f]] <- "Not found"
   }
   return(fields)
 }
@@ -320,31 +321,50 @@ skim_yaml_files <- function(field_header, dir_root="../source/posts", file_patte
   }
 }
 
+clean_files <- function(search_string, replace_string="Not yet", dir_root="text", file_pattern="*.md") {
+  if (!exists("ok_to_replace")) ok_to_replace <- FALSE  
+  file_list <- build_file_list(dir_root, file_pattern)
+  "\nSearching through" %b% length(file_list) %b% "files.\n\n" %>% cat
+  for (i_file in file_list) {
+    tx <- read_lines(i_file)
+    found_lines <- str_which(tx, search_string)
+    if (length(found_lines)==0) next
+    "\n\n" %0% i_file %>% br %>% cat
+    str_c(tx[found_lines], collapse="\n") %>% cat
+    if (replace_string!="Not yet") {
+      tx %<>% str_replace(search_string, replace_string)
+      "\n" %0% str_c(tx[found_lines], collapse="\n") %>% cat
+      if (ok_to_replace) writeLines(tx, i_file)
+    }
+  }
+}
+
 # Functions for writing files
 
 # This function writes the body of a markdown
 # file associated with a bibtex recommendation.
 
 write_body <- function(fields) {
+  image_link <- "../../images" %s% fields$image
   new_tx <-
-    "---"                                  %1%
-    "title: "    %q% fields$title          %1%
-    "author: "   %q% fields$author         %1%
-    "date: "     %q% fields$blogdate       %1%
-    "category: " %q% "Recommendation"      %1%
-    "tags: "     %q% fields$tags           %1%
-    "source: "   %q% fields$source         %1%
-    "name: "     %q% fields$name           %1%
-    "output: "   %0% "html_document"       %1%
-    "---"                                  %2%
+    "---"                                     %1%
+    "title: "    %q% fields$title             %1%
+    "author: "   %q% fields$author            %1%
+    "date: "     %q% fields$blogdate          %1%
+    "category: " %q% "Recommendation"         %1%
+    "tags: "     %q% fields$tags              %1%
+    "source: "   %q% fields$source            %1%
+    "name: "     %q% fields$name              %1%
+    "output: "   %0% "html_document"          %1%
+    "---"                                     %2%
     
-    str_wrap(fields$note, 50)              %2%
+    str_wrap(fields$note, 50)                 %2%
     
-    "<---More--->"                         %2%
+    "<!---More--->"                           %2%
     
-    fields$citation                        %2%
+    fields$citation                           %2%
     
-    "![]"        %p% fields$image          %1%
+    "![]" %p% image_link                      %1%
     "\n"
   if (verbose) {"\n\n" %0% new_tx %>% cat}
   write_lines(new_tx, fields$full_body_name)
@@ -365,7 +385,7 @@ write_tail <- function(fields) {
     fields$modified                        %0% "."        %1%
     "You can find similar pages at"                       %1%
     build_link(fields$tags) %0% ".\n\n"
-  
+  if (verbose) "\n\n" %0% fields$source %0% "\n\n"
   if (str_detect(fields$source, "pmean")) {
     tail_tx                                     %1%
       "An earlier version of this page appears" %1%
@@ -397,10 +417,9 @@ write_summ <- function(fields) {
     str_remove("^\n") %>%
     str_remove("^\n")  -> summ_tx
 
-  brack(fields$title) %0% 
-    paren("../blog" %s% fields$name %0% ".html") %b% 
-    summ_tx %1% 
-    "\n"                                         -> summ_tx
+  brack(fields$title %P% fields$blogdate) %0% 
+    paren("../blog" %s% fields$name %0% ".html") %2% 
+    summ_tx                                         -> summ_tx
   if (verbose) {"\n\n" %0% summ_tx %>% cat}  
   write_lines(summ_tx, fields$full_summ_name)
   return(fields)

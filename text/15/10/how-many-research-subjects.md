@@ -15,7 +15,7 @@ bit.
 
 <!---More--->
 
-![](../../../images/how-many-research-subjects01.png)
+![](../../images/how-many-research-subjects01.png)
 
 
 :::

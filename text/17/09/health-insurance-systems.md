@@ -29,7 +29,7 @@ Choudhry NK. Randomized, Controlled Trials in Health Insurance Systems.
 N Engl J Med 2017 (Sept. 7); 377: 957-964. Available at
 <http://www.nejm.org/doi/full/10.1056/NEJMra1510058>.
 
-![](../../../images/health-insurance-systems01.png)
+![](../../images/health-insurance-systems01.png)
 
 
 :::

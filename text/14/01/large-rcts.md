@@ -47,10 +47,10 @@ net](http://www.edge.org/response-detail/25357) and Emanuel Derman's
 [comment on the power of
 statistics](http://www.edge.org/response-detail/25349).
 
-![](../../../images/large-rcts01.png)
+![](../../images/large-rcts01.png)
 
 
 
-Â 
+ 
 :::
 

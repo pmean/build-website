@@ -17,7 +17,7 @@ produced by the U.S. Government.
 Anthony Damico. Analyze Survey Data for Free. Available at
 <http://www.asdfree.com/>.
 
-![](../../../images/survey-data-r01.png)
+![](../../images/survey-data-r01.png)
 
 
 :::

@@ -17,12 +17,12 @@ data.
 
 "Any other comments?" Open questions on questionnaires -- a bane or a
 bonus to research? O'Cathain A, Thomas KJ. BMC Med Res Methodol 2004:
-4(1); 25. Abstract: "Background:Â  The habitual "any other comments"
+4(1); 25. Abstract: "Background:  The habitual "any other comments"
 general open question at the end of structured questionnaires has the
 potential to increase response rates, elaborate responses to closed
 questions, and allow respondents to identify new issues not captured in
 the closed questions. However, we believe that many researchers have
-collected such data and failed to analyse or present it. Discussion:Â 
+collected such data and failed to analyse or present it. Discussion: 
 General open questions at the end of structured questionnaires can
 present a problem because of their uncomfortable status of being
 strictly neither qualitative nor quantitative data, the consequent lack
@@ -46,7 +46,7 @@ I [summarized this
 article](http://www.pmean.com/05/OpenEndedQuestions.html) on my website
 back in 2005.
 
-![](../../../images/open-questions01.png)
+![](../../images/open-questions01.png)
 
 
 :::

@@ -24,7 +24,7 @@ Animal Research. PLoS Biol. 2010;8(6). doi:10.1371/journal.pbio.1000412.
 Available at
 [journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000412](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000412).
 
-![](../../../images/arrive-guidelines01.png)
+![](../../images/arrive-guidelines01.png)
 
 
 
@@ -35,6 +35,6 @@ Should Be More Like Human Randomized Controlled Trials. PLoS Biol.
 2013;11(2):e1001481. doi:10.1371/journal.pbio.1001481. Available at
 [journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001481](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001481)
 
-Â 
+ 
 :::
 

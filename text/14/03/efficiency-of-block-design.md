@@ -16,7 +16,7 @@ to a completely randomized block design to a design without blocking.
 
 A quick search on Google revealed the formula:
 
-![](../../../images/efficiency-of-block-design01.png)
+![](../../images/efficiency-of-block-design01.png)
 
 
 
@@ -35,12 +35,12 @@ randomized block design.
      > anova(tst.m1)
      Analysis of Variance Table
      Response: bb
-                 DfÂ  Sum Sq Mean SqÂ Â  F valueÂ Â Â  Pr(>F)
-     trtÂ Â Â Â Â Â Â Â Â  2 11.5617Â  5.7809 35659.326 < 2.2e-16 ***
-     blkÂ Â Â Â Â Â Â  999Â  2.2959Â  0.0023Â Â Â  14.176 < 2.2e-16 ***
-     Residuals 1998Â  0.3239Â  0.0002
+                 Df  Sum Sq Mean Sq   F value    Pr(>F)
+     trt          2 11.5617  5.7809 35659.326 < 2.2e-16 ***
+     blk        999  2.2959  0.0023    14.176 < 2.2e-16 ***
+     Residuals 1998  0.3239  0.0002
      ---
-     Signif. codes:Â  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+     Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
      > (999*0.0023+2000*0.0002)/(2999*0.0002)
      [1] 4.497666
 
@@ -50,10 +50,10 @@ precision.
 This formula was published in *Experimental Design and Data Analysis for
 Biologists* by Gerald Peter Quinn, Michael J. Keough, (ISBN:
 9780521009768) and digitized by Google. There is a huge controversy over
-theÂ  Google project to digitize a whole bunch of books and make them
+the  Google project to digitize a whole bunch of books and make them
 accessible through their search engine. But I have to admit that I'm
 glad to have access to all those books for finding a formula like this.
 
-Â 
+ 
 :::
 

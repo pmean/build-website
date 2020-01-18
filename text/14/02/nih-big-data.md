@@ -20,7 +20,7 @@ Here's a summary of what the RFA is all about.
 
 <!---More--->
 
-The RFAÂ  calls for "the development of innovative approaches to tough
+The RFA  calls for "the development of innovative approaches to tough
 problems." You don't have to have "fully hardened" software, but you do
 need to demonstrate proof of concept. NIH stresses repeatedly throughout
 the proposal of the need to address biomedical data.Your application
@@ -65,7 +65,7 @@ that NIH sees the need for more work.
 You can view the full RFA at
 <http://grants.nih.gov/grants/guide/rfa-files/RFA-HG-14-020.html>.
 
-![](../../../images/nih-big-data01.png)
+![](../../images/nih-big-data01.png)
 
 
 :::

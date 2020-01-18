@@ -24,9 +24,11 @@ verbose <- TRUE
 "%.%" <- function(x, y) {paste0(x, ". "  , y)}
 "% %" <- function(x, y) {paste0(x, " "   , y)}
 
-"%p%" <- function(x, y) {paste0(x, '(', y, ')')}
-"%q%" <- function(x, y) {paste0(x, '"', y, '"')}
-"%[%" <- function(x, y) {paste0(x, "[", y, "]")}
+"%p%" <- function(x, y) {paste0(x,  '(', y, ')')}
+"%P%" <- function(x, y) {paste0(x, ' (', y, ')')}
+"%q%" <- function(x, y) {paste0(x,  '"', y, '"')}
+"%Q%" <- function(x, y) {paste0(x, ' "', y, '"')}
+"%[%" <- function(x, y) {paste0(x,  "[", y, "]")}
 
 brack <- function(x) {"" %[% x}
 paren <- function(x) {"" %p% x}
@@ -53,7 +55,9 @@ if (verbose) {
   '"abc" %.% "def" produces: ' %1% x %.% y      %>% br(2) %>% cat
   
   '"abc" %p% "def" produces: ' %1% x %p% y      %>% br    %>% cat
+  '"abc" %P% "def" produces: ' %1% x %P% y      %>% br    %>% cat
   '"abc" %q% "def" produces: ' %1% x %q% y      %>% br    %>% cat
+  '"abc" %Q% "def" produces: ' %1% x %Q% y      %>% br    %>% cat
   '"abc" %[% "def" produces: ' %1% x %[% y      %>% br(2) %>% cat
   
   'br("abc", 1) produces: '    %1% br("abc", 1) %>% br    %>% cat

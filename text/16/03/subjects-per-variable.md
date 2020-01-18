@@ -20,14 +20,14 @@ the paper yourself and let me know what you think.
 
 <!---More--->
 
-Â 
+ 
 
 Austin PC , Steyerberg EW. The number of subjects per variable required
 in linear regression analyses. Journal of Clinical Epidemiology 2015,
 68(6):627-636. Available at
 <http://europepmc.org/abstract/med/25704724>.
 
-![](../../../images/subjects-per-variable01.png)
+![](../../images/subjects-per-variable01.png)
 
 
 :::

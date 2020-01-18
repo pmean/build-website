@@ -32,7 +32,7 @@ feature: What's going on in this graph. The New York Times, September 6,
 2017. Available at
 <https://www.nytimes.com/2017/09/06/learning/announcing-a-new-monthly-feature-whats-going-on-in-this-graph.html>.
 
-![](../../../images/nytimes-graph01.png)
+![](../../images/nytimes-graph01.png)
 
 
 :::

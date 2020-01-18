@@ -13,10 +13,10 @@ R Users Group and was too cute not to mention.
 
 <!---More--->
 
-Rasmus BÃ¥Ã¥th. beepr: Easily Play Notification Sounds on any Platform.
+Rasmus Bååth. beepr: Easily Play Notification Sounds on any Platform.
 Available at <https://www.r-project.org/nosvn/pandoc/beepr.html>.
 
-![](../../../images/beepr01.png)
+![](../../images/beepr01.png)
 
 
 

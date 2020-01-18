@@ -20,7 +20,7 @@ Dirk Kruger. Get credit for your data -- BMC Research Notes launches
 data notes. Research in Progress blog. September 29, 2017. Available at
 <http://blogs.biomedcentral.com/bmcblog/2017/09/29/get-credit-for-your-data-bmc-research-notes-launches-data-notes/>.
 
-![](../../../images/data-notes01.png)
+![](../../images/data-notes01.png)
 
 
 :::

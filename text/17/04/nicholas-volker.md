@@ -18,7 +18,7 @@ Sarah DeWeerdt. Genetics: Clues in the code. Nature 540, S104--S105, (22
 December 2016). doi:10.1038/540S104a. Available at
 <http://www.nature.com/nature/journal/v540/n7634_supp/full/540S104a.html>.
 
-![](../../../images/nicholas-volker01.png)
+![](../../images/nicholas-volker01.png)
 
 
 :::

@@ -46,11 +46,11 @@ events per confounder; however, empirical power could range from 35% to
 least eight events per confounder." Available at:
 <http://europepmc.org/abstract/MED/12882951>
 
-![](../../../images/propensity-monte-carlo01.png)
+![](../../images/propensity-monte-carlo01.png)
 
 
 
-Â 
+ 
 
 </div>
 

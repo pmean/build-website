@@ -23,7 +23,7 @@ Statisticians Collaborating Under Limited Resources. Chance Magazine
 (2010) 23(4): 39-40. Available at:
 <https://s3.amazonaws.com/OBrienRG.biblio/Nick10Developing+Grant+Proposals+Guidelines+for+Statisticians.pdf>
 
-![](../../../images/developing-grants01.png)
+![](../../images/developing-grants01.png)
 
 
 :::

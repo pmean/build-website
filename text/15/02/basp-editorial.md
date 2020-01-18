@@ -35,10 +35,10 @@ Trafimow D and Marks M (2015) Editorial. Basic and Applied Psychology,
 37(1). DOI: 10.1080/01973533.2015.1012991. Available at:
 <http://www.tandfonline.com/doi/full/10.1080/01973533.2015.1012991>
 
-![](../../../images/basp-editorial01.png)
+![](../../images/basp-editorial01.png)
 
 
 
-Â 
+ 
 :::
 

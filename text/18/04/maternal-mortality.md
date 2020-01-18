@@ -18,7 +18,7 @@ Beth Mole. A crummy drop-down menu appeared to kill dozens of mothers in
 Texas. Ars Technica. 2018, April 12. Available at
 <https://arstechnica.com/science/2018/04/a-crummy-drop-down-menu-appeared-to-kill-dozens-of-mothers-in-texas/>.
 
-![](../../../images/maternal-mortality01.png)
+![](../../images/maternal-mortality01.png)
 
 
 :::

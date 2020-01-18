@@ -31,8 +31,7 @@ write_everything <- function(f0) {
     write_body %>%
     write_tail %>%
     write_links %>%
-    write_summ %>%
-    print
+    write_summ -> fields
 }
 
 file_root <- "text"

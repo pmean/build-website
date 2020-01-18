@@ -3,7 +3,7 @@ title: "Recommendation: Is the staggeringly profitable business of scientific pu
 author: "Steve Simon"
 source: "http://blog.pmean.com/for-profit-journals/"
 date: "2017-07-10"
-category: Recommended
+category: Recommendation
 tags: Writing research papers
 output: html_document
 ---

@@ -18,7 +18,7 @@ tutorial is a slow and easy introduction to MPI.
 Wes Kendall. MPI Tutorial Introduction. Available at
 <http://mpitutorial.com/tutorials/mpi-introduction/>.
 
-![](../../../images/mpi-tutorial01.png)
+![](../../images/mpi-tutorial01.png)
 
 
 :::

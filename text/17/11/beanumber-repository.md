@@ -23,7 +23,7 @@ NYC CitiBike dataset.
 Baumer B. beanumber repository. Available at
 <https://github.com/beanumber>.
 
-![](../../../images/beanumber-repository01.png)
+![](../../images/beanumber-repository01.png)
 
 
 :::

@@ -21,10 +21,10 @@ Bland JM, Altman DG. Comparisons within randomised groups can be very
 misleading. BMJ. 2011;342(may06 2):d561-d561. doi:10.1136/bmj.d561.
 Available at <http://www.bmj.com/content/342/bmj.d561>.
 
-![](../../../images/comparisons-within01.png)
+![](../../images/comparisons-within01.png)
 
 
 
-Â 
+ 
 :::
 

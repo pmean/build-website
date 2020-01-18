@@ -20,7 +20,7 @@ U.S. FDA. FDA issues policy to facilitate the use of electronic health
 record data in clinical investigations. July 18, 2018. Available at
 <https://www.fda.gov/NewsEvents/Newsroom/FDAInBrief/ucm613793.htm>.
 
-![](../../../images/use-of-ehr-data01.png)
+![](../../images/use-of-ehr-data01.png)
 
 
 :::

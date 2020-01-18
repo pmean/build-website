@@ -10,7 +10,7 @@ output: html_document
 
 At first glance, you might think that this article looks like a
 vindication of traditional statistics. Classical time series models
-(methods that were available in the 1960′s) outperform newer machine
+(methods that were available in the 1960's) outperform newer machine
 language forecasting models. Then, you might worry that the comparisons
 were unfair. But neither viewpoint is accurate. The classical time
 series models have certain structural advantages for certain types of
@@ -26,7 +26,7 @@ Machine Learning forecasting methods: Concerns and ways forward. PLoS
 ONE 13(3): e0194889. Available at
 <https://doi.org/10.1371/journal.pone.0194889>.
 
-![](../../../images/machine-learning-comparison01.png)
+![](../../images/machine-learning-comparison01.png)
 
 
 :::
