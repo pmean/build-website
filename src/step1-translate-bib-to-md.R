@@ -16,14 +16,18 @@ if (!exists("update_all")) update_all <- TRUE
 # Step 1-2. Find the .bib files
 
 write_everything <- function(f0) {
-  f0 %>% str_replace("bib$", "md") -> f1
+  f0 %>%
+    str_remove("^.*/") %>%
+    str_replace("bib$", "md") -> new_name
+  new_path <- "../web/md/blog"
+  f1 <- new_path %s% new_name
   if (check_dates(f0, f1)) return("Skipping" %b% f1)
   if (verbose)   {"\n    Working on" %b% f1 %>% cat}
   
-  readLines(f0) %>%
-    parse_bibtex(f0) %>%
-    flag_unused_bib_fields(f0) %>%
-    modify_bib_fields %>%
+  read_lines(f0) %>%
+    parse_bibtex(f0)       %>%
+    flag_unused_bib_fields %>%
+    modify_bib_fields      %>% 
     write_body %>%
     write_tail %>%
     write_links %>%
@@ -31,23 +35,9 @@ write_everything <- function(f0) {
     print
 }
 
-bib_root <- "../source/bib"
-yr_list <- list.dirs(bib_root, recursive=FALSE)
+file_root <- "text"
+file_list <- build_file_list(file_root, "*.bib")
 
-
-
-for (i_yr in yr_list) {
-  if (verbose) {"\nYear =" %b% i_yr %>% cat}
-  mo_list <- list.dirs(path=i_yr, recursive=FALSE)
-  for (i_mo in mo_list) {
-    if (verbose) {"\n  Month =" %b% i_mo %>% cat}
-    md_list <- list.files(i_mo, pattern="*.bib")
-    for (i_md in md_list) {
-      f <- write_everything(i_mo %s% i_md)
-    }
-  }
+for (i_file in file_list) {
+  f <- write_everything(i_file)
 }
-
-# Save everything.
-
-save.image("data/step1.RData")

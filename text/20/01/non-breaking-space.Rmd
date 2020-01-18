@@ -1,0 +1,46 @@
+﻿---
+title: "Blog post: Identifying and manipulating non-breaking spaces"
+author: "Steve Simon"
+source: "New"
+date: "2020-01-07"
+category: Blog post
+tags: Data management
+output: html_document
+---
+
+Non-breaking spaces are one of those weird little things in the computer that you have to keep your eye on. They can cause a lot of problems if they are assumed to be normal spaces. I found a non-breaking space "out in the wild" and decided to use it as an opportunity to explore what it was and better prepare myself for when I encounter more of these beasts.
+
+<!---More--->
+
+I've been working with some markdown files which were converted from html files and at the bottom of one of these files, I noticed something strange. It looked not at all unusual in notepad (see below)
+
+![Figure 1. Screenshot of a file inside Notepad](non-breaking-space01.png)
+
+but when I cut and pasted the file into RStudio, it changed.
+
+![Figure 2. Screenshot of a file inside RStudio](non-breaking-space02.png)
+
+There were now a couple of pink dots at the bottom of the file. Ignore the three consecutive colons for now, as they are not important.
+
+So what are these pink dots, exactly? I used cut and paste to insert this strange character into a character string in R
+
+```{r insert}
+tst1 <- " "
+tst1
+```
+
+That's strange. When you move the pink dot, it disappears and it doesn't look like you can get it again by printing it. But it is not a blank. The charToRaw function will convert any character string to the equivalent hexadecimal code.
+
+```{r chartoraw}
+charToRaw(tst1)
+```
+
+The hexadecimal code, `a0`, is not the normal blank character, which is hexadecimal `20`. It appears in some html files, especially to keep multiple blank lines from collapsing to a single blank line. The code in html is `&nbsp;` and this file, which was converted from a file originally in html format converted the non-breaking space into hexadecimal `a0`.
+
+If you want to search for non-breaking spaces in a text file, use the code `\xa0` in R.
+
+```{r search}
+tst1=="\xa0"
+```
+
+Wikipedia has a [nice page](https://en.wikipedia.org/wiki/Non-breaking_space) about non-breaking spaces.

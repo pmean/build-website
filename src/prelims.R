@@ -3,12 +3,13 @@
 default_path <- "../data"
 
 suppressMessages(suppressWarnings(library(base64enc)))
-suppressMessages(suppressWarnings(library(curl)))
-suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(curl     )))
+suppressMessages(suppressWarnings(library(knitr    )))
 suppressMessages(suppressWarnings(library(lubridate)))
-suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(magrittr )))
+suppressMessages(suppressWarnings(library(readr    )))
 suppressMessages(suppressWarnings(library(rmarkdown)))
-suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(stringr  )))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
 verbose <- TRUE
@@ -31,10 +32,10 @@ build_file_list <- function(dir_root, file_pattern) {
       if (verbose) {"\n  Month =" %b% i_mo %>% cat}
       new_files <- list.files(i_mo, pattern=file_pattern)
       if (length(new_files)==0) {
-        if (verbose) " has no files of the form" %b% file_pattern %>% br %>% cat
+        if (verbose) " has no files of the form" %b% file_pattern %>% cat
         next
       }
-      if (verbose) " has" %b% str_c(new_files, collapse=", ") %>% br%>% cat
+      if (verbose) " has" %b% str_c(new_files, collapse=", ") %>% cat
       file_list <- append(file_list, i_mo %s% new_files)
     }
   }
@@ -57,7 +58,7 @@ build_link <- function(x, p="../archive") {
 
 # Test this function
 if (verbose) {
-  cat("\n\nTesting build_link***\n")
+  cat("\n\n***Testing build_link***\n")
   tst <- "Human side of statistics, Observational studies"
   tst %>% build_link %>% cat
 }
@@ -101,30 +102,35 @@ remove_punctuation <- function(x) {
 parse_bibtex <- function(tx, f0) {
   # Note: Some of the bib files have unprintable
   # junk characters at the very start.
-  tx[1] %<>% str_remove("^.*?@")
+  tx <- tx[nchar(tx)>0]
+  tx[1] %<>% str_remove("^.*?@") 
   tx %>%
     str_subset("^\\}", negate=TRUE) %>%
     str_remove("[=\\{].*") %>%
     tolower %>%
-    remove_punctuation %>% 
+    remove_punctuation %>%
     str_remove("mendeley-") %>%
-    str_replace("misc", "name") %>%
-    str_replace("inproceedings", "name") %>%
-    str_replace("book", "name") %>%
-    str_replace("article", "name") -> field_names
+    str_replace("annote"       , "note"    ) %>%
+    str_replace("urldate"      , "blogdate") %>%
+    str_replace("misc"         , "name"    ) %>%
+    str_replace("inproceedings", "name"    ) %>%
+    str_replace("book"         , "name"    ) %>%
+    str_replace("article"      , "name"    ) -> field_names
   tx %>%
     str_subset("^\\}", negate=TRUE) %>%
     str_remove(".*?[=\\{]") %>%
     remove_punctuation %>%
     as.list  %>%
-    set_names(field_names) %>%
-    return
+    set_names(field_names) -> fields
+  fields$full_name <- f0
+  fields$modified <- str_sub(file.info(f0)$mtime, 1, 10)
+  return(fields)
 }
 
 # Test this function
 
 if (verbose) {
-  '@Article{falsify-research,'                         %1%
+  '@Article{falsify-research,'                           %1%
     'annote = {An article about misconduct.},'           %1%
     'Author="Fanelli, Daniele",'                         %1%
     'mendeley-tags = {Ethics in research},'              %1%
@@ -145,54 +151,53 @@ if (verbose) {
   tst_bib %>% parse_bibtex("dummy-file-name.bib") %>% print
 }
 
-modify_bib_fields <- function(f) {
-  f$note <- f$annote
+modify_bib_fields <- function(fields) {
   # Modify format if not found
-  if (f$format=="Not found") {
-    f$format %<>%
+  if (fields$format=="Not found") {
+    fields$url %>%
       str_detect(regex("pdf$", ignore_case=TRUE)) %>%
-      ifelse("pdf", "html")
+      ifelse("pdf", "html") -> fields$format
   }
-  f$format <- f$format %b% "format"
+  fields$format <- fields$format %b% "format"
   
   # Build citation
-  f$citation <- f$author %.% f$title %.% "Available in " %>% str_wrap(50) %1%
-    brack(f$format) %p% f$url %0% "."
+  fields$citation <- fields$author %.% fields$title %.% "Available in " %>% str_wrap(50) %1%
+    brack(fields$format) %p% fields$url %0% "."
   
   # Modify long author lists 
-  n_authors <- str_count(f$author, fixed(" and ", ignore_case=TRUE)) + 1
+  n_authors <- str_count(fields$author, fixed(" and ", ignore_case=TRUE)) + 1
   if (n_authors > 2) {
-    f$author %<>% str_replace(regex(" and .*", ignore_case=TRUE), " et al")}
+    fields$author %<>% str_replace(regex(" and .*", ignore_case=TRUE), " et al")}
   
   # Modify title
-  f$title <- "Recommendation:" %b% f$title
+  fields$title <- "Recommendation:" %b% fields$title
   
   # Build source
-  f$full_bib_name %>% 
-    str_remove(bib_root) %>% 
-    str_remove(fixed(".bib")) -> f$source
+  fields$full_name %>% 
+    str_remove("^.*?/") %>% 
+    str_remove(fixed(".bib")) -> fields$source
   
   # Build image file
-  f$image <- str_remove(f$source, "^.*/") %0% ".png"
+  fields$image <- str_remove(fields$source, "^.*/") %0% ".png"
   
   # Build full file names
-  f$full_body_name <- str_replace(f$full_bib_name, "bib$", "md")
-  f$full_tail_name <- str_replace(f$full_bib_name, "bib$", "tail")
-  f$full_link_name <- str_replace(f$full_bib_name, "bib$", "link")
-  f$full_summ_name <- str_replace(f$full_bib_name, "bib$", "summ")
+  fields$full_name %>%
+    str_remove("^.*/") %>%
+    str_remove(fixed(".bib")) -> short_name
+  fields$full_body_name <- "../web/md/blog"  %s% short_name %d% "md"
+  fields$full_link_name <- "../web/links"    %s% short_name %d% "txt"
+  fields$full_summ_name <- "../web/summ"     %s% short_name %d% "txt"
   
-  f$category <- "Recomendation"
-  f$month    <- str_sub(f$urldate, 1, 7)
-  f$day      <- str_sub(f$urldate, 8, 10)
+  fields$category <- "Recomendation"
+  fields$month    <- str_sub(fields$blogdate, 1, 7)
+  fields$day      <- str_sub(fields$blogdate, 8, 10)
   
-  f$blogdate <- f$urldate
-  
-  return(f)
+  return(fields)
 }
 
-flag_unused_bib_fields <- function(field_values, f0) {
+flag_unused_bib_fields <- function(fields) {
   key_fields <- c(
-    "annote",
+    "note",
     "author",
     "date",
     "format",
@@ -200,22 +205,12 @@ flag_unused_bib_fields <- function(field_values, f0) {
     "tags",
     "title",
     "url",
-    "urldate"
+    "blogdate"
   )
-  field_names <- names(field_values)
-  unused_fields <- setdiff(key_fields, field_names)
-  if (verbose) {"\nUnused fields:" %b% str_c(unused_fields, collapse=", ")}
-  for (i_field in unused_fields) {
-    field_values[[i_field]] <- "Not found"
+  for (f in key_fields) {
+    if (is.null(fields[[f]])) fields[[f]] <- "Not found"
   }
-  
-  field_values$full_bib_name <- f0
-  field_values$modified <- 
-    max(
-      str_sub(file.info(f0)$mtime, 1, 10), 
-      field_values$urldate
-    )
-  return(field_values)
+  return(fields)
 }
 
 # This function skims through bibtex files
@@ -224,7 +219,7 @@ flag_unused_bib_fields <- function(field_values, f0) {
 skim_bib_files <- function(field_header, dir_root="../source/bib", file_pattern="*.bib") {
   file_list <- build_file_list(dir_root, file_pattern)
   for (i_file in file_list) {
-    tx <- readLines(i_file)
+    tx <- read_lines(i_file)
     fields <- parse_bibtex(tx, i_file)
     if(verbose) i_file %C% fields[[field_header]] %>% br %>% cat
     if(is.null(fields[[field_header]])) print(fields)
@@ -253,11 +248,12 @@ parse_yaml <- function(tx, f0) {
     str_remove(".*?\\:") %>%
     remove_punctuation %>%
     as.list  %>%
-    set_names(field_names) -> field_values
+    set_names(field_names) -> fields
   note_range <- (yaml_lines[2]+1):(yaml_lines[3]-1)
-  field_values$note <- str_c(tx[note_range])
-  field_values %>%
-    return
+  fields$note <- str_c(tx[note_range], collapse="/n")
+  fields$full_name <- f0
+  fields$modified <- str_sub(file.info(f0)$mtime, 1, 10)
+  fields %>% return
 }
 
 # Test this function
@@ -273,7 +269,7 @@ if (verbose) {
     "<---more--->",
     "Additional text")
   cat("\n\n***Testing parse_yaml***\n")
-  tst %>% parse_yaml %>% print
+  tst %>% parse_yaml("dummy-file-name.txt") %>% print
 }
 
 # This function updates information in yaml
@@ -281,19 +277,19 @@ if (verbose) {
 
 modify_yaml_fields <- function(f) {
   # Build full file names
-  f$full_tail_name <- str_replace(f$full_post_name, "md$|Rmd$", "tail")
-  f$full_link_name <- str_replace(f$full_post_name, "md$|Rmd$", "link")
-  f$full_summ_name <- str_replace(f$full_post_name, "md$|Rmd$", "summ")
+  fields$full_tail_name <- str_replace(fields$full_post_name, "md$|Rmd$", "tail")
+  fields$full_link_name <- str_replace(fields$full_post_name, "md$|Rmd$", "link")
+  fields$full_summ_name <- str_replace(fields$full_post_name, "md$|Rmd$", "summ")
   
-  f$month    <- str_sub(f$date, 1, 7)
-  f$day      <- str_sub(f$date, 8, 10)
+  fields$month    <- str_sub(fields$date, 1, 7)
+  fields$day      <- str_sub(fields$date, 8, 10)
   
-  f$blogdate <- f$date
+  fields$blogdate <- fields$date
   
   return(f)
 }
 
-flag_unused_yaml_fields <- function(field_values, f0) {
+flag_unused_yaml_fields <- function(fields, f0) {
   key_fields <- c(
     "author",
     "category",
@@ -301,21 +297,13 @@ flag_unused_yaml_fields <- function(field_values, f0) {
     "tags",
     "title"
   )
-  field_names <- names(field_values)
+  field_names <- names(fields)
   unused_fields <- setdiff(key_fields, field_names)
   if (verbose) {"\nUnused fields:" %b% str_c(unused_fields, collapse=", ") %>% cat}
   for (i_field in unused_fields) {
-    field_values[[i_field]] <- "Not found"
+    fields[[i_field]] <- "Not found"
   }
-  
-  field_values$full_post_name <- f0
-  field_values$modified <- 
-    max(
-      str_sub(file.info(f0)$mtime, 1, 10), 
-      field_values$date
-    )
-  
-  return(field_values)
+  return(fields)
 }
 
 # This function skims through the yaml headers
@@ -325,7 +313,7 @@ flag_unused_yaml_fields <- function(field_values, f0) {
 skim_yaml_files <- function(field_header, dir_root="../source/posts", file_pattern="*.md") {
   file_list <- build_file_list(dir_root, file_pattern)
   for (i_file in file_list) {
-    tx <- readLines(i_file)
+    tx <- read_lines(i_file)
     fields <- parse_yaml(tx, i_file)
     if(verbose) i_file %C% fields[[field_header]] %>% br %>% cat
     if(is.null(fields[[field_header]])) print(fields)
@@ -337,30 +325,30 @@ skim_yaml_files <- function(field_header, dir_root="../source/posts", file_patte
 # This function writes the body of a markdown
 # file associated with a bibtex recommendation.
 
-write_body <- function(f) {
+write_body <- function(fields) {
   new_tx <-
-    "---"                             %1%
-    "title: "    %q% f$title          %1%
-    "author: "   %q% f$author         %1%
-    "date: "     %q% f$urldate        %1%
-    "category: " %q% "Recommendation" %1%
-    "tags: "     %q% f$tags           %1%
-    "source: "   %q% f$source         %1%
-    "name: "     %q% f$name           %1%
-    "output: "   %0% "html_document"  %1%
-    "---"                             %2%
+    "---"                                  %1%
+    "title: "    %q% fields$title          %1%
+    "author: "   %q% fields$author         %1%
+    "date: "     %q% fields$blogdate       %1%
+    "category: " %q% "Recommendation"      %1%
+    "tags: "     %q% fields$tags           %1%
+    "source: "   %q% fields$source         %1%
+    "name: "     %q% fields$name           %1%
+    "output: "   %0% "html_document"       %1%
+    "---"                                  %2%
     
-    str_wrap(f$note, 50)              %2%
+    str_wrap(fields$note, 50)              %2%
     
-    "<---More--->"                    %2%
+    "<---More--->"                         %2%
     
-    f$citation                        %2%
+    fields$citation                        %2%
     
-    "![]"        %p% f$image          %1%
+    "![]"        %p% fields$image          %1%
     "\n"
   if (verbose) {"\n\n" %0% new_tx %>% cat}
-  writeLines(new_tx, f$full_body_name)
-  return(f)  
+  write_lines(new_tx, fields$full_body_name)
+  return(fields)  
 }
 
 # This function produces a text file to be
@@ -368,54 +356,54 @@ write_body <- function(f) {
 # information and links to various 
 # locations (tags, categories, dates).
 
-write_tail <- function(f) {
+write_tail <- function(fields) {
   tail_tx <- 
-    "This" %b% build_link(f$category)           %1%
-    "was added to the website on"               %1%
-    build_link(f$month)               %0% f$day %1%
-    "and was last modified on"                  %1%
-    f$modified                        %0% "."   %1%
-    "You can find similar pages at"             %1%
-    build_link(f$ta) %0% ".\n\n"
+    "This" %b% build_link(fields$category)                %1%
+    "was added to the website on"                         %1%
+    build_link(fields$month)               %0% fields$day %1%
+    "and was last modified on"                            %1%
+    fields$modified                        %0% "."        %1%
+    "You can find similar pages at"                       %1%
+    build_link(fields$tags) %0% ".\n\n"
   
-  if (str_detect(f$source, "pmean")) {
+  if (str_detect(fields$source, "pmean")) {
     tail_tx                                     %1%
       "An earlier version of this page appears" %1%
-      "[here]" %p% f$source %0% ".\n\n"         -> tail_tx
+      "[here]" %p% fields$source %0% ".\n\n"         -> tail_tx
   }
   
   if (verbose) {"\n\n" %0% tail_tx %>% cat}
-  writeLines(tail_tx, f$full_tail_name)
-  return(f)
+  write_lines(tail_tx, fields$full_body_name, append=TRUE)
+  return(fields)
 }
 
 # This function writes the names of various
 # links (tags, category, date).
 
-write_links <- function(f) {
-  f$blogdate                            %1%
-    f$month                             %1%
-    f$category                          %1%
-    str_replace_all(f$tags, ", ", "\n") -> link_tx
+write_links <- function(fields) {
+  fields$blogdate                            %1%
+    fields$month                             %1%
+    fields$category                          %1%
+    str_replace_all(fields$tags, ", ", "\n") -> link_tx
   
   if (verbose) {"\nLinks" %1% link_tx %>% cat}
-  writeLines(link_tx, f$full_link_name)
-  return(f)
+  write_lines(link_tx, fields$full_link_name)
+  return(fields)
 }
 
-write_summ <- function(f) {
-  f$note %>% 
+write_summ <- function(fields) {
+  fields$note %>% 
     str_c(collapse="\n") %>%
     str_remove("^\n") %>%
     str_remove("^\n")  -> summ_tx
 
-  brack(f$title) %0% 
-    paren("../blog" %s% f$name %0% ".html") %b% 
+  brack(fields$title) %0% 
+    paren("../blog" %s% fields$name %0% ".html") %b% 
     summ_tx %1% 
     "\n"                                         -> summ_tx
-  if (verbose) {cat(summ_tx)}  
-  writeLines(summ_tx, f$full_summ_name)
-  return(f)
+  if (verbose) {"\n\n" %0% summ_tx %>% cat}  
+  write_lines(summ_tx, fields$full_summ_name)
+  return(fields)
 }
 
 if (verbose) {cat("\n\n***Completed testing***\n\n")}
