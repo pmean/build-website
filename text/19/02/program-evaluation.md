@@ -19,7 +19,7 @@ Centers for Disease Control and Prevention. A Framework for Program
 Evaluation. Available in [html
 format](https://www.cdc.gov/eval/framework/index.htm).
 
-![](../../../images/program-evaluation01.png)
+![](../../images/program-evaluation01.png)
 
 
 :::

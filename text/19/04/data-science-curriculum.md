@@ -18,7 +18,7 @@ emphasize.
 Brandon Rohrer. Data science curriculum roadmap. Available in [html
 format](https://github.com/brohrer/academic_advisory/blob/master/curriculum_roadmap.md).
 
-![](../../../images/data-science-curriculum01.png)
+![](../../images/data-science-curriculum01.png)
 
 
 :::

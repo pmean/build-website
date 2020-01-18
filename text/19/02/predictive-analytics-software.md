@@ -8,14 +8,14 @@ tags: Big data
 output: html_document
 ---
 
-![](../../../images/predictive-analytics-software01.jpeg)
+<!---more--->
+
+![](../../images/predictive-analytics-software01.jpeg)
 
 
 
 Purchased from CartoonStock.com for this blog site only. Do not
 reproduce this cartoon without their permission.
-
-<!---more--->
 
 :::
 

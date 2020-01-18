@@ -20,7 +20,7 @@ U.S. Food and Drug Administration. Complex Innovative Trial Designs
 Pilot Program. Available in [html
 format](https://www.fda.gov/Drugs/DevelopmentApprovalProcess/DevelopmentResources/ucm617212.htm).
 
-![](../../../images/complex-trials01.png)
+![](../../images/complex-trials01.png)
 
 
 :::

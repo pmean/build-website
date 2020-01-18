@@ -20,10 +20,10 @@ limited appreciation for SEM terminology.
 Yves Rousseel. lavaan tutorial. Available at
 <http://lavaan.ugent.be/tutorial/index.html>.
 
-![](../../../images/lavaan01.png)
+![](../../images/lavaan01.png)
 
 
 
-Â 
+ 
 :::
 

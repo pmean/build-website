@@ -17,7 +17,7 @@ analysis, etc.
 
 Kaggle data. Available at <https://www.kaggle.com/datasets>.
 
-![](../../../images/kaggle-data01.png)
+![](../../images/kaggle-data01.png)
 
 
 :::

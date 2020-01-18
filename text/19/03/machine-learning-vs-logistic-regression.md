@@ -29,7 +29,7 @@ clinical prediction models, Journal of Clinical Epidemiology, Volume
 [10.1016/j.jclinepi.2019.02.004](https://doi.org/10.1016/j.jclinepi.2019.02.004).\
 (http://www.sciencedirect.com/science/article/pii/S0895435618310813)
 
-![](../../../images/machine-learning-vs-logistic-regression01.png)
+![](../../images/machine-learning-vs-logistic-regression01.png)
 
 
 :::

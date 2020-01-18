@@ -18,7 +18,7 @@ maps.
 Vladimir Agafonkin. Leaflet, an open source Javascript library for
 mobile-friendly interactive maps. Available at <https://leafletjs.com/>.
 
-![](../../../images/leaflet01.png)
+![](../../images/leaflet01.png)
 
 
 :::

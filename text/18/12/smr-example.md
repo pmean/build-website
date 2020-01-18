@@ -8,7 +8,7 @@ tags: Epidemiology
 output: html_document
 ---
 
-I was at a talk where mortality rates were presented in one column andÂ 
+I was at a talk where mortality rates were presented in one column and 
 the standardized mortality ratio was presented in a different column. I
 was a bit confused; I could not remember how or why you calculate an
 SMR. It's not because SMR calculations are complicated; it's because my
@@ -22,7 +22,7 @@ with the clarity of the writing style.
 New Mexico Department of Health. Standardized Mortality Ratio. Available
 in [html format](https://ibis.health.state.nm.us/resource/SMR_ISR.html).
 
-![](../../../images/smr-example01.png)
+![](../../images/smr-example01.png)
 
 
 :::

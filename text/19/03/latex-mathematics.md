@@ -26,7 +26,7 @@ Markdown.
 Wikibooks. LaTeX/Mathematics. Available in \[html
 format\](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
-![](../../../images/latex-mathematics01.png)
+![](../../images/latex-mathematics01.png)
 
 
 :::

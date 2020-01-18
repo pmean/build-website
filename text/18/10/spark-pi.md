@@ -21,7 +21,7 @@ Mark Litwinktschik. 1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry
 Pi 3 Model Bs. September 17, 2017. Available in [html
 format](http://tech.marksblogg.com/billion-nyc-taxi-rides-spark-raspberry-pi.html).
 
-![](../../../images/spark-pi01.png)
+![](../../images/spark-pi01.png)
 
 
 :::

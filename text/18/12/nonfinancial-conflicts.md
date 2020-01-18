@@ -30,7 +30,7 @@ a Demotion? The New York Times (The Upshot), December 31, 2018.
 Available in [html
 format](https://www.nytimes.com/2018/12/31/upshot/congratulations-on-the-promotion-but-did-science-get-a-demotion.html).
 
-![](../../../images/nonfinancial-conflicts01.png)
+![](../../images/nonfinancial-conflicts01.png)
 
 
 

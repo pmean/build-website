@@ -18,7 +18,7 @@ Caster Connection. 8 Waste Types of DOWNTIME. Published September 7,
 2016. Available in [html
 format](https://casterconnection.com/8-waste-types-downtime/).
 
-![](../../../images/waste-acronym01.png)
+![](../../images/waste-acronym01.png)
 
 
 :::
