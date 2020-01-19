@@ -71,7 +71,7 @@ the first expert a bit less.
 
 Now this calculation depends a lot on what you assign for the
 probabilities of "likely" and "unlikely". If the first experts
-quantification of "likely"  meant 0.6 and not 0.8, then you get
+quantification of "likely"<U+00A0> meant 0.6 and not 0.8, then you get
 
 P\[E1 \| not I\] = 0.333.
 
@@ -90,8 +90,8 @@ Here's a link to the [original
 entry](http://krugman.blogs.nytimes.com/2013/12/01/inflationistas-at-bayes/?_r=0 "original entry")
 in Dr. Krugman's blog.
 
-![](../../images/bad-prediction01.png)
+![](../../web/images/bad-prediction01.png)
 
 
-:::
+
 

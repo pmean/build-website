@@ -23,6 +23,6 @@ Grantsmanship. Available at: <http://www.grantcentral.com/>
 Grant Training Center -- Grant Writing Workshops, Classes, Courses &
 Training Schedule. Available at: <http://granttrainingcenter.com/>.
 
- 
-:::
+
+
 

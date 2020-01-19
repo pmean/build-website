@@ -13,12 +13,12 @@ management and analysis with R \[SAS / SPSS\]. As part of these classes,
 I need to discuss the history of these programs, because understanding
 that history will help you better understand the strengths and
 weaknesses of each statistical package. Here's a brief history
-of SAS.
+of<U+00A0>SAS.
 
 <!---More--->
 
 SAS, an acronym for Statistical Analysis System, was developed by in the
-1960′s by Anthony Barr, James Goodnight, Jane Helwig, and John Sall at
+1960's by Anthony Barr, James Goodnight, Jane Helwig, and John Sall at
 North Carolina State University. The original program development was
 funded by a grant from the National Institutes of Health. In 1976, a
 privately held software company, SAS Institute was formed to further
@@ -65,14 +65,14 @@ programming language. Here are a few.
 Anonymous. SAS corporate timeline. WRAL television, posted March 3,
 2011. Available at: http://www.wral.com/business/story/9211429/
 
- SAS (software). Wikipedia, the free encyclopedia. 2014. Available at:
+SAS (software). Wikipedia, the free encyclopedia. 2014. Available at:
 http://en.wikipedia.org/w/index.php?title=SAS\_(software)&oldid=610196791.
 
 SAS Institute. About SAS. Available at:
 http://www.sas.com/en\_us/company-information.html\#history.
 
- 
 
- 
-:::
+
+
+
 

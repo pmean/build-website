@@ -20,7 +20,7 @@ data.
 
 Your worries are on target. To assess the appropriateness of any
 sampling procedure, you need to ask yourself "Who was left out?" In this
-sampling procedure,Â  the cars left out are the cars that neither passed
+sampling procedure,  the cars left out are the cars that neither passed
 you nor were passed by you, because they were travelling at exactly the
 same speed as you.
 
@@ -51,5 +51,5 @@ by. There may still be some biases, especially if there is a
 relationship between the speed at which you drive and the frequency and
 duration of your trips. But if there are biases, they would be a lot
 less than the biases inherent in the reporter's sampling method.
-:::
+
 

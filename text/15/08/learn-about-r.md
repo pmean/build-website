@@ -60,5 +60,5 @@ interactive program that teaches you R from within R.
 written for beginners. I hesitate to recommend a book, because I have
 not read any of them. Go to Amazon, and type R software for beginners in
 the search box to get some recommendations
-:::
+
 

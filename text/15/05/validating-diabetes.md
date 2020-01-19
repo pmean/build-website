@@ -40,5 +40,5 @@ simple hypothesis test.
 If you want more details, I talk about sample sizes needed for a study
 of a diagnostic test at
 <http://www.pmean.com/04/SampleSizeDiagnostic.html>
-:::
+
 

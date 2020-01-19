@@ -68,5 +68,5 @@ could you have taken to prevent this problem from escalating. What
 action should you take now?
 
 Lecture 9. Review and summary.
-:::
+
 

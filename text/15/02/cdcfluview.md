@@ -19,12 +19,12 @@ some interesting trend lines across several major cities.
 <!---More--->
 
 Bob Rudis, New R Package: cdcfluview --- Retrieve Flu Data from CDC's
-FluView Portal,  January 10 2015 blog post on rud.is and reposted at
+FluView Portal,<U+00A0> January 10 2015 blog post on rud.is and reposted at
 R-bloggers. Available at
 <http://rud.is/b/2015/01/10/new-r-package-cdcfluview-retrieve-flu-data-from-cdcs-fluview-portal/>.
 
-![](../../images/cdcfluview01.png)
+![](../../web/images/cdcfluview01.png)
 
 
-:::
+
 

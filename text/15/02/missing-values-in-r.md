@@ -14,7 +14,7 @@ about.
 
 <!---More--->
 
- 
+
 
 When you import data into R, the first thing you should do is
 
@@ -498,5 +498,5 @@ is.finite.table
 
     ##     3  <NA>   NaN   Inf  -Inf 
     ##  TRUE FALSE FALSE FALSE FALSE
-:::
+
 

@@ -7,36 +7,30 @@
 # to markdown format (extension .md) and
 # stores them in md/r3.
 
-# Step 1-1. Preliminaries
-
 source(file="src/prelims.R")
 if (!exists("verbose")) verbose <- TRUE
 if (!exists("update_all")) update_all <- TRUE
 
-# Step 1-2. Find the .bib files
-
-write_everything <- function(f0) {
-  f0 %>%
-    str_remove("^.*/") %>%
-    str_replace("bib$", "md") -> new_name
-  new_path <- "../web/md/blog"
-  f1 <- new_path %s% new_name
-  if (check_dates(f0, f1)) return("Skipping" %b% f1)
-  if (verbose)   {"\n    Working on" %b% f1 %>% cat}
-  
-  read_lines(f0) %>%
-    parse_bibtex(f0)       %>%
-    flag_unused_bib_fields %>%
-    modify_bib_fields      %>% 
-    write_body %>%
-    write_tail %>%
-    write_links %>%
-    write_summ -> fields
-}
-
-file_root <- "text"
-file_list <- build_file_list(file_root, "*.bib")
+file_list <- build_file_list(text_root, "*.bib")
 
 for (i_file in file_list) {
-  f <- write_everything(i_file)
+  i_file %>%
+    str_remove("^.*/") %>%
+    str_replace("bib$", "md") -> j_file
+  new_path <- "../web/md/blog"
+  if (should_i_skip(i_file, blog_root %s% j_file)) {
+    "\nSkipping" %b% j_file %>% cat
+    next
+  }
+  if (verbose) "\nWorking on" %b% i_file %>% cat
+  
+  read_lines(i_file)       %>%
+    parse_bibtex(i_file)   %>%
+    flag_unused_bib_fields %>%
+    modify_bib_fields      %>% 
+    write_body             %>%
+    write_tail             %>%
+    write_links            %>%
+    write_summ             -> fields
 }
+

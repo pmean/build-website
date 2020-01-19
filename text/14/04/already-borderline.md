@@ -14,7 +14,7 @@ them. The primary outcome was binary: whether a certain medical
 procedure was run properly in a test setting. The intervention was
 special training on a model; the control was normal training without the
 model. I got a phone call back that said, what would the power be if I
-used three groups rather than two?Â  I thought to myself "Good grief!"
+used three groups rather than two?  I thought to myself "Good grief!"
 You can't say that to a client, of course, so here's what I
 said.
 
@@ -79,5 +79,5 @@ research team. So he was happy with my explanation. The moral of the
 story is that when you have a borderline sample size to begin with,
 there is no way that you should think about adding additional
 complexities to the research design.
-:::
+
 

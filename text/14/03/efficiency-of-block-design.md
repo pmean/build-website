@@ -16,7 +16,7 @@ to a completely randomized block design to a design without blocking.
 
 A quick search on Google revealed the formula:
 
-![](../../images/efficiency-of-block-design01.png)
+![](../../web/images/efficiency-of-block-design01.png)
 
 
 
@@ -35,12 +35,12 @@ randomized block design.
      > anova(tst.m1)
      Analysis of Variance Table
      Response: bb
-                 Df  Sum Sq Mean Sq   F value    Pr(>F)
-     trt          2 11.5617  5.7809 35659.326 < 2.2e-16 ***
-     blk        999  2.2959  0.0023    14.176 < 2.2e-16 ***
-     Residuals 1998  0.3239  0.0002
+                 Df<U+00A0> Sum Sq Mean Sq<U+00A0><U+00A0> F value<U+00A0><U+00A0><U+00A0> Pr(>F)
+     trt<U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0> 2 11.5617<U+00A0> 5.7809 35659.326 < 2.2e-16 ***
+     blk<U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0> 999<U+00A0> 2.2959<U+00A0> 0.0023<U+00A0><U+00A0><U+00A0> 14.176 < 2.2e-16 ***
+     Residuals 1998<U+00A0> 0.3239<U+00A0> 0.0002
      ---
-     Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+     Signif. codes:<U+00A0> 0 <U+0091>***<U+0092> 0.001 <U+0091>**<U+0092> 0.01 <U+0091>*<U+0092> 0.05 <U+0091>.<U+0092> 0.1 <U+0091> <U+0092> 1
      > (999*0.0023+2000*0.0002)/(2999*0.0002)
      [1] 4.497666
 
@@ -50,10 +50,10 @@ precision.
 This formula was published in *Experimental Design and Data Analysis for
 Biologists* by Gerald Peter Quinn, Michael J. Keough, (ISBN:
 9780521009768) and digitized by Google. There is a huge controversy over
-the  Google project to digitize a whole bunch of books and make them
+the<U+00A0> Google project to digitize a whole bunch of books and make them
 accessible through their search engine. But I have to admit that I'm
 glad to have access to all those books for finding a formula like this.
 
- 
-:::
+<U+00A0>
+
 

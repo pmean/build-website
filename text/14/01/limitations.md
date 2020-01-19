@@ -45,5 +45,5 @@ cannon who wouldn't mind getting in trouble with everyone involved in
 the process. Most people are comfortable with reasonable requests to
 review things. Most people will also respect your request to leave your
 name out if you can't agree on appropriate language in the report.
-:::
+
 

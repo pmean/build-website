@@ -66,5 +66,5 @@ The data set is available at
 and a description is at
 
 <http://www.statsci.org/data/general/harvest.html>
-:::
+
 

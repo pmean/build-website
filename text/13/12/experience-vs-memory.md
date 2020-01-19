@@ -25,12 +25,12 @@ happiness differently. This new insight has profound implications for
 economics, public policy --- and our own self-awareness." Available at:
 <http://www.ted.com/talks/daniel_kahneman_the_riddle_of_experience_vs_memory.html>.
 
-![](../../images/experience-vs-memory01.png)
+![](../../web/images/experience-vs-memory01.png)
 
 
 
- 
+<U+00A0>
 
- 
-:::
+<U+00A0>
+
 

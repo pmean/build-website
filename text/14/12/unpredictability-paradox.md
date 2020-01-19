@@ -26,10 +26,10 @@ Howick J, Mebius A. In search of justification for the unpredictability
 paradox. Trials. 2014;15(1):480. doi:10.1186/1745-6215-15-480. Available
 at <http://www.trialsjournal.com/content/15/1/480/abstract>.
 
-![](../../images/unpredictability-paradox01.png)
+![](../../web/images/unpredictability-paradox01.png)
 
 
 
- 
-:::
+<U+00A0>
+
 

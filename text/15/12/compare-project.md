@@ -26,8 +26,8 @@ Goldacre B, Dale A, Milosevic I, Mahtani K, Powell-Smith A, Drysdale H,
 Hartley P, slade E, Heneghan C. The COMPare Project. Available at
 <http://compare-trials.org/>.
 
-![](../../images/compare-project01.png)
+![](../../web/images/compare-project01.png)
 
 
-:::
+
 

@@ -18,8 +18,4 @@ AllAnalytics -- Beth Schultz -- 8 Tips for Doing Data Visualization
 Right. Available at:
 <http://www.allanalytics.com/author.asp?_mc=sem%5Fotb%5Fedt%5Fallanppcm&section_id=1411&doc_id=261787&image_number=>1.
 
-![](8-tips01.png)
-
- 
-:::
-
+![](../../web/images/8-tips01.png)

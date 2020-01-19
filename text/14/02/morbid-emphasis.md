@@ -14,5 +14,5 @@ wonder that survivors of such courses regard their statistical tools as
 instruments of torture \[rather\] than as diagnostic aids in the art and
 science of data analysis. --- George W. Cobb, as cited at
 <http://www.cmaj.ca/content/165/9/1226.long>
-:::
+
 

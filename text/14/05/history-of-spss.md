@@ -92,6 +92,6 @@ and another [written in 2003 that talks about recent growth in the
 company and reviews the initial development of
 SPSS](http://articles.chicagotribune.com/2003-09-22/business/0309220008_1_spss-chairman-norman-nie-software-firm).
 
- 
-:::
+
+
 

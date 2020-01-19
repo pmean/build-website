@@ -5,26 +5,23 @@
 ## Step 3-0. Preliminaries
 
 source(file="src/prelims.R", echo=FALSE)
-wb_root <- "../web"
-summ_path <- wb_root %s% "summ"
-link_path <- wb_root %s% "links"
 
 ## Step 3-1. Read files
 
-summ_files <- list.files(summ_path, pattern="*.txt") 
+summ_files <- list.files(summ_root, pattern="*.txt") 
 n_summ <- length(summ_files)
 summ_tx <- NULL
 summ_files %>% str_remove(fixed(".txt")) -> summ_names 
 for (i in 1:n_summ) {
-  summ_tx[[summ_names[i]]] <- readLines(summ_path %s% summ_files[i])
+  summ_tx[[summ_names[i]]] <- readLines(summ_root %s% summ_files[i])
 }
 
-link_files <- list.files(link_path, pattern="*.txt")
+link_files <- list.files(link_root, pattern="*.txt")
 n_link <- length(link_files)
 link_tx <- NULL
 link_files %>% str_remove(fixed(".txt")) -> link_names 
 for (i in 1:n_link) {
-  link_tx[[link_names[i]]] <- readLines(link_path %s% link_files[i])
+  link_tx[[link_names[i]]] <- readLines(link_root %s% link_files[i])
 }
 
 if (verbose) {
@@ -70,7 +67,7 @@ for (i in 1:n_files) {
   top_line <- "\n\n### B-" %0% j %0% "." %b% summ_tx[[i_file]][1] 
   md_file_body <- c(md_file_body, top_line, summ_tx[[i_file]][-1])
 }
-new_name <- wb_root %s% "md/archive" %s% "index.md"
+new_name <- arch_root %s% "index.md"
 writeLines(c(md_file_header, md_file_body), new_name)
 
 ## Step 3-3. Build all other archive pages
@@ -106,7 +103,7 @@ for (i_arch in arch_list) {
     md_file_body <- c(md_file_body, top_line, summ_tx[[i_file]][-1])
   }
   i_arch %>% tolower %>% str_replace_all(" ", "-") -> j_arch
-  new_name <- wb_root %s% "md/archive" %s% j_arch %0% ".md"
+  new_name <- arch_root %s% j_arch %0% ".md"
   if (verbose) "\nPreparing" %b% new_name %>% cat
   writeLines(c(md_file_header, md_file_body), new_name)
 }

@@ -119,5 +119,5 @@ Here's a picture of Dr. Schrader, from a webpage on careers in
 Andrology.
 
 ![Picture](https://www.andrologycareers.org/uploads/1/7/3/8/17380709/3825413.png?1430165530)
-:::
+
 

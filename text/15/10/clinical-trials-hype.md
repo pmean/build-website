@@ -18,6 +18,6 @@ Fleming TR. Clinical trials: discerning hype from substance. Ann Intern
 Med. 2010 Sep 21;153(6):400-6. doi:
 10.7326/0003-4819-153-6-201009210-00008.
 
- 
-:::
+
+
 

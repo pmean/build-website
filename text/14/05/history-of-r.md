@@ -38,7 +38,7 @@ Corporation in the 1990s and became very popular. Through various
 mergers and buyouts, S+ has been marketed by Mathsoft, Insightful
 Software, and more recently Tibco Corporation.
 
-About the same time,  Ross Ihaka and Robert Gentleman started an effort
+About the same time,<U+00A0> Ross Ihaka and Robert Gentleman started an effort
 to produce an open source and freely distributed version of S, called R.
 Their publication:
 
@@ -88,6 +88,6 @@ and a [1998 paper (PDF format) by Ross Ihaka on the past (!) and future
 of R presented at the Interface
 conference](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf).
 
- 
-:::
+
+
 

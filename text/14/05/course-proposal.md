@@ -73,7 +73,7 @@ Missouri-Kansas City.
 
 He presented a short course at the inaugural meeting of the Conference
 on Statistical Practice in 2012, "Promoting Your Consulting Career in
-the Era of Web 2.0″ and has led a roundtable discussion on the same
+the Era of Web 2.0<U+2033> and has led a roundtable discussion on the same
 topic at the 2011 Joint Statistical Meetings. A brief summary of this
 talk is on his website: http://www.pmean.com/12/promoting.html
 
@@ -97,5 +97,5 @@ cover business skills, such as billing, contracts, and marketing that
 participants need to advance their careers. This course will emphasize
 communication with clients and customers, both to attract new clients
 and to keep existing clients happy.
-:::
+
 

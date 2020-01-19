@@ -19,10 +19,10 @@ models.
 Bristol University \| Centre for Multilevel Modelling \| MLPowSim.
 Available at: <http://www.bristol.ac.uk/cmm/software/mlpowsim/>
 
-![](../../images/mlpowsim01.png)
+![](../../web/images/mlpowsim01.png)
 
 
 
- 
-:::
+<U+00A0>
+
 

@@ -96,5 +96,5 @@ setting, not just consulting, it helps to be able to swing into an
 extroverted role or into an introverted role whichever is needed for the
 problem at hand. Neither a pure introvert nor a pure extrovert is likely
 to be a successful consultant.
-:::
+
 

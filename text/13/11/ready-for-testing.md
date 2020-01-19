@@ -19,5 +19,5 @@ manually with my "category" pages, but it is tedious.
 
 I'm going to test the site for a week or so, and then start publicizing
 it.
-:::
+
 

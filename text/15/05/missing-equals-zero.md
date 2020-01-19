@@ -118,8 +118,8 @@ you have a disparity, such as a question that is left blank mostly by
 older patients, then you have trouble and need to consider a rigorous
 approach like multiple imputation.
 
- 
 
- 
-:::
+
+
+
 

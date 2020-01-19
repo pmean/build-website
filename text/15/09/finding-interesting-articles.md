@@ -61,5 +61,5 @@ This is a crude stereotype, however, and some nursing and economic
 impact papers are highly specialized and some genetics and immunology
 papers are accessible. I just have better luck with some topics than
 others.
-:::
+
 

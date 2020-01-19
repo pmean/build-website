@@ -39,6 +39,6 @@ You should also consider transformations like the log transform that can
 sometimes turn data that is highly skewed and heteroscedastic into nice
 well behaved data amenable to the classic multifactor ANOVA models.
 
- 
-:::
+
+
 

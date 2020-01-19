@@ -1,7 +1,5 @@
 # prelims.R. This program was written by Steve Simon on 2019-06-11.
 
-default_path <- "../data"
-
 suppressMessages(suppressWarnings(library(base64enc)))
 suppressMessages(suppressWarnings(library(curl     )))
 suppressMessages(suppressWarnings(library(knitr    )))
@@ -12,11 +10,32 @@ suppressMessages(suppressWarnings(library(rmarkdown)))
 suppressMessages(suppressWarnings(library(stringr  )))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
+source(file="src/standard_functions.R")
+
 verbose <- TRUE
 
-# general functions
+# file locations
 
-source(file="src/standard_functions.R")
+text_root <- "text"
+blog_root <- "../web/md/blog"
+arch_root <- "../web/md/archive"
+summ_root <- "../web/summ"
+link_root <- "../web/links"
+html_blog <- "../web/site/blog"
+html_arch <- "../web/site/archive"
+
+# Test file locations
+if (verbose) {
+  cat("\n\n***Testing file locations***\n")
+  text_root %>% list.files %>% length %b% "files found in text_root.\n" %>% cat
+  blog_root %>% list.files %>% length %b% "files found in blog_root.\n" %>% cat
+  arch_root %>% list.files %>% length %b% "files found in arch_root.\n" %>% cat
+  summ_root %>% list.files %>% length %b% "files found in summ_root.\n" %>% cat
+  link_root %>% list.files %>% length %b% "files found in link_root.\n" %>% cat
+}
+
+
+# general functions
 
 # This function reads through a set of directories
 # and stores files of a particular pattern in a
@@ -67,14 +86,17 @@ if (verbose) {
 # file (f1) exists or if it is dated
 # later than the original file (f0).
 
-check_dates <- function(f0, f1) {
-  t0 <- file.info(f0)$mtime
-  t1 <- file.info(f1)$mtime
-  skip_flag <- !is.na(t1) & (t1-t0 > 0) & !update_all
-  if (skip_flag) {
-    if (verbose) {"\n    Skipping  " %b% f1 %>% cat}
-  }
-  return(skip_flag)
+# is.na f0.is.newer update_all skip_flag
+# TRUE                         FALSE
+# FALSE TRUE                   FALSE
+# FALSE FALSE       TRUE       FALSE
+
+should_i_skip <- function(f0, f1) {
+  f0.is.newer <- file.info(f0)$mtime >= file.info(f1)$mtime
+  if (is.na(f0.is.newer)) return(FALSE)
+  if (f0.is.newer)        return(FALSE)
+  if (update_all)         return(FALSE)
+  return(TRUE)
 }
 
 # This function takes an entry from a bibtex
@@ -183,9 +205,10 @@ modify_bib_fields <- function(fields) {
   fields$full_name %>%
     str_remove("^.*/") %>%
     str_remove(fixed(".bib")) -> short_name
-  fields$full_body_name <- "../web/md/blog"  %s% short_name %d% "md"
-  fields$full_link_name <- "../web/links"    %s% short_name %d% "txt"
-  fields$full_summ_name <- "../web/summ"     %s% short_name %d% "txt"
+  
+  fields$blog_name <- blog_root %s% short_name %d% "md"
+  fields$link_name <- link_root %s% short_name %d% "txt"
+  fields$summ_name <- summ_root %s% short_name %d% "txt"
   
   fields$category <- "Recommendation"
   fields$month    <- str_sub(fields$blogdate, 1, 7)
@@ -215,7 +238,7 @@ flag_unused_bib_fields <- function(fields) {
 # This function skims through bibtex files
 # and prints a specified field header.
 
-skim_bib_files <- function(field_header, dir_root="../source/bib", file_pattern="*.bib") {
+skim_bib_files <- function(field_header, dir_root, file_pattern) {
   file_list <- build_file_list(dir_root, file_pattern)
   for (i_file in file_list) {
     tx <- read_lines(i_file)
@@ -283,10 +306,11 @@ modify_yaml_fields <- function(fields) {
   # Build full file names
   fields$full_name %>%
     str_remove("^.*/") %>%
-    str_remove(fixed(".md")) -> short_name
-  fields$full_body_name <- "../web/md/blog"  %s% short_name %d% "md"
-  fields$full_link_name <- "../web/links"    %s% short_name %d% "txt"
-  fields$full_summ_name <- "../web/summ"     %s% short_name %d% "txt"
+    str_remove(fixed(".md")) %>%
+    str_remove(fixed(".Rmd")) -> short_name
+  fields$blog_name <- blog_root %s% short_name %d% "md"
+  fields$link_name <- link_root %s% short_name %d% "txt"
+  fields$summ_name <- summ_root %s% short_name %d% "txt"
   
   fields$month    <- str_sub(fields$blogdate, 1, 7)
   fields$day      <- str_sub(fields$blogdate, 8, 10)
@@ -367,7 +391,7 @@ write_body <- function(fields) {
     "![]" %p% image_link                      %1%
     "\n"
   if (verbose) {"\n\n" %0% new_tx %>% cat}
-  write_lines(new_tx, fields$full_body_name)
+  write_lines(new_tx, fields$blog_name)
   return(fields)  
 }
 
@@ -393,7 +417,7 @@ write_tail <- function(fields) {
   }
   
   if (verbose) {"\n\n" %0% tail_tx %>% cat}
-  write_lines(tail_tx, fields$full_body_name, append=TRUE)
+  write_lines(tail_tx, fields$blog_name, append=TRUE)
   return(fields)
 }
 
@@ -407,7 +431,7 @@ write_links <- function(fields) {
     str_replace_all(fields$tags, ", ", "\n") -> link_tx
   
   if (verbose) {"\nLinks" %1% link_tx %>% cat}
-  write_lines(link_tx, fields$full_link_name)
+  write_lines(link_tx, fields$link_name)
   return(fields)
 }
 
@@ -421,7 +445,7 @@ write_summ <- function(fields) {
     paren("../blog" %s% fields$name %0% ".html") %2% 
     summ_tx                                         -> summ_tx
   if (verbose) {"\n\n" %0% summ_tx %>% cat}  
-  write_lines(summ_tx, fields$full_summ_name)
+  write_lines(summ_tx, fields$summ_name)
   return(fields)
 }
 

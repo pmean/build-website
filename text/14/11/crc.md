@@ -91,5 +91,5 @@ amount of resources to do the job well. Keep in mind that poor quality
 work done by an undertrained or unqualified CRC could leave you and your
 clinic liable to civil and criminal penalties (e.g., through violations
 of patient privacy). This is not an area you want to skimp in.
-:::
+
 

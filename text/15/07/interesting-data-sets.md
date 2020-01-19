@@ -49,5 +49,5 @@ location and the number and types of predators.
 
 A nice list of journals that publish full data sets is at
 <http://proj.badc.rl.ac.uk/preparde/blog/DataJournalsList>
-:::
+
 

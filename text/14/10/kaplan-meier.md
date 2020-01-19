@@ -100,11 +100,11 @@ The graph includes the survival curve (either from a Kaplan-Meier
 estimate or a Cox regression model) and confidence limits. The graph
 displays a "+" at any censored value.
 
-![](../../images/kaplan-meier01.png)
+![](../../web/images/kaplan-meier01.png)
 
 
 
 There's a lot more on survival models which I hope to cover in another
 blog entry.
-:::
+
 

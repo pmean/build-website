@@ -35,5 +35,5 @@ website at
 
 In future blog entries, I will update and revise that page and share
 more details about this slide rule and how it works.
-:::
+
 

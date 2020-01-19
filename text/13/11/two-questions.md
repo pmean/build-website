@@ -39,5 +39,5 @@ Sometimes the roles are reversed, and I need to do something for them
 prior to the next meeting. In that case, I don't ask the second
 question, but instead summarize what I plan to do, just to make sure
 that I'm not missing something important.
-:::
+
 

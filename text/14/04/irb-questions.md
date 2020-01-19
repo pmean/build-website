@@ -23,7 +23,7 @@ that I suggested that we share with the IRB.
 
 <!---More--->
 
- 
+
 
 First, you need to correct the protocol. We are using "an independent
 samples t-test" and not a "paired t-test". It sounds like a
@@ -78,7 +78,7 @@ webpage:
 --\> <http://www.pmean.com/05/ClinicalImportance.html>
 
 Usually, however, the minimum clinically important difference represents
-a subjective opinion of the researcher.  I am reluctant, to substitute
+a subjective opinion of the researcher.<U+00A0> I am reluctant, to substitute
 my own subjective opinion for that of the researcher. The IRB, which
 typically has a much stronger background in medicine than I have, is
 welcome to substitute its own judgment. To ask for more documentation,
@@ -141,6 +141,6 @@ Portnoy JM, Simon SD. Is 3-mm less drowsiness important?. Ann Allergy
 Asthma Immunol. 2003 Oct;91(4):324-5. Available at:
 <http://www.ncbi.nlm.nih.gov/pubmed/14582809>
 
- 
-:::
+
+
 

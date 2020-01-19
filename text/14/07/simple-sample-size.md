@@ -36,14 +36,14 @@ available for free at [Dr. Russ Lenth's
 website](http://homepage.stat.uiowa.edu/~rlenth/Power/). Here's the
 splash screen.
 
-![](../../images/simple-sample-size01.png)
+![](../../web/images/simple-sample-size01.png)
 
 
 
-Dr. Lenth's son, Brian,  did the artwork here. After you click OK, you
+Dr. Lenth's son, Brian,<U+00A0> did the artwork here. After you click OK, you
 get the following window.
 
-![](../../images/simple-sample-size02.png)
+![](../../web/images/simple-sample-size02.png)
 
 
 
@@ -54,13 +54,13 @@ consider something later on that involves matching or risk adjustment,
 we would have to look at a more complex model. Select the "Two sample t
 test" under "Type of analysis",
 
-![](../../images/simple-sample-size03.png)
+![](../../web/images/simple-sample-size03.png)
 
 
 
 and then click on the "Run dialog" button. This is what you get.
 
-![](../../images/simple-sample-size04.png)
+![](../../web/images/simple-sample-size04.png)
 
 
 
@@ -69,7 +69,7 @@ The default option in Piface is to use sliders, which are very nice for
 entry by clicking on the small gray box above and to the right of each
 slider.
 
-![](../../images/simple-sample-size05.png)
+![](../../web/images/simple-sample-size05.png)
 
 
 
@@ -81,7 +81,7 @@ not sure what will work here, but let's try 15 for the minimum
 clinically important difference (true difference in means). Once you
 enter the 15 and click on OK, you get the following window.
 
-![](../../images/simple-sample-size06.png)
+![](../../web/images/simple-sample-size06.png)
 
 
 
@@ -94,7 +94,7 @@ able detect differences of size 10 rather than 15. What would this do to
 our power? Replace the 15 in the true difference of mean entry field and
 you get this.
 
-![](../../images/simple-sample-size07.png)
+![](../../web/images/simple-sample-size07.png)
 
 
 
@@ -113,13 +113,13 @@ To get the difference in means that you could detect with 80% power,
 change the "Solve for" field to "Diff of means" and put 0.80 in the
 "Power" field.
 
-![](../../images/simple-sample-size08.png)
+![](../../web/images/simple-sample-size08.png)
 
 
 
 Now, let's see what we could get at 90% power.
 
-![](../../images/simple-sample-size09.png)
+![](../../web/images/simple-sample-size09.png)
 
 
 
@@ -186,5 +186,5 @@ this.
 I haven't presented these results yet, so I don't have a report on what
 the reaction will be. If I'm way off on my assumptions, I may write a
 new blog entry or add to this blog entry.
-:::
+
 

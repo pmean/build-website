@@ -62,5 +62,5 @@ There are other examples in the book as well. It's a difficult and
 dangerous trade-off, but I think the research world would be better if
 clinical researchers adopted the pre-print model that Astronomers have
 been using for quite some time.
-:::
+
 

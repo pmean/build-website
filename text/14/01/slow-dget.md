@@ -43,5 +43,5 @@ So from now on, I'll store large matrices using save instead of dput and
 I'll read them back using load instead of dget. I won't be able to peek
 at the files with a text editor, but the time savings will more than
 offset this inconvenience.
-:::
+
 

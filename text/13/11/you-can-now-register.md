@@ -17,5 +17,5 @@ your brain to make room for this new stuff. I'm currently dumping all my
 knowledge of IBM JCL. Anyway, I just turned on the option that allows
 users to register. You need to register before you can leave comments on
 my blog.
-:::
+
 

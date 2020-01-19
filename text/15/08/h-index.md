@@ -98,7 +98,7 @@ Okay, here's the list of publications in order of citation.
     histones, surplus cytoplasm, apoptosis and DNA fragmentation. Cited
     in 24 publications.
 25. Article: Comparison of the Burkard and Allergenco MK-3 volumetric
-    collectors. Â Â Â  Cited in 24 publications.
+    collectors.     Cited in 24 publications.
 26. Article: Semen quality and hormone levels among radiofrequency
     heater operators. Cited in 23 publications.
 27. Article: Measuring Male Reproductive Hormones for Occupational Field
@@ -175,5 +175,5 @@ article](https://en.wikipedia.org/wiki/H-index).
 Still, I'm convinced that I deserve a huge raise on the basis of my
 H-index. Now I just have to figure out a way to get my boss to read this
 blog post.
-:::
+
 

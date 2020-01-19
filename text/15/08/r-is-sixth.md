@@ -23,11 +23,11 @@ well.
 <!---More--->
 
 David Smith, R \#6 in IEEE 2015 Top Programming Languages, Rising 3
-Places.  Revolutions Blog, July 24, 2015. Available at
+Places.<U+00A0> Revolutions Blog, July 24, 2015. Available at
 <http://blog.revolutionanalytics.com/2015/07/ieee-2015-rankings.html>.
 
-![](../../images/r-is-sixth01.png)
+![](../../web/images/r-is-sixth01.png)
 
 
-:::
+
 

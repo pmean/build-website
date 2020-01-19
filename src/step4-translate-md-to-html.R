@@ -6,23 +6,19 @@
 
 source(file="src/prelims.R", echo=FALSE)
 
-wb_root <- "../web"
-
-file_root <- wb_root %s% "md/blog"
-file_list <- list.files(path=file_root, pattern="*.md")
-html_root <- wb_root %s% "site/blog"
+file_list <- list.files(path=blog_root, pattern="*.md")
 
 for (i_file in file_list) {
   i_file %>% str_replace("md$", "html") -> j_file
-  if (check_dates(file_root %s% i_file, html_root %s% j_file)) {
+  if (should_i_skip(blog_root %s% i_file, html_blog %s% j_file)) {
     next
   }
-  readLines(bl_root %s% i_file) %>%
+  readLines(blog_root %s% i_file) %>%
     str_subset(regex("^Date:", ignore_case=TRUE)) %>%
     str_c(collapse="\n") -> file_date
   if (verbose) {
     "\nConverting" %b% j_file %C% file_date %>% br %>% cat
   }
-  render(bl_root %s% i_file, output_dir=html_root)
+  render(blog_root %s% i_file, output_dir=html_blog)
 }
 

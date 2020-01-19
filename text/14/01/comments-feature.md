@@ -16,5 +16,5 @@ you'd like to make.
 
 <!---more--->
 
-:::
+
 

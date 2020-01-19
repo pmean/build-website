@@ -39,6 +39,6 @@ a rank based test like Mann-Whitney for this data and even though there
 are a lot of ties, that ends up being the same as ordinal logistic
 regression.
 
- 
-:::
+
+
 

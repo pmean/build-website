@@ -58,10 +58,10 @@ are looking at would require MCMC.
 The key reference for these ideas is Gajewski BJ, Simon SD, Carlson SE.
 Predicting accrual in clinical trials with Bayesian posterior predictive
 distributions. Stat Med. 2008 Jun 15;27(13):2328-40 which is available
-on the web atÂ 
+on the web at 
 <http://onlinelibrary.wiley.com/doi/10.1002/sim.3128/abstract>
 
 I have other material related to the Bayesian modelling of patient
 accrual at <http://www.pmean.com/category/AccrualProblems.html>.
-:::
+
 

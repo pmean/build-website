@@ -61,5 +61,5 @@ When your considerations are largely qualitative, the opinions of your
 peers is important. They're the ones who are most in tune with the
 standards of research in your field, and they should be able to tell you
 how long a time frame you need to make your research persuasive.
-:::
+
 

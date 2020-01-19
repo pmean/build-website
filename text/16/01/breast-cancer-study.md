@@ -57,5 +57,5 @@ across from me right now, wrote a nice program using R markdown files in
 R Studio to query the i2b2 database and characterize the cohort of
 patients that will serve as the sampling frame for the survey. I want to
 characterize this work in a future blog entry.
-:::
+
 

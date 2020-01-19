@@ -17,12 +17,12 @@ Candace Schau.
 
 1\. Schau C. SATS background. Excerpt: "We developed the SATS to help us
 understand these attitudes and how they impact teaching and learning.
-The SATS© has two major uses. The first use is to help instructors
+The SATS<U+00A9> has two major uses. The first use is to help instructors
 evaluate their students' attitudes toward statistics at the beginning
 and at the end of their statistics courses. The second is for
 educational research into students' statistics attitudes." Available at:
 <http://www.evaluationandstatistics.com/id18.html>.
 
- 
-:::
+
+
 

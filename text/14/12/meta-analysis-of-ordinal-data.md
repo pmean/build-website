@@ -41,5 +41,5 @@ deviation for each group.
 Of course, with no consensus among researchers, you will probably have
 at least one study choosing each of the different analysis strategies,
 making it next to impossible to pool the results.
-:::
+
 

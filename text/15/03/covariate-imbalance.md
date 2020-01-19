@@ -59,5 +59,5 @@ still draw a rough analogy to your work.
 
 Now covariate imbalance is not quite the same thing as confounding, but
 the distinction between the two is often not that important.
-:::
+
 

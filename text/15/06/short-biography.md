@@ -36,6 +36,6 @@ my webpage.
 -   <http://www.pmean.com/04/briefbio.html>
 -   <http://www.pmean.com/02/biography.html>
 
- 
-:::
+
+
 

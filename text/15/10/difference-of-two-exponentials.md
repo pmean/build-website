@@ -46,5 +46,5 @@ tail(Theoph)
     ## 131      12 60.5  5.3 12.05 4.57
     ## 132      12 60.5  5.3 24.15 1.17
 
-::: {#look-at-just-the-first-patient .section .level2}
+ {#look-at-just-the-first-patient .section .level2}
 

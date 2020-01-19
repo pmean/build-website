@@ -26,10 +26,10 @@ have the effect of assigning the value 3 to the variable x: x = 3 or x
 Available at
 <http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html>.
 
-![](../../images/assignment-in-r01.png)
+![](../../web/images/assignment-in-r01.png)
 
 
 
- 
-:::
+<U+00A0>
+
 

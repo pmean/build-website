@@ -20,5 +20,5 @@ to this cartoon is
 
 <!---more--->
 
-:::
+
 

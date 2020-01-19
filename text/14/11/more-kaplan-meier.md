@@ -76,9 +76,9 @@ library.
     > library("survival")
     Loading required package: splines
 
-    Attaching package: ‘survival’
+    Attaching package: <U+0091>survival<U+0092>
 
-    The following object is masked _by_ ‘.GlobalEnv’:
+    The following object is masked _by_ <U+0091>.GlobalEnv<U+0092>:
 
         pbc
 
@@ -188,7 +188,7 @@ First, let's look at an overall survival curve.
 
     > plot(survfit(p.surv~1))
 
-![](../../images/more-kaplan-meier01.png)
+![](../../web/images/more-kaplan-meier01.png)
 
 
 
@@ -250,7 +250,7 @@ for (v in v.cat) {
     ## 158 154 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier02.png)
+![](../../web/images/more-kaplan-meier02.png)
 
 
 
@@ -260,7 +260,7 @@ for (v in v.cat) {
     ##  36 276 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier03.png)
+![](../../web/images/more-kaplan-meier03.png)
 
 
 
@@ -270,7 +270,7 @@ for (v in v.cat) {
     ## 288  24 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier04.png)
+![](../../web/images/more-kaplan-meier04.png)
 
 
 
@@ -280,7 +280,7 @@ for (v in v.cat) {
     ## 152 160 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier05.png)
+![](../../web/images/more-kaplan-meier05.png)
 
 
 
@@ -290,7 +290,7 @@ for (v in v.cat) {
     ## 222  90 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier06.png)
+![](../../web/images/more-kaplan-meier06.png)
 
 
 
@@ -300,7 +300,7 @@ for (v in v.cat) {
     ## 263  29  20 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier07.png)
+![](../../web/images/more-kaplan-meier07.png)
 
 
 
@@ -310,7 +310,7 @@ for (v in v.cat) {
     ##  16  67 120 109 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier08.png)
+![](../../web/images/more-kaplan-meier08.png)
 
 
 
@@ -326,7 +326,7 @@ for (v in v.con) {
     ##          78          78          78          78 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier09.png)
+![](../../web/images/more-kaplan-meier09.png)
 
 
 
@@ -336,7 +336,7 @@ for (v in v.con) {
     ##          90          66          78          78 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier10.png)
+![](../../web/images/more-kaplan-meier10.png)
 
 
 
@@ -346,7 +346,7 @@ for (v in v.con) {
     ##             71             71             72             70 
     ## [1] "There are 28 missing values."
 
-![](../../images/more-kaplan-meier11.png)
+![](../../web/images/more-kaplan-meier11.png)
 
 
 
@@ -356,7 +356,7 @@ for (v in v.con) {
     ##          81          76          81          74 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier12.png)
+![](../../web/images/more-kaplan-meier12.png)
 
 
 
@@ -366,7 +366,7 @@ for (v in v.con) {
     ##        78        80        75        77 
     ## [1] "There are 2 missing values."
 
-![](../../images/more-kaplan-meier13.png)
+![](../../web/images/more-kaplan-meier13.png)
 
 
 
@@ -378,7 +378,7 @@ for (v in v.con) {
     ##                  78 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier14.png)
+![](../../web/images/more-kaplan-meier14.png)
 
 
 
@@ -388,7 +388,7 @@ for (v in v.con) {
     ##         79         78         79         76 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier15.png)
+![](../../web/images/more-kaplan-meier15.png)
 
 
 
@@ -398,7 +398,7 @@ for (v in v.con) {
     ##         71         71         70         70 
     ## [1] "There are 30 missing values."
 
-![](../../images/more-kaplan-meier16.png)
+![](../../web/images/more-kaplan-meier16.png)
 
 
 
@@ -408,7 +408,7 @@ for (v in v.con) {
     ##        77        77        77        77 
     ## [1] "There are 4 missing values."
 
-![](../../images/more-kaplan-meier17.png)
+![](../../web/images/more-kaplan-meier17.png)
 
 
 
@@ -418,8 +418,8 @@ for (v in v.con) {
     ##          89          85          61          77 
     ## [1] "There are 0 missing values."
 
-![](../../images/more-kaplan-meier18.png)
+![](../../web/images/more-kaplan-meier18.png)
 
 
-:::
+
 

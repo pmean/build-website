@@ -27,10 +27,4 @@ question: understanding time lags in translational research. J R Soc
 Med. 2011;104(12):510-520. doi:10.1258/jrsm.2011.110180. Available at
 <http://jrs.sagepub.com/content/104/12/510.full>.
 
-![](../../images/17-years01.png)
-
-
-
- 
-:::
-
+![](../../web/images/17-years01.png)

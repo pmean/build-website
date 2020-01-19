@@ -45,5 +45,5 @@ plan might go awry.
 
 The bigger reason to be upfront about limitations and alternative plans
 is that it saves you from being pigeon-holed as a naive researcher.
-:::
+
 

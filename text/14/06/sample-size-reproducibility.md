@@ -32,7 +32,7 @@ be reasonably narrow. An ICC with a confidence interval that goes from
 
 So dig out the formula for the confidence interval for ICC and find a
 sample size that makes your interval reasonably narrow. Make sure that
-you plug in a plausible value forÂ  ICC and not zero.
+you plug in a plausible value for  ICC and not zero.
 
 The formula for this confidence interval is very messy, so you will
 almost certainly be better off using a simulation approach. Set up a
@@ -51,5 +51,5 @@ nurses rate more harshly than the doctors). But don't worry too much
 about this. If you get a nice narrow interval for a simple ICC, then
 everything else will probably also have reasonably good precision and/or
 power.
-:::
+
 

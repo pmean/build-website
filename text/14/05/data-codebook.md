@@ -9,7 +9,7 @@ output: html_document
 ---
 
 Before you start your data entry, you should create a data codebook. If
-you don't have a data codebook when you hand your dataÂ  over to someone
+you don't have a data codebook when you hand your data  over to someone
 else, take the time to create one for their benefit and yours. The data
 codebook contains a description of your data set. There's no standard
 form for a data codebook, and what you describe may depend on a variety
@@ -66,7 +66,7 @@ at midnight? There's nothing wrong with using the same date that a
 11:59pm visitor would have, and there's nothing wrong with putting a
 midnight visitor on the following day (see [commentary on
 this](http://www.nist.gov/pml/div688/times.cfm#midnight) at the National
-Institute for Standards and Technology).Â  What does matter is that once
+Institute for Standards and Technology).  What does matter is that once
 you decide how to resolve this ambiguous data value, you need to
 document your choice so that every future value that is ambiguous in the
 same way is handled in the same way.
@@ -78,5 +78,5 @@ though the recommendations vary widely.
 <http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook>\*
 <http://dss.princeton.edu/online_help/analysis/codebook.htm>\
 \* <http://www.sscnet.ucla.edu/issr/da/tutor/tutcode.htm>
-:::
+
 

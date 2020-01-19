@@ -17,5 +17,5 @@ and 15 minutes making the graphs." Andrew Gelman, quoted at
 
 <!---more--->
 
-:::
+
 

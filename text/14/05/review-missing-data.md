@@ -15,13 +15,13 @@ methods for handling missing values.
 
 Pigott TD. A Review of Methods for Missing Data. Educational Research
 and Evaluation. 2001;7(4):353-383. doi:10.1076/edre.7.4.353.8937.
-Available at 
+Available at<U+00A0>
 <http://www.stat.uchicago.edu/~eichler/stat24600/Admin/MissingDataReview.pdf>
 
-![](../../images/review-missing-data01.png)
+![](../../web/images/review-missing-data01.png)
 
 
 
- 
-:::
+<U+00A0>
+
 

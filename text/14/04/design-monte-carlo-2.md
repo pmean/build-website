@@ -76,7 +76,7 @@ follow the R code to follow the argument.
     pow1 <- power.prop.test(n=50, p1=0.5, p2=(51:99)/100, sig.level=0.05)
     plot(pow1$p2,pow1$power)
 
-![](../../images/design-monte-carlo-201.png)
+![](../../web/images/design-monte-carlo-201.png)
 
 
 
@@ -87,7 +87,7 @@ group and 0.51 through 0.99 for the second group. The plot shows a
 distinctly non-linear pattern. Now, look at the plot where both axes are
 transformed by the logit function.
 
-![](../../images/design-monte-carlo-202.png)
+![](../../web/images/design-monte-carlo-202.png)
 
 
 
@@ -102,7 +102,7 @@ the axes back to the original scale for interpretability.
     xvals=c(0.5,0.6,0.7,0.8,0.9,0.95,0.97,0.99)
     axis(side=1, at=logit(xvals,base=2), labels=paste(100*xvals,"%",sep=""))
 
-![](../../images/design-monte-carlo-203.png)
+![](../../web/images/design-monte-carlo-203.png)
 
 
 
@@ -110,5 +110,5 @@ There is no real reason to run a Monte Carlo study, of course, for
 simple power calculations like this. The reason to show this example is
 to demonstrate how the logit transformation simplifies the graphical
 presentation of Monte Carlo results.
-:::
+
 

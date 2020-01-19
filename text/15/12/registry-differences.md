@@ -23,8 +23,8 @@ van Lent M, IntHout J, Out HJ. Differences between information in
 registries and articles did not influence publication acceptance.
 Journal of clinical Epidemiology. 68(9): 2015 (September); 1059-1067.
 
-![](../../images/registry-differences01.png)
+![](../../web/images/registry-differences01.png)
 
 
-:::
+
 

@@ -38,5 +38,5 @@ decreases the proposed sample size, or possibly both.
 We're currently seeking NIH funding to extend the Bayesian model and to
 write accessible and easy to use software for accrual that can run on a
 website, a stand-alone computer, or a smartphone/tablet.
-:::
+
 

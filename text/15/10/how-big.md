@@ -16,5 +16,5 @@ R Markdown code that created these examples
 
 <!---More--->
 
-::: {.container-fluid .main-container}
+ {.container-fluid .main-container}
 

@@ -165,12 +165,12 @@ For your convenience, I am also including the R commands file below.
 
 Here are the two graphs produced by this output.
 
-![](../../images/beginners-workshop01.png)
+![](../../web/images/beginners-workshop01.png)
 
 
 
-![](../../images/beginners-workshop02.png)
+![](../../web/images/beginners-workshop02.png)
 
 
-:::
+
 

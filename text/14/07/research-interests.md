@@ -31,5 +31,5 @@ statistical computing, with a particular emphasis on Markov Chain Monte
 Carlo methods and the R programming language. His current research
 focuses on the use of Bayesian models to predict patient accrual in
 prospective clinical trials.
-:::
+
 

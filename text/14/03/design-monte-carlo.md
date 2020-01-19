@@ -49,5 +49,5 @@ So far, so good. The estimated precision is a bit harder to decipher,
 but it turns out that 120 replications would do just fine here as well.
 
 \[To be continued.\]
-:::
+
 

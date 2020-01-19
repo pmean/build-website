@@ -121,5 +121,5 @@ the case, the complex solution is the best solution.
 The nice thing about knowing the simple solutions is that you can often
 get a quick answer to get a rough idea of what you will end up seeing
 when you run the complex analysis.
-:::
+
 

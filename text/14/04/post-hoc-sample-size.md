@@ -42,5 +42,5 @@ collect.
 At the same time, be sure to present the confidence interval, as the
 very large width (plus/minus 17) is an even better indicator of the
 inadequacy of the sample size.
-:::
+
 

@@ -69,5 +69,5 @@ Here's a picture of Byron Gajewski, taken from the KUMC website. I could
 not find a good picture of Joyce Yu Jiang.
 
 ![](https://www.kumc.edu/images/biostatistics/faculty/Gajewski%20Large.jpg)
-:::
+
 

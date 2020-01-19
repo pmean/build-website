@@ -27,7 +27,7 @@ If you are [key
 personnel](http://grants.nih.gov/grants/policy/senior_key_personnel_faqs.htm),
 you need to fill out a [biographical
 sketch](http://grants.nih.gov/grants/funding/phs398/biosketchsample.pdf).
-You are also required to fill outÂ  a financial conflict of interest
+You are also required to fill out  a financial conflict of interest
 disclosure form to document that you have taken and passed appropriate
 training on the ethical conduct of research. These last two requirements
 vary from organization to organization.
@@ -65,5 +65,5 @@ Support](http://ors.umkc.edu/ors-research-resources/institutional-information).
 Now I know that this is rather boring, but I write this stuff down for
 my own future reference, as I will not remember any of this the next
 time I write a grant.
-:::
+
 

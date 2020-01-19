@@ -264,7 +264,7 @@ plot(h5$sqft,h5$price)
 lines(lowess(h5$price~h5$sqft))
 ```
 
-![](../../images/relationships-in-r01.png)
+![](../../web/images/relationships-in-r01.png)
 
 
 
@@ -274,7 +274,7 @@ sb <- is.finite(h5$age)
 lines(lowess(h5$price[sb]~h5$age[sb]))
 ```
 
-![](../../images/relationships-in-r02.png)
+![](../../web/images/relationships-in-r02.png)
 
 
 
@@ -314,7 +314,7 @@ categorical variable is a boxplot.
 boxplot(h5$price~h5$feats)
 ```
 
-![](../../images/relationships-in-r03.png)
+![](../../web/images/relationships-in-r03.png)
 
 
 
@@ -322,7 +322,7 @@ boxplot(h5$price~h5$feats)
 boxplot(h5$price~h5$ne)
 ```
 
-![](../../images/relationships-in-r04.png)
+![](../../web/images/relationships-in-r04.png)
 
 
 
@@ -330,7 +330,7 @@ boxplot(h5$price~h5$ne)
 boxplot(h5$price~h5$cust)
 ```
 
-![](../../images/relationships-in-r05.png)
+![](../../web/images/relationships-in-r05.png)
 
 
 
@@ -338,7 +338,7 @@ boxplot(h5$price~h5$cust)
 boxplot(h5$price~h5$cor)
 ```
 
-![](../../images/relationships-in-r06.png)
+![](../../web/images/relationships-in-r06.png)
 
 
 
@@ -350,7 +350,7 @@ plot(h5$price,h5$ne)
 lines(lowess(h5$ne~h5$price))
 ```
 
-![](../../images/relationships-in-r07.png)
+![](../../web/images/relationships-in-r07.png)
 
 
 
@@ -359,7 +359,7 @@ plot(h5$price,h5$cust)
 lines(lowess(h5$cust~h5$price))
 ```
 
-![](../../images/relationships-in-r08.png)
+![](../../web/images/relationships-in-r08.png)
 
 
 
@@ -368,7 +368,7 @@ plot(h5$price,h5$cor)
 lines(lowess(h5$cor~h5$price))
 ```
 
-![](../../images/relationships-in-r09.png)
+![](../../web/images/relationships-in-r09.png)
 
 
 
@@ -387,5 +387,5 @@ round(cor(h5[,c("ne","cust","cor")],h5$price),1)
 
 Let's save the display of a relationship involving two categorical
 variables until another day.
-:::
+
 

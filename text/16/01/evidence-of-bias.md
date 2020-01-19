@@ -39,8 +39,8 @@ Morton. The Empirical Evidence of Bias in Trials Measuring Treatment
 Differences. Available at
 <http://www.ncbi.nlm.nih.gov/books/NBK253181/>.
 
-![](../../images/evidence-of-bias01.png)
+![](../../web/images/evidence-of-bias01.png)
 
 
-:::
+
 

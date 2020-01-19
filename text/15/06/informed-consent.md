@@ -30,5 +30,5 @@ assurance of exempt status from your IRB before you start your research.
 It's also worth noting that some types of human subjects research can
 apply for a waiver of informed consent. For details, see
 [www.hhs.gov/ohrp/policy/faq/informed-consent/what-is-a-waiver-or-alteration-of-informed-consent.htm](http://www.hhs.gov/ohrp/policy/faq/informed-consent/what-is-a-waiver-or-alteration-of-informed-consent.htm)l
-:::
+
 

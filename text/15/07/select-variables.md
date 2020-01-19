@@ -97,7 +97,7 @@ doi:10.1038/jid.2014.132. Available at
 <http://www.nature.com/jid/journal/v134/n5/full/jid2014132a.html>.
 
 Sander Greenland (2007) "Invited Commentary: Variable Selection versus
-Shrinkage in the Control of Multiple Confounders"Â  American Journal of
+Shrinkage in the Control of Multiple Confounders"  American Journal of
 Epidemiology. Volume 167, Issue 5, Pp. 523-529. Available at
 <http://aje.oxfordjournals.org/content/167/5/523.full>.
 
@@ -106,5 +106,5 @@ Brian C. Sauer, Alan Brookhart, Jason Roy, and Tyler Vanderweele (2013)
 Effectiveness Research" Pharmacoepidemiol Drug Saf. 2013 Nov; 22(11):
 1139--1145. doi: 10.1002/pds.3506. Available at
 <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4190055/>.
-:::
+
 

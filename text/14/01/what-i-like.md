@@ -22,7 +22,7 @@ your data set.
 Second, you have a lot of control over graphics output in R. You can
 control the size of the graph and the size of the margins of the graph,
 the values that you place on the axes and where you place the axes
-themselves, the size and colors ofÂ  symbols on your graph, and many many
+themselves, the size and colors of  symbols on your graph, and many many
 more details.
 
 Third, you get access to some of the most current statistical methods
@@ -30,5 +30,5 @@ with R. Most graduate students in Statistics want to see their new
 methods used, and they do this by writing user contributed libraries in
 R as part of their dissertation. It takes a while for programs like SAS
 to get someone internally to program these methods.
-:::
+
 

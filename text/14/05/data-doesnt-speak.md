@@ -18,8 +18,8 @@ Thomas C. Redman. Data Doesn't Speak for Itself. Harvard Business
 Review. April 29, 2014. Available at:
 <http://blogs.hbr.org/2014/04/data-doesnt-speak-for-itself/>
 
-![](../../images/data-doesnt-speak01.png)
+![](../../web/images/data-doesnt-speak01.png)
 
 
-:::
+
 
