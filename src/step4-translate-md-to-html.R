@@ -6,18 +6,34 @@
 
 source(file="src/prelims.R", echo=FALSE)
 
+v <- FALSE
 file_list <- list.files(path=blog_root, pattern="*.md")
+file_list <- c(file_list, build_file_list(blog_root, "*.Rmd", v=FALSE))
 
+skipped_files <- NULL
 for (i_file in file_list) {
-  i_file %>% str_replace("md$", "html") -> j_file
-  if (should_i_skip(blog_root %s% i_file, html_blog %s% j_file)) {
-    next
+  i_file %>%
+    str_remove("^.*/") %>%
+    str_replace("md$|Rmd$", "html") -> j_file
+  if (v) {
+    file.info(blog_root %s% i_file)$mtime %C% i_file %>% br %>% cat
+    file.info(html_blog %s% j_file)$mtime %C% i_file %>% br %>% cat
   }
+  if (should_i_skip(blog_root %s% i_file, html_blog %s% j_file)) {
+    skipped_files <- c(skipped_files, i_file)
+  }
+}
+"\n\nSkipping" %b% length(skipped_files) %b% "files.\n\n" %>% cat
+file_list <- setdiff(file_list, skipped_files)
+"\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
+
+file_list <- sample(file_list)
+for (i_file in file_list) {
   readLines(blog_root %s% i_file) %>%
     str_subset(regex("^Date:", ignore_case=TRUE)) %>%
     str_c(collapse="\n") -> file_date
   if (verbose) {
-    "\nConverting" %b% j_file %C% file_date %>% br %>% cat
+    "\nConverting" %b% i_file %C% file_date %>% br %>% cat
   }
   render(blog_root %s% i_file, output_dir=html_blog)
 }
