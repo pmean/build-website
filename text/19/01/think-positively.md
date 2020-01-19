@@ -67,6 +67,6 @@ such as the case-control study linking cancer cases in women to prenatal
 exposure to DES and the use of NHANES data to show a link between HPV
 and cervical cancer.
 
- 
-:::
+
+
 

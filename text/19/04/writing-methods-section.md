@@ -176,5 +176,5 @@ different.
 I have a [web page about writing a methods section for a research
 grant](http://www.pmean.com/01/methods.html) that you might also find
 helpful.
-:::
+
 

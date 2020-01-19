@@ -63,6 +63,6 @@ get the study through the IRB. They know it's not a pilot, but they want
 to run the study because of selfish reasons, like helping with their
 tenure and promotion.
 
- 
-:::
+
+
 

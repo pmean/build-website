@@ -34,5 +34,5 @@ is the author of a major website and blog about Statistics, Research
 Ethics, and Evidence Based Medicine (www.pmean.com, blog.pmean.com). One
 of his current research interests is using Bayesian models to forecast
 patient accrual in clinical trials.
-:::
+
 

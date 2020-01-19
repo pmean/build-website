@@ -17,8 +17,8 @@ as well as U.S. Census tract information.
 United States Census Bureau. Census Geocoder. Available in [html
 format](https://www.census.gov/geo/maps-data/data/geocoder.html).
 
-![](../../images/census-geocoder01.png)
+![](../../web/images/census-geocoder01.png)
 
 
-:::
+
 

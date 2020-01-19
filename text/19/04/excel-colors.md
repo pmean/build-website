@@ -23,8 +23,8 @@ You're Doing is Rather Desperate blog, August 4, 2014. Available in
 [html
 format](https://nsaunders.wordpress.com/2014/08/06/when-life-gives-you-coloured-cells-make-categories/).
 
-![](../../images/excel-colors01.png)
+![](../../web/images/excel-colors01.png)
 
 
-:::
+
 

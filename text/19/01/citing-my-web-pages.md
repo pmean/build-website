@@ -21,7 +21,7 @@ and [APA
 formats](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_electronic_sources.html)
 for citing a web page.
 
-Web pages are alwaysÂ  a bit tricky, but you do know the author. I
+Web pages are always  a bit tricky, but you do know the author. I
 normally go by Steve Simon, but for bibliographies, I always think it's
 a good idea to include a middle initial (there are a gazillion Steve
 Simons out there). So using Stephen D. Simon or S.D. Simon is
@@ -31,7 +31,7 @@ of every web page and at the bottom of every blog post.
 
 So a web citation of this particular blog post would be
 
-Simon, Stephen D. "PMean: Citing one of my web pages."Â  *PMean: A blog
+Simon, Stephen D. "PMean: Citing one of my web pages."  *PMean: A blog
 about statistics, evidence-based medicine, and research ethics*.15 Jan.
 2019, blog.pmean.com/citing-my-web-ages/.
 
@@ -45,13 +45,13 @@ in APA format (Blog (Weblog) Post).
 Files from my website rather than my blog would look slightly different,
 according to these two styles. They would be
 
-Simon, Stephen D. "P.Mean: Distrust of a Bayesian meta-analysis."Â 
+Simon, Stephen D. "P.Mean: Distrust of a Bayesian meta-analysis." 
 *P.Mean Website*. 01 Jul. 2008,
 http://www.pmean.com/08/DistrustBayesian.html.
 
 in MLA format (A Page on a Web Site), and
 
-Simon, S. D. (2008, July 1).Â P.Mean: Distrust of a Bayesian
+Simon, S. D. (2008, July 1). P.Mean: Distrust of a Bayesian
 meta-analysis. Retrieved from
 http://www.pmean.com/08/DistrustBayesian.html
 
@@ -59,5 +59,5 @@ in APA format (Nonperiodical Web Document or Report).
 
 Note that posts prior to July 1, 2008 typically start with "Stats"
 rather than "P.Mean" for historical reasons.
-:::
+
 

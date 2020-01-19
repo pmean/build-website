@@ -24,8 +24,8 @@ Alexis C. Madrigal. How a Feel-Good AI Story Went Wrong in Flint. The
 Atlantic, January 3, 2019. Available in [html
 format](https://www.theatlantic.com/technology/archive/2019/01/how-machine-learning-found-flints-lead-pipes/578692/).
 
-![](../../images/ai-story01.png)
+![](../../web/images/ai-story01.png)
 
 
-:::
+
 

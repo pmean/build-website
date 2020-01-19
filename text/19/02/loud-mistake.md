@@ -30,5 +30,5 @@ reviewing your work won't notice, bad things will happen. They will hold
 the weaker approach against you anyway, but they will also conclude that
 you are naive and unable to recognize the well-known flaws of your
 approach.
-:::
+
 

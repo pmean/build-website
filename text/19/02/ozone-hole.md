@@ -18,8 +18,8 @@ PBS Learning Media. NOVA \| A Hole in the Sky. Available as a [video
 (3.:47 running
 time)](https://www.pbslearningmedia.org/resource/ess05.sci.ess.watcyc.antarctica/a-hole-in-the-sky/).
 
-![](../../images/ozone-hole01.png)
+![](../../web/images/ozone-hole01.png)
 
 
-:::
+
 

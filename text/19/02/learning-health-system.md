@@ -19,8 +19,8 @@ National Academies of Sciences, Engineering and Medicine. The Learning
 Health Care System in America. Available in [html
 format](http://www.nationalacademies.org/hmd/Activities/Quality/LearningHealthCare.aspx).
 
-![](../../images/learning-health-system01.png)
+![](../../web/images/learning-health-system01.png)
 
 
-:::
+
 

@@ -50,5 +50,5 @@ have made the American Statistical Associations list of longtime
 members. You have to use the search function to find me in the very long
 list of members of 35-39 years. I think that I won't move to the next
 higher category (40-44 years) until 2022.
-:::
+
 

@@ -18,8 +18,8 @@ Mike Evans. Quality Improvement in Healthcare. YouTube, November 26,
 2014. Available as a [video (11
 minutes)](https://www.youtube.com/watch?v=jq52ZjMzqyI).
 
-![](../../images/qi-video01.png)
+![](../../web/images/qi-video01.png)
 
 
-:::
+
 

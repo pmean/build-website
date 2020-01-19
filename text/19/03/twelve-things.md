@@ -20,8 +20,8 @@ Scientist. Published on the medium.com website, February 21, 2019.
 Available in [html
 format](https://medium.com/deliberate-data-science/12-things-i-wish-id-known-before-starting-as-a-data-scientist-45989be6300e).
 
-![](../../images/twelve-things01.png)
+![](../../web/images/twelve-things01.png)
 
 
-:::
+
 

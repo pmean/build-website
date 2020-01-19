@@ -54,5 +54,5 @@ page](https://www.meetup.com/Data-Science-KC/) and a [slack
 channel](https://datasciencekc.slack.com/). In order to use the slack
 channel, you need to register as a free user at the [Slack
 website](https://slack.com/).
-:::
+
 

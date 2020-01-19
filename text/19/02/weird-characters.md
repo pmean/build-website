@@ -61,5 +61,5 @@ You will find the "smart quotes" in the Unicode standard.
 This information is buried deep in [an inquiry about smart quotes on the
 ars technical
 site](https://arstechnica.com/civis/viewtopic.php?t=722235).
-:::
+
 

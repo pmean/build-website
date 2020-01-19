@@ -22,8 +22,8 @@ of big data? Ideas: Thinkers from the past on our world today, April 5,
 2019. Available in [video
 format](https://www.bbc.com/ideas/videos/what-would-florence-nightingale-make-of-big-data/p075lxkt).
 
-![](../../images/nightingale-big-data01.png)
+![](../../web/images/nightingale-big-data01.png)
 
 
-:::
+
 

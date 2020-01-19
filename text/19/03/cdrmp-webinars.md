@@ -22,8 +22,8 @@ Webinar Series, Congressionally Directed Medical Research Programs.
 Available in \[html
 format\](https://cdmrp.army.mil/pubs/Webinars/webinar\_series).
 
-![](../../images/cdrmp-webinars01.png)
+![](../../web/images/cdrmp-webinars01.png)
 
 
-:::
+
 

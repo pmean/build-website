@@ -16,5 +16,5 @@ in "Sunset Salvo", The American Statistician 1986; 40(10): 72-76.
 
 <!---more--->
 
-:::
+
 
