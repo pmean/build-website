@@ -14,5 +14,5 @@ Deming. As quoted at
 
 <!---more--->
 
-:::
+
 

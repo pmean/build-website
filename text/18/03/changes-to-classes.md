@@ -140,5 +140,5 @@ small fraction of the changes documented by git into the file above.
 
 Git does not work as well for SAS and SPSS as it does for R, so it makes
 more sense to teach how to create a changelog file in all three classes.
-:::
+
 

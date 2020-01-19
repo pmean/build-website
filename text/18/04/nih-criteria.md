@@ -12,17 +12,17 @@ I have to help write NIH grants from time to time, and I need to always
 keep front and center the criteria that NIH peer reviewers use when they
 evaluate grants. They look at five broad areas: significance,
 investigators, innovation, approach, and environment. This document
-explains what each of these five broad areas means. 
+explains what each of these five broad areas means.<U+00A0>
 
 <!---More--->
 
 National Institutes of Health. Definitions of Criteria and
 Considerations for Research Project Grant (RPG/X01/R01/R03/R21/R33/R34)
 Critiques. Updated March 8, 2018. Available
-at <https://grants.nih.gov/grants/peer/critiques/rpg_D.htm>.
+at<U+00A0><https://grants.nih.gov/grants/peer/critiques/rpg_D.htm>.
 
-![](../../images/nih-criteria01.png)
+![](../../web/images/nih-criteria01.png)
 
 
-:::
+
 

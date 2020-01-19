@@ -16,11 +16,11 @@ output.
 
 <!---More--->
 
-The simplest application is taking a data setÂ  with six rows and one
+The simplest application is taking a data set  with six rows and one
 column and converting it into a data set with one row and six columns.
 
     data original;
-    Â  input c;
+      input c;
     cards;
     1
     2
@@ -30,16 +30,16 @@ column and converting it into a data set with one row and six columns.
     6
     ;
     proc transpose data=original out=transposed;
-    Â  var c;
+      var c;
     run;
     proc print data=transposed;
     run;
 
 This is what the transposed data set looks like.
 
-    ObsÂ Â Â  _NAME_Â Â Â  COL1Â Â Â  COL2Â Â Â  COL3Â Â Â  COL4Â Â Â  COL5Â Â Â  COL6
+    Obs    _NAME_    COL1    COL2    COL3    COL4    COL5    COL6
 
-     1Â Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  1Â Â Â Â Â Â  2Â Â Â Â Â Â  3Â Â Â Â Â Â  4Â Â Â Â Â Â  5Â Â Â Â Â Â  6
+     1       c         1       2       3       4       5       6
 
 The BY statement will transpose separately for each level of the BY
 variable and then stack those transposes one beneath the other beneath
@@ -47,12 +47,12 @@ the other. In the artificial data set, there are two rows per subject
 and three subjects so SAS will create a data set with one row and two
 columns for subject 1, stack another data set with one row and two
 columns for subject 2 beneath that and a third data set with one row and
-two columns for subject 3 beneath that. The final data set has threeÂ 
+two columns for subject 3 beneath that. The final data set has three 
 rows, one for each subject. This is the simplest example of going from a
-tall andÂ  thin format to a short and fat format.
+tall and  thin format to a short and fat format.
 
     data original;
-    Â  input a c;
+      input a c;
     cards;
     1 1
     1 2
@@ -62,19 +62,19 @@ tall andÂ  thin format to a short and fat format.
     3 6
     ;
     proc transpose data=original out=transposed;
-    Â  by a;
-    Â  var c;
+      by a;
+      var c;
     run;
     proc print data=transposed;
     run;
 
 The transposed file looks like this:
 
-    ObsÂ Â Â  aÂ Â Â  _NAME_Â Â Â  COL1Â Â Â  COL2
+    Obs    a    _NAME_    COL1    COL2
 
-     1Â Â Â Â  1Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  1Â Â Â Â Â Â  2
-     2Â Â Â Â  2Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  3Â Â Â Â Â Â  4
-     3Â Â Â Â  3Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  5Â Â Â Â Â Â  6
+     1     1      c         1       2
+     2     2      c         3       4
+     3     3      c         5       6
 
 The names that SAS chooses for the new columns are rather undescriptive.
 You can use the ID command to borrow the variable names from a column in
@@ -82,7 +82,7 @@ the original data set. In this artificial example, SAS names to two
 columns pre and pst.
 
     data original;
-    Â  input a b $ c;
+      input a b $ c;
     cards;
     1 pre 1
     1 pst 2
@@ -92,26 +92,26 @@ columns pre and pst.
     3 pst 6
     ;
     proc transpose data=original out=transposed;
-    Â  by a;
-    Â  id b;
-    Â  var c;
+      by a;
+      id b;
+      var c;
     run;
     proc print data=transposed;
     run;
 
 The transposed file looks like this:
 
-    ObsÂ Â Â  aÂ Â Â  _NAME_Â Â Â  preÂ Â Â  pst
+    Obs    a    _NAME_    pre    pst
 
-     1Â Â Â Â  1Â Â Â Â Â  cÂ Â Â Â Â Â Â  1Â Â Â Â Â  2
-     2Â Â Â Â  2Â Â Â Â Â  cÂ Â Â Â Â Â Â  3Â Â Â Â Â  4
-     3Â Â Â Â  3Â Â Â Â Â  cÂ Â Â Â Â Â Â  5Â Â Â Â Â  6
+     1     1      c        1      2
+     2     2      c        3      4
+     3     3      c        5      6
 
 You can't use a number for a variable name in SAS, but if you want to
 number your variable names, the PREFIX option can help.
 
     data original;
-    Â  input a b c;
+      input a b c;
     cards;
     1 0 1
     1 1 2
@@ -132,9 +132,9 @@ The transposed file looks like this:
 
     Obs    a    _NAME_    time0    time1
 
-     1Â Â Â Â  1Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  1Â Â Â Â Â Â Â  2
-     2Â Â Â Â  2Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  3Â Â Â Â Â Â Â  4
-     3Â Â Â Â  3Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  5Â Â Â Â Â Â Â  6
+     1     1      c         1        2
+     2     2      c         3        4
+     3     3      c         5        6
 
 If your data is tangled up, the ID statement will untangle the data for
 you. In this example, the second subject has the pst value listed before
@@ -143,7 +143,7 @@ will fit in the first column and the pst values will fit in the second
 column.
 
     data original;
-    Â  input a b $ c;
+      input a b $ c;
     cards;
     1 pre 1
     1 pst 2
@@ -155,9 +155,9 @@ column.
     proc print data=original;
     run;
     proc transpose data=original out=transposed prefix=time;
-    Â  by a;
-    Â  id b;
-    Â  var c;
+      by a;
+      id b;
+      var c;
     run;
     proc print data=transposed;
     run;
@@ -170,14 +170,14 @@ The transposed file looks like this:
      2     2      c         3        4
      3     3      c         5        6
 
-If a subject has one or more missing rows, SASÂ  will put a missing value
+If a subject has one or more missing rows, SAS  will put a missing value
 in the appropriate column after transposing. In this example, subject 2
 has a row for the pre value, but no row for the pst value. In the
 transposed data set, SAS will put a missing value code for pst for
 subject 2 in the transposed data set.
 
     data original;
-    Â  input a b $ c;
+      input a b $ c;
     cards;
     1 pre 1
     1 pst 2
@@ -186,9 +186,9 @@ subject 2 in the transposed data set.
     3 pst 6
     ;
     proc transpose data=original out=transposed prefix=time;
-    Â  by a;
-    Â  id b;
-    Â  var c;
+      by a;
+      id b;
+      var c;
     run;
     proc print data=transposed;
     run;
@@ -207,15 +207,15 @@ direction, gathering two or more columns into a single column by
 specifying two or more variable names in the VAR statement.
 
     data original;
-    Â  input a pre pst;
+      input a pre pst;
     cards;
     1 1 2
     2 3 4
     3 5 6
     ;
     proc transpose data=original out=transposed;
-    Â  by a;
-    Â  var pre pst;
+      by a;
+      var pre pst;
     run;
     proc print data=transposed;
     run;
@@ -238,12 +238,12 @@ results. You may need a bit of "trial and error" as it is difficult to
 put up examples of every type of option that you might want when your
 data is very complex.
 
-ObsÂ Â Â  aÂ Â Â  \_NAME\_Â Â Â  time0Â Â Â  time1
+Obs    a    \_NAME\_    time0    time1
 
-1Â Â Â Â  1Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  1Â Â Â Â Â Â Â  2\
-2Â Â Â Â  2Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  3Â Â Â Â Â Â Â  4\
-3Â Â Â Â  3Â Â Â Â Â  cÂ Â Â Â Â Â Â Â  5Â Â Â Â Â Â Â  6
+1     1      c         1        2\
+2     2      c         3        4\
+3     3      c         5        6
 
-The SAS SystemÂ Â Â Â Â  23:35 Wednesday, March 28, 2018Â  10
-:::
+The SAS System      23:35 Wednesday, March 28, 2018  10
+
 

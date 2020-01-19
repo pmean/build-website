@@ -55,5 +55,5 @@ The other important thing is to complement rather than duplicate the
 HERON](http://www.kumc.edu/miea/medical-informatics/heron/heron-manual.html).
 This repository talks about applications with direct access to the data
 rather than access through i2b2.
-:::
+
 

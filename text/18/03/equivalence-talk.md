@@ -43,27 +43,27 @@ Tests of Equivalence and Non-Inferiority with Steve Simon
 
 Statistics is, to a large extent, a science of comparison. You are
 trying to test whether one group is bigger, faster, or smarter than
-another.Â  You do this by setting up a null hypothesis that your two
+another.  You do this by setting up a null hypothesis that your two
 groups have equal means or proportions and an alternative hypothesis
 that one group is "better" than the other. The test has interesting
 results only when the data you collect ends up rejecting the null
 hypothesis. But there are times when the interesting research question
 you're asking is not about whether one group is better than the other,
-but whether the two groups are equivalent.Â  For example, at which point
+but whether the two groups are equivalent.  For example, at which point
 do second-language speakers make as few grammar errors as native
-speakers?Â  Or at which point does a new drug with fewer side effects
+speakers?  Or at which point does a new drug with fewer side effects
 work just as well as the standard treatment?
 
 Finding equivalence is impossible, by conventional wisdom. You can't
 prove a negative. (Well, you can prove a negative, but it takes more
-work.)Â  There is an entirely different hypothesis testing framework that
-allows for this kind of comparison.Â  In this webinar, we'll review the
+work.)  There is an entirely different hypothesis testing framework that
+allows for this kind of comparison.  In this webinar, we'll review the
 framework of the traditional hypothesis test and compare it to the
 framework of the equivalence test and its one-sided cousin, the
-non-inferiority test.Â  You'll learn how to specify a range of
+non-inferiority test.  You'll learn how to specify a range of
 equivalence or margin of non-inferiority, where those values define
-differences that are small enough to be tolerable.Â  You'll also identify
+differences that are small enough to be tolerable.  You'll also identify
 critical issues in the design of an equivalence or non-inferiority study
 that can make or break your experiment.
-:::
+
 

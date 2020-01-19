@@ -18,8 +18,8 @@ difference?
 Kaggle. Dogs vs cats. Create an algorithm to distinguish dogs from cats.
 Available at <https://www.kaggle.com/c/dogs-vs-cats/data>.
 
-![](../../images/dogs-vs-cats01.png)
+![](../../web/images/dogs-vs-cats01.png)
 
 
-:::
+
 

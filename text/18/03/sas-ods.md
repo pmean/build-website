@@ -34,8 +34,8 @@ SAS. Getting Started with the SAS 9.4 Output Delivery System. Last
 updated: September 28, 2017. Available at
 <http://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.2&docsetId=odsgs&docsetTarget=titlepage.htm&locale=en>.
 
-![](../../images/sas-ods01.png)
+![](../../web/images/sas-ods01.png)
 
 
-:::
+
 

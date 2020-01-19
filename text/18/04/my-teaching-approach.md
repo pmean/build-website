@@ -307,5 +307,5 @@ No doubt that I will encounter other issues as I teach more classes in
 an online format. I learned a lot about online teaching at various talks
 at the Joint Statistical Meetings, and plan to keep my eyes and ears
 open for other people's experiences.
-:::
+
 

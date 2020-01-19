@@ -17,10 +17,10 @@ preview offered by Amazon is intriguing.
 <!---More--->
 
 Charles P. Friedman and Jeremy Wyatt. Evaluation Methods in Biomedical
-Informatics, \@nd edition. 2006. Springer: New York NY. ISBN 1441920722.
+Informatics, \@nd edition. 2006. Springer: New York NY. ISBN<U+00A0>1441920722.
 
-![](../../images/evaluation-methods01.png)
+![](../../web/images/evaluation-methods01.png)
 
 
-:::
+
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Pmean: My teaching and research statement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/teaching-and-research/"
@@ -422,7 +422,7 @@ help me.
 ## Mining the electronic health record
 
 In January 2016, I was offered the opportunity to work on a research
-grant funded by the Patient Centered Outcomes Research Institute.  The
+grant funded by the Patient Centered Outcomes Research Institute.� The
 grant supported the Greater Plains Collaborative, a consortium of ten
 academic health care centers in the midwest. It was run out of
 Enterprise Analytics, located at Kansas University Medical Center. I
@@ -567,5 +567,5 @@ ethical conduct of research. Often researchers are barred from the
 optimal research design by ethical constraints and our job is to help
 find an alternative design that meets the needs of the researcher while
 still protecting the rights of the research volunteers.
-:::
+
 

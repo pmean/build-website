@@ -86,5 +86,5 @@ to answer those questions. Perhaps the most important thing is to get
 them a sense of self-confidence that they are working on an important
 problem and that they have a solid and defensible plan for solving that
 problem.
-:::
+
 

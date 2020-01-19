@@ -45,7 +45,7 @@ what the log window looks like when you run this on my system.
 
     NOTE: Writing HTML Body file: sashtml.htm
     NOTE: 8894 bytes written to C:\Users\simons\AppData\Local\Temp\SAS Temporary
-    Â Â Â Â Â  Files\_TD9268_KC-MED-917PFJ1_\gchart.gif.
+          Files\_TD9268_KC-MED-917PFJ1_\gchart.gif.
 
 It appears that SAS is creating an html file, which is okay by me, but
 it is also creating a graphics file, gchart.gif, buried deep in the
@@ -63,7 +63,7 @@ HTML and not creating a listing.
 
 I'm guessing a bit here, but I think that a listing is the old-fashioned
 way of displaying SAS output and HTML is a more recent innovation
-(though more recent probably means sometime in the late 1990â€²s). More
+(though more recent probably means sometime in the late 1990's). More
 recent than either is ODS, which I have [already
 mentioned](../sas-ods/index.html), though very briefly.
 
@@ -82,5 +82,5 @@ log.
 
 And if you navigate to the temp folder, you'll see the file you want.
 Hooray!
-:::
+
 

@@ -24,7 +24,7 @@ this part-time. I got some results that looked publishable by September
 2016. Based on the recommendation of my Russ Waitman, I [submitted
 this](../skin-of-my-teeth/index.html) for the AMIA 2017 Joint Summit on
 Translational Research. AMIA stands for the American Medical Informatics
-Association.Â  I was all for this. I'd get to see what others were doing
+Association.  I was all for this. I'd get to see what others were doing
 in the work of Informatics, get some feedback about my work, and best of
 all get to say hello to all the sea lions at Pier 39 in San Francisco.
 You had to submit pretty much a complete research paper for
@@ -164,7 +164,7 @@ That feedback arrived quickly (December 2016) and we decided to shoot
 for a journal publication. The length of the article was brief enough
 that we could submit it as a brief communication to the Journal of the
 American Medical Informatics Association. This is the same group that
-sponsored the San Francisco conference. The paper was sent outÂ  August
+sponsored the San Francisco conference. The paper was sent out  August
 2017.
 
 A month later, I got a rejection letter with this very terse comment:
@@ -211,5 +211,5 @@ There are some minor reformatting issues, but it should not take too
 long to get those changes ready and get the article shipped off.
 
 Wish me luck!
-:::
+
 

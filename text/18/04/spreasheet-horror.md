@@ -22,8 +22,8 @@ documents.
 European Spreadsheet Risks Interest Group. EuSpRIG Horror Stories.
 Available at <http://www.eusprig.org/horror-stories.htm>.
 
-![](../../images/spreasheet-horror01.png)
+![](../../web/images/spreasheet-horror01.png)
 
 
-:::
+
 

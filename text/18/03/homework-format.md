@@ -61,7 +61,7 @@ not warrant a comment in your report, put it in the appendix or leave it
 out entirely.
 
 If you do not know how to interpret a graph or table that you generated,
-please post a questionÂ  in the trouble shooting section of the
+please post a question  in the trouble shooting section of the
 discussion board.
 
 Your appendix will consist of the data dictionary for the raw data that
@@ -103,5 +103,5 @@ section of the discussion board.
 
 I will try to create some simple examples of what a homework submission
 should look like.
-:::
+
 

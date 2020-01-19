@@ -17,5 +17,5 @@ sure to hover over the image for a second punch line.
 
 <!---more--->
 
-:::
+
 

@@ -27,5 +27,5 @@ database that is scrubbed of personal identifiers, and will discuss the
 strengths and limitations of this data compared to other commonly used
 health care data sets. I will also show a simple example of creating a
 medical record phenotype and validating it against a tumor registry.
-:::
+
 

@@ -84,5 +84,5 @@ new health care interventions can be economically targeted to specific
 demographic subgroups. If your subgroup analysis comes up empty, that
 tells you that new health care interventions should be applied to all
 groups equally. Either way, you win.
-:::
+
 

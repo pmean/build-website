@@ -42,5 +42,5 @@ self-archive this work, but I have to investigate my options carefully.
 The [licensing terms for
 authors](https://www.nature.com/authors/policies/license.html) are quite
 detailed.
-:::
+
 

@@ -86,5 +86,5 @@ classes were originally taught as a live lecture in the computer
 laboratory but to meet student demands, we converted them into an
 asyhchronous online format. I am currently working with an expert
 database administrator to develop a fourth class, Introduction to SQL.
-:::
+
 

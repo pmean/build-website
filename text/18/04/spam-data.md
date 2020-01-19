@@ -19,8 +19,8 @@ Tiago A. Almeida, Jose Maria Gomez Hidalgo. SMS Spam Collection Data
 Set. Part of the UCI Machine Learning Repository. Available at
 <https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection>.
 
-![](../../images/spam-data01.png)
+![](../../web/images/spam-data01.png)
 
 
-:::
+
 
