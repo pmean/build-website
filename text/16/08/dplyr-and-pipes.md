@@ -21,8 +21,8 @@ Sean C. Anderson. dplyr and pipes: the basics. Published on September
 13, 2014. Available at
 <http://seananderson.ca/2014/09/13/dplyr-intro.html>
 
-![](../../images/dplyr-and-pipes01.png)
+![](../../web/images/dplyr-and-pipes01.png)
 
 
-:::
+
 

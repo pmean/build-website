@@ -52,6 +52,6 @@ can send more details if you are interested.
 I am also interested in developing case studies in research ethics. Here
 is [an example](http://pmean.com/cases/Tgn1412Popwerpoint.pdf).
 
- 
-:::
+
+
 

@@ -35,5 +35,5 @@ odds ratio, but it typically requires specialized software. Some people
 recommend that you add a small value to each cell (usually 0.5) before
 calculating the odds ratio. I can't recommend that approach (too ad
 hoc), but will note that some people think it is a good solution.
-:::
+
 

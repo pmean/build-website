@@ -26,4 +26,4 @@ I think the problem was not the prediction that Clinton would win, but rather th
 
 As I understand it, in the [ASA student competition to predict the election](http://thisisstatistics.org/electionprediction2016/), only 3% of the students predicted a Trump win. Those few who did, should be patting themselves on the back right now. But I can?t bring myself to criticize the other 97%.
 
-::: 
+ 

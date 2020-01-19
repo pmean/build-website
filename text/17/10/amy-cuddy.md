@@ -73,8 +73,8 @@ Susan Dominus. When the Revolution Came for Amy Cuddy. The New York
 Times Magazine (October 18, 2017). Available at
 <https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html>.
 
-![](../../images/amy-cuddy01.png)
+![](../../web/images/amy-cuddy01.png)
 
 
-:::
+
 

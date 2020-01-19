@@ -11,7 +11,7 @@ output: html_document
 Some asked a question about a retrospective study where you have a
 control cohort matched to a case cohort so the cohorts are similar on
 important (potentially confounding) variables. I pointed out that the
-two consecutive words "case cohort" are ambiguous and tried to explainÂ 
+two consecutive words "case cohort" are ambiguous and tried to explain 
 how I define a retrospective cohort design versus a (retrospective)
 case-control design.
 
@@ -79,5 +79,5 @@ To make things even more complicated, there is a case-cohort design and
 a case-crossover design. See [7.2 -- Advanced Case-Control Designs \|
 STAT 507](https://onlinecourses.science.psu.edu/stat507/node/49) for
 details. I think I'll stop here before my head explodes.
-:::
+
 

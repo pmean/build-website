@@ -43,7 +43,7 @@ of no sampling error
 
 .
 
-![](../../images/power-for-two-by-two-table01.gif)
+![](../../web/images/power-for-two-by-two-table01.gif)
 
 
 height="120"}
@@ -55,7 +55,7 @@ of 0.05.
 
 Under the null hypothesis, the test statistic,
 
-![](../../images/power-for-two-by-two-table02.gif)
+![](../../web/images/power-for-two-by-two-table02.gif)
 
 
 height="90"}
@@ -63,7 +63,7 @@ height="90"}
 is approximately a normal distribution with mean zero and standard
 deviation 1 where
 
-![](../../images/power-for-two-by-two-table03.gif)
+![](../../web/images/power-for-two-by-two-table03.gif)
 
 
 height="57"}
@@ -72,14 +72,14 @@ is the estimate of the proportion pooled across both groups. If the
 alternative hypothesis is true, then test statistic is approximately
 normal, but the mean is
 
-![](../../images/power-for-two-by-two-table04.gif)
+![](../../web/images/power-for-two-by-two-table04.gif)
 
 
 height="90"}
 
 and the standard deviation is
 
-![](../../images/power-for-two-by-two-table05.gif)
+![](../../web/images/power-for-two-by-two-table05.gif)
 
 
 height="127"}
@@ -89,7 +89,7 @@ about population parameters and not statistics.
 
 For a one sided test, the power would be
 
-![](../../images/power-for-two-by-two-table06.gif)
+![](../../web/images/power-for-two-by-two-table06.gif)
 
 
 height="37"}
@@ -98,7 +98,7 @@ where Z\* is not a standard normal, but rather the normal distribution
 described above. to calculate this probability, you need to standardize
 by subtracting the mean and dividing by the standard deviation.
 
-![](../../images/power-for-two-by-two-table07.gif)
+![](../../web/images/power-for-two-by-two-table07.gif)
 
 
 height="196"}
@@ -106,7 +106,7 @@ height="196"}
 Eeeek! It does simplify a bit. The left hand side is a now a standard
 normal. And you can cancel a few things on the right hand side.
 
-![](../../images/power-for-two-by-two-table08.gif)
+![](../../web/images/power-for-two-by-two-table08.gif)
 
 
 height="94"}
@@ -118,13 +118,13 @@ percentile of a standard normal distribution and solve for the sample
 size. There are actually two sample sizes here, so you need to assume
 that the sample sizes of the two groups are equal or perhaps that they
 vary in a certain ratio (2 to 1 in the example above). I won't show all
-the details, but like everything else here,  it is more tedious than
+the details, but like everything else here,<U+00A0> it is more tedious than
 difficult.
 
- 
+<U+00A0>
 
- 
+<U+00A0>
 
- 
-:::
+<U+00A0>
+
 

@@ -27,5 +27,5 @@ City, April 2015), and two talks for the Kansas City R Users Group
 MEDB 5561 Responsible Conduct of Research. I designed and helped teach a
 series of one hour intersession classes on R, SAS, and SPSS. I published
 four research papers and one book chapter.
-:::
+
 

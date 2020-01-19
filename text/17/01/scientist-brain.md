@@ -9,7 +9,7 @@ output: html_document
 ---
 
 I found an interesting research study that shows what happens inside the
-brains ofÂ  scientists as they view statistical graphs of the type
+brains of  scientists as they view statistical graphs of the type
 commonly used in peer-reviewed research. I don't have the citation in
 front of me, but it was published in a very prominent research journal.
 Here's a brief summary of the research.
@@ -67,5 +67,5 @@ treatment effect, and other unimportant issues.
 The researchers suggest that statisticians who want to earn more
 consulting income and insure repeated business should do their best to
 produce only p-values that stimulate the pleasure centers of the brain.
-:::
+
 

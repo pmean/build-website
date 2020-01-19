@@ -22,8 +22,8 @@ and open source. AMA!, The Winnower 5:e144172.22400 (2015). DOI:
 10.15200/winn.144172.22400. Available at
 <https://thewinnower.com/papers/2374-hi-i-m-mike-bostock-creator-of-d3-js-and-a-former-graphics-editor-for-the-new-york-times-i-do-data-visualization-design-and-open-source-ama>.
 
-![](../../images/mike-bostock01.png)
+![](../../web/images/mike-bostock01.png)
 
 
-:::
+
 

@@ -19,10 +19,10 @@ accrual.
 Cancer.net. One in Five Clinical Trials for Adults with Cancer Never
 Finish -- New Study Examines the Reasons. Genitourinary Cancers
 Symposium. January 28, 2014. Available at
-[http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-%E2%80%93-new-study-examines-reasons](http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-–-new-study-examines-reasons).
+[http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-%E2%80%93-new-study-examines-reasons](http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-<U+0096>-new-study-examines-reasons).
 
-![](../../images/unfinished-studies01.png)
+![](../../web/images/unfinished-studies01.png)
 
 
-:::
+
 

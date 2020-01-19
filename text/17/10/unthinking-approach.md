@@ -57,5 +57,5 @@ considered clinically important, then you should describe the result as
 being one that warrants further study with a larger sample size.
 
 Other than this one complaint, I think it is a very good article.
-:::
+
 

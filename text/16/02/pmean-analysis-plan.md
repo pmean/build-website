@@ -54,6 +54,6 @@ this:
 > discovered America ... because he said he was looking for India in the
 > trial plan."
 
- 
-:::
+
+
 

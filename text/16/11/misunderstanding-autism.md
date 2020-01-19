@@ -100,5 +100,5 @@ miracle, an inspiring story that helps us look at nonverbal patients
 with a new and different perspective. But sadly, the far more likely
 answer is that this story something worse, one more abuse in a long
 chain of misguided research that has plagued these parents for decades.
-:::
+
 

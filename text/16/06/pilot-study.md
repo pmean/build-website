@@ -18,7 +18,7 @@ research. Here is a broad overview of these issues.
 First things first. Some of you who are reading this page were
 originally going to do a "regular" research study, but then you realized
 that your budget was too small to get the sample size that you really
-needed.Â  It's not just the sample size that you can afford is just a
+needed.  It's not just the sample size that you can afford is just a
 little bit small. Your sample size is so small that your chances of
 finding something interesting are next to impossible. But you really,
 really, really want to do this study.
@@ -150,7 +150,7 @@ outcome.
 
 Now, how many subjects do you need in your pilot study to get a good
 estimate of the standard deviation? That's a tricky question. I've seen
-a couple of sources that say you need 20, 30, 40 or 80 subjects,Â  but
+a couple of sources that say you need 20, 30, 40 or 80 subjects,  but
 it's hard to understand the justification for any of these numbers. [One
 other
 recommendation](http://www.ncbi.nlm.nih.gov/pubmed/8532986?dopt=Abstract)
@@ -210,5 +210,5 @@ research. The first entry is:
 
 [PMean: So you're thinking about a retrospective chart
 review](../chart-review/index.html).
-:::
+
 

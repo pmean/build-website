@@ -25,7 +25,7 @@ Abstract: If you wish to become an independent statistical consultant,
 you will find that the work is challenging, but also rewarding. In this
 talk, I will contrast working as an independent consultant to working
 within a large organization. I will then review the issues that you face
-withÂ an independent consulting practice: business models, billing,
+with an independent consulting practice: business models, billing,
 contracts, taxes, and most importantly, how to find clients.
 
 In December, I'll be talking to the Kansas City R Users Group about
@@ -40,5 +40,5 @@ I'll be giving a webinar for the Analysis Factor in February or March
 about transformations, another webinar later that spring about
 equivalence and non-inferiority tests, and an eight week web course on
 survival analysis.
-:::
+
 

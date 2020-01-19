@@ -18,8 +18,8 @@ Horton NJ, Baumer BS, Wickham H. Teaching precursors to data science in
 introductory and second courses in statistics. Available at
 <https://arxiv.org/abs/1401.3269>.
 
-![](../../images/precursors-to-data-science01.png)
+![](../../web/images/precursors-to-data-science01.png)
 
 
-:::
+
 

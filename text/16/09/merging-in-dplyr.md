@@ -30,5 +30,5 @@ Another big advantage that dplyr uses well known terminology
 (inner\_join, left\_join, right\_join, outer\_join) rather than the
 somewhat cryptic all.x and all.y arguments in merge (all.x=TRUE and
 all.y=FALSE, for example, gives a left join).
-:::
+
 

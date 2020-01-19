@@ -23,7 +23,7 @@ often take advantage of them, But the path of least resistance is to
 just run everything. This is different, as I understand it, for Jupyter,
 but I have not tried Jupyter yet to know for sure.
 
-One nice option (so I thought)Â  was CACHE. If you set CACHE equal to
+One nice option (so I thought)  was CACHE. If you set CACHE equal to
 TRUE, it only runs a chunk if it has changed since the last run or if it
 is preceded by a chunk that has changed. That can save you big time for
 some programs, but you have to be careful.
@@ -61,5 +61,5 @@ functions remains.
 The simple solution is to avoid CACHE=TRUE, but I hate to do this. A
 better solution is to set CACHE=TRUE globally, but then override it for
 any chunk that uses the source function.
-:::
+
 

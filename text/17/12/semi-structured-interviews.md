@@ -22,8 +22,8 @@ Ted Zorn. Designing and conducting semi-structured interviews for
 research. Available at
 <http://home.utah.edu/~u0326119/Comm4170-01/resources/Interviewguidelines.pdf>.
 
-![](../../images/semi-structured-interviews01.png)
+![](../../web/images/semi-structured-interviews01.png)
 
 
-:::
+
 

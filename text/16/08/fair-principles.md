@@ -29,8 +29,8 @@ management and stewardship. Sci. Data 3:160018 doi:
 10.1038/sdata.2016.18 (2016). Available at
 <http://www.nature.com/articles/sdata201618>.
 
-![](../../images/fair-principles01.png)
+![](../../web/images/fair-principles01.png)
 
 
-:::
+
 

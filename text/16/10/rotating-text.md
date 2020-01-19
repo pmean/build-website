@@ -71,5 +71,5 @@ pixels for each unit in the x direction and 6 pixels for each unit in
 the y direction. That means that you have 512 horizontal pixels and 337
 vertical pixels. The arctangent in pixels will give you an angle of 33
 degrees.
-:::
+
 

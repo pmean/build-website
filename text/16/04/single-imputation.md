@@ -11,7 +11,7 @@ output: html_document
 I wanted to use R to show some simple approaches to imputing missing
 values. These approaches are difficult to support because they require
 that you make some questionable and unverifiable assumptions about your
-data.Â  They still may prove useful as a sensitivity check or as a
+data.  They still may prove useful as a sensitivity check or as a
 springboard into more complex approaches for imputing missing values. I
 have a link to the [code that generated most of these
 results](https://github.com/pmean/single-imputation).
@@ -201,5 +201,5 @@ of 0's and 1's to figure this out, but this solumn is a nice convenience
 wheh you have lots of variables, because it is easy to miscount a long
 string of 0s and 1s.
 
-::: {#simple-imputation .section .level2}
+ {#simple-imputation .section .level2}
 

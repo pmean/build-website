@@ -19,8 +19,8 @@ International Association of Survey Statisticians. The Survey
 Statistician newsletter. Available at
 <http://isi-iass.org/home/services/the-survey-statistician/>.
 
-![](../../images/survey-newsletter01.png)
+![](../../web/images/survey-newsletter01.png)
 
 
-:::
+
 

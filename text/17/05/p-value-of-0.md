@@ -41,5 +41,5 @@ as an amateur. So be a reasonable person and report the p-value as .001.
 Some people might prefer p \<.001 and I won't complain about that. But
 never, never, never use scientific notation on very small p-values to
 give your p-value a false sense of precision.
-:::
+
 

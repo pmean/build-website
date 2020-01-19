@@ -28,7 +28,7 @@ and the choices as to what items to remove was made based on the
 subjective opinion of a subject matter expert (yourself).
 
 Then when the excessively picky reviewer (in my opinion) rejects your
-paper, send it to a different journal.Â  In general, it's a bad idea to
+paper, send it to a different journal.  In general, it's a bad idea to
 change scales because a reviewer is likely to raise concerns. But I
 think that the practicalities of research sometimes require you to
 shorten a survey, because a shorter survey with uncertain psychometric
@@ -49,5 +49,5 @@ offering to share the protocol that you send to and that was approved by
 the IRB. It's still an arbitrary choice, but it is not one that would be
 biased by the data analysis. It's not like you ran ten different
 analyses and then chose the one with the smallest p-value.
-:::
+
 

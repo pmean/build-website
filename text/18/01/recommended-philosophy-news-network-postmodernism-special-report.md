@@ -23,8 +23,8 @@ yourself.
 Philosophy News Network: Postmoderism Special Report. Available at
 <http://existentialcomics.com/comic/218>.
 
-![](../../images/recommended-philosophy-news-network-postmodernism-special-report01.png)
+![](../../web/images/recommended-philosophy-news-network-postmodernism-special-report01.png)
 
 
-:::
+
 

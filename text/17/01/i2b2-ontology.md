@@ -20,8 +20,8 @@ Janice Donahoe, i2b2 Design Document: Ontology Management (ONT) Cell.
 Available at
 <https://www.i2b2.org/software/files/PDF/current/Ontology_Design.pdf>.
 
-![](../../images/i2b2-ontology01.png)
+![](../../web/images/i2b2-ontology01.png)
 
 
-:::
+
 

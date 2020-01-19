@@ -62,5 +62,5 @@ because it tells you a bit more about each variable than just the name.
 
 3\. Always remember to do a quick review of any transformed variables
 with the summary function.
-:::
+
 

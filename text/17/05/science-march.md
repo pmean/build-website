@@ -14,5 +14,5 @@ Siobhan Tompson, were too funny to pass up.
 <!---More--->
 
 ![](https://s3.amazonaws.com/higherlogicdownload/AMSTAT/Contacts/33659d01-0b83-4ade-b047-2994584b6892/TinyMCE/Double-blind%20Tweet.jpg%3b){width="300"}
-:::
+
 

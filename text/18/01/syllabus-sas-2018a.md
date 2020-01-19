@@ -9,7 +9,7 @@ output: html_document
 ---
 
 I am teaching a class, Introduction to SAS (MEDB 5507). Here is the
-syllabus for Spring  Semester 2018.
+syllabus for Spring<U+00A0> Semester 2018.
 
 <!---More--->
 
@@ -226,7 +226,7 @@ To post a question on this forum,
 Note -- if you are getting a SAS error message you don't understand, you
 can copy the error message into the Description box. If you want a
 section of coding reviewed because you are having a problem with it, you
-can also copy the text into the Description box.  The instructor will
+can also copy the text into the Description box.<U+00A0> The instructor will
 review and respond to items posted on the Discussion Board on a regular
 basis. If you have not gotten a response within a day or two, send an
 email to the instructor asking her to review your question in the
@@ -288,15 +288,15 @@ eighth week of classes (Friday, March 9, 2018).
 -   Coding subscale scores
 -   Computing mean scores
 -   Using an array and do loop to code
--   Create a « cut-point » score
+-   Create a <U+00AB> cut-point <U+00BB> score
 
 Please complete all of the work for this section by the end of the ninth
 week of classes (Friday, March 16, 2018).
 
 **Part 6 -- Restructuring Your Datasets**
 
--   Create an « horizontal » dataset from a « vertical » dataset
--   Create a « vertical » dataset from an « horizontal » dataset
+-   Create an <U+00AB> horizontal <U+00BB> dataset from a <U+00AB> vertical <U+00BB> dataset
+-   Create a <U+00AB> vertical <U+00BB> dataset from an <U+00AB> horizontal <U+00BB> dataset
 
 Please complete all of the work for this section by the end of the tenth
 week of classes (Friday, March 23, 2018).
@@ -334,8 +334,8 @@ in a different course.
 This course follows the "Faculty allowing recording" option of the
 Academic Inquiry, Course Discussion and Privacy policy.
 
- 
 
- 
-:::
+
+
+
 

@@ -81,7 +81,7 @@ the same classes.
 
 In graduate school, I met Deanna Wild, a fellow Statistics student, and
 we hit it off right away. We would pass notes back and forth during our
-Regression Analysis and Design of Experiments classes.Â  Deanna left Iowa
+Regression Analysis and Design of Experiments classes.  Deanna left Iowa
 after getting her Masters degree in Statistics but came back after a
 year to start an MBA program. We married shortly before my final year at
 Iowa.
@@ -225,5 +225,5 @@ last runners to finish these races, I do take pride in being able to run
 for 40 minutes without stopping and resting.
 
 I want to add a few more details, but that's the big picture.
-:::
+
 

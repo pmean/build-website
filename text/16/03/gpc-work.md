@@ -36,5 +36,5 @@ working on, the better off you are in the long run. So everything that I
 have ever worked on by myself is described in detail on my web pages and
 my blog. It's nice to work with others who are equally comfortable with
 that approach.
-:::
+
 

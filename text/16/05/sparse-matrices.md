@@ -291,7 +291,7 @@ The pointer format is usually quite efficient, but there are other
 alternatives. You can store the row and column locations for every
 non-zero element. This is the T format. With pointers, I showed the
 format with row locations and column pointers, but you could just as
-easily have listed the column location and row pointers. These are theÂ 
+easily have listed the column location and row pointers. These are the 
 (C and R formats), respectively.
 
 If you matrix contains only zeros and ones, you can save a bit more
@@ -315,5 +315,5 @@ You can combine these in various ways, leading to a dizzying number of
 formats, but once you understand the code, it gets a bit easier. So the
 nsCMatrix class represents a binary (n) symmetric (s) matrix stored in a
 sparse format with column pointers (C).
-:::
+
 

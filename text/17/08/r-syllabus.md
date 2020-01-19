@@ -18,7 +18,7 @@ syllabus for Fall Semester 2017.
 **1. Introduction**
 
 A working knowledge of statistical software is a vital skill for anyone
-involved in quantitative research.  This class will introduce data
+involved in quantitative research. <U+00A0>This class will introduce data
 management, simple descriptive statistics, and basic graphical display
 using the R software package. Students will develop the fundamental
 skills needed to prepare data sets for analysis, and to conduct simple
@@ -99,7 +99,7 @@ flexibility for meeting via telephone.
 **3. Class structure**
 
 This class will be taught as a self-paced, asynchronous online course.
- The course material is presented in five parts, with 4 assignments that
+The course material is presented in five parts, with 4 assignments that
 will be submitted to the instructor. In order to achieve learning
 objectives, students are expected to review provided course materials,
 including recorded lectures.
@@ -146,7 +146,7 @@ the appeal process can be found in the academic regulations information
 
 **4.1 Textbook**
 
-There is NO required textbook for this class.   However, the following
+There is NO required textbook for this class.<U+00A0><U+00A0> However, the following
 books are possible resources you might want to purchase for your future
 work with R:
 
@@ -211,7 +211,7 @@ lecture that shows a demonstration of R program execution. If you are
 trying to work in R at the same time as viewing the recorded lectures,
 it is recommended that you use a system that will allow you to follow
 along with the recordings and make notes as needed. The most effective
-system is using two monitors.  This can be accomplished by playing the
+system is using two monitors.<U+00A0> This can be accomplished by playing the
 recording on one screen and doing other operations on the other screen.
 
 All of the files and videos referenced below are available at
@@ -313,5 +313,5 @@ in a different course.
 
 This course follows the "Faculty allowing recording" option of the
 Academic Inquiry, Course Discussion and Privacy policy.
-:::
+
 

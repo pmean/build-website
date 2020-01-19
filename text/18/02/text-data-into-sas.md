@@ -83,7 +83,7 @@ Let's take this apart, line by line.
       "c:/Users/simons/Dropbox/u/DBHI/classes/2018a_sas/dat";
 
 The LIBNAME statement takes the long and ugly path where I store my
-files and assigns it the nickname "MEDB5507″. Your LIBNAME statement, of
+files and assigns it the nickname "MEDB5507<U+2033>. Your LIBNAME statement, of
 course, will look different, and you may prefer a different nickname.
 
     filename backpain
@@ -396,4 +396,4 @@ The LOG window, however, looks quite a bit different than the code.
     240 run;
 
 This is the code that PROC IMPORT generated.
-:::
+

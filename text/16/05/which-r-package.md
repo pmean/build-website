@@ -56,7 +56,7 @@ package, that's a sign to me that they did not invest as much time in
 the package as others did.
 
 Then I remembered the crantastic web site (<http://crantastic.org/>).
-This is a site created by Hadley Wickham and Bjørn Mæland that offers
+This is a site created by Hadley Wickham and Bj<f8>rn M<e6>land that offers
 user submitted reviews of the various packages along with links to the
 package and a revision history. Many packages in crantastic do not have
 any reviews yet, and that by itself is revealing. If no one has reviewed
@@ -100,6 +100,6 @@ broad categories like Finance, Genetics, or Time Series. These lists are
 VERY detailed, and it is unlikely to leave out any package that even
 remotely fits into the category.
 
- 
-:::
+
+
 

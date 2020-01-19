@@ -19,8 +19,8 @@ examples.
 Five Thirty Eight Data. Available at
 [https://github.com/fivethirtyeight/data](https://github.com/fivethirtyeight/data').
 
-![](../../images/five-thirty-eight-data01.png)
+![](../../web/images/five-thirty-eight-data01.png)
 
 
-:::
+
 

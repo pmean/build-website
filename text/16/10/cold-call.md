@@ -16,5 +16,5 @@ cautionary comment and then discussed finding your niche.
 
 <!---More--->
 
-::: {lang="x-unicode"}
+ {lang="x-unicode"}
 

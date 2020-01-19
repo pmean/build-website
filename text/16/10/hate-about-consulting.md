@@ -65,5 +65,5 @@ questions that seem to come out of left field. But if you really love
 what you do and you work hard at it, you will be successful. I know a
 fair number of consultants who are much younger than me, and they seem
 to be doing okay.
-:::
+
 

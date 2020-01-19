@@ -54,5 +54,5 @@ are, perhaps, a bit peripheral to Statistics.
 4.  Medical informatics
 5.  Research ethics
 6.  Software engineering
-:::
+
 

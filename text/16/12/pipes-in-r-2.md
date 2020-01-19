@@ -29,17 +29,17 @@ There are still a few parentheses, but it is much more manageable. You
 can also change the code easily. For example, suppose you wanted to
 round to the first decimal rather than the whole number. In the nested
 functions above, you'd have to figure out where among the various
-parentheses you would add the ",1″. It ends up looking like
+parentheses you would add the ",1<U+2033>. It ends up looking like
 
     return(round(cumsum(c(0,sqrt(x^2+y^2))),1))
 
 but it would be very easy to place this one parentheses off and then R
-things that you are adding a ",1″ to the cumsum function. Not nice.
+things that you are adding a ",1<U+2033> to the cumsum function. Not nice.
 
 This is the change you'd make using pipes.
 
     c(0,sqrt(x^2+y^2)) %>% cumsum %>% round(1) %>% return
 
 Much less chance of making an error.
-:::
+
 

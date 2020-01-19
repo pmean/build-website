@@ -29,5 +29,5 @@ to read.
 You might also read "The Signal and the Noise" by Nate Silver. You won't
 understand Bayesian statistics when you're done reading the book, but
 you'll understand why we need Bayesian statistics.
-:::
+
 

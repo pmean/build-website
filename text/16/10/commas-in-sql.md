@@ -65,6 +65,6 @@ Those pesky commas are important.
 I'm hoping that if I write down my mistake and publish it widely, I
 won't forget and make the same mistake again next week.
 
- 
-:::
+
+
 

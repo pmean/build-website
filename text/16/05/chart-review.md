@@ -62,9 +62,9 @@ pretty explicit that you can't take any Protected Health Information
 these medical records, you might have a fair amount of latitude.
 
 Some institutions have developed anonymized data repositories that you
-can also useÂ  for preparatory to research activities and sometimes even
+can also use  for preparatory to research activities and sometimes even
 for the research itself. Typically, you need to get some sort of
-authorization first. They want you to promise not to doÂ  bad things with
+authorization first. They want you to promise not to do  bad things with
 the data. If you have such a repository, please take the time to work
 with it before you write your protocol.
 
@@ -148,7 +148,7 @@ explicit comparison group, though, make sure that the comparison group
 is different than your patient population, but different in only one
 dimension. If your patient population is kids with asthma who visit the
 emergency room during a weekday between 9am and 5pm, then your
-comparison group might be ADULTS with asthmaÂ  who visit the emergency
+comparison group might be ADULTS with asthma  who visit the emergency
 room on a weekday between 9am and 5pm, or it might be kids with
 BRONCHITIS who visit the emergency room on a weekday between 9am and
 5pm, or it might be kids with asthma who have an OUTPATIENT visit on a
@@ -350,5 +350,5 @@ of a research publication. You can't write the results section, unless
 you're clairvoyant, or the discussion section for that matter, but even
 having a small piece of the paper written now will make you feel so much
 better.
-:::
+
 

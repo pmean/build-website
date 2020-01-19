@@ -19,8 +19,8 @@ it looks very interesting.
 Havard Rue. Bayesian computing with INLA. Available at
 <http://www.r-inla.org/home>.
 
-![](../../images/inla01.png)
+![](../../web/images/inla01.png)
 
 
-:::
+
 

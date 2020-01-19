@@ -62,6 +62,6 @@ If you charge by the project, be sure to ask for some of the money up
 front, before you start your work and more of the money as you reach one
 or more mid-project milestones.
 
- 
-:::
+
+
 

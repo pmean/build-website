@@ -23,22 +23,22 @@ end up in the upper right corner represent survival rates that stay high
 for a long period of time. For unwanted events, such a curve is very
 good news.
 
-![](../../images/open-source-km01.bmp)
+![](../../web/images/open-source-km01.bmp)
 
 
 
 A few graphs will reverse this scale by looking at the probability of
-death rather than the probability of survival.  Here, the upper left
+death rather than the probability of survival. <U+00A0>Here, the upper left
 corner is bad and the lower right corner is good.
 
-![](../../images/open-source-km02.bmp)
+![](../../web/images/open-source-km02.bmp)
 
 
 
 Each step represents one or more events (deaths if your outcome is
 survival.
 
-![](../../images/open-source-km03.bmp)
+![](../../web/images/open-source-km03.bmp)
 
 
 
@@ -102,5 +102,5 @@ From
 
 From
 <http://ro-journal.biomedcentral.com/articles/10.1186/1748-717X-7-78>.
-:::
+
 

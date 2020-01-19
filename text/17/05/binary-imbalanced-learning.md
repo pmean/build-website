@@ -26,8 +26,8 @@ for Binary Imbalanced Learning. The R Journal 6/1, 79-89, June 2014.
 Available at
 <https://journal.r-project.org/archive/2014-1/menardi-lunardon-torelli.pdf>.
 
-![](../../images/binary-imbalanced-learning01.png)
+![](../../web/images/binary-imbalanced-learning01.png)
 
 
-:::
+
 

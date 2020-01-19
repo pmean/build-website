@@ -40,15 +40,15 @@ clicking on it, I named the repository (single-imputation), and selected
 the Creative Commons Zero v1.0 license. There are other licensing
 options, mostly of the open source or public domain variety, but you
 don't have to commit to any particular license as this step is optional.
-  Then I uploaded a program to the repository (impute.Rmd). There were a
+ Then I uploaded a program to the repository (impute.Rmd). There were a
 few other files, .gitignore, LICENSE, and README.md, that github placed
 in the repository for me. I made some changes to README.md, just
 because. You can put anything in this file, but the recommendation is
 that you should specify what your program does and what it needs to run
 properly in your README.md file. Then I opened up R Studio and tried to
 open a new project (File \| New Project from the menu) and specified
-that I should create the new project from version control.  It then
-asked me which program I was using for version control.  It didn't work
+that I should create the new project from version control.<U+00A0> It then
+asked me which program I was using for version control.<U+00A0> It didn't work
 the first time because I needed to restart R Studio after I installed
 the git software.
 
@@ -99,5 +99,5 @@ got above 60, to be honest.
 
 I'm still getting used to version control, but it's not all that hard
 even for an old dog like me.
-:::
+
 

@@ -38,5 +38,5 @@ either product in great detail.
 There's a third product that UMKC researchers have used in the past,
 Survey Monkey. It's a nice product, but doesn't have any real advantages
 over REDCap.
-:::
+
 

@@ -18,7 +18,7 @@ syllabus for Fall Semester 2017.
 **1. Introduction**
 
 A working knowledge of statistical software is a vital skill for anyone
-involved in quantitative research.  This class will introduce data
+involved in quantitative research. <U+00A0>This class will introduce data
 management, simple descriptive statistics, and basic graphical display
 using the SPSS software package. Students will develop the fundamental
 skills needed to prepare data sets for analysis, and to conduct simple
@@ -39,7 +39,7 @@ statistics classes or in your thesis/dissertation research.
 
 At the completion of this course, students will be able to:
 
--    Prepare and manipulate datasets for analysis in SPSS.
+-   <U+00A0>Prepare and manipulate datasets for analysis in SPSS.
 -   Conduct simple descriptive and graphic analyses of data in SPSS.
 -   Prepare a report with a summary of analyses conducted in SPSS.
 
@@ -99,7 +99,7 @@ flexibility for meeting via telephone.
 **3. Class structure**
 
 This class will be taught as a self-paced, asynchronous online course.
- The course material is presented in five parts, with 4 assignments that
+The course material is presented in five parts, with 4 assignments that
 will be submitted to the instructor. In order to achieve learning
 objectives, students are expected to review provided course materials,
 including recorded lectures.
@@ -112,7 +112,7 @@ homework. Students will have access to the SPSS program either directly
 on a computer that has SPSS installed or through UMKC Remote Labs
 (<http://www.umkc.edu/is/remotelabs>). For those students who wish to
 purchase the student version of SPSS for their private computer, it can
-be ordered from the UMKC Bookstore at the cost of \$110.   As the final
+be ordered from the UMKC Bookstore at the cost of \$110.<U+00A0> <U+00A0>As the final
 project of the class, students will independently apply these skills to
 their own dataset and produce an analysis of these data.
 
@@ -151,20 +151,20 @@ the appeal process can be found in the academic regulations information
 
 **4.1 Textbook**
 
-There is NO required textbook for this class.   However, the following
+There is NO required textbook for this class.<U+00A0><U+00A0> However, the following
 books are possible resources you might want to purchase for your future
 work with SPSS:
 
--    Julie Pallant. SPSS Survival Manual: A Step by Step Guide to Data
+-   <U+00A0>Julie Pallant. SPSS Survival Manual: A Step by Step Guide to Data
     Analysis Using SPSS.
--   Andy Field.  Discovering Statistics Using IBM SPSS Statistics.
+-   Andy Field.<U+00A0> Discovering Statistics Using IBM SPSS Statistics.
 
 **4.2 SPSS software**
 
 This course will use SPSS for all assignments and the final
 project/exam. You will have access to this program through UMKC remote
-labs (<http://www.umkc.edu/is/remotelabs/>).   SPSS is also available on
-computers at the School of Medicine Library.  The Department of
+labs (<http://www.umkc.edu/is/remotelabs/>). <U+00A0><U+00A0>SPSS is also available on
+computers at the School of Medicine Library. <U+00A0>The Department of
 Biomedical and Health Informatics has student computer workstations
 available that can be used by arrangement.
 
@@ -192,10 +192,10 @@ Your Q drive space is limited (approximately 500 mB), so you might want
 to also use cloud storage for your files. Free cloud storage options
 include --
 
--    Box.com
--    Drop Box
--    Google Drive (free with a Google email address)
--    Microsoft One Drive
+-   <U+00A0>Box.com
+-   <U+00A0>Drop Box
+-   <U+00A0>Google Drive (free with a Google email address)
+-   <U+00A0>Microsoft One Drive
 
 Cloud storage will give you additional space to store files. If you have
 any question about setting up a cloud storage account using any of these
@@ -236,14 +236,14 @@ in the course Blackboard site in the Course Content area will be data
 files (some that are not publically available), descriptions of these
 data files, and the SPSS program files used for the recorded examples.
 These files can be used as the starting point for your own analyses if
-desired.  Additionally, associated syntax files can be edited using the
+desired.<U+00A0> Additionally, associated syntax files can be edited using the
 SPSS syntax editor.
 
 If you are trying to work in SPSS at the same time as viewing the
 recorded lectures, it is recommended that you use a system that will
 allow you to follow along with the recordings and make notes as needed.
 
-The most effective system is using 2 monitors.  This can be accomplished
+The most effective system is using 2 monitors.<U+00A0> This can be accomplished
 by playing the recording on one screen and doing other operations on the
 other screen.
 
@@ -259,7 +259,7 @@ three videos (total viewing time: 1 hour 35 minutes).
 
 Video 1.1. Review of terminology
 
--    Basic categories of research
+-   <U+00A0>Basic categories of research
 -   What is a variable
 -   Categorical versus continuous
 -   Independent versus dependent variables
@@ -271,7 +271,7 @@ Video 1.1. Review of terminology
 
 Video 1.2. Getting data into SPSS
 
--    Creating a new data set
+-   <U+00A0>Creating a new data set
 -   Valid variable names
 -   Variable view
 -   Adding value labels
@@ -386,5 +386,5 @@ in a different course.
 
 This course follows the "Faculty allowing recording" option of the
 Academic Inquiry, Course Discussion and Privacy policy.
-:::
+
 

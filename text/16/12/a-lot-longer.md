@@ -38,5 +38,5 @@ For what it's worth, a small retrospective chart review of your own
 patients, which is a type of secondary data analysis, doesn't seem to
 have this problem. It's when you are using someone else's data and not
 your own that the problems occur.
-:::
+
 

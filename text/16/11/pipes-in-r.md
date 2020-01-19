@@ -73,5 +73,5 @@ each line.
 
 If you want to learn more, check out the [magrittr
 vignette](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html).
-:::
+
 

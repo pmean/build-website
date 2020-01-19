@@ -31,7 +31,7 @@ examples to show the right way to do research.
 
 **Black-and-white thinking**. An important critical thinking skill is
 deciding when a problem is so serious that you should totally disregard
-that study.Â  Think of this as the fatal flaw approach to critical
+that study.  Think of this as the fatal flaw approach to critical
 thinking. It's easy to find fatally flawed studies. The problem is that
 the number and frequency of fatal flaws is far outnumbered by non-fatal
 flaws.
@@ -115,5 +115,5 @@ researcher team did well to what the other team did not (or could not).
 If you don't take the time to pair your bad example with a good example,
 don't be surprised when your students revert to black-and-white
 thinking, or if they become cynical or fearful.
-:::
+
 

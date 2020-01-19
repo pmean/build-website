@@ -152,5 +152,5 @@ If you try this code on your system, your results may not match the
 results you see here, for a wide variety of reasons that are impossible
 to list. Graphics are often the result of trial and error, and if you
 don't get the results you want right away, keep plugging away.
-:::
+
 

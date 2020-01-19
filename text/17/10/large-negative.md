@@ -68,5 +68,5 @@ some people's minds means "inconsequential" when the opposite is true.
 When I am careful in my language, I try to use the word "extreme" to
 mean very far away from the null value (1 for a likelihood ratio or 0
 for a correlation) rather than "large" or "small".
-:::
+
 

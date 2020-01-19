@@ -35,7 +35,7 @@ well established standards.
 
 The .gitignore file tells git that there are certain types of files that
 might exist on your local computer but which are not needed or wanted in
-the repository. This is important, because youÂ don't want a repository
+the repository. This is important, because you don't want a repository
 that is excessively cluttered. Here are the files that I put in
 .gitignore.
 
@@ -85,5 +85,5 @@ level of sharing, so you should consider a fairly liberal license. I
 decided on the Creative Commons Public Domain license. It's a bit more
 liberal than what I have for the rest of my blog and web site, but I'm
 fine with that.
-:::
+
 

@@ -17,7 +17,7 @@ setting.
 <!---More--->
 
 If you run a google search on the hierarchical beta binomial model, you
-see a lot of helpful choices.Â  Many of these are PDFs and my system does
+see a lot of helpful choices.  Many of these are PDFs and my system does
 not let me track the URLs of PDF files that easily. But you should be
 able to find these easily. Also, many of these PDFs are Powerpoint
 slides. Powerpoint slides are usually too sketchy to be useful, but
@@ -57,7 +57,7 @@ uses the rat tumor data from Gelman et al.
 
 Brian Junker, 36-724 Spring 2006: Metropolis-Hastings Example, February
 22, 2006 also uses a beta distribution for alpha/(alpha+beta) but
-suggests a Pareto distribution for (alpha+beta).Â  The Pareto is a power
+suggests a Pareto distribution for (alpha+beta).  The Pareto is a power
 law distribution and the power that Dr. Junker recommends 1.5. You have
 to read his arguments, but it involves a transformation of a fairly
 standard normal hierarchical model.
@@ -106,5 +106,5 @@ what their choice will be.
 
 I should read some of the books in my library and check out some
 peer-reviewed references.
-:::
+
 

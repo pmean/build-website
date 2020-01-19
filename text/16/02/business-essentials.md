@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "PMean: Business essentials that you need to know before starting your career as an independent statistical consultant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/business-essentials/"
@@ -72,8 +72,8 @@ you decide on any course of action.
 There are many business entities that you can create for your consulting
 venture, but the simplest, by far, is a sole proprietorship.
 
-In a sole proprietorship, you are doing business under your name.Â  You
-do not need to file any paperwork and taxes are relatively simple.Â  It
+In a sole proprietorship, you are doing business under your name.  You
+do not need to file any paperwork and taxes are relatively simple.  It
 cannot be a partnership (sole=one and only one). You are personally
 liable for any debts and cannot protect your personal assets if you get
 sued.
@@ -95,7 +95,7 @@ requires some legal paperwork and possibly some legal fees.
 
 An S corporation/C corporation also produces an independent legal entity
 that conducts business under its own name. It has some protection
-against creditors and litigants.Â It has more stringent legal
+against creditors and litigants. It has more stringent legal
 requirements than an LLC. Like an LLC, it requires paperwork and legal
 fees. It has special rules for taxation that can sometime save you
 money. Tax rules are the biggest differentiation between an LLC and an
@@ -388,7 +388,7 @@ Business insurance requirements might include liability insurance and
 errors and omissions insurance.
 
 I get personal insurance coverage through my spouse, which makes life a
-lot easier for me. IfÂ  can't get coverage through your spouse's job, you
+lot easier for me. If  can't get coverage through your spouse's job, you
 need to find a way to pay for some of the personal insurance needs that
 your company would have provided for you as a part of your work
 contract.
@@ -471,7 +471,7 @@ Billing
 -   Copeland K, Max TA, Devlin S. Going Rates for Statistical
     Consulting. Newsletter of the Statistical Consulting Section of the
     American Statistical Association (Spring
-    2006).Â [www.amstat.org/sections/cnsl/newsletter/pdf\_archive/vol23no1.pdf](http://www.amstat.org/sections/cnsl/newsletter/pdf_archive/vol23no1.pdf)
+    2006). [www.amstat.org/sections/cnsl/newsletter/pdf\_archive/vol23no1.pdf](http://www.amstat.org/sections/cnsl/newsletter/pdf_archive/vol23no1.pdf)
 
 Accounting
 
@@ -495,5 +495,5 @@ Insurance
     [money.cnn.com/retirement/guide/selfemployment\_basics.moneymag/](http://money.cnn.com/retirement/guide/selfemployment_basics.moneymag/)
 
 </div>
-:::
+
 

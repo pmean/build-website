@@ -70,8 +70,8 @@ Here are the course objective:
 -   Conduct an independent analysis of a data set of your own choosing.
     Prepare a report with a basic summary of your data analysis.
 
- 
 
- 
-:::
+
+
+
 

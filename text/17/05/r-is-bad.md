@@ -21,8 +21,8 @@ William Vorhies, Why R is Bad for You. Data Science Central Blog ,
 posted on May 15, 2017. Available at
 <http://www.datasciencecentral.com/profiles/blogs/why-r-is-bad-for-you>.
 
-![](../../images/r-is-bad01.png)
+![](../../web/images/r-is-bad01.png)
 
 
-:::
+
 

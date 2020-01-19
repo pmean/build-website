@@ -9,7 +9,7 @@ output: html_document
 ---
 
 I've gotten an inquiry about teaching a couple of webinars. Nothing's
-official yet, but let me outline theÂ  these webinars here on my blog. If
+official yet, but let me outline the  these webinars here on my blog. If
 the offer becomes official, I will update on this blog post or on a new
 post.
 
@@ -109,5 +109,5 @@ pmean.com.
 
 9\. What to put on social media. It has to be fresh, focused, and fun.
 Some cautions about overly aggressive efforts at self-promotion.
-:::
+
 

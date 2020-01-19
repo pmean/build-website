@@ -194,5 +194,5 @@ general, I certainly would encourage you to experiement with simple
 regular expressions. In particular, I have found the ability to match
 only at the beginning (\^) or only at the end (\$) of a string to be
 very useful.
-:::
+
 

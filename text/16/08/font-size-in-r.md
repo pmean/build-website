@@ -19,7 +19,7 @@ a readable sized font. Here's how you do it.
 Go to the menu and select Edit and Gui Preferences. You'll see this
 dialog box.
 
-![](../../images/font-size-in-r01.png)
+![](../../web/images/font-size-in-r01.png)
 
 
 
@@ -33,11 +33,11 @@ If you are cutting and pasting code from notepad into R, then there is
 an easy way to increase the font size in notepad. Click on FORMAT then
 FONT and you will see the following dialog box.
 
-![](../../images/font-size-in-r02.png)
+![](../../web/images/font-size-in-r02.png)
 
 
 
 Increase the font size to 18 or 24 and everyone will see what you are
 doing much better.
-:::
+
 

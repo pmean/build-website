@@ -25,10 +25,10 @@ and Ambuj Kumar. Published methodological quality of randomized
 controlled trials does not reflect the actual quality assessed in
 protocols.J Clin Epidemiol. 2012 Jun; 65(6): 602--609. doi:
 10.1016/j.jclinepi.2011.10.016. Available
-at <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3637913/>
+at<U+00A0><https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3637913/>
 
-![](../../images/quality-of-rct01.png)
+![](../../web/images/quality-of-rct01.png)
 
 
-:::
+
 

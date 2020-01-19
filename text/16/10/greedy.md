@@ -91,7 +91,7 @@ following string
 
     "[274.0] Carcinoma in situ [47,232 facts]"
 
-The regular expression could match theÂ  "\[274.0\]" or the "\[47,232
+The regular expression could match the  "\[274.0\]" or the "\[47,232
 facts\]" but it could also match the entire string. The string starts
 with a left square bracket, has one or more characters, and ends with a
 right square bracket.
@@ -112,8 +112,8 @@ and it would change "\[274.0\]Carcinoma in situ \[47,232 facts\]" to
 "Carcinoma in situ ". Note that you now have a trailing blank, but a
 second gsub command
 
-    gsub(" $", "",Â  string_vector)
+    gsub(" $", "",  string_vector)
 
 will remove that trailing blank.
-:::
+
 

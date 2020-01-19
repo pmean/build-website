@@ -62,5 +62,5 @@ other things) the impact of enrollment caps on individual sites. And a
 [2007 blog
 entry](http://onbiostatistics.blogspot.com/2007/11/measure-enrollment-imbalance.html)
 suggests a cap of 3/K to 5/K.
-:::
+
 

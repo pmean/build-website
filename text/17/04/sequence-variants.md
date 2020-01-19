@@ -14,7 +14,7 @@ This article outlines a standardized way to describe genetic variants.
 
 <!---More--->
 
- 
+<U+00A0>
 
 Sue Richards PhD, Nazneen Aziz PhD, Sherri Bale PhD, David Bick MD, Soma
 Das PhD, Julie Gastier-Foster PhD, Wayne W. Grody MD, PhD, Madhuri Hegde
@@ -27,8 +27,8 @@ Genetics in Medicine (2015) 17, 405--423. doi:10.1038/gim.2015.30.
 Available at
 <http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html>.
 
-![](../../images/sequence-variants01.png)
+![](../../web/images/sequence-variants01.png)
 
 
-:::
+
 

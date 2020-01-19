@@ -11,7 +11,7 @@ output: html_document
 I submitted a [cute probability
 problem](https://fivethirtyeight.com/features/will-the-baby-walk-away-will-the-troll-kill-the-dwarves/)
 to the Riddler section of [Nate Silver's Five Thirty Eight web
-site](https://fivethirtyeight.com/).Â  Here's a cut-and-paste of the
+site](https://fivethirtyeight.com/).  Here's a cut-and-paste of the
 problem.
 
 <!---More--->
@@ -28,5 +28,5 @@ take one step back toward the couch.
 
 In the long run, what percent of the time does the baby choose to clutch
 the couch?
-:::
+
 

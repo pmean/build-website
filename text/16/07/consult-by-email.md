@@ -95,5 +95,5 @@ save by working at home might get lost because of the delays and
 misunderstandings that crop up more often in email. That shouldn't stop
 you from using email, but use it consciously and be aware of its
 limitations.
-:::
+
 

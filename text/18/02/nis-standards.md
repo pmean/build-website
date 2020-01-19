@@ -17,14 +17,14 @@ Agency for Healthcare Research and Quality.
 <!---More--->
 
 Rohan Khera, Suveen Angraal, Tyler Couch, John W. Welsh, Brahmajee K.
-Nallamothu, Saket Girotra, Paul S. Chan, Harlan M. Krumholz. Adherence
+Nallamothu, Saket Girotra, Paul S. Chan, Harlan M. Krumholz.<U+00A0>Adherence
 to Methodological Standards in Research Using the National Inpatient
-Sample. JAMA. 2017;318(20):2011-2018. doi:10.1001/jama.2017.17653.
+Sample.<U+00A0>JAMA. 2017;318(20):2011-2018. doi:10.1001/jama.2017.17653.
 Abstract available
-at <https://jamanetwork.com/journals/jama/article-abstract/2664461>.
+at<U+00A0><https://jamanetwork.com/journals/jama/article-abstract/2664461>.
 
-![](../../images/nis-standards01.png)
+![](../../web/images/nis-standards01.png)
 
 
-:::
+
 

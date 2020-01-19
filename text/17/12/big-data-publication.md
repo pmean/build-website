@@ -31,5 +31,5 @@ A couple of years ago, I wrote a chapter, R for Big Data Analysis, for a
 book, Big Data Analysis for Bioinformatics and Biomedical Discoveries,
 edited by my colleague (and soon to be my boss) Shui Qing Ye. This book
 was published by Chapman and Hall in 2015.
-:::
+
 

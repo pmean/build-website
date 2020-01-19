@@ -26,5 +26,5 @@ an earlier version of stringr and it is interfering with the current
 version of stringr. I'm not sure how to resolve this problem, other than
 to forgo the most recent stringr library updates or forgo the knitr
 library.
-:::
+
 

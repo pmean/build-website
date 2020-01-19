@@ -22,8 +22,8 @@ improvements on tibbles.
 Annoynmous. Tibbles. Created 2016-07-04. Available at:
 <https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html>
 
-![](../../images/tibbles01.png)
+![](../../web/images/tibbles01.png)
 
 
-:::
+
 

@@ -27,12 +27,12 @@ Hedyeh Ziai, Rujun Zhang, An-Wen Chan, Nav Persaud. Search for
 unpublished data by systematic reviewers: an audit. BMJ Open (2017);
 7(10). Available at <http://bmjopen.bmj.com/content/7/10/e017737>.
 
-![](../../images/unpublished-data-audit01.png)
+![](../../web/images/unpublished-data-audit01.png)
 
 
 
- 
+<U+00A0>
 
- 
-:::
+<U+00A0>
+
 

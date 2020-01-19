@@ -27,5 +27,5 @@ that allows you to downweight the strength of the prior distribution
 when it disagrees with the data. I have also worked recently on mining
 information from the electronic health record to develop and validate
 disease phenotypes.
-:::
+
 

@@ -18,7 +18,7 @@ Go to the menu in RStudio and click on Tools and then Global Options.
 Select the Appearance tab on the left. Again buried in the middle of
 things is the font size.
 
-![](../../images/font-size-in-rstudio01.png)
+![](../../web/images/font-size-in-rstudio01.png)
 
 
 
@@ -29,5 +29,5 @@ You may also want to change the margins. You can't do this directly in
 RStudio, but you can run the function options(width=60) to narrow from
 the default of 80 columns to 60. If things don't fit well, try
 options(width=40).
-:::
+
 

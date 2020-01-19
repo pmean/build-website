@@ -72,5 +72,5 @@ sure, but I think you might be right about 1/12 being the largest
 variance possible...
 
 ...except that a uniform distribution is multi-modal.
-:::
+
 

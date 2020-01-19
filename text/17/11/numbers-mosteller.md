@@ -22,8 +22,8 @@ Statistics, Bailar JC, Mosteller F (eds). CRC Press, New York NY.
 Available at
 <http://www.medicine.mcgill.ca/epidemiology/hanley/tmp/DescriptiveStatistics/06_mosteller_writing_about_numbers.pdf>.
 
-![](../../images/numbers-mosteller01.png)
+![](../../web/images/numbers-mosteller01.png)
 
 
-:::
+
 

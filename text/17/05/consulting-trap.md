@@ -23,7 +23,7 @@ way, if at all possible. If you think about it from your colleagues
 perspective, he/she has been getting something for free and now you're
 threatening to take it away. It would be hard not to feel hurt.
 
-Take your next interactionÂ  or just call them out of the blue. Then
+Take your next interaction  or just call them out of the blue. Then
 propose something new and bold. Say "I'm intrigued by your work and I
 think there may be an opportunity for us to expand our interactions. It
 will cost you some money, but I think that if you invested in a deeper
@@ -51,5 +51,5 @@ how to say "no."
 -   [www.ncbi.nlm.nih.gov/pubmed/23250947](https://www.ncbi.nlm.nih.gov/pubmed/23250947)
 -   [www.ncbi.nlm.nih.gov/pubmed/23345309](https://www.ncbi.nlm.nih.gov/pubmed/23345309)
 -   [www.ncbi.nlm.nih.gov/pubmed/23539113](https://www.ncbi.nlm.nih.gov/pubmed/23539113)
-:::
+
 

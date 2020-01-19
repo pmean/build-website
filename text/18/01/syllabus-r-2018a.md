@@ -9,7 +9,7 @@ output: html_document
 ---
 
 I am teaching a class, Introduction to R (MEDB 5505). Here is the
-syllabus for Spring  Semester 2018.
+syllabus for Spring<U+00A0> Semester 2018.
 
 <!---More--->
 
@@ -261,7 +261,7 @@ assignment by the end of the fourth week of classes (Friday, February
 9). You may continue on to the next section if you get done early, but
 please do not get too far ahead of the rest of the class.
 
- 
+
 
 **Part 2. Data sets with mostly categorical variables.\
 **
@@ -301,7 +301,7 @@ assignment by the end of the eighth week of classes (Friday, March 9).
 You may continue on to the next section if you get done early, but
 please do not get too far ahead of the rest of the class.
 
- 
+
 
 **Part 4. Longitudinal data.\
 **
@@ -328,7 +328,7 @@ measured using categorical data.
 Please complete the final project by the end of the eleventh week of
 classes (Friday, April 6).
 
- 
+
 
 **6. Course expectations, course policies, requirements, and standards
 for student coursework and student behavior**
@@ -346,5 +346,5 @@ in a different course.
 
 This course follows the "Faculty allowing recording" option of the
 Academic Inquiry, Course Discussion and Privacy policy.
-:::
+
 

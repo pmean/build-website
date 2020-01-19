@@ -17,7 +17,7 @@ messages.
 Here's an example. I'm installing a new package, broom, and here's what
 I get.
 
-![](../../images/red-text01.png)
+![](../../web/images/red-text01.png)
 
 
 
@@ -27,5 +27,5 @@ many times, you'll have a whole sequence of text roll by and when you
 see a quick flash of red, your first thought is worrying about what
 might have gone wrong. Nine times out of ten it's nothing, but you have
 to scroll through everything just to be sure.
-:::
+
 

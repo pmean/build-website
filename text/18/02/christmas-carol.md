@@ -70,5 +70,5 @@ sentiments.
 If I get a chance, I want to experiment with an interactive display
 which allows you to hover over a point and see the full paragraph of
 text associated with that point.
-:::
+
 

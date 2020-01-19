@@ -65,5 +65,5 @@ publishing bad for science? The Guardian, June 27, 2017. Available at
 Bob Muenchen, Forecast Update: Will 2014 be the Beginning of the End for
 SAS and SPSS? R4stats blog, May 14, 2013. Available at
 <http://r4stats.com/2013/05/14/beginning-of-the-end-v2/>
-:::
+
 

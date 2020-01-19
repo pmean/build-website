@@ -96,5 +96,5 @@ Most statisticians that I know put very little faith in systematic
 overviews, but I am generally positive on them, especially on the
 systematic overviews conducted by the Cochrane Collaboration. They're
 not perfect, but nothing in evidence based medicine is perfect.
-:::
+
 

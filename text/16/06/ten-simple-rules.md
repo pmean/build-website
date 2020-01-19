@@ -20,5 +20,5 @@ Robert E. Kass, Brian S. Caffo, Marie Davidian, Xiao-Li Meng, Bin Yu,
 Nancy Reid. Ten Simple Rules for Effective Statistical Practice. PLOS
 Computational Biology. 2016 (June 9). Available at
 <http://dx.doi.org/10.1371/journal.pcbi.1004961>.
-:::
+
 

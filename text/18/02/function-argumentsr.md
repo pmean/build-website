@@ -54,5 +54,5 @@ things to the function, and these you should always name.
 Also, if you are using some of the more obscure arguments in a function
 (and in R, almost everything is obscure beyond the first or second
 argument), then naming it makes your code more readable.
-:::
+
 

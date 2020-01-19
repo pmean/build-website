@@ -117,7 +117,7 @@ body mass index might be okay, but try to spell out anything that is not
 instantly recognizable. You should also avoid abbreviations. They can
 sometimes be misread. So, does "temp" refer to temperature or a
 temporary variable? There's also more than one way to abbreviate. Your
-temperature variable could easily by "temp" or "tmp" or even "t".Â  This
+temperature variable could easily by "temp" or "tmp" or even "t".  This
 can lead to the same sort of problems that you might have with
 "event.counter" and "event\_counter".
 
@@ -187,5 +187,5 @@ The brief comment helps a lot because many file management programs
 offer a preview of the first few lines of a file. This can help an
 outsider quickly browse through a large set of files and pick the ones
 that are most relevant for further study.
-:::
+
 

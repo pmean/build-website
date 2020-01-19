@@ -23,5 +23,5 @@ Another series of conferences that look interesting are the UserR
 conferences. The next one is in Brisbane, Australia, July 10-13, 2018.
 The R-project website has a [page listing past and future UserR
 conferences](https://www.r-project.org/conferences.html).
-:::
+
 

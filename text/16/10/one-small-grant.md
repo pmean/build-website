@@ -51,5 +51,5 @@ department down the road.
 
 If I end up developing a proposal for this grant, I'll share details
 about it on this blog.
-:::
+
 

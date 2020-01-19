@@ -28,7 +28,7 @@ Archive network](https://cran.r-project.org/search.html). There are also
 summaries of particular areas in R called [Task
 Views](https://cran.r-project.org/web/views/). These are volunteer led
 efforts to summarize all of the packages in a certain area like
-Econometrics, Meta-analysis, orÂ  Time Series Analysis.
+Econometrics, Meta-analysis, or  Time Series Analysis.
 
 There are also many R packages that exist to meet general needs. The
 ggplot2 library, for example, provides a different approach to graphical
@@ -46,5 +46,5 @@ There are so many R packages out there, that it is tough to know which
 one to choose. I have an [earlier blog
 entry](../which-r-package/index.html) that talks about how to decide
 which package is best among several competing packages.
-:::
+
 

@@ -26,5 +26,5 @@ I'll be posting less on [my web page](http://www.pmean.com/index.html),
 but might still put some longer items there or items that require
 regular updates. I plan to eventually (it may take several years) move
 all my content to this blog.
-:::
+
 

@@ -25,8 +25,8 @@ Centers for Medicare & Medicaid Services. Medicare Claims Synthetic
 Public Use Files (SynPUFs). Available at
 <https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index.html>.
 
-![](../../images/synthetic-claims01.png)
+![](../../web/images/synthetic-claims01.png)
 
 
-:::
+
 

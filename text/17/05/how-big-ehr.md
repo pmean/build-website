@@ -34,5 +34,5 @@ website](http://www.pcori.org/research-results/2013/greater-plains-collaborative
 in a [JAMIA
 article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078294/), or at
 the [GPC website itself](http://www.gpcnetwork.org/).
-:::
+
 

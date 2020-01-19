@@ -17,8 +17,8 @@ getting started with text mining.
 Julia Silge, David Robinson. Text Mining with R (online version).
 Available at <http://tidytextmining.com/>.
 
-![](../../images/text-mining-with-r01.png)
+![](../../web/images/text-mining-with-r01.png)
 
 
-:::
+
 

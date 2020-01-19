@@ -48,5 +48,5 @@ development that should be applauded by all researchers.
 \[Name removed\] will recognize this rant because it's one of my guest
 lectures for the Responsible Conduct of Research class. Sorry to
 everyone else, but sometimes I need to rage a little bit.
-:::
+
 

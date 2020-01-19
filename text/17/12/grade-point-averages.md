@@ -37,5 +37,5 @@ Undergraduate: 3.1
 Masters: 3.4
 
 PhD: 3.4
-:::
+
 

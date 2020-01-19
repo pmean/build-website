@@ -48,5 +48,5 @@ second chunk. It had made it easier to navigate through R Studio. But
 recent changes to RStudio include any double pound (\#\#) comments in
 the navigation. Hooray, because life is simpler with those comments
 instead of the dummy functions.
-:::
+
 

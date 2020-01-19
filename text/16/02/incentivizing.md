@@ -96,5 +96,5 @@ people autonomy is hard work. Showing that the work that your employees
 do has a bigger purpose is even more difficult. But if you want to be
 successful in getting your organization to do something important, you
 have to do the hard work.
-:::
+
 

@@ -34,5 +34,5 @@ that the result is approximately 3.8.
 
 I should have known that, but the reflexive divide by a million to
 convert bytes to megabytes is only an approximation to the truth.
-:::
+
 

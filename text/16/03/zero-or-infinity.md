@@ -16,7 +16,7 @@ how do I tell which?*
 <!---More--->
 
 It depends on how you define odds and what you place in the numerator
-versus the denominator. Here's a simple example to orient yourself.Â  On
+versus the denominator. Here's a simple example to orient yourself.  On
 the Titanic, there were 851 male passengers and 462 female passengers.
 This ship sailed in an era when people actually believed in the concept
 "women and children first". So the death rate was very high among the
@@ -90,5 +90,5 @@ odds ratio is infinite.
 The only case you can't handle is when both groups have 100% survival or
 0% survival. This forces you to divide infinity by infinity or zero by
 zero. Either way, your result is indeterminate.
-:::
+
 

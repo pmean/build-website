@@ -48,7 +48,7 @@ guest lectures. I write regularly about ethical issues associated with
 statistical design issues for my website (www.pmean.com) and blog
 (blog.pmean.com).
 
- 
+
 
 As a consultant, I was so often asked to assist with decisions to close
 down studies because of delays in accrual that I decided to make this a
@@ -86,5 +86,5 @@ Software Engineering for Statisticians" taught by Murray Stokely of
 Google, and gained valuable experience with software development
 methodologies (e.g., version control, unit testing), that are vital for
 production of software by a research team.
-:::
+
 

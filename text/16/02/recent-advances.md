@@ -42,7 +42,7 @@ introduced in 1993, had 3.1 million transistors and could calculate 100
 MIPS.
 
 Why is this important? Consider the estimation of regression
-coefficients in a linear regression model.Â  The hard part of this
+coefficients in a linear regression model.  The hard part of this
 computation is the matrix inversion. If you use Gauss-Jordan
 elimination, it requires on the order of n\^3 operations. You can
 calculate the inverse by hand. What's the biggest matrix that you've had
@@ -61,7 +61,7 @@ wrong because he forgot about Moore's Law.
 
 Consider a simple growth curve model. You measure the height of 24 boys
 on their 7th, 9th, 11th, and 13th birthdays. Suppose the 9 year value is
-missing on the 3rd boy. Do you replace the value by the average heightÂ 
+missing on the 3rd boy. Do you replace the value by the average height 
 of all the other boys at 9 years? Do you replace the missing value with
 the average height of the boy at 7, 11, and 13 years? You can
 triangulate using the EM algorithm. Then be sure to knock off a degree
@@ -69,5 +69,5 @@ of freedom when you're done. With faster computers, you can use multiple
 imputation, developed by Donald Rubin in 1987. You can also bypass the
 missing value problem completely by using a random effects linear
 regression.
-:::
+
 

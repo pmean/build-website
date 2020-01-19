@@ -41,8 +41,8 @@ revisit this stuff six months from now.
 Eiko Fried. Network analysis in cross-sectional data using R. Available
 at <http://eiko-fried.com/ASAwebinar2017/>.
 
-![](../../images/network-analysis01.png)
+![](../../web/images/network-analysis01.png)
 
 
-:::
+
 

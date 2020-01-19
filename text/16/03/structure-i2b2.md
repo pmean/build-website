@@ -127,6 +127,6 @@ Informatics, Yale University Medical School, n.d. Available at:
 <http://ycmi.med.yale.edu/nadkarni/Introduction%20to%20EAV%20systems.htm>.
 
 Wikipedia. Entity-attribute-value model. Wikipedia, n.d. Available at:
-[https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value\_model](https://en.wikipedia.org/wiki/Entityâ€“attributeâ€“value_model).
-:::
+[https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value\_model](https://en.wikipedia.org/wiki/Entity–attribute–value_model).
+
 

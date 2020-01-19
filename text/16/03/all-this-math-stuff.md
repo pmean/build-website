@@ -31,5 +31,5 @@ more important to more and more jobs. So we need to teach the
 Pythagorean Theorem and how to calculate the trajectory of a rocket
 fired at an angle. We have to do it in a way that makes it seem both
 interesting and important, but we certainly have to do it.
-:::
+
 

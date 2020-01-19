@@ -44,8 +44,8 @@ Biostatistics Classroom"
 Journal of Statistics Education Vol. 24 , Iss. 2, 2016. Available at
 <http://www.tandfonline.com/doi/full/10.1080/10691898.2016.1192362>
 
-![](../../images/flipped-classroom01.png)
+![](../../web/images/flipped-classroom01.png)
 
 
-:::
+
 

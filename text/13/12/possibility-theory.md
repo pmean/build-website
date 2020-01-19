@@ -57,5 +57,5 @@ a minimalist, and I tend to shy away from more complex models unless the
 simpler models do serious violence to the data. But if there are good
 examples out there, I might change from being skeptical about
 Possibility Theory to advocating its use in some settings.
-:::
+
 

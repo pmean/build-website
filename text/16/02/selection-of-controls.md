@@ -24,8 +24,8 @@ Principes. American Journal of Epidemiology 1992: 135(9); 1019-1028.
 Available at
 <http://aje.oxfordjournals.org/content/135/9/1019.abstract>.
 
-![](../../images/selection-of-controls01.png)
+![](../../web/images/selection-of-controls01.png)
 
 
-:::
+
 

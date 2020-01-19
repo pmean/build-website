@@ -26,5 +26,5 @@ grep --help
 
 for details. The real computer nerds already know this, but I'm just
 getting started with Unix based commands.
-:::
+
 

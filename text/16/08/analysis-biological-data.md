@@ -16,5 +16,5 @@ Harrell, which is good enough for me.
 Michael C. Whitlock, Dolph Shluter () The Analysis of Biological Data.
 W.H. Freeman, ISBN: 978-1936221486.
 
-:::
+
 

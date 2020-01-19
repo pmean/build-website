@@ -19,8 +19,8 @@ would--being in control.
 Simon S, Why be an independent consultant? Amstat News 2017 (April).
 Available at <http://magazine.amstat.org/blog/2017/04/01/whyconsult/>.
 
-![](../../images/why-independent01.png)
+![](../../web/images/why-independent01.png)
 
 
-:::
+
 

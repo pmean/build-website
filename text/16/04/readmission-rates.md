@@ -155,7 +155,7 @@ numbers is an upper bound on your 90 day readmission rate.
 Now you need to merge your index visit data set with your readmission
 visit data set. This is a tricky merge for two reasons. First, some of
 the patients in the index visit data set will not have a corresponding
-row in the readmission visit data set.Â  Second, some of the patients in
+row in the readmission visit data set.  Second, some of the patients in
 the index visit data set will have more than one corresponding row in
 the readmission visit data set.
 
@@ -232,5 +232,5 @@ patients you are working with. It's an important quality check for all
 the tricky twists and turns that you took to get your answer and it ends
 up being your denominator in the readmission rate calculation. I told
 you it was important!
-:::
+
 

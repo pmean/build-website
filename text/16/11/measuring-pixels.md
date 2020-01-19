@@ -57,5 +57,5 @@ text(-0.5, 3, s2, srt=90)
 ```
 
 Note: I need to recreate the image www.pmean.com/0000images/pixel01.jpg
-:::
+
 
