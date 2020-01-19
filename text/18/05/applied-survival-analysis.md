@@ -23,5 +23,5 @@ Analysis, Second Edition. 2008. Wiley\_interscience. ISBN-13:
 
 ![](https://images-na.ssl-images-amazon.com/images/I/41Y3hCIFjdL._SX310_BO1%2c204%2c203%2c200_.jpg){#imgBlkFront
 width="260px"}
-:::
+
 

@@ -19,5 +19,5 @@ Hall. ISBN-13: 978-1584881735.
 
 ![](https://images-na.ssl-images-amazon.com/images/I/41ZErnULACL._SX316_BO1%2c204%2c203%2c200_.jpg){#imgBlkFront
 width="260px"}
-:::
+
 

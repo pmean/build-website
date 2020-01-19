@@ -56,5 +56,5 @@ Cathy O'Neil. Weapons of Math Destruction: How Big Data Increases
 Inequality and Threatens Democracy. Crown Publishers (2016). ISBN:
 978-0553418811. Also check out Cathy O'Neil's blog: [Mathbabe: Exploring
 and Venting About Quantitative Issues](https://mathbabe.org/).
-:::
+
 

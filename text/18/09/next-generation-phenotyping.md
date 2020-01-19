@@ -20,10 +20,10 @@ electronic health records. J Am Med Inform Assoc. 2013 Jan-Feb; 20(1):
 format](https://academic.oup.com/jamia/article/20/1/117/2909152) or [pdf
 format](https://academic.oup.com/jamia/article-pdf/20/1/117/9516924/20-1-117.pdf).
 
-![](../../images/next-generation-phenotyping01.png)
+![](../../web/images/next-generation-phenotyping01.png)
 
 
 
- 
-:::
+<U+00A0>
+
 

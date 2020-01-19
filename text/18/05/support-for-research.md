@@ -123,8 +123,8 @@ http://ucdmc.ucdavis.edu/ctsc/area/biostatistics/financialConsiderations.html
 2
 http://www.kumc.edu/school-of-medicine/department-of-biostatistics/grant-preparation.html
 
- 
 
- 
-:::
+
+
+
 

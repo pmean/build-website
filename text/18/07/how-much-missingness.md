@@ -54,6 +54,6 @@ something sensitive, and you know that people are more likely to skip
 answering if they have this sensitive condition, then even a small
 fraction of missing data can cause serious problems.
 
- 
-:::
+
+
 

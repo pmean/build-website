@@ -30,7 +30,7 @@ a Demotion? The New York Times (The Upshot), December 31, 2018.
 Available in [html
 format](https://www.nytimes.com/2018/12/31/upshot/congratulations-on-the-promotion-but-did-science-get-a-demotion.html).
 
-![](../../images/nonfinancial-conflicts01.png)
+![](../../web/images/nonfinancial-conflicts01.png)
 
 
 
@@ -51,5 +51,5 @@ that exposes real environmental or occupational hazards. Shame on you,
 Dr. Carroll. The next time that you talk about conflicts of interest, do
 what any good scientist does. Bring some data to back up your
 suppositions.
-:::
+
 

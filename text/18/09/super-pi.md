@@ -51,7 +51,7 @@ but there are several problems with this. The bitcoin problem doesn't
 scale down well to small clusters and the whole process is somewhat
 opaque. There are also some simple mathematical problems like
 [estimating the first fifty digits of
-pi](https://en.wikipedia.org/wiki/Approximations_of_π) or [hunting for
+pi](https://en.wikipedia.org/wiki/Approximations_of_p) or [hunting for
 large prime numbers](https://arxiv.org/abs/1709.09963). These can scale
 up or down easily, and the programs are fairly easy to follow. But I
 think the most interesting applications would involve text mining. Text
@@ -105,5 +105,5 @@ suggestions about these ideas or other ideas that you might have. Send
 me an email if you can't show up for the [organizational meeting on
 November 10,
 2018](https://www.meetup.com/Kansas-City-R-Users-Group/events/254571498/).
-:::
+
 

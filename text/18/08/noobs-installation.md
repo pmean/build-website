@@ -19,8 +19,8 @@ The Raspberry Pi Foundatiton. NOOBS -- Raspberry Pi documentation.
 Available at
 <https://www.raspberrypi.org/documentation/installation/noobs.md>.
 
-![](../../images/noobs-installation01.png)
+![](../../web/images/noobs-installation01.png)
 
 
-:::
+
 

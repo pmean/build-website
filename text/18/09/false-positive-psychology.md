@@ -16,13 +16,13 @@ it all.
 Joseph P. Simmons, Leif D. Nelson, Uri Simonsohn. False-Positive
 Psychology. Undisclosed Flexibility in Data Collection and Analysis
 Allows Presenting Anything as Significant. Psychological Science. Vol
-22, Issue 11, pp. 1359 -- 1366.  Available in [html
+22, Issue 11, pp. 1359 -- 1366.<U+00A0> Available in [html
 format](http://journals.sagepub.com/doi/full/10.1177/0956797611417632)
 or [pdf
 format](http://journals.sagepub.com/doi/pdf/10.1177/0956797611417632).
 
-![](../../images/false-positive-psychology01.png)
+![](../../web/images/false-positive-psychology01.png)
 
 
-:::
+
 

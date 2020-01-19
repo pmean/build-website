@@ -18,9 +18,9 @@ I have never used a contract, unless the client draws one up. If you
 want a contract, talk to a lawyer, and make sure it addresses the
 following issues.
 
- 
 
- 
+
+
 
 \- your consulting rate and payment schedule
 
@@ -38,10 +38,10 @@ client
 
 \- what terms of the contract remain in force after severance
 
- 
 
- 
 
- 
-:::
+
+
+
+
 

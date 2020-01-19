@@ -51,6 +51,6 @@ coming from the same research grant. I'm sure that I left out a lot of
 things here, but even with just the things that I did mention, it would
 certainly require much more than 22 hours of effort.
 
- 
-:::
+
+
 

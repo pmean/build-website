@@ -32,5 +32,5 @@ This effort is just getting started. The link is to a press release and
 emphasizes "a collaborative approach to disease treatment and prevention
 that accounts for individual variability in genes, environment and
 lifestyle."
-:::
+
 

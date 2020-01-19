@@ -60,9 +60,9 @@ or both of the following options.
 
 There is a nice summary on [Stack
 Overflow](https://stackoverflow.com/questions/13090838/r-markdown-avoiding-package-loading-messages).
-You should also review Yihui Xie'sÂ [summary of all the chunk
-options](https://yihui.name/knitr/options/) and hisÂ [response to a user
+You should also review Yihui Xie's [summary of all the chunk
+options](https://yihui.name/knitr/options/) and his [response to a user
 question](https://github.com/rstudio/blogdown/issues/90). And use the
 help facility within R to understand how various R functions work.
-:::
+
 

@@ -67,5 +67,5 @@ accompanied by a simple explanation. If a plot shows trend, describe
 that trend. If a table shows a surprising disparity, point out that
 disparity. Use descriptive language rather than abstract number or
 letter codes.
-:::
+
 

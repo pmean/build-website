@@ -17,8 +17,8 @@ Catherine Dalzell. Calling R from SPSS. IBM Developler blog, published
 October 31, 2013. Available in [html
 format](https://www.ibm.com/developerworks/library/ba-call-r-spss/index.html).
 
-![](../../images/r-within-spss01.png)
+![](../../web/images/r-within-spss01.png)
 
 
-:::
+
 

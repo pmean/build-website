@@ -69,5 +69,5 @@ perspective. This is not easy, but what you do is try to show examples
 of the models you are teaching using more than one statistical package.
 Because no one package, not SAS, not R, not anything, has a monopoly on
 all the good statistical tools.
-:::
+
 

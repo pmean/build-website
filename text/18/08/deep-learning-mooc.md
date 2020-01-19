@@ -17,8 +17,8 @@ It uses Python as the underlying language.
 Jeremy Howard, Rachel Thomas. Practical deep learning for coders.
 Available at <http://course.fast.ai/>.
 
-![](../../images/deep-learning-mooc01.png)
+![](../../web/images/deep-learning-mooc01.png)
 
 
-:::
+
 

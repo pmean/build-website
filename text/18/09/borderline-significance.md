@@ -80,5 +80,5 @@ the phrase "trending to efficacy," that's okay but they should also talk
 about whether the confidence interval, though including the null value,
 still stretches up far enough to include values that are clinically
 important.
-:::
+
 

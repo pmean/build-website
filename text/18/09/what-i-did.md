@@ -54,5 +54,5 @@ for the UMKC Writing Studio.
 Introduction to SQL class, adapt the online classes MEDB 5505, 5506, and
 5507 to meet ADA requirements, and submit a research grant to study
 Bayesian simulation of clinical trials.
-:::
+
 

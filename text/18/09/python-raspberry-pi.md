@@ -120,6 +120,6 @@ Finally, restart your Raspberry Pi with the command
 I'm not sure what the "-h now" option does. It's interesting how this
 process is forcing me to learn all sorts of things beyond just Python.
 
- 
-:::
+
+
 

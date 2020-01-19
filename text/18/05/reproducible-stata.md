@@ -16,6 +16,6 @@ research.
 
 Karthik Balachandrian. Reproducible research with Stata. Medico Musings
 blog. May 12, 2018. Available
-atÂ <https://medicalruminations.wordpress.com/2018/05/12/reproducible-research-with-stata/>.
-:::
+at <https://medicalruminations.wordpress.com/2018/05/12/reproducible-research-with-stata/>.
+
 

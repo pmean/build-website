@@ -79,6 +79,6 @@ but allows for flexibility in determining whether each item is necessary
 or appropriate." Available at
 <https://jamanetwork.com/journals/jamasurgery/fullarticle/2482672>.
 
- 
-:::
+
+
 

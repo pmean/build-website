@@ -45,5 +45,5 @@ The three exceptions are the online documentation manuals, the peer
 support communities, and the UCLA site. Pretty much everything else
 costs money. The prices are not bad, but you have to decide on your own
 whether the benefits outweigh the price.
-:::
+
 
