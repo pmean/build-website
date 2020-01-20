@@ -22,7 +22,7 @@ electronic health records. Available at <https://phekb.org/>. There is a
 [publication](https://www.ncbi.nlm.nih.gov/pubmed/27026615) that
 provides more details.
 
-![](../../web/images/phekb01.png)
+![](../../../web/images/phekb01.png)
 
 
 

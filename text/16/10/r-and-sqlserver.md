@@ -23,7 +23,7 @@ Steve Jones. Where Do You Run Your R Scripts? SQL Server Central Blog.
 2016-10-20. Available at
 <http://www.sqlservercentral.com/articles/Editorial/147834/>.
 
-![](../../web/images/r-and-sqlserver01.png)
+![](../../../web/images/r-and-sqlserver01.png)
 
 
 

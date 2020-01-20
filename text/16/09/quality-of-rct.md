@@ -27,7 +27,7 @@ protocols.J Clin Epidemiol. 2012 Jun; 65(6): 602--609. doi:
 10.1016/j.jclinepi.2011.10.016. Available
 at<U+00A0><https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3637913/>
 
-![](../../web/images/quality-of-rct01.png)
+![](../../../web/images/quality-of-rct01.png)
 
 
 

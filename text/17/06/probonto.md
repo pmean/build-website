@@ -23,7 +23,7 @@ and the relationships among these distributions.
 Maciej J Swat, Pierre Grenon, Sarala Wimalaratne. ProbOnto. Available at
 <https://sites.google.com/site/probonto/home>.
 
-![](../../web/images/probonto01.png)
+![](../../../web/images/probonto01.png)
 
 
 

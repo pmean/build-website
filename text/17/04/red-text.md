@@ -17,7 +17,7 @@ messages.
 Here's an example. I'm installing a new package, broom, and here's what
 I get.
 
-![](../../web/images/red-text01.png)
+![](../../../web/images/red-text01.png)
 
 
 

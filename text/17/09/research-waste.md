@@ -31,7 +31,7 @@ Sandy Oliver. How to increase value and reduce waste when research
 priorities are set. Lancet 2014; 383: 156--65. Available at
 <http://www.testingtreatments.org/wp-content/uploads/2014/03/1-Chalmers-et-al.-Paper-1.pdf>.
 
-![](../../web/images/research-waste01.png)
+![](../../../web/images/research-waste01.png)
 
 
 

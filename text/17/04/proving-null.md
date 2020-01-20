@@ -22,7 +22,7 @@ Blackwelder WC. "Proving the null hypothesis" in clinical trials.
 Control Clin Trials. 1982 Dec;3(4):345-53. Abstract available at
 <http://www.sciencedirect.com/science/article/pii/0197245682900241>.
 
-![](../../web/images/proving-null01.png)
+![](../../../web/images/proving-null01.png)
 
 
 

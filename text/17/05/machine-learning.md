@@ -8,7 +8,7 @@ tags: Big data
 output: html_document
 ---
 
-![](https://imgs.xkcd.com/comics/machine_learning.png)
+![](../https://imgs.xkcd.com/comics/machine_learning.png)
 
 This xkcd cartoon by Scott Munro is open source, so I can hotlink the
 image directly. But if you go to the source, <https://xkcd.com/1838/>,

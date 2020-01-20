@@ -16,4 +16,4 @@ databases prepared by the United States government.
 Eve Ahern. The new Enigma Public. Enigma blog (June 20, 2017). Available
 at <https://www.enigma.com/blog/the-new-enigma-public>.
 
-![](../../web/images/enigma-public01.png)
+![](../../../web/images/enigma-public01.png)
