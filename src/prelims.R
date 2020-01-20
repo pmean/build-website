@@ -17,11 +17,11 @@ v <- TRUE
 # file locations
 
 text_root <- "text"
-blog_root <- "../web/md/blog"
+blog_root <- "../web/md/posts"
 arch_root <- "../web/md/archive"
 summ_root <- "../web/summ"
 link_root <- "../web/links"
-html_blog <- "../web/site/blog"
+html_blog <- "../web/site/posts"
 html_arch <- "../web/site/archive"
 
 # Test file locations
@@ -442,7 +442,7 @@ write_summ <- function(fields, v=TRUE) {
     str_remove("^\n")  -> summ_tx
 
   brack(fields$title %P% fields$blogdate) %0% 
-    paren("../blog" %s% fields$name %0% ".html") %2% 
+    paren("../posts" %s% fields$name %0% ".html") %2% 
     summ_tx                                         -> summ_tx
   if (v) {"\n\n" %0% summ_tx %>% cat}  
   write_lines(summ_tx, fields$summ_name)
