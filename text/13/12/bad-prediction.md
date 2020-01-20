@@ -90,7 +90,7 @@ Here's a link to the [original
 entry](http://krugman.blogs.nytimes.com/2013/12/01/inflationistas-at-bayes/?_r=0 "original entry")
 in Dr. Krugman's blog.
 
-![](../../web/images/bad-prediction01.png)
+![](../../../web/images/bad-prediction01.png)
 
 
 

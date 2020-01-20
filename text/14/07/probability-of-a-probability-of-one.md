@@ -36,7 +36,7 @@ Well, the classic example is to put a beta prior on the binomial
 distribution. Often this is a flat or uniform prior, which is a
 beta(1,1). Here's what the prior looks like.
 
-![](../../web/images/probability-of-a-probability-of-one01.png)
+![](../../../web/images/probability-of-a-probability-of-one01.png)
 
 
 
@@ -44,7 +44,7 @@ And now suppose that you observe 10 values from the sample and they are
 all Gs. The posterior distribution is now beta(11,1), which looks like
 this.
 
-![](../../web/images/probability-of-a-probability-of-one02.png)
+![](../../../web/images/probability-of-a-probability-of-one02.png)
 
 
 
@@ -56,14 +56,14 @@ other value. Let's change the prior slightly. There are N items in the
 population and let's assign a discrete uniform probability to the values
 0, 1/n, 2/n, ..., 1. Here's what this looks like for N=100.
 
-![](../../web/images/probability-of-a-probability-of-one03.png)
+![](../../../web/images/probability-of-a-probability-of-one03.png)
 
 
 
 Now, suppose that you observe 10 patients in this sample and they are
 all Gs. The posterior distribution would look something like this.
 
-![](../../web/images/probability-of-a-probability-of-one04.png)
+![](../../../web/images/probability-of-a-probability-of-one04.png)
 
 
 

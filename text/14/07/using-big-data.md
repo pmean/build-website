@@ -20,7 +20,7 @@ Health Affairs: July 2014; Volume 33, Issue 7. Table of Contents.
 Available at
 [http://content.healthaffairs.org/content/33/7.toc.](http://content.healthaffairs.org/content/33/7.toc)
 
-![](../../web/images/using-big-data01.png)
+![](../../../web/images/using-big-data01.png)
 
 
 

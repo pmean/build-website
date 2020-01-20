@@ -26,7 +26,7 @@ that lead us to jump to conclusions about early detection too,
 well...early." Available at:
 <http://statistically-funny.blogspot.com/2013/12/whats-so-good-about-early-anyway.html>.
 
-![](../../web/images/early01.png)
+![](../../../web/images/early01.png)
 
 
 

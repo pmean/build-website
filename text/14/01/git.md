@@ -44,7 +44,7 @@ collaborations, and support novel uses. Keywords: Reproducible research;
 Version control; Open science." doi:10.1186/1751-0473-8-7. Available at:
 <http://www.scfbm.org/content/8/1/7>.
 
-![](../../web/images/git01.png)
+![](../../../web/images/git01.png)
 
 
 

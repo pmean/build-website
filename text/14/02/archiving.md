@@ -27,7 +27,7 @@ Archiving: Suggestions to Increase Participation. PLoS Biol.
 2014;12(1):e1001779. doi:10.1371/journal.pbio.1001779. Available at:
 <http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001779>
 
-![](../../web/images/archiving01.png)
+![](../../../web/images/archiving01.png)
 
 
 

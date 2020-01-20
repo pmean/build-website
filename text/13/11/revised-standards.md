@@ -35,7 +35,7 @@ finding. In terms of classical hypothesis tests, these evidence
 standards mandate the conduct of tests at the 0.005 or 0.001 level of
 significance." Available at: <http://www.pnas.org/content/110/48/19313>.
 
-![](../../web/images/revised-standards01.png)
+![](../../../web/images/revised-standards01.png)
 
 
 

@@ -40,18 +40,18 @@ the gold standard.
 If the sensitivity were 0.8, then a 95% confidence interval based on a
 denominator of 15 would have a half-width of plus/minus 0.21.
 
-![](../../web/images/samplesize01.png)
+![](../../../web/images/samplesize01.png)
 
 That seems much too wide. If the sensitivity were 0.6, the 95%
 confidence interval would have a width of plus or minus 0.26, which
 again seems much too wide.
 
-![](../../web/images/samplesize02.png)
+![](../../../web/images/samplesize02.png)
 
 Specificity, with a denominator of 85, has very good precision. The half
 width at a specificity of 0.6, for example would be plus/minus 0.10.
 
-![](../../web/images/samplesize03.png)
+![](../../../web/images/samplesize03.png)
 
 Maybe you could live with a study that could only estimate specificity
 with a reasonable amount of precision. I was not thrilled with these
@@ -83,7 +83,7 @@ diagnostic tests, respectively.
 
 The crosstabulation would look like
 
-![](../../web/images/samplesize04.png)
+![](../../../web/images/samplesize04.png)
 
 Now you have to consider how many of the observations are going to
 appear on the diagonal and how many are going to appear off the
@@ -91,12 +91,12 @@ diagonal. You can use a bit of trial and error here. Try to put any
 value in the lower left corner of the crosstabulation. It has to be
 smaller than either 9 or 12, but it can't be too small. Try 7.
 
-![](../../web/images/samplesize05.png)
+![](../../../web/images/samplesize05.png)
 
 You fill in the remaining cells so that the totals add up properly.
 Here's what you see.
 
-![](../../web/images/samplesize06.png)
+![](../../../web/images/samplesize06.png)
 
 You could do this also for 8 instead of 7 or 6 instead of 7. If you
 tried 5, though, you'd end up with a cell with a negative count.
@@ -111,7 +111,7 @@ from 0.6 to 0.8, the off-diagonal probability would be 5/7 or 0.71. The
 power of a test that the hypothesized proportion is 0.5, when the
 proportion is actually 0.71 is very poor.
 
-![](../../web/images/samplesize07.png)
+![](../../../web/images/samplesize07.png)
 
 This is another of [Dr. Lenth's java
 applets](http://homepage.stat.uiowa.edu/~rlenth/Power/).

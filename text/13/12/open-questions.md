@@ -46,7 +46,7 @@ I [summarized this
 article](http://www.pmean.com/05/OpenEndedQuestions.html) on my website
 back in 2005.
 
-![](../../web/images/open-questions01.png)
+![](../../../web/images/open-questions01.png)
 
 
 

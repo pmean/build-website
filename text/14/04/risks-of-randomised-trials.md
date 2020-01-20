@@ -19,7 +19,7 @@ Harford T. The random risks of randomised trials. Financial Times.
 <http://www.ft.com/intl/cms/s/2/59bb202c-ca7b-11e3-8a31-00144feabdc0.html#axzz30BOFBYb7>.
 Accessed April 28, 2014.
 
-![](../../web/images/risks-of-randomised-trials01.png)
+![](../../../web/images/risks-of-randomised-trials01.png)
 
 
 
