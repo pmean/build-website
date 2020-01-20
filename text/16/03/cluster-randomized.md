@@ -24,7 +24,7 @@ trials could be improved: a review. Journal of Clinical Epidemiology 68
 (2015) 716e723. Available at
 <http://www.ncbi.nlm.nih.gov/pubmed/25523375>.
 
-![](../../web/images/cluster-randomized01.png)
+![](../../../web/images/cluster-randomized01.png)
 
 
 

@@ -23,7 +23,7 @@ FluView Portal,<U+00A0> January 10 2015 blog post on rud.is and reposted at
 R-bloggers. Available at
 <http://rud.is/b/2015/01/10/new-r-package-cdcfluview-retrieve-flu-data-from-cdcs-fluview-portal/>.
 
-![](../../web/images/cdcfluview01.png)
+![](../../../web/images/cdcfluview01.png)
 
 
 

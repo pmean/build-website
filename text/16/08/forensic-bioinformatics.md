@@ -23,7 +23,7 @@ High-Throughput Biology. Case Studies in Forensic Bioinformatics.
 Available at
 <http://videolectures.net/cancerbioinformatics2010_baggerly_irrh/>.
 
-![](../../web/images/forensic-bioinformatics01.png)
+![](../../../web/images/forensic-bioinformatics01.png)
 
 
 

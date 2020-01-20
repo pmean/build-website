@@ -28,7 +28,7 @@ Amazon page does have a nice biography of the editor, Shui Qing Ye.
 
 I've got a picture of the cover.
 
-![](../../web/images/chapter-on-r01.png)
+![](../../../web/images/chapter-on-r01.png)
 
 
 

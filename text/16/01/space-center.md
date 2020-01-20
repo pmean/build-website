@@ -26,7 +26,7 @@ Buck Rogers of Statistics, maybe you should.
 USA Jobs. "Lyndon B. Johnson Space Center." accessed on 1-13-2016.
 Available at <https://www.usajobs.gov/GetJob/ViewDetails/425199400>.
 
-![](../../web/images/space-center01.png)
+![](../../../web/images/space-center01.png)
 
 
 

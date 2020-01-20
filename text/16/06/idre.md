@@ -25,7 +25,7 @@ University of California-Los Angeles. Institute for Digital Research and
 Education --- Statistical Computing. Available at
 <http://www.ats.ucla.edu/stat/>.
 
-![](../../web/images/idre01.png)
+![](../../../web/images/idre01.png)
 
 
 

@@ -21,7 +21,7 @@ Rates", American Journal of Respiratory and Critical Care Medicine, Vol.
 Available at
 <http://www.atsjournals.org/doi/full/10.1164/ajrccm.164.2.2011028>.
 
-![](../../web/images/safeguarding01.png)
+![](../../../web/images/safeguarding01.png)
 
 
 

@@ -22,7 +22,7 @@ Statistics.
 American Statistical Association. Educators \|This is Statistics.
 <http://thisisstatistics.org/educators/>.
 
-![](../../web/images/promotional-toolkit01.png)
+![](../../../web/images/promotional-toolkit01.png)
 
 
 
