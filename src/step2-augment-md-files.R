@@ -43,3 +43,10 @@ for (i_file in file_list) {
     write_summ                -> fields
 }
 
+"\n\nSkipping" 
+file_list <- setdiff(file_list, skipped_files)
+"\n\nSuccessfully processed" %b% 
+  length(file_list) %b% 
+  "files after skipping"%b% 
+  length(skipped_files) %b% 
+  "files.\n\n" %>% cat

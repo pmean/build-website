@@ -70,7 +70,7 @@ From
 From
 <http://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-015-0025-z>.
 
-![](../https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F2042-6410-3-16/MediaObjects/13293_2012_Article_35_Fig2_HTML.jpg)
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F2042-6410-3-16/MediaObjects/13293_2012_Article_35_Fig2_HTML.jpg)
 
 From <http://bsd.biomedcentral.com/articles/10.1186/2042-6410-3-16>.
 

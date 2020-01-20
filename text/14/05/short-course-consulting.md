@@ -1,5 +1,5 @@
 ---
-title: "PMean: Proposed outline for "How to Start and Run an Independent Statistical Consulting Business""
+title: "PMean: Proposed outline for How to Start and Run an Independent Statistical Consulting Business"
 author: "Steve Simon"
 source: "http://blog.pmean.com/short-course-consulting/"
 date: "2014-05-01"

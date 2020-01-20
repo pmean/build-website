@@ -36,7 +36,7 @@ substantial uncertainty about this estimate, though and we characterize
 the waiting time distribution using an inverse gamma distribution with
 parameters k=175 and V=182.5. Here's what that distribution looks like:
 
-![](../http://www.pmean.com/04/images/Expone7.gif){width="396" height="351"}
+![](http://www.pmean.com/04/images/Expone7.gif){width="396" height="351"}
 
 Now, you start running your clinical trial, and you notice that things
 are going slower than planned. After 239 days, you've recruited only 41
@@ -48,7 +48,7 @@ distribution of the waiting time, which turns out to be a weighted
 average of the observed accrual data and your prior beliefs. This leads
 to an updated prediction of the completion time for the clinical trial.
 
-![](../http://www.pmean.com/04/images/Expone8.gif){width="396" height="351"}
+![](http://www.pmean.com/04/images/Expone8.gif){width="396" height="351"}
 
 This use of prior distributions is extremely controversial, because it
 incorporates subjective opinions into the data analysis process. Often a
@@ -58,7 +58,7 @@ thinly across the possible parameters that it does not influence the
 posterior distribution. Here's what such a distribution would produce in
 the patient accrual example.
 
-![](../http://www.pmean.com/04/images/Expone9.gif){width="396" height="351"}
+![](http://www.pmean.com/04/images/Expone9.gif){width="396" height="351"}
 
 Notice that this represents a simple linear extrapolation of the waiting
 times. These graphs come from [a webpage I wrote a while

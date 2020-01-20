@@ -348,6 +348,7 @@ skim_yaml_files <- function(field_header, dir_root="../source/posts", file_patte
 clean_files <- function(search_string, replace_string="Not yet", dir_root="text", file_pattern="*.md", v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE  
   file_list <- build_file_list(dir_root, file_pattern)
+  file_list <- dir_root %s% list.files(dir_root, file_pattern)
   "\nSearching through" %b% length(file_list) %b% "files.\n\n" %>% cat
   for (i_file in file_list) {
     tx <- read_lines(i_file)

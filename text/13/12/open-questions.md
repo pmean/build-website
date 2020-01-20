@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: "Any other comments?" Open questions on questionnaires -- a bane or a bonus to research?"
+title: "Recommendation: Any other comments? Open questions on questionnaires. A bane or a bonus to research?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/open-questions/"
 date: "2013-12-05"

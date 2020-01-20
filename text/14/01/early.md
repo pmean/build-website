@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: What's so good about "early" anyway."
+title: "Recommendation: What's so good about early anyway."
 author: "Steve Simon"
 source: "http://blog.pmean.com/early/"
 date: "2014-01-09"

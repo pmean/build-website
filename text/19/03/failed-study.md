@@ -1,5 +1,5 @@
 ---
-title: "PMean: Slapping the word "pilot" on a failed study"
+title: "PMean: Slapping the word pilot on a failed study"
 author: "Steve Simon"
 source: "http://blog.pmean.com/failed-study/"
 date: "2019-03-03"

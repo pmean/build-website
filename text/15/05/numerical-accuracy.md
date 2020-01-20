@@ -55,6 +55,6 @@ microcomputers. Computational Statistics and Data Analysis 1985: 3;
 Here's a picture of Dr. Lesage, from his website at Texas State
 University -- San Marcos.
 
-![](../https://faculty.txstate.edu/api/crop/files/photo/520670/jim_new-1.jpeg)
+![](https://faculty.txstate.edu/api/crop/files/photo/520670/jim_new-1.jpeg)
 
 

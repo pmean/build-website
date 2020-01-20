@@ -70,7 +70,7 @@ with, Jay Portnoy and Chitra Dinakar.
 
 
 
-![](../https://www.childrensmercy.org/error/not-found/){#imgPhoto}
+![](https://www.childrensmercy.org/error/not-found/){#imgPhoto}
 
 <U+00A0>
 

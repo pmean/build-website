@@ -1,5 +1,5 @@
 ---
-title: "PMean: About those "awful" election predictions"
+title: "PMean: About those awful election predictions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/election-predictions/"
 date: "2016-11-10"

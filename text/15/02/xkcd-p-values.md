@@ -16,6 +16,6 @@ interpreted.
 
 Randall Munroe. P-Values. Available at: <http://xkcd.com/1478/>.
 
-![](../https://imgs.xkcd.com/comics/p_values.png)
+![](https://imgs.xkcd.com/comics/p_values.png)
 
 
