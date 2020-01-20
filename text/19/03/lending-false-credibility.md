@@ -31,7 +31,7 @@ To Decisions We've Already Made. Forbes Magazine, March 24, 2019.
 Available in [html
 format](https://www.forbes.com/sites/kalevleetaru/2019/03/24/data-science-has-become-about-lending-false-credibility-to-decisions-weve-already-made/).
 
-![](../../web/images/lending-false-credibility01.png)
+![](../../../web/images/lending-false-credibility01.png)
 
 
 

@@ -17,7 +17,7 @@ page, but the overall content is still quite good.
 Sonia Pearson. How to Use Deming's 14 Points to Improve Quality.
 Available in [html format](https://tallyfy.com/demings-14-points/).
 
-![](../../web/images/fourteen-points01.png)
+![](../../../web/images/fourteen-points01.png)
 
 
 

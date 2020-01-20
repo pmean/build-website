@@ -19,7 +19,7 @@ Centers for Disease Control and Prevention. Checklist to Evaluate the
 Quality of Questions. Available in [PDF
 format](https://www.cdc.gov/healthyyouth/evaluation/pdf/brief15.pdf).
 
-![](../../web/images/questionnaire-checklist01.png)
+![](../../../web/images/questionnaire-checklist01.png)
 
 
 

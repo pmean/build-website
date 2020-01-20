@@ -18,7 +18,7 @@ Bionexus KC. Dr. Russell Waitman. Innovation: Breaking the Barriers on
 Medical Information. Available in [html
 format](https://bionexuskc.org/video_blog/dr-russell-waitman/).
 
-![](../../web/images/russell-waitman01.png)
+![](../../../web/images/russell-waitman01.png)
 
 
 

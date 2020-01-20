@@ -17,7 +17,7 @@ NCQA.
 National Committee for Quality Assurance. HEDIS and Performance
 Measurement. Available in [html format](https://www.ncqa.org/hedis/).
 
-![](../../web/images/hedis01.png)
+![](../../../web/images/hedis01.png)
 
 
 

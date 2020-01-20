@@ -16,7 +16,7 @@ creating a literature review.
 Deborah Gabriel. How to write a literature review. Available in [html
 format](http://deborahgabriel.com/2017/08/21/how-to-write-a-literature-review/).
 
-![](../../web/images/literature-review01.png)
+![](../../../web/images/literature-review01.png)
 
 
 

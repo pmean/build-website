@@ -19,7 +19,7 @@ Charlie Custer. 9 Reasons Excel Users Should Consider Learning
 Programming. Dataquest blog, December 27, 2018. Available in [html
 format](https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/).
 
-![](../../web/images/excel-users01.png)
+![](../../../web/images/excel-users01.png)
 
 
 

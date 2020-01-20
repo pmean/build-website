@@ -18,7 +18,7 @@ Paul Johnson. R Markdown Basics. Published February 19, 2019. Available
 in \[PDF
 format\](https://cran.r-project.org/web/packages/stationery/vignettes/Rmarkdown.pdf).
 
-![](../../web/images/r-markdown-basics01.png)
+![](../../../web/images/r-markdown-basics01.png)
 
 
 

@@ -18,7 +18,7 @@ Harvard University Program on Survey Research. PSR Resources. Available
 in [html format](https://psr.iq.harvard.edu/book/psr-resources) (but
 individual links are PDF files).
 
-![](../../web/images/survey-research01.png)
+![](../../../web/images/survey-research01.png)
 
 
 

@@ -19,7 +19,7 @@ Robery Frary. Hints for Designing Effective Questionnaires. Practical
 Assessment, Research & Evaluation; 5(3): November 1996. Available in
 [PDF format](http://www.pmean.com/category/SurveyDesign.html).
 
-![](../../web/images/effective-quesitonnaires01.png)
+![](../../../web/images/effective-quesitonnaires01.png)
 
 
 

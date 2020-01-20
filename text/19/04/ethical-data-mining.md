@@ -17,7 +17,7 @@ Peter Bruce. Ethical Practice in Data Mining. Statistics.com blog, March
 28, 2019. Available in [html
 format](https://www.statistics.com/blog/1/1553803419-ethical-practice-in-data-mining/).
 
-![](../../web/images/ethical-data-mining01.png)
+![](../../../web/images/ethical-data-mining01.png)
 
 
 

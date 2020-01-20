@@ -16,7 +16,7 @@ authors.
 PROC-X.com. An online (unofficial) SAS journal -- written by bloggers.
 Available in [html format](http://proc-x.com/).
 
-![](../../web/images/sas-blog01.png)
+![](../../../web/images/sas-blog01.png)
 
 
 

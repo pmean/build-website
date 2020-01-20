@@ -25,7 +25,7 @@ lead to bias. Science Career blog, May 8, 2019. DOI:
 10.1126/science.caredit.aax9105. Available in [html
 format](https://www.sciencemag.org/careers/2019/05/scientists-grant-writing-styles-vary-gender-can-lead-bias).
 
-![](../../web/images/grant-writing-styles01.png)
+![](../../../web/images/grant-writing-styles01.png)
 
 
 
