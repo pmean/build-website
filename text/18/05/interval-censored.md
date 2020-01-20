@@ -18,7 +18,7 @@ Michael P. Fay. Interval Censored Data Analysis. useR! 2010 meeting.
 Available at
 <https://www.r-project.org/conferences/useR-2010/tutorials/Fay.html>.
 
-![](../../web/images/interval-censored01.png)
+![](../../../web/images/interval-censored01.png)
 
 
 

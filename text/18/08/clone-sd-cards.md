@@ -20,7 +20,7 @@ Johnny Winter. How to Clone Your Raspberry Pi SD Cards With Windows.
 Envato Tuts+ blog,<U+00A0> December 27, 2013. Available at
 [https://computers.tutsplus.com/articles/how-to-clone-your-raspberry-pi-sd-cards-with-windows--mac-59294](https://computers.tutsplus.com/articles/how-to-clone-your-raspberry-pi-sd-cards-with-windows--mac-59294).
 
-![](../../web/images/clone-sd-cards01.png)
+![](../../../web/images/clone-sd-cards01.png)
 
 
 

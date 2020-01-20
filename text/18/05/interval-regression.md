@@ -17,7 +17,7 @@ UCLA Institute for Digital Research and Education. Interval Regression
 \| R Data Analysis Examples. Available at
 <https://stats.idre.ucla.edu/r/dae/interval-regression/>.
 
-![](../../web/images/interval-regression01.png)
+![](../../../web/images/interval-regression01.png)
 
 
 

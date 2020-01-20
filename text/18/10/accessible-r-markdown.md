@@ -19,7 +19,7 @@ vision.
 A. Jonathan R. Godfrey. Accessible R Markdown Documents. Available
 in<U+00A0>[html format](https://r-resources.massey.ac.nz/rmarkdown/).
 
-![](../../web/images/accessible-r-markdown01.png)
+![](../../../web/images/accessible-r-markdown01.png)
 
 
 

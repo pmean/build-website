@@ -16,7 +16,7 @@ databases.
 
 RStudio. Databases using R. Available at <http://db.rstudio.com/>.
 
-![](../../web/images/databases-using-r01.png)
+![](../../../web/images/databases-using-r01.png)
 
 
 

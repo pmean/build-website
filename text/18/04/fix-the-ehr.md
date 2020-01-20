@@ -22,7 +22,7 @@ Care, Fix the Electronic Health Record. Harvard Business Review, March
 30, 2018. Available at
 <https://hbr.org/2018/03/to-combat-physician-burnout-and-improve-care-fix-the-electronic-health-record>.
 
-![](../../web/images/fix-the-ehr01.png)
+![](../../../web/images/fix-the-ehr01.png)
 
 
 

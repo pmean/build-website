@@ -17,7 +17,7 @@ from DataCamp comes highly recommended.
 Nick Carchedi. Intro to SQL for Data Science. Available at
 <https://www.datacamp.com/courses/intro-to-sql-for-data-science>.
 
-![](../../web/images/sql-for-data-science01.png)
+![](../../../web/images/sql-for-data-science01.png)
 
 
 

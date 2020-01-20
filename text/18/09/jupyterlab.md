@@ -22,7 +22,7 @@ The JupyterLab Team and Project Jupyter. JupyterLab is Ready for Users.
 Jupyter blog, February 20, 2018. Available at
 <https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906>.
 
-![](../../web/images/jupyterlab01.png)
+![](../../../web/images/jupyterlab01.png)
 
 
 

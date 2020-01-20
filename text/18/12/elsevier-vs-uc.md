@@ -27,7 +27,7 @@ publisher, the future of information is at stake. The Los Angeles Times,
 December 7, 2018. Available in [html
 format](https://www.latimes.com/business/hiltzik/la-fi-hiltzik-uc-elsevier-20181207-story.html).
 
-![](../../web/images/elsevier-vs-uc01.png)
+![](../../../web/images/elsevier-vs-uc01.png)
 
 
 

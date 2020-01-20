@@ -25,7 +25,7 @@ how not to Excel at economics. The Conversation, April 22, 2013.
 Available at
 <https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646>.
 
-![](../../web/images/reinhart-rogoff-error01.png)
+![](../../../web/images/reinhart-rogoff-error01.png)
 
 
 
