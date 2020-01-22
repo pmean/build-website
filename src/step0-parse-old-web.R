@@ -75,7 +75,7 @@ stats_files <- parse_old_web(
 
 stats_path <- "../web/old_web/stats"
 stats_files <- list.files(stats_path, "*.md")
-for (i_file in stats_files) {
+for (i_file in stats_files[22]) {
   "\n" %0% i_file %0% ": " %>% cat
   tx <- readLines(stats_path %s% i_file)
   tx <- str_remove(tx, fixed("(../OldWebsite.html)"))
@@ -90,9 +90,21 @@ for (i_file in stats_files) {
   title_and_date          %>%
     str_remove("^.*\\(")  %>%
     str_remove("\\)")     %>%
-    str_remove("created ") 
+    str_remove("created ") %>% 
     str_remove(", updated.*") -> md_date
-  cat(md_date)  
+  str_c(tx, collapse=" ") %>% 
+    str_extract_all("\\[Category:.*?\\]") %>%
+    unlist %>%
+    str_c(collapse=", ") -> tags
+  cat(tags)
+  # title
+  # author
+  # source
+  # date
+  # category
+  # tags
+  # output
+  # Place a more tag after second blank line
 }
 
 
