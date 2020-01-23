@@ -88,7 +88,6 @@ for (i_file in stats_files) {
     str_remove(fixed(":"))       %>%
     str_trim              -> md_title
   "\n" %0% i_file %0% ": " %>% cat
-  md_title %>% cat
   title_and_date          %>%
     str_remove("^.*\\(")  %>%
     str_remove("\\)")     %>%
@@ -103,11 +102,11 @@ for (i_file in stats_files) {
     str_remove(fixed("[Category: ")) %>%
     str_remove(fixed("]")) %>%
     str_c(collapse=", ") -> md_tags
+  if (!is.na(mdy(md_date, quiet=TRUE))) {md_date %<>% mdy %>% as.character}
   if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}")) {md_date %<>% str_sub(1, 10)}
-  if (!is.na(mdy(md_date, quiet=TRUE))) {md_date %<>% mdy(md_date)}
   cat(md_date)
-  yy <- str_sub(md_date, 1, 2)
-  mm <- str_sub(md_date, 4, 5)
+  yy <- str_sub(md_date, 3, 4)
+  mm <- str_sub(md_date, 6, 7)
   md_source <- "http://www.pmean.com" %s% yy %s% str_replace(i_file, "md$", "html")
   "---"                             %1%
     "title:"    %b% md_title        %1%
@@ -123,23 +122,22 @@ for (i_file in stats_files) {
   n_lines <- length(tx)
   blank_lines %<>% setdiff(n_lines)
   last_blank <- max(blank_lines)
-  if (length(blank_lines >= 2)) {
-    new_tx <- c(
-      new_header,
-      tx[blank_lines[1]:blank_lines[2]],
-      "<!---More--->",
-      tx[blank_lines[2]:last_blank], 
-      "<!---Do not use",
-      tx[1:blank_lines[1]],
-      tx[(last_blank+1):n_lines],
-      "--->",
-      ""
-    )
-  else {new_tx <- c(new_header, "", <!---More--->", "", tx)}  
-  }
+  new_tx <- c(new_header, "", "<!---More--->", "", tx)
+  if (length(blank_lines >= 2)) {tx <- c(tx, ""); blank_lines <- c(1, n_lines)}
+  new_tx <- c(
+    new_header,
+    tx[blank_lines[1]:blank_lines[2]],
+    "<!---More--->",
+    tx[blank_lines[2]:last_blank], 
+    "<!---Do not use",
+    tx[1:blank_lines[1]],
+    tx[(last_blank+1):n_lines],
+    "--->",
+    "")
   new_path <- "text"
-  cat(", ", new_path %s% yy %s% mm %s% i_file)
-  # writeLines(new_tx, new_path %s% yy %s% mm %s% i_file)
+  "," %b% new_path %s% yy %s% mm %s% i_file %>% cat
+  writeLines(new_tx, new_path %s% yy %s% mm %s% i_file)
 }
+
 
 
