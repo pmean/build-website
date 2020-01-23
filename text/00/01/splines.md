@@ -1,0 +1,82 @@
+---
+title: Splines
+author: Steve Simon
+source: http://www.pmean.com/00/splines.html
+date: 2000-01-27
+category: Blog post
+tags: Unusual data
+output: html_document
+---
+****[StATS]:** Splines (January 27, 2000).**
+
+*Dear Professor Mean, Can you send me a basic definition of splines?*
+
+> A spline is a wiggly curve that changes its wiggles as it moves along
+> to try to touch each data point. It changes the wiggles in a graceful
+> manner so that it gives the appearance of a single curve.
+>
+> Statisticians also use smoothing splines which don\'t wiggle enough to
+> go through every single data point, but which still try to get
+> reasonably close to the data.
+>
+> Have you ever seen the french curve that is used in drafting? It is a
+> way to connect consecutive points in a way that looks smooth and
+> natural. Splines work in a similar fashion.
+>
+> I\'m sure you were also interested in a technical definition. No? Well
+> you\'re going to get one anyway. A spline is a series of cubic
+> polynomials. Each cubic polynomial fits to a group of consecutive
+> values. You also constrain those cubic polynomials to be continuous
+> and smooth (smooth means it has a continuous first derivative).
+> That\'s the mathematical definition.
+>
+> An alternative to the spline is a locally weighted average. For this
+> approach, at each data point, averaging or a simple regression model
+> is fit to data with high weight given to values that are close on the
+> x-axis and low weight given to values that are far away on the x-axis.
+> When points are very far away on the x-axis, they are given zero
+> weight.
+>
+> Here\'s an example, looking at a lottery taken in the California
+> recall election that randomly assigned each letter of the alphabet.
+> Notice a slight tendency early in the process to select letters later
+> in the alphabet. This is a small sample and both splines and locally
+> weighted averages tend to have more uncertainty at the extremes, so it
+> is possible that this is just an artefact.
+>
+> ![](../03/images/splines1.gif){width="476" height="381"}
+
+**Further reading**
+
+1.  **Generalized Additive Models.\
+    **Hastie TJ, Tibshirani R.**\
+    **London England: Chapman and Hall (1990).\
+    ISBN: 0-412-34390-8.
+
+This page was written by Steve Simon while working at Children\'s Mercy
+Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service, as it is no longer available on the
+Children\'s Mercy Hospital website. Need more information? I have a page
+with [general help resources](../GeneralHelp.html). You can also browse
+for pages similar to this one at [Category: Unusual
+data](../category/UnusualData.html).
+<!---More--->
+data](../category/UnusualData.html).
+for pages similar to this one at [Category: Unusual
+with [general help resources](../GeneralHelp.html). You can also browse
+Children\'s Mercy Hospital website. Need more information? I have a page
+reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material, I am
+This page was written by Steve Simon while working at Children\'s Mercy
+
+<!---Do not use
+****[StATS]:** Splines (January 27, 2000).**
+This page was written by Steve Simon while working at Children\'s Mercy
+Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service, as it is no longer available on the
+Children\'s Mercy Hospital website. Need more information? I have a page
+with [general help resources](../GeneralHelp.html). You can also browse
+for pages similar to this one at [Category: Unusual
+data](../category/UnusualData.html).
+--->
+

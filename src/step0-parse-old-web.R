@@ -103,15 +103,15 @@ for (i_file in stats_files) {
     str_remove(fixed("[Category: ")) %>%
     str_remove(fixed("]")) %>%
     str_c(collapse=", ") -> md_tags
-  if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}$")) {md_date %<>% ymd; next}
-  if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}")) {md_date %<>% str_sub(1, 10); next}
-  if (!is.na(mdy(md_date, quiet=TRUE))) {md_date %<>% mdy(md_date); next}
+  if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}")) {md_date %<>% str_sub(1, 10)}
+  if (!is.na(mdy(md_date, quiet=TRUE))) {md_date %<>% mdy(md_date)}
+  cat(md_date)
   yy <- str_sub(md_date, 1, 2)
   mm <- str_sub(md_date, 4, 5)
   md_source <- "http://www.pmean.com" %s% yy %s% str_replace(i_file, "md$", "html")
   "---"                             %1%
     "title:"    %b% md_title        %1%
-    "author:"   %b% Steve Simon"    %1%
+    "author:"   %b% "Steve Simon"   %1%
     "source:"   %b% md_source       %1%
     "date:"     %b% md_date         %1%
     "category:" %b% "Blog post"     %1%
@@ -128,7 +128,7 @@ for (i_file in stats_files) {
       new_header,
       tx[blank_lines[1]:blank_lines[2]],
       "<!---More--->",
-      tx[blank_lines[2]:last_blank)], 
+      tx[blank_lines[2]:last_blank], 
       "<!---Do not use",
       tx[1:blank_lines[1]],
       tx[(last_blank+1):n_lines],
@@ -138,7 +138,8 @@ for (i_file in stats_files) {
   else {new_tx <- c(new_header, "", <!---More--->", "", tx)}  
   }
   new_path <- "text"
-  writeLines(new_tx, new_path %s% yy %s% mm %s% i_file)
+  cat(", ", new_path %s% yy %s% mm %s% i_file)
+  # writeLines(new_tx, new_path %s% yy %s% mm %s% i_file)
 }
 
 
