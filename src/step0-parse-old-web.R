@@ -75,36 +75,70 @@ stats_files <- parse_old_web(
 
 stats_path <- "../web/old_web/stats"
 stats_files <- list.files(stats_path, "*.md")
-for (i_file in stats_files[22]) {
-  "\n" %0% i_file %0% ": " %>% cat
+for (i_file in stats_files) {
   tx <- readLines(stats_path %s% i_file)
   tx <- str_remove(tx, fixed("(../OldWebsite.html)"))
   str_c(tx[1:5], collapse=" ") %>% 
     str_extract("\\[StATS\\].*?\\)") -> title_and_date
   title_and_date %>%
-    str_remove_all("\\*") %>%
-    str_remove("^.*?\\)") %>%
+    str_remove_all(fixed("*")) %>%
+    # str_remove("^.*?\\)") %>%
     str_remove("\\(.*?$") %>%
-    str_remove(":")       %>%
+    str_remove(fixed("[StATS]")) %>%
+    str_remove(fixed(":"))       %>%
     str_trim              -> md_title
+  "\n" %0% i_file %0% ": " %>% cat
+  md_title %>% cat
   title_and_date          %>%
     str_remove("^.*\\(")  %>%
     str_remove("\\)")     %>%
     str_remove("created ") %>% 
+    str_remove("Created ") %>%
+    str_remove("$by ")     %>%
     str_remove(", updated.*") -> md_date
+  if (is.na(md_date)) md_date <- "No date"
   str_c(tx, collapse=" ") %>% 
     str_extract_all("\\[Category:.*?\\]") %>%
     unlist %>%
-    str_c(collapse=", ") -> tags
-  cat(tags)
-  # title
-  # author
-  # source
-  # date
-  # category
-  # tags
-  # output
-  # Place a more tag after second blank line
+    str_remove(fixed("[Category: ")) %>%
+    str_remove(fixed("]")) %>%
+    str_c(collapse=", ") -> md_tags
+  if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}$")) {md_date %<>% ymd; next}
+  if (str_detect(md_date, "^[0-9]{4}-[0-9]{2}-[0-9]{2}")) {md_date %<>% str_sub(1, 10); next}
+  if (!is.na(mdy(md_date, quiet=TRUE))) {md_date %<>% mdy(md_date); next}
+  yy <- str_sub(md_date, 1, 2)
+  mm <- str_sub(md_date, 4, 5)
+  md_source <- "http://www.pmean.com" %s% yy %s% str_replace(i_file, "md$", "html")
+  "---"                             %1%
+    "title:"    %b% md_title        %1%
+    "author:"   %b% Steve Simon"    %1%
+    "source:"   %b% md_source       %1%
+    "date:"     %b% md_date         %1%
+    "category:" %b% "Blog post"     %1%
+    "tags:"     %b% md_tags         %1%
+    "output:"   %b% "html_document" %1%
+  "---"                             -> new_header
+  
+  blank_lines <- str_which(tx, "^$")
+  n_lines <- length(tx)
+  blank_lines %<>% setdiff(n_lines)
+  last_blank <- max(blank_lines)
+  if (length(blank_lines >= 2)) {
+    new_tx <- c(
+      new_header,
+      tx[blank_lines[1]:blank_lines[2]],
+      "<!---More--->",
+      tx[blank_lines[2]:last_blank)], 
+      "<!---Do not use",
+      tx[1:blank_lines[1]],
+      tx[(last_blank+1):n_lines],
+      "--->",
+      ""
+    )
+  else {new_tx <- c(new_header, "", <!---More--->", "", tx)}  
+  }
+  new_path <- "text"
+  writeLines(new_tx, new_path %s% yy %s% mm %s% i_file)
 }
 
 
