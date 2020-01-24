@@ -1,0 +1,30 @@
+---
+title: "Historical advances in medicine that did not need (or want) a randomized clinical trial."
+author: "Steve Simon"
+output: html_document
+bibliography: reference.bib
+nocite: |
+  @zika-overview, @zika-case-series
+---
+
+#### Abstract
+
+Understanding when randomized clinical trials (RCTs) are needed comes from first knowing when those RCTs are not needed. There are many settings where major improvements in health care came through the use of observational studies. Observational studies have some strengths, such as greater ecologic validity and the ability to study larger populations over longer periods of time, but they have many weaknesses and require much more effort to eliminate other possible causal explanation. Some examples of the triumphs of observational research are establishment of a causal association between cigarette smoking and lung cancer, identification of most of the well-known risk factors for heart disease, and discovery of the link between aspirin and Reye’s syndrome. The work was not easy; but the careful and methodical approach offers a lesson in how to assemble information from a series of less than perfect observational studies to produce a definitive conclusion. These examples help to teach students to recognize when the ethical and logistical challenges associated with RCTs are so great that observational studies, with all their limitations, are preferable. 
+
+#### Introduction
+
+In October 2015, health experts in Brazil noticed a sharp increase in the number of cases of microcephaly. This tragic event, where children are born with unusually small head circumferences and severe developmental disabilities, seemed to be geographically associated with the concurrent spread of a new virus, Zika. In response, researchers initiated a host of research studies. Among these were a prospective cohort study of 345 pregnant women in Rio de Janiero who exhibited symptoms associated with Zika infection (@zika-cohort), a case series of 24 infants diagnosed with congenital Zika syndrome at birth and followed for the next two years of their lives (@zika-case-series), a case-control study of 32 infants born with microcephaly compared to 62 normal births matched by time of delivery and location of residence (@zika-case-control), among many others. Researchers utilized a wide range of surveillance systems and registries (@zika-overview).
+
+What was lacking in all the research studies utilized in the war against Zika, was the randomized control trial (RCT). An informal Pubmed search on the terms “Zika” and “microcephaly” yielded 1,716 publications, but when you click on the link to the right that limits your search to clinical trials, the list dwindles to a single citation that on closer examination is actually a cohort study.
+
+It is not at all surprising that no RCTs were utilized in this investigation. What is surprising, at least to some, is how much was learned so quickly utilizing a range of research methodologies that are commonly held to be inferior to the RCT. In a few short years, researchers were able to track the spread of the Zika virus, identify the modes of transmission, provide a causal link between Zika infection during pregnancy and microcephaly, and characterize in great detail the impact of this condition on early childhood development.
+
+If you want to understand the benefits of RCTs and when they are needed, you should start by examining the times that they have not been needed. This paper will outline three areas where major progress was made without the benefit of RCTs and discuss what this means for the use of RCTs in research.
+
+#### Cigarette smoking and lung cancer
+
+Perhaps the most commonly cited discovery that did not use RCTs was the research that drew a causal link between cigarette smoking and cancer. It is still instructive, however, to review the series of studies that led to the 1964 Surgeon General's report on smoking and health. Although some evidence appeared earlier, the concern about smoking rose largely from five case-control studies, all published in 1950 (@report-anniversary). This research approach was very new, but the authors took great pains to control for recall bias and confounding (@statistics-in-action). 
+
+It took more than these five studies to develop a strong case against smoking, but it also required a different way of thinking about research. The authors of these case-control studies were well aware of the potential problems associated with sampling from cases and controls rather than sampling from the general population. In 1951, however, Jerome Cornfield took these studies and placed them on a rigorous mathematical foundation in his landmark paper on case-control studies (@cornfield-case-control). 
+
+#### Bibliography
