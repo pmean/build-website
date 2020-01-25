@@ -1,10 +1,13 @@
 ---
-title: "Historical advances in medicine that did not need (or want) a randomized clinical trial."
+title: Historical advances in medicine that did not need (or want) a randomized clinical
+  trial.
 author: "Steve Simon"
-output: html_document
-bibliography: reference.bib
 nocite: |
   @zika-overview, @zika-case-series
+output:
+  word_document: default
+  html_document: default
+bibliography: reference.bib
 ---
 
 #### Abstract
@@ -23,8 +26,14 @@ If you want to understand the benefits of RCTs and when they are needed, you sho
 
 #### Cigarette smoking and lung cancer
 
-Perhaps the most commonly cited discovery that did not use RCTs was the research that drew a causal link between cigarette smoking and cancer. It is still instructive, however, to review the series of studies that led to the 1964 Surgeon General's report on smoking and health. Although some evidence appeared earlier, the concern about smoking rose largely from five case-control studies, all published in 1950 (@report-anniversary). This research approach was very new, but the authors took great pains to control for recall bias and confounding (@statistics-in-action). 
+Perhaps the most commonly cited discovery that did not use RCTs was the research that drew a causal link between cigarette smoking and lung cancer. It is still instructive, however, to review the series of studies that led to the 1964 Surgeon General's report on smoking and health. Although some evidence appeared earlier, the concern about smoking rose largely from five case-control studies, all published in 1950 (@doll-hill-case-control , @levin-case-control, @mills-porter-case-control, @schrek-baker-case-control, @wynder-graham-case-control). This research approach was very new, but the authors took great pains to control for recall bias and confounding (@statistics-in-action). 
 
-It took more than these five studies to develop a strong case against smoking, but it also required a different way of thinking about research. The authors of these case-control studies were well aware of the potential problems associated with sampling from cases and controls rather than sampling from the general population. In 1951, however, Jerome Cornfield took these studies and placed them on a rigorous mathematical foundation in his landmark paper on case-control studies (@cornfield-case-control). 
+It took more than these five studies to develop a strong case against smoking, but it also required a different way of thinking about research. The authors of these case-control studies were well aware of the potential problems associated with sampling from cases and controls rather than sampling from the general population. In 1951, however, Jerome Cornfield took these studies and placed them on a rigorous mathematical foundation in his landmark paper on case-control studies (@cornfield-case-control).
+
+Around the same time, researchers set up prospective cohort studies to further investigate the link between smoking and lung cancer (@doll-hill-cohort, @dorn-cohort, @hammond-horn-cohort). These studies were massive (more than 460,000 patients total across the three studies) and followed these patients for multiple years. Needless to say, these studies took much longer to complete, but provided a key piece of additional evidence (@report-anniversary).
+
+The researchers received a lot of criticism, of course, and not just from tobacco interests. R.A. Fisher, perhaps the most prominent statistician of the era, published a series of stinging critiques of the research (@fisher-pamphlet, @fisher-smoking-letter-1, @fisher-smoking-letter-2, @fisher-smoking-letter-3). It is difficult to parse these criticisms. One source (@fisher-error) attributes it a largely unsupportable explanation rooted in genetics combined with a focus on small details that failed to support a smoking-cancer link while ignoring the totality of the evidence.
+
+The controversy inspired one of the prominent researchers in this area, Sir Austin Bradford Hill, to delineate his nine famous principles for establishing causation (@hill-criteria).
 
 #### Bibliography
