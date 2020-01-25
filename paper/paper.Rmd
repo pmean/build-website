@@ -46,7 +46,9 @@ The number of findings from the Framingham study goes on and on, but more import
 
 #### Aspirin and Reye's syndrome
 
-Reye's syndrome is rare disorder seen mostly in children. It can produce serious intracrainal swelling that can lead to serious neurological damage and possibly death.
+Reye's syndrome is rare disorder seen mostly in children. It can produce serious intracrainal swelling that can lead to serious neurological damage and possibly death (@reyes-causation). The disease was not well recognized until the 1970s and was very difficult to characterize accurately (@reyes-disappearance).
+
+The Centers for Disease Control developed a surveillance system for Reye's syndrome in 1980 to track the number of cases of Reye's syndrome in the United States and to collect information from the patient's family and combine that with laboratory results (@reyes-history).
 
 
 
