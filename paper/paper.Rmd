@@ -36,4 +36,12 @@ The researchers received a lot of criticism, of course, and not just from tobacc
 
 The controversy inspired one of the prominent researchers in this area, Sir Austin Bradford Hill, to delineate his nine famous principles for establishing causation (@hill-criteria).
 
+#### Risk factors for cardiovascular disease
+
+While many pharmaceutical and surgical interventions for cardiovascular disease used RCTs, the identification of risk factors for this condition required the use of a large observational cohort, the Framingham Study. This study originally comprised roughly 5,000 men and women in the city of Framingham, Massachusetts between the ages of 30 and 59 with a planned follow-up of 20 years (@framingham-design). It is worth noting that the inclusion of women in this study was, in that era, a rather unusual feature. At the end of twenty years, the study was almost ended, but a private funding effort and a concerted lobbying campaign led to the renewal and expansion of the Framingham study (@framingham-epidemiology). This expansion included inclusion of the children of the original participants and eventually the children of those children. Two contemporary cohorts of minority participants were also recruited to reflect the changing demographics of the city (@framingham-legacy).
+
+
+
+The Framingham study provided insights beyond cardiovascular disease. A 1964 study (@framingham-smoking) provided additional support to the link between smoking 
+
 #### Bibliography
