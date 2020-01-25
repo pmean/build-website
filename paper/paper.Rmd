@@ -40,8 +40,14 @@ The controversy inspired one of the prominent researchers in this area, Sir Aust
 
 While many pharmaceutical and surgical interventions for cardiovascular disease used RCTs, the identification of risk factors for this condition required the use of a large observational cohort, the Framingham Study. This study originally comprised roughly 5,000 men and women in the city of Framingham, Massachusetts between the ages of 30 and 59 with a planned follow-up of 20 years (@framingham-design). It is worth noting that the inclusion of women in this study was, in that era, a rather unusual feature. At the end of twenty years, the study was almost ended, but a private funding effort and a concerted lobbying campaign led to the renewal and expansion of the Framingham study (@framingham-epidemiology). This expansion included inclusion of the children of the original participants and eventually the children of those children. Two contemporary cohorts of minority participants were also recruited to reflect the changing demographics of the city (@framingham-legacy).
 
+An early finding of the Framingham study, after the four year follow-up visit (@framingham-hypertension) established hypertension, obesity, and hypercholesteremia as risk factors for arteriosclerotic heart disease (a composite measure of myocardial infarction, angina pectoris, coronary occlusion, or myocardial fibrosis). In 1964, researchers used the Framingham cohort combined with a second cohort in Albany, New York  to establish a link between smoking and cardiovascular disease (@framingham-smoking) and contributed vital information to the 1964 surgeon general's report. Further work elaborated on the greater importance of the systolic measurement of blood pressure on the risk of heart disease (@framingham-systolic).
+
+The number of findings from the Framingham study goes on and on, but more important than the number of studies is the way that this study changed clinical practice. The Framingham study changed the medical community's attitudes from the belief that heart disease as something to be treated to the belief that heart disease was something that could be prevented (@framingham-epidemiology).
+
+#### Aspirin and Reye's syndrome
+
+Reye's syndrome is rare disorder seen mostly in children. It can produce serious intracrainal swelling that can lead to serious neurological damage and possibly death.
 
 
-The Framingham study provided insights beyond cardiovascular disease. A 1964 study (@framingham-smoking) provided additional support to the link between smoking 
 
 #### Bibliography
