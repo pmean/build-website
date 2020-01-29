@@ -1,0 +1,90 @@
+---
+title: Historical advances in medicine that did not need (or want) a randomized clinical
+  trial.
+author: "Steve Simon"
+output:
+  word_document: default
+  html_document: default
+bibliography: reference.bib
+csl: american-medical-association.csl
+---
+
+#### Abstract
+
+Understanding when randomized clinical trials (RCTs) are needed comes from first knowing when those RCTs are not needed. There are many settings where major improvements in health care came through the use of observational studies. Observational studies have some strengths, such as greater ecologic validity and the ability to study larger populations over longer periods of time, but they have many weaknesses and require much more effort to eliminate other possible causal explanation. Some examples of the triumphs of observational research are establishment of a causal association between cigarette smoking and lung cancer, identification of most of the well-known risk factors for heart disease, and discovery of the link between aspirin and Reye’s syndrome. The work was not easy; but the careful and methodical approach offers a lesson in how to assemble information from a series of less than perfect observational studies to produce a definitive conclusion. Understanding the circumstances where observational studies shine will help to teach students to take a balanced approach to research. At the same time, defining the times when where RCTs are not needed will help define better by negation when RCTs are needed. 
+
+#### Introduction
+
+In October 2015, health experts in Brazil noticed a sharp increase in the number of cases of microcephaly. This tragic event, where children are born with unusually small head circumferences and severe developmental disabilities, seemed to be geographically associated with the concurrent spread of a new virus, Zika. In response, researchers initiated a host of research studies. Among these were a prospective cohort study of 345 pregnant women in Rio de Janiero who exhibited symptoms associated with Zika infection (@zika-cohort), a case series of 24 infants diagnosed with congenital Zika syndrome at birth and followed for the next two years of their lives (@zika-case-series), a case-control study of 32 infants born with microcephaly compared to 62 normal births matched by time of delivery and location of residence (@zika-case-control), among many others. Researchers utilized a wide range of surveillance systems and registries (@zika-overview).
+
+What was lacking in all the research studies utilized in the war against Zika, was the randomized control trial (RCT). It is not at all surprising that no RCTs were utilized in this investigation. What is surprising, at least to some, is how much was learned so quickly utilizing a range of research methodologies that are commonly held to be inferior to the RCT. In a few short years, researchers were able to track the spread of the Zika virus, identify the modes of transmission, provide a causal link between Zika infection during pregnancy and microcephaly, and characterize in great detail the impact of this condition on early childhood development.
+
+If you want to understand the benefits of RCTs and when they are needed, you should start by examining the times that they have not been needed. There are wonderful historical reviews of the research that first drew a link between smoking and lung cancer (@statistics-in-action, @smoking-anniversary), that established major risk factors for heart disease (@framingham-epidemiology, @framingham-legacy), and that identified aspirin use during viral infections as the predominant cause of Reye's syndrome (@reyes-history). This paper will outline three areas how these research areas relied on a broad range of observational studies and made major progress was made without the benefit of RCTs. This review has broad implications for when RCTs should be used in research.
+
+#### Cigarette smoking and lung cancer
+
+Perhaps the most commonly cited discovery that did not use RCTs was the research that drew a causal link between cigarette smoking and lung cancer. It is still instructive, however, to review the series of studies that led to the 1964 Surgeon General's report on smoking and health. Although some evidence appeared earlier, the concern about smoking rose largely from five case-control studies, all published in 1950 (@doll-hill-case-control , @levin-case-control, @mills-porter-case-control, @schrek-baker-case-control, @wynder-graham-case-control). This research approach was very new, but the authors took great pains to control for recall bias and confounding (@statistics-in-action). 
+
+It took more than these five studies to develop a strong case against smoking, but it also required a different way of thinking about research. The authors of these case-control studies were well aware of the potential problems associated with sampling from cases and controls rather than sampling from the general population. In 1951, however, Jerome Cornfield took these studies and placed them on a rigorous mathematical foundation in his landmark paper on case-control studies (@cornfield-case-control).
+
+Around the same time, researchers set up prospective cohort studies to further investigate the link between smoking and lung cancer (@doll-hill-cohort, @dorn-cohort, @hammond-horn-cohort). These studies were massive (more than 460,000 patients total across the three studies) and followed these patients for multiple years. Needless to say, these studies took much longer to complete, but provided a key piece of additional evidence (@smoking-anniversary).
+
+The researchers received a lot of criticism, of course, and not just from tobacco interests. R.A. Fisher, perhaps the most prominent statistician of the era, published a series of stinging critiques of the research (@fisher-pamphlet, @fisher-smoking-letter-1, @fisher-smoking-letter-2, @fisher-smoking-letter-3). It is difficult to parse these criticisms. One source (@fisher-error) attributes it a largely unsupportable explanation rooted in genetics combined with a focus on small details that failed to support a smoking-cancer link while ignoring the totality of the evidence.
+
+The controversy inspired one of the prominent researchers in this area, Sir Austin Bradford Hill, to delineate his nine famous principles for establishing causation (@hill-criteria). These criteria are still invoked today when researchers debate the implications of new observational studies. In truth, these criteria can and should be considered when debating the implications of new RCTs as well.
+
+#### Risk factors for cardiovascular disease
+
+While many pharmaceutical and surgical interventions for cardiovascular disease used RCTs, the identification of risk factors for this condition required the use of a large observational cohort, the Framingham Study. It would be unfair to characterize this study as the only large observational cohort that contributed to our knowledge of cardiovascular disease, but the Framingham study stands out by its pioneering efforts and its dogged determination to persist over more than six decades.
+
+This study originally comprised roughly 5,000 men and women in the city of Framingham, Massachusetts between the ages of 30 and 59 with a planned follow-up of 20 years (@framingham-design). It is worth noting that the inclusion of women in this study was, in that era, a rather unusual feature. Also unusual in its time was the use of community councils to shape the features of the study (@framingham-epidemiology), an early recognition of the value of community based participatory research.
+
+At the end of twenty years, the study was almost ended, but a private funding effort and a concerted lobbying campaign led to the renewal and expansion of the Framingham study (@framingham-epidemiology). This expansion included inclusion of the children of the original participants and eventually the children of those children. Two contemporary cohorts of minority participants were also recruited to reflect the changing demographics of the city (@framingham-legacy).
+
+An early finding of the Framingham study, after the four year follow-up visit (@framingham-hypertension) established hypertension, obesity, and hypercholesteremia as risk factors for arteriosclerotic heart disease (a composite measure of myocardial infarction, angina pectoris, coronary occlusion, or myocardial fibrosis). In 1964, researchers used the Framingham cohort combined with a second cohort in Albany, New York  to establish a link between smoking and cardiovascular disease (@framingham-smoking) and contributed vital non-cancer information to the 1964 surgeon general's report mentioned earlier. Further work elaborated on the greater importance of the systolic measurement of blood pressure on the risk of heart disease (@framingham-systolic).
+
+The number of findings from the Framingham study goes on and on, but more important than the number of studies is the way that this study influenced clinical practice. The Framingham study changed the medical community's attitudes from the belief that heart disease as something to be treated to the belief that heart disease was something that could be prevented (@framingham-epidemiology).
+
+#### Aspirin and Reye's syndrome
+
+Reye's syndrome is rare disorder seen mostly in children. It can produce serious intracrainal swelling that sometimes leads to serious neurological damage and possibly death (@reyes-causation). The disease was not well recognized until the 1970s and was very difficult to characterize accurately (@reyes-disappearance).
+
+The Centers for Disease Control developed a surveillance system for Reye's syndrome in 1980 to track the number of cases of Reye's syndrome in the United States and to collect information from the patient's family and combine that with laboratory results (@reyes-history).
+
+Around the same time, several case control studies were being published. The results of one study (@reyes-case-control-2) are representative of the general findings. The researchers identified 159 cases of Reye's syndrome following an illness like influenze or varicella. Recruiting was done at six pediatric centers in Ohio between December 1978 and March 1980. Controls were recruited from the same school and matched on age, sex, and race and had an antecedant illness within one week of the case. The use of salicylates (aspirin) among the cases was significantly higher (97% versus 71%) among the cases.
+
+While the case control studies alone may not have provided a definitive link between aspirin and Reye's syndrome, it was sufficiently persuasive to start a publicity effort warning the public about the possible danger associated with aspirin use in a child during a viral illness. What happened next was definitive proof. The number of cases reported to the CDC surveillance system dropped steadily from a high of 555 cases in 1980 to no more than 2 per year in 1994-1997 and the drops exhibited a strong temporal association with public health campaign events (@reyes-history, Figure 1).
+
+The near total elimination of Reye's syndrome has been properly hailed as a public health triumph (@reyes-disappearance) and was accomplished without any RCTs. The humble case-control study combined with temporal trends in disease surveillance were all that was needed.
+
+#### Discussion
+
+The recent research effort to examine the link between the Zika virus and microcephaly mirrors past research efforts in lung cancer, heart disease, and Reye's syndrome. In every case, major advances in knowledge were accomplished using only observational studies. 
+
+The effective use of observational studies is not limited to just these areas. Benjamin Djulbegovic has developed an web page inventory of non-randomized trials that have changed clinical practice (http://personal.health.usf.edu/bdjulbeg/oncology/NON-RCT-practice-change.htm) that covers studies in Cardiology, Endocrinology, Hematology, Infectious Diseases, Musculoskeletal conditions, Oncology, Psychiatry, Pulmonology, Surgery, and Urology.
+
+The research efforts described in this paper share some common features that can help us understand when RCTs are not needed. The most obvious feature is the practical and ethical barriers to randomization. No one could envision a study where some children with a viral fever are given aspirin to see if any harm could come from it. The long latency periods associated with lung cancer and heart disease would saddle most RCTs with an unworkable time frame.
+
+You can't stop here, however, and say that observational studies are a clearly inferior design that we only fall back on when the RCTs is impractical or unethical. Observational studies shine in areas where RCTs cannot.
+
+A common thread to these observational studies is that are relied upon when you are pioneering efforts in an area where little at that time was known. This is illustrated best, perhaps, by the Framingham study. The original planners of this study had considered using the population of Framingham, Massachusetts as a testbed for trying new interventions, but rejected that approach in favor of an observational study because there weren't any interventions at the time that warranted testing (@framingham-epidemiology). Today there are many RCTs testing a variety of prevention initiatives, but these are only possible because of the foundational knowledge that Framingham provided.
+
+Another common thread to these studies is the magnitude of the effects they were looking for. These researchers wanted to take big bites rather than nibbling around the edges. The odds ratios in the lung cancer studies were showing a 10 to 20 fold increase in risk among smokers. The finding of aspirin use in the medical history of almost every Reye's syndrome case was a veritable smoking gun and made any concerns about biases in a case-control study seem unimportant.
+
+A final commonality among these studies is the hard work that researchers put in place to insure that these observational studies would produce results that could withstand critical scrutiny. Elaborate matching plans helped to insure a comparable control group and efforts to use blinding during patient interviews helped to reduce biases from researcher expectations. Researchers adopted a variety of different observational approaches, recognizing that while all observational have biases, it is unlikely that a broad range of different approaches would suffer from a common flaw.
+
+The recent studies of the Zika virus show that same level of care. One example is the careful consideration of what specific head circumference measurements would be considered as evidence of microcephaly (@zika-interpret). The Zika researchers are not afraid to deploy case series studies, case control designs, observational cohorts, registries, and surveillance to attack the research problem from every possible front. 
+
+Now let's flip the coin over to the other side. If observational studies are what we want when studying the link between smoking and lung cancer, the risk factors for heart disease, the cause of Reye's syndrome, and the microcephaly associated with the Zika virus, then when do we want to use RCTs instead?
+
+RCTs do very well in a mature setting where we know a lot about the causes of disease and can develop some well supported interventions. They are great at developing and testing a series of small incremental improvements that nibble around the edges. If you do enough nibbling, you can make some pretty big improvements over time.
+
+The RCT excels when you are in the muddled middle. You have some interventions that sort of work but there's hope that you might find something a bit better. When comparing a fair intervention to a good intervention, biases become very troublesome, and the ability to remove many of these biases through randomization helps to insure that you'll recognize the distinction between fair and good. There are small but important improvements that you can make to an approach that is already somewhat effective by modifying a dosing schedule, substituting a less toxic drug to the current treatment regimen, and examining the synergism of combining two different treatment approaches. RCTs excel here because their ability to remove many sources of bias allow you to detect subtle signals amidst all the noise.
+
+I once worked with a statistician who told me that he would never work on a study that didn't use randomization. My first thought was "You have some many clients asking for your help that you can send the half away that come to you with observational studies?" But I later came to realize that this was a type of arrogance, a research chauvinism that says that my approach is the only true path to knowledge. We can have debates about how observational studies have greater ecologic validity or how randomized studies control for many biases but this is really not the point. The type of problem you are studying should determine what type of research you choose. You don't want to be the proverbial worker who sees nothing but nails because the only tool you have is a hammer. Both observational studies and RCTs have their place in the research toolbox.
+
+#### Conclusion
+
+Research efforts in several major areas have not used RCTs. A review of how these developed important insights and make great progress helps you to understand the settings where observational studies by themselves are sufficient. Knowing when RCTs are not wanted also helps you understand when RCTs are truly needed.
+
+#### Bibliography
