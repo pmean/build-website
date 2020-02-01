@@ -4,3 +4,4 @@
 *.Rproj
 data/*.*
 images/*.*
+*.bak
