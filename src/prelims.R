@@ -350,6 +350,41 @@ skim_yaml_files <- function(field_header, dir_root="../source/posts", file_patte
 # markdown files and prints lines matching
 # a specified string.
 
+pull_images <- function(i_file, v=TRUE) {
+  tx <- read_lines(i_file)
+  if (v) "Reading" %b% length(tx) %b% "lines. " %>% cat
+  tx %>% 
+    str_extract_all("!\\[\\]\\(.*\\)") %>% 
+    unlist  %>%
+    str_remove("!.*/") %>%
+    str_remove("\\)") -> found_lines
+  if (v) {found_lines %>% str_c(collapse=", ") %>% cat}
+  return(found_lines)
+}
+
+move_images <- function(i_yr, i_mo, i_file, image_list, v=TRUE) {
+  n_images <- length(image_list)
+  i_file %>% str_remove(fixed(".md")) -> root_name
+  tx <- readLines("text" %s% i_yr %s% i_mo %s% i_file)
+  if (v) "Processing" %b% n_images %b% "images in" %b% length(tx) %b% "lines of text." %>% cat
+  for (j in 1:n_images) {
+    i_image <- image_list[j]
+    match_found <- file.exists("../web/images" %s% i_image)
+    old_image_name <- ifelse(match_found, i_image, "image-not-found.png")
+    old_image_name %>% str_remove(".*\\.") -> image_type
+    new_image_name <- root_name %0% zpad(j) %d% image_type
+    if (v) "\n  " %0% old_image_name %b% ">>" %b% new_image_name %>% cat
+    if (!match_found) "." %b% i_image %b% "not found" %>% cat
+    file.copy("../web/images" %s% old_image_name, "../web/images" %s% i_yr %s% new_image_name)
+    tx %>% str_which(fixed(i_image)) %>% unlist -> i_line
+    if (v) "." %b% str_c(i_line, collapse=";") %>% cat
+    tx[i_line] <- "![](../web/images" %s% i_yr %s% new_image_name
+  }
+  writeLines(tx, "text" %s% i_yr %s% i_file)
+}
+
+
+
 skim_md_files <- function(search_string, dir_root="text", file_pattern="*.md", v=TRUE) {
   file_list <- build_file_list(dir_root, file_pattern)
   if (v) "\nScanning through" %b% length(file_list) %b% "files." %>% cat
@@ -359,7 +394,7 @@ skim_md_files <- function(search_string, dir_root="text", file_pattern="*.md", v
     tx %>% 
       str_extract_all(search_string) %>% 
       unlist -> found_lines
-    if(v & length(found_lines > 1)) "\n" %0% i_file %C% paste(found_lines, collapse=", ") %>% cat
+    if(v & length(found_lines > 1)) found_lines %>% str_c(collapse=", ") %>% cat
   }
   return(tx)
 }
