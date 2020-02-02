@@ -337,13 +337,34 @@ flag_unused_yaml_fields <- function(fields, v=TRUE) {
 
 skim_yaml_files <- function(field_header, dir_root="../source/posts", file_pattern="*.md", v=TRUE) {
   file_list <- build_file_list(dir_root, file_pattern)
+  if (v) "\nScanning through" %b% length(file_list) %b% "files." %>% cat
   for (i_file in file_list) {
     tx <- read_lines(i_file)
     fields <- parse_yaml(tx, i_file)
     if(v) i_file %C% fields[[field_header]] %>% br %>% cat
-    if(is.null(fields[[field_header]])) print(fields)
+    # if(is.null(fields[[field_header]])) print(fields)
   }
 }
+
+# This function skims through the text of
+# markdown files and prints lines matching
+# a specified string.
+
+skim_md_files <- function(search_string, dir_root="text", file_pattern="*.md", v=TRUE) {
+  file_list <- build_file_list(dir_root, file_pattern)
+  if (v) "\nScanning through" %b% length(file_list) %b% "files." %>% cat
+  # file_list <- sample(file_list)
+  for (i_file in file_list) {
+    tx <- read_lines(i_file)
+    tx %>% 
+      str_extract_all(search_string) %>% 
+      unlist -> found_lines
+    if(v & length(found_lines > 1)) "\n" %0% i_file %C% paste(found_lines, collapse=", ") %>% cat
+  }
+  return(tx)
+}
+
+# tx <- skim_md_files("!\\[\\]\\(.*?\\)")
 
 clean_files <- function(search_string, replace_string="Not yet", dir_root="text", file_pattern="*.md", v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE  
