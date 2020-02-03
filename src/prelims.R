@@ -354,7 +354,7 @@ pull_images <- function(i_file, v=TRUE) {
   tx <- read_lines(i_file)
   if (v) "Reading" %b% length(tx) %b% "lines. " %>% cat
   tx %>% 
-    str_extract_all("!\\[\\]\\(.*\\)") %>% 
+    str_extract_all("!\\[.*?\\]\\(.*?\\)") %>% 
     unlist  %>%
     str_remove("!.*/") %>%
     str_remove("\\)") -> found_lines
@@ -378,7 +378,8 @@ move_images <- function(i_yr, i_mo, i_file, image_list, v=TRUE) {
     file.copy("../web/images" %s% old_image_name, "../web/images" %s% i_yr %s% new_image_name)
     tx %>% str_which(fixed(i_image)) %>% unlist -> i_line
     if (v) "." %b% str_c(i_line, collapse=";") %>% cat
-    tx[i_line] <- "![](../web/images" %s% i_yr %s% new_image_name
+    msg <- ifelse(match_found, "", i_image %b% "not found.")
+    tx[i_line] <- "![" %0% msg %0% "](../../../web/images" %s% i_yr %s% new_image_name %0% ")"
   }
   writeLines(tx, "text" %s% i_yr %s% i_file)
 }

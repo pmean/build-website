@@ -31,7 +31,7 @@ continue by making adjustments for important confounders.
 binary, you can visualize how the logistic regression model works by
 arranging your data in a two by two table**.
 
-![](../web/images/99/logistic01.gif
+![](../../../web/images/99/logistic01.gif)
 
 In this example, the treatment group (also labeled \"ng tube\" in other
 parts of this website) represents a group of children who received
@@ -44,14 +44,14 @@ us the frequency for the four possible combinations of feeding type and
 breast feeding status at discharge. It helps to also look at the row
 percentages and the risk option.
 
-![](../web/images/99/logistic02.gif
+![](../../../web/images/99/logistic02.gif)
 
 The table above shows row percentages for the exclusive breast feeding
 status at discharge. Notice that a much greater fraction of the
 Treatment group were exclusive breast feeding at discharge (86.8% versus
 41.3% for the control group).
 
-![](../web/images/99/logistic03.gif
+![](../../../web/images/99/logistic03.gif)
 
 The **Risk Estimate table** appears when we select the RISK option. This
 table provides information about the odds ratio and two different risk
@@ -77,13 +77,13 @@ the NG Tube group to the Bottle Fed group.
 The logistic regression output from SPSS is quite extensive. We will
 break it apart into pieces and discuss each piece individually.
 
-![](../web/images/99/logistic04.gif
+![](../../../web/images/99/logistic04.gif)
 
 The **Case Processing Summary table** shows you information on missing
 cases and unselected cases. Make sure that you are not losing data
 unexpectedly.
 
-![](../web/images/99/logistic05.gif
+![](../../../web/images/99/logistic05.gif)
 
 The **Dependent Variable Encoding table** shows you which of the
 categories is labeled as 0 and which is labeled as 1. If the estimates
@@ -96,19 +96,19 @@ represent the status of a null model with no independent variables other
 than an intercept. These values are more likely to be interesting if you
 are fitting a sequential series of logistic regression models.
 
-![](../web/images/99/logistic06.gif
+![](../../../web/images/99/logistic06.gif)
 
 The **Omnibus Tests of Model Coefficients table** is mostly of interest
 for more complex logistic regression models. It provides a test of the
 joint predictive ability of all the covariates in the model.
 
-![](../web/images/99/logistic07.gif
+![](../../../web/images/99/logistic07.gif)
 
 The **Model Summary table** in Step 1 shows three measures of how well
 the logistic regression model fits the data. These measures are useful
 when you are comparing several different logistic regression models.
 
-![](../web/images/99/logistic08.gif
+![](../../../web/images/99/logistic08.gif)
 
 The **Classification Table** in Step1 is often useful for logistic
 regression models which involve diagnostic testing, but you usually have
@@ -119,7 +119,7 @@ percentage correct could relate to sensitivity and specificity (or the
 reverse), though the use of these terms is a bit unusual for a breast
 feeding study since this represents a condition not related to disease.
 
-![](../web/images/99/logistic09.gif
+![](../../../web/images/99/logistic09.gif)
 
 In the **Variables in the Equation table** for Step 1, the **B column**
 represents the estimated log odds ratio. The **Sig. column** represents
@@ -134,7 +134,7 @@ We can also get a confidence interval for the odds ratio by clicking on
 the **Options button** and selecting the the **CI for exp(B) option
 box**.
 
-![](../web/images/99/logistic10.gif
+![](../../../web/images/99/logistic10.gif)
 
 If we were interested in the earlier odds ratio of 9.379 instead of
 0.107, then we would compute the reciprocal of the confidence limits.
@@ -145,14 +145,14 @@ Let\'s look at another logistic regression model, where we try to
 predict exclusive breast feeding at discharge using the mother\'s age as
 a continuous covariate.
 
-![](../web/images/99/logistic11.gif
+![](../../../web/images/99/logistic11.gif)
 
 The log odds ratio is **0.157** and the p-value is **0.001**. The odds
 ratio is **1.170**. This implies that the estimated odds of successful
 breast feeding at discharge improve by about 17% for each additional
 year of the mother\'s age.
 
-![](../web/images/99/logistic12.gif
+![](../../../web/images/99/logistic12.gif)
 
 The confidence limit is **1.071 to 1.278**, which tells you that even
 after allowing for sampling error, the estimated odds will increase by
@@ -179,14 +179,14 @@ block and put **MOM\_AGE** as a covariate in the second block. The full
 output has much in common with the output for the crude model. Important
 excerpts appear below.
 
-![](../web/images/99/logistic13.gif
+![](../../../web/images/99/logistic13.gif)
 
 The **Omnibus Tests of Model Coefficients table** and the **Model
 Summary table** for Block 1 are identical to those in the crude model
 with **MOM\_AGE** as the covariate. We wish to contrast these with the
 same tables for Block 2.
 
-![](../web/images/99/logistic14.gif
+![](../../../web/images/99/logistic14.gif)
 
 The Chi-square values in the **Omnibus Tests of Model Coefficients
 table** in Block 2 show some changes.
@@ -210,9 +210,9 @@ Notice that the two R-squared measures are larger. This also tells you
 that feeding type helps in predicting breastfeeding outcome, above and
 beyond mother\'s age.
 
-![](../web/images/99/logistic15.gif
+![](../../../web/images/99/logistic15.gif)
 
-![](../web/images/99/logistic16.gif
+![](../../../web/images/99/logistic16.gif)
 
 The odds ratio for mother\'s age is **1.1367**. That tells you that each
 for additional year of the mother\'s age, the odds of breast feeding
@@ -239,7 +239,7 @@ If you coded your outcome variable as 0 and 1, then you can compute the
 average to get probabilities observed in the data. But if you have a lot
 of values for your covariate, you have to group it first.
 
-![](../web/images/99/logistic17.gif
+![](../../../web/images/99/logistic17.gif)
 
 The **Report table** shows average predicted probabilities (**Predicted
 probability column**) and observed probabilities (**Exclusive bf at
@@ -250,7 +250,7 @@ represented the 17 mothers with the oldest ages. The last column
 (**Mother\'s age column**) shows the average age in each of the five
 groups.
 
-![](../web/images/99/logistic18.gif
+![](../../../web/images/99/logistic18.gif)
 
 The **Hosmer and Lemeshow Test table** provides a formal test for
 whether the predicted probabilities for a covariate match the observed
@@ -260,7 +260,7 @@ alternative ways to describe the relationship between this covariate and
 the outcome variable. In our example, the p-value is large (**0.545**),
 indicating a good match.
 
-![](../web/images/99/logistic19.gif
+![](../../../web/images/99/logistic19.gif)
 
 The **Contingency Table for Hosmer and Lemeshow Test table** shows more
 details. This test divides your data up into approximately ten groups.
@@ -276,7 +276,7 @@ bottom half editted out). The second group of eight mothers represents
 The third group represents nine mothers aged 21 and 22 years old, and so
 forth.
 
-![](../web/images/99/logistic20.gif
+![](../../../web/images/99/logistic20.gif)
 
 The next group corresponds to those with the next lowest risk, those
 mothers who were 19 and 20 years old.

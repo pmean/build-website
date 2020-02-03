@@ -38,7 +38,7 @@ Can you review this for me? \-- Baffled Bill*
 > Use the DATA VIEW tab to enter your data, or to view your data. Use
 > the VARIABLE VIEW tab to add documentation to your data.
 
-![](../web/images/99/document01.gif
+![](../../../web/images/99/document01.gif)
 
 > From VARIABLE VIEW tab, you can tell SPSS **how to display the data in
 > the SPSS data editor window** (how many decimal places shown, how
@@ -219,7 +219,7 @@ Can you review this for me? \-- Baffled Bill*
 > character limit forces us to select an abbreviated description like
 > this or mar\_stat.
 
-![](../web/images/99/document02.gif
+![](../../../web/images/99/document02.gif)
 
 > We use numeric codes for this variable, so we **keep the NUMERIC
 > option selected**. With no values larger than 9, we could change the
@@ -228,14 +228,14 @@ Can you review this for me? \-- Baffled Bill*
 > number codes here do not require any decimals, so we **change the
 > DECIMAL PLACES field from 2 to 0**.
 
-![](../web/images/99/document03.gif
+![](../../../web/images/99/document03.gif)
 
 > **A nice variable label is \"Marital Status of the Infant\'s
 > Mother\"**. Notice that we can include an apostrophe here. I also used
 > a mixture of upper and lower case. This is easier to read than all
 > lower case and much easier than all upper case.
 
-![](../web/images/99/document04.gif
+![](../../../web/images/99/document04.gif)
 
 > **The value labels are \"Single\"; \"Married\"; \"Divorced\";
 > \"Widowed\"; and \"Unknown\"**. Notice again that I use mixed case.
@@ -243,7 +243,7 @@ Can you review this for me? \-- Baffled Bill*
 > variable. For a continuous variable like birth weight, we would leave
 > the value labels blank.
 
-![](../web/images/99/document05.gif
+![](../../../web/images/99/document05.gif)
 
 > Finally, I **designate 9 as a missing value**.
 

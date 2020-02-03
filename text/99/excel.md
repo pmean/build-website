@@ -93,7 +93,7 @@ SPSS that was possibly being editted in Excel at the same time.
 I have already arranged the data in a rectangular grid and placed brief
 descriptive names in the first row..
 
-![](../web/images/99/excel01.gif
+![](../../../web/images/99/excel01.gif)
 
 **Make sure that Excel is closed before you try to import in SPSS**.
 SPSS is very jealous. It will not want to open your data file if it
@@ -105,25 +105,25 @@ dialog box that you will see. Click on the down arrow in the FILE OF
 TYPE field and select the EXCEL (\*.XLS) option. Find your file on the
 proper drive and folder of your computer.
 
-![](../web/images/99/excel02.gif
+![](../../../web/images/99/excel02.gif)
 
 When you click on the OPEN button, you get the dialog box shown below.
 **Click on the READ VARIABLE NAMES BUTTON if the first row of your
 spreadsheet has variable names**. Then click on the OK button.
 
-![](../web/images/99/excel03.gif
+![](../../../web/images/99/excel03.gif)
 
 **Check if you got the correct number of variables (columns) and cases
 (rows)**. A common problem is that SPSS will sometimes import a bunch of
 extra blank rows. You can delete the blank rows manually.
 
-![](../web/images/99/excel04.gif
+![](../../../web/images/99/excel04.gif)
 
 Here is what the SPSS data window looks like. **We are now ready to do
 things like adjusting the number of decimal places displayed and adding
 documentation.**
 
-![](../web/images/99/excel05.gif
+![](../../../web/images/99/excel05.gif)
 
 **Summary**
 

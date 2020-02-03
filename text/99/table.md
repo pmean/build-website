@@ -75,35 +75,35 @@ Dear Jinxed,
 >
 > Here\'s what your re-arranged data would look like
 
-![](../web/images/99/table01.gif
+![](../../../web/images/99/table01.gif)
 
 > **Enter the data, and tell SPSS that W represents a weighting
 > variable**, and you\'re ready to rock and roll. You do this by
 > selecting **Data \| Weight Cases from the SPSS menu.**
 
-![](../web/images/99/table02.gif
+![](../../../web/images/99/table02.gif)
 
 > Then select **Analyze \| Descriptive Statistics \| Crosstabs from the
 > SPSS menu** to create a two by two table.
 
-![](../web/images/99/table03.gif
+![](../../../web/images/99/table03.gif)
 
 > Be sure to click on the **Statistics button** and select the **Risk
 > option box** to ask SPSS to compute the risk ratios.
 
-![](../web/images/99/table04.gif
+![](../../../web/images/99/table04.gif)
 
 > I also usually find it useful to display the row percentages. To do
 > this, click on the **Cells button**.
 
-![](../web/images/99/table05.gif
+![](../../../web/images/99/table05.gif)
 
 > In the **Crosstabs: Cell Display dialog box**, select the **Row
 > Percentages option box**.
 >
 > Here\'s what the first part of the output looks like.
 
-![](../web/images/99/table06.gif
+![](../../../web/images/99/table06.gif)
 
 > Notice that the rows and columns are reversed in this table. There are
 > several ways to change how the table is displayed, but it is showing
@@ -111,13 +111,13 @@ Dear Jinxed,
 >
 > Here is what the second part of the output looks like.
 
-![](../web/images/99/table07.gif
+![](../../../web/images/99/table07.gif)
 
 > By the way, if you tried to use the crosstabs procedure without
 > weighting, you would get exactly one observation in each cell. Pretty
 > boring, eh?
 
-![](../web/images/99/table08.gif
+![](../../../web/images/99/table08.gif)
 
 **Summary**
 

@@ -66,7 +66,7 @@ down in the first twelve rows of the first column of the spreadsheet. In
 the second column, place the RAND() function in each of the first twelve
 rows. Here is what you have:
 
-![Excel table, unsorted](../00/Images/random31.gif){width="102"
+![](../../../web/images/99/random01.gif)
 height="278"}
 
 Your random numbers will be different than these. Otherwise, they
@@ -75,7 +75,7 @@ wouldn\'t be random now, would they?
 To randomize, sort the data by the second column. Notice that the
 systematic order of the first column has been scrambled.
 
-![Excel table, sorted](../00/Images/random32.gif){width="102"
+![](../../../web/images/99/random02.gif)
 height="278"}
 
 By the way, when you try this on your spreadsheet, you will notice that
@@ -110,12 +110,12 @@ In Excel, we would arrange the T and C values systematically and then
 add a column with a block number. The third column would be our random
 numbers. Here is what it would look like.
 
-![Excel table, unsorted](../00/Images/random33.gif){width="134"
+![](../../../web/images/99/random03.gif)
 height="278"}
 
 Now we sort the numbers, by block and by random number within block.
 
-![Excel table, sorted](../00/Images/random34.gif){width="134"
+![](../../../web/images/99/random04.gif)
 height="278"}
 
 Notice that the first block has the order TCTC, the second has CTCT, and
@@ -136,12 +136,12 @@ then sort within each patient.
 Here\'s an a example of how we would set up a matched pairs example for
 six patients.
 
-![Excel table, unsorted](../00/Images/random35.gif){width="134"
+![](../../../web/images/99/random05.gif)
 height="278"}
 
 Sort the data by patient and by random number within each patient.
 
-![Excel table, sorted](../00/Images/random36.gif){width="134"
+![](../../../web/images/99/random06.gif)
 height="278"}
 
 Notice that patients 1,3, and 4 get the control first and patients 2, 5,
@@ -160,11 +160,11 @@ then be cut-and-pasted next to the medical record numbers.
 Here\'s the medical record number, a sequential ID, and a column of
 random numbers.
 
-![](../web/images/99/random01.gif
+![](../../../web/images/99/random07.gif)
 
 Sort the last two columns only to get a shuffled list of IDs.
 
-![](../web/images/99/random02.gif
+![](../../../web/images/99/random08.gif)
 
 Keep this list in a secure location. Use only the ID column when sending
 your data out beyond the hospital. This approach protects the privacy of

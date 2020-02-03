@@ -47,7 +47,7 @@ Dear Jovial,
 > specificity will be at least 90%. The formula for a confidence
 > interval for Sn or Sp would be
 >
-![](../web/images/99/diag01.png
+![diagnostic00.gif not found.](../../../web/images/99/diag01.png)
 >
 > where n~a~ and n~n~ are the number of abnormal (diseased) and normal
 > (healthy) patients in the study. You assess abnormal and normal under

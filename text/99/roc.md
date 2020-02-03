@@ -86,13 +86,13 @@ about ROC curves?*
 > D, and E. We classify diseased (D+) and healthy (D-) patients by this
 > test and get the following results:
 >
-![](../web/images/99/roc01.gif
+![](../../../web/images/99/roc01.gif)
 
 > >  
 
 > It\'s a bit easier if we convert this table to cumulative percentages.
 
-![](../web/images/99/roc02.gif
+![](../../../web/images/99/roc02.gif)
 
 > We add a row (\*) to represent the cumulative percentage of 0% which
 > will end up corresponding to a diagnostic test where all the results
@@ -100,7 +100,7 @@ about ROC curves?*
 > represents the other extreme, where all the results are considered
 > negative regardless of the test value.
 >
-![](../web/images/99/roc03.gif
+![](../../../web/images/99/roc03.gif)
 >
 > The complementary percentages shown above represent the true positive
 > rate (or Sn) and the the false positive rate (or 1-Sp).
@@ -118,22 +118,22 @@ about ROC curves?*
 >
 > Here is what the graph of the ROC curve would look like.
 
-![](../web/images/99/roc04.gif
+![](../../../web/images/99/roc04.gif)
 
 > Here is information about Area Under the Curve. This area (0.91) is
 > quite good; it is close to the ideal value of 1.0 and much larger than
 > worst case value of 0.5.
 >
-![](../web/images/99/roc05.gif
+![](../../../web/images/99/roc05.gif)
 >
 > Here are the actual values used to draw the ROC curve (I selected the
 > \"Coordinate points of the ROC Curve\" button in SPSS).
 >
-![](../web/images/99/roc06.gif
+![](../../../web/images/99/roc06.gif)
 >
 > Here is the same ROC curve with annotations added
 
-![](../web/images/99/roc07.gif
+![](../../../web/images/99/roc07.gif)
 
 Shown below is an artificial ROC curve with an area equal to 0.5. Notice
 that each gain in sensitivity is balanced by the exact same loss in
@@ -142,7 +142,7 @@ point corresponding to 50% for both sensitivity and specificity. You
 could achieve this level of diagnostic ability by flipping a coin.
 Clearly, this curve represents a worst case scenario.
 
-![](../web/images/99/roc08.gif
+![](../../../web/images/99/roc08.gif)
 
 **What\'s a good value for the area under the curve?**
 

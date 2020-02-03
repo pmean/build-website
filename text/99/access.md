@@ -67,12 +67,12 @@ growth hormone study. **Select** **FILE \| DATABASE CAPTURE \| NEW QUERY
 from the SPSS menu** **FILE \| DATABASE CAPTURE \| NEW QUERY from the
 SPSS menu**.
 
-![Import6.bmp (289942 bytes)](../02/images/access01.gif)
+![](../../../web/images/99/access01.gif)
 
 **The dialog box shown above allows you to select your data source**.
 Click on ACCESS 97 and then click on the NEXT button.
 
-![Import7.bmp (101674 bytes)](../02/images/access02.gif)
+![](../../../web/images/99/access02.gif)
 
 **The dialog box shown above asks you for a location for your Access
 database.** Be sure that you select the correct drive and folder. Then
@@ -81,7 +81,7 @@ click on the file, and click on the OK button.
 **SPSS gives you a list of all available tables and queries within this
 database**.
 
-![Import9.bmp (289942 bytes)](../02/images/access03.gif)
+![](../../../web/images/99/access03.gif)
 
 **The dialog box shown above gives you a list of all available tables
 and queries within this database**. Drag the table from the AVAILABLE
@@ -109,12 +109,12 @@ information about subsets, changes in variable names, etc.
 On some computers, Access files are not listed as a data source in the
 database capture wizard dialog box. An example of this appears below.
 
-![](../web/images/99/access01.gif
+![](../../../web/images/99/access04.gif)
 
 In order to use these Microsoft Access files, you need to click on the
 ADD DATA SOURCE button. This calls up the following dialog box.
 
-![](../web/images/99/access02.gif
+![](../../../web/images/99/access05.gif)
 
 In the ODBC DATA SOURCE ADMINISTRATOR dialog box, you want to add a new
 data source. Click on the ADD button. You also have the option of
@@ -123,13 +123,13 @@ some of the options in a data format you already have (CONFIGURE
 button). When you click on the ADD button, you get the following dialog
 box.
 
-![](../web/images/99/access03.gif
+![](../../../web/images/99/access06.gif)
 
 In the CREATE A NEW DATA SOURCE dialog box, you have a list of ODBC data
 sources which you can add to your system. Highlight the driver you want
 (in this case the Access driver) and click on the FINISH button.
 
-![](../web/images/99/access04.gif
+![](../../../web/images/99/access07.gif)
 
 As the dialog box above shows, you\'re not quite finished yet. Tell the
 system a name and description for this format. A good name would be
@@ -139,7 +139,7 @@ even have the system select this database automatically (SELECT button).
 It\'s a good idea to set up a general driver first, so add a name and
 description and then click on the OK button.
 
-![](../web/images/99/access05.gif
+![](../../../web/images/99/access08.gif)
 
 Now your dialog box has the format you need. Click on the OK button to
 finish up. This format will appear every time now when you run a

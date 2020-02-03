@@ -148,45 +148,45 @@ the variance as a function of the mean.
 > would you test whether these groups are similar? To make this question
 > more precise, assume that
 >
-![](../web/images/99/poisson01.gif
+![](../../../web/images/99/poisson01.gif)
 >
 > and that these two variables are independent. We want to test the
 > hypothesis
 >
-![](../web/images/99/poisson02.gif
+![](../../../web/images/99/poisson02.gif)
 >
 > There are several approaches that work well. The normal approximation
 > statistic
 >
-![](../web/images/99/poisson03.gif
+![](../../../web/images/99/poisson03.gif)
 >
 > tests the hypothesis that
 >
-![](../web/images/99/poisson04.gif
+![](../../../web/images/99/poisson04.gif)
 >
 > You can also get a normal approximation for the term
 >
-![](../web/images/99/poisson05.gif
+![](../../../web/images/99/poisson05.gif)
 >
 > which has an approximate standard deviation of
 >
-![](../web/images/99/poisson06.gif
+![](../../../web/images/99/poisson06.gif)
 >
 > so the test statistic
 >
-![](../web/images/99/poisson07.gif
+![](../../../web/images/99/poisson07.gif)
 >
 > tests the hypothesis that
 >
-![](../web/images/99/poisson08.gif
+![](../../../web/images/99/poisson08.gif)
 >
 > You can also use a conditional argument to show that
 >
-![](../web/images/99/poisson09.gif
+![](../../../web/images/99/poisson09.gif)
 >
 > is a binomial proportion and the hypothesis
 >
-![](../web/images/99/poisson10.gif
+![](../../../web/images/99/poisson10.gif)
 >
 > is equivalent to the hypothesis that the two counts come from the same
 > Poisson distribution.
@@ -199,34 +199,34 @@ the variance as a function of the mean.
 > represent the amount of time at risk Then you would compute rates R~1~
 > and R~2~ as
 >
-![](../web/images/99/poisson11.gif
+![](../../../web/images/99/poisson11.gif)
 >
-![](../web/images/99/poisson12.gif
+![](../../../web/images/99/poisson12.gif)
 >
 > You can rely on the normal approximation to the Poisson distribution
 > again.
 >
-![](../web/images/99/poisson13.gif
+![](../../../web/images/99/poisson13.gif)
 >
 > or you can use a log transformation. Interestingly, the denominator
 > for the log of the ratio of rates is identtical to the denominator for
 > the log of the ratio of counts because
 >
-![](../web/images/99/poisson14.gif
+![](../../../web/images/99/poisson14.gif)
 >
 > The last term is a constant and does not affect measures of
 > variability. Thus, the test statistic would be
 >
-![](../web/images/99/poisson15.gif
+![](../../../web/images/99/poisson15.gif)
 >
 > Finally, you can apply the same binomial argument to the rates, but
 > there is a slight variation. It is easy to show that
 >
-![](../web/images/99/poisson16.gif
+![](../../../web/images/99/poisson16.gif)
 >
 > implies that
 >
-![](../web/images/99/poisson17.gif
+![](../../../web/images/99/poisson17.gif)
 >
 > Conditioning on the total, the left hand side is a binomial random
 > variable. But rather than testing whether this binomial proportion is

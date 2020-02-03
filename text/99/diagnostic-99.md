@@ -26,7 +26,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > in the numerator and the sum of the individual true positive plus
 > false negative values in the denominator.
 >
-![](../web/images/99/diagnostic-9901.gif
+![](../../../web/images/99/diagnostic-9901.gif)
 >
 > This is equivalent to a weighted average of the individual
 > sensitivities where the weights for each individual study is simply
@@ -42,7 +42,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > study using the classic binomial formula. Writing the standard error
 > in terms of true positive and false negative values, you would get
 >
-![](../web/images/99/diagnostic-9902.gif
+![](../../../web/images/99/diagnostic-9902.gif)
 >
 > The problem with this formula for the standard error is that it gives
 > less weight to studies where sensitivity is close to 50% and greater
@@ -58,7 +58,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > error, not using the individual sensitivities, but the overall
 > sensitivity.
 >
-![](../web/images/99/diagnostic-9903.gif
+![](../../../web/images/99/diagnostic-9903.gif)
 >
 > Since the numerator is now the same for every study, you no longer
 > have the problem where studies with sensitivities near 50% get much
@@ -72,11 +72,11 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > traditional binomial confidence interval that you might apply. This is
 > easy enough to show because
 >
-![](../web/images/99/diagnostic-9904.gif
+![](../../../web/images/99/diagnostic-9904.gif)
 >
 > which implies that
 >
-![](../web/images/99/diagnostic-9905.gif
+![](../../../web/images/99/diagnostic-9905.gif)
 >
 > For a random effects model, the results are a little more complicated
 > and they do not exactly match the traditional binomial confidence
@@ -110,7 +110,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > 1-spec pair. The points() command adds a big plus sign at the overall
 > estimate.
 
-![](../web/images/99/diagnostic-9906.gif
+![](../../../web/images/99/diagnostic-9906.gif)
 
 > Plotting 1-spec on the x-axis, which seems odd, but it is intended to
 > have the same orientation as an ROC curve. In fact, this plot is often
@@ -149,7 +149,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > approximation. To derive this, you have to remember a simple formula
 > about variances of a function.
 >
-![](../web/images/99/diagnostic-9907.gif
+![](../../../web/images/99/diagnostic-9907.gif)
 >
 > This formula relies on two things you forgot from your days of
 > calculus, how to take a derivative and how to apply a Taylor series
@@ -158,7 +158,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > The details are tedious, but not difficult. When you use this formula
 > on the log odds function, you get the following approximation.
 >
-![](../web/images/99/diagnostic-9908.gif
+![](../../../web/images/99/diagnostic-9908.gif)
 >
 > Compare this to the standard error for sensitivity shown above. The
 > numerator for the standard error has now moved in with its downstairs
@@ -171,7 +171,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > sens~i~ can cancel out the tp~i~+fn~i~ term right next to it. With a
 > bit more algebra, you can get
 >
-![](../web/images/99/diagnostic-9909.gif
+![](../../../web/images/99/diagnostic-9909.gif)
 >
 > The log odds transformation also has some problems when the
 > sensitivity is 100%. A simple fix is to add an arbitrary constant
@@ -215,7 +215,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > A third approach is to compute the diagnostic odds ratio, which
 > compares the odds for sensitivity to the odds for specificity.
 >
-![](../web/images/99/diagnostic-9910.gif
+![](../../../web/images/99/diagnostic-9910.gif)
 >
 > Notice how the denominator looks like we accidentally switched things.
 > That was not a mistake. The diagnostic odds ratio is effectively the
@@ -238,7 +238,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > One way of thinking about the diagnostic odds ratio is to swap a
 > couple of terms in the fraction.
 >
-![](../web/images/99/diagnostic-9911.gif
+![](../../../web/images/99/diagnostic-9911.gif)
 >
 > So you might interpret the diagnostic odds ratio as the spread between
 > the two likelihood ratios. If, for example, the likelihood ratio for a
@@ -251,12 +251,12 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > heterogeneity in the diagnostic odds ratio using the following
 > regression model
 >
-![](../web/images/99/diagnostic-9912.gif
+![](../../../web/images/99/diagnostic-9912.gif)
 >
 > You might recognize D as the diagnostic odds ratio. The variable S is
 > a bit harder to visualize, but you can rewrite it as
 >
-![](../web/images/99/diagnostic-9913.gif
+![](../../../web/images/99/diagnostic-9913.gif)
 >
 > This represents the tendency of an individual study to skew the test
 > more towards sensitivity or more towards specificity.
@@ -271,27 +271,27 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 >
 > This series of graphs shows what happens across a range of cutpoints.
 
-![](../web/images/99/diagnostic-9914.gif
+![](../../../web/images/99/diagnostic-9914.gif)
 
-![](../web/images/99/diagnostic-9915.gif
+![](../../../web/images/99/diagnostic-9915.gif)
 
-![](../web/images/99/diagnostic-9916.gif
+![](../../../web/images/99/diagnostic-9916.gif)
 
-![](../web/images/99/diagnostic-9917.gif
+![](../../../web/images/99/diagnostic-9917.gif)
 
-![](../web/images/99/diagnostic-9918.gif
+![](../../../web/images/99/diagnostic-9918.gif)
 
-![](../web/images/99/diagnostic-9919.gif
+![](../../../web/images/99/diagnostic-9919.gif)
 
-![](../web/images/99/diagnostic-9920.gif
+![](../../../web/images/99/diagnostic-9920.gif)
 
-![](../web/images/99/diagnostic-9921.gif
+![](../../../web/images/99/diagnostic-9921.gif)
 
-![](../web/images/99/diagnostic-9922.gif
+![](../../../web/images/99/diagnostic-9922.gif)
 
-![](../web/images/99/diagnostic-9923.gif
+![](../../../web/images/99/diagnostic-9923.gif)
 
-![](../web/images/99/diagnostic-9924.gif
+![](../../../web/images/99/diagnostic-9924.gif)
 
 > When you graph the data on an SROC plot, you get a nice distribution
 > of values. Notice, however, that the average of all these
@@ -299,7 +299,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > left hand corner than any of the individual sensitivity/specificity
 > pairs.
 
-![](../web/images/99/diagnostic-9925.gif
+![](../../../web/images/99/diagnostic-9925.gif)
 
 > By fitting a model to the diagnostic odds ratio, and assessing
 > heterogeneity in that odds ratio, you hope to avoid this obvious
@@ -318,7 +318,7 @@ meta-analysis](../12a/journal/meta-analysis.asp).
 > makes interpretation of the combined diagnostic odds ratio
 > problematic.
 
-![](../web/images/99/diagnostic-9926.gif
+![](../../../web/images/99/diagnostic-9926.gif)
 
 `deeks5.ma <- metagen(TE=d,seTE=se.d,studlab=study,sm="Log    Diagnostic Odds Ratio")   summary(deeks5.ma)      Number of trials combined: 20       Log Diagnostic Odds  Ratio   95%-CI             z      p.value   Fixed effects model  1.9772 [1.5400; 2.4145] 8.8633 < 0.0001   Random effects model 1.9732 [1.3618; 2.5847] 6.3249 < 0.0001      Quantifying heterogeneity:   tau^2 = 0.6555; H = 1.27 [1; 1.67]; I^2 = 38.4% [0%; 64%]      Test of heterogeneity:     Q d.f. p.value   30.87  19  0.0418      Method: Inverse variance method `
 
