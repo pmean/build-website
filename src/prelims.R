@@ -444,7 +444,7 @@ clean_files <- function(search_string, replace_string="Not yet", dir_root="text"
 
 write_body <- function(fields, v=TRUE) {
   fields$blogdate %>% str_sub(3,4) -> yr
-  image_link <- "../../images" %s% yr %s% fields$image
+  image_link <- "../../../images" %s% yr %s% fields$image
   new_tx <-
     "---"                                     %1%
     "title: "    %q% fields$title             %1%
