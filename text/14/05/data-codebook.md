@@ -9,7 +9,7 @@ output: html_document
 ---
 
 Before you start your data entry, you should create a data codebook. If
-you don't have a data codebook when you hand your data  over to someone
+you don't have a data codebook when you hand your data over to someone
 else, take the time to create one for their benefit and yours. The data
 codebook contains a description of your data set. There's no standard
 form for a data codebook, and what you describe may depend on a variety
@@ -24,12 +24,12 @@ codebook.
 The data codebook should have some general information about the data
 set as a whole. This might include:
 
-\* A brief descriptive title for your project\
-\* The purpose of the data collection\
-\* The name of the person who collected the data\
-\* The date(s) when the data was collected\
-\* The name of the person who entered the data into the computer\
-\* The date the data was entered into the computer
+* A brief descriptive title for your project
+* The purpose of the data collection
+* The name of the person who collected the data
+* The date(s) when the data was collected
+* The name of the person who entered the data into the computer
+* The date the data was entered into the computer
 
 In a laboratory experiment, you might want to document the conditions
 under which the experiment was run.
@@ -37,13 +37,13 @@ under which the experiment was run.
 The data codebook, more importantly, documents information about each
 variable in your data set (each column). This might include:
 
-\* the name you used for this column of data\
-\* a longer description of this variable with no acronyms or
-abbreviations\
-\* the units of measurement (if applicable)\
-\* the range of possible values\
-\* explanation for any numeric codes,\
-\* ESPECIALLY any codes for missing data
+* the name you used for this column of data
+* a longer description of this variable with no acronyms or
+abbreviations
+* the units of measurement (if applicable)
+* the range of possible values
+* explanation for any numeric codes,
+* ESPECIALLY any codes for missing data
 
 If there are several reasons why a measurement might be missing, you
 should create SEVERAL missing value codes and document what each code
@@ -66,7 +66,7 @@ at midnight? There's nothing wrong with using the same date that a
 11:59pm visitor would have, and there's nothing wrong with putting a
 midnight visitor on the following day (see [commentary on
 this](http://www.nist.gov/pml/div688/times.cfm#midnight) at the National
-Institute for Standards and Technology).  What does matter is that once
+Institute for Standards and Technology).? What does matter is that once
 you decide how to resolve this ambiguous data value, you need to
 document your choice so that every future value that is ambiguous in the
 same way is handled in the same way.
@@ -74,9 +74,9 @@ same way is handled in the same way.
 There are some web pages that describe what should go into a codebook,
 though the recommendations vary widely.
 
-\*
-<http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook>\*
-<http://dss.princeton.edu/online_help/analysis/codebook.htm>\
-\* <http://www.sscnet.ucla.edu/issr/da/tutor/tutcode.htm>
+*
+<http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook>*
+<http://dss.princeton.edu/online_help/analysis/codebook.htm>
+* <http://www.sscnet.ucla.edu/issr/da/tutor/tutcode.htm>
 
 
