@@ -11,7 +11,9 @@ source(file="src/prelims.R")
 if (!exists("v")) v <- TRUE
 if (!exists("update_all")) update_all <- TRUE
 
-file_list <- build_file_list(text_root, "*.bib", v=FALSE)
+text_root <- "text"
+
+file_list <- build_yr_list(text_root, "*.bib", v=FALSE)
 
 skipped_files <- NULL
 for (i_file in file_list) {

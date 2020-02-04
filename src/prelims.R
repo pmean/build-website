@@ -443,7 +443,8 @@ clean_files <- function(search_string, replace_string="Not yet", dir_root="text"
 # file associated with a bibtex recommendation.
 
 write_body <- function(fields, v=TRUE) {
-  image_link <- "../../images" %s% fields$image
+  fields$blogdate %>% str_sub(3,4) -> yr
+  image_link <- "../../images" %s% yr %s% fields$image
   new_tx <-
     "---"                                     %1%
     "title: "    %q% fields$title             %1%

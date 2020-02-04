@@ -23,6 +23,51 @@ for (i_yr in c("99", zpad(0:20))) {
   }
 }
 
+bib_list <- build_file_list("text", "*.bib")
+
+bib_list %>% 
+  str_remove("/01") %>%
+  str_remove("/02") %>% 
+  str_remove("/03") %>% 
+  str_remove("/04") %>% 
+  str_remove("/05") %>% 
+  str_remove("/06") %>% 
+  str_remove("/07") %>% 
+  str_remove("/08") %>% 
+  str_remove("/09") %>% 
+  str_remove("/10") %>% 
+  str_remove("/11") %>% 
+  str_remove("/12") -> new_files
+
+file.copy(bib_list, new_files)
+
+
+bib_list %>% 
+  str_subset("text/19") %>%
+  str_remove(".*/") %>%
+  str_remove(fixed(".bib")) -> bib_19
+
+old_files <- "text../web/images"    %s% bib_19 %d% "png"
+new_files <- "../web/images/19" %s% bib_19 %d% "png"
+file.copy(old_files, new_files)
+
+
+old_files <- "../web/images"    %s% bib_19 %d% "png"
+new_files <- "../web/images/19" %s% bib_19 %d% "png"
+file.copy(old_files, new_files)
+
+bib_list %>% 
+  str_subset("text/20") %>%
+  str_remove(".*/")  %>%
+  str_remove(fixed(".bib")) -> bib_20
+
+old_files <- "../web/images"    %s% bib_20 %d% "png"
+new_files <- "../web/images/20" %s% bib_20 %d% "png"
+
+file.copy(old_files, new_files)
+
+
+
 # Save everything.
 
 save.image("data/step0.RData")
