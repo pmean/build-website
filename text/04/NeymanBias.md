@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/04/NeymanBias.html
 date: 2004-12-15
 category: Blog post
-tags: Measuring benefit/risk
+tags: Measuring benefit and risk
 output: html_document
 ---
 **[StATS]: Neyman bias (December 15, 2004)**.

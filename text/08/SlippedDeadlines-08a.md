@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/08/SlippedDeadlines-08a.html
 date: 2008-05-07
 category: Blog post
-tags: Accrual problems in clinical > trials
+tags: Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Slipped deadlines and sample size

@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/05/SixtyPercentDrop.html
 date: 2005-06-20
 category: Blog post
-tags: Measuring benefit/risk
+tags: Measuring benefit and risk
 output: html_document
 ---
 **[StATS]:** **What does a 60% drop mean? (June 20,

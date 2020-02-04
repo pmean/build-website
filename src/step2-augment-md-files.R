@@ -12,8 +12,8 @@ if (!exists("verbose"   )) verbose    <- TRUE
 
 ## Step 2-2. Find the .md files
 
-file_list <- build_file_list(text_root, "*.md", v=FALSE)
-file_list <- c(file_list, build_file_list(text_root, "*.Rmd", v=FALSE))
+file_list <- build_yr_list(text_root, "*.md", v=FALSE)
+file_list <- c(file_list, build_yr_list(text_root, "*.Rmd", v=FALSE))
 
 v=FALSE
 skipped_files <- NULL
@@ -50,3 +50,4 @@ file_list <- setdiff(file_list, skipped_files)
   "files after skipping"%b% 
   length(skipped_files) %b% 
   "files.\n\n" %>% cat
+

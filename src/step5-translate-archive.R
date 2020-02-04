@@ -8,6 +8,7 @@ source(file="src/prelims.R", echo=FALSE)
 
 file_list <- list.files(path=arch_root, pattern="*.md")
 v <- FALSE
+update_all <- FALSE
 file_list <- c(file_list, build_file_list(blog_root, "*.Rmd", v=FALSE))
 
 skipped_files <- NULL
@@ -28,10 +29,9 @@ file_list <- setdiff(file_list, skipped_files)
 "\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
 
 file_list <- sample(file_list)
-
 for (i_file in file_list) {
   if (verbose) {
-    "\nConverting" %b% j_file %>% br %>% cat
+    "\nConverting" %b% i_file %>% br %>% cat
   }
   render(arch_root %s% i_file, output_dir=html_arch)
 }

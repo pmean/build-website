@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/03/anova.html
 date: 2003-06-20
 category: Blog post
-tags: Analysis of > variance
+tags: Analysis of variance
 output: html_document
 ---
 ****[StATS]:** Steps in a typical ANOVA model
