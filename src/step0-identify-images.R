@@ -8,7 +8,7 @@
 if (!exists("v")) v <- TRUE
 
 source(file="src/prelims.R")
-for (i_yr in c("99")) {
+for (i_yr in c("99", zpad(0:20))) {
   for (i_mo in zpad(1:12)) {
     file_list <- list.files(path="text" %s% i_yr %s% i_mo)
     new_path <- "text" %s% i_yr

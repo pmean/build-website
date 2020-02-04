@@ -61,6 +61,22 @@ build_file_list <- function(dir_root, file_pattern, v=TRUE) {
   return(file_list)
 }
 
+build_yr_list <- function(dir_root, file_pattern, v=TRUE) {
+  file_list <- NULL
+  yr_list <- list.dirs(dir_root, recursive=FALSE)
+  for (i_yr in yr_list) {
+    if (v) {"\nYear =" %b% i_yr %>% cat}
+    new_files <- list.files(i_yr, pattern=file_pattern)
+    if (length(new_files)==0) {
+      if (v) " has no files of the form" %b% file_pattern %>% cat
+      next
+    }
+    if (v) " has" %b% str_c(new_files, collapse=", ") %>% cat
+    file_list <- append(file_list, i_yr %s% new_files)
+  }
+  return(file_list)
+}
+
 # This function takes a topic, partial date,
 # or category, and produces a link to the
 # appropriate page.
