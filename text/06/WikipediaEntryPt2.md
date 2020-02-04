@@ -1,0 +1,119 @@
+---
+title: Wikipedia entry on Binomial Confidence Interval, Part 2
+author: Steve Simon
+source: http://www.pmean.com/06/WikipediaEntryPt2.html
+date: 2006-08-22
+category: Blog post
+tags: Wiki pages
+output: html_document
+---
+**[StATS]:** **Wikipedia entry on Binomial
+Confidence Interval, Part 2 (August 22, 2006)**. [Category: Wiki
+pages](../category/WikiPages.html)
+
+> Here\'s my first attempt to improve the Wikipedia entry on the
+> binomial confidence interval. I start by simplifying and improving the
+> introduction
+>
+> > A \'\'\'Binomial Confidence Interval\'\'\' is a \[\[confidence
+> > interval\]\] for a proportion in a \[\[statistical population\]\].
+> > It uses the proportion estimated in a \[\[statistical sample\]\] and
+> > allows for \[\[sampling error\]\]. There are several formulas for a
+> > binomial confidence interval, but all of them rely on the assumption
+> > of a \[\[binomial distribution\]\]. A simple example of a
+> > \[\[binomial distribution\]\] is the number of heads that you
+> > observe when you flip a coin in the ten times. In general, a
+> > \[\[binomial distribution\]\] applies when you repeat an experiment
+> > a fixed number of times, each trial of the experiment has two
+> > possible outcomes (labeled arbitrarily success and failure), the
+> > probability of success is the same for each trial, and the trials
+> > are \[\[statistically independent\]\].
+>
+> and including the classical formula that relies on a normal
+> approximation.
+>
+> > The simplest and most commonly used formula for a binomial
+> > confidence interval relies on approximating the \[\[binomial
+> > distribution\]\] with a \[\[normal distribution\]\]. This
+> > approximation is justified by the \[\[central limit theorem\]\]. The
+> > formula is\
+> > \
+> > \<math\>\\hat p \\pm z\_{\\alpha /2}\</math\>\
+> > \<math\> \\sqrt{ \\frac{\\hat p \\left ( 1- \\hat p \\right
+> > )}{n}}\</math\>\
+> > \
+> > where \<math\>\\hat p\</math\> is the proportion estimated from the
+> > statistical sample, \<math\>z\_{\\alpha /2}\</math\> is the
+> > \<math\>\\alpha /2\</math\> upper percentile of a \[\[standard
+> > normal distribution\]\], and n is the sample size.\
+> > \
+> > The \[\[central limit theorem\]\] applies well to a \[\[binomial
+> > distribution\]\], even with a sample size less than 30, as long as
+> > the proportion is not too close to 0 or 1. For very extreme
+> > probabilities, though, a sample size of 30 or more may still be
+> > inadequate. The normal approximation fails totally when the sample
+> > proportion is exactly zero or exactly one. A frequently cited rule
+> > of thumb is that the normal approximation works well as long as
+> > np\>5 and n(1-p)\>5.
+>
+> Here\'s a screen shot of my changes
+
+![](../../../web/images/06/WikipediaEntryPt201.gif)
+
+> and
+
+![](../../../web/images/06/WikipediaEntryPt202.gif)
+
+> I also experimented with some messier formulas. Here is the TeX code
+>
+> > \<math\>\\sum\_{k=x}\^n {{n \\choose k}p\_0\^k \\left ( 1-p\_0
+> > \\right ) \^ {n-k} }=\\alpha /2\</math\>
+> >
+> > \<math\>\\sum\_{k=0}\^x {{n \\choose k}p\_0\^k \\left ( 1-p\_0
+> > \\right ) \^ {n-k} }=\\alpha /2\</math\>
+>
+> and here is what the equations look like
+>
+![](../../../web/images/06/WikipediaEntryPt203.gif)
+> >
+![](../../../web/images/06/WikipediaEntryPt204.gif)
+>
+> There is no entry for standard normal distribution, and the entry on
+> statistical sample
+>
+> -   [en.wikipedia.org/wiki/Statistical\_sample](http://en.wikipedia.org/wiki/Statistical_sample)
+>
+> is flagged by Wikpedia as a stub (an entry that is short and provides
+> insufficient information). So it looks like there would be plenty of
+> work for me if I wanted to do more with Wikipedia.
+
+[![Creative Commons
+License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
+This work is licensed under a [Creative Commons Attribution 3.0 United
+States License](http://creativecommons.org/licenses/by/3.0/us/). It was
+written by Steve Simon and was last modified on 04/01/2010.
+
+This page was written by Steve Simon while working at Children\'s Mercy
+Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service, as it is no longer available on the
+Children\'s Mercy Hospital website. Need more information? I have a page
+with [general help resources](../GeneralHelp.html). You can also browse
+for pages similar to this one at
+<!---More--->
+for pages similar to this one at
+with [general help resources](../GeneralHelp.html). You can also browse
+Children\'s Mercy Hospital website. Need more information? I have a page
+reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material, I am
+This page was written by Steve Simon while working at Children\'s Mercy
+
+<!---Do not use
+**[StATS]:** **Wikipedia entry on Binomial
+This page was written by Steve Simon while working at Children\'s Mercy
+Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service, as it is no longer available on the
+Children\'s Mercy Hospital website. Need more information? I have a page
+with [general help resources](../GeneralHelp.html). You can also browse
+for pages similar to this one at
+--->
+
