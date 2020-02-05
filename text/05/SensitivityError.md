@@ -22,8 +22,8 @@ Here is the paper they showed me
 **A clinical score to reduce unnecessary antibiotic use in patients
 with sore throat.** McIsaac WJ, White D, Tannenbaum D, Low DE. Cmaj
 1998: 158(1); 75-83.
-[\[Abstract\]](http://www.cmaj.ca/cgi/content/abstract/158/1/75)
-[\[PDF\]](http://www.cmaj.ca/cgi/reprint/158/1/75.pdf)
+[Abstract]](http://www.cmaj.ca/cgi/content/abstract/158/1/75)
+[PDF]](http://www.cmaj.ca/cgi/reprint/158/1/75.pdf)
 
 This paper developed a score to assign to patients who came in
 complaining of a sore throat to see if they needed to be prescribed
@@ -46,12 +46,12 @@ this paper, but the most obvious one is the claim that:
 the 2 approaches in the proportion receiving antibiotics or from whom
 throat swabs were obtained, but significantly more cases of GAS
 infection would have been identified with the score approach (96.9%)
-than with usual physician care (70.6%) (p \< 0.05). Physician
-specificity was higher, however (91.7% v. 67.2%) (p \< 0.05). Among
+than with usual physician care (70.6%) (p < 0.05). Physician
+specificity was higher, however (91.7% v. 67.2%) (p < 0.05). Among
 adults the sensitivity of physician judgement and of the score
 approach were similar, but both throat swab use (37.3% v. 26.4%) and
 antibiotic prescription (16.5% v. 3.4%) would have been reduced with
-the score approach (p \< 0.001).*
+the score approach (p < 0.001).*
 
 This data is corroborated in Table 3, where the sensitivity for patients
 aged 3-14 years is reported as 96.9% (31/32) and specificity as 94.3%

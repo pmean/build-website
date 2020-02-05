@@ -19,25 +19,25 @@ out of 44 avoided the risky behavior.
 My first thought is that this risky behavior must be awfully fun if so
 many people indulge in it!
 
-It\'s nice to double check the statistics used in journal articles as
+It's nice to double check the statistics used in journal articles as
 there are often errors. One memorable one cited in this weblog is
 
 -   [Stats: An error slips through the peer review process (September
     19, 2005)](http://www.childrensmercy.org/stats/weblog2005/SensitivityError.asp)
 
-The problem, unfortunately, is the the term \"Chi-square test\" is used
-in a variety of different contexts, as I allude to in an \"Ask Professor
-Mean\" question.
+The problem, unfortunately, is the the term "Chi-square test" is used
+in a variety of different contexts, as I allude to in an "Ask Professor
+Mean" question.
 
 -   [Dear Professor Mean, Can the Chi-squared test be used for anything
     besides categorical data?](../ask/chisquared.asp)
 
 This person looked in SPSS and found a Chi-square test in the menus
-under ANALYZE \| NON\_PARAMETRIC TEST \| CHI-SQUARE. Here\'s the output
+under ANALYZE | NON_PARAMETRIC TEST | CHI-SQUARE. Here's the output
 that the program produced:
 
 ![06_CheckingChisquare1.jpg not found.](../../../web/images/06/CheckingChisquare01.png)
-height="135"}\
+height="135"}
 ![CheckingChisquare2.jpg not found.](../../../web/images/06/CheckingChisquare02.png)
 ![CheckingChisquare3.jpg not found.](../../../web/images/06/CheckingChisquare03.png)
 
@@ -54,7 +54,7 @@ accurately choose from among competing statistical procedures without
 any human intervention. I will be long retired before that day happens,
 though, so I am not too worried about losing my job to a computer.
 
-Here\'s the correct analysis, by the way, using the CROSSTABS procedure.
+Here's the correct analysis, by the way, using the CROSSTABS procedure.
 
 ![CheckingChisquare4.jpg not found.](../../../web/images/06/CheckingChisquare04.png)
 ![CheckingChisquare5.jpg not found.](../../../web/images/06/CheckingChisquare05.png)
@@ -71,7 +71,7 @@ choice. I used crosstabs because the problem is simpler and the output
 is a bit easier to follow. But logistic regression would have been a
 fine choice as well.
 
-By the way, I use the unusual coding \"1-Yes\" and \"2-No\" to control
+By the way, I use the unusual coding "1-Yes" and "2-No" to control
 the order in which the columns and rows are displayed. By default, SPSS
 will alphabetize the rows and columns, and I wanted the NO category to
 appear after the YES category.
@@ -80,10 +80,10 @@ appear after the YES category.
 
 -   [Stats: Inputting a two-by-two table into SPSS](../data/table.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).
@@ -91,17 +91,17 @@ regression](../category/LogisticRegression.html).
 regression](../category/LogisticRegression.html).
 for pages similar to this one at [Category: Logistic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Checking a Chi-square test (February
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).

@@ -14,15 +14,15 @@ I was browsing through the book
 
 -   **Statistical Distributions Second Edition.** Evans M, Hastings N,
     Peacock B (1993) New York: John Wiley & Sons. ISBN: 0471559512.
-    [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0471559512.html)
+    [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/0471559512.html)
 
 when I noticed that they defined the information content of the
 exponential distribution as
 
 ![Information01.gif not found.](../../../web/images/05/InformationTheoryB01.png)
 
-where e is the mathematical constant 2.718\... and b is the scale
+where e is the mathematical constant 2.718... and b is the scale
 parameter (effectively the standard deviation) of the exponential
 distribution. Very interesting, I thought, since I had been working on
 information theory models for categorical variables and had wondered how
@@ -58,13 +58,13 @@ The left side of the equation is approximately equal to
 and the right side is the classic [Riemann
 sum](http://en.wikipedia.org/wiki/Riemann_sum) and will converge to the
 integral shown above. If you think about it, this is quite intuitive.
-You really wouldn\'t want to calculate entropy for a continuous random
+You really wouldn't want to calculate entropy for a continuous random
 variable the exact same way as for a categorical variable. The infinite
 number of values for a continuous variable would swamp the formula for
 entropy as derived for categorical variables. So you have to adjust for
 the decreasing bin widths, which is the log(n) factor seen above.
 
-I could probably explain this better if it weren\'t a Monday, so I will
+I could probably explain this better if it weren't a Monday, so I will
 work on the concept a bit.
 
 The book also computes the information content for the normal
@@ -88,10 +88,10 @@ distribution in half, you have one less bit of uncertainty.
 -   <http://www.ia.hiof.no/prosjekter/hoit/html/nr1_99/im.html>
 -   <http://planetmath.org/encyclopedia/Entropy.html>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).
@@ -99,17 +99,17 @@ searching](../category/InformationSearching.html).
 searching](../category/InformationSearching.html).
 for pages similar to this one at [Category: Information
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Information content of a continuous
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).

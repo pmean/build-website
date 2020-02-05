@@ -10,7 +10,7 @@ output: html_document
 **[StATS]:** **Measuring agreement (April 19,
 2005)**
 
-Someone reviewing a paper asked me about all the \"weird statistics\"
+Someone reviewing a paper asked me about all the "weird statistics"
 being used in the paper, such as the Bland-Altman plot and Deming
 regression.
 
@@ -20,10 +20,10 @@ between two measures of the clinical outcome.
 -   **Statistical methods for assessing agreement between two methods of
     clinical measurement.** Bland JM, Altman DG. Lancet 1986: 1(8476);
     307-10.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2868172&dopt=Abstract)
-    [\[Full text\]](http://www-users.york.ac.uk/~mb55/meas/ba.htm)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2868172&dopt=Abstract)
+    [Full text]](http://www-users.york.ac.uk/~mb55/meas/ba.htm)
 
-Here\'s an example of a Bland-Altman plot
+Here's an example of a Bland-Altman plot
 
 ![weblog1.gif not found.](../../../web/images/05/MeasuringAgreement-0501.png)
 
@@ -36,10 +36,10 @@ graph appears in
 -   **Uneven distribution of ventilation in acute respiratory distress
     syndrome.** Rylander C, Tylen U, Rossi-Norrlund R, Herrmann P,
     Quintel M, Bake B. Crit Care 2005: 9(2); R165-71.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15774050&dopt=Abstract)
-    [\[Abstract\]](http://ccforum.com/content/9/2/r165/abstract) [\[Full
-    text\]](http://ccforum.com/content/9/2/R165)
-    [\[PDF\]](http://ccforum.com/content/pdf/cc3058.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15774050&dopt=Abstract)
+    [Abstract]](http://ccforum.com/content/9/2/r165/abstract) [Full
+    text]](http://ccforum.com/content/9/2/R165)
+    [PDF]](http://ccforum.com/content/pdf/cc3058.pdf)
 
 which is an open source journal.
 
@@ -50,10 +50,10 @@ variable.
 -   **General deming regression for estimating systematic bias and its
     confidence interval in method-comparison studies.** Martin RF. Clin
     Chem 2000: 46(1); 100-4.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10620577&dopt=Abstract)
-    [\[Abstract\]](http://www.clinchem.org/cgi/content/abstract/46/1/100)
-    [\[Full text\]](http://www.clinchem.org/cgi/content/full/46/1/100)
-    [\[PDF\]](http://www.clinchem.org/cgi/reprint/46/1/100.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10620577&dopt=Abstract)
+    [Abstract]](http://www.clinchem.org/cgi/content/abstract/46/1/100)
+    [Full text]](http://www.clinchem.org/cgi/content/full/46/1/100)
+    [PDF]](http://www.clinchem.org/cgi/reprint/46/1/100.pdf)
 
 As an example of Deming regression, two immunoassays for human glandular
 kallikrein were compared using Deming regression. The slope was 0.79
@@ -65,27 +65,27 @@ assay can only account for 2/3 of the variation in the other assay.
 
 ![weblog2.gif not found.](../../../web/images/05/MeasuringAgreement-0502.png)
 
-\[Permission received on April 25, 2005 to reproduce this image.\]
+[Permission received on April 25, 2005 to reproduce this image.]
 
 -   **Standardization of two immunoassays for human glandular
     kallikrein 2.** Haese A, Vaisanen V, Finlay JA, Pettersson K,
     Rittenhouse HG, Partin AW, Bruzek DJ, Sokoll LJ, Lilja H, Chan DW.
     Clin Chem 2003: 49(4); 601-10.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12651813&dopt=Abstract)
-    [\[Abstract\]](http://www.clinchem.org/cgi/content/abstract/49/4/601)
-    [\[Full text\]](http://www.clinchem.org/cgi/content/full/49/4/601)
-    [\[PDF\]](http://www.clinchem.org/cgi/reprint/49/4/601.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12651813&dopt=Abstract)
+    [Abstract]](http://www.clinchem.org/cgi/content/abstract/49/4/601)
+    [Full text]](http://www.clinchem.org/cgi/content/full/49/4/601)
+    [PDF]](http://www.clinchem.org/cgi/reprint/49/4/601.pdf)
 
-The authors may have also used something called Lin\'s Concordance
+The authors may have also used something called Lin's Concordance
 Coefficient.
 
 -   **[Validating Mathematical Models of Biological Systems: Application
     of the Concordance Correlation Coefficient
-    \[PDF\]](http://library.lanl.gov/cgi-bin/getdoc?event=SAMO2004&document=samo04-41.pdf%20)**.
+    [PDF]](http://library.lanl.gov/cgi-bin/getdoc?event=SAMO2004&document=samo04-41.pdf%20)**.
     St-Pierre NR. Accessed on 2005-04-19.
     library.lanl.gov/cgi-bin/getdoc?event=SAMO2004&document=samo04-41.pdf
 
-An example of Lin\'s concordance coefficient appears in a study of joint
+An example of Lin's concordance coefficient appears in a study of joint
 space narrowing and erosion scores in plain versus digitized x-rays. The
 erosion concordance score is 0.89 and the graph below shows good
 agreement between the regression line (solid) and the line of perfect
@@ -106,10 +106,10 @@ These data and figures come from
     rheumatoid arthritis patients.** Arbillaga HO, Montgomery GP,
     Cabarrus LP, Watson MM, Martin L, Edworthy SM. BMC Musculoskelet
     Disord 2002: 3(1); 13.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11980582&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2474/3/13/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2474/3/13)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2474-3-13.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11980582&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2474/3/13/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2474/3/13)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2474-3-13.pdf)
 
 which is an open source journal.
 
@@ -122,11 +122,11 @@ assess how strongly two measures agree with one another.
 
 -   **[Statistical validation criteria for drinking-water
     microbiological methods
-    \[PDF\]](http://www.moh.govt.nz/moh.nsf/wpg_Index/Publications-Statistical+validation+criteria+for+drinking-water+microbiological+methods%20)**.
+    [PDF]](http://www.moh.govt.nz/moh.nsf/wpg_Index/Publications-Statistical+validation+criteria+for+drinking-water+microbiological+methods%20)**.
     McBride G, published by the Ministry of Health, National Institute
     of Water & Atmospheric Research Ltd, February 2003. Accessed on
     2005-04-19.
-    www.moh.govt.nz/moh.nsf/wpg\_Index/Publications-Statistical+validation+criteria+for+drinking-water+microbiological+methods
+    www.moh.govt.nz/moh.nsf/wpg_Index/Publications-Statistical+validation+criteria+for+drinking-water+microbiological+methods
 -   **[Points of Care in Using Statistics in Method-Comparison
     Studies](http://www.westgard.com/essay19.htm%20)**. Westgard JO,
     This is an annotated version of an editorial that appeared in the
@@ -138,10 +138,10 @@ assess how strongly two measures agree with one another.
     Frequently-Asked-Questions](http://www.westgard.com/quest11.htm%20)**.
     Westgard JO. Accessed on 2005-04-19. www.westgard.com/quest11.htm
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 agreement](../category/MeasuringAgreement.html).
@@ -149,17 +149,17 @@ agreement](../category/MeasuringAgreement.html).
 agreement](../category/MeasuringAgreement.html).
 for pages similar to this one at [Category: Measuring
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Measuring agreement (April 19,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 agreement](../category/MeasuringAgreement.html).

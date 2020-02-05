@@ -12,7 +12,7 @@ output: html_document
 
 Someone asked me how to determine the sample size for a study involving
 a diagnostic test. It seems like a tricky thing, because most studies of
-diagnostic tests don\'t have a formal hypothesis. What you need to do
+diagnostic tests don't have a formal hypothesis. What you need to do
 instead is to specify a particular statistic that you are interested in
 estimating and then selecting a sample size so that the confidence
 interval for this estimate is reasonably precise.
@@ -45,7 +45,7 @@ web page
 
 <http://www.anaesthetist.com/mnm/stats/roc/>
 
-offers a JAVAScript calculator for the standard error of the AUC. Let\'s
+offers a JAVAScript calculator for the standard error of the AUC. Let's
 suppose that the AUC is going to be around 0.8. With the same 50
 abnormal and normal patients, the standard error would be 0.044, which
 is reasonably small. With 75 in each group, the standard error would be
@@ -56,10 +56,10 @@ size](../category/SampleSizeJustification.html), including a page on
 [sample size for a diagnostic tests](../size/diag.asp), which I have
 just updated to include the above example.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
@@ -67,17 +67,17 @@ justification](../category/SampleSizeJustification.html).
 justification](../category/SampleSizeJustification.html).
 this one at [Category: Sample size
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Sample size for a diagnostic test (July
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).

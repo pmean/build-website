@@ -24,8 +24,8 @@ function. So for example, the code
 `in.print(width=8,height=10.5,printer="Adobe PDF")   pa`
 
 would produce a graph where all the data points with the variable g
-equal to 0 would be red C\'s and all the data points with the variable g
-equal to 1 would be green T\'s. I never bothered figuring out how to get
+equal to 0 would be red C's and all the data points with the variable g
+equal to 1 would be green T's. I never bothered figuring out how to get
 a particular color all that carefully because I never needed to worry
 too much about it.
 
@@ -40,8 +40,8 @@ black and gray lines would look something like
 Now, what are all the possible text strings that you can specify? It
 turns out that there is an R function, colors() that lists all the
 possible colors that you can specify with a text string. In the version
-I am using right now (2.2.1) there are 657 choices from \"aliceblue\"
-through \"yellowgreen.\" There are ranges of colors like azure1 through
+I am using right now (2.2.1) there are 657 choices from "aliceblue"
+through "yellowgreen." There are ranges of colors like azure1 through
 azure4. The range of grays is especially wide (gray1 through gray100)
 and the folks who wrote R were even nice enough to repeat that list
 using the British English spelling (grey1 through grey100). You can even
@@ -49,7 +49,7 @@ review the same list by using the function, colours(). How thoughtful!
 
 I wrote a short program that produces all the colors in a PDF file.
 
-`win.print(width=8,height=10.5,printer="Adobe PDF")   par(mar=rep(0,4))   ncolumns <- 7   nrows <- 100   npages <- trunc(length(colors())/(ncolumns*nrows))+1   for (i in 1:npages) {    plot(c(0,(ncolumns+1)),c(0,nrows+1),xlab=" ",ylab=" ",axes=F,type="n")    for (j in 1:nrows) {     for (k in 1:ncolumns) {      x <- ncolumns*nrows*(i-1)+(k-1)*nrows+j      text(k,nrows+1-j,paste(x,"=",colors()[x]),col=colors()[x],cex=0.5)     }    }   }   dev.off()`
+`win.print(width=8,height=10.5,printer="Adobe PDF")   par(mar=rep(0,4))   ncolumns <- 7   nrows <- 100   npages <- trunc(length(colors())/(ncolumns*nrows))+1   for (i in 1:npages) {     plot(c(0,(ncolumns+1)),c(0,nrows+1),xlab=" ",ylab=" ",axes=F,type="n")     for (j in 1:nrows) {      for (k in 1:ncolumns) {        x <- ncolumns*nrows*(i-1)+(k-1)*nrows+j        text(k,nrows+1-j,paste(x,"=",colors()[x]),col=colors()[x],cex=0.5)      }     }   }   dev.off()`
 
 I named the PDF file, [Rcolors.pdf](../weblog/images/Rcolors.pdf). Some
 of the very light colors are almost invisible on a white background.
@@ -72,13 +72,13 @@ There is an excellent book which I have just started reading that
 provides much useful information about graphs in R.
 
 -   **R Graphics.** Paul Murrell (2006) Boca Raton, FL: Chapman & Hall /
-    CRC Press. [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/1-58488-486-X.html)
+    CRC Press. [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/1-58488-486-X.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Graphical
 display](../category/GraphicalDisplay.html) or [Category: R
@@ -88,17 +88,17 @@ software](../category/RSoftware.html).
 display](../category/GraphicalDisplay.html) or [Category: R
 for pages similar to this one at [Category: Graphical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Colors for R graphs (June 28, 2006)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Graphical
 display](../category/GraphicalDisplay.html) or [Category: R

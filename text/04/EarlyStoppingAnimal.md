@@ -37,11 +37,11 @@ But stopping the study early (like any other protocol deviation) does
 reduce the credibility of the research findings, sometimes by a little
 bit, sometimes by a lot.
 
-Here\'s a little simulation that you can run in S-plus or R.
+Here's a little simulation that you can run in S-plus or R.
 
-`par(mar=c(4,5,0,0)+0.1,cex=2,pch="+")    f.p <- function(mua) {   x1 <- rnorm(12)   x2 <- mua+rnorm(12)   p.value <- rep(NA,12)   for (i in 2:12) {     p.value[i] <- t.test(x1[1:i],x2[1:i])$p.value   }   plot(p.value,type="b",ylim=0:1,cex=2)   abline(h=0.05)    }    for (i in 1:100) {   f.p(mua=1)    }`
+`par(mar=c(4,5,0,0)+0.1,cex=2,pch="+")    f.p <- function(mua) {    x1 <- rnorm(12)    x2 <- mua+rnorm(12)    p.value <- rep(NA,12)    for (i in 2:12) {        p.value[i] <- t.test(x1[1:i],x2[1:i])$p.value    }    plot(p.value,type="b",ylim=0:1,cex=2)    abline(h=0.05)    }    for (i in 1:100) {    f.p(mua=1)    }`
 
-You\'ll see a variety of different patterns for the p-values.
+You'll see a variety of different patterns for the p-values.
 
 ![EarlyStopping1.gif not found.](../../../web/images/04/EarlyStoppingAnimal01.png)
 
@@ -50,12 +50,12 @@ significance.
 
 ![EarlyStopping.gif not found.](../../../web/images/04/EarlyStoppingAnimal02.png)
 
-Here\'s one where it just reaches statistical significance at the last
+Here's one where it just reaches statistical significance at the last
 sample.
 
 ![EarlyStopping3.gif not found.](../../../web/images/04/EarlyStoppingAnimal03.png)
 
-Here\'s one where it reaches statistical significance rather early. You
+Here's one where it reaches statistical significance rather early. You
 would think that it would be nice to stop the experiment early here, but
 there is no guarantee that just because the p-value is below the
 significant level early on, that it will stay below that level the rest
@@ -65,19 +65,19 @@ of the way.
 
 Notice that the above graph shows statistical significance early, but
 then that significance disappears by the end of the experiment. Now this
-doesn\'t happen very often. Out of 100 graphs only 4 or 5 showed this
+doesn't happen very often. Out of 100 graphs only 4 or 5 showed this
 type of pattern. Most of the time if the p-value crosses below the 0.05
 threshold early, it stays below that threshold. But these exceptions
 serve as a warning. If you stop the study early and make no adjustments
 to your p-value, your results may be invalid.
 
 The adjustments to the p-value (and confidence interval) are rather
-complex. Here\'s some more S-plus (R) code that shows some of the
+complex. Here's some more S-plus (R) code that shows some of the
 complexities of the situation. This program simulates an experiment with
 12 animals per group, but looks at the p-value with after 4, 8, and 12
 animals have been tested.
 
-`n <- 5000    p4 <- rep(NA,n)    p8 <- rep(NA,n)    p12 <- rep(NA,n)    for (i in 1:n) {   x1 <- rnorm(12)   x2 <- rnorm(12)   p4[i] <- t.test(x1[1:4],x2[1:4])$p.value   p8[i] <- t.test(x1[1:8],x2[1:8])$p.value   p12[i] <- t.test(x1[1:12],x2[1:12])$p.value    }    sum(p4<0.05)/n`
+`n <- 5000    p4 <- rep(NA,n)    p8 <- rep(NA,n)    p12 <- rep(NA,n)    for (i in 1:n) {    x1 <- rnorm(12)    x2 <- rnorm(12)    p4[i] <- t.test(x1[1:4],x2[1:4])$p.value    p8[i] <- t.test(x1[1:8],x2[1:8])$p.value    p12[i] <- t.test(x1[1:12],x2[1:12])$p.value    }    sum(p4<0.05)/n`
 
 `[1] 0.0454`
 
@@ -109,19 +109,19 @@ achieves significance, the alpha level more than doubles.
 -   [Stats: Interim analysis](../plan/interim.asp)
 -   **Interim analyses of data as they accumulate in laboratory
     experimentation.** Ludbrook J. BMC Med Res Methodol 2003: 3(1); 15.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12930561&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2288/3/15/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2288/3/15)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2288-3-15.pdf)
-    \[My comments\] The Ludbrook reference points out that laboratory
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12930561&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2288/3/15/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2288/3/15)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2288-3-15.pdf)
+    [My comments] The Ludbrook reference points out that laboratory
     experiments often fail to account properly for early stopping
     (interim analysis) and suggests an approach for handling this
     properly.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).
@@ -129,17 +129,17 @@ stopping](../category/EarlyStopping.html).
 stopping](../category/EarlyStopping.html).
 for pages similar to this one at [Category: Early
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Early stopping in an animal study (July
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).

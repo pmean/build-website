@@ -19,12 +19,12 @@ one patient per month over a ten year period, for a total sample size of
 120 patients. Here are the dates of recruitment for the first 42
 patients.
 
-` [1] "2/26/1997" "4/4/1997"   "7/7/1997"   "7/25/1997"     "2/5/1998"    [6] "2/15/1998" "3/6/1998"   "7/3/1998"   "8/3/1998"   "2/8/1999"   [11] "3/19/1999" "4/20/1999"  "5/29/1999"  "6/21/1999"  "7/27/1999"   [16] "9/6/1999"  "1/10/2000"  "1/11/2000"  "2/28/2000"  "3/3/2000"   [21] "4/13/2000" "5/30/2000"  "11/21/2000" "12/18/2000" "2/6/2001"   [26] "4/30/2001" "8/3/2001"   "11/20/2001" "12/3/2001"  "12/7/2001"   [31] "9/27/2002" "10/1/2002"  "2/2/2003"   "3/3/2003"   "10/31/2003"   [36] "11/4/2003" "11/11/2003" "1/5/2004"   "2/2/2004"   "4/15/2004"   [41] "5/23/2004" "6/2/2004"`
+`  [1] "2/26/1997" "4/4/1997"     "7/7/1997"     "7/25/1997"      "2/5/1998"     [6] "2/15/1998" "3/6/1998"     "7/3/1998"     "8/3/1998"     "2/8/1999"   [11] "3/19/1999" "4/20/1999"   "5/29/1999"   "6/21/1999"   "7/27/1999"   [16] "9/6/1999"   "1/10/2000"   "1/11/2000"   "2/28/2000"   "3/3/2000"   [21] "4/13/2000" "5/30/2000"   "11/21/2000" "12/18/2000" "2/6/2001"   [26] "4/30/2001" "8/3/2001"     "11/20/2001" "12/3/2001"   "12/7/2001"   [31] "9/27/2002" "10/1/2002"   "2/2/2003"     "3/3/2003"     "10/31/2003"   [36] "11/4/2003" "11/11/2003" "1/5/2004"     "2/2/2004"     "4/15/2004"   [41] "5/23/2004" "6/2/2004"`
 
 If you set 1/1/1997 as Day 0, then the days on which patients were
 recruited to the study are
 
-` [1]   56   93  187  205  400  410  429     548  579  768  807  839  878   [14]  901  937  978 1104 1105 1153 1157 1198 1245 1420 1447 1497 1580   [27] 1675 1784 1797 1801 2095 2099 2223 2252 2494 2498 2505 2560  [40] 2588 2661 2699 2709`
+`  [1]     56     93   187   205   400   410   429      548   579   768   807   839   878   [14]   901   937   978 1104 1105 1153 1157 1198 1245 1420 1447 1497 1580   [27] 1675 1784 1797 1801 2095 2099 2223 2252 2494 2498 2505 2560  [40] 2588 2661 2699 2709`
 
 **Distinguishing between monthly, quarterly, and yearly rates**
 
@@ -36,7 +36,7 @@ You might ask some questions about this data, like
 A simple approach to help answer these questions is to compute the
 number of patients recruited each month.
 
-` 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16    17 18 19 20 21 22 23 24     0  1  0  1  0  0  2  0  0  0  0  0  0     2  1  0  0  0  1  1  0  0  0  0       25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48     0  1  1  1  0  1  1  1  1  0  0  0  2     0  2  1  0  1  0  0  0  0  0  1       49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72     1  1  0  0  1  0  0  1  0  0  0  2  1     0  0  0  0  0  0  0  0  2  0  0       73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91     0  0  1  1  0  0  0  0  0  0  0  3  0    1  1  0  1  1  1 `
+`  1   2   3   4   5   6   7   8   9 10 11 12 13 14 15 16    17 18 19 20 21 22 23 24      0   1   0   1   0   0   2   0   0   0   0   0   0      2   1   0   0   0   1   1   0   0   0   0        25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48      0   1   1   1   0   1   1   1   1   0   0   0   2      0   2   1   0   1   0   0   0   0   0   1        49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72      1   1   0   0   1   0   0   1   0   0   0   2   1      0   0   0   0   0   0   0   0   2   0   0       73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91      0   0   1   1   0   0   0   0   0   0   0   3   0     1   1   0   1   1   1 `
 
 Here is a plot of the data:
 
@@ -45,7 +45,7 @@ Here is a plot of the data:
 The accrual could also be summarized as the number of patients recruited
 per quarter.
 
-` 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16    17 18 19 20 21 22 23 24     1  1  2  0  3  0  2  0  2  2  3  0  4    2  0  1  2  1  1  2  1  0  0  2 `
+`  1   2   3   4   5   6   7   8   9 10 11 12 13 14 15 16    17 18 19 20 21 22 23 24      1   1   2   0   3   0   2   0   2   2   3   0   4     2   0   1   2   1   1   2   1   0   0   2 `
 
 which looks like this when you plot the data
 
@@ -118,10 +118,10 @@ rules (some people, for example, will ask for nine consecutive points in
 Zone C) and additional rules that others will add (such as seven
 consecutive increasing or decreasing points).
 
- A negative value for the lower control limit means that it is
+  A negative value for the lower control limit means that it is
 impossible for a single month to produce a rate that is so low that you
 would identify it as a special cause. Since Zone A is entirely in the
-negative range, you can\'t use the two out of three rules either. For
+negative range, you can't use the two out of three rules either. For
 this chart, even Zone B is entirely in the negative range. So the only
 rule that works when the rate slows down is eight consecutive points
 below the centerline. So for this chart that means eight consecutive
@@ -167,16 +167,16 @@ with one or fewer patients being recruited.
 Which of these control charts is best? You may have to apply the
 Goldilocks rule to the time interval (not too short and not too long).
 Donald Wheeler has some rules for control charts that are too
-\"granular\" (meaning the chart only hops around a very small number of
-values). The monthly rate chart is too granular, by Wheeler\'s rules, I
+"granular" (meaning the chart only hops around a very small number of
+values). The monthly rate chart is too granular, by Wheeler's rules, I
 suspect, but I have to double check this.
 
 -   **Advanced Topics in Statistical Process Control: The Power of
-    Shewhart\'s Charts.** Donald J. Wheeler (1995) Knoxville, Tennessee:
-    SPC Press. [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0945320450.html)
+    Shewhart's Charts.** Donald J. Wheeler (1995) Knoxville, Tennessee:
+    SPC Press. [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/0945320450.html)
 
-I\'d like to develop some simple rules, such as if you expect to accrue
+I'd like to develop some simple rules, such as if you expect to accrue
 X patients per month, use a quarterly chart, but if you expect to
 recruit Y patients per month instead a monthly chart is preferable.
 
@@ -212,10 +212,10 @@ rates offer a problem.
 
 What I propose as a better method for evaluating accrual is to look at
 the date gap, the number of days between recruiting consecutive patients
-and using this as the basic unit of measure. The  date gap in this
+and using this as the basic unit of measure. The   date gap in this
 example is
 
-` [1]  56  37  94  18 195  10  19 119  31 189  39     32  39  23  36  41 126   [18]   1  48   4  41  47 175  27  50  83     95 109  13   4 294   4 124  29  [35] 242   4   7  55  28  73  38  10`
+`  [1]   56   37   94   18 195   10   19 119   31 189   39      32   39   23   36   41 126   [18]     1   48     4   41   47 175   27   50   83      95 109   13     4 294     4 124   29  [35] 242     4     7   55   28   73   38   10`
 
 So, for example, you had to wait 56 days for the first patient, 37
 between the first and second patients, 94 days between the second and
@@ -229,11 +229,11 @@ events or the number of months between events, you would still have
 exactly the same amount of data and exactly the same pattern..
 
 This is the first advantage of recording the data as date gaps. It
-liberates you from having to worry about the time units\--the chart for
+liberates you from having to worry about the time units--the chart for
 day gaps looks the same as the chart for week gaps, month gaps, etc.
 
 Another advantage of using date gaps for monitoring accrual rates is
-that you don\'t have to wait for an artificial calendar boundary to be
+that you don't have to wait for an artificial calendar boundary to be
 crossed before you evaluate the data. Every time a new patient joins the
 research study, you have a new point on your graph.
 
@@ -298,7 +298,7 @@ these methods to dropout rates. Is there a problem with excessive
 dropouts? Then the next natural extension is to adverse event reports.
 Is there a sudden surge in adverse events? I believe that a control
 chart represents a good way of tracking accrual, dropouts, and adverse
-events. I\'m a bit leery of examining efficacy in a control chart, and
+events. I'm a bit leery of examining efficacy in a control chart, and
 when I have time, I want to document why efficacy might be different.
 
 Also, I want to examine two group differences. Are we seeing a
@@ -347,10 +347,10 @@ Engineering Statistics Handbook
     11, 2005)](http://www.childrensmercy.org/stats/weblog2005/ControlCharts.asp)
 -   [Stats: Guidelines for quality control models](../model/quality.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
@@ -358,17 +358,17 @@ trials](../category/AccrualProblems.html).
 trials](../category/AccrualProblems.html).
 for pages similar to this one at [Category: Accrual problems in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Monitoring accrual rates (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).

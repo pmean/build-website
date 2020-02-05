@@ -7,8 +7,6 @@ category: Blog post
 tags: 
 output: html_document
 ---
-**[StATS]: Step-down procedures for multiple
-comparisons (June 16, 2005)**.
 
 In some research studies, you have a large and difficult to manage set
 of outcome measures. This is especially true in microarray experiments,
@@ -17,10 +15,12 @@ difference in expression levels between two types of tissue. A simple
 p-value is worthless in this situation, because it will be swamped by
 thousands of other p-values.
 
+<!---More--->
+
 The simplest (and least effective) adjustment to the p-values is a
 Bonferroni correction. It simply multiplies each p-value by the number
 of outcome measures. With a thousand genes, it would declare a
-difference anytime the unadjusted p-value was less than 0.00005. It\'s
+difference anytime the unadjusted p-value was less than 0.00005. It's
 impossible for a p-value to be larger than 1, so any Bonferroni adjusted
 p-values larger than 1 are set equal to 1.
 
@@ -30,7 +30,7 @@ First, sort your thousand p-values from low to high. Multiply the
 smallest p-value by one thousand. If that adjusted p-value is less than
 0.05, then that gene shows evidence of differential expression.
 
-That\'s no different than the Bonferroni adjustment. But now that we
+That's no different than the Bonferroni adjustment. But now that we
 know that the first gene is differentially expressed, we have 999 genes
 for which we are not sure what is going on. So multiply the next
 smallest p-value by 999 (not one thousand) and see if it is less than
@@ -56,7 +56,7 @@ Step 1. Sort the p-values from low to high:
 
 ![02a.gif not found.](../../../web/images/05/MultipleComparisons-0501.png)
 
-Step 2: Multiply the p-values by K, K-1, K-2,\...
+Step 2: Multiply the p-values by K, K-1, K-2,...
 
 ![02b.gif not found.](../../../web/images/05/MultipleComparisons-0502.png)
 
@@ -64,7 +64,7 @@ Step 3: Correct for any p-values out of their proper order.
 
 ![02c.gif not found.](../../../web/images/05/MultipleComparisons-0503.png)
 
-Here\'s a small example. Suppose I have ten p-values: 0.0002, 0.0011,
+Here's a small example. Suppose I have ten p-values: 0.0002, 0.0011,
 0.0012, 0.0015, 0.0022, 0.0091, 0.0131, 0.0152, 0.0311, and 0.1986.
 These are impressively small, even after accounting for the fact that we
 have ten of them.
@@ -90,27 +90,27 @@ rather than the p-value.
 To understand the false discovery rate better, suppose that there are K
 genes, that a procedure declared R genes to be statistically significant
 and that V of these genes are false positives. Both Bonferroni and the
-Holm step-down procedure insure that P\[V\>0\] is no more than alpha. In
+Holm step-down procedure insure that P[V>0] is no more than alpha. In
 a microarray experiment, this is a rather stringent standard. Most
 researchers will tolerate a handful of false positive genes. A
 microarray experiment is often an exploratory study. Most of the time,
 these researchers follow up on any positive findings with additional
 testing anyway. So a small number of false positives is tolerable. They
-just don\'t want the number of false positives to dominate the list of
+just don't want the number of false positives to dominate the list of
 statistically significant genes.
 
 Suppose you ran an microarray experiment.with 10,000 genes and the
 largest p-value before any adjustment was 0.05. This is like hitting the
 lottery jackpot, since every gene is statistically significant. Testing
 at an unadjusted alpha level of 0.05 tells you that the expected number
-of false positives is 500 (5% of 10,000). That\'s a tolerable number
+of false positives is 500 (5% of 10,000). That's a tolerable number
 among 10,000 positive results.
 
-Let\'s suppose though that only half of your genes (5,000) are
+Let's suppose though that only half of your genes (5,000) are
 statistically significant at an unadjusted alpha level of 0.05. Now the
 number of false positives represents 10% of the significant genes. Are
 you starting to get a bit worried? Maybe not, but now suppose a quarter
-of your genes (2,500)  are statistically significant at an unadjusted
+of your genes (2,500)   are statistically significant at an unadjusted
 alpha level of 0.05. The expected number of false positives is still
 500, but now that represents 20% of the genes, which might make you a
 bit uncomfortable. Suppose that 10% of your genes (1,000) are
@@ -123,7 +123,7 @@ sense to test at an alpha level that is one-tenth as large (0.005),
 because then the expected number of false positives (50) is only 5% of
 the total number of genes again.
 
-So to control the false discovery rate, don\'t bother adjusting the
+So to control the false discovery rate, don't bother adjusting the
 largest p-value, adjust the p-value halfway through the list by doubling
 it, adjust the p-value three quarters of the way towards the smallest
 p-value by quadrupling it, adjust the p-value nine-tenths of the way
@@ -136,13 +136,13 @@ here you make sure that the second largest false discovery rate is not
 larger than the largest, that the third largest false discovery rate is
 not larger than the previous two, etc..
 
-The formal mathematical definition is 
+The formal mathematical definition is  
 
 Step 1. Sort the p-values from high to low:
 
 ![02e.gif not found.](../../../web/images/05/MultipleComparisons-0505.png)
 
-Step 2. Multiply the p-values by 1, K/(K-1), K/(K-2), \..., K.
+Step 2. Multiply the p-values by 1, K/(K-1), K/(K-2), ..., K.
 
 ![Holm06.gif not found.](../../../web/images/05/MultipleComparisons-0506.png)
 
@@ -150,7 +150,7 @@ Step 3. Correct for any p-values out of the proper order.
 
 ![02g.gif not found.](../../../web/images/05/MultipleComparisons-0507.png)
 
-Here\'s the same example using the ten p-values discussed above. It
+Here's the same example using the ten p-values discussed above. It
 seems a bit silly, perhaps to apply the false discovery rate to such a
 small number of p-values, but it does help to illustrate the
 calculations.
@@ -167,7 +167,7 @@ among the results that are flagged.
 To understand this better, define R as the number of genes that are
 flagged as differentially expressed by a procedure (note that I did not
 say the number of genes that are statistically significant). Let V
-represent the number of false positives among those R genes. I\'m using
+represent the number of false positives among those R genes. I'm using
 the notation which appears in the book
 
 -   Amaratunga and Cabrerea, **Exploration and Analysis of DNA
@@ -182,7 +182,7 @@ This is saying that even a single false positive is intolerable and you
 must control this scrupulously. For a microarray experiment, this may be
 too strict. Instead you should focus on the ratio of false positives,
 V/R. A formal mathematical definition here is a bit tricky, because we
-can\'t allow even a small probability that the denominator is zero. It
+can't allow even a small probability that the denominator is zero. It
 turns out that the false discovery rate is equal to
 
 ![02j.gif not found.](../../../web/images/05/MultipleComparisons-0510.png)
@@ -201,28 +201,3 @@ In a microarray experiment, it means tracking down a lead that ends up
 being a dead end. This is not a trivial cost, but your perspective here
 is quite different than testing a new drug, for example. There, a false
 positive means allowing an ineffective drug onto the market.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Step-down procedures for multiple
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

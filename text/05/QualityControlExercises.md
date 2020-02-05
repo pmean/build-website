@@ -8,12 +8,12 @@ tags: Quality control
 output: html_document
 ---
 
-I\'ve taught several courses on Quality Control, and the best part is
+I've taught several courses on Quality Control, and the best part is
 the practice exercises.
 
 <!---More--->
 
-At the [American Society of Andrology\'s lab workshop in
+At the [American Society of Andrology's lab workshop in
 2005](http://www.andrologysociety.com/meetings/alw.program2005.asp), I
 used a blind paper cutting exercise described in
 
@@ -28,10 +28,10 @@ attended the previous workshop. So I have to find a new practice
 exercise.
 
 One possible exercise involves the production of paper helicopters. You
-cut and fold a sheet of paper so that it has \"helicopter blades\" and
+cut and fold a sheet of paper so that it has "helicopter blades" and
 drop it from a fixed height. Measure how long it takes to reach the
-ground. Now, the question becomes \"How long and how reliable are the
-flight times?\" So you could drop the same helicopter 20 times and draw
+ground. Now, the question becomes "How long and how reliable are the
+flight times?" So you could drop the same helicopter 20 times and draw
 a control chart of the results. Alternately, you could try to redesign
 the helicopter (wider or thinner blades) to try to optimize the flight
 times.
@@ -40,8 +40,8 @@ This exercise is described in
 
 -   **Teaching Statistics. A Bag of Tricks.** Gelman A, Nolan D (2002)
     Oxford, England: Oxford University Press. ISBN: 0198572247.
-    [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0198572247.html)
+    [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/0198572247.html)
 
 Here is a picture showing how to prepare the helicopter from page 260 of
 their book.
@@ -75,16 +75,16 @@ Some other possible ideas for quality control exercises might come from
 -   Easterling, Robert G. (2004) Teaching experimental design. The
     American Statistician, 58, 244-252.
     
--   Sparks, Ross S. and Field, John B. F. (2000) Using Deming\'s funnel
+-   Sparks, Ross S. and Field, John B. F. (2000) Using Deming's funnel
     experiment to demonstrate effects of violating assumptions
-    underlying Shewhart\'s control charts. The American Statistician,
+    underlying Shewhart's control charts. The American Statistician,
     54, 291-302.
     
 -   Brady, James E. and Allen, Theodore T. (2002) Case study based
     instruction of DOE and SPC. The American Statistician, 56, 312-315.
     
 -   Lawrance, A. J. (1996) A design of experiments workshop as an
-    introduction to statistics.\
+    introduction to statistics.
     The American Statistician, 50, 156-158.
 
 I have not had a chance to look at these four papers in detail, yet.

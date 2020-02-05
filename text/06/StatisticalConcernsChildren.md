@@ -27,25 +27,25 @@ something else, it is not a valid measurement.
 For example, there are a lot of studies looking at stress and its
 relationship to health. So how do you measure stress?
 
-1.  You can look at physiologic signs.\
+1.  You can look at physiologic signs.
 ![](../../../web/images/06/StatisticalConcernsChildren12.gif)
-    [academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm](http://academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm)\
-     
-2.  You can hook someone up to a meter that measures stress.\
+    [academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm](http://academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm)
+      
+2.  You can hook someone up to a meter that measures stress.
 ![](../../../web/images/06/StatisticalConcernsChildren02.jpg)
-    height="336"}\
-     [www.cliving.org/stresstools.htm](http://www.cliving.org/stresstools.htm)\
-     
-3.  You can ask people to fill out a survey.\
+    height="336"}
+      [www.cliving.org/stresstools.htm](http://www.cliving.org/stresstools.htm)
+      
+3.  You can ask people to fill out a survey.
 ![](../../../web/images/06/StatisticalConcernsChildren03.gif)
     [www.agnet.org/library/image/pt2003033t1.html](http://www.agnet.org/library/image/pt2003033t1.html)
 
-Just because you attach the label \"stress\" to a questionnaire or an
+Just because you attach the label "stress" to a questionnaire or an
 electronic device does not mean that the label is accurate. How do you
 know, for example, that you are not measuring anxiety instead of stress?
 
-How do you establish validity? It\'s too much for me to talk about
-today. There\'s an excellent book,
+How do you establish validity? It's too much for me to talk about
+today. There's an excellent book,
 
 -   **Health Measurement Scales A Practical Guide to Their Development
     and Use.** David L. Streiner, Geoffrey R. Norman (1989) New York:
@@ -54,7 +54,7 @@ today. There\'s an excellent book,
 which offers a lot of practical advice.
 
 One point I want to emphasize is that **establishing validity is not a
-one shot deal**. You don\'t run a single statistical test and conclude
+one shot deal**. You don't run a single statistical test and conclude
 valid/invalid on that basis. Validity is the slow and careful
 accumulation of information across multiple studies. Think of validity
 as a journey and not a destination.
@@ -77,7 +77,7 @@ threshold.
 3.  The ability to write.
 4.  The ability to understand abstract concepts.
 
-By \"abstract concepts\" I don\'t mean \"beauty\" or \"truth\". Much
+By "abstract concepts" I don't mean "beauty" or "truth". Much
 simpler tasks, like marking a line on a visual analog scale to represent
 the degree of pain intensity or selecting a value from one to ten,
 require an understanding of numbers, order, and distance. A child that
@@ -90,14 +90,14 @@ measure pain.
 (Source:
 [painsourcebook.ca/pdfs/pps92.pdf](http://painsourcebook.ca/pdfs/pps92.pdf))
 
-What about infants, who can\'t even understand an instruction about
+What about infants, who can't even understand an instruction about
 which face to point to? The issues are complex,
 
 -   **Reflections on measuring pain in infants: dissociation in
-    responsive systems and \"honest signalling\".** Barr RG. Arch Dis
-    Child Fetal Neonatal Ed 1998;79:F152-F156 (September). [\[Full
-    text\]](http://fn.bmjjournals.com/cgi/content/full/79/2/F152)
-    [\[PDF\]](http://fn.bmjjournals.com/cgi/reprint/79/2/F152.pdf)
+    responsive systems and "honest signalling".** Barr RG. Arch Dis
+    Child Fetal Neonatal Ed 1998;79:F152-F156 (September). [Full
+    text]](http://fn.bmjjournals.com/cgi/content/full/79/2/F152)
+    [PDF]](http://fn.bmjjournals.com/cgi/reprint/79/2/F152.pdf)
 
 but pain measurements are indeed possible, even in premature infants.
 
@@ -109,7 +109,7 @@ and blood pressure vary by age and by gender in children.
 Assessing an appropriate BMI is a good example of the problems you face.
 In adults, there are well accepted standards: above 25 and you are
 overweight, 30 and higer and you are obese. In children, the values vary
-markedly by age and gender. Here\'s a  chart of the percentiles of BMI
+markedly by age and gender. Here's a   chart of the percentiles of BMI
 for girls ages 2 to 20 (reduced in size to make it fit better here).
 
 ![](../../../web/images/06/StatisticalConcernsChildren05.jpg)
@@ -139,7 +139,7 @@ for this.
 
 First, children represent a small fraction of the entire demographic
 population, with the possible exception of developing countries that
-still have very high birthrates. Here\'s the age distribution in England
+still have very high birthrates. Here's the age distribution in England
 and Wales. The median age in England and Wales is 37 years, and less
 than 25% of the population is under the age of 20.
 
@@ -149,7 +149,7 @@ Source:
 
 Second, some diseases are the result of decades of abuse that we heap
 upon ourselves through sedentary lifestyles, overeating, smoking, abuse
-of alcohol and other drugs. Children don\'t have easy access to tobacco
+of alcohol and other drugs. Children don't have easy access to tobacco
 and alcohol. Lack of exercise and too much television are indeed a
 problem for children, but they will not reap many of the consequences of
 this behavior until they become adults. Some medical conditions are
@@ -161,20 +161,20 @@ children, and others that occur. But as a general rule, children
 represent a small subgroup.
 
 There are two statistical issues here associated with the adjective
-\"small\" and the noun \"subgroup.\"
+"small" and the noun "subgroup."
 
 Small sample size problems represent the biggest crisis in medical
 research today. But with pharmacovigilance, it is that much worse,
-because you are  quite often for a \"needle in a haystack.\"  Also
+because you are   quite often for a "needle in a haystack."   Also
 remember that you are looking for something that went undetected with
 the typical sample size in a Phase III study.
 
 So what sort of sample size do you need in a pharmacovigilance study?
 There are plenty of formulas, but one rule that I have found useful is
-the \"rule of 50\". It was originally developed by Gerald Van Belle. It
+the "rule of 50". It was originally developed by Gerald Van Belle. It
 appeared in the first draft of his excellent book, **Statistical Rules
 of Thumb** (ISBN: 0471402273), which was available on the web. Somehow,
-the \"rule of 50\" did not make it into the final draft of the book.
+the "rule of 50" did not make it into the final draft of the book.
 
 The rule of fifty applies when you are comparing two binomial
 proportions. A reasonable goal for your sample size is to have adequate
@@ -240,7 +240,7 @@ We round this up to 50.
 What does this mean in a practical sense? The quantity n~1~p~1~
 represents the expected number of events in group 1, and you want to
 select n~1~ sufficiently large so that n~1~p~1~ is at least 50.
-Alternately, select  n~2~ sufficiently large so that n~2~p~2~ is at
+Alternately, select   n~2~ sufficiently large so that n~2~p~2~ is at
 least 25 So if you are studying a side effect that occurs in about 1% of
 the untreated patients, and you want to be able to detect a doubling of
 this rate to 2% in the treated group, then select the number of treated
@@ -295,9 +295,9 @@ So what should you do? There is a nice overview on subgroup analysis in
 clinical trials,
 
 -   **Subgroup analysis in clinical trials**. Cook DI, Gebeski VJ, Keech
-    AC, MJA 2004; 180 (6): 289-291. [\[Full
-    text\]](http://www.mja.com.au/public/issues/180_06_150304/coo10086_fm.html)
-    [\[PDF\]](http://www.mja.com.au/public/issues/180_06_150304/coo10086_fm.pdf)
+    AC, MJA 2004; 180 (6): 289-291. [Full
+    text]](http://www.mja.com.au/public/issues/180_06_150304/coo10086_fm.html)
+    [PDF]](http://www.mja.com.au/public/issues/180_06_150304/coo10086_fm.pdf)
 
 and the discussion can be easily applied to pharmacovigilance trials.
 This paper offers the following checklist:
@@ -344,9 +344,9 @@ This paper offers the following checklist:
 
 Many pharmacovigilance studies are not randomized, and many of the
 findings in these studies are post hoc. This makes subgroup analysis
-even more troubling, but you don\'t really have a choice. I have found
+even more troubling, but you don't really have a choice. I have found
 the criteria for causation developed in a 1965 article by Sir Austin
-Bradford Hill \"The Environment and Disease: Association or Causation\"
+Bradford Hill "The Environment and Disease: Association or Causation"
 to be very helpful. He mentions nine factors:
 
 1.  Strength (is the risk of a side effect so large that we can easily
@@ -400,21 +400,21 @@ the birth hospital**, and **apgar scores**. The **type of delivery**
 **prenatal exposure to potentially harmful substances**, like alcohol
 and tobacco.
 
-**Characteristics of the child\'s environment**:
+**Characteristics of the child's environment**:
 
 In adult study, you establish socioeconomic status (SES) by examining
 the level of education and the type of job held by the patient. You
-can\'t do this for a child, of course, so you have to assess SES by
+can't do this for a child, of course, so you have to assess SES by
 **education level of the parents and their job category**. If you are
 assessing developmental delays, then should probably measure factors
-about the richness of the child\'s environment, such as the **number and
+about the richness of the child's environment, such as the **number and
 types of toys** available and the **vocabulary skills of the primary
 caregiver**. Where does the child spend most of the day? **Childcare
 arrangements**, such as enrollment in a daycare center can sometimes be
 very important. For older children, **where they go to school** is
 important, especially with the rise of home schooling.
 
-**Characteristics of the child\'s diet**.
+**Characteristics of the child's diet**.
 
 The dietary information for a child is a bit different than of an adult,
 because a young child cannot fill out a food diary and must rely on a
@@ -422,7 +422,7 @@ because a young child cannot fill out a food diary and must rely on a
 about the **duration of breastfeeding** and the **age at which solid
 foods were introduced**.
 
-**What if you can\'t measure these things?**
+**What if you can't measure these things?**
 
 In many research situations, but especially in pharmacovigilance
 studies, you will not have access to many of these child-specific
@@ -438,14 +438,14 @@ In a research study involving children, you have several statistical
 concerns. First, you may need to take extra efforts to establish
 validity in measurements in children. Second, you have to deal with
 sample size concerns and subgroup analysis issues. Finally, you may need
-to collect a greater level of detail about the child\'s age, information
+to collect a greater level of detail about the child's age, information
 about the pre-natal exposures and delivery and possibly special data on
-the child\'s environment and diet.
+the child's environment and diet.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Children in
 research](../category/ChildrenInResearch.html).
@@ -453,17 +453,17 @@ research](../category/ChildrenInResearch.html).
 research](../category/ChildrenInResearch.html).
 for pages similar to this one at [Category: Children in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Statistical concerns in research studies
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Children in
 research](../category/ChildrenInResearch.html).

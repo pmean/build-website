@@ -10,7 +10,7 @@ output: html_document
 **[StATS]: Expected value and moments (July 29,
 2005)**. [](../category/ProbabilityConcepts.html)
 
-Someone asked me what a statistical moment is. That\'s a rather
+Someone asked me what a statistical moment is. That's a rather
 technical term and is not needed except in rather theoretical and
 mathematical discussions. But it is still worth defining. First, though,
 let me review what an expected value is:
@@ -21,13 +21,13 @@ compute the following probabilities.
 
 ![Moments01.gif not found.](../../../web/images/05/Moments01.png)
 
-The expected value of X, E\[X\], is computed as
+The expected value of X, E[X], is computed as
 
 ![Moments02.gif not found.](../../../web/images/05/Moments02.png)
 
 This calculation can be easily generalized to more complicated
-situations. Suppose that a rich uncle plans to give you \$2,000 for each
-child in your family, with a bonus of \$500 for each girl. The formula
+situations. Suppose that a rich uncle plans to give you $2,000 for each
+child in your family, with a bonus of $500 for each girl. The formula
 for the bonus is
 
 ![Moments03.gif not found.](../../../web/images/05/Moments03.png)
@@ -45,23 +45,23 @@ This is a rather simplistic example, but the concept of expected value
 does arise from time to time in real medical problems. For example, in a
 study of a novel test for bladder cancer,
 
-> *six dogs were trained to discriminate between urine from patients
-> with bladder cancer and urine from diseased and healthy controls and
-> then evaluated in tests requiring the selection of one bladder cancer
-> urine sample from six controls.*
+*six dogs were trained to discriminate between urine from patients
+with bladder cancer and urine from diseased and healthy controls and
+then evaluated in tests requiring the selection of one bladder cancer
+urine sample from six controls.*
 
 The success rate was quite good, 41%, especially when you compared it to
 
-> *an expected value of 1 in 7 (14%)*
+*an expected value of 1 in 7 (14%)*
 
 **Olfactory detection of human bladder cancer by dogs: proof of
 principle study.** Willis CM, Church SM, Guest CM, Cook WA, McCarthy N,
 Bransbury AJ, Church MR, Church JC. Bmj 2004: 329(7468); 712.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15388612&dopt=Abstract)
-[\[Abstract\]](http://bmj.bmjjournals.com/cgi/content/abstract/329/7468/712)
-[\[Full
-text\]](http://bmj.bmjjournals.com/cgi/content/full/329/7468/712)
-[\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/329/7468/712.pdf)
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15388612&dopt=Abstract)
+[Abstract]](http://bmj.bmjjournals.com/cgi/content/abstract/329/7468/712)
+[Full
+text]](http://bmj.bmjjournals.com/cgi/content/full/329/7468/712)
+[PDF]](http://bmj.bmjjournals.com/cgi/reprint/329/7468/712.pdf)
 
 Quite often, a bit of intuition and common sense will sometimes help you
 calculate an expected value. Otherwise, you have to use a bit of
@@ -85,7 +85,7 @@ Notice that the lower limit of the integral is zero rather than
 -infinity because the density is defined only for values between 0 and
 infinity.
 
- This integral is a bit tedious, but you can use [integration by
+  This integral is a bit tedious, but you can use [integration by
 parts](http://en.wikipedia.org/wiki/Integration_by_parts) to compute it.
 The basic form for integration by parts is
 
@@ -108,8 +108,8 @@ for a wide range of statistical distributions is:
 
 -   **Statistical Distributions Second Edition.** Evans M, Hastings N,
     Peacock B (1993) New York: John Wiley & Sons. ISBN: 0471559512.
-    [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0471559512.html)
+    [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/0471559512.html)
 
 **Moments**
 
@@ -165,10 +165,10 @@ the distribution is not symmetric, but instead is positively skewed.
 This means that this distribution has a greater tendency to produce
 outliers on the high end rather than the low end of the distribution.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).
@@ -176,17 +176,17 @@ concepts](../category/ProbabilityConcepts.html).
 concepts](../category/ProbabilityConcepts.html).
 for pages similar to this one at [Category: Probability
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Expected value and moments (July 29,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).

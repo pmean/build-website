@@ -24,7 +24,7 @@ This page uses resources originally developed on my weblog: [November
 2005](file:///J:/weblog2005/ForestPlots.asp), February 25, 2005, and
 March 11, 2005. I also have a web page about the special problems
 associated with a [meta-analysis for a diagnostic test](diagnostic.html)
-and  a non-technical introduction on the [practical interpretation of a
+and   a non-technical introduction on the [practical interpretation of a
 meta-analysis](../12a/journal/meta-analysis.asp).
 
 **Step 1. Extract individual estimates.**
@@ -97,9 +97,9 @@ your studies and the particular meta-analysis model that you want and
 whether it makes sense to compute any combined estimate at all. Only
 after a lot of careful thought would you proceed.
 
-But let\'s be realistic. You and I are both impatient, so we want to see
+But let's be realistic. You and I are both impatient, so we want to see
 right away what is going on. So go ahead and compute a simple estimate
-of combined effect. Don\'t get emotionally attached to that estimate,
+of combined effect. Don't get emotionally attached to that estimate,
 because a better choice might be a more complex estimate or possibly no
 estimate at all.
 
@@ -122,7 +122,7 @@ decide to use a different estimate or dispense entirely with estimating
 an overall effect.
 
 The formulas for confidence limits for this estimate are simple enough,
-but I won\'t present them here.
+but I won't present them here.
 
 Example: A meta-analysis of inhaled steroid use in chronic obstructive
 pulmonary disease:
@@ -130,10 +130,10 @@ pulmonary disease:
 -   **Effects of inhaled corticosteroids on sputum cell counts in stable
     chronic obstructive pulmonary disease: a systematic review and a
     meta-analysis.** Gan WQ, Man SP, Sin DD. BMC Pulm Med 2005: 5(1); 3.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15707484&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2466/5/3/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2466/5/3)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2466-5-3.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15707484&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2466/5/3/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2466/5/3)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2466-5-3.pdf)
 
 showed standardized mean differences (smd) for the reduction in Total
 Cell counts and confidence limits (lcl, ucl) in six studies in Table 3.
@@ -158,10 +158,10 @@ Another example of a meta-analysis appears in
 -   **Acetylcysteine for prevention of contrast-induced nephropathy
     after intravascular angiography: a systematic review and
     meta-analysis.** Bagshaw SM, Ghali WA. BMC Med 2004: 2(1); 38.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1741-7015/2/38)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
+    [Full text]](http://www.biomedcentral.com/1741-7015/2/38)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
 
 I re-typed the table of odds ratios and 95% confidence intervals into
 Microsoft Excel.
@@ -200,17 +200,17 @@ library.
 
 `f0 <- TotalCells.ma <- "X:/webdata/TotalCells.csv"   Cells.dat <- read.csv(f0)   attach(Cells.dat)   library(meta)   Cells.ma <- metagen(TE=Cells.smd,seTE=Cells.se,studlab=study,sm="SMD")   print(Cells.ma)   plot(Cells.ma,comb.f=T)`
 
-`              SMD                95%-CI %W(fixed) %W(random)   Yildiz       -0.6 [-1.5996;  0.3996]        10.98      10.98   Confalonieri -0.4 [-1.1056;  0.3056]     22.03         22.03   Mirici       -1.0 [-1.7056; -0.2944]     22.03         22.03   Sugiura       0.2 [-0.7996;  1.1996]        10.98      10.98   Culpitt      -0.3 [-1.1036;  0.5036]     16.99         16.99   Keatings     -0.1 [-0.9036;  0.7036]     16.99         16.99      Number of trials combined: 6                                 SMD             95%-CI          z p.value   Fixed effects model  -0.4203 [-0.7515; -0.0891] -2.4874  0.0129   Random effects model -0.4203 [-0.7515; -0.0891] -2.4874  0.0129      Quantifying heterogeneity:   tau^2 = 0; H = 1 [1; 1.96]; I^2 = 0% [0%; 74.1%]      Test of heterogeneity:   Q d.f. p.value   4.9    5  0.4287      Method: Inverse variance method `
+`                           SMD                            95%-CI %W(fixed) %W(random)   Yildiz             -0.6 [-1.5996;   0.3996]            10.98           10.98   Confalonieri -0.4 [-1.1056;   0.3056]         22.03              22.03   Mirici             -1.0 [-1.7056; -0.2944]         22.03              22.03   Sugiura             0.2 [-0.7996;   1.1996]            10.98           10.98   Culpitt           -0.3 [-1.1036;   0.5036]         16.99              16.99   Keatings         -0.1 [-0.9036;   0.7036]         16.99              16.99      Number of trials combined: 6                                                         SMD                         95%-CI                z p.value   Fixed effects model   -0.4203 [-0.7515; -0.0891] -2.4874   0.0129   Random effects model -0.4203 [-0.7515; -0.0891] -2.4874   0.0129      Quantifying heterogeneity:   tau^2 = 0; H = 1 [1; 1.96]; I^2 = 0% [0%; 74.1%]      Test of heterogeneity:    Q d.f. p.value   4.9       5   0.4287      Method: Inverse variance method `
 
 Notice that there is no difference between the random effects model and
 the fixed effects model. That is because for this data set, there is no
-evidence of heterogeneity. The Cochran\'s Q value is smaller than the
+evidence of heterogeneity. The Cochran's Q value is smaller than the
 degrees of freedom and the estimate of tau-squared is zero.
 
-> Here\'s what the analysis of the Acetylcysteine data would look like
-> using R and the meta library.
+Here's what the analysis of the Acetylcysteine data would look like
+using R and the meta library.
 
-`f0 <- "X:/webdata/Acetylcysteine1.csv"   acetyl.dat <- read.csv(f0)   attach(acetyl.dat)   log.or <- log(or)   se <- (log(ucl)-log.or)/1.96   acetyl.ma <- metagen(TE=log.or,seTE=se,studlab=study,sm="OR")   print(acetyl.ma)                     OR              95%-CI %W(fixed) %W(random)   Allaqaband   1.23 [0.3889; 3.8899]     10.44          9.18   Baker        0.20 [0.0400; 1.0000]         5.34       6.41   Briguori     0.57 [0.1993; 1.6300]     12.54          9.93   Diaz-Sandova 0.11 [0.0224; 0.5400]      5.47          6.50   Durham       1.27 [0.4518; 3.5699]        12.96      10.06   Efrati       0.19 [0.0086; 4.2098]         1.44       2.40   Fung         1.37 [0.4345; 4.3199]        10.50       9.20   Goldenberg   1.30 [0.2721; 6.2098]      5.66          6.64   Kay          0.29 [0.0895; 0.9400]        10.01       9.00   Kefer        0.63 [0.1013; 3.9199]         4.14       5.44   MacNeill     0.11 [0.0125; 0.9700]      2.92          4.24   Oldemeyer    1.30 [0.2744; 6.1598]      5.72          6.68   Shyu         0.11 [0.0247; 0.4900]         6.20       7.01   Vallero      1.14 [0.2691; 4.8299]         6.64       7.29      Number of trials combined: 14                                   OR           95%-CI          z p.value   Fixed effects model  0.5937 [0.4092; 0.8612] -2.7468   0.006   Random effects model 0.5428 [0.3231; 0.9121] -2.3076   0.021      Quantifying heterogeneity:   tau^2 = 0.4187; H = 1.35 [1; 1.84]; I^2 = 44.9% [0%; 70.5%]      Test of heterogeneity:      Q d.f. p.value   23.6  13    0.035      Method: Inverse variance method`
+`f0 <- "X:/webdata/Acetylcysteine1.csv"   acetyl.dat <- read.csv(f0)   attach(acetyl.dat)   log.or <- log(or)   se <- (log(ucl)-log.or)/1.96   acetyl.ma <- metagen(TE=log.or,seTE=se,studlab=study,sm="OR")   print(acetyl.ma)                                   OR                        95%-CI %W(fixed) %W(random)   Allaqaband     1.23 [0.3889; 3.8899]         10.44                9.18   Baker               0.20 [0.0400; 1.0000]              5.34             6.41   Briguori         0.57 [0.1993; 1.6300]         12.54                9.93   Diaz-Sandova 0.11 [0.0224; 0.5400]           5.47                6.50   Durham             1.27 [0.4518; 3.5699]            12.96           10.06   Efrati             0.19 [0.0086; 4.2098]              1.44             2.40   Fung                 1.37 [0.4345; 4.3199]            10.50             9.20   Goldenberg     1.30 [0.2721; 6.2098]           5.66                6.64   Kay                   0.29 [0.0895; 0.9400]            10.01             9.00   Kefer               0.63 [0.1013; 3.9199]              4.14             5.44   MacNeill         0.11 [0.0125; 0.9700]           2.92                4.24   Oldemeyer       1.30 [0.2744; 6.1598]           5.72                6.68   Shyu                 0.11 [0.0247; 0.4900]              6.20             7.01   Vallero           1.14 [0.2691; 4.8299]              6.64             7.29      Number of trials combined: 14                                                           OR                     95%-CI                z p.value   Fixed effects model   0.5937 [0.4092; 0.8612] -2.7468     0.006   Random effects model 0.5428 [0.3231; 0.9121] -2.3076     0.021      Quantifying heterogeneity:   tau^2 = 0.4187; H = 1.35 [1; 1.84]; I^2 = 44.9% [0%; 70.5%]      Test of heterogeneity:        Q d.f. p.value   23.6   13       0.035      Method: Inverse variance method`
 
 One important thing to note is that R expects you to use natural
 logarithms (base e) rather than base 10 logarithms. When I first did
@@ -223,10 +223,10 @@ forest plot appears in
 -   **Acetylcysteine for prevention of contrast-induced nephropathy
     after intravascular angiography: a systematic review and
     meta-analysis.** Bagshaw SM, Ghali WA. BMC Med 2004: 2(1); 38.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1741-7015/2/38)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
+    [Full text]](http://www.biomedcentral.com/1741-7015/2/38)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
 
 and because this is an open-access article, I can reproduce the graph
 here.
@@ -238,21 +238,21 @@ license](http://www.biomedcentral.com/info/about/license), I can freely
 reproduce this image, as long as I cite the source.
 
 I was always confused by the funny squares in a forest plot, so I looked
-for a description. Here is what the User\'s Guide for RevMan (software
+for a description. Here is what the User's Guide for RevMan (software
 created by the Cochrane Collaboration) says about forest plots:
 
-> *The graph is a forest plot where the confidence interval (CI) for
-> each study is represented by a horizontal line and the point estimate
-> is represented by a square. The size of the square corresponds to the
-> weight of the study in the meta-analysis. The confidence interval for
-> totals are represented by a diamond shape. The scale used on the graph
-> depends on the statistical method. Dichotomous data (except for risk
-> differences) are displayed on a logarithmic scale. Continuous data and
-> risk differences are displayed on a linear scale. Generic inverse
-> variance data are displayed on either a logarithmic scale or a linear
-> scale depending on the settings in RevMan.* \--
-> <http://www.cc-ims.net/download/revman/Documentation/User%20guide.pdf>
-> (page 36).
+*The graph is a forest plot where the confidence interval (CI) for
+each study is represented by a horizontal line and the point estimate
+is represented by a square. The size of the square corresponds to the
+weight of the study in the meta-analysis. The confidence interval for
+totals are represented by a diamond shape. The scale used on the graph
+depends on the statistical method. Dichotomous data (except for risk
+differences) are displayed on a logarithmic scale. Continuous data and
+risk differences are displayed on a linear scale. Generic inverse
+variance data are displayed on either a logarithmic scale or a linear
+scale depending on the settings in RevMan.* --
+<http://www.cc-ims.net/download/revman/Documentation/User%20guide.pdf>
+(page 36).
 
 Here is an example of the Forest plot, as drawn by R and the meta
 library.
@@ -273,10 +273,10 @@ appears in
 -   **Erythropoietin, uncertainty principle and cancer related
     anaemia.** Clark O, Adams JR, Bennett CL, Djulbegovic B. BMC Cancer
     2002: 2(1); 23.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2407/2/23)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2407/2/23)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
 
 shows cumulative meta-analysis, which is the cumulated effects over time
 of studies in the use of erythropoietin (EPO) to treat cancer related
@@ -318,7 +318,7 @@ computing a Z-score for each study,
 
 and then seeing how much all of these Z-scores differ from zero by
 squaring the Z-scores and adding them up. This gives you a test
-statistic, Cochran\'s Q,
+statistic, Cochran's Q,
 
 ![](../../../web/images/05/metaanalysis20.gif)
 
@@ -330,7 +330,7 @@ implies that the squared Z-scores are, on average, just slightly less
 than 1.
 
 Many experts have rejected the use of quantitative measures such as
-Cochran\'s Q for assessing heterogeneity and suggest instead that you
+Cochran's Q for assessing heterogeneity and suggest instead that you
 examine the studies qualitatively and provide a subjective assessment of
 the degree of heterogeneity among the research studies.
 
@@ -347,7 +347,7 @@ value, set I-squared to zero instead.
 I-squared is bounded above by 100% and values close to 100% represent
 very high degrees of heterogeneity.
 
-This measure is preferred to Cochran\'s Q. The problem with Cochran\'s
+This measure is preferred to Cochran's Q. The problem with Cochran's
 Q, the authors claim, is that it tends to have too little power with a
 collection of studies with small sample sizes and too much power with a
 collection of studies with large sample sizes. Values of I-squared equal
@@ -370,12 +370,12 @@ the random effects follow a bell shaped curve. There is some suggestion
 that perhaps heterogeneity manifests itself as a bimodal distribution
 instead.
 
-You can use the Method of Moments and Cochran\'s Q statistic to estimate
+You can use the Method of Moments and Cochran's Q statistic to estimate
 the between study variation:
 
 ![](../../../web/images/05/metaanalysis24.gif)
 
-Notice that the numerator is a measure of how much the Cochran\'s Q
+Notice that the numerator is a measure of how much the Cochran's Q
 statistic exceeds its degrees of freedom. If you get a negative estimate
 here, simply replace it with an estimate of zero.
 
@@ -410,10 +410,10 @@ for evidence of publication bias. An example of a funnel plot appears in
     randomised controlled trials.** Bellemare S, Hartling L, Wiebe N,
     Russell K, Craig WR, McConnell D, Klassen TP. BMC Med 2004: 2(1);
     11.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15086953&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2288/4/20/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2288/4/20)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2288-4-20.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15086953&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2288/4/20/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2288/4/20)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2288-4-20.pdf)
 
 ![](../../../web/images/05/metaanalysis27.jpg)
 
@@ -422,28 +422,28 @@ Another funnel plot with conical guidelines superimposed appears in
 -   **Association of circulating Chlamydia pneumoniae DNA with
     cardiovascular disease: a systematic review.** Smieja M, Mahony J,
     Petrich A, Boman J, Chernesky M. BMC Infect Dis 2002: 2(1); 21.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12359046&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2334/2/21/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2334/2/21)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2334-2-21.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12359046&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2334/2/21/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2334/2/21)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2334-2-21.pdf)
 
 ![](../../../web/images/05/metaanalysis28.jpg)
 
 Interestingly enough, most of the meta-analyses published in Biomed
 Central had the following statement (almost word for word)
 
-> *Publication bias was not assessed using funnel plots as these tests
-> have been shown to be unhelpful.*
+*Publication bias was not assessed using funnel plots as these tests
+have been shown to be unhelpful.*
 
 These articles then cited the following two references
 
 -   **Misleading funnel plot for detection of bias in meta-analysis.**
     Tang JL, Liu JL. J Clin Epidemiol 2000: 53(5); 477-84.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10812319&dopt=Abstract)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10812319&dopt=Abstract)
 -   **Publication and related bias in meta-analysis: power of
     statistical tests and prevalence in the literature.** Sterne JA,
     Gavaghan D, Egger M. J Clin Epidemiol 2000: 53(11); 1119-29.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11106885&dopt=Abstract)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11106885&dopt=Abstract)
 
 I have not yet read these articles, but I would agree that the funnel
 plot is often difficult to interpret. There are some numerical summary
@@ -466,33 +466,33 @@ evidence that publication bias did not seriously influence your outcome.
 -   **Changes in clinical trials mandated by the advent of
     meta-analysis.** Chalmers TC, Lau J. Stat Med 1996: 15(12); 1263-8;
     discussion 1269-72.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
 -   **Asymmetric funnel plots and publication bias in meta-analyses of
     diagnostic accuracy.** Song F, Khan KS, Dinnes J, Sutton AJ. Int J
     Epidemiol 2002: 31(1); 88-95.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11914301&dopt=Abstract)
-    [\[Abstract\]](http://www.ije.oupjournals.org/cgi/content/abstract/31/1/88)
-    [\[Full
-    text\]](http://www.ije.oupjournals.org/cgi/content/abstract/31/1/88)
-    [\[PDF\]](http://www.ije.oupjournals.org/cgi/reprint/31/1/88.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11914301&dopt=Abstract)
+    [Abstract]](http://www.ije.oupjournals.org/cgi/content/abstract/31/1/88)
+    [Full
+    text]](http://www.ije.oupjournals.org/cgi/content/abstract/31/1/88)
+    [PDF]](http://www.ije.oupjournals.org/cgi/reprint/31/1/88.pdf)
 -   **Bias in meta-analysis detected by a simple, graphical test.**
     Egger M, Davey Smith G, Schneider M, Minder C. British Medical
     Journal 1997: 315(7109); 629-34.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9310563&dopt=Abstract)
-    [\[Abstract\]](http://bmj.bmjjournals.com/cgi/content/abstract/315/7109/629)
-    [\[Full
-    text\]](http://bmj.bmjjournals.com/cgi/content/full/315/7109/629)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9310563&dopt=Abstract)
+    [Abstract]](http://bmj.bmjjournals.com/cgi/content/abstract/315/7109/629)
+    [Full
+    text]](http://bmj.bmjjournals.com/cgi/content/full/315/7109/629)
 -   **Measuring inconsistency in meta-analyses.** J. P. Higgins, S. G.
     Thompson, J. J. Deeks, D. G. Altman. Bmj 2003: 327(7414); 557-60.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12958120&dopt=Abstract)
-    [\[Full
-    text\]](http://bmj.bmjjournals.com/cgi/content/full/327/7414/557)
-    [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/327/7414/557.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12958120&dopt=Abstract)
+    [Full
+    text]](http://bmj.bmjjournals.com/cgi/content/full/327/7414/557)
+    [PDF]](http://bmj.bmjjournals.com/cgi/reprint/327/7414/557.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).
@@ -500,17 +500,17 @@ overviews](../category/SystematicOverviews.html).
 overviews](../category/SystematicOverviews.html).
 for pages similar to this one at [Category: Systematic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Meta-analysis (March 18, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).

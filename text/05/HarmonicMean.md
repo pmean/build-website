@@ -24,7 +24,7 @@ a 200 mpg car or tuning up the 10 mpg car so that it gets 11 mpg. Which
 strategy, they ask, will lead to the biggest improvement in average
 gasoline consumption?
 
-The answer may surprise you, though I won\'t give a detailed answer
+The answer may surprise you, though I won't give a detailed answer
 here. The basic concept, though, is that you need to average the gallons
 per mile rather than the miles per gallon.
 
@@ -62,10 +62,10 @@ sample size of 40, the harmonic mean of 25 and 100.
 
 -   <http://en.wikipedia.org/wiki/Mean>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 theory](../category/StatisticalTheory.html).
@@ -73,17 +73,17 @@ theory](../category/StatisticalTheory.html).
 theory](../category/StatisticalTheory.html).
 for pages similar to this one at [Category: Statistical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **A surprising application of the
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 theory](../category/StatisticalTheory.html).

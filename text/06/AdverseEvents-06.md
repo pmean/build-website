@@ -17,11 +17,11 @@ Some of the testimony provided to FDA can be found on the FDA website
 and in various spots on the Internet, mostly in PDF format.
 
 -   [www.aamc.org/advocacy/library/research/testimony/2005/032105.pdf](http://www.aamc.org/advocacy/library/research/testimony/2005/032105.pdf)
--   [www.avac.org/pdf/comments/8com\_fda\_reporting\_adverse.pdf](http://www.avac.org/pdf/comments/8com_fda_reporting_adverse.pdf)
+-   [www.avac.org/pdf/comments/8com_fda_reporting_adverse.pdf](http://www.avac.org/pdf/comments/8com_fda_reporting_adverse.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00003-Alfano.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00003-Alfano.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00008-Dickler.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00008-Dickler.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00016-Koski.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00016-Koski.pdf)
--   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00013-%20O\'Rourke.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00013-%20O'Rourke.pdf)
+-   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00013-%20O'Rourke.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-ts00013-%20O'Rourke.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-c000006-01-vol3.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05n-0038-c000006-01-vol3.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05N-0038-EC27-Attach-1.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05N-0038-EC27-Attach-1.pdf)
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/05N-0038-EC35-Attach-1.pdf](http://www.fda.gov/ohrms/dockets/dockets/05n0038/05N-0038-EC35-Attach-1.pdf)
@@ -30,8 +30,8 @@ and in various spots on the Internet, mostly in PDF format.
 This is something I have been interested in, but have not had the time
 to work up the details. It seems to me that any system for reporting
 adverse events has to have information about the accrual of patients
-into the study. Here\'s a simple graph that shows the entry and exit
-times in a research study. It\'s not exactly a study of adverse events
+into the study. Here's a simple graph that shows the entry and exit
+times in a research study. It's not exactly a study of adverse events
 reports per se, but the example is close enough that I can use to
 illustrate the general concepts.
 
@@ -50,7 +50,7 @@ second on January 16, the date gap is 14, meaning that you had to wait
 two weeks between patients. The date gaps for entry times in this study
 are
 
-> ` 23   0  28  61   7  85  97  45              163  55             120  81  37  94  18 195  10  19 119  31             189  39  32  39  23  36  41 126   1  48   4  41  47 175  27  50  83  95 109  13   4 294   4 124  29 242   4   7  55  28              73  38  10`
+`  23     0   28   61     7   85   97   45              163   55             120   81   37   94   18 195   10   19 119   31             189   39   32   39   23   36   41 126     1   48    4   41   47 175   27   50   83   95 109   13    4 294     4 124   29 242     4     7   55   28               73   38   10`
 
 The average number of days between recruitment is 64.5 days, which tells
 you that a new patient enrolls about every other month. You could detect
@@ -74,7 +74,7 @@ There looks to be some evidence that infection rates are slowing down
 over the past few years. You can look at the date gaps for this data as
 well.
 
-> ` 40 180 138  98  60  28 365  14  33  14              23  76 144   5  44   4  14  19 136 128              11   6   6  19  39   0  20  59               32   5               38  99 363 573   8 130 109   2`
+`  40 180 138   98   60   28 365   14   33   14               23   76 144     5   44     4   14   19 136 128               11     6     6   19   39     0   20   59                32     5                38   99 363 573     8 130 109     2`
 
 The first and second infections occurred 40 days apart, and the last two
 infections occurred two days apart. A plot of these date gaps is
@@ -125,16 +125,16 @@ the longer the patient is under study.
 
 **Further reading**
 
--   **Clarifying adverse drug events: a clinician\'s guide to
+-   **Clarifying adverse drug events: a clinician's guide to
     terminology, documentation, and reporting.** Nebeker JR, Barach P,
     Samore MH. Ann Intern Med 2004: 140(10); 795-801.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15148066&dopt=Abstract)
-    [\[Abstract\]](http://www.annals.org/cgi/content/abstract/140/10/795)
-    [\[PDF\]](http://www.annals.org/cgi/reprint/140/10/795.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15148066&dopt=Abstract)
+    [Abstract]](http://www.annals.org/cgi/content/abstract/140/10/795)
+    [PDF]](http://www.annals.org/cgi/reprint/140/10/795.pdf)
 
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 Hospital website. Need more information? I have a page with [general
 help resources](../GeneralHelp.html). You can also browse for pages
 similar to this one at [Category: Adverse events in clinical
@@ -144,15 +144,15 @@ trials](../category/AdverseEvents.html).
 similar to this one at [Category: Adverse events in clinical
 help resources](../GeneralHelp.html). You can also browse for pages
 Hospital website. Need more information? I have a page with [general
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 do not hold the copyright for this material, I am reproducing it here as
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 
 <!---Do not use
 **[StATS]: Reporting serious adverse events (created
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 Hospital website. Need more information? I have a page with [general
 help resources](../GeneralHelp.html). You can also browse for pages
 similar to this one at [Category: Adverse events in clinical

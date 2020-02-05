@@ -30,7 +30,7 @@ precision.
 It turns out, though, that SPSS will allow you to run an analysis for
 this case. I had to check it to be sure, so I made up some data where
 the first group had a single value (100) and the second group had three
-values (25, 40, and 55). Here\'s what the t-test output looks like in
+values (25, 40, and 55). Here's what the t-test output looks like in
 SPSS. Notice that I had to split the second table in SPSS into three
 pieces so it would fit on this web page.
 
@@ -41,10 +41,10 @@ compute a standard deviation for a group with only one observation.
 
 ![SingleObservation02.gif not found.](../../../web/images/05/SingleObservation02.png)
 
- 
+  
 
 The left portion of the second table tells us that you cannot compute
-the Levene test either. I am not too upset about this because I don\'t
+the Levene test either. I am not too upset about this because I don't
 like the Levene test.
 
 ![SingleObservation03.gif not found.](../../../web/images/05/SingleObservation03.png)
@@ -62,7 +62,7 @@ hurts me just to look at it. The observation in the first group is four
 full standard deviations away from the mean of the second group and we
 still cannot state that this difference is statistically significant.
 
-Here\'s what the output looks like using the General Linear Model.
+Here's what the output looks like using the General Linear Model.
 
 ![SingleObservation5.gif not found.](../../../web/images/05/SingleObservation05.png)
 
@@ -105,13 +105,13 @@ You should never intentionally design a research study with only a
 single observation in one of the groups. It forces you to make a
 questionable assumption about variability and it has almost no
 precision. If you encountered such a situation, though, after the fact,
-then it is indeed possible to perform a t-test. I\'ll leave it to your
+then it is indeed possible to perform a t-test. I'll leave it to your
 conscience whether you SHOULD perform such a test.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Small sample size
 issues](../category/SmallSampleSizeIssues.html).
@@ -119,17 +119,17 @@ issues](../category/SmallSampleSizeIssues.html).
 issues](../category/SmallSampleSizeIssues.html).
 for pages similar to this one at [Category: Small sample size
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **When one group only has a single
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Small sample size
 issues](../category/SmallSampleSizeIssues.html).
