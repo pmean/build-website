@@ -13,7 +13,7 @@ output: html_document
 *Dear Professor Mean,* *SPSS produces two-tailed p-values, but I want a
 one-tailed p-value. How do I get this?*
 
-First, let\'s review what the difference between a one-tailed and
+First, let's review what the difference between a one-tailed and
 two-tailed p-value is.
 
 A two sided hypothesis states that there is a difference between the
@@ -64,10 +64,10 @@ This graph shows how the p-value changes with the change going in the
 opposite direction from what you hypothesized. In this case, the p-value
 is 1-p/2 or 0.983.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).
@@ -75,17 +75,17 @@ Pvalues](../category/Pvalues.html).
 Pvalues](../category/Pvalues.html).
 for pages similar to this one at [Category:
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** One tailed p-values (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).

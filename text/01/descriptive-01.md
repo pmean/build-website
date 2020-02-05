@@ -44,7 +44,7 @@ procedures. If the total sample size in any of these procedures is less
 than your count, you may have problems with an undetected missing value.
 
 This seems like a simple thing, but often there are subtle details that
-you can\'t ignore. For example, the following table lists the first 10
+you can't ignore. For example, the following table lists the first 10
 mothers in the study.
 
 ![](../../../web/images/01/descriptive-0101.gif)
@@ -142,7 +142,7 @@ confounding variable in any analysis.
 ![](../../../web/images/01/descriptive-0106.gif)
 height="256"}
 
-The mother\'s age is an important factor in any breast feeding study.
+The mother's age is an important factor in any breast feeding study.
 Here is a boxplot comparing ages in the two feeding groups.
 
 ![](../../../web/images/01/descriptive-0107.gif)
@@ -152,20 +152,20 @@ We see that the NG tube group has older mothers than the bottle group.
 Further statistical analysis shows that the average age is 29 in the NG
 tube group and 25 in the bottle group, a difference of 4 years.
 
-We also should examine the relationship between mother\'s age and
+We also should examine the relationship between mother's age and
 duration of breast feeding. The following scatterplot shows a slight
 tendency for older mothers to breast feed longer.
 
 ![](../../../web/images/01/descriptive-0108.gif)
 height="256"}
 
-As with delivery type, we we should be careful to adjust for mother\'s
+As with delivery type, we we should be careful to adjust for mother's
 age in any comparison of the two feeding groups.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).
@@ -173,17 +173,17 @@ statistics](../category/DescriptiveStatistics.html).
 statistics](../category/DescriptiveStatistics.html).
 for pages similar to this one at [Category: Descriptive
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Steps in a descriptive model (October
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).

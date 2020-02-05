@@ -125,7 +125,7 @@ With this pattern of variation, the log transformation can equalize
 the variation. **The log transformation will squeeze the groups with
 the larger standard deviations more than it will squeeze the groups
 with the smaller standard deviations**. The log transformation is
-especially effective when the size of a group\'s standard deviation is
+especially effective when the size of a group's standard deviation is
 directly proportional to the size of its mean.
 
 **Multiplicative models**
@@ -134,7 +134,7 @@ There are two common statistical models, additive and multiplicative.
 **An additive model assumes that factors that change your outcome
 measure, change it by addition or subtraction**. An example of an
 additive model would when we increase the number of mail order
-catalogs sent out by 1,000, and that adds an extra \$5,000 in sales.
+catalogs sent out by 1,000, and that adds an extra $5,000 in sales.
 
 **A multiplicative model assumes that factors that change your outcome
 measure, change it by multiplication or division**. An example of a
@@ -149,7 +149,7 @@ changes we see are bigger at the high end of the scale than at the low
 end. An inch of rain takes a lot of pollen out on a high pollen day
 but proportionately less pollen out on a low pollen day.
 
-If you remember your high school algebra, you\'ll recall that the
+If you remember your high school algebra, you'll recall that the
 logarithm of a product is equal to the sum of the logarithms.
 
 ![](../../../web/images/02/log-0204.gif)
@@ -186,7 +186,7 @@ very nature. They also tend to have models that are multiplicative.
 the smallest value?** The relative stretching and squeezing of the
 logarithm only has an impact if your data has a wide range. If the
 maximum of your data is not at least three times as big as your
-minimum, then the logarithm can\'t squeeze and stretch your data
+minimum, then the logarithm can't squeeze and stretch your data
 enough to have any useful impact.
 
 **Example**

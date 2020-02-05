@@ -14,42 +14,42 @@ When I ask most people to remember their high school algebra class, I
 get a mixture of reactions. Most recoil in horror. About one in every
 four people say they liked that class. Personally, I thought that
 algebra, and all the other math classes I took were great because they
-didn\'t require writing a term paper.
+didn't require writing a term paper.
 
 One formula in algebra that most people can recall is the formula for a
 straight line. Actually, there are several different formulas, but the
 one that most people cite is
 
-> Y = m X + b
+Y = m X + b
 
 where **m** represents the slope, and **b** represents the y-intercept
-(we\'ll call it just the intercept here). They can also sometimes
+(we'll call it just the intercept here). They can also sometimes
 remember the formula for the slope:
 
-> m = Δy / Δx
+m = Δy / Δx
 
 In English, we would say that this is the change in **y** divided by the
 change in **x.**
 
 In linear regression, we use a straight linear to estimate a trend in
-data. We can\'t always draw a straight line that passes through every
-data point, but we can find a line that \"comes close\" to most of the
+data. We can't always draw a straight line that passes through every
+data point, but we can find a line that "comes close" to most of the
 data. This line is an estimate, and we interpret the slope and the
 intercept of this line as follows:
 
-> +-----------------------------------------------------------------------+
-> | The **slope** represents the **estimated average change in Y when X   |
-> | increases by one unit.**                                              |
-> |                                                                       |
-> | The **intercept** represents **the estimated average value of Y when  |
-> | X equals zero.**                                                      |
-> +-----------------------------------------------------------------------+
->
++-----------------------------------------------------------------------+
+| The **slope** represents the **estimated average change in Y when X   |
+| increases by one unit.**                                              |
+|                                                                       |
+| The **intercept** represents **the estimated average value of Y when  |
+| X equals zero.**                                                      |
++-----------------------------------------------------------------------+
+
 Be cautious with your interpretation of the intercept. Sometimes the
 value X=0 is impossible, implausible, or represents a dangerous
 extrapolation outside the range of the data.
 
-The graph shown below represents the relationship between mother\'s age
+The graph shown below represents the relationship between mother's age
 and the duration of breast feeding in a research study on breast feeding
 in pre-term infants.
 
@@ -60,12 +60,12 @@ represented the estimated average duration of breast feeding for a
 mother that is zero years old. This is an impossible value, so the
 interpretation is not useful. What is useful, is the interpretation of
 the slope, approximately 0.4. The estimated average duration of breast
-feeding increases by 0.4 weeks for every extra year in the mother\'s
+feeding increases by 0.4 weeks for every extra year in the mother's
 age.
 
 ![](../../../web/images/02/lin_coef-0202.gif)
 
-When X is categorical, the interpretation changes somewhat. Let\'s look
+When X is categorical, the interpretation changes somewhat. Let's look
 at the simplest situation, a binary variable. A binary variable can have
 only two possible categories. Some examples are live/dead,
 treatment/control, diseased/healthy, male/female. We need to assign
@@ -108,15 +108,15 @@ understand the difference. If you get a slope that is in the opposite
 direction of what you expected, perhaps it is because your software is
 using a different coding than what you expected.
 
-> +-----------------------------------------------------------------------+
-> | When we represent a binary variable using 0-1 coding, the **slope**   |
-> | represents the **estimated average change in Y when you switch from   |
-> | one group to the other.**                                             |
-> |                                                                       |
-> | The **intercept** represents **the estimated average value of Y for   |
-> | the group coded as zero.**                                            |
-> +-----------------------------------------------------------------------+
->
++-----------------------------------------------------------------------+
+| When we represent a binary variable using 0-1 coding, the **slope**   |
+| represents the **estimated average change in Y when you switch from   |
+| one group to the other.**                                             |
+|                                                                       |
+| The **intercept** represents **the estimated average value of Y for   |
+| the group coded as zero.**                                            |
++-----------------------------------------------------------------------+
+
 The interpretation of the regression coefficient for a categorical
 variable with more than two values is a bit trickier, and we will
 discuss it in a separate handout.
@@ -155,7 +155,7 @@ analyses that tried to estimate how many votes for Buchanan might
 actually be votes for Gore. These analyses are far more detailed than
 what I present here. My analysis is more useful for helping you to
 understand concepts in regression than for resolving this voting
-controversy. 
+controversy.  
 
 ![](../../../web/images/02/lin_coef-0207.gif)
 
@@ -165,7 +165,7 @@ in the same county.
 
 The regression equation is:
 
-> Votes (Buchanan) = 45.3 +0.0049 \* Votes (Bush)
+Votes (Buchanan) = 45.3 +0.0049 * Votes (Bush)
 
 Notice that 0.0049 is roughly 1/500. How do we interpret these numbers?
 The intercept is 45, which means that the estimated average number of
@@ -180,7 +180,7 @@ We can compute a predicted number of votes for Buchanan for each county
 by using the above equation. Palm Beach County had 152,846 votes for
 Bush. So the regression model would predict that Buchanan should get:
 
-> 45 + 0.0049 \* 152,846 =  797.
+45 + 0.0049 * 152,846 =   797.
 
 Thus, if the relationship observed across the entire state held exactly
 in Palm Beach County, then we would estimate the vote count for Buchanan
@@ -190,7 +190,7 @@ There were actually 3,407 votes recorded for Buchanan, which is quite a
 discrepancy from what we predicted. The residual, the difference between
 what we observed and what would be predicted by the regression model is:
 
-> 3,407 - 797 = 2,610.
+3,407 - 797 = 2,610.
 
 One possible interpretation is that this discrepancy represents an
 estimate of the number of people who voted incorrectly for Buchanan.
@@ -215,10 +215,10 @@ statistical model to adjust vote counts, so this example is more for
 understanding what might have gone wrong and the magnitude of the error
 made.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Linear
 regression](../category/LinearRegression.html).
@@ -226,17 +226,17 @@ regression](../category/LinearRegression.html).
 regression](../category/LinearRegression.html).
 for pages similar to this one at [Category: Linear
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Interpreting coefficients in a linear
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Linear
 regression](../category/LinearRegression.html).

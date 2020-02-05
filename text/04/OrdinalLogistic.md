@@ -19,10 +19,10 @@ in a recent journal article with full free text on the web.
 **Sample size and power estimation for studies with health related
 quality of life outcomes: a comparison of four methods using the
 SF-36.** Walters SJ. Health Qual Life Outcomes 2004: 2(1); 26.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15161494&dopt=Abstract)
-[\[Abstract\]](http://www.hqlo.com/content/2/1/26/abstract) [\[Full
-text\]](http://www.hqlo.com/content/2/1/26)
-[\[PDF\]](http://www.hqlo.com/content/pdf/1477-7525-2-26.pdf)
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15161494&dopt=Abstract)
+[Abstract]](http://www.hqlo.com/content/2/1/26/abstract) [Full
+text]](http://www.hqlo.com/content/2/1/26)
+[PDF]](http://www.hqlo.com/content/pdf/1477-7525-2-26.pdf)
 
 If your data is normally distributed, then the classic formulas for
 sample size work just fine.
@@ -30,7 +30,7 @@ sample size work just fine.
 ![ordinal01.gif not found.](../../../web/images/04/OrdinalLogistic01.png)
 
 If your data is continuous, but non-normal, then the Mann-Whitney test
-is a good choice. Define the effect size, P, as P\[Y\>X\], where Y and X
+is a good choice. Define the effect size, P, as P[Y>X], where Y and X
 are randomly selected values from the treatment and control groups. The
 formula for the sample size is
 
@@ -54,11 +54,11 @@ partitions you choose, you still end up with the same odds ratio.
 
 If you have a set of control probabilities, it is easy to see what the
 treatment probabilities will be under the proportional odds assumption.
-Let\'s start with the probabilities listed below.
+Let's start with the probabilities listed below.
 
 ![ordinal03.gif not found.](../../../web/images/04/OrdinalLogistic03.png)
 
-Compute the cumulative probabilities, that is,  the probability of A,
+Compute the cumulative probabilities, that is,   the probability of A,
 then A/B, then A/B/C, and then A/B/C/D. The last of these has to equal
 1.00.
 
@@ -67,7 +67,7 @@ then A/B, then A/B/C, and then A/B/C/D. The last of these has to equal
 Now compute the cumulative odds, which is just the cumulative
 probability divided by its complement. For example, in column C, the
 cumulative probability is 0.8. The cumulative odds would be 0.8/0.2 =
-4.0. You won\'t be able to compute an odds for the last column.
+4.0. You won't be able to compute an odds for the last column.
 
 ![ordinal05.gif not found.](../../../web/images/04/OrdinalLogistic05.png)
 
@@ -85,7 +85,7 @@ probabilities.
 
 ![ordinal08.gif not found.](../../../web/images/04/OrdinalLogistic08.png)
 
-Here\'s what the calculations would look like if the odds ratio was 0.33
+Here's what the calculations would look like if the odds ratio was 0.33
 rather than 2.0.
 
 ![ordinal09.gif not found.](../../../web/images/04/OrdinalLogistic09.png)
@@ -96,7 +96,7 @@ The formula for sample size with ordinal logistic regression is
 
 ![ordinal13.gif not found.](../../../web/images/04/OrdinalLogistic12.png)
 
-Let\'s look at all three calculations at the same time. First, let\'s
+Let's look at all three calculations at the same time. First, let's
 assume that categories A through D can be represented by the numbers 0
 through 3. With probabilities of 25%, 25%, 30%, and 20% for the control
 group and 40%, 27%, 22%, and 11% for the treatment group, you would have
@@ -121,10 +121,10 @@ calculations for the ordinal logistic regression
 model](../00files/PowerForProportionalOddsModel.xls). It is not
 thoroughly tested, so use it at your own risk.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
@@ -132,17 +132,17 @@ justification](../category/SampleSizeJustification.html).
 justification](../category/SampleSizeJustification.html).
 this one at [Category: Sample size
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Sample size for an ordinal outcome
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).

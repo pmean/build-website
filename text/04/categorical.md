@@ -19,10 +19,10 @@ coefficients for categorical variables. Just like in a linear regression
 model, the best way to incorporate categorical variables is to use a 0-1
 coding.
 
-Let\'s start with some data that listed survival outcomes on the
+Let's start with some data that listed survival outcomes on the
 Titanic. That ship was struck by an iceberg and 863 passengers died out
 of a total of 1,313. This happened during an era where there was a
-strong belief in \"women and children\" first.
+strong belief in "women and children" first.
 
 ![logistic1.gif not found.](../../../web/images/04/categorical01.png)
 
@@ -36,9 +36,9 @@ number who survived (142) was about one-fifth the number who died (709).
 
 The odds ratio is 0.1, and we are very confident that this odds ratio is
 less than one, because the confidence interval goes up to only 0.13.
-Let\'s analyze this data by creating an indicator variable for sex.
+Let's analyze this data by creating an indicator variable for sex.
 
-In SPSS, you would do this by selecting TRANSFORM \| RECODE from the
+In SPSS, you would do this by selecting TRANSFORM | RECODE from the
 menu
 
 ![logistic3.gif not found.](../../../web/images/04/categorical03.png)
@@ -48,7 +48,7 @@ Then click on the OLD AND NEW VALUES button.
 ![logistic4.gif not found.](../../../web/images/04/categorical04.png)
 
 Here, I use the codes of 0 for female and 1 for male. To run a logistic
-regression in SPSS, select ANALYZE \| REGRESSION \| BINARY LOGISTIC from
+regression in SPSS, select ANALYZE | REGRESSION | BINARY LOGISTIC from
 the menu.
 
 ![logistic06.gif not found.](../../../web/images/04/categorical05.png)
@@ -62,7 +62,7 @@ then on the OK button. Here is what the output looks like:
 
 ![logistic08.gif not found.](../../../web/images/04/categorical07.png)
 
-Let\'s start with the CONSTANT row of the data. This has an
+Let's start with the CONSTANT row of the data. This has an
 interpretation similar to the intercept in the linear regression model.
 the B column represents the estimated log odds when SexMale=0. Above,
 you saw that the odds for dying were 2 to 1 against for females, and the
@@ -108,7 +108,7 @@ levels
 -   2nd,
 -   3rd.
 
-Here\'s a crosstabulation of survival versus passenger class.
+Here's a crosstabulation of survival versus passenger class.
 
 ![logistic5.gif not found.](../../../web/images/04/categorical11.png)
 
@@ -132,7 +132,7 @@ compared back to first class, then select FIRST for reference category.
 
 ![logistic13.gif not found.](../../../web/images/04/categorical13.png)
 
- This produces the following output:
+  This produces the following output:
 
 ![logistic14.gif not found.](../../../web/images/04/categorical14.png)
 
@@ -146,15 +146,15 @@ odds of 1.496 to 1 against dying for first class.
 Notice that the numbers in parentheses (pclass(1) and pclass(2)) do not
 necessarily correspond to first and second classes. It depends on how
 SPSS chooses the indicator variables. How did I know how to interpret
-the indicator variables and the odds ratios? I wouldn\'t have known how
-to do this if I hadn\'t computed a crosstabulation earlier. It is very
+the indicator variables and the odds ratios? I wouldn't have known how
+to do this if I hadn't computed a crosstabulation earlier. It is very
 important to do a few simple crosstabulations before you run a logistic
 regression model, because it helps you orient yourself to the data.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).
@@ -162,17 +162,17 @@ regression](../category/LogisticRegression.html).
 regression](../category/LogisticRegression.html).
 for pages similar to this one at [Category: Logistic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Categorical variables in a logistic
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).

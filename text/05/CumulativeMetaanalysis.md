@@ -15,10 +15,10 @@ This figure below, published in
 -   **Erythropoietin, uncertainty principle and cancer related
     anaemia.** Clark O, Adams JR, Bennett CL, Djulbegovic B. BMC Cancer
     2002: 2(1); 23.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2407/2/23)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
+    [Abstract]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
+    [Full text]](http://www.biomedcentral.com/1471-2407/2/23)
+    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
 
 shows cumulative meta-analysis, which is the cumulated effects over time
 of studies in the use of erythropoietin (EPO) to treat cancer related
@@ -54,12 +54,12 @@ easy to include their content on my web pages and in my teaching.
 -   **Changes in clinical trials mandated by the advent of
     meta-analysis.** Chalmers TC, Lau J. Stat Med 1996: 15(12); 1263-8;
     discussion 1269-72.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).
@@ -67,17 +67,17 @@ overviews](../category/SystematicOverviews.html).
 overviews](../category/SystematicOverviews.html).
 for pages similar to this one at [Category: Systematic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Cumulative meta-analysis (March 11,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).

@@ -16,7 +16,7 @@ menu picks for clarity.
 
 **Fit a general linear model**
 
-Select ANALYZE \| GENERAL LINEAR MODEL from the menu. For most simple
+Select ANALYZE | GENERAL LINEAR MODEL from the menu. For most simple
 models, you would then select UNIVARIATE from the menu. Select
 MULTIVARIATE if you wanted to examine the simultaneous effect of more
 than one dependent variable. Select REPEATED MEASURES if you have
@@ -48,7 +48,7 @@ the DESCRPTIVE STATISTICS and PARAMETER ESTIMATES options.
 **Compute residuals.**
 
 Residuals are useful for examining the assumptions of your general
-linear model. Select ANALYZE \| GENERAL LINEAR MODEL \| GLM - GENERAL
+linear model. Select ANALYZE | GENERAL LINEAR MODEL | GLM - GENERAL
 FACTORIAL from the SPSS menu. After you have defined your model, click
 on the SAVE button. You will see the following dialog box:
 
@@ -74,7 +74,7 @@ compute residuals from several competing models.
 
 **Draw a normal probability plot.**
 
-Select GRAPHS \| Q-Q from the SPSS menu. You will see the following
+Select GRAPHS | Q-Q from the SPSS menu. You will see the following
 dialog box:
 
 ![](../../../web/images/02/lin_spss05.gif)
@@ -83,10 +83,10 @@ height="391"}
 Select the continuous variable that you want to examine normality for
 and add it to the VARIABLES box.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Linear
 regression](../category/LinearRegression.html).
@@ -94,17 +94,17 @@ regression](../category/LinearRegression.html).
 regression](../category/LinearRegression.html).
 this one at [Category: Linear
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** SPSS dialog boxes for linear
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Linear
 regression](../category/LinearRegression.html).

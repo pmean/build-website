@@ -22,13 +22,13 @@ long time have a good chance of being around on the date that you go
 looking for them. Those patients who die quickly are unlikely to be
 around on the date that you go looking for them.
 
-Let\'s consider an example with simulated data.
+Let's consider an example with simulated data.
 
 ![neyman01.gif not found.](../../../web/images/04/NeymanBias01.png)
 
 The lines on this graph represent the duration of disease with the left
 endpoint representing the date that the disease was first diagnosed and
-the right endpoint representing the date that  the patient died. The
+the right endpoint representing the date that   the patient died. The
 line segments are ordered from the time of initial diagnosis with
 patients diagnosed in 1999 and 2000 at the bottom of the graph and
 patients diagnosed in 2003 and 2004 at the top of the graph.
@@ -65,44 +65,44 @@ This can make a critical difference for a case control design where you
 have risk factors that are associated not with the disease itself, but
 with mortality. Any risk factor that makes a person die quickly is going
 to be underrepresented among prevalent cases and could lead to a
-spurious finding. This is sometimes called Neyman\'s bias. A good
-description of this appears in a Victor Schoenbach article \"Sources of
-Error\" on the web:
+spurious finding. This is sometimes called Neyman's bias. A good
+description of this appears in a Victor Schoenbach article "Sources of
+Error" on the web:
 
-> *Prevalence-incidence (Neyman) bias*
->
-> *This is Sackett\'s term for, among other things, selective survival.
-> Also included are the phenomena of reversion to normal of signs of
-> previous clinical events (e.g., \"silent\" MI\'s may leave no clear
-> electrocardiographic evidence some time later) and/or risk factor
-> change after a pathophysiologic process has been initiated (e.g., a
-> Type A may change his behavior after an MI), so that studies based on
-> prevalence will produce a distorted picture of what has happened in
-> terms of incidence.* \--
-> [www.epidemiolog.net/evolving/SourcesofError.pdf](http://www.epidemiolog.net/evolving/SourcesofError.pdf)
+*Prevalence-incidence (Neyman) bias*
+
+*This is Sackett's term for, among other things, selective survival.
+Also included are the phenomena of reversion to normal of signs of
+previous clinical events (e.g., "silent" MI's may leave no clear
+electrocardiographic evidence some time later) and/or risk factor
+change after a pathophysiologic process has been initiated (e.g., a
+Type A may change his behavior after an MI), so that studies based on
+prevalence will produce a distorted picture of what has happened in
+terms of incidence.* --
+[www.epidemiolog.net/evolving/SourcesofError.pdf](http://www.epidemiolog.net/evolving/SourcesofError.pdf)
 
 The Phillips article referenced below indicates the particular problems
-that Neyman\'s bias can cause when assessing the prognosis of breast
+that Neyman's bias can cause when assessing the prognosis of breast
 cancer patients. The Sackett article is the basis for some of
-Schoenbach\'s comments above.
+Schoenbach's comments above.
 
 **Further reading**
 
-**\--\> Bias in analytic research.** Sackett DL. J Chronic Dis 1979:
+**--> Bias in analytic research.** Sackett DL. J Chronic Dis 1979:
 32(1-2); 51-63.
 
-**\--\> Breast carcinomas arising in carriers of mutations in BRCA1 or
+**--> Breast carcinomas arising in carriers of mutations in BRCA1 or
 BRCA2: are they prognostically different?** Phillips KA, Andrulis IL,
 Goodwin PJ. J Clin Oncol 1999: 17(11); 3653-63.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10550164&dopt=Abstract)
-[\[Abstract\]](http://www.jco.org/cgi/content/abstract/17/11/3653)
-[\[Full text\]](http://www.jco.org/cgi/content/full/17/11/3653)
-[\[PDF\]](http://www.jco.org/cgi/reprint/17/11/3653.pdf)
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10550164&dopt=Abstract)
+[Abstract]](http://www.jco.org/cgi/content/abstract/17/11/3653)
+[Full text]](http://www.jco.org/cgi/content/full/17/11/3653)
+[PDF]](http://www.jco.org/cgi/reprint/17/11/3653.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 benefit/risk](../category/MeasuringBenefitRisk.html).
@@ -110,17 +110,17 @@ benefit/risk](../category/MeasuringBenefitRisk.html).
 benefit/risk](../category/MeasuringBenefitRisk.html).
 for pages similar to this one at [Category: Measuring
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Neyman bias (December 15, 2004)**.
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 benefit/risk](../category/MeasuringBenefitRisk.html).

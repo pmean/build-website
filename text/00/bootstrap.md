@@ -9,7 +9,7 @@ output: html_document
 ---
 ****[StATS]:** Bootstrap (January 27, 2000)**
 
-*Dear Professor Mean, I\'ve heard a lot about how the bootstrap is going
+*Dear Professor Mean, I've heard a lot about how the bootstrap is going
 to*
 
 Sounds like a classic case of hype to me. These are the same people who
@@ -56,15 +56,15 @@ Now we want to estimate how precise the median of four numbers would be.
 we repeatedly sample with replacement from the four data points to get
 the following results:
 
-Median(3,5,1,1)=2\
-Median(3,9,9,1)=6\
-Median(5,9,9,9)=9\
-Median(5,1,9,5)=5\
-Median(3,9,9,5)=7\
-Median(1,3,9,5)=4\
-Median(3,3,9,3)=3\
-Median(9,5,3,3)=4\
-Median(1,5,3,1)=2\
+Median(3,5,1,1)=2
+Median(3,9,9,1)=6
+Median(5,9,9,9)=9
+Median(5,1,9,5)=5
+Median(3,9,9,5)=7
+Median(1,3,9,5)=4
+Median(3,3,9,3)=3
+Median(9,5,3,3)=4
+Median(1,5,3,1)=2
 Median(9,3,3,9)=6
 
 We have a pseudo-sample of 10 re-estimated medians {2, 6, 9, 5, 7, 4, 3,
@@ -97,7 +97,7 @@ procedures in SPSS have bootstrapping built in. S-plus has a bootstrap()
 function that makes it very easy to run a bootstrap. R has a function,
 sample() that you could use to program a bootstrap.
 
-Here\'s how you would do this in S-plus
+Here's how you would do this in S-plus
 
 `x <- c(1,3,5,9)    bootstrap.medians <- bootstrap(x,median)    hist(bootstrap.medians$replicates,breaks=0.5:9.5)`
 
@@ -107,7 +107,7 @@ and here is how you would do it in R.
 
 **Further reading**
 
-The classic reference for the bootstrap is Bradley Efron\'s book. Pat
+The classic reference for the bootstrap is Bradley Efron's book. Pat
 Kelly has a paper on the web that discusses the bootstrap and other
 simulation methods.
 
@@ -118,10 +118,10 @@ simulation methods.
     Inference Procedures (August
     31, 2007)](../12a/website/ComputerIntensive.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
@@ -129,17 +129,17 @@ data](../category/UnusualData.html).
 data](../category/UnusualData.html).
 for pages similar to this one at [Category: Unusual
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Bootstrap (January 27, 2000)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).

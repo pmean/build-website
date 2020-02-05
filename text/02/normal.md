@@ -8,7 +8,7 @@ tags: Modeling issues
 output: html_document
 ---
 
-*Dear Professor Mean, I have some data that don\'t seem to meet the
+*Dear Professor Mean, I have some data that don't seem to meet the
 assumption of normality. What should I do? -Anxious Abby*
 
 <!---More--->
@@ -20,7 +20,7 @@ Avoid using a test of significance, because it has too much power when
 the assumption of normality is least important and too little power
 when the assumption of normality is most important.
 
-I generally don\'t get too excited about skewness unless it is larger
+I generally don't get too excited about skewness unless it is larger
 than +/- 1 or so.
 
 SPSS defines kurtosis in a truly evil way (remember what I said above
@@ -33,7 +33,7 @@ normality, but it is a very benign deviation. This indicates very
 light tails, as might happen if the data are truncated or sharply
 bounded on both the low end and the high end.
 
-Don\'t let skewness and kurtosis prevent you from also graphically
+Don't let skewness and kurtosis prevent you from also graphically
 examining normality. A histogram and/or a Q-Q plot are very helpful
 here.
 
@@ -62,8 +62,8 @@ using a t-test and the Mann-Whitney-Wilcoxon test, then you can sleep
 well at night. If the two tests differ then you can investigate why
 they differ.
 
-To compute the skewness and kurtosis, select ANALYZE \| DESCRIPTIVE
-STATISTICS \| DESCRIPTIVES from the SPSS menu. Then click on the
+To compute the skewness and kurtosis, select ANALYZE | DESCRIPTIVE
+STATISTICS | DESCRIPTIVES from the SPSS menu. Then click on the
 OPTIONS button.
 
 ![](../../../web/images/02/normal01.gif)

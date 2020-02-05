@@ -49,12 +49,12 @@ sample size for comparing two binomial proportions is
 
 ![cluster7.gif not found.](../../../web/images/04/cluster-0405.png)
 
- Then multiply this sample size by the DEFF to get your adjusted sample
+  Then multiply this sample size by the DEFF to get your adjusted sample
 size.
 
 ![cluster8.gif not found.](../../../web/images/04/cluster-0406.png)
 
- The number of clusters, c, is just
+  The number of clusters, c, is just
 
 ![cluster9.gif not found.](../../../web/images/04/cluster-0407.png)
 
@@ -84,43 +84,43 @@ Child 2000: 82(1); 79-83.
 
 **Statistical and design issues in studies of groups. Accounting for
 within-group correlation.** Cummings P, Koepsell TD. Inj Prev 2002:
-8(1); 6-7. [\[Full
-text\]](http://ip.bmjjournals.com/cgi/content/full/8/1/6)
-[\[PDF\]](http://ip.bmjjournals.com/cgi/reprint/8/1/6.pdf)
+8(1); 6-7. [Full
+text]](http://ip.bmjjournals.com/cgi/content/full/8/1/6)
+[PDF]](http://ip.bmjjournals.com/cgi/reprint/8/1/6.pdf)
 
 **Simple sample size calculation for cluster-randomized trials.** R. J.
 Hayes, S. Bennett. Int J Epidemiol 1999: 28(2); 319-26.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10342698&dopt=Abstract)
-[\[Abstract\]](http://ije.oupjournals.org/cgi/content/abstract/28/2/319)
-[\[PDF\]](http://ije.oupjournals.org/cgi/reprint/28/2/319.pdf)
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10342698&dopt=Abstract)
+[Abstract]](http://ije.oupjournals.org/cgi/content/abstract/28/2/319)
+[PDF]](http://ije.oupjournals.org/cgi/reprint/28/2/319.pdf)
 
 **Sample size formulae for intervention studies with the cluster as unit
 of randomization.** Hsieh FY. Stat Med 1988: 7(11); 1195-201.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=3201045&dopt=Abstract)
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=3201045&dopt=Abstract)
 
 **[Sample Size and Design Effect: Introduction and Review
-\[PDF\]](http://http://www.amstat.org/sections/srms/January2003Newsletter.pdf)**.
+[PDF]](http://http://www.amstat.org/sections/srms/January2003Newsletter.pdf)**.
 Shackman G, Newsletter of the Survey Research Methods Section, January
 2003, page 8. Accessed on 2003-05-08.
 www.amstat.org/sections/srms/January2003Newsletter.pdf
 
 **[Sample size and design effect
-\[PDF\]](http://www.albany.edu/~areilly/albany_asa/confweb01/abstract/Download/shackman.pdf)**.
+[PDF]](http://www.albany.edu/~areilly/albany_asa/confweb01/abstract/Download/shackman.pdf)**.
 Shackman G, Albany Chapter of the American Statistical Association 2001
 conference. Accessed on 2003-05-08.
-www.albany.edu/\~areilly/albany\_asa/confweb01/abstract/Download/shackman.pdf
+www.albany.edu/~areilly/albany_asa/confweb01/abstract/Download/shackman.pdf
 
 **Additional links:**
 
 -   [ije.oupjournals.org/cgi/reprint/28/2/319.pdf](http://ije.oupjournals.org/cgi/reprint/28/2/319.pdf)
--   [www-users.york.ac.uk/\~mb55/clust/bupa.htm](http://www-users.york.ac.uk/~mb55/clust/bupa.htm)
+-   [www-users.york.ac.uk/~mb55/clust/bupa.htm](http://www-users.york.ac.uk/~mb55/clust/bupa.htm)
 -   [www.amia.org/pubs/symposia/D200657.PDF](http://www.amia.org/pubs/symposia/D200657.PDF)
 -   [arjournals.annualreviews.org/doi/abs/10.1146/annurev.publhealth.21.1.147](http://arjournals.annualreviews.org/doi/abs/10.1146/annurev.publhealth.21.1.147)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
@@ -128,17 +128,17 @@ justification](../category/SampleSizeJustification.html).
 justification](../category/SampleSizeJustification.html).
 this one at [Category: Sample size
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Sample size for cluster randomized trials
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).

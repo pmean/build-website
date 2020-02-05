@@ -27,7 +27,7 @@ kilograms, then you will be estimating a relative change in odds per
 gram change in weight, which is often so small that it is difficult to
 make sense out of it.
 
-Here\'s an example computed from the bf.sav file that I use in several
+Here's an example computed from the bf.sav file that I use in several
 of my training classes:
 
 ![LogisticScaling1.gif not found.](../../../web/images/05/ContinuousVariables01.png)
@@ -58,10 +58,10 @@ would be to take the log odds ratio (0.002) and mulitply that by 1,000
 and then exponentiate the result. Even then, you would have considerable
 rounding error because of the way SPSS displays the log odds ratio.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).
@@ -69,17 +69,17 @@ regression](../category/LogisticRegression.html).
 regression](../category/LogisticRegression.html).
 for pages similar to this one at [Category: Logistic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Continuous variables in a logistic
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).

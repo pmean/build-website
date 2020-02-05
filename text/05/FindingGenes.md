@@ -21,10 +21,10 @@ This is the data set used in the publication
 -   **Database of mRNA gene expression profiles of multiple human
     organs.** Son CG, Bilke S, Davis S, Greer BT, Wei JS, Whiteford
     CC, Chen QR, Cenacchi N, Khan J. Genome Res 2005: 15(3); 443-50.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15741514&dopt=Abstract)
-    [\[Abstract\]](http://www.genome.org/cgi/content/abstract/15/3/443)
-    [\[Full text\]](http://www.genome.org/cgi/content/full/15/3/443)
-    [\[PDF\]](http://www.genome.org/cgi/reprint/15/3/443.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15741514&dopt=Abstract)
+    [Abstract]](http://www.genome.org/cgi/content/abstract/15/3/443)
+    [Full text]](http://www.genome.org/cgi/content/full/15/3/443)
+    [PDF]](http://www.genome.org/cgi/reprint/15/3/443.pdf)
 
 This data set is:
 
@@ -69,11 +69,11 @@ A more detailed description of SOURCE appears in
     Binkley G, Jin H, Matese JC, Hernandez-Boussard T, Rees CA, Cherry
     JM, Botstein D, Brown PO, Alizadeh AA. Nucleic Acids Res 2003:
     31(1); 219-23.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12519986&dopt=Abstract)
-    [\[Abstract\]](http://nar.oxfordjournals.org/cgi/content/abstract/31/1/219)
-    [\[Full
-    text\]](http://nar.oxfordjournals.org/cgi/content/full/31/1/219)
-    [\[PDF\]](http://nar.oxfordjournals.org/cgi/reprint/31/1/219.pdf)
+    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12519986&dopt=Abstract)
+    [Abstract]](http://nar.oxfordjournals.org/cgi/content/abstract/31/1/219)
+    [Full
+    text]](http://nar.oxfordjournals.org/cgi/content/full/31/1/219)
+    [PDF]](http://nar.oxfordjournals.org/cgi/reprint/31/1/219.pdf)
 
 Taking the top gene on the list (462333), I ran a search:
 
@@ -81,19 +81,19 @@ Taking the top gene on the list (462333), I ran a search:
 
 and got a lengthy description of this gene. It is WD repeat domain
 51A, or WDR51A. It has UniGene Cluster name Hs.476306 and also goes by
-the name NM\_015426 (I think this is the GenBank name, but I am not
+the name NM_015426 (I think this is the GenBank name, but I am not
 100% sure).
 
 The information also listed the normalized expression distribution for
 this gene:
 
 1.  pluripotent cell line derived from blastocyst inner cell mass
-2.  mammary\_gland
+2.  mammary_gland
 3.  thymus
 4.  human embryonic stem cells
 5.  thyroid
 6.  placenta
-7.  bone\_marrow
+7.  bone_marrow
 8.  ovary
 9.  stomach
 10. colon
@@ -111,7 +111,7 @@ have to put each CloneID on a separate line with no leading blanks.
 
 ![FindingGenes02.jpg not found.](../../../web/images/05/FindingGenes02.png)
 
-Here\'s a portion of the text file that this software produced
+Here's a portion of the text file that this software produced
 
 ![FindingGenes03.jpg not found.](../../../web/images/05/FindingGenes03.png)
 

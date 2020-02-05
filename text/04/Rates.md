@@ -10,7 +10,7 @@ output: html_document
 **[StATS]: Rates versus proportions (created
 2004-09-15)**.
 
-Many people use the words \"rates\" and \"proportions\" interchangeably,
+Many people use the words "rates" and "proportions" interchangeably,
 but there is an important distinction that I draw.
 
 A proportion represents a situation where the numerator and denominator
@@ -18,7 +18,7 @@ both represent counts, and the numerator is a subset of the denominator.
 For example, the numerator is the number of low birth weights and the
 denominator is the number of all births. Proportions are tested using
 binomial methods. In particular, in a before and after design, you would
-get a two by two table and can use a Chi-square test or Fisher\'s Exact
+get a two by two table and can use a Chi-square test or Fisher's Exact
 test.
 
 Rates represent a situation where the numerator is a count, but the
@@ -36,10 +36,10 @@ example of a rate.
 In proportions where the numerator is very much smaller than the
 denominator, the tests using Poisson methods are good and useful
 approximations to tests based on binomial methods. That may be one
-reason why people will often use \"rate\" and \"proportion\"
+reason why people will often use "rate" and "proportion"
 interchangeably.
 
-Here\'s a conceptual framework for the comparison of two rates
+Here's a conceptual framework for the comparison of two rates
 
 ![rate03.gif not found.](../../../web/images/04/Rates01.png)
 
@@ -48,13 +48,13 @@ interval would look something like
 
 ![rate04.gif not found.](../../../web/images/04/Rates02.png)
 
-It\'s a bit surprising, perhaps, but the denominators of the two rates
+It's a bit surprising, perhaps, but the denominators of the two rates
 play no part in determining the variability of the confidence interval.
 Accumulating 100 patient years of data and counting 20 events is no
 different than accumulating 100,000 patient years of data and counting
 20 events.
 
-Here\'s a conceptual framework for the comparison of two proportions:
+Here's a conceptual framework for the comparison of two proportions:
 
 ![rate01.gif not found.](../../../web/images/04/Rates03.png)
 
@@ -73,10 +73,10 @@ ratio is the best way to compare two proportions. It is interesting,
 though, to see the similarities and differences between the two
 approaches.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).
@@ -84,17 +84,17 @@ intervals](../category/ConfidenceIntervals.html).
 intervals](../category/ConfidenceIntervals.html).
 for pages similar to this one at [Category: Confidence
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Rates versus proportions (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).

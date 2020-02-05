@@ -11,161 +11,161 @@ output: html_document
 (created January 28, 2000)**
 
 *Dear Professor Mean, I need to export the output from SPSS and use some
-of it in my word processing file. What is the best way to do this? \--
+of it in my word processing file. What is the best way to do this? --
 Manic Marsha*
 
 Dear Manic,
 
-> You can export both graphs and tables from SPSS and use them in other
-> programs, such as word processing and presentation software. You
-> export a graph or table by right clicking to bring up a pop-up menu.
-> You have several choices in how to save the file and how to import it
-> into another software program. I have found that exporting graphs in
-> windows metafile format (\*.WMF) and pasting tables as PICTURE works
-> well for me. But I encourage you to experiment with alternatives to
-> see what best meets your needs.
+You can export both graphs and tables from SPSS and use them in other
+programs, such as word processing and presentation software. You
+export a graph or table by right clicking to bring up a pop-up menu.
+You have several choices in how to save the file and how to import it
+into another software program. I have found that exporting graphs in
+windows metafile format (*.WMF) and pasting tables as PICTURE works
+well for me. But I encourage you to experiment with alternatives to
+see what best meets your needs.
 
-> I\'ll show you how to export into Microsoft Word, but the same
-> principles apply for other word processing software, and for other
-> applications like presentation software or even web page editors.
+I'll show you how to export into Microsoft Word, but the same
+principles apply for other word processing software, and for other
+applications like presentation software or even web page editors.
 
 **More details**
 
-> If you want to export a graph, right click on the graph you want to
-> export. Click the arrow button next to the EXPORT field to select
-> CHARTS ONLY. Click on the arrow button next to the FILE TYPE field to
-> select WINDOWS METAFILE (\*.WMF).
+If you want to export a graph, right click on the graph you want to
+export. Click the arrow button next to the EXPORT field to select
+CHARTS ONLY. Click on the arrow button next to the FILE TYPE field to
+select WINDOWS METAFILE (*.WMF).
 
-> The windows metafile format is usually a good choice, because you can
-> change the size of your graph later and still keep your lines and
-> fonts looking smooth. Other formats such as bitmap (\*.BMP), jpeg
-> (\*.JPG), and gif (\*.GIF) and tagged image file (TIF) will degrade
-> into jagged lines if you rescale it later. You might try experimenting
-> with cgm metafile (\*.CGM) or encapsulated postscript (\*.EPS)
-> formats, since these formats also allow you to change the size of your
-> graph easily. If you are creating web pages and you know that you
-> won\'t be changing the size of your graphs, then the gif (\*.GIF)
-> format is a good choice. SPSS even offers you a Macintosh graphics
-> standard (\*.PICT).
+The windows metafile format is usually a good choice, because you can
+change the size of your graph later and still keep your lines and
+fonts looking smooth. Other formats such as bitmap (*.BMP), jpeg
+(*.JPG), and gif (*.GIF) and tagged image file (TIF) will degrade
+into jagged lines if you rescale it later. You might try experimenting
+with cgm metafile (*.CGM) or encapsulated postscript (*.EPS)
+formats, since these formats also allow you to change the size of your
+graph easily. If you are creating web pages and you know that you
+won't be changing the size of your graphs, then the gif (*.GIF)
+format is a good choice. SPSS even offers you a Macintosh graphics
+standard (*.PICT).
 
-> If you want to export a table, right click on the table you want to
-> export. Select COPY from the pop up menu. You may want to experiment
-> with the EDIT \| PASTE SPECIAL menu in your word processing program.
-> If you paste as a PICTURE, you get an attractive table, but you lose
-> the ability to make minor changes like rounding some of your numbers.
+If you want to export a table, right click on the table you want to
+export. Select COPY from the pop up menu. You may want to experiment
+with the EDIT | PASTE SPECIAL menu in your word processing program.
+If you paste as a PICTURE, you get an attractive table, but you lose
+the ability to make minor changes like rounding some of your numbers.
 
 **Exporting graphs**
 
-> Once you create a graph in SPSS, you can export it to a floppy disk or
-> your hard drive. After you have exported your graph, you can use it in
-> other applications like Microsoft Word or PowerPoint.
+Once you create a graph in SPSS, you can export it to a floppy disk or
+your hard drive. After you have exported your graph, you can use it in
+other applications like Microsoft Word or PowerPoint.
 
 ![](../../../web/images/00/export01.gif)
 height="319"}
 
-> To export a graph, right click over one of the graphs you want to
-> export. This will bring up a menu, as shown in the figure above. Click
-> on the EXPORT menu item.
+To export a graph, right click over one of the graphs you want to
+export. This will bring up a menu, as shown in the figure above. Click
+on the EXPORT menu item.
 
 ![](../../../web/images/00/export02.gif)
 height="287"}
 
-> The figure above shows the dialog box that you get. Click the arrow
-> button next to the EXPORT field to select CHARTS ONLY. Click on the
-> arrow button next to the FILE TYPE field to select WINDOWS METAFILE
-> (\*.WMF). The windows metafile format is usually a good choice,
-> because you can change the size of your graph later and still keep
-> your lines and fonts looking smooth. Other formats such as bitmap
-> (\*.BMP), jpeg (\*.JPG), and gif (\*.GIF) and tagged image file (TIF)
-> will degrade into jagged lines if you rescale it later. You might try
-> experimenting with cgm metafile (\*.CGM) or encapsulated postscript
-> (\*.EPS) formats, since these formats also allow you to change the
-> size of your graph easily. If you are creating web pages and you know
-> that you won\'t be changing the size of your graphs, then the gif
-> (\*.GIF) format is a good choice. SPSS even offers you a Macintosh
-> graphics standard (\*.PICT).
+The figure above shows the dialog box that you get. Click the arrow
+button next to the EXPORT field to select CHARTS ONLY. Click on the
+arrow button next to the FILE TYPE field to select WINDOWS METAFILE
+(*.WMF). The windows metafile format is usually a good choice,
+because you can change the size of your graph later and still keep
+your lines and fonts looking smooth. Other formats such as bitmap
+(*.BMP), jpeg (*.JPG), and gif (*.GIF) and tagged image file (TIF)
+will degrade into jagged lines if you rescale it later. You might try
+experimenting with cgm metafile (*.CGM) or encapsulated postscript
+(*.EPS) formats, since these formats also allow you to change the
+size of your graph easily. If you are creating web pages and you know
+that you won't be changing the size of your graphs, then the gif
+(*.GIF) format is a good choice. SPSS even offers you a Macintosh
+graphics standard (*.PICT).
 
-> Click on the FILE PREFIX field to change the file name(s). Make sure
-> that your file names include a drive letter and/or subdirectory that
-> you will easily remember (c:\\My Documents is a good choice). In this
-> example, I am instructing SPSS to store the charts on the floppy disk
-> drive (a:\\) and telling SPSS to use BF\_GR as a file prefix. This
-> prefix tells SPSS to use the name BF\_GR0 for the first chart. If you
-> are exporting a second chart, SPSS will use the name BF\_GR1 for this
-> chart, and so forth.
+Click on the FILE PREFIX field to change the file name(s). Make sure
+that your file names include a drive letter and/or subdirectory that
+you will easily remember (c:/My Documents is a good choice). In this
+example, I am instructing SPSS to store the charts on the floppy disk
+drive (a:/) and telling SPSS to use BF_GR as a file prefix. This
+prefix tells SPSS to use the name BF_GR0 for the first chart. If you
+are exporting a second chart, SPSS will use the name BF_GR1 for this
+chart, and so forth.
 
-> Each software program has a different method for importing graph
-> files. In Microsoft Word, you select INSERT \| PICTURE \| FROM FILE.
+Each software program has a different method for importing graph
+files. In Microsoft Word, you select INSERT | PICTURE | FROM FILE.
 
 ![](../../../web/images/00/export03.gif)
 height="350"}
 
-> Your dialog box should look like the figure above. Click on the arrow
-> button by the LOOK IN field to select the appropriate file location.
-> In this example, I am selecting a file from the floppy drive (a:\\).
-> When you highlight a graph file, Microsoft Word gives you a preview of
-> what your graph looks like. Click on the INSERT button to place this
-> graph in your word processing document.
+Your dialog box should look like the figure above. Click on the arrow
+button by the LOOK IN field to select the appropriate file location.
+In this example, I am selecting a file from the floppy drive (a:/).
+When you highlight a graph file, Microsoft Word gives you a preview of
+what your graph looks like. Click on the INSERT button to place this
+graph in your word processing document.
 
 ![](../../../web/images/00/export04.gif)
 height="320"}
 
-> If you click on the graph itself, Microsoft Word will place
-> \"handlebars\" around the graph. You can grab one of these to make
-> your graph bigger or smaller (as shown in the figure above). If you
-> need to resize your graph, you should always grab from one of the
-> corners. If you grab from the top, bottom, or either side, your text
-> will become short and fat or tall and skinny.
+If you click on the graph itself, Microsoft Word will place
+"handlebars" around the graph. You can grab one of these to make
+your graph bigger or smaller (as shown in the figure above). If you
+need to resize your graph, you should always grab from one of the
+corners. If you grab from the top, bottom, or either side, your text
+will become short and fat or tall and skinny.
 
 **Exporting tables**
 
-> You have several choices for exporting tables. Start by right clicking
-> on the table you want to save.
+You have several choices for exporting tables. Start by right clicking
+on the table you want to save.
 
 ![](../../../web/images/00/export05.gif)
 height="318"}
 
-> You will then see a pop-up menu like the one shown in the figure
-> above. Select COPY from this menu. This places your table on the
-> windows clipboard. You can then paste inside any windows application.
-> In Microsoft Word, you should experiment with the EDIT \| PASTE
-> SPECIAL menu pick.
+You will then see a pop-up menu like the one shown in the figure
+above. Select COPY from this menu. This places your table on the
+windows clipboard. You can then paste inside any windows application.
+In Microsoft Word, you should experiment with the EDIT | PASTE
+SPECIAL menu pick.
 
 ![](../../../web/images/00/export06.gif)
 height="282"}
 
-> This is the dialog box you will see. You have three different ways to
-> paste your SPSS table into Word.
+This is the dialog box you will see. You have three different ways to
+paste your SPSS table into Word.
 
 ![](../../../web/images/00/export07.gif)
 height="239"}
 
-> The PICTURE option will create a graphic image inside Microsoft Word
-> (see above figure). This image looks nice, but it takes up a lot of
-> room and you can\'t modify any of the numbers. I know you didn\'t have
-> any plans to change all your p-values to 0.001, but there are changes
-> like rounding that you can\'t make when you paste in a picture.
+The PICTURE option will create a graphic image inside Microsoft Word
+(see above figure). This image looks nice, but it takes up a lot of
+room and you can't modify any of the numbers. I know you didn't have
+any plans to change all your p-values to 0.001, but there are changes
+like rounding that you can't make when you paste in a picture.
 
 ![](../../../web/images/00/export08.gif)
 height="239"}
 
-> If you paste UNFORMATTED TEXT, you get the raw numbers in your word
-> file with tabs between each number (see figure above). You have to
-> re-align your tabs to get the table looking nice. When you paste
-> unformatted text, you do preserve the option of rounding.
+If you paste UNFORMATTED TEXT, you get the raw numbers in your word
+file with tabs between each number (see figure above). You have to
+re-align your tabs to get the table looking nice. When you paste
+unformatted text, you do preserve the option of rounding.
 
 ![](../../../web/images/00/export09.gif)
 height="239"}
 
-> If you paste FORMATTED TEXT (RTF), you get a formatted table (see
-> figure above). You will probably need to adjust the widths of some of
-> the cells in this table, but like UNFORMATTED TEXT, you can make minor
-> modifications like rounding.
+If you paste FORMATTED TEXT (RTF), you get a formatted table (see
+figure above). You will probably need to adjust the widths of some of
+the cells in this table, but like UNFORMATTED TEXT, you can make minor
+modifications like rounding.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 or [Category: SPSS software](../category/SpssSoftware.html)
@@ -173,17 +173,17 @@ or [Category: SPSS software](../category/SpssSoftware.html)
 or [Category: SPSS software](../category/SpssSoftware.html)
 this one at [Category: Data management](../category/DataManagement.html)
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Exporting SPSS graphs and tables.
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 or [Category: SPSS software](../category/SpssSoftware.html)

@@ -16,7 +16,7 @@ barely noticeable. But when you try to fit too many lines or curves
 together, aliasing can create some false and artificial patterns. I
 wrote a simple program in R to illustrate this.
 
-`co <- c("black","white")   f.g <- function(n) {     par(mar=rep(0,4))     plot(c(-1,1),c(-1,1),type="n",axes=F,xlab=" ",ylab=" ")     d1 <- c(0,1,0,-1)     d2 <- c(-1,0,1,0)     for (i in n:1) {       polygon(d1*(i/n),d2*sqrt(i/n),density=-1,         col=co[1+((n-i) %%    2)],border=NA)     }     text(0.8,0.8,labels=n,cex=1.5)   }      bmp(filename="diamond%03d.bmp",width=60,height=60)      for (i in 1:99) {f.g(i)}      dev.off()`
+`co <- c("black","white")   f.g <- function(n) {      par(mar=rep(0,4))      plot(c(-1,1),c(-1,1),type="n",axes=F,xlab=" ",ylab=" ")      d1 <- c(0,1,0,-1)      d2 <- c(-1,0,1,0)      for (i in n:1) {          polygon(d1*(i/n),d2*sqrt(i/n),density=-1,              col=co[1+((n-i) %%       2)],border=NA)      }      text(0.8,0.8,labels=n,cex=1.5)   }      bmp(filename="diamond%03d.bmp",width=60,height=60)      for (i in 1:99) {f.g(i)}      dev.off()`
 
 This program creates a series of diamonds superimposed on one another
 alternating in color between black and white. I placed 99 of these
@@ -69,16 +69,16 @@ of shading at the edges.
 
 **References on moire**
 
--   [www.sandlotscience.com/Moire/Moire\_frm.htm](http://www.sandlotscience.com/Moire/Moire_frm.htm)
+-   [www.sandlotscience.com/Moire/Moire_frm.htm](http://www.sandlotscience.com/Moire/Moire_frm.htm)
 -   [lite.bu.edu/lite1/moire/](http://lite.bu.edu/lite1/moire/)
 -   [micro.magnet.fsu.edu/primer/java/scienceopticsu/moire/moire.html](http://micro.magnet.fsu.edu/primer/java/scienceopticsu/moire/moire.html)
 -   [diwww.epfl.ch/w3lsp/books/moire/](http://diwww.epfl.ch/w3lsp/books/moire/)
--   [www.wfu.edu/\~matthews/misc/DigPhotog/alias/](http://www.wfu.edu/~matthews/misc/DigPhotog/alias/)
+-   [www.wfu.edu/~matthews/misc/DigPhotog/alias/](http://www.wfu.edu/~matthews/misc/DigPhotog/alias/)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
@@ -86,17 +86,17 @@ computing](../category/StatisticalComputing.html).
 computing](../category/StatisticalComputing.html).
 this one at [Category: Statistical
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Aliasing patterns (July 19, 2004)**.
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).

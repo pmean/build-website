@@ -12,11 +12,11 @@ analysis (October 11, 2002)**
 
 There are three steps in a typical survival analysis.
 
-> Know how much data you have
->
-> Graph the survival function
->
-> Compare the survival times
+Know how much data you have
+
+Graph the survival function
+
+Compare the survival times
 
 **Know how much data you have**
 
@@ -110,10 +110,10 @@ The risk of relapse is 2.5 times greater in the group without
 chemotherapy. Although this ratio is large, it does not quite achieve
 statistical significance due to the small sample size.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survival
 analysis](../category/SurvivalAnalysis.html).
@@ -121,17 +121,17 @@ analysis](../category/SurvivalAnalysis.html).
 analysis](../category/SurvivalAnalysis.html).
 for pages similar to this one at [Category: Survival
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ******[StATS]:**** Steps in a typical survival data
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survival
 analysis](../category/SurvivalAnalysis.html).

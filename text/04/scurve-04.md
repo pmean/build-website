@@ -61,10 +61,10 @@ Negative values for a, of course, would shift the curve to the left.
 **Selecting starting values**
 
 When you fit an S shaped curve to your data, you need to provide some
-reasonable starting values. They don\'t have to be perfect, but they do
-have to be reasonable. Here\'s some general guidance.
+reasonable starting values. They don't have to be perfect, but they do
+have to be reasonable. Here's some general guidance.
 
-The parameter \"b\" represents how spread out the data. When b=1, the
+The parameter "b" represents how spread out the data. When b=1, the
 middle 50% of the curve (0.25 to 0.75) will span a little more than 2
 units on the x-axis. So divide 2 by the estimated span of the middle 50%
 in your graph and use that as a starting value for b. Also keep in mind
@@ -82,19 +82,19 @@ value for a.
 
 **First example**
 
-Here\'s some data from a normalized assay of competitive binding. X is
+Here's some data from a normalized assay of competitive binding. X is
 the concentration in log10 units, and yn is the normalized signal.
 
->   ------ ------
->     x      yn
->    -6.0   0.02
->    -6.3   0.10
->    -6.6   0.29
->    -7.0   0.20
->    -7.3   0.80
->    -7.6   1.00
->   ------ ------
->
+  ------ ------
+    x      yn
+   -6.0   0.02
+   -6.3   0.10
+   -6.6   0.29
+   -7.0   0.20
+   -7.3   0.80
+   -7.6   1.00
+  ------ ------
+
 Here is a graph of the data.
 
 ![](../../../web/images/04/scurve-0409.gif)
@@ -106,7 +106,7 @@ starting value for a.
 
 **SPSS dialog boxes**
 
-Select ANALYZE \| REGRESSION \| NONLINEAR from the SPSS menu.
+Select ANALYZE | REGRESSION | NONLINEAR from the SPSS menu.
 
 ![](../../../web/images/04/scurve-0410.gif)
 
@@ -118,8 +118,8 @@ Specify b and a as parameters with starting values of 10 and -72,
 respectively. Then click on the CONTINUE button.
 
 Now include yn as the dependent variable and specify the formula for the
-equation as\
-1 / (1 + exp (b \* x - a)).
+equation as
+1 / (1 + exp (b * x - a)).
 
 ![](../../../web/images/04/scurve-0412.gif)
 
@@ -128,7 +128,7 @@ Then click on the OK button.
 **SPSS output**
 
 This produces a lot of output. Since the output is so large, you need to
-double click on it to get a scroll bar. Here\'s the top third of the
+double click on it to get a scroll bar. Here's the top third of the
 output.
 
 ![](../../../web/images/04/scurve-0413.gif)
@@ -143,7 +143,7 @@ the model improves.
 
 The remaining iterations appear in the middle third of the screen. You
 should examine the reason why iterations stopped. Here they stopped
-because the improvements in Residual SS became too small\--at the last
+because the improvements in Residual SS became too small--at the last
 step, for example, the residual SS improved only in the ninth
 significant digit. This reason for stopping is usually a good sign.
 
@@ -176,7 +176,7 @@ of the predicted values shows the general shape of the S-shaped curve.
 Notice that this curve badly misses on two of the values (x = -6.3, and
 x = -6.6), but comes very close to the remaining four data values. There
 is no way, of course to get an S-shaped curve to come close to all the
-data when the data has an extra \"hump\" so perhaps this is as good as
+data when the data has an extra "hump" so perhaps this is as good as
 we can get.
 
 **Poorly specified starting values**
@@ -194,7 +194,7 @@ rising or falling.
 Notice how the values for b and a hop madly about. This is a sign of bad
 starting values, but it looks like SPSS finally settled down on
 reasonable values for a and b. Unfortunately, when you plot the
-predicted values, you see an S-shaped curve that doesn\'t come anywhere
+predicted values, you see an S-shaped curve that doesn't come anywhere
 close to your data.
 
 ![](../../../web/images/04/scurve-0418.gif)
@@ -204,7 +204,7 @@ most of the interesting portions extending off well beyond the range of
 the data.
 
 As another example of what can go wrong, suppose I naively set the
-starting value for a to 0. Here\'s what the output looks like.
+starting value for a to 0. Here's what the output looks like.
 
 ![](../../../web/images/04/scurve-0419.gif)
 
@@ -233,35 +233,35 @@ individually with any precision.
 There are two ways to fix this. First, some (but not all) nonlinear
 regression models work better if you center the independent variable(s).
 You center a variable by subtracting its mean, so that the center of the
-data is now around zero. Select ANALYZE \| DESCRIPTIVE STATISTICS \|
+data is now around zero. Select ANALYZE | DESCRIPTIVE STATISTICS |
 DESCRIPTIVES to find out that the mean of X is -6.8. Then select
-TRANSFORM \| COMPUTE from the SPSS menu to create a new variable, XC,
+TRANSFORM | COMPUTE from the SPSS menu to create a new variable, XC,
 which is X - (-6.8).
 
 ![](../../../web/images/04/scurve-0421.gif)
 
-Here\'s what the centered data looks like.
+Here's what the centered data looks like.
 
 ![](../../../web/images/04/scurve-0422.gif)
 
 Fit the same nonlinear regression model, with two changes:
 
-1.  The variable \"xc\" replaces x, and
-2.  The starting value for a is now -4 = (-7.2 - (-6.8)) \* 10.
+1.  The variable "xc" replaces x, and
+2.  The starting value for a is now -4 = (-7.2 - (-6.8)) * 10.
 
 Here are the results.
 
 ![](../../../web/images/04/scurve-0423.gif)
 
-There is some improvement\--the correlation is down to -0.9081 from
+There is some improvement--the correlation is down to -0.9081 from
 -0.9998, but the confidence intervals are still rather wide.
 
 The estimate of the IC50 is about the same, as long as we remember to
-add back the mean\
+add back the mean
 (-6.8 + (-2.71) / 7.92 = -7.1).
 
 A second approach is to reparameterize the nonlinear formula. By
-\"reparameterize\", I mean provide a formula that looks a bit different
+"reparameterize", I mean provide a formula that looks a bit different
 because some of the parameters have been re-arranged. Here is a
 reparameterization that is worth considering:
 
@@ -289,7 +289,7 @@ themselves subject to random error, so it might be interesting to allow
 the nonlinear regression model to set the upper and lower limits rather
 than arbitrarily fixing them at the control levels.
 
-Here\'s a plot of the data with the positive and negative controls. In
+Here's a plot of the data with the positive and negative controls. In
 theory, the controls represent the limits at plus or minus infinity, but
 I just set them well outside the range of the remaining data.
 
@@ -311,17 +311,17 @@ The parameter c represents the floor, the minimum value of the S-shaped
 curve, and the curve rises to a maximum value of c+d. For starting
 values, we can set c to the positive control level (0.2) and if we set
 c+d to the negative control level (2.0) then a starting value of 1.8 for
-d seems reasonable.  Here\'s the output.
+d seems reasonable.   Here's the output.
 
 ![](../../../web/images/04/scurve-0428.gif)
 
 The estimated floor and ceiling levels are a bit surprising. The floor
-(c) is 0.4, which is larger than the positive control  and the ceiling
+(c) is 0.4, which is larger than the positive control   and the ceiling
 (c+d) is 2.3, which is larger than the negative control. This model has
 an IC50 which is slightly smaller (-7.2) than what the earlier model had
 computed (-7.1).
 
-Here\'s a graph of the fitted curve.
+Here's a graph of the fitted curve.
 
 ![](../../../web/images/04/scurve-0429.gif)
 
@@ -335,24 +335,24 @@ Often in competitive binding assays, we want to compare the IC50 for
 different proteins. Using nonlinear regression, we can fit a pair of
 parallel S-shaped curves to each protein.
 
->   ------ ---- ------
->     x     in    y
->    -6.0   0    0.02
->    -6.3   0    0.10
->    -6.6   0    0.29
->    -7.0   0    0.20
->    -7.3   0    0.80
->    -7.6   0    1.00
->    -6.0   1    0.00
->    -6.3   1    0.18
->    -6.6   1    0.33
->    -7.0   1    0.27
->    -7.3   1    1.00
->    -7.6   1    1.00
->   ------ ---- ------
->
+  ------ ---- ------
+    x     in    y
+   -6.0   0    0.02
+   -6.3   0    0.10
+   -6.6   0    0.29
+   -7.0   0    0.20
+   -7.3   0    0.80
+   -7.6   0    1.00
+   -6.0   1    0.00
+   -6.3   1    0.18
+   -6.6   1    0.33
+   -7.0   1    0.27
+   -7.3   1    1.00
+   -7.6   1    1.00
+  ------ ---- ------
+
 The middle column is an indicator variable which equals zero for the
-first protein and one for the second protein. Here\'s a plot of the
+first protein and one for the second protein. Here's a plot of the
 data.
 
 ![](../../../web/images/04/scurve-0430.gif)
@@ -381,14 +381,14 @@ Here is a graph of the data.
 ![](../../../web/images/04/scurve-0433.gif)
 
 There is a slight separation between the two S-shaped curves. Notice
-also that both proteins show a small \"hump\" at x =-6.6 and -6.3 which
+also that both proteins show a small "hump" at x =-6.6 and -6.3 which
 neither S-shaped curve can fit well. This should be investigated
 further.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Nonlinear
 regression](../category/NonlinearRegression.html).
@@ -396,17 +396,17 @@ regression](../category/NonlinearRegression.html).
 regression](../category/NonlinearRegression.html).
 this one at [Category: Nonlinear
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** S-shaped curves (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Nonlinear
 regression](../category/NonlinearRegression.html).

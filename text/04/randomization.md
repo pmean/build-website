@@ -22,35 +22,35 @@ this data.
 
 Some people might consider this [ordinal
 data](www.childrensmercy.org/definitions/ordinal.htm) and would
-discourage the computation of averages. I didn\'t see this as a serious
+discourage the computation of averages. I didn't see this as a serious
 issue because computing an average of ordinal data never seemed like a
 terrible thing to me. After all, my Grade Point Average from college is
 clearly an average of ordinal data with A=4, B=3, C=2, D=1, and F=0.
 
-So the first thing to try is a simple t-test. Here\'s how you would
+So the first thing to try is a simple t-test. Here's how you would
 enter the data and run a t-test in S-plus or R.
 
-`old <- rep(-1:0,c(3,5))   new <- rep(0:3,c(1,3,6,2))   old      [1] -1 -1 -1 0 0 0 0 0      new      [1] 0 1 1 1 2 2 2 2 2 2 3 3      mean(old)      [1] -0.375      mean(new)      [1] 1.75       t.test(old,new)      Standard Two-Sample t-Test      data: old and new    t = -6.2075, df = 18, p-value = 0    alternative hypothesis: difference in means is not equal to 0    95 percent confidence interval:   -2.844201 -1.405799    sample estimates:   mean of x mean of y    -0.375 1.75`
+`old <- rep(-1:0,c(3,5))   new <- rep(0:3,c(1,3,6,2))   old      [1] -1 -1 -1 0 0 0 0 0      new      [1] 0 1 1 1 2 2 2 2 2 2 3 3      mean(old)      [1] -0.375      mean(new)      [1] 1.75        t.test(old,new)      Standard Two-Sample t-Test      data: old and new    t = -6.2075, df = 18, p-value = 0    alternative hypothesis: difference in means is not equal to 0    95 percent confidence interval:   -2.844201 -1.405799    sample estimates:   mean of x mean of y    -0.375 1.75`
 
 Even though I did not have a problem with computing averages, I was a
 bit nervous about the t-test. This data is clearly non-normal, and with
-the sample sizes as small as they are, I\'d be worried about whether the
+the sample sizes as small as they are, I'd be worried about whether the
 t-test would be valid. An interesting alternative is the randomization
 test.
 
 The randomization test is a very useful test, but I had never had a
 chance to run one before. The concept is quite intriguing. The
 difference between the two groups is 2.125 (1.75 - (-0.375)) but you are
-unsure how much sampling error there is in this estimate. You don\'t
+unsure how much sampling error there is in this estimate. You don't
 want to rely on the traditional formula for standard error. So you take
 the twenty value and mix them up randomly and compute a new average
 difference.
 
 What a second, if you mix up the data and recompute a mean difference,
-isn\'t what you are getting pure noise? Precisely, and if we do this
+isn't what you are getting pure noise? Precisely, and if we do this
 repeatedly, we will get a good handle on how noisy this data is.
 
-Here\'s an Excel sheet that shows the original data and 25 random
+Here's an Excel sheet that shows the original data and 25 random
 shuffles of the data.
 
 ![randomization1.gif not found.](../../../web/images/04/randomization01.png)
@@ -72,22 +72,22 @@ difficult to use traditional tests.
 
 Phillip Good is a strong proponent for the use of randomization tests.
 His book, Resampling Methods. A Practical Guide to Data Analysis
-[\[BookFinder4U
-link\]](http://www.bookfinder4u.com/detail/0817642439.html), is an
+[BookFinder4U
+link]](http://www.bookfinder4u.com/detail/0817642439.html), is an
 excellent introduction to this area.
 
 **Further reading**
 
-> <http://www.uvm.edu/~dhowell/StatPages/Resampling/RandomizationTests.html>
->
-> <http://www.okstate.edu/artsci/botany/ordinate/permute.htm>
->
-> <http://davidmlane.com/hyperstat/B163479.html>
+<http://www.uvm.edu/~dhowell/StatPages/Resampling/RandomizationTests.html>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+<http://www.okstate.edu/artsci/botany/ordinate/permute.htm>
+
+<http://davidmlane.com/hyperstat/B163479.html>
+
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
@@ -95,17 +95,17 @@ data](../category/UnusualData.html).
 data](../category/UnusualData.html).
 for pages similar to this one at [Category: Unusual
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Randomization test (July 14, 2004)**.
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
