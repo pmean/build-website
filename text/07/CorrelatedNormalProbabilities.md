@@ -15,9 +15,9 @@ independent normal random variables. I am simplifying the problem a bit,
 but it essentially asked a question that was comparable to the
 following:
 
-> *Suppose you have three independent standard normal random variables:
-> A, B, and C. What is the probability that A is smaller than B by one
-> or more units and A is also smaller than B by one or more units.*
+*Suppose you have three independent standard normal random variables:
+A, B, and C. What is the probability that A is smaller than B by one
+or more units and A is also smaller than B by one or more units.*
 
 This is equivalent to calculating the following probability.
 
@@ -67,13 +67,13 @@ with mean 0 and variance 2 would be less than -1.
     pnorm(-1,mean=0,sd=sqrt(2))^2
 
 The moral of this story is that when two events are correlated, you
-can\'t just get a bivariate probability by multiplying the univariate
+can't just get a bivariate probability by multiplying the univariate
 probabilities.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).
@@ -81,17 +81,17 @@ concepts](../category/ProbabilityConcepts.html).
 concepts](../category/ProbabilityConcepts.html).
 for pages similar to this one at [Category: Probability
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Calculating probabilities involving
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).

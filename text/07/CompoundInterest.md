@@ -59,7 +59,7 @@ How good is this approximation? The constant e is 2.718 and the ratio
 
 ![](../../../web/images/07/CompoundInterest07.gif)
 
- For s=0.01, you get
+  For s=0.01, you get
 
 ![](../../../web/images/07/CompoundInterest08.gif)
 
@@ -67,10 +67,10 @@ For s=0.001, you get
 
 ![](../../../web/images/07/CompoundInterest09.gif)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 theory](../category/StatisticalTheory.html).
@@ -78,17 +78,17 @@ theory](../category/StatisticalTheory.html).
 theory](../category/StatisticalTheory.html).
 for pages similar to this one at [Category: Statistical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Compound interest and powers
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 theory](../category/StatisticalTheory.html).

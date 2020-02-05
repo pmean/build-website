@@ -31,8 +31,8 @@ These can be found on page 127 and page 40, respectively of
 
 -   **Statistical Distributions Second Edition.** Merran Evans, Nicholas
     Hastings, Brian Peacock (1993) New York: John Wiley & Sons.
-    [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0471559512.html)
+    [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/0471559512.html)
 
 The Wikipedia entries on [the Poisson
 distribution](http://en.wikipedia.org/wiki/Poisson_distribution) and
@@ -45,7 +45,7 @@ function](http://en.wikipedia.org/wiki/Incomplete_beta_function#Incomplete_beta_
 respectively, and this is, I suspect, another way of deriving the above
 relationships.
 
-\[Update: March 21, 2007\] The relationship between the Poisson and the
+[Update: March 21, 2007] The relationship between the Poisson and the
 Chi-squared random variable is fairly easy to show if you recognize the
 relationship between the Chi-squared distribution and the Gamma
 distribution. The first equation above can be rewritten as
@@ -86,10 +86,10 @@ distribution and this last probability works out directly to equal
 
 ![](../../../web/images/07/CumulativeProbabilities11.gif)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html) or [Category:
@@ -99,17 +99,17 @@ Probability concepts](../category/ProbabilityConcepts.html).
 regression](../category/PoissonRegression.html) or [Category:
 for pages similar to this one at [Category: Poisson
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Formulas for cumulative Poisson and
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html) or [Category:

@@ -45,11 +45,11 @@ distribution, we can still compute a confidence interval.
 Suppose you observe a count of 20 that represents a single observation
 from a Poisson distribution with unknown parameter λ. You want a 95%
 confidence interval for λ. The width of the 95% confidence interval
-would be 1.96\*√20 = 8.8, so the confidence interval would range from
+would be 1.96*√20 = 8.8, so the confidence interval would range from
 11.2 to 28.8.
 
 The normal approximation is reasonable as long as λ is large. Different
-sources quote different values for \"large\", ranging from 5 to 20.
+sources quote different values for "large", ranging from 5 to 20.
 
 **Confidence interval for a rate variable**. Quite often, you are
 interested in computing not a count, but a rate. A rate is simply a
@@ -69,12 +69,12 @@ If you computed a rate R = C/t, that rate would be a good estimate for
 This formula also relies on the normal approximation. Suppose you
 counted 61 events over a seven day period and computed a rate of 61/7 =
 8.7 events per day. The 95% confidence interval would have a width of
-1.96\*√8.7/7 = 2.2. So the confidence interval would range from 6.5 to
+1.96*√8.7/7 = 2.2. So the confidence interval would range from 6.5 to
 10.9.
 
 **Confidence interval for an average of several count variables**. A
 very closely related problem is computing the average of a sample of
-counts. Suppose you collect the following data: C~1~, C~2~, \..., C~n~.
+counts. Suppose you collect the following data: C~1~, C~2~, ..., C~n~.
 
 Suppose that each count is independent and identically distributed
 Poisson variable with a common parameter λ. The sum of those n counts is
@@ -107,7 +107,7 @@ for t, which produces the following equation.
 
 ![](../../../web/images/07/CountData-0706.gif)
 
-In order to calculate t, you need an estimate of R. You don\'t know R,
+In order to calculate t, you need an estimate of R. You don't know R,
 of course, but you probably have a rough idea of how large it would be.
 Suppose you are trying to estimate a rate that is likely to be larger
 than 4 per week, but smaller than 10 per week. You want to estimate this
@@ -147,13 +147,13 @@ Here are some web pages which outline additional details about these and
 other confidence intervals.
 
 -   [www.idready.org/slides/epistats.pdf](http://www.idready.org/slides/epistats.pdf)
--   [seer.cancer.gov/seerstat/WebHelp/Standardized\_Incidence\_Ratio\_and\_Confidence\_Limits.htm](http://seer.cancer.gov/seerstat/WebHelp/Standardized_Incidence_Ratio_and_Confidence_Limits.htm)
+-   [seer.cancer.gov/seerstat/WebHelp/Standardized_Incidence_Ratio_and_Confidence_Limits.htm](http://seer.cancer.gov/seerstat/WebHelp/Standardized_Incidence_Ratio_and_Confidence_Limits.htm)
 -   [www.medicine.mcgill.ca/epidemiology/dendukuri/course668/poisson.pdf](http://www.medicine.mcgill.ca/epidemiology/dendukuri/course668/poisson.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html).
@@ -161,17 +161,17 @@ regression](../category/PoissonRegression.html).
 regression](../category/PoissonRegression.html).
 for pages similar to this one at [Category: Poisson
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Confidence intervals for count data
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html).

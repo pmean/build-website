@@ -52,7 +52,7 @@ patterns over time.
 
 Inadequate tissue is another serious concern. This occurs about 7.5% of
 the time or roughly once in every 13 patients. Notice that no instances
-of inadequate tissue occurred after the changes were made. We can\'t
+of inadequate tissue occurred after the changes were made. We can't
 really estimate the rate very well with this data, but we suspect that
 it is small (less than 2%) and it represents a sudden drop in the rate
 from what we observed prior to the intervention.
@@ -82,13 +82,13 @@ Here are the details on how to construct the control chart for
 hematuria. The table below shows each individual biopsy with an H if the
 biopsy resulted in hematurian and a dash (-) if the biopsy did not.
 
-`      1 2 3 4 5 6 7 8 9 0   [ ] - - - - - H - - - -         [10] H - - - - H - - - -         [20] - - - - - - - - - -         [30] - - - - - - - - - -         [40] - - - H - - - - - -         [50] - - H - - - - - - -         [60] - - - - - - - - - -         [70] - - - - - - - - - H         [80] - - - - - - - - - -         [90] - - - - - - - - - -        [100] - - - H - - - - - -        [110] - - - - - H - - - -        [120] - - - - - - - - H -        [130] - H - H - - - - - -        [140] - - - - - - H - - -        [150] - - - - H - - - - -        [160] - - - - - - - - - -        [170] - - - H - - H - - -        [180] - - - - H H H - - -        [190] - - H H - - - - - -        [200] - - - - - - - - - -        [210] - - - H - - - - - -        [220] - - - - - - - - - -        [230] - - - - - - - - -`
+`           1 2 3 4 5 6 7 8 9 0    [ ] - - - - - H - - - -          [10] H - - - - H - - - -          [20] - - - - - - - - - -          [30] - - - - - - - - - -          [40] - - - H - - - - - -          [50] - - H - - - - - - -          [60] - - - - - - - - - -          [70] - - - - - - - - - H          [80] - - - - - - - - - -          [90] - - - - - - - - - -        [100] - - - H - - - - - -        [110] - - - - - H - - - -        [120] - - - - - - - - H -        [130] - H - H - - - - - -        [140] - - - - - - H - - -        [150] - - - - H - - - - -        [160] - - - - - - - - - -        [170] - - - H - - H - - -        [180] - - - - H H H - - -        [190] - - H H - - - - - -        [200] - - - - - - - - - -        [210] - - - H - - - - - -        [220] - - - - - - - - - -        [230] - - - - - - - - -`
 
 Note that hematuria occurred with the 6th, 11th, 16th, and 44th biopsy.
 That means we had to wait 6, 5, 5, and 28 patients between each event.
 The full list of waiting times are
 
-` 6  5  5 28  9 27 24 12 13         3  2 13  8 19  3  8  1  1         6  1 20`
+`  6   5   5 28   9 27 24 12 13          3   2 13   8 19   3   8   1   1          6   1 20`
 
 The last hematuria event occurs with the 214th patient. What do we do
 with these final biopsies. It seems a shame to ignore them, because the
@@ -98,7 +98,7 @@ patient. So the date gap is at least 26 patients, maybe more.
 
 You can plot these date gaps, including the 26, in sequence and draw a
 line connecting the consecutive data points. Use a special symbol (X)
-and a dotted line for the last data value (26) because we don\'t know
+and a dotted line for the last data value (26) because we don't know
 exactly what this value is.
 
 Plotting the waiting times on a log scale is useful because waiting
@@ -133,7 +133,7 @@ ranges are
 
 and the entire list of moving ranges is shown below.
 
-` 1  0 23 19 18  3 12  1 10         1 11  5 11 16  5  7  0  5         5 19  6`
+`  1   0 23 19 18   3 12   1 10          1 11   5 11 16   5   7   0   5          5 19   6`
 
 The average moving range is 8.48. The formula for the control limits is
 
@@ -147,10 +147,10 @@ warning limit (or the two sigma limit) is computed as
 
 The upper warning limit is 25.9 and the lower warning limit is negative.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Adverse events in clinical
 trials](../category/AdverseEvents.html).
@@ -158,17 +158,17 @@ trials](../category/AdverseEvents.html).
 trials](../category/AdverseEvents.html).
 for pages similar to this one at [Category: Adverse events in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Tracking adverse events during kidney
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Adverse events in clinical
 trials](../category/AdverseEvents.html).

@@ -22,8 +22,8 @@ it can also represent the time to other bad events such as cancer
 relapse or failure of a medical device. It can also be used to denote
 time to positive events such as pregnancy.
 
-Survival data models also incorporate one of the complexities of \"time
-to event\" data, the fact that not all patients experience the event
+Survival data models also incorporate one of the complexities of "time
+to event" data, the fact that not all patients experience the event
 during the time frame of the study. So, if we are doing a five year
 mortality study, we have the problem of those stubborn patients who
 refuse to die during the study period. Other patients may move out of
@@ -48,12 +48,12 @@ set has been slightly modified to simplify some of these explanations.
 
 There are 25 flies in the sample, with the first fly dying on day 37 and
 the last fly dying on day 96. If you wanted to estimate the survival
-probability for this data, you would draw a curve that decreases by 4%
+probability for this data, you would draw a curve that decreases by  4%
 (1/25) every time a fly dies.
 
-`Day Prob    37 96%    40 92%    43 88%    44 84%    45 80%    47 76%    49 72%    54 68%    56 64%    58 60%    59 56%    60 52%    61 48%    62 44%    68 40%    70 36%    71 32%    72 28%    73 24%    75 20%    77 16%    79 12%    89  8%    94  4%    96  0%`
+`Day Prob     37 96%     40 92%     43 88%     44 84%     45 80%     47 76%     49 72%     54 68%     56 64%     58 60%     59 56%     60 52%     61 48%     62 44%     68 40%     70 36%     71 32%     72 28%     73 24%     75 20%     77 16%     79 12%     89   8%     94   4%     96   0%`
 
-Here\'s a graph of these probabilities over time.
+Here's a graph of these probabilities over time.
 
 ![](../../../web/images/08/SimpleKm-0801.gif)
 
@@ -61,19 +61,19 @@ By tradition and for some rather technical reasons, you should use a
 stair step pattern rather than a diagonal line to connect adjacent
 survival probabilities.
 
-Now let\'s alter the experiment. Suppose that totally by accident, a
+Now let's alter the experiment. Suppose that totally by accident, a
 technician leaves the screen cover open on day 70 and all the flies
 escape. This includes the fly who was going to die on the afternoon of
 the 70th day anyway. Oh the sadness of it all; the poor fly has the
 briefest of tastes of freedom then ends up shriveled up on a window
 sill.
 
-You\'re probably worried that the whole experiment has been ruined. But
-don\'t be so pessimistic. You still have complete information on
-survival of the fruit flies up to their 70th day of life. Here\'s how
+You're probably worried that the whole experiment has been ruined. But
+don't be so pessimistic. You still have complete information on
+survival of the fruit flies up to their 70th day of life. Here's how
 you would present the data and estimate the survival probabilities.
 
-`Day Prob    37 96%    40 92%    43 88%    44 84%    45 80%    47 76%    49 72%    54 68%    56 64%    58 60%    59 56%    60 52%    61 48%    62 44%    68 40%    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?    70+ ?`
+`Day Prob     37 96%     40 92%     43 88%     44 84%     45 80%     47 76%     49 72%     54 68%     56 64%     58 60%     59 56%     60 52%     61 48%     62 44%     68 40%     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?     70+ ?`
 
 We clearly have enough data to make several important statements about
 survival probability. For example, the median survival time is 61 days
@@ -88,21 +88,21 @@ This graph is identical to the graph in the first experiment up to day
 By the way, you might be tempted to ignore the ten flies who escaped.
 But that would seriously bias your results. All of these flies were
 tough and hardy flies who lived well beyond the median day of death. If
-you pretended that they didn\'t exist, you would seriously underestimate
+you pretended that they didn't exist, you would seriously underestimate
 the survival probabilities. The median survival time, for example, of
 the 15 flies who did not escape, for example, is only 54 days which is
 much smaller than the actual median.
 
-Let\'s look at a third experiment, where the screen cover is left open
+Let's look at a third experiment, where the screen cover is left open
 and all but four of the remaining flies escape. It turns out that those
-four remaining flies who didn\'t bug out will allow us to still get
+four remaining flies who didn't bug out will allow us to still get
 reasonable estimates of survival probabilities beyond 70 days. Here is
 the data and the survival probabilities.
 
-`Day Prob    37 96%    40 92%    43 88%    44 84%    45 80%    47 76%    49 72%    54 68%    56 64%    58 60%    59 56%    60 52%    61 48%    62 44%    68 40%    70+ ?    71 30%    70+ ?    70+ ?    75 20%    70+ ?    70+ ?    89 10%    70+ ?    96  0%`
+`Day Prob     37 96%     40 92%     43 88%     44 84%     45 80%     47 76%     49 72%     54 68%     56 64%     58 60%     59 56%     60 52%     61 48%     62 44%     68 40%     70+ ?     71 30%     70+ ?     70+ ?     75 20%     70+ ?     70+ ?     89 10%     70+ ?     96   0%`
 
 What you do with the six escaped flies is to allocate their survival
-probabilities equally among the four flies who didn\'t bug out. This
+probabilities equally among the four flies who didn't bug out. This
 places a great responsibility among each of those four remaining flies
 since each one is now responsible for 10% of the remaining survival
 probability, their original 4% plus 6% more which represents a fourth of
@@ -160,9 +160,9 @@ probability is a little bit less than 25%.
 ![](../../../web/images/08/SimpleKm-0805.gif)
 
 [](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 Hospital website. Need more information? I have a page with [general
 help resources](../GeneralHelp.html). You can also browse for pages
 similar to this one at [Category: Survival
@@ -172,17 +172,17 @@ analysis](../category/SurvivalAnalysis.html).
 similar to this one at [Category: Survival
 help resources](../GeneralHelp.html). You can also browse for pages
 Hospital website. Need more information? I have a page with [general
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 do not hold the copyright for this material, I am reproducing it here as
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 [](http://creativecommons.org/licenses/by/3.0/us/) This page was written
 
 <!---Do not use
 **[StATS]:** **A simple example of a Kaplan-Meier
 [](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
+by Steve Simon while working at Children's Mercy Hospital. Although I
 do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
+a service, as it is no longer available on the Children's Mercy
 Hospital website. Need more information? I have a page with [general
 help resources](../GeneralHelp.html). You can also browse for pages
 similar to this one at [Category: Survival

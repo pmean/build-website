@@ -37,7 +37,7 @@ particular case a C chart) works well for this data.
 ![](../../../web/images/07/AnomExample02.gif)
 
 The control limits are 8 and 32. Look for a single point outside the
-control limits (wafer \#24) or eight consecutive points on the same side
+control limits (wafer #24) or eight consecutive points on the same side
 of the center line (no such examples in this chart). Some people will
 divide the control charts into three zones and use rules like 2 out of 3
 consecutive points in Zone A, or 4 out of five consecutive points in
@@ -48,7 +48,7 @@ card](http://www.hospitalreportcards.ca/default.asp) on a variety of
 measures. One measure if the volume of procedures performed at various
 hospitals. There is some evidence that hospitals that perform a large
 volume of procedures have better outcomes (an application, perhaps, of
-the old saying \"practice makes perfect\"). Here is the data on the
+the old saying "practice makes perfect"). Here is the data on the
 number of carotid endarterectomy procedures performed in 2004-2005. Some
 material in the middle of the web page was removed to shrink the image
 size and to delete some data that is extraneous to this particular
@@ -61,14 +61,14 @@ The average hospital performs 52.5 procedures. Which hospitals perform
 more than the overall average? Your first instinct might be to use a
 control chart again, and while this is not a terrible first step, it
 does raise some issues. Most importantly, a control chart is, ore or
-less,  a run chart with, a plot of the data in time sequence. There is
+less,   a run chart with, a plot of the data in time sequence. There is
 no time sequence for this data set. Each hospital started counting
 procedures in January 2004 and stopped in December 2005. You could place
 the data in alphabetical order, but that is a rather arbitrary choice,
 and then what would you do with the hospitals that are unidentified? If
-a hospital changed it\'s name, would you redraw the graph?
+a hospital changed it's name, would you redraw the graph?
 
-There\'s another difference and this is much more subtle. A control
+There's another difference and this is much more subtle. A control
 chart represents a continuous monitoring of a work process. Although
 there are some practical limits on the number of points in a control
 chart, there is no obvious upper bound that you can readily identify.
@@ -113,8 +113,8 @@ The table for h can be found in
 
 -   Nelson et al, The Analysis of Means. **The Analysis of Means.**
     Peter R. Nelson, Peter S. Wludyka, Karen A.F. Copeland (2005)
-    Philadelphia, PA: SIAM. [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/089871592X.html)
+    Philadelphia, PA: SIAM. [BookFinder4U
+    link]](http://www.bookfinder4u.com/detail/089871592X.html)
 
 You can also compute the critical value using a multivariate
 t-distribution. There are a few complications. First the distribution
@@ -126,13 +126,13 @@ so this produces a degenerate distribution. This degeneracy means that
 there is no inverse for the correlation matrix.
 
 In R, there is a library, mvtnorm, that will allow you to compute the
-percentiles needed for ANOM. Here\'s an example:
+percentiles needed for ANOM. Here's an example:
 
 `i <- 25        co <- matrix(-1/(i-1),nrow=i,ncol=i)        diag(co) <- rep(1,i)        qmvt(p=0.95,tail="both.tails",corr=co,df=5000)`
 
 For count data, you need to modify the formula slightly to
 
-\[\[Formula is misplaced. I will try to restore it soon.\]\]
+[Formula is misplaced. I will try to restore it soon.]
 
 and there are further modifications if the data represents proportions
 or rates, or if the sample size is unequal between groups. In this
@@ -144,10 +144,10 @@ lower limits are 31 and 74.
 Seven hospitals have volume above the overall average and twelve have
 volume significantly below the overall average.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Analysis of
 means](../category/AnalysisOfMeans.html), or [Category: Control
@@ -157,17 +157,17 @@ charts](../category/ControlCharts.html).
 means](../category/AnalysisOfMeans.html), or [Category: Control
 for pages similar to this one at [Category: Analysis of
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: When is a control chart not a control
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Analysis of
 means](../category/AnalysisOfMeans.html), or [Category: Control

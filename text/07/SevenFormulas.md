@@ -12,8 +12,8 @@ ratio (June 14, 2007)**
 
 I received an interesting email recently. Someone was studying the
 relationship between firearm suicides and veterans to answer the
-question: \"Are veterans more likely to commit suicide with a firearm
-than non-veterans?\" The data was arranged in a table that looked
+question: "Are veterans more likely to commit suicide with a firearm
+than non-veterans?" The data was arranged in a table that looked
 something like this (I changed the numbers to simplify the calculations)
 :
 
@@ -65,7 +65,7 @@ non-firearm suicide (0.8 odds or 5 to 4 against a non-firearm suicide)
 and compares it to the odds that a veteran is a non-firearm suicide (0.4
 odds or 5 to 2 against a non-firearm suicide).
 
-Now wait, isn\'t that backwards? Why would anyone compute an odds ratio
+Now wait, isn't that backwards? Why would anyone compute an odds ratio
 this way? It turns out that this is a perfectly fine way to compute an
 odds ratio, but it sounds awkward because of the lengthy terms
 non-firearms suicide and non-veteran. If we substitute different words
@@ -83,9 +83,9 @@ The order of your table is arbitrary. You listed the rows in
 alphabetical order, but there is nothing stopping you from listing the
 rows in reverse alphabetical order. And since there is more than one way
 to label the rows, you could still get a different order even if you
-rigorously enforced alphabetical ordering. The labels \"passive
-suicide\" and \"violent suicide\" have a different alphabetical order
-than \"firearm suicide\" and \"non-firearm suicide\".
+rigorously enforced alphabetical ordering. The labels "passive
+suicide" and "violent suicide" have a different alphabetical order
+than "firearm suicide" and "non-firearm suicide".
 
 The reason that switching the two rows changes the odds ratio is that
 you are effectively swapping the numerator and denominator of the odds
@@ -102,7 +102,7 @@ odds in the veteran group.
 So your numbers are perfectly consistent, even though they look wildly
 inconsistent.
 
-So which odds ratio do you use? It\'s \"dealer\'s choice\" and no one
+So which odds ratio do you use? It's "dealer's choice" and no one
 will complain about any of these choices. Certain groups, such as the
 Cochran collaboration have set up rules. In the Cochran collaboration,
 they always orient their tables so that an odds ratio less than one
@@ -120,10 +120,10 @@ of work with odds ratios (and other ratios like the relative risk), you
 just have to get comfortable with the fact that an odds ratio of 2.0 and
 an odds ratio of 0.5 are just the opposite sides of the same coin.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Writing research
 papers](../category/WritingResearchPapers.html).
@@ -131,17 +131,17 @@ papers](../category/WritingResearchPapers.html).
 papers](../category/WritingResearchPapers.html).
 for pages similar to this one at [Category: Writing research
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Seven different formulas for the odds
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Writing research
 papers](../category/WritingResearchPapers.html).

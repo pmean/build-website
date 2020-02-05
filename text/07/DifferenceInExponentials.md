@@ -24,7 +24,7 @@ functions. The formula is
 
 where a, b, and c are constants that determine the shape of the
 function. The constant c determines how quickly the curve rises. For
-now, let\'s set A=80 and b=0. For a large value of c (1/10), the curve
+now, let's set A=80 and b=0. For a large value of c (1/10), the curve
 rises rapidly, and for a small value (1/100) it rises slowly.
 
 ![](../../../web/images/07/DifferenceInExponentials03.gif)
@@ -49,7 +49,7 @@ maximum at 3/b=300 units past the maximum or roughly t=325.
 
 ![](../../../web/images/07/DifferenceInExponentials06.gif)
 
-The value of a represents the \"potential\" maximum. It is a maximum
+The value of a represents the "potential" maximum. It is a maximum
 that is reached if c is much larger than the b, but when b gets close to
 c, the actual maximum might be quite a bit less than the actual maximum.
 
@@ -72,7 +72,7 @@ The increase in a is not too surprising because a represents the
 potential rather than the observed maximum. The increase in c represents
 the fact that the time to reach 95% of the actual maximum is actually
 faster than the time that it takes to reach the potential maximum. So
-I\'ve learned that it can be easy to underestimate the proper values for
+I've learned that it can be easy to underestimate the proper values for
 a and c. Another problem is that the maximum actually occurs between two
 of the data points, as you can see from the graph shown below.
 
@@ -83,10 +83,10 @@ anywhere close to the correct values, the procedure will converge
 properly. Problems do occur when you start with wildly unrealistic
 values, so you do need to put some thought into this.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Nonlinear
 regression](../category/NonlinearRegression.html).
@@ -94,17 +94,17 @@ regression](../category/NonlinearRegression.html).
 regression](../category/NonlinearRegression.html).
 for pages similar to this one at [Category: Nonlinear
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Fitting a difference in exponential
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Nonlinear
 regression](../category/NonlinearRegression.html).

@@ -26,7 +26,7 @@ arrange the data as is shown below.
 I could have coded year as 1992, 1996, etc., and that is perfectly fine.
 It leads to a slightly different interpretation, however. Just as with a
 two by two table, you need to weight the cases properly so that the
-numbers add up properly. Select DATA \| WEIGHT CASES from the menu.
+numbers add up properly. Select DATA | WEIGHT CASES from the menu.
 
 ![](../../../web/images/07/IncreasingTrend02.gif)
 
@@ -45,7 +45,7 @@ portion of the output is a wide table, which I split into two pieces.
 
 The odds ratio (in the column labeled Exp(B)) is 1.398, which I
 typically round to 1.40. This estimate tells you that the estimated
-increase in odds is 40% for each unit increase. Note that a \"unit\"
+increase in odds is 40% for each unit increase. Note that a "unit"
 here is a four year chunk of time. If you had coded year as 1992, 1996,
 etc., here is what the output would look like
 
@@ -59,14 +59,14 @@ consider that an 8.7% increase over a four year period translates into a
 
 1.087^4^ = 1.398.
 
-**But wait\...**
+**But wait...**
 
 If you look at the odds ratio of 1.4, there are two things that might
 make you pause. First, how can we claim that there is an increasing
 trend when the 2000 value (74%) is actually slightly smaller than the
 1996 value (72%). Second, the change from 66% in 1992 to 87% in 2004 is
 only a 21% shift. How could this be consistent with an odds ratio of
-1.4?  Both of these can be accounted for if you understand the mechanics
+1.4?   Both of these can be accounted for if you understand the mechanics
 of logistic regression.
 
 When you have a discrete independent variable with lots of observations
@@ -113,10 +113,10 @@ when the probability is larger than 50%, because this corresponds to
 odds greater than 1, which is outside the range of possible values for a
 probability.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).
@@ -124,17 +124,17 @@ regression](../category/LogisticRegression.html).
 regression](../category/LogisticRegression.html).
 for pages similar to this one at [Category: Logistic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Testing for an increasing trend in a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).

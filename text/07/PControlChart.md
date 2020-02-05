@@ -49,20 +49,20 @@ Notice that all data points are inside the upper and lower control
 limits and that we do not observe 2 out of 3 consecutive points outside
 the warning limits. Neither do we see eight consecutive points on the
 same side of the center line. Thus, this process is in statistical
-control. This individual\'s hearing may not be all that good, but there
+control. This individual's hearing may not be all that good, but there
 are no unusual deviations from what you would normally expect.
 
 **On your own**. Two other workers also took the same series of hearing
-tests (see data below). Compute a P chart for each worker. Don\'t peek
-until you\'ve done the work, but the answers are available on a
+tests (see data below). Compute a P chart for each worker. Don't peek
+until you've done the work, but the answers are available on a
 [separate web page](PControlChartAnswers.html).
 
 `Worker #2:   60 56 78 60 74 70 70 68 82 76 72 76   68 78 76 68 74 56 74 62 60 70 60 84   Worker #3:   34 42 30 24 42 32 30 36 36 48 40 26   46 42 48 24 36 24 48 30 24 28 32 44`
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).
@@ -70,17 +70,17 @@ charts](../category/ControlCharts.html).
 charts](../category/ControlCharts.html).
 for pages similar to this one at [Category: Control
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Calculating a P control chart (March
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).

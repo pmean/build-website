@@ -43,12 +43,12 @@ Call the answer to the first question s. Divide the answer to the second
 question by 10 to get P. Let n is the number of people you expect to
 screen at this step during the course of the trial. Then set your prior
 sample size (A+B) equal to nP. Set the ratio A/(A+B) equal to s. Solve
-for A and B.  The solution is snP and (1-s)nP for A and B, respectively.
+for A and B.   The solution is snP and (1-s)nP for A and B, respectively.
 
-Here\'s an example of this approach. Suppose the researcher was
+Here's an example of this approach. Suppose the researcher was
 expecting the rate to be 20% and gave 3 as the level of confidence. The
 number of patients expected to reach this screening step is 2070. The
-prior sample size would be 0.3\*2070 = 621. The values for A and B would
+prior sample size would be 0.3*2070 = 621. The values for A and B would
 be 124.2 and 496.8. There would be no harm in rounding these values a
 bit so A=125 and B=500 would represent the prior distribution.
 
@@ -65,7 +65,7 @@ Example: The researcher specifies a 20% success rate and suggests that a
 fast, a brute force search across prior sample sizes from 1 to 600 works
 well.
 
-`worst.case <- rep(NA,600)   for (i in 1:600) {     worst.case[i] <- qbeta(0.025,0.2*i,0.8*i)   }`
+`worst.case <- rep(NA,600)   for (i in 1:600) {      worst.case[i] <- qbeta(0.025,0.2*i,0.8*i)   }`
 
 A prior sample size of 48 comes closest to matching the worst case
 scenario. It is reasonable to round this value up to 50, which produces
@@ -110,10 +110,10 @@ for eliciting prior distributions should automatically downweight the
 prior distribution that a researcher specifies. This is an area that
 warrants further examination.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
@@ -121,17 +121,17 @@ trials](../category/AccrualProblems.html).
 trials](../category/AccrualProblems.html).
 for pages similar to this one at [Category: Accrual problems in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Eliciting a prior distribution for
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).

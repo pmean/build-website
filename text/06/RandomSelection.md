@@ -30,18 +30,18 @@ Sierra, Charlie, Oscar, and Hotel. If you found out after the fact that
 one of these five was ineligible, then you would just go to the next
 name on your list (Mike).
 
-This sort of procedure is used commonly in audits. You don\'t want to
+This sort of procedure is used commonly in audits. You don't want to
 review 100% of the records, so you randomly select a subset for audit.
 
 The Office of Inspector General at the United States Department of
 Health and Human Services provides some free software, RAT-STATS, for
 just this situation.
 
-> *RAT-STATS is a package of statistical software tools designed to
-> assist the user in selecting random samples and evaluating the audit
-> results. The goal behind RAT-STATS was to develop valuable analytical
-> tools that could be easily used by auditors.*
-> [oig.hhs.gov/organization/oas/ratstat.html](http://oig.hhs.gov/organization/oas/ratstat.html)
+*RAT-STATS is a package of statistical software tools designed to
+assist the user in selecting random samples and evaluating the audit
+results. The goal behind RAT-STATS was to develop valuable analytical
+tools that could be easily used by auditors.*
+[oig.hhs.gov/organization/oas/ratstat.html](http://oig.hhs.gov/organization/oas/ratstat.html)
 
 It looks like a well written program.
 
@@ -55,10 +55,10 @@ It looks like a well written program.
 -   [Stats: Random identification numbers (July
     26, 2004)](http://www.childrensmercy.org/stats/weblog2004/RandomID.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Randomized
 trials](#RandomizedTrials).
@@ -66,17 +66,17 @@ trials](#RandomizedTrials).
 trials](#RandomizedTrials).
 for pages similar to this one at [Category: Randomized
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Selecting randomly from a list (July
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Randomized
 trials](#RandomizedTrials).

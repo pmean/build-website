@@ -16,9 +16,9 @@ bit.
 
 Suppose that two experts are making a prediction about inflation. The
 first expert predicts that inflation is likely in the upcoming year
-because of \[insert your favorite Economic theory here\]. The second
+because of [insert your favorite Economic theory here]. The second
 expert predicts that inflation is unlikely in the upcoming year because
-of \[insert a competing Economic theory here\]. The year comes and goes
+of [insert a competing Economic theory here]. The year comes and goes
 and there is no inflation. The second expert criticizes the first expert
 and says "Your prediction was wrong, so you have no credibility." The
 first expert replies, "I only said that inflation was likely. I didn't
@@ -47,21 +47,21 @@ E2=second expert makes more accurate predictions than the first expert.
 
 I=inflation in the coming year.
 
-P\[E1\] = P\[E2\] = 0.5
+P[E1] = P[E2] = 0.5
 
-P\[I \| E1\] = 0.8; P\[I \| E2\] = 0.1
+P[I | E1] = 0.8; P[I | E2] = 0.1
 
-Now apply Bayes Theorem to get P\[E1 \| not I\]
+Now apply Bayes Theorem to get P[E1 | not I]
 
-P\[E1 \| not I\] = P\[not I \| E1\] \* P\[E1\] / P\[not I\]
+P[E1 | not I] = P[not I | E1] * P[E1] / P[not I]
 
-where P\[not I\] = P\[not I \| E1\] \* P\[E1\] + P\[not I \| E2\] \*
-P\[E2\]
+where P[not I] = P[not I | E1] * P[E1] + P[not I | E2] *
+P[E2]
 
-The numerator is (1-0.8)\*0.5 and the denominator is
-(1-0.8)\*0.5+(1-0.1)\*0.5. This makes
+The numerator is (1-0.8)*0.5 and the denominator is
+(1-0.8)*0.5+(1-0.1)*0.5. This makes
 
-P\[E1 \| not I\] = 0.182.
+P[E1 | not I] = 0.182.
 
 So when inflation does not occur, the credibility of the first expert
 drops from a prior probability of 0.5 to a posterior probability of
@@ -73,12 +73,12 @@ Now this calculation depends a lot on what you assign for the
 probabilities of "likely" and "unlikely". If the first experts
 quantification of "likely"<U+00A0> meant 0.6 and not 0.8, then you get
 
-P\[E1 \| not I\] = 0.333.
+P[E1 | not I] = 0.333.
 
 The first expert takes a hit, but not as serious. On the other hand, if
 "likely" really meant 0.95, then you get
 
-P\[E1 \| not I\] = 0.053.
+P[E1 | not I] = 0.053.
 
 Now this bit of mathematics is a gross oversimplification of how you
 should evaluate expert predictions, but it illustrates that you should

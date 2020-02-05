@@ -51,7 +51,7 @@ If you let R=x/T, then this formula simplifies to
 **Example**: In a study of AIDS patients, six cases of tuberculosis were
 noted in 162.2 patient years of observation (PYO). This leads to a rate
 of 3.7 per 100 PO. The 95% confidence interval for a Poisson count of 6
-is 6 +/- 1.96\*sqrt(6) = 1.2 to 10.8. The 95% confidence interval for
+is 6 +/- 1.96*sqrt(6) = 1.2 to 10.8. The 95% confidence interval for
 the rate of 3.7 requires us to divide the confidence limits above by
 162.2/100. This gives you limits of 0.7 and 6.7. Obviously these
 intervals are quite wide, as they should be since they are based on only
@@ -63,12 +63,12 @@ of uncertainty associated with this rate.
 **Source: Antiretroviral therapy at a district hospital in Ethiopia
 prevents death and tuberculosis in a cohort of HIV patients**. Jerene,
 D., A. Naess, et al. AIDS Res Ther 2006; 3: 10.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=retrieve&db=pubmed&list_uids=16600050)
-[\[Abstract\]](http://www.aidsrestherapy.com/content/3/1/10/abstract/)
-[\[Full text\]](http://www.aidsrestherapy.com/content/3/1/10)
-[\[PDF\]](http://www.aidsrestherapy.com/content/pdf/1742-6405-3-10.pdf)
+[Medline]](http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=retrieve&db=pubmed&list_uids=16600050)
+[Abstract]](http://www.aidsrestherapy.com/content/3/1/10/abstract/)
+[Full text]](http://www.aidsrestherapy.com/content/3/1/10)
+[PDF]](http://www.aidsrestherapy.com/content/pdf/1742-6405-3-10.pdf)
 
-I\'ve written a simple Excel spreadsheet to calculate a confidence
+I've written a simple Excel spreadsheet to calculate a confidence
 interval for a single rate.
 
 -   [ConfidenceIntervalForSingleRate.xls](../00files/ConfidenceIntervalForSingleRate.xls)
@@ -80,13 +80,13 @@ proportion.
 ![](../../../web/images/07/ConfidenceIntervalForRate04.gif)
 
 though if the proportion is small and the sample size is large, the
-confidence interval for a rate  can be used as simple and fairly
+confidence interval for a rate   can be used as simple and fairly
 accurate approximation.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html) or [Category: Poisson
@@ -96,17 +96,17 @@ regression](../category/PoissonRegression.html).
 intervals](../category/ConfidenceIntervals.html) or [Category: Poisson
 for pages similar to this one at [Category: Confidence
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Confidence interval for a rate
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html) or [Category: Poisson
