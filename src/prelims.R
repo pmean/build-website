@@ -321,10 +321,12 @@ if (v) {
 modify_yaml_fields <- function(fields, v=TRUE) {
   # Build full file names
   fields$full_name %>%
+    str_remove(".*\\.") -> ext
+  fields$full_name %>%
     str_remove("^.*/") %>%
     str_remove(fixed(".md")) %>%
     str_remove(fixed(".Rmd")) -> short_name
-  fields$blog_name <- blog_root %s% short_name %d% "md"
+  fields$blog_name <- blog_root %s% short_name %d% ext
   fields$link_name <- link_root %s% short_name %d% "txt"
   fields$summ_name <- summ_root %s% short_name %d% "txt"
   

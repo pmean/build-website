@@ -14,7 +14,8 @@ skipped_files <- NULL
 for (i_file in file_list) {
   i_file %>%
     str_remove("^.*/") %>%
-    str_replace("md$|Rmd$", "html") -> j_file
+    str_replace(fixed(".Rmd"), ".html") %>%
+    str_replace(fixed(".md" ), ".html") -> j_file
   if (v) {
     file.info(blog_root %s% i_file)$mtime %C% i_file %>% br %>% cat
     file.info(html_blog %s% j_file)$mtime %C% i_file %>% br %>% cat

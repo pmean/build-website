@@ -40,7 +40,7 @@ splash screen.
 
 
 
-Dr. Lenth's son, Brian,<U+00A0> did the artwork here. After you click OK, you
+Dr. Lenth's son, Brian, did the artwork here. After you click OK, you
 get the following window.
 
 ![](../../../web/images/14/simple-sample-size02.png)
