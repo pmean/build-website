@@ -7,8 +7,6 @@ category: Blog post
 tags: Bayesian statistics
 output: html_document
 ---
-**[StATS]: Fitting a beta binomial model using BUGS
-(April 17, 2007)**
 
 > I\'ve spent a bit of time trying to learn how to run a program called
 > BUGS. The acronym stands for Bayes Using Gibbs Sampling. Here is my
