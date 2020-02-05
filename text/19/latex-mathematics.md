@@ -23,8 +23,8 @@ Markdown.
 
 <!---More--->
 
-Wikibooks. LaTeX/Mathematics. Available in \[html
-format\](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
+Wikibooks. LaTeX/Mathematics. Available in [html
+format](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
 ![](../../../web/images/19/latex-mathematics01.png)
 

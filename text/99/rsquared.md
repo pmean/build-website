@@ -10,16 +10,16 @@ output: html_document
 ****[StATS]:** R-squared (created 1999-08-18)**
 
 *Dear Professor Mean, On my TI-83, when calculating quadratic
-regression, there is a number that is found called R-squared (R\^2). I
-understand that this is the coefficient of determination. But\....I
-thought that R\^2 had to do with linear models. What is R\^2 finding for
+regression, there is a number that is found called R-squared (R^2). I
+understand that this is the coefficient of determination. But....I
+thought that R^2 had to do with linear models. What is R^2 finding for
 this quadratic regression? what does this number mean? is there a way to
-find R\^2 through a \"pencil and paper\" process?? I know the equation
-for R\^2 for a linear regression. But its the quadratic I need to know
+find R^2 through a "pencil and paper" process?? I know the equation
+for R^2 for a linear regression. But its the quadratic I need to know
 about. please, anyone, help!!*
 
-You\'re performing quadratic regressions on a calculator? I hope the
-poor thing doesn\'t overheat.
+You're performing quadratic regressions on a calculator? I hope the
+poor thing doesn't overheat.
 
 You know more than you think you do. R squared, sometimes referred to as
 the proportion of explained variation, is a useful summary for any
@@ -33,7 +33,7 @@ linear model.
 
 In brief, **R squared is the relative predictive power of a model**. R
 squared is a descriptive measure between 0 and 1. **The closer it is to
-one, the better your model is**. By \"better\" we mean a greater ability
+one, the better your model is**. By "better" we mean a greater ability
 to predict. A value of R squared equal to one (which only occurs in
 fairy tales and textbook exercises), would imply that your quadratic
 regression provides perfect predictions.
@@ -65,7 +65,7 @@ lymphocytes.
 ![](../../../web/images/99/rsquared01.gif)
 height="248"}
 
-Figure 3.1. \[Image is already full size\]
+Figure 3.1. [Image is already full size]
 
 The output shows a value of **R squared of 0.39**. How is this number
 computed?
@@ -119,7 +119,7 @@ height="58"}
 We might prefer to use the adjusted R squared if we are comparing our
 quadratic model to other models of varying complexity, such as linear
 and cubic regressions. Also note that the SPSS output matches Professor
-Mean\'s computations in both cases. This is a testament to the quality
+Mean's computations in both cases. This is a testament to the quality
 of the SPSS program.
 
 **More complicated models**
@@ -170,10 +170,10 @@ regression) in chapter 11.
 2.  **Fundamentals of Biostatistics, Third Edition.** Rosner B. Belmont
     CA: Duxbury Press (1990) ISBN: 0-534-91973-1.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Linear
 regression](../category/LinearRegression.html).
@@ -181,17 +181,17 @@ regression](../category/LinearRegression.html).
 regression](../category/LinearRegression.html).
 this one at [Category: Linear
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** R-squared (created 1999-08-18)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Linear
 regression](../category/LinearRegression.html).

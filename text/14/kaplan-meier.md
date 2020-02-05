@@ -45,7 +45,7 @@ observation.
 The survfit function creates a new object that summarizes the data in a
 survival object using a Kaplan-Meier curve or a Cox regression model.
 The input for survfit is a formula with a survival object on the left
-side of the equation. A model with "\~1<U+2033> fits a single Kaplan-Meier
+side of the equation. A model with "~1<U+2033> fits a single Kaplan-Meier
 curve to the entire survival object.
 
     fly.fit <- survfit(fly.surv~1)

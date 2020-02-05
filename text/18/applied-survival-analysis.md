@@ -18,7 +18,7 @@ Institute for Digital Research and Education.
 <!---More--->
 
 David W. Hosmer, Jr. Stanley Lemeshow, Susanne May. Applied Survival
-Analysis, Second Edition. 2008. Wiley\_interscience. ISBN-13:
+Analysis, Second Edition. 2008. Wiley_interscience. ISBN-13:
 978-0471754992.
 
 ![41Y3hCIFjdL._SX310_BO1%2c204%2c203%2c200_.jpg not found.](../../../web/images/18/applied-survival-analysis01.png)

@@ -131,10 +131,10 @@ your client. I would recommend that we write up something like the
 following:
 
 With a sample of 30 historical controls and 30 patients in the
-\[treatment\] group, we would have 93% power for detecting a 10 unit
-shift in \[the outcome variable\]. This is based on a two sample t-test
-with a common standard deviation of 11 (based on \[cite your reference
-here\]) and a two-sided alpha level of 0.05.
+[treatment] group, we would have 93% power for detecting a 10 unit
+shift in [the outcome variable]. This is based on a two sample t-test
+with a common standard deviation of 11 (based on [cite your reference
+here]) and a two-sided alpha level of 0.05.
 
 I try to write these statements with enough detail that another
 statistician could look at it and reproduce my calculations. In this

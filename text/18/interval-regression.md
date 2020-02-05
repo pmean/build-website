@@ -14,7 +14,7 @@ is known to be inside some interval.
 <!---More--->
 
 UCLA Institute for Digital Research and Education. Interval Regression
-\| R Data Analysis Examples. Available at
+| R Data Analysis Examples. Available at
 <https://stats.idre.ucla.edu/r/dae/interval-regression/>.
 
 ![](../../../web/images/18/interval-regression01.png)

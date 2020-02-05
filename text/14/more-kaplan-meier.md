@@ -58,9 +58,9 @@ Read the data in from the website. The first 60 rows are documentation
 about the file and the actual data starts on line 61.
 
 ``` {#rstudio_console_output tabindex="0"}
-> fn <- "http://lib.stat.cmu.edu/datasets/pbc"
-> pbc <- read.table(fn,header=FALSE,skip=60)
-> head(pbc)
+fn <- "http://lib.stat.cmu.edu/datasets/pbc"
+pbc <- read.table(fn,header=FALSE,skip=60)
+head(pbc)
   V1   V2 V3 V4    V5 V6 V7 V8 V9 V10  V11 V12  V13 V14    V15    V16 V17 V18  V19 V20
 1  1  400  2  1 21464  1  1  1  1 1.0 14.5 261 2.60 156 1718.0 137.95 172 190 12.2   4
 2  2 4500  0  1 20617  1  0  1  1 0.0  1.1 302 4.14  54 7394.8 113.52  88 221 10.6   3

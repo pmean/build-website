@@ -10,16 +10,16 @@ output: html_document
 ****[StATS]:** How to randomize (August 18, 1999)**
 
 *Dear Professor Mean, I need to randomize the order in which I give
-treatments and controls in my research study, but I don\'t know how to
-randomize. Can you show me what to do? \-- Baffled Beth*
+treatments and controls in my research study, but I don't know how to
+randomize. Can you show me what to do? -- Baffled Beth*
 
 Dear Baffled,
 
-Here\'s a lightbulb randomization joke: *take to in How many a screw
+Here's a lightbulb randomization joke: *take to in How many a screw
 does statisticians it lightbulb?*
 
-There are also two quotes that are relevant here: \"*Random selection is
-too important to be left to chance*\" and \"*Random is not haphazard*\".
+There are also two quotes that are relevant here: "*Random selection is
+too important to be left to chance*" and "*Random is not haphazard*".
 The latter quote can be found in Statistically Speaking. A Dictionary of
 Quotations by C.G. Gaither and A.E. Cavazos-Gaither.
 
@@ -36,11 +36,11 @@ randomization in a cross-over design.
 
 **Why randomization is important.**
 
-I\'m glad that you are interested in randomization. Some people think it
+I'm glad that you are interested in randomization. Some people think it
 is fine just to alternate regularly between treatment and control. But
 there are two problems with this.
 
-First, if you\'ve watched plants grow in a garden, you will notice that
+First, if you've watched plants grow in a garden, you will notice that
 they tend to have a large-small-large-small pattern, especially if they
 are planted too tightly together. The plants are competing for
 resources. If one plant gets a small lead, its increased consumption
@@ -70,7 +70,7 @@ rows. Here is what you have:
 height="278"}
 
 Your random numbers will be different than these. Otherwise, they
-wouldn\'t be random now, would they?
+wouldn't be random now, would they?
 
 To randomize, sort the data by the second column. Notice that the
 systematic order of the first column has been scrambled.
@@ -85,10 +85,10 @@ disconcerting, since the sorted numbers randomly change to different
 sorted numbers.
 
 When I work out these examples, I freeze the random numbers by pasting
-their values only into a third column (select EDIT \| PASTE SPECIAL) and
-then deleting the second column. That\'s why the random numbers in my
-example stayed sorted. It doesn\'t make much difference, though, what
-happens with the second column; it\'s the first column we are interested
+their values only into a third column (select EDIT | PASTE SPECIAL) and
+then deleting the second column. That's why the random numbers in my
+example stayed sorted. It doesn't make much difference, though, what
+happens with the second column; it's the first column we are interested
 in.
 
 **What is block randomization?**
@@ -133,7 +133,7 @@ The easy way to do this is to allocate two rows for each patient and
 label the rows T and C in a systematic order. Add random numbers and
 then sort within each patient.
 
-Here\'s an a example of how we would set up a matched pairs example for
+Here's an a example of how we would set up a matched pairs example for
 six patients.
 
 ![](../../../web/images/99/random05.gif)
@@ -157,7 +157,7 @@ as to when the subject joined the study. A better approach is to list
 those numbers and then sort them in a random order. These numbers can
 then be cut-and-pasted next to the medical record numbers.
 
-Here\'s the medical record number, a sequential ID, and a column of
+Here's the medical record number, a sequential ID, and a column of
 random numbers.
 
 ![](../../../web/images/99/random07.gif)
@@ -199,22 +199,22 @@ and randomization in a matched pairs study**.
 
 **Further Reading**
 
-There\'s an interesting two page article in the British Medical Journal
+There's an interesting two page article in the British Medical Journal
 on randomisation (notice the alternate spelling. I feel so intellectual
-when I replace all my z\'s with s\'s.)
+when I replace all my z's with s's.)
 
-1.  **Altman DG, Bland JM \"How to randomise\"** BMJ 1999 Sep 11;
+1.  **Altman DG, Bland JM "How to randomise"** BMJ 1999 Sep 11;
     319(7211): 703-704. A nice introductory guide. This article is
     [available on the
-    web](http://www.bmj.com/cgi/content/full/319/7211/703). I\'ve
+    web](http://www.bmj.com/cgi/content/full/319/7211/703). I've
     drafted a [web letter to the editor](../01/random42.html) in
     response to this article, which they [published at their
     site](http://www.bmj.com/cgi/eletters/319/7211/703).
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Randomization in
 research](../category/RandomizationInResearch.html).
@@ -222,17 +222,17 @@ research](../category/RandomizationInResearch.html).
 research](../category/RandomizationInResearch.html).
 for pages similar to this one at [Category: Randomization in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** How to randomize (August 18, 1999)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Randomization in
 research](../category/RandomizationInResearch.html).

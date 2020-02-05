@@ -13,7 +13,7 @@ This is a nice article explaining why using a rainbow
 produce an artefactual banding pattern, they do not follow a consistent
 trend from light to dark, they cause trouble for people with color
 blindness, and they translate poorly to black-and-white reproductions.
-The article also shows some nice alternatives. Thanks to \@EarlGlynn for
+The article also shows some nice alternatives. Thanks to @EarlGlynn for
 sharing this.
 
 <!---More--->

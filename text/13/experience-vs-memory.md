@@ -17,7 +17,7 @@ behavioral economics.
 
 <!---More--->
 
-Kahneman D. The riddle of experience vs. memory \| Video on TED.com.
+Kahneman D. The riddle of experience vs. memory | Video on TED.com.
 Description: "Using examples from vacations to colonoscopies, Nobel
 laureate and founder of behavioral economics Daniel Kahneman reveals how
 our "experiencing selves" and our "remembering selves" perceive

@@ -23,7 +23,7 @@ Examine the predicted probabilities.
 There are two types of models, crude models and adjusted models. **A
 crude model looks at how a single factor affects your outcome measure
 and ignores potential covariates**. An adjusted model incorporates these
-potential covariates. Start with a crude model. It\'s simpler and it
+potential covariates. Start with a crude model. It's simpler and it
 helps you to get a quick overview of how things are panning out. Then
 continue by making adjustments for important confounders.
 
@@ -33,13 +33,13 @@ arranging your data in a two by two table**.
 
 ![](../../../web/images/99/logistic01.gif)
 
-In this example, the treatment group (also labeled \"ng tube\" in other
+In this example, the treatment group (also labeled "ng tube" in other
 parts of this website) represents a group of children who received
 feeding by ng tube when the mother was not in the hospital while the
-control group (also labeled \"bottle\" in other parts of this website)
+control group (also labeled "bottle" in other parts of this website)
 received bottles when the mother was not in the hospital.
 
-The **Feeding type \* Exclusive bf at discharge Crosstabulation** shows
+The **Feeding type * Exclusive bf at discharge Crosstabulation** shows
 us the frequency for the four possible combinations of feeding type and
 breast feeding status at discharge. It helps to also look at the row
 percentages and the risk option.
@@ -141,8 +141,8 @@ If we were interested in the earlier odds ratio of 9.379 instead of
 Thus 3.1 (=1/**0.323**) and 28.6 (=1/**0.035**) represent 95% confidence
 limits.
 
-Let\'s look at another logistic regression model, where we try to
-predict exclusive breast feeding at discharge using the mother\'s age as
+Let's look at another logistic regression model, where we try to
+predict exclusive breast feeding at discharge using the mother's age as
 a continuous covariate.
 
 ![](../../../web/images/99/logistic11.gif)
@@ -150,7 +150,7 @@ a continuous covariate.
 The log odds ratio is **0.157** and the p-value is **0.001**. The odds
 ratio is **1.170**. This implies that the estimated odds of successful
 breast feeding at discharge improve by about 17% for each additional
-year of the mother\'s age.
+year of the mother's age.
 
 ![](../../../web/images/99/logistic12.gif)
 
@@ -172,10 +172,10 @@ mothers were more likely to be in the ng tube group and younger mothers
 were more likely to be in the bottle fed group. This was in spite of
 randomization. So you may wish to see how much of the impact of feeding
 type on breast feeding can be accounted for by the discrepancy in
-mothers\' ages. This is an adjusted logistic model.
+mothers' ages. This is an adjusted logistic model.
 
-When you run this model, put **FEED\_TYP** as a covariate in the first
-block and put **MOM\_AGE** as a covariate in the second block. The full
+When you run this model, put **FEED_TYP** as a covariate in the first
+block and put **MOM_AGE** as a covariate in the second block. The full
 output has much in common with the output for the crude model. Important
 excerpts appear below.
 
@@ -183,7 +183,7 @@ excerpts appear below.
 
 The **Omnibus Tests of Model Coefficients table** and the **Model
 Summary table** for Block 1 are identical to those in the crude model
-with **MOM\_AGE** as the covariate. We wish to contrast these with the
+with **MOM_AGE** as the covariate. We wish to contrast these with the
 same tables for Block 2.
 
 ![](../../../web/images/99/logistic14.gif)
@@ -194,7 +194,7 @@ table** in Block 2 show some changes.
 The test in the **Model row** shows the predictive power of all of the
 variables in Block 1 and Block 2. The large Chi-square value
 (**28.242**) and the small p-value (**0.000**) show you that either
-feeding type or mother\'s age or both are significantly associated with
+feeding type or mother's age or both are significantly associated with
 exclusive breast feeding at discharge.
 
 The test in the **Block row** represents a test of the predictive power
@@ -202,28 +202,28 @@ of all the variables in Block 2, after adjusting for all the variables
 in Block 1. The large Chi-square value (**12.398**) and the small
 p-value (**0.000**) indicates that feeding type is significantly
 associated with exclusive breast feeding at discharge, even after
-adjusting for mother\'s age. The Chi-square value is computed as the
+adjusting for mother's age. The Chi-square value is computed as the
 difference between the -2 Log likelihood at Block 1 (**95.797**) and
 Block 2 (**83.399**).
 
 Notice that the two R-squared measures are larger. This also tells you
 that feeding type helps in predicting breastfeeding outcome, above and
-beyond mother\'s age.
+beyond mother's age.
 
 ![](../../../web/images/99/logistic15.gif)
 
 ![](../../../web/images/99/logistic16.gif)
 
-The odds ratio for mother\'s age is **1.1367**. That tells you that each
-for additional year of the mother\'s age, the odds of breast feeding
+The odds ratio for mother's age is **1.1367**. That tells you that each
+for additional year of the mother's age, the odds of breast feeding
 increase by 1.14 (or 14%), assuming that the feeding type is held
 constant.
 
 The odds ratio for feeding type is **0.1443** or, if we invert it, 6.9.
 This tells us that the odds for breast feeding are about 7 times great
 in the ng tube group than in the bottle fed group, assuming that
-mother\'s age is held constant. Notice that the effect of feeding type
-adjusting for mother\'s age is not quite as large as the crude odds
+mother's age is held constant. Notice that the effect of feeding type
+adjusting for mother's age is not quite as large as the crude odds
 ratio, but it is still large and it still is statistically significant
 (the p-value is **.001** and the confidence interval excludes the value
 of 1.0).
@@ -243,11 +243,11 @@ of values for your covariate, you have to group it first.
 
 The **Report table** shows average predicted probabilities (**Predicted
 probability column**) and observed probabilities (**Exclusive bf at
-discharge column**) for mother\'s age. We had to create a new variable
+discharge column**) for mother's age. We had to create a new variable
 where we created five groups of roughly equal size. The first group
 represented the 15 mothers with the youngest ages and the fifth group
 represented the 17 mothers with the oldest ages. The last column
-(**Mother\'s age column**) shows the average age in each of the five
+(**Mother's age column**) shows the average age in each of the five
 groups.
 
 ![](../../../web/images/99/logistic18.gif)
@@ -266,10 +266,10 @@ The **Contingency Table for Hosmer and Lemeshow Test table** shows more
 details. This test divides your data up into approximately ten groups.
 These groups are defined by increasing order of estimated risk. The
 first group corresponds to those subjects who have the lowest predicted
-risk. In this model it represents the seven subjects where the mother\'s
+risk. In this model it represents the seven subjects where the mother's
 age is 16, 17, or 18 years. Notice that in this group of 16-18 year old
 mothers, six were not successful BF and one was. This corresponds to the
-observed counts in the first three rows of the Mother\'s age \*
+observed counts in the first three rows of the Mother's age *
 Exclusive bf at discharge Crosstabulation table (shown below, with the
 bottom half editted out). The second group of eight mothers represents
 19 and 20 year olds, where 4 were exclusive breast feeding at discharge.
@@ -298,7 +298,7 @@ this covariate.
 **Further reading**
 
 **Logistic Regression**. David Garson. (Accessed on November 19, 2002)
-Excerpt: *\"Binomial (or binary) logistic regression is a form of
+Excerpt: *"Binomial (or binary) logistic regression is a form of
 regression which is used when the dependent is a dichotomy and the
 independents are continuous variables, categorical variables, or both.
 Multinomial logistic regression exists to handle the case of dependents
@@ -308,13 +308,13 @@ natural log of the odds of the dependent occurring or not). In this way,
 logistic regression estimates the probability of a certain event
 occurring. Note that logistic regression calculates changes in the log
 odds of the dependent, not changes in the dependent itself as OLS
-regression does.\"*
+regression does."*
 [www2.chass.ncsu.edu/garson/pa765/logistic.htm](http://www2.chass.ncsu.edu/garson/pa765/logistic.htm)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).
@@ -322,17 +322,17 @@ regression](../category/LogisticRegression.html).
 regression](../category/LogisticRegression.html).
 for pages similar to this one at [Category: Logistic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Guidelines for logistic regression
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Logistic
 regression](../category/LogisticRegression.html).

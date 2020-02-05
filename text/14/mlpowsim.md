@@ -16,7 +16,7 @@ models.
 
 <!---More--->
 
-Bristol University \| Centre for Multilevel Modelling \| MLPowSim.
+Bristol University | Centre for Multilevel Modelling | MLPowSim.
 Available at: <http://www.bristol.ac.uk/cmm/software/mlpowsim/>
 
 ![](../../../web/images/14/mlpowsim01.png)

@@ -22,7 +22,7 @@ real world examples of implementation science studies.
 
 Bauer, Mark S., Damschroder, Laura, Hagedorn, Hildi, Smith, Jeffrey,
 Kilbourne, Amy M. An introduction to implementation science for the
-non-specialist, BMC Psychology (2015, Sep 16),\
+non-specialist, BMC Psychology (2015, Sep 16),
 3(1): 32. Available at <https://doi.org/10.1186/s40359-015-0089-9>.
 
 ![](../../../web/images/18/implementation-science01.png)

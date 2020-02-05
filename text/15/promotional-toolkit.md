@@ -19,7 +19,7 @@ Statistics.
 
 <!---More--->
 
-American Statistical Association. Educators \|This is Statistics.
+American Statistical Association. Educators |This is Statistics.
 <http://thisisstatistics.org/educators/>.
 
 ![](../../../web/images/15/promotional-toolkit01.png)

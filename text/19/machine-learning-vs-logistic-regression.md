@@ -26,7 +26,7 @@ Jan Y. Verbakel, Ben Van Calster, A systematic review shows no
 performance benefit of machine learning over logistic regression for
 clinical prediction models, Journal of Clinical Epidemiology, Volume
 110, 2019, Pages 12-22. DOI:
-[10.1016/j.jclinepi.2019.02.004](https://doi.org/10.1016/j.jclinepi.2019.02.004).\
+[10.1016/j.jclinepi.2019.02.004](https://doi.org/10.1016/j.jclinepi.2019.02.004).
 (http://www.sciencedirect.com/science/article/pii/S0895435618310813)
 
 ![](../../../web/images/19/machine-learning-vs-logistic-regression01.png)

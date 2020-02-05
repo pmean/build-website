@@ -18,12 +18,12 @@ is out officially.
 
 You can [find out more about the
 book](https://www.crcpress.com/Big-Data-Analysis-for-Bioinformatics-and-Biomedical-Discoveries/Ye/9781498724524)
-at the CRC Press website. It costs \$120 which seems like a lot, but
+at the CRC Press website. It costs $120 which seems like a lot, but
 when you average across the 16 chapters, my contribution is well worth
-the \$7.50 that you would pay for it.
+the $7.50 that you would pay for it.
 
 It's also available on Amazon, where you can save three dollars off the
-list price. Currently the book is ranked \#1,125,290 in sales. The
+list price. Currently the book is ranked #1,125,290 in sales. The
 Amazon page does have a nice biography of the editor, Shui Qing Ye.
 
 I've got a picture of the cover.

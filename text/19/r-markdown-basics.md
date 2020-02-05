@@ -15,8 +15,8 @@ go from good to great.
 <!---More--->
 
 Paul Johnson. R Markdown Basics. Published February 19, 2019. Available
-in \[PDF
-format\](https://cran.r-project.org/web/packages/stationery/vignettes/Rmarkdown.pdf).
+in [PDF
+format](https://cran.r-project.org/web/packages/stationery/vignettes/Rmarkdown.pdf).
 
 ![](../../../web/images/19/r-markdown-basics01.png)
 

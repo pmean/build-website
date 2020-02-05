@@ -25,7 +25,7 @@ There were now a couple of pink dots at the bottom of the file. Ignore the three
 So what are these pink dots, exactly? I used cut and paste to insert this strange character into a character string in R
 
 ```{r insert}
-tst1 <- " "
+tst1 <- "  "
 tst1
 ```
 

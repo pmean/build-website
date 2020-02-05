@@ -17,16 +17,16 @@ and Quality commissioned a report to look at studies that empirically
 evaluate the bias reduction of several popular approaches used in
 randomized trials. These include
 
-> selection bias through randomization (sequence generation and
-> allocation concealment); confounding through design or analysis;
-> performance bias through fidelity to the protocol, avoidance of
-> unintended interventions, patient or caregiver blinding and clinician
-> or provider blinding; detection bias through outcome assessor and data
-> analyst blinding and appropriate statistical methods;
-> detection/performance bias through double blinding; attrition bias
-> through intention-to-treat analysis or other approaches to accounting
-> for dropouts; and reporting bias through complete reporting of all
-> prespecified outcomes.
+selection bias through randomization (sequence generation and
+allocation concealment); confounding through design or analysis;
+performance bias through fidelity to the protocol, avoidance of
+unintended interventions, patient or caregiver blinding and clinician
+or provider blinding; detection bias through outcome assessor and data
+analyst blinding and appropriate statistical methods;
+detection/performance bias through double blinding; attrition bias
+through intention-to-treat analysis or other approaches to accounting
+for dropouts; and reporting bias through complete reporting of all
+prespecified outcomes.
 
 The general finding was that failure to use these bias reduction
 approaches tended to exaggerate treatment effects, but the magnitude and

@@ -11,16 +11,16 @@ output: html_document
 1999-09-18)**
 
 *Dear Professor Mean, Before I start my data analysis, I need to modify
-some of the data in my SPSS data set. I don\'t want to re-type every
-number by hand. Is there a faster way to do this? \-- Impatient Pam*
+some of the data in my SPSS data set. I don't want to re-type every
+number by hand. Is there a faster way to do this? -- Impatient Pam*
 
 Dear Impatient
 
 You should really be more patient. The best strategy is to compute all
-of your statistics and then change the data if you don\'t like what you
+of your statistics and then change the data if you don't like what you
 see.
 
-No, no, I\'m just kidding. I\'m sure you\'re the last person who would
+No, no, I'm just kidding. I'm sure you're the last person who would
 want to cheat like this. There are many legitimate reasons for changing
 your data, of course. One is to convert to a different unit of
 measurement. Another is to combine categories together. **Various
@@ -39,7 +39,7 @@ use RECODE if you want to renumber your category levels.
 **More details**
 
 **To convert a continuous variable, you need to specify the name of the
-new variable and the formula for the conversion**. Select TRANSFORM \|
+new variable and the formula for the conversion**. Select TRANSFORM |
 COMPUTE from the menu, to get the COMPUTE VARIABLE dialog box. This box
 has entry fields for the TARGET VARIABLE and for the NUMERIC EXPRESSION.
 You would type in the name of the new variable in the first field and
@@ -48,7 +48,7 @@ provides you with lists of the current variables and all of the
 mathematical functions to save you a bit of typing.
 
 For example, if you were converting temperature scales, the two fields
-might contain temp\_c and 5/9\*(temp\_f-32), respectively. You have to
+might contain temp_c and 5/9*(temp_f-32), respectively. You have to
 be careful about temperature measurements. I visited Toronto in 1994,
 and it was so far north that even in August, the temperature never got
 above 35 degrees.
@@ -62,12 +62,12 @@ missing values into the offending spots in your new variable.
 **To convert a categorical variable, you must specify a list of all the
 possible current values and what you want to covert each value into.**
 This can be tedious. No one ever claimed that data management was fun.
-It\'s good form to account for every possible category when using
+It's good form to account for every possible category when using
 RECODE. Using ranges and/or the ALL OTHER VALUES option will help. If
 you fail to specify a category, SPSS will assume that you want to use
 the same category code in your new variable.
 
-When you select TRANSFORM \| RECODE you have the choice of recoding INTO
+When you select TRANSFORM | RECODE you have the choice of recoding INTO
 SAME VARIABLES or INTO DIFFERENT VARIABLES. The folks who like to go
 bungee jumping without checking the length of the bungee cord usually
 select the first option. **Unless you want to make permanent and
@@ -78,7 +78,7 @@ Also you should **plan for how you want missing values to be handled**.
 Sometimes you might want to convert missing values into a special
 category or you might want to convert a special category to missing. You
 can choose instead to work with missing values when you document your
-variables (by selecting DATA \| DEFINE VARIABLE from the menu or by
+variables (by selecting DATA | DEFINE VARIABLE from the menu or by
 double clicking on column heading).
 
 **Example**
@@ -89,7 +89,7 @@ grams**. This would simply involve mulitplying by 1000.
 
 ![](../../../web/images/99/modify01.gif)
 
-We would select TRANSFORM \| COMPUTE from the menu and fill in the
+We would select TRANSFORM | COMPUTE from the menu and fill in the
 dialog box as shown above. We could then click on the TYPE&LABEL button
 if we wanted to add documentation for this new variable.
 
@@ -103,7 +103,7 @@ new category level**.
 
 ![](../../../web/images/99/modify02.gif)
 
-We would start by selecting TRANSFORM \| RECODE from the menu. In the
+We would start by selecting TRANSFORM | RECODE from the menu. In the
 first dialog box, we would select the original variable (bw0) and
 provide a name (excl0) and label (Exclusive breast feeding status at
 discharge) for the new variable. This produces a dialog box that looks
@@ -124,10 +124,10 @@ You can find modifications for SPSS data under the TRANSFORM menu.
 Select the COMPUTE submenu if you want to modify a continuous variable.
 Select the RECODE submenu if you want to modify a categorical variable.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data
 management](../category/DataManagement.html) or [Category: SPSS
@@ -137,17 +137,17 @@ software](../category/SpssSoftware.html).
 management](../category/DataManagement.html) or [Category: SPSS
 for pages similar to this one at [Category: Data
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Modifying SPSS data (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data
 management](../category/DataManagement.html) or [Category: SPSS

@@ -26,11 +26,11 @@ need to demonstrate proof of concept. NIH stresses repeatedly throughout
 the proposal of the need to address biomedical data.Your application
 needs to fit into one of four areas.
 
-1\. Data compression/reduction. Big data often strains your computational
+1. Data compression/reduction. Big data often strains your computational
 resources. To make big data work for you need some way to compress the
 data or minimize redundancy while still maintaining data integrity.
 
-2\. Data visualization. You need graphical tools that allow you to
+2. Data visualization. You need graphical tools that allow you to
 "intuitively delve into and explore within the data, gaining both
 insight into a dataset's structure and interrelationships and extracting
 knowledge from the data." This is the area that I might be most
@@ -39,7 +39,7 @@ that might be worth expanding on
 ([here](http://www.pmean.com/09/SurprisalMatrix.html) and
 [here](http://www.pmean.com/10/TextFiles.html)).
 
-3\. Data provenance. This was a new one on me. The RFA defines data
+3. Data provenance. This was a new one on me. The RFA defines data
 provenance as "the chronology or record of transfer, use, and alteration
 of data that documents the reverse path from a particular set of data
 back to the initial creation of a source dataset." Although the RFA does
@@ -48,7 +48,7 @@ research](http://reproducibleresearch.net/index.php/Main_Page)," it is
 pretty clear that data provenance is an important component of
 reproducible research.
 
-4\. Data wrangling. This is another term that is new to me, but I like
+4. Data wrangling. This is another term that is new to me, but I like
 the imagery that it provides. The RFA defines data wrangling as
 "activities that make data more usable by changing their form but not
 their meaning." Tools for data warngling will help you in lots of ways:

@@ -18,7 +18,7 @@ contribution.
 
 <!---More--->
 
-\(2016) PLOS ONE 2015 Reviewer Thank You. PLoS ONE 11(2): e0150341.
+(2016) PLOS ONE 2015 Reviewer Thank You. PLoS ONE 11(2): e0150341.
 doi:10.1371/journal.pone.0150341. Available at
 <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150341>.
 

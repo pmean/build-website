@@ -10,9 +10,9 @@ output: html_document
 **[StATS]:** **Importing database files into SPSS
 (created 1999-08-18)**
 
-*Dear Professor Mean, How do I import database files into SPSS? I don\'t
+*Dear Professor Mean, How do I import database files into SPSS? I don't
 want to re-type everything, because there are 70,000 records. The data
-are stored in a Microsoft Access file. \-- Vexed Vidya*
+are stored in a Microsoft Access file. -- Vexed Vidya*
 
 SPSS can import data from a variety of sources using a system known as
 ODBC (Object Data Base Connectivity). **ODBC has links to just about
@@ -20,9 +20,9 @@ every database that you would ever need to use**.
 
 **Short explanation**
 
-I\'ll show you an example using Microsoft Access, but this would work
+I'll show you an example using Microsoft Access, but this would work
 just as well on other database systems, such as Oracle and Informix.
-**To import data from Access, select FILE \| DATABASE CAPTURE \| NEW
+**To import data from Access, select FILE | DATABASE CAPTURE | NEW
 QUERY from the SPSS menu.**
 
 **More details**
@@ -35,8 +35,8 @@ Informix if I needed these formats.
 
 **I can also specify a particular location that I want to import from on
 a repeated basis**. In the example I show later, you will see that I
-have defined data sources labelled \"ghstudy\", Menninger\", \"patient
-complaints\", \"Santos\" and \"x\". Providing a pre-specified location
+have defined data sources labelled "ghstudy", Menninger", "patient
+complaints", "Santos" and "x". Providing a pre-specified location
 for my import is especially useful for databases that are being updated
 on a regular basis. If you want to define such a source, you can click
 on the ADD DATA SOURCE button, but I will not provide any details about
@@ -63,8 +63,8 @@ information about subsets, changes in variable names, etc.
 **Example**
 
 Here is an example of importing an Access database with data from a
-growth hormone study. **Select** **FILE \| DATABASE CAPTURE \| NEW QUERY
-from the SPSS menu** **FILE \| DATABASE CAPTURE \| NEW QUERY from the
+growth hormone study. **Select** **FILE | DATABASE CAPTURE | NEW QUERY
+from the SPSS menu** **FILE | DATABASE CAPTURE | NEW QUERY from the
 SPSS menu**.
 
 ![](../../../web/images/99/access01.gif)
@@ -131,12 +131,12 @@ sources which you can add to your system. Highlight the driver you want
 
 ![](../../../web/images/99/access07.gif)
 
-As the dialog box above shows, you\'re not quite finished yet. Tell the
+As the dialog box above shows, you're not quite finished yet. Tell the
 system a name and description for this format. A good name would be
-\"Access files\" and a good description would be \"Microsoft Access 97
-files (\*.mdb)\". If you repeatedly use the same database, you could
+"Access files" and a good description would be "Microsoft Access 97
+files (*.mdb)". If you repeatedly use the same database, you could
 even have the system select this database automatically (SELECT button).
-It\'s a good idea to set up a general driver first, so add a name and
+It's a good idea to set up a general driver first, so add a name and
 description and then click on the OK button.
 
 ![](../../../web/images/99/access08.gif)
@@ -145,7 +145,7 @@ Now your dialog box has the format you need. Click on the OK button to
 finish up. This format will appear every time now when you run a
 database capture in SPSS.
 
-**What should I do if I can\'t find the driver for Microsoft Access in
+**What should I do if I can't find the driver for Microsoft Access in
 the CREATE NEW DATA SOURCE dialog box?**
 
 If you are still having problems please let me know. I can suggest
@@ -160,7 +160,7 @@ several options that might work.
 3.  You can also go to <http://www.microsoft.com/data/>, the Microsoft
     Universal Data Access Web Site. Download the latest version of MDAC
     (Microsoft Data Access Components). I have not tried this, so I
-    don\'t know how easy it is to install.
+    don't know how easy it is to install.
 4.  You might also find MDAC on the Microsoft Access or Microsoft Office
     CD-ROM.
 
@@ -173,35 +173,35 @@ On some systems, SPSS will ask you for a password, even when the
 database you are trying to import does not have a password. There are
 several ways to work around this problem.
 
-1\. Configure a specific data source for your particular database. In the
+1. Configure a specific data source for your particular database. In the
 ODBC MICROSOFT ACCESS 97 dialog box, there is a SELECT button. Click on
 this button and tell SPSS where to find the particular database you are
 working with.
 
-2\. You can also use SPSS syntax to open the database. Here is an
+2. You can also use SPSS syntax to open the database. Here is an
 example.
 
-GET DATA\
-/TYPE = ODBC\
-/CONNECT = \"DSN=MS Access Database;\"\
-\"DBQ=C:\\Windows\\Desktop\\test.mdb;\"\
-/SQL = \"SELECT \* FROM \[YOUR\_TABLE\_NAME\]\".\
-CACHE.\
+GET DATA
+/TYPE = ODBC
+/CONNECT = "DSN=MS Access Database;"
+"DBQ=C:/Windows\\Desktop\\test.mdb;"
+/SQL = "SELECT * FROM [YOUR_TABLE_NAME]".
+CACHE.
 EXECUTE.
 
 The above code uses a database language known as SQL. It is a very easy
 and very powerful language. Here is an example of using SQL to join two
 tables, rename some variables, and sort the results.
 
-/SQL = \"SELECT \"\
-\"T1.\[Employee ID\] AS idnum, \"\
-\"T2.\[FullName\] AS empname \"\
-\"FROM Table1 as T1 INNER JOIN Table2 AS T2 \"\
-\"ON T1.\[Employee ID\] = T2.\[Employee ID\] \"\
-\"ORDER BY T2.\[LastName\], T2.\[FirstName\]\"
+/SQL = "SELECT "
+"T1.[Employee ID] AS idnum, "
+"T2.[FullName] AS empname "
+"FROM Table1 as T1 INNER JOIN Table2 AS T2 "
+"ON T1.[Employee ID] = T2.[Employee ID] "
+"ORDER BY T2.[LastName], T2.[FirstName]"
 
 The information described above is taken from two web sites: the SPSS
-AnswerNet and Raynald Levesque\'s SPSS Syntax web page.
+AnswerNet and Raynald Levesque's SPSS Syntax web page.
 
 **Further reading**
 
@@ -210,32 +210,32 @@ AnswerNet and Raynald Levesque\'s SPSS Syntax web page.
     database we use to locate solutions to problems.*
     <http://www.spss.com/tech/answer/index.cfm>
 2.  **SPSS syntax is a must!** Levesque, Raynald. Accessed on June
-    25, 2002. *Don\'t satisfy yourself with the Graphic User Interface
+    25, 2002. *Don't satisfy yourself with the Graphic User Interface
     (GUI)! The GUI is fine (I use it every day); however, using syntax
     in addition of the GUI can easily increase productivity by a factor
     of 5 to 10 times for simple jobs. The increase can easily be 50
-    times or more for larger, complex jobs. Furthermore some of SPSS\'s
-    features are only available through syntax. As a \"bonus\", syntax
-    files work on all versions of SPSS, not just on Windows.\
-    There is something for everybody in the sample syntax\'s included
+    times or more for larger, complex jobs. Furthermore some of SPSS's
+    features are only available through syntax. As a "bonus", syntax
+    files work on all versions of SPSS, not just on Windows.
+    There is something for everybody in the sample syntax's included
     here: some do simple things, are easy to understand and have a lot
     of comments; some do complex things and have either no comments or a
     lot of comments; others fall between these two extremes. Suggestions
     and code contributions are welcomed. Share what you know! Learn what
-    you don\'t!* <http://pages.infinit.net/rlevesqu/SampleSyntax.htm>
+    you don't!* <http://pages.infinit.net/rlevesqu/SampleSyntax.htm>
 
 **Summary**
 
 Vexed Vidya wants to i**mport a Microsoft Access table into SPSS**. To
 import Access or other database formats, you use a system called ODBC.
-**Select FILE \| DATABASE CAPTURE \| NEW QUERY from the SPSS menu**. You
+**Select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu**. You
 will then specify where the data are located and the table or tables in
 your database you want to import.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data
 management](../category/DataManagement.html) or [Category: SPSS
@@ -245,17 +245,17 @@ software](../category/SpssSoftware.html).
 management](../category/DataManagement.html) or [Category: SPSS
 for pages similar to this one at [Category: Data
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Importing database files into SPSS
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data
 management](../category/DataManagement.html) or [Category: SPSS

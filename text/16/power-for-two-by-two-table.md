@@ -94,7 +94,7 @@ For a one sided test, the power would be
 
 height="37"}
 
-where Z\* is not a standard normal, but rather the normal distribution
+where Z* is not a standard normal, but rather the normal distribution
 described above. to calculate this probability, you need to standardize
 by subtracting the mean and dividing by the standard deviation.
 
