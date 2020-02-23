@@ -188,6 +188,35 @@ if (v) {
   tst_bib %>% parse_bibtex("dummy-file-name.bib") %>% print
 }
 
+parse_ris <- function(tx, f0) {
+  tx %>%
+    str_subset("^AU  - "  ) %>%
+    str_remove("^AU  - "  ) %>%
+    str_c(collapse=" and ") %>%
+    str_c("author = ", .  ) -> au
+  tx <- c(au, tx)
+  tx %>%
+    str_replace("^TI  - ", "title = "   ) %>%
+    str_replace("^PY  - ", "year = "    ) %>%
+    str_replace("^TY  - ", "type = "    ) %>%
+    str_replace("^DA  - ", "date = "    ) %>%
+    str_replace("^JO  - ", "journal = " ) %>%
+    str_replace("^SP  - ", "sp = "      ) %>%
+    str_replace("^VL  - ", "volume = "  ) %>%
+    str_replace("^IS  - ", "issue = "   ) %>%
+    str_replace("^AB  - ", "abstract = ") %>%
+    str_replace("^SN  - ", "sn = "      ) %>%
+    str_replace("^UR  - ", "url = "     ) %>%
+    str_replace("^DO  - ", "doi = "     ) %>%
+    str_replace("^ID  - ", "id = "      ) %>%
+    str_replace("^ER  - ", "er = "      ) %>%
+    str_replace("$XN  - ", "note = "    ) %>%
+    str_replace("$XT  - ", "tags = "    ) %>%
+    str_replace("$XB  - ", "blogdate = ") -> tx
+   parse_bibtex(tx, f0) %>%
+     return
+}
+
 modify_bib_fields <- function(fields) {
   # Modify format if not found
   if (fields$format=="Not found") {
