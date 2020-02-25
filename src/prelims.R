@@ -188,33 +188,115 @@ if (v) {
   tst_bib %>% parse_bibtex("dummy-file-name.bib") %>% print
 }
 
+TY	Type of reference (must be the first tag)
+AB	Abstract
+DA	Date
+DO	DOI
+IS	Issue number
+JF	Journal/Periodical name: full format. This is an alphanumeric field of up to 255 characters.
+
+
+c(
+  "^TY", "type = ",   
+  "^A1", "Primary Authors
+  "^A2", "Secondary Authors (each author on its own line preceded by the tag)
+  "^A3", "Tertiary Authors (each author on its own line preceded by the tag)
+  "^A4", "Subsidiary Authors (each author on its own line preceded by the tag)
+  "^AB", "abstract = ",
+  "^AD", "Author Address
+  "^AN", "Accession Number
+  "^AU", "Author (each author on its own line preceded by the tag)
+  "^AV", "Location in Archives
+  "^BT", "This field maps to T2 for all reference types except for Whole Book and Unpublished Work references. It can contain alphanumeric characters. There is no practical limit to the length of this field.
+  "^C1", "Custom 1
+  "^C2", "Custom 2
+  "^C3", "Custom 3
+  "^C4", "Custom 4
+  "^C5", "Custom 5
+  "^C6", "Custom 6
+  "^C7", "Custom 7
+  "^C8", "Custom 8
+  "^CA", "Caption
+  "^CN", "Call Number
+  "^CP", "This field can contain alphanumeric characters. There is no practical limit to the length of this field.
+  "^CT", "Title of unpublished reference
+  "^CY", "Place Published
+  "^DA", "date = ",   
+  "^DB	Name of Database
+  "^DO", "doi = ",    
+  "^DP", "Database Provider
+  "^ED", "Editor
+  "^EP", "End Page
+  "^ET", "Edition
+  "^ID", "Reference ID
+  "^ID", "id = ",     
+  "^IS", "issue = ",  
+  "^J1", "Periodical name: user abbreviation 1. This is an alphanumeric field of up to 255 characters.
+  "^J2", "Alternate Title (this field is used for the abbreviated title of a book or journal name, the latter mapped to T2)
+  "^JA", "Periodical name: standard abbreviation. This is the periodical in which the article was (or is to be, in the case of in-press references) published. This is an alphanumeric field of up to 255 characters.
+  "^JO", "journal = ",
+  "^KW", "Keywords (keywords should be entered each on its own line preceded by the tag)
+  "^L1", "Link to PDF. There is no practical limit to the length of this field. URL addresses can be entered individually, one per tag or multiple addresses can be entered on one line using a semi-colon as a separator.
+  "^L2", "Link to Full-text. There is no practical limit to the length of this field. URL addresses can be entered individually, one per tag or multiple addresses can be entered on one line using a semi-colon as a separator.
+  "^L3", "Related Records. There is no practical limit to the length of this field.
+  "^L4", "Image(s). There is no practical limit to the length of this field.
+  "^LA", "Language
+  "^LB", "Label
+  "^LK", "Website Link
+  "^M1", "Number
+  "^M2", "Miscellaneous 2. This is an alphanumeric field and there is no practical limit to the length of this field.
+  "^M3", "Type of Work
+  "^N1", "Notes
+  "^N2", "Abstract",
+  "^NV", "Number of Volumes",
+  "^OP", "Original Publication",
+  "^PB", "Publisher",
+  "^PY", "year = ",   
+  "^RI", "Reviewed Item",
+  "^RN", "Research Notes",
+  "^RP", "Reprint Edition",
+  "^SE", "Section",
+  "^SN", "isbn/issn = ",     
+  "^SP", "start page = ",
+  "^ST", "short title = ",
+  "^T1", "Primary Title",
+  "^T2", "Secondary Title",
+  "^T3", "Tertiary Title",
+  "^TA", "Translated Author",
+  "^TI", "title",
+  "^TT", "translated title",
+  "^U1", "user definable 1",
+  "^U2", "user definable 2",
+  "^U3", "user definable 3",
+  "^U4", "user definable 4",
+  "^U5", "user definable 5",
+  "^UR", "url = ",    
+  "^VL", "volume = ", 
+  "^VO",	"Published Standard number = ",
+  "^Y1",	"Primary Date",
+  "^Y2",	"Access Date"
+) %>% 
+  matrix(ncol=2, byrow=TRUE) -> ris_matrix
+
 parse_ris <- function(tx, f0) {
   tx %>%
-    str_subset("^AU  - "  ) %>%
-    str_remove("^AU  - "  ) %>%
-    str_c(collapse=" and ") %>%
-    str_c("author = ", .  ) -> au
-  tx <- c(au, tx)
-  tx %>%
-    str_replace("^TI  - ", "title = "   ) %>%
-    str_replace("^PY  - ", "year = "    ) %>%
-    str_replace("^TY  - ", "type = "    ) %>%
-    str_replace("^DA  - ", "date = "    ) %>%
-    str_replace("^JO  - ", "journal = " ) %>%
-    str_replace("^SP  - ", "sp = "      ) %>%
-    str_replace("^VL  - ", "volume = "  ) %>%
-    str_replace("^IS  - ", "issue = "   ) %>%
-    str_replace("^AB  - ", "abstract = ") %>%
-    str_replace("^SN  - ", "sn = "      ) %>%
-    str_replace("^UR  - ", "url = "     ) %>%
-    str_replace("^DO  - ", "doi = "     ) %>%
-    str_replace("^ID  - ", "id = "      ) %>%
-    str_replace("^ER  - ", "er = "      ) %>%
-    str_replace("$XN  - ", "note = "    ) %>%
-    str_replace("$XT  - ", "tags = "    ) %>%
-    str_replace("$XB  - ", "blogdate = ") -> tx
-   parse_bibtex(tx, f0) %>%
-     return
+    str_subset("^ID") %>%
+    str_remove("^.*?- ") %>%
+    tolower              -> id
+  new_tx <- NULL
+  for (i in 1:dim(ris_matrix)[1]) {
+    tx %>%
+      str_subset(ris_matrix[i, 1]) %>%
+      str_remove("^.*?- ") %>%
+      str_c(collapse=" and ") %>%
+      str_c(ris_matrix[i, 2], "{", ., "}") %>%
+      append(new_tx) -> new_tx
+    tx %<>% str_subset(ris_matrix[i, 1], negate=TRUE)
+  }
+  new_tx <- c("@article{" %0% id %0% ",", new_tx, "}")
+  cat(tx, sep="\n")
+  cat(new_tx, sep="\n")
+  return()
 }
 
 modify_bib_fields <- function(fields) {

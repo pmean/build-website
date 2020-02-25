@@ -13,6 +13,15 @@ if (!exists("update_all")) update_all <- TRUE
 
 text_root <- "text"
 
+file_list <- build_yr_list(text_root, "\\.ris", v=FALSE)
+
+for (i_file in file_list) {
+  cat(tx, sep="\n")
+  tx <- readLines(i_file)
+  parse_ris(tx, i_file)
+}
+
+
 file_list <- build_yr_list(text_root, "\\.bib", v=FALSE)
 
 skipped_files <- NULL
@@ -41,22 +50,6 @@ for (i_file in file_list) {
     write_links            %>%
     write_summ             -> fields
 }
-
-file_list <- build_yr_list(text_root, "\\.ris", v=FALSE)
-
-skipped_files <- NULL
-for (i_file in file_list) {
-  i_file %>%
-    str_remove("^.*/") %>%
-    str_replace("ris$", "md") -> j_file
-  if (should_i_skip(i_file, blog_root %s% j_file)) {
-    skipped_files <- c(skipped_files, i_file)
-    if (v) "\nSkipping" %b% j_file %>% cat
-  }
-}
-"\n\nSkipping" %b% length(skipped_files) %b% "files.\n\n" %>% cat
-file_list <- setdiff(file_list, skipped_files)
-"\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
 
 for (i_file in file_list) {
   if (v) "\nWorking on" %b% i_file %>% cat
