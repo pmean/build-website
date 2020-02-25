@@ -1,0 +1,72 @@
+PMID- 29707253
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20191120
+IS  - 2059-8661 (Print)
+IS  - 2059-8661 (Electronic)
+IS  - 2059-8661 (Linking)
+VI  - 1
+IP  - 6
+DP  - 2017 Dec
+TI  - RRApp, a robust randomization app, for clinical and translational research.
+PG  - 323-327
+LID - 10.1017/cts.2017.310 [doi]
+AB  - While junior clinical researchers at academic medical institutions across the US 
+      often desire to be actively engaged in randomized-clinical trials, they often lack 
+      adequate resources and research capacity to design and implement them. This 
+      insufficiency hinders their ability to generate a rigorous randomization scheme to 
+      minimize selection bias and yield comparable groups. Moreover, there are limited 
+      online user-friendly randomization tools. Thus, we developed a free robust 
+      randomization app (RRApp). RRApp incorporates 6 major randomization techniques: 
+      simple randomization, stratified randomization, block randomization, permuted block 
+      randomization, stratified block randomization, and stratified permuted block 
+      randomization. The design phase has been completed, including robust server scripts 
+      and a straightforward user-interface using the "shiny" package in R. Randomization 
+      schemes generated in RRApp can be input directly into the Research Electronic Data 
+      Capture (REDCap) system. RRApp has been evaluated by biostatisticians and junior 
+      clinical faculty at the Icahn School of Medicine at Mount Sinai. Constructive 
+      feedback regarding the quality and functionality of RRApp was also provided by 
+      attendees of the 2016 Association for Clinical and Translational Statisticians 
+      Annual Meeting. RRApp aims to educate early stage clinical trialists about the 
+      importance of randomization, while simultaneously assisting them, in a user-friendly 
+      fashion, to generate reproducible randomization schemes.
+FAU - Tu, Chengcheng
+AU  - Tu C
+AD  - Department of Population Health Science and Policy, Center for Biostatistics, Icahn 
+      School of Medicine at Mount Sinai, New York, NY, USA.
+AD  - New York College of Podiatric Medicine, New York, NY, USA.
+FAU - Benn, Emma K T
+AU  - Benn EKT
+AD  - Department of Population Health Science and Policy, Center for Biostatistics, Icahn 
+      School of Medicine at Mount Sinai, New York, NY, USA.
+AD  - Institute for Translational Sciences (ConduITS), Icahn School of Medicine at Mount 
+      Sinai, New York, NY, USA.
+LA  - eng
+GR  - UL1 TR001433/TR/NCATS NIH HHS/United States
+PT  - Journal Article
+DEP - 20180219
+TA  - J Clin Transl Sci
+JT  - Journal of clinical and translational science
+JID - 101689953
+PMC - PMC5915802
+OTO - NOTNLM
+OT  - Clinical trials
+OT  - RCT
+OT  - biostatistics
+OT  - randomization
+OT  - reproducibility
+EDAT- 2018/05/01 06:00
+MHDA- 2018/05/01 06:01
+CRDT- 2018/05/01 06:00
+PHST- 2017/08/15 00:00 [received]
+PHST- 2017/10/31 00:00 [revised]
+PHST- 2017/11/15 00:00 [accepted]
+PHST- 2018/05/01 06:00 [entrez]
+PHST- 2018/05/01 06:00 [pubmed]
+PHST- 2018/05/01 06:01 [medline]
+AID - 10.1017/cts.2017.310 [doi]
+AID - 00310 [pii]
+AID - 00310 [pii]
+PST - ppublish
+SO  - J Clin Transl Sci. 2017 Dec;1(6):323-327. doi: 10.1017/cts.2017.310. Epub 2018 Feb 
+      19.
