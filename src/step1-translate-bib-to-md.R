@@ -13,7 +13,16 @@ if (!exists("update_all")) update_all <- TRUE
 
 text_root <- "text"
 
-file_list <- build_yr_list(text_root, "*.bib", v=FALSE)
+file_list <- build_yr_list(text_root, "\\.ris", v=FALSE)
+
+for (i_file in file_list) {
+  tx <- readLines(i_file)
+  cat(tx, sep="\n")
+  parse_ris(tx, i_file)
+}
+
+
+file_list <- build_yr_list(text_root, "\\.bib", v=FALSE)
 
 skipped_files <- NULL
 for (i_file in file_list) {
@@ -34,6 +43,19 @@ for (i_file in file_list) {
   
   read_lines(i_file)       %>%
     parse_bibtex(i_file)   %>%
+    flag_unused_bib_fields %>%
+    modify_bib_fields      %>% 
+    write_body             %>%
+    write_tail             %>%
+    write_links            %>%
+    write_summ             -> fields
+}
+
+for (i_file in file_list) {
+  if (v) "\nWorking on" %b% i_file %>% cat
+  
+  read_lines(i_file)       %>%
+    parse_ris(i_file)      %>%
     flag_unused_bib_fields %>%
     modify_bib_fields      %>% 
     write_body             %>%

@@ -188,6 +188,109 @@ if (v) {
   tst_bib %>% parse_bibtex("dummy-file-name.bib") %>% print
 }
 
+c(
+  "^TY", "type",   
+  "^A1", "Primary Authors",
+  "^A2", "Secondary Authors",
+  "^A3", "Tertiary Authors",
+  "^A4", "Subsidiary Authors",
+  "^AB", "abstract",
+  "^AD", "Author Address",
+  "^AN", "Accession Number",
+  "^AU", "Author",
+  "^AV", "Location in Archives",
+  "^BT", "Secondary title",
+  "^C1", "Custom 1",
+  "^C2", "Custom 2",
+  "^C3", "Custom 3",
+  "^C4", "Custom 4",
+  "^C5", "Custom 5",
+  "^C6", "Custom 6",
+  "^C7", "Custom 7",
+  "^C8", "Custom 8",
+  "^CA", "Caption",
+  "^CN", "Call Number",
+  "^CP", "cp",
+  "^CT", "Title of unpublished reference",
+  "^CY", "Place Published",
+  "^DA", "date",   
+  "^DB", "Name of Database",
+  "^DO", "doi",    
+  "^DP", "Database Provider",
+  "^ED", "Editor",
+  "^EP", "End Page",
+  "^ET", "Edition",
+  "^ID", "Reference ID",
+  "^IS", "issue",  
+  "^J1", "journal abbreviation 1",
+  "^J2", "journal abbreviation 2",
+  "^JA", "journal standard abbreviation",
+  "^JF", "journal full format",
+  "^JO", "journal full format",
+  "^KW", "Keywords",
+  "^L1", "Link to PDF",
+  "^L2", "Link to Full-text",
+  "^L3", "Related Records",
+  "^L4", "Images",
+  "^LA", "Language",
+  "^LB", "Label",
+  "^LK", "Website Link",
+  "^M1", "Number",
+  "^M2", "Miscellaneous",
+  "^M3", "Type of Work",
+  "^N1", "Notes",
+  "^N2", "Abstract",
+  "^NV", "Number of Volumes",
+  "^OP", "Original Publication",
+  "^PB", "Publisher",
+  "^PY", "year",   
+  "^RI", "Reviewed Item",
+  "^RN", "Research Notes",
+  "^RP", "Reprint Edition",
+  "^SE", "Section",
+  "^SN", "isbn/issn",     
+  "^SP", "start page",
+  "^ST", "short title",
+  "^T1", "Primary Title",
+  "^T2", "Secondary Title",
+  "^T3", "Tertiary Title",
+  "^TA", "Translated Author",
+  "^TI", "title",
+  "^TT", "translated title",
+  "^U1", "user definable 1",
+  "^U2", "user definable 2",
+  "^U3", "user definable 3",
+  "^U4", "user definable 4",
+  "^U5", "user definable 5",
+  "^UR", "url",    
+  "^VL", "volume", 
+  "^VO", "Published Standard number",
+  "^Y1", "Primary Date",
+  "^Y2", "Access Date"
+) %>% 
+  matrix(ncol=2, byrow=TRUE) -> ris_matrix
+
+parse_ris <- function(tx, f0) {
+  tx %>%
+    str_subset("^ID") %>%
+    str_remove("^.*?- ") %>%
+    tolower              -> id
+  new_tx <- NULL
+  for (i in 1:dim(ris_matrix)[1]) {
+    tx %>%
+      str_subset(ris_matrix[i, 1]) %>%
+      str_remove("^.*?- ") %>%
+      str_c(collapse=" and ") %>%
+      str_c(ris_matrix[i, 2], "{", ., "}") %>%
+      append(new_tx) -> new_tx
+    tx %<>% str_subset(ris_matrix[i, 1], negate=TRUE)
+  }
+  new_tx <- c("@article{" %0% id %0% ",", new_tx, "}")
+  cat(tx, sep="\n")
+  cat(new_tx, sep="\n")
+  return()
+}
+
 modify_bib_fields <- function(fields) {
   # Modify format if not found
   if (fields$format=="Not found") {

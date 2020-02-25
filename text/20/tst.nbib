@@ -1,0 +1,58 @@
+  tx %>%
+    str_replace("^FAU", "AU"
+    str_subset("^AU  - "  ) %>%
+    str_remove("^AU  - "  ) %>%
+    str_c(collapse=" and ") %>%
+    str_c("author = ", .  ) -> au
+	IS, SB, MH, PHST
+  tx <- c(au, tx)
+  tx %>%
+    str_replace("^PMID- ", "pmid = "    ) %>%
+    str_replace("^OWN - ", "pmid = "    ) %>%
+    str_replace("^DCOM- ", "pmid = "    ) %>%
+    str_replace("^LR  - ", "pmid = "    ) %>%
+    str_replace("^VI  - ", "pmid = "    ) %>%
+    str_replace("^IP  - ", "pmid = "    ) %>%
+    str_replace("^DP  - ", "pmid = "    ) %>%
+    str_replace("^TI  - ", "pmid = "    ) %>%
+    str_replace("^PG  - ", "pmid = "    ) %>%
+    str_replace("^AD  - ", "pmid = "    ) %>%
+    str_replace("^LA  - ", "pmid = "    ) %>%
+    str_replace("^PT  - ", "pmid = "    ) %>%
+    str_replace("^TA  - ", "pmid = "    ) %>%
+    str_replace("^JT  - ", "pmid = "    ) %>%
+    str_replace("^JID - ", "pmid = "    ) %>%
+    str_replace("^PMC - ", "pmid = "    ) %>%
+    str_replace("^EDAT- ", "pmid = "    ) %>%
+    str_replace("^MHDA- ", "pmid = "    ) %>%
+    str_replace("^CRDT- ", "pmid = "    ) %>%
+    str_replace("^PST - ", "pmid = "    ) %>%
+    str_replace("^SO  - ", "pmid = "    ) %>%
+
+
+LA  - eng
+PT  - Journal Article
+PT  - Review
+TA  - CMAJ
+JT  - CMAJ : Canadian Medical Association journal = journal de l'Association medicale 
+      canadienne
+JID - 9711805
+SB  - AIM
+SB  - IM
+MH  - Abstracting and Indexing
+MH  - Data Collection
+MH  - Data Interpretation, Statistical
+MH  - Disease/*psychology
+MH  - Humans
+MH  - Peer Review, Research/*methods
+MH  - Research Design/*standards
+MH  - *Writing
+PMC - PMC1228487
+EDAT- 1997/11/26 00:00
+MHDA- 1997/11/26 00:01
+CRDT- 1997/11/26 00:00
+PHST- 1997/11/26 00:00 [pubmed]
+PHST- 1997/11/26 00:01 [medline]
+PHST- 1997/11/26 00:00 [entrez]
+PST - ppublish
+SO  - CMAJ. 1997 Nov 15;157(10):1442-6.
