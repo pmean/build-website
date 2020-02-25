@@ -16,8 +16,8 @@ text_root <- "text"
 file_list <- build_yr_list(text_root, "\\.ris", v=FALSE)
 
 for (i_file in file_list) {
-  cat(tx, sep="\n")
   tx <- readLines(i_file)
+  cat(tx, sep="\n")
   parse_ris(tx, i_file)
 }
 

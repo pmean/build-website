@@ -188,77 +188,69 @@ if (v) {
   tst_bib %>% parse_bibtex("dummy-file-name.bib") %>% print
 }
 
-TY	Type of reference (must be the first tag)
-AB	Abstract
-DA	Date
-DO	DOI
-IS	Issue number
-JF	Journal/Periodical name: full format. This is an alphanumeric field of up to 255 characters.
-
-
 c(
-  "^TY", "type = ",   
-  "^A1", "Primary Authors
-  "^A2", "Secondary Authors (each author on its own line preceded by the tag)
-  "^A3", "Tertiary Authors (each author on its own line preceded by the tag)
-  "^A4", "Subsidiary Authors (each author on its own line preceded by the tag)
-  "^AB", "abstract = ",
-  "^AD", "Author Address
-  "^AN", "Accession Number
-  "^AU", "Author (each author on its own line preceded by the tag)
-  "^AV", "Location in Archives
-  "^BT", "This field maps to T2 for all reference types except for Whole Book and Unpublished Work references. It can contain alphanumeric characters. There is no practical limit to the length of this field.
-  "^C1", "Custom 1
-  "^C2", "Custom 2
-  "^C3", "Custom 3
-  "^C4", "Custom 4
-  "^C5", "Custom 5
-  "^C6", "Custom 6
-  "^C7", "Custom 7
-  "^C8", "Custom 8
-  "^CA", "Caption
-  "^CN", "Call Number
-  "^CP", "This field can contain alphanumeric characters. There is no practical limit to the length of this field.
-  "^CT", "Title of unpublished reference
-  "^CY", "Place Published
-  "^DA", "date = ",   
-  "^DB	Name of Database
-  "^DO", "doi = ",    
-  "^DP", "Database Provider
-  "^ED", "Editor
-  "^EP", "End Page
-  "^ET", "Edition
-  "^ID", "Reference ID
-  "^ID", "id = ",     
-  "^IS", "issue = ",  
-  "^J1", "Periodical name: user abbreviation 1. This is an alphanumeric field of up to 255 characters.
-  "^J2", "Alternate Title (this field is used for the abbreviated title of a book or journal name, the latter mapped to T2)
-  "^JA", "Periodical name: standard abbreviation. This is the periodical in which the article was (or is to be, in the case of in-press references) published. This is an alphanumeric field of up to 255 characters.
-  "^JO", "journal = ",
-  "^KW", "Keywords (keywords should be entered each on its own line preceded by the tag)
-  "^L1", "Link to PDF. There is no practical limit to the length of this field. URL addresses can be entered individually, one per tag or multiple addresses can be entered on one line using a semi-colon as a separator.
-  "^L2", "Link to Full-text. There is no practical limit to the length of this field. URL addresses can be entered individually, one per tag or multiple addresses can be entered on one line using a semi-colon as a separator.
-  "^L3", "Related Records. There is no practical limit to the length of this field.
-  "^L4", "Image(s). There is no practical limit to the length of this field.
-  "^LA", "Language
-  "^LB", "Label
-  "^LK", "Website Link
-  "^M1", "Number
-  "^M2", "Miscellaneous 2. This is an alphanumeric field and there is no practical limit to the length of this field.
-  "^M3", "Type of Work
-  "^N1", "Notes
+  "^TY", "type",   
+  "^A1", "Primary Authors",
+  "^A2", "Secondary Authors",
+  "^A3", "Tertiary Authors",
+  "^A4", "Subsidiary Authors",
+  "^AB", "abstract",
+  "^AD", "Author Address",
+  "^AN", "Accession Number",
+  "^AU", "Author",
+  "^AV", "Location in Archives",
+  "^BT", "Secondary title",
+  "^C1", "Custom 1",
+  "^C2", "Custom 2",
+  "^C3", "Custom 3",
+  "^C4", "Custom 4",
+  "^C5", "Custom 5",
+  "^C6", "Custom 6",
+  "^C7", "Custom 7",
+  "^C8", "Custom 8",
+  "^CA", "Caption",
+  "^CN", "Call Number",
+  "^CP", "cp",
+  "^CT", "Title of unpublished reference",
+  "^CY", "Place Published",
+  "^DA", "date",   
+  "^DB", "Name of Database",
+  "^DO", "doi",    
+  "^DP", "Database Provider",
+  "^ED", "Editor",
+  "^EP", "End Page",
+  "^ET", "Edition",
+  "^ID", "Reference ID",
+  "^IS", "issue",  
+  "^J1", "journal abbreviation 1",
+  "^J2", "journal abbreviation 2",
+  "^JA", "journal standard abbreviation",
+  "^JF", "journal full format",
+  "^JO", "journal full format",
+  "^KW", "Keywords",
+  "^L1", "Link to PDF",
+  "^L2", "Link to Full-text",
+  "^L3", "Related Records",
+  "^L4", "Images",
+  "^LA", "Language",
+  "^LB", "Label",
+  "^LK", "Website Link",
+  "^M1", "Number",
+  "^M2", "Miscellaneous",
+  "^M3", "Type of Work",
+  "^N1", "Notes",
   "^N2", "Abstract",
   "^NV", "Number of Volumes",
   "^OP", "Original Publication",
   "^PB", "Publisher",
-  "^PY", "year = ",   
+  "^PY", "year",   
   "^RI", "Reviewed Item",
   "^RN", "Research Notes",
   "^RP", "Reprint Edition",
   "^SE", "Section",
-  "^SN", "isbn/issn = ",     
-  "^SP", "start page = ",
-  "^ST", "short title = ",
+  "^SN", "isbn/issn",     
+  "^SP", "start page",
+  "^ST", "short title",
   "^T1", "Primary Title",
   "^T2", "Secondary Title",
   "^T3", "Tertiary Title",
@@ -270,11 +262,11 @@ c(
   "^U3", "user definable 3",
   "^U4", "user definable 4",
   "^U5", "user definable 5",
-  "^UR", "url = ",    
-  "^VL", "volume = ", 
-  "^VO",	"Published Standard number = ",
-  "^Y1",	"Primary Date",
-  "^Y2",	"Access Date"
+  "^UR", "url",    
+  "^VL", "volume", 
+  "^VO", "Published Standard number",
+  "^Y1", "Primary Date",
+  "^Y2", "Access Date"
 ) %>% 
   matrix(ncol=2, byrow=TRUE) -> ris_matrix
 
