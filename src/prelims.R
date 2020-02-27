@@ -248,7 +248,7 @@ c(
   "^RN", "Research Notes",
   "^RP", "Reprint Edition",
   "^SE", "Section",
-  "^SN", "isbn/issn",     
+  "^SN", "isbn-issn",     
   "^SP", "start page",
   "^ST", "short title",
   "^T1", "Primary Title",
@@ -269,8 +269,9 @@ c(
   "^Y2", "Access Date"
 ) %>% 
   matrix(ncol=2, byrow=TRUE) -> ris_matrix
+ris_matrix[ , 2] %<>% tolower %>% str_replace_all(" ", "-")
 
-parse_ris <- function(tx, f0) {
+parse_ris <- function(tx) {
   tx %>%
     str_subset("^ID") %>%
     str_remove("^.*?- ") %>%
@@ -281,14 +282,13 @@ parse_ris <- function(tx, f0) {
       str_subset(ris_matrix[i, 1]) %>%
       str_remove("^.*?- ") %>%
       str_c(collapse=" and ") %>%
-      str_c(ris_matrix[i, 2], "{", ., "}") %>%
+      str_c(ris_matrix[i, 2], " = {", ., "},") %>%
       append(new_tx) -> new_tx
     tx %<>% str_subset(ris_matrix[i, 1], negate=TRUE)
   }
-  new_tx <- c("@article{" %0% id %0% ",", new_tx, "}")
-  cat(tx, sep="\n")
-  cat(new_tx, sep="\n")
-  return()
+  new_tx %<>% str_subset("\\{\\}", negate=TRUE)
+  new_tx %<>% sort
+  c("@article{" %0% id %0% ",", new_tx, "}") %>% return
 }
 
 modify_bib_fields <- function(fields) {
@@ -550,6 +550,8 @@ clean_files <- function(search_string, replace_string="Not yet", dir_root="text"
 write_body <- function(fields, v=TRUE) {
   fields$blogdate %>% str_sub(3,4) -> yr
   image_link <- "../../../images" %s% yr %s% fields$image
+  if (!exists(image_link) & v) "\nFile" %b% fields$source %b% "does not have a corresponding image." %>% cat
+  image_link <- ifelse(exists(image_link), "![]" %p% image_link, "")
   new_tx <-
     "---"                                     %1%
     "title: "    %q% fields$title             %1%

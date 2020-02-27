@@ -18,11 +18,16 @@ file_list <- build_yr_list(text_root, "\\.ris", v=FALSE)
 for (i_file in file_list) {
   tx <- readLines(i_file)
   cat(tx, sep="\n")
-  parse_ris(tx, i_file)
+  new_tx <- parse_ris(tx)
+  new_file <- str_replace(i_file, "\\.ris$", ".bib")
+  writeLines(new_tx, new_file)
 }
 
 
-file_list <- build_yr_list(text_root, "\\.bib", v=FALSE)
+file_list1 <- build_yr_list(text_root, "\\.bib", v=FALSE)
+file_list2 <- build_yr_list(text_root %s% "zotero", "\\.bib", v=FALSE)
+
+file_list <- c(file_list2, file_list1)
 
 skipped_files <- NULL
 for (i_file in file_list) {
@@ -50,17 +55,3 @@ for (i_file in file_list) {
     write_links            %>%
     write_summ             -> fields
 }
-
-for (i_file in file_list) {
-  if (v) "\nWorking on" %b% i_file %>% cat
-  
-  read_lines(i_file)       %>%
-    parse_ris(i_file)      %>%
-    flag_unused_bib_fields %>%
-    modify_bib_fields      %>% 
-    write_body             %>%
-    write_tail             %>%
-    write_links            %>%
-    write_summ             -> fields
-}
-
