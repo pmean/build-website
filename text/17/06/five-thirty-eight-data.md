@@ -19,7 +19,7 @@ examples.
 Five Thirty Eight Data. Available at
 [https://github.com/fivethirtyeight/data](https://github.com/fivethirtyeight/data').
 
-![](../../../web/images/five-thirty-eight-data01.png)
+![](http://www.pmean.com/images/five-thirty-eight-data01.png)
 
 
 

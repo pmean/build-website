@@ -26,7 +26,7 @@ have the effect of assigning the value 3 to the variable x: x = 3 or x
 Available at
 <http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html>.
 
-![](../../../web/images/assignment-in-r01.png)
+![](http://www.pmean.com/images/assignment-in-r01.png)
 
 
 

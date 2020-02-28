@@ -22,4 +22,4 @@ Cliff Kuang. Can A.I. Be Taught to Explain Itself. The New York Times
 Magazine. November 26, 2017. Available at
 <https://www.nytimes.com/2017/11/21/magazine/can-ai-be-taught-to-explain-itself.html>.
 
-![](../../../web/images/explain-ai01.png)
+![](http://www.pmean.com/images/explain-ai01.png)

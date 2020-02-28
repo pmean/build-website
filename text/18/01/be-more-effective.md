@@ -21,7 +21,7 @@ Douglas Zahn. How to be more effective in your professional life. Amstat
 News, September 2009. Available at
 <http://magazine.amstat.org/blog/2009/09/01/heartofastatcareersept09/>.
 
-![](../../../web/images/be-more-effective01.png)
+![](http://www.pmean.com/images/be-more-effective01.png)
 
 
 

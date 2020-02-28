@@ -17,7 +17,7 @@ fair number of interesting data sets/publications.
 
 Dryad Digital Respository. Available at <http://datadryad.org/>.
 
-![](../../../web/images/dryad01.png)
+![](http://www.pmean.com/images/dryad01.png)
 
 
 

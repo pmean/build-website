@@ -21,7 +21,7 @@ UMKC School of Medicine Research Administration. Research or quality
 improvement, Septmeber 22, 2104. Available in PDF format at
 <http://med.umkc.edu/docs/research/Research_vs_Quality_Improvement.pdf>.
 
-![](../../../web/images/recommended-research-vs-quality-improvement01.png)
+![](http://www.pmean.com/images/recommended-research-vs-quality-improvement01.png)
 
 
 

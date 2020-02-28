@@ -20,7 +20,7 @@ helpful.
 Karl Broman. Organizing data in spreadsheets. Available at
 <http://kbroman.org/dataorg/>
 
-![](../../../web/images/organizing-data01.png)
+![](http://www.pmean.com/images/organizing-data01.png)
 
 
 

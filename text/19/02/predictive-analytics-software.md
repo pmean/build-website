@@ -10,7 +10,7 @@ output: html_document
 
 <!---more--->
 
-![](../../../web/images/predictive-analytics-software01.jpeg)
+![](http://www.pmean.com/images/predictive-analytics-software01.jpeg)
 
 
 

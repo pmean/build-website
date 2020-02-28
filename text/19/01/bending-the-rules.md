@@ -22,7 +22,7 @@ Pauline W. Chen. Bending the Rules of Clinical Trials. The New York
 Times, October 29, 2009. Available in [html
 format](https://www.nytimes.com/2009/10/29/health/29chen.html).
 
-![](../../../web/images/bending-the-rules01.png)
+![](http://www.pmean.com/images/bending-the-rules01.png)
 
 
 

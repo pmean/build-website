@@ -22,7 +22,7 @@ National Clearinghouse of Rehabilitation Training Materials. PDF
 Accessibility -- Part One. Publsied on Feb6, 2017. Available at
 <https://www.youtube.com/watch?v=PJvDoArpZ0g>.
 
-![](../../../web/images/pdf-accessibility01.png)
+![](http://www.pmean.com/images/pdf-accessibility01.png)
 
 
 

@@ -18,7 +18,7 @@ programmer.
 Melissa Clarkson "A guide to the line style arguments for R graphics"
 <http://students.washington.edu/mclarkso/documents/line%20styles%20Ver2.pdf>
 
-![](../../../web/images/line-style-r01.png)
+![](http://www.pmean.com/images/line-style-r01.png)
 
 
 

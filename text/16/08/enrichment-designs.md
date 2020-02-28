@@ -17,7 +17,7 @@ search. I found this very nice non-technical overview.
 Robert Temple (2014) Enrichment design studies should enhance signals of
 effectiveness. <http://www.fda.gov/Drugs/NewsEvents/ucm295054.htm>.
 
-![](../../../web/images/enrichment-designs01.png)
+![](http://www.pmean.com/images/enrichment-designs01.png)
 
 
 

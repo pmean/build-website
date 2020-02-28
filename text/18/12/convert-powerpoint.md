@@ -28,7 +28,7 @@ Daniel Anderson. Convert PowerPoint Slides to xaringan (remark.js)
 Slides. Available at the [datalorax github
 repository](https://github.com/datalorax/slidex).
 
-![](../../../web/images/convert-powerpoint01.png)
+![](http://www.pmean.com/images/convert-powerpoint01.png)
 
 
 

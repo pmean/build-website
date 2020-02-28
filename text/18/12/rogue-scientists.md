@@ -19,7 +19,7 @@ Maggie Koerth-Baker. FiveThirtyEight blog, December 10, 2018. Available
 in [html
 format](https://fivethirtyeight.com/features/we-have-ways-to-stop-rogue-scientists-they-dont-always-work/).
 
-![](../../../web/images/rogue-scientists01.png)
+![](http://www.pmean.com/images/rogue-scientists01.png)
 
 
 

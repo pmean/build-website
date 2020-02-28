@@ -22,11 +22,11 @@ contribution.
 doi:10.1371/journal.pone.0150341. Available at
 <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150341>.
 
-![](../../../web/images/plos-one-201501.png)
+![](http://www.pmean.com/images/plos-one-201501.png)
 
 
 
-![](../../../web/images/plos-one-201502.png)
+![](http://www.pmean.com/images/plos-one-201502.png)
 
 
 

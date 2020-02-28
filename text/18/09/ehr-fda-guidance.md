@@ -20,7 +20,7 @@ in Clinical Investigations. Guidance for Industry. July 2018. Available
 in [PDF
 format](https://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM501068.pdf).
 
-![](../../../web/images/ehr-fda-guidance01.png)
+![](http://www.pmean.com/images/ehr-fda-guidance01.png)
 
 
 

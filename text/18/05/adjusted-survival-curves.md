@@ -18,7 +18,7 @@ Terry M. Thernau, Cynthia S. Crawson, Elizabeth J. Atkinson. Adjusted
 survival curves. 2015 (January). Available at
 <https://cran.r-project.org/web/packages/survival/vignettes/adjcurve.pdf>.
 
-![](../../../web/images/adjusted-survival-curves01.png)
+![](http://www.pmean.com/images/adjusted-survival-curves01.png)
 
 
 

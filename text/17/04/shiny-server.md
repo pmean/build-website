@@ -20,7 +20,7 @@ Kimberly Coffey. Launch a Shiny App on Your Own Server in 4 Step. R
 Blog, February 3, 2016. Available
 at<U+00A0><http://www.kimberlycoffey.com/blog/2016/2/13/mlz90wjw0k76446xkg262prvjp0l8u>
 
-![](../../../web/images/shiny-server01.png)
+![](http://www.pmean.com/images/shiny-server01.png)
 
 
 

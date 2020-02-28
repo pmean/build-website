@@ -68,7 +68,7 @@ The mathematics of Bayesian data analysis is quite complex. Here's a
 description on the [Wikipedia page on posterior
 distributions](http://en.wikipedia.org/wiki/Posterior_probability).
 
-![](../../../web/images/using-bugs01.png)
+![](http://www.pmean.com/images/using-bugs01.png)
 
 
 

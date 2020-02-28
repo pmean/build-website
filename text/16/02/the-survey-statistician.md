@@ -20,7 +20,7 @@ International Association of Survey Statisticians. The Survey
 Statistician. Available at:
 <http://isi-iass.org/home/services/the-survey-statistician/>.
 
-![](../../../web/images/the-survey-statistician01.png)
+![](http://www.pmean.com/images/the-survey-statistician01.png)
 
 
 

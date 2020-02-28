@@ -18,7 +18,7 @@ Dan Kopf. Hadley Wickham, the Man Who Revolutionized R. Published July
 24, 2015. Available at
 <http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/>
 
-![](../../../web/images/hadley-wickham01.png)
+![](http://www.pmean.com/images/hadley-wickham01.png)
 
 
 

@@ -20,7 +20,7 @@ Silver N (2015) Rick Data, Poor Data. ESPN. The Magazine (February 22).
 Available online at:
 <http://m.espn.go.com/general/story?storyId=12317383>
 
-![](../../../web/images/rich-data01.png)
+![](http://www.pmean.com/images/rich-data01.png)
 
 
 

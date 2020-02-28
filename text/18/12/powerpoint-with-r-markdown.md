@@ -20,7 +20,7 @@ Nathan Stephens. Make PowerPoint Presentations with R Markdown. RStudio
 Webinars, November 30, 2018. Available in [html
 format](https://resources.rstudio.com/webinars/make-powerpoint-presentations-with-r-markdown-nathan-stephens).
 
-![](../../../web/images/powerpoint-with-r-markdown01.png)
+![](http://www.pmean.com/images/powerpoint-with-r-markdown01.png)
 
 
 

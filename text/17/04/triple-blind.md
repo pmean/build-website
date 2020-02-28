@@ -21,7 +21,7 @@ Robert MacCoun, Saul Perlmutter. Blind analysis: Hide results to seek
 the truth. Nature 2015 (October 7), 526(7572), 187-189. Available at
 <http://www.nature.com/news/blind-analysis-hide-results-to-seek-the-truth-1.18510>.
 
-![](../../../web/images/triple-blind01.png)
+![](http://www.pmean.com/images/triple-blind01.png)
 
 
 

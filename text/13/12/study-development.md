@@ -25,7 +25,7 @@ titles below to see the drop-down information on each component and find
 out how Frontiers can assist." Last accessed on December 12, 2013.
 Available at <http://frontiersresearch.org/frontiers/study-development>.
 
-![](../../../web/images/study-development01.png)
+![](http://www.pmean.com/images/study-development01.png)
 
 
 

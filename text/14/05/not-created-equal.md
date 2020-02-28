@@ -19,7 +19,7 @@ Accessed May 1, 2014.
 
 <U+00A0>
 
-![](../../../web/images/not-created-equal01.png)
+![](http://www.pmean.com/images/not-created-equal01.png)
 
 
 

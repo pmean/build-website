@@ -33,7 +33,7 @@ Anonymous. "Nate Silver: What I need from statisticians. Statistics
 Views 2013 (August 23). Available at:
 <http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html>
 
-![](../../../web/images/silver-interview01.png)
+![](http://www.pmean.com/images/silver-interview01.png)
 
 
 

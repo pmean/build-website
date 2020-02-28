@@ -20,7 +20,7 @@ researchers.
 Simon SD. "Stephen Simon -- Google Scholar. Available at
 <https://scholar.google.com/citations?hl=en&user=H1vkU3cAAAAJ>.
 
-![](../../../web/images/google-scholar-profile01.png)
+![](http://www.pmean.com/images/google-scholar-profile01.png)
 
 
 

@@ -18,7 +18,7 @@ options at your fingertips.
 R Studio. Bibliographies and Citations. Available in [html
 format](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).
 
-![](../../../web/images/bibliographies-in-r-markdown01.png)
+![](http://www.pmean.com/images/bibliographies-in-r-markdown01.png)
 
 
 

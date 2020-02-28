@@ -22,7 +22,7 @@ Natasha Noy. Making it easier to discover datasets. Search blog,
 published September 5, 2018. Available in [html
 format](https://www.blog.google/products/search/making-it-easier-discover-datasets/amp/).
 
-![](../../../web/images/dataset-search01.png)
+![](http://www.pmean.com/images/dataset-search01.png)
 
 
 

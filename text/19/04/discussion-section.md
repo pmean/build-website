@@ -21,7 +21,7 @@ format](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-
 or [PDF
 format](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-018-0490-1).
 
-![](../../../web/images/discussion-section01.png)
+![](http://www.pmean.com/images/discussion-section01.png)
 
 
 

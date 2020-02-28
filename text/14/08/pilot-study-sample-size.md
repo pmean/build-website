@@ -23,7 +23,7 @@ Sample size of 12 per group rule of thumb for a pilot study. Steven A.
 Julious. Pharmaceut. Statist. 2005; 4: 287--291. Abstract available at
 [http://onlinelibrary.wiley.com/doi/10.1002/ps](http://onlinelibrary.wiley.com/doi/10.1002/pst.185/abstract)
 
-![](../../../web/images/pilot-study-sample-size01.png)
+![](http://www.pmean.com/images/pilot-study-sample-size01.png)
 
 
 

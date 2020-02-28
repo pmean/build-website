@@ -16,7 +16,7 @@ to a completely randomized block design to a design without blocking.
 
 A quick search on Google revealed the formula:
 
-![](../../../web/images/efficiency-of-block-design01.png)
+![](http://www.pmean.com/images/efficiency-of-block-design01.png)
 
 
 

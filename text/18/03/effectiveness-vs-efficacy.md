@@ -21,7 +21,7 @@ vaccine efficacy? Frontline Medical News, February 27, 2018. Available
 at
 <https://www.pm360online.com/is-vaccine-effectiveness-ve-different-from-vaccine-efficacy/>.
 
-![](../../../web/images/effectiveness-vs-efficacy01.png)
+![](http://www.pmean.com/images/effectiveness-vs-efficacy01.png)
 
 
 

@@ -22,7 +22,7 @@ in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3677602/)
 or [PDF
 format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3677602/pdf/nihms474746.pdf).
 
-![](../../../web/images/competing-commtments01.png)
+![](http://www.pmean.com/images/competing-commtments01.png)
 
 
 

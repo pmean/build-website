@@ -20,7 +20,7 @@ SQL Presented December 2016 and posted on the SQL Server Central blog.
 Available at:
 <http://www.sqlservercentral.com/blogs/sql-and-sql-only/2016/12/22/r-and-sql-server-2016/>.
 
-![](../../../web/images/r-and-sql-server01.png)
+![](http://www.pmean.com/images/r-and-sql-server01.png)
 
 
 

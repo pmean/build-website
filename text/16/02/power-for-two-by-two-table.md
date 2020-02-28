@@ -43,7 +43,7 @@ of no sampling error
 
 .
 
-![](../../../web/images/power-for-two-by-two-table01.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table01.gif)
 
 
 height="120"}
@@ -55,7 +55,7 @@ of 0.05.
 
 Under the null hypothesis, the test statistic,
 
-![](../../../web/images/power-for-two-by-two-table02.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table02.gif)
 
 
 height="90"}
@@ -63,7 +63,7 @@ height="90"}
 is approximately a normal distribution with mean zero and standard
 deviation 1 where
 
-![](../../../web/images/power-for-two-by-two-table03.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table03.gif)
 
 
 height="57"}
@@ -72,14 +72,14 @@ is the estimate of the proportion pooled across both groups. If the
 alternative hypothesis is true, then test statistic is approximately
 normal, but the mean is
 
-![](../../../web/images/power-for-two-by-two-table04.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table04.gif)
 
 
 height="90"}
 
 and the standard deviation is
 
-![](../../../web/images/power-for-two-by-two-table05.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table05.gif)
 
 
 height="127"}
@@ -89,7 +89,7 @@ about population parameters and not statistics.
 
 For a one sided test, the power would be
 
-![](../../../web/images/power-for-two-by-two-table06.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table06.gif)
 
 
 height="37"}
@@ -98,7 +98,7 @@ where Z\* is not a standard normal, but rather the normal distribution
 described above. to calculate this probability, you need to standardize
 by subtracting the mean and dividing by the standard deviation.
 
-![](../../../web/images/power-for-two-by-two-table07.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table07.gif)
 
 
 height="196"}
@@ -106,7 +106,7 @@ height="196"}
 Eeeek! It does simplify a bit. The left hand side is a now a standard
 normal. And you can cancel a few things on the right hand side.
 
-![](../../../web/images/power-for-two-by-two-table08.gif)
+![](http://www.pmean.com/images/power-for-two-by-two-table08.gif)
 
 
 height="94"}

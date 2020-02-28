@@ -165,11 +165,11 @@ For your convenience, I am also including the R commands file below.
 
 Here are the two graphs produced by this output.
 
-![](../../../web/images/beginners-workshop01.png)
+![](http://www.pmean.com/images/beginners-workshop01.png)
 
 
 
-![](../../../web/images/beginners-workshop02.png)
+![](http://www.pmean.com/images/beginners-workshop02.png)
 
 
 
