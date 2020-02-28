@@ -7,14 +7,14 @@ category: Blog post
 tags: Descriptive statistics, Writing research papers
 output: html_document
 ---
-****[StATS]:** Displaying tables of percentages
-(November 6, 2002)**
 
 *Dear Professor Mean, My colleagues and I argue over the most
 appropriate way for displaying tables of percentages. Must the row or
 column always add to 100%? Also, in cases where it is difficult to know
 which variable is dependent, how does one decide the best way to present
 the results? -- Garrulous Gail*
+
+<!---more--->
 
 Dear Garrulous,
 
@@ -24,6 +24,7 @@ and some of choices reflect subjective judgment. But here are some
 rules I use.
 
 **1. Never display more than one type of number in a table.**
+
 Statistical software like SPSS can produce counts, row percents,
 column percents, cell percents, expected counts, residuals, and/or
 cell contribution to chi-squared values. At one time or another you
@@ -38,7 +39,9 @@ percentages in a different table. If you have to fit them in the same
 table, place the two numbers side by side with the less important
 number appearing second and in parentheses For example, 54% (257).
 
-**2. Row percentages are usually best.** Row percentages are the
+**2. Row percentages are usually best.** 
+
+Row percentages are the
 percentages you compute by dividing each count by the row total. Row
 percentages place the comparison between two numbers within a single
 column, so that one number is directly beneath the number you want to
@@ -60,14 +63,18 @@ females, black males, black females) rather than two categorical
 variables with each having two levels (black/white, male/female).
 
 **3. Place the treatment/exposure variable as rows and outcome
-variable as columns.** This relates to the above item. You usually are
+variable as columns.**
+
+This relates to the above item. You usually are
 interested in the probability of an outcome like death or disease, and
 you are interested in how this probability changes when the treatment
 or exposure changes. Arranging the table thusly and using row percents
 usually gets you the comparison you are interested in.
 
 **4. If one variable has a lot more levels than the other variable,
-place that variable in rows**. A table that is tall and thin is
+place that variable in row.s**
+
+A table that is tall and thin is
 usually easier to read than a table that is short and wide. It is
 easier to scroll up and down rather than left and right. For a really
 large number of levels, you might have to print your table on two or
@@ -75,19 +82,24 @@ more pages. Usually it is a lot easier to align these pages if the
 table is tall and thin. A short wide table that is split on two or
 more pages is often a disaster.
 
-**5. Whenever you report percentages, always round.** A change on the
+**5. Whenever you report percentages, always round.**
+
+A change on the
 order of tenths of a percent are almost never interesting or
 important. Displaying that tenth of a percent makes it harder to
 manipulate the numbers to see the big picture.
 
 **6. Don't worry about whether your percentages add up to 99% or
-101%.** First of all, it can't happen with a two by two table unless
+101%.**
+
+First of all, it can't happen with a two by two table unless
 you round incorrectly. For a larger table, it can happen, but your
 audience is sophisticated enough to understand why this is the case.
 No one, for example, is going to be upset when 33% plus 33% plus 33%
 adds up to less than 100%.
 
 **7. When in doubt, write out your table several different ways.**
+
 Pick out the one that gives the clearest picture of what is really
 happening. Don't rely on the first draft of your table, just like you
 would never rely on the first draft of your writing.
@@ -159,34 +171,4 @@ Notice that this table would not require any sideways scrolling.
 6.  **Don't worry about whether your percentages add up to 99% or
     101%.**
 7.  **When in doubt, write out your table several different ways.**
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html) or [Category:
-Writing research papers](../category/WritingResearchPapers.html).
-<!---More--->
-Writing research papers](../category/WritingResearchPapers.html).
-statistics](../category/DescriptiveStatistics.html) or [Category:
-this one at [Category: Descriptive
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Displaying tables of percentages
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html) or [Category:
-Writing research papers](../category/WritingResearchPapers.html).
---->
 

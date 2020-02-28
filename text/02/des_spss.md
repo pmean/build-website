@@ -7,19 +7,19 @@ category: Blog post
 tags: Descriptive Statistics
 output: html_document
 ---
-****[StATS]:** SPSS dialog boxes for a descriptive
-analysis (June 21, 2002)**
 
 This handout will show the SPSS dialog boxes that I used to create the
 examples in the descriptive data analysis handout. I will capitalize
 variable names, field names and menu picks for clarity.
+
+<!---More--->
 
 **Compute frequency counts**
 
 Select ANALYZE | DESCRIPTIVE STATISTICS | FREQUENCIES from the SPSS
 menu. You will see the following dialog box:
 
-![](../../../web/images/02/des_spss01.gif)
+![](http://www.pmean.com/images/02/des_spss01.gif)
 height="305"}
 
 Click on RACE and then click on the right arrow button to add it to
@@ -30,7 +30,7 @@ the VARIABLE(S) field.
 Select ANALYZE | DESCRIPTIVE STATISTICS | DESCRIPTIVES from the SPSS
 menu. You will see the following dialog box.
 
-![](../../../web/images/02/des_spss02.gif)
+![](http://www.pmean.com/images/02/des_spss02.gif)
 height="257"}
 
 Select your variable in the list on the left and click on the arrow
@@ -42,7 +42,7 @@ additional variables if needed.
 Select ANALYZE | DESCRIPTIVE STATISTICS | CROSSTABS from the SPSS
 menu. You will see the following dialog box.
 
-![](../../../web/images/02/des_spss03.gif)
+![](http://www.pmean.com/images/02/des_spss03.gif)
 height="439"}
 
 Select variables from the list on the left. Add one to the ROW(S)
@@ -54,7 +54,7 @@ CROSSTABS again. Notice that SPSS remembered your previous choices.
 How nice! Now click on the CELLS button to get the following dialog
 box.
 
-![](../../../web/images/02/des_spss04.gif)
+![](http://www.pmean.com/images/02/des_spss04.gif)
 height="255"}
 
 Check the ROW option. Now click on the CONTINUE button in this dialog
@@ -65,7 +65,7 @@ box and the OK button in the previous dialog box.
 Select GRAPHS | BOXPLOT from the SPSS menu. You will see the
 following dialog box.
 
-![](../../../web/images/02/des_spss05.gif)
+![](http://www.pmean.com/images/02/des_spss05.gif)
 height="253"}
 
 We will select the SIMPLE option and the SUMMARIES FOR GROUPS OF CASES
@@ -81,7 +81,7 @@ plots for several columns of data simultaneously.
 When you click on the DEFINE button, you will see the following dialog
 box.
 
-![](../../../web/images/02/des_spss06.gif)
+![](http://www.pmean.com/images/02/des_spss06.gif)
 height="271"}
 
 Select a continuous variable and add it to the VARIABLE field. Select
@@ -96,7 +96,7 @@ number.
 Select GRAPHS | SCATTER from the SPSS menu. You will see the
 following dialog box.
 
-![](../../../web/images/02/des_spss07.gif)
+![](http://www.pmean.com/images/02/des_spss07.gif)
 height="155"}
 
 We will select the SIMPLE, the default option. You would select the
@@ -109,7 +109,7 @@ more) variables in the scatterplot matrix. This arranges graphs of all
 possible pairs of your data in a nice grid. When you click on the
 DEFINE button, you will see the following dialog box:
 
-![](../../../web/images/02/des_spss08.gif)
+![](http://www.pmean.com/images/02/des_spss08.gif)
 height="423"}
 
 Select continuous variables for the Y-AXIS field and the X-AXIS field.
@@ -124,14 +124,14 @@ You may wish to modify or customize the graph that SPSS produces. To
 make changes, double click on the graph. You will get a chart editor
 window that looks like the following.
 
-![](../../../web/images/02/des_spss09.gif)
+![](http://www.pmean.com/images/02/des_spss09.gif)
 height="480"}
 
 For example, the points displayed in this graph are too small and the
 wrong shape. To modify this, select FORMAT | MARKER from the SPSS
 menu. You will see the following dialog box.
 
-![](../../../web/images/02/des_spss10.gif)
+![](http://www.pmean.com/images/02/des_spss10.gif)
 height="265"}
 
 Select the open circle marker and the MEDIUM size option. Then click
@@ -139,31 +139,4 @@ on the APPLY ALL button. If you like this choice, click on the CLOSE
 button in the above dialog box and select FILE | CLOSE from the chart
 editor window. The modified graph will appear in the SPSS output
 window.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-Statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-Statistics](../category/DescriptiveStatistics.html).
-this one at [Category: Descriptive
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** SPSS dialog boxes for a descriptive
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-Statistics](../category/DescriptiveStatistics.html).
---->
 

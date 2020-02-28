@@ -570,7 +570,7 @@ write_body <- function(fields, v=TRUE) {
     
     fields$citation                           %2%
     
-    "![]" %p% image_link                      %1%
+    image_link                                %1%
     "\n"
   if (v) {"\n\n" %0% new_tx %>% cat}
   write_lines(new_tx, fields$blog_name)
