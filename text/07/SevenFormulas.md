@@ -21,25 +21,25 @@ something like this (I changed the numbers to simplify the calculations)
 
 :
 
-![](../../../web/images/07/SevenFormulas01.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas01.gif)
 
 Then this person proceeded to find seven different formulas for the odds
 ratio and tried all of them. How I wish more people were this
 adventurous! Here are the results.
 
-![](../../../web/images/07/SevenFormulas02.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas02.gif)
 
-![](../../../web/images/07/SevenFormulas03.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas03.gif)
 
-![](../../../web/images/07/SevenFormulas04.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas04.gif)
 
-![](../../../web/images/07/SevenFormulas05.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas05.gif)
 
-![](../../../web/images/07/SevenFormulas06.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas06.gif)
 
-![](../../../web/images/07/SevenFormulas07.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas07.gif)
 
-![](../../../web/images/07/SevenFormulas08.gif)
+![](http://www.pmean.com/images/images/07/SevenFormulas08.gif)
 
 Actually, there may be a couple more formulas, but this is still an
 amazing list. So how come some of the formulas produce an odds ratio of

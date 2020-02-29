@@ -16,14 +16,14 @@ on June 5, 2003.*
 *I work a lot with numbers and I've found that there is usually a
 good way to display those numbers and a bad way. Here's an example.*
 
-![](../../../web/images/03/barpie01.gif)
+![](http://www.pmean.com/images/images/03/barpie01.gif)
 
 It's a pie chart with bright bold colors and a deep 3-D effect. Is
 this a good way to display the data? WRONG! You should pitch the pie.
 
 Here's another example.
 
-![](../../../web/images/03/barpie02.gif)
+![](http://www.pmean.com/images/images/03/barpie02.gif)
 
 It's a bar chart with big bold purple bars. Is this a good way to
 display the data? WRONG AGAIN! You should ban the bar.

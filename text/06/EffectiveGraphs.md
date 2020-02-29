@@ -100,7 +100,7 @@ even color blind patients can discern). I don't have Dr. Robbins'
 image, but I think I found a copy of it on the web
 ([www.geocities.com/heartland/8833/coloreye.html](http://www.geocities.com/heartland/8833/coloreye.html))
 
-![EffectiveGraphics01.jpg not found.](../../../web/images/06/EffectiveGraphs01.png)
+![EffectiveGraphics01.jpg not found.](http://www.pmean.com/images/images/06/EffectiveGraphs01.png)
 height="200"}
 
 Dr. Robbins used these two colors in most of her plots because this

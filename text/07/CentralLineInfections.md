@@ -26,7 +26,7 @@ is
 Here is a plot showing central line infections and the number of
 central line days in each month.
 
-![](../../../web/images/07/CentralLineInfections01.gif)
+![](http://www.pmean.com/images/images/07/CentralLineInfections01.gif)
 
 Notice that each month has a few events, except for September,
 October, and November. Also notice that the number of central line
@@ -39,7 +39,7 @@ adjustments for sudden changes in work volume.
 A control chart tracking the frequency of these adverse events would
 look like
 
-![](../../../web/images/07/CentralLineInfections02.gif)
+![](http://www.pmean.com/images/images/07/CentralLineInfections02.gif)
 
 Notice that we created a pseudo event at the end of the year to track
 the amount of time from the last event to the end of the calendar.
@@ -54,7 +54,7 @@ You should consider whether the trends change when you account for the
 unusually high workload in December, and here is a control chart that
 looks at the number of patient years between events.
 
-![](../../../web/images/07/CentralLineInfections03.gif)
+![](http://www.pmean.com/images/images/07/CentralLineInfections03.gif)
 
 Notice that on average, you have 1.1 events per patient year.
 
@@ -102,14 +102,14 @@ days between Jan 24 and the first event on Feb 12 is actually 18.75,
 not 19 and the number of days between the second event on Feb 12 and
 the event on Feb 15 is actually 2.75 rather than 3.
 
-![](../../../web/images/07/CentralLineInfections04.gif)
+![](http://www.pmean.com/images/images/07/CentralLineInfections04.gif)
 
 The graph shown above illustrates how the waiting times between events
 would be calculated if you made no adjustments for multiple events on
 the same day. The three waiting times between events occurring on Jan
 24, Feb 12, Feb 12, and Feb 15 would be 19, 0, and 3.
 
-![](../../../web/images/07/CentralLineInfections05.gif)
+![](http://www.pmean.com/images/images/07/CentralLineInfections05.gif)
 
 This graph shows how you would adjust for two events on the same day.
 A value of 0.5 days is assigned to the waiting time between two events

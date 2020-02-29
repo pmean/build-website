@@ -34,7 +34,7 @@ favorite sites is
 Here is a screen shot showing that a sample of 294 patients in each
 arm of the study would be needed to achieve 80% power
 
-![](../../../web/images/07/DoYourOwnPower01.gif)
+![](http://www.pmean.com/images/images/07/DoYourOwnPower01.gif)
 
 I made two assumptions
 

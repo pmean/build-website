@@ -26,7 +26,7 @@ height of the bell at each data point and then multiply those heights
 together. Shown below are three data points: 0.1, 0.4, and 0.8 along
 with a bell shaped curve.
 
-![](../../../web/images/03/mle01.gif)
+![](http://www.pmean.com/images/images/03/mle01.gif)
 
 This particular bell shaped curve has the values mu=0 and sigma=1. The
 heights are 0.397, 0.368, and 0.29. When you multiply these values
@@ -34,25 +34,25 @@ together, you get a likelihood of 0.0423. That's not bad. Let's see if
 we can do better. Shown below is the same data with a new bell shaped
 curve.
 
-![](../../../web/images/03/mle02.gif)
+![](http://www.pmean.com/images/images/03/mle02.gif)
 
 Here the bell shaped curve has mu=1.2 and sigma=1. This bell shaped
 curve is not as good, because the likelihood is only 0.0232. Let's try
 a third bell shaped curve.
 
-![](../../../web/images/03/mle03.gif)
+![](http://www.pmean.com/images/images/03/mle03.gif)
 
 In this bell shaped curve, mu=0.5 and sigma=1. This is the best so far,
 with a likelihood of 0.0588. But we can improve further by reducing the
 value for sigma.
 
-![](../../../web/images/03/mle04.gif)
+![](http://www.pmean.com/images/images/03/mle04.gif)
 
 Here, mu=0.5 and sigma=0.4. Notice now that the likelihood is 0.4402, a
 substantial improvement over the previous three distributions. What
 happens if we reduce sigma even further?
 
-![](../../../web/images/03/mle05.gif)
+![](http://www.pmean.com/images/images/03/mle05.gif)
 
 Oops! Too far. In the example above, mu=0.5 and sigma=0.2. The
 likelihood has decreased to 0.3077.
@@ -69,13 +69,13 @@ bit of algebra and calculus can help you identify the maximum likelihood
 estimates. You know, for example, that the formula for the height of a
 bell shaped curve is
 
-![](../../../web/images/03/mle06.gif)
+![](http://www.pmean.com/images/images/03/mle06.gif)
 
 so you could substitute the values of 0.1, 0.4, and 0.8 into the above
 formula and then multiply them all together. You would get something
 like
 
-![](../../../web/images/03/mle07.gif)
+![](http://www.pmean.com/images/images/03/mle07.gif)
 
 and with a bit of patience, you could simplify this formula, take the
 first derivative with respect to mu and sigma and set those derivatives
@@ -84,7 +84,7 @@ equal to zero.
 You could also work out a solution for a general case where you have a
 sample of n data points, x1, x2,...,xn. The likelihood would be
 
-![](../../../web/images/03/mle08.gif)
+![](http://www.pmean.com/images/images/03/mle08.gif)
 
 Very carefully, you could find derivatives and set these derivatives
 equal to zero. The solution represents the maximum likelihood estimates
@@ -96,7 +96,7 @@ you find the maximum of the log likelihood that also has to be the
 maximum of the likelihood itself. In the example above, the log
 likelihood is
 
-![](../../../web/images/03/mle09.gif)
+![](http://www.pmean.com/images/images/03/mle09.gif)
 
 That formula may not look a lot simpler, but it is easier to compute
 derivatives for the log likelihood in this and many other situations.

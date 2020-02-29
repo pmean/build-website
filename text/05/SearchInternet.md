@@ -22,7 +22,7 @@ suggested the book by Alan Agresti, Analysis of ordinal categorical data
 (ISBN 0471890553). Find this book on Google Scholar by searching on
 Agresti ordinal. Here's the results of that search.
 
-![05_Citation.Search1.jpg not found.](../../../web/images/05/SearchInternet01.png)
+![05_Citation.Search1.jpg not found.](http://www.pmean.com/images/images/05/SearchInternet01.png)
 
 Each result in Google Scholar also includes a cited by link. The Agresti
 book was cited by 228 other sources. Click on that link to find a wealth

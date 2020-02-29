@@ -19,27 +19,27 @@ Suppose we have a random variable X, which represents the number of
 girls in a family of three children. Without too much effort, you can
 compute the following probabilities.
 
-![Moments01.gif not found.](../../../web/images/05/Moments01.png)
+![Moments01.gif not found.](http://www.pmean.com/images/images/05/Moments01.png)
 
 The expected value of X, E[X], is computed as
 
-![Moments02.gif not found.](../../../web/images/05/Moments02.png)
+![Moments02.gif not found.](http://www.pmean.com/images/images/05/Moments02.png)
 
 This calculation can be easily generalized to more complicated
 situations. Suppose that a rich uncle plans to give you $2,000 for each
 child in your family, with a bonus of $500 for each girl. The formula
 for the bonus is
 
-![Moments03.gif not found.](../../../web/images/05/Moments03.png)
+![Moments03.gif not found.](http://www.pmean.com/images/images/05/Moments03.png)
 
 What is your expected bonus?
 
-![Moments04.gif not found.](../../../web/images/05/Moments04.png)
+![Moments04.gif not found.](http://www.pmean.com/images/images/05/Moments04.png)
 
 Now, you could have calculated the same value by taking the expected
 number of children and plugging it into the equation.
 
-![Moments05.gif not found.](../../../web/images/05/Moments05.png)
+![Moments05.gif not found.](http://www.pmean.com/images/images/05/Moments05.png)
 
 This is a rather simplistic example, but the concept of expected value
 does arise from time to time in real medical problems. For example, in a
@@ -69,17 +69,17 @@ mathematics. Most advanced applications of expected value require
 knowledge of infinite sums and/or integrals. If X is a continuous random
 variable with density function f(x), then the expected value of X is
 
-![Moments06.gif not found.](../../../web/images/05/Moments06.png)
+![Moments06.gif not found.](http://www.pmean.com/images/images/05/Moments06.png)
 
 To calculate such an expected value, you often have to recall your
 college Calculus formulas. Here are a few simple examples. An
 exponential distribution has a density function
 
-![Moments09.gif not found.](../../../web/images/05/Moments07.png)
+![Moments09.gif not found.](http://www.pmean.com/images/images/05/Moments07.png)
 
 where b is a scale parameter. You would compute the expected value as
 
-![Moments10.gif not found.](../../../web/images/05/Moments08.png)
+![Moments10.gif not found.](http://www.pmean.com/images/images/05/Moments08.png)
 
 Notice that the lower limit of the integral is zero rather than
 -infinity because the density is defined only for values between 0 and
@@ -89,16 +89,16 @@ infinity.
 parts](http://en.wikipedia.org/wiki/Integration_by_parts) to compute it.
 The basic form for integration by parts is
 
-![Moments11.gif not found.](../../../web/images/05/Moments09.png)
+![Moments11.gif not found.](http://www.pmean.com/images/images/05/Moments09.png)
 
 Careful selection of u and dv yields the following.
 
-![Moments12.gif not found.](../../../web/images/05/Moments10.png)
+![Moments12.gif not found.](http://www.pmean.com/images/images/05/Moments10.png)
 
 When you evaluate this integral at the limits of zero and infinity, most
 of the terms become zero and you are left with
 
-![Moments13.gif not found.](../../../web/images/05/Moments11.png)
+![Moments13.gif not found.](http://www.pmean.com/images/images/05/Moments11.png)
 
 Now that was a lot of work for a relatively simple expected value
 calculation. For most distributions, someone else has already done the
@@ -116,13 +116,13 @@ for a wide range of statistical distributions is:
 A moment is a special type of expected value. The formal definition of
 the nth moment is
 
-![Moments07.gif not found.](../../../web/images/05/Moments12.png)
+![Moments07.gif not found.](http://www.pmean.com/images/images/05/Moments12.png)
 
 depending on whether x is continuous or discrete. In simpler terms, a
 moment is the expect value of a power of x. A central moment is defined
 similarly, except you subtract the mean before raising to a power.
 
-![Moments08.gif not found.](../../../web/images/05/Moments13.png)
+![Moments08.gif not found.](http://www.pmean.com/images/images/05/Moments13.png)
 
 Moments are used in the calculation of important statistics like the
 mean, variance, skewness, and kurtosis of a distribution. The mean is
@@ -132,30 +132,30 @@ moments..
 
 The second moment of the exponential distribution, for example, is
 
-![Moments14.gif not found.](../../../web/images/05/Moments14.png)
+![Moments14.gif not found.](http://www.pmean.com/images/images/05/Moments14.png)
 
 This integral is again a bit tedious to calculate, because you have to
 use integration by parts twice. When you do this you get
 
-![Moments15.gif not found.](../../../web/images/05/Moments15.png)
+![Moments15.gif not found.](http://www.pmean.com/images/images/05/Moments15.png)
 
 The second central moment of the exponential distribution is
 
-![Moments16.gif not found.](../../../web/images/05/Moments16.png)
+![Moments16.gif not found.](http://www.pmean.com/images/images/05/Moments16.png)
 
 Again, you can use Calculus, but there is a shortcut formula that
 provides an even simpler answer.
 
-![Moments17.gif not found.](../../../web/images/05/Moments17.png)
+![Moments17.gif not found.](http://www.pmean.com/images/images/05/Moments17.png)
 
 Skewness is defined as
 
-![Moments18.gif not found.](../../../web/images/05/Moments18.png)
+![Moments18.gif not found.](http://www.pmean.com/images/images/05/Moments18.png)
 
 Again, you need a bit of patience, but repeated integration by parts
 yields
 
-![Moments19.gif not found.](../../../web/images/05/Moments19.png)
+![Moments19.gif not found.](http://www.pmean.com/images/images/05/Moments19.png)
 
 What does all this tell us from a practical perspective? First notice
 that the variance of the exponential distribution is equal to the square

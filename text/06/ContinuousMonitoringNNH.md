@@ -82,7 +82,7 @@ study and the first patient is 46 days and the gap between the first
 and second patients is 37 days. A plot of the date gaps for the entire
 study appears below:
 
-![](../../../web/images/06/ContinuousMonitoringNNH01.gif)
+![](http://www.pmean.com/images/images/06/ContinuousMonitoringNNH01.gif)
 
 Note that the vertical axis shows a mixture of time units. This was
 done intentionally to emphasize one of the biggest advantages of the
@@ -116,7 +116,7 @@ gap of 30 days. If you plot the cumulative sum of the deviations of
 each individual date gap from the target of 30 days you get the
 following chart.
 
-![](../../../web/images/06/ContinuousMonitoringNNH02.jpg)
+![](http://www.pmean.com/images/images/06/ContinuousMonitoringNNH02.jpg)
 
 The data has shown a clear and consistent problem from the very first
 date gap. After 10 patients, the study is more than a year behind
@@ -136,7 +136,7 @@ The gaps 4, 8, 7, 1, 5, 2, 5, 7, 2 can be plotted in sequence to look
 for trends. If the drop out rate is accelerating, then the number of
 patients seen between each dropout is going to be smaller.
 
-![](../../../web/images/06/ContinuousMonitoringNNH03.gif)
+![](http://www.pmean.com/images/images/06/ContinuousMonitoringNNH03.gif)
 
 The gray line in this graph is drawn at the mean. The mean of the gaps
 can be shown to be equivalent to the number needed to harm (under the

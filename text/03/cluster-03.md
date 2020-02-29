@@ -22,53 +22,53 @@ between the treatment and control group. Homogeneity insures an apples
 to apples comparison. Clusters also have homogeneity, and your
 inability to randomize within a cluster means a missed opportunity to
 improve the homogeneity of the treatment versus control
-![04_cluster1.gif not found.](../../../web/images/03/cluster-0301.png)
+![04_cluster1.gif not found.](http://www.pmean.com/images/images/03/cluster-0301.png)
 height="216"}
 
 This figure illustrates how between and within standard deviations
 contribute to the overall variation. The standard deviations combine
 in a Pythagorean way:
 
-![cluster2.gif not found.](../../../web/images/03/cluster-0302.png)
+![cluster2.gif not found.](http://www.pmean.com/images/images/03/cluster-0302.png)
 
 The intraclass correlation (ICC) is a measure of homogeneity within
 clusters. The formula is
 
-![cluster3.gif not found.](../../../web/images/03/cluster-0303.png)
+![cluster3.gif not found.](http://www.pmean.com/images/images/03/cluster-0303.png)
 
 If the ICC is large and/or if you have very large cluster sizes, then
 cluster sampling will be inefficient. The design effect (DEFF) which
 is also called the inflation factor is a measure of the inefficiency.
 The formula for DEFF is
 
-![cluster4.gif not found.](../../../web/images/03/cluster-0304.png)
+![cluster4.gif not found.](http://www.pmean.com/images/images/03/cluster-0304.png)
 
 To estimate the total sample size in a cluster sample, first estimate
 an unadjusted sample size using the traditional formula. For example,
 the sample size for comparing two binomial proportions is
 
-![cluster7.gif not found.](../../../web/images/03/cluster-0305.png)
+![cluster7.gif not found.](http://www.pmean.com/images/images/03/cluster-0305.png)
 
   Then multiply this sample size by the DEFF to get your adjusted
 sample size.
 
-![cluster8.gif not found.](../../../web/images/03/cluster-0306.png)
+![cluster8.gif not found.](http://www.pmean.com/images/images/03/cluster-0306.png)
 
   The number of clusters, c, is just
 
-![cluster9.gif not found.](../../../web/images/03/cluster-0307.png)
+![cluster9.gif not found.](http://www.pmean.com/images/images/03/cluster-0307.png)
 
 A publication in the International Journal of Epidemiology takes a
 different perspective. It computes a factor k, which represents the
 between cluster coefficient of variation. If you are comparing two
 means, the traditional sample size formula is
 
-![cluster5.gif not found.](../../../web/images/03/cluster-0308.png)
+![cluster5.gif not found.](http://www.pmean.com/images/images/03/cluster-0308.png)
 
 but under a cluster sample with clusters of size m, you would need to
 sample c clusters per group where
 
-![cluster6.gif not found.](../../../web/images/03/cluster-0309.png)
+![cluster6.gif not found.](http://www.pmean.com/images/images/03/cluster-0309.png)
 
 You can think of the k factor as a penalty for the cluster sample and
 if k=0, there is effectively no penalty. As k, the between cluster

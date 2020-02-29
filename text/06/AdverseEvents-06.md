@@ -35,7 +35,7 @@ times in a research study. It's not exactly a study of adverse events
 reports per se, but the example is close enough that I can use to
 illustrate the general concepts.
 
-![06_AdverseEvents01.gif not found.](../../../web/images/06/AdverseEvents-0601.png)
+![06_AdverseEvents01.gif not found.](http://www.pmean.com/images/images/06/AdverseEvents-0601.png)
 
 The accrual rate appears to be more or less constant, though some
 patients appear to stay in the study for only a short period of time. In
@@ -56,7 +56,7 @@ The average number of days between recruitment is 64.5 days, which tells
 you that a new patient enrolls about every other month. You could detect
 whether patient accrual is slowing by looking at the trend in date gaps.
 
-![AdverseEvents02.gif not found.](../../../web/images/06/AdverseEvents-0602.png)
+![AdverseEvents02.gif not found.](http://www.pmean.com/images/images/06/AdverseEvents-0602.png)
 
 An upward trend would imply that recruitment is slowing down, since you
 have to wait an increasing amount of time between successive patients.
@@ -68,7 +68,7 @@ you look at adverse event reports. The following graph shows rates of
 infection for these patients. Each vertical line represents a separate
 infection event.
 
-![AdverseEvents03.gif not found.](../../../web/images/06/AdverseEvents-0603.png)
+![AdverseEvents03.gif not found.](http://www.pmean.com/images/images/06/AdverseEvents-0603.png)
 
 There looks to be some evidence that infection rates are slowing down
 over the past few years. You can look at the date gaps for this data as
@@ -80,7 +80,7 @@ The first and second infections occurred 40 days apart, and the last two
 infections occurred two days apart. A plot of these date gaps is
 instructive.
 
-![AdverseEvents04.gif not found.](../../../web/images/06/AdverseEvents-0604.png)
+![AdverseEvents04.gif not found.](http://www.pmean.com/images/images/06/AdverseEvents-0604.png)
 
 Notice several dry spells when we waited a year or more between
 successive infection events. Notice also in the middle of the plot where

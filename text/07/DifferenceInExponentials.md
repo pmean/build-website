@@ -15,29 +15,29 @@ in values from zero to a maximum followed by gradual return of those
 values to zero for each subject. Here is the data for one of these
 subjects.
 
-![](../../../web/images/07/DifferenceInExponentials01.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials01.gif)
 
 Data of this form can often be modeled by a difference of exponential
 functions. The formula is
 
-![](../../../web/images/07/DifferenceInExponentials02.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials02.gif)
 
 where a, b, and c are constants that determine the shape of the
 function. The constant c determines how quickly the curve rises. For
 now, let's set A=80 and b=0. For a large value of c (1/10), the curve
 rises rapidly, and for a small value (1/100) it rises slowly.
 
-![](../../../web/images/07/DifferenceInExponentials03.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials03.gif)
 
 For any value of c, the curve rises to about 50% of the maximum value at
 0.7/c and to about 95% of the maximum value at 3/c. For c=1/100, these
 values are 70 and 300, respectively.
 
-![](../../../web/images/07/DifferenceInExponentials04.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials04.gif)
 
 The value of b controls how rapidly the curve falls back towards zero.
 
-![](../../../web/images/07/DifferenceInExponentials05.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials05.gif)
 
 For any value of b, the curve falls to about 50% of the maximum after
 0.7/b additional time units beyond the peak time, and falls to only 5%
@@ -47,13 +47,13 @@ t=25. The curve declines to 50% of the maximum approximately 0.7/b=70
 units later or roughly t=95. The curve declines to only 5% of the
 maximum at 3/b=300 units past the maximum or roughly t=325.
 
-![](../../../web/images/07/DifferenceInExponentials06.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials06.gif)
 
 The value of a represents the "potential" maximum. It is a maximum
 that is reached if c is much larger than the b, but when b gets close to
 c, the actual maximum might be quite a bit less than the actual maximum.
 
-![](../../../web/images/07/DifferenceInExponentials07.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials07.gif)
 
 So how would you fit a difference of exponential distributions to the
 curve shown above? First, you need a ballpark estimate of the starting
@@ -65,7 +65,7 @@ apart, so it might be reasonable to start with a=90.
 
 Here is part of the output from SPSS:
 
-![](../../../web/images/07/DifferenceInExponentials08.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials08.gif)
 
 Notice that SPSS on its very first step made large increases in a and c.
 The increase in a is not too surprising because a represents the
@@ -76,7 +76,7 @@ I've learned that it can be easy to underestimate the proper values for
 a and c. Another problem is that the maximum actually occurs between two
 of the data points, as you can see from the graph shown below.
 
-![](../../../web/images/07/DifferenceInExponentials09.gif)
+![](http://www.pmean.com/images/images/07/DifferenceInExponentials09.gif)
 
 Getting perfect initial estimates is not all that critical. If you are
 anywhere close to the correct values, the procedure will converge

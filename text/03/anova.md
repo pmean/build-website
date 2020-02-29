@@ -38,19 +38,19 @@ F-statistic in ANOVA.
 Here's how you would run a t-test in SPSS. First, select ANALYZE |
 COMPARE MEANS | INDEPENDENT SAMPLES T-TEST from the menu.
 
-![](../../../web/images/03/anova01.gif)
+![](http://www.pmean.com/images/images/03/anova01.gif)
 
 In the dialog box, place the outcome variable in the TEST VARIABLE(S)
 field and the categorical variable in the GROUPING VARIABLE field. You
 then define what the two group levels are by clicking on the dialog box.
 
-![](../../../web/images/03/anova02.gif)
+![](http://www.pmean.com/images/images/03/anova02.gif)
 
 In this example, the groups are represented by the strings "Control"
 and "Treatmen". Click on the CONTINUE button and then the OK button of
 the previous dialog box.
 
-![](../../../web/images/03/anova03.gif)
+![](http://www.pmean.com/images/images/03/anova03.gif)
 
 The output from SPSS starts out nicely enough. SPSS tells you that the
 control group has 44 patients, a mean of 13.32, a standard deviation
@@ -64,7 +64,7 @@ Unfortunately, the second table in SPSS is so wide that it is hard to
 display well on your computer screen or in the web page. I split the
 second table into four pieces.
 
-![](../../../web/images/03/anova04.gif)
+![](http://www.pmean.com/images/images/03/anova04.gif)
 
 SPSS provides two different versions of the t-test. The first row,
 labeled "Equal variances assumed," gives the traditional t-test,
@@ -83,7 +83,7 @@ requires fewer assumptions. A third group of people will run a
 statistical test and then choose the row based on that statistical
 test.
 
-![](../../../web/images/03/anova05.gif)
+![](http://www.pmean.com/images/images/03/anova05.gif)
 
 The second part of this table shows Levene's test for equality of
 variances. I dislike Levene's test for a variety of reasons, and it
@@ -96,7 +96,7 @@ because it is the magnitude of the deviation from equality rather than
 the statistical significance of the deviation from equality that is
 important.
 
-![](../../../web/images/03/anova06.gif)
+![](http://www.pmean.com/images/images/03/anova06.gif)
 
 The third part of the table gives the t-test. I would usually select
 the t-test in the first row, but notice here that there is very little
@@ -105,7 +105,7 @@ the p-value is small, we would conclude that there is a statistically
 significant difference between the treatment and control groups in
 average duration of breast feeding.
 
-![](../../../web/images/03/anova07.gif)
+![](http://www.pmean.com/images/images/03/anova07.gif)
 
 The final portion of the table provide the mean difference, the
 standard error for this difference and the confidence interval. SPSS
@@ -123,28 +123,28 @@ is large--at least 2.8 weeks, even after allowing for sampling error.
 Now let's compute the same statistic using an ANOVA model. Select  
 ANALYZE | GENERAL LINEAR MODEL | UNIVARIATE from the SPSS menu.
 
-![](../../../web/images/03/anova08.gif)
+![](http://www.pmean.com/images/images/03/anova08.gif)
 
 Be sure to click on the OPTIONS button.
 
-![](../../../web/images/03/anova09.gif)
+![](http://www.pmean.com/images/images/03/anova09.gif)
 
 The output appears in several nicely formatted tables.
 
-![anova.65.gif not found.](../../../web/images/03/anova10.png)
+![anova.65.gif not found.](http://www.pmean.com/images/images/03/anova10.png)
 somehow. I'll fix it soon. Sorry!]*
 
 Next
 
-![](../../../web/images/03/anova11.gif)
+![](http://www.pmean.com/images/images/03/anova11.gif)
 
 Then
 
-![](../../../web/images/03/anova12.gif)
+![](http://www.pmean.com/images/images/03/anova12.gif)
 
 Finally,
 
-![](../../../web/images/03/anova13.gif)
+![](http://www.pmean.com/images/images/03/anova13.gif)
 
 The situation changes, however, when you have three or more groups.
 Here is some data on critical flicker frequency measured on nineteen
@@ -160,13 +160,13 @@ flickering.* --
 In this data set, the eye color was recorded along with the critical
 flicker frequency. Here is a boxplot of the data.
 
-![](../../../web/images/03/anova14.gif)
+![](http://www.pmean.com/images/images/03/anova14.gif)
 
 Notice that brown eyes tend to have the low flicker frequency and blue
 eyes tend to have high flicker. Here are the means and standard
 deviations for the three groups.
 
-![](../../../web/images/03/anova15.gif)
+![](http://www.pmean.com/images/images/03/anova15.gif)
 
 It looks like there is a large difference between these three groups,
 but could this be caused by sampling error? To answer this question,
@@ -181,7 +181,7 @@ Within subject variation is a measure of the deviation of each
 individual data point from the mean for each group. The figure below
 shows these deviations for the flicker data set.
 
-![](../../../web/images/03/anova16.gif)
+![](http://www.pmean.com/images/images/03/anova16.gif)
 
 You can consider the mean for each group (the brown, green, and blue
 lines shown above) as the predicted value based on group knowledge. In
@@ -190,11 +190,11 @@ estimate for flicker would be the average that you observed for that
 particular eye color. The symbol ^ above Y represents the predicted
 value. Here are the calculations for within subject variation:
 
-![](../../../web/images/03/anova17.gif)
+![](http://www.pmean.com/images/images/03/anova17.gif)
 
-![](../../../web/images/03/anova18.gif)
+![](http://www.pmean.com/images/images/03/anova18.gif)
 
-![](../../../web/images/03/anova19.gif)
+![](http://www.pmean.com/images/images/03/anova19.gif)
 
 The calculations shown above may be slightly different from the ones
 you have seen before. The formulas shown here have an easy
@@ -207,15 +207,15 @@ Between subject variation is a measure of how much the group means
 differ from the overall mean. The figure below shows these deviations
 for the flicker data set.
 
-![](../../../web/images/03/anova20.gif)
+![](http://www.pmean.com/images/images/03/anova20.gif)
 
 Here are the calculations for variation between groups (SSB)
 
-![](../../../web/images/03/anova21.gif)
+![](http://www.pmean.com/images/images/03/anova21.gif)
 
-![](../../../web/images/03/anova22.gif)
+![](http://www.pmean.com/images/images/03/anova22.gif)
 
-![](../../../web/images/03/anova23.gif)
+![](http://www.pmean.com/images/images/03/anova23.gif)
 
 ANOVA models will usually also present a third source of variation,
 total variation, whic is denoted by SS~Total~ or SST.
@@ -224,15 +224,15 @@ Total variation is a measure of how much the individual values differ
 from the overall mean. The figure below shows these deviations for the
 flicker data set.
 
-![](../../../web/images/03/anova24.gif)
+![](http://www.pmean.com/images/images/03/anova24.gif)
 
 Here are the calculations for total variation (SST)
 
-![](../../../web/images/03/anova25.gif)
+![](http://www.pmean.com/images/images/03/anova25.gif)
 
-![](../../../web/images/03/anova26.gif)
+![](http://www.pmean.com/images/images/03/anova26.gif)
 
-![](../../../web/images/03/anova27.gif)
+![](http://www.pmean.com/images/images/03/anova27.gif)
 
 Notice that SST (61.31) is equal to SSW (38.31) plus SSB (23.00).
 
@@ -278,7 +278,7 @@ When you divide a source of variation by its degrees of freedom, you
 get a mean square, which is a type of adjustment to each source of
 variation for the sample size and complexity of your ANOVA model.
 
-![](../../../web/images/03/anova28.gif)
+![](http://www.pmean.com/images/images/03/anova28.gif)
 
 The mean squares provide several valuable estimates in your ANOVA
 model. For example, the square root of MSW is a good estimate of the
@@ -301,7 +301,7 @@ SPSS and most other statistical software will summarize all of the
 statistics described above in an ANOVA table. The general form of the
 ANOVA table is
 
-![](../../../web/images/03/anova29.gif)
+![](http://www.pmean.com/images/images/03/anova29.gif)
 
 Here is how SPSS displays the ANOVA table. SPSS provides additional
 information in the first, second, and fifth rows of this table, which
@@ -309,7 +309,7 @@ really isn't too important for most situations. The third, fourth,
 and sixth rows of the SPSS table represent what is traditionally
 reported.
 
-![](../../../web/images/03/anova30.gif)
+![](http://www.pmean.com/images/images/03/anova30.gif)
 
 For this table, the F ratio is 4.802 (remember that we are ignoring
 the first two rows of the ANOVA table). This is a large value, and the
@@ -343,7 +343,7 @@ or of blue eyes. Here's how you would create an indicator variable
 for brown eyes. First, select TRANSFORM | COMPUTE from the SPSS menu.
 A dialog box like the one shown below will appear.
 
-![](../../../web/images/03/anova31.gif)
+![](http://www.pmean.com/images/images/03/anova31.gif)
 
 The numeric expression (Colour="Brown") runs a test on each row of
 the data. When the test is true, a value of 1 is computed and when the
@@ -358,13 +358,13 @@ Another approach that works well for creating indicator variables is
 to select TRANSFORM | RECODE | INTO DIFFERENT VARIABLES from the
 SPSS menu.
 
-![](../../../web/images/03/anova32.gif)
+![](http://www.pmean.com/images/images/03/anova32.gif)
 
 Put the name of the indicator variable in the OUTPUT VARIABLE window
 and click on the CHANGE button. Then click on the OLD AND NEW VALUES
 button. This brings up another dialog box.
 
-![](../../../web/images/03/anova33.gif)
+![](http://www.pmean.com/images/images/03/anova33.gif)
 
 Designate the category of interest in the OLD VALUE field and use 1 in
 the NEW VALUE field. Then select the SYSTEM OR USER MISSING option
@@ -373,7 +373,7 @@ right side. Finally, select the ALL OTHER VALUES option button on the
 left side and use 0 in the NEW VALUE field. When you are finished, the
 dialog box should look like this:
 
-![](../../../web/images/03/anova34.gif)
+![](http://www.pmean.com/images/images/03/anova34.gif)
 
 Click on the CONTINUE button and then the OK button.
 
@@ -384,19 +384,19 @@ green eyes, but leave out (for now) the indicator for blue eyes.
 Here's what your data set looks like after you create these two
 indicator variables.
 
-![](../../../web/images/03/anova35.gif)
+![](http://www.pmean.com/images/images/03/anova35.gif)
 
 To estimate differences in means, use the two indicator variables as
 covariates in a general linear model.
 
-![](../../../web/images/03/anova36.gif)
+![](http://www.pmean.com/images/images/03/anova36.gif)
 
 Normally, you would reserve the covariate field for continuous
 variables, but it turns out that indicator variables also work well
 here. Be sure to click on the OPTIONS button and select DESCRIPTIVE
 STATISTICS and PARAMETER ESTIMATES in the dialog box that opens.
 
-![](../../../web/images/03/anova37.gif)
+![](http://www.pmean.com/images/images/03/anova37.gif)
 
 The interpretation of this table is interesting. The intercept equals
 the average flicker for blue eyes. The slope for the indicator for
@@ -409,7 +409,7 @@ that you leave out of the model ends up being the center of attention!
 Suppose that we had included indicators for green and blue. The
 parameter estimates change to the following:
 
-![](../../../web/images/03/anova38.gif)
+![](http://www.pmean.com/images/images/03/anova38.gif)
 
 The intercept is now the average for brown and the indicators
 represent the average differences of green from brown (1.333 = 26.920
@@ -428,7 +428,7 @@ SPSS do? It turns out that SPSS will choose the largest value as the
 reference level. With strings, the largest value is the one that
 appears last in alphabetical order.
 
-![](../../../web/images/03/anova39.gif)
+![](http://www.pmean.com/images/images/03/anova39.gif)
 
 **Confidence intervals**
 
@@ -449,7 +449,7 @@ try to insure that the overall confidence level remains at 95%. Click
 on the POST HOC button in the general linear models dialog box to see
 what your options are.
 
-![](../../../web/images/03/anova40.gif)
+![](http://www.pmean.com/images/images/03/anova40.gif)
 
 In this example, the TUKEY option was chosen. Tukey works well when
 you are interested in examining differences between all possible pairs
@@ -460,7 +460,7 @@ control group is either the last (that is, largest) value or the first
 
 Here is part of the output.
 
-![](../../../web/images/03/anova41.gif)
+![](http://www.pmean.com/images/images/03/anova41.gif)
 
 There are six rows in this table, but half of them are simply
 reversals. For example, the confidence interval for Brown - Blue is
@@ -487,7 +487,7 @@ to Brown.
 
 SPSS also produces a list of homogenous subsets.
 
-![](../../../web/images/03/anova42.gif)
+![](http://www.pmean.com/images/images/03/anova42.gif)
 
 This list shows groups of means which would close enough together to
 be considered within the range of sampling error. This list recpas the
@@ -507,7 +507,7 @@ have far less sampling error.
 When you have more than one factor to consider in an ANOVA model, the
 statistics become considerably more complex.
 
-![](../../../web/images/03/anova43.gif)
+![](http://www.pmean.com/images/images/03/anova43.gif)
 
 The graph above shows data for a study of swimming times in a 25 meter
 pool. This experiment looked at three factors which might influence
@@ -531,7 +531,7 @@ SS(goggles) = 24 * 0.79^2 = 14.98. The ANOVA table in SPSS (see
 below) produces a slightly smaller value, 14.90, because the
 calculations above have a bit of rounding error.
 
-![](../../../web/images/03/anova44.gif)
+![](http://www.pmean.com/images/images/03/anova44.gif)
 
 Notice that there is a lot of room for improvement. Total variation is
 193.76, so a model with goggles in it accounts for only 14.90 / 193.76
@@ -540,7 +540,7 @@ Notice that there is a lot of room for improvement. Total variation is
 How much better would the prediction be if we also accounted for the
 second factor, flippers?
 
-![](../../../web/images/03/anova45.gif)
+![](http://www.pmean.com/images/images/03/anova45.gif)
 
 The graph above shows the improvement from a model that includes
 goggles only (flat end of the arrow) to a model that includes goggles
@@ -553,7 +553,7 @@ improvement as SS(flippers | goggles) = 24*2.57^2 = 158.52. The
 ANOVA table in SPSS (see below) produces a slightly different value,
 158.67, again because of rounding error.
 
-![](../../../web/images/03/anova46.gif)
+![](http://www.pmean.com/images/images/03/anova46.gif)
 
 Notice that the model with both goggles and flippers is a much better
 model. The variation accounted for by two factors combined is
@@ -562,7 +562,7 @@ the total variation.
 
 Can we do better by including the third factor, shirt?
 
-![](../../../web/images/03/anova47.gif)
+![](http://www.pmean.com/images/images/03/anova47.gif)
 
 The graph above shows the improvement from a model that includes shirt
 and goggles to a model that includes shirt, goggles, and flippers. The
@@ -574,7 +574,7 @@ flippers) = 24 * 0.69^2 = 11.43. The table in SPSS has a slightly
 different value, 11.30, because the calculations above have some
 rounding error.
 
-![](../../../web/images/03/anova48.gif)
+![](http://www.pmean.com/images/images/03/anova48.gif)
 
 The model with three factors predicts very well. The three factors
 combined account for variation of 14.90 + 158.67 + 11.30 = 184.87,
@@ -586,17 +586,17 @@ Sequential versus partial SS
 The calculations shown above involve a sequence of models. The table
 below summarizes the changes in this sequence of models:
 
-![](../../../web/images/03/anova49.gif)
+![](http://www.pmean.com/images/images/03/anova49.gif)
 
 A single factor model with goggles represent a 14.90 unit increase
 over nothing.
 
-![](../../../web/images/03/anova50.gif)
+![](http://www.pmean.com/images/images/03/anova50.gif)
 
 A two factor model with goggles and flippers together represent a
 158.67 unit improvement over the single factor model.
 
-![](../../../web/images/03/anova51.gif)
+![](http://www.pmean.com/images/images/03/anova51.gif)
 
 A three factor model with goggles, flippers, and shirt represents an
 11.30 unit improvement over the two factor model.
@@ -624,19 +624,19 @@ the other factors have been removed.
 
 Here's an example of partial SS calculations:
 
-![anova.49.gif not found.](../../../web/images/03/anova52.png)
+![anova.49.gif not found.](http://www.pmean.com/images/images/03/anova52.png)
 
 A two factor model without goggles accounts for 169.97 units of
 variation. A model with all three factors accounts for 184.87 units of
 variation. This is an improvement of 14.90 units.
 
-![](../../../web/images/03/anova53.gif)
+![](http://www.pmean.com/images/images/03/anova53.gif)
 
 A two factor model without flippers accounts for 26.20 units of
 variation. A model with all three factors accounts for 184.87 units of
 variation. This is an improvement of 158.67 units.
 
-![](../../../web/images/03/anova54.gif)
+![](http://www.pmean.com/images/images/03/anova54.gif)
 
 A two factor model without shirt accounts for 173.57 units of
 variation. A model with all three factors accounts for 184.87 units of
@@ -657,12 +657,12 @@ delivery type (C/S vs VAG) and marital status (married vs single). An
 important continuous variable is mother's age. The dependent variable
 is the duration of breast feeding.
 
-![](../../../web/images/03/anova55.gif)
+![](http://www.pmean.com/images/images/03/anova55.gif)
 
 When marital status appears first in sequence, it accounts for 640
 units of variation..
 
-![](../../../web/images/03/anova56.gif)
+![](http://www.pmean.com/images/images/03/anova56.gif)
 
 When marital status appears last in sequence, it accounts for only 217
 units of variation. One possible explanation for this finding is that
@@ -673,7 +673,7 @@ could perhaps be also accounted for by mother's age. Notice that the
 SS for mother's age increased from 475 to 787 when it appears in the
 model before
 
-![](../../../web/images/03/anova57.gif)
+![](http://www.pmean.com/images/images/03/anova57.gif)
 
 Partial SS or Type III SS are often thought of as conservative. A
 factor gets a piece of the pie only after all the other factors have
@@ -682,7 +682,7 @@ sequential SS, but not always. Notice for example, that the partial SS
 for delivery type is 1042, which is bigger than the SS when this
 factor enters the model first (962) or second (852).
 
-![](../../../web/images/03/anova58.gif)
+![](http://www.pmean.com/images/images/03/anova58.gif)
 
 Analysis of interactions
 
@@ -691,15 +691,15 @@ examine interactions. An interaction is a combination of two or more
 factors where the joint effect of these factors is not equal to the
 sum of the individual effects.
 
-![](../../../web/images/03/anova59.gif)
+![](http://www.pmean.com/images/images/03/anova59.gif)
 
 Synergism versus antagonism.
 
-![](../../../web/images/03/anova60.gif)
+![](http://www.pmean.com/images/images/03/anova60.gif)
 
 Look at the graph with the flippers and goggles reversing roles.
 
-![](../../../web/images/03/anova61.gif)
+![](http://www.pmean.com/images/images/03/anova61.gif)
 
 This page was written by Steve Simon while working at Children's
 Mercy Hospital. Although I do not hold the copyright for this
@@ -719,15 +719,15 @@ material, I am reproducing it here as a service, as it is no longer
 Mercy Hospital. Although I do not hold the copyright for this
 This page was written by Steve Simon while working at Children's
 
-![](../../../web/images/03/anova61.gif)
+![](http://www.pmean.com/images/images/03/anova61.gif)
 
 Look at the graph with the flippers and goggles reversing roles.
 
-![](../../../web/images/03/anova60.gif)
+![](http://www.pmean.com/images/images/03/anova60.gif)
 
 Synergism versus antagonism.
 
-![](../../../web/images/03/anova59.gif)
+![](http://www.pmean.com/images/images/03/anova59.gif)
 
 sum of the individual effects.
 factors where the joint effect of these factors is not equal to the
@@ -741,15 +741,15 @@ examine interactions. An interaction is a combination of two or more
 factors where the joint effect of these factors is not equal to the
 sum of the individual effects.
 
-![](../../../web/images/03/anova59.gif)
+![](http://www.pmean.com/images/images/03/anova59.gif)
 
 Synergism versus antagonism.
 
-![](../../../web/images/03/anova60.gif)
+![](http://www.pmean.com/images/images/03/anova60.gif)
 
 Look at the graph with the flippers and goggles reversing roles.
 
-![](../../../web/images/03/anova61.gif)
+![](http://www.pmean.com/images/images/03/anova61.gif)
 
 This page was written by Steve Simon while working at Children's
 Mercy Hospital. Although I do not hold the copyright for this

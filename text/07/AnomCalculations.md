@@ -23,11 +23,11 @@ observations. If there are m observations per individual, then N=mI.
 For each individual, calculate a mean and a variance. The formula for
 upper and lower decision limits in this setting is
 
-![](../../../web/images/07/AnomCalculations01.gif)
+![](http://www.pmean.com/images/images/07/AnomCalculations01.gif)
 
 where
 
-![](../../../web/images/07/AnomCalculations02.gif)
+![](http://www.pmean.com/images/images/07/AnomCalculations02.gif)
 
 As a classroom exercise, a group of three volunteers (labeled A, R, and
 V to protect their anonymity) were asked to take turns hitting a target
@@ -39,7 +39,7 @@ Shooting at the target
 
 Measuring the result
 
-![](../../../web/images/07/AnomCalculations03.jpg)
+![](http://www.pmean.com/images/images/07/AnomCalculations03.jpg)
 
 Since the group was small, I asked each team member to shoot twice with
 their dominant hand and twice with their non-dominant hand. For each
@@ -77,5 +77,5 @@ The ANOM limits are
 
 Here is a graph of the results:
 
-![](../../../web/images/07/AnomCalculations06.gif)
+![](http://www.pmean.com/images/images/07/AnomCalculations06.gif)
 

@@ -28,22 +28,22 @@ Here is the data:
 
 The formula for the upper and lower control limits is
 
-![](../../../web/images/07/PControlChart01.gif)
+![](http://www.pmean.com/images/images/07/PControlChart01.gif)
 
 where pbar is the average of the individual proportions and n is the
 denominator for each individual proportion. If you want to compute upper
 and lower warning limits, the formula for these is
 
-![](../../../web/images/07/PControlChart02.gif)
+![](http://www.pmean.com/images/images/07/PControlChart02.gif)
 
 The average proportion is 0.3275 and n is 50. The control limits are
 computed as
 
-![](../../../web/images/07/PControlChart03.gif)
+![](http://www.pmean.com/images/images/07/PControlChart03.gif)
 
 Here is what the control chart looks like:
 
-![](../../../web/images/07/PControlChart04.gif)
+![](http://www.pmean.com/images/images/07/PControlChart04.gif)
 
 Notice that all data points are inside the upper and lower control
 limits and that we do not observe 2 out of 3 consecutive points outside

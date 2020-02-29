@@ -17,7 +17,7 @@ a web page is a proportional width font, which makes much of the
 indenting and spacing in a program look terrible. First, let's look
 at what the program looks like in my text editor.
 
-![PreservingSpaces1.gif not found.](../../../web/images/05/SpacingHtml01.png)
+![PreservingSpaces1.gif not found.](http://www.pmean.com/images/images/05/SpacingHtml01.png)
 
 Here's what the code looks like with the default font.
 

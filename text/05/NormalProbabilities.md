@@ -37,7 +37,7 @@ code.
 
 and here is the graph it produced.
 
-![NormalProbabilities.gif not found.](../../../web/images/05/NormalProbabilities01.png)
+![NormalProbabilities.gif not found.](http://www.pmean.com/images/images/05/NormalProbabilities01.png)
 
 The red line represents the correct value and the black line is the
 Excel formula. Obviously this works well only for positive x values and

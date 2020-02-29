@@ -38,7 +38,7 @@ For a continuous outcome, a commonly reported statistic is the
 difference between the treatment mean and the control mean divided by
 the standard deviation in the control group.
 
-![](../../../web/images/05/metaanalysis01.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis01.gif)
 
 For this equation and all equations below, the subscript iT represents
 data from the treatment group of the ith study and the subscript iC
@@ -54,35 +54,35 @@ estimate or that adjust for biases due to small sample sizes.
 
 The standard error of the estimate is
 
-![](../../../web/images/05/metaanalysis02.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis02.gif)
 
 For a binary outcome, such as mortality, you have several choices. You
 can compute the risk difference
 
-![](../../../web/images/05/metaanalysis03.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis03.gif)
 
 You can also compute the relative risk, but traditionally, this is
 transformed to the log scale first.
 
-![](../../../web/images/05/metaanalysis04.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis04.gif)
 
 You can also compute the odds ratio, and this is almost always
 transformed to the log scale as well.
 
-![](../../../web/images/05/metaanalysis05.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis05.gif)
 
 The standard error of the risk difference is
 
-![](../../../web/images/05/metaanalysis06.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis06.gif)
 
 For the relative risk and the odds ratio, we need to analyze the data on
 the log scale. The log relative risk has a standard error of
 
-![](../../../web/images/05/metaanalysis07.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis07.gif)
 
 and the log odds ratio has a standard error of
 
-![](../../../web/images/05/metaanalysis08.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis08.gif)
 
 There is no consensus on the best measure among the risk difference,
 relative risk, or odds ratio. The risk difference has certain advantages
@@ -107,12 +107,12 @@ The simplest combined estimate is a weighted average of the individual
 study results. The weights are inversely proportional to the square of
 the standard error,
 
-![](../../../web/images/05/metaanalysis09.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis09.gif)
 
 which gives greater weight to those studies with smaller standard
 errors. The weighted average is
 
-![](../../../web/images/05/metaanalysis10.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis10.gif)
 
 where r is the number of studies in the meta-analysis. This is known as
 the fixed effects estimate. It is a good starting point for further
@@ -139,14 +139,14 @@ showed standardized mean differences (smd) for the reduction in Total
 Cell counts and confidence limits (lcl, ucl) in six studies in Table 3.
 I retyped that data in SPSS.
 
-![](../../../web/images/05/metaanalysis11.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis11.gif)
 
 I computed the standard error by subtracting the lower confidence limit
 from the standardized mean difference and then divided by 1.96. I also
 computed as the inverse of the squared standard error to represent the
 weight for each study.
 
-![](../../../web/images/05/metaanalysis12.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis12.gif)
 
 The sum of the weights is 35.37 and the sum of smd times the weights is
 -14.91. Divide the second value by the first to get the overall estimate
@@ -166,13 +166,13 @@ Another example of a meta-analysis appears in
 I re-typed the table of odds ratios and 95% confidence intervals into
 Microsoft Excel.
 
-![](../../../web/images/05/metaanalysis13.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis13.gif)
 
 To calculate a standard error, you first have to transform the odds
 ratio and the confidence limits to the log scale. I used base 10
 logarithms, here but any other type of logarithm will also work.
 
-![](../../../web/images/05/metaanalysis14.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis14.gif)
 
 To compute a standard error, take the log(ucl), subtract the log(or) and
 divide by 1.96. I could have used the log(lcl) instead, but if you look
@@ -182,7 +182,7 @@ since only one significant figure is displayed.
 
 Next, I computed weights and a weighted sum.
 
-![](../../../web/images/05/metaanalysis15.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis15.gif)
 
 The overall estimate of the log odds ratio is -33.317 / 147.115 =
 -0.226. Take the inverse of the sum of the weights and calculate a
@@ -231,7 +231,7 @@ forest plot appears in
 and because this is an open-access article, I can reproduce the graph
 here.
 
-![](../../../web/images/05/metaanalysis16.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis16.gif)
 
 Since BMC Medicine is published with an [open access
 license](http://www.biomedcentral.com/info/about/license), I can freely
@@ -259,7 +259,7 @@ library.
 
 `> plot(TotalCells.ma,comb.f=T)`
 
-![](../../../web/images/05/metaanalysis17.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis17.gif)
 
 Another way to display the results of a meta-analysis looks at the
 cumulative effect over time as additional studies accumulate. At the top
@@ -282,7 +282,7 @@ shows cumulative meta-analysis, which is the cumulated effects over time
 of studies in the use of erythropoietin (EPO) to treat cancer related
 anemia.
 
-![](../../../web/images/05/metaanalysis18.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis18.gif)
 
 Since BMC Cancer is published with an [open access
 license](http://www.biomedcentral.com/info/about/license), I can freely
@@ -314,13 +314,13 @@ After you have an overall estimate, you should compute the amount of
 variability of each study from the overall estimate. You do this by
 computing a Z-score for each study,
 
-![](../../../web/images/05/metaanalysis19.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis19.gif)
 
 and then seeing how much all of these Z-scores differ from zero by
 squaring the Z-scores and adding them up. This gives you a test
 statistic, Cochran's Q,
 
-![](../../../web/images/05/metaanalysis20.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis20.gif)
 
 An unusually large value for Q implies substantial heterogeneity,
 because you have more variation among the studies than you would expect
@@ -339,7 +339,7 @@ Another alternative is I-squared ([Higgins
 a statistic that measures the proportion of inconsistency in individual
 studies that cannot be explained by chance.
 
-![](../../../web/images/05/metaanalysis21.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis21.gif)
 
 Negative values are not allowed for I-squared. If you compute a negative
 value, set I-squared to zero instead.
@@ -358,11 +358,11 @@ The random effects model is an alternative way to combine estimates that
 explicitly accounts for heterogeneity. In the random effects model, each
 study statistic is assumed to be composed of
 
-![](../../../web/images/05/metaanalysis22.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis22.gif)
 
 where the second component is normally distributed random effect
 
-![](../../../web/images/05/metaanalysis23.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis23.gif)
 
 that accounts for the heterogeneity from study to study. A frequent
 criticism of the random effects meta-analysis is this assumption that
@@ -373,7 +373,7 @@ instead.
 You can use the Method of Moments and Cochran's Q statistic to estimate
 the between study variation:
 
-![](../../../web/images/05/metaanalysis24.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis24.gif)
 
 Notice that the numerator is a measure of how much the Cochran's Q
 statistic exceeds its degrees of freedom. If you get a negative estimate
@@ -383,7 +383,7 @@ With an estimate of between study variation, you can now compute the
 random effects estimate as a weighted average, just like the fixed
 effects estimate, except the weights in the random effects estimate are
 
-![](../../../web/images/05/metaanalysis26.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis26.gif)
 
 where w~i~ are the weights used in the fixed effects model.
 
@@ -394,7 +394,7 @@ heterogeniety is large, large enough to dominate the standard errors,
 you effectively have a random sample of studies each of which is more or
 less identically distributed:
 
-![](../../../web/images/05/metaanalysis26.gif)
+![](http://www.pmean.com/images/images/05/metaanalysis26.gif)
 
 In addition to producing weights that are closer to equal weighting, the
 confidence intervals for a random effects meta-analysis are typically
@@ -415,7 +415,7 @@ for evidence of publication bias. An example of a funnel plot appears in
     [Full text]](http://www.biomedcentral.com/1471-2288/4/20)
     [PDF]](http://www.biomedcentral.com/content/pdf/1471-2288-4-20.pdf)
 
-![](../../../web/images/05/metaanalysis27.jpg)
+![](http://www.pmean.com/images/images/05/metaanalysis27.jpg)
 
 Another funnel plot with conical guidelines superimposed appears in
 
@@ -427,7 +427,7 @@ Another funnel plot with conical guidelines superimposed appears in
     [Full text]](http://www.biomedcentral.com/1471-2334/2/21)
     [PDF]](http://www.biomedcentral.com/content/pdf/1471-2334-2-21.pdf)
 
-![](../../../web/images/05/metaanalysis28.jpg)
+![](http://www.pmean.com/images/images/05/metaanalysis28.jpg)
 
 Interestingly enough, most of the meta-analyses published in Biomed
 Central had the following statement (almost word for word)

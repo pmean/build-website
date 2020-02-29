@@ -28,16 +28,16 @@ For example, there are a lot of studies looking at stress and its
 relationship to health. So how do you measure stress?
 
 1.  You can look at physiologic signs.
-![](../../../web/images/06/StatisticalConcernsChildren12.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren12.gif)
     [academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm](http://academic.cuesta.edu/wholehealth/Level2/Lecpages/str07.htm)
       
 2.  You can hook someone up to a meter that measures stress.
-![](../../../web/images/06/StatisticalConcernsChildren02.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren02.jpg)
     height="336"}
       [www.cliving.org/stresstools.htm](http://www.cliving.org/stresstools.htm)
       
 3.  You can ask people to fill out a survey.
-![](../../../web/images/06/StatisticalConcernsChildren03.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren03.gif)
     [www.agnet.org/library/image/pt2003033t1.html](http://www.agnet.org/library/image/pt2003033t1.html)
 
 Just because you attach the label "stress" to a questionnaire or an
@@ -86,7 +86,7 @@ a task like this. The situation is hopeless, though. For a child that
 has only limited verbal skills, the following graphic can be used to
 measure pain.
 
-![](../../../web/images/06/StatisticalConcernsChildren04.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren04.gif)
 (Source:
 [painsourcebook.ca/pdfs/pps92.pdf](http://painsourcebook.ca/pdfs/pps92.pdf))
 
@@ -112,13 +112,13 @@ overweight, 30 and higer and you are obese. In children, the values vary
 markedly by age and gender. Here's a   chart of the percentiles of BMI
 for girls ages 2 to 20 (reduced in size to make it fit better here).
 
-![](../../../web/images/06/StatisticalConcernsChildren05.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren06.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren07.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren08.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren09.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren10.jpg)
-![](../../../web/images/06/StatisticalConcernsChildren11.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren05.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren06.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren07.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren08.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren09.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren10.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren11.jpg)
 
 (Source:
 [www.cdc.gov/nchs/data/nhanes/growthcharts/set1clinical/cj41c024.pdf](http://www.cdc.gov/nchs/data/nhanes/growthcharts/set1clinical/cj41c024.pdf))
@@ -143,7 +143,7 @@ still have very high birthrates. Here's the age distribution in England
 and Wales. The median age in England and Wales is 37 years, and less
 than 25% of the population is under the age of 20.
 
-![](../../../web/images/06/StatisticalConcernsChildren12.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren12.gif)
 Source:
 [www.statistics.gov.uk/census2001/pyramids/pages/727.asp](http://www.statistics.gov.uk/census2001/pyramids/pages/727.asp)
 
@@ -185,23 +185,23 @@ events in the other group.
 The derivation of the rule of 50 is quite simple. The classic formula
 for sample size is
 
-![](../../../web/images/06/StatisticalConcernsChildren13.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren13.gif)
 
 The notation here is fairly standard
 
   ------------------------------------------------ -----------------------------------------------------------------------------------------------------------------------------
-![](../../../web/images/06/StatisticalConcernsChildren14.gif)
-![](../../../web/images/06/StatisticalConcernsChildren15.gif)
-![](../../../web/images/06/StatisticalConcernsChildren16.gif)
-![](../../../web/images/06/StatisticalConcernsChildren17.gif)
-![](../../../web/images/06/StatisticalConcernsChildren18.gif)
-![](../../../web/images/06/StatisticalConcernsChildren19.gif)
-![](../../../web/images/06/StatisticalConcernsChildren20.gif)
-![](../../../web/images/06/StatisticalConcernsChildren21.gif)
-![](../../../web/images/06/StatisticalConcernsChildren22.gif)
-![](../../../web/images/06/StatisticalConcernsChildren23.gif)
-![](../../../web/images/06/StatisticalConcernsChildren24.gif)
-![](../../../web/images/06/StatisticalConcernsChildren25.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren14.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren15.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren16.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren17.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren18.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren19.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren20.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren21.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren22.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren23.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren24.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren25.gif)
   ------------------------------------------------ -----------------------------------------------------------------------------------------------------------------------------
 
 Assume that the probability of success is small in both groups, so that
@@ -213,27 +213,27 @@ beta level of 0.20. With these assumptions, we get the following
 relationships.
 
   ------------------------------------------------ ------------------------------------------------
-![](../../../web/images/06/StatisticalConcernsChildren14.gif)
-![](../../../web/images/06/StatisticalConcernsChildren15.gif)
-![](../../../web/images/06/StatisticalConcernsChildren16.gif)
-![](../../../web/images/06/StatisticalConcernsChildren17.gif)
-![](../../../web/images/06/StatisticalConcernsChildren18.gif)
-![](../../../web/images/06/StatisticalConcernsChildren19.gif)
-![](../../../web/images/06/StatisticalConcernsChildren36.gif)
-![](../../../web/images/06/StatisticalConcernsChildren21.gif)
-![](../../../web/images/06/StatisticalConcernsChildren22.gif)
-![](../../../web/images/06/StatisticalConcernsChildren23.gif)
-![](../../../web/images/06/StatisticalConcernsChildren24.gif)
-![](../../../web/images/06/StatisticalConcernsChildren25.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren14.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren15.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren16.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren17.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren18.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren19.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren36.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren21.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren22.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren23.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren24.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren25.gif)
   ------------------------------------------------ ------------------------------------------------
 
 Substitute these values into the formula for sample size to get
 
-![](../../../web/images/06/StatisticalConcernsChildren48.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren48.gif)
 
 which simplifies to
 
-![](../../../web/images/06/StatisticalConcernsChildren49.gif)
+![](http://www.pmean.com/images/images/06/StatisticalConcernsChildren49.gif)
 
 We round this up to 50.
 

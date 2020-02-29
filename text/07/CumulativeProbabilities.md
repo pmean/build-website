@@ -21,11 +21,11 @@ formulas do indeed work. There are well known relationships for the
 cumulative distributions of the Poisson and binomial distributions that
 lead to these formulas.
 
-![](../../../web/images/07/CumulativeProbabilities01.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities01.gif)
 
 and
 
-![](../../../web/images/07/CumulativeProbabilities02.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities02.gif)
 
 These can be found on page 127 and page 40, respectively of
 
@@ -50,41 +50,41 @@ Chi-squared random variable is fairly easy to show if you recognize the
 relationship between the Chi-squared distribution and the Gamma
 distribution. The first equation above can be rewritten as
 
-![](../../../web/images/07/CumulativeProbabilities03.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities03.gif)
 
 The left side of the equation equals
 
-![](../../../web/images/07/CumulativeProbabilities04.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities04.gif)
 
 and the right side of the equation equals
 
-![](../../../web/images/07/CumulativeProbabilities05.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities05.gif)
 
 You can compute this by using [integration by
 parts](http://en.wikipedia.org/wiki/Integration_by_parts). If you let
 
-![](../../../web/images/07/CumulativeProbabilities06.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities06.gif)
 
 then the integral simplifies to
 
-![](../../../web/images/07/CumulativeProbabilities07.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities07.gif)
 
 or
 
-![](../../../web/images/07/CumulativeProbabilities08.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities08.gif)
 
 Repeat the process again to get
 
-![](../../../web/images/07/CumulativeProbabilities09.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities09.gif)
 
 and again and again until you get down to
 
-![](../../../web/images/07/CumulativeProbabilities10.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities10.gif)
 
 A gamma distribution with shape parameter 1 is simply an exponential
 distribution and this last probability works out directly to equal
 
-![](../../../web/images/07/CumulativeProbabilities11.gif)
+![](http://www.pmean.com/images/images/07/CumulativeProbabilities11.gif)
 
 This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am

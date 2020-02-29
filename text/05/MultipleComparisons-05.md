@@ -54,22 +54,22 @@ procedure.
 
 Step 1. Sort the p-values from low to high:
 
-![02a.gif not found.](../../../web/images/05/MultipleComparisons-0501.png)
+![02a.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0501.png)
 
 Step 2: Multiply the p-values by K, K-1, K-2,...
 
-![02b.gif not found.](../../../web/images/05/MultipleComparisons-0502.png)
+![02b.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0502.png)
 
 Step 3: Correct for any p-values out of their proper order.
 
-![02c.gif not found.](../../../web/images/05/MultipleComparisons-0503.png)
+![02c.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0503.png)
 
 Here's a small example. Suppose I have ten p-values: 0.0002, 0.0011,
 0.0012, 0.0015, 0.0022, 0.0091, 0.0131, 0.0152, 0.0311, and 0.1986.
 These are impressively small, even after accounting for the fact that we
 have ten of them.
 
-![02d.gif not found.](../../../web/images/05/MultipleComparisons-0504.png)
+![02d.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0504.png)
 
 Notice that the first part of the Holm adjustment (the fourth column)
 leaves a few of the adjusted p-values out of order. The third p-value is
@@ -140,22 +140,22 @@ The formal mathematical definition is
 
 Step 1. Sort the p-values from high to low:
 
-![02e.gif not found.](../../../web/images/05/MultipleComparisons-0505.png)
+![02e.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0505.png)
 
 Step 2. Multiply the p-values by 1, K/(K-1), K/(K-2), ..., K.
 
-![Holm06.gif not found.](../../../web/images/05/MultipleComparisons-0506.png)
+![Holm06.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0506.png)
 
 Step 3. Correct for any p-values out of the proper order.
 
-![02g.gif not found.](../../../web/images/05/MultipleComparisons-0507.png)
+![02g.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0507.png)
 
 Here's the same example using the ten p-values discussed above. It
 seems a bit silly, perhaps to apply the false discovery rate to such a
 small number of p-values, but it does help to illustrate the
 calculations.
 
-![02h.gif not found.](../../../web/images/05/MultipleComparisons-0508.png)
+![02h.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0508.png)
 
 The p-values for the Holm adjustment are listed at the end for
 comparison.
@@ -176,7 +176,7 @@ the notation which appears in the book
 The Bonferroni approach (and the Holm adjustment) control the familywise
 error rate, which is defined as
 
-![02i.gif not found.](../../../web/images/05/MultipleComparisons-0509.png)
+![02i.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0509.png)
 
 This is saying that even a single false positive is intolerable and you
 must control this scrupulously. For a microarray experiment, this may be
@@ -185,7 +185,7 @@ V/R. A formal mathematical definition here is a bit tricky, because we
 can't allow even a small probability that the denominator is zero. It
 turns out that the false discovery rate is equal to
 
-![02j.gif not found.](../../../web/images/05/MultipleComparisons-0510.png)
+![02j.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0510.png)
 
 Once you let go of the concepts of p-values, then you can drop the
 dogmatic insistence on an alpha level of 0.05 as well.

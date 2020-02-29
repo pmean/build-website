@@ -46,7 +46,7 @@ This exercise is described in
 Here is a picture showing how to prepare the helicopter from page 260 of
 their book.
 
-![QualityExercise1.jpg not found.](../../../web/images/05/QualityControlExercises01.png)
+![QualityExercise1.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercises01.png)
 
 Another approach would use a catapult and try to optimize the distance
 that the object is thrown. You can buy a very nice catapult that was

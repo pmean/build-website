@@ -72,7 +72,7 @@ The following graph shows the predictions across the 338 days with over
 predictions in red and under predictions in blue. Days where the
 prediction was perfect are represented by black dots.
 
-![randomization01.gif not found.](../../../web/images/06/PairedRandomization01.png)
+![randomization01.gif not found.](http://www.pmean.com/images/images/06/PairedRandomization01.png)
 
 A simple, but incorrect, application of a randomization test would be to
 shuffle the labels so that of the 676 temperatures listed above, 338
@@ -82,7 +82,7 @@ is that one sample might have a few too many winter   values and the
 other sample might have a few too many summer values. It unnecessarily
 increases the variation in the randomization distribution.
 
-![randomization02.gif not found.](../../../web/images/06/PairedRandomization02.png)
+![randomization02.gif not found.](http://www.pmean.com/images/images/06/PairedRandomization02.png)
 
 The picture shown above is what happens when you apply the randomization
 procedure incorrectly. Notice that some winter predictions were paired
@@ -98,7 +98,7 @@ not consistently underpredict or overpredict, then the observed
 difference of 0.7 degrees will fall well inside the distribution of
 differences in the randomization distribution.
 
-![randomization03.gif not found.](../../../web/images/06/PairedRandomization03.png)
+![randomization03.gif not found.](http://www.pmean.com/images/images/06/PairedRandomization03.png)
 
 The picture above shows the better approach to randomization. It has a
 pattern that looks a lot like the original data, but if you look
@@ -117,7 +117,7 @@ a random order (using the sample function). Then pick the first 338
 values for the media.outlet randomizaiton sample and place the remainder
 in observed.temperature.
 
-![randomization04.gif not found.](../../../web/images/06/PairedRandomization04.png)
+![randomization04.gif not found.](http://www.pmean.com/images/images/06/PairedRandomization04.png)
 
 The results of this randomization appear above. Notice that the observed
 difference (0.7 degrees) falls well inside the randomization
@@ -136,7 +136,7 @@ populate the media.outlet randomization scores with media.outlet values
 if you do not swap, and with observed.tmp values if you do swap. Reverse
 this for the observed.tmp values.
 
-![randomization05.gif not found.](../../../web/images/06/PairedRandomization05.png)
+![randomization05.gif not found.](http://www.pmean.com/images/images/06/PairedRandomization05.png)
 
 The distribution of values using the good randomization approach appears
 above. This distribution is much more precise because it does not mix

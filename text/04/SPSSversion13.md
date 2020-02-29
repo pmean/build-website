@@ -19,7 +19,7 @@ between two dates](../data/dates.asp). SPSS has now added a Data and
 Time Wizard. Select TRANSFORM | DATE/TIME from the menu. Here's the
 first dialog box from that menu.
 
-![spss.gif not found.](../../../web/images/04/SPSSversion1301.png)
+![spss.gif not found.](http://www.pmean.com/images/images/04/SPSSversion1301.png)
 
 This is a very pleasant surprise, since dates are a source of constant
 confusion for me and for the people I work with. There were other

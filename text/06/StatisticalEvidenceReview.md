@@ -30,7 +30,7 @@ Here's a snapshot form one of the [catalogs of the Oxford University
 Press](http://www.oup.co.uk/academic/science/maths/mathcat/statscat06.pdf)
 about my book.
 
-![](../../../web/images/06/StatisticalEvidenceReview01.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalEvidenceReview01.jpg)
 
 To see if anything else was out there, I did a Google search for
 
@@ -113,7 +113,7 @@ Amazon has an algorithm that recommends buying pairs of related items,
 and when I looked at the Amazon page for my book, here is what they
 recommended:
 
-![](../../../web/images/06/StatisticalEvidenceReview02.jpg)
+![](http://www.pmean.com/images/images/06/StatisticalEvidenceReview02.jpg)
 
 It is a true honor that the folks at Amazon think that Jane Austen and I
 are perfect partners.

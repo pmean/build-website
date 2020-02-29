@@ -22,7 +22,7 @@ Analysis of Variance calculations. Some software, including Microsoft
 Excel will have problems for **data that is almost perfectly
 constant**. The benchmark data set is computed as
 
-![](../../../web/images/03/accuracy01.gif)
+![](http://www.pmean.com/images/images/03/accuracy01.gif)
 
 You can show through simple algebra that if I and J are both odd, this
 benchmark produces Mean Square Between Treatments (MSTR) of 0.01 J and
@@ -30,22 +30,22 @@ Mean Square Within Treatments (MSE) of 0.01. But **when gamma is
 large, the data becomes so nearly constant that many software programs
 will have trouble computing MSTR and MSE**.
 
-![](../../../web/images/03/accuracy02.gif)
+![](http://www.pmean.com/images/images/03/accuracy02.gif)
 
 Shown above is an example of the benchmark data set with I=5, J=7, and
 gamma=1,000. For these values, Excel produces very accurate results.
 
-![](../../../web/images/03/accuracy03.gif)
+![](http://www.pmean.com/images/images/03/accuracy03.gif)
 
 Notice that MSTR (Between Groups) is 0.07 and MSE (Within Groups) is
 0.01 (see above), as they should be.
 
-![](../../../web/images/03/accuracy04.gif)
+![](http://www.pmean.com/images/images/03/accuracy04.gif)
 
 Shown above is the same benchmark data set with I=5, J=7 and
 gamma=1,000,000,000.
 
-![](../../../web/images/03/accuracy05.gif)
+![](http://www.pmean.com/images/images/03/accuracy05.gif)
 
 With this extreme value, **Excel produces a negative value for MSTR**
 (see above), which is mathematically impossible. By examining values

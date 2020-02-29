@@ -30,7 +30,7 @@ even worse. A woman with an IQ of 85 would have a 110% chance of
 marriage and a woman with an IQ of 70 would have a 170% chance of
 getting married.
 
-![SixtyPercent02.gif not found.](../../../web/images/05/SixtyPercentDrop01.png)
+![SixtyPercent02.gif not found.](http://www.pmean.com/images/images/05/SixtyPercentDrop01.png)
 
 So you know right away that the probability is not additive. Maybe it is
 a relative probability, which means that you multiply rather than add.
@@ -47,7 +47,7 @@ divide 50% by 40%. This creates a probability of 125%. For a woman with
 an IQ of 70, the probability would be 312%, clearly an impossible value
 unless polygamy is allowed.
 
-![SixtyPercent03.gif not found.](../../../web/images/05/SixtyPercentDrop02.png)
+![SixtyPercent03.gif not found.](http://www.pmean.com/images/images/05/SixtyPercentDrop02.png)
 
 What the 60% probably refers to is a 60% change in the odds of getting
 married. This corresponds to an odds ratio of 0.4. It may help to
@@ -57,12 +57,12 @@ increase 2.5 times for every 15 unit decrease in IQ. A 30 unit shift
 would produce a 6.25 (=2.5^2) change in the odds of marriage. Here are
 the calculations.
 
-![SixtyPercent04.gif not found.](../../../web/images/05/SixtyPercentDrop03.png)
+![SixtyPercent04.gif not found.](http://www.pmean.com/images/images/05/SixtyPercentDrop03.png)
 
 Converting from odds to probability is a bit tricky. The formula depends
 on whether the odds are in favor of the event or against the event.
 
-![SixtyPercent01.gif not found.](../../../web/images/05/SixtyPercentDrop04.png)
+![SixtyPercent01.gif not found.](http://www.pmean.com/images/images/05/SixtyPercentDrop04.png)
 
 So four to one odds in favor of an event translates into 4/5 or an 80%
 probability. Four to one odds against an event translates into 1/5 or a

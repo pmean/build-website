@@ -14,12 +14,12 @@ I tried a pilot experiment of a quality control exercise. It seemed to
 go fairly well. The goal of the exercise was to flip a coin from a table
 onto a target on the floor below.
 
-![QualityControl1.jpg not found.](../../../web/images/05/QualityControlExercsiesPart201.png)
+![QualityControl1.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercsiesPart201.png)
 
 This blurry picture is a recreation of the exercise. A measurer would
 then note the distance from the penny to the target.
 
-![QualityControl2.jpg not found.](../../../web/images/05/QualityControlExercsiesPart202.png)
+![QualityControl2.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercsiesPart202.png)
 
 The team had 20 practice flips and then had to write an SOP (standard
 operating procedure). This was a bit confusing to the team, so I pointed
@@ -31,7 +31,7 @@ trials and record the distances from the target. Here is the graph of
 the results, rather crudely drawn. I drew the graph because there were
 only two team members in my pilot exercise.
 
-![QualityControl3.jpg not found.](../../../web/images/05/QualityControlExercsiesPart203.png)
+![QualityControl3.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercsiesPart203.png)
 
 As you can see, the graph doesn't need to be fancy. After these 20
 trials, I asked the team if they could think of a way to improve the
@@ -41,7 +41,7 @@ after initial impact. Most of the coin flips landed close enough but
 then bounced further away. They ended up using a sugar packet. The graph
 of their next 20 trials appears below.
 
-![QualityControl4.jpg not found.](../../../web/images/05/QualityControlExercsiesPart204.png)
+![QualityControl4.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercsiesPart204.png)
 
 This entire experiment took about 30 minutes. With a bit more time, I
 would discuss the computation of a center line and control limits.

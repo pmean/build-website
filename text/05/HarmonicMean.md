@@ -31,7 +31,7 @@ per mile rather than the miles per gallon.
 Another way to approach this is to compute the harmonic mean. The
 formula for the harmonic mean looks unusual:
 
-![HarmonicMean01.gif not found.](../../../web/images/05/HarmonicMean01.png)
+![HarmonicMean01.gif not found.](http://www.pmean.com/images/images/05/HarmonicMean01.png)
 
 but you can do the same computation by
 

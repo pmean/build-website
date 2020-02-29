@@ -40,7 +40,7 @@ The warning limits are
 Here is the control chart for the means (note that the numbers are
 slightly different because of rounding).
 
-![](../../../web/images/07/XbarSControlChartAnswers01.gif)
+![](http://www.pmean.com/images/images/07/XbarSControlChartAnswers01.gif)
 
 The upper control limit for the S chart is
 
@@ -58,7 +58,7 @@ line or
 Here is the S chart (note again some slight discrepancies due to
 rounding).
 
-![](../../../web/images/07/XbarSControlChartAnswers02.gif)
+![](http://www.pmean.com/images/images/07/XbarSControlChartAnswers02.gif)
 
 [![Creative Commons
 License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)

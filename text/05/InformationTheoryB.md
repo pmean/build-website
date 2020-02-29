@@ -20,7 +20,7 @@ I was browsing through the book
 when I noticed that they defined the information content of the
 exponential distribution as
 
-![Information01.gif not found.](../../../web/images/05/InformationTheoryB01.png)
+![Information01.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB01.png)
 
 where e is the mathematical constant 2.718... and b is the scale
 parameter (effectively the standard deviation) of the exponential
@@ -29,31 +29,31 @@ information theory models for categorical variables and had wondered how
 you might extend this to continuous variables. Earlier in the book, they
 defined information content (or entropy) as
 
-![Information02.gif not found.](../../../web/images/05/InformationTheoryB02.png)
+![Information02.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB02.png)
 
 Compare this to the formula used for categorical variables
 
-![Information03.gif not found.](../../../web/images/05/InformationTheoryB03.png)
+![Information03.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB03.png)
 
 If you took a continuous distribution and created bins of size 1/n, the
 probability for bin i would be
 
-![Information04.gif not found.](../../../web/images/05/InformationTheoryB04.png)
+![Information04.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB04.png)
 
 Note that with this notation, i could take on both negative and positive
 values, depending on the range of the distribution. For large n, this
 looks suspiciously like the top half of a the definition of a
 derivative. This tells you that the difference can be approximated by
 
-![Information05.gif not found.](../../../web/images/05/InformationTheoryB05.png)
+![Information05.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB05.png)
 
 So the entropy for a continuous variable using bins of size 1/n is
 
-![Information06.gif not found.](../../../web/images/05/InformationTheoryB06.png)
+![Information06.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB06.png)
 
 The left side of the equation is approximately equal to
 
-![Information07.gif not found.](../../../web/images/05/InformationTheoryB07.png)
+![Information07.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB07.png)
 
 and the right side is the classic [Riemann
 sum](http://en.wikipedia.org/wiki/Riemann_sum) and will converge to the
@@ -70,7 +70,7 @@ work on the concept a bit.
 The book also computes the information content for the normal
 distribution. It is
 
-![Information08.gif not found.](../../../web/images/05/InformationTheoryB08.png)
+![Information08.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB08.png)
 
 For both of these distributions, a doubling of the standard deviation
 leads to one extra bit of uncertainty. The book does not derive the
@@ -78,7 +78,7 @@ information content for a uniform distribution, but that is very easy to
 calculate also. If X is uniform on the interval 0 to a, then the
 information content of X is
 
-![Information09.gif not found.](../../../web/images/05/InformationTheoryB09.png)
+![Information09.gif not found.](http://www.pmean.com/images/images/05/InformationTheoryB09.png)
 
 which again is very intuitive. If you cut the range of a uniform
 distribution in half, you have one less bit of uncertainty.

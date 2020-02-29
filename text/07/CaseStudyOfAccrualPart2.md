@@ -29,7 +29,7 @@ that shows what an accrual rate of 2 patients per week would look
 like. Let's start with uncertainty as reflected during the initial
 planning phase.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart201.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart201.gif)
 
 This is the prior estimate of final sample size. It is centered around
 66, but there is substantial uncertainty about the final sample size.
@@ -37,36 +37,36 @@ The 95% probability limits for the predicted sample size range from 42
 to 95. Note that the pessimistic line in blue corresponds roughly to
 the lower limit of the predicted final sample size.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart202.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart202.gif)
 
 The first week produces only one patient rather than 3. The estimated
 overall sample size has shrunk from 66 to 60, and the 95% probability
 interval is also slightly smaller.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart203.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart203.gif)
 
 After two weeks and still only one patient, the median predicted
 sample size slips to 52.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart204.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart204.gif)
 
 After a third week with no additional patients, the median predicted
 sample size continues to slip.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart205.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart205.gif)
 
 After a fourth week of no activity, the medina predicted sample size
 falls all the way to 41. The estimated sample size is even less that
 the projection of the pessimistic rate of two per week.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart206.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart206.gif)
 
 In fifth week, three patients entered the study, but the predicted
 sample size stays pretty much the same. The researcher did get the
 back on track, but did not get the "catch up" growth that this study
 needed.
 
-![](../../../web/images/07/CaseStudyOfAccrualPart207.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrualPart207.gif)
 
 In week 6, with only one additional patient, the median predicted
 sample size declines again. If you compare this graph to the graph

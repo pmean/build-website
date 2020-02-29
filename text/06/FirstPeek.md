@@ -14,7 +14,7 @@ Oxford University Press (OUP) just sent me the first draft of the jacket
 and cover of the book I am writing, Statistical Evidence in Medical
 Trials.
 
-![FirstPeek1.jpg not found.](../../../web/images/06/FirstPeek01.png)
+![FirstPeek1.jpg not found.](http://www.pmean.com/images/images/06/FirstPeek01.png)
 
 Because of copyright issues, I will be removing some of the early drafts
 of this book from my web pages soon, but OUP will let me keep some of

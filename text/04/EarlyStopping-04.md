@@ -42,17 +42,17 @@ Here's a little simulation that you can run in S-plus or R.
 
 You'll see a variety of different patterns for the p-values.
 
-![EarlyStopping1.gif not found.](../../../web/images/04/EarlyStopping-0401.png)
+![EarlyStopping1.gif not found.](http://www.pmean.com/images/images/04/EarlyStopping-0401.png)
 
 In the graph shown above the test never quite reaches statistical
 significance.
 
-![EarlyStopping.gif not found.](../../../web/images/04/EarlyStopping-0402.png)
+![EarlyStopping.gif not found.](http://www.pmean.com/images/images/04/EarlyStopping-0402.png)
 
 Here's one where it just reaches statistical significance at the last
 sample.
 
-![EarlyStopping3.gif not found.](../../../web/images/04/EarlyStopping-0403.png)
+![EarlyStopping3.gif not found.](http://www.pmean.com/images/images/04/EarlyStopping-0403.png)
 
 Here's one where it reaches statistical significance rather early.
 You would think that it would be nice to stop the experiment early
@@ -60,7 +60,7 @@ here, but there is no guarantee that just because the p-value is below
 the significant level early on, that it will stay below that level the
 rest of the way.
 
-![EarlyStopping4.gif not found.](../../../web/images/04/EarlyStopping-0404.png)
+![EarlyStopping4.gif not found.](http://www.pmean.com/images/images/04/EarlyStopping-0404.png)
 
 Notice that the above graph shows statistical significance early, but
 then that significance disappears by the end of the experiment. Now

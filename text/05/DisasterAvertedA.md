@@ -17,7 +17,7 @@ subtle problem.
 I had an Excel file of infection events. The file looked roughly like
 this
 
-![disaster1.gif not found.](../../../web/images/05/DisasterAvertedA01.png)
+![disaster1.gif not found.](http://www.pmean.com/images/images/05/DisasterAvertedA01.png)
 
 though I did change the dates to preserve confidentiality. To import
 this data into R, it is easiest to save the Excel file in a Comma

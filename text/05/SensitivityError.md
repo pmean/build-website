@@ -29,13 +29,13 @@ This paper developed a score to assign to patients who came in
 complaining of a sore throat to see if they needed to be prescribed
 antibiotics. The scale was computed using the following formula:
 
-![ErrorSlipsThrough1.gif not found.](../../../web/images/05/SensitivityError01.png)
+![ErrorSlipsThrough1.gif not found.](http://www.pmean.com/images/images/05/SensitivityError01.png)
 
 Although scores of -1 and 5 and theoretically possible, no one scored
 below zero or above 4. The paper suggests the following management
 strategy:
 
-![ErrorSlipsThrough2.gif not found.](../../../web/images/05/SensitivityError02.png)
+![ErrorSlipsThrough2.gif not found.](http://www.pmean.com/images/images/05/SensitivityError02.png)
 
 The results of this score were compared to the physicians subjective
 evaluation and to a throat swab culture (the gold standard). There are
@@ -57,12 +57,12 @@ This data is corroborated in Table 3, where the sensitivity for patients
 aged 3-14 years is reported as 96.9% (31/32) and specificity as 94.3%
 (413/438). An excerpt from the table is reproduced below.
 
-![ErrorSlipsThrough3.jpg not found.](../../../web/images/05/SensitivityError03.png)
+![ErrorSlipsThrough3.jpg not found.](http://www.pmean.com/images/images/05/SensitivityError03.png)
 
 The residents could not reproduce these numbers because they were
 looking instead at Table 4, a portion of which is reproduced below.
 
-![ErrorSlipsThrough5.jpg not found.](../../../web/images/05/SensitivityError05.png)
+![ErrorSlipsThrough5.jpg not found.](http://www.pmean.com/images/images/05/SensitivityError05.png)
 
 Can you spot the error in the sensitivity and specificity calculations?
 

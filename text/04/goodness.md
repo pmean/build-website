@@ -20,7 +20,7 @@ number born under Gemini and the number born under Pisces. A careful
 look at the full data set, though, shows that numbers observed could
 easily be explained by sampling error.
 
-![gof2.gif not found.](../../../web/images/04/goodness01.png)
+![gof2.gif not found.](http://www.pmean.com/images/images/04/goodness01.png)
 
 There are actually 1,067 people listed here, which suggests either a
 typographical error or perhaps inflation has hit the top 1,000 list. The
@@ -32,14 +32,14 @@ If the distribution is uniform, we would expect to see about 89 people
 in each star sign. We compare the expected count to the observed count
 using the Chi-square goodness of fit statistic, X^2^:
 
-![gof1.gif not found.](../../../web/images/04/goodness02.png)
+![gof1.gif not found.](http://www.pmean.com/images/images/04/goodness02.png)
 
 where O~i~ are the observed counts (110, 104, 95, ..., 73) and E~i~ are
 the expected counts (88.92 for each star sign).
 
 The table below shows the calculation of
 
-![gof3.gif not found.](../../../web/images/04/goodness03.png)
+![gof3.gif not found.](http://www.pmean.com/images/images/04/goodness03.png)
 
 You should compare this statistic to a Chi-squared distribution with 11
 degrees of freedom. The 95th percentile of this distribution is 19.7.
@@ -55,7 +55,7 @@ Now if you just took the largest group, Gemini, and compared it to the
 smallest group, Pisces, you would indeed get a statistically significant
 differrence:
 
-![gof4.gif not found.](../../../web/images/04/goodness04.png)
+![gof4.gif not found.](http://www.pmean.com/images/images/04/goodness04.png)
 
 Compare this test statistic to a Chi-squared distribution with 1 degree
 of freedom, where the 95th percentile is 3.84. The p-value

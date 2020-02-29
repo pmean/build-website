@@ -40,14 +40,14 @@ patients. A simple distribution for waiting times is the exponential
 distribution. The probability density function for the exponential
 distribution is quite simple and easy to work with.
 
-![](../../../web/images/06/BayesianAccrualModel01.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel01.gif)
 
-The value lambda (λ) of this distribution is of great interest,
+The value lambda (<U+03BB>) of this distribution is of great interest,
 because it will tell you how quickly the trial will end. If lambda is
 equal to 30, then the average waiting time will be 30 days, exactly
 what you were hoping for.
 
-![](../../../web/images/06/BayesianAccrualModel02.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel02.gif)
 
 The 5th and 95th percentiles would be 1.5 days and 90 days
 respectively (see the gray shading in the picture above). This wide
@@ -60,7 +60,7 @@ might be a better choice.
 An exponential distribution with a larger lambda value would indicate
 an accrual process that is much slower.
 
-![](../../../web/images/06/BayesianAccrualModel03.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel03.gif)
 
 Shown above is a graph of the exponential distribution with lambda=60.
 For this distribution, the mean is 60 days and the 5th and 95th
@@ -78,11 +78,11 @@ but the inverse gamma distribution is attractive because of its close
 relationship to the exponential distribution. The probability density
 function for the inverse gamma distribution is
 
-![](../../../web/images/06/BayesianAccrualModel04.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel04.gif)
 
 The mean and variance of the inverse gamma distribution are
 
-![](../../../web/images/06/BayesianAccrualModel05.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel05.gif)
 
 The second factor in the formula for the standard deviation represents
 the coefficient of variation (CV) also known as the relative standard
@@ -91,25 +91,25 @@ deviation. Notice that as alpha increases, the CV decreases.
 If you accumulate n waiting times, x~1~, x~2~, ..., x~n~, then the
 likelihood function is
 
-![](../../../web/images/06/BayesianAccrualModel06.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel06.gif)
 
 The posterior distribution is
 
-![](../../../web/images/06/BayesianAccrualModel07.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel07.gif)
 
 which is proportional to an inverse gamma distribution. The parameters
 of the inverse gamma distribution are
 
-![](../../../web/images/06/BayesianAccrualModel08.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel08.gif)
 
 The posterior mean is
 
-![](../../../web/images/06/BayesianAccrualModel09.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel09.gif)
 
 which can be written as a weighted average of the prior mean and the
 mean of the data.
 
-![](../../../web/images/06/BayesianAccrualModel10.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel10.gif)
 
 with greater weight being given to the mean of the data as the sample
 size increases. Let's examine some possible prior distributions that
@@ -129,7 +129,7 @@ If you set set alpha to a small value, such as 2, this reflects the
 fact that you are unable or unwilling to pin down the accrual rate. A
 value of beta = 30 will yield the distribution shown below.
 
-![](../../../web/images/06/BayesianAccrualModel11.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel11.gif)
 
 The gray area represents the range of the 5th percentile (6.3 days) to
 the 95th percentile (84.4 days). These rates represent a broad range
@@ -138,7 +138,7 @@ study to finish in an average of 2.1 years to an extremely slow
 accrual time that would require an astounding 28.1 years average time
 to completion.
 
-![](../../../web/images/06/BayesianAccrualModel12.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel12.gif)
 
 If you set alpha to 10 and beta to 270, you get the distribution shown
 above. It has the same expected value (30 days), but the 5th and 95th
@@ -157,7 +157,7 @@ times. On day 768, you have just gotten your 10th patient. With a
 prior distribution with alpha = 2 and beta = 30, the posterior
 distribution has alpha = 2+ 10 = 12 and beta = 30 +768 = 798.
 
-![](../../../web/images/06/BayesianAccrualModel13.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel13.gif)
 
 With only ten patients, you do not have a very precise estimate of the
 accrual rate. The estimated mean accrual rate is 72.5 days. That is
@@ -190,7 +190,7 @@ but you are not 100% certain about the parameter lambda in this
 distribution. With the first prior, it could easily be as small as
 43.8 or as large as 115.2.
 
-![](../../../web/images/06/BayesianAccrualModel14.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel14.gif)
 
 The graph above shows what an exponential distribution looks like with
 lambda = 43.8, lambda = 115.2, and everything in between.
@@ -198,7 +198,7 @@ lambda = 43.8, lambda = 115.2, and everything in between.
 With the last prior distribution, the value of lambda could easily be
 as small as 30.5 or as large as 46.8.
 
-![](../../../web/images/06/BayesianAccrualModel15.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel15.gif)
 
 The graph shown above indicates what an exponential distribution looks
 like with lambda = 30.5, lambda = 46.8, and everything in between.
@@ -208,14 +208,14 @@ average of exponential distributions with weights determined by the
 posterior distribution. This is accomplished through a simple
 integration. The calculations are more tedious than difficult.
 
-![](../../../web/images/06/BayesianAccrualModel16.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel16.gif)
 
 The density function is closely related to a Pareto distribution. For
 large values of alpha, it is not too far from an exponential
 distribution. The expected value and standard deviation of this
 distribution are
 
-![](../../../web/images/06/BayesianAccrualModel17.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel17.gif)
 
 Notice the square root term in the standard deviation formula. This
 again represents the coefficient of variation. It is always larger
@@ -224,13 +224,13 @@ distribution is exactly 1. So this formula reminds you that an
 exponential distribution with uncertainty in the parameter lambda
 leads to an increase in uncertainty.
 
-![](../../../web/images/06/BayesianAccrualModel18.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel18.gif)
 
 The graph above shows what this predictive distribution looks like for
 the first prior distribution (black line). There is a small deviation
 from this distribution and the exponential distribution (red line).
 
-![](../../../web/images/06/BayesianAccrualModel19.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel19.gif)
 
 The graph above shows what the predictive distribution looks like for
 the last prior distribution. There is almost no visible difference
@@ -240,11 +240,11 @@ If you assume that the remaining 110 patients accrue at an exponential
 rate, then the sum of these accrual times will be distributed as a
 gamma distribution. The density function of a gamma distribution is
 
-![](../../../web/images/06/BayesianAccrualModel20.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel20.gif)
 
 which has mean and standard deviation equal to
 
-![](../../../web/images/06/BayesianAccrualModel21.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel21.gif)
 
 Set theta to the posterior mean and k to the number of patients
 remaining. With the first prior distribution, set theta = 72.5 and k =
@@ -252,12 +252,12 @@ remaining. With the first prior distribution, set theta = 72.5 and k =
 years) and the standard deviation is 760.4 days or 2.1 years.   The 5th
 and 95th percentiles are 18.5 years and 25.4 years respectively.
 
-![](../../../web/images/06/BayesianAccrualModel22.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel22.gif)
 
 For the last prior distribution, the predictive distribution for the
 remainder of time would have theta = 39.7 and k = 110.
 
-![](../../../web/images/06/BayesianAccrualModel23.gif)
+![](http://www.pmean.com/images/images/06/BayesianAccrualModel23.gif)
 
 The 5th and 95th percentiles are 9.7 and 13.3 years. Since we have
 already spent 2.1 years in the study, you can state that there is a

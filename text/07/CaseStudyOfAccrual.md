@@ -24,7 +24,7 @@ What does a "5" really mean? Here's a graph that shows the prior
 distribution of sample sizes, assuming that the study has to end after
 22 weeks.
 
-![](../../../web/images/07/CaseStudyOfAccrual01.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrual01.gif)
 
 The white line represents the median accrual pattern (65 patients at
 the end of the study) and the gray region extends up and down to the
@@ -53,7 +53,7 @@ simply project the results without such adjustments. If there is a
 catch-up in accrual in late September and early October, the model
 should fit just fine.
 
-![](../../../web/images/07/CaseStudyOfAccrual02.gif)
+![](http://www.pmean.com/images/images/07/CaseStudyOfAccrual02.gif)
 
 With three weeks pretty much lost from the study, our median estimate
 of sample size for the full study is now only 46 patients. This

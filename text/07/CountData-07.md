@@ -27,7 +27,7 @@ distribution](www.childrensmercy.org/definitions/poisson.htm).
 
 **Confidence interval for a count variable**. Suppose you have a single
 count variable that you believe comes from a Poisson distribution with
-mean λ. You want to compute a 95% confidence interval for λ.
+mean <U+03BB>. You want to compute a 95% confidence interval for <U+03BB>.
 
 A simple approach is to assume that the Poisson distribution can be
 approximated by a normal distribution with the same mean and standard
@@ -35,7 +35,7 @@ deviation. If you have a count, C, that you believe comes from a Poisson
 distribution, then a confidence interval for the mean of this Poisson
 distribution is
 
-![](../../../web/images/07/CountData-0701.gif)
+![](http://www.pmean.com/images/images/07/CountData-0701.gif)
 
 This is a rather unusual situation in that most confidence intervals
 require a sample of more than just one value. But because a single
@@ -43,33 +43,33 @@ parameter is both the mean and the standard deviation of the Poisson
 distribution, we can still compute a confidence interval.
 
 Suppose you observe a count of 20 that represents a single observation
-from a Poisson distribution with unknown parameter λ. You want a 95%
-confidence interval for λ. The width of the 95% confidence interval
-would be 1.96*√20 = 8.8, so the confidence interval would range from
+from a Poisson distribution with unknown parameter <U+03BB>. You want a 95%
+confidence interval for <U+03BB>. The width of the 95% confidence interval
+would be 1.96*v20 = 8.8, so the confidence interval would range from
 11.2 to 28.8.
 
-The normal approximation is reasonable as long as λ is large. Different
+The normal approximation is reasonable as long as <U+03BB> is large. Different
 sources quote different values for "large", ranging from 5 to 20.
 
 **Confidence interval for a rate variable**. Quite often, you are
 interested in computing not a count, but a rate. A rate is simply a
 count divided by a measure of time or area. If you count a number of
 events C over a time period t, it is frequently useful to consider the
-counts to be distributed as a Poisson random variable with parameter λt.
+counts to be distributed as a Poisson random variable with parameter <U+03BB>t.
 This notation allows you flexibility in handling counts over varying
 time ranges. So a count over a 2.5 hour period would be Poisson with
-mean 2.5λ, and a count of the same type of event over a 4.5 hour period
-would be Poisson with mean 4.5λ.
+mean 2.5<U+03BB>, and a count of the same type of event over a 4.5 hour period
+would be Poisson with mean 4.5<U+03BB>.
 
 If you computed a rate R = C/t, that rate would be a good estimate for
-λ. A 95% confidence interval for the expected rate is
+<U+03BB>. A 95% confidence interval for the expected rate is
 
-![](../../../web/images/07/CountData-0702.gif)
+![](http://www.pmean.com/images/images/07/CountData-0702.gif)
 
 This formula also relies on the normal approximation. Suppose you
 counted 61 events over a seven day period and computed a rate of 61/7 =
 8.7 events per day. The 95% confidence interval would have a width of
-1.96*√8.7/7 = 2.2. So the confidence interval would range from 6.5 to
+1.96*v8.7/7 = 2.2. So the confidence interval would range from 6.5 to
 10.9.
 
 **Confidence interval for an average of several count variables**. A
@@ -77,11 +77,11 @@ very closely related problem is computing the average of a sample of
 counts. Suppose you collect the following data: C~1~, C~2~, ..., C~n~.
 
 Suppose that each count is independent and identically distributed
-Poisson variable with a common parameter λ. The sum of those n counts is
-also distributed as a Poisson variable, but the parameter is nλ. The
-average is a good estimate of λ. A 95% confidence interval is
+Poisson variable with a common parameter <U+03BB>. The sum of those n counts is
+also distributed as a Poisson variable, but the parameter is n<U+03BB>. The
+average is a good estimate of <U+03BB>. A 95% confidence interval is
 
-![](../../../web/images/07/CountData-0703.gif)
+![](http://www.pmean.com/images/images/07/CountData-0703.gif)
 
 Note that this formulas is effectively the same as the formula for the
 confidence interval for a rate if you let t=n.
@@ -91,7 +91,7 @@ using the traditional formulas. You should feel more comfortable with
 the assumption of a Poisson distribution if the sample standard
 deviation is close to
 
-![](../../../web/images/07/CountData-0704.gif)
+![](http://www.pmean.com/images/images/07/CountData-0704.gif)
 
 **Justifying a sample size**. Suppose you want to justify the sample
 size for a study whose primary goal is to estimate a rate. How would you
@@ -101,11 +101,11 @@ One way is to get a confidence interval for the rate that has a
 sufficient amount of precision. If you want the confidence interval to
 have a width of no more than +/-D, then you need to solve the equation
 
-![](../../../web/images/07/CountData-0705.gif)
+![](http://www.pmean.com/images/images/07/CountData-0705.gif)
 
 for t, which produces the following equation.
 
-![](../../../web/images/07/CountData-0706.gif)
+![](http://www.pmean.com/images/images/07/CountData-0706.gif)
 
 In order to calculate t, you need an estimate of R. You don't know R,
 of course, but you probably have a rough idea of how large it would be.
@@ -120,11 +120,11 @@ of the confidence interval was sufficiently small. Set the desired width
 of the confidence interval to PR where P is a proportion. Substitute PR
 for D in the above equation to get
 
-![](../../../web/images/07/CountData-0707.gif)
+![](http://www.pmean.com/images/images/07/CountData-0707.gif)
 
 which simplifies to
 
-![](../../../web/images/07/CountData-0708.gif)
+![](http://www.pmean.com/images/images/07/CountData-0708.gif)
 
 Note that Rt represents a count of the number of events across the full
 time range t. Suppose we wanted to have a 95% confidence interval for a

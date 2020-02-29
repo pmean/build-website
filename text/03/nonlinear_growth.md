@@ -20,7 +20,7 @@ trial and error.
 The simplest model of growth uses the exponential function. If you are
 trying to describe growth that eventually levels off, then the formula
 
-![](../../../web/images/03/nonlinear_growth01.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth01.gif)
 
 is a good place to start. You can generate this formula using
 differential equations that assume that the rate of growth is
@@ -28,7 +28,7 @@ proportional to the amount of growth left until full maturity.
 
 Here's a graph of this formula.
 
-![](../../../web/images/03/nonlinear_growth02.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth02.gif)
 
 Notice that when x equals 1, about two-thirds of the growth has
 already occurred and that when x equals 3, about 95% of the growth has
@@ -38,11 +38,11 @@ occurred.
 
 We can change the rate of growth by modifying the equation to
 
-![](../../../web/images/03/nonlinear_growth03.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth03.gif)
 
 Here's what the graph looks like for three values of b.
 
-![](../../../web/images/03/nonlinear_growth04.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth04.gif)
 
 Notice that a larger value of b implies faster growth. As a rough rule
 of thumb, about 2/3 of the growth will occur at x=1/b and about 95% of
@@ -57,36 +57,36 @@ we need to account for a full grown size that is usually a value
 different from 1. Second, we need to account for a starting size that
 is usually larger than 0. These requirements modify the equation to
 
-![](../../../web/images/03/nonlinear_growth05.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth05.gif)
 
 With this equation, the full-grown size is represented by c, and the
 initial size at x=0 is represented by c-a. Here's an example of this
 graph with c=0.9, a=0.7, and b=2.
 
-![](../../../web/images/03/nonlinear_growth06.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth06.gif)
 
 You can change the values of c, a, and b to illustrate a variety of
 different growth patterns. For example, here are three growth curves
 that have different initial sizes, but which all reach the same full
 grown size.
 
-![](../../../web/images/03/nonlinear_growth07.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth07.gif)
 
 Here are three growth curves that start at the same initial size but
 which reach different full grown sizes.
 
-![](../../../web/images/03/nonlinear_growth08.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth08.gif)
 
 **An example using real data**
 
 Here's some data on the growth of a child who was born prematurely.
 
-![](../../../web/images/03/nonlinear_growth09.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth09.gif)
 
 When you ask SPSS to fit a nonlinear regression model (select ANALYZE
 | REGRESSION | NONLINEAR), your dialog box will look like this:
 
-![](../../../web/images/03/nonlinear_growth10.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth10.gif)
 
 Notice that I specified the nonlinear model as "C-A*exp(-B*age)"
 and used upper case for the values C, A, and B. This makes it easier
@@ -96,7 +96,7 @@ Now you have to provide SPSS with some starting values. They don't
 have to be too accurate, but they need to be in the right ball park.
 Click on the PARAMETERS button to provide starting values.
 
-![](../../../web/images/03/nonlinear_growth11.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth11.gif)
 
 If you look at the graph the we drew for the data, it looks like it
 might level off around 120, so that's a good starting value for C.
@@ -108,13 +108,13 @@ good starting value for B would be 1/24, which I rounded to 0.04.
 After you have added all your starting values, click on the continue
 button. Here is what the dialog box looks like now.
 
-![](../../../web/images/03/nonlinear_growth12.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth12.gif)
 
 If you want to compute predicted values and residuals, click on the
 SAVE button. Otherwise, click on OK to run your nonlinear regression
 model. Here is a portion of the output that SPSS produced.
 
-![](../../../web/images/03/nonlinear_growth13.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth13.gif)
 
 Our model shows an initial size of about 30 cm, a full-grown size of
 about 107 cm and a growth rate value of 0.037. Also notice how wide
@@ -131,7 +131,7 @@ my choice for a nonlinear model is not a good one.
 Here is the original data (red circles) and the values predicted by
 the nonlinear regression model (blue line).
 
-![](../../../web/images/03/nonlinear_growth14.gif)
+![](http://www.pmean.com/images/images/03/nonlinear_growth14.gif)
 
 There is a good level of agreement between the growth model and the
 data.

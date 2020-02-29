@@ -66,7 +66,7 @@ equal to the previous iteration and a standard deviation of 0.2. At
 each iteration, I show the provisional value, but use gray if that
 value is not selected by the Metropolis algorithm.
 
-![](../../../web/images/07/MetropolisAlgorithm01.gif)
+![](http://www.pmean.com/images/images/07/MetropolisAlgorithm01.gif)
 
 To repeat this animation, press the REFRESH button on your browser.
 

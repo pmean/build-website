@@ -31,7 +31,7 @@ large gap shrinks by a considerable amount. There is still a significant
 difference in the prices, but not as extreme as the unadjusted values
 might lead you to believe.
 
-![CovariateAdjustment.gif not found.](../../../web/images/05/CovariateImbalance01.png)
+![CovariateAdjustment.gif not found.](http://www.pmean.com/images/images/05/CovariateImbalance01.png)
 
 This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am

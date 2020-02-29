@@ -32,7 +32,7 @@ for n=2, 3, 4, ..., 200. The standard deviation does wiggle around a
 bit, especially at sample sizes less than 100. After a while there is no
 obvious upward or downward trend.
 
-![StandardDeviation01.gif not found.](../../../web/images/06/StandardDeviation-0601.png)
+![StandardDeviation01.gif not found.](http://www.pmean.com/images/images/06/StandardDeviation-0601.png)
   
 
 Here is the R code that produced this data and graph.

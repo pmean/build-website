@@ -24,7 +24,7 @@ and [specificity](www.childrensmercy.org/definitions/specificity.htm)
 at least 75% and specificity will be at least 90%. The formula for a
 confidence interval for Sn or Sp would be
 
-![diagnostic00.gif not found.](../../../web/images/04/SampleSizeDiagnostic01.png)
+![diagnostic00.gif not found.](http://www.pmean.com/images/images/04/SampleSizeDiagnostic01.png)
 
 where n~a~ and n~n~ are the number of abnormal (diseased) and normal
 (healthy) patients in the study.

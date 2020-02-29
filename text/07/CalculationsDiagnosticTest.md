@@ -13,7 +13,7 @@ test (July 20, 2007)**
 I created a table that illustrates many of the classic calculations for
 a diagnostic test.
 
-![](../../../web/images/07/CalculationsDiagnosticTest01.gif)
+![](http://www.pmean.com/images/images/07/CalculationsDiagnosticTest01.gif)
 
 This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am

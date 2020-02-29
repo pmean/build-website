@@ -32,11 +32,11 @@ The reason that you can have overlap in the individual intervals is
 that you don't add the two standard errors together. The standard
 error for the two individual intervals would be
 
-![](../../../web/images/04/ConfidenceIntervals-0401.gif)
+![](http://www.pmean.com/images/images/04/ConfidenceIntervals-0401.gif)
 
 and the standard error for the difference is
 
-![04_ci01.gif not found.](../../../web/images/04/ConfidenceIntervals-0402.png)
+![04_ci01.gif not found.](http://www.pmean.com/images/images/04/ConfidenceIntervals-0402.png)
 
 I also have spreadsheets that calculate confidence intervals for
 means:

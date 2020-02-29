@@ -25,7 +25,7 @@ between two measures of the clinical outcome.
 
 Here's an example of a Bland-Altman plot
 
-![weblog1.gif not found.](../../../web/images/05/MeasuringAgreement-0501.png)
+![weblog1.gif not found.](http://www.pmean.com/images/images/05/MeasuringAgreement-0501.png)
 
 that compares functional residual capacity by two approaches:
 rebreathing of sulphur hexafluoride and by computed tomography. The two
@@ -63,7 +63,7 @@ line in the graph below) differs from the ideal line with slope=1 and
 intercept=0 (the dotted line) and has a weak correlation, since one
 assay can only account for 2/3 of the variation in the other assay.
 
-![weblog2.gif not found.](../../../web/images/05/MeasuringAgreement-0502.png)
+![weblog2.gif not found.](http://www.pmean.com/images/images/05/MeasuringAgreement-0502.png)
 
 [Permission received on April 25, 2005 to reproduce this image.]
 
@@ -91,13 +91,13 @@ erosion concordance score is 0.89 and the graph below shows good
 agreement between the regression line (solid) and the line of perfect
 agreement (dashed).
 
-![weblog3.gif not found.](../../../web/images/05/MeasuringAgreement-0503.png)
+![weblog3.gif not found.](http://www.pmean.com/images/images/05/MeasuringAgreement-0503.png)
 
 In contrast, the joint space narrowing has a concordance score of only
 0.36 and notice how the regression line is not even close to the line of
 perfect agreement.
 
-![weblog4.gif not found.](../../../web/images/05/MeasuringAgreement-0504.png)
+![weblog4.gif not found.](http://www.pmean.com/images/images/05/MeasuringAgreement-0504.png)
 
 These data and figures come from
 

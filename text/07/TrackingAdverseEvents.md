@@ -39,28 +39,28 @@ part of the post implementation phase.
 
 The plot below shows the time when certain biopsy events occurred.
 
-![](../../../web/images/07/TrackingAdverseEvents01.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents01.gif)
 
 The plots shown below represent the cumulative increase in biopsies over
 time, with adverse events noted by the + symbol.
 
-![](../../../web/images/07/TrackingAdverseEvents02.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents02.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents03.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents03.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents04.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents04.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents05.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents05.gif)
 
 Here are some control charts monitoring the frequency of events.
 
-![](../../../web/images/07/TrackingAdverseEvents06.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents06.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents07.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents07.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents08.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents08.gif)
 
-![](../../../web/images/07/TrackingAdverseEvents09.gif)
+![](http://www.pmean.com/images/images/07/TrackingAdverseEvents09.gif)
 
 This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am

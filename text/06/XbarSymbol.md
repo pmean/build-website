@@ -20,17 +20,17 @@ formula here and there. For the more casual user, there are several
 solutions:
 
 First, you can create a graphic image like this one:
-![xbar01.gif not found.](../../../web/images/06/XbarSymbol01.png)
+![xbar01.gif not found.](http://www.pmean.com/images/images/06/XbarSymbol01.png)
 you need that symbol. It's a bit tricky because you need to get the
 size and location just perfect and that is easier said than done. Part
 of the problem is that this graphic image has a few pixels around the
 border. You can see this more clearly when I use a gray background:
-![xbar02.gif not found.](../../../web/images/06/XbarSymbol02.png)
+![xbar02.gif not found.](http://www.pmean.com/images/images/06/XbarSymbol02.png)
 there are 25 pixels in height and there are three extra lines of
 pixels at the bottom and five extra lines of pixels at the top. I do
 seem to get better alignment if I remove most of the pixel border and
 used a smaller image, as I did here:
-![xbar03.gif not found.](../../../web/images/06/XbarSymbol03.png)
+![xbar03.gif not found.](http://www.pmean.com/images/images/06/XbarSymbol03.png)
 seems to fit in better. The problem, of course, is that if I change
 the font, what worked well for the original font would now work
 poorly.

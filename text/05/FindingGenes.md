@@ -77,7 +77,7 @@ A more detailed description of SOURCE appears in
 
 Taking the top gene on the list (462333), I ran a search:
 
-![FindingGenes01.jpg not found.](../../../web/images/05/FindingGenes01.png)
+![FindingGenes01.jpg not found.](http://www.pmean.com/images/images/05/FindingGenes01.png)
 
 and got a lengthy description of this gene. It is WD repeat domain
 51A, or WDR51A. It has UniGene Cluster name Hs.476306 and also goes by
@@ -109,11 +109,11 @@ There is also a batch submission form which allows you to choose
 certain fields for extraction. This page is a bit fussy, because you
 have to put each CloneID on a separate line with no leading blanks.
 
-![FindingGenes02.jpg not found.](../../../web/images/05/FindingGenes02.png)
+![FindingGenes02.jpg not found.](http://www.pmean.com/images/images/05/FindingGenes02.png)
 
 Here's a portion of the text file that this software produced
 
-![FindingGenes03.jpg not found.](../../../web/images/05/FindingGenes03.png)
+![FindingGenes03.jpg not found.](http://www.pmean.com/images/images/05/FindingGenes03.png)
 
 This looks like a tab delimited file, though the semicolons separate
 multiple values for the LocusLink IDs.

@@ -24,7 +24,7 @@ description. An example of a forest plot appears in
 and because this is an open-access article, I can reproduce the graph
 here.
 
-![](../../../web/images/05/ForestPlots01.gif)
+![](http://www.pmean.com/images/images/05/ForestPlots01.gif)
 
   Here is what the User's Guide for RevMan (software created by the
 Cochrane Collaboration) says about forest plots:

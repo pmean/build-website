@@ -53,9 +53,9 @@ repeatedly, we will get a good handle on how noisy this data is.
 Here's an Excel sheet that shows the original data and 25 random
 shuffles of the data.
 
-![randomization1.gif not found.](../../../web/images/04/randomization01.png)
-![randomization2.gif not found.](../../../web/images/04/randomization02.png)
-![randomization3.gif not found.](../../../web/images/04/randomization03.png)
+![randomization1.gif not found.](http://www.pmean.com/images/images/04/randomization01.png)
+![randomization2.gif not found.](http://www.pmean.com/images/images/04/randomization02.png)
+![randomization3.gif not found.](http://www.pmean.com/images/images/04/randomization03.png)
 
 Notice that the worst case among the 25 permutations was only 1.29 which
 is well short of the value you observed, 2.125. So this gives you some

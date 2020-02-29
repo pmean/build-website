@@ -30,21 +30,21 @@ hazel, pink). The formula for a multinomial probability looks just a
 bit messier than for a binomial probability. Here is an example when
 there are three categories in the multinomial distribution.
 
-![multinomial1.gif not found.](../../../web/images/04/MultinomialProportions01.png)
+![multinomial1.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions01.png)
 
 The hypothesis that you want to test is that probability is the same
 for two of the categories in the multinomial distribution. The most
 obvious way to test this is to use the Chi-square goodness of fit
 test. The general form of this test is
 
-![multinomial2.gif not found.](../../../web/images/04/MultinomialProportions02.png)
+![multinomial2.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions02.png)
 
 where Oi represents the observed counts and Ei represents the counts
 under some restrictive null hypothesis. In our situation, if the
 proportion of blue and green eyes are the same, then we would expect
 22 in each category. So the Chi-square test computes as
 
-![multinomial3.gif not found.](../../../web/images/04/MultinomialProportions03.png)
+![multinomial3.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions03.png)
 
 which works out to be 0.091 which you would compare to a Chi-square
 distribution with one degree of freedom. The p-value is 0.76, which is
@@ -55,16 +55,16 @@ multinomial distribution, but you have to account for the fact that
 two multinomial proportions are negatively correlated. Here are the
 formulas for the variances and covariance.
 
-![multinomial4.gif not found.](../../../web/images/04/MultinomialProportions04.png)
+![multinomial4.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions04.png)
 
 These results allow you to get an estimate of sampling error for the
 difference between two proportions in a multinomial distribution.
 
-![multinomial5.gif not found.](../../../web/images/04/MultinomialProportions05.png)
+![multinomial5.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions05.png)
 
 Use a simple Z test to test for statistical significance.
 
-![multinomial6.gif not found.](../../../web/images/04/MultinomialProportions06.png)
+![multinomial6.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions06.png)
 
 If you work this out, you get Z=0.302, which has a two-sided p-value
 of 0.76. It is not a coincidence that these two p-values are
@@ -78,19 +78,19 @@ Handbook](http://www.itl.nist.gov/div898/handbook/index.htm) has a
 test](http://www.itl.nist.gov/div898/handbook/apr/section2/apr233.htm).
 You compute the likelihood under the restricted null hypothesis (L0).
 
-![multinomial7.gif not found.](../../../web/images/04/MultinomialProportions07.png)
+![multinomial7.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions07.png)
 
 Then compute the likelihood under the unrestricted general hypothesis
 (L1).
 
-![multinomial8.gif not found.](../../../web/images/04/MultinomialProportions08.png)
+![multinomial8.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions08.png)
 
 If this ratio of L0 to L1 is close to 1, then the restrictions of the
 null hypothesis is reasonable. If the ratio is much smaller than 1,
 then the restrictions of the null hypothesis are too great to bear. In
 our example, the likelihood ratio reduces to
 
-![multinomial9.gif not found.](../../../web/images/04/MultinomialProportions09.png)
+![multinomial9.gif not found.](http://www.pmean.com/images/images/04/MultinomialProportions09.png)
 
 In most situations, -2 times the natural log of the likelihood ratio
 can be approximated as a Chi-square distribution. For our data, this

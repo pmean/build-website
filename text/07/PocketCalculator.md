@@ -11,7 +11,7 @@ output: html_document
 a standard deviation (March 1, 2007)**. [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html)
 
-![](../../../web/images/07/PocketCalculator01.jpg)
+![](http://www.pmean.com/images/images/07/PocketCalculator01.jpg)
 the time, I let a computer program like SPSS compute quantities for
 me, but every now and then, I want to calculate a few simple
 statistics without the benefit of SPSS. This might involve using paper

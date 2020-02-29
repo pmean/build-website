@@ -28,18 +28,18 @@ for the second rule is that the digits 0,1,2,3,4 always round down and
 category insures that half the digits round downward and half the
 digits round upward. Here's a graphic that illustrates the issue.
 
-![](../../../web/images/06/RoundingNumbers01.gif)
+![](http://www.pmean.com/images/images/06/RoundingNumbers01.gif)
 
 Adding 5 to the "Always round up" category balances things out.
 
-![](../../../web/images/06/RoundingNumbers02.gif)
+![](http://www.pmean.com/images/images/06/RoundingNumbers02.gif)
 
 The round to the even digit rule assumes that the rounded digit
 actually stands in for a range of values. The value 3.62, for example
 really represents anything from 3.61500.. to 3.62499.. and when you
 present the data this way, the graph looks different.
 
-![](../../../web/images/06/RoundingNumbers03.gif)
+![](http://www.pmean.com/images/images/06/RoundingNumbers03.gif)
 
 Now the only way to keep things balanced is to round the 5 up half the
 time and round it down half the time. If you assume that the digit

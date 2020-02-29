@@ -26,7 +26,7 @@ situations can be shown to be equivalent to a number needed to harm
 calculation. Here's a simple example of the type of charts I am working
 on.
 
-![](../../../web/images/07/WhatImWorkingOn01.gif)
+![](http://www.pmean.com/images/images/07/WhatImWorkingOn01.gif)
 
 Second, I am interested in developing good tools for monitoring accrual
 rates in clinical trials. There are too many clinical trials that start
@@ -46,7 +46,7 @@ Bayesian model to predict the ultimate fate of the accrual process. I
 also am investigating how control charts, especially CUSUM charts can
 help monitor the accrual process. Here's an example
 
-![](../../../web/images/07/WhatImWorkingOn02.gif)
+![](http://www.pmean.com/images/images/07/WhatImWorkingOn02.gif)
 
 Third, I am interested in the recent effort to publicly or privately
 evaluate the work of individuals or groups in health care. These
@@ -81,7 +81,7 @@ decision limits in ANOM.
 
 Here's an example of an ANOM chart
 
-![](../../../web/images/07/WhatImWorkingOn03.gif)
+![](http://www.pmean.com/images/images/07/WhatImWorkingOn03.gif)
 
 A common theme for all three of these areas is that they lend themselves
 well to simple graphical summaries. I have always enjoyed the more
