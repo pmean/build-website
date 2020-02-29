@@ -8,6 +8,10 @@
 if (!exists("verbose")) verbose <- TRUE
 verbose <- TRUE
 
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(stringr)))
+
 # general functions
 
 # These functions join strings in various ways.
