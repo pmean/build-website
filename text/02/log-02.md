@@ -58,7 +58,7 @@ things you should look for:
 larger than 1)**. The bigger the data value, the more the squeezing.
 The graph below shows this effect.
 
-![](../../../web/images/02/log-0201.gif)
+![](http://www.pmean.com/images/images/02/log-0201.gif)
 height="320"}
 
 The first two values are 2.0 and 2.2. Their logarithms, 0.69 and 0.79
@@ -69,7 +69,7 @@ more. Their logarithms are 0.96 and 1.03.
 1)**. The smaller the values the more the stretching. This is
 illustrated below.
 
-![](../../../web/images/02/log-0202.gif)
+![](http://www.pmean.com/images/images/02/log-0202.gif)
 height="320"}
 
 The values of 0.4 and 0.45 have logarithms (-0.92 and -0.80) that are
@@ -84,7 +84,7 @@ that in a skewed right distribution, the left tail (the smaller
 values) is tightly packed together and the right tail (the larger
 values) is widely spread apart.
 
-![](../../../web/images/02/log-0203.gif)
+![](http://www.pmean.com/images/images/02/log-0203.gif)
 height="160"}
 
 The logarithm will squeeze the right tail of the distribution and
@@ -152,7 +152,7 @@ but proportionately less pollen out on a low pollen day.
 If you remember your high school algebra, you'll recall that the
 logarithm of a product is equal to the sum of the logarithms.
 
-![](../../../web/images/02/log-0204.gif)
+![](http://www.pmean.com/images/images/02/log-0204.gif)
 
 
 Therefore, a logarithm converts multiplication/division into
@@ -208,13 +208,13 @@ The DM/DX ratio is a good candidate for a log transformation since it
 is bounded below by zero. It is also obviously a ratio. The standard
 deviation for this data (0.4) is much larger than the mean (0.1).
 
-![](../../../web/images/02/log-0205.gif)
+![](http://www.pmean.com/images/images/02/log-0205.gif)
 
 
 Finally, the largest value is several orders of magnitude bigger than
 the smallest value.
 
-![](../../../web/images/02/log-0206.gif)
+![](http://www.pmean.com/images/images/02/log-0206.gif)
 
 
 **Skewness**
@@ -230,7 +230,7 @@ The log transformed data, while not perfectly symmetric, does tend to
 have a better balance between the lower half and the upper half of the
 distribution.
 
-![](../../../web/images/02/log-0207.gif)
+![](http://www.pmean.com/images/images/02/log-0207.gif)
 
 
 **Outliers**
@@ -244,7 +244,7 @@ worst outlier is still within 4 standard deviations of the mean. The
 influence of outliers is much less extreme with the log transformed
 data.
 
-![](../../../web/images/02/log-0208.gif)
+![](http://www.pmean.com/images/images/02/log-0208.gif)
 
 
 **Unequal variation**
@@ -256,12 +256,12 @@ deviation. This is not too surprising. The patients with no functional
 alleles are further from the lower bound and thus have much more room
 to vary.
 
-![](../../../web/images/02/log-0209.gif)
+![](http://www.pmean.com/images/images/02/log-0209.gif)
 
 
 After a log transformation, the standard deviations are much closer.
 
-![](../../../web/images/02/log-0210.gif)
+![](http://www.pmean.com/images/images/02/log-0210.gif)
 
 
 **Summary**

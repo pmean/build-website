@@ -108,13 +108,13 @@ would never rely on the first draft of your writing.
 
 A simple fictitious example will help illustrate these points.
 
-![](../../../web/images/02/percentage-0201.gif)
+![](http://www.pmean.com/images/images/02/percentage-0201.gif)
 
 We classify people by their income (rich/poor) and also by their
 attitude (happy/miserable). There are, for example,   30 rich happy
 people in our sample and 70 poor miserable people.
 
-![](../../../web/images/02/percentage-0202.gif)
+![](http://www.pmean.com/images/images/02/percentage-0202.gif)
 
 This figure shows column percentages. We compute this by dividing each
 number by the column total.
@@ -124,7 +124,7 @@ a conditional probability and is usually written as P[Rich |
 Happy]. Read the vertical bar as "given." So this probability is
 read as the probability of being rich given that you are happy.
 
-![](../../../web/images/02/percentage-0203.gif)
+![](http://www.pmean.com/images/images/02/percentage-0203.gif)
 
 This figure shows row percentages. We compute this by dividing each
 number by the row total.
@@ -136,26 +136,26 @@ the probability of being happy given that you are rich.
 Notice the distinction between the two probabilities. Only a few happy
 people are rich, but most rich people are happy.
 
-![](../../../web/images/02/percentage-0204.gif)
+![](http://www.pmean.com/images/images/02/percentage-0204.gif)
 
 This figure shows cell percentages. We compute this by dividing each
 number by the grand total. Each percentage represents the probability
 of having two conditions. For example, there is a 15% chance of being
 rich and happy.
 
-![](../../../web/images/02/percentage-0205.gif)
+![](http://www.pmean.com/images/images/02/percentage-0205.gif)
 
 The table above shows a good format for combining two numbers in a
 single table.
 
-![](../../../web/images/02/percentage-0206.gif)
+![](http://www.pmean.com/images/images/02/percentage-0206.gif)
 
 This is an alternate way of displaying cell percentages.
 
 If we had a six categories for attitude rather than just two, we might
 arrange the table differently.
 
-![](../../../web/images/02/percentage-0207.gif)
+![](http://www.pmean.com/images/images/02/percentage-0207.gif)
 
 Notice that this table would not require any sideways scrolling.
 

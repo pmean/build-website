@@ -26,7 +26,7 @@ multiple sources of variation (e.g., between and within subjects).
 
 When we select UNIVARIATE, we get the following dialog box.
 
-![](../../../web/images/02/lin_spss01.gif)
+![](http://www.pmean.com/images/images/02/lin_spss01.gif)
 height="441"}
 
 Insert your outcome variable in the DEPENDENT VARIABLE field. If you are
@@ -39,7 +39,7 @@ Some of the tables discussed in this presentation require you to select
 additional options. Click on the OPTIONS button to get the following
 dialog box.
 
-![](../../../web/images/02/lin_spss02.gif)
+![](http://www.pmean.com/images/images/02/lin_spss02.gif)
 height="398"}
 
 Add your categorical variable to the DISPLAY MEANS FOR field and check
@@ -52,7 +52,7 @@ linear model. Select ANALYZE | GENERAL LINEAR MODEL | GLM - GENERAL
 FACTORIAL from the SPSS menu. After you have defined your model, click
 on the SAVE button. You will see the following dialog box:
 
-![](../../../web/images/02/lin_spss03.gif)
+![](http://www.pmean.com/images/images/02/lin_spss03.gif)
 height="359"}
 
 Check any or all of the option boxes for information that you want
@@ -66,7 +66,7 @@ this dialog box and the OK button on the previous dialog box.
 Here is the data set after we have saved the residuals and predicted
 variables.
 
-![](../../../web/images/02/lin_spss04.gif)
+![](http://www.pmean.com/images/images/02/lin_spss04.gif)
 height="484"}
 
 SPSS numbers the newly created columns of data, in case you want to
@@ -77,7 +77,7 @@ compute residuals from several competing models.
 Select GRAPHS | Q-Q from the SPSS menu. You will see the following
 dialog box:
 
-![](../../../web/images/02/lin_spss05.gif)
+![](http://www.pmean.com/images/images/02/lin_spss05.gif)
 height="391"}
 
 Select the continuous variable that you want to examine normality for

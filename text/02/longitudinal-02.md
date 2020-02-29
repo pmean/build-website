@@ -155,12 +155,12 @@ by the key variable**.
 It is simplest to start with the time constant data. Select **Data |
 Merge Files | Add Variables** from the SPSS menu.
 
-![](../../../web/images/02/longitudinal-0201.gif)
+![](http://www.pmean.com/images/images/02/longitudinal-0201.gif)
 
 In the **Add Variables: Read File dialog box**, you tell SPSS where to
 find the time varying data. Then click on the **Open button**.
 
-![](../../../web/images/02/longitudinal-0202.gif)
+![](http://www.pmean.com/images/images/02/longitudinal-0202.gif)
 
 SPSS will exclude any variable that has the same name in both data
 sets. The excluded variables in almost every case represent the key
