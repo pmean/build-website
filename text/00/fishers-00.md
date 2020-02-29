@@ -104,7 +104,7 @@ Most statistical software programs will compute Fishers Exact test.
 There are also several web pages that will compute this test. Here's an
 example:
 
-![](../03/images/fisher1.gif){width="347" height="272"}
+![](http://www.pmean.com/images/00/images/fisher1.gif){width="347" height="272"}
 
 The first group had 18 patients, 3 of whom died. In the other group,
 there were 19 patients, one of whom died. The p-value for the two sided

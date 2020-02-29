@@ -7,13 +7,13 @@ category: Blog post
 tags: Descriptive statistics
 output: html_document
 ---
-****[StATS]:** Steps in a descriptive model (October
-11, 2001)**
 
 Every data analysis should **start with a descriptive or exploratory
 analysis**. If you have no research hypotheses, then you can stop with
 this. If you do have research hypotheses, the analysis will provide a
 **solid foundation for any further statistical analysis**.
+
+<!---More--->
 
 Here are three steps that seem to work well for many descriptive
 analysis:
@@ -47,7 +47,7 @@ This seems like a simple thing, but often there are subtle details that
 you can't ignore. For example, the following table lists the first 10
 mothers in the study.
 
-![](../../../web/images/01/descriptive-0101.gif)
+![](http://www.pmean.com/images/01/descriptive-0101.gif)
 height="347"}
 
 Notice that **one mother appears twice**. Further investigation shows
@@ -77,7 +77,7 @@ Our outcome measure, the age when breast feeding was stopped is a
 continuous variable. Here is a table of statistics for this variable,
 including the minimum and maximum variables.
 
-![](../../../web/images/01/descriptive-0102.gif)
+![](http://www.pmean.com/images/01/descriptive-0102.gif)
 height="154"}
 
 At first glance, the maximum value (34 weeks) seems a bit large (the
@@ -98,7 +98,7 @@ is also quite reasonable.
 Race/ethnicity is a categorical variable. Here is a table for
 frequencies for this variable.
 
-![](../../../web/images/01/descriptive-0103.gif)
+![](http://www.pmean.com/images/01/descriptive-0103.gif)
 height="178"}
 
 This table shows that **the patient population is almost exclusively
@@ -118,13 +118,13 @@ categorical variable, we can use **boxplots**.
 The following is a **crosstabulation of feeding type versus delivery
 type**. Notice that I have placed feeding type as the rows of the table.
 
-![](../../../web/images/01/descriptive-0104.gif)
+![](http://www.pmean.com/images/01/descriptive-0104.gif)
 height="202"}
 
 Sometimes these tables are easier to interpret with percentages. I
 selected the row percentages option to get the following table.
 
-![](../../../web/images/01/descriptive-0105.gif)
+![](http://www.pmean.com/images/01/descriptive-0105.gif)
 
 We can see that there was a roughly 50-50 change for a C-section birth
 to find itself in the treatment or control group. In the vaginal birhts,
@@ -139,13 +139,13 @@ delivery type is related to both feeding type and duration of breast
 feeding, we should be sure to examine delivery type as a potential
 confounding variable in any analysis.
 
-![](../../../web/images/01/descriptive-0106.gif)
+![](http://www.pmean.com/images/01/descriptive-0106.gif)
 height="256"}
 
 The mother's age is an important factor in any breast feeding study.
 Here is a boxplot comparing ages in the two feeding groups.
 
-![](../../../web/images/01/descriptive-0107.gif)
+![](http://www.pmean.com/images/01/descriptive-0107.gif)
 height="256"}
 
 We see that the NG tube group has older mothers than the bottle group.
@@ -156,36 +156,8 @@ We also should examine the relationship between mother's age and
 duration of breast feeding. The following scatterplot shows a slight
 tendency for older mothers to breast feed longer.
 
-![](../../../web/images/01/descriptive-0108.gif)
+![](http://www.pmean.com/images/01/descriptive-0108.gif)
 height="256"}
 
 As with delivery type, we we should be careful to adjust for mother's
 age in any comparison of the two feeding groups.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-for pages similar to this one at [Category: Descriptive
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Steps in a descriptive model (October
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
---->
-
