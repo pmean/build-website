@@ -68,6 +68,6 @@ with Bayesian posterior predictive distributions. Stat Med. 2008 Jun
 Here's a picture of Byron Gajewski, taken from the KUMC website. I could
 not find a good picture of Joyce Yu Jiang.
 
-![Gajewski%20Large.jpg not found.](../../../web/images/15/patient-accrual-models01.png)
+![Gajewski%20Large.jpg not found.](http://www.pmean.com/images/images/15/patient-accrual-models01.png)
 
 

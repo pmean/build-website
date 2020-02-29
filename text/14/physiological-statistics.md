@@ -21,7 +21,7 @@ Failure to employ physiological statistics, or the only formula a
 clinician-trialist is ever likely to need (or understand!). CMAJ.
 2001;165(9):1226--1237.
 
-![](../../../web/images/14/physiological-statistics01.png)
+![](http://www.pmean.com/images/images/14/physiological-statistics01.png)
 
 
 

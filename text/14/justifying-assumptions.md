@@ -26,7 +26,7 @@ justifying impact evaluation sample size assumptions. Evidence Matters
 blog. October 17, 2014. Available at
 <http://blogs.3ieimpact.org/requiring-fuel-gauges-a-pitch-for-justifying-impact-evaluation-sample-size-assumptions/>
 
-![](../../../web/images/14/justifying-assumptions01.png)
+![](http://www.pmean.com/images/images/14/justifying-assumptions01.png)
 
 
 

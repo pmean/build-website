@@ -23,7 +23,7 @@ The Unofficial Google Data Science Blog. Published October 31, 2016.
 Available at
 <http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html>.
 
-![](../../../web/images/16/practical-advice01.png)
+![](http://www.pmean.com/images/images/16/practical-advice01.png)
 
 
 

@@ -39,7 +39,7 @@ which produces the following values (after rounding)
 
 Plotting these values yields the following graph.
 
-![](../../../web/images/08/AssessingExponential-0801.gif)
+![](http://www.pmean.com/images/images/08/AssessingExponential-0801.gif)
 height="452"}
 
 A straight line is evidence of consistency between the data and the

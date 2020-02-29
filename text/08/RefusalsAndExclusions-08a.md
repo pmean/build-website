@@ -47,7 +47,7 @@ be characterized as the number of independent Bernoulli trials
 observed until the first success. The probability mass function of the
 geometric distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a01.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a01.gif)
 
 for k=1, 2, 3, . . .
 
@@ -57,12 +57,12 @@ study, we would ask the researcher to estimate the rejection/refusal
 rate at each stage, R~i~ or alternately the rate of success at each
 stage, S~i~. Of course
 
-![](../../../web/images/08/RefusalsAndExclusions-08a02.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a02.gif)
 
 Let N~k~ represent the desired number of patients enrolled. The number
 needed at the initial contact would be
 
-![](../../../web/images/08/RefusalsAndExclusions-08a03.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a03.gif)
 
 This presumes, of course, that our estimates of each rate is perfectly
 accurate. There are some advantages to using a Bayesian approach, so
@@ -71,22 +71,22 @@ prior distribution is a beta distribution. The actual process of
 soliciting a prior distribution is a topic for another time. Let us
 suppose that the prior distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a04.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a04.gif)
 
 After n1 patients have been recruited into the trial, with s1
 successes and r1 rejections/refusals at the first stage, s2 successes
 and r2 refusals at the second stage, etc., we would have a posterior
 distribution
 
-![](../../../web/images/08/RefusalsAndExclusions-08a05.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a05.gif)
 
 The expected value of the posterior distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a06.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a06.gif)
 
 which can be written as a weighted average
 
-![](../../../web/images/08/RefusalsAndExclusions-08a07.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a07.gif)
 
 You can also simulate the number of initial contacts needed to enroll
 patients N~k~ by randomly drawing values from the posterior
@@ -141,7 +141,7 @@ beta distributions: Beta(A1=10,B1=40), Beta(A2=45,B2=5), and
 Beta(A3=25,B3=25). With these prior distributions, you can simulate
 how the trial will behave.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a08.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a08.gif)
 
 The graph shown above represents a simulation using 1000 replications.
 The median number of patients needed at the initial stage in order to
@@ -171,7 +171,7 @@ not sign a consent form (79/93 or 85% success at stage 2). 222 did not
 make or keep their initial appointment (93/315 or 30% success at stage
 1). The overall success rate (18/315 or 6%) is much lower than 9%.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a09.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a09.gif)
 
 The graph above shows the Bayesian simulation combining the prior
 estimates with the observed data. Notice that the 95% CrI for Stage 3
@@ -188,7 +188,7 @@ success rate), and 1070 lost at stage 1 (499/1569 or 32% success
 rate). The overall success rate (93/1569 or 6%) is about the same as
 before and still much lower than the initial estimate.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a10.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a10.gif)
 
 The graph above shows the Bayesian model incorporating the prior
 distributions and the 14 days worth of data. The number of initial
@@ -232,7 +232,7 @@ contacts is now estimated to be 6,923 and the 95% CrI (5,909 to 8,392)
 distributions and the 14 days worth of data. The number of initial
 The graph above shows the Bayesian model incorporating the prior
 
-![](../../../web/images/08/RefusalsAndExclusions-08a10.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a10.gif)
 
 before and still much lower than the initial estimate.
 rate). The overall success rate (93/1569 or 6%) is about the same as
@@ -249,7 +249,7 @@ has declined markedly as has the interval for the overall success
 estimates with the observed data. Notice that the 95% CrI for Stage 3
 The graph above shows the Bayesian simulation combining the prior
 
-![](../../../web/images/08/RefusalsAndExclusions-08a09.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a09.gif)
 
 1). The overall success rate (18/315 or 6%) is much lower than 9%.
 make or keep their initial appointment (93/315 or 30% success at stage
@@ -279,7 +279,7 @@ get 414 volunteers who are willing and able to enrol in the study is
 The median number of patients needed at the initial stage in order to
 The graph shown above represents a simulation using 1000 replications.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a08.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a08.gif)
 
 how the trial will behave.
 Beta(A3=25,B3=25). With these prior distributions, you can simulate
@@ -334,22 +334,22 @@ distributions and calculating sums of geometric distributions.
 patients N~k~ by randomly drawing values from the posterior
 You can also simulate the number of initial contacts needed to enroll
 
-![](../../../web/images/08/RefusalsAndExclusions-08a07.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a07.gif)
 
 which can be written as a weighted average
 
-![](../../../web/images/08/RefusalsAndExclusions-08a06.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a06.gif)
 
 The expected value of the posterior distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a05.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a05.gif)
 
 distribution
 and r2 refusals at the second stage, etc., we would have a posterior
 successes and r1 rejections/refusals at the first stage, s2 successes
 After n1 patients have been recruited into the trial, with s1
 
-![](../../../web/images/08/RefusalsAndExclusions-08a04.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a04.gif)
 
 suppose that the prior distribution is
 soliciting a prior distribution is a topic for another time. Let us
@@ -358,12 +358,12 @@ we would also solicit a prior distribution on each rate. The simplest
 accurate. There are some advantages to using a Bayesian approach, so
 This presumes, of course, that our estimates of each rate is perfectly
 
-![](../../../web/images/08/RefusalsAndExclusions-08a03.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a03.gif)
 
 needed at the initial contact would be
 Let N~k~ represent the desired number of patients enrolled. The number
 
-![](../../../web/images/08/RefusalsAndExclusions-08a02.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a02.gif)
 
 stage, S~i~. Of course
 rate at each stage, R~i~ or alternately the rate of success at each
@@ -373,7 +373,7 @@ Assume that there are k stages to the screening process from initial
 
 for k=1, 2, 3, . . .
 
-![](../../../web/images/08/RefusalsAndExclusions-08a01.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a01.gif)
 
 geometric distribution is
 observed until the first success. The probability mass function of the
@@ -451,7 +451,7 @@ be characterized as the number of independent Bernoulli trials
 observed until the first success. The probability mass function of the
 geometric distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a01.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a01.gif)
 
 for k=1, 2, 3, . . .
 
@@ -461,12 +461,12 @@ study, we would ask the researcher to estimate the rejection/refusal
 rate at each stage, R~i~ or alternately the rate of success at each
 stage, S~i~. Of course
 
-![](../../../web/images/08/RefusalsAndExclusions-08a02.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a02.gif)
 
 Let N~k~ represent the desired number of patients enrolled. The number
 needed at the initial contact would be
 
-![](../../../web/images/08/RefusalsAndExclusions-08a03.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a03.gif)
 
 This presumes, of course, that our estimates of each rate is perfectly
 accurate. There are some advantages to using a Bayesian approach, so
@@ -475,22 +475,22 @@ prior distribution is a beta distribution. The actual process of
 soliciting a prior distribution is a topic for another time. Let us
 suppose that the prior distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a04.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a04.gif)
 
 After n1 patients have been recruited into the trial, with s1
 successes and r1 rejections/refusals at the first stage, s2 successes
 and r2 refusals at the second stage, etc., we would have a posterior
 distribution
 
-![](../../../web/images/08/RefusalsAndExclusions-08a05.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a05.gif)
 
 The expected value of the posterior distribution is
 
-![](../../../web/images/08/RefusalsAndExclusions-08a06.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a06.gif)
 
 which can be written as a weighted average
 
-![](../../../web/images/08/RefusalsAndExclusions-08a07.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a07.gif)
 
 You can also simulate the number of initial contacts needed to enroll
 patients N~k~ by randomly drawing values from the posterior
@@ -545,7 +545,7 @@ beta distributions: Beta(A1=10,B1=40), Beta(A2=45,B2=5), and
 Beta(A3=25,B3=25). With these prior distributions, you can simulate
 how the trial will behave.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a08.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a08.gif)
 
 The graph shown above represents a simulation using 1000 replications.
 The median number of patients needed at the initial stage in order to
@@ -575,7 +575,7 @@ not sign a consent form (79/93 or 85% success at stage 2). 222 did not
 make or keep their initial appointment (93/315 or 30% success at stage
 1). The overall success rate (18/315 or 6%) is much lower than 9%.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a09.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a09.gif)
 
 The graph above shows the Bayesian simulation combining the prior
 estimates with the observed data. Notice that the 95% CrI for Stage 3
@@ -592,7 +592,7 @@ success rate), and 1070 lost at stage 1 (499/1569 or 32% success
 rate). The overall success rate (93/1569 or 6%) is about the same as
 before and still much lower than the initial estimate.
 
-![](../../../web/images/08/RefusalsAndExclusions-08a10.gif)
+![](http://www.pmean.com/images/images/08/RefusalsAndExclusions-08a10.gif)
 
 The graph above shows the Bayesian model incorporating the prior
 distributions and the 14 days worth of data. The number of initial

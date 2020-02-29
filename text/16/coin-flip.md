@@ -18,7 +18,7 @@ is.
 Doug Steigerwald. The Coin Flip: A Fundamentally Unfair Proposition.
 Available at <http://econ.ucsb.edu/~doug/240a/Coin%20Flip.htm>.
 
-![](../../../web/images/16/coin-flip01.png)
+![](http://www.pmean.com/images/images/16/coin-flip01.png)
 
 
 

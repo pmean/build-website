@@ -20,7 +20,7 @@ Why Coincidences, Miracles And Rare Events Happen Every Day. Forbes.
 Available at:
 <http://www.forbes.com/sites/johnnavin/2014/02/18/why-coincidences-miracles-and-rare-events-happen-every-day/>.
 
-![](../../../web/images/14/why-coincidences-happen01.png)
+![](http://www.pmean.com/images/images/14/why-coincidences-happen01.png)
 
 
 

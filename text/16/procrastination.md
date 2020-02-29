@@ -21,7 +21,7 @@ Michael Lauer. "A Grant Submission New Year's Resolution" published
 December 20, 2015 on the Open Mike blog. Available at
 <http://nexus.od.nih.gov/all/2015/12/30/grant-submission-new-years-resolution/>.
 
-![](../../../web/images/16/procrastination01.png)
+![](http://www.pmean.com/images/images/16/procrastination01.png)
 
 
 

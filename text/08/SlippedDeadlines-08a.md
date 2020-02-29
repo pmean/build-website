@@ -139,7 +139,7 @@ informed consent requirement was waived.   There were no other factors
 which had a major influence on the ratio of actual to planned
 subjects.  
 
-![![](Slippe1.gif not found.](../../../web/images/08/SlippedDeadlines-08a03.png)
+![![](Slippe1.gif not found.](http://www.pmean.com/images/images/08/SlippedDeadlines-08a03.png)
 
 Only 24 studies (19%) commented on subject shortfalls or delays. The
 most common reason cited (n=16) was reluctance of patients/parents to
@@ -207,7 +207,7 @@ enroll in the study. Less commonly cited was loss of external support
 most common reason cited (n=16) was reluctance of patients/parents to
 Only 24 studies (19%) commented on subject shortfalls or delays. The
 
-![![](Slippe1.gif not found.](../../../web/images/08/SlippedDeadlines-08a03.png)
+![![](Slippe1.gif not found.](http://www.pmean.com/images/images/08/SlippedDeadlines-08a03.png)
 
 subjects.  
 which had a major influence on the ratio of actual to planned
@@ -467,7 +467,7 @@ informed consent requirement was waived.   There were no other factors
 which had a major influence on the ratio of actual to planned
 subjects.  
 
-![![](Slippe1.gif not found.](../../../web/images/08/SlippedDeadlines-08a03.png)
+![![](Slippe1.gif not found.](http://www.pmean.com/images/images/08/SlippedDeadlines-08a03.png)
 
 Only 24 studies (19%) commented on subject shortfalls or delays. The
 most common reason cited (n=16) was reluctance of patients/parents to

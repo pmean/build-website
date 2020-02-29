@@ -36,7 +36,7 @@ substantial uncertainty about this estimate, though and we characterize
 the waiting time distribution using an inverse gamma distribution with
 parameters k=175 and V=182.5. Here's what that distribution looks like:
 
-![](../../../web/images/14/using-bugs01.gif)
+![](http://www.pmean.com/images/images/14/using-bugs01.gif)
 
 Now, you start running your clinical trial, and you notice that things
 are going slower than planned. After 239 days, you've recruited only 41
@@ -48,7 +48,7 @@ distribution of the waiting time, which turns out to be a weighted
 average of the observed accrual data and your prior beliefs. This leads
 to an updated prediction of the completion time for the clinical trial.
 
-![](../../../web/images/14/using-bugs02.gif)
+![](http://www.pmean.com/images/images/14/using-bugs02.gif)
 
 This use of prior distributions is extremely controversial, because it
 incorporates subjective opinions into the data analysis process. Often a
@@ -58,7 +58,7 @@ thinly across the possible parameters that it does not influence the
 posterior distribution. Here's what such a distribution would produce in
 the patient accrual example.
 
-![](../../../web/images/14/using-bugs03.gif)
+![](http://www.pmean.com/images/images/14/using-bugs03.gif)
 
 Notice that this represents a simple linear extrapolation of the waiting
 times. These graphs come from [a webpage I wrote a while
@@ -68,7 +68,7 @@ The mathematics of Bayesian data analysis is quite complex. Here's a
 description on the [Wikipedia page on posterior
 distributions](http://en.wikipedia.org/wiki/Posterior_probability).
 
-![](../../../web/images/14/using-bugs04.png)
+![](http://www.pmean.com/images/images/14/using-bugs04.png)
 
 
 

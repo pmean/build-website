@@ -22,7 +22,7 @@ Boslaugh S. Book review: Statistical Evidence in Medical Trials: What Do
 the Data Really Tell Us? MAA Reviews (2006, June 22), Available at
 <http://www.maa.org/press/maa-reviews/statistical-evidence-in-medical-trials-what-do-the-data-really-tell-us>.
 
-![](../../../web/images/15/book-review01.png)
+![](http://www.pmean.com/images/images/15/book-review01.png)
 
 
 

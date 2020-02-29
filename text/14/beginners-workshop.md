@@ -165,11 +165,11 @@ title(ti)
 
 Here are the two graphs produced by this output.
 
-![](../../../web/images/14/beginners-workshop01.png)
+![](http://www.pmean.com/images/images/14/beginners-workshop01.png)
 
 
 
-![](../../../web/images/14/beginners-workshop02.png)
+![](http://www.pmean.com/images/images/14/beginners-workshop02.png)
 
 
 

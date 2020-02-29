@@ -76,7 +76,7 @@ follow the R code to follow the argument.
     pow1 <- power.prop.test(n=50, p1=0.5, p2=(51:99)/100, sig.level=0.05)
     plot(pow1$p2,pow1$power)
 
-![](../../../web/images/14/design-monte-carlo-201.png)
+![](http://www.pmean.com/images/images/14/design-monte-carlo-201.png)
 
 
 
@@ -87,7 +87,7 @@ group and 0.51 through 0.99 for the second group. The plot shows a
 distinctly non-linear pattern. Now, look at the plot where both axes are
 transformed by the logit function.
 
-![](../../../web/images/14/design-monte-carlo-202.png)
+![](http://www.pmean.com/images/images/14/design-monte-carlo-202.png)
 
 
 
@@ -102,7 +102,7 @@ the axes back to the original scale for interpretability.
     xvals=c(0.5,0.6,0.7,0.8,0.9,0.95,0.97,0.99)
     axis(side=1, at=logit(xvals,base=2), labels=paste(100*xvals,"%",sep=""))
 
-![](../../../web/images/14/design-monte-carlo-203.png)
+![](http://www.pmean.com/images/images/14/design-monte-carlo-203.png)
 
 
 

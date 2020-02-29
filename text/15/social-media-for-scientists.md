@@ -21,7 +21,7 @@ PLoS Biol. 2013;11(4):e1001535. doi:10.1371/journal.pbio.1001535.
 Available at
 [journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001535](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001535).
 
-![](../../../web/images/15/social-media-for-scientists01.png)
+![](http://www.pmean.com/images/images/15/social-media-for-scientists01.png)
 
 
 

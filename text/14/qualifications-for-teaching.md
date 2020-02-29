@@ -25,7 +25,7 @@ American Statistical Association, Mathematical Association of America.
 Available at
 <http://www.amstat.org/education/pdfs/TeachingIntroStats-Qualifications.pdf>.
 
-![](../../../web/images/14/qualifications-for-teaching01.png)
+![](http://www.pmean.com/images/images/14/qualifications-for-teaching01.png)
 
 
 

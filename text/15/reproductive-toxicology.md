@@ -118,6 +118,6 @@ semen quality of unexposed workers. I. Study overview. Reprod Toxicol.
 Here's a picture of Dr. Schrader, from a webpage on careers in
 Andrology.
 
-![3825413.png?1430165530 not found.](../../../web/images/15/reproductive-toxicology01.png)
+![3825413.png?1430165530 not found.](http://www.pmean.com/images/images/15/reproductive-toxicology01.png)
 
 

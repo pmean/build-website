@@ -23,7 +23,7 @@ end up in the upper right corner represent survival rates that stay high
 for a long period of time. For unwanted events, such a curve is very
 good news.
 
-![](../../../web/images/16/open-source-km01.bmp)
+![](http://www.pmean.com/images/images/16/open-source-km01.bmp)
 
 
 
@@ -31,14 +31,14 @@ A few graphs will reverse this scale by looking at the probability of
 death rather than the probability of survival. <U+00A0>Here, the upper left
 corner is bad and the lower right corner is good.
 
-![](../../../web/images/16/open-source-km02.bmp)
+![](http://www.pmean.com/images/images/16/open-source-km02.bmp)
 
 
 
 Each step represents one or more events (deaths if your outcome is
 survival.
 
-![](../../../web/images/16/open-source-km03.bmp)
+![](http://www.pmean.com/images/images/16/open-source-km03.bmp)
 
 
 
@@ -55,50 +55,50 @@ early in the study, but become much larger later in the study because
 fewer patients have a long term follow-up time.Does the curve tend to
 level off
 
-![40463_2013_Article_50_Fig1_HTML.jpg not found.](../../../web/images/16/open-source-km04.png)
+![40463_2013_Article_50_Fig1_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km04.png)
 
 From
 <http://journalotohns.biomedcentral.com/articles/10.1186/1916-0216-42-53>.
 
-![12885_2006_Article_546_Fig5_HTML.jpg not found.](../../../web/images/16/open-source-km05.png)
+![12885_2006_Article_546_Fig5_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km05.png)
 
 From
 <http://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-6-194>.
 
-![12890_2015_25_Fig2_HTML.gif not found.](../../../web/images/16/open-source-km06.png)
+![12890_2015_25_Fig2_HTML.gif not found.](http://www.pmean.com/images/images/16/open-source-km06.png)
 
 From
 <http://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-015-0025-z>.
 
-![13293_2012_Article_35_Fig2_HTML.jpg not found.](../../../web/images/16/open-source-km07.png)
+![13293_2012_Article_35_Fig2_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km07.png)
 
 From <http://bsd.biomedcentral.com/articles/10.1186/2042-6410-3-16>.
 
-![13050_2009_Article_446_Fig1_HTML.jpg not found.](../../../web/images/16/open-source-km08.png)
+![13050_2009_Article_446_Fig1_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km08.png)
 
 From
 <http://jiasociety.biomedcentral.com/articles/10.1186/1758-2652-12-38>.
 
-![12957_2005_Article_210_Fig6_HTML.jpg not found.](../../../web/images/16/open-source-km09.png)
+![12957_2005_Article_210_Fig6_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km09.png)
 
 From <http://wjso.biomedcentral.com/articles/10.1186/1477-7819-4-55>.
 
-![13000_2010_Article_267_Fig2_HTML.jpg not found.](../../../web/images/16/open-source-km10.png)
+![13000_2010_Article_267_Fig2_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km10.png)
 
 From
 <http://diagnosticpathology.biomedcentral.com/articles/10.1186/1746-1596-5-22>.
 
-![12944_2010_Article_349_Fig3_HTML.jpg not found.](../../../web/images/16/open-source-km11.png)
+![12944_2010_Article_349_Fig3_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km11.png)
 
 From
 <http://lipidworld.biomedcentral.com/articles/10.1186/1476-511X-9-100>.
 
-![12943_2014_Article_1442_Fig2_HTML.jpg not found.](../../../web/images/16/open-source-km12.png)
+![12943_2014_Article_1442_Fig2_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km12.png)
 
 From
 <http://molecular-cancer.biomedcentral.com/articles/10.1186/1476-4598-13-241>.
 
-![13014_2012_Article_575_Fig4_HTML.jpg not found.](../../../web/images/16/open-source-km13.png)
+![13014_2012_Article_575_Fig4_HTML.jpg not found.](http://www.pmean.com/images/images/16/open-source-km13.png)
 
 From
 <http://ro-journal.biomedcentral.com/articles/10.1186/1748-717X-7-78>.

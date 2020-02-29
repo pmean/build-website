@@ -22,7 +22,7 @@ Hah!
 Roberts D. Measurement Scales. Available at:
 <http://www.personal.psu.edu/users/d/m/dmr/testing/meas.htm>.
 
-![](../../../web/images/14/attitude-survey01.png)
+![](http://www.pmean.com/images/images/14/attitude-survey01.png)
 
 
 

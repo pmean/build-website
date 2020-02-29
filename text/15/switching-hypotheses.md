@@ -37,7 +37,7 @@ Pharmacol. 2001 Sep; 52(3): 223--228. doi:
 10.1046/j.0306-5251.2001.01397-3.x. Available at
 <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2014556/>.
 
-![](../../../web/images/15/switching-hypotheses01.png)
+![](http://www.pmean.com/images/images/15/switching-hypotheses01.png)
 
 
 

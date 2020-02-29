@@ -16,7 +16,7 @@ with. Here's a nice guide that will help you get started.
 Cole Beck. Handling date-times in R. 2012 (August 30). Available at
 <http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ColeBeck/datestimes.pdf>.
 
-![](../../../web/images/16/dates-in-r01.png)
+![](http://www.pmean.com/images/images/16/dates-in-r01.png)
 
 
 

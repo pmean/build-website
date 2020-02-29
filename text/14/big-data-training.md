@@ -20,7 +20,7 @@ Rockey S. More on Big Data Training for the Scientific Workforce.
 Available at:
 <http://nexus.od.nih.gov/all/2014/03/18/more-on-big-data-training-for-the-scientific-workforce/>
 
-![](../../../web/images/14/big-data-training01.png)
+![](http://www.pmean.com/images/images/14/big-data-training01.png)
 
 
 

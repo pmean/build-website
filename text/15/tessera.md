@@ -21,7 +21,7 @@ to work with this software, I'll let you know what I think.
 
 Tessera. Available at [http://tessera.io](http://tessera.io/).
 
-![](../../../web/images/15/tessera01.png)
+![](http://www.pmean.com/images/images/15/tessera01.png)
 
 
 

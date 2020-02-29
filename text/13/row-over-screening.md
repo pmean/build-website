@@ -24,7 +24,7 @@ disagreed with some of their conclusions." Available at:
 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121506/. Accessed November
 24, 2013.
 
-![](../../../web/images/13/row-over-screening01.png)
+![](http://www.pmean.com/images/images/13/row-over-screening01.png)
 
 
 

@@ -59,26 +59,26 @@ If I get a chance to set you up with the appropriate permissions, you
 will have the ability to review my calendar (but not make
 appointments).
 
-![consul1.gif not found.](../../../web/images/05/contact01.png)
+![consul1.gif not found.](http://www.pmean.com/images/images/05/contact01.png)
 
   Open Microsoft Outlook and select File | Open |Other User's Folder
 from the menu.
 
-![consul2.gif not found.](../../../web/images/05/contact02.png)
+![consul2.gif not found.](http://www.pmean.com/images/images/05/contact02.png)
 
 Type my name and switch from Inbox to Calendar. I'm not the only
 Simon at Children's Mercy Hospital.
 
-![consul3.gif not found.](../../../web/images/05/contact03.png)
+![consul3.gif not found.](http://www.pmean.com/images/images/05/contact03.png)
 
 Pick me out of the list of other Simons and click on OK. It this
 works, you'll be able to see my schedule.
 
-![consul5.gif not found.](../../../web/images/05/contact04.png)
+![consul5.gif not found.](http://www.pmean.com/images/images/05/contact04.png)
 
 The next time around it is even easier,
 
-![consul4.gif not found.](../../../web/images/05/contact05.png)
+![consul4.gif not found.](http://www.pmean.com/images/images/05/contact05.png)
 
 because you'll see my name on the list of choices.
 
@@ -88,11 +88,11 @@ If I have set up a shared folder for you, you can access it through
 the MY COMPUTER icon. Double click on this icon and select TOOLS |
 MAP NETWORK DRIVE from the menu.
 
-![consul6.gif not found.](../../../web/images/05/contact06.png)
+![consul6.gif not found.](http://www.pmean.com/images/images/05/contact06.png)
 
 The MAP NETWORK DRIVE dialog box appears
 
-![consul7.gif not found.](../../../web/images/05/contact07.png)
+![consul7.gif not found.](http://www.pmean.com/images/images/05/contact07.png)
 
 It will show you the first unused letter in your list of computer
 drives and network connections. I suggest that you change this to an
@@ -100,7 +100,7 @@ unused letter (S is probably a good choice) but you should make sure
 that whatever letter you choose isn't currently being used. If you
 select U, for example, you will see the following
 
-![consul8.gif not found.](../../../web/images/05/contact08.png)
+![consul8.gif not found.](http://www.pmean.com/images/images/05/contact08.png)
 
 which indicates that U is already reserved for \\\\CMH\\DATA\\USERS.
 Once you have selected an unused letter, type the name of the network
@@ -111,7 +111,7 @@ as
 
 where "Special Project Name" is replaced by the name I give you.
 
-![consul9.gif not found.](../../../web/images/05/contact09.png)
+![consul9.gif not found.](http://www.pmean.com/images/images/05/contact09.png)
 
 Make sure that the check box for RECONNECT AT LOGON is selected and
 then click on the FINISH button.

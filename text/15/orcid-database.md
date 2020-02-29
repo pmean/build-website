@@ -28,7 +28,7 @@ happens to share my last name and first two initials. It will help some,
 but I suspect I will always have problems with this. For details, see
 <http://www.pmean.com/08/ImpossibleResume.html>.
 
-![](../../../web/images/15/orcid-database01.png)
+![](http://www.pmean.com/images/images/15/orcid-database01.png)
 
 
 

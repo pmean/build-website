@@ -23,7 +23,7 @@ National Human Genore Research Institute. The ENCODE Project:
 ENCyclopedia Of DNA Elements. Available at
 <http://www.genome.gov/ENCODE/>.
 
-![](../../../web/images/16/encode01.png)
+![](http://www.pmean.com/images/images/16/encode01.png)
 
 
 

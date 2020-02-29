@@ -18,7 +18,7 @@ and Evaluation. 2001;7(4):353-383. doi:10.1076/edre.7.4.353.8937.
 Available at<U+00A0>
 <http://www.stat.uchicago.edu/~eichler/stat24600/Admin/MissingDataReview.pdf>
 
-![](../../../web/images/14/review-missing-data01.png)
+![](http://www.pmean.com/images/images/14/review-missing-data01.png)
 
 
 

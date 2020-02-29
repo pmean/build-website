@@ -25,7 +25,7 @@ Kristian Widjaja, Jun Yang, Jeff Ullman. Oracle Dates and Times.
 Available at
 <http://infolab.stanford.edu/~ullman/fcdb/oracle/or-time.html>.
 
-![](../../../web/images/16/oracle-dates01.png)
+![](http://www.pmean.com/images/images/16/oracle-dates01.png)
 
 
 

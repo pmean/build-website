@@ -25,7 +25,7 @@ invisible and abandoned trials: a call for people to publish the
 findings. BMJ. 2013;346:f2865. doi:10.1136/bmj.f2865. Available at:
 <http://www.bmj.com/content/346/bmj.f2865>
 
-![](../../../web/images/15/riat01.png)
+![](http://www.pmean.com/images/images/15/riat01.png)
 
 
 
