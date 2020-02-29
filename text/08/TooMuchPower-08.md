@@ -24,12 +24,12 @@ The ideal sample size in such a setting is the sample size where the
 cost of collecting an additional record outweighs the resulting gain
 in precision. Here's a graph showing the gain in precision as we add
 an additional observation to the data set, assuming a 95% one sided
-confidence interval, a standard deviation of 50, a cost of $100 per
+confidence interval, a standard deviation of 50, a cost of 100 per
 sampled record, and a total population of 500 records.
 
 ![](http://www.pmean.com/images/images/08/TooMuchPower-0801.gif)
 
-At about 37 records, the change in precision is about $100. If you
+At about 37 records, the change in precision is about 100. If you
 sampled more than this value, you would be spending more on the
 additional sampling costs than you would save by reducing the
 uncertainty in your estimate.

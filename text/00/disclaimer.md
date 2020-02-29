@@ -13,15 +13,15 @@ Although I work in a hospital, my profession is Statistics. I help the
 doctors and nurses here plan research studies and make sense of the
 numbers after the research is done. **I am totally unqualified to
 provide medical advice.** If you have a question about Statistics, like
-\"When would you use a median instead of a mean to summarize your
-data?\" then I can provide an intelligent answer.
+"When would you use a median instead of a mean to summarize your
+data?" then I can provide an intelligent answer.
 
 Some questions that might seem to you to be statistical in nature, such
-as, \"What is the average age that infants can start taking solid
-foods?\" but which I am still unqualified to answer. **If you are unsure
+as, "What is the average age that infants can start taking solid
+foods?" but which I am still unqualified to answer. **If you are unsure
 about whether the question is medical or statistical, go ahead and
-ask**. The worst that will happen is that you will get a polite \"Sorry
-I don\'t know\" response back.
+ask**. The worst that will happen is that you will get a polite "Sorry
+I don't know" response back.
 
 **There are some good web sites that do offer medical advice from
 professionals**. I would encourage you to check these sites out in
@@ -41,26 +41,26 @@ can stop recommending them to people.
     dictated by their illness or disease.](http://www.medhelp.org/)
     <http://www.medhelp.org/>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Website details](../category/WebsiteDetails.html)
 <!---More--->
 this one at [Category: Website details](../category/WebsiteDetails.html)
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Important disclaimer.(2000-01-28)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Website details](../category/WebsiteDetails.html)
 --->

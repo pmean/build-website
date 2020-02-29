@@ -66,24 +66,24 @@ tail(crd)
 
 # All statistical analyses in R are functions. The
 # mean function gives you the average.
-mean(crd$Age)
+mean(crdAge)
 
 # Pop quiz #1, what is the average height for this data?
 
 # Always be careful about missing values. Most functions
 # in R have options for handling missing values different
 # ways.
-mean(crd$Age,na.rm=TRUE)
+mean(crdAge,na.rm=TRUE)
 
 # The sd, range, and quantile fuctions are self-explanatory.
 # The summary function gives you the mean and quantiles combined.
 # Use the table function to get counts for categorical data.
-sd(crd$Age)
-range(crd$Age)
-quantile(crd$Age)
-quantile(crd$Age,probs=c(0.1,0.9))
-summary(crd$Age)
-table(crd$Sex)
+sd(crdAge)
+range(crdAge)
+quantile(crdAge)
+quantile(crdAge,probs=c(0.1,0.9))
+summary(crdAge)
+table(crdSex)
 
 # Pop quiz #2, what is the range for height?
 # Pop quiz #3, how many smokers are there?
@@ -91,7 +91,7 @@ table(crd$Sex)
 # Again, you must always be careful about missing values.
 # You can specify different methods for handling missing
 # values in the table function with the useNA argument.
-table(crd$Sex,useNA="always")
+table(crdSex,useNA="always")
 
 # Pop quiz #4, look at the help file for table. What are the
 # other options for the useNA argument?
@@ -99,10 +99,10 @@ table(crd$Sex,useNA="always")
 # Since all statistical analyses in R is done through
 # functions, you can store the results of that function
 # and re-use it.
-age.mn <- mean(crd$Age)
-age.sd <- sd(crd$Age)
+age.mn <- mean(crdAge)
+age.sd <- sd(crdAge)
 ti <- paste("The mean age is",age.mn,"+/-",age.sd)
-hist(crd$Age,main=ti)
+hist(crdAge,main=ti)
 
 # Here's an example of a more advanced analysis.
 # The lm function fits a linear model, which in
@@ -139,13 +139,13 @@ names(lm.mod1)
 # This is an example of re-using information in lm.mod1 in order
 # to enhance the information in your plot. First you should store
 # the coefficients of the regression equation for later re-use.
-co.mod1 <- lm.mod1$coefficients
+co.mod1 <- lm.mod1coefficients
 b0 <- co.mod1[1]
 b1 <- co.mod1[2]
 r0 <- round(b0,1)
 r1 <- round(b1,2)
 
-plot(crd$Height,crd$FEV)
+plot(crdHeight,crd$FEV)
 # abline draws a reference line with a given intercept and slope.
 abline(a=b0,b=b1)
 # you can also insert the equation into the title of the graph.

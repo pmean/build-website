@@ -50,7 +50,7 @@ matters -- because it might well be your perspective, too.*"
 Take some time to read this and think about it. I normally ignore
 pitches like this on Wikipedia and elsewhere, but the irony of citing a
 newspaper article available for free to criticize for-profit research
-publishing got to me, so I became a supporter of the Guardian at $6.99
+publishing got to me, so I became a supporter of the Guardian at 6.99
 per month.
 
 Stephen Buryani. Is the staggeringly profitable business of scientific

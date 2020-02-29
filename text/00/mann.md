@@ -11,13 +11,13 @@ output: html_document
 test (September 28, 2000)**
 
 *Dear Professor Mean, I need to calculate the sample size for the
-Mann-Whitney U test. How do I do this? \-- Bewildered Bob*
+Mann-Whitney U test. How do I do this? -- Bewildered Bob*
 
 Dear Bewildered,
 
 Just to clarify things, Professor Mean should note that t**he
 Mann-Whitney U test is sometimes called the Wilcoxon rank sum test**.
-There are independent publications in the mid 1940\'s from Mann and
+There are independent publications in the mid 1940's from Mann and
 Whitney and from Wilcoxon that outline a nonparametric approach to
 comparing two independent groups. The two tests have different forms but
 you can show that the two forms are equivalent. Some statisticians in
@@ -46,7 +46,7 @@ the distribution of the Mann-Whitney U depends quite a bit on the
 underlying distribution.
 
 This leads you to a dilemma. You probably want to use the Mann-Whitney U
-test because you can\'t assume with any confidence what the underlying
+test because you can't assume with any confidence what the underlying
 distribution is. There are several approaches you can take.
 
 First, you can **select a distibution that you believe is reasonable**,
@@ -90,7 +90,7 @@ I received by email a link to
 -   **[Computing sample size for data to be analyzed with nonparametric
     tests.](http://www.graphpad.com/library/BiostatsSpecial/article_154.htm%20)**.
     GraphPad Software. Accessed on 2005-03-08.
-    www.graphpad.com/library/BiostatsSpecial/article\_154.htm
+    www.graphpad.com/library/BiostatsSpecial/article_154.htm
 
 which offers the following advice:
 
@@ -100,8 +100,8 @@ required for a t test and add 15%.*
 This assumes a reasonably high number of subjects (at least a few dozen)
 and a distribution which is not really unusual. I had not heard this
 rule; the author cites pages 76-81 of Lehmann, Nonparametrics:
-Statistical Methods Based on Ranks [\[BookFinder4U
-link\]](http://www.bookfinder4u.com/detail/013997735X.html). I don\'t
+Statistical Methods Based on Ranks [[BookFinder4U
+link]](http://www.bookfinder4u.com/detail/013997735X.html). I don't
 have this book, so I can only guess as to the basis for this formula.
 
 This rule could be based, I suppose, on the lower bound for the
@@ -140,10 +140,10 @@ when time permits.
     **New York, John Wiley & Sons (1979).\
     ISBN: 0-471-04245-5.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html)
@@ -151,17 +151,17 @@ justification](../category/SampleSizeJustification.html)
 justification](../category/SampleSizeJustification.html)
 this one at [Category: Sample size
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Sample size for the Mann-Whitney U
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html)

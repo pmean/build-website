@@ -10,7 +10,7 @@ output: html_document
 ****[StATS]:** Alternating treatments (created
 2000-08-22).**
 
-*Dear Professor Mean, I\'m running an experiment where I randomize by
+*Dear Professor Mean, I'm running an experiment where I randomize by
 alternating between the treatment and the control. I was told this is
 not the proper way to do this. Why not?*
 
@@ -41,7 +41,7 @@ not the proper way to do this. Why not?*
 > tank had the least deaths. How could this have happened?
 >
 > Think about the process of catching fish. The first fish you catch are
-> the slow moving ones. They\'re kind of sluggish. They may only be a
+> the slow moving ones. They're kind of sluggish. They may only be a
 > few hours from floating at the top of the tank. The last fish you
 > catch are the vigorous swimmers who always darted out of the way of
 > the net at the last second.
@@ -56,9 +56,9 @@ not the proper way to do this. Why not?*
 > cabbages grown in a garden. You will often see a pattern of big
 > cabbage, little cabbage, big cabbage, little cabbage. These plants are
 > competing for resources. One plant gets a tiny head start, and its
-> roots extend over into the other plant\'s space, grabbing some extra
+> roots extend over into the other plant's space, grabbing some extra
 > water and nutrients. This leads to more growth and more grabbing of
-> the other plant\'s resources.
+> the other plant's resources.
 >
 > This type of pattern can also occur in factories. Consider a mill that
 > cuts small pieces of wire from a large spool of wire. The machine
@@ -72,24 +72,24 @@ not the proper way to do this. Why not?*
 > likely to rush the next patient. A doctor that can wrap up a patient
 > quickly, will then feel more relaxed and take more time with the next
 > patient. So there might be a tendency for visits to go long, short,
-> long, short. It doesn\'t always have to happen this way. The days when
+> long, short. It doesn't always have to happen this way. The days when
 > I visit the doctor it seems like the pattern for the four patients in
 > front of me is long, long, long, long.
 >
-> It\'s also true that not every garden has the big cabbage, small
+> It's also true that not every garden has the big cabbage, small
 > cabbage, big cabbage, small cabbage. Still, as long as there is a
 > possibility for this pattern, you want to avoid assigning your
 > treatments the same way. A random assignment will mix things up so
 > that the first, third, and fifth cabbages (which all happen to be big)
-> aren\'t all assigned to the Miracle Gro group and the second, fourth,
-> and sixth cabbages (which all happen to be small) aren\'t all assigned
+> aren't all assigned to the Miracle Gro group and the second, fourth,
+> and sixth cabbages (which all happen to be small) aren't all assigned
 > to the manure group. A non-random alternation can turn the whole
 > research project into a big pile of manure.
 
 **Randomization creates unpredictability**
 
-> In some research settings, it helps if the people involved don\'t know
-> what\'s coming next. An element of unpredictability prevents conscious
+> In some research settings, it helps if the people involved don't know
+> what's coming next. An element of unpredictability prevents conscious
 > or unconscious biases from affecting the research.
 >
 > For example, there is often some level of subjectivity in deciding
@@ -109,7 +109,7 @@ not the proper way to do this. Why not?*
 > some doctors still participate in such a study.
 >
 > You can prevent a doctor from manipulating the study by first blinding
-> the allocation list of subjects. This means that you don\'t tell the
+> the allocation list of subjects. This means that you don't tell the
 > doctor which treatment the patient will be assigned to until after the
 > eligibility requirements are all verified. You can do this by using a
 > sealed envelop that the doctor opens only after verifying eligibility
@@ -142,8 +142,8 @@ not the proper way to do this. Why not?*
 >
 > A recent publication (Marks and Colwell 2000) showed just such a
 > situation. Rupert Sheldrake has claimed that blindfolded subjects can
-> sense when they are being stared at, and that this is evidence \"an
-> influence somehow reaches out\" from the starer. There is empirical
+> sense when they are being stared at, and that this is evidence "an
+> influence somehow reaches out" from the starer. There is empirical
 > evidence to support such a finding, and this evidence is examined in
 > Marks and Colwell. These authors argue that the order in which the
 > research subjects were stared at followed a pattern that became
@@ -161,10 +161,10 @@ not the proper way to do this. Why not?*
 3.  **Randomised trials, human nature, and reporting guidelines**.
     Schulz, KF. Lancet, 348: 596-598 (1996).
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Randomization in
 research](../category/RandomizationInResearch.html).
@@ -172,17 +172,17 @@ research](../category/RandomizationInResearch.html).
 research](../category/RandomizationInResearch.html).
 this one at [Category: Randomization in
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Alternating treatments (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Randomization in
 research](../category/RandomizationInResearch.html).

@@ -10,9 +10,9 @@ output: html_document
 ****[StATS]:(January 27, 2000)** Causation.**
 
 *Dear Professor Mean, Everyone says that smoking causes cancer, but we
-can\'t really say that, can we? There is an association between smoking
+can't really say that, can we? There is an association between smoking
 and cancer, but we know that association does not imply causation,
-don\'t we?*
+don't we?*
 
 > You point out that an **association is not always causation**. This is
 > indeed correct, **but sometimes association IS causation**. For
@@ -21,14 +21,14 @@ don\'t we?*
 > imply causation, I invite you to stand under a tall tree the next time
 > there is a storm.
 >
-> No, no come back here. I didn\'t mean it. You do pose an interesting
+> No, no come back here. I didn't mean it. You do pose an interesting
 > question: **when does association imply causation?**
 
 **Short explanation**
 
 > A good review of when we can make the leap from association to
-> causation is a 1965 article by Sir Austin Bradford Hill \"The
-> Environment and Disease: Association or Causation\". He mentions nine
+> causation is a 1965 article by Sir Austin Bradford Hill "The
+> Environment and Disease: Association or Causation". He mentions nine
 > factors:
 >
 > 1.  Strength (is the risk so large that we can easily rule out other
@@ -51,7 +51,7 @@ don\'t we?*
 >
 > **Example**
 >
-> Let\'s look at these nine factors with respect to smoking.
+> Let's look at these nine factors with respect to smoking.
 >
 > 1.  There certainly is a **strong association**.
 > 2.  The results are **consistent** across a wide range of researchers
@@ -66,7 +66,7 @@ don\'t we?*
 >     demolished.
 > 5.  There is a **dose response** relationship (heavy smokers are at
 >     greater risk than light smokers).
-> 6.  I\'m not sure if we know enough about cancer to provide a specific
+> 6.  I'm not sure if we know enough about cancer to provide a specific
 >     **mechanism**. Perhaps we can invoke some of the ideas we know
 >     about how certain chemicals can cause DNA damage.
 > 7.  There is **coherence** in that lung cancer rates rise with smoking
@@ -74,11 +74,11 @@ don\'t we?*
 >     smoke.
 > 8.  **Experimental interventions** do work. Getting people to quit
 >     smoking has been shown to greatly reduce their risk for cancer.
-> 9.  I\'m not aware of **analogy** to smoking. Perhaps the fact that
+> 9.  I'm not aware of **analogy** to smoking. Perhaps the fact that
 >     cigar smoking and pipe smoking are associated with cancers of the
 >     mouth.
 >
-> So that\'s anywhere from six to eight out of nine, which makes **a
+> So that's anywhere from six to eight out of nine, which makes **a
 > convincing case for causation**. Someone who knows more about the
 > mechanisms of cancer could comment about plausibility and about
 > analogous relationships.
@@ -101,25 +101,25 @@ don\'t we?*
 > None of these criteria are perfect, but they give a useful guideline.
 > As Sir Austin Bradford Hill himself notes:
 >
-> > *\"All scientific work is incomplete- whether it be observational or
+> > *"All scientific work is incomplete- whether it be observational or
 > > experimental. All scientific work is liable to be upset or modified
 > > by advancing knowledge. This does not confer upon a freedom to
 > > ignore the knowledge we already have, or to postpone the action that
 > > it appears to demand at a given time. Who knows, asked Robert
 > > Browning, but that the world may end to-night? True, but on
 > > available evidence most of us make ready to commute on the 8.30 next
-> > day.\"*
+> > day."*
 
 **Further Reading**
 
 1.  **[Association and
     Cause](http://www.agius.com/hew/resource/assoc.htm)**. Agius R.
-    Accessed on 2004-01-20. \"Aims of this resource: To enable an
+    Accessed on 2004-01-20. "Aims of this resource: To enable an
     understanding of the important concepts in determining causes of
     ill-health with emphasis on epidemiology and the environmental and
     occupational aspects of public health. To enable a distinction to be
     made between associations that are likely to be causal and those
-    which probably have other explanations.\"
+    which probably have other explanations."
 2.  **Epidemiology Kept Simple An Introduction to Classic and Modern
     Epidemiology.** Gerstman BB (1998) New York: Wiley-Liss.
 3.  **The Environment and Disease; Association or Causation?** Hill
@@ -127,10 +127,10 @@ don\'t we?*
 4.  **Methods in Observational Epidemiology.** Kelsey JL, Whittemore AS,
     Evans AS and Thompson DW (1996) Oxford: Oxford University Press.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Corroborating
 evidence](../category/CorroboratingEvidence.asp)
@@ -138,17 +138,17 @@ evidence](../category/CorroboratingEvidence.asp)
 evidence](../category/CorroboratingEvidence.asp)
 this one at [Category: Corroborating
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:(January 27, 2000)** Causation.**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Corroborating
 evidence](../category/CorroboratingEvidence.asp)

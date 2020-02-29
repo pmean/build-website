@@ -10,7 +10,7 @@ output: html_document
 ****[StATS]:** Odds ratio versus relative risk
 (created 2001-01-09)**
 
-*Dear Professor Mean:  There is some confusion about the use of the odds
+*Dear Professor Mean:<U+00A0> There is some confusion about the use of the odds
 ratio versus the relative risk. Can you explain the difference between
 these two numbers?*
 
@@ -21,7 +21,7 @@ these two numbers?*
 > survived and 709 died** (see table below).
 >
 >   ------------ ----------- ---------- -----------
->                 **Alive**   **Dead**   **Total**
+>        <U+00A0>        **Alive**   **Dead**   **Total**
 >    **Female**    **308**    **154**     **462**
 >     **Male**     **142**    **709**     **851**
 >    **Total**     **450**    **863**    **1,313**
@@ -59,12 +59,12 @@ these two numbers?*
 
 > Suppose you invested money in a stock. On the first day, the value of
 > the stock **decreased by 20%**. On the second day it **increased by
-> 20%**. You would think that you have broken even, but that\'s not
+> 20%**. You would think that you have broken even, but that's not
 > true.
 >
 > Take the value of the stock and multiply by 0.8 to get the price after
 > the first day. Then multiply by 1.2 to get the price after the second
-> day. The successive multiplications do not cancel out because 0.8 \*
+> day. The successive multiplications do not cancel out because 0.8 *
 > 1.2 = 0.96. A 20% decrease followed by a 20% increase leaves you
 > slightly worse off.
 >
@@ -81,11 +81,11 @@ these two numbers?*
 >    **0.50 (1/2)**   **2.00 (2/1)**
 >   ---------------- ----------------
 >
-> Sometimes when we are comparing two groups, we\'ll put the first group
+> Sometimes when we are comparing two groups, we'll put the first group
 > in the numerator and the other in the denominator. Sometimes we will
 > reverse ourselves and put the second group in the numerator. The
 > numbers may look quite different (e.g., 0.67 and 1.5) but as long as
-> you remember what the reciprocal fraction is, you shouldn\'t get too
+> you remember what the reciprocal fraction is, you shouldn't get too
 > confused.
 >
 > For example, we computed **2.5 as the relative risk** in the example
@@ -138,14 +138,14 @@ these two numbers?*
 > controls** (see table below).
 
 >   ------------- ------------------ -------------- -----------
->                  **Cancer cases**   **Controls**   **Total**
+>         <U+00A0>        **Cancer cases**   **Controls**   **Total**
 >    **Balding**        **72**           **82**       **154**
 >     **Hairy**         **55**           **57**       **112**
 >     **Total**        **129**          **139**       **268**
 >   ------------- ------------------ -------------- -----------
 >
 > In this type of study, y**ou can estimate the probability of balding
-> for cancer patients, but you can\'t calculate the probability of
+> for cancer patients, but you can't calculate the probability of
 > cancer for bald patients**. The prevalence of prostate cancer was
 > **artificially inflated to almost 50%** by the nature of the
 > case-control design.
@@ -166,7 +166,7 @@ these two numbers?*
 > = 9.4% / 6.7%.**
 
 >   ------------- ------------------- ------------------- -----------
->                  **Heart disease**      **Healthy**      **Total**
+>         <U+00A0>        **Heart disease**      **Healthy**      **Total**
 >    **Balding**    **127 (9.4%)**     **1,224 (90.6%)**   **1,351**
 >     **Hairy**     **548 (6.7%)**     **7,611 (93.3%)**   **8,159**
 >     **Total**         **675**            **8,835**       **9,510**
@@ -189,7 +189,7 @@ these two numbers?*
 > (see table below).
 
 >   -------------- --------------- ----------------- -----------
->                   **Children**    **No children**   **Total**
+>         <U+00A0>         **Children**    **No children**   **Total**
 >    **Epilepsy**   **232 (40%)**    **354 (60%)**     **586**
 >    **Control**    **79 (72%)**     **30 (28%)**      **109**
 >     **Total**        **311**          **384**        **695**
@@ -214,13 +214,13 @@ these two numbers?*
 > situations. Part of this is due to the fact that **relative
 > measurements are often counter-intuitive**. Consider an interesting
 > case of relative comparison that comes from a puzzle on the Car Talk
-> radio show. You have a hundred pound sack of potatoes. Let\'s assume
+> radio show. You have a hundred pound sack of potatoes. Let's assume
 > that these potatoes are 99% water. That means 99 parts water and 1
 > part potato. These are soggier potatoes than I am used to seeing, but
 > it makes the problem more interesting.
 
 > If you dried out the potatoes completely, they would only weigh one
-> pound. But let\'s suppose you only wanted to dry out the potatoes
+> pound. But let's suppose you only wanted to dry out the potatoes
 > partially, until they were 98% water. How much would they weigh then?
 
 > The counter-intuitive answer is 50 pounds. 98% water means 49 parts
@@ -229,7 +229,7 @@ these two numbers?*
 > 1% to 2%), you have to remove about half of the water.
 
 > Relative risks have the same sort of counter-intuitive behavior. **A
-> small relative change in the probability of a common event\'s
+> small relative change in the probability of a common event's
 > occurrence can be associated with a large relative change in the
 > opposite probability (the probability of the event not occurring)**.
 >
@@ -245,13 +245,13 @@ these two numbers?*
 > recommendation.
 
 >   -------------------- ---------------- ----------------- -----------
->                          **No cath**        **Cath**       **Total**
+>            <U+00A0>             **No cath**        **Cath**       **Total**
 >     **Male patient**    **34 (9.4%)**    **326 (90.6%)**    **360**
 >    **Female patient**   **55 (15.3%)**   **305 (84.7%)**    **360**
 >        **Total**            **89**           **631**        **720**
 >   -------------------- ---------------- ----------------- -----------
 >
-> The **odds ratio is either 0.57  or 1.74**, depending on which group
+> The **odds ratio is either 0.57<U+00A0> or 1.74**, depending on which group
 > you place in the numerator. The authors reported the odds ratio in the
 > original paper and concluded that physicians make different
 > recommendations for male patients than for female patients.
@@ -291,7 +291,7 @@ these two numbers?*
 > in the control group**.
 
 >   --------------- ------------------ ---------------- -----------
->                    **Continued bf**   **Stopped bf**   **Total**
+>          <U+00A0>         **Continued bf**   **Stopped bf**   **Total**
 >    **Treatment**    **19 (37.3%)**    **32 (62.7%)**    **51**
 >     **Control**      **5 (8.8%)**     **52 (91.2%)**    **57**
 >      **Total**          **24**            **84**        **108**
@@ -308,9 +308,9 @@ these two numbers?*
 > failure.
 
 > **One advantage of the odds ratio is that it is not dependent on
-> whether we focus on the event\'s occurrence or its failure to occur**.
+> whether we focus on the event's occurrence or its failure to occur**.
 > If the odds ratio for an event deviates substantially from 1.0, the
-> odds ratio for the event\'s failure to occur will also deviate
+> odds ratio for the event's failure to occur will also deviate
 > substantially from 1.0, though in the opposite direction.
 
 **Summary**
@@ -327,7 +327,7 @@ these two numbers?*
 **Bibliography**
 
 > **When can odds ratios mislead? Odds ratios should be used only in
-> case-control studies and logistic regression analyses \[letter\].**
+> case-control studies and logistic regression analyses [letter].**
 > Deeks J. British Medical Journal 1998:317(7166);1155-6; discussion
 > 1156-7.
 >
@@ -339,7 +339,7 @@ these two numbers?*
 > Analyses.** Greenland S. American Journal of Epidemiology
 > 1987:125(5);761-767.
 >
-> **Male Pattern Baldness and Coronary Heart Disease: The Physician\'s
+> **Male Pattern Baldness and Coronary Heart Disease: The Physician's
 > Health Study.** Lotufo PA. Archives of Internal Medicine
 > 2000:160(165-171.
 >
@@ -358,10 +358,10 @@ these two numbers?*
 > Tom Magliozzi, Ray Magliozzi, Douglas Berman. New York NY: Berkley
 > Publishing Group.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).
@@ -369,17 +369,17 @@ risk](../category/MeasuringBenefitRisk.html).
 risk](../category/MeasuringBenefitRisk.html).
 this one at [Category: Measuring benefit and
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Odds ratio versus relative risk
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).

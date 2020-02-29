@@ -25,7 +25,7 @@ The term survival is sometimes misleading, because we can use it for
 other less severe outcomes like how long until a cancer relapse, or
 how long until an infection occurs. Sometimes it can even be used for
 a positive outcome, like how long it takes for a couple to conceive.
-But for the rest of this example, we\'ll keep things simple by
+But for the rest of this example, we'll keep things simple by
 assuming that the outcome is time until death.
 
 Estimating a survival curve is often complicated by the uncooperative
@@ -68,7 +68,7 @@ height="56"}
 
 It is possible for two or more events to occur at the same time, in
 which case the number of distinct times is less than the number of
-deaths or failures. You need to place the t\'s in order from smallest
+deaths or failures. You need to place the t's in order from smallest
 to largest. That is,
 
 ![wpe49.gif (1048 bytes)](../01/images/kaplan12.gif){width="123"
@@ -181,19 +181,19 @@ catheters performed properly. They noted the date of complication
 
     5            5                   3
 
-    6                                2
+    6            <U+00A0>                   2
 
-    7                                1
+    7            <U+00A0>                   1
 
-   10                                2
+   10            <U+00A0>                   2
 
-   12                                2
+   12            <U+00A0>                   2
 
-   13                                1
+   13            <U+00A0>                   1
   ----- -------------------- ------------------
 
 If you wanted to estimate the probability that a catheter will survive
-its first day, that\'s easy. There were 34 catheters, 2 did not
+its first day, that's easy. There were 34 catheters, 2 did not
 survive the first day, 15 failed on days 2-13. For 17 of the
 catheters, we did not know when they would have failed, but we do know
 that they all survived at least one day.
@@ -226,15 +226,15 @@ catheters that were censored on previous days.
 
     5            5                   3           18-1-1=16
 
-    6                                2            16-5-3=8
+    6            <U+00A0>                   2            16-5-3=8
 
-    7                                1             8-2=6
+    7            <U+00A0>                   1             8-2=6
 
-   10                                2             6-1=5
+   10            <U+00A0>                   2             6-1=5
 
-   12                                2             5-2=3
+   12            <U+00A0>                   2             5-2=3
 
-   13                                1             3-2=1
+   13            <U+00A0>                   1             3-2=1
   ----- -------------------- ------------------ ------------
 
 We then need to compute the conditional probability of surviving at
@@ -263,19 +263,19 @@ point. This conditional probability would be
     5            5                   3           18-1-1=16       13/16\
                                                                  =0.81
 
-    6                                2            16-5-3=8        6/8\
+    6            <U+00A0>                   2            16-5-3=8        6/8\
                                                                  =0.75
 
-    7                                1             8-2=6          5/6\
+    7            <U+00A0>                   1             8-2=6          5/6\
                                                                  =0.83
 
-   10                                2             6-1=5          3/5\
+   10            <U+00A0>                   2             6-1=5          3/5\
                                                                  =0.60
 
-   12                                2             5-2=3          1/3\
+   12            <U+00A0>                   2             5-2=3          1/3\
                                                                  =0.33
 
-   13                                1             3-2=1          0/1\
+   13            <U+00A0>                   1             3-2=1          0/1\
                                                                  =0.00
   ----- -------------------- ------------------ ------------ --------------
 
@@ -290,39 +290,39 @@ represents the Kaplan-Meier estimate of the survival probability.
     1            8                   2               34          32/34\         0.94
                                                                  =0.94      
 
-    2            2                   2           34-8-2=24       22/24\      0.94\*0.92\
+    2            2                   2           34-8-2=24       22/24\      0.94*0.92\
                                                                  =0.92          =0.86
 
-    3            1                   1           24-2-2=20       19/20\      0.86\*0.95\
+    3            1                   1           24-2-2=20       19/20\      0.86*0.95\
                                                                  =0.95          =0.82
 
-    4            1                   1           20-1-1=18       17/18\      0.82\*0.94\
+    4            1                   1           20-1-1=18       17/18\      0.82*0.94\
                                                                  =0.94          =0.77
 
-    5            5                   3           18-1-1=16       13/16\      0.77\*0.81\
+    5            5                   3           18-1-1=16       13/16\      0.77*0.81\
                                                                  =0.81          =0.62
 
-    6                                2            16-5-3=8        6/8\       0.62\*0.75\
+    6            <U+00A0>                   2            16-5-3=8        6/8\       0.62*0.75\
                                                                  =0.75          =0.46
 
-    7                                1             8-2=6          5/6\       0.46\*0.83\
+    7            <U+00A0>                   1             8-2=6          5/6\       0.46*0.83\
                                                                  =0.83          =0.38
 
-   10                                2             6-1=5          3/5\       0.38\*0.60\
+   10            <U+00A0>                   2             6-1=5          3/5\       0.38*0.60\
                                                                  =0.60          =0.23
 
-   12                                2             5-2=3          1/3\       0.23\*0.33\
+   12            <U+00A0>                   2             5-2=3          1/3\       0.23*0.33\
                                                                  =0.33          =0.08
 
-   13                                1             3-2=1          0/1\       0.08\*0.00\
+   13            <U+00A0>                   1             3-2=1          0/1\       0.08*0.00\
                                                                  =0.00          =0.00
   ----- -------------------- ------------------ ------------ -------------- -------------
 
-Here is a graph of these survival probabilities. 
+Here is a graph of these survival probabilities.<U+00A0>
 
 ![](../01/images/kaplan01a.gif){width="476" height="389"}
 
-The plot has a \"stair step\" pattern, because we don\'t know the
+The plot has a "stair step" pattern, because we don't know the
 survival probability at fractional days (such as 2.5 days) and at
 some integer days (such as 9 days). By convention, we estimate the
 survival probability for these values as equaling the survival

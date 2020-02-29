@@ -9,15 +9,15 @@ output: html_document
 ---
 ****[StATS]:** BMJ letter (October 11, 2001)**
 
-Here\'s a letter I submitted to the web letters to the editor for the
+Here's a letter I submitted to the web letters to the editor for the
 British Medical Journal in response to an article about randomisation
 ([BMJ 1999 Sep
 11;319(7211):703-704](http://www.bmj.com/cgi/content/full/319/7211/703)).
 
 **A simple approach for randomisation.**
 
-I\'m glad that the British Medical Journal is devoting space to
-pragmatic aspects of research such as the article \"How to randomise\"
+I'm glad that the British Medical Journal is devoting space to
+pragmatic aspects of research such as the article "How to randomise"
 by Douglas G. Altman and J. Martin Bland. I want to supplement their
 fine article by outlining an alternative approach for randomisation.
 This approach is simple and intuitive, and you can apply it in a variety
@@ -32,7 +32,7 @@ In essence, you can randomise by following these three steps:
 This approach has intuitive appeal. Sorting on a set of random numbers
 produces a random ordering.
 
-Let\'s look at a simple example. Suppose we want to allocate three
+Let's look at a simple example. Suppose we want to allocate three
 treatments (T1, T2, and T3) randomly to a total of twelve subjects.
 
 First, arrange your treatments in a systematic order. This is what your
@@ -44,7 +44,7 @@ Next, generate a second column of random numbers. You can find a random
 number generating function in most software. In Microsoft Excel, for
 example, you would use the RAND() function. The table below shows what
 you would get. Actually, you will get something different. If it
-weren\'t different, your numbers wouldn\'t be random, would they?
+weren't different, your numbers wouldn't be random, would they?
 
 `T1 0.02338 T2 0.00018 T3 0.50797 T1 0.03322 T2 0.35942 T3 0.23288 T1 0.59740 T2 0.63826 T3 0.20776 T1 0.47897 T2 0.90778 T3 0.41530`
 
@@ -53,9 +53,9 @@ treatments now have a random and unpredictable order.
 
 `T2 0.00018 T1 0.02338 T1 0.03322 T3 0.20776 T3 0.23288 T2 0.35942 T3 0.41530 T1 0.47897 T3 0.50797 T1 0.59740 T2 0.63826 T2 0.90778`
 
-That was easy, wasn\'t it? With this approach, you don\'t have to worry
+That was easy, wasn't it? With this approach, you don't have to worry
 about throwing out some of the random numbers, even when the number of
-treatments doesn\'t divide easily into 10 or 100.
+treatments doesn't divide easily into 10 or 100.
 
 You can set up a randomisation like this in five minutes using a simple
 spreadsheet. Spreadsheets have the annoying feature of recalculating a
@@ -63,8 +63,8 @@ new set of random numbers after any operation, including a sort, but
 this is only a cosmetic problem.
 
 The approach I have outlined extends readily to more complex situations
-like block or stratified random sampling. Let\'s look at the same
-research design, and let\'s randomize separately within blocks of size
+like block or stratified random sampling. Let's look at the same
+research design, and let's randomize separately within blocks of size
 six.
 
 First, you need to lay out your treatments and blocks in a systematic
@@ -79,7 +79,7 @@ random number column.
 `T3 B1 0.0912 T1 B1 0.3344 T2 B1 0.4102 T1 B1 0.4280 T3 B1 0.5281 T2 B1 0.7577 T3 B2 0.0537 T3 B2 0.0850 T1 B2 0.2790 T1 B2 0.3631 T2 B2 0.4929 T2 B2 0.8477`
 
 This is much simpler than the approach suggested by Altman and Bland;
-you don\'t have to list the 90 possible orderings of three treatments
+you don't have to list the 90 possible orderings of three treatments
 within a block of six.
 
 You can use this same approach to randomise a stratified study or a
@@ -94,7 +94,7 @@ random selection from a small population of patients:
 3.  sort by the random numbers, and
 4.  select your patients from the top of the sorted list.
 
-Let\'s look at an example where you have 13 patients and you need to
+Let's look at an example where you have 13 patients and you need to
 randomly select five. A table after sorting by the random numbers might
 look like this:
 
@@ -103,25 +103,25 @@ look like this:
 You would select patients 2, 5, 11, 9, and 1.
 
 You can even use this approach to generate a randomisation light bulb
-joke: \"*take to in How many a screw does statisticians it lightbulb?*\"
+joke: "*take to in How many a screw does statisticians it lightbulb?*"
 
 In summary, if you want to randomise, attach a column of random numbers.
 Sorting by these random numbers will produce an unpredictable ordering
 of your treatments. This approach extends easily to a variety of
 research settings.
 
-Steve Simon, Research Biostatistician, Children\'s Mercy Hospital,
+Steve Simon, Research Biostatistician, Children's Mercy Hospital,
 Kansas City MO, USA
 
-**[Stats](../08/index.asp) \>\> [Planning](../08/plan.asp) \>\>
-[Randomize](../99/random.html) \>\> BMJ letter**
+**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
+[Randomize](../99/random.html) >> BMJ letter**
 <!---More--->
-[Randomize](../99/random.html) \>\> BMJ letter**
-**[Stats](../08/index.asp) \>\> [Planning](../08/plan.asp) \>\>
+[Randomize](../99/random.html) >> BMJ letter**
+**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
 
 <!---Do not use
 ****[StATS]:** BMJ letter (October 11, 2001)**
-**[Stats](../08/index.asp) \>\> [Planning](../08/plan.asp) \>\>
-[Randomize](../99/random.html) \>\> BMJ letter**
+**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
+[Randomize](../99/random.html) >> BMJ letter**
 --->
 

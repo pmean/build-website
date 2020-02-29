@@ -10,8 +10,8 @@ output: html_document
 ****[StATS]:** Intention to treat (created
 2000-01-27).**
 
-*Dear Professor Mean, I\'m confused by medical journal articles that
-talk about the use of \"Intention to Treat\" analysis. What does this
+*Dear Professor Mean, I'm confused by medical journal articles that
+talk about the use of "Intention to Treat" analysis. What does this
 term mean?*
 
 **An intention to treat analysis specifies how to handle noncompliant
@@ -69,7 +69,7 @@ treatment.
 
 **Dropouts in an intention to treat analysis**
 
-Sometimes patients who don\'t comply with a prescribed treatment will
+Sometimes patients who don't comply with a prescribed treatment will
 also not comply with the measurement of the outcome. For example,
 someone who stops taking a drug may also not show up for evaluation
 either. These people might more properly be labeled as dropouts rather
@@ -111,9 +111,9 @@ oversimplification of this study.
 
 The MRFIT study had two separate compliance issues. First, some of the
 SI patients continued to smoke in spite of efforts to get them to quit.
-Second, some of the UC patients quit even thoug they didn\'t get any
+Second, some of the UC patients quit even thoug they didn't get any
 special encouragement. The researchers were glad that some of the UC
-patients quit, I\'m sure, and were not surprised that some of the SI
+patients quit, I'm sure, and were not surprised that some of the SI
 patients continued to smoke. But the net effect of this was to dilute
 the effect of smoking cessation.
 
@@ -127,14 +127,14 @@ An intention to treat analysis would look at the two randomized groups
 and would ignore the fact that some of the intervention group. Although
 there is plenty of data to suggest that **smoking cessation** reduces
 your risk of death, the MRFIT trials tell us is that **this particular
-smoking cessation program** doesn\'t. In other words, getting someone to
+smoking cessation program** doesn't. In other words, getting someone to
 quit is effective; telling someone to quit smoking is ineffective.
 
 There are some randomized trials that did show a difference in
 mortality, possibly because the patients were better at complying,
 possibly because of differences in the subject pool. And the issues are
 more complex than I can explain well in a simple message like this.
-Besides ignoring the dietary portion of the intervention, it\'s worth
+Besides ignoring the dietary portion of the intervention, it's worth
 noting that the were multiple outcomes in the MRFIT study and they were
 assessed at multiple time points. Also there were strong consistencies
 in the direction of the effects seen in the MRFIT trials and some
@@ -150,7 +150,7 @@ of the effectiveness of smoking cessation.
 
 **Summary**
 
-Inquisitive Irene wants to know **what the phrase \"Intention to Treat\"
+Inquisitive Irene wants to know **what the phrase "Intention to Treat"
 means** in all the journal articles she is reading. **Intention to Treat
 is a method that includes noncompliant patients in the groups to which
 they were originally randomized into**. There are two reasons why you
@@ -160,10 +160,10 @@ an assessment of the practical impact of a treatment**. There are some
 examples, however, where **intention to treat may answer a different
 question than the one you are interested in**.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).
@@ -171,17 +171,17 @@ risk](../category/MeasuringBenefitRisk.html).
 risk](../category/MeasuringBenefitRisk.html).
 this one at [Category: Measuring benefit and
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Intention to treat (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).

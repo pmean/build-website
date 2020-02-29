@@ -10,13 +10,13 @@ output: html_document
 ****[StATS]:** Sigma in the control chart. (January 27, 2000)**
 
 *Dear Professor Mean, I ran a control chart in SPSS for individual
-values, and the control limits don\'t correspond with what I would
+values, and the control limits don't correspond with what I would
 expect from the descriptive procedure that I ran first. In particular,
 the value of sigma in the control chart appears to be an approximation
 of what I computed earlier. Why would SPSS use a different calculation
 for sigma?*
 
-The use of the word \"sigma\" in quality control circles is different
+The use of the word "sigma" in quality control circles is different
 than how it is used in other circles. So the sigma limits that you get
 in your control chart are different than what you would get in any other
 descriptive statistics procedure. In particular, sigma represents
@@ -32,7 +32,7 @@ include things like a slow drift or trend that would inflate the limits
 and make the control chart useless.
 
 2\. In a control chart, sigma is corrected for bias. The correction
-factor is more complicated than the \"n-1\" factor which makes the
+factor is more complicated than the "n-1" factor which makes the
 variance (but not the standard deviation) unbiased.
 
 3\. In this particular control chart, the moving range is used to
@@ -57,31 +57,31 @@ explain this material far better than I can.
     Knoxville TN: SPC Press, Inc (1992).\
     ISBN: 0-945320-13-2.
 3.  **Advanced Topics in Statistical Process Control. The Power of
-    Shewhart\'s Charts\
+    Shewhart's Charts\
     **Wheeler DJ.\
     Knoxville TN: SPC Press Inc (1995).\
     ISBN: 0-945320-45-0.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Control charts](../category/ControlCharts.asp).
 <!---More--->
 this one at [Category: Control charts](../category/ControlCharts.asp).
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Sigma in the control chart. (January 27, 2000)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Control charts](../category/ControlCharts.asp).
 --->

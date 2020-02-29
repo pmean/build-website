@@ -260,8 +260,8 @@ You should include a smooting curve or spline model to the graph to
 emphasize the general trend and any departures from linearity.
 
 ``` {.r}
-plot(h5$sqft,h5$price)
-lines(lowess(h5$price~h5$sqft))
+plot(h5sqft,h5$price)
+lines(lowess(h5price~h5$sqft))
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r01.png)
@@ -269,9 +269,9 @@ lines(lowess(h5$price~h5$sqft))
 
 
 ``` {.r}
-plot(h5$age,h5$price)
-sb <- is.finite(h5$age)
-lines(lowess(h5$price[sb]~h5$age[sb]))
+plot(h5age,h5$price)
+sb <- is.finite(h5age)
+lines(lowess(h5price[sb]~h5$age[sb]))
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r02.png)
@@ -311,7 +311,7 @@ The best graphical summary between a continuous variable and a
 categorical variable is a boxplot.
 
 ``` {.r}
-boxplot(h5$price~h5$feats)
+boxplot(h5price~h5$feats)
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r03.png)
@@ -319,7 +319,7 @@ boxplot(h5$price~h5$feats)
 
 
 ``` {.r}
-boxplot(h5$price~h5$ne)
+boxplot(h5price~h5$ne)
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r04.png)
@@ -327,7 +327,7 @@ boxplot(h5$price~h5$ne)
 
 
 ``` {.r}
-boxplot(h5$price~h5$cust)
+boxplot(h5price~h5$cust)
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r05.png)
@@ -335,7 +335,7 @@ boxplot(h5$price~h5$cust)
 
 
 ``` {.r}
-boxplot(h5$price~h5$cor)
+boxplot(h5price~h5$cor)
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r06.png)
@@ -346,8 +346,8 @@ If your categorical variable is binary, you can also use a scatterplot.
 The binary variable goes on the y axis and a trend line is critical.
 
 ``` {.r}
-plot(h5$price,h5$ne)
-lines(lowess(h5$ne~h5$price))
+plot(h5price,h5$ne)
+lines(lowess(h5ne~h5$price))
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r07.png)
@@ -355,8 +355,8 @@ lines(lowess(h5$ne~h5$price))
 
 
 ``` {.r}
-plot(h5$price,h5$cust)
-lines(lowess(h5$cust~h5$price))
+plot(h5price,h5$cust)
+lines(lowess(h5cust~h5$price))
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r08.png)
@@ -364,8 +364,8 @@ lines(lowess(h5$cust~h5$price))
 
 
 ``` {.r}
-plot(h5$price,h5$cor)
-lines(lowess(h5$cor~h5$price))
+plot(h5price,h5$cor)
+lines(lowess(h5cor~h5$price))
 ```
 
 ![](http://www.pmean.com/images/images/15/relationships-in-r09.png)
@@ -377,7 +377,7 @@ categorical variable. It is equivalent to the point-bisearial
 correlation.
 
 ``` {.r}
-round(cor(h5[,c("ne","cust","cor")],h5$price),1)
+round(cor(h5[,c("ne","cust","cor")],h5price),1)
 ```
 
     ##      [,1]

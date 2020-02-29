@@ -34,7 +34,7 @@ used a mixture model . What is this?*
 > percentages of some of these three components.
 >
 > A quite different type of mixture model is **when you know that your
-> data are a mixture of apples and oranges, but you don\'t know which
+> data are a mixture of apples and oranges, but you don't know which
 > are the apples and which are the oranges**. You might, for example,
 > see a bimodal distribution on a histogram that looks suspiciously like
 > peaks from two separate normal populations. The mixture model is a way
@@ -45,20 +45,20 @@ used a mixture model . What is this?*
 > **Genetics studies** offer a good example of this type of mixture
 > model. Certain **genetic experiments involving quantitative traits**
 > like metabolism lead to **data with a bimodal population**, but we
-> **can\'t look at the individual genes** and identify which animals are
+> **can't look at the individual genes** and identify which animals are
 > genetically slow metabolizers and which ones are genetically fast
 > metabolizers. We can use the distribution of metabolic rates, however,
 > to identify the mean and standard deviations for the population of
 > genetically slow metabolizers and genetically fast metabolizers.
 >
 > **Both types of mixture models require specialized software**. You
-> shouldn\'t embark on a serious mixture model analysis without a
+> shouldn't embark on a serious mixture model analysis without a
 > face-to-face consultation with a professional statistician.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
@@ -66,17 +66,17 @@ data](../category/UnusualData.html).
 data](../category/UnusualData.html).
 for pages similar to this one at [Category: Unusual
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Mixture models (January 27, 2000).**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).

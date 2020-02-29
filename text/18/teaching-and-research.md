@@ -150,7 +150,7 @@ travelling on an airplane and one engine after another explodes. After
 each explosion, the pilot announces that everything is okay, but the
 flight is delayed further and further after each explosion. After the
 third explosion, one statistician turns to the other and say "Boy I hope
-that last engine doesn't explode" \[dramatic pause\] "or we'll be up
+that last engine doesn't explode" [dramatic pause] "or we'll be up
 here forever!". I use this joke when I teach linear regression, because
 it illustrates a dangerous extrapolation beyond the range of observed
 data. Later, I introduce the intercept term and offer an interpretation
@@ -423,7 +423,7 @@ help me.
 ## Mining the electronic health record
 
 In January 2016, I was offered the opportunity to work on a research
-grant funded by the Patient Centered Outcomes Research Institute.  The
+grant funded by the Patient Centered Outcomes Research Institute.<U+00A0> The
 grant supported the Greater Plains Collaborative, a consortium of ten
 academic health care centers in the midwest. It was run out of
 Enterprise Analytics, located at Kansas University Medical Center. I

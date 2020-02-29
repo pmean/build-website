@@ -37,7 +37,7 @@ spreadsheet to enter my data?*
 > code is not assigned to two different subjects. Database specialists
 > refer to this as checking for unique primary keys.
 >
-> It\'s also possible to program a database to check for consistencies
+> It's also possible to program a database to check for consistencies
 > in dates. If the birth date is in 1994, for example, and the
 > examination date is in 1987, then either your data are in error or you
 > have an extremely far-sighted pre-natal care program.
@@ -96,8 +96,8 @@ spreadsheet to enter my data?*
 > comfortable with a spreadsheet than a database (or vice versa), that
 > might outweigh some of the computer efficiencies**. On the other hand,
 > keep in mind that software in general, and database software in
-> particular, is getting easier to use. Don\'t let lack of experience
-> keep you from trying a database. It\'s easier than you think.
+> particular, is getting easier to use. Don't let lack of experience
+> keep you from trying a database. It's easier than you think.
 
 **Summary**
 
@@ -111,26 +111,26 @@ spreadsheet to enter my data?*
 > set is. **The bigger and messier the data, the more a database can
 > help**.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 <!---More--->
 this one at [Category: Data management](../category/DataManagement.html)
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Spreadsheet or Database? (created January
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 --->

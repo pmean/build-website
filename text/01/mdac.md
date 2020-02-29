@@ -28,9 +28,9 @@ Microsoft Data Access Pack (created 2001-01-24)**
 > remaining steps in the wizard. This will install the SPSS Data Driver
 > into your ODBC Data Sources Control panel.
 
-> To configure the driver, go to Start-\>Settings-\>Control Panel.
+> To configure the driver, go to Start->Settings->Control Panel.
 > Double click on Data Sources (ODBC). On the User DSN tab, click Add.
-> Scroll down until you see SPSS Data Access 32 (\*.sav), and select it.
+> Scroll down until you see SPSS Data Access 32 (*.sav), and select it.
 > Click Finish. A small dialog box will appear, named Setup. In the box
 > next to Data Source: type in a name for the Data Source. In the box
 > next to Database: type in the full path to the directory where you
@@ -38,26 +38,26 @@ Microsoft Data Access Pack (created 2001-01-24)**
 > Database Administrator. When you use the data source within your
 > application, the driver will display each SPSS data file in the
 > directory as a separate table. In general, ODBC can only read in 255
-> variables at a time. \-\-\-\--Original Message\-\-\-\-- Sent: Friday,
-> September 08, 2000 7:02 PM To: SPSSX-L\@LISTSERV.UGA.EDU Subject: SPSS
+> variables at a time. -----Original Message----- Sent: Friday,
+> September 08, 2000 7:02 PM To: SPSSX-L@LISTSERV.UGA.EDU Subject: SPSS
 > data into Access ??
 >
 > **Second message:** On the SPSS 9.0 CD-ROM, the Microsoft Data Access
 > Pack (which includes the Microsoft Access ODBC Driver) is in the
-> folder called \"ODBC Drivers\". Double click on the file called
+> folder called "ODBC Drivers". Double click on the file called
 > dataacc.exe to install.
 
 > You can also download the Microsoft Data Access Pack directly from
-> Microsoft\'s webpage, at
+> Microsoft's webpage, at
 > [www.microsoft.com/data](http://www.microsoft.com/data). They call it
 > the Microsoft Data Access Components, or MDAC.
 >
 > **Third message:** I also found a copy on the Access 97 CD. I knew it
 > had to be somewhere on the SPSS CD but after searching the SPSS web
-> site to no avail I then tried Microsoft\'s site (no luck) and then the
+> site to no avail I then tried Microsoft's site (no luck) and then the
 > Access disc. I told it to reload Access using the Add/Remove feature
 > and found the driver that way. The trick seems to be know what to call
-> something (like \"data access pack\") when roaming around discs & web
+> something (like "data access pack") when roaming around discs & web
 > sites.
 >
 > **Fourth message:** You need the driver for the application that
@@ -70,10 +70,10 @@ Microsoft Data Access Pack (created 2001-01-24)**
 > note contains related information that may be useful.
 > [support.microsoft.com/support/kb/articles/Q237/5/75.ASP](http://support.microsoft.com/support/kb/articles/Q237/5/75.ASP).
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 or [Category: SPSS software](../category/SpssSoftware.html).
@@ -81,17 +81,17 @@ or [Category: SPSS software](../category/SpssSoftware.html).
 or [Category: SPSS software](../category/SpssSoftware.html).
 this one at [Category: Data management](../category/DataManagement.html)
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Loading ODBC drivers from the
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Data management](../category/DataManagement.html)
 or [Category: SPSS software](../category/SpssSoftware.html).

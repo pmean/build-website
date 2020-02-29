@@ -11,9 +11,9 @@ output: html_document
 
 *Dear Professor Mean, The results of my study were negative, and the
 journal reviewer insists that I perform a post hoc power calculation.
-How do I do this?  -Jittery Jerry*
+How do I do this?<U+00A0> -Jittery Jerry*
 
-Dear Jittery, Post hoc power calculations are very bad. If it\'s the
+Dear Jittery, Post hoc power calculations are very bad. If it's the
 only way you can get the paper published, we can do this calculation,
 but a confidence interval calculation is far better.
 
@@ -36,7 +36,7 @@ interval includes vales that might be considered clinically relevant.
 
 The one approach to post hoc power that is somewhat defensible is an
 update of your a priori power calculation. You did do a power
-calculation prior to collecting your data, didn\'t you?
+calculation prior to collecting your data, didn't you?
 
 Great! Remember that in that calculation, you used an estimate of
 variability from a pilot study or from previous research. Sometimes,
@@ -82,58 +82,58 @@ pointless.
 1.  **Negative results of randomized clinical trials published in the
     surgical literature: equivalency or error?** J. B. Dimick, M.
     Diener-West, P. A. Lipsett. Arch Surg 2001: 136(7); 796-800.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11448393&dopt=Abstract)
-2.  **Post hoc power analysis\--another view.** J. Fogel.
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11448393&dopt=Abstract)
+2.  **Post hoc power analysis--another view.** J. Fogel.
     Pharmacotherapy 2001: 21(9); 1150.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11560206&dopt=Abstract)
-    [\[Full text\]](http://www.medscape.com/viewarticle/409791)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11560206&dopt=Abstract)
+    [[Full text]](http://www.medscape.com/viewarticle/409791)
 3.  **Post hoc power analysis: an idea whose time has passed?** M.
     Levine, M. H. Ensom. Pharmacotherapy 2001: 21(4); 405-9.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11310512&dopt=Abstract)
-    [\[Abstract\]](http://www.atypon-link.com/PPI/doi/abs/10.1592/phco.21.5.405.34503)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11310512&dopt=Abstract)
+    [[Abstract]](http://www.atypon-link.com/PPI/doi/abs/10.1592/phco.21.5.405.34503)
     **(Sample Size, Post Hoc Power)**
 4.  **The use of predicted confidence intervals when planning
     experiments and the misuse of power when interpreting results.**
     Steven Goodman. Annals of Internal Medicine 1994: 121(3); 200-206.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8017747&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8017747&dopt=Abstract)
 5.  **Resolving discrepancies among studies: the influence of dose on
     effect size.** I. Hertz-Picciotto, R. R. Neutra. Epidemiology 1994:
     5(2); 156-63.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8172990&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8172990&dopt=Abstract)
 6.  **The Abuse of Power: The Pervasive Fallacy of Power Calculations
     for Data Analysis.** John M. Hoenig, Dennis M. Heisey. The American
     Statistician 2001: 55(1); 19-24.
 7.  **The Overemphasis On Power Analysis.** Thomas Knapp. Nursing
     Research 1996: 45(6); 379.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8941316&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8941316&dopt=Abstract)
 8.  **Some Practical Guidelines for Effective Sample Size
     Determination.** R.V. Lenth. The American Statistician 2001: 55(3);
-    187-193. [\[PDF\]](http://www.stat.uiowa.edu/techrep/tr303.pdf)
+    187-193. [[PDF]](http://www.stat.uiowa.edu/techrep/tr303.pdf)
 9.  **Confidence limit analyses should replace power calculations in the
     interpretation of epidemiologic studies.** A. H. Smith, M. N. Bates.
     Epidemiology 1992: 3(5); 449-52.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1391138&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1391138&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Post hoc power](../category/PostHocPower.html).
 <!---More--->
 this one at [Category: Post hoc power](../category/PostHocPower.html).
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Post hoc power (November 1, 2002)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Post hoc power](../category/PostHocPower.html).
 --->

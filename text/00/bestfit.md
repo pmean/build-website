@@ -27,11 +27,11 @@ curves?*
 > **will not extrapolate well** beyond the range of your data, and it is
 > likely to have **poor agreement with any future data** you collect.
 >
-> **If you don\'t have any a priori or theoretical basis from which to
+> **If you don't have any a priori or theoretical basis from which to
 > choose an equation, then a nonparametric approach like smoothing
 > splines has a lot of appeal**. In particular, you might find a
 > generalization of Poisson regression, the generalized additive model,
-> to work very well here. Refer to Hastie and Tibshirani\'s book for
+> to work very well here. Refer to Hastie and Tibshirani's book for
 > more details.
 
 **Further reading**
@@ -39,26 +39,26 @@ curves?*
 1.  **Generalized Additive Models** (1990) Trevor J. Hastie and Robert
     Tibshirani. London England: Chapman and Hall. ISBN: 0-412-34390-8.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 <!---More--->
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Best fitting curve** **(created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 --->

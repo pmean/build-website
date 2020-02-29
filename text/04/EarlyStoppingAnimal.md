@@ -39,7 +39,7 @@ bit, sometimes by a lot.
 
 Here's a little simulation that you can run in S-plus or R.
 
-`par(mar=c(4,5,0,0)+0.1,cex=2,pch="+")    f.p <- function(mua) {    x1 <- rnorm(12)    x2 <- mua+rnorm(12)    p.value <- rep(NA,12)    for (i in 2:12) {        p.value[i] <- t.test(x1[1:i],x2[1:i])$p.value    }    plot(p.value,type="b",ylim=0:1,cex=2)    abline(h=0.05)    }    for (i in 1:100) {    f.p(mua=1)    }`
+`par(mar=c(4,5,0,0)+0.1,cex=2,pch="+")    f.p <- function(mua) {    x1 <- rnorm(12)    x2 <- mua+rnorm(12)    p.value <- rep(NA,12)    for (i in 2:12) {        p.value[i] <- t.test(x1[1:i],x2[1:i])p.value    }    plot(p.value,type="b",ylim=0:1,cex=2)    abline(h=0.05)    }    for (i in 1:100) {    f.p(mua=1)    }`
 
 You'll see a variety of different patterns for the p-values.
 
@@ -77,7 +77,7 @@ complexities of the situation. This program simulates an experiment with
 12 animals per group, but looks at the p-value with after 4, 8, and 12
 animals have been tested.
 
-`n <- 5000    p4 <- rep(NA,n)    p8 <- rep(NA,n)    p12 <- rep(NA,n)    for (i in 1:n) {    x1 <- rnorm(12)    x2 <- rnorm(12)    p4[i] <- t.test(x1[1:4],x2[1:4])$p.value    p8[i] <- t.test(x1[1:8],x2[1:8])$p.value    p12[i] <- t.test(x1[1:12],x2[1:12])$p.value    }    sum(p4<0.05)/n`
+`n <- 5000    p4 <- rep(NA,n)    p8 <- rep(NA,n)    p12 <- rep(NA,n)    for (i in 1:n) {    x1 <- rnorm(12)    x2 <- rnorm(12)    p4[i] <- t.test(x1[1:4],x2[1:4])p.value    p8[i] <- t.test(x1[1:8],x2[1:8])$p.value    p12[i] <- t.test(x1[1:12],x2[1:12])$p.value    }    sum(p4<0.05)/n`
 
 `[1] 0.0454`
 

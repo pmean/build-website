@@ -39,7 +39,7 @@ What caused the NA's to appear in row 13? Well, I first thought it
 was the stray commas, but they were dozens of them and the NA row
 appeared only once. So I decided to get rid of the stray commas by
 replacing any comma that appeared at the end of a line with nothing
-(using the regular expression ,$). That removed all but one of the
+(using the regular expression ,). That removed all but one of the
 stray commas. Then I realized that this particular comma was followed
 by a blank space, and R took that to represent a second new
 observation appearing on the same line as the previous observation. It

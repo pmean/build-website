@@ -25,7 +25,7 @@ independent, but that is all I know!*
 > discipline mysterious and awe inspiring.
 >
 > Collinearity can appear as a **very high correlation** among two
-> independent variables, but it doesn\'t have to work that way. Another
+> independent variables, but it doesn't have to work that way. Another
 > type of collinearity is when **several of the variables add up to
 > something that it very close to a constant** value.
 >
@@ -41,7 +41,7 @@ independent, but that is all I know!*
 > variables are in a regression model, the parameter for birth weight is
 > measuring the effect of a change in one unit in birth weight on the
 > dependent variable, assuming that all of the other variables are held
-> constant. **It\'s hard to envision what it means to change birth
+> constant. **It's hard to envision what it means to change birth
 > weight while gestational age is held constant**. What you are looking
 > at, in effect, is the size of a baby for a gestational age.
 >
@@ -53,38 +53,38 @@ independent, but that is all I know!*
 >
 > In the previous example, we have very few 1000 gram babies who are 40
 > weeks gestational age and very few 2500 gram babies who are 32 weeks
-> gestational age. Without data at these two \"corners\" of the table,
-> it\'s hard to get stable statistical estimates.
+> gestational age. Without data at these two "corners" of the table,
+> it's hard to get stable statistical estimates.
 >
 > It should be noted, though, that **you can make sense of your data,
 > even when you have collinearity**. It just takes more data and a bit
 > of care in interpretation. Some health outcomes, it turns out, are
-> related more closely to gestational age than to birth weight. It\'s
+> related more closely to gestational age than to birth weight. It's
 > not how small you are that is as important as how early you make your
-> entry into the world. Keep in mind that I\'m not a doctor (see my
+> entry into the world. Keep in mind that I'm not a doctor (see my
 > [disclaimer](disclaimer.html)), so check my limited knowledge of
 > medicine out with the experts. Especially if you are a newborn baby.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 <!---More--->
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** What is collinearity? (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Modeling issues](../category/ModelingIssues.asp).
 --->

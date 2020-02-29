@@ -53,13 +53,13 @@ money doing a bit of extra clean up.
 
 Here's a numeric example to illustrate the problem. Let's suppose that
 the current level of the environmental site is at 600, a dangerous
-level. Let's also suppose that it costs $10,000 to reduce the level by
+level. Let's also suppose that it costs 10,000 to reduce the level by
 one unit. If there were no issues with sampling error, then the cost of
 the clean-up would be one million dollars (100 units of reduction times
 10 thousand dollars per unit).
 
 But the sampling to indicate how much we have reduced the level is both
-imperfect and expensive. It costs $5,000 per site to sample and the
+imperfect and expensive. It costs 5,000 per site to sample and the
 standard deviation for any individual site measurement would be 200
 units. You can use the spreadsheet
 
@@ -75,12 +75,12 @@ spent 40 thousand dollars on the sampling. Total bill: 2.38 million
 dollars.
 
 With a sample of 100 sites, the confidence interval would be +/- 33. The
-cost of the extra remediation is now only $330,000, but the cost of the
-sampling has jumped up to $500,000. Total bill: 1.83 million dollars.
+cost of the extra remediation is now only 330,000, but the cost of the
+sampling has jumped up to 500,000. Total bill: 1.83 million dollars.
 
 With a sample of 500 sites, the confidence interval would be +/- 15. So
-there would only be $150,000 in extra remediation costs. But the cost
-of the sampling has gone through the roof. We're now paying $2,500,000
+there would only be 150,000 in extra remediation costs. But the cost
+of the sampling has gone through the roof. We're now paying 2,500,000
 just for the sampling. Total bill: 3.65 million.
 
 Here's a graph of all possible sample sizes and total costs.

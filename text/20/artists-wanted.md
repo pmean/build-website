@@ -20,7 +20,7 @@ Eventually I would like to publish a book, but for the short term, I am looking 
 
 I started a case study many years ago, but I had to pay for the artwork out of my own pocket. That plus the competition of other projects for my time caused me to put the project on hold.
 
-My boss was goading me to put in some research grants and there was a small program called Arts+Medicine Trailblazer that seemed interesting. So I put in a proposal for $5,000 and it got funded. I used the provocative title "Celebrating the failures of medical research using a graphic novel format." I'm already regretting the title because it almost sounds that I'm gloating over other people's problems. I think a fairer title would have been "Remembering and learning from the failures of medical research."
+My boss was goading me to put in some research grants and there was a small program called Arts+Medicine Trailblazer that seemed interesting. So I put in a proposal for 5,000 and it got funded. I used the provocative title "Celebrating the failures of medical research using a graphic novel format." I'm already regretting the title because it almost sounds that I'm gloating over other people's problems. I think a fairer title would have been "Remembering and learning from the failures of medical research."
 
 If you are interested in working with me on this, the first thing you should do is [read my grant](http://www.pmean.com/pdf/simons_arts.pdf). Then take a look at the [TGN1412 case study](http://www.pmean.com/cases/Tgn1412Popwerpoint.pdf) that I have partially developed.  I like the illustrations that I got, but when I put everything together I realized that I needed several more illustrations to get the story right.
 

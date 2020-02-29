@@ -74,7 +74,7 @@ follow the R code to follow the argument.
 
     library("pwr")
     pow1 <- power.prop.test(n=50, p1=0.5, p2=(51:99)/100, sig.level=0.05)
-    plot(pow1$p2,pow1$power)
+    plot(pow1p2,pow1$power)
 
 ![](http://www.pmean.com/images/images/14/design-monte-carlo-201.png)
 
@@ -95,7 +95,7 @@ The plot is not perfectly linear, but it is close. You should transform
 the axes back to the original scale for interpretability.
 
     par(las=2)
-    plot(logit(pow1$p2,base=2), logit(pow1$power,base=2), axes=FALSE,
+    plot(logit(pow1p2,base=2), logit(pow1$power,base=2), axes=FALSE,
       xlab="Alternative", ylab="Power")
     yvals <- c(0.02,0.05,0.10,0.25,0.5,0.75,0.9,0.95,0.99,0.999,0.9999)
     axis(side=2, at=logit(yvals,base=2), labels=paste(100*yvals,"%",sep=""))

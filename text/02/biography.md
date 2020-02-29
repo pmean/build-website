@@ -46,18 +46,18 @@ output: html_document
 > both team leader and team facilitator. He also gave several lectures
 > on the use of control charts and other quality tools.
 >
-> In 1996, Steve joined Children\'s Mercy Hospital, where he is
+> In 1996, Steve joined Children's Mercy Hospital, where he is
 > currently working. He is responsible for the statistical consultation
 > for all research at the hospital. He is currently funded as a
 > co-investigator on two NIH grants and has helped several other people
 > acquire research funding.
 >
 > At his current job, Steve produces web pages that explain how to
-> design and analyze medical research studies. In 1997, Steve\'s
-> presentation \"Medical Statistics Case Studies on the Web\" was voted
+> design and analyze medical research studies. In 1997, Steve's
+> presentation "Medical Statistics Case Studies on the Web" was voted
 > as the best presentation in the area of Teaching Statistics in the
 > Health Sciences at the Joint Statistical Meetings. One of these web
-> pages \"How to Read a Medical Journal Article\" has been translated
+> pages "How to Read a Medical Journal Article" has been translated
 > into Spanish and posted on two different international medical sites.
 >
 > Throughout his career, Steve has been an active researcher. He has
@@ -81,10 +81,10 @@ output: html_document
 > expertise and in-depth knowledge of statistical applications. He has
 > applied these skills in medical, business, and managerial settings.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Professional
 details](../category/ProfessionalDetails.asp).
@@ -92,17 +92,17 @@ details](../category/ProfessionalDetails.asp).
 details](../category/ProfessionalDetails.asp).
 this one at [Category: Professional
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ******[StATS]:**** Biography (created 2002-01-16)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Professional
 details](../category/ProfessionalDetails.asp).

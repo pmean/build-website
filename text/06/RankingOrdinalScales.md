@@ -47,10 +47,10 @@ categories.
 ![ProblemsRanking02.gif not found.](http://www.pmean.com/images/images/06/RankingOrdinalScales02.png)
 
 Notice that there is a relatively small shift in the average rank when
-you move from 50-100K to 100-250K. A shift of approximately $100,000
+you move from 50-100K to 100-250K. A shift of approximately 100,000
 (subtracting the midpoints of these two categories) corresponds to a
 shift of only 6 units in the average rank. In contrast, a shift from
-10-20K to 20-50K, a shift of approximately $20,000 has a shift of 12
+10-20K to 20-50K, a shift of approximately 20,000 has a shift of 12
 units in the average rank.
 
 So the net effect of this rank transformation is to make small changes

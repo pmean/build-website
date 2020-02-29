@@ -26,7 +26,7 @@ web site](http://lib.stat.cmu.edu/DASL/DataArchive.html). This data
 set has 21 cases and 3 variables. The variables are:
 
 1.  Firm name
-2.  TV advertising budget, 1983 ($ millions)
+2.  TV advertising budget, 1983 ( millions)
 3.  Millions of retained impressions per week
 
 The web pages offers the following description:

@@ -40,13 +40,13 @@ want to use one?*
 > **You can use a stratified sample only when you know which subjects
 > belong to which strata prior to data collection**. If you only find
 > out information about the strata during the interview or testing of
-> subjects, then you can\'t control the selection of subjects in
+> subjects, then you can't control the selection of subjects in
 > advance.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Research
 designs](../category/ResearchDesigns.html).
@@ -54,17 +54,17 @@ designs](../category/ResearchDesigns.html).
 designs](../category/ResearchDesigns.html).
 this one at [Category: Research
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Stratified random sample. (August 23, 2000)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Research
 designs](../category/ResearchDesigns.html).

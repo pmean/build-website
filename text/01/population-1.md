@@ -12,8 +12,8 @@ on power and precision (January 19, 2001)**
 
 *Dear Professor Mean, Can you explain why it is okay to have similar
 sample sizes for populations of very different sizes. For example, why
-is it that a sample size for a population of 10 million doesn\'t have to
-be much larger than a sample size for a population of 10 thousand? \--
+is it that a sample size for a population of 10 million doesn't have to
+be much larger than a sample size for a population of 10 thousand? --
 Skeptical Sam*
 
 Dear Skeptical,
@@ -25,8 +25,8 @@ Dear Skeptical,
 > which one of the two lawyers you want to chose.
 
 > The best analogy I have heard about sampling goes something like:
-> \"*Every cook knows that it only takes a single sip from a
-> well-stirred soup to determine the taste*.\" It\'s a nice analogy
+> "*Every cook knows that it only takes a single sip from a
+> well-stirred soup to determine the taste*." It's a nice analogy
 > because you can visualize what happens when the soup is poorly
 > stirred.
 
@@ -82,7 +82,7 @@ Dear Skeptical,
 > records, past, present, or future. Or you might sample from patients
 > at your own hospital but you want to generalize to patients at all
 > hospitals. **The finite population correction factor really only
-> applies to \"warehouse\" type studies, where you are trying to
+> applies to "warehouse" type studies, where you are trying to
 > characterize all the data in a single physical or conceptual location
 > and there is NO interest in data outside of this location.** Warehouse
 > studies are quite common in accounting, but they are unusual in
@@ -91,7 +91,7 @@ Dear Skeptical,
 **Summary**
 
 > Uncle Gene wants an explanation of why a sample for a population of 10
-> million people doesn\'t have to be much larger than a sample for a
+> million people doesn't have to be much larger than a sample for a
 > population of 10 thousand people. Professor Mean provides an analogy
 > to taking a single sip from a well stirred soup. He then presents the
 > finite population correction factor and shows that it does not make
@@ -102,20 +102,20 @@ Dear Skeptical,
 
 1.  **[Yes, Polling
     Works](http://www.gallup.com/poll/FromtheEd/ed0211.asp)**. Frank
-    Newport. Accessed on 2002-12-03. \"There\'s little question that
+    Newport. Accessed on 2002-12-03. "There's little question that
     some Americans are skeptical of polls and the process by which we
     use small samples to represent the views of millions of people. We
     pick up that skepticism when we poll people about polls (something
     we do from time to time!), and I certainly hear it when I am on a
     radio talk show or make a speech and get bombarded with questions
     about the believability of our polls, which are based on what seems
-    to the questioners to be ridiculously small numbers of people.\"
+    to the questioners to be ridiculously small numbers of people."
     www.gallup.com/poll/FromtheEd/ed0211.asp
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.asp) and [Category: Sample
@@ -125,17 +125,17 @@ size justification](../category/SampleSizeJustification.html).
 intervals](../category/ConfidenceIntervals.asp) and [Category: Sample
 this one at [Category: Confidence
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** The minimal impact of population size
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.asp) and [Category: Sample

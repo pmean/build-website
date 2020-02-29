@@ -16,7 +16,7 @@ feel that this might be a minority view, and should not be eliminate
 from the dataset\...\...any views or references that I should read to
 confirm my view, or theirs?*
 
-> There are several things you can do here. The suggestion in Altman\'s
+> There are several things you can do here. The suggestion in Altman's
 > book (page 130) is to **present an analysis with and without the
 > outliers**. Think of it as a sensitivity analysis. This also allows
 > the readers to make up their own minds about which analysis to use.
@@ -33,7 +33,7 @@ confirm my view, or theirs?*
 > The other thing to keep in mind is that **sometimes the outliers are
 > more interesting than the rest of the data**. Think about cancer
 > patients who survive much longer than their peers. Why would you want
-> to remove these \"outliers\"? These are the people you should be
+> to remove these "outliers"? These are the people you should be
 > studying the most.
 >
 > Also **look for other factors that might explain the outliers**. Are
@@ -53,10 +53,10 @@ confirm my view, or theirs?*
 1.  **Practical Statistics for Medical Research.** Altman DG. London
     England: Chapman and Hall (1991). ISBN: 0-412-27630-5.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
@@ -64,17 +64,17 @@ data](../category/UnusualData.html).
 data](../category/UnusualData.html).
 for pages similar to this one at [Category: Unusual
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Outliers (January 28, 2000).**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).

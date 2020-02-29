@@ -28,10 +28,10 @@ offered some additional evidence of the problem
 -   More than 90% of clinical trial sites delay enrollment --
     CenterWatch
 -   72% of studies are delayed by more than a month -- CISCRP
--   Out-of-pocket costs are $1.2M on average per study for each month
+-   Out-of-pocket costs are 1.2M on average per study for each month
     delayed -- Top 10 Pharma Company report
 -   Delays in studies can cost life-sciences companies at least
-    $800,000 a day in lost sales for a niche medication and $5.4
+    800,000 a day in lost sales for a niche medication and $5.4
     million a day for a blockbuster -- McKinsey
 
 About a year ago, I received a small grant to study the proportion of
@@ -315,10 +315,10 @@ studies at Children's Mercy Hospital (CMH) that failed to meet the
 About a year ago, I received a small grant to study the proportion of
 
     million a day for a blockbuster -- McKinsey
-    $800,000 a day in lost sales for a niche medication and $5.4
+    800,000 a day in lost sales for a niche medication and $5.4
 -   Delays in studies can cost life-sciences companies at least
     delayed -- Top 10 Pharma Company report
--   Out-of-pocket costs are $1.2M on average per study for each month
+-   Out-of-pocket costs are 1.2M on average per study for each month
 -   72% of studies are delayed by more than a month -- CISCRP
     CenterWatch
 -   More than 90% of clinical trial sites delay enrollment --
@@ -356,10 +356,10 @@ offered some additional evidence of the problem
 -   More than 90% of clinical trial sites delay enrollment --
     CenterWatch
 -   72% of studies are delayed by more than a month -- CISCRP
--   Out-of-pocket costs are $1.2M on average per study for each month
+-   Out-of-pocket costs are 1.2M on average per study for each month
     delayed -- Top 10 Pharma Company report
 -   Delays in studies can cost life-sciences companies at least
-    $800,000 a day in lost sales for a niche medication and $5.4
+    800,000 a day in lost sales for a niche medication and $5.4
     million a day for a blockbuster -- McKinsey
 
 About a year ago, I received a small grant to study the proportion of

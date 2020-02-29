@@ -26,8 +26,8 @@ The expected value of X, E[X], is computed as
 ![Moments02.gif not found.](http://www.pmean.com/images/images/05/Moments02.png)
 
 This calculation can be easily generalized to more complicated
-situations. Suppose that a rich uncle plans to give you $2,000 for each
-child in your family, with a bonus of $500 for each girl. The formula
+situations. Suppose that a rich uncle plans to give you 2,000 for each
+child in your family, with a bonus of 500 for each girl. The formula
 for the bonus is
 
 ![Moments03.gif not found.](http://www.pmean.com/images/images/05/Moments03.png)

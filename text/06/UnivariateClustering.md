@@ -68,7 +68,7 @@ groups of cars:
 You can run model based clustering using the mclust library of R.
 Here's the code to get the data into R and to draw the rug plot.
 
-`library(mclust)  cars.data <- read.csv("cars.csv",header=T,as.is=T)  par(mar=c(2.1,0.1,0.1,0.1))  plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  segments(cars.data$MPG,0,cars.data$MPG,0.15)`
+`library(mclust)  cars.data <- read.csv("cars.csv",header=T,as.is=T)  par(mar=c(2.1,0.1,0.1,0.1))  plot(range(cars.dataMPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  segments(cars.data$MPG,0,cars.data$MPG,0.15)`
 
 When you fit a mixture of univariate normal distributions, you have
 the option of mixing normal distributions with equal variances (the E
@@ -90,7 +90,7 @@ sequence of mixtures from 1 to 6 assuming equal variances (E option).
 
 The code that created these plots is shown below.
 
-`par(mar=c(2.1,0.1,0.1,0.1))  mpg.mclust.e <- EMclust(cars.data$MPG,emModelNames="E")  x0 <- seq(min(cars.data$MPG),max(cars.data$MPG),length.out=1000)  e <- summary(mpg.mclust.e,data=cars.data$MPG,G=1)  nt <- rep(0,1000)  plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  nt <- dnorm(x0,mean=e$mu,sd=sqrt(e$sigmasq))  lines(x0,nt,lwd=3)  segments(cars.data$MPG,0,cars.data$MPG,0.02)  for (k in 2:6) {    e <- summary(mpg.mclust.e,data=cars.data$MPG,G=k)    nt <- rep(0,1000)    plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)    axis(side=1)    for (i in 1:k) {    ni <- e$pro[i]*dnorm(x0,mean=e$mu[i],sd=sqrt(e$sigmasq))    lines(x0,ni,col=9)    nt <- nt+ni    }    lines(x0,nt,lwd=3)    segments(cars.data$MPG,0,cars.data$MPG,0.02)  }`
+`par(mar=c(2.1,0.1,0.1,0.1))  mpg.mclust.e <- EMclust(cars.dataMPG,emModelNames="E")  x0 <- seq(min(cars.data$MPG),max(cars.data$MPG),length.out=1000)  e <- summary(mpg.mclust.e,data=cars.data$MPG,G=1)  nt <- rep(0,1000)  plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  nt <- dnorm(x0,mean=e$mu,sd=sqrt(e$sigmasq))  lines(x0,nt,lwd=3)  segments(cars.data$MPG,0,cars.data$MPG,0.02)  for (k in 2:6) {    e <- summary(mpg.mclust.e,data=cars.data$MPG,G=k)    nt <- rep(0,1000)    plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)    axis(side=1)    for (i in 1:k) {    ni <- e$pro[i]*dnorm(x0,mean=e$mu[i],sd=sqrt(e$sigmasq))    lines(x0,ni,col=9)    nt <- nt+ni    }    lines(x0,nt,lwd=3)    segments(cars.data$MPG,0,cars.data$MPG,0.02)  }`
 
 Compare this to the sequence of fits when you allow the variances to
 be unique in each component of the normal mixture (V option).
@@ -109,7 +109,7 @@ be unique in each component of the normal mixture (V option).
 
 Here's the code that produced these graphs:
 
-`mpg.mclust.v <- EMclust(cars.data$MPG,emModelNames="V")  x0 <- seq(min(cars.data$MPG),max(cars.data$MPG),length.out=1000)  v <- summary(mpg.mclust.v,data=cars.data$MPG,G=1)  nt <- rep(0,1000)  plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  ni <- dnorm(x0,mean=v$mu,sd=sqrt(v$sigmasq))  lines(x0,ni,lwd=3)  segments(cars.data$MPG,0,cars.data$MPG,0.02)  for (k in 2:6) {    v <- summary(mpg.mclust.v,data=cars.data$MPG,G=k)    nt <- rep(0,1000)    plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)    axis(side=1)    for (i in 1:k) {    ni <- v$pro[i]*dnorm(x0,mean=v$mu[i],sd=sqrt(v$sigmasq[i]))    lines(x0,ni,col=9)    nt <- nt+ni    }    lines(x0,nt,lwd=3)    segments(cars.data$MPG,0,cars.data$MPG,0.02)  }`
+`mpg.mclust.v <- EMclust(cars.dataMPG,emModelNames="V")  x0 <- seq(min(cars.data$MPG),max(cars.data$MPG),length.out=1000)  v <- summary(mpg.mclust.v,data=cars.data$MPG,G=1)  nt <- rep(0,1000)  plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)  axis(side=1)  ni <- dnorm(x0,mean=v$mu,sd=sqrt(v$sigmasq))  lines(x0,ni,lwd=3)  segments(cars.data$MPG,0,cars.data$MPG,0.02)  for (k in 2:6) {    v <- summary(mpg.mclust.v,data=cars.data$MPG,G=k)    nt <- rep(0,1000)    plot(range(cars.data$MPG),c(0,0.15),type="n",xlab=" ",ylab=" ",axes=F)    axis(side=1)    for (i in 1:k) {    ni <- v$pro[i]*dnorm(x0,mean=v$mu[i],sd=sqrt(v$sigmasq[i]))    lines(x0,ni,col=9)    nt <- nt+ni    }    lines(x0,nt,lwd=3)    segments(cars.data$MPG,0,cars.data$MPG,0.02)  }`
 
 Notice that adding another component to the normal mixture does not
 always result in adding a new mode to the data. For example, under the

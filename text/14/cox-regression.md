@@ -120,14 +120,14 @@ tail(pmod)
     ## 312  576    3.79    186     2115 136  149      200    10.8     2
 
 ``` {.r}
-summary(pmod$time)
+summary(pmodtime)
 ```
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##      41    1191    1840    2006    2697    4556
 
 ``` {.r}
-table(pmod$status)
+table(pmodstatus)
 ```
 
     ## 
@@ -135,7 +135,7 @@ table(pmod$status)
     ## 168  19 125
 
 ``` {.r}
-p.surv <- Surv(pmod$time,pmod$status==2)
+p.surv <- Surv(pmodtime,pmod$status==2)
 print(p.surv)
 ```
 
@@ -216,9 +216,9 @@ would be predicted at its average value.
 pred.mod1 <- survfit(cox.mod1,newdata=data.frame(sex=c("f","m")))
 plot(pred.mod1,xlim=c(0,6000))
 title("sex")
-end.pts <- dim(pred.mod1$surv)[1]
-end.x   <- rep(pred.mod1$time[end.pts]+100,1)
-end.y   <- pred.mod1$surv[end.pts,]
+end.pts <- dim(pred.mod1surv)[1]
+end.x   <- rep(pred.mod1time[end.pts]+100,1)
+end.y   <- pred.mod1surv[end.pts,]
 end.nm  <- c("f","m")
 text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
 ```
@@ -307,9 +307,9 @@ summary(cox.mod2)
 pred.mod2 <- survfit(cox.mod2,newdata=data.frame(age=c(30,40,50,60)))
 plot(pred.mod2,xlim=c(0,6000))
 title("age")
-end.pts <- dim(pred.mod2$surv)[1]
-end.x   <- pred.mod2$time[end.pts]+100
-end.y   <- pred.mod2$surv[end.pts,]
+end.pts <- dim(pred.mod2surv)[1]
+end.x   <- pred.mod2time[end.pts]+100
+end.y   <- pred.mod2surv[end.pts,]
 end.nm  <- c(30,40,50,60)
 text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
 ```

@@ -14,7 +14,7 @@ calculations (created 2000-08-23)**
 outcome variable. The research study is on breast feeding failures
 within 7 to 10 days of birth for mothers who intended to breast feed.
 The rate of failure overall is expected to be about 12%. What sample
-size do I need? \-- Baffled Bob*
+size do I need? -- Baffled Bob*
 
 Dear Baffled,
 
@@ -33,7 +33,7 @@ Dear Baffled,
 > specify the variability of your outcome measure and how much of a
 > change you would consider clinically relevant. For a binary outcome,
 > you still need to specify the clinically relevant change. But you
-> don\'t need a measure of variability. What you need instead is an
+> don't need a measure of variability. What you need instead is an
 > estimate in your control group of the probability for one level of
 > your binary outcome. You might also need to specify the distribution
 > of your explanatory (independent) variable.
@@ -41,12 +41,12 @@ Dear Baffled,
 **Example**
 
 > One of the factors that might influence breast feeding failure is
-> whether the delivery was a vaginal birth or a C-section. Let\'s assume
+> whether the delivery was a vaginal birth or a C-section. Let's assume
 > that roughly 20% of the mothers in the sample had a C-section.
 > Expressing it in a different way, the ratio of vaginal births to
 > C-sections is 4 to 1.
 >
-> Let\'s also assume that the rate of breast feeding failure is 15% in
+> Let's also assume that the rate of breast feeding failure is 15% in
 > the C-section group and 30% in the vaginal birth group. You
 > hypothesize that C-section babies fare better, because the mother
 > stays in the hospital longer. The extra time in the hospital allows
@@ -56,7 +56,7 @@ Dear Baffled,
 > want the power to be at least 0.80. Under these conditions, you would
 > need a sample size of 435 mothers.
 >
-> \[Show some of the formulas and calculations.\]
+> [Show some of the formulas and calculations.]
 
 **Summary**
 
@@ -70,37 +70,37 @@ Dear Baffled,
 1.  **[Binomial Program to Calculate Power or Sample
     Size](http://www.swogstat.org/Stat/Public/binomial/binomial.htm)**.
     Brent Hostetler, Southwest Oncology Group Statistical Center.
-    Accessed on 2003-05-08. *\"Two Arm Binomial is a program to
+    Accessed on 2003-05-08. *"Two Arm Binomial is a program to
     calculate either estimates of sample size or power for differences
     in proportions. The program allows for unequal sample size
-    allocation between the two groups.\"*
+    allocation between the two groups."*
     www.swogstat.org/Stat/Public/binomial/binomial.htm
 2.  **[One sample
     binomial](http://www.swogstat.org/Stat/Public/one_binomial.htm)**.
     Southwest Oncology Group Statistical Center. Accessed on 2003-05-08.
-    *\"One Arm Binomial program calculates either estimates of sample
+    *"One Arm Binomial program calculates either estimates of sample
     size or power for one sample binomial problem. The first button
     calculates approximate power or sample size and critical values
-    (reject if \>= critical value). The second button calculates
-    \"exact\" power and alpha for the given null and alternative
+    (reject if >= critical value). The second button calculates
+    "exact" power and alpha for the given null and alternative
     proportions and sample size. Note, sample size and null and
     alternative proportions can be changed before using the second
-    button.\"* www.swogstat.org/Stat/Public/one\_binomial.htm
+    button."* www.swogstat.org/Stat/Public/one_binomial.htm
 3.  **[Bayesian sample size determination for estimating binomial
     parameters from data subject to
     misclassification](http://www.med.mcgill.ca/epidemiology/Joseph/diagsmp.pdf)**.
     Elham Rahme, Lawrence Joseph, Theresa W. Gyorkos. Accessed on
-    2003-05-08. *\"We investigate the sample size problem when a
+    2003-05-08. *"We investigate the sample size problem when a
     binomial parameter is to be estimated, but some degree of
     misclassification is possible. The problem is especially challenging
     when the degree to which misclassification occurs is not exactly
-    known.\"* Published November 29, 1999.
+    known."* Published November 29, 1999.
     www.med.mcgill.ca/epidemiology/Joseph/diagsmp.pdf
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
@@ -108,17 +108,17 @@ justification](../category/SampleSizeJustification.html).
 justification](../category/SampleSizeJustification.html).
 this one at [Category: Sample size
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Binary outcome sample size
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).

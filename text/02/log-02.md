@@ -134,7 +134,7 @@ There are two common statistical models, additive and multiplicative.
 **An additive model assumes that factors that change your outcome
 measure, change it by addition or subtraction**. An example of an
 additive model would when we increase the number of mail order
-catalogs sent out by 1,000, and that adds an extra $5,000 in sales.
+catalogs sent out by 1,000, and that adds an extra 5,000 in sales.
 
 **A multiplicative model assumes that factors that change your outcome
 measure, change it by multiplication or division**. An example of a

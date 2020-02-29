@@ -11,20 +11,20 @@ output: html_document
 2000-01-27).**
 
 *Dear Professor Mean, How are patients and their doctors supposed to
-decide whether a research finding has practical significance? Why don\'t
+decide whether a research finding has practical significance? Why don't
 the medical journals make things clearer?*
 
-> You\'re hoping for clarity from medical profession? These are the
-> folks who take a simple ear ache and call it \"otitis media.\" To
-> them, a runny nose is \"rhinorhea\" and a tummy ache is
-> \"gastrointestinal distress.\" It\'s enough to make me produce
+> You're hoping for clarity from medical profession? These are the
+> folks who take a simple ear ache and call it "otitis media." To
+> them, a runny nose is "rhinorhea" and a tummy ache is
+> "gastrointestinal distress." It's enough to make me produce
 > lacrimal secretions.
 
 > In fairness to these folks, though, they do realize that practical
 > interpretation of the medical research is difficult. They are trying
 > to change it. There are two important changes that we are starting to
 > see in medical research papers. First, they have learned that **you
-> can\'t ignore the size of the effect and focus only on the statistical
+> can't ignore the size of the effect and focus only on the statistical
 > significance**. Since confidence intervals provide information about
 > both the size and significance, many journals include them instead of
 > p-values.
@@ -79,7 +79,7 @@ the medical journals make things clearer?*
 > therapy would be quite different from the number of events you would
 > see following ten patients for their first decade of therapy.
 >
-> Here\'s another example from the British Medical Journal ([Freemantle
+> Here's another example from the British Medical Journal ([Freemantle
 > 1999: 318(7200);
 > 1730-1737](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10381708&dopt=Abstract)).
 > **Prevention of cardiac death using beta blockers among patients with
@@ -143,7 +143,7 @@ the medical journals make things clearer?*
 >
 > Calculating the NNT or NNH from a continuous measure using a cutoff is
 > usually impossible to do after the fact. **So if you are reading
-> someone else\'s work and they present the data as a mean difference,
+> someone else's work and they present the data as a mean difference,
 > you cannot calculate NNT or NNH.** You would need additional
 > information, such as the proportions that exceed some threshold, or
 > you would have to make some questionable assumptions, such as
@@ -168,67 +168,67 @@ the medical journals make things clearer?*
 2.  **Adjusting the number needed to treat: incorporating adjustments
     for the utility and timing of benefits and harms.** R Riegelman, WS
     Schroth. Medical Decision Making 1993: 13(3); 247-52.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8412555&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8412555&dopt=Abstract)
 3.  **Applying evidence to the individual patient.** S. E. Straus, D. L.
     Sackett. Ann Oncol 1999: 10(1); 29-32.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10076718&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10076718&dopt=Abstract)
 4.  **Basic statistics for clinicians: 3. Assessing the effects of
-    treatment: measures of association \[published erratum appears in
-    Can Med Assoc J 1995 Mar 15; 152(6):813\].** R. Jaeschke, G.
+    treatment: measures of association [published erratum appears in
+    Can Med Assoc J 1995 Mar 15; 152(6):813].** R. Jaeschke, G.
     Guyatt, H. Shannon, S. Walter, D. Cook, N. Heddle. Cmaj 1995:
     152(3); 351-7.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7828099&dopt=Abstract)
-    [\[Full
-    text\]](http://collection.nlc-bnc.ca/100/201/300/cdn_medical_association/cmaj/vol-152/0351.htm)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7828099&dopt=Abstract)
+    [[Full
+    text]](http://collection.nlc-bnc.ca/100/201/300/cdn_medical_association/cmaj/vol-152/0351.htm)
 5.  **Benefit-Risk ratios in the assessment of the clinical evidence of
-    a new therapy.** AR Willan, BJ O\'Brien, DJ Cook. Cont Clin Trials
+    a new therapy.** AR Willan, BJ O'Brien, DJ Cook. Cont Clin Trials
     1997: 18(2); 121-30.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9129856&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9129856&dopt=Abstract)
 6.  **Beta blockade after myocardial infarction: systematic review and
     meta regression analysis.** Nick Freemantle, J Cleland, P Young, J
     Mason, J Harrison. British Medical Journal 1999: 318(7200);
     1730-1737.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10381708&dopt=Abstract)
-    [\[Abstract\]](http://bmj.bmjjournals.com/cgi/content/abstract/318/7200/1730)
-    [\[Full
-    text\]](http://bmj.bmjjournals.com/cgi/content/full/318/7200/1730)
-    [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/318/7200/1730.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10381708&dopt=Abstract)
+    [[Abstract]](http://bmj.bmjjournals.com/cgi/content/abstract/318/7200/1730)
+    [[Full
+    text]](http://bmj.bmjjournals.com/cgi/content/full/318/7200/1730)
+    [[PDF]](http://bmj.bmjjournals.com/cgi/reprint/318/7200/1730.pdf)
 7.  **[Calculating and Using
     NNTs](http://www.jr2.ox.ac.uk/bandolier/Extraforbando/NNTextra.pdf)**.
     Bandolier. Accessed on 2003-06-12.
     www.jr2.ox.ac.uk/bandolier/Extraforbando/NNTextra.pdf
 8.  **Calculating confidence intervals for the number needed to treat.**
     R. Bender. Controlled Clinical Trials 2001: 22(2); 102-10.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11306148&dopt=Abstract)
-9.  **Calculating the \"number needed to be exposed\" with adjustment
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11306148&dopt=Abstract)
+9.  **Calculating the "number needed to be exposed" with adjustment
     for confounding variables in epidemiological studies.** R Bender, M
     Blettner. Journal of Clinical Epidemiology 2002: 55(5); 525-530.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12007557&dopt=Abstract)
-    [\[PDF\]](http://wwwhomes.uni-bielefeld.de/rbender/PDF/nne_adj.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12007557&dopt=Abstract)
+    [[PDF]](http://wwwhomes.uni-bielefeld.de/rbender/PDF/nne_adj.pdf)
 10. **Calculating the number needed to treat for trials where the
     outcome is time to an event.** D. G. Altman, P. K. Andersen. British
     Medical Journal 1999: 319(7223); 1492-5.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10582940&dopt=Abstract)
-    [\[Full text\]](http://bmj.com/cgi/content/full/319/7223/1492)
-    [\[PDF\]](http://bmj.com/cgi/reprint/319/7223/1492.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10582940&dopt=Abstract)
+    [[Full text]](http://bmj.com/cgi/content/full/319/7223/1492)
+    [[PDF]](http://bmj.com/cgi/reprint/319/7223/1492.pdf)
 11. **Choice of Effect Measure for Epidemiological Data.** SD Walter.
     Journal of Clinical Epidemiology 2000: 53(9); 931-939.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11004419&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11004419&dopt=Abstract)
 12. **Confidence limits made easy: interval estimation using a
     substitution method.** L. E. Daly. Am J Epidemiol 1998: 147(8);
     783-90.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9554420&dopt=Abstract)
-13. **Events per person per year \-- a dubious concept.** J Windeler, S
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9554420&dopt=Abstract)
+13. **Events per person per year -- a dubious concept.** J Windeler, S
     Lange. BMJ 1995: 310(6977); 454-56.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7873955&dopt=Abstract)
-    [\[Full text\]](http://bmj.com/cgi/content/full/310/6977/454)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7873955&dopt=Abstract)
+    [[Full text]](http://bmj.com/cgi/content/full/310/6977/454)
 14. **Expressing the magnitude of adverse effects in case-control
-    studies: \"the number of patients needed to be treated for one
-    additional patient to be harmed\".** L. M. Bjerre, J. LeLorier.
+    studies: "the number of patients needed to be treated for one
+    additional patient to be harmed".** L. M. Bjerre, J. LeLorier.
     British Medical Journal 2000: 320(7233); 503-6.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10678870&dopt=Abstract)
-    [\[Full text\]](http://bmj.com/cgi/content/full/320/7233/503)
-    [\[PDF\]](http://bmj.com/cgi/reprint/320/7233/503.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10678870&dopt=Abstract)
+    [[Full text]](http://bmj.com/cgi/content/full/320/7233/503)
+    [[PDF]](http://bmj.com/cgi/reprint/320/7233/503.pdf)
 15. **[Getting
     NNTs](http://www.jr2.ox.ac.uk/bandolier/band36/b36-2.html)**.
     Bandolier. Accessed on 2003-07-01.
@@ -237,83 +237,83 @@ the medical journals make things clearer?*
     physicians to prescribe drugs to lower cholesterol
     concentration.** H. C. Bucher, M. Weinbacher, K. Gyr. British
     Medical Journal 1994: 309(6957); 761-4.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7950558&dopt=Abstract)
-    [\[Abstract\]](http://bmj.com/cgi/content/abstract/309/6957/761)
-    [\[Full text\]](http://bmj.com/cgi/content/full/309/6957/761)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7950558&dopt=Abstract)
+    [[Abstract]](http://bmj.com/cgi/content/abstract/309/6957/761)
+    [[Full text]](http://bmj.com/cgi/content/full/309/6957/761)
 17. **Interpreting the Number Needed to Treat.** Lambert A. Wu, Thomas
     E. Kottke. Journal of the American Medical Association 2002: 288(7);
     830-1.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12186595&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12186595&dopt=Abstract)
 18. **Missing the point (estimate)? Confidence intervals for the number
     needed to treat.** N. J. Barrowman. Cmaj 2002: 166(13); 1676-7.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12126323&dopt=Abstract)
-    [\[Full text\]](http://www.cmaj.ca/cgi/content/full/166/13/1676)
-    [\[PDF\]](http://www.cmaj.ca/cgi/reprint/166/13/1676.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12126323&dopt=Abstract)
+    [[Full text]](http://www.cmaj.ca/cgi/content/full/166/13/1676)
+    [[PDF]](http://www.cmaj.ca/cgi/reprint/166/13/1676.pdf)
 19. **Nicotine nasal spray with nicotine patch for smoking cessation:
     randomised trial with six year follow up.** T. Blondal, L. J.
     Gudmundsson, I. Olafsdottir, G. Gustavsson, A. Westin. British
     Medical Journal 1999: 318(7179); 285-8.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9924052&dopt=Abstract)
-    [\[Abstract\]](http://bmj.com/cgi/content/abstract/318/7179/285)
-    [\[Full text\]](http://bmj.com/cgi/content/full/318/7179/285)
-    [\[PDF\]](http://bmj.com/cgi/reprint/318/7179/285.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9924052&dopt=Abstract)
+    [[Abstract]](http://bmj.com/cgi/content/abstract/318/7179/285)
+    [[Full text]](http://bmj.com/cgi/content/full/318/7179/285)
+    [[PDF]](http://bmj.com/cgi/reprint/318/7179/285.pdf)
 20. **Number needed to harm should be measured for treatments.** Arnold
     Zermansky. British Medical Journal 1998: 317(7164); 1014.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9765180&dopt=Abstract)
-    [\[Full text\]](http://bmj.com/cgi/content/full/317/7164/1014)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9765180&dopt=Abstract)
+    [[Full text]](http://bmj.com/cgi/content/full/317/7164/1014)
 21. **Number needed to screen: development of a statistic for disease
     screening.** C. M. Rembold. British Medical Journal 1998: 317(7154);
     307-12.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9685274&dopt=Abstract)
-    [\[Abstract\]](http://bmj.com/cgi/content/abstract/317/7154/307)
-    [\[Full text\]](http://bmj.com/cgi/content/full/317/7154/307)
-    [\[PDF\]](http://bmj.com/cgi/reprint/317/7154/307.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9685274&dopt=Abstract)
+    [[Abstract]](http://bmj.com/cgi/content/abstract/317/7154/307)
+    [[Full text]](http://bmj.com/cgi/content/full/317/7154/307)
+    [[PDF]](http://bmj.com/cgi/reprint/317/7154/307.pdf)
 22. **The number needed to treat: a clinically useful measure of
     treatment effect.** R. J. Cook, D. L. Sackett. British Medical
     Journal 1995: 310(6977); 452-4.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7873954&dopt=Abstract)
-    [\[Full text\]](http://bmj.com/cgi/content/full/310/6977/452)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7873954&dopt=Abstract)
+    [[Full text]](http://bmj.com/cgi/content/full/310/6977/452)
 23. **Number needed to treat: Caveat emptor.** LA Wu, TE Kottke. Journal
     of Clinical Epidemiology 2001: 54(2); 111-116.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11166524&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11166524&dopt=Abstract)
 24. **Numbers needed to treat derived from meta-analysis.** Bruce G.
     Charlton. British Medical Journal 1999: 319(7218); 1199.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10541527&dopt=Abstract)
-    [\[Full
-    text\]](http://bmj.bmjjournals.com/cgi/content/full/319/7218/1199/a)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10541527&dopt=Abstract)
+    [[Full
+    text]](http://bmj.bmjjournals.com/cgi/content/full/319/7218/1199/a)
 25. **Randomised controlled trial shows that glyceryl trinitrate heals
     anal fissures, higher doses are not more effective, and there is a
     high recurrence rate.** EA Carapeti, MA Kamm, PJ McDonald, SJ
     Chadwick, D Melville, RK Phillips. Gut 1999: 44(5); 727-30.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10205213&dopt=Abstract)
-    [\[Abstract\]](http://gut.bmjjournals.com/cgi/content/abstract/44/5/727)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10205213&dopt=Abstract)
+    [[Abstract]](http://gut.bmjjournals.com/cgi/content/abstract/44/5/727)
 26. **Recombinant or urinary follicle-stimulating hormone? A
     cost-effectiveness analysis derived by particularizing the number
     needed to treat from a published meta-analysis.** B. Ola, S.
     Papaioannou, M. A. Afnan, N. Hammadieh, S. Gimba. Fertil Steril
     2001: 75(6); 1106-10.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11384634&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11384634&dopt=Abstract)
 27. **Unqualified success and unmitigated failure:
     number-needed-to-treat-related concepts for assessing treatment
     efficacy in the presence of treatment-induced adverse events.** M
     Schulzer, GB Mancini. International Journal of Epidemiology 1996:
     25(4); 704-12.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8921446&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8921446&dopt=Abstract)
 28. **Updated New Zealand cardiovascular disease risk-benefit prediction
     guide.** R. Jackson. Bmj 2000: 320(7236); 709-10.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10710588&dopt=Abstract)
-    [\[Full
-    text\]](http://bmj.bmjjournals.com/cgi/content/full/320/7236/709)
-    [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/320/7236/709.pdf)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10710588&dopt=Abstract)
+    [[Full
+    text]](http://bmj.bmjjournals.com/cgi/content/full/320/7236/709)
+    [[PDF]](http://bmj.bmjjournals.com/cgi/reprint/320/7236/709.pdf)
 29. **Using numerical results from systematic reviews in clinical
     practice.** H. J. McQuay, R. A. Moore. Ann Intern Med 1997: 126(9);
     712-20.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9139558&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9139558&dopt=Abstract)
 30. **When should an effective treatment be used? Derivation of the
     threshold number needed to treat and the minimum event rate for
     treatment.** J. C. Sinclair, R. J. Cook, G. H. Guyatt, S. G.
     Pauker, D. J. Cook. J Clin Epidemiol 2001: 54(3); 253-62.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11223323&dopt=Abstract)
+    [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11223323&dopt=Abstract)
 
 **Additional references that I need to add to my bibliography**
 
@@ -322,10 +322,10 @@ the medical journals make things clearer?*
 2.  J Clin Epidemiol. 2002 Jan;55(1):102-3. PMID: 11781128.
 3.  JAMA. 2002 Jun 5;287(21):2813-4. PMID: 12038920
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html)
@@ -333,17 +333,17 @@ risk](../category/MeasuringBenefitRisk.html)
 risk](../category/MeasuringBenefitRisk.html)
 this one at [Category: Measuring benefit and
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Number Needed to Treat (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html)

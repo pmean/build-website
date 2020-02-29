@@ -235,7 +235,7 @@ The diagnostic messages produced by this function are shown below:
 The output from this function is stored in BBOutput. When you list
 BBOutput, you get the following information:
 
-`> BBOutput        $Stats        mean           sd MC_error val2.5pc median val97.5pc start         sample        p 0.4428 0.09491 0.001376     0.2626 0.4416       0.6296   1001             5000                $DIC            Dbar     Dhat     DIC         pD        x         4.641 3.677 5.605 0.9639        total 4.641 3.677 5.605 0.9639`
+`> BBOutput        Stats        mean           sd MC_error val2.5pc median val97.5pc start         sample        p 0.4428 0.09491 0.001376     0.2626 0.4416       0.6296   1001             5000                $DIC            Dbar     Dhat     DIC         pD        x         4.641 3.677 5.605 0.9639        total 4.641 3.677 5.605 0.9639`
 
 Notice that the output here is slightly different than the output
 shown above. The mean, for example, is 0.4428 rather than 0.4421. This

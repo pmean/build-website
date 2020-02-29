@@ -10,13 +10,13 @@ output: html_document
 ****[StATS]:** Why 95% confidence limits? (created
 2002-05-06)**
 
-*Dear Professor Mean,* *I\'ve been working with small data sets for some
+*Dear Professor Mean,* *I've been working with small data sets for some
 neuroimaging research that have 5 treatment and 5 control participants.
 It is not unusual to have such small samples in this kind of work. My
 95% confidence interval (CI) included zero; yet, the 85% confidence
 interval did not include zero. I know that the 95% CI is the common one,
-but I also know that others are used, but I don\'t know when to use
-them. Therefore, I\'d like to know why we use 95% confidence limits all
+but I also know that others are used, but I don't know when to use
+them. Therefore, I'd like to know why we use 95% confidence limits all
 the time. When it is appropriate to use other CIs and the logic behind
 making such decisions.*
 
@@ -53,34 +53,34 @@ making such decisions.*
 > You should also ask yourself **what precision you would really like to
 > have**. A good way to start is to first define a range of clinical
 > indifference. In other words, how much of a change is so small that
-> the typical researcher would yawn and say \"that\'s not very
-> interesting.\"
+> the typical researcher would yawn and say "that's not very
+> interesting."
 >
 > Finally, saying that sample sizes of 5 are common in your area of work
 > places you firmly in the **Lemming school of research design**. Your
 > effects have to be two full standard deviations apart in order to
-> justify doing the research on only 5 subjects in each group. That\'s a
-> Godzilla sized difference\--one that would imply that the best subject
+> justify doing the research on only 5 subjects in each group. That's a
+> Godzilla sized difference--one that would imply that the best subject
 > in one group is still far worse than the worst subject in the other
 > group.
 >
-> Sometimes, a researcher can say with confidence that an \"all or
-> nothing\" difference is the only one they are interested in seeing.
+> Sometimes, a researcher can say with confidence that an "all or
+> nothing" difference is the only one they are interested in seeing.
 > But I suspect that this is not the case with your data. If you saw a
 > difference of only one standard deviation, you would probably still
 > consider that very interesting. And a sample size that could reliably
 > detect such a difference is far larger than 5 per group.
 >
-> I don\'t mean to be too critical. I don\'t know the full context of
+> I don't mean to be too critical. I don't know the full context of
 > your research. You really should discuss the implications of your
 > research design with a professional statistician before you conduct
 > any more research. Not only might you be wasting precious research
 > dollars, but there may be serious ethical problems with your research.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).
@@ -88,17 +88,17 @@ intervals](../category/ConfidenceIntervals.html).
 intervals](../category/ConfidenceIntervals.html).
 this one at [Category: Confidence
 with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Why 95% confidence limits? (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).

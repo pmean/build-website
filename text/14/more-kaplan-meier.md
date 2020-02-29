@@ -145,13 +145,13 @@ baseline values for some non-randomized patients.
 Take a look at the two key variables needed to define the survival
 object. Dividing by 365.25 gives the times in years rather than in days.
 
-    > summary(pmod$time)
+    > summary(pmodtime)
        Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
          41    1191    1840    2006    2697    4556 
-    > summary(pmod$time/365.25)
+    > summary(pmodtime/365.25)
        Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
      0.1123  3.2610  5.0360  5.4930  7.3850 12.4700 
-    > table(pmod$status)
+    > table(pmodstatus)
 
       0   1   2 
     168  19 125
@@ -160,7 +160,7 @@ The values for status, if you read the documentation, are 0=censored,
 1=transplant, and 2=death. You could define an event as either 1 and 2
 or 2 by itself. Choose the latter for this example.
 
-    > p.surv >- Surv(pmod$time,pmod$status==2)
+    > p.surv >- Surv(pmodtime,pmod$status==2)
     print(p.surv)
       [1]  400  4500+ 1012  1925  1504+ 2503  1832+ 2466  2400    51  3762   304  3577+ 1217  3584 
      [16] 3672+  769   131  4232+ 1356  3445+  673   264  4079  4127+ 1444    77   549  4509+  321 
@@ -219,9 +219,9 @@ Kaplan-Meier curves for each quartile.
     sf <- survfit(p.surv~x)
     print(paste("There are",mi,"missing values."))
     plot(sf,xlim=c(0,6000))
-    end.pts <- cumsum(sf$strata)
-    end.x <- sf$time[end.pts]+100
-    end.y <- sf$surv[end.pts]
+    end.pts <- cumsum(sfstrata)
+    end.x <- sftime[end.pts]+100
+    end.y <- sfsurv[end.pts]
     end.nm <- names(tb)
     text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
     }
