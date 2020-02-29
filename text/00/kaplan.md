@@ -71,19 +71,19 @@ which case the number of distinct times is less than the number of
 deaths or failures. You need to place the t's in order from smallest
 to largest. That is,
 
-![wpe49.gif (1048 bytes)](../01/images/kaplan12.gif){width="123"
+![wpe49.gif (1048 bytes)](http://www.pmean.com/images/01/kaplan12.gif){width="123"
 height="32"}
 
 You also need to define the starting point of the study,
 
-![wpe4A.gif (950 bytes)](../01/images/kaplan13.gif){width="51"
+![wpe4A.gif (950 bytes)](http://www.pmean.com/images/01/kaplan13.gif){width="51"
 height="32"}
 
 The basic computations for the Kaplan-Meier survival curve rely on the
 computation of conditional survival probabilities. In particular, the
 probability
 
-![wpe4B.gif (1200 bytes)](../01/images/kaplan14.gif){width="152"
+![wpe4B.gif (1200 bytes)](http://www.pmean.com/images/01/kaplan14.gif){width="152"
 height="39"}
 
 which can be interpreted as the probability of your surviving to a
@@ -95,26 +95,26 @@ risk at that same time.
 A more difficult (but more important) probability is the unconditional
 probability of survival,
 
-![wpe4C.gif (1052 bytes)](../01/images/kaplan15.gif){width="83"
+![wpe4C.gif (1052 bytes)](http://www.pmean.com/images/01/kaplan15.gif){width="83"
 height="35"}
 
 which represents the simple probability of survival to a specific
 time. You can use a relationship between this unconditional
 probability and the conditional probability:
 
-![wpe4D.gif (1666 bytes)](../01/images/kaplan16.gif){width="176"
+![wpe4D.gif (1666 bytes)](http://www.pmean.com/images/01/kaplan16.gif){width="176"
 height="109"}
 
 At first glance, this does not seem to help, because the right hand
 side of the equation still includes an unconditional probability. But
 we can apply this approach again to get
 
-![wpe4E.gif (2010 bytes)](../01/images/kaplan17.gif){width="187"
+![wpe4E.gif (2010 bytes)](http://www.pmean.com/images/01/kaplan17.gif){width="187"
 height="148"}
 
 and we can continue along these lines to get
 
-![wpe4F.gif (2366 bytes)](../01/images/kaplan18.gif){width="189"
+![wpe4F.gif (2366 bytes)](http://www.pmean.com/images/01/kaplan18.gif){width="189"
 height="187"}
 
 This last probability represents the probability of surviving at the
@@ -124,19 +124,19 @@ is equal to the cumulative product of conditional probabilities.
 
 At each time point, you should count
 
-![wpe50.gif (1613 bytes)](../01/images/kaplan21.gif){width="212"
+![wpe50.gif (1613 bytes)](http://www.pmean.com/images/01/kaplan21.gif){width="212"
 height="63"}
 
 You should also count
 
-![wpe51.gif (2124 bytes)](../01/images/kaplan22.gif){width="243"
+![wpe51.gif (2124 bytes)](http://www.pmean.com/images/01/kaplan22.gif){width="243"
 height="95"}
 
 Armed with this information, you can now compute a Kaplan-Meier
 survival curve. First you need to calculate the number of patients at
 risk,
 
-![wpe52.gif (1120 bytes)](../01/images/kaplan23.gif){width="166"
+![wpe52.gif (1120 bytes)](http://www.pmean.com/images/01/kaplan23.gif){width="166"
 height="32"}
 
 In other words, the number at risk at any specific time point is just
@@ -144,18 +144,18 @@ the number at risk at the previous time point, minus the number of
 deaths/failures and the number of censored observations. For
 convenience, we define
 
-![wpe53.gif (2872 bytes)](../01/images/kaplan24.gif){width="250"
+![wpe53.gif (2872 bytes)](http://www.pmean.com/images/01/kaplan24.gif){width="250"
 height="190"}
 
 Next you compute the conditional probability of survival:
 
-![wpe56.gif (1402 bytes)](../01/images/kaplan25.gif){width="228"
+![wpe56.gif (1402 bytes)](http://www.pmean.com/images/01/kaplan25.gif){width="228"
 height="60"}
 
 Finally, the unconditional probability of survival is simply the
 cumulative product of the conditional probabilities:
 
-![wpe57.gif (1542 bytes)](../01/images/kaplan26.gif){width="208"
+![wpe57.gif (1542 bytes)](http://www.pmean.com/images/01/kaplan26.gif){width="208"
 height="71"}
 
 **Example**
@@ -320,7 +320,7 @@ represents the Kaplan-Meier estimate of the survival probability.
 
 Here is a graph of these survival probabilities.<U+00A0>
 
-![](../01/images/kaplan01a.gif){width="476" height="389"}
+![](http://www.pmean.com/images/01/kaplan01a.gif){width="476" height="389"}
 
 The plot has a "stair step" pattern, because we don't know the
 survival probability at fractional days (such as 2.5 days) and at
