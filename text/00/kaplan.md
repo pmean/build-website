@@ -63,7 +63,7 @@ group to experience a certain fraction of deaths.
 To compute a survival curve, you need to note the time of occurrence
 of events (e.g., failures, deaths)
 
-![wpe48.gif (1798 bytes)](../01/images/kaplan11.gif){width="268"
+![wpe48.gif (1798 bytes)](http://www.pmean.com/images/01/kaplan11.gif){width="268"
 height="56"}
 
 It is possible for two or more events to occur at the same time, in

@@ -43,8 +43,11 @@ for (i_file in file_list) {
 file_list <- setdiff(file_list, skipped_files)
 "\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
 
+n <- length(file_list)
+k <- 0
 for (i_file in file_list) {
-  if (v) "\nWorking on" %b% i_file %>% cat
+  k <- k+1
+  if (v) "\nWorking on" %b% k %b% "of" %b% "files" %C% i_file %>% cat
   
   read_lines(i_file)       %>%
     parse_bibtex(i_file)   %>%

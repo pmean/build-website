@@ -34,7 +34,7 @@ teaching time on small group exercises. I also want to mention some of
 the special challenges that I have faced with teaching in an online
 (webinar) format.
 
-\#\# Compelling teaching examples
+## Compelling teaching examples
 
 It takes a lot of time to find compelling teaching examples. They need
 to be vivid and memorable. They need to reflect the practice of
@@ -66,11 +66,11 @@ really did believe in the mantra "women and children first" though
 perhaps more so among first and second class passengers. The
 crosstabulation of gender and survival would look something like this.
 
-"\`{r titanic, echo=FALSE}\
-d \<- list(c("Female", "Male"), c("No", "Yes"))\
-ti \<- matrix(c(154, 709, 308, 142), 2, 2, dimnames=d)\
-print(ti)\
-"\`
+"`{r titanic, echo=FALSE}
+d <- list(c("Female", "Male"), c("No", "Yes"))
+ti <- matrix(c(154, 709, 308, 142), 2, 2, dimnames=d)
+print(ti)
+"`
 
 You can bring these numbers to life by pointing out that Kate Winslet
 was in the upper right corner of the 308 women who survived and that
@@ -124,7 +124,7 @@ reliance on surrogate outcomes reduced the number of deaths in the
 clinical trial itself and allowed much earlier FDA approval of these
 treatments.
 
-\#\# Using humor to make a point
+## Using humor to make a point
 
 My audiences are often apprehensive. Will this guy speak a lot of Greek
 and formulas to me? A bit of humor very early in the talk will often
@@ -149,7 +149,7 @@ travelling on an airplane and one engine after another explodes. After
 each explosion, the pilot announces that everything is okay, but the
 flight is delayed further and further after each explosion. After the
 third explosion, one statistician turns to the other and say "Boy I hope
-that last engine doesn't explode" \[dramatic pause\] "or we'll be up
+that last engine doesn't explode" [dramatic pause] "or we'll be up
 here forever!". I use this joke when I teach linear regression, because
 it illustrates a dangerous extrapolation beyond the range of observed
 data. Later, I introduce the intercept term and offer an interpretation
@@ -171,7 +171,7 @@ Humor can be overdone, and students are not listening to you for
 entertainment. I try to keep my jokes short and get them out of the way
 early. But a little bit of humor does seem to help a lot.
 
-\#\# Spending time on small group exercises
+## Spending time on small group exercises
 
 I hate to do small group exercises. I really hate them. When you are
 giving a short course at a research conference, you have a limited time
@@ -239,7 +239,7 @@ highlighted confidence interval in that abstract. All of the abstracts
 that I choose are from Open Source journals so the librarians can track
 down the full articles after the class ends, if they are so inclined.
 
-\#\# Online teaching
+## Online teaching
 
 I wanted to mention a bit about the special challenges associated with
 online teaching, because I see a transition to online teaching almost

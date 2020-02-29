@@ -29,9 +29,12 @@ file_list <- setdiff(file_list, skipped_files)
 "\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
 
 file_list <- sample(file_list)
+n <- length(file_list)
+k <- 0
 for (i_file in file_list) {
+  k <- k+1
   if (verbose) {
-    "\nConverting" %b% i_file %>% br %>% cat
+    "\nConverting" %b% k %b% "of" %b% n %b% "files" %C% i_file %>% br %>% cat
   }
   render(arch_root %s% i_file, output_dir=html_arch)
 }

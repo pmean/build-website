@@ -27,9 +27,3 @@ Available at
 <http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html>.
 
 ![](http://www.pmean.com/images/images/13/assignment-in-r01.png)
-
-
-
-<U+00A0>
-
-

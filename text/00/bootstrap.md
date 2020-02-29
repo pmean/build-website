@@ -7,10 +7,11 @@ category: Blog post
 tags: Unusual data
 output: html_document
 ---
-****[StATS]:** Bootstrap (January 27, 2000)**
 
 *Dear Professor Mean, I've heard a lot about how the bootstrap is going
 to*
+
+<!---More--->
 
 Sounds like a classic case of hype to me. These are the same people who
 told us that computerization would lead to the paperless office.
@@ -101,7 +102,7 @@ Here's how you would do this in S-plus
 
 `x <- c(1,3,5,9)    bootstrap.medians <- bootstrap(x,median)    hist(bootstrap.mediansreplicates,breaks=0.5:9.5)`
 
-![](../03/images/bootstrap.gif){width="192" height="143"}
+![](http://www.pmean.com/images/03/bootstrap.gif){width="192" height="143"}
 
 and here is how you would do it in R.
 
@@ -114,34 +115,3 @@ simulation methods.
 1.  **The Jackknife, the Bootstrap and Other Resampling Plans**. Efron
     B (1982) Philadelphia: The Society for Industrial and Applied
     Mathematics. (ISBN: 0-89871-179-7).
-2.  [Interesting website: Overview of Computer Intensive Statistical
-    Inference Procedures (August
-    31, 2007)](../12a/website/ComputerIntensive.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Bootstrap (January 27, 2000)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-

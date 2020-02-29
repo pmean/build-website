@@ -74,8 +74,7 @@ nice options for formatting your bibliography the way you like best.
 
 I modified the fields for journal articles to include the PubMedID,
 and the URLs for the abstract, full text, and/or pdf formats of the
-article if they are available. I have a [PDF file describing these
-modifications](../details/Images/EndNoteReferenceTypes.pdf).
+article if they are available.
 
 I have an output style, "Formal web format with no abstract" that
 inserts html code automatically into any bibliography that I produce.
@@ -83,7 +82,7 @@ This is what it currently looks like, though I plan to add a few more
 features (such as automatically incorporating a BookFinder4U link for
 any book that has an ISBN).
 
-![](../details/Images/software1.gif){width="429" height="360"}
+![](http://www.pmean.com/images/00/software1.gif){width="429" height="360"}
 
 
 When I include an article, here is what it looks like:
