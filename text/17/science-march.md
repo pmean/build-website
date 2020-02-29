@@ -13,6 +13,6 @@ Siobhan Tompson, were too funny to pass up.
 
 <!---More--->
 
-![Double-blind%20Tweet.jpg%3b not found.](../../../web/images/17/science-march01.png)
+![Double-blind%20Tweet.jpg%3b not found.](http://www.pmean.com/images/images/17/science-march01.png)
 
 

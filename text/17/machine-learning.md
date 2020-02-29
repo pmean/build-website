@@ -8,7 +8,7 @@ tags: Big data
 output: html_document
 ---
 
-![machine_learning.png not found.](../../../web/images/17/machine-learning01.png)
+![machine_learning.png not found.](http://www.pmean.com/images/images/17/machine-learning01.png)
 
 This xkcd cartoon by Scott Munro is open source, so I can hotlink the
 image directly. But if you go to the source, <https://xkcd.com/1838/>,

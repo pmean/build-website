@@ -18,7 +18,7 @@ David Robinson. Trump's Android and iPhone tweets, one year later.
 Variance Explained blog, August 9, 2017. Available at
 <http://varianceexplained.org/r/trump-followup/>.
 
-![](../../../web/images/17/trump-tweets01.png)
+![](http://www.pmean.com/images/images/17/trump-tweets01.png)
 
 
 

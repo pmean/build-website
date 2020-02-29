@@ -18,7 +18,7 @@ prosecution of its former chief statistician: Why Congress and State
 should speak up. The huffington Post, July 7, 2017. Available at
 <http://www.huffingtonpost.com/entry/595fe3b7e4b08f5c97d06987>
 
-![](../../../web/images/17/greece-prosecution01.png)
+![](http://www.pmean.com/images/images/17/greece-prosecution01.png)
 
 
 

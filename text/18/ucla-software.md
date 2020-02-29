@@ -38,7 +38,7 @@ Applied Survival Analysis. Second edition by David W. Hosmer, Jr.,
 Stanley Lemeshow, and Susanne May. Available at
 <https://stats.idre.ucla.edu/other/examples/asa2/>.
 
-![](../../../web/images/18/ucla-software01.png)
+![](http://www.pmean.com/images/images/18/ucla-software01.png)
 
 
 

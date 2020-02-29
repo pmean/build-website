@@ -18,7 +18,7 @@ introduction, for example, to natural language processing.
 IBM. Welcome to developerWorks. Find tutorials, tools, and communities
 for developers. Available at <https://www.ibm.com/developerworks/>.
 
-![](../../../web/images/18/developer-works01.png)
+![](http://www.pmean.com/images/images/18/developer-works01.png)
 
 
 

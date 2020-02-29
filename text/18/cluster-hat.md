@@ -19,7 +19,7 @@ to it.
 Pimoroni. Cluster Hat 2.0. Available at
 <https://shop.pimoroni.com/products/cluster-hat>.
 
-![](../../../web/images/18/cluster-hat01.png)
+![](http://www.pmean.com/images/images/18/cluster-hat01.png)
 
 
 

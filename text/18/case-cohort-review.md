@@ -26,7 +26,7 @@ and Recommendations for Future Reporting. PLOS One, 2014 (June); 9(6):
 e101176. Available at
 <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0101176>.
 
-![](../../../web/images/18/case-cohort-review01.png)
+![](http://www.pmean.com/images/images/18/case-cohort-review01.png)
 
 
 

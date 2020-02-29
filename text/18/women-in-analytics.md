@@ -27,7 +27,7 @@ Meta s. Brown. A Sampling of Outstanding Women in Analytics: 186 Experts
 from Meta's Binder Fulla Women in Analytics. Available at
 <https://www.slideshare.net/metabrown/outstanding-women-in-analytics-2017-83016733>.
 
-![](../../../web/images/18/women-in-analytics01.png)
+![](http://www.pmean.com/images/images/18/women-in-analytics01.png)
 
 
 

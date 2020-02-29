@@ -19,7 +19,7 @@ Chris Conlan. Installing R and Python in Anaconda for Biologists. Blog
 entry, June 24, 2017. Available in [html
 format](https://chrisconlan.com/installing-r-python-anaconda-biologists/).
 
-![](../../../web/images/18/anaconda01.png)
+![](http://www.pmean.com/images/images/18/anaconda01.png)
 
 
 

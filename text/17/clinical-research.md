@@ -21,7 +21,7 @@ free PDF version of this book or you can buy a paper copy.
 Judy Stone. Conducting Clinical Research. Available at
 <http://www.conductingclinicalresearch.com/index.php>.
 
-![](../../../web/images/17/clinical-research01.png)
+![](http://www.pmean.com/images/images/17/clinical-research01.png)
 
 
 

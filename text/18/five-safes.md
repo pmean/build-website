@@ -19,7 +19,7 @@ Data Access for Research. Economic Working Paper Series 1601, University
 of the West of England. Available at
 <http://www2.uwe.ac.uk/faculties/BBS/Documents/1601.pdf>.
 
-![](../../../web/images/18/five-safes01.png)
+![](http://www.pmean.com/images/images/18/five-safes01.png)
 
 
 
