@@ -29,12 +29,15 @@ file_list <- setdiff(file_list, skipped_files)
 "\n\nThere are" %b% length(file_list) %b% "files remaining to be worked on.\n\n" %>% cat
 
 file_list <- sample(file_list)
+n <- length(file_list)
+k <- 0
 for (i_file in file_list) {
+  k <- k+1
   readLines(blog_root %s% i_file) %>%
     str_subset(regex("^Date:", ignore_case=TRUE)) %>%
     str_c(collapse="\n") -> file_date
   if (verbose) {
-    "\nConverting" %b% i_file %C% file_date %>% br %>% cat
+    "\nConverting" %b% k %b% "of" %b% n %C% i_file %C% file_date %>% br(2) %>% cat
   }
   render(blog_root %s% i_file, output_dir=html_blog)
 }
