@@ -27,7 +27,7 @@ of Randomized, Controlled Trials. Ann Intern Med. 2011;154(1):50-55.
 DOI: 10.7326/0003-4819-154-1-201101040-00007. Available in [html
 format](https://annals.org/aim/fullarticle/746687).
 
-![](../../../web/images/19/citation-of-prior-research01.png)
+![](http://www.pmean.com/images/images/19/citation-of-prior-research01.png)
 
 
 

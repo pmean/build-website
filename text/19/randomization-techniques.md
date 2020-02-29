@@ -19,7 +19,7 @@ assessment of outcome in clinical research. J Hum Reprod Sci. 2011
 Jan-Apr; 4(1): 8--11. doi: 10.4103/0974-1208.82352. Available in [html
 format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136079/).
 
-![](../../../web/images/19/randomization-techniques01.png)
+![](http://www.pmean.com/images/images/19/randomization-techniques01.png)
 
 
 

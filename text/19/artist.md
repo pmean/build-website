@@ -18,7 +18,7 @@ Bob delMas. Assessment Resource Tools for Improving Statistical
 Thinking. Available in [html
 format](https://apps3.cehd.umn.edu/artist/index.html).
 
-![](../../../web/images/19/artist01.png)
+![](http://www.pmean.com/images/images/19/artist01.png)
 
 
 

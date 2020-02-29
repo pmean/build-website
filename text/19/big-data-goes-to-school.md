@@ -18,7 +18,7 @@ available data without questioning its quality.
 Alfie Kohn. When Big Data goes to school. Blog entry, March 7, 2018.
 Available in [html format](https://www.alfiekohn.org/blogs/big-data/).
 
-![](../../../web/images/19/big-data-goes-to-school01.png)
+![](http://www.pmean.com/images/images/19/big-data-goes-to-school01.png)
 
 
 

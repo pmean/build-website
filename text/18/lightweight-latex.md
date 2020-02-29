@@ -27,7 +27,7 @@ Yihui Xie. TinyTeX: A lightweight, cross-platform, portable, and
 easy-to-maintain LaTeX distribution based on TeX Live. Available at
 <https://yihui.name/tinytex/>.
 
-![](../../../web/images/18/lightweight-latex01.png)
+![](http://www.pmean.com/images/images/18/lightweight-latex01.png)
 
 
 

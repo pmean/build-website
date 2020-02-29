@@ -20,7 +20,7 @@ Season of Yes Prime Minister -- Episode 2, The Ministerial Broadcast.
 2:16 running time. Published on Jan 15, 2012. Available in [video
 format](https://www.youtube.com/watch?v=G0ZZJXw4MTA).
 
-![](../../../web/images/19/leading-questions01.png)
+![](http://www.pmean.com/images/images/19/leading-questions01.png)
 
 
 

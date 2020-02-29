@@ -21,7 +21,7 @@ empirical evaluation of authors' attitudes. Journal of Clinical
 Epidemiology. Volume 66, Issue 4, April 2013, Pages 361-366.e4. DOI:
 10.1016/j.jclinepi.2012.11.005.
 
-![](../../../web/images/19/observational-recommendations01.png)
+![](http://www.pmean.com/images/images/19/observational-recommendations01.png)
 
 
 

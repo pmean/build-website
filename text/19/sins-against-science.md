@@ -19,7 +19,7 @@ scientific misconduct may be more prevalent than you think. Monitor on
 Psychology, July/August 2010, Vol 41, No. 7. Available in [html
 format](https://www.apa.org/monitor/2010/07-08/misconduct.aspx).
 
-![](../../../web/images/19/sins-against-science01.png)
+![](http://www.pmean.com/images/images/19/sins-against-science01.png)
 
 
 
