@@ -528,13 +528,20 @@ clean_files <- function(
     dir_root="text", subdir_list="20",
     file_pattern="*.md", v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
+  k <- 0
   for (subdir in subdir_list) {
     file_list <- list.files(dir_root %s% subdir, file_pattern)
-    "\nSearching through" %b% length(file_list) %b% "files.\n\n" %>% cat
+    "\nSearching through" %b% 
+      length(file_list) %b% 
+      "files in" %b%
+      subdir %>%
+      br %>%
+      cat
     for (i_file in file_list) {
       tx <- read_lines(dir_root %s% subdir %s% i_file)
       found_lines <- str_which(tx, search_string)
       if (length(found_lines)==0) next
+      k <- k+1
       "\n\n" %0% i_file %>% br %>% cat
       str_c(tx[found_lines], collapse="\n") %>% cat
       if (replace_string!="Not yet") {
@@ -544,6 +551,9 @@ clean_files <- function(
       }
     }
   }
+  "\n\nTotal files" %b% 
+    ifelse(ok_to_replace, "replaced", "to be replaced") %b%
+    k %>% cat
 }
 
 # Functions for writing files
