@@ -140,6 +140,7 @@ remove_punctuation <- function(x) {
 parse_bibtex <- function(tx, f0) {
   # Note: Some of the bib files have unprintable
   # junk characters at the very start.
+  tx %<>% str_subset("abstract =", negate=TRUE)
   tx <- tx[nchar(tx)>0]
   tx[1] %<>% str_remove("^.*?@") 
   tx %>%
@@ -525,7 +526,7 @@ skim_md_files <- function(search_string, dir_root="text", file_pattern="*.md", v
 
 clean_files <- function(
     search_string, replace_string="Not yet", 
-    dir_root="text", subdir_list="20",
+    dir_root="text/zotero", subdir_list=c("99", zpad(0:20), "no"),
     file_pattern="*.md", v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
   k <- 0
