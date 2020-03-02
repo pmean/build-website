@@ -206,7 +206,67 @@ cplot("\"\\U201C\"")
 cplot("\U201C")
 ```
 
+Now you might wonder why the internal code for the left double quote (`r x`) does not match the 201C shown above. It turns out that the internal storage of Unicode uses a system called UTF-8. UTF-8 maintains storage efficiency and backwards compatibility with earlier coding systems.
 
+The other smart quote marks are the right double quote,
+
+```{r unicode-3}
+cplot("\"\\U201D\"")
+```
+
+```{r unicode-4}
+cplot("\U201D")
+```
+
+the left single quote,
+
+```{r unicode-5}
+cplot("\"\\U2018\"")
+```
+
+```{r unicode-6}
+cplot("\U2018")
+```
+
+and the right single quote,
+
+```{r unicode-7}
+cplot("\"\\U2019\"")
+```
+
+```{r unicode-8}
+cplot("\U2019")
+```
+
+There are a couple of additional codes that I should mention. Most programmers use the minus sign in their coding
+
+```{r minus-1}
+cplot("-")
+```
+
+but there are two similar characters that you might see. The em dash,
+
+```{r em-dash-1}
+cplot("\"\\U2014\"")
+```
+
+```{r em-dash-2}
+cplot("\U2014")
+```
+
+is a longer dash. It has a width equal to the letter "m" in most proportional width fonts. There is another dash, the en dash
+
+```{r en-dash-1}
+cplot("\"\\U2013\"")
+```
+
+```{r en-dash-2}
+cplot("\U2013")
+```
+
+that is also longer than a minus sign, but about half the length of the em dash. It has a width that is equal to the letter "n" in most proportional width fonts.
+
+The em dash and en dash will often cause confusion because they look so much like the minus sign, but they will cause problems often in R code.
 
 There's a [nice web page](https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html) about the historical developments of computer codes for quote marks and dashes and [another page](https://cran.r-project.org/web/packages/utf8/vignettes/utf8.html) that talks about computer codes in general from the perspective of an R programmer.
 
