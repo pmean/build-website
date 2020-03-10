@@ -527,7 +527,7 @@ skim_md_files <- function(search_string, dir_root="text", file_pattern="*.md", v
 clean_files <- function(
     search_string, replace_string="Not yet", 
     dir_root="text/zotero", subdir_list=c("99", zpad(0:20), "no"),
-    file_pattern="*.md", v=TRUE) {
+    file_pattern="*.bib", v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
   k <- 0
   for (subdir in subdir_list) {

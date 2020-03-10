@@ -7,14 +7,13 @@ category: Blog post
 tags: Confidence intervals, Sample size justification
 output: html_document
 ---
-****[StATS]:** The minimal impact of population size
-on power and precision (January 19, 2001)**
-
 *Dear Professor Mean, Can you explain why it is okay to have similar
 sample sizes for populations of very different sizes. For example, why
 is it that a sample size for a population of 10 million doesn't have to
 be much larger than a sample size for a population of 10 thousand? --
 Skeptical Sam*
+
+<!---More--->
 
 Dear Skeptical,
 
@@ -46,7 +45,7 @@ population size.**
 
 The formula for fpc is.
 
-![population1.gif not found.](../../../web/images/01/population01.png)
+![population1.gif not found.](http://www.pmean.com/images/01/population01.png)
 height="62"}
 
 where N is the size of the population and n is the size of the sample.
@@ -57,7 +56,7 @@ indeed having an effect on precision.
 The following table shows what the fpc in four different situations
 would be.
 
-![population2.gif not found.](../../../web/images/01/population02.png)
+![population2.gif not found.](http://www.pmean.com/images/01/population02.png)
 height="125"}
 
 When the sample size is 50, it does not matter much whether the
@@ -111,34 +110,4 @@ total population.
     about the believability of our polls, which are based on what seems
     to the questioners to be ridiculously small numbers of people."
     www.gallup.com/poll/FromtheEd/ed0211.asp
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.asp) and [Category: Sample
-size justification](../category/SampleSizeJustification.html).
-<!---More--->
-size justification](../category/SampleSizeJustification.html).
-intervals](../category/ConfidenceIntervals.asp) and [Category: Sample
-this one at [Category: Confidence
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** The minimal impact of population size
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.asp) and [Category: Sample
-size justification](../category/SampleSizeJustification.html).
---->
 

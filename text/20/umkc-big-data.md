@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: "2020-01-26"
 category: Blog post
-tags: Ethics in research
+tags: Big data
 output: html_document
 ---
 
@@ -21,3 +21,9 @@ This computer system is a small piece of a big effort within the University of M
 Another initiative goes by the acronym IDEAS. It stands for the Institute of Data Education, Analytics, and Science. There's no official website for this group yet, but has already awarded four small seed grants to UMKC researchers and has held several [data science workshops](https://www.umkctalentlink.com/resources/?rnpid=266371) for industry partners in the Kansas City area. There's a [December 2019 press release](https://www.umkc.edu/news/posts/2019/december/meet-umkc-ideas.html) documenting how data scientist is the sexiest job of the 21st century. There are currently [four working group luncheons](https://info.umkc.edu/umatters/announcing-a-lunch-series-for-ideas-the-first-is-feb-18/) scheduled for the Spring of 2020. you might also want to look at this [two minute promotional video](https://youtu.be/9qjzjKbZoko).
 
 There is a new initiative on research and community outreach in health, the UMKC Health Equity Institute. I attended a nice panel session decidated to the efforts of this group, which is summarized [here](https://med.umkc.edu/health-for-all-remains-an-elusive-goal/).
+
+Here are a couple of additional items that are not UMKC but rather regional efforts.
+
+There is an annual conference on Bioinformatics held in the Kansas City area (or sometimes in Columbia, MO). It has a new name, the Nexus Informatics conference, but it has the same mix of local speakers and invited experts from outside the area. There is an [official conference webpage](http://kcbioinformatics.org/conference/) and [publicity](http://www.kcumb.edu/events/2020-kc-bioinformatics-conference) from Kansas City University (this year's host) and [from Bionexus KC](https://bionexuskc.org/event/2020-kc-bioinformatics-conference/).
+
+Another conference in the Kansas City area goes by the name of IDAD (Innovations in Design, Analysis, and Dissemination) as well as Frontiers in Biostatistics and Data Science. It is jointly sponsored by the Kansas/Western Missouri Chapter of the American Statistical Association, the Department of Biostatistics and Data Science at the University of Kansas Medical Center. In the past, Cerner Corporation was also a sponsor of this conference and they are still providing some of the best speakers. There's a special spot in my heart for this conference because I was one of the invited speakers for the very first conference, back in 2008. The Kansas/Western Missouri chapter hosts the [official website](https://community.amstat.org/kwmchapter/annualsymposium) for this conference.
