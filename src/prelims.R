@@ -258,7 +258,7 @@ c(
   "^TA", "Translated Author",
   "^TI", "title",
   "^TT", "translated title",
-  "^U1", "user definable 1",
+  "^U1", "annote",
   "^U2", "user definable 2",
   "^U3", "user definable 3",
   "^U4", "user definable 4",
