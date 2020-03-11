@@ -1,0 +1,83 @@
+---
+title: "Blog post: An example of a poor color choice"
+author: "Steve Simon"
+source: "New"
+date: "2020-03-11"
+category: Blog post
+tags: Graphical display
+output: html_document
+---
+
+I ran across a graph in a journal article. The article itself was good, but the graph had a rookie mistake. I shouldn't point this out, because I myself have been guilty of far worse mistakes. But this graph illustrated the point far better than anything I could have said.
+
+<!---More--->
+
+The display is a series of stacked bar charts, and it showed that certain types of information were most likely to be entered by a physician. It was least likely to be entered by a case manager.
+
+![](http://www.pmean.com/images/20/misuse-of-gradient.png)
+
+Find the full article found [here](https://medinform.jmir.org/2019/3/e13802/). 
+
+Notice that the colors used to distinguish physician from social worker from nurse from case manager represented a gradient of oranges from a dark almost brown orange to a very light orange.
+
+Gradients are very useful for showing changes in a continuous variable, and possibly in an ordinal variable as well. But the list of providers is nominal. There is no natural ordering from physician to social worker to nurse to case manager. For nominal data, you want to choose a set of colors that are readily distinguishable from one another. The usually means evenly spaced points along a color wheel.
+
+Here's an example of what I mean.
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE, fig.width=5, fig.height=5)
+```
+
+
+```{r color-circle1, echo=FALSE, fig.width=5, fig.height=5}
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(RColorBrewer)))
+n <- 500
+k <- 5
+delta <- 0.9
+angle_seq <- (1:n)/n
+df0<- data.frame(x=delta*sin(2*pi*angle_seq), y=delta*cos(2*pi*angle_seq))
+sb <- (n/k)*(1:k)
+df1 <- df0[sb, ]
+
+ggplot(df0, aes(x, y)) +
+  geom_point(color=hsv(angle_seq, 1, 1), size=2, shape=16) +
+  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 1, 1), size=24, shape=16) +
+  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  theme_void() +
+  theme(
+    panel.background=element_rect(fill="#808080"))
+```
+
+This color wheel includes the pure colors (pure yellow, pure green, pure cyan, pure red, pure magenta, pure blue) and these colors are sometimes a bit harsh on your eyes. A darker set of colors is a bit easier to view.
+
+```{r color-circle2, echo=FALSE, fig.width=5, fig.height=5}
+ggplot(df0, aes(x, y)) +
+  geom_point(color=hsv(angle_seq, 1, 0.5), size=2, shape=16) +
+  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 1, 0.5), size=24, shape=16) +
+  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  theme_void() +
+  theme(
+    panel.background=element_rect(fill="#808080"))
+```
+
+```{r color-circle3, echo=FALSE, fig.width=5, fig.height=5}
+ggplot(df0, aes(x, y)) +
+  geom_point(color=hsv(angle_seq, 0.5, 1), size=2, shape=16) +
+  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 0.5, 1), size=24, shape=16) +
+  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  theme_void() +
+  theme(
+    panel.background=element_rect(fill="#808080"))
+```
+
+There are lots of choices in various graphics packages. Here is one nice set of categorical color choices in R.
+
+```{r brew1, fig.height=1}
+par(mar=rep(0, 4))
+display.brewer.pal(5, "Set1")
+brewer.pal(5, "Set1")
+```
+
+These aren't taken directly from a color wheel but they are well spaced out from a visual perspective, meaning that it is easy to distinguish among these different colors.
+
