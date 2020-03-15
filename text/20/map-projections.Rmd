@@ -1,0 +1,73 @@
+---
+title: "Blog post: Different map projections"
+author: "Steve Simon"
+source: "New"
+date: "2020-03-15"
+category: Blog post
+tags: Graphical display
+output: html_document
+---
+
+I have been drawing some maps in R and was struggling to figure out how to display things with the appropriate map projections. Here is some code where I experimented with a variety of approaches.
+
+<!---More--->
+
+The earth is a three dimensional object and there is no way to display it on a two dimensional computer screen without some distortion. Your goal is to minimize that distortion.
+
+First things first. There are a variety of map options, and they have a variety of storage methods.
+
+One of the [tutorials](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html) I viewed had mentioned [Natural Earth](http://www.naturalearthdata.com/), an open source repository. You can get easy access to this information with two R packages: [rnaturalearth](https://cran.r-project.org/package=rnaturalearth) and [rnaturalearthdata](https://cran.r-project.org/package=rnaturalearthdata).
+
+What these give you is the ability to draw outlines of any and every country. You also get the outlines of states/provinces/districts in many countries. There's a lot more, but I want to just show something simple now to get you started.
+
+The traditional format for storing map information is shapefiles. The shapefile format was defined the 1990s and is a rather intimidating collection of multiple files. You can find a nice summary on the [Wikipedia page on shapefiles](https://en.wikipedia.org/wiki/Shapefile) or at a Library of Congress's [page on archival formats](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml).
+
+A newer format, simple features, has greater flexibility and a simpler structure. It's still not simple, and I have been able to delve into the inner workings to get important details extracted.
+
+There is a package in R, [sf](https://cran.r-project.org/package=sf), that allows you to easily manipulate geographic data stored in a simple features format. This package has a nice series of vignettes, starting [here](https://r-spatial.github.io/sf/articles/sf1.html).
+
+So to get everthing to work, even for a simple example, you need a whole bunch of packages. Here are the ones I use in this example.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(mapproj)))
+suppressMessages(suppressWarnings(library(rgeos)))
+suppressMessages(suppressWarnings(library(rjson)))
+suppressMessages(suppressWarnings(library(rnaturalearth)))
+suppressMessages(suppressWarnings(library(rnaturalearthdata)))
+suppressMessages(suppressWarnings(library(sf)))
+suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+```
+
+I'm going to read in the United States file using the ne_states function. The country="United States of America" parameter excludes other countries that have states, provinces, or districts. I further want to remove Alaska and Hawaii from the file. So sorry to our 49th and 50th states, but the graphs are much more manageable for these examples when I focus just on the 48 states. The str function tells you a bit of information about how the data is organized within the states data frame.
+
+```{r us-states}
+ne_states(country="United States of America", returnclass = "sf") %>%
+  filter(postal != "HI" & postal != "AK") -> states
+str(states)
+```
+
+There is a lot of information in the list above and more than half of it is just giving different names to each state. The last column in this data frame is geometry and this is going to be the last column of any data stored in the simple features format. It ends up being a very long string with latitude and longitude coordinates for one or more polygons. You need multiple polygons for a disconnected state like Michigan, or a state with a lot of islands, like Florida.
+
+Similarly, the ne_countries function gets information about the boundaries of every country in the world.
+
+```{r world-countries}
+countries <- ne_countries(scale = "medium", returnclass = "sf")
+str(countries)
+```
+
+Notice that this data frame has a lot of statistical information (population, area, etc.) for each country. You don't need that information for the examples shown here, but it is nice to have.
+
+```{r, echo=FALSE}
+continental_us <- ggplot() + geom_sf(data = states)
+projection_string <- "+proj=ortho +lon_0=-100 +lat_0=23.5 +ellps=WGS84 +no_defs"
+states %>%
+  filter(postal=="CO") %>%
+  st_transform(projection_string) -> co
+countries %>%
+  ggplot() + 
+  geom_sf(fill="white") + 
+  geom_sf(data=co, color="red", fill="blue") +
+  coord_sf(crs=projection_string)
+```
