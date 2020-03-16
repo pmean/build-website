@@ -26,6 +26,12 @@ A newer format, simple features, has greater flexibility and a simpler structure
 
 There is a package in R, [sf](https://cran.r-project.org/package=sf), that allows you to easily manipulate geographic data stored in a simple features format. This package has a nice series of vignettes, starting [here](https://r-spatial.github.io/sf/articles/sf1.html).
 
+Please note that the rnaturalearthhires package is needed below, but it cannot be downloaded directly (at least on my system). Instead you have to type in the command
+
+```{}
+install.packages("rnaturalearthhires", repos="http://packages.ropensci.org", type="source")
+```
+
 So to get everthing to work, even for a simple example, you need a whole bunch of packages. Here are the ones I use in this example.
 
 ```{r setup}
