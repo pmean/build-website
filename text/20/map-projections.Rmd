@@ -65,15 +65,43 @@ str(countries)
 
 Notice that this data frame has a lot of statistical information (population, area, etc.) for each country. You don't need that information for the examples shown here, but it is nice to have.
 
+Here is a picture of the earth as it might look like if viewed from the sun. The north pole is showing because it is summertime in the northern hemisphere. All the countries that are easily visible in this perspective are outlined in black and the state of Colorado in the United States is outlined in red.
+
 ```{r, echo=FALSE}
-continental_us <- ggplot() + geom_sf(data = states)
 projection_string <- "+proj=ortho +lon_0=-80 +lat_0=23.5 +ellps=WGS84 +no_defs"
 states %>%
-  filter(postal=="CO") %>%
-  st_transform(projection_string) -> co
+  filter(postal=="CO") -> co
 countries %>%
   ggplot() + 
   geom_sf(fill="white") + 
   geom_sf(data=co, color="red", fill="white") +
   coord_sf(crs=projection_string)
 ```
+
+Colorado is a very interesting state with a simple boundary. The sourthern edge is 37 degrees latitude. The northern edge is 41 degrees north latitude. The eastern edge is 102 degrees, 02 minutes, 48 seconds west longitude. The western edge is 109 degrees, 02 minutes, 48 seconds west longitude.
+
+You can calculate the length of each of these boundaries with a bit of simple math. The radius of the earth is 
+
+$r=6,378$ meters
+
+The circumference is
+
+$2\pi r=40,074$ meters
+
+Each degree of latitude would be
+
+$40,074/360=111.3$ meters.
+
+So the four degrees that you would have to travel to get from the southern border (37 degrees) to the northern border (41 degrees) is 
+
+$4*111.3=445.2$ meters
+
+The difference between the northern and southern borders is 4 degrees, so the length of either the eastern or the western borders is
+
+$(4/360)*40,074=445$ meters
+
+The distance from the east to the west border is tricky. At the equator a degree of distance is 111.3 meters, but as you move away from the equator, the lines of latitude converge so a degree of longitude shrinks. 
+
+
+
+
