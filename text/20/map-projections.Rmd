@@ -50,8 +50,9 @@ I'm going to read in the United States file using the ne_states function. The co
 
 ```{r us-states}
 ne_states(country="United States of America", returnclass = "sf") %>%
-  filter(postal != "HI" & postal != "AK") -> states
-str(states)
+  filter(postal == "CO") -> co
+str(co)
+names(co)
 ```
 
 There is a lot of information in the list above and more than half of it is just giving different names to each state. The last column in this data frame is geometry and this is going to be the last column of any data stored in the simple features format. It ends up being a very long string with latitude and longitude coordinates for one or more polygons. You need multiple polygons for a disconnected state like Michigan, or a state with a lot of islands, like Florida.
@@ -69,8 +70,6 @@ Here is a picture of the earth as it might look like if viewed from the sun. The
 
 ```{r, echo=FALSE}
 projection_string <- "+proj=ortho +lon_0=-80 +lat_0=23.5 +ellps=WGS84 +no_defs"
-states %>%
-  filter(postal=="CO") -> co
 countries %>%
   ggplot() + 
   geom_sf(fill="white") + 
@@ -80,27 +79,64 @@ countries %>%
 
 Colorado is a very interesting state with a simple boundary. The sourthern edge is 37 degrees latitude. The northern edge is 41 degrees north latitude. The eastern edge is 102 degrees, 02 minutes, 48 seconds west longitude. The western edge is 109 degrees, 02 minutes, 48 seconds west longitude.
 
-You can calculate the length of each of these boundaries with a bit of simple math. The radius of the earth is 
+You can calculate the length of each of these boundaries with a bit of simple math. The radius of the earth is 6,378 kilometers. So the circumference is
 
-$r=6,378$ meters
+```{r}
+r <- 6378
+2*pi*r
+```
 
-The circumference is
+Each degree of latitude is
 
-$2\pi r=40,074$ meters
-
-Each degree of latitude would be
-
-$40,074/360=111.3$ meters.
+```{r}
+2*pi*r/360
+```
 
 So the four degrees that you would have to travel to get from the southern border (37 degrees) to the northern border (41 degrees) is 
 
-$4*111.3=445.2$ meters
+```{r}
+2*pi*r*4/360
+```
 
-The difference between the northern and southern borders is 4 degrees, so the length of either the eastern or the western borders is
+The distance from the east to the west border is tricky. At the equator a degree of distance is 111.3 meters, but as you move away from the equator, the lines of latitude converge so a degree of longitude shrinks. A simple bit of geometry can show you that a single degree of longitude at 37 degrees is
 
-$(4/360)*40,074=445$ meters
+```{r}
+2*pi*r*cos(37*pi/180)/360
+```
 
-The distance from the east to the west border is tricky. At the equator a degree of distance is 111.3 meters, but as you move away from the equator, the lines of latitude converge so a degree of longitude shrinks. 
+but at 41 degrees, it is
+
+```{r}
+2*pi*r*cos(41*pi/180)/360
+```
+
+That means that the 9 degrees that you travel from the eastern border to the western border is
+
+```{r}
+2*pi*r*cos(37*pi/180)*9/360
+```
+
+at 37 degrees, but only
+
+```{r}
+2*pi*r*cos(41*pi/180)*9/360
+```
+
+So the northern border of Colorado is shorter than the southern border.
+
+And all this time you thought Colorado was a rectangle! It's not. It is not a trapezoid either. It exists on a three dimensional globe and is more complex than any two dimensional geometric object can represent.
+
+You need to make a projection any time you try to represent a three dimensional object like the state of Colorado on a two dimensional medium like a computer screen or a sheet of paper. The most common projection is the Mercator projection. Here is the Mercator projection for the state of Colorado.
+
+```{r mercator}
+projection_string <- "+proj=tmrec +lon_0=-80 +lat_0=0 +ellps=WGS84 +no_defs"
+projection_string <- "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+countries %>%
+  ggplot() + 
+  geom_sf(fill="white") + 
+  geom_sf(data=co, color="red", fill="white") +
+  coord_sf(crs=projection_string, ylim=c(-80,80))
+```
 
 
 
