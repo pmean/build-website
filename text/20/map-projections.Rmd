@@ -126,26 +126,55 @@ So the northern border of Colorado is shorter than the southern border.
 
 And all this time you thought Colorado was a rectangle! It's not. It is not a trapezoid either. It exists on a three dimensional globe and is more complex than any two dimensional geometric object can represent.
 
-You need to make a projection any time you try to represent a three dimensional object like the state of Colorado on a two dimensional medium like a computer screen or a sheet of paper. The most common projection is the Mercator projection. Here is the Mercator projection for the state of Colorado.
+You need to make a projection any time you try to represent a three dimensional object like the state of Colorado on a two dimensional medium like a computer screen or a sheet of paper. Here is the Lambert projection. 
 
-```{r mercator}
-projection_string <- "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
-projection_string <- "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +no_defs"
+```{r laea-co}
+projection_string <- "+proj=laea +lon_0=-105.5 +lat_0=39 +datum=WGS84 +no_defs"
 co %>%
   ggplot() + 
   geom_sf(color="red", fill="white") +
   coord_sf(crs=projection_string)
 ```
 
-```{r laea}
-projection_string <- "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
-projection_string <- "+proj=laea +lon_0=-105.5 +lat_0=39 +ellps=WGS84 +datum=WGS84 +no_defs"
+Notice that it has to warp some of the straight edge boundaries in order to keep the distances correct at the northern and southern borders.
+
+Plotting the entire continent of North America shows even more warping. Notice how the state of Alaska has been twisted almost 45 degrees to accomodate. The island of Greenland is also twisted but in the opposite direction.
+
+The distortions of the Lambert projection are more extreme when you are trying to fit large distances into a single map. The distortions become most noticeable at the edges. There is almost no distortion near the center.
+
+```{r laea-na}
+projection_string <- "+proj=laea +lon_0=-105.5 +lat_0=39 +datum=WGS84 +no_defs"
+countries %>%
+  filter(continent=="North America") %>%
+  ggplot() + 
+  geom_sf(color="red", fill="white") +
+  coord_sf(crs=projection_string)
+```
+
+The most common projection is the Mercator projection. Here is the Mercator projection for the state of Colorado.
+
+```{r mercator-co}
+projection_string <- "+proj=merc +lon_0=0 +datum=WGS84 +no_defs"
 co %>%
   ggplot() + 
   geom_sf(color="red", fill="white") +
   coord_sf(crs=projection_string)
 ```
 
+No warping of the boundaries but the lengths of the northern and southern borders are displayed incorrectly as having the same length. Not only are distances distorted, but areas as well. That becomes more obvious when you look at the entire continent.
 
+```{r mercator-na}
+projection_string <- "+proj=merc +lon_0=-105.5 +datum=WGS84 +no_defs"
+countries %>%
+  filter(continent=="North America") %>%
+  ggplot() + 
+  geom_sf(color="red", fill="white") +
+  coord_sf(crs=projection_string)
+```
 
+Notice how Alaska has grown to more than half the size of the rest of the United States. Alaska is big, but not that big! Also Greenland has expaned to mostrous proportions. The Mercator projection is simple, but it has a lot of distortions at the higher latitudes.
+
+But notice how the eastern border of the state of Alaska is perfectly vertical, representing a true north/south orientation.
+
+No projection system is perfect, and you should try different approaches to see what works best for your situation.
 
