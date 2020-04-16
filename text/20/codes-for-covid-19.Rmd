@@ -1,0 +1,38 @@
+---
+title: "Blog post: Codes for COVID-19 in the electronic health record"
+author: "Steve Simon"
+source: "New"
+date: "2020-04-15"
+category: Blog post
+tags: Electronic health records
+output: html_document
+---
+
+I might be helping with a research project that involves selection of medical records associated with COVID-19. Here are some of the resources and suggestions that I received from a colleague at KUMC.
+
+<!---More--->
+
+The ICD-10 code for COVID-19 is U07.1 (COVID-19, virus identified) or U07.2 (COVID-19, virus not identified). This code is in a range of values, U00-U49, that have been set aside for  new diseases of uncertain etiology or emergency use. Previous codes in this range had included SARS (U04) and vaping related disorder (U07.0).
+
+THe two codes are a recent addition, and it looks like earlier cases used an ICD-10 code of B97.29 (compare the February 20, 2020 CDC guidelines to the April 1, 2020 CDC guidelines).
+
+There are several respiratory illnesses associated with COVID-19. Pneumonia is coded as J12.89, acute bronchitis as J20.8, lower respiratory infection as J22, and acute respiratory distress syndrome as J80.
+
+People being tested for COVID-19 could have a code of Z03.818 (Encounter for observation for suspected exposure to other biological agents ruled out), Z20.828 (Contact with and (suspected) exposure to other viral communicable diseases) or Z11.59 (Encounter for screening for other viral diseases). Some of these, of course, might end up being negative tests.
+
+A code that defintely indicates that COVID-19 has been ruled out is Z03.818 (Encounter for observation for suspected exposure to other biological agents ruled out).
+
+Signs and symptoms are often vague, but three that are worth looking at are R05 (Cough), R06.02 (Shortness of breath), and R50.9 (Fever, unspecified).
+
+#### Resources
+
+[American Academy of Family Physicians. Coding for the new coronavirus and COVID-19 illness]()
+
+[American Medical Association. Special coding advice during COVID-19 public health emergency](https://www.ama-assn.org/system/files/2020-04/covid-19-coding-advice.pdf).
+
+[American Thoracic Society. Coding & Billing Quarterly, April 2020](https://www.thoracic.org/about/newsroom/newsletters/coding-and-billing/resources/2020/cbq-april.pdf)
+
+[Centers for Disease Control and Prevention. CD-10-CM Official Coding Guidelines - Supplement. Coding encounters related to COVID-19 Coronavirus Outbreak. Effective: February 20, 2020](https://www.cdc.gov/nchs/data/icd/ICD-10-CM-Official-Coding-Gudance-Interim-Advice-coronavirus-feb-20-2020.pdf).
+
+[Centers for Disease Control and Prevention. ICD-10-CM Official Coding and Reporting Guidelines April 1, 2020 through September 30, 2020](https://www.cdc.gov/nchs/data/icd/COVID-19-guidelines-final.pdf).
+
