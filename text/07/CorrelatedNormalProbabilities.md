@@ -7,8 +7,6 @@ category: Blog post
 tags: Probability concepts
 output: html_document
 ---
-**[StATS]:** **Calculating probabilities involving
-correlated normal variables (June 4, 2007)**
 
 Someone on EDSTAT-L asked about a problem involving differences of
 independent normal random variables. I am simplifying the problem a bit,
@@ -18,6 +16,8 @@ following:
 *Suppose you have three independent standard normal random variables:
 A, B, and C. What is the probability that A is smaller than B by one
 or more units and A is also smaller than B by one or more units.*
+
+<!---More--->
 
 This is equivalent to calculating the following probability.
 
@@ -69,31 +69,3 @@ with mean 0 and variance 2 would be less than -1.
 The moral of this story is that when two events are correlated, you
 can't just get a bivariate probability by multiplying the univariate
 probabilities.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Probability
-concepts](../category/ProbabilityConcepts.html).
-<!---More--->
-concepts](../category/ProbabilityConcepts.html).
-for pages similar to this one at [Category: Probability
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Calculating probabilities involving
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Probability
-concepts](../category/ProbabilityConcepts.html).
---->
-

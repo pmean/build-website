@@ -7,21 +7,46 @@ category: Blog post
 tags: Adverse events in clinical trials
 output: html_document
 ---
-**[StATS]:** **Tracking central line infections over
-time (November 18, 2007)**
 
 I'm working with a group that is tracking central line infections
 over time. There were 22 infections over the previous year, and the
 infants were divided into five risk groups. For this example, I am
 ignoring the risk groups.
 
-`ev# gp     day   | ev# gp     day      1     4       24   | 12     2         113      2     4       43   | 13     1         137      3     4       43   | 14     3         153      4     4       46   | 15     5         165      5     1       47   | 16     1         185      6     2       55   | 17     1         195      7     5       55   | 18     1         228      8     4       71   | 19     1         342      9     5       90   | 20     2         342    10     5       91   | 21     4         343    11     4     102   | 22     1     363`
+```{}
+ ev#  gp      day   | ev#   gp         day
+ 1     4       24   | 12     2         113
+ 2     4       43   | 13     1         137
+ 3     4       43   | 14     3         153
+ 4     4       46   | 15     5         165
+ 5     1       47   | 16     1         185
+ 6     2       55   | 17     1         195
+ 7     5       55   | 18     1         228
+ 8     4       71   | 19     1         342
+ 9     5       90   | 20     2         342
+10     5       91   | 21     4         343
+11     4      102   | 22     1         363
+```
 
 There are a varying number of patients with central lines being cared
 for at any given time. The number of central line days in each month
 is
 
-`month   all gp1 gp2 gp3 gp4 gp5    1       593   70     0   67 188 268    2       624   66   48   53 222 235    3       704   44   69   75 231 285    4       578     0   80   32 115 351    5       582   38   62   61 140 281    6       441 104   36   51   82 168    7       384   64   28   38   72 182    8       521   47 156   24 103 191    9       459   35   50   23 122 229      10       562   23   51 108   93 287      11       531   46   70   67   59 289   12     1581 178 193 229 204 777 `
+```{}
+month   all   gp1  gp2  gp3 gp4 gp5
+ 1       593   70    0   67 188 268
+ 2       624   66   48   53 222 235
+ 3       704   44   69   75 231 285
+ 4       578    0   80   32 115 351
+ 5       582   38   62   61 140 281
+ 6       441  104   36   51  82 168
+ 7       384   64   28   38  72 182
+ 8       521   47  156   24 103 191
+ 9       459   35   50   23 122 229
+10       562   23   51  108  93 287
+11       531   46   70   67  59 289
+12      1581  178  193  229 204 777 `
+```
 
 Here is a plot showing central line infections and the number of
 central line days in each month.
@@ -120,7 +145,30 @@ reduced from 3 days to 2.75 days.
 
 If you continue with the rest of the calculations, the date gaps are
 
-`  23.00   18.75     0.50     2.75    1.00     7.75     0.50   15.75      19.00     1.00   11.00   11.00      24.00   16.00   12.00   20.00      10.00   33.00 113.75     0.50    0.75   20.00 `
+```{}
+  23.00
+  18.75
+   0.50
+   2.75
+   1.00
+   7.75
+   0.50
+  15.75
+  19.00
+   1.00
+  11.00
+  11.00
+  24.00
+  16.00
+  12.00
+  20.00
+  10.00
+  33.00
+ 113.75
+   0.50
+   0.75
+  20.00 `
+```
 
 There is a small amount of time left over at the end of the calendar
 year (3 days to be precise). Although it is not unreasonable to just
@@ -181,7 +229,31 @@ Feb 12 translates into
 
 The full list of adjusted date gaps are
 
-`  439.97   392.60     11.14     61.29    22.29   172.71     11.14   355.66      431.48     22.71   211.93   211.93      454.52   296.31   176.40   287.06      123.87   475.06 2165.15     25.50    38.25 1020.00   153.00`
+```{}
+  439.97
+  392.60
+   11.14
+   61.29
+   22.29
+  172.71
+   11.14
+  355.66
+  431.48
+   22.71
+  211.93
+  211.93
+  454.52
+  296.31
+  176.40
+  287.06
+  123.87
+  475.06
+ 2165.15
+   25.50
+   38.25
+ 1020.00
+  153.00
+```
 
 Note that this is also a telescoping sum. When you add all the values
 together, you get 7,560 patient days, which is the total number of
@@ -215,15 +287,46 @@ an individual value control chart (an XmR chart). The XmR chart
 requires the computation of a moving range, a range between pairs of
 consecutive data values. The first four date gaps are
 
-`  23.00   18.75     0.50     2.75`
+```{}
+  23.00
+  18.75
+   0.50
+   2.75
+```
 
 so the first three moving ranges are
 
-`|23.00-18.75| =   4.25    |18.75- 0.50| = 18.25    | 0.50- 2.75| =   2.25`
+```{}
+|23.00-18.75| =  4.25
+|18.75- 0.50| = 18.25
+| 0.50- 2.75| =  2.25`
 
 The entire list of moving ranges is
 
-`   4.25   18.25     2.25     1.75    6.75     7.25   15.25     3.25      18.00   10.00     0.00   13.00    8.00     4.00     8.00   10.00      23.00   80.75 113.25     0.25      19.25   17.00`
+```{}
+    4.25
+   18.25
+    2.25
+    1.75
+    6.75
+    7.25
+   15.25
+    3.25
+   18.00
+   10.00
+    0.00
+   13.00
+    8.00
+    4.00
+    8.00
+   10.00
+   23.00
+   80.75
+  113.25
+    0.25
+   19.25
+   17.00
+```
 
 The average of these moving ranges is 17.4. The formula for the
 control limits is
@@ -243,12 +346,59 @@ This is simply a linear transformation (divide everything by 30).
 
 The adjusted date gaps are
 
-`  459.1   401.3       0.0     66.9    22.3   178.3       0.0   361.7   431.5     19.3   211.9   211.9   454.0   292.2   176.4   284.7   123.9   479.5 2212.1       0.0    51.0 1020.0   102.0`
+```{}
+  459.1
+  401.3
+    0.0
+   66.9
+   22.3
+  178.3
+    0.0
+  361.7
+  431.5
+   19.3
+  211.9
+  211.9
+  454.0
+  292.2
+  176.4
+  284.7
+  123.9
+  479.5
+ 2212.1
+    0.0
+   51.0
+ 1020.0
+  102.0
+```
 
 and the average adjusted date gap is 328.7. The moving ranges for the
 adjusted date gaps are
 
-`   57.8   401.3     66.9     44.6   156.0   178.3   361.7     69.8   412.2   192.7       0.0   242.1   161.8   115.8   108.3   160.9   355.6 1732.6 2212.1     51.0   969.0   918.0`
+```{}
+    57.8
+   401.3
+    66.9
+    44.6
+   156.0
+   178.3
+   361.7
+    69.8
+   412.2
+   192.7
+     0.0
+   242.1
+   161.8
+   115.8
+   108.3
+   160.9
+   355.6
+  1732.6
+  2212.1
+    51.0
+   969.0
+   918.0
+```
 
 and the average moving range is 407.7. The upper control limit is
 
@@ -256,37 +406,3 @@ and the average moving range is 407.7. The upper control limit is
 
 Divide every value by 30 to get estimates in patient months rather
 than patient days.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon on 2007-11-18, edited by Steve Simon, and was
-last modified on 2010-04-01. Send feedback to ssimon at cmh dot edu or
-click on the email link at the top of the page. [Category: Adverse
-events in clinical trials](../category/AdverseEvents.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Tracking central line infections over
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

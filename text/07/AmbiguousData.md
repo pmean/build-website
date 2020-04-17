@@ -14,7 +14,6 @@ descriptive statistics before you plunge into a complex analysis.
 
 <!---More--->
 
-
 The following table shows frequencies for a string variable called
 "RaceID". This variable used single letter codes to represent race
 and ethnicity.
@@ -44,5 +43,4 @@ category.
 There are some SPSS functions that can help fix up some of these
 ambiguous situations. the LTRIM function, for example, will remove any
 leading blanks. The LOWER function converts any uppercase letters to
-lowercase while the UPCAS function does the reverse..
-
+lowercase while the UPCAS function does the reverse.

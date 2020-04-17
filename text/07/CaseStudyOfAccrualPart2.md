@@ -7,8 +7,6 @@ category: Blog post
 tags: Accrual problems in clinical trials
 output: html_document
 ---
-**[StATS]: Case study of accrual in a clinical
-trial, part 2 (created 2007-10-09)**
 
 I received additional accrual data on a clinical trial I am
 monitoring. To review, the trial started on August 28, 2007 and will
@@ -21,6 +19,8 @@ scale. After one week, a single patient has entered the study. No
 patients enter on weeks 2, 3, or 4. On week 5, three patients enter
 the study. On week 6, one more patient enters for a total of 5
 patients.
+
+<!---More--->
 
 What would the estimated accrual look like after each week of the
 study? For each graph, I will include a red line that shows what an
@@ -77,31 +77,4 @@ limits had a total width of 52 at the start of the study and only 32
 after 6 weeks. As more time elapses and you gain more experience with
 understanding exactly how fast or slow patients accrue, you get more
 precision in your prediction about the final sample size.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Case study of accrual in a clinical
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
---->
 

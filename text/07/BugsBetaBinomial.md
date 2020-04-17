@@ -12,6 +12,8 @@ I've spent a bit of time trying to learn how to run a program called
 BUGS. The acronym stands for Bayes Using Gibbs Sampling. Here is my
 first serious attempt to run a BUGS program.
 
+<!---More--->
+
 There are several web pages about this program, most notably The BUGS
 Project Welcome Page at
 
@@ -254,31 +256,3 @@ in isolation.
 summaries available in both WinBUGS and BRugs.   There are also
 diagnostic tools to help you determine whether the markov chain has
 settled down sufficiently to provide good estimates.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
-<!---More--->
-statistics](../category/BayesianStatistics.html).
-for pages similar to this one at [Category: Bayesian
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Fitting a beta binomial model using BUGS
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
---->
-

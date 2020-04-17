@@ -7,8 +7,6 @@ category: Blog post
 tags: Accrual problems in clinical trials
 output: html_document
 ---
-**[StATS]: Case study of accrual in a clinical trial
-(created 2007-09-11)**
 
 Someone came by today with a project where he wants to monitor the
 accrual in a clinical trial. The trial started on August 28, 2007 and
@@ -19,6 +17,8 @@ trial (66 total), but he is very confident that he would get at least
 single patient, but September is a slow month. I asked him how
 confident he was on a scale of 1-10 in the possibility of getting 3
 patients per week. He told me "5" without much hesitation.
+
+<!---More--->
 
 What does a "5" really mean? Here's a graph that shows the prior
 distribution of sample sizes, assuming that the study has to end after
@@ -77,31 +77,3 @@ patients per week, but the goal of 3 patients per week seems a bit
 overly optimistic.
 
 I will try to update this model as the trial progresses.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Case study of accrual in a clinical trial
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
---->
-

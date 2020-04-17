@@ -14,6 +14,8 @@ On the web page
 
 you were asked to calculate ANOM charts for two different data sets.
 
+<!---More--->
+
 The first data set is reproduced below.
 
 ```{}

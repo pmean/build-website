@@ -7,14 +7,14 @@ category: Blog post
 tags: Statistical theory
 output: html_document
 ---
-**[StATS]:** **Compound interest and powers
-(February 11, 2007)**
 
 In some of my mathematical calculations, I end up computing an
 expression that involves a number very close to one raised to a very
 large power. This term can often be approximated by an exponential
 function, but I can never quite remember the relationship. An example
 involving compound interest may help me remember better in the future.
+
+<!---More--->
 
 If you invest an amount of money A for t years at a simple interest
 rate, i, the amount of money that you earn is
@@ -66,31 +66,3 @@ How good is this approximation? The constant e is 2.718 and the ratio
 For s=0.001, you get
 
 ![](http://www.pmean.com/images/images/07/CompoundInterest09.gif)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-theory](../category/StatisticalTheory.html).
-<!---More--->
-theory](../category/StatisticalTheory.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Compound interest and powers
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-theory](../category/StatisticalTheory.html).
---->
-
