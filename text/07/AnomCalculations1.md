@@ -7,11 +7,11 @@ category: Blog post
 tags: Analysis of means
 output: html_document
 ---
-**[StATS]: Calculation of Analysis of Means limits
-(created 2007-03-06)**.
 
 This page shows some of the details for calculating an analysis of means
 (ANOM) chart.
+
+<!---More--->
 
 **Resistivity example**. This data set comes from the National
 Institutes of Standards and Technology
@@ -24,11 +24,25 @@ with this data set. Resistivity measurements were recorded five times on
 five separate instruments. There is some concern that the instruments
 may have small but important differences in resistivity.
 
-`Instrument        1               2                       3               4               5        196.3052 196.3042 196.1303 196.2795 196.2119        196.1240 196.3825 196.2005 196.1748 196.1051        196.1890 196.1669 196.2889 196.1494 196.1850        196.2569 196.3257 196.0343 196.1485 196.0052        196.3403 196.0422 196.1811 195.9885 196.2090`
-
+```{}
+Instrument
+       1        2        3        4        5        
+196.3052 196.3042 196.1303 196.2795 196.2119
+196.1240 196.3825 196.2005 196.1748 196.1051
+196.1890 196.1669 196.2889 196.1494 196.1850
+196.2569 196.3257 196.0343 196.1485 196.0052
+196.3403 196.0422 196.1811 195.9885 196.2090`
+```
 Compare these five instruments using an ANOM chart.
 
-`   mean         var                         stdev        1 196.2431 0.007651577 0.08747329        2 196.2443 0.019037095 0.13797498        3 196.1670 0.008784212 0.09372413        4 196.1481 0.010863213 0.10422674        5 196.1432 0.007823043 0.08844797`
+```{}
+      mean         var      stdev
+1 196.2431 0.007651577 0.08747329
+2 196.2443 0.019037095 0.13797498
+3 196.1670 0.008784212 0.09372413
+4 196.1481 0.010863213 0.10422674
+5 196.1432 0.007823043 0.08844797`
+```
 
 The average of the five means is 196.1892 and the average of the five
 variances is 0.01083183. The square root of this value, 0.1040761, is
@@ -72,7 +86,15 @@ each shot from the target. Then they took three shots with their
 non-dominant hand and took three shots at the target. Their results are
 recorded below
 
-`Name Shot1 Shot2 Shot3          J-D       62       20       14          J-N       21         9       37          A-D       20       24       37          A-N       43       40       26          M-D       17       75       29          M-N       27       21       59`
+```{}
+Name Shot1 Shot2 Shot3
+J-D       62       20       14
+J-N       21        9       37
+A-D       20       24       37
+A-N       43       40       26
+M-D       17       75       29
+M-N       27       21       59`
+```
 
 My intention was to treat these six rows as if they represented six
 separate individuals (I did not have enough volunteers!). This is
@@ -83,7 +105,15 @@ with a factor having six levels.
 
 The summary statistics are easily computed.
 
-`Name     Mean         Var     Stdev          J-D   32.00   684.00     26.15          J-N   22.33   197.33     14.05          A-D   27.00     79.00       8.89          A-N   36.33     82.33       9.07          M-D   40.33   937.33     30.62          M-N   35.67   417.33     20.43`
+```{}
+Name   Mean      Var     Stdev
+J-D   32.00   684.00     26.15          
+J-N   22.33   197.33     14.05          
+A-D   27.00    79.00      8.89          
+A-N   36.33    82.33      9.07          
+M-D   40.33   937.33     30.62          
+M-N   35.67   417.33     20.43
+```
 
 The average of the six means is 32.28. The average variance is 399.6,
 and the square root of this value, 19.99, represents the pooled standard
@@ -131,11 +161,27 @@ and the lower decision limit is
 the process and made some improvements. Here is the data after the
 process was improved
 
-`J-D 52 12 18        J-N   5   2 34         A-D   9 22 17         A-N 22 19   8         M-D 25 29 10        M-N 27   3 15 `
+```{}
+J-D 52 12 18        
+J-N  5  2 34         
+A-D  9 22 17         
+A-N 22 19  8         
+M-D 25 29 10        
+M-N 27  3 15
+```
 
 The summary statistics for each group are
 
-`Name     Mean         Var     Stdev          J-D   27.33   465.33     21.57          J-N   13.67   312.33     17.67          A-D   16.00     43.00       6.56           A-N   16.33     54.33       7.37           M-D   21.33   100.33     10.02          M-N   15.00   144.00     12.00          Avg   18.28   186.56`
+```{}
+Name   Mean      Var     Stdev
+J-D   27.33   465.33     21.57
+J-N   13.67   312.33     17.67
+A-D   16.00    43.00      6.56
+A-N   16.33    54.33      7.37
+M-D   21.33   100.33     10.02
+M-N   15.00   144.00     12.00
+Avg   18.28   186.56
+```
 
 The square root of the average variance, 13.65, represents the pooled
 standard deviation. The decision limits are
@@ -166,7 +212,12 @@ the formula.
 A worker is asked to compare four different hearing tests to assure that
 they are of comparable difficulty.
 
-`Test-1 86%        Test-2 56%        Test-3 90%        Test-4 86%`
+```{}
+Test-1 86%
+Test-2 56%
+Test-3 90%
+Test-4 86%`
+```
 
 The results represent the percentage of words out of fifty that are
 identified correctly. The average of these four proportions is 0.795.
@@ -186,7 +237,14 @@ The second test appears to be more difficult than average.
 target (data shown below). Six different people recorded their accuracy
 on two consecutive shots. Calculate an ANOM chart for this data.
 
-`A 14 39        B 60 20        C 26   9        D   9 12        E 36 21        F 53 18`
+```{}
+A 14 39
+B 60 20
+C 26  9
+D  9 12
+E 36 21
+F 53 18
+```
 
 2. The following data is fictional. Twenty separate laboratories were
 sent identical images of a sperm smear with exactly 100 sperm cells and
@@ -195,32 +253,7 @@ WHO-3 standards (data shown below). Calculate an ANOM chart for these
 proportions. Don't peek but the answers are available on a [separate
 web page](PControlChartAnswers.asp).
 
-`25 23 22 18 24 30 22 28 29 15        19 35 33 35 33 17 19 19 40 26`
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
-<!---More--->
-means](../category/AnalysisOfMeans.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Calculation of Analysis of Means limits
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
---->
-
+```{}
+25 23 22 18 24 30 22 28 29 15
+19 35 33 35 33 17 19 19 40 26
+```

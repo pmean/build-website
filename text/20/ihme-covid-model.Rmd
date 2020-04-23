@@ -1,0 +1,47 @@
+---
+title: "Criticisms of the IHME COVID-19 model"
+author: "Steve Simon"
+source: "New"
+date: "2020-04-23"
+category: Blog post
+tags: Epidemiology
+output: html_document
+---
+
+I was asked to review the details of a prominent prediction model for the COVID-19 crisis. This model was developed by the Institute for Health Metrics and Evaluation and is commonly referred to as the IHME model. Here is a bit of background on the IHME model and some resources that discuss this model.
+
+<!---More--->
+
+#### Overview of the IHME model
+
+There is a wonderful sense of openness and transparency about research these days, and the IHME model is a good example of this.
+
+The Institute for Health Metrics and Evaluation has been in business since 2007, so they are no Johnny-Come-Lately operation. The page that lists their staff members has well over 400 pictures. Not all of these people are working on COVID-19, I'm sure, but it appears to be a solid team effort.
+
+The IHME is documented in several places.
+
+#### IMHE documentation of their model
+
+Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. MedRxiv preprint, 2020-04-22. [pdf format](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf).
+
+IHME COVID-19 model FAQs. Available in [html format](http://www.healthdata.org/covid/faqs).
+
+#### Articles in the popular press
+
+Aizenman N. 5 Key Facts Not Explained In White House COVID-19 Projections. National Public Radio 2020-04-01. Available in [html format](https://www.npr.org/sections/health-shots/2020/04/01/824744490/5-key-facts-the-white-house-isnt-saying-about-their-covid-19-projections).
+
+This article contrasts a model based on infectious disease theory, the Imperial College model, to the IHME model and then goes on to explain some of the features of the IHME model.
+
+#### More technical articles
+
+Druke N, Silver N. How One Modeler Is Trying To Forecast The Toll Of COVID-19. FiveThirtyEight 2020-04-22. Available in [video format](https://fivethirtyeight.com/features/politics-podcast-how-one-modeler-is-trying-to-forecast-the-toll-of-covid-19/) and as a [podcast](https://podcasts.apple.com/us/podcast/model-talk-forecasting-the-toll-of-covid-19/id1077418457).
+
+This is an interview with Dr. Chris Murray, the person in charge of the IHME model.
+
+Begley S. Influential Covid-19 model uses flawed methods and shouldn’t guide U.S. policies, critics say. Stat 2020-04-17. Available in [html format](https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/).
+
+#### Articles in the peer-reviewed literature
+
+Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format](https://doi.org/10.7326/M20-1565).
+
+
