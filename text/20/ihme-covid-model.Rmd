@@ -14,21 +14,36 @@ I was asked to review the details of a prominent prediction model for the COVID-
 
 #### Overview of the IHME model
 
-There is a wonderful sense of openness and transparency about research these days, and the IHME model is a good example of this.
+To avoid too much confusion, I will use the term "IHME model" to refer to the COVID-19 prediction model developed by the Institute for Health Metrics and Evaluation and reserve the term "the Institute" to refer to the organization itself.
 
-The Institute for Health Metrics and Evaluation has been in business since 2007, so they are no Johnny-Come-Lately operation. The page that lists their staff members has well over 400 pictures. Not all of these people are working on COVID-19, I'm sure, but it appears to be a solid team effort.
+The Institute has been in business since 2007, so they are no Johnny-Come-Lately operation. The page that lists their staff members has well over 400 pictures. Not all of these people are working on COVID-19, I'm sure, but it appears to be a solid team effort.
 
-The IHME is documented in several places.
+There is a wonderful sense of openness and transparency about research these days, and the Institute is a good example of this. The Institute shares the code and (when it can) the data on their [github site](https://github.com/ihmeuw). This allows other researchers to borrow their work and easily adapt it as needed. When the Institute makes changes to their work, anyone can quickly download these updates.
 
 #### IMHE documentation of their model
 
-Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. MedRxiv preprint, 2020-04-22. [pdf format](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf).
+Murray CJL. Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries. Preprint, 2020-04-21. Available in [pdf format](http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf).
+
++ At the time of the writing of this webpage, this was the most current description of the IHME model.
+
+Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. Preprint, 2020-03-26. Available in [pdf format](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf).
+
++ This article describes an earlier model.
+
+
+Xu B, Gutierrez B, Mekaru S, Sewalk K, Goodwin L, Loskill A, Cohn EL, Hswen Y, Hill SC, Cobo MM, Zarebski AE, Li S, Wu C-H, Hulland E, Morgan JD, Wang L, O'Brien K, Scarpino SV, Brownstein JS, Pybus OG, Pigott DM, Kraemer MUG. Epidemiological data from the COVID-19 outbreak, real-time case information. Scientific Data, 2020-03-24. doi:10.1038/s41597-020-0448-0. Available in [html format](https://www.nature.com/articles/s41597-020-0448-0) or [pdf format](https://www.nature.com/articles/s41597-020-0448-0.pdf).
+
++ This article describes how the initial datasets used by the IHME model were collected. In a rapidly changing environment, some of the details may have changed, and at least one of the links in the article points to a gitrhub page that no longer exists. But most of the links are good. The breadth of the data collection is very impressive and the authors do a good job documenting everything.
 
 IHME COVID-19 model FAQs. Available in [html format](http://www.healthdata.org/covid/faqs).
+
++ This webpage talks in non-technical terms about some of the choices that the researchers chose for the IHME model.
 
 #### Articles in the popular press
 
 Aizenman N. 5 Key Facts Not Explained In White House COVID-19 Projections. National Public Radio 2020-04-01. Available in [html format](https://www.npr.org/sections/health-shots/2020/04/01/824744490/5-key-facts-the-white-house-isnt-saying-about-their-covid-19-projections).
+
++ The focus of this article is on the White House press briefing and the uncertain source of some of the numbers used in that briefing. There is, however, a good amount of detail about the IHME model.
 
 This article contrasts a model based on infectious disease theory, the Imperial College model, to the IHME model and then goes on to explain some of the features of the IHME model.
 

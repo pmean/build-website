@@ -3,6 +3,7 @@
 *.RData
 *.Rproj
 data/*.*
+doc/*.*
 images/*.*
 *.bak
 *.pdf
