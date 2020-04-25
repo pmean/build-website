@@ -8,13 +8,19 @@ tags: Epidemiology
 output: html_document
 ---
 
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+suppressMessages(suppressWarnings(library(tidyverse)))
+```
+
+
 I was asked to review the details of a prominent prediction model for the COVID-19 crisis. This model was developed by the Institute for Health Metrics and Evaluation and is commonly referred to as the IHME model. Here is a bit of background on the IHME model and some resources that discuss this model.
 
 <!---More--->
 
 ### Overview of the IHME model
 
-To avoid too much confusion, I will use the term "IHME model" to refer to the COVID-19 prediction model developed by the Institute for Health Metrics and Evaluation and reserve the term "the Institute" to refer to the organization itself.
+To avoid too much confusion, I will use the term "IHME model" to refer to the COVID-19 prediction model developed by the Institute for Health Metrics and Evaluation and reserve the term "the Institute" to refer to the organization itself. There are a class of alternative models based on Epidemiologic principles of infectious diseases. They go by a variety of acronyms, but to simplify the language, I will refer to all of these models as SEIR models.
 
 The Institute has been in business since 2007, so they are no Johnny-Come-Lately operation. The page that lists their staff members has well over 400 pictures. Not all of these people are working on COVID-19, I'm sure, but it appears to be a solid team effort.
 
@@ -22,9 +28,21 @@ There is a wonderful sense of openness and transparency about research these day
 
 Here are some features of the IHME model that have stirred up so much debate.
 
+#### The IHME model fits to deaths and not cases
+
+The modelers made a concious decision to use the number of daily deaths to estimate the model parameters rather than the number of new daily infections. The rationale for this choice is that there are substantial variations in testing rates in different regions of the country and different countries of the world. This combined with the large number of people who are asymptomatic leads to huge uncertainties in what the number of new infections is really measuring.
+
+The number of deaths in a region, however, is not perfect itself. Many deaths could be uncounted if they occur at home or among infected but undiagnosed patients. The flip side of the coin is that many people who were old and frail may have died with or without the infection.
+
+There is strong empirical evidence from comparing death rates before and after the COVID-19 pandemic that we are greatly underestimating the number of deaths that we attribute to COVID-19. 
+
+Whether the underestimate of COVID-19 cases is worse than the underestimate of COVID-19 deaths is an open question. A key point to remember is that a consistent underestimate (everybody misses 25% of the cases or deaths) is not a serious problem for modeling, but a variable underestimate (some regions miss 10% and other miss 50%) is a big problem.
+
+The alternative SEIR models generally use information from the daily infection rate to estimate parameters and buil predictions, though they can incorporate information from the 
+
 #### The IHME model is atheoretical 
 
-The first thing to note about the IHME model is that it is atheoretical. That means that the choices that the modelers based were driven solely by what seemed to fit the data best rather than what might be expected based on how infectious diseases are transmitted.
+The most widely criticized feature of the IHME model is that it is atheoretical. That means that the choices that the modelers based were driven solely by what seemed to fit the data best rather than what might be expected based on how infectious diseases are transmitted.
 
 In contrast, most models of infectious disease epidemics use theoretical models. These models typical involve compartments that include groups of patients. The biggest compartment is the susceptible compartment which represents the vast population of people in an area that might get the disease. A second compartment represents infected individuals. This is just a small number at the start of the epidemic, but they interact with the susceptible population and pull some of them into the infected compartment. The people in the infected department don't stay infected forever. They move over time into a third compartment that represents people who have recovered and are no longer infectious. You can introduce a fourth compartment, such as exposed but not infected, or a fifth, but a theoretical model will. at a minimum, consider how easily someone gets infected and how long that person stay infectious before recovering.
 
@@ -34,11 +52,11 @@ These theoretical models are often referred to by the names of the compartments,
 
 The conflict between atheoretical models and theoretical models has a long, long history. The atheoretical propents believe in "letting the data speak for itself" while the theoretical proponets believe that models need a sound scientific foundation.
 
-You can see some of this conflict play out in the interview that Dr. Murray has on the FiveThirtyEight website (see below). Dr. Murray argues that the theoretical models have too many assumptions and should let the actual data determine more of the model. The critics of the IHME model contend that the model changes as more data arrives, leading to unstable estimates. It's important to note here that the model itself is changing and not just the estimates produced by the model.
+You can see some of this conflict play out in the interview that Dr. Murray has on the FiveThirtyEight website (see below). Dr. Murray argues that the theoretical models have too many assumptions and that modelers should let the actual data determine more of the model. The critics of the IHME model contend that the model changes as more data arrives, leading to unstable estimates. It's important to note here that the model itself is changing and not just the estimates produced by the model.
 
 You will never resolve the controversy over theoretical versus atheoretical models, but in infectious disease modeling, the theoretical models have several important advantages. 
 
-First, the SEIR models and variations on it have been used successfully many times in the past. Every year a new flu season offers a new test of these models and every year they seem to do reasonably well.
+First, the SEIR models are battle-hardened. They have been used successfully many times in the past. Every year a new flu season offers a new test of these models and every year they seem to do reasonably well.
 
 Second, the theoretical models are more transparent. You can explain a theoretical model in a paragraph or two and you can easily visualize how one theoretical model differs from another. The IHME model requires a lengthy appendix and is difficult reading even for a specialist like myself. 
 
@@ -61,7 +79,6 @@ This fixes one problem but it causes another. The large number of extra bell cur
 If you are in the early phase of an epidemic, everything looks like an exponential curve. Every day you see more deaths than the previous day. This is what that curve looks like.
 
 ```{r g1, fig.width=4, fig.height=2}
-suppressMessages(suppressWarnings(library(tidyverse)))
 data.frame(
   x <- seq(-2.8, -1.5, length=100),
   y <- dnorm(x)) %>%
@@ -76,9 +93,7 @@ data.frame(
 
 But then the curve reaches an inflection point. The daily deaths are still increasing, but you can see a deceleration.
 
-Once you are past the inflection point, you can start to forecast reasonably well. You can get an initial estimate of when the number of deaths reachs its maximum and when it will die down to zero again. But these estimates are tricky and the confidence limits are very wide.
-
-What you need is to predict when the epidemic might end is some data on the other side of the mountain, data where the number of daily deaths starts its decline. 
+Once you are past the inflection point, you can start to forecast further into the future. You can get an initial estimate of when the number of deaths reachs its maximum and when it will die down to zero again. But these estimates are tricky and the confidence limits are very wide.
 
 ```{r g2, fig.width=4, fig.height=2}
 data.frame(
@@ -93,6 +108,7 @@ data.frame(
     geom_text(x=-3, y=0.07, angle=90, label="Deaths")
 ```
 
+What you need is to predict when the epidemic might end is some data on the other side of the mountain, data where the number of daily deaths starts its decline. 
 
 ```{r g3, fig.width=4, fig.height=2}
 data.frame(
@@ -107,7 +123,25 @@ data.frame(
     geom_text(x=-3, y=0.07, angle=90, label="Deaths")
 ```
 
+Fair enough, but the regions that are still early in the pandemic still want predictions on when they will reach their peak and when they will eventually decline to zero. The IHME model does this through a mixed model approach.
 
+The mixed model is a well-established approach in Statistics. It is used a lot in Epidemiology, especially in small area estimation (getting estimated rates in regions that don't have a lot of data). The mixed model borrows information from other regions that are (hopefully) similar and provides much more precision than you could get by relying on the one region alone.
+
+For the IHME model, the borrowing of information occurs mostly on the far-side (the declining side) of the daily death rate, This is especially true for those regions that still only have data on the near-side (the rising side) of the daily death rate. These regions that have data on the far-side are mostly from China, South Korea, and Italy.
+
+Does it make sense to base the decline in the daily death rate in Chattahoochee county, Georgia on the decline in the daily death rate in Bergamo, Italy? Well, no not really, but what other choice do you have?
+
+The theoretical models in Epidemiology provide an alternate way to extrapolate the far-side of these curves. The shape of the curves are estimated by the rates at which people move from one compartment to another in the SEIR model and variations on that model. You can get partial information on the various rates from the near-side data and then plug in information from earlier epidemics to help with predictions on the far-side.
+
+In either the IHME model or the SEIR models require you to mix apples and oranges. In the IHME model, the oranges are places like Bergamo, Italy. In the SEIR mode, the oranges are epidemics like H1N1 influenza. The SEIR oranges, though, have one advantage of the IMHE oranges. There are many more SEIR oranges to choose from. The IMHE oranges are, at least for now, limited to China, South Korea, and Italy.
+
+#### The IHME model has changed over time
+
+All models provide different predictions as you accumulate more data. This leads to an inconsistent message over time and is largely unavoidable in any model. The IHME model, however, has undergone changes in the underlying mechanics that have increased its instability over time. Some of these changes were made to address criticisms in the model and some were made to get better fits to the data. One of the changes was noted above in the replacement of a single bell shaped curve with a weighted average of multiple bell shaped curves.
+
+The desire for consistency can be overrated. Stephen Senn talks about a medical biostatistician who doesn't believe in America because it wasn't in Christopher Columbus's original research plan. Still, the changes are a legitimate concern among some of the critics of the IHME model.
+
+### Resources
 
 ### IMHE documentation of their model
 
@@ -117,7 +151,7 @@ Murray CJL. Forecasting the impact of the first wave of the COVID-19 pandemic on
 
 Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. Preprint, 2020-03-26. Available in [pdf format](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf).
 
-+ This article describes an earlier model.
++ This article describes an earlier model IHME model.
 
 Xu B, Gutierrez B, Mekaru S, Sewalk K, Goodwin L, Loskill A, Cohn EL, Hswen Y, Hill SC, Cobo MM, Zarebski AE, Li S, Wu C-H, Hulland E, Morgan JD, Wang L, O'Brien K, Scarpino SV, Brownstein JS, Pybus OG, Pigott DM, Kraemer MUG. Epidemiological data from the COVID-19 outbreak, real-time case information. Scientific Data, 2020-03-24. doi:10.1038/s41597-020-0448-0. Available in [html format](https://www.nature.com/articles/s41597-020-0448-0) or [pdf format](https://www.nature.com/articles/s41597-020-0448-0.pdf).
 
@@ -132,6 +166,10 @@ IHME COVID-19 model FAQs. Available in [html format](http://www.healthdata.org/c
 Aizenman N. 5 Key Facts Not Explained In White House COVID-19 Projections. National Public Radio 2020-04-01. Available in [html format](https://www.npr.org/sections/health-shots/2020/04/01/824744490/5-key-facts-the-white-house-isnt-saying-about-their-covid-19-projections).
 
 + The focus of this article is on the White House press briefing and the uncertain source of some of the numbers used in that briefing. It provides, however, a good amount of detail about the IHME model and contrasts it with a model based on infectious disease theory, the Imperial College model.
+
+Bui Q, Katz J, Parlapiano A, and Sanger-Katz, M. What 5 Coronavirus Models Say the Next Month Will Look Like. The New York Times, 2020-04-22. Available in [html format](https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html).
+
++ This article got me interested in the differences of the various models and has links that provide more details about the IHME model and several different SEIR models in greater detail.
 
 ### More technical articles
 
