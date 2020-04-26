@@ -181,10 +181,12 @@ Begley S. Influential Covid-19 model uses flawed methods and shouldn’t guide U
 
 + The Stat website provides critical reviews of a broad range of medical research approaches. The article critical of the IHME model misses the mark in one way. It suggests that the numbers will be misused, but that is an issue for any predictive model. But it points out how models based on Epidemiologic theory differ from the IHME model and notes concerns about the frequent tweaking that the IHME model has undergone.
 
+Etzioni R, COVID-19 Models: What Makes Them Tick? Timmerman Report, 2020-04-07. Available in [html format](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/).
+
++ This blog post describes how a theoretical model (the Imperial College model) works but uses a different term, mechanistic, and describes the model in greater detail. Then she discusses the atheoretical IHME model and again uses a different term than I do: empirical. The author draws a nice contrast and concludes that all models have weaknesses.
+
 ### Articles in the peer-reviewed literature
 
 Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format](https://doi.org/10.7326/M20-1565).
 
 + This is a criticism of the IHME model by prominent researchers published in a prominent journal. The authors seem to throw everything they can at the model and not everything sticks. They note that the IHME model fails to account for the rebound that might occur if social distancing efforts are relaxed too soon, but the IHME model clearly mentions this in a disclaimer. It criticizes the symmetry of the IHME model, which was an issue with earlier versions, but which is not a problem with the current model. It criticizes the unreliability of the data, but this unreliability is an issue with any model. It mentions that the model fails to capture all sources of uncertainty, but this is also an issue with the competing models. Where the criticism hits the mark is in how much this model relies on extrapolations from places that have data well past the peak of maximum cases/deaths (such as Italy, China, and South Korea) to places that have not yet reached their peak or are just barely past their peak.
-
-

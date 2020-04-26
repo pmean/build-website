@@ -7,14 +7,10 @@ category: Blog post
 tags: Diagnostic testing
 output: html_document
 ---
-****[StATS]:** Meta-analysis for a diagnostic (November 15, 1999)**
 
-There is no real consensus yet on how to best combine data from several
-studies of a diagnostic test. I will outline a few approaches that seem
-to make sense. In addition to this page, I have a [general overview on
-meta-analysis](metaanalysis.html) and a non-technical introduction on
-the [practical interpretation of a
-meta-analysis](../12a/journal/meta-analysis.asp).
+There is no real consensus yet on how to best combine data from several studies of a diagnostic test. I will outline a few approaches that seem to make sense. In addition to this page, I have a [general overview on meta-analysis](metaanalysis.html) and a non-technical introduction on the [practical interpretation of a meta-analysis](../12a/journal/meta-analysis.asp).
+
+<!---More--->
 
 **Direct analysis of sensitivity/specificity**
 
@@ -312,7 +308,21 @@ estimate across the range of S values.
 It's unclear whether to use a weighted regression model or an
 unweighted regression model for these data.
 
-`fn.adj <- pmax(fn,0.5)   tpr <- tp/(tp+fn.adj)   fpr <- fp/(tn+fp)   d <- logit(tpr)-logit(fpr)   s <- logit(tpr)+logit(fpr)   se.d <- sqrt(1/tp+1/fn.adj+1/tn+1/fp)   w <- 1/se.d^2   unweighted.regression <- lm(d~s)   weighted.regression <- lm(d~s,weights=w)   par(mar=c(5.1,4.1,0.6,0.6))   plot(s,d)   abline(unweighted.regression)   abline(weighted.regression,lty=2)`
+```{}
+fn.adj <- pmax(fn,0.5)
+tpr <- tp/(tp+fn.adj)
+fpr <- fp/(tn+fp)
+d <- logit(tpr)-logit(fpr)
+s <- logit(tpr)+logit(fpr)
+se.d <- sqrt(1/tp+1/fn.adj+1/tn+1/fp)
+w <- 1/se.d^2
+unweighted.regression <- lm(d~s)
+weighted.regression <- lm(d~s,weights=w)
+par(mar=c(5.1,4.1,0.6,0.6))
+plot(s,d)
+abline(unweighted.regression)
+abline(weighted.regression,lty=2)`
+```
 
 For this data set, it appears that there is a non-zero slope, which
 makes interpretation of the combined diagnostic odds ratio
@@ -331,6 +341,7 @@ problematic.
     [Abstract]](http://www.biomedcentral.com/1472-6963/2/4/abstract)
     [Full text]](http://www.biomedcentral.com/1472-6963/2/4)
     [PDF]](http://www.biomedcentral.com/content/pdf/1472-6963-2-4.pdf)
+    
 -   **Conducting systematic reviews of diagnostic studies: didactic
     guidelines.** Deville WL, Buntinx F, Bouter LM, Montori VM, De Vet
     HC, Van Der Windt DA, Bezemer P. BMC Med Res Methodol 2002: 2(1); 9.
@@ -338,6 +349,7 @@ problematic.
     [Abstract]](http://www.biomedcentral.com/1471-2288/2/9/abstract)
     [Full text]](http://www.biomedcentral.com/1471-2288/2/9)
     [PDF]](http://www.biomedcentral.com/content/pdf/1471-2288-2-9.pdf)
+    
 -   **Systematic reviews in health care: Systematic reviews of
     evaluations of diagnostic and screening tests.** Deeks JJ. British
     Medical Journal 2001: 323(7305); 157-62.
@@ -345,34 +357,4 @@ problematic.
     [Full
     text]](http://bmj.bmjjournals.com/cgi/content/full/323/7305/157)
     [PDF]](http://bmj.bmjjournals.com/cgi/reprint/323/7305/157.pdf)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-[](../category/WritingResearchPapers.html) [Category: Diagnostic
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Meta-analysis for a diagnostic (November 15, 1999)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
 

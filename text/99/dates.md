@@ -8,12 +8,7 @@ tags: Data management, SPSS software
 output: html_document
 ---
 
-*Dear Professor Mean, I am trying to use dates in SPSS for certain
-calculations. For example, I want to use a compute statement in SPSS to
-create a new variable called duration of injury (durinj). I know that I
-must subtract the date of injury from the date of interview. However,
-when I do this, I get a number in the millions. What am I doing wrong?
--- Stumped Sharon*
+*Dear Professor Mean, I am trying to use dates in SPSS for certain calculations. For example, I want to use a compute statement in SPSS to create a new variable called duration of injury (durinj). I know that I must subtract the date of injury from the date of interview. However, when I do this, I get a number in the millions. What am I doing wrong? -- Stumped Sharon*
 
 <!---More--->
 
