@@ -50,17 +50,20 @@ The rates at which people move from susceptible to infected and from infected to
 
 These theoretical models are often referred to by the names of the compartments, so an SEIR model is one that has compartments for susceptible, exposed, infected, and recovered people.
 
+There are simulation models that are very close in spirit to the SEIR models, but which require a much greater degree of computational power. These simulations create random interactions among thousands or millions of individuals where each interaction has a specified probability of spreading the disease during an interaction between an infected individual and a susceptible individual. Other than the far greater amount of computing power needed, these models have the basic features as the SEIR models.
+
 The conflict between atheoretical models and theoretical models has a long, long history. The atheoretical propents believe in "letting the data speak for itself" while the theoretical proponets believe that models need a sound scientific foundation.
 
 You can see some of this conflict play out in the interview that Dr. Murray has on the FiveThirtyEight website (see below). Dr. Murray argues that the theoretical models have too many assumptions and that modelers should let the actual data determine more of the model. The critics of the IHME model contend that the model changes as more data arrives, leading to unstable estimates. It's important to note here that the model itself is changing and not just the estimates produced by the model.
 
 You will never resolve the controversy over theoretical versus atheoretical models, but in infectious disease modeling, the theoretical models have several important advantages. 
-
 First, the SEIR models are battle-hardened. They have been used successfully many times in the past. Every year a new flu season offers a new test of these models and every year they seem to do reasonably well.
 
 Second, the theoretical models are more transparent. You can explain a theoretical model in a paragraph or two and you can easily visualize how one theoretical model differs from another. The IHME model requires a lengthy appendix and is difficult reading even for a specialist like myself. 
 
 Third, the theoretical models allow you to more readily make extrapolations beyond the range of the data. You should always be cautious about extrapolations, but we do this all the time. Car manufactures will offer six year warranties on a car model that is less than six months old. The IHME model cannot extrapolate a decline in the daily death rate for a region that has not yet reached its peak as easily as an SEIR model can. We'll talk more about this below.
+
+Fourth, the theoretical models allow you to simulate scenarios that have not yet occured, such as what happens when we introduce a vaccine or whether a lack of permanent immunity after recovery will lead to a new wave of infections.
 
 #### The IHME model is based on the standard bell shaped curve
 
@@ -171,6 +174,10 @@ Bui Q, Katz J, Parlapiano A, and Sanger-Katz, M. What 5 Coronavirus Models Say t
 
 + This article got me interested in the differences of the various models and has links that provide more details about the IHME model and several different SEIR models in greater detail.
 
+Chow D. What we know about the coronavirus model the White House unveiled. NBC News, 2020-04-01. Available in [html format](https://www.nbcnews.com/science/science-news/what-we-know-about-coronavirus-model-white-house-unveiled-n1173601).
+
++ This article was also written in response to that White House press briefing. It emphasizes the many sources of uncertainty in these predictions.
+
 ### More technical articles
 
 Druke N, Silver N. How One Modeler Is Trying To Forecast The Toll Of COVID-19. FiveThirtyEight 2020-04-22. Available in [video format](https://fivethirtyeight.com/features/politics-podcast-how-one-modeler-is-trying-to-forecast-the-toll-of-covid-19/) and as a [podcast](https://podcasts.apple.com/us/podcast/model-talk-forecasting-the-toll-of-covid-19/id1077418457).
@@ -190,3 +197,19 @@ Etzioni R, COVID-19 Models: What Makes Them Tick? Timmerman Report, 2020-04-07. 
 Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format](https://doi.org/10.7326/M20-1565).
 
 + This is a criticism of the IHME model by prominent researchers published in a prominent journal. The authors seem to throw everything they can at the model and not everything sticks. They note that the IHME model fails to account for the rebound that might occur if social distancing efforts are relaxed too soon, but the IHME model clearly mentions this in a disclaimer. It criticizes the symmetry of the IHME model, which was an issue with earlier versions, but which is not a problem with the current model. It criticizes the unreliability of the data, but this unreliability is an issue with any model. It mentions that the model fails to capture all sources of uncertainty, but this is also an issue with the competing models. Where the criticism hits the mark is in how much this model relies on extrapolations from places that have data well past the peak of maximum cases/deaths (such as Italy, China, and South Korea) to places that have not yet reached their peak or are just barely past their peak.
+
+Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66–97. doi:10.1016/j.plrev.2016.07.005. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf).
+
++ This article was written before the COVID=19 pandemic. It provides a nice review of how SEIR models work and applies them to a variety of pandemics.
+
+Kissler SM, Tediganto C, Goldstein E, Grad YH, Lipsitch M. Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period. Science 2020-04-14. DOI: 10.1126/science.abb5793, Available in [html format](https://science.sciencemag.org/content/early/2020/04/24/science.abb5793).
+
++ This article compares SARS-CoV-2 (the virus that causes COVID-19) to previous viruses to assess the chances that we will see future seasonal waves of COVID-19. This is an example of the type of modeling that can only be done with a theoretical model.
+
+FRED Modeling System. Available in [html format](https://fred.publichealth.pitt.edu/).
+
++ FRED stands for Framework for Reconstructing Epidemic Dynamics and represents a software system that uses simulation to model epidemics. It has been used to model outbreaks of measles and influenza, but not yet (as far as I can tell) for COVID-19. It is available for anyone to download and use on their own.
+
+### Acknowledgments
+
+Thanks to Chris Barker and Ruth Etzioni for helpful suggestions.
