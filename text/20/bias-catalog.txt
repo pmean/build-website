@@ -1,0 +1,7 @@
+@article {cebn-nodate,
+	tags = {Critcal appraisal},
+	title = {Catalogue of Bias},
+	URL = {https://catalogofbias.org/biases/},
+	urldate = (2020-05-01},
+	annote = {A brief definition for every type of bias that you could imagine, plus some that you would have never guessed.}
+}

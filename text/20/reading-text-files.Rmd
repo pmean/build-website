@@ -1,0 +1,173 @@
+---
+title: "Reading text files"
+author: "Steve Simon"
+source: "New"
+date: "Created: 2020-04-30"
+category: Blog post
+tags: Data management
+output: html_document
+---
+
+Many data files stored on the Internet use text format. Here is an explanation of what text format is and how you can read it into a program for data analysis.
+
+<!---More--->
+
+```{r ascii, echo=FALSE}
+symbol_codes <- c(33:126)
+symbols <- NULL
+for (i in symbol_codes) {symbols <- c(symbols, rawToChar(as.raw(i)))} 
+symbols <- setdiff(symbols, LETTERS)
+symbols <- setdiff(symbols, letters)
+symbols <- setdiff(symbols, as.character(0:9))
+```
+
+### What is text format?
+
+I'll define the term "text format" in just a bit, but let me introduce a few other terms. A file that does not use text format is often called a "binary format" file. A data value that uses letters, such as a patient's name, or a mixture of letters and numbers, like a patient's address, is called a "string."
+
+A text file is a file that uses 7-bit ASCII, a standard set of 127 characters. These characters include the capital letters, 
+
++ `r paste(LETTERS, collapse=" ")`,
+
+the lower case letters, 
+
++ `r paste(letters, collapse=" ")`, 
+
+the numbers, 
+
++ `r paste(0:9, collapse=" ")`,
+
+and a variety of symbols, 
+
++ `r paste(symbols, collapse=" ")`. 
+
+It also includes four special characters,
+
++ the blank character, 
++ the tab character, 
++ the line feed, and 
++ the carriage return.
+
+It does not normally include letters from languages other than English, like characters with accents, umlauts, and other diacritical marks. It does not include Arabic, Chinese, Greek, or Japanese letters, or pretty much letters from any language other than English. It includes the dollar sign, but note the signs for Pounds, Euros, or Yen.
+
+The 7-bit ASCII characters were standardized at a time when most of the computer developments were done in the United States. So the text file is one of many examples of American chauvinism, which can [sometimes cause problems](https://www.btb.termiumplus.gc.ca/tpv2guides/guides/favart/index-eng.html?lang=eng&lettr=indx_autr8o7vhUcC4c0s&page=9CMUV8aUjDMc.html). 
+
+Files using 7-bit ASCII are often called "human readable" files, though that again is a bit of chauvinism, as many humans can not recognize or understand the English alphabet.
+
+Many files do not use text format. There are several reasons for this, relating to efficiency, but there is an increasing trend to store more and more data in text format.
+
+### How can you tell if a file is in text format?
+
+The easiest way to tell if a file is in text format is to read the page where the file was downloaded from. That page will often have a brief description of the file or it will include a link to a page providing a data dictionary.
+
+The extension of the filename will sometimes help. An extension of .txt is almost always an indication that the file uses text format.
+
+If you don't know if the file is in text format, try opening it in a text editor like notepad for Windows or TextEdit for the Mac. If the file refuses to open, then you know it is not in text format. If the file opens, but the result looks like gibberish, then you know it is not in text format.
+
+![A non-text file displayed in notepad](../../../web/images/reading-text-files01.png)
+
+The above image is an example of a binary format. You can recognize a couple of words, perhaps, but most of the file is unreadable.
+
+The most common binary format for data files is Microsoft Excel, and how to work with those files is a topic for another day.
+
+### First line variable names
+
+Many text files will use the first line to provide a name to each variable. Here's an example.
+
+![Data set on movies](../../../web/images/read-text-files03.png)
+
+If a dataset does not include the names of the variables in the first line, then you have to find the names in a data dictionary.
+
+### Varieties of text formats
+
+There are two main varieties of text formats, fixed width and delimited.
+
+### Fixed width format
+
+In a fixed width format, the data is restricted to a specific coloumn or columns. The dataset shown above is an example of a fixed width format. When you encounter a fixed width format, you should expect to see a list of columns associated with each variable as part of the data dictionary. 
+
+![Data dictionary](../../../web/images/read-text-files06.png)
+
+If you don't have this, then you need to count out the columns yourself, which is a very tedious job.
+
+#### Delimited text format
+
+There's an oft-repeated saying "Time is nature's way of keeping everything from happening at once." In a similar vein, delimiters are what keeps all your data from happening at once. Suppose you have data on a patients weight (in pounds) and height (in inches). If you represented that in a text file as 
+
++ 24375
+
+you might be able to recognize from the context that it represents a weight of 243 and a height of 75. But your computer would not be able to puzzle this out. You need to separate the individual data values using a special character, which is the delimiter.
+
+#### Space delimited format
+
+The easiest choice is to use a space to delimit values. So you would store a patients weight and height as
+
++ 243 75
+
+and tell your computer to use the blank character as a delimiter. This works fine for numbers, but let's suppose that you have string data that represents the patient's name and address.
+
++ Donald Trump 1600 Pennsylvania Avenue 243 75
+
+How do you let the computer know that the Donald plus Trump represent the patient's name and that 1600 plus Pennsylvania plus Avenue represents the patient's address?
+
+Well, one way would be to use a different delimiter than the blank character. Another way would be to enclose the name in quotes and the address in quotes, giving you
+
++ "Donald Trump" "1600 Pennsylvania Avenue" 243 75
+
+You don't need quotes around the 243 and the 75 as these pieces of data do not have any blanks.
+
+The space delimited file is not that commonly used, for reasons that I've never understood, but here is an example.
+
+![Example of a space delimited file](../../../web/images/read-text-files02.png)
+
+### Comma delimited format
+
+Far more common is the use of the comma as a delimiter. The data for our one patient would look like
+
++ Donald Trump,1600 Pennsylvania Avenue,243,75
+
+If there is the possibility that a comma might be found in the data itself, then use quote marks to surround any strings. In general, it is usually a good idea to use quote marks for any string, even if you don't expect to see any commas in the data itself.
+
++ "Donald Trump","1600 Pennsylvania Avenue",243,75
+
+Data files that use a comma delimiter often use the extension csv. This is an abbreviation of comma separated values. Here is an example of a comma delimited file.
+
+![Dataset showing COVID-19 deaths over time](../../../web/images/read-text-files04.png)
+
+### Tab delimited format
+
+The tab character is an unusual character in the 7-bit ASCII universe. It is a single character that causes a jump to various tab stops. For most computer systems, when they display data with tab characters, they place the tab stops are in columns 9, 17, 25, 33, etc. This is intended to produce a clean and legible spacing of variables, but there is a lot that can go wrong. Often a tab delimited format looks somewhat orderly but with some odd alignments in certain rows.
+
+![Dataset of revenues for selected movies](../../../web/images/read-text-files05.png)
+
+### Missing value codes
+
+Sometimes a data value is unknown. The patient didn't fill out the question on yearly income for your survey. The clinic personnel forgot to measure and record the patient's weight on a return visit. The urine specimen was lost before it got to the lab. There are many other reasons why a value might be missing in a dataset.
+
+There are several ways to code missing values. One way is to leave the data value empty. If the weight of our President was missing, it might appear in a comma separated value data set this way
+
++ "Donald Trump","1600 Pennsylvania Avenue",,75
+
+The two consecutive commas indicate that there is no value for weight. This format is not recommended, because some software systems (not many, but enough to cause concern) will convert an empty value to zero.
+
+Another approach is to use a number code that is so extreme that it clearly outside the range of the data. This might be 999 (though there was a person who weighed of 1400 pounds) or -1. I recommend a value of -1 for weight because people are not helium balloons. The data would then look like
+
++ "Donald Trump","1600 Pennsylvania Avenue",-1,75
+
+A single dot is often used as a missing value code. 
+
++ "Donald Trump","1600 Pennsylvania Avenue",.,75
+
+Another symbol commonly used for missing values is an asterisk.
+
++ "Donald Trump","1600 Pennsylvania Avenue",*,75
+
+The letters NA are also commonly used.
+
++ "Donald Trump","1600 Pennsylvania Avenue",NA,75
+
+Whatever the choice of missing value codes, it should be documented in the data dictionary and the reason for a missing value should be described there or in the research manuscript itself.
+
+### Summary
+
+Text files use a basic set of characters known as 7-bit ASCII. These files can come in a fixed width format or a delimited format. The most common delimiters are spaces, commas, and the tab character. Missing value codes can be represented by an empty entry, by an extreme value like 999 or -1, by a symbol like a single dot, or by the letters NA.

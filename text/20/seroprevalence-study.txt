@@ -1,0 +1,11 @@
+
+@article {offord-2020,
+	tags = {covid-19},
+	title = {How (Not) to Do an Antibody Survey for SARS-CoV-2},
+	URL = {https://www.the-scientist.com/news-opinion/how-not-to-do-an-antibody-survey-for-sars-cov-2-67488},
+	urldate = {2020-05-05},
+	author = {Offord, Catherine},
+	journal = {The Scientist},
+	year = {2020-04-28},
+	annote = {Getting a representative sample to measure the seroprevalence of COVID-19 infections is tricky. One particular study, done recently in Santa Clara, California, had several issues with the sampling strategy that makes the results difficult to interpret.}
+}
