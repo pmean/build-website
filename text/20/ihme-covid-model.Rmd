@@ -2,7 +2,6 @@
 title: "Criticisms of the IHME COVID-19 model"
 author: "Steve Simon"
 source: "New"
-date: "2020-04-23"
 category: Blog post
 tags: Epidemiology
 output: html_document
@@ -13,6 +12,7 @@ knitr::opts_chunk$set(echo=FALSE)
 suppressMessages(suppressWarnings(library(tidyverse)))
 ```
 
+This blog post was created on 2020-04-23 and last modified on `r Sys.Date()`.
 
 I was asked to review the details of a prominent prediction model for the COVID-19 crisis. This model was developed by the Institute for Health Metrics and Evaluation and is commonly referred to as the IHME model. Here is a bit of background on the IHME model and some resources that discuss this model.
 
@@ -38,7 +38,7 @@ There is strong empirical evidence from comparing death rates before and after t
 
 Whether the underestimate of COVID-19 cases is worse than the underestimate of COVID-19 deaths is an open question. A key point to remember is that a consistent underestimate (everybody misses 25% of the cases or deaths) is not a serious problem for modeling, but a variable underestimate (some regions miss 10% and other miss 50%) is a big problem.
 
-The alternative SEIR models generally use information from the daily infection rate to estimate parameters and buil predictions, though they can incorporate information from the 
+The alternative SEIR models generally use information from the daily infection rate to estimate parameters and build predictions, though they can incorporate information from the daily death rates as well. I have not seen any SEIR models that do this, but there are many SEIR models out there and I've only looked at a few.
 
 #### The IHME model is atheoretical 
 
@@ -226,7 +226,19 @@ Wang L, Wang G, Gao L, Li X, Yu S, Kim M, Wang Y, Gu Z. Spatiotemporal Dynamics,
 
 + This article fits an SEIR model to individual counties in the United States with a large number of county specific covariates. The model produces a [nice dashboard](https://covid19.stat.iastate.edu/).
 
+### Coda
 
+I am not an expert in infectious disease epidemiology. In fact, I'm not much of an expert in anything. I am more or less a generalist. I know a little bit about a lot of different things. I can't really compete with teams of researchers who have been modeling epidemics for many decades. If I can contribute something, though, it is in a critical appraisal of the various prediction models that are out there for COVID-19.
+
+A critical appraisal is not a criticism. It is not a listing of all the faults that a model might have. Rather, it is a description of the features that a model has. It explains the rationale for these features and contrasts them with alternatives. It presents both the weaknesses AND THE STRENGTHS of a model.
+
+Everyone, including myself, gets trapped into a hypercritical approach to critical appraisal. The easiest thing in the world is to build a laundry list of faults. This can lead to a sense of cynicism towards all research, as all research has flaws. A good critical appraisal compares not to a standard of perfection in modeling, but rather to other practical modeling approaches.
+
+I hope I have not been too hypercritical in my review of the IHME model. Unfortunately, if there is anything I've learned over the years, it is a sense of humility about my own limitations. The faults I point out about others are the faults I suffer from myself. I can't get rid of my faults, but I can try to mitigate them.
+
+One of the sites listed above linked to an excellent article that got me to think a bit on the philosophical side of research.
+
+Gog JR. How you can help with COVID-19 modelling. Nat Rev Phys, 2020-04-08. https://doi.org/10.1038/s42254-020-0175-7. Available in [html format](https://www.nature.com/articles/s42254-020-0175-7) and [pdf format](https://www.nature.com/articles/s42254-020-0175-7.pdf).
 
 ### Acknowledgments
 
