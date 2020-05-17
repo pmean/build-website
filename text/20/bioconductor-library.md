@@ -14,7 +14,7 @@ Back in the previous decade, I spent a lot of time working on the various statis
 
 The work on Bioconductor started in 2002 at the Fred Hutchinson Cancer Center, but it has expanded to an international effort. The [Wikipedia page](https://en.wikipedia.org/wiki/Bioconductor) on Bioconductor shows the progress of this project from 15 packages in 2002, to almost two thousand in 2020.
 
-THe Bioconductor packages should work on any computer system able to run R. There are applications that make it (relatively) easy to set up a working system of Bioconductor and R on the cloud. The programmers who have developed the Bioconductor packages have tried to maintain a high level of good quality documentation including [vignettes](http://www.bioconductor.org/help/package-vignettes/), short examples of how to use each package along with the code.
+The Bioconductor packages should work on any computer system able to run R. There are applications that make it (relatively) easy to set up a working system of Bioconductor and R on the cloud. The programmers who have developed the Bioconductor packages have tried to maintain a high level of good quality documentation including [vignettes](http://www.bioconductor.org/help/package-vignettes/), short examples of how to use each package along with the code.
 
 You download the Bioconductor packages through a special interface, [BiocManager](https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html). You download BiocManager just like any other R package, but then this interface controls the access to all other Bioconductor packages.
 
