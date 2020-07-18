@@ -200,6 +200,10 @@ Social Distancing: Data Models for a Model Response to an Outbreak. Available in
 
 + This is a question and answer session with Dr. Peter Song of the University of Michigan Department of Public Health. Dr. Song has fit some sophisticated SEIR models that can predict the impact of social distancing on the spread of COVID-19 cases. It is a nice summary, with enough details to let you know what the work involves without getting too technical.
 
+Robinson D. David's COVID Numbers. Available in [html format](https://davidscovidnumbers.wordpress.com/).
+
++ This blog post talks about COVID-19 in general terms with an emphasis on predictions for Minnesota and Stearns County. It tries to explain the meaning behind the many numbers that appear in various models.
+
 ### Articles in the peer-reviewed literature
 
 Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format](https://doi.org/10.7326/M20-1565).
@@ -208,7 +212,7 @@ Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Hea
 
 Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66–97. doi:10.1016/j.plrev.2016.07.005. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf).
 
-+ This article was written before the COVID=19 pandemic. It provides a nice review of how SEIR models work and applies them to a variety of pandemics.
++ This article was written before the COVID-19 pandemic. It provides a nice review of how SEIR models work and applies them to a variety of pandemics.
 
 Kissler SM, Tediganto C, Goldstein E, Grad YH, Lipsitch M. Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period. Science 2020-04-14. DOI: 10.1126/science.abb5793, Available in [html format](https://science.sciencemag.org/content/early/2020/04/24/science.abb5793).
 
@@ -222,9 +226,21 @@ Ayoub HH, Chemaitelly H, Mumtaz GR, Seedat S, Awad SF, Makhoul M, Abu-Raddad LJ.
 
 + This article fits an SEIR model to the Chinese COVID outbreak. It stratifies by age and outlines the differential equations in great clarity.
 
+
+### Alternative prediction models
+
+There are many prediction models out there and each one seems to take a different approach. I'm just getting started but I want to provide a brief summary of some of these models.
+
+#### Imperial College of London
+
+[US Predictions](https://mrc-ide.github.io/covid19usa/#/)
+
+#### Iowa State
+
 Wang L, Wang G, Gao L, Li X, Yu S, Kim M, Wang Y, Gu Z. Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United States. Preprint published in Arxiv, 2020-04-30. Available in [pdf format](https://arxiv.org/pdf/2004.14103.pdf).
 
 + This article fits an SEIR model to individual counties in the United States with a large number of county specific covariates. The model produces a [nice dashboard](https://covid19.stat.iastate.edu/).
+
 
 ### Coda
 
