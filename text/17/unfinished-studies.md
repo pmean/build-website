@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/unfinished-studies/"
 date: "2017-05-05"
 category: Recommendation
-tags: Accrual
+tags: Accrual problems in clinical trials
 output: html_document
 ---
 

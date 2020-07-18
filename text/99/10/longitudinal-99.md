@@ -7,9 +7,7 @@ category: Blog post
 tags: Mixed models
 output: html_document
 ---
-******[StATS]:**** Longitudinal data analysis (October 15, 1999)**
-
-\[This is a very early draft\]
+[This is a very early draft]
 
 Longitudinal data are data where each patient is observed on multiple
 occasions over time. Analysis of longitudinal data are challenging
@@ -150,31 +148,4 @@ approaches commonly used when the data represents binomial counts.
     Zeger SL, Liang K-L. Biometrics 1986: 42(1); 121-130.
 -   **An overview of methods for the analysis of longitudinal data.**
     Zeger SL, Liang KY. Stat Med 1992: 11(14-15); 1825-39.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed
-models](../category/MixedModels.html).
-<!---More--->
-models](../category/MixedModels.html).
-for pages similar to this one at [Category: Mixed
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-******[StATS]:**** Longitudinal data analysis (October 15, 1999)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed
-models](../category/MixedModels.html).
---->
 
