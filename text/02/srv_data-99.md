@@ -3,7 +3,7 @@ title: Data management for survival data
 author: Steve Simon
 source: http://www.pmean.com/02/srv_data-99.html
 date: 2002-08-27
-category: Blog post
+categories: Blog post
 tags: Survival analysis
 output: html_document
 ---

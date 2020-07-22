@@ -3,7 +3,7 @@ title: Post hoc power
 author: Steve Simon
 source: http://www.pmean.com/02/posthoc.html
 date: 2002-11-01
-category: Blog post
+categories: Blog post
 tags: Post hoc power
 output: html_document
 ---

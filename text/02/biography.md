@@ -3,7 +3,7 @@ title: Biography
 author: Steve Simon
 source: http://www.pmean.com/02/biography.html
 date: 2002-01-16
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

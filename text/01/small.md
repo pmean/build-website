@@ -3,7 +3,7 @@ title: Problems with a very small sample
 author: Steve Simon
 source: http://www.pmean.com/01/small.html
 date: 2001-10-11
-category: Blog post
+categories: Blog post
 tags: Small sample size issues
 output: html_document
 ---

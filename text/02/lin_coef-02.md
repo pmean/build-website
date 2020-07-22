@@ -3,7 +3,7 @@ title: Interpreting coefficients in a linear regression model
 author: Steve Simon
 source: http://www.pmean.com/02/lin_coef-02.html
 date: 2002-06-24
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---

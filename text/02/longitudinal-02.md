@@ -3,7 +3,7 @@ title: Longitudinal data
 author: Steve Simon
 source: http://www.pmean.com/02/longitudinal-02.html
 date: 2002-07-26
-category: Blog post
+categories: Blog post
 tags: SPSS software
 output: html_document
 ---

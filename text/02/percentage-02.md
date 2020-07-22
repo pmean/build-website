@@ -3,7 +3,7 @@ title: Displaying tables of percentages
 author: Steve Simon
 source: http://www.pmean.com/02/percentage-02.html
 date: 2002-11-06
-category: Blog post
+categories: Blog post
 tags: Descriptive statistics, Writing research papers
 output: html_document
 ---

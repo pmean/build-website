@@ -3,7 +3,7 @@ title: So you want to write a questionnaire
 author: Steve Simon
 source: http://www.pmean.com/02/questionnaire-02.html
 date: 2002-07-12
-category: Blog post
+categories: Blog post
 tags: Survey design
 output: html_document
 ---

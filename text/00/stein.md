@@ -3,7 +3,7 @@ title: Stein's paradox
 author: Steve Simon
 source: http://www.pmean.com/00/stein.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Statistical theory
 output: html_document
 ---

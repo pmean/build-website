@@ -3,7 +3,7 @@ title: Loading ODBC drivers from the Microsoft Data Access Pack
 author: Steve Simon
 source: http://www.pmean.com/01/mdac.html
 date: 2001-01-24
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

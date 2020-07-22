@@ -3,7 +3,7 @@ title: Unequal group sizes
 author: Steve Simon
 source: http://www.pmean.com/01/unequal.html
 date: 2001-11-02
-category: Blog post
+categories: Blog post
 tags: Analysis of variance
 output: html_document
 ---

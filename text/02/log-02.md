@@ -3,7 +3,7 @@ title: Log transformation
 author: Steve Simon
 source: http://www.pmean.com/02/log-02.html
 date: 2002-10-11
-category: Blog post
+categories: Blog post
 tags: Modeling issues
 output: html_document
 ---

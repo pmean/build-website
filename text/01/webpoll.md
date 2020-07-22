@@ -3,7 +3,7 @@ title: Web polls
 author: Steve Simon
 source: http://www.pmean.com/01/webpoll.html
 date: 2001-07-30
-category: Blog post
+categories: Blog post
 tags: Research designs
 output: html_document
 ---

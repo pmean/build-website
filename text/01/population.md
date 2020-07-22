@@ -3,7 +3,7 @@ title: The minimal impact of population size on power and precision
 author: Steve Simon
 source: http://www.pmean.com/01/population.html
 date: 2001-01-19
-category: Blog post
+categories: Blog post
 tags: Confidence intervals, Sample size justification
 output: html_document
 ---

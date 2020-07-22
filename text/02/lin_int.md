@@ -3,7 +3,7 @@ title: Exploring interactions in a linear regression model
 author: Steve Simon
 source: http://www.pmean.com/02/lin_int.html
 date: 2002-08-01
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---

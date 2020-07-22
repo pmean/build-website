@@ -3,7 +3,7 @@ title: Checking the assumption of normality
 author: Steve Simon
 source: http://www.pmean.com/02/normal.html
 date: 2002-09-11
-category: Blog post
+categories: Blog post
 tags: Modeling issues
 output: html_document
 ---
