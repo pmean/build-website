@@ -3,7 +3,7 @@ title: "Recommendation: Hi, I'm Mike Bostock."
 author: "Steve Simon"
 source: "http://blog.pmean.com/mike-bostock/"
 date: "2018-01-23"
-category: Recommendation
+categories: Recommendation
 tags: Graphical display, Important statisticians
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: TinyTeX: A lightweight, cross-platform, portable, and ea
 author: "Steve Simon"
 source: "http://blog.pmean.com/lightweight-latex/"
 date: "2018-04-05"
-category: Recommendation
+categories: Recommendation
 tags: R software, Reproducible research, Writing research papers
 output: html_document
 ---

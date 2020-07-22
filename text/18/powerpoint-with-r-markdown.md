@@ -3,7 +3,7 @@ title: "Recommendation: Make PowerPoint Presentations with R Markdown"
 author: "Steve Simon"
 source: "http://blog.pmean.com/powerpoint-with-r-markdown/"
 date: "2018-12-05"
-category: Recommendation
+categories: Recommendation
 tags: Presenting research data, R software
 output: html_document
 ---

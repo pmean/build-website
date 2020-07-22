@@ -3,7 +3,7 @@ title: "PMean: My research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-research/"
 date: "2018-04-02"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---
@@ -126,7 +126,7 @@ help me.
 \#\# Mining the electronic health record
 
 In January 2016, I was offered the opportunity to work on a research
-grant funded by the Patient Centered Outcomes Research Institute.  The
+grant funded by the Patient Centered Outcomes Research Institute.<U+FFFD> The
 grant supported the Greater Plains Collaborative, a consortium of ten
 academic health care centers in the midwest. It was run out of
 Enterprise Analytics, located at Kansas University Medical Center. I

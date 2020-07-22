@@ -3,7 +3,7 @@ title: "PMean: And the least important variable is..."
 author: "Steve Simon"
 source: "http://blog.pmean.com/least-important-variable/"
 date: "2018-03-28"
-category: Blog post
+categories: Blog post
 tags: Human side of statistics, Linear regression
 output: html_document
 ---

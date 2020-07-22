@@ -3,7 +3,7 @@ title: "PMean: My teaching approach"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-teaching-approach/"
 date: "2018-04-02"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

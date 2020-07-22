@@ -3,7 +3,7 @@ title: "PMean: Mining the electronic health record, why and how"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mining-ehr/"
 date: "2018-03-22"
-category: Blog post
+categories: Blog post
 tags: Informatics
 output: html_document
 ---

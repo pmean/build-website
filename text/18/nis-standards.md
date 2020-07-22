@@ -3,7 +3,7 @@ title: "Recommendation: Adherence to Methodological Standards in Research Using 
 author: "Steve Simon"
 source: "http://blog.pmean.com/nis-standards/"
 date: "2018-02-20"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

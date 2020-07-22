@@ -3,7 +3,7 @@ title: "PMean: My teaching interests, one page limit"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-teaching-interests-one-page/"
 date: "2018-04-02"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

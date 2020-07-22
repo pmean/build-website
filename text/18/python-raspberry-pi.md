@@ -3,7 +3,7 @@ title: "PMean: Python, Raspberry Pi, and cluster computing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/python-raspberry-pi/"
 date: "2018-09-04"
-category: Blog post
+categories: Blog post
 tags: Cluster computing
 output: html_document
 ---

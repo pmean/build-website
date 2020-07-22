@@ -3,7 +3,7 @@ title: "Recommendation: NOOBS -- Raspberry Pi documentation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/noobs-installation/"
 date: "2018-08-15"
-category: Recommendation
+categories: Recommendation
 tags: Raspberry Pi
 output: html_document
 ---

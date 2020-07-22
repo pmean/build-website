@@ -3,7 +3,7 @@ title: "PMean: Peer grading in Introduction to R, SPSS, SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/peer-grading/"
 date: "2018-03-22"
-category: Blog post
+categories: Blog post
 tags: R software, SAS software, SPSS software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Analysis of Pretest-Postest Designs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pretest-posttest/"
 date: "2018-05-22"
-category: Recommendation
+categories: Recommendation
 tags: Longitudinal data
 output: html_document
 ---

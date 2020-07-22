@@ -3,7 +3,7 @@ title: "Recommendation: MPI Tutorial Introduction"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mpi-tutorial/"
 date: "2018-08-31"
-category: Recommendation
+categories: Recommendation
 tags: Cluster computing
 output: html_document
 ---

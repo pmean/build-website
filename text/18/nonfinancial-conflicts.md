@@ -3,7 +3,7 @@ title: "Recommendation: Congratulations on the Promotion. But Did Science Get a 
 author: "Steve Simon"
 source: "http://blog.pmean.com/nonfinancial-conflicts/"
 date: "2018-12-31"
-category: Recommendation
+categories: Recommendation
 tags: Ethics in research
 output: html_document
 ---
