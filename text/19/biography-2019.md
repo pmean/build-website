@@ -3,7 +3,7 @@ title: "Another short biography"
 author: "Steve Simon"
 source: "http://blog.pmean.com/biography-2019/"
 date: "2019-02-12"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

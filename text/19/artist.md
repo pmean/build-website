@@ -3,7 +3,7 @@ title: "Recommendation: Assessment Resource Tools for Improving Statistical Thin
 author: "Steve Simon"
 source: "http://blog.pmean.com/artist/"
 date: "2019-05-02"
-category: Recommendation
+categories: Recommendation
 tags: Teaching resources
 output: html_document
 ---

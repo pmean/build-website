@@ -3,7 +3,7 @@ title: "Recommendation: Data science curriculum roadmap"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-science-curriculum/"
 date: "2019-04-25"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Teaching resources
 output: html_document
 ---

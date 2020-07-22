@@ -3,7 +3,7 @@ title: "Recommendation: How a Feel-Good AI Story Went Wrong in Flint"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ai-story/"
 date: "2019-01-09"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Ethics in research, Human side of statistics
 output: html_document
 ---

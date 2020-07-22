@@ -3,7 +3,7 @@ title: "Recommendation: When Big Data goes to school"
 author: "Steve Simon"
 source: "http://blog.pmean.com/big-data-goes-to-school/"
 date: "2019-04-16"
-category: Recommendation
+categories: Recommendation
 tags: Big data
 output: html_document
 ---

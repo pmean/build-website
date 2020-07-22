@@ -3,7 +3,7 @@ title: "Recommendation: Bibliographies and citations (in R Markdown)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bibliographies-in-r-markdown/"
 date: "2019-04-18"
-category: Recommendation
+categories: Recommendation
 tags: Presenting research data, R software, Writing research papers
 output: html_document
 ---
