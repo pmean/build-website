@@ -3,7 +3,7 @@ title: Binary outcome sample size calculations
 author: Steve Simon
 source: http://www.pmean.com/00/binary.html
 date: 2000-08-23
-category: Blog post
+categories: Blog post
 tags: Sample size justification
 output: html_document
 ---

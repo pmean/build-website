@@ -3,7 +3,7 @@ title: Acknowledgements
 author: Steve Simon
 source: http://www.pmean.com/00/ack.html
 date: 2000-01-28
-category: Blog post
+categories: Blog post
 tags: Website details
 output: html_document
 ---

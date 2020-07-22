@@ -3,7 +3,7 @@ title: Spreadsheet or Database?
 author: Steve Simon
 source: http://www.pmean.com/00/sheet.html
 date: 2000-01-28
-category: Blog post
+categories: Blog post
 tags: Data management
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Best fitting curve
 author: Steve Simon
 source: http://www.pmean.com/00/bestfit.html
 date: 2000-01-26
-category: Blog post
+categories: Blog post
 tags: Modeling issues
 output: html_document
 ---

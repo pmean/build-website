@@ -3,7 +3,7 @@ title: Sigma in the control chart.
 author: Steve Simon
 source: http://www.pmean.com/00/sigma.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Control charts
 output: html_document
 ---

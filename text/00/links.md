@@ -3,7 +3,7 @@ title: Links from other sites
 author: Steve Simon
 source: http://www.pmean.com/00/links.html
 date: 2000-02-02
-category: Blog post
+categories: Blog post
 tags: Website details, Website details
 output: html_document
 ---

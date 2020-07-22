@@ -3,7 +3,7 @@ title: Jargon in Statistics
 author: Steve Simon
 source: http://www.pmean.com/00/jargon.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Critical appraisal
 output: html_document
 ---

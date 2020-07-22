@@ -3,7 +3,7 @@ title: Intention to treat
 author: Steve Simon
 source: http://www.pmean.com/00/intention.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Measuring benefit and risk
 output: html_document
 ---

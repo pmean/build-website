@@ -3,7 +3,7 @@ title: Protocol changes.
 author: Steve Simon
 source: http://www.pmean.com/00/protocol.html
 date: 2000-12-22
-category: Blog post
+categories: Blog post
 tags: Early stopping
 output: html_document
 ---

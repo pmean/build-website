@@ -3,7 +3,7 @@ title: Important disclaimer.
 author: Steve Simon
 source: http://www.pmean.com/00/disclaimer.html
 date: 2000-01-28
-category: Blog post
+categories: Blog post
 tags: Website details
 output: html_document
 ---

@@ -3,7 +3,7 @@ title:
 author: Steve Simon
 source: http://www.pmean.com/00/causation.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Corroborating evidence
 output: html_document
 ---

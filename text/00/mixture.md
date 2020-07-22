@@ -3,7 +3,7 @@ title: Mixture models
 author: Steve Simon
 source: http://www.pmean.com/00/mixture.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Unusual data
 output: html_document
 ---

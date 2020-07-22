@@ -3,7 +3,7 @@ title: Exporting SPSS graphs and tables.
 author: Steve Simon
 source: http://www.pmean.com/00/export.html
 date: 2000-01-28
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: What is collinearity?
 author: Steve Simon
 source: http://www.pmean.com/00/collinearity.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Modeling issues
 output: html_document
 ---

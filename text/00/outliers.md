@@ -3,7 +3,7 @@ title: Outliers
 author: Steve Simon
 source: http://www.pmean.com/00/outliers.html
 date: 2000-01-28
-category: Blog post
+categories: Blog post
 tags: Unusual data
 output: html_document
 ---

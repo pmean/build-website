@@ -3,7 +3,7 @@ title: Flaws in a research paper
 author: Steve Simon
 source: http://www.pmean.com/00/flaws-00.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Critical appraisal
 output: html_document
 ---

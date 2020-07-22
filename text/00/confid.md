@@ -3,7 +3,7 @@ title: Sample size for a confidence interval
 author: Steve Simon
 source: http://www.pmean.com/00/confid.html
 date: 2000-01-26
-category: Blog post
+categories: Blog post
 tags: Confidence intervals, Sample size justification
 output: html_document
 ---

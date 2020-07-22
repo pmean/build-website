@@ -3,7 +3,7 @@ title: Regression to the mean
 author: Steve Simon
 source: http://www.pmean.com/00/regression.html
 date: 2000-01-27
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---

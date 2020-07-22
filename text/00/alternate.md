@@ -3,7 +3,7 @@ title: Alternating treatments
 author: Steve Simon
 source: http://www.pmean.com/00/alternate.html
 date: 2000-08-22
-category: Blog post
+categories: Blog post
 tags: Randomization in research
 output: html_document
 ---
