@@ -3,7 +3,7 @@ title: "Recommendation: plotrix: Various plotting functions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/plotrix/"
 date: "2014-02-26"
-category: Recommendation
+categories: Recommendation
 tags: Graphical display, R software
 output: html_document
 ---

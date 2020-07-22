@@ -3,7 +3,7 @@ title: "Recommendation: The COMPare Project"
 author: "Steve Simon"
 source: "http://blog.pmean.com/compare-project/"
 date: "2015-12-07"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal, Publication bias
 output: html_document
 ---

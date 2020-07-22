@@ -3,7 +3,7 @@ title: "Recommendation: Sample size of 12 per group rule of thumb for a pilot st
 author: "Steve Simon"
 source: "http://blog.pmean.com/pilot-study-sample-size/"
 date: "2014-08-13"
-category: Blog post
+categories: Blog post
 tags: Pilot studies, Sample size
 output: html_document
 ---

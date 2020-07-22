@@ -3,7 +3,7 @@ title: "PMean: A book review of my first book"
 author: "Steve Simon"
 source: "http://blog.pmean.com/book-review/"
 date: "2015-12-02"
-category: Blog post
+categories: Blog post
 tags: Critical appraisal, Professional details
 output: html_document
 ---

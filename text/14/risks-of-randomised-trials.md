@@ -3,7 +3,7 @@ title: "Recommendation: The random risks of randomised trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/risks-of-randomised-trials/"
 date: "2014-04-28"
-category: Recommendation
+categories: Recommendation
 tags: Randomization
 output: html_document
 ---

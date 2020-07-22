@@ -3,7 +3,7 @@ title: "Recommendation: In search of justification for the unpredictability para
 author: "Steve Simon"
 source: "http://blog.pmean.com/unpredictability-paradox/"
 date: "2014-12-11"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal, Randomization, Systematic overviews
 output: html_document
 ---

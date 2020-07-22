@@ -3,7 +3,7 @@ title: "Recommendation: The answer is 17 years, what is the question. Understand
 author: "Steve Simon"
 source: "http://blog.pmean.com/17-years/"
 date: "2015-01-15"
-category: Blog post
+categories: Blog post
 tags: 
 output: html_document
 ---

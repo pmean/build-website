@@ -3,7 +3,7 @@ title: "Recommendation: Not all scientific studies are created equal"
 author: "Steve Simon"
 source: "http://blog.pmean.com/not-created-equal/"
 date: "2014-05-01"
-category: Blog post
+categories: Blog post
 tags: Observational studies
 output: html_document
 ---

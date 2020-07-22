@@ -3,7 +3,7 @@ title: "PMean: I am now a number in the ORCID database"
 author: "Steve Simon"
 source: "http://blog.pmean.com/orcid-database/"
 date: "2015-05-27"
-category: Administrative
+categories: Administrative
 tags: Professional details
 output: html_document
 ---

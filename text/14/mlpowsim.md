@@ -3,7 +3,7 @@ title: "Recommendation: MLPowSim software"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mlpowsim/"
 date: "2014-06-16"
-category: Recommendation
+categories: Recommendation
 tags: Longitudinal data, Sample size
 output: html_document
 ---

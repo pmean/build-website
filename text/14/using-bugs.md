@@ -3,7 +3,7 @@ title: "PMean: Using BUGS within the R programming environment"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-bugs/"
 date: "2014-05-03"
-category: Blog post
+categories: Blog post
 tags: Bayesian statistics, R software
 output: html_document
 ---

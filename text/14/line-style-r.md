@@ -3,7 +3,7 @@ title: "Recommendation: A guide to the line style arguments for R graphics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/line-style-r/"
 date: "2014-02-25"
-category: Recommendation
+categories: Recommendation
 tags: Graphical display, R software
 output: html_document
 ---

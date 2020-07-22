@@ -3,7 +3,7 @@ title: "PMean: What is the probability of a probability of one"
 author: "Steve Simon"
 source: "http://blog.pmean.com/probability-of-a-probability-of-one/"
 date: "2014-07-24"
-category: Blog post
+categories: Blog post
 tags: Bayesian statistics
 output: html_document
 ---

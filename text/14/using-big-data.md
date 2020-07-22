@@ -3,7 +3,7 @@ title: "Recommendation: Special issue--Using Big Data to Transform Care"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-big-data/"
 date: "2014-07-14"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Ethics in research
 output: html_document
 ---

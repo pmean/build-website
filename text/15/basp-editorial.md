@@ -3,7 +3,7 @@ title: "Recommendation: Editorial (Basic and Applied Social Psychology)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/basp-editorial/"
 date: "2015-02-24"
-category: Recommendation
+categories: Recommendation
 tags: Bayesian statistics, Hypothesis testing
 output: html_document
 ---

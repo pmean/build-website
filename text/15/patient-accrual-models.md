@@ -3,7 +3,7 @@ title: "PMean: My research contributions to patient accrual models"
 author: "Steve Simon"
 source: "http://blog.pmean.com/patient-accrual-models/"
 date: "2015-06-03"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---
