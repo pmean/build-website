@@ -3,7 +3,7 @@ title: "Recommendation: Safeguarding Patients in Clinical Trials with High Morta
 author: "Steve Simon"
 source: "http://blog.pmean.com/safeguarding/"
 date: "2015-12-02"
-category: Blog post
+categories: Blog post
 tags: Blinding in research, Early stopping, Ethics in research
 output: html_document
 ---

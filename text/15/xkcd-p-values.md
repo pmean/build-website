@@ -3,7 +3,7 @@ title: "Recommendation: P-Values"
 author: "Steve Simon"
 source: "http://blog.pmean.com/xkcd-p-values/"
 date: "2015-02-03"
-category: Recommendation
+categories: Recommendation
 tags: Hypothesis testing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "PMean: Changing the font size in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/font-size-in-r/"
 date: "2016-08-08"
-category: Blog post
+categories: Blog post
 tags: Presenting research data, R software
 output: html_document
 ---

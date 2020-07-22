@@ -3,7 +3,7 @@ title: "Recommendation: Interpretation of Changes in Health-related Quality of L
 author: "Steve Simon"
 source: "http://blog.pmean.com/effect-size/"
 date: "2016-04-18"
-category: Blog post
+categories: Blog post
 tags: Clinical importance
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "PMean: Equations using MathType"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-mathtype/"
 date: "2015-04-12"
-category: Blog post
+categories: Blog post
 tags: Presenting research data
 output: html_document
 ---

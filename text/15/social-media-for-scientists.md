@@ -3,7 +3,7 @@ title: "Recommendation: An Introduction to Social Media for Scientists"
 author: "Steve Simon"
 source: "http://blog.pmean.com/social-media-for-scientists/"
 date: "2015-04-30"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

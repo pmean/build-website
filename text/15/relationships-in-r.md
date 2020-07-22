@@ -3,7 +3,7 @@ title: "PMean: Examining relationships in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/relationships-in-r/"
 date: "2015-04-03"
-category: Blog post
+categories: Blog post
 tags: R software
 output: html_document
 ---

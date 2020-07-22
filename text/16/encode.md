@@ -3,7 +3,7 @@ title: "Recommendation: ENCODE: Encyclopedia of DNA Elements"
 author: "Steve Simon"
 source: "http://blog.pmean.com/encode/"
 date: "2016-01-19"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

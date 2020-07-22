@@ -3,7 +3,7 @@ title: "Recommendation: Points to consider on switching between superiority and 
 author: "Steve Simon"
 source: "http://blog.pmean.com/switching-hypotheses/"
 date: "2015-12-20"
-category: Recommendation
+categories: Recommendation
 tags: Hypothesis testing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: The FAIR Guiding Principles for scientific data manageme
 author: "Steve Simon"
 source: "http://blog.pmean.com/fair-principles/"
 date: "2016-08-25"
-category: Blog post
+categories: Blog post
 tags: Data sharing
 output: html_document
 ---

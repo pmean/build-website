@@ -3,7 +3,7 @@ title: "Recommendation: Reporting and methodological quality of sample size calc
 author: "Steve Simon"
 source: "http://blog.pmean.com/cluster-randomized/"
 date: "2016-03-30"
-category: Blog post
+categories: Blog post
 tags: Multilevel models, Sample size
 output: html_document
 ---

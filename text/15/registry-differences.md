@@ -3,7 +3,7 @@ title: "Recommendation: Differences between information in registries and articl
 author: "Steve Simon"
 source: "http://blog.pmean.com/registry-differences/"
 date: "2015-12-07"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal, Publication bias
 output: html_document
 ---

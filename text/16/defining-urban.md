@@ -3,7 +3,7 @@ title: "Recommendation: Defining Urban and Rural Areas in U.S. Epidemiologic Stu
 author: "Steve Simon"
 source: "http://blog.pmean.com/defining-urban/"
 date: "2016-12-02"
-category: Recommendation
+categories: Recommendation
 tags: Geocoding
 output: html_document
 ---

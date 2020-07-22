@@ -3,7 +3,7 @@ title: "Recommendation: The Empirical Evidence of Bias in Trials Measuring Treat
 author: "Steve Simon"
 source: "http://blog.pmean.com/evidence-of-bias/"
 date: "2016-01-25"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal, Randomization
 output: html_document
 ---

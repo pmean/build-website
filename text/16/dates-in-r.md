@@ -3,7 +3,7 @@ title: "Recommendation: Handling date-times in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dates-in-r/"
 date: "2016-06-15"
-category: Recommendation
+categories: Recommendation
 tags: Data management, R software
 output: html_document
 ---

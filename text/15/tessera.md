@@ -3,7 +3,7 @@ title: "Recommendation: Tessera. Open source environment for deep analysis of la
 author: "Steve Simon"
 source: "http://blog.pmean.com/tessera/"
 date: "2015-01-12"
-category: Recommendation
+categories: Recommendation
 tags: Big data, R software
 output: html_document
 ---
