@@ -3,7 +3,7 @@ title: "PMean: Fighting SASism"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fighting-sasism/"
 date: "2018-10-30"
-category: Blog post
+categories: Blog post
 tags: R software, SAS software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Making it easier to discover data sets"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dataset-search/"
 date: "2018-09-14"
-category: Recommendation
+categories: Recommendation
 tags: Data sharing, Datasets
 output: html_document
 ---

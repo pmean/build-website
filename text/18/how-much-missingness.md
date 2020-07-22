@@ -3,7 +3,7 @@ title: "PMean: How much missingness can you tolerate?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/how-much-missingness/"
 date: "2018-07-07"
-category: Blog post
+categories: Blog post
 tags: Missing data
 output: html_document
 ---

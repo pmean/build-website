@@ -3,7 +3,7 @@ title: "Recommendation: The five safes, designing data access for research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/five-safes/"
 date: "2018-09-07"
-category: Recommendation
+categories: Recommendation
 tags: Data sharing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: To combat physician burnout and improve care, fix the el
 author: "Steve Simon"
 source: "http://blog.pmean.com/fix-the-ehr/"
 date: "2018-04-01"
-category: Blog post
+categories: Blog post
 tags: Informatics
 output: html_document
 ---

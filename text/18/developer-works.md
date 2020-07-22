@@ -3,7 +3,7 @@ title: "Recommendation: Welcome to developerWorks"
 author: "Steve Simon"
 source: "http://blog.pmean.com/developer-works/"
 date: "2018-03-23"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Teaching resources
 output: html_document
 ---

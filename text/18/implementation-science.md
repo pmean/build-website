@@ -3,7 +3,7 @@ title: "Recommendation: An introduction to implementation science for the non-sp
 author: "Steve Simon"
 source: "http://blog.pmean.com/implementation-science/"
 date: "2018-02-06"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal
 output: html_document
 ---

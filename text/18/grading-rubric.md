@@ -3,7 +3,7 @@ title: "PMean: Grading rubric for computer assignments"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grading-rubric/"
 date: "2018-07-20"
-category: Blog post
+categories: Blog post
 tags: Statistical computing, Teaching resources
 output: html_document
 ---

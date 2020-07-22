@@ -3,7 +3,7 @@ title: "Recommendation: lavaan tutorial"
 author: "Steve Simon"
 source: "http://blog.pmean.com/lavaan/"
 date: "2018-09-07"
-category: Recommendation
+categories: Recommendation
 tags: Structural Equation Modeling
 output: html_document
 ---

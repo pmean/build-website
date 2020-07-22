@@ -3,7 +3,7 @@ title: "Recommendation: Is vaccine effectiveness (VE) different from vaccine eff
 author: "Steve Simon"
 source: "http://blog.pmean.com/effectiveness-vs-efficacy/"
 date: "2018-03-01"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal
 output: html_document
 ---

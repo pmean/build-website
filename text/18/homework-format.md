@@ -3,7 +3,7 @@ title: "PMean: Recommended format for homework assignments"
 author: "Steve Simon"
 source: "http://blog.pmean.com/homework-format/"
 date: "2018-03-28"
-category: Blog post
+categories: Blog post
 tags: R software, SAS software, SPSS software
 output: html_document
 ---
@@ -61,7 +61,7 @@ not warrant a comment in your report, put it in the appendix or leave it
 out entirely.
 
 If you do not know how to interpret a graph or table that you generated,
-please post a question  in the trouble shooting section of the
+please post a question<U+FFFD> in the trouble shooting section of the
 discussion board.
 
 Your appendix will consist of the data dictionary for the raw data that

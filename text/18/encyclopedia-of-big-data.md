@@ -3,7 +3,7 @@ title: "PMean: Two articles published in the Encyclopedia of Big Data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/encyclopedia-of-big-data/"
 date: "2018-03-25"
-category: Blog post
+categories: Blog post
 tags: Big data, Professional details
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Interval regression, R data analysis examples"
 author: "Steve Simon"
 source: "http://blog.pmean.com/interval-regression/"
 date: "2018-05-21"
-category: Recommendation
+categories: Recommendation
 tags: R software, Survival analysis
 output: html_document
 ---

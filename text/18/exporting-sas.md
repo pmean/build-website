@@ -3,7 +3,7 @@ title: "PMean: Exporting a graph in SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/exporting-sas/"
 date: "2018-03-23"
-category: Blog post
+categories: Blog post
 tags: SAS software
 output: html_document
 ---
@@ -45,7 +45,7 @@ what the log window looks like when you run this on my system.
 
     NOTE: Writing HTML Body file: sashtml.htm
     NOTE: 8894 bytes written to C:\Users\simons\AppData\Local\Temp\SAS Temporary
-          Files\_TD9268_KC-MED-917PFJ1_\gchart.gif.
+    <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> Files\_TD9268_KC-MED-917PFJ1_\gchart.gif.
 
 It appears that SAS is creating an html file, which is okay by me, but
 it is also creating a graphics file, gchart.gif, buried deep in the
