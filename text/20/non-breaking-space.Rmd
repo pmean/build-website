@@ -3,7 +3,7 @@ title: "Blog post: Identifying and manipulating non-breaking spaces"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-07"
-category: Blog post
+categories: Blog post
 tags: Data management
 output: html_document
 ---
@@ -25,7 +25,7 @@ There were now a couple of pink dots at the bottom of the file. Ignore the three
 So what are these pink dots, exactly? I used cut and paste to insert this strange character into a character string in R
 
 ```{r insert}
-tst1 <- "Â "
+tst1 <- " "
 tst1
 ```
 

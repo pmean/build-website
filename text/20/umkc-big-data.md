@@ -3,7 +3,7 @@ title: "Blog post: UMKC big data and data science initiatives"
 author: "Steve Simon"
 source: "New"
 date: "2020-03-10"
-category: Blog post
+categories: Blog post
 tags: Big data
 output: html_document
 ---

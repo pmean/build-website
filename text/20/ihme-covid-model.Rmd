@@ -2,7 +2,7 @@
 title: "Criticisms of the IHME COVID-19 model"
 author: "Steve Simon"
 source: "New"
-category: Blog post
+categories: Blog post
 tags: Epidemiology
 output: html_document
 ---
@@ -184,7 +184,7 @@ Druke N, Silver N. How One Modeler Is Trying To Forecast The Toll Of COVID-19. F
 
 + This is an interview with Dr. Chris Murray, the chair of the Institute and person in charge of the IHME model. He defends many of the controversial choices of the IHME model.
 
-Begley S. Influential Covid-19 model uses flawed methods and shouldnâ€™t guide U.S. policies, critics say. Stat 2020-04-17. Available in [html format](https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/).
+Begley S. Influential Covid-19 model uses flawed methods and shouldn’t guide U.S. policies, critics say. Stat 2020-04-17. Available in [html format](https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/).
 
 + The Stat website provides critical reviews of a broad range of medical research approaches. The article critical of the IHME model misses the mark in one way. It suggests that the numbers will be misused, but that is an issue for any predictive model. But it points out how models based on Epidemiologic theory differ from the IHME model and notes concerns about the frequent tweaking that the IHME model has undergone.
 
@@ -210,7 +210,7 @@ Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Hea
 
 + This is a criticism of the IHME model by prominent researchers published in a prominent journal. The authors seem to throw everything they can at the model and not everything sticks. They note that the IHME model fails to account for the rebound that might occur if social distancing efforts are relaxed too soon, but the IHME model clearly mentions this in a disclaimer. It criticizes the symmetry of the IHME model, which was an issue with earlier versions, but which is not a problem with the current model. It criticizes the unreliability of the data, but this unreliability is an issue with any model. It mentions that the model fails to capture all sources of uncertainty, but this is also an issue with the competing models. Where the criticism hits the mark is in how much this model relies on extrapolations from places that have data well past the peak of maximum cases/deaths (such as Italy, China, and South Korea) to places that have not yet reached their peak or are just barely past their peak.
 
-Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66â€“97. doi:10.1016/j.plrev.2016.07.005. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf).
+Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66–97. doi:10.1016/j.plrev.2016.07.005. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf).
 
 + This article was written before the COVID-19 pandemic. It provides a nice review of how SEIR models work and applies them to a variety of pandemics.
 

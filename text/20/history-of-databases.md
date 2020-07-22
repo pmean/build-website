@@ -1,8 +1,8 @@
 ---
 title: "Aleatory and epistemic uncertainties can completely derail medical research results"
 source: "New"
-urldate: "2020-07-12"
-category: Recommendation
+date: "2020-07-12"
+categories: Recommendation
 tags: Critical appraisal
 output: html_document
 ---

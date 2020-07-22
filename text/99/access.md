@@ -3,7 +3,7 @@ title: Importing database files into SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/access.html
 date: 1999-08-18
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

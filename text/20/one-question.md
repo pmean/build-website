@@ -3,7 +3,7 @@ title: "Quote: No aphorism is more frequently repeated..."
 author: "Steve Simon"
 source: new
 date: "2020-02-21"
-category: Quotes
+categories: Quotes
 tags: Research design
 output: html_document
 ---

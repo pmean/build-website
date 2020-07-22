@@ -1,8 +1,8 @@
 ---
 title: "AMS Style Guide"
 source: "New"
-urldate: "2020-07-15"
-category: Recommendation
+date: "2020-07-15"
+categories: Recommendation
 tags: Writing research papers
 output: html_document
 ---

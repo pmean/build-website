@@ -3,7 +3,7 @@ title: "Blog post: Printing R Markdown output to png files"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-29"
-category: Blog post
+categories: Blog post
 tags: R programming
 output: html_document
 ---

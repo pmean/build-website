@@ -2,8 +2,8 @@
 title: "An incomplete list of data repositories"
 author: "Steve Simon"
 source: "New"
-date: "Created: 2020-04-27"
-category: Blog post
+date:2020-04-27"
+categories: Blog post
 tags: Teaching resources
 output: html_document
 ---
@@ -14,7 +14,7 @@ This is a partial list of data repositories where you can store the datasets ass
 
 ### General overview articles
 
-Antes AL, Walsh HA, Strait M, Hudson-Vitale CR, DuBois JM (2018). Examining Data Repository Guidelines for Qualitative Data Sharing. Journal of Empirical Research on Human Research Ethics, 13(1), 61–73. Available in [html format](https://doi.org/10.1177/1556264617744121) or [pdf format](https://journals.sagepub.com/doi/pdf/10.1177/1556264617744121).
+Antes AL, Walsh HA, Strait M, Hudson-Vitale CR, DuBois JM (2018). Examining Data Repository Guidelines for Qualitative Data Sharing. Journal of Empirical Research on Human Research Ethics, 13(1), 61<U+FFFD>73. Available in [html format](https://doi.org/10.1177/1556264617744121) or [pdf format](https://journals.sagepub.com/doi/pdf/10.1177/1556264617744121).
 
 Barsh GS, Cooper GM, Copenhaver GP, Gibson G, McCarthy MI, Tang H, et al. (2015) PLOS Genetics Data Sharing Policy: In Pursuit of Functional Utility. PLoS Genet 11(12): e1005716. doi:10.1371/journal.pgen.1005716. Available in [html format](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005716) or [pdf format](https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1005716&type=printable).
 
@@ -40,9 +40,9 @@ DataHub. Available in [html format](http://datahub.io)
 
 Dataverse. Crosas, M. For details, please see "The Dataverse Network: An Open-Source Application for Sharing, Discovering and Preserving Data". D-Lib Mag 17 (1), p2 (2011).
 
-Dryad. Available in [html format](https://datadryad.org/stash/). For details, please see White, H. C., Carrier, S., Thompson, A., Greenberg, J. & Scherle, R. The Dryad data repository: A Singapore framework metadata architecture in a DSpace environment. Univ. Göttingen, p157 (2008).
+Dryad. Available in [html format](https://datadryad.org/stash/). For details, please see White, H. C., Carrier, S., Thompson, A., Greenberg, J. & Scherle, R. The Dryad data repository: A Singapore framework metadata architecture in a DSpace environment. Univ. G<U+FFFD>ttingen, p157 (2008).
 
-EUDat. For details, please see Lecarpentier, D. et al. EUDAT: A New Cross-Disciplinary Data Infrastructure for Science. Int. J. Digit. Curation 8, 279–287 (2013).
+EUDat. For details, please see Lecarpentier, D. et al. EUDAT: A New Cross-Disciplinary Data Infrastructure for Science. Int. J. Digit. Curation 8, 279<U+FFFD>287 (2013).
 
 Figshare. Available in [html format](https://figshare.com/)
 

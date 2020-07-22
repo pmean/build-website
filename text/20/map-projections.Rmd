@@ -3,7 +3,7 @@ title: "Blog post: Different map projections"
 author: "Steve Simon"
 source: "New"
 date: "2020-03-15"
-category: Blog post
+categories: Blog post
 tags: Graphical display
 output: html_document
 ---

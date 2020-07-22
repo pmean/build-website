@@ -2,8 +2,8 @@
 title: "The Bioconductor library of packages for R"
 author: "Steve Simon"
 source: "New"
-date: "Created: 2020-05-12"
-category: Blog post
+date:2020-05-12"
+categories: Blog post
 tags: R software
 output: html_document
 ---

@@ -2,13 +2,13 @@
 title: "Quote: In medicine, there is automatic..."
 author: "Steve Simon"
 source: "New"
-date: "Created: 2020-05-23"
-category: Quote
+date:2020-05-23"
+categories: Quote
 tags: Observational studies
 output: html_document
 ---
 
-In [medicine] there is automatic downgrading of observational studies below randomized (no matter how fine the former or irrelevant the latter – med RCTs are notorious for patient selectivity). 
+In [medicine] there is automatic downgrading of observational studies below randomized (no matter how fine the former or irrelevant the latter <U+FFFD> med RCTs are notorious for patient selectivity). 
 
 <!---More--->
 

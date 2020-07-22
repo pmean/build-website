@@ -2,8 +2,8 @@
 title: "Quote: The tendency of some modelers..."
 author: "Steve Simon"
 source: "New"
-date: "Created: 2020-05-05"
-category: Quote
+date:2020-05-05"
+categories: Quote
 tags: Critical appraisal
 output: html_document
 ---

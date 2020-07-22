@@ -3,7 +3,7 @@ title: "Blog post: Celebrating the failures of medical research using a graphic 
 author: "Steve Simon"
 source: "New"
 date: "2020-01-23"
-category: Blog post
+categories: Blog post
 tags: Ethics in research
 output: html_document
 ---

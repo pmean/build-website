@@ -3,7 +3,7 @@ title: "Blog post: Artist wanted, here are the details"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-26"
-category: Blog post
+categories: Blog post
 tags: Ethics in research
 output: html_document
 ---
