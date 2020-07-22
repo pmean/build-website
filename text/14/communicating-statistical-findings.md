@@ -3,7 +3,7 @@ title: "Recommendation: Communicating Statistical Findings to Consulting Clients
 author: "Steve Simon"
 source: "http://blog.pmean.com/communicating-statistical-findings/"
 date: "2014-08-19"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

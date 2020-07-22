@@ -3,7 +3,7 @@ title: "Recommendation: Revised standards for statistical evidence"
 author: "Steve Simon"
 source: "http://blog.pmean.com/revised-standards/"
 date: "2013-11-28"
-category: Recommendation
+categories: Recommendation
 tags: Bayesian statistics
 output: html_document
 ---

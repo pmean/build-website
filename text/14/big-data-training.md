@@ -3,7 +3,7 @@ title: "Recommendation: More on Big Data Training for the Scientific Workforce"
 author: "Steve Simon"
 source: "http://blog.pmean.com/big-data-training/"
 date: "2014-04-08"
-category: Recommendation
+categories: Recommendation
 tags: Big data
 output: html_document
 ---

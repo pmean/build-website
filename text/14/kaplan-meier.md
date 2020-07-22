@@ -3,7 +3,7 @@ title: "PMean: Kaplan-Meier curves in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/kaplan-meier/"
 date: "2014-10-31"
-category: Blog post
+categories: Blog post
 tags: R software, Survival analysis
 output: html_document
 ---

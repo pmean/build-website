@@ -3,7 +3,7 @@ title: "PMean: Cox regression in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cox-regression/"
 date: "2014-11-01"
-category: Blog post
+categories: Blog post
 tags: R software, Survival analysis
 output: html_document
 ---

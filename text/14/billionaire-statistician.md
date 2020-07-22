@@ -3,7 +3,7 @@ title: "Recommendation: The Next Billionaire: A Statistician Who Changed Medicin
 author: "Steve Simon"
 source: "http://blog.pmean.com/billionaire-statistician/"
 date: "2014-01-24"
-category: Recommendation
+categories: Recommendation
 tags: Important statisticians
 output: html_document
 ---

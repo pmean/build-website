@@ -3,7 +3,7 @@ title: "Recommendation: Will 2015 be the Beginning of the End for SAS and SPSS?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/end-of-sas/"
 date: "2014-01-29"
-category: Blog post
+categories: Blog post
 tags: 
 output: html_document
 ---

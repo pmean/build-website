@@ -3,7 +3,7 @@ title: "Recommendation: Requiring fuel gauges. A pitch for justifying impact eva
 author: "Steve Simon"
 source: "http://blog.pmean.com/justifying-assumptions/"
 date: "2014-12-10"
-category: Recommendation
+categories: Recommendation
 tags: Grant writing, Sample size
 output: html_document
 ---

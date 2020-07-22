@@ -3,7 +3,7 @@ title: "Recommendation: Meet John Gawalt, Director of the National Center for Sc
 author: "Steve Simon"
 source: "http://blog.pmean.com/john-gawalt/"
 date: "2014-05-05"
-category: Recommendation
+categories: Recommendation
 tags: Important statisticians
 output: html_document
 ---

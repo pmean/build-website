@@ -3,7 +3,7 @@ title: "Recommendation: Troubleshooting Public Data Archiving: Suggestions to In
 author: "Steve Simon"
 source: "http://blog.pmean.com/archiving/"
 date: "2014-02-03"
-category: Recommendation
+categories: Recommendation
 tags: Ethics in research
 output: html_document
 ---

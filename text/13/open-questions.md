@@ -3,7 +3,7 @@ title: "Recommendation: Any other comments? Open questions on questionnaires. A 
 author: "Steve Simon"
 source: "http://blog.pmean.com/open-questions/"
 date: "2013-12-05"
-category: Recommendation
+categories: Recommendation
 tags: Survey design
 output: html_document
 ---

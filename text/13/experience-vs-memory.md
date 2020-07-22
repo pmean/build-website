@@ -3,7 +3,7 @@ title: "Recommendation: The riddle of experience vs. memory"
 author: "Steve Simon"
 source: "http://blog.pmean.com/experience-vs-memory/"
 date: "2013-12-02"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

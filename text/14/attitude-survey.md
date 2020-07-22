@@ -3,7 +3,7 @@ title: "Recommendation: Statistics Attitude Survey scale"
 author: "Steve Simon"
 source: "http://blog.pmean.com/attitude-survey/"
 date: "2014-01-15"
-category: Recommendation
+categories: Recommendation
 tags: Survey design
 output: html_document
 ---

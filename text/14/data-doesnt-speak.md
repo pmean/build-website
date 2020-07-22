@@ -3,7 +3,7 @@ title: "Recommendation: Data doesn't speak for itself"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-doesnt-speak/"
 date: "2014-05-01"
-category: Recommendation
+categories: Recommendation
 tags: Graphical display, Presenting research data
 output: html_document
 ---
