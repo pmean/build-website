@@ -3,7 +3,7 @@ title: "Recommendation: Dryad Digital Repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dryad/"
 date: "2017-08-16"
-category: Recommendation
+categories: Recommendation
 tags: Data sharing, Datasets
 output: html_document
 ---

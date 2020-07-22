@@ -3,7 +3,7 @@ title: "Recommendation: Get credit for your data -- BMC Research Notes launches 
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-notes/"
 date: "2017-10-17"
-category: Recommendation
+categories: Recommendation
 tags: Datasets, Writing research papers
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: No more rainbows"
 author: "Steve Simon"
 source: "http://blog.pmean.com/rainbows/"
 date: "2017-12-15"
-category: Blog post
+categories: Blog post
 tags: Graphical display
 output: html_document
 ---

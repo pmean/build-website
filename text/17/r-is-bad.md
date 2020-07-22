@@ -3,7 +3,7 @@ title: "Recommendation: Why R is Bad for You"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-is-bad/"
 date: "2017-05-18"
-category: Recommendation
+categories: Recommendation
 tags: R software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: The new Enigma Public"
 author: "Steve Simon"
 source: "http://blog.pmean.com/enigma-public/"
 date: "2017-06-26"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: R and SQL Server 2016"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-and-sql-server/"
 date: "2017-02-02"
-category: Blog post
+categories: Blog post
 tags: R software, SQL
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Teaching precursors to data science in introductory and 
 author: "Steve Simon"
 source: "http://blog.pmean.com/precursors-to-data-science/"
 date: "2017-11-15"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Teaching resources
 output: html_document
 ---

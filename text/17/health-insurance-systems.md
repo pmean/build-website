@@ -3,7 +3,7 @@ title: "Recommendation: Randomized Controlled Trials in Health Insurance Systems
 author: "Steve Simon"
 source: "http://blog.pmean.com/health-insurance-systems/"
 date: "2017-09-20"
-category: Recommendation
+categories: Recommendation
 tags: Randomization, Research design
 output: html_document
 ---

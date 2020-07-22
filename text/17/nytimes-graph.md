@@ -3,7 +3,7 @@ title: "Recommendation: Announcing a new monthly feature: What's going on in thi
 author: "Steve Simon"
 source: "http://blog.pmean.com/nytimes-graph/"
 date: "2017-09-14"
-category: Recommendation
+categories: Recommendation
 tags: Graphical display, Teaching resources
 output: html_document
 ---
