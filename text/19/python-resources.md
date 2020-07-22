@@ -3,7 +3,7 @@ title: "PMean: Several Python resources"
 author: "Steve Simon"
 source: "http://blog.pmean.com/python-resources/"
 date: "2019-05-02"
-category: Blog post
+categories: Blog post
 tags: Python
 output: html_document
 ---

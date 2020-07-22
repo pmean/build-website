@@ -3,7 +3,7 @@ title: "Recommendation: 8 Waste Types of DOWNTIME"
 author: "Steve Simon"
 source: "http://blog.pmean.com/waste-acronym/"
 date: "2019-02-14"
-category: Recommendation
+categories: Recommendation
 tags: Quality improvement
 output: html_document
 ---

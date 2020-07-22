@@ -3,7 +3,7 @@ title: "Quote: All scientific work is incomplete..."
 author: "Steve Simon"
 source: "http://blog.pmean.com/scientific-work/"
 date: "2019-02-26"
-category: Quote
+categories: Quote
 tags: Critical appraisal, Observational studies
 output: html_document
 ---

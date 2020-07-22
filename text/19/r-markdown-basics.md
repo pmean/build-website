@@ -3,7 +3,7 @@ title: "Recommendation: R Markdown Basics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-markdown-basics/"
 date: "2019-03-08"
-category: Recommendation
+categories: Recommendation
 tags: R software, Writing research papers
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: A systematic review shows no performance benefit of mach
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning-vs-logistic-regression/"
 date: "2019-03-15"
-category: Research Grants
+categories: Research Grants
 tags: Big data, Logistic regression, Systematic overviews
 output: html_document
 ---

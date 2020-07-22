@@ -3,7 +3,7 @@ title: "Recommendation: Sins against science"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sins-against-science/"
 date: "2019-01-25"
-category: Recommendation
+categories: Recommendation
 tags: Fraud in research
 output: html_document
 ---

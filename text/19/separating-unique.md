@@ -3,7 +3,7 @@ title: "Recommendation: Separating Unique and Duplicated Observations Using PROC
 author: "Steve Simon"
 source: "http://blog.pmean.com/separating-unique/"
 date: "2019-04-18"
-category: Recommendation
+categories: Recommendation
 tags: Data management, SAS software
 output: html_document
 ---

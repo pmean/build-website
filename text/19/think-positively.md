@@ -3,7 +3,7 @@ title: "PMean: Think positively, what has research done for us"
 author: "Steve Simon"
 source: "http://blog.pmean.com/think-positively/"
 date: "2019-01-23"
-category: Blog post
+categories: Blog post
 tags: Research design, Teaching resources
 output: html_document
 ---

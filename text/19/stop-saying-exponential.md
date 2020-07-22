@@ -3,7 +3,7 @@ title: "Recommendation: Stop Saying 'Exponential.' Sincerely, a Math Nerd."
 author: "Steve Simon"
 source: "http://blog.pmean.com/stop-saying-exponential/"
 date: "2019-03-06"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal
 output: html_document
 ---

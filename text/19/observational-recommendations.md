@@ -3,7 +3,7 @@ title: "Recommendation: Observational studies often make clinical practice recom
 author: "Steve Simon"
 source: "http://blog.pmean.com/observational-recommendations/"
 date: "2019-01-25"
-category: Recommendation
+categories: Recommendation
 tags: Observational studies
 output: html_document
 ---

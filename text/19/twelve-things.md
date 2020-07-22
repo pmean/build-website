@@ -3,7 +3,7 @@ title: "Recommendation: 12 things I wish I'd known before starting as a Data Sci
 author: "Steve Simon"
 source: "http://blog.pmean.com/twelve-things/"
 date: "2019-03-06"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

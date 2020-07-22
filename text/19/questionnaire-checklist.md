@@ -3,7 +3,7 @@ title: "Recommendation: Checklist to Evaluate the Quality of Questions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/questionnaire-checklist/"
 date: "2019-02-14"
-category: Recommendation
+categories: Recommendation
 tags: Survey design
 output: html_document
 ---

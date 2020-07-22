@@ -3,7 +3,7 @@ title: "Recommendation: Case for omitting tied observations in the two-sample t-
 author: "Steve Simon"
 source: "http://blog.pmean.com/tied-ranks/"
 date: "2019-04-04"
-category: Recommendation
+categories: Recommendation
 tags: Nonparametric tests
 output: html_document
 ---
