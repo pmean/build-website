@@ -3,7 +3,7 @@ title: "PMean: Make a loud mistake"
 author: "Steve Simon"
 source: "http://blog.pmean.com/loud-mistake/"
 date: "2019-02-15"
-category: Blog post
+categories: Blog post
 tags: Grant writing, Research design, Writing research papers
 output: html_document
 ---

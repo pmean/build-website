@@ -3,7 +3,7 @@ title: "Pmean: My teaching and research statement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/teaching-and-research/"
 date: "2018-04-02"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

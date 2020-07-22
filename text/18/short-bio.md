@@ -3,7 +3,7 @@ title: "PMean: They want a short biography from me"
 author: "Steve Simon"
 source: "http://blog.pmean.com/short-bio/"
 date: "2018-03-23"
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

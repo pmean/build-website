@@ -3,7 +3,7 @@ title: "Recommendation: A sampling of outstanding women in analytics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/women-in-analytics/"
 date: "2018-02-28"
-category: Recommendation
+categories: Recommendation
 tags: Important statisticians
 output: html_document
 ---

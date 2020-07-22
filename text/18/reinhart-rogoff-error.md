@@ -3,7 +3,7 @@ title: "Recommendation: The Reinhart-Rogoff error -- or how not to Excel at econ
 author: "Steve Simon"
 source: "http://blog.pmean.com/reinhart-rogoff-error/"
 date: "2018-04-03"
-category: Recommendation
+categories: Recommendation
 tags: Data management
 output: html_document
 ---

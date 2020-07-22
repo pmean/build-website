@@ -3,7 +3,7 @@ title: "Recommendation: Standardized Mortality Ratio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/smr-example/"
 date: "2018-12-11"
-category: Recommendation
+categories: Recommendation
 tags: Epidemiology
 output: html_document
 ---

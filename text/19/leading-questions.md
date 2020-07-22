@@ -3,7 +3,7 @@ title: "Recommendation: Leading Questions -- Yes Prime Minister"
 author: "Steve Simon"
 source: "http://blog.pmean.com/leading-questions/"
 date: "2019-01-14"
-category: Recommendation
+categories: Recommendation
 tags: Survey design
 output: html_document
 ---

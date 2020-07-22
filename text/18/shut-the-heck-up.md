@@ -3,7 +3,7 @@ title: "PMean: Getting R to shut the heck up"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shut-the-heck-up/"
 date: "2018-11-11"
-category: Blog post
+categories: Blog post
 tags: R software
 output: html_document
 ---
@@ -60,8 +60,8 @@ or both of the following options.
 
 There is a nice summary on [Stack
 Overflow](https://stackoverflow.com/questions/13090838/r-markdown-avoiding-package-loading-messages).
-You should also review Yihui Xie's [summary of all the chunk
-options](https://yihui.name/knitr/options/) and his [response to a user
+You should also review Yihui Xie's<U+FFFD>[summary of all the chunk
+options](https://yihui.name/knitr/options/) and his<U+FFFD>[response to a user
 question](https://github.com/rstudio/blogdown/issues/90). And use the
 help facility within R to understand how various R functions work.
 

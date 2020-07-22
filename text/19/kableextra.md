@@ -3,7 +3,7 @@ title: "Recommendation: Create Awesome HTML Table with knitr::kable and kableExt
 author: "Steve Simon"
 source: "http://blog.pmean.com/kableextra/"
 date: "2019-02-09"
-category: Recommendation
+categories: Recommendation
 tags: R software
 output: html_document
 ---

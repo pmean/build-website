@@ -3,7 +3,7 @@ title: "Recommendation: LaTeX/Mathematics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/latex-mathematics/"
 date: "2019-03-08"
-category: Recommendation
+categories: Recommendation
 tags: Presenting research data, R software, Writing research papers
 output: html_document
 ---

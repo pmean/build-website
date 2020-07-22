@@ -3,7 +3,7 @@ title: "PMean: Writing the introduction section of a research thesis or disserta
 author: "Steve Simon"
 source: "http://blog.pmean.com/introduction-section/"
 date: "2019-03-29"
-category: Blog post
+categories: Blog post
 tags: Writing research papers
 output: html_document
 ---

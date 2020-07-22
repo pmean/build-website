@@ -3,7 +3,7 @@ title: "PMean: A simple structure for documentation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/structure-for-documentation/"
 date: "2018-07-24"
-category: Blog post
+categories: Blog post
 tags: Statistical computing, Teaching resources
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "PMean: Super Pi, a group to teach cluster computing using the Raspberry 
 author: "Steve Simon"
 source: "http://blog.pmean.com/super-pi/"
 date: "2018-09-10"
-category: Blog post
+categories: Blog post
 tags: Cluster computing
 output: html_document
 ---

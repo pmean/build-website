@@ -3,7 +3,7 @@ title: "Recommendation: GloVe word vector embeddings"
 author: "Steve Simon"
 source: "http://blog.pmean.com/word-vector-embeddings/"
 date: "2018-08-01"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Text mining
 output: html_document
 ---

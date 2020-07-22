@@ -3,7 +3,7 @@ title: "PMean: What day is it in my R program?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/what-day-is-it/"
 date: "2018-08-27"
-category: Blog post
+categories: Blog post
 tags: R software
 output: html_document
 ---

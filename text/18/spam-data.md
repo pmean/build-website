@@ -3,7 +3,7 @@ title: "Recommendation: SMS Spam Collection Data Set"
 author: "Steve Simon"
 source: "http://blog.pmean.com/spam-data/"
 date: "2018-04-19"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

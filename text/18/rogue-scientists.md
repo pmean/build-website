@@ -3,7 +3,7 @@ title: "Recommendation: We Have Ways To Stop Rogue Scientists. They Don't Always
 author: "Steve Simon"
 source: "http://blog.pmean.com/rogue-scientists/"
 date: "2018-12-29"
-category: Recommendation
+categories: Recommendation
 tags: Ethics in research
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Textbook Examples Applied Survival Analysis"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ucla-software/"
 date: "2018-03-24"
-category: Recommendation
+categories: Recommendation
 tags: R software, SAS software, SPSS software, Stata software, Survival analysis, Teaching resources
 output: html_document
 ---

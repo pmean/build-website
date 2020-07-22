@@ -3,7 +3,7 @@ title: "Recommendation: How to write a literature review"
 author: "Steve Simon"
 source: "http://blog.pmean.com/literature-review/"
 date: "2019-01-16"
-category: Recommendation
+categories: Recommendation
 tags: Writing research papers
 output: html_document
 ---

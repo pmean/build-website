@@ -3,7 +3,7 @@ title: "Recommendation: Reproducible research with Stata"
 author: "Steve Simon"
 source: "http://blog.pmean.com/reproducible-stata/"
 date: "2018-05-13"
-category: Recommendation
+categories: Recommendation
 tags: Reproducible research, Stata software
 output: html_document
 ---
@@ -16,6 +16,6 @@ research.
 
 Karthik Balachandrian. Reproducible research with Stata. Medico Musings
 blog. May 12, 2018. Available
-at <https://medicalruminations.wordpress.com/2018/05/12/reproducible-research-with-stata/>.
+at<U+FFFD><https://medicalruminations.wordpress.com/2018/05/12/reproducible-research-with-stata/>.
 
 

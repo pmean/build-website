@@ -3,7 +3,7 @@ title: "Recommendation: Use of Electronic Health Record Data in Clinical Investi
 author: "Steve Simon"
 source: "http://blog.pmean.com/use-of-ehr-data/"
 date: "2018-07-23"
-category: Recommendation
+categories: Recommendation
 tags: Data management
 output: html_document
 ---
