@@ -3,7 +3,7 @@ title: Finding more information about a gene
 author: Steve Simon
 source: http://www.pmean.com/05/FindingGenes.html
 date: 2005-09-06
-category: Blog post
+categories: Blog post
 tags: 
 output: html_document
 ---

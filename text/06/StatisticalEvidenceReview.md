@@ -3,7 +3,7 @@ title: Book reviews for Statistical Evidence
 author: Steve Simon
 source: http://www.pmean.com/06/StatisticalEvidenceReview.html
 date: 2006-10-05
-category: Blog post
+categories: Blog post
 tags: Statistical evidence
 output: html_document
 ---

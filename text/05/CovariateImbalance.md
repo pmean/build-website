@@ -3,7 +3,7 @@ title: Adjusting for covariate imbalance
 author: Steve Simon
 source: http://www.pmean.com/05/CovariateImbalance.html
 date: 2005-05-20
-category: Blog post
+categories: Blog post
 tags: Covariate adjustment
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Watch out for ambiguous data
 author: Steve Simon
 source: http://www.pmean.com/07/AmbiguousData.html
 date: 2007-02-14
-category: Blog post
+categories: Blog post
 tags: Data management
 output: html_document
 ---

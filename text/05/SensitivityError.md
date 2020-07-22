@@ -3,7 +3,7 @@ title: An error slips through the peer review process
 author: Steve Simon
 source: http://www.pmean.com/05/SensitivityError.html
 date: 2005-09-19
-category: Blog post
+categories: Blog post
 tags: Diagnostic testing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Rules for rounding numbers
 author: Steve Simon
 source: http://www.pmean.com/06/RoundingNumbers.html
 date: 2006-09-07
-category: Blog post
+categories: Blog post
 tags: Descriptive statistics
 output: html_document
 ---

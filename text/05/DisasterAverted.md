@@ -3,7 +3,7 @@ title: A disaster averted
 author: Steve Simon
 source: http://www.pmean.com/05/DisasterAverted.html
 date: 2005-05-16
-category: Blog post
+categories: Blog post
 tags: Data management
 output: html_document
 ---

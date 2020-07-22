@@ -3,7 +3,7 @@ title: Interactions in logistic regression
 author: Steve Simon
 source: http://www.pmean.com/04/interactions.html
 date: 2004-04-08
-category: Blog post
+categories: Blog post
 tags: Logistic regression
 output: html_document
 ---

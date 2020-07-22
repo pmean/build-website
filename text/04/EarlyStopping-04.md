@@ -3,7 +3,7 @@ title: Early stopping
 author: Steve Simon
 source: http://www.pmean.com/04/EarlyStopping-04.html
 date: 2004-07-01
-category: Blog post
+categories: Blog post
 tags: Early stopping
 output: html_document
 ---

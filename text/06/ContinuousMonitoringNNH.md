@@ -3,7 +3,7 @@ title: Continuous monitoring of the number needed to harm
 author: Steve Simon
 source: http://www.pmean.com/06/ContinuousMonitoringNNH.html
 date: 2006-09-02
-category: Blog post
+categories: Blog post
 tags: Adverse events in clinical trials
 output: html_document
 ---

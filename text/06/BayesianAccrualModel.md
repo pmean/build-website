@@ -3,7 +3,7 @@ title: A simple Bayesian model for accrual
 author: Steve Simon
 source: http://www.pmean.com/06/BayesianAccrualModel.html
 date: 2006-11-17
-category: Blog post
+categories: Blog post
 tags: Accrual problems in clinical trials, Bayesian statistics
 output: html_document
 ---

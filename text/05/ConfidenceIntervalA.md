@@ -3,7 +3,7 @@ title: Confidence intervals around a safety level
 author: Steve Simon
 source: http://www.pmean.com/05/ConfidenceIntervalA.html
 date: 2005-05-11
-category: Blog post
+categories: Blog post
 tags: Confidence intervals
 output: html_document
 ---

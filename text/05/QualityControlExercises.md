@@ -3,7 +3,7 @@ title: Quality control exercises
 author: Steve Simon
 source: http://www.pmean.com/05/QualityControlExercises.html
 date: 2005-09-01
-category: Blog post
+categories: Blog post
 tags: Quality control
 output: html_document
 ---

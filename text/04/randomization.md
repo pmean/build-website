@@ -3,7 +3,7 @@ title: Randomization test
 author: Steve Simon
 source: http://www.pmean.com/04/randomization.html
 date: 2004-07-14
-category: Blog post
+categories: Blog post
 tags: Unusual data
 output: html_document
 ---

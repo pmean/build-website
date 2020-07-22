@@ -3,7 +3,7 @@ title: Searching the Internet
 author: Steve Simon
 source: http://www.pmean.com/05/SearchInternet.html
 date: 2005-04-26
-category: Blog post
+categories: Blog post
 tags: Information searching
 output: html_document
 ---

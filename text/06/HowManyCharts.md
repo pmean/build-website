@@ -3,7 +3,7 @@ title: How many charts should I pull?
 author: Steve Simon
 source: http://www.pmean.com/06/HowManyCharts.html
 date: 2006-03-30
-category: Blog post
+categories: Blog post
 tags: Sample size justification
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Continuous variables in a logistic regression model
 author: Steve Simon
 source: http://www.pmean.com/05/ContinuousVariables.html
 date: 2005-02-09
-category: Blog post
+categories: Blog post
 tags: Logistic regression
 output: html_document
 ---

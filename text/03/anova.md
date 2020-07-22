@@ -3,7 +3,7 @@ title: Steps in a typical ANOVA model
 author: Steve Simon
 source: http://www.pmean.com/03/anova.html
 date: 2003-06-20
-category: Blog post
+categories: Blog post
 tags: Analysis of variance
 output: html_document
 ---

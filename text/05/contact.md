@@ -3,7 +3,7 @@ title: Contacting and working with me
 author: Steve Simon
 source: http://www.pmean.com/05/contact.html
 date: 2005-08-15
-category: Blog post
+categories: Blog post
 tags: Professional details
 output: html_document
 ---

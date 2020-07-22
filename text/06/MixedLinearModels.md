@@ -3,7 +3,7 @@ title: A simple example of a mixed linear regression model
 author: Steve Simon
 source: http://www.pmean.com/06/MixedLinearModels.html
 date: 2006-10-18
-category: Blog post
+categories: Blog post
 tags: Mixed linear model
 output: html_document
 ---

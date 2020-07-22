@@ -3,7 +3,7 @@ title: Digitizing a graph
 author: Steve Simon
 source: http://www.pmean.com/05/DigitizingGraph.html
 date: 2005-03-15
-category: Blog post
+categories: Blog post
 tags: Data management
 output: html_document
 ---

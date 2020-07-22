@@ -3,7 +3,7 @@ title: What does a 60% drop mean?
 author: Steve Simon
 source: http://www.pmean.com/05/SixtyPercentDrop.html
 date: 2005-06-20
-category: Blog post
+categories: Blog post
 tags: Measuring benefit and risk
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Selecting randomly from a list
 author: Steve Simon
 source: http://www.pmean.com/06/RandomSelection.html
 date: 2006-07-18
-category: Blog post
+categories: Blog post
 tags: Randomized trials
 output: html_document
 ---

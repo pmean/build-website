@@ -3,7 +3,7 @@ title: Goodness of fit test
 author: Steve Simon
 source: http://www.pmean.com/04/goodness.html
 date: 2004-05-18
-category: Blog post
+categories: Blog post
 tags: Measuring agreement
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Steps for establishing a quality control program
 author: Steve Simon
 source: http://www.pmean.com/04/quality-99.html
 date: 2004-03-12
-category: Blog post
+categories: Blog post
 tags: Quality control
 output: html_document
 ---

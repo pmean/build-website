@@ -3,7 +3,7 @@ title: A surprising application of the harmonic mean
 author: Steve Simon
 source: http://www.pmean.com/05/HarmonicMean.html
 date: 2005-02-01
-category: Blog post
+categories: Blog post
 tags: Statistical theory
 output: html_document
 ---

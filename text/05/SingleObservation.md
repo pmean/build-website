@@ -3,7 +3,7 @@ title: When one group only has a single observation
 author: Steve Simon
 source: http://www.pmean.com/05/SingleObservation.html
 date: 2005-05-24
-category: Blog post
+categories: Blog post
 tags: Small sample size issues
 output: html_document
 ---

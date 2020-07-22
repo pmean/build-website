@@ -3,7 +3,7 @@ title: Randomization tests for paired data
 author: Steve Simon
 source: http://www.pmean.com/06/PairedRandomization.html
 date: 2006-01-24
-category: Blog post
+categories: Blog post
 tags: Unusual data
 output: html_document
 ---

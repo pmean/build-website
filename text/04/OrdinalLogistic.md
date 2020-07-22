@@ -3,7 +3,7 @@ title: Sample size for an ordinal outcome
 author: Steve Simon
 source: http://www.pmean.com/04/OrdinalLogistic.html
 date: 2004-09-22
-category: Blog post
+categories: Blog post
 tags: Sample size justification
 output: html_document
 ---

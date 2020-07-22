@@ -3,7 +3,7 @@ title: Hedge's G
 author: Steve Simon
 source: http://www.pmean.com/05/HedgesG.html
 date: 2005-05-13
-category: Blog post
+categories: Blog post
 tags: Systematic overviews
 output: html_document
 ---

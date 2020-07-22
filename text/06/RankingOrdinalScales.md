@@ -3,7 +3,7 @@ title: The problem with ranking ordinal scales
 author: Steve Simon
 source: http://www.pmean.com/06/RankingOrdinalScales.html
 date: 2006-06-29
-category: Blog post
+categories: Blog post
 tags: Unusual data
 output: html_document
 ---

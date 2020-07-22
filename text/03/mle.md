@@ -3,7 +3,7 @@ title: Maximum likelihood estimation
 author: Steve Simon
 source: http://www.pmean.com/03/mle.html
 date: 2003-05-06
-category: Blog post
+categories: Blog post
 tags: Statistical theory
 output: html_document
 ---

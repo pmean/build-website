@@ -3,7 +3,7 @@ title: Information content of a continuous distribution
 author: Steve Simon
 source: http://www.pmean.com/05/InformationTheoryB.html
 date: 2005-08-01
-category: Blog post
+categories: Blog post
 tags: Information searching
 output: html_document
 ---

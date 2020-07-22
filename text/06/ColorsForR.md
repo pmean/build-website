@@ -3,7 +3,7 @@ title: Colors for R graphs
 author: Steve Simon
 source: http://www.pmean.com/06/ColorsForR.html
 date: 2006-06-28
-category: Blog post
+categories: Blog post
 tags: Graphical display, R software
 output: html_document
 ---

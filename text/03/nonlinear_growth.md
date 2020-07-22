@@ -3,7 +3,7 @@ title: A simple model of nonlinear growth
 author: Steve Simon
 source: http://www.pmean.com/03/nonlinear_growth.html
 date: 2003-10-01
-category: Blog post
+categories: Blog post
 tags: Nonlinear regression
 output: html_document
 ---

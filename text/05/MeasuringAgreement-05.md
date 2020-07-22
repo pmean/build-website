@@ -3,7 +3,7 @@ title: Measuring agreement
 author: Steve Simon
 source: http://www.pmean.com/05/MeasuringAgreement-05.html
 date: 2005-04-19
-category: Blog post
+categories: Blog post
 tags: Measuring agreement
 output: html_document
 ---

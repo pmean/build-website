@@ -3,7 +3,7 @@ title: Pitch the pie! Ban the bar!
 author: Steve Simon
 source: http://www.pmean.com/03/barpie.html
 date: 2003-06-05
-category: Blog post
+categories: Blog post
 tags: Descriptive statistics, Graphical display
 output: html_document
 ---
