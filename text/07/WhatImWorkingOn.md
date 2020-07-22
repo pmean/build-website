@@ -3,7 +3,7 @@ title: What I'm working on right now
 author: Steve Simon
 source: http://www.pmean.com/07/WhatImWorkingOn.html
 date: 2007-03-18
-category: Blog post
+categories: Blog post
 tags: Analysis of means, Bayesian statistics, Quality control
 output: html_document
 ---

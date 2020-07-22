@@ -3,7 +3,7 @@ title: Tracking central line infections over time
 author: Steve Simon
 source: http://www.pmean.com/07/CentralLineInfections.html
 date: 2007-11-18
-category: Blog post
+categories: Blog post
 tags: Adverse events in clinical trials
 output: html_document
 ---

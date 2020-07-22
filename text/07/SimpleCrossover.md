@@ -3,7 +3,7 @@ title: Analyzing data from a simple crossover design
 author: Steve Simon
 source: http://www.pmean.com/07/SimpleCrossover.html
 date: 2007-08-22
-category: Blog post
+categories: Blog post
 tags: Analysis of variance
 output: html_document
 ---

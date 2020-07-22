@@ -3,7 +3,7 @@ title: Testing for an increasing trend in a proportion
 author: Steve Simon
 source: http://www.pmean.com/07/IncreasingTrend.html
 date: 2007-11-26
-category: Blog post
+categories: Blog post
 tags: Logistic regression
 output: html_document
 ---

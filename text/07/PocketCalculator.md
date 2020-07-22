@@ -3,7 +3,7 @@ title: Using a pocket calculator to compute a standard deviation
 author: Steve Simon
 source: http://www.pmean.com/07/PocketCalculator.html
 date: 2007-03-01
-category: Blog post
+categories: Blog post
 tags: Descriptive statistics, Descriptive statistics
 output: html_document
 ---

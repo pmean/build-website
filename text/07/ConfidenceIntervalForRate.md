@@ -3,7 +3,7 @@ title: Confidence interval for a rate
 author: Steve Simon
 source: http://www.pmean.com/07/ConfidenceIntervalForRate.html
 date: 2007-10-10
-category: Blog post
+categories: Blog post
 tags: Confidence intervals, Poisson regression
 output: html_document
 ---

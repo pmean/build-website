@@ -3,7 +3,7 @@ title: Case study of accrual in a clinical trial, part 2
 author: Steve Simon
 source: http://www.pmean.com/07/CaseStudyOfAccrualPart2.html
 date: 2007-10-09
-category: Blog post
+categories: Blog post
 tags: Accrual problems in clinical trials
 output: html_document
 ---

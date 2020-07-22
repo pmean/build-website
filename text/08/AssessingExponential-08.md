@@ -3,7 +3,7 @@ title: Assessing the assumption of an exponential distribution
 author: Steve Simon
 source: http://www.pmean.com/08/AssessingExponential-08.html
 date: 2008-02-25
-category: Blog post
+categories: Blog post
 tags: Modeling issues
 output: html_document
 ---

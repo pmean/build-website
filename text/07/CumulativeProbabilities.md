@@ -3,7 +3,7 @@ title: Formulas for cumulative Poisson and binomial probabilities
 author: Steve Simon
 source: http://www.pmean.com/07/CumulativeProbabilities.html
 date: 2007-02-19
-category: Blog post
+categories: Blog post
 tags: Poisson regression, Probability concepts
 output: html_document
 ---

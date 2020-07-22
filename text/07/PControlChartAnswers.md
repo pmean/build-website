@@ -3,7 +3,7 @@ title: P control chart, answers to on your own exercises
 author: Steve Simon
 source: http://www.pmean.com/07/PControlChartAnswers.html
 date: 2007-03-07
-category: Blog post
+categories: Blog post
 tags: Control charts
 output: html_document
 ---

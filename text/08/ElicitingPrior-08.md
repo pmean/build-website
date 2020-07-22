@@ -3,7 +3,7 @@ title: Eliciting a prior distribution for rejection/refusal rates
 author: Steve Simon
 source: http://www.pmean.com/08/ElicitingPrior-08.html
 date: 2008-06-07
-category: Blog post
+categories: Blog post
 tags: Accrual problems in clinical trials
 output: html_document
 ---

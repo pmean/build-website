@@ -3,7 +3,7 @@ title: Patterns to look for in a histogram
 author: Steve Simon
 source: http://www.pmean.com/07/HistogramPatterns.html
 date: 2007-09-21
-category: Blog post
+categories: Blog post
 tags: Graphical display
 output: html_document
 ---

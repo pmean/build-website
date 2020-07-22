@@ -3,7 +3,7 @@ title: XBAR-S control chart, answers to on your own exercise
 author: Steve Simon
 source: http://www.pmean.com/07/XbarSControlChartAnswers.html
 date: 2007-03-02
-category: Blog post
+categories: Blog post
 tags: Control charts
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Analysis of Means calculations
 author: Steve Simon
 source: http://www.pmean.com/07/AnomCalculations.html
 date: 2007-03-02
-category: Blog post
+categories: Blog post
 tags: Analysis of means
 output: html_document
 ---

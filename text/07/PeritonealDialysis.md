@@ -3,7 +3,7 @@ title: Monitoring adverse events during peritoneal dialysis
 author: Steve Simon
 source: http://www.pmean.com/07/PeritonealDialysis.html
 date: 2007-11-15
-category: Blog post
+categories: Blog post
 tags: Adverse events in clinical trials
 output: html_document
 ---

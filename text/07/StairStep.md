@@ -3,7 +3,7 @@ title: Stair step interpolation in R
 author: Steve Simon
 source: http://www.pmean.com/07/StairStep.html
 date: 2007-11-15
-category: Blog post
+categories: Blog post
 tags: Graphical display, R software
 output: html_document
 ---

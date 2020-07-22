@@ -3,7 +3,7 @@ title: Calculating an XBAR-S control chart
 author: Steve Simon
 source: http://www.pmean.com/07/XbarSControlChart.html
 date: 2007-03-02
-category: Blog post
+categories: Blog post
 tags: Control charts
 output: html_document
 ---

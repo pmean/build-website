@@ -3,7 +3,7 @@ title: When is a control chart not a control chart?
 author: Steve Simon
 source: http://www.pmean.com/07/AnomExample.html
 date: 2007-02-06
-category: Blog post
+categories: Blog post
 tags: Analysis of means, Control charts
 output: html_document
 ---

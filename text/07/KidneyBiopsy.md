@@ -3,7 +3,7 @@ title: Tracking adverse events during kidney biopsy
 author: Steve Simon
 source: http://www.pmean.com/07/KidneyBiopsy.html
 date: 2007-11-19
-category: Blog post
+categories: Blog post
 tags: Adverse events in clinical trials
 output: html_document
 ---

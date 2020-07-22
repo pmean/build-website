@@ -3,7 +3,7 @@ title: Tests of hypothesis and confidence intervals involving a correlation coef
 author: Steve Simon
 source: http://www.pmean.com/07/CorrelationCoefficient-07.html
 date: 2007-01-18
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---
