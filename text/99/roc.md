@@ -3,7 +3,7 @@ title: ROC curve
 author: Steve Simon
 source: http://www.pmean.com/99/roc.html
 date: 1999-08-19
-category: Blog post
+categories: Blog post
 tags: Diagnostic testing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Merging files in SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/merging.html
 date: 1999-01-15
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

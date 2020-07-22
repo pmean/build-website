@@ -3,7 +3,7 @@ title: Date calculations in SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/dates.html
 date: 1999-08-18
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

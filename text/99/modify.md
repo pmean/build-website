@@ -3,7 +3,7 @@ title: Modifying SPSS data
 author: Steve Simon
 source: http://www.pmean.com/99/modify.html
 date: 1999-09-18
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: R-squared
 author: Steve Simon
 source: http://www.pmean.com/99/rsquared.html
 date: 1999-08-18
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---

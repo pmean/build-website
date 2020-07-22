@@ -3,7 +3,7 @@ title: Importing spreadsheet data into SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/excel.html
 date: 1999-09-20
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

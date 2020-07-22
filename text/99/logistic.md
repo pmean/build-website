@@ -3,7 +3,7 @@ title: Guidelines for logistic regression models
 author: Steve Simon
 source: http://www.pmean.com/99/logistic.html
 date: 1999-09-27
-category: Blog post
+categories: Blog post
 tags: Logistic regression
 output: html_document
 ---

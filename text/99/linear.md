@@ -3,7 +3,7 @@ title: Steps in a typical linear regression analysis
 author: Steve Simon
 source: http://www.pmean.com/99/linear.html
 date: 1999-09-21
-category: Blog post
+categories: Blog post
 tags: Linear regression
 output: html_document
 ---

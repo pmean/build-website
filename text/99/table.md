@@ -3,7 +3,7 @@ title: Inputting a two-by-two table into SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/table.html
 date: 1999-09-18
-category: Blog post
+categories: Blog post
 tags: Data management, SPSS software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: How to randomize
 author: Steve Simon
 source: http://www.pmean.com/99/random.html
 date: 1999-08-18
-category: Blog post
+categories: Blog post
 tags: Randomization in research
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Meta-analysis for a diagnostic
 author: Steve Simon
 source: http://www.pmean.com/99/diagnostic-99.html
 date: 1999-11-15
-category: Blog post
+categories: Blog post
 tags: Diagnostic testing
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: Poisson regression model
 author: Steve Simon
 source: http://www.pmean.com/99/poisson.html
 date: 1999-09-21
-category: Blog post
+categories: Blog post
 tags: Poisson regression
 output: html_document
 ---

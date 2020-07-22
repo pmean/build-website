@@ -3,7 +3,7 @@ title: Sample size for a diagnostic study
 author: Steve Simon
 source: http://www.pmean.com/99/diag.html
 date: 1999-09-03
-category: Blog post
+categories: Blog post
 tags: Confidence intervals, Diagnostic testing, Sample size justification
 output: html_document
 ---

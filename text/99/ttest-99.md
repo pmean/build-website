@@ -3,7 +3,7 @@ title: T-test
 author: Steve Simon
 source: http://www.pmean.com/99/ttest-99.html
 date: 1999-04-18
-category: Blog post
+categories: Blog post
 tags: Hypothesis testing
 output: html_document
 ---
