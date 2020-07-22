@@ -3,7 +3,7 @@ title: "PMean: Calculating power for a test of association in a two by two table
 author: "Steve Simon"
 source: "http://blog.pmean.com/power-for-two-by-two-table/"
 date: "2016-02-05"
-category: Blog post
+categories: Blog post
 tags: Sample size
 output: html_document
 ---

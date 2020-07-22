@@ -3,7 +3,7 @@ title: "Recommendation: Practical advice for analysis of large, complex data set
 author: "Steve Simon"
 source: "http://blog.pmean.com/practical-advice/"
 date: "2016-11-10"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

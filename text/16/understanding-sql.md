@@ -3,7 +3,7 @@ title: "Recommendation: 10 Easy Steps to a Complete Understanding of SQL"
 author: "Steve Simon"
 source: "http://blog.pmean.com/understanding-sql/"
 date: "2016-08-15"
-category: Blog post
+categories: Blog post
 tags: SQL
 output: html_document
 ---

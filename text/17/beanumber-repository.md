@@ -3,7 +3,7 @@ title: "Recommendation: beanumber repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/beanumber-repository/"
 date: "2017-11-15"
-category: Recommendation
+categories: Recommendation
 tags: Big data, R software, SQL, Teaching resources
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: What I need from statisticians"
 author: "Steve Simon"
 source: "http://blog.pmean.com/silver-interview/"
 date: "2016-09-01"
-category: Recommendation
+categories: Recommendation
 tags: Important statisticians
 output: html_document
 ---

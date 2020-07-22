@@ -3,7 +3,7 @@ title: "Recommendation: ROSE: A package for binary imbalanced learning"
 author: "Steve Simon"
 source: "http://blog.pmean.com/binary-imbalanced-learning/"
 date: "2017-05-02"
-category: Recommendation
+categories: Recommendation
 tags: Big data, Logistic regression
 output: html_document
 ---

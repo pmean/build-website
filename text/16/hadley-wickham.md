@@ -3,7 +3,7 @@ title: "Recommendation: Hadley Wickham, the Man Who Revolutionized R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/hadley-wickham/"
 date: "2016-08-07"
-category: Recommendation
+categories: Recommendation
 tags: Important statisticians, R software
 output: html_document
 ---

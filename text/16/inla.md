@@ -3,7 +3,7 @@ title: "Recommendation: Bayesian computing with INLA"
 author: "Steve Simon"
 source: "http://blog.pmean.com/inla/"
 date: "2016-04-28"
-category: Recommendation
+categories: Recommendation
 tags: Bayesian statistics, Longitudinal data, Multilevel models, R software
 output: html_document
 ---

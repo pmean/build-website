@@ -3,7 +3,7 @@ title: "Recommendation: 100+ Interesting Data Sets for Statistics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/hundred-data-sets/"
 date: "2016-06-26"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

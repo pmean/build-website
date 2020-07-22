@@ -3,7 +3,7 @@ title: "Recommendation: When the revolution came for Amy Cuddy"
 author: "Steve Simon"
 source: "http://blog.pmean.com/amy-cuddy/"
 date: "2017-10-19"
-category: Recommendation
+categories: Recommendation
 tags: Critical appraisal, Human side of statistics
 output: html_document
 ---

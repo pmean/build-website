@@ -3,7 +3,7 @@ title: "Recommendation: A Tutorial on Loops in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/loops-in-r/"
 date: "2016-10-20"
-category: Blog post
+categories: Blog post
 tags: R software, Teaching resources
 output: html_document
 ---

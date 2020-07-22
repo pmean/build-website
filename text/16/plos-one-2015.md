@@ -3,7 +3,7 @@ title: "Recommendation: PLOS ONE 2015 Reviewer Thank You"
 author: "Steve Simon"
 source: "http://blog.pmean.com/plos-one-2015/"
 date: "2016-03-08"
-category: Blog post
+categories: Blog post
 tags: Professional details, Writing research papers
 output: html_document
 ---

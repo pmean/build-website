@@ -3,7 +3,7 @@ title: "Recommendation: The number of subjects per variable required in linear r
 author: "Steve Simon"
 source: "http://blog.pmean.com/subjects-per-variable/"
 date: "2016-03-30"
-category: Recommendation
+categories: Recommendation
 tags: Linear regression, Sample size
 output: html_document
 ---

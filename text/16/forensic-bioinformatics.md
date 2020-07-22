@@ -3,7 +3,7 @@ title: "Recommendation: The Importance of Reproducible Research in High-Throughp
 author: "Steve Simon"
 source: "http://blog.pmean.com/forensic-bioinformatics/"
 date: "2016-08-03"
-category: Blog post
+categories: Blog post
 tags: Data quality, Informatics, Research design
 output: html_document
 ---
