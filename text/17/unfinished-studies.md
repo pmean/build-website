@@ -3,7 +3,7 @@ title: "Recommendation: One in Five Clinical Trials for Adults with Cancer Never
 author: "Steve Simon"
 source: "http://blog.pmean.com/unfinished-studies/"
 date: "2017-05-05"
-category: Recommendation
+categories: Recommendation
 tags: Accrual problems in clinical trials
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Medicare Claims Synthetic Public Use Files (SynPUFs)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/synthetic-claims/"
 date: "2017-03-23"
-category: Blog post
+categories: Blog post
 tags: Datasets
 output: html_document
 ---

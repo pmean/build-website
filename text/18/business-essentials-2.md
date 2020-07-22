@@ -3,7 +3,7 @@ title: "PMean: Business essentials for starting an independent consulting practi
 author: "Steve Simon"
 source: "http://blog.pmean.com/business-essentials-2/"
 date: "2018-08-17"
-category: Blog post
+categories: Blog post
 tags: Human side of statistics, Professional details
 output: html_document
 ---

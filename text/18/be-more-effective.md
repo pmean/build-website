@@ -3,7 +3,7 @@ title: "Recommendation: How to be more effective in your professional life"
 author: "Steve Simon"
 source: "http://blog.pmean.com/be-more-effective/"
 date: "2018-01-22"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics
 output: html_document
 ---

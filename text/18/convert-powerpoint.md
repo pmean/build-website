@@ -3,7 +3,7 @@ title: "Recommendation: Convert PowerPoint Slides to xaringan (remark.js) Slides
 author: "Steve Simon"
 source: "http://blog.pmean.com/convert-powerpoint/"
 date: "2018-12-30"
-category: Recommendation
+categories: Recommendation
 tags: Presenting research data, R software
 output: html_document
 ---

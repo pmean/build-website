@@ -3,7 +3,7 @@ title: "Recommendation: Why be an independent consultant?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/why-independent/"
 date: "2017-04-04"
-category: Recommendation
+categories: Recommendation
 tags: Human side of statistics, Professional details
 output: html_document
 ---

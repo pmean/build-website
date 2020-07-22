@@ -3,7 +3,7 @@ title: "Recommendation: A Review of Published Analyses of Case-Cohort Studies an
 author: "Steve Simon"
 source: "http://blog.pmean.com/case-cohort-review/"
 date: "2018-07-20"
-category: Recommendation
+categories: Recommendation
 tags: Research design
 output: html_document
 ---

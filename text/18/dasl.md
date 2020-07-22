@@ -3,7 +3,7 @@ title: "Recommendation: Welcome to DASL -- The Data And Story Library"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dasl/"
 date: "2018-11-27"
-category: Recommendation
+categories: Recommendation
 tags: Datasets
 output: html_document
 ---

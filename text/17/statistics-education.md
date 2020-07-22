@@ -3,7 +3,7 @@ title: "Recommendation: Guidelines for Assessment and Instruction in Statistics 
 author: "Steve Simon"
 source: "http://blog.pmean.com/statistics-education/"
 date: "2017-01-24"
-category: Recommendation
+categories: Recommendation
 tags: Teaching resources
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Launch a Shiny App on Your Own Server in 4 Steps"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shiny-server/"
 date: "2017-04-10"
-category: Recommendation
+categories: Recommendation
 tags: R software
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Data dictionaries"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-dictionaries/"
 date: "2018-02-24"
-category: Recommendation
+categories: Recommendation
 tags: Data management
 output: html_document
 ---

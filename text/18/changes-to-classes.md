@@ -3,7 +3,7 @@ title: "PMean: Changes to the Introduction to R, SAS, and SPSS classes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/changes-to-classes/"
 date: "2018-03-21"
-category: Blog post
+categories: Blog post
 tags: R software, SAS software, SPSS software
 output: html_document
 ---

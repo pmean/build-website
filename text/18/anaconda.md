@@ -3,7 +3,7 @@ title: "Recommendation: Installing R and Python in Anaconda for Biologists"
 author: "Steve Simon"
 source: "http://blog.pmean.com/anaconda/"
 date: "2018-11-08"
-category: Recommendation
+categories: Recommendation
 tags: R software
 output: html_document
 ---

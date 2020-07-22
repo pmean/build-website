@@ -3,7 +3,7 @@ title: "Recommendation: Blind analysis: Hide results to seek the truth"
 author: "Steve Simon"
 source: "http://blog.pmean.com/triple-blind/"
 date: "2017-04-11"
-category: Recommendation
+categories: Recommendation
 tags: Blinding in research
 output: html_document
 ---

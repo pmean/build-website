@@ -3,7 +3,7 @@ title: "Recommendation: Bayesian meta-analysis of two proportions in random cont
 author: "Steve Simon"
 source: "http://blog.pmean.com/bayesian-meta-analysis/"
 date: "2018-07-05"
-category: Recommendation
+categories: Recommendation
 tags: Bayesian statistics, Systematic overviews
 output: html_document
 ---

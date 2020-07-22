@@ -3,7 +3,7 @@ title: "Recommendation: Adjusted survival curves"
 author: "Steve Simon"
 source: "http://blog.pmean.com/adjusted-survival-curves/"
 date: "2018-05-20"
-category: Recommendation
+categories: Recommendation
 tags: R software, Survival analysis
 output: html_document
 ---

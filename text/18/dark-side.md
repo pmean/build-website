@@ -3,7 +3,7 @@ title: "PMean: The Dark Side of Data Science"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dark-side/"
 date: "2018-08-13"
-category: Blog post
+categories: Blog post
 tags: Big data, Human side of statistics
 output: html_document
 ---

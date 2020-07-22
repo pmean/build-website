@@ -3,7 +3,7 @@ title: "PMean: What are we doing to justify all that time we're budgeting?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/budgeting-time/"
 date: "2018-05-17"
-category: Blog post
+categories: Blog post
 tags: Human side of statistics
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Trump's Android and iPhone tweets, one year later"
 author: "Steve Simon"
 source: "http://blog.pmean.com/trump-tweets/"
 date: "2017-09-13"
-category: Recommendation
+categories: Recommendation
 tags: R software, Text mining
 output: html_document
 ---

@@ -3,7 +3,7 @@ title: "Recommendation: Cluster Hat 2.0"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cluster-hat/"
 date: "2018-09-01"
-category: Recommendation
+categories: Recommendation
 tags: Cluster computing
 output: html_document
 ---
