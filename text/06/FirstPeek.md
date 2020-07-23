@@ -3,8 +3,10 @@ title: First peek at the cover of my new book
 author: Steve Simon
 source: http://www.pmean.com/06/FirstPeek.html
 date: 2006-01-12
-categories: Blog post
-tags: Statistical evidence
+categories:
+- Blog post
+tags:
+- Statistical evidence
 output: html_document
 ---
 **[StATS]: First peek at the cover of my new book

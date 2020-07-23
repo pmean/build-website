@@ -3,8 +3,10 @@ title: Calculating probabilities involving correlated normal variables
 author: Steve Simon
 source: http://www.pmean.com/07/CorrelatedNormalProbabilities.html
 date: 2007-06-04
-categories: Blog post
-tags: Probability concepts
+categories:
+- Blog post
+tags:
+- Probability concepts
 output: html_document
 ---
 

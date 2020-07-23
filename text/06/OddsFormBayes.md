@@ -3,8 +3,10 @@ title: Mathematical derivation of the odds form of Bayes theorem
 author: Steve Simon
 source: http://www.pmean.com/06/OddsFormBayes.html
 date: 2006-10-16
-categories: Blog post
-tags: Diagnostic testing
+categories:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
 **[StATS]:** **Mathematical derivation of the odds

@@ -3,8 +3,10 @@ title: Monitoring accrual rates
 author: Steve Simon
 source: http://www.pmean.com/06/AccrualProblems-06.html
 date: 2006-05-30
-categories: Blog post
-tags: Accrual problems in clinical trials
+categories:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Monitoring accrual rates (created

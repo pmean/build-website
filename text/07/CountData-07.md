@@ -3,8 +3,10 @@ title: Confidence intervals for count data
 author: Steve Simon
 source: http://www.pmean.com/07/CountData-07.html
 date: 2007-03-22
-categories: Blog post
-tags: Poisson regression
+categories:
+- Blog post
+tags:
+- Poisson regression
 output: html_document
 ---
 **[StATS]:** **Confidence intervals for count data

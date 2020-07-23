@@ -3,8 +3,10 @@ title: Meta-analysis
 author: Steve Simon
 source: http://www.pmean.com/05/metaanalysis.html
 date: 2005-03-18
-categories: Blog post
-tags: Systematic overviews
+categories:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
 ****[StATS]:** Meta-analysis (March 18, 2005)**

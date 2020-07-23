@@ -3,8 +3,10 @@ title: Checking a Chi-square test
 author: Steve Simon
 source: http://www.pmean.com/06/CheckingChisquare.html
 date: 2006-02-13
-categories: Blog post
-tags: Logistic regression
+categories:
+- Blog post
+tags:
+- Logistic regression
 output: html_document
 ---
 **[StATS]:** **Checking a Chi-square test (February

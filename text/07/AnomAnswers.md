@@ -3,8 +3,10 @@ title: Analysis of Means answers to on your own exercises
 author: Steve Simon
 source: http://www.pmean.com/07/AnomAnswers.html
 date: 2007-03-06
-categories: Blog post
-tags: Analysis of means
+categories:
+- Blog post
+tags:
+- Analysis of means
 output: html_document
 ---
 

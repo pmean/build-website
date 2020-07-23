@@ -3,8 +3,10 @@ title: How two bad control groups can add up to one good comparison
 author: Steve Simon
 source: http://www.pmean.com/07/TwoControlGroups.html
 date: 2007-06-28
-categories: Blog post
-tags: Observational studies
+categories:
+- Blog post
+tags:
+- Observational studies
 output: html_document
 ---
 **[StATS]:** **How two bad control groups can add up

@@ -3,8 +3,10 @@ title: Calculating a P control chart
 author: Steve Simon
 source: http://www.pmean.com/07/PControlChart.html
 date: 2007-03-07
-categories: Blog post
-tags: Control charts
+categories:
+- Blog post
+tags:
+- Control charts
 output: html_document
 ---
 **[StATS]:** **Calculating a P control chart (March

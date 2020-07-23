@@ -3,8 +3,10 @@ title: Contacting and working with me
 author: Steve Simon
 source: http://www.pmean.com/05/contact.html
 date: 2005-08-15
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 **[StATS]:** **Contacting and working with me

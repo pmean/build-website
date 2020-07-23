@@ -3,8 +3,10 @@ title: Seven different formulas for the odds ratio
 author: Steve Simon
 source: http://www.pmean.com/07/SevenFormulas.html
 date: 2007-06-14
-categories: Blog post
-tags: Writing research papers
+categories:
+- Blog post
+tags:
+- Writing research papers
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: Fitting a difference in exponential functions
 author: Steve Simon
 source: http://www.pmean.com/07/DifferenceInExponentials.html
 date: 2007-01-26
-categories: Blog post
-tags: Nonlinear regression
+categories:
+- Blog post
+tags:
+- Nonlinear regression
 output: html_document
 ---
 **[StATS]:** **Fitting a difference in exponential

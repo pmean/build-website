@@ -3,8 +3,10 @@ title: Fitting a quadratic regression model
 author: Steve Simon
 source: http://www.pmean.com/06/QuadraticRegression.html
 date: 2006-11-16
-categories: Blog post
-tags: Linear regression
+categories:
+- Blog post
+tags:
+- Linear regression
 output: html_document
 ---
 

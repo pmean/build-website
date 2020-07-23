@@ -3,8 +3,10 @@ title: Can the standard deviation be more than half of the range?
 author: Steve Simon
 source: http://www.pmean.com/07/StandardDeviationRatio.html
 date: 2007-06-22
-categories: Blog post
-tags: Statistical theory
+categories:
+- Blog post
+tags:
+- Statistical theory
 output: html_document
 ---
 

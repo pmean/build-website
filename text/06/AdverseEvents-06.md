@@ -3,8 +3,10 @@ title: Reporting serious adverse events
 author: Steve Simon
 source: http://www.pmean.com/06/AdverseEvents-06.html
 date: 2006-02-03
-categories: Blog post
-tags: Adverse events in clinical trials
+categories:
+- Blog post
+tags:
+- Adverse events in clinical trials
 output: html_document
 ---
 **[StATS]: Reporting serious adverse events (created

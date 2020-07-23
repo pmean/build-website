@@ -3,8 +3,10 @@ title: "Recommendation: Comparison of Logistic Regression versus Propensity Scor
 author: "Steve Simon"
 source: "http://blog.pmean.com/propensity-monte-carlo/"
 date: "2013-12-20"
-categories: Recommendation
-tags: Risk adjustment
+categories:
+- Recommendation
+tags:
+- Risk adjustment
 output: html_document
 ---
 

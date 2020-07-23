@@ -3,8 +3,10 @@ title: Do your own power and sample size calculations
 author: Steve Simon
 source: http://www.pmean.com/07/DoYourOwnPower.html
 date: 2007-01-30
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]:** **Do your own power and sample size

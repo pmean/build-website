@@ -3,8 +3,10 @@ title: Statistical concerns in research studies involving children
 author: Steve Simon
 source: http://www.pmean.com/06/StatisticalConcernsChildren.html
 date: 2006-11-02
-categories: Blog post
-tags: Children in research
+categories:
+- Blog post
+tags:
+- Children in research
 output: html_document
 ---
 **[StATS]: Statistical concerns in research studies

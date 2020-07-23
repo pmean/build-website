@@ -3,8 +3,10 @@ title: Placing the symbol X-bar in a document
 author: Steve Simon
 source: http://www.pmean.com/06/XbarSymbol.html
 date: 2006-04-17
-categories: Blog post
-tags: Teaching resources
+categories:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Placing the symbol X-bar in a

@@ -3,8 +3,10 @@ title: Randomization tests for paired data
 author: Steve Simon
 source: http://www.pmean.com/06/PairedRandomization.html
 date: 2006-01-24
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 **[StATS]: Randomization tests for paired data

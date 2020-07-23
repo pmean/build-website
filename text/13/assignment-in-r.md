@@ -3,8 +3,10 @@ title: "Recommendation: Use equal sign for assignmentin R?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/assignment-in-r/"
 date: "2013-12-09"
-categories: Recommendation
-tags: R software
+categories:
+- Recommendation
+tags:
+- R software
 output: html_document
 ---
 

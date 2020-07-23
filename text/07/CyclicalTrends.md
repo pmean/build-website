@@ -3,8 +3,10 @@ title: Accounting for cyclical trends in a regression model
 author: Steve Simon
 source: http://www.pmean.com/07/CyclicalTrends.html
 date: 2007-06-13
-categories: Blog post
-tags: Linear regression
+categories:
+- Blog post
+tags:
+- Linear regression
 output: html_document
 ---
 **[StATS]:** **Accounting for cyclical trends in a

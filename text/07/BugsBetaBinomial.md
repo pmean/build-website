@@ -3,8 +3,10 @@ title: Fitting a beta binomial model using BUGS
 author: Steve Simon
 source: http://www.pmean.com/07/BugsBetaBinomial.html
 date: 2007-04-17
-categories: Blog post
-tags: Bayesian statistics
+categories:
+- Blog post
+tags:
+- Bayesian statistics
 output: html_document
 ---
 

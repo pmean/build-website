@@ -3,8 +3,10 @@ title: Compound interest and powers
 author: Steve Simon
 source: http://www.pmean.com/07/CompoundInterest.html
 date: 2007-02-11
-categories: Blog post
-tags: Statistical theory
+categories:
+- Blog post
+tags:
+- Statistical theory
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: A simple illustration of the Metropolis algorithm
 author: Steve Simon
 source: http://www.pmean.com/07/MetropolisAlgorithm.html
 date: 2007-04-13
-categories: Blog post
-tags: Bayesian statistics
+categories:
+- Blog post
+tags:
+- Bayesian statistics
 output: html_document
 ---
 **[StATS]: A simple illustration of the Metropolis

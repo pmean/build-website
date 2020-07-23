@@ -3,8 +3,10 @@ title: Univariate Model Based Clustering
 author: Steve Simon
 source: http://www.pmean.com/06/UnivariateClustering.html
 date: 2006-04-18
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 **[StATS]:** **Univariate Model Based Clustering

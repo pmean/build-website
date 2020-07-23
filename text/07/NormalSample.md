@@ -3,8 +3,10 @@ title: Are we assuming a normal sample or a normal population?
 author: Steve Simon
 source: http://www.pmean.com/07/NormalSample.html
 date: 2007-08-30
-categories: Blog post
-tags: Modeling issues
+categories:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
 

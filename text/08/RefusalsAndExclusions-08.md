@@ -3,8 +3,10 @@ title: Monitoring refusals and exclusions in a clinical trial
 author: Steve Simon
 source: http://www.pmean.com/08/RefusalsAndExclusions-08.html
 date: 2008-05-01
-categories: Blog post
-tags: Accrual problems in clinical trials
+categories:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Monitoring refusals and exclusions in a

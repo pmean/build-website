@@ -3,8 +3,10 @@ title: A simple example of a Kaplan-Meier curve
 author: Steve Simon
 source: http://www.pmean.com/08/SimpleKm-08.html
 date: 2008-01-24
-categories: Blog post
-tags: Survival analysis
+categories:
+- Blog post
+tags:
+- Survival analysis
 output: html_document
 ---
 **[StATS]:** **A simple example of a Kaplan-Meier

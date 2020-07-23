@@ -3,8 +3,10 @@ title: Relationship between the standard deviation and the sample size
 author: Steve Simon
 source: http://www.pmean.com/06/StandardDeviation-06.html
 date: 2006-05-26
-categories: Blog post
-tags: Descriptive statistics
+categories:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
 **[StATS]:** **Relationship between the standard

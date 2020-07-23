@@ -3,8 +3,10 @@ title: Seminar notes, Creating More Effective Graphics
 author: Steve Simon
 source: http://www.pmean.com/06/EffectiveGraphs.html
 date: 2006-03-24
-categories: Blog post
-tags: Descriptive statistics
+categories:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
 **[StATS]:** **Seminar notes, Creating More

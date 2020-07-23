@@ -3,8 +3,10 @@ title: "PMean: Sample size for comparing two diagnostic tests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/comparing-diagnostic-tests/"
 date: "2013-12-18"
-categories: Blog post
-tags: Sample size
+categories:
+- Blog post
+tags:
+- Sample size
 output: html_document
 ---
 

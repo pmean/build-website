@@ -3,8 +3,10 @@ title: Too much power and precision?
 author: Steve Simon
 source: http://www.pmean.com/08/TooMuchPower-08.html
 date: 2008-01-09
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]: Too much power and precision? (January 9,

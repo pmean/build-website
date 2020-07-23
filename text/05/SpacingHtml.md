@@ -3,8 +3,10 @@ title: Preserving spacing in html code
 author: Steve Simon
 source: http://www.pmean.com/05/SpacingHtml.html
 date: 2005-05-06
-categories: Blog post
-tags: Website details
+categories:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]: Preserving spacing in html code (May 6,

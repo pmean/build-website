@@ -3,8 +3,10 @@ title: Calculation of Analysis of Means limits
 author: Steve Simon
 source: http://www.pmean.com/07/AnomCalculations1.html
 date: 2007-03-06
-categories: Blog post
-tags: Analysis of means
+categories:
+- Blog post
+tags:
+- Analysis of means
 output: html_document
 ---
 

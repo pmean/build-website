@@ -3,8 +3,10 @@ title: Slipped deadlines and sample size shortfalls in a random sample of resear
 author: Steve Simon
 source: http://www.pmean.com/08/SlippedDeadlines-08a.html
 date: 2008-05-07
-categories: Blog post
-tags: Accrual problems in clinical trials
+categories:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Slipped deadlines and sample size

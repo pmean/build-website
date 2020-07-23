@@ -3,8 +3,10 @@ title: Changing page breaks in SPSS
 author: Steve Simon
 source: http://www.pmean.com/06/PageBreaksSPSS.html
 date: 2006-08-31
-categories: Blog post
-tags: SPSS software
+categories:
+- Blog post
+tags:
+- SPSS software
 output: html_document
 ---
 **[StATS]:** **Changing page breaks in SPSS (August

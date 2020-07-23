@@ -3,8 +3,10 @@ title: Ethical concerns about research in children
 author: Steve Simon
 source: http://www.pmean.com/06/EthicalConcernsChildren.html
 date: 2006-10-17
-categories: Blog post
-tags: Children in research
+categories:
+- Blog post
+tags:
+- Children in research
 output: html_document
 ---
 **[StATS]: Ethical concerns about research in

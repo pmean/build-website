@@ -3,8 +3,10 @@ title: Should I use the heteroscedastic t-test?
 author: Steve Simon
 source: http://www.pmean.com/07/HeteroscedasticTtest.html
 date: 2007-07-26
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 **[StATS]:** **Should I use the heteroscedastic
