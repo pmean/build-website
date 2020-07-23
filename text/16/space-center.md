@@ -3,8 +3,10 @@ title: "Recommendation: Lyndon B. Johnson Space Center job opening for a GS-14 S
 author: "Steve Simon"
 source: "http://blog.pmean.com/space-center/"
 date: "2016-01-13"
-categories: Recommendation
-tags: Human side of statistics
+categories:
+- Recommendation
+tags:
+- Human side of statistics
 output: html_document
 ---
 

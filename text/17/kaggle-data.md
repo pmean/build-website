@@ -3,8 +3,10 @@ title: "Recommendation: Kaggle data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/kaggle-data/"
 date: "2017-06-19"
-categories: Recommendation
-tags: Datasets
+categories:
+- Recommendation
+tags:
+- Datasets
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: How Bright Promise in Cancer Testing Fell Apart"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cancer-testing/"
 date: "2017-04-13"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

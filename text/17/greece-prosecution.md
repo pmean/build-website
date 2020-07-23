@@ -3,8 +3,10 @@ title: "Recommendation: Greece's troubling prosecution of its former chief stati
 author: "Steve Simon"
 source: "http://blog.pmean.com/greece-prosecution/"
 date: "2017-07-12"
-categories: Recommendation
-tags: Human side of statistics
+categories:
+- Recommendation
+tags:
+- Human side of statistics
 output: html_document
 ---
 

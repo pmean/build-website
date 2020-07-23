@@ -3,8 +3,10 @@ title: "Recommendation: Five Thirty Eight Data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/five-thirty-eight-data/"
 date: "2017-06-16"
-categories: Recommendation
-tags: Datasets
+categories:
+- Recommendation
+tags:
+- Datasets
 output: html_document
 ---
 

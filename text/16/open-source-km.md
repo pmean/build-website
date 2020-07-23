@@ -3,8 +3,10 @@ title: "PMean: Some open source Kaplan Meier curves"
 author: "Steve Simon"
 source: "http://blog.pmean.com/open-source-km/"
 date: "2016-04-10"
-categories: Blog post
-tags: Survival analysis
+categories:
+- Blog post
+tags:
+- Survival analysis
 output: html_document
 ---
 

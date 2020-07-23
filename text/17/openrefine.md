@@ -3,8 +3,10 @@ title: "Recommendation: OpenRefine: A free, open source, powerful tool for worki
 author: "Steve Simon"
 source: "http://blog.pmean.com/openrefine/"
 date: "2017-09-28"
-categories: Recommendation
-tags: Data management
+categories:
+- Recommendation
+tags:
+- Data management
 output: html_document
 ---
 

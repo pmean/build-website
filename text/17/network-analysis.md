@@ -3,8 +3,10 @@ title: "Recommendation: Network analysis in cross-sectional data using R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/network-analysis/"
 date: "2017-12-12"
-categories: Recommendation
-tags: Network analysis
+categories:
+- Recommendation
+tags:
+- Network analysis
 output: html_document
 ---
 

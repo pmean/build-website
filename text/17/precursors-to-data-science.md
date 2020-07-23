@@ -3,8 +3,11 @@ title: "Recommendation: Teaching precursors to data science in introductory and 
 author: "Steve Simon"
 source: "http://blog.pmean.com/precursors-to-data-science/"
 date: "2017-11-15"
-categories: Recommendation
-tags: Big data, Teaching resources
+categories:
+- Recommendation
+tags:
+- Big data
+- Teaching resources
 output: html_document
 ---
 
@@ -14,7 +17,9 @@ with a few dozen rows of data.
 
 <!---More--->
 
-Horton NJ, Baumer BS, Wickham H. Teaching precursors to data science in
+Horton NJ
+- Baumer BS
+- Wickham H. Teaching precursors to data science in
 introductory and second courses in statistics. Available at
 <https://arxiv.org/abs/1401.3269>.
 

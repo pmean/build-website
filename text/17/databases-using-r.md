@@ -3,8 +3,11 @@ title: "Recommendation: Databases using R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/databases-using-r/"
 date: "2017-11-15"
-categories: Recommendation
-tags: R software, SQL
+categories:
+- Recommendation
+tags:
+- R software
+- SQL
 output: html_document
 ---
 

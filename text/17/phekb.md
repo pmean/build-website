@@ -3,8 +3,10 @@ title: "Recommendation: PheKB. A knowledge base for discovering phenotypes from 
 author: "Steve Simon"
 source: "http://blog.pmean.com/phekb/"
 date: "2017-03-24"
-categories: Recommendation
-tags: Informatics
+categories:
+- Recommendation
+tags:
+- Informatics
 output: html_document
 ---
 

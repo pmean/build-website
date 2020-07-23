@@ -3,8 +3,10 @@ title: "Recommendation: A Grant Submission New Year's Resolution"
 author: "Steve Simon"
 source: "http://blog.pmean.com/procrastination/"
 date: "2016-01-06"
-categories: Recommendation
-tags: Grant writing
+categories:
+- Recommendation
+tags:
+- Grant writing
 output: html_document
 ---
 

@@ -3,8 +3,11 @@ title: "PMean: Changing the font size in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/font-size-in-r/"
 date: "2016-08-08"
-categories: Blog post
-tags: Presenting research data, R software
+categories:
+- Blog post
+tags:
+- Presenting research data
+- R software
 output: html_document
 ---
 
@@ -29,7 +32,8 @@ default of 80 to a lower value like 60 or 40. You can do this in the
 same dialog box (Console columns field) or you can run the function
 options(width=60) or options(width=40).
 
-If you are cutting and pasting code from notepad into R, then there is
+If you are cutting and pasting code from notepad into R
+- then there is
 an easy way to increase the font size in notepad. Click on FORMAT then
 FONT and you will see the following dialog box.
 

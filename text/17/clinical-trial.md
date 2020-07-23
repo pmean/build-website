@@ -3,8 +3,10 @@ title: "Recommendation: Notice of Revised NIH Definition of Clinical Trial"
 author: "Steve Simon"
 source: "http://blog.pmean.com/clinical-trial/"
 date: "2017-09-13"
-categories: Recommendation
-tags: Research design
+categories:
+- Recommendation
+tags:
+- Research design
 output: html_document
 ---
 

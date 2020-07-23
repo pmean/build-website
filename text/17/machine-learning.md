@@ -3,8 +3,10 @@ title: "Recommendation: This is your machine learning system?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning/"
 date: "2017-05-18"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

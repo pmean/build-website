@@ -3,8 +3,10 @@ title: "Recommendation: Conducting Clinical Research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/clinical-research/"
 date: "2017-03-12"
-categories: Recommendation
-tags: Research design
+categories:
+- Recommendation
+tags:
+- Research design
 output: html_document
 ---
 

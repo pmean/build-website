@@ -3,8 +3,10 @@ title: "Recommendation: How to increase value and reduce waste when research pri
 author: "Steve Simon"
 source: "http://blog.pmean.com/research-waste/"
 date: "2017-09-25"
-categories: Recommendation
-tags: Research design
+categories:
+- Recommendation
+tags:
+- Research design
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: Organizing data in spreadsheets"
 author: "Steve Simon"
 source: "http://blog.pmean.com/organizing-data/"
 date: "2016-09-01"
-categories: Recommendation
-tags: Data management
+categories:
+- Recommendation
+tags:
+- Data management
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "PMean: Simulating power for a test of association in a two by two table"
 author: "Steve Simon"
 source: "http://blog.pmean.com/simulating-power/"
 date: "2016-02-05"
-categories: Blog post
-tags: Sample size
+categories:
+- Blog post
+tags:
+- Sample size
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: Published methodological quality of randomized controlle
 author: "Steve Simon"
 source: "http://blog.pmean.com/quality-of-rct/"
 date: "2016-09-28"
-categories: Recommendation
-tags: Systematic overviews
+categories:
+- Recommendation
+tags:
+- Systematic overviews
 output: html_document
 ---
 

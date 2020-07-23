@@ -3,8 +3,10 @@ title: "Recommendation: Proving the null hypothesis in clinical trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/proving-null/"
 date: "2017-04-27"
-categories: Recommendation
-tags: Hypothesis testing
+categories:
+- Recommendation
+tags:
+- Hypothesis testing
 output: html_document
 ---
 

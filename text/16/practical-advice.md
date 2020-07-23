@@ -3,15 +3,18 @@ title: "Recommendation: Practical advice for analysis of large, complex data set
 author: "Steve Simon"
 source: "http://blog.pmean.com/practical-advice/"
 date: "2016-11-10"
-categories: Recommendation
-tags: Human side of statistics
+categories:
+- Recommendation
+tags:
+- Human side of statistics
 output: html_document
 ---
 
 This is a nice compilation of issues that you should be concerned. The
 examples are mostly from things that interest Google, but you will find
 this advice itself is useful no matter what type of data you work with.
-The advice is split into three broad categories: technical (e.g., look
+The advice is split into three broad categories:
+- technical (e.g., look
 at your distributions), process (e.g., separate validation, description,
 and evaluation), and communication (e.g., data analysis starts with
 questions, not data or a technique).

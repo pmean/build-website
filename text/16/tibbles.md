@@ -3,8 +3,10 @@ title: "Recommendation: Tibbles (Tibbles are a modern take on data frames)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tibbles/"
 date: "2016-08-15"
-categories: Recommendation
-tags: R software
+categories:
+- Recommendation
+tags:
+- R software
 output: html_document
 ---
 

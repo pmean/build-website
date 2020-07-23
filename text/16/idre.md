@@ -3,8 +3,10 @@ title: "Recommendation: Institute for Digital Research and Education - Statistic
 author: "Steve Simon"
 source: "http://blog.pmean.com/idre/"
 date: "2016-06-24"
-categories: Recommendation
-tags: Datasets
+categories:
+- Recommendation
+tags:
+- Datasets
 output: html_document
 ---
 

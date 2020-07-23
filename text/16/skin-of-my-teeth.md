@@ -3,8 +3,10 @@ title: "PMean: By the skin of my teeth"
 author: "Steve Simon"
 source: "http://blog.pmean.com/skin-of-my-teeth/"
 date: "2016-09-23"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

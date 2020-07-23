@@ -3,8 +3,10 @@ title: "PMean: Obnoxious use of red text in RStudio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/red-text/"
 date: "2017-04-07"
-categories: Blog post
-tags: R software
+categories:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
 

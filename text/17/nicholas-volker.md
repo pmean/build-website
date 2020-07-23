@@ -3,8 +3,10 @@ title: "Recommendation: Genetics: Clues in the code"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nicholas-volker/"
 date: "2017-04-13"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

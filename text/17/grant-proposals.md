@@ -3,8 +3,10 @@ title: "Recommendation: Statistical Issues Seen in Non-Statistics Proposals"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grant-proposals/"
 date: "2017-01-24"
-categories: Recommendation
-tags: Grant writing
+categories:
+- Recommendation
+tags:
+- Grant writing
 output: html_document
 ---
 

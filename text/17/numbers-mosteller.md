@@ -3,8 +3,10 @@ title: "Recommendation: Writing about numbers"
 author: "Steve Simon"
 source: "http://blog.pmean.com/numbers-mosteller/"
 date: "2017-11-08"
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 

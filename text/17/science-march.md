@@ -3,13 +3,19 @@ title: "Recommendation: The numbers for the Science March..."
 author: "Steve Simon"
 source: "http://blog.pmean.com/science-march/"
 date: "2017-05-04"
-categories: Recommendation
-tags: Humor, Placebos
+categories:
+- Recommendation
+tags:
+- Humor
+- Placebos
 output: html_document
 ---
 
-I normally don't recommend other people's tweets, but these two, from
-Siobhan Tompson, were too funny to pass up.
+I normally don't recommend other people's tweets
+- but these two
+- from
+Siobhan Tompson
+- were too funny to pass up.
 
 <!---More--->
 

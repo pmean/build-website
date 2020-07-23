@@ -3,8 +3,10 @@ title: "Recommendation: i2b2 Design Document. Ontology Management (ONT) Cell"
 author: "Steve Simon"
 source: "http://blog.pmean.com/i2b2-ontology/"
 date: "2017-01-30"
-categories: Recommendation
-tags: i2b2
+categories:
+- Recommendation
+tags:
+- i2b2
 output: html_document
 ---
 
