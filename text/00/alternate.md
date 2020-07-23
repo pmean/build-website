@@ -3,8 +3,10 @@ title: Alternating treatments
 author: Steve Simon
 source: http://www.pmean.com/00/alternate.html
 date: 2000-08-22
-categories: Blog post
-tags: Randomization in research
+categories:
+- Blog post
+tags:
+- Randomization in research
 output: html_document
 ---
 ****[StATS]:** Alternating treatments (created

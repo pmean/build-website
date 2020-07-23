@@ -3,8 +3,10 @@ title: Sample size for the Mann-Whitney U test
 author: Steve Simon
 source: http://www.pmean.com/00/mann.html
 date: 2000-09-28
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 ****[StATS]:** Sample size for the Mann-Whitney U

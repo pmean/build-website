@@ -3,8 +3,10 @@ title:
 author: Steve Simon
 source: http://www.pmean.com/00/causation.html
 date: 2000-01-27
-categories: Blog post
-tags: Corroborating evidence
+categories:
+- Blog post
+tags:
+- Corroborating evidence
 output: html_document
 ---
 ****[StATS]:(January 27, 2000)** Causation.**

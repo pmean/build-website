@@ -3,8 +3,10 @@ title: Kaplan Meier
 author: Steve Simon
 source: http://www.pmean.com/00/kaplan.html
 date: 2000-06-27
-categories: Blog post
-tags: Survival analysis
+categories:
+- Blog post
+tags:
+- Survival analysis
 output: html_document
 ---
 

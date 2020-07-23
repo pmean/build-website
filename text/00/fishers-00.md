@@ -3,8 +3,10 @@ title: Fisher's Exact Test
 author: Steve Simon
 source: http://www.pmean.com/00/fishers-00.html
 date: 2000-08-23
-categories: Blog post
-tags: Logistic regression
+categories:
+- Blog post
+tags:
+- Logistic regression
 output: html_document
 ---
 ****[StATS]:** Fisher's Exact Test (created

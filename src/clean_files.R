@@ -15,13 +15,18 @@ source(file="src/standard_functions.R")
 v <- TRUE
 
 clean_files <- function(
-    search_string, replace_string="Not yet", 
-    dir_root="text/zotero", subdir_list=c("99", zpad(0:20), "no"),
-    file_pattern="*.bib", v=TRUE) {
+    search_string, 
+    replace_string="Not yet", 
+    dir_root="text/zotero", 
+    subdir_list=c("99", zpad(0:20), "no"),
+    file_pattern="*.bib", 
+    original_string=search_string,
+    v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
   k <- 0
   for (subdir in subdir_list) {
-    file_list <- list.files(dir_root %s% subdir, file_pattern)
+    list.files(dir_root %s% subdir) %>%
+      str_subset(file_pattern) -> file_list
     "\nSearching through" %b% 
       length(file_list) %b% 
       "files in" %b%
@@ -37,7 +42,7 @@ clean_files <- function(
       "\n\n" %0% i_file %>% br %>% cat
       str_c(tx[found_lines], collapse="\n") %>% cat
       if (replace_string!="Not yet") {
-        tx %<>% str_replace(search_string, replace_string)
+        tx %<>% str_replace_all(original_string, replace_string)
         "\n" %0% str_c(tx[found_lines], collapse="\n") %>% cat
       if (ok_to_replace) writeLines(tx, dir_root %s% subdir %s% i_file)
       }
@@ -52,12 +57,16 @@ verbose <- TRUE
 verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
-clean_files('date: "Created: ', 'date:', dir_root="text", file_pattern="*")
+clean_files(
+  'categories: ', 
+  'categories:\n- ', 
+  dir_root="text", 
+  file_pattern="md$")
 
 copy_files <- function(
   old_root="text", new_root="../blogdown/content",
   subdir_list=c("99", zpad(0:20), "no"),
-  file_pattern="md", v=TRUE) {
+  file_pattern="md$", v=TRUE) {
   k <- 0
   for (subdir in subdir_list) {
     list.files(old_root %s% subdir) %>%
@@ -88,4 +97,4 @@ copy_files <- function(
 }
 ok_to_copy <- TRUE
 ok_to_copy <- FALSE
-copy_files(file_pattern="md$", subdir_list="20")
+copy_files(file_pattern="md$")

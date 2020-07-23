@@ -3,8 +3,10 @@ title: Best fitting curve
 author: Steve Simon
 source: http://www.pmean.com/00/bestfit.html
 date: 2000-01-26
-categories: Blog post
-tags: Modeling issues
+categories:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
 ****[StATS]:** Best fitting curve** **(created
