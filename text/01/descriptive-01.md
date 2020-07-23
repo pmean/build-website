@@ -3,8 +3,10 @@ title: Steps in a descriptive model
 author: Steve Simon
 source: http://www.pmean.com/01/descriptive-01.html
 date: 2001-10-11
-categories: Blog post
-tags: Descriptive statistics
+categories:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
 

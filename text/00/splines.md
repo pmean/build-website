@@ -3,8 +3,10 @@ title: Splines
 author: Steve Simon
 source: http://www.pmean.com/00/splines.html
 date: 2000-01-27
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 

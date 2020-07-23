@@ -3,8 +3,10 @@ title: Physician Performance Data
 author: Steve Simon
 source: http://www.pmean.com/00/performance.html
 date: 2000-01-27
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 ****[StATS]:** Physician Performance Data (January

@@ -3,8 +3,10 @@ title: Outliers
 author: Steve Simon
 source: http://www.pmean.com/00/outliers.html
 date: 2000-01-28
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 ****[StATS]:** Outliers (January 28, 2000).**

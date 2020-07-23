@@ -3,8 +3,10 @@ title: Software used to create these web pages.
 author: Steve Simon
 source: http://www.pmean.com/00/software-00.html
 date: 2000-08-24
-categories: Blog post
-tags: Website details
+categories:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 
@@ -37,7 +39,7 @@ web pages. The current program I am using,
 
 **Importing statistical graphs**
 
-I use S-plus to draw a lot of the simple line graphs on my web pages. 
+I use S-plus to draw a lot of the simple line graphs on my web pages.<U+FFFD>
 Here's an example:
 
 ![](http://www.pmean.com/images/03/mle1a.gif){width="352" height="272"}

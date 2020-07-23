@@ -3,8 +3,10 @@ title: Protocol changes.
 author: Steve Simon
 source: http://www.pmean.com/00/protocol.html
 date: 2000-12-22
-categories: Blog post
-tags: Early stopping
+categories:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
 ****[StATS]:** Protocol changes. (December 22, 2000)**

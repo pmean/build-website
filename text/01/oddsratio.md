@@ -3,8 +3,10 @@ title: Odds ratio versus relative risk
 author: Steve Simon
 source: http://www.pmean.com/01/oddsratio.html
 date: 2001-01-09
-categories: Blog post
-tags: Measuring benefit and risk
+categories:
+- Blog post
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
 ****[StATS]:** Odds ratio versus relative risk

@@ -3,8 +3,10 @@ title: Number Needed to Treat
 author: Steve Simon
 source: http://www.pmean.com/00/nnt.html
 date: 2000-01-27
-categories: Blog post
-tags: Measuring benefit and risk
+categories:
+- Blog post
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
 ****[StATS]:** Number Needed to Treat (created

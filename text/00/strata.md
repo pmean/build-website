@@ -3,8 +3,10 @@ title: Stratified random sample.
 author: Steve Simon
 source: http://www.pmean.com/00/strata.html
 date: 2000-08-23
-categories: Blog post
-tags: Research designs
+categories:
+- Blog post
+tags:
+- Research designs
 output: html_document
 ---
 ****[StATS]:** Stratified random sample. (August 23, 2000)**

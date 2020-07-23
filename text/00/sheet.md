@@ -3,8 +3,10 @@ title: Spreadsheet or Database?
 author: Steve Simon
 source: http://www.pmean.com/00/sheet.html
 date: 2000-01-28
-categories: Blog post
-tags: Data management
+categories:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]: Spreadsheet or Database? (created January

@@ -3,8 +3,10 @@ title: Quota stratified random sampling.
 author: Steve Simon
 source: http://www.pmean.com/00/quota.html
 date: 2000-01-28
-categories: Blog post
-tags: Research designs
+categories:
+- Blog post
+tags:
+- Research designs
 output: html_document
 ---
 ****[StATS]:** Quota stratified random sampling. (January 28, 2000)**

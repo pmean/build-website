@@ -3,8 +3,10 @@ title: Sigma in the control chart.
 author: Steve Simon
 source: http://www.pmean.com/00/sigma.html
 date: 2000-01-27
-categories: Blog post
-tags: Control charts
+categories:
+- Blog post
+tags:
+- Control charts
 output: html_document
 ---
 ****[StATS]:** Sigma in the control chart. (January 27, 2000)**

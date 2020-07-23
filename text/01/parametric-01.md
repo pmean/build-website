@@ -3,8 +3,10 @@ title: Parametric versus nonparametric tests
 author: Steve Simon
 source: http://www.pmean.com/01/parametric-01.html
 date: 2001-07-30
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 ****[StATS]:** Parametric versus nonparametric tests

@@ -3,8 +3,10 @@ title: Stein's paradox
 author: Steve Simon
 source: http://www.pmean.com/00/stein.html
 date: 2000-01-27
-categories: Blog post
-tags: Statistical theory
+categories:
+- Blog post
+tags:
+- Statistical theory
 output: html_document
 ---
 ****[StATS]:** Stein's paradox (created
