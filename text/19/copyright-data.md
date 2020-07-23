@@ -3,8 +3,10 @@ title: "Recommendation: Copyright and Data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/copyright-data/"
 date: "2019-04-07"
-categories: Recommendation
-tags: Data sharing
+categories:
+- Recommendation
+tags:
+- Data sharing
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: EuSpRIG horror stories."
 author: "Steve Simon"
 source: "http://blog.pmean.com/spreasheet-horror/"
 date: "2018-04-03"
-categories: Recommendation
-tags: Data management
+categories:
+- Recommendation
+tags:
+- Data management
 output: html_document
 ---
 

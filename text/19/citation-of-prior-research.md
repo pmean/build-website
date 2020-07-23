@@ -3,8 +3,10 @@ title: "Recommendation: A Systematic Examination of the Citation of Prior Resear
 author: "Steve Simon"
 source: "http://blog.pmean.com/citation-of-prior-research/"
 date: "2019-02-01"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

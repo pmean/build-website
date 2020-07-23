@@ -3,8 +3,10 @@ title: "Recommendation: The Learning Health Care System in America"
 author: "Steve Simon"
 source: "http://blog.pmean.com/learning-health-system/"
 date: "2019-02-04"
-categories: Recommendation
-tags: Quality improvement
+categories:
+- Recommendation
+tags:
+- Quality improvement
 output: html_document
 ---
 

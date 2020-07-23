@@ -3,8 +3,10 @@ title: "PMean: Getting R to shut the heck up"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shut-the-heck-up/"
 date: "2018-11-11"
-categories: Blog post
-tags: R software
+categories:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
 

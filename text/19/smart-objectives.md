@@ -3,8 +3,10 @@ title: "Recommendation: SMART Objectives"
 author: "Steve Simon"
 source: "http://blog.pmean.com/smart-objectives/"
 date: "2019-02-14"
-categories: Recommendation
-tags: Quality improvement
+categories:
+- Recommendation
+tags:
+- Quality improvement
 output: html_document
 ---
 

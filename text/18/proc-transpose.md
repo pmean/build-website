@@ -3,8 +3,10 @@ title: "PMean: Using the transpose procedure in SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/proc-transpose/"
 date: "2018-03-28"
-categories: Blog post
-tags: SAS software
+categories:
+- Blog post
+tags:
+- SAS software
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Blog post: Data collection in a research methods class"
 author: "Steve Simon"
 source: "New"
 date: "2020-02-04"
-categories: Blog post
-tags: Teaching resources
+categories:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 

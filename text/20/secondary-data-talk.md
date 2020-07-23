@@ -3,8 +3,10 @@ title: "Blog post: Proposed talk on secondary data analysis"
 author: "Steve Simon"
 source: "New"
 date: "2020-02-27"
-categories: Blog post
-tags: Observational data
+categories:
+- Blog post
+tags:
+- Observational data
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Codes for COVID-19 in the electronic health record"
 author: "Steve Simon"
 source: "New"
 date: "2020-04-15"
-categories: Blog post
-tags: Electronic health records
+categories:
+- Blog post
+tags:
+- Electronic health records
 output: html_document
 ---
 

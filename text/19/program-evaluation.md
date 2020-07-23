@@ -3,8 +3,10 @@ title: "Recommendation: A Framework for Program Evaluation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/program-evaluation/"
 date: "2019-02-14"
-categories: Recommendation
-tags: Quality improvement
+categories:
+- Recommendation
+tags:
+- Quality improvement
 output: html_document
 ---
 

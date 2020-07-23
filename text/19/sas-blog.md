@@ -3,8 +3,10 @@ title: "Recommendation: PROC-X.com. An online (unofficial) SAS journal -- writte
 author: "Steve Simon"
 source: "http://blog.pmean.com/sas-blog/"
 date: "2019-05-10"
-categories: Recommendation
-tags: SAS software
+categories:
+- Recommendation
+tags:
+- SAS software
 output: html_document
 ---
 

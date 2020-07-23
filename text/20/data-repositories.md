@@ -2,9 +2,11 @@
 title: "An incomplete list of data repositories"
 author: "Steve Simon"
 source: "New"
-date:2020-04-27"
-categories: Blog post
-tags: Teaching resources
+date: "2020-04-27"
+categories:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 

@@ -2,8 +2,10 @@
 title: "AMS Style Guide"
 source: "New"
 date: "2020-07-15"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

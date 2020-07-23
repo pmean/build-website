@@ -3,8 +3,10 @@ title: "PMean: Finding those weird characters"
 author: "Steve Simon"
 source: "http://blog.pmean.com/weird-characters/"
 date: "2019-02-11"
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 

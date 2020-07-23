@@ -2,9 +2,11 @@
 title: "Quote: In medicine, there is automatic..."
 author: "Steve Simon"
 source: "New"
-date:2020-05-23"
-categories: Quote
-tags: Observational studies
+date: "2020-05-23"
+categories:
+- Quote
+tags:
+- Observational studies
 output: html_document
 ---
 

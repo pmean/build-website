@@ -3,8 +3,10 @@ title: "Recommendation: When life gives you coloured cells, make categories"
 author: "Steve Simon"
 source: "http://blog.pmean.com/excel-colors/"
 date: "2019-04-03"
-categories: Recommendation
-tags: Data management
+categories:
+- Recommendation
+tags:
+- Data management
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: Bending the rules of clinical trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bending-the-rules/"
 date: "2019-01-25"
-categories: Recommendation
-tags: Ethics in research
+categories:
+- Recommendation
+tags:
+- Ethics in research
 output: html_document
 ---
 

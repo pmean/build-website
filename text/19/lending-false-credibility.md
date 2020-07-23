@@ -3,8 +3,10 @@ title: "Recommendation: Data Science Has Become About Lending False Credibility 
 author: "Steve Simon"
 source: "http://blog.pmean.com/lending-false-credibility/"
 date: "2019-03-25"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

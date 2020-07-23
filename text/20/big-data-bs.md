@@ -1,9 +1,11 @@
 ---
 title: "How to Call B.S. on Big Data."
 source: "New"
-date:2020-06-11"
-categories: Blog post
-tags: Big data
+date: "2020-06-11"
+categories:
+- Blog post
+tags:
+- Big data
 output: html_document
 ---
 

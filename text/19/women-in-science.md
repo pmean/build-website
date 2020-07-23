@@ -3,8 +3,10 @@ title: "Recommendation: Making women in science visible"
 author: "Steve Simon"
 source: "http://blog.pmean.com/women-in-science/"
 date: "2019-01-09"
-categories: Recommendation
-tags: Ethics in research
+categories:
+- Recommendation
+tags:
+- Ethics in research
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: How to Use Deming's 14 Points to Improve Quality"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fourteen-points/"
 date: "2019-02-14"
-categories: Recommendation
-tags: Quality improvement
+categories:
+- Recommendation
+tags:
+- Quality improvement
 output: html_document
 ---
 

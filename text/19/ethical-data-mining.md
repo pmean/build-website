@@ -3,8 +3,10 @@ title: "Recommendation: Ethical Practice in Data Mining"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ethical-data-mining/"
 date: "2019-04-01"
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 

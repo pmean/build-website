@@ -3,8 +3,10 @@ title: "Recommendation: Writing a discussion section: how to integrate substanti
 author: "Steve Simon"
 source: "http://blog.pmean.com/discussion-section/"
 date: "2019-04-16"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

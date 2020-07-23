@@ -3,14 +3,18 @@ title: Inputting a two-by-two table into SPSS
 author: Steve Simon
 source: http://www.pmean.com/99/table.html
 date: 1999-09-18
-categories: Blog post
-tags: Data management, SPSS software
+categories:
+- Blog post
+tags:
+- Data management
+- SPSS software
 output: html_document
 ---
 ****[StATS]:** Inputting a two-by-two table into
 SPSS (created 1999-09-18)**
 
-*Dear Professor Mean, I have the following data in a two by two table:*
+*Dear Professor Mean
+- I have the following data in a two by two table:*
 
 ::: {align="left"}
   ----------- --------- --------- -----------
@@ -21,7 +25,8 @@ SPSS (created 1999-09-18)**
   ----------- --------- --------- -----------
 :::
 
-*When I try to enter this data into SPSS, I can't get it to compute
+*When I try to enter this data into SPSS
+- I can't get it to compute
 risk ratios and confidence intervals. What am I doing wrong? -- Jinxed
 Jason*
 
@@ -31,7 +36,8 @@ You have values ranging from F- to D+? I hope this isn't data on the
 grades you received in college.
 
 Actually these data are from a paper: Sands et al (1999). F+
-represents presence of a risk factor (in this case, previous
+represents presence of a risk factor (in this case
+- previous
 miscarriage) and F- represents absence of that risk factor. D+
 represents presence of a defect (ventricular septal defect or VSD) and
 D- represents absence of that defect.
@@ -59,26 +65,36 @@ D- represents absence of that defect.
 :::
 
 Notice that we have to do a bit of arithmetic to get all the values.
-**If 34 out of 173 VSD cases had a previous miscarriage, then
+**If 34 out of 173 VSD cases had a previous miscarriage
+- then
 139=173-34 did not. If 23 out of 142 controls had previous miscarriage
-as a risk factor, then 119 did not.**
+as a risk factor
+- then 119 did not.**
 
-For data like this, you have to re-arrange things and then apply
-weights. The following discussion talks about SPSS, but the general
+For data like this
+- you have to re-arrange things and then apply
+weights. The following discussion talks about SPSS
+- but the general
 method works for most other statistical software.
 
-To re-arrange the data, you need to specify three variables: F, D, and
+To re-arrange the data
+- you need to specify three variables: F
+- D
+- and
 COUNT. **F takes the value of 1 for F+ and 0 for F-. D takes the value
 of 1 for D+ and 0 for D-**. The 0-1 coding has some nice mathematical
-properties, but you could use 1 and 2 instead. **For each combination
+properties
+- but you could use 1 and 2 instead. **For each combination
 of F and D we will record the sample size in COUNT**.
 
 Here's what your re-arranged data would look like
 
 ![](../../../web/images/99/table01.gif)
 
-**Enter the data, and tell SPSS that W represents a weighting
-variable**, and you're ready to rock and roll. You do this by
+**Enter the data
+- and tell SPSS that W represents a weighting
+variable**
+- and you're ready to rock and roll. You do this by
 selecting **Data | Weight Cases from the SPSS menu.**
 
 ![](../../../web/images/99/table02.gif)
@@ -94,11 +110,13 @@ option box** to ask SPSS to compute the risk ratios.
 ![](../../../web/images/99/table04.gif)
 
 I also usually find it useful to display the row percentages. To do
-this, click on the **Cells button**.
+this
+- click on the **Cells button**.
 
 ![](../../../web/images/99/table05.gif)
 
-In the **Crosstabs: Cell Display dialog box**, select the **Row
+In the **Crosstabs: Cell Display dialog box**
+- select the **Row
 Percentages option box**.
 
 Here's what the first part of the output looks like.
@@ -106,16 +124,20 @@ Here's what the first part of the output looks like.
 ![](../../../web/images/99/table06.gif)
 
 Notice that the rows and columns are reversed in this table. There are
-several ways to change how the table is displayed, but it is showing
+several ways to change how the table is displayed
+- but it is showing
 essentially the same information in any order.
 
 Here is what the second part of the output looks like.
 
 ![](../../../web/images/99/table07.gif)
 
-By the way, if you tried to use the crosstabs procedure without
-weighting, you would get exactly one observation in each cell. Pretty
-boring, eh?
+By the way
+- if you tried to use the crosstabs procedure without
+weighting
+- you would get exactly one observation in each cell. Pretty
+boring
+- eh?
 
 ![](../../../web/images/99/table08.gif)
 
@@ -136,14 +158,20 @@ the **Risk and/or Chi-square option boxes**.
 **Further reading**
 
 1.  **Incidence and risk factors for ventricular septal defect in "low
-    risk" neonates.** Sands AJ, Casey F, Craig B, Dornan J, Rogers J
+    risk" neonates.** Sands AJ
+- Casey F
+- Craig B
+- Dornan J
+- Rogers J
     and Mulholland H. Arch Dis Child Fetal Neonatal Ed
     1999:81(1);F61-F63. This paper is [available on the
     web](http://adc.bmjjournals.com/cgi/content/full/fetalneonatal;81/1/F61).
 
 This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
+reproducing it here as a service
+- as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data
@@ -155,15 +183,19 @@ management](../category/DataManagement.html) or [Category: SPSS
 for pages similar to this one at [Category: Data
 with [general help resources](../GeneralHelp.html). You can also browse
 Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service
+- as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
 This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Inputting a two-by-two table into
 This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
+reproducing it here as a service
+- as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Data

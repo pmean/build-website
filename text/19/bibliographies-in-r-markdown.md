@@ -3,13 +3,18 @@ title: "Recommendation: Bibliographies and citations (in R Markdown)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bibliographies-in-r-markdown/"
 date: "2019-04-18"
-categories: Recommendation
-tags: Presenting research data, R software, Writing research papers
+categories:
+- Recommendation
+tags:
+- Presenting research data
+- R software
+- Writing research papers
 output: html_document
 ---
 
 If you want to use R Markdown to prepare research papers and
-presentations, you need to learn how to cite references and include a
+presentations
+- you need to learn how to cite references and include a
 bibliography. This is a nice introduction and shows the variety of
 options at your fingertips.
 

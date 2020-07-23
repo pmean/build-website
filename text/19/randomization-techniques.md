@@ -3,8 +3,10 @@ title: "Recommendation: An overview of randomization techniques"
 author: "Steve Simon"
 source: "http://blog.pmean.com/randomization-techniques/"
 date: "2019-02-05"
-categories: Recommendation
-tags: Randomization
+categories:
+- Recommendation
+tags:
+- Randomization
 output: html_document
 ---
 

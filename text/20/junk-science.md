@@ -2,8 +2,10 @@
 title: "Constructing sound science and good epidemiology: tobacco, lawyers, and public relations firms"
 source: "New"
 date: "2020-05-24"
-categories: Recommended
-tags: Observational studies
+categories:
+- Recommended
+tags:
+- Observational studies
 output: html_document
 ---
 

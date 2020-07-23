@@ -3,8 +3,10 @@ title: "Recommendation: What would Florence Nightingale make of big data?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nightingale-big-data/"
 date: "2019-04-17"
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 

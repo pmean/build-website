@@ -3,8 +3,10 @@ title: "Recommendation: Scientists' grant writing styles vary by gender"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grant-writing-styles/"
 date: "2019-05-09"
-categories: Recommendation
-tags: Grant writing
+categories:
+- Recommendation
+tags:
+- Grant writing
 output: html_document
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: "Florida fired its coronavirus data scientist. Now she<U+FFFD>s publishing the statistics on her own."
 source: "New"
-date:2020-06-13"
-categories: Recommendation
-tags: Ordinal data
+date: "2020-06-13"
+categories:
+- Recommendation
+tags:
+- Ordinal data
 output: html_document
 ---
 

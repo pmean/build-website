@@ -3,8 +3,10 @@ title: "PMean: Some interesting quality improvement resources"
 author: "Steve Simon"
 source: "http://blog.pmean.com/qi-resources/"
 date: "2018-05-13"
-categories: Blog post
-tags: Quality improvement
+categories:
+- Blog post
+tags:
+- Quality improvement
 output: html_document
 ---
 

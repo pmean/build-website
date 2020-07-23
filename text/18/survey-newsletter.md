@@ -3,8 +3,10 @@ title: "Recommendation: The Survey Statistician newsletter"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-newsletter/"
 date: "2018-01-30"
-categories: Recommendation
-tags: Survey design
+categories:
+- Recommendation
+tags:
+- Survey design
 output: html_document
 ---
 

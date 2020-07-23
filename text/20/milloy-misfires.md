@@ -2,8 +2,11 @@
 title: "Steve Milloy misfires"
 source: "New"
 date: "2020-05-24"
-categories: Recommendation
-tags: Critical appraisal, Observational studies
+categories:
+- Recommendation
+tags:
+- Critical appraisal
+- Observational studies
 output: html_document
 ---
 

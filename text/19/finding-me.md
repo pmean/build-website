@@ -3,8 +3,10 @@ title: "PMean: Finding me on the Internet"
 author: "Steve Simon"
 source: "http://blog.pmean.com/finding-me/"
 date: "2019-05-15"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

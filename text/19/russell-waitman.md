@@ -3,8 +3,10 @@ title: "Recommendation: Dr. Russell Waitman. Innovation: Breaking the Barriers o
 author: "Steve Simon"
 source: "http://blog.pmean.com/russell-waitman/"
 date: "2019-02-12"
-categories: Recommendation
-tags: Professional details
+categories:
+- Recommendation
+tags:
+- Professional details
 output: html_document
 ---
 

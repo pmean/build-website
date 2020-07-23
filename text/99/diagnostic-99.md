@@ -3,12 +3,15 @@ title: Meta-analysis for a diagnostic
 author: Steve Simon
 source: http://www.pmean.com/99/diagnostic-99.html
 date: 1999-11-15
-categories: Blog post
-tags: Diagnostic testing
+categories:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
 
-There is no real consensus yet on how to best combine data from several studies of a diagnostic test. I will outline a few approaches that seem to make sense. In addition to this page, I have a [general overview on meta-analysis](metaanalysis.html) and a non-technical introduction on the [practical interpretation of a meta-analysis](../12a/journal/meta-analysis.asp).
+There is no real consensus yet on how to best combine data from several studies of a diagnostic test. I will outline a few approaches that seem to make sense. In addition to this page
+- I have a [general overview on meta-analysis](metaanalysis.html) and a non-technical introduction on the [practical interpretation of a meta-analysis](../12a/journal/meta-analysis.asp).
 
 <!---More--->
 
@@ -16,7 +19,9 @@ There is no real consensus yet on how to best combine data from several studies 
 
 The simplest overall estimate of sensitivity (sens) or specificity
 (spec) is to just combine all the studies in a pot and stir. Just
-count the number of true positives (tp), false negatives (fn), true
+count the number of true positives (tp)
+- false negatives (fn)
+- true
 negatives (tn) and false positives (fp) in each study. The overall
 sensitivity would have the sum of the individual true positive values
 in the numerator and the sum of the individual true positive plus
@@ -36,7 +41,8 @@ individual study.
 
 A first attempt might be to define the standard error of an individual
 study using the classic binomial formula. Writing the standard error
-in terms of true positive and false negative values, you would get
+in terms of true positive and false negative values
+- you would get
 
 ![](../../../web/images/99/diagnostic-9902.gif)
 
@@ -47,22 +53,28 @@ larger than 50%. Another problem occurs when one or more of the
 sensitivities is 100%. The standard error using a binomial
 distribution equals zero for those studies with 100% sensitivity,
 which seems at first like a good thing. But when one study has  
-standard error of zero, the meta-analysis model will try to give it an
-infinite weight, which is not at all a good thing.
+standard error of zero
+- the meta-analysis model will try to give it an
+infinite weight
+- which is not at all a good thing.
 
 One way to avoid some of these problems is to estimate the standard
-error, not using the individual sensitivities, but the overall
+error
+- not using the individual sensitivities
+- but the overall
 sensitivity.
 
 ![](../../../web/images/99/diagnostic-9903.gif)
 
-Since the numerator is now the same for every study, you no longer
+Since the numerator is now the same for every study
+- you no longer
 have the problem where studies with sensitivities near 50% get much
 smaller weights than studies with sensitivities much smaller or much
 larger than 50%. This approach also avoids the problem when a study
 has 100% sensitivity.
 
-It's interesting to note that, the overall estimate and the standard
+It's interesting to note that
+- the overall estimate and the standard
 error for the overall sensitivity using this particular meta-analysis
 model with a fixed effects estimate matches perfectly with the
 traditional binomial confidence interval that you might apply. This is
@@ -74,7 +86,8 @@ which implies that
 
 ![](../../../web/images/99/diagnostic-9905.gif)
 
-For a random effects model, the results are a little more complicated
+For a random effects model
+- the results are a little more complicated
 and they do not exactly match the traditional binomial confidence
 interval formula.
 
@@ -99,7 +112,8 @@ and here is the R code to read in an compute the meta-analysis models.
 
 `library(meta)   f0 <- "X:/webdata/EndovaginalUltrasonography.csv"   deeks.example.dat <- read.csv(f0)   attach(deeks.example.dat)   sens <- tp / (tp + fn)   sens.overall <- sum(tp) / sum(tp + fn)   spec <- tn / (tn + fp)   spec.overall <- sum(tn) / sum(tn + fp)      par(mar=c(5.1,4.1,0.1,0.1))   plot(1-spec,sens,xlim=0:1,ylim=0:1)   points(1-spec.overall,sens.overall,pch="+",cex=2)`
 
-The last three lines create a graph of the data, which is shown below.
+The last three lines create a graph of the data
+- which is shown below.
 The par() function adjusts the margins of the graph to make more
 effective use of the available space on the screen. The plot()
 function creates the axes and draws a circle at each individual sens,
@@ -108,25 +122,37 @@ estimate.
 
 ![](../../../web/images/99/diagnostic-9906.gif)
 
-Plotting 1-spec on the x-axis, which seems odd, but it is intended to
-have the same orientation as an ROC curve. In fact, this plot is often
+Plotting 1-spec on the x-axis
+- which seems odd
+- but it is intended to
+have the same orientation as an ROC curve. In fact
+- this plot is often
 called an SROC (Summary Receiver Operating Characteristic) plot.
 
 I experimented with trying to show the confidence limits for each
-study in the graph itself, by drawing rectangles with the width
+study in the graph itself
+- by drawing rectangles with the width
 representing confidence limits for 1-spec and the height representing
-confidence limits for sens. Unfortunately, this graph was too
+confidence limits for sens. Unfortunately
+- this graph was too
 cluttered to be useful.
 
 The computations for the actual meta-analysis are shown below. The
-code is a bit cryptic perhaps, but I am using "te" as an
+code is a bit cryptic perhaps
+- but I am using "te" as an
 abbreviation for "treatment effect" and "se" as an abbreviation
 for "standard error." The metagen() function has similar notation.
 The only thing that is a bit confusing perhaps is the sm= portion. The
 letters "sm" stand for "summary measure. This is a label that
 metagen uses to make the output look nicer.
 
-`te1 <- sens   se1 <- sqrt(sens.overall * (1 - sens.overall) / (tp + fn))   deeks1.ma <- metagen(TE=te1, seTE=se1, studlab=study, sm="Sensitivity")   te2 <- spec   se2 <- sqrt(spec.overall * (1 - spec.overall) / (tn + fp))   deeks2.ma <- metagen(TE=te2, seTE=se2, studlab=study, sm="Specificity")`
+`te1 <- sens   se1 <- sqrt(sens.overall * (1 - sens.overall) / (tp + fn))   deeks1.ma <- metagen(TE=te1
+- seTE=se1
+- studlab=study
+- sm="Sensitivity")   te2 <- spec   se2 <- sqrt(spec.overall * (1 - spec.overall) / (tn + fp))   deeks2.ma <- metagen(TE=te2
+- seTE=se2
+- studlab=study
+- sm="Specificity")`
 
 and here is the output
 
@@ -142,37 +168,45 @@ log odds scale before entering the data into a meta-analysis model.
 The log odds transformation is a common transformation for binomial
 data and serves as the heart of a logistic regression model. The
 standard error for the log odds sensitivity has a nice simple
-approximation. To derive this, you have to remember a simple formula
+approximation. To derive this
+- you have to remember a simple formula
 about variances of a function.
 
 ![](../../../web/images/99/diagnostic-9907.gif)
 
 This formula relies on two things you forgot from your days of
-calculus, how to take a derivative and how to apply a Taylor series
+calculus
+- how to take a derivative and how to apply a Taylor series
 expansion.
 
-The details are tedious, but not difficult. When you use this formula
-on the log odds function, you get the following approximation.
+The details are tedious
+- but not difficult. When you use this formula
+on the log odds function
+- you get the following approximation.
 
 ![](../../../web/images/99/diagnostic-9908.gif)
 
 Compare this to the standard error for sensitivity shown above. The
 numerator for the standard error has now moved in with its downstairs
-neighbor, leaving the upstairs empty. For the log odds for
-sensitivity, this the opposite problem from the sensitivity. Studies
+neighbor
+- leaving the upstairs empty. For the log odds for
+sensitivity
+- this the opposite problem from the sensitivity. Studies
 with sensitivity close to 50% have greater weight on the log odds
 scale than studies with sensitivity larger than 50%.
 
 You can simplify this formula further. Note that the denominator of
 sens~i~ can cancel out the tp~i~+fn~i~ term right next to it. With a
-bit more algebra, you can get
+bit more algebra
+- you can get
 
 ![](../../../web/images/99/diagnostic-9909.gif)
 
 The log odds transformation also has some problems when the
 sensitivity is 100%. A simple fix is to add an arbitrary constant
 (usually 0.5) to both the numerator and denominator. Another approach
-would be to use the more complex formula listed above, but substitute
+would be to use the more complex formula listed above
+- but substitute
 the overall sensitivity for the individual sensitivity.
 
 Example: Let's use the example in Deeks 2001 again. Here is the R
@@ -189,11 +223,13 @@ output because the results of individual studies are not shown.
 You need to do a few additional calculations to get sensitivity
 transformed back to the original measurement scale. You can define a
 function in R to do this calculation for you. I call it the expit
-function, which is the inverse of the logit function.
+function
+- which is the inverse of the logit function.
 
 `expit <- function(log.odds) {exp(log.odds)/(1+exp(log.odds))}`
 
-With this function, you can now take the estimates and confidence
+With this function
+- you can now take the estimates and confidence
 limits on the log odds scale and transform them back to the original
 scale.
 
@@ -203,12 +239,14 @@ The estimated sensitivity and 95% confidence limits under the fixed
 effects model are 92.3% (88.7% to 94.8%). The estimates and limits
 change only slightly under than random effects model. The estimated
 specificity and 95% confidence limits under the fixed effect model are
-39.5% (37.7% to 41.3%). Under the random effects model, the estimate
+39.5% (37.7% to 41.3%). Under the random effects model
+- the estimate
 is a bit lower and the confidence limits are much wider.
 
 **Analysis of the diagnostic odds ratio**
 
-A third approach is to compute the diagnostic odds ratio, which
+A third approach is to compute the diagnostic odds ratio
+- which
 compares the odds for sensitivity to the odds for specificity.
 
 ![](../../../web/images/99/diagnostic-9910.gif)
@@ -223,12 +261,16 @@ approaches for combining multiple odds ratios. The other advantage is
 that is analyzes sensitivity and specificity as a pair. Some studies
 may exhibit heterogeneity in the individual sensitivity or specificity
 values because one researcher may have tried to maximize sensitivity
-at the expense of specificity, another may have tried to maximize
-specificity at the expense of sensitivity, and a third may have tried
-to balance the two. If there is heterogeneity, then the overall
+at the expense of specificity
+- another may have tried to maximize
+specificity at the expense of sensitivity
+- and a third may have tried
+to balance the two. If there is heterogeneity
+- then the overall
 estimates of sensitivity and specificity may be too low.
 
-Although there are no guarantees, the diagnostic odds ratio should
+Although there are no guarantees
+- the diagnostic odds ratio should
 exhibit less heterogeneity. The problem with the diagnostic odds ratio
 is that no one has a very good feel on what it actually represents.
 One way of thinking about the diagnostic odds ratio is to swap a
@@ -237,8 +279,11 @@ couple of terms in the fraction.
 ![](../../../web/images/99/diagnostic-9911.gif)
 
 So you might interpret the diagnostic odds ratio as the spread between
-the two likelihood ratios. If, for example, the likelihood ratio for a
-positive test is 10 and is 0.5 for a negative test, then there is a 20
+the two likelihood ratios. If
+- for example
+- the likelihood ratio for a
+positive test is 10 and is 0.5 for a negative test
+- then there is a 20
 fold change. Another way of interpreting this is that the post-test
 odds would be 20 fold higher for a positive test than for a negative
 test.
@@ -250,7 +295,8 @@ regression model
 ![](../../../web/images/99/diagnostic-9912.gif)
 
 You might recognize D as the diagnostic odds ratio. The variable S is
-a bit harder to visualize, but you can rewrite it as
+a bit harder to visualize
+- but you can rewrite it as
 
 ![](../../../web/images/99/diagnostic-9913.gif)
 
@@ -262,8 +308,10 @@ studies skew more towards sensitivity and others more towards
 specificity. Imagine a diagnostic test that takes on a range of
 values. This test follows a bell shaped curve both in the diseased and
 the healthy populations and the two bell curves are set two standard
-deviations apart. You could set a cutpoint to maximize specificity, to
-maximize sensitivity, or something in between.
+deviations apart. You could set a cutpoint to maximize specificity
+- to
+maximize sensitivity
+- or something in between.
 
 This series of graphs shows what happens across a range of cutpoints.
 
@@ -289,19 +337,25 @@ This series of graphs shows what happens across a range of cutpoints.
 
 ![](../../../web/images/99/diagnostic-9924.gif)
 
-When you graph the data on an SROC plot, you get a nice distribution
-of values. Notice, however, that the average of all these
+When you graph the data on an SROC plot
+- you get a nice distribution
+of values. Notice
+- however
+- that the average of all these
 sensitivities and specificities is pushed further away from the upper
 left hand corner than any of the individual sensitivity/specificity
 pairs.
 
 ![](../../../web/images/99/diagnostic-9925.gif)
 
-By fitting a model to the diagnostic odds ratio, and assessing
-heterogeneity in that odds ratio, you hope to avoid this obvious
+By fitting a model to the diagnostic odds ratio
+- and assessing
+heterogeneity in that odds ratio
+- you hope to avoid this obvious
 underestimate of sensitivity and specificity.
 
-When you fit the regression model, you are hoping is that the slope
+When you fit the regression model
+- you are hoping is that the slope
 term is zero. That tells you that the estimated intercept is a valid
 estimate across the range of S values.
 
@@ -324,7 +378,9 @@ abline(unweighted.regression)
 abline(weighted.regression,lty=2)`
 ```
 
-For this data set, it appears that there is a non-zero slope, which
+For this data set
+- it appears that there is a non-zero slope
+- which
 makes interpretation of the combined diagnostic odds ratio
 problematic.
 
@@ -335,7 +391,8 @@ problematic.
 **Additional reading**
 
 -   **Reporting of measures of accuracy in systematic reviews of
-    diagnostic literature.** Honest H, Khan KS. BMC Health Serv Res
+    diagnostic literature.** Honest H
+- Khan KS. BMC Health Serv Res
     2002: 2(1); 4.
     [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11884248&dopt=Abstract)
     [Abstract]](http://www.biomedcentral.com/1472-6963/2/4/abstract)
@@ -343,8 +400,14 @@ problematic.
     [PDF]](http://www.biomedcentral.com/content/pdf/1472-6963-2-4.pdf)
     
 -   **Conducting systematic reviews of diagnostic studies: didactic
-    guidelines.** Deville WL, Buntinx F, Bouter LM, Montori VM, De Vet
-    HC, Van Der Windt DA, Bezemer P. BMC Med Res Methodol 2002: 2(1); 9.
+    guidelines.** Deville WL
+- Buntinx F
+- Bouter LM
+- Montori VM
+- De Vet
+    HC
+- Van Der Windt DA
+- Bezemer P. BMC Med Res Methodol 2002: 2(1); 9.
     [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12097142&dopt=Abstract)
     [Abstract]](http://www.biomedcentral.com/1471-2288/2/9/abstract)
     [Full text]](http://www.biomedcentral.com/1471-2288/2/9)

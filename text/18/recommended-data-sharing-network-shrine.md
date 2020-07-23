@@ -3,8 +3,10 @@ title: "Recommendation: Data Sharing Network (SHRINE)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/recommended-data-sharing-network-shrine/"
 date: "2018-04-10"
-categories: Recommendation
-tags: Informatics
+categories:
+- Recommendation
+tags:
+- Informatics
 output: html_document
 ---
 

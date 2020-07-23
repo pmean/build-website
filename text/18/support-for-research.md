@@ -3,8 +3,10 @@ title: "PMean: Draft policy on statistical support for research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/support-for-research/"
 date: "2018-05-10"
-categories: Blog post
-tags: Grant writing
+categories:
+- Blog post
+tags:
+- Grant writing
 output: html_document
 ---
 

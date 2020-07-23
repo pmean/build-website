@@ -3,8 +3,11 @@ title: "Recommendation: R Markdown Basics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-markdown-basics/"
 date: "2019-03-08"
-categories: Recommendation
-tags: R software, Writing research papers
+categories:
+- Recommendation
+tags:
+- R software
+- Writing research papers
 output: html_document
 ---
 
@@ -14,7 +17,8 @@ go from good to great.
 
 <!---More--->
 
-Paul Johnson. R Markdown Basics. Published February 19, 2019. Available
+Paul Johnson. R Markdown Basics. Published February 19
+- 2019. Available
 in [PDF
 format](https://cran.r-project.org/web/packages/stationery/vignettes/Rmarkdown.pdf).
 

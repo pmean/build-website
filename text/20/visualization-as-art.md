@@ -3,8 +3,10 @@ title: "Blog post: Data visualizaiton as art"
 author: "Steve Simon"
 source: "New"
 date: "2020-02-04"
-categories: Blog post
-tags: Graphics
+categories:
+- Blog post
+tags:
+- Graphics
 output: html_document
 ---
 

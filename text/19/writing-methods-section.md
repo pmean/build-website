@@ -3,8 +3,10 @@ title: "PMean: Writing the methods section of a research paper"
 author: "Steve Simon"
 source: "http://blog.pmean.com/writing-methods-section/"
 date: "2019-04-25"
-categories: Blog post
-tags: Writing research papers
+categories:
+- Blog post
+tags:
+- Writing research papers
 output: html_document
 ---
 

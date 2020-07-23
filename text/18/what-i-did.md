@@ -3,8 +3,10 @@ title: "PMean: What I did in the last twelve months"
 author: "Steve Simon"
 source: "http://blog.pmean.com/what-i-did/"
 date: "2018-09-19"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

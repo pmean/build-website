@@ -3,8 +3,10 @@ title: "Recommendation: Census Geocoder"
 author: "Steve Simon"
 source: "http://blog.pmean.com/census-geocoder/"
 date: "2019-03-25"
-categories: Recommendation
-tags: Geocoding
+categories:
+- Recommendation
+tags:
+- Geocoding
 output: html_document
 ---
 

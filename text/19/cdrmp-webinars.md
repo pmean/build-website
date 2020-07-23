@@ -3,8 +3,10 @@ title: "Recommendation: Webinar Series, Congressionally Directed Medical Researc
 author: "Steve Simon"
 source: "http://blog.pmean.com/cdrmp-webinars/"
 date: "2019-03-14"
-categories: Recommendation
-tags: Grant writing
+categories:
+- Recommendation
+tags:
+- Grant writing
 output: html_document
 ---
 

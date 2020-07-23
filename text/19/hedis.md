@@ -3,8 +3,10 @@ title: "Recommendation: HEDIS and Performance Measurement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/hedis/"
 date: "2019-02-04"
-categories: Recommendation
-tags: Quality improvement
+categories:
+- Recommendation
+tags:
+- Quality improvement
 output: html_document
 ---
 

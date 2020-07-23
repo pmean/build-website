@@ -3,8 +3,10 @@ title: "Quote: In a world where the price of calculation continues to decrease r
 author: "Steve Simon"
 source: "http://blog.pmean.com/price-of-calculation/"
 date: "2019-01-20"
-categories: Quote
-tags: Big data
+categories:
+- Quote
+tags:
+- Big data
 output: html_document
 ---
 

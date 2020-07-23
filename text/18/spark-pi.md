@@ -3,8 +3,10 @@ title: "Recommendation: 1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3
 author: "Steve Simon"
 source: "http://blog.pmean.com/spark-pi/"
 date: "2018-10-23"
-categories: Recommendation
-tags: Cluster computing
+categories:
+- Recommendation
+tags:
+- Cluster computing
 output: html_document
 ---
 

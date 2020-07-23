@@ -3,8 +3,10 @@ title: "Recommendation: Harvard University Program on Survey Research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-research/"
 date: "2019-03-23"
-categories: Recommendation
-tags: Survey design
+categories:
+- Recommendation
+tags:
+- Survey design
 output: html_document
 ---
 

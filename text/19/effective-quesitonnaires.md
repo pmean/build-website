@@ -3,8 +3,10 @@ title: "Recommendation: Hints for designing effective questionnaires"
 author: "Steve Simon"
 source: "http://blog.pmean.com/effective-quesitonnaires/"
 date: "2019-01-14"
-categories: Blog post
-tags: Survey design
+categories:
+- Blog post
+tags:
+- Survey design
 output: html_document
 ---
 

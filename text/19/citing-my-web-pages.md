@@ -3,8 +3,10 @@ title: "PMean: Citing one of my web pages"
 author: "Steve Simon"
 source: "http://blog.pmean.com/citing-my-web-pages/"
 date: "2019-01-15"
-categories: Blog post
-tags: Writing research papers
+categories:
+- Blog post
+tags:
+- Writing research papers
 output: html_document
 ---
 
