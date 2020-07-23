@@ -3,8 +3,10 @@ title: Information Theory
 author: Steve Simon
 source: http://www.pmean.com/04/information-99.html
 date: 2004-05-10
-categories: Blog post
-tags: Information theory
+categories:
+- Blog post
+tags:
+- Information theory
 output: html_document
 ---
 ****[StATS]:** Information Theory (May 10, 2004)**

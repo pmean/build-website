@@ -3,8 +3,10 @@ title: Quality control exercises, Part 2
 author: Steve Simon
 source: http://www.pmean.com/05/QualityControlExercsiesPart2.html
 date: 2005-10-05
-categories: Blog post
-tags: Quality control
+categories:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
 **[StATS]: Quality control exercises, Part 2

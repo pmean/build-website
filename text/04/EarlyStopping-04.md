@@ -3,8 +3,10 @@ title: Early stopping
 author: Steve Simon
 source: http://www.pmean.com/04/EarlyStopping-04.html
 date: 2004-07-01
-categories: Blog post
-tags: Early stopping
+categories:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
 **[StATS]: Early stopping (July 1, 2004)**

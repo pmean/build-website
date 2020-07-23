@@ -3,8 +3,10 @@ title: S-shaped curves
 author: Steve Simon
 source: http://www.pmean.com/04/scurve-04.html
 date: 2004-02-12
-categories: Blog post
-tags: Nonlinear regression
+categories:
+- Blog post
+tags:
+- Nonlinear regression
 output: html_document
 ---
 ****[StATS]:** S-shaped curves (created

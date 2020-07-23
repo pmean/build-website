@@ -3,8 +3,10 @@ title: The HapMap project
 author: Steve Simon
 source: http://www.pmean.com/05/HapMap.html
 date: 2005-12-12
-categories: Blog post
-tags: Information theory
+categories:
+- Blog post
+tags:
+- Information theory
 output: html_document
 ---
 **[StATS]: The HapMap project (December 12, 2005)**

@@ -3,8 +3,10 @@ title: Microsoft Excel Pivot Tables
 author: Steve Simon
 source: http://www.pmean.com/04/pivot.html
 date: 2004-08-05
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]: Microsoft Excel Pivot Tables (August 5,

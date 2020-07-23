@@ -3,8 +3,10 @@ title: Provisional means algorithm
 author: Steve Simon
 source: http://www.pmean.com/04/ProvisionalMeans.html
 date: 2004-07-09
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]: Provisional means algorithm (July 9,

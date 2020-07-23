@@ -3,8 +3,10 @@ title: Sample size for a diagnostic test
 author: Steve Simon
 source: http://www.pmean.com/04/SampleSizeDiagnostic.html
 date: 2004-07-05
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]: Sample size for a diagnostic test (July

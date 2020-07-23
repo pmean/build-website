@@ -3,8 +3,10 @@ title: Goodness of fit test
 author: Steve Simon
 source: http://www.pmean.com/04/goodness.html
 date: 2004-05-18
-categories: Blog post
-tags: Measuring agreement
+categories:
+- Blog post
+tags:
+- Measuring agreement
 output: html_document
 ---
 **[StATS]: Goodness of fit test (May 18, 2004)**.

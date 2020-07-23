@@ -3,8 +3,10 @@ title: Neyman bias
 author: Steve Simon
 source: http://www.pmean.com/04/NeymanBias.html
 date: 2004-12-15
-categories: Blog post
-tags: Measuring benefit and risk
+categories:
+- Blog post
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
 **[StATS]: Neyman bias (December 15, 2004)**.

@@ -3,8 +3,10 @@ title: Cluster randomization
 author: Steve Simon
 source: http://www.pmean.com/03/cluster-03.html
 date: 2003-05-09
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 ****[StATS]:** Cluster randomization (May 9, 2003)**

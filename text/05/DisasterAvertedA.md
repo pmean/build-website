@@ -3,8 +3,10 @@ title: Another disaster averted
 author: Steve Simon
 source: http://www.pmean.com/05/DisasterAvertedA.html
 date: 2005-08-16
-categories: Blog post
-tags: Data management
+categories:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Another disaster averted (August 16,

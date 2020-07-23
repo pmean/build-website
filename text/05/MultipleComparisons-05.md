@@ -3,8 +3,10 @@ title: Step-down procedures for multiple comparisons
 author: Steve Simon
 source: http://www.pmean.com/05/MultipleComparisons-05.html
 date: 2005-06-16
-categories: Blog post
-tags: 
+categories:
+- Blog post
+tags:
+- 
 output: html_document
 ---
 

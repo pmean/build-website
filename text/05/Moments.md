@@ -3,8 +3,10 @@ title: Expected value and moments
 author: Steve Simon
 source: http://www.pmean.com/05/Moments.html
 date: 2005-07-29
-categories: Blog post
-tags: Probability concepts
+categories:
+- Blog post
+tags:
+- Probability concepts
 output: html_document
 ---
 **[StATS]: Expected value and moments (July 29,

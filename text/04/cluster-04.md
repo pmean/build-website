@@ -3,8 +3,10 @@ title: Sample size for cluster randomized trials
 author: Steve Simon
 source: http://www.pmean.com/04/cluster-04.html
 date: 2004-11-30
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]: Sample size for cluster randomized trials

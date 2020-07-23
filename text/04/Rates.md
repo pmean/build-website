@@ -3,8 +3,10 @@ title: Rates versus proportions
 author: Steve Simon
 source: http://www.pmean.com/04/Rates.html
 date: 2004-09-15
-categories: Blog post
-tags: Confidence intervals
+categories:
+- Blog post
+tags:
+- Confidence intervals
 output: html_document
 ---
 **[StATS]: Rates versus proportions (created

@@ -3,8 +3,10 @@ title: Cumulative meta-analysis
 author: Steve Simon
 source: http://www.pmean.com/05/CumulativeMetaanalysis.html
 date: 2005-03-11
-categories: Blog post
-tags: Systematic overviews
+categories:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
 **[StATS]:** **Cumulative meta-analysis (March 11,

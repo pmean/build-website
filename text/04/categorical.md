@@ -3,8 +3,10 @@ title: Categorical variables in a logistic regression model
 author: Steve Simon
 source: http://www.pmean.com/04/categorical.html
 date: 2004-06-01
-categories: Blog post
-tags: Logistic regression
+categories:
+- Blog post
+tags:
+- Logistic regression
 output: html_document
 ---
 **[StATS]: Categorical variables in a logistic

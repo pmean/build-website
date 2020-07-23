@@ -3,8 +3,10 @@ title: Randomization test
 author: Steve Simon
 source: http://www.pmean.com/04/randomization.html
 date: 2004-07-14
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 **[StATS]: Randomization test (July 14, 2004)**.

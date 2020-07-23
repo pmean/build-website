@@ -3,8 +3,10 @@ title: McNemar's Test
 author: Steve Simon
 source: http://www.pmean.com/04/mcnemar.html
 date: 2004-06-17
-categories: Blog post
-tags: Unusual data
+categories:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
 **[StATS]: McNemar's Test (June 17, 2004)**.

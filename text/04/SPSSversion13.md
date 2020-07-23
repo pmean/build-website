@@ -3,8 +3,10 @@ title: New in SPSS version 13.0
 author: Steve Simon
 source: http://www.pmean.com/04/SPSSversion13.html
 date: 2004-12-07
-categories: Blog post
-tags: SPSS software
+categories:
+- Blog post
+tags:
+- SPSS software
 output: html_document
 ---
 **[StATS]: New in SPSS version 13.0 (December 7,

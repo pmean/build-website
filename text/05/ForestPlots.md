@@ -3,8 +3,10 @@ title: Forest plots
 author: Steve Simon
 source: http://www.pmean.com/05/ForestPlots.html
 date: 2005-01-12
-categories: Blog post
-tags: Systematic overviews
+categories:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
 **[StATS]:** **Forest plots (January 12, 2005)**

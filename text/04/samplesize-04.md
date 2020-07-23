@@ -3,8 +3,10 @@ title: Sample size calculation example
 author: Steve Simon
 source: http://www.pmean.com/04/samplesize-04.html
 date: 2004-05-20
-categories: Blog post
-tags: Sample size justification
+categories:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]: Sample size calculation example (May 20,

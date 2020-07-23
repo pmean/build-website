@@ -3,8 +3,10 @@ title: Information content of a continuous distribution
 author: Steve Simon
 source: http://www.pmean.com/05/InformationTheoryB.html
 date: 2005-08-01
-categories: Blog post
-tags: Information searching
+categories:
+- Blog post
+tags:
+- Information searching
 output: html_document
 ---
 **[StATS]:** **Information content of a continuous

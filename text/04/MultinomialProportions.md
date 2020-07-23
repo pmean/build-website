@@ -3,8 +3,10 @@ title: Testing multinomial proportions
 author: Steve Simon
 source: http://www.pmean.com/04/MultinomialProportions.html
 date: 2004-11-09
-categories: Blog post
-tags: Probability concepts
+categories:
+- Blog post
+tags:
+- Probability concepts
 output: html_document
 ---
 **[StATS]: Testing multinomial proportions (November

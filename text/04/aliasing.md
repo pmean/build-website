@@ -3,8 +3,10 @@ title: Aliasing patterns
 author: Steve Simon
 source: http://www.pmean.com/04/aliasing.html
 date: 2004-07-19
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]: Aliasing patterns (July 19, 2004)**.

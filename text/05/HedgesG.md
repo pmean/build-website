@@ -3,8 +3,10 @@ title: Hedge's G
 author: Steve Simon
 source: http://www.pmean.com/05/HedgesG.html
 date: 2005-05-13
-categories: Blog post
-tags: Systematic overviews
+categories:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
 **[StATS]:** **Hedge's G (May 13, 2005)**

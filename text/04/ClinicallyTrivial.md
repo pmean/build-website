@@ -3,8 +3,10 @@ title: Clinically trivial effects
 author: Steve Simon
 source: http://www.pmean.com/04/ClinicallyTrivial.html
 date: 2004-04-12
-categories: Blog post
-tags: Clinical importance
+categories:
+- Blog post
+tags:
+- Clinical importance
 output: html_document
 ---
 **[StATS]: Clinically trivial effects (created

@@ -3,8 +3,10 @@ title: A surprising application of the harmonic mean
 author: Steve Simon
 source: http://www.pmean.com/05/HarmonicMean.html
 date: 2005-02-01
-categories: Blog post
-tags: Statistical theory
+categories:
+- Blog post
+tags:
+- Statistical theory
 output: html_document
 ---
 **[StATS]:** **A surprising application of the

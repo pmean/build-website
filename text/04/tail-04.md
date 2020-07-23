@@ -3,8 +3,10 @@ title: One tailed p-values
 author: Steve Simon
 source: http://www.pmean.com/04/tail-04.html
 date: 2004-04-12
-categories: Blog post
-tags: Pvalues
+categories:
+- Blog post
+tags:
+- Pvalues
 output: html_document
 ---
 ****[StATS]:** One tailed p-values (created

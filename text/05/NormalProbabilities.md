@@ -3,8 +3,10 @@ title: Computing normal probabilities
 author: Steve Simon
 source: http://www.pmean.com/05/NormalProbabilities.html
 date: 2005-05-19
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]: Computing normal probabilities (May 19,

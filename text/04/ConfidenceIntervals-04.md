@@ -3,8 +3,10 @@ title: Confidence intervals for proportions
 author: Steve Simon
 source: http://www.pmean.com/04/ConfidenceIntervals-04.html
 date: 2004-07-27
-categories: Blog post
-tags: Confidence intervals
+categories:
+- Blog post
+tags:
+- Confidence intervals
 output: html_document
 ---
 **[StATS]: Confidence intervals for proportions

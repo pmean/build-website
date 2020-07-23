@@ -3,8 +3,10 @@ title: Digitizing a graph
 author: Steve Simon
 source: http://www.pmean.com/05/DigitizingGraph.html
 date: 2005-03-15
-categories: Blog post
-tags: Data management
+categories:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Digitizing a graph (March 15,

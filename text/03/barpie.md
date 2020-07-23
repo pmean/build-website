@@ -3,15 +3,19 @@ title: Pitch the pie! Ban the bar!
 author: Steve Simon
 source: http://www.pmean.com/03/barpie.html
 date: 2003-06-05
-categories: Blog post
-tags: Descriptive statistics, Graphical display
+categories:
+- Blog post
+tags:
+- Descriptive statistics
+- Graphical display
 output: html_document
 ---
 ****[StATS]:** Pitch the pie! Ban the bar! (June 5,
 2003)**.
 
 *This is an outline of a speech that I gave to Bluejacket Toastmasters
-on June 5, 2003.*
+on June 5
+- 2003.*
 
 *I work a lot with numbers and I've found that there is usually a
 good way to display those numbers and a bad way. Here's an example.*
@@ -28,7 +32,8 @@ Here's another example.
 It's a bar chart with big bold purple bars. Is this a good way to
 display the data? WRONG AGAIN! You should ban the bar.
 
-These charts are useful once in a while, but most of the time all you
+These charts are useful once in a while
+- but most of the time all you
 need is the numbers themselves. You don't have to surround them in a
 cloak of fancy colors and graphic effects. The numbers by themselves
 are often all that you need.
@@ -37,14 +42,16 @@ But you can't just toss the numbers onto a sheet of paper and hope
 that it will work out well. You have to plan things. There are two
 things that can help:
 
-1.  a little bit of rounding, and
+1.  a little bit of rounding
+- and
 2.  a little bit of re-ordering.
 
 **Costs of pet ownership example**
 
 Shown below is a table loosely adapted from a web page on pet care.
 I've taken a few liberties with some of the numbers to simplify this
-discussion, but the numbers are fairly close to the values on that web
+discussion
+- but the numbers are fairly close to the values on that web
 page.
 
   ------------------- ------------ -------- -------------- ---------
@@ -67,12 +74,20 @@ page.
        Misc. Costs^2^        61.56    70.06          43.32           
   ------------------- ------------ -------- -------------- ---------
 
-^1^includes items like cost of the pet, initial shots, litter box,
-collar, aquarium, etc.
+^1^includes items like cost of the pet
+- initial shots
+- litter box,
+collar
+- aquarium
+- etc.
 ^2^yearly cost. This cost will vary based on the size of the pet.
 
-The initial cost would include the cost of the pet, litter box for a
-cat, collar and leash for a dog, aquarium for fish, and so forth.
+The initial cost would include the cost of the pet
+- litter box for a
+cat
+- collar and leash for a dog
+- aquarium for fish
+- and so forth.
 These are also averages and would not apply to someone who gets
 diamond studded collars for their pets. Also the average food cost for
 a small Yorkie is not going to compare the average food cost for a big
@@ -94,11 +109,13 @@ This table needs some work. The first thing is to do some rounding.
 Rounding is important because it reduces the strain on your brain. You
 don't have to work so hard to uncover patterns in the data.
 
-When you look at a table of numbers, the first thing you often do is
+When you look at a table of numbers
+- the first thing you often do is
 to make comparisons. These comparisons often involve an implicit
 subtraction.
 
-For example, you might wonder to yourself "*How much difference is
+For example
+- you might wonder to yourself "*How much difference is
 there between the average vet bills for a dog and for a cat?*"
 
 The respective numbers are
@@ -109,7 +126,13 @@ The respective numbers are
 Take some time to subtract here. This would tell you how much you
 would save on yearly vet bills if you got a cat instead of a dog.
 
-Let's see, four minus eight is ummm, borrow the one, ow, ow, ow, my
+Let's see
+- four minus eight is ummm
+- borrow the one
+- ow
+- ow
+- ow
+- my
 brain hurts.
 
 You can simplify life by rounding the data to one or two significant
@@ -118,16 +141,22 @@ figures. Here are the rounded costs
 320
 190
 
-If I asked you to subtract those two numbers, you should be able to
-tell me the answer quickly and painlessly--130. My wife, an avid dog
-lover, would tell you that dogs are worth every penny!
+If I asked you to subtract those two numbers
+- you should be able to
+tell me the answer quickly and painlessly--130. My wife
+- an avid dog
+lover
+- would tell you that dogs are worth every penny!
 
-When you round, you lose a little bit in precision. In this example,
+When you round
+- you lose a little bit in precision. In this example,
 we're off by about six dollars or so. But the small loss in precision
 is more than made up for by the big gain in comprehension.
 
 People I work with often don't like to round their numbers. It took a
-lot of effort to get that 317.24, by golly, and I don't want to throw
+lot of effort to get that 317.24
+- by golly
+- and I don't want to throw
 any of that away.
 
 Sometimes they will round their numbers but not enough. "*Why can't
@@ -140,20 +169,26 @@ without a problem. Anything more causes an overload and slows things
 down.
 
 A pair of two digit numbers will fit into short term memory very
-easily, but a pair of three digit numbers will not.
+easily
+- but a pair of three digit numbers will not.
 
-In the vet costs example, rounding to three significant figures means
+In the vet costs example
+- rounding to three significant figures means
 rounding to the nearest dollar rather than to the nearest ten spot.
 This leads to the following subtraction.
 
 317
 193
 
-Ow, ow, ow, my brain hurts again.
+Ow
+- ow
+- ow
+- my brain hurts again.
 
 **Re-ordering**
 
-When you arrange these numbers, try to anticipate the possible
+When you arrange these numbers
+- try to anticipate the possible
 comparisons and then place the numbers close to one another. You have
 a choice here. You can orient the numbers horizontally,
 
@@ -179,37 +214,52 @@ one. If you had the smaller one on top
 it doesn't work as well.
 
 Try to sort your numbers from high to low. If you have more than one
-column of numbers, use the first column, use the last column, or use
+column of numbers
+- use the first column
+- use the last column
+- or use
 the average of all the columns. It doesn't matter too much. A few of
-your numbers might not be in perfect order, but these deviations are
-actually interesting, as you will see in the example below.
+your numbers might not be in perfect order
+- but these deviations are
+actually interesting
+- as you will see in the example below.
 
-Sorting by one of the columns will do a lot for your data, and if
+Sorting by one of the columns will do a lot for your data
+- and if
 almost always better than the usual approach of alphabetizing by
 labels.
 
 Have you ever seen a list of numbers for each of the fifty states.
-It's almost always alphabetical, but most of the time this places
+It's almost always alphabetical
+- but most of the time this places
 states next to one another that have almost nothing in common. Alaska
 is always between Alabama and Arkansas. Wisconsin is always between
 West Virginia and Wyoming. There is nothing to recommend this
 approach.
 
-Sure you can find your own state quickly, but then can you find other
+Sure you can find your own state quickly
+- but then can you find other
 states that are similar to your state?
 
 A better approach would be to sort the states by some criteria. List
-the states with the largest square miles at the top (Alaska, Texas,
+the states with the largest square miles at the top (Alaska
+- Texas,
 California) and put the states with the smallest square miles at the
-bottom (Connecticut, Delaware, Rhode Island).
+bottom (Connecticut
+- Delaware
+- Rhode Island).
 
-Or list the states with the most people at the top (California, Texas,
-New York) and with the fewest people at the bottom (Alaska, Vermont,
+Or list the states with the most people at the top (California
+- Texas,
+New York) and with the fewest people at the bottom (Alaska
+- Vermont,
 Wyoming).
 
-**Costs of pet ownership example, reworked**
+**Costs of pet ownership example
+- reworked**
 
-Here is the same table reworked. I rounded each value, and re-oriented
+Here is the same table reworked. I rounded each value
+- and re-oriented
 the table so that the costs for each type of pet fell into the same
 column. I also sorted the numbers based on the initial cost.
 
@@ -240,25 +290,36 @@ column. I also sorted the numbers based on the initial cost.
          Rodents         50          50            50         60
   -------------- ---------- ----------- ------------- ----------
 
-^1^includes items like cost of the pet, initial shots, litter box,
-collar, aquarium, etc.
+^1^includes items like cost of the pet
+- initial shots
+- litter box,
+collar
+- aquarium
+- etc.
 ^2^yearly cost. This cost will vary based on the size of the pet.
 
 This table is a lot easier to look at. You might notice a few new
 patterns that weren't so obvious before.
 
--   Birds, dogs, and cats all have about the same initial cost, but
+-   Birds
+- dogs
+- and cats all have about the same initial cost
+- but
     cats have far smaller yearly costs.
--   Lizards and snakes may not cost a lot at first, but they are
+-   Lizards and snakes may not cost a lot at first
+- but they are
     expensive to feed.
--   Fish don't cost that much to buy and to feed, but have a lot of
-    miscellaneous costs, probably due to aquarium upkeep.
+-   Fish don't cost that much to buy and to feed
+- but have a lot of
+    miscellaneous costs
+- probably due to aquarium upkeep.
 
 You will probably notice other interesting patterns.
 
 **Summary**
 
-If you are   displaying numbers, pitch the pie and ban the bar. Most of
+If you are   displaying numbers
+- pitch the pie and ban the bar. Most of
 the time you are better off displaying the numbers themselves. Just be
 sure to do a little bit of rounding and re-ordering first.
 
@@ -276,22 +337,32 @@ The web site where I got the numbers from is
 Pet?](http://www.practical-pet-care.com/article_view.php?ver=22)**.
 Steph Bairey. Accessed on 2003-06-04. *"There is plenty of
 information out there about how to care for and train your pet.
-However, most leave out a very important factor: what it will cost.
+However
+- most leave out a very important factor: what it will cost.
 The estimates below are expressed in US Dollars and based on prices of
-food, accessories, and veterinary care in the Pacific Northwest, USA;
-your expenses may vary. However, they are excellent guidelines!"*
+food
+- accessories
+- and veterinary care in the Pacific Northwest
+- USA;
+your expenses may vary. However
+- they are excellent guidelines!"*
 www.practical-pet-care.com/article_view.php?ver=22
 
-The numbers on the web page were already rounded, so I had to
+The numbers on the web page were already rounded
+- so I had to
 "unround" them for this example by adding a small random amount to
 each value. I also replaced some of the zero values by a slightly
 larger number and made some other minor adjustments. The costs
-reflected in my tables, however, are very close to the ones on the
+reflected in my tables
+- however
+- are very close to the ones on the
 web.
 
 This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
+reproducing it here as a service
+- as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Descriptive
@@ -303,15 +374,19 @@ statistics](../category/DescriptiveStatistics.html) or [Category:
 this one at [Category: Descriptive
 with general help resources. You can also browse for pages similar to
 Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
+reproducing it here as a service
+- as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
 This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 ****[StATS]:** Pitch the pie! Ban the bar! (June 5,
 This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
+Hospital. Although I do not hold the copyright for this material
+- I am
+reproducing it here as a service
+- as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with general help resources. You can also browse for pages similar to
 this one at [Category: Descriptive
