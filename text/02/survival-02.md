@@ -3,8 +3,10 @@ title: Steps in a typical survival data analysis
 author: Steve Simon
 source: http://www.pmean.com/02/survival-02.html
 date: 2002-10-11
-categories: Blog post
-tags: Survival analysis
+categories:
+- Blog post
+tags:
+- Survival analysis
 output: html_document
 ---
 ******[StATS]:**** Steps in a typical survival data

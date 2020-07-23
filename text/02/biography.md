@@ -3,8 +3,10 @@ title: Biography
 author: Steve Simon
 source: http://www.pmean.com/02/biography.html
 date: 2002-01-16
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 ******[StATS]:**** Biography (created 2002-01-16)**

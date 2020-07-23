@@ -3,8 +3,10 @@ title: Post hoc power
 author: Steve Simon
 source: http://www.pmean.com/02/posthoc.html
 date: 2002-11-01
-categories: Blog post
-tags: Post hoc power
+categories:
+- Blog post
+tags:
+- Post hoc power
 output: html_document
 ---
 ****[StATS]:** Post hoc power (November 1, 2002)**

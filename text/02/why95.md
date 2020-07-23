@@ -3,8 +3,10 @@ title: Why 95% confidence limits?
 author: Steve Simon
 source: http://www.pmean.com/02/why95.html
 date: 2002-05-06
-categories: Blog post
-tags: Confidence intervals
+categories:
+- Blog post
+tags:
+- Confidence intervals
 output: html_document
 ---
 ****[StATS]:** Why 95% confidence limits? (created

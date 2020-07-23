@@ -3,8 +3,10 @@ title: SPSS dialog boxes for linear regression models
 author: Steve Simon
 source: http://www.pmean.com/02/lin_spss.html
 date: 2002-06-21
-categories: Blog post
-tags: Linear regression
+categories:
+- Blog post
+tags:
+- Linear regression
 output: html_document
 ---
 ****[StATS]:** SPSS dialog boxes for linear

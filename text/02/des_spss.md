@@ -3,8 +3,10 @@ title: SPSS dialog boxes for a descriptive analysis
 author: Steve Simon
 source: http://www.pmean.com/02/des_spss.html
 date: 2002-06-21
-categories: Blog post
-tags: Descriptive Statistics
+categories:
+- Blog post
+tags:
+- Descriptive Statistics
 output: html_document
 ---
 

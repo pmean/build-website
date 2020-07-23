@@ -3,8 +3,10 @@ title: Accuracy of computations
 author: Steve Simon
 source: http://www.pmean.com/03/accuracy.html
 date: 2003-11-26
-categories: Blog post
-tags: Statistical computing
+categories:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 ****[StATS]:** Accuracy of computations (created

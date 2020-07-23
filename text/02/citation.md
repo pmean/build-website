@@ -3,8 +3,10 @@ title: SPSS citation
 author: Steve Simon
 source: http://www.pmean.com/02/citation.html
 date: 2002-03-06
-categories: Blog post
-tags: SPSS software
+categories:
+- Blog post
+tags:
+- SPSS software
 output: html_document
 ---
 ****[StATS]:** SPSS citation (March 6, 2002)**
