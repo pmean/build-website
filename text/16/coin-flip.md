@@ -3,8 +3,10 @@ title: "Recommendation: The Coin Flip: A Fundamentally Unfair Proposition"
 author: "Steve Simon"
 source: "http://blog.pmean.com/coin-flip/"
 date: "2016-01-25"
-categories: Recommendation
-tags: Randomization
+categories:
+- Recommendation
+tags:
+- Randomization
 output: html_document
 ---
 

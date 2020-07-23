@@ -3,8 +3,11 @@ title: "Recommendation: The COMPare Project"
 author: "Steve Simon"
 source: "http://blog.pmean.com/compare-project/"
 date: "2015-12-07"
-categories: Recommendation
-tags: Critical appraisal, Publication bias
+categories:
+- Recommendation
+tags:
+- Critical appraisal
+- Publication bias
 output: html_document
 ---
 
@@ -13,7 +16,9 @@ will choose which outcomes to report based on their statistical
 significance rather than their clinical importance. This can seriously
 bias your results. You can easily avoid this potential bias by
 specifying your primary and secondary outcome measures prior to data
-collection. Apparently, though, some researchers will change their minds
+collection. Apparently
+- though
+- some researchers will change their minds
 after designating these outcome variables and fail to report on some of
 the outcomes and/or add new outcomes that were not specified prior to
 data analysis. How often does this occur? A group of scientists at the
@@ -22,8 +27,15 @@ trying to find out.
 
 <!---More--->
 
-Goldacre B, Dale A, Milosevic I, Mahtani K, Powell-Smith A, Drysdale H,
-Hartley P, slade E, Heneghan C. The COMPare Project. Available at
+Goldacre B
+- Dale A
+- Milosevic I
+- Mahtani K
+- Powell-Smith A
+- Drysdale H,
+Hartley P
+- slade E
+- Heneghan C. The COMPare Project. Available at
 <http://compare-trials.org/>.
 
 ![](http://www.pmean.com/images/images/15/compare-project01.png)

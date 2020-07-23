@@ -3,8 +3,10 @@ title: "PMean: My research contributions to reproductive toxicology"
 author: "Steve Simon"
 source: "http://blog.pmean.com/reproductive-toxicology/"
 date: "2015-05-30"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

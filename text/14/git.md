@@ -3,8 +3,10 @@ title: "Recommendation: Git can facilitate greater reproducibility and increased
 author: "Steve Simon"
 source: "http://blog.pmean.com/git/"
 date: "2014-01-13"
-categories: Recommendation
-tags: Statistical computing
+categories:
+- Recommendation
+tags:
+- Statistical computing
 output: html_document
 ---
 

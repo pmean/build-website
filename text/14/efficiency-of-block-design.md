@@ -3,8 +3,10 @@ title: "PMean: Estimating the efficiency of a completely randomized block design
 author: "Steve Simon"
 source: "http://blog.pmean.com/efficiency-of-block-design/"
 date: "2014-03-12"
-categories: Blog post
-tags: Analysis of variance
+categories:
+- Blog post
+tags:
+- Analysis of variance
 output: html_document
 ---
 

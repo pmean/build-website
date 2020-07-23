@@ -3,8 +3,10 @@ title: "Recommendation: Developing Grant Proposals: Guidelines for Statisticians
 author: "Steve Simon"
 source: "http://blog.pmean.com/developing-grants/"
 date: "2015-05-26"
-categories: Blog post
-tags: Grant writing
+categories:
+- Blog post
+tags:
+- Grant writing
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: foreach: Foreach looping construct for R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/foreach/"
 date: "2014-03-05"
-categories: Blog post
-tags: R software
+categories:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
 

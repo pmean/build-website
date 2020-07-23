@@ -3,8 +3,10 @@ title: "Recommendation: Enrichment design studies should enhance signals of effe
 author: "Steve Simon"
 source: "http://blog.pmean.com/enrichment-designs/"
 date: "2016-08-03"
-categories: Blog post
-tags: Research design
+categories:
+- Blog post
+tags:
+- Research design
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "PMean: My book chapter on R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/chapter-on-r/"
 date: "2016-01-13"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

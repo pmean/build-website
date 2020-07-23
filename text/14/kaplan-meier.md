@@ -3,8 +3,11 @@ title: "PMean: Kaplan-Meier curves in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/kaplan-meier/"
 date: "2014-10-31"
-categories: Blog post
-tags: R software, Survival analysis
+categories:
+- Blog post
+tags:
+- R software
+- Survival analysis
 output: html_document
 ---
 
@@ -15,8 +18,10 @@ R.
 <!---More--->
 
 I wrote about the Kaplan-Meier curve in a [previous
-webpage](http://www.pmean.com/08/SimpleKm.html), but that was a generic
-example. First, you read the data in R and transform it into a survival
+webpage](http://www.pmean.com/08/SimpleKm.html)
+- but that was a generic
+example. First
+- you read the data in R and transform it into a survival
 object.
 
     day <- c(37,40,43,44,45,
@@ -92,7 +97,8 @@ which produces a more detailed set of statistics.
        89      2       1     0.10  0.0900       0.0171        0.584
        96      1       1     0.00     NaN           NA           NA
 
-Most importantly, there is a plot method.
+Most importantly
+- there is a plot method.
 
     plot(fly.fit)
 

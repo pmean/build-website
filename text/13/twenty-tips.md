@@ -3,8 +3,10 @@ title: "Recommendation: Twenty tips for interpreting scientific claims"
 author: "Steve Simon"
 source: "http://blog.pmean.com/twenty-tips/"
 date: "2013-11-27"
-categories: Recommendation
-tags: Critical appraisal
+categories:
+- Recommendation
+tags:
+- Critical appraisal
 output: html_document
 ---
 

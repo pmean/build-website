@@ -3,8 +3,10 @@ title: "Recommendation: FDA: R OK for drug trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fda-r-ok/"
 date: "2014-05-30"
-categories: Recommendation
-tags: R software
+categories:
+- Recommendation
+tags:
+- R software
 output: html_document
 ---
 

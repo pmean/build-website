@@ -3,8 +3,10 @@ title: "Recommendation: Beyond Bar and Line Graphs: Time for a New Data Presenta
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-presentation/"
 date: "2015-04-30"
-categories: Recommendation
-tags: Graphical display
+categories:
+- Recommendation
+tags:
+- Graphical display
 output: html_document
 ---
 

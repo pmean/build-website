@@ -3,8 +3,10 @@ title: "Recommendation: Why randomized controlled trials fail but needn't: 2. Fa
 author: "Steve Simon"
 source: "http://blog.pmean.com/physiological-statistics/"
 date: "2014-02-10"
-categories: Recommendation
-tags: Sample size
+categories:
+- Recommendation
+tags:
+- Sample size
 output: html_document
 ---
 

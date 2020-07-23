@@ -3,8 +3,10 @@ title: "PMean: My Google Scholar profile"
 author: "Steve Simon"
 source: "http://blog.pmean.com/google-scholar-profile/"
 date: "2015-11-16"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: Restoring invisible and abandoned trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/riat/"
 date: "2015-04-16"
-categories: Blog post
-tags: Publication bias
+categories:
+- Blog post
+tags:
+- Publication bias
 output: html_document
 ---
 

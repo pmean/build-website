@@ -3,8 +3,10 @@ title: "Recommendation: Qualifications for Teaching an Introductory Statistics C
 author: "Steve Simon"
 source: "http://blog.pmean.com/qualifications-for-teaching/"
 date: "2014-03-05"
-categories: Recommendation
-tags: Teaching resources
+categories:
+- Recommendation
+tags:
+- Teaching resources
 output: html_document
 ---
 

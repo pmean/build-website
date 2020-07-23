@@ -3,8 +3,10 @@ title: "Recommendation: Transparent reporting of a multivariable prediction mode
 author: "Steve Simon"
 source: "http://blog.pmean.com/tripod-statement/"
 date: "2015-01-08"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

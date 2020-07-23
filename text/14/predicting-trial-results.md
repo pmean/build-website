@@ -3,8 +3,10 @@ title: "Recommendation: Predicting clinical trial results based on announcements
 author: "Steve Simon"
 source: "http://blog.pmean.com/predicting-trial-results/"
 date: "2014-04-06"
-categories: Blog post
-tags: Early stopping
+categories:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
 

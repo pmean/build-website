@@ -3,8 +3,10 @@ title: "PMean: My research contributions to Evidence Based Medicine"
 author: "Steve Simon"
 source: "http://blog.pmean.com/contributions-to-ebm/"
 date: "2015-06-03"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

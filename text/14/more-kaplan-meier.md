@@ -3,8 +3,11 @@ title: "PMean: More Kaplan-Meier curves in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/more-kaplan-meier/"
 date: "2014-11-01"
-categories: Blog post
-tags: R software, Survival analysis
+categories:
+- Blog post
+tags:
+- R software
+- Survival analysis
 output: html_document
 ---
 
@@ -25,14 +28,20 @@ the data file.
     # Variables:
     # V1  case number
     # V2  number of days between registration and the earlier of death,
-    #     transplantion, or study analysis time in July, 1986
+    #     transplantion
+- or study analysis time in July
+- 1986
     # V3  status
-    #     0=censored, 1=censored due to liver tx, 2=death
+    #     0=censored
+- 1=censored due to liver tx
+- 2=death
     # V4  drug
-    #     1= D-penicillamine, 2=placebo
+    #     1= D-penicillamine
+- 2=placebo
     # V5  age in days
     # V6  sex
-    #     0=male, 1=female
+    #     0=male
+- 1=female
     # V7  presence of asictes
     #     0=no 1=yes
     # V8  presence of hepatomegaly
@@ -41,7 +50,8 @@ the data file.
     #     0=no 1=yes
     # V10 presence of edema          
     #     0   = no edema and no diuretic therapy for edema;
-    #     0.5 = edema present without diuretics, or edema resolved by diuretics;
+    #     0.5 = edema present without diuretics
+- or edema resolved by diuretics;
     #     1   = edema despite diuretic therapy
     # V11 serum bilirubin in mg/dl
     # V12 serum cholesterol in mg/dl
@@ -70,7 +80,8 @@ head(pbc)
 6  6 2503  2  2 24201  1  0  1  0 0.0  0.8 248 3.98  50  944.0  93.00  63   . 11.0   3
 ```
 
-The data looks like it read in properly, so let's load the survival
+The data looks like it read in properly
+- so let's load the survival
 library.
 
     > library("survival")
@@ -103,7 +114,8 @@ the same name (pbc). Let's investigate.
     6  93.00   63       NA    11.0     3
 
 Wow! The data set I was importing was already part of the survival
-library. Let's use their version, since it has better names for the
+library. Let's use their version
+- since it has better names for the
 variables than V1-V20.
 
 We have to subset the data because the first 312 observations represent
@@ -156,8 +168,11 @@ object. Dividing by 365.25 gives the times in years rather than in days.
       0   1   2 
     168  19 125
 
-The values for status, if you read the documentation, are 0=censored,
-1=transplant, and 2=death. You could define an event as either 1 and 2
+The values for status
+- if you read the documentation
+- are 0=censored,
+1=transplant
+- and 2=death. You could define an event as either 1 and 2
 or 2 by itself. Choose the latter for this example.
 
     > p.surv >- Surv(pmodtime,pmod$status==2)
@@ -184,7 +199,8 @@ or 2 by itself. Choose the latter for this example.
     [286] 1408+ 1234+ 1067+  799  1363+  901+ 1329+ 1320+ 1302+  877+ 1321+  533+ 1300+ 1293+  207 
     [301] 1295+ 1271+ 1250+ 1230+ 1216+ 1216+ 1149+ 1153+  994+  939+  839+  788+
 
-First, let's look at an overall survival curve.
+First
+- let's look at an overall survival curve.
 
     > plot(survfit(p.surv~1))
 
@@ -194,8 +210,10 @@ First, let's look at an overall survival curve.
 
 Now let's define some functions that will calculate and compare
 Kaplan-Meier curves across all the possible covariates in the model. For
-categorical variables, draw Kaplan-Meier curves for each category level.
-For continuous variables, split the data into quartiles and then draw
+categorical variables
+- draw Kaplan-Meier curves for each category level.
+For continuous variables
+- split the data into quartiles and then draw
 Kaplan-Meier curves for each quartile.
 
     km.cat <- function(vn) {

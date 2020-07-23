@@ -3,15 +3,21 @@ title: "Recommendation: In search of justification for the unpredictability para
 author: "Steve Simon"
 source: "http://blog.pmean.com/unpredictability-paradox/"
 date: "2014-12-11"
-categories: Recommendation
-tags: Critical appraisal, Randomization, Systematic overviews
+categories:
+- Recommendation
+tags:
+- Critical appraisal
+- Randomization
+- Systematic overviews
 output: html_document
 ---
 
 This is a commentary on a 2011 Cochrane Review that found substantial
 differences between studies that were adequately randomized and those
 that were not adequately randomized. The direction of the difference was
-not predictable, however, meaning that there was not a consistent bias
+not predictable
+- however
+- meaning that there was not a consistent bias
 on average towards overstating the treatment effect or a consistent bias
 on average towards understating the treatment effect. This leads the
 authors of the Cochrane review to conclude that "the unpredictability of
@@ -22,7 +28,8 @@ grounds.
 
 <!---More--->
 
-Howick J, Mebius A. In search of justification for the unpredictability
+Howick J
+- Mebius A. In search of justification for the unpredictability
 paradox. Trials. 2014;15(1):480. doi:10.1186/1745-6215-15-480. Available
 at <http://www.trialsjournal.com/content/15/1/480/abstract>.
 

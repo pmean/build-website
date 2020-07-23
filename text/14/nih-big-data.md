@@ -3,8 +3,10 @@ title: "PMean: NIH is interested in big data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nih-big-data/"
 date: "2014-02-24"
-categories: Blog post
-tags: Big data
+categories:
+- Blog post
+tags:
+- Big data
 output: html_document
 ---
 

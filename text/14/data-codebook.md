@@ -3,8 +3,10 @@ title: "PMean: What should go into a data codebook"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-codebook/"
 date: "2014-05-31"
-categories: Blog post
-tags: Data management
+categories:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 

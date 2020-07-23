@@ -3,8 +3,10 @@ title: "Recommendation: What Teachers Should Know about the Bootstrap: Resamplin
 author: "Steve Simon"
 source: "http://blog.pmean.com/teaching-bootstrap/"
 date: "2014-11-24"
-categories: Recommendation
-tags: Bootstrap
+categories:
+- Recommendation
+tags:
+- Bootstrap
 output: html_document
 ---
 

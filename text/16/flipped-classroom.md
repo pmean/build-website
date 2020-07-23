@@ -3,8 +3,10 @@ title: "Recommendation: Diverse Perspectives on a Flipped Biostatistics Classroo
 author: "Steve Simon"
 source: "http://blog.pmean.com/flipped-classroom/"
 date: "2016-09-06"
-categories: Recommendation
-tags: Teaching resources
+categories:
+- Recommendation
+tags:
+- Teaching resources
 output: html_document
 ---
 

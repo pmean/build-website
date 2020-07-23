@@ -3,12 +3,17 @@ title: "Recommendation: Handling date-times in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dates-in-r/"
 date: "2016-06-15"
-categories: Recommendation
-tags: Data management, R software
+categories:
+- Recommendation
+tags:
+- Data management
+- R software
 output: html_document
 ---
 
-Dates in R, like dates in any other software package, are tricky to work
+Dates in R
+- like dates in any other software package
+- are tricky to work
 with. Here's a nice guide that will help you get started.
 
 <!---More--->

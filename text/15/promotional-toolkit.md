@@ -3,8 +3,10 @@ title: "Recommendation: This is Statistics promotional toolkit"
 author: "Steve Simon"
 source: "http://blog.pmean.com/promotional-toolkit/"
 date: "2015-06-30"
-categories: Blog post
-tags: Human side of statistics
+categories:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 

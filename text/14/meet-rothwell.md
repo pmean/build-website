@@ -3,8 +3,10 @@ title: "Recommendation: Meet Charles J. Rothwell, Director, National Center for 
 author: "Steve Simon"
 source: "http://blog.pmean.com/meet-rothwell/"
 date: "2014-03-05"
-categories: Recommendation
-tags: Important statisticians
+categories:
+- Recommendation
+tags:
+- Important statisticians
 output: html_document
 ---
 

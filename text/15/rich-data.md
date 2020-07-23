@@ -3,8 +3,10 @@ title: "Recommendation: Rich Data, Poor Data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/rich-data/"
 date: "2015-02-24"
-categories: Recommendation
-tags: Statistical models
+categories:
+- Recommendation
+tags:
+- Statistical models
 output: html_document
 ---
 

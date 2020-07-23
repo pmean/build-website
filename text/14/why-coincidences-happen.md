@@ -3,8 +3,10 @@ title: "Recommendation: Why Coincidences, Miracles And Rare Events Happen Every 
 author: "Steve Simon"
 source: "http://blog.pmean.com/why-coincidences-happen/"
 date: "2014-02-20"
-categories: Blog post
-tags: Probability concepts
+categories:
+- Blog post
+tags:
+- Probability concepts
 output: html_document
 ---
 

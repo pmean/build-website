@@ -3,13 +3,18 @@ title: "Recommendation: plotrix: Various plotting functions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/plotrix/"
 date: "2014-02-26"
-categories: Recommendation
-tags: Graphical display, R software
+categories:
+- Recommendation
+tags:
+- Graphical display
+- R software
 output: html_document
 ---
 
-R has a lot of nice plotting features built in, but this add-on package
-adds some more, especially the ability to designate a break in one of
+R has a lot of nice plotting features built in
+- but this add-on package
+adds some more
+- especially the ability to designate a break in one of
 your axes.
 
 <!---More--->

@@ -3,8 +3,10 @@ title: "Recommendation: PS: Power and Sample Size Calculation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ps-power-calculator/"
 date: "2015-09-24"
-categories: Recommendation
-tags: Sample size
+categories:
+- Recommendation
+tags:
+- Sample size
 output: html_document
 ---
 

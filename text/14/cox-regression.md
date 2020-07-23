@@ -3,8 +3,11 @@ title: "PMean: Cox regression in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cox-regression/"
 date: "2014-11-01"
-categories: Blog post
-tags: R software, Survival analysis
+categories:
+- Blog post
+tags:
+- R software
+- Survival analysis
 output: html_document
 ---
 
@@ -23,14 +26,20 @@ This is the documentation of the data file.
 # Variables:
 # V1  case number
 # V2  number of days between registration and the earlier of death,
-#     transplantion, or study analysis time in July, 1986
+#     transplantion
+- or study analysis time in July
+- 1986
 # V3  status
-#     0=censored, 1=censored due to liver tx, 2=death
+#     0=censored
+- 1=censored due to liver tx
+- 2=death
 # V4  drug
-#     1= D-penicillamine, 2=placebo
+#     1= D-penicillamine
+- 2=placebo
 # V5  age in days
 # V6  sex
-#     0=male, 1=female
+#     0=male
+- 1=female
 # V7  presence of asictes
 #     0=no 1=yes
 # V8  presence of hepatomegaly
@@ -39,7 +48,8 @@ This is the documentation of the data file.
 #     0=no 1=yes
 # V10 presence of edema          
 #     0   = no edema and no diuretic therapy for edema;
-#     0.5 = edema present without diuretics, or edema resolved by diuretics;
+#     0.5 = edema present without diuretics
+- or edema resolved by diuretics;
 #     1   = edema despite diuretic therapy
 # V11 serum bilirubin in mg/dl
 # V12 serum cholesterol in mg/dl
@@ -177,22 +187,29 @@ print(cox.mod1)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ sex, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ sex
+- data = pmod
+- na.action = na.omit)
     ## 
     ## 
     ##        coef exp(coef) se(coef)     z     p
     ## sexf -0.484     0.616    0.236 -2.05 0.041
     ## 
-    ## Likelihood ratio test=3.77  on 1 df, p=0.0521  n= 312, number of events= 125
+    ## Likelihood ratio test=3.77  on 1 df
+- p=0.0521  n= 312
+- number of events= 125
 
 ``` {.r}
 summary(cox.mod1)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ sex, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ sex
+- data = pmod
+- na.action = na.omit)
     ## 
-    ##   n= 312, number of events= 125 
+    ##   n= 312
+- number of events= 125 
     ## 
     ##         coef exp(coef) se(coef)      z Pr(>|z|)  
     ## sexf -0.4839    0.6164   0.2365 -2.046   0.0407 *
@@ -204,12 +221,17 @@ summary(cox.mod1)
     ## 
     ## Concordance= 0.532  (se = 0.015 )
     ## Rsquare= 0.012   (max possible= 0.983 )
-    ## Likelihood ratio test= 3.77  on 1 df,   p=0.05214
-    ## Wald test            = 4.19  on 1 df,   p=0.04075
-    ## Score (logrank) test = 4.27  on 1 df,   p=0.03887
+    ## Likelihood ratio test= 3.77  on 1 df
+-   p=0.05214
+    ## Wald test            = 4.19  on 1 df
+-   p=0.04075
+    ## Score (logrank) test = 4.27  on 1 df
+-   p=0.03887
 
-To plot the data, you need to create predictions at the specific values
-of interest. With multiple indpendent variables, any variable left out
+To plot the data
+- you need to create predictions at the specific values
+of interest. With multiple indpendent variables
+- any variable left out
 would be predicted at its average value.
 
 ``` {.r}
@@ -235,22 +257,29 @@ print(cox.mod1)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ sex, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ sex
+- data = pmod
+- na.action = na.omit)
     ## 
     ## 
     ##        coef exp(coef) se(coef)     z     p
     ## sexf -0.484     0.616    0.236 -2.05 0.041
     ## 
-    ## Likelihood ratio test=3.77  on 1 df, p=0.0521  n= 312, number of events= 125
+    ## Likelihood ratio test=3.77  on 1 df
+- p=0.0521  n= 312
+- number of events= 125
 
 ``` {.r}
 summary(cox.mod1)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ sex, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ sex
+- data = pmod
+- na.action = na.omit)
     ## 
-    ##   n= 312, number of events= 125 
+    ##   n= 312
+- number of events= 125 
     ## 
     ##         coef exp(coef) se(coef)      z Pr(>|z|)  
     ## sexf -0.4839    0.6164   0.2365 -2.046   0.0407 *
@@ -262,9 +291,12 @@ summary(cox.mod1)
     ## 
     ## Concordance= 0.532  (se = 0.015 )
     ## Rsquare= 0.012   (max possible= 0.983 )
-    ## Likelihood ratio test= 3.77  on 1 df,   p=0.05214
-    ## Wald test            = 4.19  on 1 df,   p=0.04075
-    ## Score (logrank) test = 4.27  on 1 df,   p=0.03887
+    ## Likelihood ratio test= 3.77  on 1 df
+-   p=0.05214
+    ## Wald test            = 4.19  on 1 df
+-   p=0.04075
+    ## Score (logrank) test = 4.27  on 1 df
+-   p=0.03887
 
 ``` {.r}
 cox.mod2 <- coxph(p.surv~age,data=pmod,na.action=na.omit)
@@ -272,22 +304,29 @@ print(cox.mod2)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ age, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ age
+- data = pmod
+- na.action = na.omit)
     ## 
     ## 
     ##     coef exp(coef) se(coef)    z       p
     ## age 0.04      1.04  0.00881 4.54 5.7e-06
     ## 
-    ## Likelihood ratio test=20.5  on 1 df, p=5.95e-06  n= 312, number of events= 125
+    ## Likelihood ratio test=20.5  on 1 df
+- p=5.95e-06  n= 312
+- number of events= 125
 
 ``` {.r}
 summary(cox.mod2)
 ```
 
     ## Call:
-    ## coxph(formula = p.surv ~ age, data = pmod, na.action = na.omit)
+    ## coxph(formula = p.surv ~ age
+- data = pmod
+- na.action = na.omit)
     ## 
-    ##   n= 312, number of events= 125 
+    ##   n= 312
+- number of events= 125 
     ## 
     ##         coef exp(coef) se(coef)     z Pr(>|z|)    
     ## age 0.039995  1.040806 0.008811 4.539 5.65e-06 ***
@@ -299,9 +338,12 @@ summary(cox.mod2)
     ## 
     ## Concordance= 0.625  (se = 0.029 )
     ## Rsquare= 0.064   (max possible= 0.983 )
-    ## Likelihood ratio test= 20.51  on 1 df,   p=5.947e-06
-    ## Wald test            = 20.6  on 1 df,   p=5.651e-06
-    ## Score (logrank) test = 20.86  on 1 df,   p=4.942e-06
+    ## Likelihood ratio test= 20.51  on 1 df
+-   p=5.947e-06
+    ## Wald test            = 20.6  on 1 df
+-   p=5.651e-06
+    ## Score (logrank) test = 20.86  on 1 df
+-   p=4.942e-06
 
 ``` {.r}
 pred.mod2 <- survfit(cox.mod2,newdata=data.frame(age=c(30,40,50,60)))

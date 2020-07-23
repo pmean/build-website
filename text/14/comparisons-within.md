@@ -3,8 +3,10 @@ title: "Recommendation: Comparisons within randomised groups can be very mislead
 author: "Steve Simon"
 source: "http://blog.pmean.com/comparisons-within/"
 date: "2014-06-10"
-categories: Recommendation
-tags: Longitudinal data
+categories:
+- Recommendation
+tags:
+- Longitudinal data
 output: html_document
 ---
 

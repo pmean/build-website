@@ -3,8 +3,10 @@ title: "PMean: An example of a simple sample size justification"
 author: "Steve Simon"
 source: "http://blog.pmean.com/simple-sample-size/"
 date: "2014-07-22"
-categories: Blog post
-tags: Sample size
+categories:
+- Blog post
+tags:
+- Sample size
 output: html_document
 ---
 
