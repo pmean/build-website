@@ -3,8 +3,10 @@ title: "Recommendation: Section 508 CoP: PDF Accessibility -- Part One"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pdf-accessibility/"
 date: "2018-07-03"
-categories: Blog post
-tags: Teaching resources
+categories:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 

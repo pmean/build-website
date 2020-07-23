@@ -3,8 +3,10 @@ title: "PMean: My research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-research/"
 date: "2018-04-02"
-categories: Blog post
-tags: Professional details
+categories:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 

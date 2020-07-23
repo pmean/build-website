@@ -3,8 +3,10 @@ title: "Recommendation: Statistical and Machine Learning forecasting methods: Co
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning-comparison/"
 date: "2018-04-03"
-categories: Blog post
-tags: Big data
+categories:
+- Blog post
+tags:
+- Big data
 output: html_document
 ---
 

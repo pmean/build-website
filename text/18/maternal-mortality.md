@@ -3,8 +3,10 @@ title: "Recommendation: A crummy drop-down menu appeared to kill dozens of mothe
 author: "Steve Simon"
 source: "http://blog.pmean.com/maternal-mortality/"
 date: "2018-04-19"
-categories: Recommendation
-tags: Data management
+categories:
+- Recommendation
+tags:
+- Data management
 output: html_document
 ---
 

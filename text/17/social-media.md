@@ -3,8 +3,10 @@ title: "Recommendation: How to use social media in your career"
 author: "Steve Simon"
 source: "http://blog.pmean.com/social-media/"
 date: "2017-12-04"
-categories: Recommendation
-tags: Human side of statistics
+categories:
+- Recommendation
+tags:
+- Human side of statistics
 output: html_document
 ---
 

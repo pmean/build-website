@@ -3,8 +3,10 @@ title: "Recommendation: A top Cornell food researcher has had 13 studies retract
 author: "Steve Simon"
 source: "http://blog.pmean.com/food-researcher/"
 date: "2018-09-24"
-categories: Recommendation
-tags: Ethics in research
+categories:
+- Recommendation
+tags:
+- Ethics in research
 output: html_document
 ---
 

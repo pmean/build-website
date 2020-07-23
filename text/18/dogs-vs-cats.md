@@ -3,8 +3,10 @@ title: "Recommendation: Dogs vs cats. Create an algorithm to distinguish dogs fr
 author: "Steve Simon"
 source: "http://blog.pmean.com/dogs-vs-cats/"
 date: "2018-04-19"
-categories: Recommendation
-tags: Datasets
+categories:
+- Recommendation
+tags:
+- Datasets
 output: html_document
 ---
 

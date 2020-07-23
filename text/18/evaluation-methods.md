@@ -3,8 +3,10 @@ title: "Recommendation: Evaluation Methods in Biomedical Informatics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/evaluation-methods/"
 date: "2018-03-29"
-categories: Recommendation
-tags: Informatics
+categories:
+- Recommendation
+tags:
+- Informatics
 output: html_document
 ---
 

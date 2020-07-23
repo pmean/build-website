@@ -3,12 +3,16 @@ title: "Recommendation: Analyze Survey Data for Free"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-data-r/"
 date: "2017-07-12"
-categories: Recommendation
-tags: Complex surveys, R software
+categories:
+- Recommendation
+tags:
+- Complex surveys
+- R software
 output: html_document
 ---
 
-I've not had a chance to test this code, but it looks pretty good for
+I've not had a chance to test this code
+- but it looks pretty good for
 anyone who might want to analyze one of the dozens of large databases
 produced by the U.S. Government.
 

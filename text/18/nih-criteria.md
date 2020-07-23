@@ -3,8 +3,10 @@ title: "Recommendation: Definitions of Criteria and Considerations for Research 
 author: "Steve Simon"
 source: "http://blog.pmean.com/nih-criteria/"
 date: "2018-04-11"
-categories: Blog post
-tags: Grant writing
+categories:
+- Blog post
+tags:
+- Grant writing
 output: html_document
 ---
 

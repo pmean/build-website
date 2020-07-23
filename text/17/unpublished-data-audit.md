@@ -3,8 +3,10 @@ title: "Recommendation: Search for unpublished data by systematic reviewers: an 
 author: "Steve Simon"
 source: "http://blog.pmean.com/unpublished-data-audit/"
 date: "2017-10-17"
-categories: Recommendation
-tags: Publication bias
+categories:
+- Recommendation
+tags:
+- Publication bias
 output: html_document
 ---
 

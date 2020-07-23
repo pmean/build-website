@@ -3,8 +3,10 @@ title: "Recommendation: Standards and guidelines for the interpretation of seque
 author: "Steve Simon"
 source: "http://blog.pmean.com/sequence-variants/"
 date: "2017-04-13"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

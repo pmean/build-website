@@ -1,10 +1,14 @@
 ---
-title: "Recommendation: Leaflet, an open source Javascript library for mobile-friendly interactive maps"
+title: "Recommendation: Leaflet
+- an open source Javascript library for mobile-friendly interactive maps"
 author: "Steve Simon"
 source: "http://blog.pmean.com/leaflet/"
 date: "2018-09-07"
-categories: Recommendation
-tags: Geocoding, Graphical display
+categories:
+- Recommendation
+tags:
+- Geocoding
+- Graphical display
 output: html_document
 ---
 
@@ -15,7 +19,8 @@ maps.
 
 <!---More--->
 
-Vladimir Agafonkin. Leaflet, an open source Javascript library for
+Vladimir Agafonkin. Leaflet
+- an open source Javascript library for
 mobile-friendly interactive maps. Available at <https://leafletjs.com/>.
 
 ![](http://www.pmean.com/images/images/18/leaflet01.png)

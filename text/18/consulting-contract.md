@@ -3,8 +3,10 @@ title: "PMean: What goes into a contract for a consultation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/consulting-contract/"
 date: "2018-06-24"
-categories: Blog post
-tags: Human side of statistics
+categories:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 

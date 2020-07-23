@@ -3,8 +3,10 @@ title: "Recommendation: Designing and conducting semi-structured interviews for 
 author: "Steve Simon"
 source: "http://blog.pmean.com/semi-structured-interviews/"
 date: "2017-12-27"
-categories: Recommendation
-tags: Qualitative research
+categories:
+- Recommendation
+tags:
+- Qualitative research
 output: html_document
 ---
 

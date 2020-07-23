@@ -3,8 +3,10 @@ title: "Recommendation: The history of Hadoop"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-hadoop/"
 date: "2018-02-24"
-categories: Recommendation
-tags: Statistical computing
+categories:
+- Recommendation
+tags:
+- Statistical computing
 output: html_document
 ---
 

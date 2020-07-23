@@ -3,8 +3,10 @@ title: "Recommendation: False-Positive Psychology"
 author: "Steve Simon"
 source: "http://blog.pmean.com/false-positive-psychology/"
 date: "2018-09-14"
-categories: Recommendation
-tags: Hypothesis testing
+categories:
+- Recommendation
+tags:
+- Hypothesis testing
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: In UC's battle with the world's largest scientific publi
 author: "Steve Simon"
 source: "http://blog.pmean.com/elsevier-vs-uc/"
 date: "2018-12-11"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

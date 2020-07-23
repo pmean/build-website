@@ -3,8 +3,10 @@ title: "Recommendation: Guidelines for estimating biostatistician effort and res
 author: "Steve Simon"
 source: "http://blog.pmean.com/biostatistician-effort/"
 date: "2018-04-03"
-categories: Blog post
-tags: Grant writing
+categories:
+- Blog post
+tags:
+- Grant writing
 output: html_document
 ---
 

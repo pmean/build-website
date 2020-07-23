@@ -3,8 +3,10 @@ title: "Recommendation: How to Clone Your Raspberry Pi SD Cards With Windows"
 author: "Steve Simon"
 source: "http://blog.pmean.com/clone-sd-cards/"
 date: "2018-08-15"
-categories: Recommendation
-tags: Raspberry Pi
+categories:
+- Recommendation
+tags:
+- Raspberry Pi
 output: html_document
 ---
 

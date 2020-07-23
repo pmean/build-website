@@ -3,8 +3,10 @@ title: "Recommendation: Next-generation phenotyping of electronic health records
 author: "Steve Simon"
 source: "http://blog.pmean.com/next-generation-phenotyping/"
 date: "2018-09-13"
-categories: Recommendation
-tags: Electronic health records
+categories:
+- Recommendation
+tags:
+- Electronic health records
 output: html_document
 ---
 

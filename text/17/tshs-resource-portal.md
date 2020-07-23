@@ -3,15 +3,19 @@ title: "Recommendation: TSHS Resource Portal"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tshs-resource-portal/"
 date: "2017-01-30"
-categories: Recommendation
-tags: Datasets, Teaching resources
+categories:
+- Recommendation
+tags:
+- Datasets
+- Teaching resources
 output: html_document
 ---
 
 The Teaching of Statistics in the Health Sciences (TSHS) section of the
 American Statistical Association has put together a set of resources for
 teachers including several very interesting datasets. some of the
-resources are open to anyone, but others require a
+resources are open to anyone
+- but others require a
 registration.
 
 <!---More--->

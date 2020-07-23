@@ -3,8 +3,10 @@ title: "Recommendation: Good Publication Practice for Communicating Company-Spon
 author: "Steve Simon"
 source: "http://blog.pmean.com/company-sponsored-research/"
 date: "2018-03-27"
-categories: Recommendation
-tags: Writing research papers
+categories:
+- Recommendation
+tags:
+- Writing research papers
 output: html_document
 ---
 

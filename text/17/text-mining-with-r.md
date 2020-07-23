@@ -3,8 +3,11 @@ title: "Recommendation: Text Mining with R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/text-mining-with-r/"
 date: "2017-02-23"
-categories: Blog post
-tags: Big data, R software
+categories:
+- Blog post
+tags:
+- Big data
+- R software
 output: html_document
 ---
 
@@ -14,7 +17,8 @@ getting started with text mining.
 
 <!---More--->
 
-Julia Silge, David Robinson. Text Mining with R (online version).
+Julia Silge
+- David Robinson. Text Mining with R (online version).
 Available at <http://tidytextmining.com/>.
 
 ![](http://www.pmean.com/images/images/17/text-mining-with-r01.png)

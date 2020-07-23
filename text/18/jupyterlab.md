@@ -3,8 +3,10 @@ title: "Recommendation: JupyterLab is Ready for Users"
 author: "Steve Simon"
 source: "http://blog.pmean.com/jupyterlab/"
 date: "2018-09-07"
-categories: Recommendation
-tags: Integrated development environment
+categories:
+- Recommendation
+tags:
+- Integrated development environment
 output: html_document
 ---
 

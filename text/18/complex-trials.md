@@ -3,8 +3,10 @@ title: "Recommendation: Complex Innovative Trial Designs Pilot Program"
 author: "Steve Simon"
 source: "http://blog.pmean.com/complex-trials/"
 date: "2018-09-13"
-categories: Recommendation
-tags: Research design
+categories:
+- Recommendation
+tags:
+- Research design
 output: html_document
 ---
 

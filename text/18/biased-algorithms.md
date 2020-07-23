@@ -3,8 +3,10 @@ title: "Recommendation: Microsoft is creating an oracle for catching biased AI a
 author: "Steve Simon"
 source: "http://blog.pmean.com/biased-algorithms/"
 date: "2018-06-28"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "Recommendation: Applied Survival Analysis"
 author: "Steve Simon"
 source: "http://blog.pmean.com/applied-survival-analysis/"
 date: "2018-05-22"
-categories: Recommendation
-tags: Survival analysis
+categories:
+- Recommendation
+tags:
+- Survival analysis
 output: html_document
 ---
 

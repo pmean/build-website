@@ -3,8 +3,10 @@ title: "Recommendation: beepr: easily play notification sounds on any platform"
 author: "Steve Simon"
 source: "http://blog.pmean.com/beepr/"
 date: "2018-05-13"
-categories: Recommendation
-tags: R software
+categories:
+- Recommendation
+tags:
+- R software
 output: html_document
 ---
 

@@ -3,8 +3,10 @@ title: "PMean: Big data groups at UMKC and UM/Columbia"
 author: "Steve Simon"
 source: "http://blog.pmean.com/big-data-missouri/"
 date: "2018-06-09"
-categories: Blog post
-tags: Big data
+categories:
+- Blog post
+tags:
+- Big data
 output: html_document
 ---
 

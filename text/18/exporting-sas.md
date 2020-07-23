@@ -3,8 +3,10 @@ title: "PMean: Exporting a graph in SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/exporting-sas/"
 date: "2018-03-23"
-categories: Blog post
-tags: SAS software
+categories:
+- Blog post
+tags:
+- SAS software
 output: html_document
 ---
 

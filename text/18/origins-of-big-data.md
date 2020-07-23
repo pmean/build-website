@@ -3,8 +3,10 @@ title: "Recommendation: The Origins of 'Big Data'"
 author: "Steve Simon"
 source: "http://blog.pmean.com/origins-of-big-data/"
 date: "2018-01-02"
-categories: Recommendation
-tags: Big data
+categories:
+- Recommendation
+tags:
+- Big data
 output: html_document
 ---
 
