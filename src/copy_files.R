@@ -31,6 +31,7 @@ copy_files <- function(
     if (verbose) cat(message)
     new_sub <- ifelse(subdir > "30", "19", "20") %0% subdir
     if (subdir=="no") new_dir <- "no"
+    new_sub <- "post"
     for (i_file in file_list) {
       k <- k+1
       old_file <- old_root %s% subdir %s% i_file 
