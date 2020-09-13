@@ -1,5 +1,5 @@
 ---
-title: Importing database files into SPSS
+title: Raynald's SPSS Tools
 author: Steve Simon
 date: 1999-08-18
 categories:
@@ -9,6 +9,12 @@ tags:
 - SPSS software
 output: html_document
 ---
+
+Raynald Levesque. Raynald's SPSS Tools. Available in [html format](http://www.spsstools.net/en/).
+
+<!---More--->
+
++ SPSS has several ways to extend its features and automate repetitive functions. This includes Macro, Matrix, Python, R, Sax Basic, and basic syntax. This page shows examples of all of these approaches to perform a variety of useful functions.
 
 *Dear Professor Mean
 - How do I import database files into SPSS? I don't want to re-type everything
@@ -168,7 +174,8 @@ EXECUTE.
 
 **Summary**
 
-Vexed Vidya wants to **import a Microsoft Access table into SPSS**. To import Access or other database formats
+Vexed Vidya wants to i**mport a Microsoft Access table into SPSS**. To import Access or other database formats
 - you use a system called ODBC. **Select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu**. You will then specify where the data are located and the table or tables in your database you want to import.
 
-You can find an [earlier version](http://www.pmean.com/99/access.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+This page was originally published [here](http://www.pmean.com/99/access.html
+).

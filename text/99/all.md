@@ -1,14 +1,11 @@
 ---
 title: All or nothing
 author: Steve Simon
-source: http://www.pmean.com/99/all.html
 date: 1999-08-18
 category: Blog post
 tags: Small sample size issues
 output: html_document
 ---
-****[StATS]:** All** **or nothing (created
-1999-08-18)**
 
 *Dear Professor Mean, I would like to know the minimum number of
 patients needed in order to achieve statistical significance. I am
@@ -16,6 +13,8 @@ assuming a perfect research situation where all of the patients who got
 a treatment lived and all the patients who got the placebo died. What
 would the proper sample size for an all or nothing response be?*\--
 Hesitant Harrison
+
+<!---More--->
 
 Dear Hesitant,
 
@@ -86,20 +85,5 @@ subjects produces an unexpected response. You should always consult with
 a professional statistician before starting a research study with such a
 small sample size.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Small sample size
-issues](../category/SmallSampleSizeIssues.html).
 
- 
-<!---More--->
- 
-
-<!---Do not use
-****[StATS]:** All** **or nothing (created
- 
---->
-
+You can find an [earlier version](http://www.pmean.com/99/all.html) of this page on my [original website](http://www.pmean.com/original_site.html).
