@@ -3,10 +3,8 @@ title: "Recommendation: Study Development (Kansas City area resource)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/study-development/"
 date: "2013-12-12"
-categories:
-- Recommendation
-tags:
-- Grant writing
+category: Recommendation
+tags: Grant writing
 output: html_document
 ---
 
@@ -27,7 +25,7 @@ titles below to see the drop-down information on each component and find
 out how Frontiers can assist." Last accessed on December 12, 2013.
 Available at <http://frontiersresearch.org/frontiers/study-development>.
 
-![](http://www.pmean.com/images/images/13/study-development01.png)
+![](http://www.pmean.com/images/study-development01.png)
 
 
 

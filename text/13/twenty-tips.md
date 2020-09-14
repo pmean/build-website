@@ -3,10 +3,8 @@ title: "Recommendation: Twenty tips for interpreting scientific claims"
 author: "Steve Simon"
 source: "http://blog.pmean.com/twenty-tips/"
 date: "2013-11-27"
-categories:
-- Recommendation
-tags:
-- Critical appraisal
+category: Recommendation
+tags: Critical appraisal
 output: html_document
 ---
 
@@ -27,7 +25,7 @@ to understand the fundamental science itself, and can form part of the
 broad skill set of most politicians." Available at
 <http://www.nature.com/news/policy-twenty-tips-for-interpreting-scientific-claims-1.14183>
 
-![](http://www.pmean.com/images/images/13/twenty-tips01.png)
+![](http://www.pmean.com/images/twenty-tips01.png)
 
 
 

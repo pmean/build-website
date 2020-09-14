@@ -3,10 +3,8 @@ title: "Recommendation: Row over breast cancer screening shows that scientists b
 author: "Steve Simon"
 source: "http://blog.pmean.com/row-over-screening/"
 date: "2013-11-29"
-categories:
-- Recommendation
-tags:
-- Systematic overviews
+category: Recommendation
+tags: Systematic overviews
 output: html_document
 ---
 
@@ -26,7 +24,7 @@ disagreed with some of their conclusions." Available at:
 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121506/. Accessed November
 24, 2013.
 
-![](http://www.pmean.com/images/images/13/row-over-screening01.png)
+![](http://www.pmean.com/images/row-over-screening01.png)
 
 
 

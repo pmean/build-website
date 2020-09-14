@@ -3,10 +3,8 @@ title: "Recommendation: Revised standards for statistical evidence"
 author: "Steve Simon"
 source: "http://blog.pmean.com/revised-standards/"
 date: "2013-11-28"
-categories:
-- Recommendation
-tags:
-- Bayesian statistics
+category: Recommendation
+tags: Bayesian statistics
 output: html_document
 ---
 
@@ -37,7 +35,7 @@ finding. In terms of classical hypothesis tests, these evidence
 standards mandate the conduct of tests at the 0.005 or 0.001 level of
 significance." Available at: <http://www.pnas.org/content/110/48/19313>.
 
-![](http://www.pmean.com/images/images/13/revised-standards01.png)
+![](http://www.pmean.com/images/revised-standards01.png)
 
 
 

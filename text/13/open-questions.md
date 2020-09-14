@@ -3,10 +3,8 @@ title: "Recommendation: Any other comments? Open questions on questionnaires. A 
 author: "Steve Simon"
 source: "http://blog.pmean.com/open-questions/"
 date: "2013-12-05"
-categories:
-- Recommendation
-tags:
-- Survey design
+category: Recommendation
+tags: Survey design
 output: html_document
 ---
 
@@ -48,7 +46,7 @@ I [summarized this
 article](http://www.pmean.com/05/OpenEndedQuestions.html) on my website
 back in 2005.
 
-![](http://www.pmean.com/images/images/13/open-questions01.png)
+![](http://www.pmean.com/images/open-questions01.png)
 
 
 

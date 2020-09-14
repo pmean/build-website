@@ -3,10 +3,8 @@ title: "Recommendation: DataMind website"
 author: "Steve Simon"
 source: "http://blog.pmean.com/datamind/"
 date: "2013-12-12"
-categories:
-- Recommendation
-tags:
-- R software
+category: Recommendation
+tags: R software
 output: html_document
 ---
 
@@ -25,7 +23,7 @@ with the best learning experience for data science and statistics." Last
 accessed December 12, 2013. Available at:
 [www.datamind.org](http://www.datamind.org/).
 
-![](http://www.pmean.com/images/images/13/datamind01.png)
+![](http://www.pmean.com/images/datamind01.png)
 
 
 
