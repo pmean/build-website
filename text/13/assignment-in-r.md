@@ -28,8 +28,3 @@ Available at
 
 ![](http://www.pmean.com/images/assignment-in-r01.png)
 
-
-
-<U+00A0>
-
-
