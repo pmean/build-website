@@ -10,11 +10,7 @@ tags:
 output: html_document
 ---
 
-When your data has a cyclic or circular component
-- then the use of
-basic trigonometry can provide a statistical model that allows for
-cyclic effect. Examples of cyclic components are time of the day and
-wind direction.
+When your data has a cyclic or circular component, then the use of basic trigonometry can provide a statistical model that allows for cyclic effect. Examples of cyclic components are time of the day and wind direction.
 
 <!---More--->
 
@@ -41,3 +37,5 @@ beyond the curfew
 - the average return time
 - 1200
 - is at noon!
+
+You can find an [earlier version](http://www.pmean.com/99/circular.html) of this page on my [original website](http://www.pmean.com/original_site.html).

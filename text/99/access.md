@@ -142,7 +142,7 @@ If you are still having problems please let me know. I can suggest several optio
 
 4.  You might also find MDAC on the Microsoft Access or Microsoft Office CD-ROM.
 
-There are some more details in some [email messages](../01/mdac.html) that appeared on the SPSSX-L listserver on September 10-11
+There are some more details in some [email messages](mdac.html) that appeared on the SPSSX-L listserver on September 10-11
 - 2000.
 
 **What if SPSS asks for a password?**
