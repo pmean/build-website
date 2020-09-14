@@ -1,0 +1,881 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>P.Mean: 2008 archive</title>
+</head>
+
+<body><!--start-->
+
+<p><b><a href="../index.html">P.Mean</a>:  Archive organized by date (created 2008-07-15)</b></p>
+
+<p><a href="../news.html">
+<img border="0" src="../images/news.png" width="511" height="68"></a></p>
+<blockquote>
+  <p>This page lists files created in calendar year 2008. Also look at the 
+  archives for <a href="archive13.html">2013</a>, <a href="archive12.html">2012</a>, <a href="archive11.html"></a><a href="../Archive11.html">2011</a>,
+  <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a><a href="Archive08.html"></a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../05/Archive05.html">2005</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>. You can 
+  also browse through an archive of pages <a href="../TopicList.html">organized by topic</a>. Some pages from early 2008 are not yet on this list.</p>
+  <p><a href="#Dec">December</a> | <a href="#Nov">November</a> | <a href="#Oct">
+   October</a> | <a href="#Sep">September</a> | <a href="#Aug">August</a> |
+   <a href="#Jul">July</a> | <a href="#Jun">June</a> </p>
+  <p><b><a name="Dec">December</a> 2008 (3 entries)</b></p>
+</blockquote>
+ <ol>
+  <li><a href="FalseFrugality.html">P.Mean: A false sense of frugality (created 
+  2008-12-17)</a>. A while back I received a data set that was very well 
+  documented, but there was one thing that I wish that the data entry person had 
+  not done. The demographic data was listed as 45f, 52m, 22m, 21f, etc. This was 
+  obvious shorthand for a 45 year old female, 52 year old male, and so forth.<li><a href="ViewingOutput.html">P.Mean: Viewing SPSS and SAS output without 
+  buying SPSS and SAS (created 2008-12-17)</a>. For one of my consulting 
+  clients, I asked for a copy of the output that the previous statistician had 
+  used. I received two files, one with an SPV extension and another with an MHT 
+  extension. It was obvious from the context that the first was an SPSS output 
+  file and the second was a SAS output file. I have access to both SPSS and SAS 
+  packages, but not conveniently at my laptop. I wanted to look at the files 
+  quickly, so what could I do?<li><a href="../08/SuboptimalApproach.html">P.Mean: Using a sub-optimal 
+  approach in meta-analysis (created 2008-12-06)</a>. <i>I am having difficulty 
+  understanding the meta-analysis of ordinal data in a&nbsp; Cochrane systematic 
+  review, and would appreciate advice and comments. One study in the 
+  meta-analysis had an ordinal efficacy outcome with categories None, Some, 
+  Good, and Excellent. The meta-analysis did 4 separate analyses, treating each 
+  category as if it were a dichotomous outcome. Aside from the fact that this 
+  generates (almost) more analyses than there are data, this approach seems 
+  unnecessary and uninterpretable. The Cochrane Handbook says: &quot;Ordinal and 
+  measurement scale outcomes are most commonly meta-analysed&nbsp; as 
+  dichotomous data.&quot; And &quot;Occasionally it is possible to analyse the data using 
+  proportional odds models where ordinal scales have a small number of 
+  categories, the numbers falling into each category for each intervention group 
+  can be obtained, and the same ordinal scale has been used in all studies.&quot; 
+  What should the authors of the systematic review have done?<br>
+  <br>
+  </i><b><a name="Nov">November</a> 2008 (8 entries)</b><i><br>
+&nbsp;</i><li><a href="LanDeMets.html">P.Mean: What is the Lan-DeMets approach to 
+  interim analysis? (created 2008-11-21)</a>. <i>I read an article that talked 
+  about a trial that ended early. They describe the approach as a 
+  &quot;O'Brien-Fleming stopping boundaries determined by means of the Lan-DeMets 
+  approach.&quot;. Does anyone you know anything about this statistical technique to 
+  determine if this is a valid approach?</i><li><a href="UnscientificTherapies.html">P.Mean: Ethics of research into 
+  unscientific therapies (created 2008-11-15)</a>. <i>What is a responsible 
+  ethical position on research on complementary or alternative medicine that is 
+  not based on &quot;generally accepted&quot; principles of science? For example, 
+  redirecting energy fields in the body; or demonstrating the positive effects 
+  of intercessory prayer (prayer on behalf of another person). It is one thing 
+  for a scientist member to say &quot;I don't think the proposed statistical 
+  methodology is adequate to the task.&quot; It's quite another thing to say &quot;I don't 
+  believe that there is any scientific basis for the proposed research.&quot; What 
+  then?</i><li><a href="ResearchIntegrity.html">P.Mean: IRB approval of studies with less 
+  than adequate research integrity (created 2008-11-14)</a>. <i>How should an&nbsp; 
+  IRB view its job with respect to research approval if the study design is 
+  &quot;less than adequate&quot; to provide valid results? Is the IRBs job only to assess 
+  for patient risk? If a study's design is poor and will not yield useful 
+  results should the IRB approve the study if there is minimal risk? Does it 
+  matter if the study is minimal risk vs greater than minimal risk?</i><li><a href="ExplainingCart.html">P.Mean: Explaining CART models in simple 
+  terms (created 2008-11-05)</a>. <i>I need some help understanding and explaining Classification and Regression 
+  Trees (CART). I am personally not familiar with this technique. When would 
+  someone select this over linear/logistic regression model?</i><li>
+  <a href="ReadingAbstracts.html">P.Mean: Reading abstracts instead of the full 
+  article (created 2008-11-05)</a>. An interesting inquiry on the Evidence-Based 
+  Health email discussion group generated a lot of responses. <i>A busy 
+  clinician has a limited amount of time to answer a clinical question. They 
+  carry out a quick search and find 5 decent abstracts. They have two options: 
+  1) Look at one full-text article. 2) Look at 5 abstracts. Which do people 
+  think is preferable?</i> It's a tricky question because both approaches have 
+  problems. Here are my thoughts on this issue.<li><a href="NotGatekeepers.html">P.Mean: Statisticians are not gatekeepers 
+  (created 2008-11-04)</a>. A discussion of the proper role of statisticians 
+  when presented with questionable data is raging in the MedStats discussion 
+  group. I added some comments recently about the dangerous tendency for us 
+  statisticians to view our roles as &quot;gatekeepers&quot;. Here's the gist of my 
+  comments.<li><a href="TeachingClasses.html">P.Mean: Teaching classes for a fee (created 
+  2008-11-03)</a>. I was asked by someone at Children's Mercy Hospital how much 
+  it would cost to continue teaching the short courses that I have offered. 
+  Since I will also make those courses available to anyone else, I thought I'd 
+  share my general comments about fees and logistics here.<li><a href="ModelMicroarray.html">P.Mean: Comparing a set of microarray 
+  experiments to a model experiment (created 2008-11-01)</a>. <i>I have a matrix 
+  of effect sizes from numerous microarray experiments.&nbsp; For example, in one 
+  matrix I have 200 genes (rows) and 107 experiments (columns).&nbsp; In addition, I 
+  also have a sort of “model experiment” which contains the values in which I am 
+  most interested. For each gene, I am trying to determine which genes are not 
+  statistically different from the “model experiment” value.<br>
+  <br>
+  </i><b><a name="Oct">October</a> 2008 (18 entries)</b><i><br>
+&nbsp;</i><li><a href="PlanSurvey.html">P.Mean: How to design a new survey (created 
+  2008-10-28)</a>. Someone wrote in with a question about how to design a 
+  survey. There are entire books devoted to the subject. I couldn't do the 
+  subject justice in a single email, but here's what I sent.<li><a href="RefusingToAnalyze.html">P.Mean: Refusing to analyze a data set 
+  (created 2008-10-28)</a>. <i>An associate of mine has a problem. He has been 
+  told by a statistician that they can't analyse his data because it is not from 
+  a randomised trial. I personally feel that there is no problem with doing any 
+  sort of analysis with this data group.</i><li><a href="SdTooBig.html">P.Mean: A standard deviation that is too big for 
+  its own britches (created 2008-10-22)</a>. <i>I am a medical editor 
+  (manuscript editor) at a peer-reviewed journal and have noticed that some 
+  authors supply standard deviations (SD) with means even when their SDs are 
+  more than half the value of their means. (Hypothetical example: patients 
+  recovered function at a mean (+/- SD) of 220 days +/- 190 days after surgery.) 
+  It is my understanding that an SD is meaningless when it is this large 
+  (relative to the mean).</i><li><a href="ComputingDifference.html">P.Mean: Computing a difference between 
+  the first and last variables (created 2008-10-20)</a>. <i>Hello, I seen that 
+  you have provided some answers to people's SPSS questions, and I was hoping 
+  you could help me. I have a basic question that I imagine this can be done 
+  quite easily through syntax, but I don't know how to do it. I have a data set 
+  with multiple rows, where each row is data for an individual (pretty basic). I 
+  have about 50 variables which are time points of data. I guess you could think 
+  of it set up as individuals' scores on some measure at various time points 
+  where the columns go, var1day1, var2day1, var3day1, var4day1, var2day1, 
+  var2day2, var2day3, var2day4, var3day1, var3day2, var3day3, 
+  var3day4.......var1day50, var2day50, var3day50, var4day50 What I need to do is 
+  quite simple, I'm creating a variable which is simply the score of the first 
+  time point of var1 (var1day1) minus the score of the last time point of that 
+  same variable (var1dayX). However, it gets complicated because for some cases 
+  the last time point is the variable day50, for some individuals the last time 
+  point is variable day3 and there's everything in between. If all individuals 
+  had the same time points (which ran up through day 50), I would simple say 
+  COMPUTE NEWVAR=VAR1DAY1-VAR1DAY50. But that obviously won't work because not 
+  every case has a day50. I also can't tell it to subtract the highest score, 
+  because it's not always true that an individuals last score was their highest 
+  score.</i><li><a href="InterveningVariable.html">P.Mean: What is an intervening variable 
+  (created 2008-10-20)</a>. <i>I'm familiar with dependent and independent 
+  variables but I just heard about intervening variables. Please tell me what 
+  are they, and how they deal with the other variables.</i><li><a href="MethodologyErrors.html">P.Mean: Errors in statistical methodology 
+  (created 2008-10-19)</a>. <i>From those of you who review/appraise articles 
+  regularly, I would like to hear what kinds or errors you find most often in 
+  the statistical methodology. I will be training nurses to critically appraise 
+  the statistical methodology sections of articles, and since their time and 
+  knowledge of statistics are limited, I hope to focus mainly on errors they are 
+  likely to find in real articles.</i><li><a href="RepeatedMeasuresPart2.html">P.Mean: Example of power calculation 
+  for a repeated measures design (created 2008-10-19)</a>. I was asked how to calculate power for an interaction term in a repeated 
+  measures design. There were two groups (treatment and control), and subjects 
+  in each group were measured at four time points. The interaction involving the 
+  third time point was considered most critical.<li>
+  <a href="DefendingBonferroni.html">P.Mean: Defending Bonferroni (created 
+  2008-10-18)</a>. I had someone argue with some advice that I gave, which is a 
+  good thing. I had recommended the use of a Bonferroni comparison, and he 
+  argued that Bonferroni should not be used when making &quot;independent&quot; 
+  comparisons.<li><a href="BiostatisticsPrograms.html">P.Mean: Biostatistics or 
+  Health Informatics programs in or near Kansas City (created 2008-10-18)</a>.
+  <i>I'm looking to expand my knowledge base. I was wondering if there are any 
+  programs in or near the Kansas City area that offer BioStats or Healthcare 
+  Informatics types courses (things with a more math bent).</i><li><a href="RegressionAndAnova.html">P.Mean: What's the difference between 
+  regression and ANOVA? (created 2008-10-15)</a>. Someone asked me to explain 
+  the difference between regression and ANOVA. That's challenging because 
+  regression and ANOVA are like the flip sides of the same coin. They are 
+  different, but they have more in common that you might think at first glance.<li><a href="NormalityAssumption.html">Normality assumptions for the paired 
+  t-test (created 2008-10-14)</a>. <i>I am confused about which data have to be 
+  normally distributed on a paired t-test for testing that two data sets differ 
+  significantly. Everitt-Hothorn &quot;A handbook of statistical analyses using R&quot;, 
+  page 33 says that the differences between the data should be normally 
+  distributed without implying anything about if the original data should be 
+  normally distributed, while Wiki t-test and Field &quot;Discovering statistics 
+  using SPSS&quot; page 287 imply that both of the original data should be normally 
+  distributed? Considering that I am a beginner in statistics, I am confused. 
+  can you give me any clues please?</i><li><a href="TtestWith3and2.html">P.Mean: T-test with 3 treatment values and 2 
+  controls (created 2008-10-14)</a>. I received a question about how to run a 
+  t-test when one group has 3 observations and the other group has 2 
+  observations? It turns out that you use the same formula/program that you 
+  would use with 30 observations in one group and 20 observations in the other 
+  group. There are two things, however, that you need to watch out for.<li><a href="LikertSum.html">P.Mean: Using ANOVA for a sum of Likert scaled 
+  variables (created 2008-10-09)</a>. <i>I want to analyse data derived from a 
+  questionnaire. The range of possible values that my variable can take goes 
+  from 20 to 100. No evidence for rejecting the hypothesis of normality was 
+  found. I would therefore apply an ANOVA, but I still have some doubts whether 
+  this methods of analysis is valid, since the range of my dependent variable is 
+  not [- infinity;+ infinity]. Is the ANOVA a valid method of analysis or are 
+  there other approaches I can apply?</i><li><a href="OverfittingExample.html">
+  P.Mean: A simple example of overfitting (created 2008-10-08)</a>. A couple of the Internet discussion groups that I participate in have been 
+  discussing the concept of overfitting. Overfitting occurs when a model is too 
+  complex for a given sample size. I want to show a simple example of the 
+  negative consequences of overfitting.<li><a href="Spss17.html">P.Mean: What's new in SPSS 17 (created 2008-10-07)</a>. 
+  I attended a web seminar on new developments in version 17 of SPSS. SPSS has 
+  improved research and reporting tools, more accessibility for 
+  non-statisticians and more accessibility for statistical programmers, and 
+  easier integration, deployment, and management.<li>
+  <a href="PiecewiseLinear.html">P.Mean: How do I fit a piecewise linear 
+  regression (created 2008-10-07)</a>. I was asked to look at some data that involved monitoring glucose and 
+  potassium levels before, during, and after a special infusion. You would 
+  expect, perhaps, that there would be a flat trend before, and upward or 
+  downward trend (possibly linear, possibly not) during administration, and a 
+  different trend (possibly linear, possibly not) after infusion. There's a 
+  simple regression model for this, which is sometimes called a piecewise linear 
+  regression, segmented regression, join point regression, or elbow regression.<li><a href="GodwinsLaw.html">P.Mean: Godwin's Law (created 2008-10-05)</a>. 
+  There is a tendency in some discussions (mostly with a political focus, but 
+  also in some with a medical focus), to invoke the name of Adolph Hitler in 
+  criticizing one's opponents or to compare one's opponents to Nazis. This is 
+  sometimes called the Reductio ad Hitlerum fallacy or the Argumentum ad Nazium 
+  fallacy.<li><a href="PrivateConflicts.html">P.Mean: Evaluating private conflicts of 
+  interest (created 2008-10-01)</a>. The open source journal PLoS Medicine has 
+  an interesting editorial that is worth commenting on. Making Sense of 
+  Non-Financial Competing Interests. The PLoS Medicine Editors. PLoS Med 5(9): 
+  e199 doi:10.1371/journal.pmed.0050199.<br>
+  <br>
+  <b><a name="Sep">September</a> 2008 (20 entries)</b><br>
+&nbsp;<li><a href="ReportingFishersExact.html">P.Mean: Reporting Fisher's Exact test 
+  (created 2008-09-26)</a>. <i>I am a doctoral student trying to handle stats 
+  analysis of very skewed data, so I think I've done all non-parametric tests by 
+  the book. My time for writing the report was up when suddenly, I was told by 
+  my advisor to change from Pearson chi square to Fisher's Exact test without 
+  mentioning any details how to report it and none of the books I have carry an 
+  example. Thank you so much for your very user/student friendly web page. I owe 
+  you!</i><li><a href="BadExamples.html">P.Mean: Good examples of bad studies 
+  (created 2008-09-26)</a>. <i>Does any one have a good example of a fairly flawed therapy article for 
+  a course that I teach in EBM. Seems most of the articles I find aren't too 
+  badly designed. Students always want to see some bad articles to critique.</i><li><a href="RepeatedMeasures.html">P.Mean: Power calculations for repeated 
+  measures designs (created 2008-09-25)</a>. <i>I’ve been struggling with a 
+  design/analysis question related to repeated measures design and power 
+  analysis. Can you help?</i><li><a href="CanIAsk.html">P.Mean: Can I ask you a 
+  question? (created 2008-09-25)</a>. <i>For several years now, I have enjoyed 
+  reading your webpage and have recently purchased your text- thank for your 
+  efforts in helping those of us attempting to learn biostatistics. I’ve been 
+  struggling with a design/analysis question related to repeated measures design 
+  and power analysis. I’m not sure if you are currently accepting questions of 
+  this nature, and thought I would check to see if this would be OK. I certainly 
+  understand if this is something that you would rather not involve yourself 
+  with.</i><li><a href="ParallelControl.html">P.Mean: Comparing pre and post 
+  data with a parallel control group (created 2008-09-25)</a>. <i>I am 
+  retrospectively comparing pre and post treatment heart rates for two different 
+  populations. I was going to use a paired t-test for comparison within each 
+  population. Can I still use an independent t-test for comparison of the post 
+  treatment differences between the two populations? If not, what would be the 
+  most appropriate test?</i><li><a href="SkipFields.html">P.Mean: Processing 
+  skip fields in SPSS (created 2008-09-25)</a>. <i>How do I program skips on 
+  SPSS so that data would not be entered on irrelevant questions?</i><li><a href="ProportionalVennDiagrams.html">P.Mean: Venn diagrams with 
+  proportional areas (created 2008-09-23)</a>. I was asked by someone to come up 
+  with a graphic summary of a data set that includes three binary factors that 
+  can be either present or absent in any combination. Typically this can be 
+  illustrated with a Venn diagram, the intersection of three circles but I 
+  wondered if you could do a Venn diagram with areas proportion to the actual 
+  probabilities.<li><a href="ThreeLevels.html">P.Mean: Can an outcome with three levels be 
+  used in logistic regression (created 2008-09-18)</a>. <i>I had a quick 
+  question about logistic regression. Is this the appropriate test to use when 
+  your outcome variable has 3 levels? For example, we are looking at factors 
+  associated with obesity in children. Our outcome variable is BMI percentage 
+  and is classified as either normal, at risk, or overweight. I ran logistic 
+  regression on SAS and then realized this may not be the right test to run.</i><li><a href="LinksAndReferences.html">P.Mean: Links and references that I need 
+  to add (2008-09-18)</a>. I often run across important links and references that I need to add to my 
+  webpages. I don't want to add an undocumented link or reference, though. I try 
+  to include a full description, including a summary or excerpt. This page will 
+  be where I &quot;park&quot; those undocumented links and references until I get around 
+  to documenting them.<li><a href="JackknifeEntropy.html">P.Mean: Jackknife applied to entropy 
+  calculations (created 2008-09-15)</a>. I have been working with entropy for a 
+  couple of different projects and one important question to ask is &quot;How much 
+  does the entropy change when a single observation is removed from the data 
+  set. This process of removing one item from a data set and recalculating a 
+  statistic based on the remaining (n-1) observations is called jackknifing. It 
+  is a very simple but still very useful technique in a variety of statistical 
+  settings.<li><a href="SpermMorphology.html">P.Mean: Use of entropy measures 
+  for sperm morphology classification (created 2008-09-13)</a>. Entropy is a 
+  measure used in quantum physics, communications, file compression, and 
+  statistics. There are a variety of informal interpretations for entropy. A 
+  high value of entropy implies a great deal of uncertainty, very little 
+  regularity and limited predictability. High entropy describes a process that 
+  is full of surprises. A low value of entropy implies limited uncertainty 
+  substantial regularity, and very good predictability. The lowest value for 
+  entropy is zero, which represents constancy, perfect regularity, and perfect 
+  predictability. Entropy is a useful measure for sperm morphology 
+  classifications, because it provides a quantitative way to assess the degree 
+  to which different laboratory technicians will apply sperm morphology 
+  classifications differently on the same set of sperm cell images.<li><a href="ContinuityCorrection.html">P.Mean: How do you compute a 
+  continuity correction for a confidence interval? (created 2008-09-12)</a>. I 
+  helped author a page on Wikipedia about confidence intervals for a binomial 
+  proportion and a question arose on the discussion page about applying a 
+  continuity correction.<li><a href="PopulationBased.html">P.Mean: What does &quot;population-based&quot; mean? 
+  (created 2008-09-12)</a>. I was reviewing an article that I am a co-author on 
+  and the author described the dearth of &quot;population-based&quot; studies. I had to 
+  think a bit, about what that term really meant.<li><a href="DistinctGroups.html">P.Mean: Comparisons involving distinct 
+  groups collected at different times and with different methods (created 
+  2008-09-12)</a>. <i>I have a data set of 100 children with a specific health 
+  problem. In this set I have medical histories of the children. In another 
+  study, I have collected a data set of 65 children without that specific health 
+  problem. In this set I also have medical histories of the children. Is it 
+  possible to compare the two samples in some way to determine whether there are 
+  significant differences in the medical histories in the two sets of children?</i><li><a href="EmailAccounts.html">P.Mean: Multiple email accounts (created 
+  2008-09-09)</a>. I have created several email accounts to help separate my 
+  personal life from my professional life and my new career as an independent 
+  statistical consultant from my old career at Children's Mercy Hospital. You 
+  can use any of these email accounts, and I will answer, of course. I will be a 
+  bit more efficient, though, if you target the correct email address.<li><a href="ConfidenceInterval.html">P.Mean: Where did you get that formula 
+  for the confidence interval? (created 2008-09-09)</a>. I sent someone a 
+  confidence interval for a single proportion, and they asked how I computed it. 
+  That's a fair question. It turns out that I used a classic formula that 
+  everyone learns (and then forgets) in their basic Statistics class.<li><a href="ChandraCasestudy.html">P.Mean: The case of Ranjit Kumar Chandra 
+  (created 2008-09-08)</a>. I've been working on developing a series of case 
+  studies in research ethics and research fraud. Progress is slow for a variety 
+  of reasons (my apologies), but I hope to have the first case study on this 
+  website soon. I just ran across a series of webpages published at the Canadian 
+  Broadcaster Corporation website associated with the allegations of fraud 
+  associated with Dr. Ranjit Kumar Chandra. There is video associated with this 
+  site and numerous pictures of the key participants.<li><a href="TwoProportions.html">P.Mean: Comparing two proportions out of the 
+  same multinomial population (created 2008-08-05)</a>. <i>I am lucky enough to 
+  be researching wine. Specifically I am exploring which components in wine 
+  results in maximised preference. At the moment I am trying to compare 
+  proportions from the same population. N = 68. 8 people most preferred wine 1, 
+  25 most preferred wine 2, 1 most preferred wine 1 and 2, for 34 of 
+  participants their most preferred wine was another wine. I want to see if the 
+  proportion of people that chose wine 1 was significantly different from the 
+  proportion that chose wine 2. I have been recommended to use McNemar's. But I 
+  just don't know how. I found your website which is as close as I have got but 
+  is slightly different. Just wondering if you had any thoughts? Cheers</i><li><a href="AntiIntellectualismPart2.html">
+  P.Mean: The depths of anti-intellectualism (created 2008-09-05)</a>. My 
+  brother-in-law is an avid conservative and often sends me political commentary 
+  that would make Attila the Hun blush. That's actually a good thing, as it 
+  makes me think things through more carefully. He recently made a sarcastic 
+  comment about the lack of experience of Barack Obama (&quot;the guy with the resume 
+  consisting of two good speeches&quot;). It made me think a bit more about a topic 
+  of general interest to me and one that goes well beyond politics: the rise of 
+  anti-intellectualism in the United States. Here's what I wrote back to him in 
+  response.<li><a href="SequenceLogo.html">P.Mean: Applying the sequence logo 
+  concept to data quality (created 2008-09-04)</a>. I am trying to adapt the 
+  logo graph used in genetics to an examination of data quality. I am just 
+  starting this, so the graphs are a bit crude. I took the 1973 NAMCS data set 
+  and calculated entropy for each column of data. This is a massive data set 
+  with 29,210 rows and 85 columns.<br>
+  <br>
+  <b><a name="Aug">August</a> 2008 (16 entries)</b><br>
+&nbsp;<li><a href="CheckMetadata.html">P.Mean: Checks for data quality using 
+  metadata (created 2008-08-28)</a>. I have been working on a series of webpages 
+  discussing automated checking for data quality. I have been proposing 
+  cumulative entropy as a measure to track sudden shifts in data entry 
+  characteristics. Entropy can be thought of as the amount of underlying 
+  heterogeneity in a data set, and if this value suddenly shifts upward or 
+  downward, it may be an indication that a change in data entry practices has 
+  occurred. These quality checks can also be applied to metadata (data about the 
+  data itself). There are certain characteristics of a column of data that 
+  usually stay constant. A name, for example, is usually all letters, while an 
+  address is usually a mix of letters and numbers. A sudden shift in the 
+  composition of the data may indicate a problem.<li><a href="OvarianCancer.html">P.Mean: Controversies with a test for ovarian 
+  cancer (created 2008-08-27)</a>. A recent article in the New York Times raises 
+  some interesting questions about diagnostic testing.<li><a href="MultipleVariables.html">P.Mean: Entropy as a measure of data 
+  quality across multiple variables (created 2008-08-25)</a>. In a previous webpage, I discussed the use of cumulative entropy as a 
+  measure of data quality. A sudden shift in cumulative entropy that is not 
+  associated with a significant change in the research design is a possible 
+  marker for a data quality issue. The advantage of entropy is that it can be 
+  used for very large data sets where a context specific analysis of data 
+  quality is difficult or impractical. Entropy can also be cumulated across 
+  multiple columns of data, to look for global shifts.<li><a href="ControversialArea.html">P.Mean: Where to look for information in 
+  a controversial area (created 2008-08-20)</a>. <i>I am currently researching 
+  vaccinations and the negative effects they may cause. My ex-boyfriend is 
+  against vaccines and I am for them. I was wondering if you could give me some 
+  references to research supporting the autism link not being caused by vaccines 
+  or actually any other theory regarding vaccines being harmful to the body. I 
+  went to a seminar and they told us there is a problem with molecular mimicry 
+  where the body may attack itself looking for a sequence similar to the 
+  disease. Any help you can offer would be greatly appreciated. Desperately 
+  seeking the truth.</i><li><a href="ResourcesForFellows.html">P.Mean: What resources are available 
+  for fellows? (created 2008-08-20)</a>. <i>I am on the Core Curriculum 
+  Committee for a fellowship program in medicine (details omitted to protect 
+  privacy) and we are in the process of updating our reading list for the 
+  fellows in training. One of the many topics we are trying to update is some 
+  basic info on statistics. I was going to reference your book, but they are 
+  mostly looking for good review articles that the fellows are more likely to 
+  look at. Specifically, they want info on: Test-performance characteristics: 
+  principles of sensitivity, specificity, predictive value, and ROC analysis. I 
+  was wondering also about referencing your web page as well.</i><li>
+  <a href="ScientificBasis.html">P.Mean: Is there a scientific basis for EBM? 
+  (created 2008-08-20)</a>. A pair of articles in Chest, along with two 
+  rebuttals examines two sides to the debate over the validity of Evidence-Based 
+  Medicine (EBM). Point: evidence-based medicine has a sound scientific base: P. 
+  J. Karanicolas, R. Kunz, G. H. Guyatt. Chest 2008: 133(5); 1067-71, and 
+  Counterpoint: evidence-based medicine lacks a sound scientific base. M. J. 
+  Tobin. Chest 2008: 133(5); 1071-4; discussion 1074-7.<li><a href="SampleSize.html">P.Mean: Source for sample size formula (created 
+  2008-08-20)</a>. <i>Hello, I am looking at your page on sample size calculation, 
+  and I'm curious as to where you got the equation shown there. I can't seem to 
+  find that exact form in Cohen's book, not does it appear anywhere else that 
+  I've looked. Would you happen to know its original source?</i><li><a href="SlashAndBurn.html">P.Mean: Another inquiry about slash and burn 
+  models (created 2008-08-20)</a>. <i>In a binary logistic regression model, do 
+  all variables including the constant need to be significant before you can 
+  include them in the model or is it just the constant that has to be 
+  significant?</i><li><a href="SocialNetworking.html">P.Mean: Social networking as a business 
+  tool (created 2008-08-19)</a>. The New York Times had an interesting article 
+  about using social networking tools for professional goals: The Social Network 
+  as a Career Safety Net, Sarah Jane Tribble, August 13, 2008. This is a fairly 
+  basic article, which was good for me because I have ignored social networking 
+  sites until recently.<li><a href="SkipBonferroni.html">P.Mean: Can I please skip the Bonferroni 
+  adjustment? (created 2008-08-19)</a>. <i>I ran multiple correlation analysis 
+  for abundances, richness (species density), and diversity of different growth 
+  forms in four different landscapes in Colombian Amazonia. My questions is: Do 
+  I have to calculate a Bonferroni test to adjust for each probability?</i><li>
+  <a href="PersonalPages.html">P.Mean: New personal pages (created 2008-08-14)</a>. One issue at my old website was that I could not post personal information. 
+  That's a fair policy, and I'm not complaining. But now that I have my own 
+  website, I can add a few personal updates. The main focus of this website will 
+  still be statistics, but since I'm paying for this URL, I will add a few fun 
+  pages about myself. Since I'm a parent, I will be 
+  spending most of my time bragging about my little boy, Nicholas.<li><a href="CumulativeEntropy.html">P.Mean: Cumulative entropy as a measure 
+  of data quality (created 2008-08-11)</a>. I was talking to someone about some of my work with control charts, and 
+   they asked a question out of the blue. A lot of data sources that might be 
+   candidates for my control chart software has potential problems with data 
+   quality. Did I have any thoughts about ways to screen for poor data quality?<li>
+  <a href="AntiIntellectualism.html">P.Mean: Quote on 
+  anti-intellectualism (created 2008-08-08)</a>. I want to write an article 
+  about the growing mistrust of experts in our society. A working title is &quot;The 
+  Rising Tide of Anti-Intellectualism.&quot; Here's a quote that might be worth 
+  starting out with.<li><a href="CountData.html">P.Mean: Interval scale for 
+  count data? (created 2008-08-07)</a>. <i>Some of my colleagues insist that the 
+  variable: number of---,(say, quality distractors of an item) is not an 
+  interval scale measure but I feel to the contrary. What do you say and why?</i><li><a href="HarshSanctions.html">
+  P.Mean: Harsh sanctions are only part of the solution (created 2008-08-06)</a>. 
+  The Scientist Newsblog had an article about research fraud. Many of the people 
+  who commented on the blog were surprised that there were not any serious 
+  sanctions on the researcher who perpetrated the fraud. There were suggestions 
+  to revoke the graduate degree and to block any future research funding for 
+  this individual. I added a comment, because harsh sanctions are the simplest 
+  suggestion, but there may be more effective approaches that should be used as 
+  well. Here is what I wrote.<li><a href="ConsultingResources.html">P.Mean: 
+  Resources from the Statistical Consulting Section of the American Statistical 
+  Association (created 2008-08-02)</a>. I've talked with a lawyer about setting up an independent statistical 
+  consulting practice and he had several valuable suggestions. One of the more 
+  obvious ones, but one that I had not considered was to check out resources 
+  available through your professional society. The American Statistical Association has a Statistical Consulting Section, 
+  and this section provides quite a few resources. Here's a brief summary of 
+  some of the ones that I found helpful.<br><br>
+  <b><a name="Jul">July</a> 2008 (23 entries)<br>
+  </b><br>
+  <li><a href="NamingConventions.html">P.Mean: Naming conventions for variables 
+  (created 2008-07-30)</a>. For almost all statistical software programs, you 
+  can and should provide variable names for your data. Variable names are a 
+  short descriptive explanation of what resides in each column of data. You 
+  should choose a variable name that is short, concise, and descriptive.</li>
+  <li><a href="BusinessAspects.html">P.Mean: Business aspects of an independent 
+  statistical consultant (created 2008-07-28)</a>. I'm learning quite a bit about the business issues associated with a new 
+  career as an independent statistical consultant. Here are some of the issues 
+  I've had to confront. My apologies to the many readers of this website from 
+  other countries, but these issues are mostly specific to the United States.</li>
+  <li><a href="ReliableDiagnosis.html">P.Mean: Reliable diagnosis of cataracts 
+  (created 2008-07-28)</a>. <i>Can you help with this question? Cataracts of the 
+  eye may be difficult to diagnose, especially in the early stages. In a study 
+  of the reliability of their diagnoses, two physicians each examined the same 
+  1,000 eyes, without knowing the other's diagnoses. Each physician found 100 
+  eyes with cataracts. Does this mean that the diagnoses are reliable?</i></li>
+  <li><a href="AbandonFrontPage.html">P.Mean: Should I abandon FrontPage? 
+  (created 2008-07-24)</a>. I've used various iterations of Microsoft FrontPage 
+  since the beginning of the StATS website (that site started in 1998, but the 
+  first &quot;surviving&quot; page dates from 1999). I like FrontPage, but I'm wondering 
+  if I should switch to an open source package.</li>
+  <li><a href="PlugForAccrual.html">P.Mean: Plug for accrual research (created 
+  2008-07-24)</a>. I received a request for use of material from my old website. 
+  It's a bit tricky right now, but I hope to have things resolved soon. The 
+  person inquiring was the owner of a company that specializes in clinical 
+  research and clinical data management. I thought it wouldn't hurt to mention 
+  some of the work that Byron Gajewski and I have done in accrual rates. Here's 
+  what I wrote.</li>
+  <li><a href="WhatDistribution.html">P.Mean: What distribution does this data 
+  come from? (created 2008-07-23)</a>. <i>I'm very interested in assessing 
+  distributional fits for empirical data and I've found tidbits of information 
+  here and there but no real good source. Could you recommend a few good 
+  sources?</i></li>
+  <li><a href="FirstMetaAnalysis.html">P.Mean: My very first meta-analysis 
+  (created 2008-07-23)</a>. <i>I am a research student embarking upon a 
+  systematic review and possible metanalysis. I am currently in the process of 
+  developing a protocol. I have been having difficulty understanding the 
+  statistical issues especially since I am not very good at mathematics. Could 
+  you kindly refer me to a source that would help me understand in a step by 
+  step way the concepts needed in doing a meta analysis? For example 
+  heterogeneity and the tests used for it which one is preferred and when; when 
+  to use subgroup analysis and when to use metaregression. I have been reading 
+  the Cochrane hand book for the purpose as advised by my supervisor but have 
+  not been able to understand the concepts. Any help from you would be greatly 
+  appreciated.</i></li>
+  <li><a href="MailSoftware.html">P.Mean: Mail and calendar software I use in my 
+  new job (created 2008-07-23)</a>. When I was working for Children's Mercy 
+  Hospital, it made sense to use Microsoft Outlook for my email and calendaring 
+  system. Working, independently, however, I have more choices (more degrees of 
+  freedom, perhaps).</li>
+  <li><a href="NineOfThirtySix.html">P.Mean: Survey results from nine out of 
+  thirty six employees (created 2008-07-21)</a>. <i>Hi, hope you can help a 
+  struggling grad student in health promotion and education. If I administer a 
+  questionnaire to 9 out of 36 staff members, are the results statistically 
+  significant or is the survey respondents number too small? This is a needs 
+  assessment questionnaire-what the staff feels they need from an educational 
+  standpoint. Or am I floating off course and hopeless? Thank you for your time 
+  and help!</i></li>
+  <li><a href="UseMaterial.html">P.Mean: Can I use some material from your 
+  website? (created 2008-07-18)</a>. Someone wrote in asking for permission to 
+  use some of the material on my old website, www.childrensmercy.org/stats. From 
+  December of 2007 through June of 2008, that was an easy thing to do. I had 
+  placed all of the content of my old website under an open source license. In 
+  particular, I used the Creative Commons Attribution 3.0 United States License. 
+  Unfortunately, someone at the hospital raised a question about this and I may 
+  not have had the right, by myself, to declare that those web pages would be 
+  made available under such a liberal license.</li>
+  <li><a href="LearnMore.html">P.Mean: Where can I learn more about Statistics? 
+  (created 2008-07-18)</a>. Someone asked me how they could learn more about a 
+  specialized topic in Statistics. They were willing to pay for this, though 
+  they didn't have a lot of money.</li>
+  <li><a href="SoftwareForBootstrap.html">P.Mean: Software for bootstrap and 
+  resampling (created 2008-07-18)</a>. Someone asked me what software they 
+  should use as they were learning how to use the bootstrap and resampling 
+  methods.</li>
+  <li><a href="EmailLists.html">P.Mean: Getting on and off various email lists 
+  (created 2008-07-17)</a>. In my transition to a new email address, I am having 
+  to sign off and re-sign on to a variety of email lists. Here are the details 
+  of how to do this for those lists related to my work.</li>
+  <li><a href="../consult.html">P.Mean: Hire me as a consultant (created 
+  2008-07-15)</a>. Starting on July 15, 2008, I am available for statistical 
+  consulting. I have a PhD in Statistics, thirty years of experience, and many 
+  satisfied customers. In the past, I have undertaken independent consulting 
+  assignments using my evenings and weekends, but there was not enough time in 
+  the week to handle this and keep up with my five year old boy. I am taking an 
+  unpaid leave of absence from work in order to devote full time to develop a 
+  career as an independent consultant.</li>
+  <li><a href="UndeclaredMissingCode.html">P.Mean: Undeclared missing code leads 
+  to bad results (created 2008-07-15)</a>. I found this ticket in a computer 
+  store many years ago and am just now getting around to showing it. It 
+  demonstrates how failure to declare a missing value code can lead to laughably 
+  incorrect results.</li>
+  <li><a href="MisleadingBargraph.html">P.Mean: A misleading bar graph (created 
+  2008-07-15)</a>. A regular contributor on EDSTAT-L, found an interesting bar 
+  graph on the DirecTV website.</li>
+  <li><a href="UsingGoogle.html">P.Mean: Using Google to search through my 
+  website (created 2008-07-15)</a>. I want to set up a search function at this 
+  website, but I will have to learn a bit more about Linux servers first. In the 
+  meantime, it is very easy to search through my website (or any website) using 
+  Google.</li>
+  <li><a href="OneTailed.html">P.Mean: How to report a one-tailed Fisher's Exact 
+  test (created 2008-07-12)</a>. <i>Thank you for your informative page about 
+  the Fisher's Exact test. Can you please clarify how whether the test was 1 or 
+  2-tailed affects the way that a significant result would be reported?</i></li>
+  <li><a href="PearsonCorrelation.html">P.Mean: Pearson correlation and ordinal 
+  data don't mix (created 2008-07-11)</a>.<i> I feel uncomfortable using a 
+  Pearson correlation coefficient for two variables that are measured on an 
+  ordinal scale (for example, 1=unaware, 2=aware, 3=fairly aware, 4=moderately 
+  aware, 5=very aware). But I can't explain why I am uncomfortable with this. 
+  Can you help?</i></li>
+  <li><a href="StandardDeviation.html">P.Mean: Where did that standard deviation 
+  come from? (created 2008-07-09)</a>. Someone wanted some help with a power 
+  calculation. I gave the standard spiel that you need three things: a research 
+  hypothesis, an estimate of the standard deviation of your outcome measure, and 
+  the minimum clinically important difference. This was for a study looking at 
+  10 exposed patients (recent spider bites) and 30 control patients. I got an 
+  article back in email very quickly, and while it was interesting to read, it 
+  wasn't quite what I needed.</li>
+  <li><a href="CytelAccrual.html">P.Mean: Cytel software has developed a Poisson 
+  model for predicting accrual (created 2008-07-09)</a>. I attended a web 
+  seminar by Jeff Palmer, Cytel Corporation, about Bayesian methods in adaptive 
+  clinical trials. It was a very good seminar, and I should try to summarize 
+  some of the major points sometime. One of the figures, though, caught my 
+  attention. It showed a projection of future accrual based on a Poisson 
+  distribution.</li>
+  <li><a href="FdaOnBayes.html">P.Mean: What does the FDA think about Bayesian 
+  statistics (created 2008-07-08)</a>. The FDA is, in general, a cautious agency 
+  (as it should be), but they are allowing newer approaches for establishing 
+  efficacy and safety of new drugs. Many of these new approaches involve 
+  Bayesian methods. A draft guidance &quot;Guidance for the Use of Bayesian 
+  Statistics in Medical Device Clinical Trials - Draft Guidance for Industry and 
+  FDA Staff&quot; is available in HTML format or PDF format.</li>
+  <li><a href="DistrustBayesian.html">P.Mean: Distrust of a Bayesian 
+  meta-analysis (created 2008-07-01)</a>. A regular correspondent on the 
+  evidence based health email discussion group (BA) raised some questions about 
+  the use of a Bayesian hierarchical model in a meta-analysis. He was worried 
+  about whether this approach would be appropriate for this type of data.<br>
+  <br>
+  <b><a name="Jun">June</a> 2008 (1 entry)<br>
+&nbsp;</b></li>
+  <li><a href="HowManyFiles.html">P.Mean: How many files are in this new 
+  website? (created 2008-06-24)</a>. 1,192, I think. It's tricky to get an exact 
+  count on the number of pages on this website. I could count the number of 
+  files, but many of these files perform support operations and do not 
+  themselves display directly on the page. Other files, of course, are images 
+  used within a page.</li>
+</ol>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+ <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" width="80" height="15"></a> 
+ This work is licensed under a
+ <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative 
+ Commons Attribution 3.0 United States License</a>. Need more 
+ information? I have a page with <a href="../GeneralHelp.html">general help 
+resources</a>.</p>
+<p> Files listed below were written by 
+  Steve Simon while working at  Children's Mercy Hospital. Although I do not hold the copyright for this material, I am providing these files at my new website as a service, as they are no longer available on the Children's Mercy Hospital website. For more details, consult <a href="../OldWebsite.html">the information page about my old website</a>.
+  </blockquote>
+<p><strong>June</strong>
+<p>45. <a href="../08/BootstrapStandardError.html">Stats: Bootstrap estimates 
+    of the standard error (June 20, 2008)</a>. A regular correspondent (JU) on 
+    the MEDSTATS email discussion group asked about using the bootstrap to 
+    estimate the standard error of the mean in a simple case with 9 data values. 
+    He wanted to know why the commonly used approach in the bootstrap community 
+    was to use n instead of n-1 in the variance denominator. It seemed to him 
+    that n-1 would produce an unbiased estimate of the standard error and wanted 
+    to know if that was true just in this special case or true in general. He 
+    quoted from the book by Efron and Tibshirani that they felt that for most 
+purposes either method would work well.
+<p>44. <a href="../08/CanIRun.html">Stats: Can I run a quantitative analysis on 
+  this data? (June 17, 2008)</a>. I get lots of questions about how small a 
+  sample size can be before you can't perform a quantitative analysis and 
+  instead are forced to summarize the data in a qualitative fashion. The most 
+  recent question involved looking at infants with feeding disorders. There were 
+  29 of these infants, but a subgroup of 5 had disorders so severe that they 
+  still required a feeding tube at 3 years of age. The researcher wanted to 
+  compare this group of 5 to the remaining 24.
+<p>43. <a href="../08/RWebServer.html">Stats: Running R on a web server (June 17, 
+  2008)</a>. I'm working on a project for planning and monitoring accrual 
+  patterns in clinical trials. This will eventually lead, I hope, to a grant to 
+  support this work. I have some existing R scripts and want to examine the 
+  possibility of running those scripts on a web page.
+<p>42. <a href="../08/DecliningCount.html">Stats: Modeling a declining count 
+    variable (June 14, 2008)</a>. I've been working on an interesting project 
+    that requires Poisson regression. A company sends out a mailing and gets a 
+    certain number of telephone calls back on each of the days following. The 
+    number of phone calls is typically (but not always) highest on the first day 
+    afterwards and declines rapidly on successive days. I wanted to develop a 
+simple Poisson regression model for this data.
+<p>41. <a href="../08/RandomEffects.html">Stats: Criticism of random effects in a 
+    meta-analysis (June 14, 2008)</a>. There are two approaches to combining 
+    results in a meta-analysis. They are called the fixed effects model and the 
+    random effects model. The fixed effects model effectively weights each study 
+    by the sample size, or by a measurement that is closely related to the sample 
+    size, such as the inverse of the standard error of the estimate. A random 
+    effects meta-analysis, in contrast, will assume that an estimate from a 
+    single study has two sources of error. One error is the same as in the fixed 
+    effects analysis and varies by the sample size of the study. The other error 
+    is a random component that is independent of the sample size and represents 
+    uncertainties due to conditions in this particular study that differ from 
+  conditions in other studies.</p>
+<p>40. <a href="../08/ElicitingPrior.html">StATS: Eliciting a prior distribution 
+  for rejection/refusal rates (June 7, 2008)</a>. I got a question about the 
+  Bayesian model for rejection/refusal rates. I had used three prior 
+  distributions in my calculations, a Beta(10,40), a Beta(45,5), and a 
+  Beta(25,25). The question was, how did I select those prior distributions.</p>
+<p>39. <a href="../08/ElicitingPrior.html">Stats: Eliciting a prior distribution 
+    for rejection/refusal rates (June 7, 2008)</a>. I got a question about the 
+    Bayesian model for rejection/refusal rates. I had used three prior 
+    distributions in my calculations, a Beta(10,40), a Beta(45,5), and a 
+Beta(25,25). The question was, how did I select those prior distributions.
+<p>38. <a href="../08/HeterogeneityInAnova.html">Stats: When does heterogeneity 
+  become a concern? (June 5, 2008)</a>. <i>Dear Professor Mean, I have an ANOVA 
+    model and I am worried about heterogeneity--unequal standard deviations in 
+  each group. How should I check for this?</i></p>
+<p>37. <a href="../08/ImpossibleResume.html">Stats: Why it's impossible to keep a 
+    resume current (June 5, 2008)</a>. I'm updating my resume and found an 
+    amusing coincidence. It serves as a cautionary statement to never make 
+assumptions.</p>
+<p><strong>May</strong></p>
+<p>36. <a href="../08/ExponentialAccrual.html">StATS:  A simple Bayesian model for 
+  exponential accrual times (May 26, 2008)</a>. Here is a simple Bayesian model for exponential accrual times. This model 
+  will help researchers to plan the estimated duration of a clinical trial. The 
+  same model will also allow the researcher to monitor the accrual during the 
+  trial itself and develop revised estimates for the duration or the sample 
+  size.</p>
+<p>35. <a href="../08/ShortBiography.html">Stats: A short biography that can be 
+  used as an introduction (May 9, 2008)</a>. I'm giving a talk today, and I was 
+  asked to provide some material that could be used to introduce me.</p>
+<p>34. <a href="../08/WhyBayesian.html">Stats: Why does a Bayesian approach make 
+  sense for monitoring accrual? (May 8, 2008)</a>. I'm working with Byron 
+  Gajewski to develop some models for monitoring the progress of clinical 
+  trials. Too many researchers overpromise and undeliver on the planned sample 
+  size and the planned completion date of their research This leads to serious 
+  delays in the research and inadequate precision and power when the research 
+  is completed. We want to develop some tools that will let researchers plan 
+  the pattern of patient accrual in their studies. These tools will also let 
+  the researchers carefully monitor the progress of their studies and let them 
+  take action quickly if accrual rates are suffering. We've adopted a Bayesian 
+  approach for these tools. While a Bayesian approach to Statistics is 
+  controversial, we feel that there should be no controversy with regard to 
+  using Bayesian models in modeling accrual.</p>
+<p>33. <a href="../08/SlippedDeadlines.html">StATS:  Slipped deadlines and sample 
+  size shortfalls in a random sample of research studies (May 7, 2008)</a>. 
+  There is a limited amount of data out there that suggests that many 
+  researchers overpromise on the planned sample size and completion date and 
+  underdeliver. About a year ago, I received a small grant to study the proportion of 
+  studies at Children's Mercy Hospital (CMH) that failed to meet the proposed completion deadlines, that failed to 
+  recruit the promised number of patients or both. Here is a brief summary of 
+these results.
+<p>32. <a href="../08/RefusalsAndExclusions.html">StATS:  Monitoring refusals and 
+  exclusions in a clinical trial (May 1, 2008)</a>. Someone sent me an email asking about the work that Byron Gajewski and I 
+  have done on monitoring accrual patterns in clinical trials. She had been 
+  doing something similar at her job and wanted to see if we could collaborate. In her situation, the major issue was the number of patients who made an initial contact but did not keep 
+  their first appointment, the number of patients who kept the appointment, but refused to sign the 
+  consent form once they realized what the study was about, and the number of patients who did sign the consent form, but who did not 
+  meet the inclusion criteria once the initial screening was done.</p>
+<p><strong>April</strong></p>
+<p>31. <a href="../08/NewOffice.html">Stats: Directions to my new office (April 
+  25, 2008)</a>. I have moved to a new office. It is a modular building just 
+  north of Children's Mercy Hospital. It is between 23rd and 22nd street, just 
+  off of Kenwood Avenue (Kenwood is a small north/south street just west of 
+  Holmes). If you need to get from your office to mine, here are some 
+directions written by my Administrative Assistant, Judy Champion.</p>
+<p>30. <a href="../08/KreamerAward.html">Stats: Nomination for the Kreamer Award 
+  for Research Excellence (April 24, 2008)</a>. Every year, Children's Mercy 
+  Hospital offers the Kreamer Award for Research Excellence. I plan to apply 
+  this year. I wanted to outline the requirements for the award and offer an 
+  overview of why I would be a good candidate for this award.</p>
+<p><strong></strong>29. <a href="../08/UpcomingTopics.html">Stats: Upcoming topics in Poisson 
+  regression (April 24, 2008)</a>. I get a lot of questions about Poisson 
+  regression. I feel embarrassed when this happens because my pages on this 
+  topic are woefully incomplete. Everything on my web pages is incomplete to 
+  some extent, of course, but this is an area with the biggest gaps. I have 
+  been planning for quite a while to write more about this topic, and here are 
+some of the areas I want to discuss.</p>
+<p>28. <a href="../08/EbmForPatients.html">Stats: Evidence Based Medicine for 
+  patients (April 23, 2008)</a>. There was an interesting email exchange on the email discussion group
+  EVIDENCE-BASED-HEALTH@JISCMAIL.AC.UK. The first correspondent (TH) described a 
+  series of workshops that are intended to help patients access and evaluate 
+health related websites.
+<p>27. <a href="../08/BadExamples1.html">Stats: I hate bad research examples (April 
+    23, 2008)</a>. Someone wrote in asking if I know of any good examples of 
+    research studies that illustrate problems of making false generalizations. I 
+    had to mention my book, of course, which has lots of commentary of actual 
+    publications, most of which are open source and freely available on the web. 
+    For what it&#8217;s worth, I do have a pedagogical bone to pick. I believe it is 
+not a good idea to find a &#8220;bad&#8221; publication and tear it apart.</p>
+<p>26. <a href="../08/InstrumentalVariables.html">Stats: A brief overview of 
+  instrumental variables (April 14, 2008)</a>. People will often ask me 
+  questions that are outside my area of expertise. Yes, I know you're shocked 
+  to hear this, but there are lots of areas of statistics where I only have a 
+  vague understanding. One of these questions was about instrumental 
+  variables. I could only offer a vague explanation, but I hope that is better 
+than no explanation at all.</p>
+<p>25. <a href="../08/OneThird.html">Stats: What does one-third of the way 
+    through a study mean? (April 6, 2008)</a>. Someone asked me a very good 
+    question regarding interim analysis. If the call for an interim analysis is 
+    specified as occurring one-third (and two-third) of the way through a study, 
+    what does that mean. In a study with 60 patients lasting a full year, does 
+    that mean until 20 (40) patients&nbsp; have arrived, or does it mean until 4 
+    (8) months? Also, if you are counting discrete events, such as adverse 
+events, does it mean one-third of the expected number of adverse events?</p>
+<p>24. <a href="../08/WholeNumbers.html"> Stats: Calculating statistics on whole 
+   numbers (April 4, 2008)</a>. <i>Dear Professor Mean, I have some data that 
+   has a resolution of 1, meaning that these are whole numbers only and no 
+   decimals. When I calculate the mean and standard deviation, should I report 
+the actual value or should I round it?</i></p>
+<p>23. <a href="../08/CaseStudies.html">Stats: Why we need case studies of 
+  research ethics in graphic novel format (April 3, 2008)</a>. I was asked to 
+  provide some justification for a project I am working on, case studies in 
+research ethics using a graphic novel format. Here is what I wrote.</p>
+<p>22. <a href="../08/AlternativePvalue.html">Stats: An alternative to the p-value 
+  (April 3, 2008)</a>. A discussion on edstat-l concerned a statistic called 
+  p-rep. I had not heard of this statistic before, but at least one journal is 
+calling for its use in all papers published by that journal.</p>
+<p><strong>March</strong></p>
+<p>21. <a href="../08/BasicScientists.html">Stats: What sort of statistical 
+  training is needed for basic scientists? (March 29, 2008)</a>. Someone wrote 
+  to a mailing list sponsored by the American Statistical Association asking 
+  about what resources to use in a statistics class aimed at basic scientists 
+  (as opposed to public health students and clinical scientists). I offered a 
+few general recommendations.</p>
+<p>20. <a href="../08/StatisticsForBoards.html">Stats: Statistics for Boards 
+  (March 25, 2008)</a>. I was asked to give a talk to the medical residents 
+  with the title "Statistics for Boards". Many health care professionals need 
+  to take boards or other certifying examinations during their training and 
+  afterwards to certify or re-certify their skill in an area. These boards 
+  often ask some basic statistics questions. A common theme appears to be, what 
+  statistic should I use in what situation. The answer often depends on what 
+  the predictor variable is and what the outcome variable is.</p>
+<p>19. <a href="../08/BadAnalysis.html">Stats: When a client asks for a bad 
+  analysis (March 24, 2008)</a>. I received an email from someone who was being 
+  asked to perform a subgroup analysis that is likely to produce confusing and 
+  counter-intuitive results. I was asked to help draft some language to convince 
+the client that this was a bad idea.</p>
+<p>18. <a href="../08/UnadjustedEstimates.html">Stats: Presenting unadjusted and 
+    adjusted estimates side by side (March 24, 2008)</a>. Someone on the Medstats 
+    discussion group asked about reporting the analysis of a model without 
+    adjustment for covariates along with the analysis adjusted for covariates. 
+What is the purpose of reporting the unadjusted analysis?</p>
+<p>17. <a href="../08/UnadjustedEstimates.html"> Stats: Presenting unadjusted and 
+  adjusted estimates side by side (March 24, 2008)</a>. Someone on the Medstats 
+  discussion group asked about reporting the analysis of a model without 
+  adjustment for covariates along with the analysis adjusted for covariates. 
+What is the purpose of reporting the unadjusted analysis?</p>
+<p>16. <a href="../08/RepeatedMeasurements.html">Stats: Simplifying repeated 
+  measurements (March 12, 2008)</a>. I received an email inquiry about a project 
+  that involved four repeat assessments on 10 different subjects. The question 
+  started out as, is my sample size 10 or is it 40?</p>
+<p>15. <a href="../08/RocCurve.html">Stats: ROC curve for an imperfect gold 
+  standard (March 12, 2008)</a>. Someone asked me about how to use an ROC curve 
+  if you have more than two categories. Apparently the gold standard that the 
+  researchers were using was known to be imperfect, so they wanted an 
+  intermediate category (possible disease).</p>
+<p>14. <a href="../08/CalculatingNnt.html">Stats: Calculating NNT for observational 
+    studies (March 3, 2008)</a>. Recent discussion at the Evidence Based health 
+    list centered on the calculation of NNT in a case-control study. While it is 
+    indeed possible to do so, I have always been a bit curious why NNT and NNH are 
+    computed almost exclusively for randomized studies and why they are rarely 
+    used for observational studies. No one says this explicitly, but I suspect 
+    that the reason is that the NNT and NNH lead to problematic interpretations in 
+observational studies.</p>
+<p><strong>February</strong></p>
+<p>13. <a href="../08/AssessingExponential.html">Stats: Assessing the assumption of 
+  an exponential distribution (February 25, 2008)</a>. The following 41 
+  observations: 8, 2, 26, 29, 1, 2, 11, 8, 0, 5, 10, 1, 4, 9, 12, 3, 6, 5, 2, 
+  12, 1, 5, 3, 5, 7, 0, 2, 8, 3, 3, 1, 0, 4, 8, 1, 8, 12, 0, 6, 1, 5, represent 
+  waiting times that we suspect follow an exponential distribution. There are 
+  several ways to examine this belief, and the simplest way to to draw a Q-Q 
+plot for the exponential distribution.</p>
+<p>12. <a href="../08/CriticalValue.html">Stats: What is a critical value? 
+  (February 22, 2008)</a>. Someone wrote in asking about the difference between 
+  a p-value and a critical value.</p>
+<p>11. <a href="../06/GeneralizingResearch.html">Stats: Difficulties in generalizing 
+    research (February 15, 2006)</a>. I found this information thanks to an email in the 
+    Evidence-Based Health email discussion group. Someone asked if there was any empirical 
+    evidence that the setting of a study (e.g., primary versus secondary care) could influence 
+    the results of the research. Intuitively, you would suspect that this would be the case, 
+    because the types of patients who show up at a primary care clinic are quite different than 
+those who show up at a secondary or tertiary care center.</p>
+<p>10. <a href="../08/ComputingPercentiles.html">Stats: Multiple methods for 
+    computing percentiles (February 13, 2008)</a>. A recent discussion on the <a href="InterestingWebsites.html#MeStXx">Medstats group</a> highlighted some 
+    of the confusion about computing percentiles. I use a simple formula. If you 
+    want the pth percentile of a set of n observations, select the p(n+1) value 
+    from the data. If p(n+1) is not a whole number then choose a value halfway 
+between the two adjacent values.</p>
+<p><strong>January</strong></p>
+<p>9. <em style="font-style: normal"><a href="../08/LoweringPrevalence.html">Stats: Does prevalence affect sensitivity (January 31, 2008)</a>. </em><i> Dear Professor Mean, Does lowering the prevalence of a disease have an effect 
+on sensitivity?</i></p>
+<p><strong></strong>8. <a href="../08/SimpleKm.html">Stats: A simple example of a Kaplan-Meier 
+  curve (January 24, 2008)</a>. In response to a query, I wanted to write up a 
+  simple example of how to calculate survival probabilities when you have 
+  censored data. It is adapted from Chapter 6 of my book, Statistical Evidence 
+  in Medical Trials. I have updated and simplified the example, for possible 
+use in a second edition of the book, if I am so lucky.</p>
+<p>7. <a href="../08/AnalyzeSafety.html">Stats: How do you analyze safety data 
+  (January 22, 2008)</a>. Someone on the MedStats email discussion group asked 
+  about how to analyze adverse event data. He noted that adverse event data is 
+  not one of the primary or secondary outcome measures, and wondered if it would 
+  be appropriate to provide statistical analysis of this data. Adverse events 
+  (and safety data in general) represent a special type of analysis that does 
+  not fit in well with the listing of primary/secondary outcomes. The main 
+  reason for this is the number of possible adverse event categories is very 
+  broad and it is not always possible to anticipate in advance what type of 
+  adverse events are of greatest interest.</p>
+<p>6. <a href="../08/ImportantStudies.html">Stats: Finding only the important 
+  studies (January 21, 2008)</a>. Someone wrote into the MedStats listserv 
+  asking about a process that they had chosen to select &quot;important&quot; articles in 
+  a particular research area. This was, I presume, a qualitative summary of 
+  interesting results in a broad medical area rather than a quantitative 
+  synthesis of all available research addressing a specific medical treatment. 
+  The reason I suspect this is that the person mentioned that they had used the 
+  statistical significance of the studies as a filter and eliminated any 
+negative studies from further consideration.</p>
+<p>5. <a href="../08/ChangedYourMind.html">Stats: What have you changed your mind 
+  about (January 18, 2008)</a>. A group called The Edge (www.edge.org) asks a 
+  question each year of prominent scientists and a few select non-scientists. 
+  This group represents&nbsp; from a broad range of backgrounds and disciplines 
+  and provides an interesting variety of responses. Questions asked in the past 
+  include: What are you optimistic about?, What is your dangerous idea?, and 
+  What do you believe is true even though you cannot prove it? Just recently, 
+  this group published responses to the 2008 question: What have you changed 
+  your mind about? Why? Several of the responses touch directly or indirectly 
+on Statistics.</p>
+<p>4. <a href="../08/TooMuchPower.html">Stats: Too much power and precision? 
+  (January 9, 2008)</a>.There was a discussion on EDSTAT-L about studies with too much power 
+  and precision. <span style="color: black">You can indeed have too much 
+    power/precision, and here is a pragmatic example.</span></p>
+<p>3. <a href="../08/PostModernAssaultPart3.html">Stats: The post-modern assault 
+    on evidence-based medicine, part 3 (January 7, 2008)</a>. I have volunteered 
+    to give a talk for a group of statisticians which discusses an article I am 
+    preparing: &quot;The post-modern assault on evidence-based medicine.&quot; I might give 
+    this talk on the first Monday in February or the first Monday in March. Here 
+is a tentative abstract.</p>
+<p>2. <a href="../08/WhatStatistic.html">Stats: What statistic should I use 
+  when? (January 4, 2008)</a>. Someone was asking about a multiple choice 
+  question on a test that reads something like this: A group of researchers 
+  investigating in patients with diabetes on the basis of demographic 
+  characteristics and the level of diabetic control. Select the most 
+  appropriate statistical method to use in analyzing the data: a t-test, ANOVA, 
+  multiple linear regression, or a chi-square test. This is one of the more 
+vexing things that people face--what statistic should I use when.</p>
+<p>1. <em style="font-style: normal"><a href="../08/TypeIII.html">Stats: Type III 
+  error (January 3, 2008)</a>. </em><i>Dear Professor Mean, What is the 
+definition of a Type III error?</i></p>
+<p></p>
+</body>
+
+</html>

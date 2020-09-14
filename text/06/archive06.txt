@@ -1,0 +1,424 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Language" content="en-us">
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <title>Stats: Archive (2006)</title>
+ </head>
+ 
+ <body><!--start-->
+  <p><b>
+  Archive 2006, 200 entries</b></p>
+  <p>Also be sure to look at the list of weblog entries <a href="../TopicList.html">organized by 
+ topic</a> and the archives for  <a href="archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>, <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../05/Archive05.html">2005</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.</p>
+  <p><a href="#Dec">December</a> | <a href="#Nov">November</a> | <a href="#Oct">October</a>
+   | <a href="#Sep">September</a> | <a href="#Aug">August</a> | <a href="#Jul">July</a>
+   | <a href="#Jun">June</a> | <a href="#May">May</a> | <a href="#Apr">April</a>
+ | <a href="#Mar">March</a> | <a href="#Feb">February</a> | <a href="#Jan">January</a></p>
+  <p><b><a name="Dec">December</a> 2006 (11 entries)</b></p>
+  <blockquote>
+    <p>200. <a href="GoodEvidence.html">Stats: What percentage of medical decisions are based on good 
+      evidence? (December 29, 2006)</a>
+    </p>
+    <p>199. <a href="AccountForDropouts.html">Stats: Be sure to account for dropouts in your sample size 
+      calculation (December 29, 2006)</a>
+    </p>
+    <p>198. <a href="CherryPicking.html">Stats: Cherry picking the literature (December 20, 2006)</a></p>
+    <p>197. <a href="ControlChartAdvice.html">Stats: Unusual advice about control charts (December 18, 2006)</a></p>
+    <p>196. <a href="StatisticalConsultants.html">Stats: Should (Can?) Statistical Consultants, be 
+      Independent? (December 14, 2006)</a></p>
+    <p>195. <a href="FocusGroups.html">Stats: Using focus groups to bridge the gap between research and 
+      practice (December 14, 2006)</a></p>
+    <p>194. <a href="MedicalGuidelines.html">Stats: Evidence-based development of medical guidelines (December 
+      13, 2006)</a></p>
+    <p>193. <a href="IbmPuzzle.html">Stats: Mathematical and statistical challenges (December 13, 2006)</a></p>
+    <p>192. <a href="PerfectionNotEnough.html">Stats: Perfect isn't quite good enough (December 12, 2006)</a></p>
+    <p>191. <a href="PharmaIqTalksPart2.html">Stats: PharmaIQ talks (December 6, 2006)</a></p>
+    <p>190. <a href="TwoEventsWorrisome.html">Stats: When are two events worrisome? (December 4, 2006)</a></p>
+  </blockquote>
+  <p><b> <a name="Nov">November</a> 2006 (15 entries)</b></p>
+  <blockquote>
+    <p>189. <a href="ManipulationPeerReview.html">Stats: Manipulation of peer-review publications by 
+      pharmaceutical companies (November 21, 2006)</a></p>
+    <p>188. <a href="BayesianAccrualModel.html">Stats: A simple Bayesian model for accrual (November 17, 2006)</a></p>
+    <p>187. <a href="TensionScienceEthics.html">Stats: The tension between scientific validity and ethical 
+      concerns (November 17, 2006)</a>
+    </p>
+    <p>186. <a href="VariableNumberOfMeasures.asp">Stats: The complexities of having a variable number of 
+      measures per patient (November 16, 2006)</a></p>
+    <p>185. <a href="QuadraticRegression.html">Stats: Fitting a quadratic regression model (November 15, 2006)</a></p>
+    <p>184. <a href="DangerUsingHumor.html">Stats: The danger of using humor on a web page (November 14, 2006)</a></p>
+    <p>183. <a href="RiskFactorsDiagnosticTest.html">Stats: Incorporating risk factors into diagnostic test 
+      calculations (November 9, 2006)</a>
+    </p>
+    <p>182. <a href="HeiserWebpages.html">Stats: Technical Articles and Reports by David Heiser (November 7, 
+      2006)</a></p>
+    <p>181. <a href="RebuttingReviewer.html">Stats: Rebutting an expert reviewer (November 6, 2006)</a></p>
+    <p>180. <a href="MedlineVeryBusy.html">Stats: Medline is a very busy place (November 6, 2006)</a></p>
+    <p>179. <a href="ConferenceMaterials.html">Stats: Materials for Signal Detection and Data Mining 
+      Strategies conference (November 6, 2006)</a></p>
+    <p>178. <a href="TherapeuticOrphans.html">Stats: Therapeutic orphans (November 3, 2006)</a></p>
+    <p>177. <a href="StatisticalConcernsChildren.html">Stats: Statistical concerns in research studies 
+      involving children (November 2, 2006)</a>
+    </p>
+    <p>176. <a href="AdditionsImprovements.html">Stats: Additions and improvements to my web pages (November 
+      2, 2006)</a></p>
+    <p>175. <a href="OpenMindedness.html">Stats: A plea for open mindedness (November 2, 2006)</a></p>
+  </blockquote>
+  <p><b> <a name="Oct">October</a> 2006 (18 entries)</b></p>
+  <blockquote>
+    <p>174. <a href="ParametricTestForRatio.html">Stats: Parametric tests for a ratio (October 27, 2006)</a></p>
+    <p>173. <a href="SearchingPediatricArticles.html">Stats: Searching for pediatric articles on Medline 
+      (October 26, 2006)</a></p>
+    <p>172. <a href="AdjustingForAgeAndSex.html">Stats: Adjusting a variable for age and sex (October 26, 
+      2006)</a></p>
+    <p>171. <a href="MakingUpData.html">Stats: I wasn't making up data, I was imputing! (October 25, 2006)</a></p>
+    <p>170. <a href="ShortfallSampleSize.html">Stats: Is a 10% shortfall in sample size critical? (October 23, 
+      2006)</a></p>
+    <p>169. <a href="MixedLinearModels.html">Stats: A simple example of a mixed linear regression model 
+      (October 18 ,2006)</a></p>
+    <p>168. <a href="AcademicFreedomIRB.html">Stats: Academic freedom and the 
+      Institutional Review Board (October 17, 2006)</a></p>
+    <p>167. <a href="EthicalConcernsChildren.html">Stats: Ethical concerns about research 
+      in children (October 17, 2006)</a>
+    </p>
+    <p>166. <a href="CaseStudiesChildren.html">Stats: Case studies for differences in 
+      research in children (October 16, 2006)</a></p>
+    <p>165. <a href="OddsFormBayes.html">Stats: Mathematical derivation of the odds form of Bayes 
+      theorem (October 16, 2006)</a></p>
+    <p>164. <a href="DifferencesInChildren.html">Stats: Differences between children and 
+      adults (October 13, 2006)</a></p>
+    <p>163. <a href="HarrellPhilosophy.html">Stats: Frank Harrell's Philosophy of Biostatistics (October 10, 2006)</a></p>
+    <p>162. <a href="FavoriteBooks08.html">Stats: My ten favorite books, #8 (March 24, 
+      2006)</a></p>
+    <p>161. <a href="DiagnosticExercises.html">Stats: Calculations involving diagnostic 
+      tests using open source abstracts (October 5, 2006)</a></p>
+    <p>160. <a href="../evidence/StatisticalEvidenceReview.html">Stats: Book reviews for Statistical Evidence (October 5, 
+      2006)</a></p>
+    <p>159. <a href="PlaceboRunIn.html">Stats: Ethics concerns about a placebo run-in 
+      (October 4, 2006)</a></p>
+    <p>158. <a href="WikipediaEntryPt4.html">Stats: Wikipedia entry on sample (October 2, 2006)</a></p>
+    <p>157. <a href="SecondGrantPart3.html">Stats: My second grant, part 3 (Model, Quality, October 2, 2006)</a></p>
+  </blockquote>
+  <p><b> <a name="Sep">September</a> 2006 (15 entries)</b></p>
+  <blockquote>
+    <p>156. <a href="ImprovementsWeblogCategories.html">Stats: Improvements to weblog categories (September 
+      25, 2006)</a></p>
+    <p>155. <a href="IntervalTooWide.html">Stats: Is my confidence interval too wide? 
+      (September 21, 2006)</a></p>
+    <p>154. <a href="PharmaIqTalks.html">Stats: Two talks for PharmaIQ (September 19, 
+      2006)</a></p>
+    <p>153. <a href="SpcHealthcare.html">Stats: Resources for the use of Statistical 
+      Process Control in Healthcare (September 15, 2006)</a></p>
+    <p>152. <a href="ResearchInvolvingChildren.html">Stats: Special issues for research 
+      involving children (September 15, 2006)</a></p>
+    <p>151. <a href="PharmacogeneticsResearchNetwork.html">Stats: Pharmacogenetics Research Network (September 
+      14, 2006)</a></p>
+    <p>150. <a href="TenStudiesPart4.html">Stats: Top ten studies in EBM, Part 4 (September 14, 2006)</a></p>
+    <p>149. <a href="EmailDiscussionGroup.html">Stats: Email discussion groups (September 13, 2006)</a></p>
+    <p>148. <a href="SecondGrantPart2.html">Stats: My second grant, part 2 (Model, Quality, September 13, 
+      2006)</a></p>
+    <p>147. <a href="AmbiguousDefinition.html">Stats: Ambiguous nature of the word &quot;risk&quot; (September 13, 2006)</a></p>
+    <p>146. <a href="GraphicsOptionsR.html">Stats: Graphics options in R (September 12, 2006)</a></p>
+    <p>145. <a href="HealyViewpoint.html">Stats: Bernadine Healy weighs in on EBM (September 11, 2006)</a></p>
+    <p>144. <a href="PostmodernThought.html">Stats: Postmodern thought and evidence based medicine (September 
+      7, 2006)</a></p>
+    <p>143. <a href="RoundingNumbers.html">Stats: Rules for rounding numbers (September 7, 
+      2006)</a>
+    </p>
+    <p>142. <a href="ContinuousMonitoringNNH.html">Stats: Continuous monitoring of the 
+      number needed to harm (September 2, 2006)</a></p>
+  </blockquote>
+  <p><b> <a name="Aug">August</a> 2006 (11 entries)</b></p>
+  <blockquote>
+    <p>141. <a href="PageBreaksSPSS.html">Stats: Changing page breaks in SPSS (August 31, 2006, Model, 
+      Software)</a></p>
+    <p>140. <a href="WikipediaEntryPt3.html">Stats: More on the Wikipedia entry on Binomial Confidence 
+      Interval (August 29, 2006)</a></p>
+    <p>139. <a href="CitingSoftware.html">Stats: Citing statistical software in research papers (August 25, 
+      2006)</a></p>
+    <p>138. <a href="WikipediaEntryPt2.html">Stats: More on the Wikipedia entry on Binomial Confidence 
+      Interval (August 22, 2006)</a></p>
+    <p>137. <a href="WikipediaEntry.html">Stats: Wikipedia entry on Binomial Confidence Interval (August 21, 
+      2006)</a></p>
+    <p>136. <a href="QualityControlHumor.html">Stats: Quality control humor (August 20, 2006, Model, Quality)</a></p>
+    <p>135. <a href="ClopperPearson.html">Stats: An exact confidence interval for a binomial proportion 
+      (August 18, 2006)</a></p>
+    <p>134. <a href="ThousandPages.html">Stats: More than one thousand web pages now available on my site 
+      (August 16, 2006, Administrative details)</a></p>
+    <p>133. <a href="ClumsyAnonymization.html">Stats: A clumsy attempt at anonymization (August 15, 2006, 
+      Category: Privacy concerns)</a>
+    </p>
+    <p>132. <a href="TravelingCourse.asp">Stats: American Statistical Association Traveling Course committee 
+      (August 15, 2006)</a></p>
+    <p>131. <a href="../evidence/BookSales.html">Stats: Sales figures for Statistical Evidence in 
+      Medical Trials (August 2, 2006)</a>
+    </p>
+  </blockquote>
+  <p><b> <a name="Jul">July</a> 2006 (10 entries)</b></p>
+  <blockquote>
+    <p>130. <a href="SampleSizeR.html">Stats: R libraries for sample size justification (July 28, 2006, 
+      Category: Sample size justification)</a></p>
+    <p>129. <a href="ColloquialTone.html">Stats: Using a colloquial tone in a grant application (July 25, 
+      2006, Plan, Grant)</a></p>
+    <p>128. <a href="SecondGrant.html">Stats: My second grant (July 26, 2006, Model, Quality)</a></p>
+    <p>127. <a href="RandomSelection.html">Stats: Selecting randomly from a list (July 18, 2006, Plan, 
+      Randomization)</a></p>
+    <p>126. <a href="VolunteerQuestions.html">Stats: Questions a volunteer should ask before participating in 
+      a clinical trial (July 18, 2006, Ethics, Informed consent)</a></p>
+    <p>125. <a href="KcalsiGrant.html">Stats: Initial work on the KCALSI grant (July 17, 2006, Model, Quality)</a></p>
+    <p>124. <a href="FraudulentImages.html">Stats: Fraudulent images in research (July 12, 2006, Evidence, 
+      Corroboration)</a></p>
+    <p>123. <a href="InformationSource.html">Stats: When can a conservative trust a liberal information source 
+      (and vice versa) (July 10, 2006, Evidence, Corroboration)</a></p>
+    <p>122. <a href="FundingSources.html">Stats: Possible sources of funding for my grant (July 6, 2006, 
+      Model, Quality control)</a>
+    </p>
+    <p>121. <a href="StoppingRules.html">Stats: Stopping rules for a Data Safety Monitoring Plan (July 5, 
+      2006, Ethics, Early Stopping)</a></p>
+  </blockquote>
+  <p><b> <a name="Jun">June</a> 2006 (25 entries)</b></p>
+  <blockquote>
+    <p>120. <a href="AccrualProblems1.html">Stats: Early detection of accrual problems in clinical trials 
+      (June 30, 2006, Model, Quality control)</a></p>
+    <p>119. <a href="AnalysisOfMeans.html">Stats: Some resources for Analysis of Means (June 30, 2006, Model, 
+      Quality control)</a></p>
+    <p>118. <a href="BlockRandomization.html">Stats: What is block randomization (June 30, 2006, Plan, 
+      Randomization)</a></p>
+    <p>117. <a href="LikelihoodSoftware.html">Stats: Likelihood software for clinical trials (June 29, 2006, 
+      Model, Software)</a></p>
+    <p>116. <a href="RankingOrdinalScales.html">Stats: The problem with ranking ordinal scales (June 29, 2006, 
+      Model, Ordinal data)</a></p>
+    <p>115. <a href="ItemResponseTheory.html">Stats: Resources for Item Response Theory (June 28, 2006, Model, 
+      Software)</a></p>
+    <p>114. <a href="ColorsForR.html">Stats: Colors for R graphs (June 28, 2006)</a></p>
+    <p>113. <a href="WebResearch.html">Stats: Research on the web (June 27, 2006)</a></p>
+    <p>112. <a href="PropensityScores2.html">Stats: More on propensity score models (June 26, 2006, Model, 
+      Propensity score)</a></p>
+    <p>111. <a href="SlashAndBurn.html">Stats: Slash and burn models (June 26, 2006, Model, Logistic 
+      regression)</a></p>
+    <p>110. <a href="PoliticalEnd.html">Stats: Using a charge of fraud to achieve a political end (June 23, 
+      2006, Evidence, Corroboration)</a></p>
+    <p>109. <a href="WithholdingPHI.html">Stats: Withholding Personal Health Information from a patient (June 
+      20, 2006, Ethics, Privacy)</a></p>
+    <p>108. <a href="DataEntryErrors.html">Stats: Auditing for data entry errors (June 20, 2006)</a></p>
+    <p>107. <a href="CusumChart.html">Stats: Applications of the CUSUM chart (June 20, 2006, Model, Quality)</a></p>
+    <p>106. <a href="TeachingPhilosophy.html">Stats: Philosophy of teaching (June 20, 2006)</a></p>
+    <p>105. <a href="HumanFace.html">Stats: Putting a human face on Evidence Based Medicine (June 20, 2006)</a>
+      
+    </p>
+    <p>104. <a href="FiduciaryObligation.html">Stats: Ethics and the fiduciary obligation (June 19, 2006, 
+      Ethics, Overview)</a></p>
+    <p>103. <a href="VarianceRatio.html">Stats: (Seminar notes) Confidence intervals for a variance ratio 
+      (June 17, 2006)</a></p>
+    <p>102. <a href="MultipleComparisons.html">Stats: (Seminar notes) Adjustments for multiple comparisons 
+      (June 17, 2006)</a>
+    </p>
+    <p>101. <a href="MissingValues.html">Stats: (Seminar notes) Missing values in a dose response model (June 
+      17, 2006)</a></p>
+    <p>100. <a href="MixedSeminar.html">Stats: (Seminar notes) Issues in the analysis of mixed linear models 
+      (June 17, 2006, Model, Mixed)</a></p>
+    <p>99. <a href="MolecularBiologists.html">Stats: (Seminar notes) Working with molecular biologists (June 
+      17, 2006)</a></p>
+    <p>98. <a href="ChanceNews1.html">Stats: New entry in the Chance Wiki (June 7, 2006)</a></p>
+    <p>97. <a href="AmusingCorrelation.html">Stats: An amusing correlation (June 5, 2006, Model, Linear 
+      regression)</a></p>
+    <p>96. <a href="AdverseEvents1.html">Stats: Seminar on control charts and adverse events (June 5, 2006, 
+      Model, Quality)</a></p>
+  </blockquote>
+ <p><b> <a name="May">May</a> 2006 (19 entries)</b></p>
+ <blockquote>
+   <p>95. <a href="WhyResearch.html">Stats: Why do we need research? (May 31, 2006)</a></p>
+   <p>94. <a href="HaplotypeAnalysis1.html">Stats: Methods for haplotype analysis (May 31, 2006, Model, 
+     Large scale)</a></p>
+   <p>93. <a href="PvalueEqualsOne.html">Stats: Can the p-value actually equal 1.0? (May 30, 2006, Evidence, 
+     Interpreting numbers)</a>
+   </p>
+   <p>92. <a href="AccrualProblems.html">Stats: Monitoring accrual rates (May 30, 2006, Model, Quality)</a></p>
+   <p>91. <a href="StandardDeviation.html">Stats: Relationship between the standard deviation and the sample 
+     size (May 26, 2006)</a></p>
+   <p>90. <a href="ControlChartsA.html">Stats: Upcoming talks about control charts (May 25, 2006, Model, 
+     Quality)</a>
+   </p>
+   <p>89. <a href="KickAround.html">Stats: You won't have Steve Simon to kick around anymore (May 24, 2006, 
+     General)</a></p>
+   <p>88. <a href="APRDRGs.html">Stats: Using APR-DRGs for risk adjustment (May 24, 2006, Evidence, Internal 
+     validity)</a></p>
+   <p>87. <a href="RegularExpressionsA.html">Stats: Another regular expression tip (May 23, 2006)</a></p>
+   <p>86. <a href="LostFiles.html">Stats: Lost files (May 23, 2006)</a></p>
+   <p>85. <a href="RegularExpressions.html">Stats: Using regular expressions to insert line breaks (May 18, 
+     2006) (Model, Data management)</a></p>
+   <p>84. <a href="InterestingMay.html">Stats: Interesting stuff for the month of May (May 30, 2006) 
+     (Teaching resources, General)</a>
+   </p>
+   <p>83. <a href="HighLevel.html">Stats: Searching high level sources first (May 17, 2006, Evidence, 
+     Searching)</a></p>
+   <p>82. <a href="ToleranceAmbiguity.html">Stats: No tolerance for ambiguity (May 10, 2006)</a>
+   </p>
+   <p>81. <a href="../evidence/PromoteBook.html">Stats: Using a web site to promote your book (May 10, 2006, 
+     Administrative details)</a></p>
+   <p>80. <a href="AlwaysAskWhy.html">Stats: Always ask why (May 8, 2006)</a></p>
+   <p>79. <a href="StatisticsAgriculture.html">Stats: Eighteenth Annual Applied Statistics in Agriculture 
+     Conference (May 4, 2006)</a></p>
+   <p>78. <a href="DataMining.html">Stats: Data mining and drug safety (May 4, 2006, Model, Quality control)</a>
+     
+   </p>
+   <p>77. <a href="ConflictOfInterest.html">Stats: What constitutes a conflict of interest? (May 4, 2006, 
+     Evidence, Corroboration)</a></p>
+ </blockquote>
+  <p><b> <a name="Apr">April</a> 2006 (16 entries)</b></p>
+  <blockquote>
+    <p>76. <a href="PropensityScores1.html">Stats: A simple application of propensity scores (April 26, 2006, 
+      Model, Linear regression)</a></p>
+    <p>75. <a href="WriteGrant.html">Stats: I want to write a grant (April 25, 2006, Model, Quality control)</a>
+      
+    </p>
+    <p>74. <a href="SpittingMatches.asp">Stats: Surviving Statistical Spitting Matches (April 25, 2006)</a></p>
+    <p>73. <a href="GivingCredit.html">Stats: Giving credit where credit is due (April 19, 2006, 
+      Administrative details)</a></p>
+    <p>72. <a href="AbstainerErrors.html">Stats: Abstainer errors in study of alcohol abuse (April 19, 2006, 
+      Evidence, Internal validity)</a></p>
+    <p>71. <a href="UnivariateClustering.html">Stats: Univariate Model Based Clustering (April 18, 2006, 
+      Model, Large scale)</a></p>
+    <p>70. <a href="XbarSymbol.html">Stats: Placing the symbol X-bar in a document (April 17, 2006, Teaching 
+      resources, General)</a></p>
+    <p>69. <a href="TopicListIsComplete.html">Stats: Topic list is complete! (April 17, 2006, Administrative 
+      details)</a>
+    </p>
+    <p>68. <a href="Koan05.html">Stats: Three new koans (April 17, 2006)</a>
+    </p>
+    <p>67. <a href="InterestingApril.html">Stats: Interesting websites, publications and quotes for the month 
+      of April (updated April 12, 2006)</a></p>
+    <p>66. <a href="HcupSeminar.html">Stats: The Healthcare Cost and Utilization Project (April 11, 2006, 
+      Model, Large scale)</a>
+    </p>
+    <p>65. <a href="ParetoCharts.html">Stats: Examples of Pareto charts (April 5, 2006, Model, Quality)</a></p>
+    <p>64. <a href="InterpretCorrelation.html">Stats: Interpretation of the correlation coefficient (April 4, 
+      2006, Model, Linear regression)</a></p>
+    <p>63. <a href="CoefficientDetermination.html">Stats: Can you use the coefficient of determination for 
+      categorical variables (April 4, 2006, Model, Linear regression)</a></p>
+    <p>62. <a href="Coauthorship.html">Stats: When is a co-authorship warranted? (April 4, 2006, Ethics, 
+      Overview)</a></p>
+    <p>61. <a href="BetaCoefficient.html">Stats: What is a beta coefficient? (April 4, 2006, Model, Linear 
+      regression)</a></p>
+  </blockquote>
+  <p><b> <a name="Mar">March</a> 2006 (23 entries)</b></p>
+  <blockquote>
+    <p>60. <a href="HowManyCharts.html">Stats: How many charts should I pull? (March 30, 2006, Category: 
+      Sample size justification)</a></p>
+    <p>59. <a href="ContradictoryResearch.html">Stats: Contradictory research (March 30, 2006)</a></p>
+    <p>58. <a href="BayesianAnalysis.html">Stats: Articles on Bayesian data analysis (March 30, 2006, Model, 
+      Bayesian)</a></p>
+    <p>57. <a href="SmallSample.html">Stats: Small sample size, yet again (March 29, 2006, Category: Sample 
+      size justification)</a></p>
+    <p>56. <a href="KoanPage.html">Stats: New koan page (March 29, 2006, Administrative details)</a></p>
+    <p>55. <a href="IrbStatistician.html">Stats: The role of a statistician on an IRB (March 29, 2006, 
+      Ethics, Overview)</a></p>
+    <p>54. <a href="InterestingMarch.html">Stats: Interesting websites, publications and quotes for the month 
+      of March (updated March 29, 2006)</a></p>
+    <p>53. <a href="Koan04.html">Stats: Statistical koan #4 (March 26, 2006)</a></p>
+    <p>52. <a href="FishboneDiagram.html">Stats: Examples of a fishbone diagram (March 24, 2006, Model, 
+      Quality control)</a></p>
+    <p>51. <a href="FavoriteBooks09.html">Stats: My ten favorite books, #9 (March 24, 2006, Teaching 
+      resources, Books)</a></p>
+    <p>50. <a href="EffectiveGraphs.html">Stats: Web seminar, Creating More Effective Graphics (March 24, 
+      2006)</a>
+    </p>
+    <p>49. <a href="FavoriteBooks10.html">Stats: My ten favorite books, #10 (March 17, 2006, Teaching 
+      resources, Books)</a></p>
+    <p>48. <a href="IntegratingEvidence.html">Stats: Integrating internal and external evidence (March 17, 
+      2006)</a>
+    </p>
+    <p>47. <a href="BookSpss.html">Stats: An introductory book on SPSS (March 16, 2006, Teaching resources, 
+      Books)</a></p>
+    <p>46. <a href="StatisticalKoan3.html">Stats: Statistical koan #3 (March 16, 2006, Teaching resources, 
+      General)</a></p>
+    <p>45. <a href="PostHocComparisons.html">Stats: Post hoc comparisons (March 15, 2006)</a></p>
+    <p>44. <a href="SoftwareSem.html">Stats: Software for structural equations models (March 14, 2006, Model, 
+      Software)</a></p>
+    <p>43. <a href="PoissonRegression.html">Stats: Poisson regression? Maybe not! (March 10, 2006, Model, 
+      Poisson regression)</a></p>
+    <p>42. <a href="PropensityScores.html">Stats: Propensity scores (March 10, 2006, Model, Linear 
+      regression)</a></p>
+    <p>41. <a href="EmilyRosaExperiment.html">Stats: More on the Emily Rosa experiment (March 10, 2006)</a></p>
+    <p>40. <a href="ConstructValidity.html">Stats: What is construct validity? (March 8, 2006, Model, 
+      Agreement)</a></p>
+    <p>39. <a href="EbmArticles2005.html">Stats: Best EBM articles in 2005 (March 6, 2006)</a></p>
+    <p>38. <a href="WaiverInformedConsent.html">Stats: Waiver of informed consent (March 3, 2006, Ethics, 
+      Informed consent)</a></p>
+  </blockquote>
+  <p><b> <a name="Feb">February</a> 2006 (12 entries)</b></p>
+  <blockquote>
+    <p>37. <a href="StatisticalKoan2.html">Stats: Statistical koan #2 (Feburary 28, 2006, Teaching resources, 
+      General)</a></p>
+    <p>36. <a href="StatisticalKoan1.html">Stats: Statistical koans (February 27, 2006, Teaching resources, 
+      General)</a></p>
+    <p>35. <a href="ThreeDimensionalCharts.html">Stats: Three dimensional bar and pie charts (February 21, 
+      2006)</a></p>
+    <p>34. <a href="GeneralizingResearch.html">Stats: Difficulties in generalizing research (February 15, 
+      2006, Evidence, External validity)</a></p>
+    <p>33. <a href="MetaAnalysisDiagnostic.html">Stats: Meta-analysis and diagnostic tests (February 14, 
+      2006, Model, Meta-analysis)</a></p>
+    <p>32. <a href="CheckingChisquare.html">Stats: Checking a Chi-square test (February 13, 2006, Model, 
+      Logistic regression)</a></p>
+    <p>31. <a href="GoodBook.html">Stats: What makes a good book? A sense of humor. (February 13, 2006, 
+      Teaching resources, Books)</a></p>
+    <p>30. <a href="WebLinksFebruary.html">Stats: Interesting websites, publications and quotes for the month 
+      of February (February 13, 2006)</a></p>
+    <p>29. <a href="AdverseEvents.html">Stats: Reporting serious adverse events (updated February 3, 2006, 
+      Model, Quality control)</a>
+    </p>
+    <p>28. <a href="EconomicEvaluations.html">Stats: Economic evaluations (February 2, 2006, Model, Linear 
+      regression)</a></p>
+    <p>27. <a href="EnsemblSearch.html">Stats: An Ensembl search (February 1, 2006)</a></p>
+    <p>26. <a href="ControlCharts.html">Stats: Learning more about control charts (February 1, 2006, Model, 
+      Quality)</a></p>
+  </blockquote>
+  <p><b> <a name="Jan">January</a> 2006 (25 entries)</b></p>
+  <blockquote>
+    <p>25. <a href="ClusteringAlgorithms.html">How do the various clustering algorithms work? (January 31, 
+      2006)</a></p>
+    <p>24. <a href="SearchingEvidence.html">Recent developments in searching for evidence (January 31, 2006, 
+      Evidence, Searching)</a></p>
+    <p>23. <a href="LessonsLearned.html">More lessons learned the hard way (January 31, 2006)</a></p>
+    <p>22. <a href="WebLinksJanuary.html">Stats: Interesting web sites, publications, and quotes for the 
+      month of January (January 31, 2006)</a></p>
+    <p>21. <a href="SurveyMistakes.html">Real-life examples of survey mistakes (January 31, 2006, Plan, 
+      Survey)</a></p>
+    <p>20. <a href="NovelDiagnostic.html">A novel diagnostic test (January 26, 2006, Model, Diagnostic test)</a></p>
+    <p>19. <a href="BiplotFunction.html">A simple function for a Biplot in R (January 24, 2006, Model, Large 
+      scale)</a></p>
+    <p>18. <a href="MachineLearning.html">Machine Learning tools in R (January 24, 2006)</a></p>
+    <p>17. <a href="PairedRandomization.html">Randomization tests for paired data (January 24, 2006, Model, 
+      Randomization)</a></p>
+    <p>16. <a href="FrailtyModel.html">Conditional Frailty Models (January 20, 2006)</a></p>
+    <p>15. <a href="Multicollinearity.html">Multicollinearity is not a violation of assumptions (January 20, 
+      2006, Model, Linear regression)</a></p>
+    <p>14. <a href="InsufficientData.html">Excluding zip codes with insufficient data (January 19, 2006, 
+      Model, Descriptive)</a></p>
+    <p>13. <a href="BalestracciSeminar.html">Davis Balestracci seminar (January 19, 2006, Model, Quality 
+      control)</a></p>
+    <p>12. <a href="ExtendingSPSS.html">Extending SPSS capabilities using Python (January 19, 2006, Model, 
+      Software)</a></p>
+    <p>11. <a href="StatisticalSoftware.html">The Journal of Statistical Software (January 18, 2006, Model, 
+      Software)</a></p>
+    <p>10. <a href="CategorizingWeblog.html">Categorizing my weblog entries (January 18, 2006, Administrative 
+      details)</a></p>
+    <p>9. <a href="RefusalReasons.html">Characterizing reasons for refusal (January 17, 2006, Evidence, 
+      External validity)</a>
+    </p>
+    <p>8. <a href="HandlingDropouts.html">Handling dropouts in NNT/NNH calculations (January 16, 2006, 
+      Evidence, Interpreting numbers)</a></p>
+    <p>7. <a href="HaplotypeAnalysis.html">Haplotype analysis (January 13, 2006, Model, Genetic data)</a></p>
+    <p>6. <a href="../evidence/FirstPeek.html">First peek at the cover of my new book (January 12, 2006, General)</a></p>
+    <p>5. <a href="WhereToGo.html">Where to go, where to go (January 11, 2006, General)</a></p>
+    <p>4. <a href="ExtremeValue.html">Extreme value distribution (January 9, 2006, Model, Theory)</a></p>
+    <p>3. <a href="ChanceNews.html">An entry in Chance News (January 5, 2006, General)</a></p>
+    <p>2. <a href="PastYear.html">The past year in my weblog (January 4, 2006, Administrative details)</a></p>
+    <p>1. <a href="LikertScale.html">Transformation of a Likert scale (January 4, 2006)</a></p>
+  </blockquote>
+ <p>. <a href="../TopicList.html">[Go to full topic list]</a> <a href="../weblog.html">[Read 
+  current weblog entries]</a> This web page was written by Steve Simon, edited by Steve Simon, and was last modified on 
+  <!--webbot bot="Timestamp" s-type="EDITED" s-format="%m/%d/%Y" startspan -->04/01/2010<!--webbot bot="Timestamp" i-checksum="12501" endspan -->.</p>
+ </body>
+</html>

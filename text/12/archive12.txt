@@ -1,0 +1,110 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>P.Mean: 2012 archive</title>
+</head>
+
+<body><!--start-->
+
+<p>&nbsp;</p>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="680">
+  <tr>
+    <td width="131">
+    <img border="0" src="images/logo.png" width="100" height="98"></td>
+    <td width="546"><b><a href="index.html">P.Mean</a>: Archive organized by date (created 2012-01-01)</b><strong>.</strong>
+      <p>
+    <a href="news.html">
+    <img border="0" src="images/news.png" width="511" height="68"></a></td>
+  </tr>
+</table>
+<blockquote>
+  <p>This page lists files created in calendar year 2012. There is a big gap between May and August when I had to integrate over a thousand files from my old website (<a href="OldWebsite.html">full details here</a>). Also look at the 
+    archives for <a href="archive13.html">2013</a>, <a href="archive11.html">2011</a>, <a href="10/Archive10.html">2010</a>, <a href="09/Archive09.html">2009</a>,  <a href="08/Archive08.html">2008</a><a href="../08/Archive2008.html"></a>, <a href="../07/Archive2007.html">2007</a>, <a href="../06/Archive2006.html">2006</a>, <a href="../05/Archive2005.html">2005</a>, <a href="../04/Archive2004.html">2004</a>, <a href="../03/Archive2003.html">2003</a>, <a href="../02/Archive2002.html">2002</a>, <a href="../01/Archive2001.html">2001</a>, <a href="../00/Archive2000.html">2000</a>, and <a href="../99/Archive1999.html">1999</a>. You can 
+    also browse through an archive of pages <a href="TopicList.html">organized by topic.</a></p>
+</blockquote>
+<p><strong>December 2012</strong></p>
+<blockquote>
+  <p>33. <a href="12/ttest.html">P.Mean: A single wildly large value makes you less confident that the mean of your data is large (created 2012-12-12).</a> I was working on a project that seemed to be producing some counter-intuitive results. The work involved ratios, and one of the experiments had an unusually large ratio. I tried a log transformation, which tends to pull down that large ratio. It improved the precision of the results, which you might  expect. But it also reduced the p-value, which you might not expect. After all, if you use a log transformation to de-emphasize large values, won't that attenuate an test that tries to show that the average value is large? This bothered me for a while, so I developed a series of simple examples to  resolve the apparent inconsistency.</p>
+  <p>32. <a href="12/animations.html">P.Mean: Animations in R (created 2012-12-08).</a> About twenty years ago, computers got fast enough to provide smooth animations of small and moderate sized data sets. There was a lot of effort to incorporate animation, such as 3D rotation of point clouds into statistical software programs. The results looked stunning, but I'm not sure if it led to many great insights. I experimented with programs like JMP, but never really felt too comfortable with them. So, I gave up on animation for the most part. But there is one area where animation makes sense and that is in teaching.</p>
+</blockquote>
+<p><strong>November 2012</strong></p>
+<blockquote>
+  <p>31. <a href="12/sharing.html">P.Mean: Data sharing (created 2012-11-21)</a>. I came across several interesting papers and editorials about data sharing.</p>
+</blockquote>
+<p><strong>October 2012</strong></p>
+<blockquote>
+  <p>30. <a href="12/maps.html">P.Mean: Mapping my runs in R (created 2012-10-10).</a> I started running as part of a 2011 New Years resolution to build up my stamina to the point where I could run a five kilometer race. I didn't care too much how fast I ran, but I did want to run the whole way without stopping and without taking a walking break. I've run in about dozen different five kilometer and four mile races. In the middle of 2011, I bought an iPhone with a built-in GPS system. It is the coolest thing ever. I used that iPhone to track my runs and started sharing the maps of my runs with other details on my running log. You can produce nice running routes using Google Maps, but I wanted to be able to manipulate the data a bit, so I developed a simple program in R. Here are the details.</p>
+  <p>29. <a href="12/snowball.html">P.Mean: Debating the validity of snowball sampling (created 2012-10-01).</a> Someone on a discussion forum for IRB members criticized snowball sampling for a range of reasons, but (interesting from my perspective) for the reason that it is bad research. He asked  &quot;Why would anybody want to use snowball sampling? As non-probability sampling the results can't be generalized to a known universe.&quot; That's an interesting perspective, but one I disagree with. Here are my thoughts on the issue.</p>
+</blockquote>
+<p><strong>September 2012</strong></p>
+<blockquote>
+  <p>28. <a href="12/borderline.html">P.Mean: Borderline p-values (created 2012-09-19)</a>. <em>Dear Professor Mean, I originally reported a p-value of 0.04 for a Chi-Square test, but I was told to use the Fisher's Exact Test instead. The p-value for Fisher's Exact Test is 0.06. Do I have to drop the discussion of statistical significance?</em></p>
+  <p>27. <a href="12/fishers.html">P.Mean: When should I use the Fisher's Exact Test and when should I use the Chi-Square Test (created 2012-09-19)</a>. <em>Dear Professor Mean, I was running crosstabs in SPSS for a two-by-two table and the p-values disagree. The p-value for the Pearson Chi-Square is 0.04 and the p-value for the Fisher's Exact Test (2-sided) is 0.06. Which one should I use?</em></p>
+<p>26. <a href="12/name.html">P.Mean: What's the name of the test for comparing two proportions? (created 2012-09-12).</a> A commonly used statistical test is the comparison of two independent proportions. For example, you are looking at the rate of steroid induced hyperglycemia among patients receiving high doses of steroids compared to the rate among patients receiving low doses. There are several terms that you can use here because there are several equivalent ways to test this hypothesis. I prefer to refer to the statistical method here as logistic regression. Here's why.</p>
+</blockquote>
+<p><strong>August 2012</strong></p>
+<blockquote>
+  <p>24. <a href="12/sas.html">P.Mean: Data management in R versus SAS (created 2012-08-27).</a> Someone on LinkedIn was arguing that data management is easier in SAS than in R. A lot of times these claims are subjective. What is easier for one person may be more difficult for another. Also, you need to consider whether it is easy in that it is efficient (uses little computer time), fast to program, less likely to need debugging, or simpler for a non-statistician to understand and cross-check the code. It's probably some mix of this. So anyway, this person on LinkedIn was challenging the group to come up with a &quot;simple&quot; way in R to replicatea common data management scenario. Here's my response to that challenge.</p>
+</blockquote>
+<p><strong></strong><strong>July 2012</strong></p>
+<blockquote>
+  <p>25. <a href="12/whiskers.html">P.Mean: Whiskers in a boxplot (created 2012-07-27).</a> Someone asked about how SPSS drew the &quot;whiskers&quot; in a boxplot. The length of the whiskers is supposed to be the distance from the 25th percentile to the minimum (75th percentile to the maximum) unless there are outliers. Outliers are defined as anything more than 1.5 box widths away from the end of either box.</p>
+  <p><strong>May 2012</strong></p>
+</blockquote>
+<blockquote>
+  <p>23. <a href="12/amateur.html">P.Mean: I make an amateur mistake in BUGS (created 2012-05-22).</a> I am just learning how to run BUGS software. I've used WinBUGS, which is a stand-alone program for Windows, and OpenBUGS, which is an Open Source version that runs on Windows and Linux (as well as on the Macintosh with the Windows emulation package WINE). My preference, though, is to run BUGS within R using the BRugs package. I wanted to look at a simple extension of the accrual model, and I made a rather amateurish mistake that I want to document here. BUGS is not a program for the faint-hearted, and, as this lesson reinforces, you need to understand the mathematical foundations of these models if you want to use BUGS successfully.</p>
+  <p>22. <a href="12/negbin.html">P.Mean: Reviewing how the binomial and negative binomial distributions work (created 2012-05-17).</a> When you look at the binomial distribution and the negative binomial distribution side by side, they look almost identical. But the subtle differences are important. I was working on some problems involving these two distributions and thought it might be helpful to review their properties. These properties are indeed well known, but I wanted to get comfortable with them before I started tackling some more complex alternatives to these two distributions.</p>
+  <p>21. <a href="12/change.html">P.Mean: A simple example of change of variable (created 2012-05-15).</a> I need to review some basic mathematical statistics in order to understand some of the Bayesian accrual models that I am developing. One of those things, that is actually quite easy, but I seem to have some trouble with is the method known as &quot;change of variable.&quot; This is a method that allows you to characterize the probability distribution of a random variable that is transformed by a simple function. I wanted to illustrate how this works for a simple, but not trivial case, just to prove to myself that this works.</p>
+  <p>20. <a href="12/fishy.html">P.Mean: A fishy story about randomization (created 2012-05-12)</a>. I was told this story but have no way of  verifying its accuracy. It is one of those stories that if it is not true, it  should be.  It illustrates why randomization is important. A long, long, time ago, a research group wanted to examine a  pollutant to find concentration levels that would kill fish. This research required that 100 fish be  separated into five tanks, each of which would get a different level of the  pollutant.</p>
+</blockquote>
+<p><strong>April 2012</strong></p>
+<blockquote>
+  <p>19. <a href="12/exclusions.html">P.Mean: Accrual with refusals, exclusions, or dropouts (created 2012-04-22).</a> A common issue with slow accrual is higher than expected rates of refusals, exclusions, or dropouts. If you have information on these rates, you can incorporate them into a Bayesian model of accrual. Here are the details.</p>
+  <p>18. <a href="12/redefined.html">P.Mean: The simple accrual model, redefined (created 2012-04-19).</a> I have been writing a bit about the simple homogenous accrual model, but I am having some difficulty with the notation. So I want to redefine the model with some simpler and more consistent notation.</p>
+  <p>17. <a href="12/PoissonBugs.html">P.Mean: BUGS model for the simple Poisson accrual model (created 2012-04-18).</a> I have been working on various extensions to the Bayesian model for patient accrual. Most of these extensions would require the use of the program BUGS. The first step to developing these extensions is to program simple models in BUGS, models where there is a closed form analytical solution. Here is an example of using BUGS to model the simple Poisson accrual model.</p>
+  <p>16. <a href="12/homogenous.html">P.Mean: Fitting the homogenous accrual model in BUGS (created 2012-04-13).</a> Several years ago, I wrote some R code for the homegenous accrual model. This is the simplest case for accrual, with an inverse gamma prior on the waiting time between successive patients. I wanted to fit the same model in BUGS, because I want to look at some extensions and I wanted to start with something simple. I am not great at BUGS yet, but I got it to work in an hour. I'm using the R interface to Open BUGS (BRugs). Here is the code.</p>
+  <p>15. <a href="12/badroc.html">P.Mean: Bad scaling choices for the SPSS ROC curve (created 2012-04-09).</a> I was helping a colleague with an ROC curve in SPSS and when he drew the curve, I couldn't believe what I saw.</p>
+  <p>14.
+    
+    <a href="12/IowaTalk.html">P.Mean: Iowa talk on accrual (created 2012-04-03).</a> I will be giving a talk &quot;Slipped deadlines and sample size shortfalls in clinical trials: a proposed remedy using a Bayesian model with an informative prior distribution.&quot; at the University of Iowa. Here is the handout for my talk.</p>
+</blockquote>
+<p><strong>March 2012</strong></p>
+<blockquote>
+  <p>13. <a href="12/pesky.html">P.Mean: Those pesky tab characters (created 2012-03-21).</a> I frequently move text from one program to another, and one thing that is almost always guaranteed to cause annoyances is the presence of tabs. The tab is a single character, hex 09, that can sometimes be added with the Ctrl-I key on the computer, or the TAB key on a standard computer keyboard. The problem with the tab key is that it looks just like a bunch of blanks, but it doesn't always behave like a bunch of blanks.</p>
+  <p>12. <a href="12/free.html">P.Mean: Free consultation means no co-authorship? (created 2012-03-19).</a> I heard about an interaction between a client and one of the other statisticians working at the UMKC Research and Statistical Consult Service (RSCS). This statistician had mentioned  the (very reasonable) expectation of getting co-authorship on any publication emanating from the consultation. Apparently this was a surprise to the client who claimed that co-authorship is inappropriate because the RSCS provides consulting for free.</p>
+  <p>11.  <a href="12/correlation.html">P.Mean: Making predictions based on just the correlation (created 2012-03-07).</a> <em>Dear Professor Mean, I have a math question. If the correlation, r, between two measurements is 0.1462, and I have one measurement can I calculate the other? I  know it probably won't be accurate but can I get a rough approximation?</em></p>
+  <p>10. <a href="12/adaptive.html">P.Mean: Why use a Bayesian adaptive trial? (created 2012-03-07). </a>The Bayesian adaptive trial controls the probability of randomizing a patient to each of the proposed dose groups. As data emerges during the study, the probabilities are updated so that you are less likely to randomize a patient to a dose level that has far too much toxicity, far too little efficacy, or which does not contribute much information about the dose-response curve. The Bayesian adaptive trial also allows you to close certain arms of the trial if the dose is clearly inappropriate for further study.</p>
+</blockquote>
+<p><strong>February 2012</strong></p>
+<blockquote>
+  <p>9. <a href="12/PowerStatements.html">P.Mean: How sample size calculations are reported in the literature (created 2012-02-23).</a> I am preparing a webinar on sample size calculations and wanted to examine some examples in the published literature. There were lots of interesting examples in an open source journal called Trials. I only included a few examples in my webinar, but I wanted to save the examples I found here in case I want to expand the talk.</p>
+  <p>9. <a href="12/questions.html">P.Mean: Questions for a panel on statistical consulting (created 2012-02-08).</a> I am participating on a panel discussion about statistical consulting. The organizer suggested several questions that we might want to tackle if there are not that many questions from the audience. I thought they were pretty interesting questions.</p>
+<p>8. <a href="12/percentage.html">P.Mean: Percentage of care that does not have a medical basis (created 2012-02-06).</a> At a meeting I was attending, a statistic came up that has a controversial heritage &quot;at least 50% of medical care has no valid scientific  basis.&quot; The number cited is not always 50%, but it is almost always a number that is low enough to be alarming. Here are some resources on the basis of this statistic.</p>
+</blockquote>
+<p><b>January 2012</b></p>
+<blockquote>
+  <p>7. <a href="12/promoting.html">P.Mean: Promoting your consulting career in the era of web 2.0 (created 2012-01-27).</a> I am giving a short course in February, &quot;Promoting Your Consulting Career in the Era of Web 2.0.&quot; Here is an outline of what I will talk about.</p>
+  <p>6. <a href="12/contest.html">P.Mean: Honorable mention for my R code on accrual (created 2012-01-25).</a> Back in October 2011, I entered a contest sponsored by Revolution Analytics, &quot;Applications of R in Business.&quot; I spiffed up a bit of my R code on patient accrual and submitted it with a brief explanation and some simple examples. It turns out that I was one of the five honorable mentions in this contest, which was a pleasant surprise, as I am just an amateur at programming in R.</p>
+  <p>5. <a href="12/arguing.html">P.Mean: Arguing with the material in an ethics training program (created 2012-01-12).</a> I'm taking one those web based ethics training programs that is required by the UMKC IRB. It's not a punishment for something bad I did. The IRB requires this from all researchers. I'm probably one of the worst people to take these programs because I disect every assertion and look for the data behind every claim. It takes me forever to finish these things. Anyway, here's an example of the type of thing that drives me crazy.</p>
+  <p>4. <a href="12/zero.html">P.Mean: What to report when SPSS says the p-value is zero (created 2012-01-09).</a> <em>Dear Professor Mean, I'm looking at some SPSS  output where the p-value is listed as .000. How should you report the value? P &lt; .001? P &lt; .0005? P &lt; .0001?</em></p>
+  <p>3. <a href="12/animal.html">P.Mean: Is sample size justification really different for animal studies compared to human studies? (created 2012-01-06).</a><em> Dear Professor Mean, I've spent my entire career (so far) in developing statistical  analysis plans for human subjects research.  Recently, a neuroscientist who performs experiments on rats asked me to assist in a power analysis.  My conversation with him reminded me of that YouTube video (Biostatistics vs Lab Research): &quot;I think I only need 3 subjects...&quot;  In his case, he seemed fixated on needing only 6 rats per group---which is what he had always done in the past. Are the rules for sample size justification different for animal studies than for human studies?</em></p>
+  <p>2. <a href="12/PeerReview.html">P.Mean: Post hoc power persists becauses peer-reviewers demand it (created 2012-01-04).</a> I was in the middle of writing a grant looking at best research practices and wanted to give an example of when best practices weren't being followed. The easiest example to find was the use of post hoc power calculations. There's been at least two decades of criticism of this practice and yet it still occurs. The example I found, however, has an interesting twist to the tale.</p>
+  <p>1. <a href="12/SillyGraph.html">P.Mean: A very silly graph (created 2012-01-01).</a> I know I shouldn't let this bother me, but I saw a graph today that was wrong on so many different levels. Let me explain.</p>
+</blockquote>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+  <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" width="80" height="15"></a> 
+  This work is licensed under a
+  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative 
+  Commons Attribution 3.0 United States License</a>. This page was written by 
+  Steve Simon and was last modified on 
+  <!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y-%m-%d" startspan -->2017-06-15<!--webbot bot="Timestamp" i-checksum="12409" endspan -->. Need more 
+  information? I have a page with <a href="GeneralHelp.html">general help 
+    resources</a>. You can also browse for pages similar to this one at
+ <a href="category/ProfessionalDetails.html">Category: Professional details</a>.</p>
+
+</body>
+
+</html>

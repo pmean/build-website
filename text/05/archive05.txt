@@ -1,0 +1,302 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Language" content="en-us">
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <title>Stats: Archive (2005)</title>
+ </head>
+ 
+ <body><!--start-->
+  <p><b>
+  Archive 2005, 198 entries</b></p>
+  <p>Also be sure to look at the list of weblog entries <a href="../TopicList.html">organized by 
+  topic</a> and the archives for  <a href="archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>, <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.</p>
+  <p><a href="#Dec">December</a> | <a href="#Nov">November</a> | <a href="#Oct">October</a>
+   | <a href="#Sep">September</a> | <a href="#Aug">August</a> | <a href="#Jul">July</a>
+   | <a href="#Jun">June</a> | <a href="#May">May</a> | <a href="#Apr">April</a>
+ | <a href="#Mar">March</a> | <a href="#Feb">February</a> | <a href="#Jan">January</a></p>
+  <p><b><a name="Dec">December</a> 2005 (9 entries)</b></p>
+  <ul>
+   <li>
+   <a href="WebLinksDecember.html">Interesting web sites, publications, and quotes for the month of 
+   December (December 30, 2005)</a><li>
+   <a href="VoteForMe.html">Vote for me (December 21, 2005)</a><li>
+   <a href="ControversialMetaanalysis.html">A controversial meta-analysis (December 20, 2005)</a><li>
+   <a href="ObjectOrientedR.html">Object oriented features of R (December 19, 2005)</a><li>
+   <a href="ClinicalImportanceA.html">Confidence intervals are needed to evaluate clinical importance 
+   (December 15, 2005)</a><li>
+   <a href="GroupSequential.html">Group Sequential Monitoring of Clinical Trials in R (December 13, 
+   2005)</a><li>
+   <a href="FunnyFractions.html">Fractions are funny (December 13, 2005)</a><li>
+   <a href="HapMap.html">The HapMap project (December 12, 2005)</a></ul>
+  <p><b> <a name="Nov">November</a> 2005 (7 entries)</b></p>
+  <ul>
+   <li>
+   <a href="WithholdingInformation.html">Withholding information (November 28, 2005)</a><li>
+   <a href="HardLessons.html">Hard learned lessons (November 25, 2005)</a><li>
+   <a href="SlowProgress.html">Slow progress on my weblog (November 25, 2005)</a><li>
+   <a href="StepwiseRegression.html">Stepwise regression to screen for covariates (November 25, 2005)</a><li>
+   <a href="FishersExact.html">Web page for Fisher's Exact test (November 17, 2005)</a><li>
+   <a href="SeventeenYears.html">Seventeen years between research and practice (November 2, 2005)</a><li>
+   <a href="NondestructiveEditing.html">Non-destructive data editing (November 2, 2005)</a></ul>
+  <p><b> <a name="Oct">October</a> 2005 (13 entries)</b></p>
+  <ol>
+       <li>
+       <a href="WeblinksOctober.html">Interesting web sites, publications, and quotes for the month 
+       of October (October 25, 2005)</a><li>
+       <a href="MicroarrayG.html">RMA normalization of microarrays (October 24, 2005)</a><li>
+       <a href="AnecdotalEvidence.html">A nice definition of anecdotal evidence (October 24, 2005)</a><li>
+       <a href="MolassesMilk.html">Searching for information about the molasses with milk enema 
+       (October 15, 2005)</a>
+       <li>
+       <a href="NegativeMicroarray.html">A totally negative microarray experiment (October 14, 2005)</a><li>
+       <a href="LibrariesR.html">Two nice R libraries (October 14, 2005)</a><li>
+       <a href="RetractedArticles.html">The fate of retracted articles (October 14, 2005)</a><li>
+       <a href="NonspecificDiagnostic.html">A nonspecific diagnostic test (October 13, 2005)</a><li>
+       <a href="FindingGenesB.html">More on discovering gene information (October 12, 2005)</a><li>
+       <a href="TrickR.html">A simple trick in R (October 11, 2005)</a><li>
+       <a href="MetaanalysisCritique.html">Responding to a critique of meta-analysis (October 10, 
+       2005)</a><li>
+       <a href="QualityControlExercsiesPart2.html">Quality control exercises, Part 2 (October 5, 2005)</a><li>
+       <a href="SampleSizeB.html">Sample size for a binomial confidence interval (October 3, 2005)</a></ol>
+  <p><b> <a name="Sep">September</a> 2005 (12 entries)</b></p>
+  <ol>
+       <li>
+       <a href="SensitivityError.html">An error slips through the peer review process (September 19, 
+       2005)</a><li>
+       <a href="StatisticsSoftware.html">Free statistics software (September 15, 2005)</a><li>
+       <a href="DishonestyResearch.html">Dishonesty in medical research (September 15, 2005)</a><li>
+       <a href="SelfExperimentation.html">Self experimentation (September 13, 2005)</a><li>
+       <a href="ScienceMentoring.html">Science mentoring (September 12, 2005)</a><li>
+       <a href="EquipoiseA.html">Two articles debating equipoise (September 9, 2005)</a><li>
+       <a href="TukeyTest.html">When the F test is significant, but Tukey is not (September 9, 2005)</a><li>
+       <a href="WebLinksSeptember.html">Interesting web sites, publications, and quotes for the month 
+       of September (last updated September 9, 2005)</a><li>
+       <a href="NamingGenes.html">Naming conventions for genes, proteins, etc. (September 8, 2005)</a><li>
+       <a href="FindingGenes.html">Finding more information about a gene (September 6, 2005)</a><li>
+       <a href="ChanceWikiA.html">Two articles in the Chance Wiki (September 6, 2005)</a><li>
+       <a href="QualityControlExercises.html">Quality control exercises (September 1, 2005)</a></ol>
+  <p><b> <a name="Aug">August</a> 2005 (17 entries)</b></p>
+  <ol>
+       <li>
+       <a href="MicroArrayF.html">Statistical Analysis of Microarrays by Insightful (August 31, 2005)</a><li>
+       <a href="WebLinksAugust.html">Interesting web sites, publications, and quotes for the month of 
+       August (August 31, 2005)</a><li>
+       <a href="AlternativeMedicine.html">What alternative medicine can teach us about evidence-based 
+       medicine (August 23, 2005)</a><li>
+       <a href="MicroArrayE.html">Publicly available microarray data (August 18, 2005)</a><li>
+       <a href="SPSSversion14.html">What's New in SPSS version 14.0 (August 17, 2005)</a><li>
+       <a href="DisasterAvertedA.html">Another disaster averted (August 16, 2005)</a><li>
+       <a href="ScientificValidity.html">IRBs and scientific validity (August 12, 2005)</a><li>
+       <a href="SampleSizeBinary.html">Sample size for a binary endpoint (August 12, 2005)</a><li>
+       <a href="CaseCohort.html">Case cohort design (August 11, 2005)</a><li>
+       <a href="DatesInR.html">Dates in Excel and R (August 10, 2005)</a><li>
+       <a href="Randomization.html">An inefficient approach to randomization (August 10, 2005)</a><li>
+       <a href="AdverseEvents.html">Reporting of adverse events (August 5, 2005)</a><li>
+       <a href="ConvertOddsRatio.html">Converting an odds ratio to a relative risk (August 3, 2005)</a><li>
+       <a href="SearchLiteratureC.html">A third search for the evidence (August 2, 2005)</a><li>
+       <a href="ChanceWiki.html">Publication in the ChanceWiki (August 2, 2005)</a><li>
+       <a href="InformationTheoryB.html">Information content of a continuous distribution (August 1, 
+       2005)</a><li>
+       <a href="ScientificMisconduct.html">Allegations of scientific misconduct (updated August 1, 
+       2005)</a></ol>
+  <p><b> <a name="Jul">July</a> 2005 (14 entries)</b></p>
+  <ol>
+       <li>
+       <a href="EvidenceBasedMedicine.html">Overview of evidence-based-medicine (July 29, 2005)</a><li>
+       <a href="Moments.html">Expected value and moments (July 29, 2005)</a><li>
+       <a href="MicroArrayD.html">More on normalization (July 28, 2005)</a><li>
+       <a href="MovingRObjects.html">Moving R objects (July 28, 2005)</a><li>
+       <a href="PermutationTests.html">Permutation tests for microarrays (July 27, 2005)</a><li>
+       <a href="GeneExpression.html">Analysis of Gene Expression Data Short Course (July 26, 2005)</a><li>
+       <a href="MergingInR.html">Merging in R (July 26, 2005)</a><li>
+       <a href="TrialRegistration.html">Registration of clinical trials (July 22, 2005)</a><li>
+       <a href="RegularExpressions.html">More on regular expressions (July 21, 2005)</a><li>
+       <a href="WebLinksJuly.html">Interesting web links and quotes for the month of May (updated May 
+       23, 2005)</a><li>
+       <a href="CronbachsAlpha.html">Very low values from Cronbach's Alpha (July 19, 2005)</a><li>
+       <a href="GoogleScholar.html">Counterpoint on Google Scholar (July 19, 2005)</a><li>
+       <a href="AbsoluteRisk.html">The difference between absolute risks and relative risks (July 15, 
+       2005)</a><li>
+       <a href="CorrelationCoefficient.html">Confidence interval for a correlation coefficient (July 
+       11, 2005)</a></ol>
+  <p><b> <a name="Jun">June</a> 2005 (11 entries)</b></p>
+  <ol>
+       <li>
+       <a href="ConfidenceIntervalB.html">Examples of confidence intervals (June 28, 2005)</a><li>
+       <a href="DumpingData.html">Dumping data from R to a text file (June 27, 2005)</a><li>
+       <a href="SixtyPercentDrop.html">What does a 60% drop mean? (June 20, 2005)</a><li>
+       <a href="MultipleComparisons.html">Step-down procedures for multiple comparisons (June 16, 
+       2005)</a><li>
+       <a href="WebLinksJune.html">Interesting quotes, web pages, and publications for the month of 
+       June (updated June 21, 2005)</a><li>
+       <a href="RetroactivePrayer.html">More on the retroactive prayer study (June 10, 2005)</a><li>
+       <a href="MetaanalysisArticles.html">Some articles on meta-analysis (June 10, 2005)</a><li>
+       <a href="SearchLiteratureB.html">Another search for evidence (June 7, 2005)</a><li>
+       <a href="StopStudy.html">When can I stop my CQI study? (June 6, 2005)</a><li>
+       <a href="ConflictInterestA.html">Taking charges of conflicting interest too far (June 4, 2005)</a><li>
+       <a href="InformationTheoryA.html">Information theory and microarrays (June 1, 2005)</a></ol>
+  <p><b> <a name="May">May</a> 2005 (25 entries)</b></p>
+  <ol>
+       <li>
+       <a href="PairedAvailability.html">The paired availability design (May 31, 2005)</a><li>
+       <a href="ROCcurve.html">Application of the ROC curve to microarray data (May 26, 2005)</a><li>
+       <a href="ChangesStatL.html">Changes to STAT-L/sci.stat.consult (May 25, 2005)</a><li>
+       <a href="DimensionReduction.html">Dimension reduction in a microarray experiment (May 25, 
+       2005)</a><li>
+       <a href="ValueLabels.html">Importing value labels from Access into SPSS (May 24, 2005)</a><li>
+       <a href="SingleObservation.html">When one group only has a single observation (May 24, 2005)</a><li>
+       <a href="OpenSite.html">Another open site closes (May 23, 2005)</a><li>
+       <a href="WebLinksMay.html">Interesting web links and quotes for the month of May (updated May 
+       23, 2005)</a><li>
+       <a href="CovariateImbalance.html">Adjusting for covariate imbalance (May 20, 2005)</a><li>
+       <a href="NormalProbabilities.html">Computing normal probabilities (May 19, 2005)</a><li>
+       <a href="SplusCorrelatedData.html">The S+ CorrelatedData Library (May 19, 2005)</a><li>
+       <a href="CriticalThinking.html">What is critical thinking? (May 17, 2005)</a><li>
+       <a href="SearchLiteratureA.html">More on searching the literature (May 17, 2005)</a><li>
+       <a href="StandardError.html">Standard deviation versus standard error (May 16, 2005)</a><li>
+       <a href="DisasterAverted.html">A disaster averted (May 16, 2005)</a><li>
+       <a href="GeometricDistribution.html">Geometric distribution (May 16, 2005)</a><li>
+       <a href="HedgesG.html">Hedge's G (May 13, 2005)</a><li>
+       <a href="PostHocPower.html">Post hoc power is never justified (May 13, 2005)</a><li>
+       <a href="ConfidenceIntervalA.html">Confidence intervals around a safety level (May 11, 2005)</a><li>
+       <a href="PatientsReactions.html">Patients' reactions to finding out they were in the placebo 
+       group (May 11, 2005)</a><li>
+       <a href="StringsR.html">String manipulations in R (May 10, 2005)</a><li>
+       <a href="SpacingHtml.html">Preserving spacing in html code (May 6, 2005)</a><li>
+       <a href="Bimodality.html">Testing for bimodality (May 3, 2005)</a><li>
+       <a href="SearchLiterature.html">Searching the literature (May 3, 2005)</a><li>
+       <a href="MetaanalysisTalk.html">Meta-analysis talk (May 2, 2005)</a></ol>
+  <p><b> <a name="Apr">April</a> 2005 (17 entries)</b></p>
+  <ol>
+       <li>
+       <a href="PubMedTags.html">PubMed tags (April 28, 2005)</a><li>
+       <a href="OptimalThreshold.html">Determining the optimal threshold for a diagnostic test (April 
+       27, 2005)</a><li>
+       <a href="SearchInternet.html">Searching the Internet (April 26, 2005)</a><li>
+       <a href="MedStats.html">MedStats discussion group (April 25, 2005)</a><li>
+       <a href="CensoredValues.html">More than 90% censored values (April 22, 2005)</a><li>
+       <a href="MicroarrayC.html">Microarray data analysis, again (April 22, 2005)</a><li>
+       <a href="WebLinksApril.html">Interesting web links and quotes for the month of April (April 
+       20, 2005)</a><li>
+       <a href="IncidenceDensity.html">Incidence density ratio (April 19, 2005)</a><li>
+       <a href="MeasuringAgreement.html">Measuring agreement (April 19, 2005)</a><li>
+       <a href="SplusVersion7.html">S-plus version 7 (April 19, 2005)</a><li>
+       <a href="ProfileAnalysis.html">Profile analysis and MANOVA (April 18, 2005)</a><li>
+       <a href="NumbersTablesCharts.html">Presenting Numbers, Tables, and Charts (April 15, 2005)</a><li>
+       <a href="ToleranceLimits.html">Tolerance limits (April 15, 2005)</a><li>
+       <a href="FairUse.html">Fair Use of copyrighted material (April 15, 2005)</a><li>
+       <a href="TestsNormality.html">I abhor Lilliefor and other tests of normality (April 14, 2005)</a><li>
+       <a href="OrdinalData.html">Summing ordinal data (April 5, 2005)</a><li>
+       <a href="EnoughData.html">Do I have enough data after 24 months of time? (April 5, 2005)</a></ol>
+  <p><b> <a name="Mar">March</a> 2005 (30 entries)</b></p>
+  <ol>
+       <li>
+       <a href="ConfidenceInterval.html">Where is the confidence interval? (March 31, 2005)</a><li>
+       <a href="WebLinksMarch.html">Interesting web links for the month of March (March 30, 2005)</a><li>
+       <a href="OpenEndedQuestions.html">Open-ended questions on a survey (March 25, 2005)</a><li>
+       <a href="NonrandomSamples.html">Non-random samples (March 25, 2005)</a><li>
+       <a href="InformationTheory.html">More on information theory models (March 24, 2005)</a><li>
+       <a href="InferentialDescriptive.html">Inferential and descriptive statistics (March 24, 2005)</a><li>
+       <a href="MediaInterviews.html">Media interview tips (March 23, 2005)</a><li>
+       <a href="ConflictInterest.html">More on conflicts of interest (March 23, 2005)</a><li>
+       <a href="SurrogateOutcomes.html">Surrogate outcomes (March 23, 2005)</a><li>
+       <a href="CollectionStudies.html">A collection of randomized and non-randomized studies (March 
+       22, 2005)</a><li>
+       <a href="MathematicaMatlab.html">Using Mathematica and Matlab for Statistics (March 22, 2005)</a><li>
+       <a href="DiagnosticMetaanalysis.html">Meta-analysis for a diagnostic test (March 22, 2005)</a><li>
+       <a href="StratifiedCoxRegression.html">Stratified Cox regression models (March 22, 2005)</a><li>
+       <a href="ComingSoon.html">Coming soon (March 22, 2005)</a><li>
+       <a href="LanguageResources.html">Language resources (March 22, 2005)</a><li>
+       <a href="DigitizingGraph.html">Digitizing a graph (March 15, 2005)</a><li>
+       <a href="SelectiveReporting.html">Selective reporting of research findings (March 14, 2005)
+      
+       <li>
+       <a href="PublicationQuality.html">Quality of published research (March 14, 2005)</a><li>
+       <a href="Publicon.html">Publicon software (March 14, 2005)</a><li>
+       <a href="CumulativeMetaanalysis.html">Cumulative meta-analysis (March 11, 2005)</a><li>
+       <a href="ClinicalImportance.html">Clinical importance (March 11, 2005)</a><li>
+       <a href="MicroArrayB.html">More articles on microarrays (March 10, 2005)</a><li>
+       <a href="SafetyMiner.html">Seminar notes, S-PLUS Clinical Safety Miner (March 10, 2005)</a><li>
+       <a href="QuotesMarch.html">Quotes for the month of March (March 10, 2005)</a><li>
+       <a href="SampleSizeA.html">Sample size calculation for a nonparametric test (March 8, 2005)</a><li>
+       <a href="EndSpam.html">Technology to end spam (March 8, 2005)</a><li>
+       <a href="MicroArrayA.html">Review articles on microarrays (March 7, 2005)</a><li>
+       <a href="PowerPointA.html">PowerPoint Counterpoint (updated March 2, 2005)</a><li>
+       <a href="GrowthCurves.html">Growth curves (March 1, 2005)</a><li>
+       <a href="FalsePositive.html">The costs of a false positive test (March 1, 2005)</a></ol>
+  <p><b> <a name="Feb">February</a> 2005 (23 entries)</b></p>
+  <ol>
+       <li>
+       <a href="TenStudiesB.html">More on the top ten studies in EBM (updated February 28, 2005)</a><li>
+       <a href="BaselineAdjustment.html">Adjusting for a baseline measurement (February 28, 2005)</a><li>
+       <a href="TaguchiMethods.html">Taguchi methods (February 22, 2005)</a><li>
+       <a href="RandomizedTrialsA.html">Effective communication about randomized clinical trials 
+       (February 22, 2005)</a><li>
+       <a href="QuotesFebruary.html">Quotes for February (updated February 21, 2005)</a><li>
+       <a href="PracticeGuidelines.html">Developing good practice guidelines (February 18, 2005)</a><li>
+       <a href="WebLinksFebruary.html">Recommended web links for the month of February (last updated 
+       February 18, 2005)
+       <li>
+       <a href="ReportCards.html">Stats: Report cards (February 16, 2005)</a><li>
+       <a href="SideEffects.html">Side effects of Cox-2 inhibitors (February 15, 2005)</a><li>
+       <a href="PublicAccess.html">Public access to publications from NIH-funded research (February 
+       15, 2005)</a><li>
+       <a href="ModeratorVariable.html">Moderator variables (February 15, 2005)</a><li>
+       <a href="TenStudiesA.html">Another top ten study in EBM (February 14, 2005)</a><li>
+       <a href="RandomizedTrials.html">More on the weaknesses of randomized trials (February 14, 
+       2005)</a><li>
+       <a href="SampleSize.html">Relationship between sample size and p-values (February 14, 2005)</a><li>
+       <a href="MMalgorithm.html">Optimization using the MM algorithm (February 14, 2005)</a><li>
+       Clinical importance (February 11, 2005). This weblog entry is superseded by the March 11 
+       entry.<li>
+       <a href="ControlCharts.html">Control charts for monitoring mortality rates (February 11, 2005)</a><li>
+       <a href="ContinuousVariables.html">Continuous variables in a logistic regression model 
+       (February 9, 2005)</a><li>
+       <a href="SmallPvalue.html">A small p-value does not mean a large difference (February 8, 2005)</a><li>
+       <a href="BestEBM.html">Best EBM methods or teaching papers in 2004 (February 3, 2005)</a><li>
+       <a href="RaceEthnicity.html">Coding race/ethnicity (February 3, 2003)</a><li>
+       <a href="EntirePopulation.html">Sampling the entire population (February 3, 2005)</a><li>
+       <a href="HarmonicMean.html">A surprising application of the harmonic mean (February 1, 2005)</a></ol>
+  <p><b> <a name="Jan">January</a> 2005 (20 entries)</b></p>
+  <ol>
+       <li>
+       <a href="ConsecutiveDates.html">Placing consecutive dates in a column of an SPSS file (January 
+       26, 2005)</a><li>
+       <a href="ReweightingData.html">Re-weighting the data (January 25, 2005)</a><li>
+       <a href="QuotesJanuary.html">Quotes for the month of January (last update January 24, 2005)</a><li>
+       <a href="EthicsCAM.html">Ethical principles for Complementary and Alternative Medicine 
+       Research (January 24, 2005)</a><li>
+       <a href="WebLinksJanuary.html">Interesting web links for the month of January (last updated 
+       January 21, 2005)</a>
+       <li>
+       <a href="SummaryROC.html">Summary Receiver Operating Characteristic Curve (January 21, 2005)</a><li>
+       <a href="Intuition.html">How good is your intuition? (January 21, 2005)</a><li>
+       <a href="AdjustedOR.html">Adjusted odds ratios (January 20, 2005)</a><li>
+       <a href="DigitalObjectIdentifier.html">The Digital Object Identifier (January 19, 2005)</a><li>
+       <a href="BaselineImbalance.html">Testing baseline imbalance in a randomized study (January 19, 
+       2005)</a><li>
+       <a href="ConfusionPvalues.html">Confusion about p-values (January 18, 2005)</a><li>
+       <a href="Equipoise.html">More thoughts on equipoise (January 17, 2005)</a><li>
+       <a href="TenStudies.html">Ten research studies that anyone teaching EBM should be familiar 
+       with (January 17, 2005)</a><li>
+       <a href="EthicsRandomization.html">The ethics of randomization (January 14, 2005)</a><li>
+       <a href="SmallRelativeRisk.html">Small relative risks (January 13, 2005)</a><li>
+       <a href="ForestPlots.html">Forest plots (January 12, 2005)</a><li>
+       <a href="OddsRatios.html">Odds ratios less than one (January 6, 2005)</a><li>
+       <a href="DataMining.html">Two cautionary tales about data mining (January 6, 2005)</a><li>
+       <a href="SpectrumBias.html">Spectrum Bias (January 4, 2005)</a><li>
+       <a href="MonetaryIncentives.html">Monetary incentives (January 3, 2005)</a></ol>
+  <p><a href="../TopicList.html">[Go to full topic list]</a> <a href="../weblog.html">[Read 
+  current weblog entries]</a></p>
+  <p>
+  <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png"> 
+  This work is licensed under a
+  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
+  Creative Commons Attribution 3.0 United States License</a>. It was written by 
+  Steve Simon and was last modified on
+  <!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y-%m-%d" startspan -->2010-04-01<!--webbot bot="Timestamp" i-checksum="12216" endspan -->. Send 
+  feedback to ssimon at cmh dot edu or click on the email link at the top of the 
+  page.</p>
+ </body>
+</html>
