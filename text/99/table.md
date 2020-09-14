@@ -1,7 +1,6 @@
 ---
 title: Inputting a two-by-two table into SPSS
 author: Steve Simon
-source: http://www.pmean.com/99/table.html
 date: 1999-09-18
 categories:
 - Blog post
@@ -167,39 +166,4 @@ the **Risk and/or Chi-square option boxes**.
     1999:81(1);F61-F63. This paper is [available on the
     web](http://adc.bmjjournals.com/cgi/content/full/fetalneonatal;81/1/F61).
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html) or [Category: SPSS
-software](../category/SpssSoftware.html).
-<!---More--->
-software](../category/SpssSoftware.html).
-management](../category/DataManagement.html) or [Category: SPSS
-for pages similar to this one at [Category: Data
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Inputting a two-by-two table into
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html) or [Category: SPSS
-software](../category/SpssSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/table.html) of this page on my [original website](http://www.pmean.com/original_site.html).

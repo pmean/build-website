@@ -1,7 +1,6 @@
 ---
 title: Circular data models
 author: Steve Simon
-source: http://www.pmean.com/99/circular.html
 date: 1999-12-15
 categories:
 - Blog post

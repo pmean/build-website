@@ -1,7 +1,6 @@
 ---
 title: How to randomize
 author: Steve Simon
-source: http://www.pmean.com/99/random.html
 date: 1999-08-18
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Randomization in research
 output: html_document
 ---
-****[StATS]:** How to randomize (August 18
-- 1999)**
-
 *Dear Professor Mean
 - I need to randomize the order in which I give
 treatments and controls in my research study
@@ -269,37 +265,4 @@ when I replace all my z's with s's.)
 - which they [published at their
     site](http://www.bmj.com/cgi/eletters/319/7211/703).
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Randomization in
-research](../category/RandomizationInResearch.html).
-<!---More--->
-research](../category/RandomizationInResearch.html).
-for pages similar to this one at [Category: Randomization in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** How to randomize (August 18
-- 1999)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Randomization in
-research](../category/RandomizationInResearch.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/random.html) of this page on my [original website](http://www.pmean.com/original_site.html).

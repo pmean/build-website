@@ -1,7 +1,6 @@
 ---
 title: Importing spreadsheet data into SPSS
 author: Steve Simon
-source: http://www.pmean.com/99/excel.html
 date: 1999-09-20
 categories:
 - Blog post
@@ -10,9 +9,6 @@ tags:
 - SPSS software
 output: html_document
 ---
-****[StATS]:** Importing spreadsheet data into SPSS
-(created 1999-09-20)**
-
 *Dear Professor Mean
 - I need to import data in an Excel spreadsheet
 - but
@@ -162,45 +158,4 @@ Once you have done this
 menu. Then **click on FILE OF TYPE field and select the EXCEL (*.XLS)
 option**.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html)
-- [Category: SPSS
-software](../category/SpssSoftware.html)
-<!---More--->
-software](../category/SpssSoftware.html)
-management](../category/DataManagement.html)
-- [Category: SPSS
-[](../category/WritingResearchPapers.html) [Category: Data
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Importing spreadsheet data into SPSS
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html)
-- [Category: SPSS
-software](../category/SpssSoftware.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/99/excel.html) of this page on my [original website](http://www.pmean.com/original_site.html).

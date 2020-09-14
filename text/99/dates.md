@@ -1,7 +1,6 @@
 ---
 title: Date calculations in SPSS
 author: Steve Simon
-source: http://www.pmean.com/99/dates.html
 date: 1999-08-18
 categories:
 - Blog post
@@ -73,7 +72,7 @@ seconds to days**.
 A common example using dates is computing length of stay in the
 hospital.
 
-![](../../../web/images/99/dates01.gif)
+<img src="http://www.pmean.com/02/images/dates01.gif">
 
 The data shown above represents the birthdate (dob)
 - date of admission
@@ -84,7 +83,7 @@ To compute length of stay
 - you need to select TRANSFORM | COMPUTE from
 the SPSS menu.
 
-![](../../../web/images/99/dates02.gif)
+<img src="http://www.pmean.com/02/images/dates02.gif">
 
 The figure shown above is the dialog box that you get. Type in a new
 name in the TARGET VARIABLE field. The formula for computing length of
@@ -95,7 +94,7 @@ stay is
 which you should type into the NUMERIC EXPRESSION field. Then click on
 the OK button.
 
-![](../../../web/images/99/dates03.gif)
+<img src="http://www.pmean.com/02/images/dates03.gif">
 
 This figure shown above indicates that you have successfully computed
 length of stay as the difference between two date values.
@@ -131,10 +130,12 @@ between two dates](dates.html). SPSS has now added a Data and Time
 Wizard. Select TRANSFORM | DATE/TIME from the menu. Here's the first
 dialog box from that menu.
 
-![spss.gif not found.](../../../web/images/99/dates04.png)
+<img src="http://www.pmean.com/02/images/dates04.gif">
 
 This is a very pleasant surprise
 - since dates are a source of constant
 confusion for me and for the people I work with. There were other
 enhancements
 - but to me this is the only important one.
+
+You can find an [earlier version](http://www.pmean.com/99/dates.html) of this page on my [original website](http://www.pmean.com/original_site.html).

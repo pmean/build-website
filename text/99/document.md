@@ -1,7 +1,6 @@
 ---
 title: Documenting your SPSS data sets
 author: Steve Simon
-source: http://www.pmean.com/99/document.html
 date: 1999-09-18
 categories:
 - Blog post
@@ -10,9 +9,6 @@ tags:
 - SPSS software
 output: html_document
 ---
-****[StATS]:** Documenting your SPSS data sets
-(created 1999-09-18)**
-
 *Dear Professor Mean
 - I need to add some documentation for SPSS data
 sets that I am creating. I know you covered this in your "Gentle
@@ -343,42 +339,4 @@ some time now with documentation because SPSS can easily produce
 dozens of graphs and hundreds of tables. Good documentation will help
 you keep your bearings in all of this output.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html) or [Category: SPSS
-software](../category/SpssSoftware.html).
-<!---More--->
-software](../category/SpssSoftware.html).
-management](../category/DataManagement.html) or [Category: SPSS
-[](../category/WritingResearchPapers.html) [Category: Data
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Documenting your SPSS data sets
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html) or [Category: SPSS
-software](../category/SpssSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/document.html) of this page on my [original website](http://www.pmean.com/original_site.html).

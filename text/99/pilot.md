@@ -1,14 +1,14 @@
 ---
 title: Pilot study
 author: Steve Simon
-source: http://www.pmean.com/99/xpilot1.html
 date: 1999-09-03
-category: Blog post
-tags: Ask Professor Mean, Pilot studies
+category: 
+- Blog post
+tags: 
+- Ask Professor Mean
+- Pilot studies
 output: html_document
 ---
-****[StATS]:** Pilot study (September 3, 1999)**
-
 *Dear Professor Mean, I am proposing a research study that will examine
 a complex intervention of diet, exercise, and behavioral modification
 for some of my pediatric patients who need to lose weight. I want to
@@ -215,15 +215,4 @@ Data for planning
 >     1990:9(1-2);65-71; discussion 71-2.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=2345839)
 
-[Category: Ask Professor Mean](../category/AskProfessorMean.asp),
-[Category: Pilot studies](../category/PilotStudies.html)
-<!---More--->
-[Category: Pilot studies](../category/PilotStudies.html)
-[Category: Ask Professor Mean](../category/AskProfessorMean.asp),
-
-<!---Do not use
-****[StATS]:** Pilot study (September 3, 1999)**
-[Category: Ask Professor Mean](../category/AskProfessorMean.asp),
-[Category: Pilot studies](../category/PilotStudies.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/99/pilot.html) of this page on my [original website](http://www.pmean.com/original_site.html).

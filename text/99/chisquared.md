@@ -1,10 +1,11 @@
 ---
 title: Chi-squared test
 author: Steve Simon
-source: http://www.pmean.com/99/chisquared.html
 date: 1999-09-03
-category: Blog post
-tags: Unusual data
+category: 
+- Blog post
+tags: 
+- Unusual data
 output: html_document
 ---
 *Dear Professor Mean, Can the Chi-square test be used for anything

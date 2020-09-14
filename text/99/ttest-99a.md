@@ -1,14 +1,11 @@
 ---
 title: T-test
 author: Steve Simon
-source: http://www.pmean.com/99/ttest-99.html
 date: 1999-04-18
 category: Blog post
 tags: Hypothesis testing
 output: html_document
 ---
-****[StATS]:** T-test (created 1999-04-18)**
-
 *Dear Professor Mean, How do you analyze a t-test. I have a t-test
 value, and I know that I have to compare it to a t-distribution. I\'m
 not sure how to do that.*
@@ -124,30 +121,4 @@ and others. (Accessed May 15, 2002).
 **\--\>** **Fundamentals of Biostatistics, Third Edition.** Rosner B.
 Belmont CA: Duxbury Press (1990). ISBN: 0-534-91973-1.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
-<!---More--->
-testing](../category/HypothesisTesting.html).
-for pages similar to this one at [Category: Hypothesis
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** T-test (created 1999-04-18)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/ttest.html) of this page on my [original website](http://www.pmean.com/original_site.html).

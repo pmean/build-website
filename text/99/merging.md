@@ -1,7 +1,6 @@
 ---
 title: Merging files in SPSS
 author: Steve Simon
-source: http://www.pmean.com/99/merging.html
 date: 1999-01-15
 categories:
 - Blog post
@@ -61,7 +60,4 @@ For the record
 - **it is impossible to do a many-to-many merge in SPSS**. A many-to-many merge would equivalent to multiple husbands and wives and is just too chaotic to contemplate. If you really wanted to do a many-to-many merge
 - you would create a third file which shows which keys from the first file are linked with which keys from the second file. You would have to merge the first file with this master file and then merge the result with the second file.
 
-**Further reading**
-
-**[Stats: Longitudinal data](../02/longitudinal.html)**
-
+You can find an [earlier version](http://www.pmean.com/99/merging.html) of this page on my [original website](http://www.pmean.com/original_site.html).

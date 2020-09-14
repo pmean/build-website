@@ -1,14 +1,13 @@
 ---
 title: Page\'s test
 author: Steve Simon
-source: http://www.pmean.com/99/page.html
 date: 1999-09-03
-category: Blog post
-tags: Unusual data
+category: 
+- Blog post
+tags: 
+- Unusual data
 output: html_document
 ---
-****[StATS]:** Page\'s test (September 3, 1999)**
-
 *Dear Professor Mean, I have recently come across a statistical test
 (Page\'s L test),with which I am unfamiliar. Does anyone either have
 information about this test or know where I might find information about
@@ -32,20 +31,4 @@ it.*
 > Wolfe D. New York NY: John Wiley and Sons, Inc. (1999) ISBN:
 > 0-471-19045-4.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-
- 
-<!---More--->
- 
-
-<!---Do not use
-****[StATS]:** Page\'s test (September 3, 1999)**
- 
---->
-
+You can find an [earlier version](http://www.pmean.com/99/page.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: Injury index creation
 author: Steve Simon
-source: http://www.pmean.com/99/injury.html
 date: 1999-09-23
-category: Blog post
-tags: Unusual data
+category: 
+- Blog post
+tags: 
+- Unusual data
 output: html_document
 ---
-**[StATS]: Injury index creation (September 23,
-1999)**
-
 *Dear Professor Mean, I want to create an injury index that describes
 the severity of an injury to a child. This would include information
 about the type of injury, the location of the injury, the age of the
@@ -43,30 +41,4 @@ child, etc. What\'s the best way to do this?*
 > cases to examine. I suspect that your data set is not quite this
 > large.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Injury index creation (September 23,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/injury.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Type II error
 author: Steve Simon
-source: http://www.pmean.com/99/typetwo.html
 date: 1999-09-13
 category: Blog post
 tags: Hypothesis testing
@@ -59,30 +58,4 @@ the null hypothesis** even when there is a big change in the data. In
 these situations, a Type II error might be a possible explanation for
 the negative study results.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
-<!---More--->
-testing](../category/HypothesisTesting.html).
-for pages similar to this one at [Category: Hypothesis
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Type II error (created 1999-09-13)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/typetwo.html) of this page on my [original website](http://www.pmean.com/original_site.html).

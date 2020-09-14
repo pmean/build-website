@@ -1,7 +1,6 @@
 ---
 title: R-squared
 author: Steve Simon
-source: http://www.pmean.com/99/rsquared.html
 date: 1999-08-18
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Linear regression
 output: html_document
 ---
-****[StATS]:** R-squared (created 1999-08-18)**
-
 *Dear Professor Mean
 - On my TI-83
 - when calculating quadratic
@@ -209,36 +206,4 @@ regression) in chapter 11.
 - Third Edition.** Rosner B. Belmont
     CA: Duxbury Press (1990) ISBN: 0-534-91973-1.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Linear
-regression](../category/LinearRegression.html).
-<!---More--->
-regression](../category/LinearRegression.html).
-this one at [Category: Linear
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** R-squared (created 1999-08-18)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Linear
-regression](../category/LinearRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/rsquared.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: Developing a research hypothesis
 author: Steve Simon
-source: http://www.pmean.com/99/hypo.html
 date: 1999-08-18
-category: Blog post
-tags: Grant writing
+category: 
+- Blog post
+tags: 
+- Grant writing
 output: html_document
 ---
-****[StATS]:** Developing a research hypothesis
-(August 18, 1999)**
-
 *Dear Professor Mean, I want to do some research, but before the
 hospital won\'t approve anything until I have a protocol with a research
 hypothesis. I\'m not sure why a research hypothesis is important. Can
@@ -206,30 +204,4 @@ PA: American College of Physicians.
 > your research. This book also uses an easy to skim outline format, but
 > it has significant narrative text under each outline element.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
-<!---More--->
-writing](../category/GrantWriting.html).
-for pages similar to this one at [Category: Grant
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Developing a research hypothesis
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/hypo.html) of this page on my [original website](http://www.pmean.com/original_site.html).

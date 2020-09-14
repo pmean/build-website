@@ -1,7 +1,6 @@
 ---
 title: Poisson regression model
 author: Steve Simon
-source: http://www.pmean.com/99/poisson.html
 date: 1999-09-21
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Poisson regression
 output: html_document
 ---
-****[StATS]:** Poisson regression model (created
-1999-09-21)**
-
 *Dear Professor Mean
 - I have just received feedback on a manuscript
 under review in which one reviewer recommended use of Poisson
@@ -449,36 +445,4 @@ densities.** L. M. Lavange
 - P. A. Margolis.
 Stat Med 1994: 13(4); 343-55.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-<!---More--->
-regression](../category/PoissonRegression.html).
-for pages similar to this one at [Category: Poisson
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Poisson regression model (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/poisson.html) of this page on my [original website](http://www.pmean.com/original_site.html).

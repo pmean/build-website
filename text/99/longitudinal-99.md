@@ -1,10 +1,11 @@
 ---
 title: Longitudinal data analysis
 author: Steve Simon
-source: http://www.pmean.com/99/longitudinal-99.html
 date: 1999-10-15
-category: Blog post
-tags: Mixed models
+category: 
+- Blog post
+tags: 
+- Mixed models
 output: html_document
 ---
 [This is a very early draft]
@@ -149,3 +150,4 @@ approaches commonly used when the data represents binomial counts.
 -   **An overview of methods for the analysis of longitudinal data.**
     Zeger SL, Liang KY. Stat Med 1992: 11(14-15); 1825-39.
 
+You can find an [earlier version](http://www.pmean.com/99/longitudinal.html) of this page on my [original website](http://www.pmean.com/original_site.html).

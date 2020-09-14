@@ -1,10 +1,11 @@
 ---
 title: Bonferroni correction
 author: Steve Simon
-source: http://www.pmean.com/99/bonferroni.html
 date: 1999-09-03
-category: Blog post
-tags: Multiple comparisons
+category: 
+- Blog post
+tags: 
+- Multiple comparisons
 output: html_document
 ---
 

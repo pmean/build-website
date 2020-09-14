@@ -1,7 +1,6 @@
 ---
 title: ROC curve
 author: Steve Simon
-source: http://www.pmean.com/99/roc.html
 date: 1999-08-19
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Diagnostic testing
 output: html_document
 ---
-****[StATS]:** ROC curve (August 19
-- 1999)**
-
 *Dear Professor Mean
 - I was at a meeting in Belgium and the buzz
 statistic was ROC Analysis. I think it stands for Receiver Operating
@@ -365,37 +361,4 @@ very good test. If the area is close to 0.5
     text]](http://bmj.bmjjournals.com/cgi/content/full/316/7131/577)
     [PDF]](http://bmj.bmjjournals.com/cgi/reprint/316/7131/577.pdf)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** ROC curve (August 19
-- 1999)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/roc.html) of this page on my [original website](http://www.pmean.com/original_site.html).

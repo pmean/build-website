@@ -1,15 +1,13 @@
 ---
 title: Where do research ideas come from? by Ronan Conroy
 author: Steve Simon
-source: http://www.pmean.com/99/ideas.html
 date: 1999-09-20
-category: Blog post
-tags: Grant writing
+category: 
+- Blog post
+tags: 
+- Grant writing
 output: html_document
 ---
-****[StATS]:** Where do research ideas come from? by
-Ronan Conroy (September 20, 1999)**
-
 This is an HTML format version of an email by Ronan Conroy on April 9,
 1999 to edstat-l, an Internet list and to sci.stat.edu, a USENET group.
 This email summarized a presentation he made about how to develop ideas
@@ -547,21 +545,6 @@ remember: this is what you did as a child, before you were taught any
 different. So you already know how to do this; just think of yourself as
 a little rusty.**
 
-The copyright for this page belongs to Ronan Conroy. Need more
-information? I have a page with [general help
-resources](../GeneralHelp.html). You can also browse for pages similar
-to this one at [Category: Grant writing](../category/GrantWriting.html).
-<!---More--->
-to this one at [Category: Grant writing](../category/GrantWriting.html).
-resources](../GeneralHelp.html). You can also browse for pages similar
-information? I have a page with [general help
-The copyright for this page belongs to Ronan Conroy. Need more
+The copyright for this page belongs to Ronan Conroy.
 
-<!---Do not use
-****[StATS]:** Where do research ideas come from? by
-The copyright for this page belongs to Ronan Conroy. Need more
-information? I have a page with [general help
-resources](../GeneralHelp.html). You can also browse for pages similar
-to this one at [Category: Grant writing](../category/GrantWriting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/ideas.html) of this page on my [original website](http://www.pmean.com/original_site.html).

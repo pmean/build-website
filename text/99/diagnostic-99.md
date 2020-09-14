@@ -1,7 +1,6 @@
 ---
 title: Meta-analysis for a diagnostic
 author: Steve Simon
-source: http://www.pmean.com/99/diagnostic-99.html
 date: 1999-11-15
 categories:
 - Blog post
@@ -421,3 +420,4 @@ problematic.
     text]](http://bmj.bmjjournals.com/cgi/content/full/323/7305/157)
     [PDF]](http://bmj.bmjjournals.com/cgi/reprint/323/7305/157.pdf)
 
+You can find an [earlier version](http://www.pmean.com/99/diagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html).

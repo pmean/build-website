@@ -1,15 +1,13 @@
 ---
 title: Writing a research grant
 author: Steve Simon
-source: http://www.pmean.com/99/grants.html
 date: 1999-09-13
-category: Blog post
-tags: Grant writing
+category: 
+- Blog post
+tags: 
+- Grant writing
 output: html_document
 ---
-****[StATS]:** Writing a research grant (September
-13, 1999)**
-
 *Dear Professor Mean, I\'m writing a research grant to look at the
 impact of managed care on the care of children with chronic epilepsy.
 How do I structure the grant so I\'m guaranteed to get funding? \--
@@ -524,30 +522,4 @@ by Gotch and Stebbing (2002) is a brief list of useful tips.
 2.  **PSYCHOLOGY WITH STYLE A Hypertext Writing Guide - Version 3.1.**
     Mark Plonsky. <http://www.uwsp.edu/psych/apa4b.htm>
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
-<!---More--->
-writing](../category/GrantWriting.html).
-for pages similar to this one at [Category: Grant
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Writing a research grant (September
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/grants.html) of this page on my [original website](http://www.pmean.com/original_site.html).

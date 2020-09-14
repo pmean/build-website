@@ -1,15 +1,13 @@
 ---
 title: General guide to data entry
 author: Steve Simon
-source: http://www.pmean.com/99/entry.html
 date: 1999-09-03
-category: Blog post
-tags: Data management
+category: 
+- Blog post
+tags: 
+- Data management
 output: html_document
 ---
-****[StATS]:** General guide to data entry (created
-1999-09-03)**
-
 *Dear Professor Mean, I\'m about to start typing in my research data. Do
 you have any general guidelines for data entry?*
 
@@ -240,33 +238,4 @@ that we encounter during our data analysis.
 > the process of importing your data into a statistical software package
 > like SPSS.**
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html).
-<!---More--->
-management](../category/DataManagement.html).
-[](../category/WritingResearchPapers.html) [Category: Data
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** General guide to data entry (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Data
-management](../category/DataManagement.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/entry.html) of this page on my [original website](http://www.pmean.com/original_site.html).
