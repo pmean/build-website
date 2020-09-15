@@ -1,634 +1,82 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>P.Mean: 2010 archive</title>
-</head>
-
-<body><!--start-->
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="680">
-  <tr>
-    <td width="131">
-    <img border="0" src="../images/logo.png" width="100" height="98"></td>
-    <td width="546"><b><a href="../index.html">P.Mean</a>:  Archive organized by date (created 2010-01-06)</b><p>
-    <a href="../news.html">
-    <img border="0" src="../images/news.png" width="511" height="68"></a></td>
-  </tr>
-</table>
-<blockquote>
-  <p>This page lists files created in calendar year 2010. Also look at the 
-  archives for <a href="archive13.html">2013</a>, <a href="archive12.html">2012</a>, <a href="archive11.html"></a><a href="../Archive11.html">2011</a>, <a href="../09/Archive09.html">
-  2009</a>, <a href="../08/Archive08.html">2008</a>, <a href="../08/Archive08.html"></a><a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../05/Archive05.html">2005</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>. You can 
-  also browse through an archive of pages
-  <a href="../TopicList.html">organized by topic</a>.</p>
-  <p><b>December 2010</b></p>
-</blockquote>
- <ol>
-  <li><a href="LaTeX.html">P.Mean: Creating LaTex formulas on the fly (created 
-  2010-12-20)</a>. I don't use LaTeX a lot (though I should) because I am fairly 
-  happy with a proprietary product that I use for formulas, MathType. Still, 
-  there are some times when it would be nice to use a bit of LaTeX, and there's 
-  a web site that makes this easy.</li>
-  <li><a href="UmkcOffice.html">P.Mean: Location of my UMKC office (created 
-  2010-12-09)</a>. I work part-time as an independent statistical consultant and 
-  part time at the University of Missouri-Kansas City (UMKC). If you need to 
-  meet with me for UMKC related work, here is how to get to my office.</li>
-  <li><a href="UndeservingOfFurtherStudy.html">P.Mean: Are certain CAM therapies 
-  undeserving of further study (created 2010-12-01)</a>. I have become something 
-  of a celebrity on the Science Based Medicine site, as I have noted in an 
-  earlier webpage. In addition to the blog post I noted earlier, there is a new 
-  post: Of SBM and EBM Redux. Part I: Does EBM Undervalue Basic Science and 
-  Overvalue RCTs? These posts are reminding me how important it is to write 
-  precisely, which is good. I largely agree with many of the comments written in 
-  these particular entries and in others at the Science Based Medicine site, but 
-  there are still areas of fundamental disagreement. One of the major areas 
-  where we disagree is over the value of running randomized control trials for 
-  certain CAM (Complementary and Alternative Medicine) therapies that are 
-  biologically implausible.<br>
-  <br>
-  <b>November 2010</b><br>
-&nbsp;</li>
-  <li><a href="QuotientRule.html">P.Mean: Poem to help you remember the quotient 
-  rule (created 2010-11-26)</a>. I was working on some derivatives then involved 
-  a fraction, and the formula is a bit tricky to remember. There was a short 
-  poem that I learned a long time ago for the derivative of a fraction, and I 
-  can't find it anywhere on the Internet. There are some variants that are 
-  close, but nothing quite like the poem I remember. Everything important has to 
-  be found somewhere on the Internet, so I am posting the poem here. If anyone 
-  can attribute this poem to the original source, please let me know.</li>
-  <li><a href="TransformingThePrior.html">P.Mean: Transforming the parameter 
-  also transforms the prior distribution (created 2010-11-25)</a>. All my work on Bayesian models recently has forced me to remember some of 
-  my mathematical statistics that I had not touched since college. Here's 
-  another example of this. Suppose you have a prior distribution on a parameter
-  <font face="Times New Roman">&#952;</font> and you want to find the comparable 
-  prior for a transformation <font face="Times New Roman">&#966;</font>=u(<font face="Times New Roman">&#952;</font>).</li>
-  <li><a href="OppositeOddsRatio.html">P.Mean: The odds ratio in logistic 
-  regression is the opposite of what it should be (created 2010-11-22)</a>. I 
-  have data in the following a table that clearly shows a positive association, 
-  but when I run a logistic regression model, the odds ratio is reported as less 
-  than 1. How can this be?</li>
-  <li><a href="BugsVersions.html">P.Mean: BUGS is more than just one program 
-  (created 2010-11-19)</a>. I am working on some Bayesian models that use a 
-  program called BUGS. BUGS stands for Bayesian Inference Using Gibbs Sampling. 
-  There are several ways you can run BUGS, and it is worthwhile to note why 
-  there are multiple programs.</li>
-  <li><a href="ExponentialAmbiguity.html">P.Mean: Ambiguity in the definition of 
-  the exponential distribution (created 2010-11-16)</a>. I'm trying to run some Bayesian analyses using a program called BUGS (Bayes 
-  Using Gibbs Sampler), and this requires me to specify a prior distribution for 
-  the parameter associated with an exponential waiting time. I'm having more 
-  trouble that I should because the exponential distribution is defined two 
-  different ways.</li>
-  <li><a href="ScienceBasedMedicinePt2.html">P.Mean: The Science-Based Medicine 
-  blog defends itself (created 2010-11-09)</a>. I get a few fan letters from 
-  people, which are greatly appreciated, but when I get the rare critical 
-  response, I am even more grateful. It doesn't matter if the criticism is valid 
-  or not. Someone who takes on the unpleasant task of critiquing my work offers 
-  some valuable insights on: what I wrote poorly because it was incorrect, or 
-  what I wrote poorly because it was misinterpreted, or what I wrote well but 
-  there is a dissenting opinion. One of my webpages, P.Mean: Is there something 
-  better than Evidence Based Medicine out there (created 2010-09-20), was 
-  highlighted and criticized on the Science Based Medicine blog by David Gorski, 
-  and here are some of the things I learned from that criticism. This is an 
-  expansion of comments I left on their blog entry.</li>
-  <li><a href="TheoryOrPractice.html">P.Mean: Would you hire someone who knew theory 
-  or someone who knew practice (created 2010-11-03)</a>. Someone on LinkedIn 
-  asked if it was better to hire someone who knew theory or someone who knew 
-  practice. Here's my response.<br>
-  <br>
-  <b>October 2010</b><br>
-&nbsp;</li>
-  <li><a href="MissouriTechnology.html">P.Mean: Poster presentation at the 
-  Missouri Technology conference (created 2010-10-04)</a>. I will be presenting a poster about the Bayesian model for accrual at the 
-  Missouri Technology conference in Columbia, Missouri. There was some confusion 
-  about this, partly because I submitted an abstract at the last minute. Here is 
-  the abstract that I turned in.</li>
-  <li><a href="LeastSquares.html">P.Mean: Why the least squares regression line 
-  has to pass through XBAR, YBAR (created 2010-10-01)</a>. An issue came up 
-  about whether the least squares regression line has to pass through the point 
-  (XBAR,YBAR), where the terms XBAR and YBAR represent the arithmetic mean of 
-  the independent and dependent variables, respectively. The line does have to 
-  pass through those two points and it is easy to show why.</li>
-  <li><a href="FailureOption.html">P.Mean: If you knew that failure was not an 
-  option, what would you do (created 2010-10-01)</a>. There is a question and 
-  answer forum on LinkedIn where people ask all sorts of questions. A common 
-  theme among some people there is to ask motivational questions, which I try to 
-  respond to sometimes with an off-beat answer. There was a question along these 
-  lines: &quot;If you knew that failure was not an option, what would you do?&quot; I 
-  started off with a rather flippant answer, but then realized that there was a 
-  more serious answer.<br>
-  <br>
-  <b>September 2010</b><br>
-&nbsp;</li>
-  <li><a href="ScienceBasedMedicine.html">P.Mean: Is there something better than 
-  Evidence Based Medicine out there (created 2010-09-20)</a>. Someone asked me 
-  about a claim made on an interesting blog, Science Based Medicine. The blog 
-  claims that Science Based Medicine (SBM), that tries to draw a distinction 
-  between that practice and Evidence Based Medicine (EBM). SBM is better because 
-  &quot;EBM, in a nutshell, ignores prior probability (unless there is no other 
-  available evidence and falls for the p-value fallacy; SBM does not.&quot; Here's 
-  what I wrote.</li>
-  <li><a href="NamesIntoModel.html">P.Mean: Putting variable names into a model 
-  automatically (created 2010-09-20)</a>. I always have trouble with including a 
-  changing variable name into a sequence of statistical models in R, so when 
-  someone wrote about it on the R-Help list, I thought I should try some of the 
-  suggestions and then write them down here so I don't forget.</li>
-  <li><a href="Interactions.html">P.Mean: Oh those pesky interactions! (created 
-  2010-09-16)</a>. Someone was fitting a binary logistic regression model and 
-  regretfully (that was his word) found two significant (p &lt; 0.05) interactions. 
-  The tone was that he was testing for interactions using some type of stepwise 
-  approach, but was hoping that no interactions would appear. When they did 
-  appear, he had a panic, not about how to interpret the interactions, but 
-  rather whether he should include them in his publication. Here's the advice I 
-  offered.</li>
-  <li><a href="Twitter.html">P.Mean: My new twitter account (created 2010-09-15)</a>. I 
-  started a new twitter account, mostly to follow the twitter feed of the 
-  Department of Biomedical and Health Informatics at UMKC. I work in that 
-  department part-time. I may use my twitter account to announce new updates to 
-  my website. My twitter feed is @profmean.</li>
-  <li><a href="CIforP.html">P.Mean: Can you compute a confidence interval for 
-  your p-value? (created 2010-09-10)</a>. A question that comes up from time to 
-  time is whether you can calculate a confidence interval for a p-value. It 
-  always get statisticians into a tizzy because it seems to be such a logical 
-  thing to do, but no one does it. Here's how I like to think about the issue.</li>
-  <li><a href="TextFiles.html">P.Mean: Using information theory to identify 
-  discrepancies within and between text files (created 2010-09-02)</a>. I have been experimenting with the use of information theory to identify 
-  patterns in text data files. This work in somewhat preliminary, but it has 
-  some exciting possibilities. If there are certain patterns that occur 
-  frequently at a given column of a text data file (e.g., always the letters &quot;A&quot; 
-  or &quot;B&quot;), then these columns become important for looking for aberrant data 
-  that might be caused by a typographical error, a misalignment of the row of 
-  data, or a deviation from the code book. I want to show some preliminary 
-  graphs that illustrate what these patterns look like for some files I am 
-  working with. <b>Warning: this is a very large webpage with graphics that 
-  extend across dozens of pages!!</b></li>
-  <li><a href="Panhandler.html">P.Mean: Is it ethical to recruit a panhandler 
-  that you see on the street into your research study (created 2010-09-01)</a>. 
-  Someone asked a question about the ethics of approaching a panhandler and 
-  sharing information about a research study. I don't know all the details, but 
-  apparently, this study was examining veterans of the Iraq war, and this 
-  panhandler was holding a sign saying something like please help a veteran of 
-  the Iraq war. There was some concern about whether the monetary incentive 
-  would be disproportionate for someone who had to beg for a living, or it might 
-  be a problem if the panhandler was given money and a flyer about the research 
-  study at the same time. I discussed some of my concerns about this study, but 
-  it was from the perspective of statistical validity rather than from an 
-  ethical perspective.<br>
-  <br>
-  <b>August 2010</b><br>
-&nbsp;</li>
-  <li><a href="PoolingRisk.html">P.Mean: Pooling different measures of risk in a 
-  meta-analysis (created 2010-07-26)</a>. Someone on the MEDSTATS email 
-  discussion group asked about how to pool results in a meta-analysis where some 
-  of the summary measures are reported as odds ratios, others as relative risks, 
-  and still others as hazard ratios. There's actually a fourth measure that is 
-  commonly used when the outcome measure is binary (live/dead, improved/not 
-  improved, relapsed/relapse free, etc.). That is the risk difference, and its 
-  inverse, the number needed to treat. Here's what I wrote in response.</li>
-  <li><a href="gee.html">P.Mean: What is a Generalized Estimating Equations 
-  model? (created 2010-08-19)</a>. Generalized Estimating Equations (GEE) are a 
-  model for your data that can account for dependence among some of your 
-  measurements due to repeated measures, cluster sampling, or a longitudinal 
-  data set. It represents an extension of the Generalized Linear Model (GLM). 
-  Like the GLM, the GEE model allows you to specify a link function and a mean 
-  variance relationship. With the appropriate choice of these two items, you can 
-  specify a wide variety of models.</li>
-  <li><a href="EbmTooRigid.html">P.Mean: Is Evidence-Based Medicine too rigid 
-  (created 2010-08-19)</a>. Someone was asking about criticisms of 
-  Evidence-Based Medicine (EBM) that the reliance on grading schemes and the 
-  hierarchy of evidence was too rigid or was EBM providing some heuristics that 
-  could be adapted as needed. This is hard to respond to, but it is an important 
-  question. I view checklists and hierarchies as a necessary evil, and that 
-  sometimes they are applied too rigidly.</li>
-  <li><a href="../10/CompetingBooks.html">P.Mean: Competing books to the book I 
-  am planning to write (created 2010-08-16)</a>. I have been asked by several 
-  publishers to list competing books to the book I am planning to write. My book 
-  is quite different than anything else out there, but perhaps the closest 
-  competition would be books that talk about research methods. Here are some 
-  possible competitors in that area.</li>
-  <li><a href="FirstSession.html">P.Mean: What should clients get from you at 
-  the end of the first consulting session (created 2010-08-14)</a>. There has 
-  been a lot of discussion about the nature and role of consulting on the 
-  message boards of the Statistical Consulting section of the American 
-  Statistical Association&nbsp; One particularly valuable question was what 
-  should you do when starting a new consulting job. Here is an adaptation of one 
-  particularly good response.</li>
-  <li><a href="../10/Glossary.html">P.Mean: Glossary for my second book (created 
-  2010-08-11)</a>. As I mentioned in an earlier webpage, 
-  I am talking to some publishers about writing a second book. Here's a 
-  tentative glossary for that book. I'm only including the terms in the glossary 
-  for now, but will eventually add definitions.</li>
-   <li><a href="SpssPrice.html">P.Mean: What's a fair price for SPSS? (created 
-   2010-08-06)</a>. There was a discussion on an email discussion group about 
-   SPSS about how the SPSS software package was too expensive and how they 
-   should consider offering a discount price for the home user. Everyone was in 
-   favor of lower prices, of course, and compared the pricing of SPSS to that of 
-   Stata and R. In the 
-  spirit of debate, I offered a contrarian viewpoint. It also applies to similar 
-   complaints I have heard about the pricing of SAS software.</li>
-   <li><a href="AnySize.html">P.Mean: Fighting the claim that any size 
-   difference is clinically important (created 2010-08-05)</a>. When working with people to select an appropriate sample size, it is 
-  important to establish the minimum clinically important difference (MCID). 
-  This is a difference such that any value smaller would be clinically trivial, 
-  but any value larger would be clinically important. I get told 
-  quite often that any difference that might be detected is important. I could 
-  be flippant here and then tell them that their sample size is now infinite and 
-  my consulting rate is proportional to the sample size, but I don't make 
-  flippant comments (out loud, at least). Here's how I might challenge such a 
-  claim.<br>
-   <br>
-   <b>July 2010</b><br>
-&nbsp;</li>
-   <li><a href="ConsultingSop.html">P.Mean: Standard operating procedures for a 
-   statistical consulting center (created 2010-07-30)</a>. I asked a question on 
-   one of the American Statistical Association message boards about how I 
-   setting up a consulting service at the University of Missouri-Kansas City (UMKC), 
-   where I work part-time. I wanted to develop some SOPs (Standard Operating 
-   Procedures) for this center that would supplement the guidance already 
-   available on the web. I asked if anyone else had SOPs (or anything similar) 
-   that I could look at so I wouldn't re-invent the wheel. I got a lot of 
-   responses.</li>
-   <li><a href="EndOfResearch.html">P.Mean: When should research in a given area 
-   end? (created 2010-07-26)</a>. Someone asked a rather philosophical question, 
-   is there ever an end to research in a given area? Will there ever be a &quot;last 
-   word&quot; on a research topic. Here's what I wrote in response.</li>
-   <li><a href="SampleSize.html">P.Mean: Sample chapter: The first three steps 
-   in selecting an appropriate sample size (created 2010-07-24)</a>. As I 
-   mentioned in an earlier webpage, I am talking to some publishers about 
-   writing a second book. The working title is &quot;Jumpstart Statistics: How to 
-   Restart Your Stalled Research Project.&quot; Here's a tentative chapter from that 
-   book. It is not quite complete yet, but I'm hoping to finish it soon. One of 
-   your most critical choices in designing a research study is selecting an 
-   appropriate sample size. A sample size that is either too small or too large 
-   will be wasteful of resources and will raise ethical concerns.</li>
-   <li><a href="Contents.html">P.Mean: Tentative table of contents for my second 
-   book (created 2010-07-24)</a>. As I mentioned in an earlier webpage, I am 
-   talking to some publishers about writing a second book. The working title is 
-   &quot;Jumpstart Statistics: How to Restart Your Stalled Research Project.&quot; Here's 
-   a tentative table of contents.</li>
-   <li><a href="SecondBook.html">P.Mean: Jumpstart Statistics, a proposal for my 
-   second book (created 2010-07-23)</a>. I want to talk to some publishers about 
-   writing a second book. Here is what I will propose to them.</li>
-   <li><a href="Salary.html">P.Mean: Salary survey for Biostatisticians (created 
-   2010-07-21)</a>. I am working part-time at UMKC in the Department of 
-   Informatic Medicine and Personalized Health. They like me and want me to 
-   increase my hours from 10 hours a week (25% time) to something more. I'll 
-   talk to them about this, but at the same time, I want to point out that my 
-   salary is not competitive with my peers. Here's a table from a recent survey 
-   on salaries, published in the Amstat News.</li>
-   <li><a href="pca.html">P.Mean: What is principal components analysis? 
-   (created 2010-07-19)</a>. I was asked to help someone who was reviewing a 
-   paper that used principal components analysis (PCA) as part of the 
-   statistical methodology. I have not yet seen the article, so I could only 
-   offer very general advice.</li>
-   <li><a href="Counterintuitive.html">P.Mean: Another counter-intuitive 
-   probability problem (created 2010-07-04)</a>. A recent article in Science 
-   News, rekindled the two children problem and offered an odd twist. Here's the 
-   simple version. Suppose you have two children, one of whom is a boy. What is 
-   the probability that both children are boys? The obvious, but incorrect 
-   choice is 1/2. The correct answer is 1/3. How does this work?<br>
-   <br>
-   <b>June 2010 (8 entries)</b><br>
-&nbsp;</li>
-   <li><a href="StackOverflow.html">P.Mean: Resources using Stack Overflow 
-   (created 2010-06-30) </a>. A bunch of Internet resources fell into my lap all 
-   at once. Some of them relate to a new technology (Stack Overflow/Stack 
-   Exchange) that allows people to pose questions like an Interenet email 
-   discussion group, but it is web-based and has some of the capabilities 
-   associated with blogs and wikis.</li>
-   <li><a href="SpssTtest.html">P.Mean: The SPSS t-test is confusing (created 
-   2010-06-29)</a>. I have always disliked how SPSS (now IBM SPSS) presented the output from 
-  their independent samples t-test. I want to explain why it is confusing and 
-  show you an alternative based on the general linear model.</li>
-   <li><a href="ClassicReferences.html">P.Mean: Classic references in Statistics 
-   (created 2010-06-29)</a>. A prominent statistician, Christian Robert, listed 
-   some classic research papers in Statistics that he wanted to present to his 
-   students in a special readings class. This was commented on by another 
-   prominent statistician, Andrew Gelman. I'm not a prominent statistician, but 
-   that won't stop me from adding my two cents.</li>
-   <li><a href="UseForTalks.html">P.Mean: What I use for talks instead of 
-   Powerpoint (created 2010-06-28)</a>. Someone on LinkedIn asked a question 
-   about what technologies people use for their presentations (laptop, 
-   flipchart, or whiteboard). For most of my presentations, I use none of these 
-   technologies. Instead I create a webpage of my presentation and then print it 
-   and hand out copies.</li>
-   <li><a href="Futility.html">P.Mean: The futility of small sample sizes for 
-   evaluating a binary outcome (created 2010-06-16)</a>. I'm helping out with a project that involves a non-randomized comparison of 
-  two groups of patients. One group gets a particular anesthetic drug and the 
-  other group does not. The researcher wants to compare rates of hypotension, 
-  respiratory depression, apnea, and hypoxia. I suggested using continuous 
-  outcomes like O2 saturation levels rather than discrete events like hypoxia, 
-  but for a variety of reasons, they cannot use continuous outcomes. Their 
-  original goal was to collect data on about 20 patients in each group.</li>
-   <li><a href="BadSurvey.html">P.Mean: An example of a bad survey (created 
-   2010-06-11)</a>. I was asked to fill out an Internet survey to define my 
-   &quot;consulting needs.&quot; That's a rather strange invitation, and sounds almost 
-   like a cheap way to develop business leads. But it was a request through 
-   LinkedIn, so I thought it was worth filling out. I want to try to build my 
-   contacts at LinkedIn, and filling out a short survey seemed like a small 
-   price to pay to get a potential lead for my own consulting business. When I 
-   went to the webpage with the actual survey, though, I was shocked and 
-   disappointed with what I found.</li>
-   <li><a href="aipe.html">P.Mean: An interesting alternative to power 
-   calculations (created 2010-06-09)</a>. Someone on the MedStats Internet 
-   discussion group mentioned an alternative to power calculations called 
-   accuracy in parameter estimation (AIPE). It looks interesting. Here are some 
-   relevant references.</li>
-   <li><a href="TimeSeries.html">P.Mean: Minimum sample size needed for a time 
-   series prediction (created 2010-06-08)</a>. Someone asked what the minimum 
-   sample size that was needed in a time series analysis model to forecast 
-   future observations. Strictly speaking, you can forecast with two 
-   observations. Draw a straight line connecting the two points and then extend 
-   that line as far as you want in the future. But you wouldn't want to do that. 
-   So a better question might be what is the minimum number of data points that 
-   you would need in order to provide a good forecast of the future.<br>
-   <br>
-   <b>May 2010 (9 entries)</b><br>
-&nbsp;</li>
-   <li><a href="Conference.html">P.Mean: What is the premier conference for 
-   statistical consulting (created 2010-05-28)</a>. Someone asked what the 
-   premier conference for statistical consulting. That's a rather ambiguous 
-   question, because different people will interpret terms like &quot;premier 
-   conference&quot; and &quot;statistical consulting&quot; differently. The answer, however, is 
-   pretty unambiguous. In North America, it would have to be the Joint 
-   Statistics Meetings (JSM).</li>
-   <li><a href="Missing.html">P.Mean: Lessons learned the hard way: don't 
-   presume to know how your software handles missing value codes (created 
-   2010-05-28)</a>. I'm working on an interesting project that involves summing 
-   up rvu's (resource value units) across certain records for a given patient. 
-   Some of the rvu's are missing. How should the program handle these missing 
-   rvu's. We discussed this by email and agreed to ignore missing rvu's in the 
-   sum. This is effectively the same as replacing the missing rvu's with zero. 
-   There is two cases worth worrying about, though, and handling those cases 
-   makes me realize just how tricky missing values are.</li>
-   <li><a href="Career.html">P.Mean: How I got started in my career as an 
-   independent statistical consultant (created 2010-05-24)</a>. LinkedIn has a 
-   question and answer board, and one of the questions inspired me to write up 
-   the story of how I got started in my career as an independent statistical 
-   consultant. Here's the original question: <i>I'm very curious as to what 
-   events or conversations enabled you to change direction in your career. What 
-   thought process did you go through? What resources did you use or uncover?</i></li>
-   <li><a href="Criticism.html">P.Mean: How do I handle criticism (created 
-   2010-05-21)</a>. Someone asked how I handle criticism. To be honest, I don't 
-   get criticized all that much. Possibly it is that I do very little that 
-   deserves criticism, and possibly, people are intimidated by the area I work 
-   in (unjustifiably intimidated, by the way, but many people are just plain 
-   scared of numbers). It is also important to note that most people don't like 
-   to share negative opinions directly. They certainly will tell others, of 
-   course, if something is wrong, but it takes some boldness and some bravery to 
-   confront a person directly.</li>
-   <li><a href="Plagiarism.html">P.Mean: How to avoid charges of plagiarism 
-   (created 2010-05-15)</a>. I'm not an expert on this, but I got a question about how to avoid charges 
-  of plagiarism in a thesis, especially the sections of the thesis that reviewed 
-  existing research and theoretical background. Here's how I responded.</li>
-   <li><a href="Withdawing.html">P.Mean: Withdrawing from a study and taking 
-   your data with you (created 2010-05-15)</a>. Someone asked me what the phrase 
-   &quot;you can withdraw from the study at any time&quot; really means. Can a research 
-   subject withdraw and take their data with them (that is, ask that their data 
-   be expunged from the database)? What if they raise the objection after the 
-   data analysis is done, because they don't like the results of the study. Can 
-   they ask for their data to be expunged then? What if they raise the objection 
-   after the data is published?</li>
-   <li><a href="Lessons.html">P.Mean: Lessons learned the hard way: don't throw 
-   good money after bad (created 2010-05-14)</a>. I am helping out with data management for a project involving 19 million 
-  records from an insurance database. The file is too big to be read into R in 
-  one piece, so I decided to read in successive segments of 100,000 records and 
-  then write them out again as separate files. This was a big mistake and showed 
-  me the importance of the saying: &quot;Don't throw good money after bad.&quot;</li>
-   <li><a href="ses.html">P.Mean: What is a good surrogate measure for 
-   socioeconomic status (created 2010-05-03)</a>. I received a question, indirectly, about what might be a good surrogate 
-  measure for socioeconomic status (SES). That raises two questions, actually. 
-  What is SES, and how can we tell if a surrogate is a good surrogate for SES.</li>
-   <li><a href="InstrumentalVariables.html">P.Mean: More discussion on 
-   instrumental variables (created 2010-05-03)</a>. I attended the May meeting 
-   of the KUMC Statistics Journal Club. The topic of discussion was a paper 
-   outlining the properties and applications of instrumental variables.<br>
-   <br>
-   <b>April 2010 (7 entries)</b><br>
-&nbsp;</li>
-   <li><a href="Expectations.html">P.Mean: My life so far: fails to meet 
-   expectations (created 2010-04-21)</a>. I'm learning how to use LinkedIn, and 
-   there are some people on that site who ask general philosophical questions. 
-   Some are a bit silly but they are still fun to answer. One person asked 
-   people to apply the traditional performance evaluation categories (Exceeds 
-   expectations, Meets expectations, Fails to meet expectations) to their own 
-   lives. So here is what I wrote.</li>
-   <li><a href="InterpretingPart1.html">P.Mean: Interpreting p-values in a 
-   published abstract, part 1 (created 2010-04-14)</a>. In one of my recent 
-   webinars, I asked people to read the following abstract and interpret the 
-   p-values presented within. <i><b>The Outcome of Extubation Failure in a 
-   Community Hospital Intensive Care Unit: A Cohort Study</b>. Seymour CW, 
-   Martinez A, Christie JD, Fuchs BD. Critical Care 2004, 8:R322-R327 (20 July 
-   2004) Introduction: Extubation failure has been associated with poor 
-   intensive care unit (ICU) and hospital outcomes in tertiary care medical 
-   centers. Given the large proportion of critical care delivered in the 
-   community setting, our purpose was to determine the impact of extubation 
-   failure on patient outcomes in a community hospital ICU. Methods: A 
-   retrospective cohort study was performed using data gathered in a 16-bed 
-   medical/surgical ICU in a community hospital. During 30 months, all patients 
-   with acute respiratory failure admitted to the ICU were included in the 
-   source population if they were mechanically ventilated by endotracheal tube 
-   for more than 12 hours. Extubation failure was defined as reinstitution of 
-   mechanical ventilation within 72 hours (n = 60), and the control cohort 
-   included patients who were successfully extubated at 72 hours (n = 93). 
-   Results: The primary outcome was total ICU length of stay after the initial 
-   extubation. Secondary outcomes were total hospital length of stay after the 
-   initial extubation, ICU mortality, hospital mortality, and total hospital 
-   cost. Patient groups were similar in terms of age, sex, and severity of 
-   illness, as assessed using admission Acute Physiology and Chronic Health 
-   Evaluation II score (P &gt; 0.05). Both ICU (1.0 versus 10 days; P &lt; 0.01) and 
-   hospital length of stay (6.0 versus 17 days; P &lt; 0.01) after initial 
-   extubation were significantly longer in reintubated patients. ICU mortality 
-   was significantly higher in patients who failed extubation (odds ratio = 
-   12.2, 95% confidence interval [CI] = 1.5�101; P &lt; 0.05), but there was no 
-   significant difference in hospital mortality (odds ratio = 2.1, 95% CI = 
-   0.8�5.4; P &lt; 0.15). Total hospital costs (estimated from direct and indirect 
-   charges) were significantly increased by a mean of US$33,926 (95% CI = 
-   US$22,573�45,280; P &lt; 0.01). Conclusion: Extubation failure in a community 
-   hospital is univariately associated with prolonged inpatient care and 
-   significantly increased cost. Corroborating data from tertiary care centers, 
-   these adverse outcomes highlight the importance of accurate predictors of 
-   extubation outcome.</i> It is a bit dangerous to read only the abstract, of 
-   course, but this was intended for a general illustration.</li>
-   <li><a href="PvalueQuiz.html">P.Mean: Quiz about p-values (created 
-   2010-04-14)</a>. In one of my webinars, I offered the following quiz 
-   question: <i>A research paper computes a p-value of 0.45. How would you 
-   interpret this p-value? 1. Strong evidence for the null hypothesis; 2. Strong 
-   evidence for the alternative hypothesis; 3. Little or no evidence for the 
-   null hypothesis; 4. Little or no evidence for the alternative hypothesis; 5. 
-   More than one answer above is correct; 6. I do not know the answer.</i> This 
-   is actually a bit of a trick question.</li>
-   <li><a href="AgreementWithConsensus.html">P.Mean: Using entropy and the 
-   surprisal value to measure the degree of agreement with the consensus finding 
-   (created 2010-03-02)</a>. One of the research problems that I am working on involves evaluation of a 
-  subjective rating system. I have been using information theory to try to 
-  identify objects where the evaluators agree well and objects where the 
-  evaluators do not agree well. I also am working on identifying objects that an 
-  individual rater does poorly. The method is to measure when the surprisal of 
-  the category that a rater selected is much lower than the entropy (the average 
-  surprisal across all raters)</li>
-   <li><a href="GoodWebsite.html">P.Mean: What makes a good website (created 
-   2010-04-07)</a>. Someone posed a series of questions&nbsp; about what makes a 
-   perfect website design. I am not a big fan of &quot;design&quot; and tried to make that 
-   point in my responses.</li>
-   <li><a href="SasOrR.html">P.Mean: Should I learn R instead of SAS (created 
-   2010-04-05)</a>. I got a question from a statistician beginning her career 
-   asking whether she should learn SAS or R. That's a very personal question and 
-   there is no perfect answer. Here is what I wrote.</li>
-   <li><a href="LargeFile.html">P.Mean: Dealing with a large text file that 
-   crashes your computer (created 2010-04-02)</a>. At a meeting, a colleague was 
-   describing a text file that he had received that had crashed his system. No 
-   way, I thought, could a simple text file crash your system. I offered to 
-   investigate and he was right. The text file crashed my system too, and 
-   repeatedly. Here's what I did to figure out how a simple text file could 
-   crash your computer.<br>
-   <br>
-   <b>March 2010 (6 entries)</b><br>
-&nbsp;</li>
-   <li><a href="PointlessAnalysis.html">P.Mean: What to say when any data 
-   analysis is pointless (created 2010-03-25)</a>. Someone on the MEDSTATS email 
-   discussion group asked for help. They were trying to establish a normal range 
-   or reference interval for a set of observations involving gastric emptying. 
-   The sample size, 14, was much too small to produce reliable results, but it 
-   got worse than that. For one of the outcomes, the result was fourteen zeros. 
-   What can you do with such a data set? What can you say? That a difficult 
-   question, and here is how I would approach such a problem.</li>
-   <li><a href="CalculatingWeights.html">P.Mean: Calculating weights to correct 
-   for over and under sampling (created 2010-03-22)</a>. Someone asked how to 
-   use weights to adjust for the fact that certain strata in a study were 
-   recruited more vigorously than other strata. For example, suppose you sampled 
-   at four communities and noted the age distribution as 0-14 years, 15-39 
-   years, and&nbsp; 40+ years. How would you adjust for differential age 
-   distributions.</li>
-   <li><a href="OrdinalSurprisals.html">P.Mean: Ordinal surprisals (created 
-   2010-03-20)</a>. Closely related to the concept of ordinal entropy is ordinal surprisals. 
-  The surprisal is the negative log base 2 of the probability, and if you 
-  multiply the probabilities with the surprisals and add them up, you get 
-  entropy. Can you define an ordinal surprisal in such a way that when you 
-  multiply the ordinal surprisals by the probabilities, you get the ordinal 
-  entropy?</li>
-   <li><a href="SexAsOutcome.html">P.Mean: Can sex be an outcome variable 
-   (created 2010-03-16)</a>. Someone asked whether it was legitimate to use sex 
-   (gender) as a dependent variable or outcome variable in a logistic regression 
-   model. It seems wrong, on the face of it, to think that various factors can 
-   influence whether we are male or female. It actually is perfectly fine to use 
-   sex as an outcome variable. Here is how I would justify its use.</li>
-   <li><a href="OrdinalEntropy.html">P.Mean: Ordinal entropy (created 
-   2010-03-11)</a>. I have been using the concept of entropy to evaluate a sperm morphology 
-  classification system and to identify aberrant records in large fixed format 
-  text files. Some of the data I have been using in these areas is ordinal with 
-  three levels, normal, borderline, and abnormal. In all of my work so far, I 
-  have treated all three categories symmetrically. So, for example, the entropy 
-  of a system where 50% of the probability is associated with normal and 50% is 
-  associated with borderline is 1. The entropy of a system where 50% of the 
-  probability is associated with normal and 50% is associated with abnormal is 
-  also 1. It has always bothered me a bit because it seems that the second case, 
-  where the probabilities are placed at the two extremes, should have a higher 
-  level of entropy. Here is a brief outline of how I think entropy ought to be 
-  redefined to take into account the ordinal nature of a variable.</li>
-   <li><a href="DuplicateRecords.html">P.Mean: Finding duplicate records in a 19 
-   million record database (created 2010-03-02)</a>. I was asked to help find 
-   duplicate records in a large database (19 million records). The suspected 
-   number of duplicates was suspected to be small, possibly around 90. My 
-   colleague's approach was running PROC FREQ in SAS on the &quot;unique&quot; id and then 
-   looking for ids that have a frequency greater than 1. That did not work--it 
-   took too long or it overloaded the system, or both. So I wanted to look at 
-   alternatives for identifying duplicate records that would do this more 
-   efficiently.<br>
-   <br>
-   <b>February 2010 ( 9 entries)</b><br>
-&nbsp;</li>
-   <li><a href="Intuition.html">P.Mean: Is intuition real? (created 2010-02-25)</a>. 
-   Someone asked if intuition is real. My hunch is that intuition is may be 
-   real, but it is grossly overrated.</li>
-   <li><a href="SummitAbstract.html">P.Mean: Abstract submitted to Missouri 
-   Regional Life Sciences Summit (created 2010-02-13)</a>. Yesterday, I 
-   submitted the following abstract for a poster session in the Missouri 
-   Regional Life Sciences Summit. I'll find out on Monday if it will be 
-   accepted. &quot;Slipped deadlines and sample size shortfalls in clinical trials: a 
-   proposed remedy using a Bayesian model with an informative prior 
-   distribution.&quot;</li>
-   <li><a href="SingleMean.html">P.Mean: Meta-analysis for a single mean 
-   estimate (created 2010-02-11)</a>. Someone noted that the usual meta analysis 
-   is carried out for the study on two treatment groups, usually for a 
-   difference in means. What if you had several studies estimating not a 
-   difference in means, but just estimates of a single mean. Could you conduct a 
-   meta-analysis in this situation?</li>
-   <li><a href="ExponentialInterpolation.html">P.Mean: Exponential interpolation 
-   (created 2010-02-11)</a>. Someone wanted an exponential interpolation 
-   formula. It's not quite a statistics question, but it caught my interest.</li>
-   <li><a href="FanPage.html">P.Mean: Fan page for The Monthly Mean (created 
-   2010-02-11)</a>. I've been getting some advice about Facebook. One suggestion 
-   was to set up a &quot;fan page&quot;. There are some differences between being a 
-   &quot;friend&quot; on Facebook and being a &quot;fan&quot;.</li>
-   <li><a href="HumilityInResearch.html">P.Mean: Humility is a good thing for 
-   researchers to have (created 2010-02-08)</a>. I've been writing a series of 
-   articles about the seven deadly sins of researchers. One of these sins is 
-   pride. I might need to talk about the alternative to pride, which is 
-   humility. I believe that researchers should adopt a humble outlook. Humility 
-   is often misunderstood as a bad thing. It is not.</li>
-   <li><a href="ConsultingRemotely.html">P.Mean: Consulting remotely versus 
-   consulting in person (created 2010-02-08)</a>. Someone was asking whether 
-   there is a trend in consulting to demand a local presence rather than 
-   allowing a consultant to work remotely. I was unable to comment on work 
-   trends, as I have only been an independent consultant for 14 months. I did 
-   point out, however, some of the issues associated with remote consulting.</li>
-   <li><a href="GoodConsultant.html">P.Mean: What are the characteristics of a 
-   good statistical consultant (created 2010-02-07)</a>. Someone was considering 
-   a career as a statistical consultant. Besides building up a network and 
-   gaining experience, what traits would be necessary to be successful in such a 
-   career?</li>
-   <li><a href="ProposedPoster.html">P.Mean: Proposed poster for the Missouri 
-   Regional Life Sciences Summit (created 2010-02-03)</a>. I am preparing a 
-   poster for the Missouri Regional Life Science Summit. The poster guidelines 
-   are a bit unusual in that there is only room for a four foot by four foot 
-   square poster. Normally, these posters can be much wider. The tentative title 
-   is &quot;Slipped deadlines, sample size shortfalls, and a proposed Bayesian 
-   solution using an informative prior distribution&quot; and here is a proposed 
-   abstract.<br>
-   <br>
-   <b>January 2010 (7 entries)</b><br>
-&nbsp;</li>
-   <li><a href="Facebook.html">P.Mean: Facebook account (created 2010-01-25)</a>. 
-   Several people have been encouraging me to set up an account on Facebook. I 
-   did it this evening and two hours later, I had two friends.</li>
-   <li><a href="UpcomingTalks.html">P.Mean: Abstracts for a possible upcoming 
-   talk (created 2010-01-20)</a>. I might be asked to give a talk in February and I wanted to offer two 
-  possible choices. Here are the titles and abstracts of those talks.</li>
-   <li><a href="SPSSorSTATA.html">P.Mean: SPSS or Stata? (created 2010-01-19)</a>. <i>I am an SPSS user. Some of my friends are choosing to leave SPSS and 
-  learn STATA. What are the advantages of STATA over SPSS?</i></li>
-   <li><a href="MSorPHD.html">P.Mean: Masters or Phd in Statistics? (created 
-   2010-01-19)</a>. Someone asked me about careers in Statistics and if you get the best career 
-  with a Masters degree or a PhD. That's a very subjective choice and individual 
-  preferences should weigh strongly in your choice.</li>
-   <li><a href="PoissonPower.html">P.Mean: Power calculations for comparison of 
-   Poisson counts across two groups (created 2010-01-11)</a>. Suppose you want to compare Poisson count variables across two groups. How 
-  much data would you need to collect? It's a tricky question and there are 
-  several approaches that you can consider.</li>
-   <li><a href="FreeBooks.html">P.Mean: Where can I find free online textbooks 
-   (created 2010-01-07)</a>. Someone was away from their personal library for a 
-   while and needed a free online statistics reference book. With a free 
-   textbook, you get what you pay for, of course, but there are some exceptions.</li>
-   <li><a href="ResidualConfounding.html">P.Mean: What is residual confounding 
-   (created 2010-01-06)</a>. Residual confounding is a frequent explanation for 
-   unusual research findings. Before I define the term and show an example, I 
-   need to address a more basic issue. The term &quot;confounding&quot; is used frequently 
-   but often without careful consideration of the true definition of the term. I 
-   tend to shy away from this term and typically use &quot;covariate imbalance&quot; 
-   instead.</li>
-</ol>
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
- <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" width="80" height="15"></a> 
- This work is licensed under a
- <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative 
- Commons Attribution 3.0 United States License</a>. This page was written by 
- Steve Simon and was last modified on
- <!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y-%m-%d" startspan -->2017-06-15<!--webbot bot="Timestamp" i-checksum="12409" endspan -->. Need more 
- information? I have a page with <a href="../GeneralHelp.html">general help 
- resources</a>. You can also browse for pages similar to this one at </p>
-
-</body>
-
-</html>
+"AgreementWithConsensus.html">P.Mean: Using entropy and the 
+"AnySize.html">P.Mean: Fighting the claim that any size 
+"BadSurvey.html">P.Mean: An example of a bad survey (created 
+"CalculatingWeights.html">P.Mean: Calculating weights to correct 
+"Career.html">P.Mean: How I got started in my career as an 
+"ClassicReferences.html">P.Mean: Classic references in Statistics 
+"Conference.html">P.Mean: What is the premier conference for 
+"ConsultingRemotely.html">P.Mean: Consulting remotely versus 
+"ConsultingSop.html">P.Mean: Standard operating procedures for a 
+"Contents.html">P.Mean: Tentative table of contents for my second 
+"Counterintuitive.html">P.Mean: Another counter-intuitive 
+"Criticism.html">P.Mean: How do I handle criticism (created 
+"DuplicateRecords.html">P.Mean: Finding duplicate records in a 19 
+"EndOfResearch.html">P.Mean: When should research in a given area 
+"Expectations.html">P.Mean: My life so far: fails to meet 
+"ExponentialInterpolation.html">P.Mean: Exponential interpolation 
+"Facebook.html">P.Mean: Facebook account (created 2010-01-25)</a>. 
+"FanPage.html">P.Mean: Fan page for The Monthly Mean (created 
+"FreeBooks.html">P.Mean: Where can I find free online textbooks 
+"Futility.html">P.Mean: The futility of small sample sizes for 
+"GoodConsultant.html">P.Mean: What are the characteristics of a 
+"GoodWebsite.html">P.Mean: What makes a good website (created 
+"HumilityInResearch.html">P.Mean: Humility is a good thing for 
+"InstrumentalVariables.html">P.Mean: More discussion on 
+"InterpretingPart1.html">P.Mean: Interpreting p-values in a 
+"Intuition.html">P.Mean: Is intuition real? (created 2010-02-25)</a>. 
+"LargeFile.html">P.Mean: Dealing with a large text file that 
+"Lessons.html">P.Mean: Lessons learned the hard way: don't throw 
+"MSorPHD.html">P.Mean: Masters or Phd in Statistics? (created 
+"Missing.html">P.Mean: Lessons learned the hard way: don't 
+"OrdinalEntropy.html">P.Mean: Ordinal entropy (created 
+"OrdinalSurprisals.html">P.Mean: Ordinal surprisals (created 
+"Plagiarism.html">P.Mean: How to avoid charges of plagiarism 
+"PointlessAnalysis.html">P.Mean: What to say when any data 
+"PoissonPower.html">P.Mean: Power calculations for comparison of 
+"ProposedPoster.html">P.Mean: Proposed poster for the Missouri 
+"PvalueQuiz.html">P.Mean: Quiz about p-values (created 
+"ResidualConfounding.html">P.Mean: What is residual confounding 
+"SPSSorSTATA.html">P.Mean: SPSS or Stata? (created 2010-01-19)</a>. <i>I am an SPSS user. Some of my friends are choosing to leave SPSS and 
+"Salary.html">P.Mean: Salary survey for Biostatisticians (created 
+"SampleSize.html">P.Mean: Sample chapter: The first three steps 
+"SasOrR.html">P.Mean: Should I learn R instead of SAS (created 
+"SecondBook.html">P.Mean: Jumpstart Statistics, a proposal for my 
+"SexAsOutcome.html">P.Mean: Can sex be an outcome variable 
+"SingleMean.html">P.Mean: Meta-analysis for a single mean 
+"SpssPrice.html">P.Mean: What's a fair price for SPSS? (created 
+"SpssTtest.html">P.Mean: The SPSS t-test is confusing (created 
+"StackOverflow.html">P.Mean: Resources using Stack Overflow 
+"SummitAbstract.html">P.Mean: Abstract submitted to Missouri 
+"TimeSeries.html">P.Mean: Minimum sample size needed for a time 
+"UpcomingTalks.html">P.Mean: Abstracts for a possible upcoming 
+"UseForTalks.html">P.Mean: What I use for talks instead of 
+"Withdawing.html">P.Mean: Withdrawing from a study and taking 
+"aipe.html">P.Mean: An interesting alternative to power 
+"pca.html">P.Mean: What is principal components analysis? 
+"ses.html">P.Mean: What is a good surrogate measure for 
+"CompetingBooks.html">P.Mean: Competing books to the book I 
+"Glossary.html">P.Mean: Glossary for my second book (created 
+"BugsVersions.html">P.Mean: BUGS is more than just one program 
+"CIforP.html">P.Mean: Can you compute a confidence interval for 
+"EbmTooRigid.html">P.Mean: Is Evidence-Based Medicine too rigid 
+"ExponentialAmbiguity.html">P.Mean: Ambiguity in the definition of 
+"FailureOption.html">P.Mean: If you knew that failure was not an 
+"FirstSession.html">P.Mean: What should clients get from you at 
+"Interactions.html">P.Mean: Oh those pesky interactions! (created 
+"LaTeX.html">P.Mean: Creating LaTex formulas on the fly (created 
+"LeastSquares.html">P.Mean: Why the least squares regression line 
+"MissouriTechnology.html">P.Mean: Poster presentation at the 
+"NamesIntoModel.html">P.Mean: Putting variable names into a model 
+"OppositeOddsRatio.html">P.Mean: The odds ratio in logistic 
+"Panhandler.html">P.Mean: Is it ethical to recruit a panhandler 
+"PoolingRisk.html">P.Mean: Pooling different measures of risk in a 
+"QuotientRule.html">P.Mean: Poem to help you remember the quotient 
+"ScienceBasedMedicine.html">P.Mean: Is there something better than 
+"ScienceBasedMedicinePt2.html">P.Mean: The Science-Based Medicine 
+"TextFiles.html">P.Mean: Using information theory to identify 
+"TheoryOrPractice.html">P.Mean: Would you hire someone who knew theory 
+"TransformingThePrior.html">P.Mean: Transforming the parameter 
+"Twitter.html">P.Mean: My new twitter account (created 2010-09-15)</a>. I 
+"UmkcOffice.html">P.Mean: Location of my UMKC office (created 
+"UndeservingOfFurtherStudy.html">P.Mean: Are certain CAM therapies 
+"gee.html">P.Mean: What is a Generalized Estimating Equations 

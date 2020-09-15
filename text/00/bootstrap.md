@@ -1,7 +1,6 @@
 ---
 title: Bootstrap
 author: Steve Simon
-source: http://www.pmean.com/00/bootstrap.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,7 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-
 *Dear Professor Mean, I've heard a lot about how the bootstrap is going
 to*
 
@@ -117,3 +115,5 @@ simulation methods.
 1.  **The Jackknife, the Bootstrap and Other Resampling Plans**. Efron
     B (1982) Philadelphia: The Society for Industrial and Applied
     Mathematics. (ISBN: 0-89871-179-7).
+
+You can find an [earlier version](http://www.pmean.com/00/bootstrap.html) of this page on my [original website](http://www.pmean.com/original_site.html).

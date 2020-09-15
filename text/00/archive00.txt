@@ -1,112 +1,64 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Stats: Archive (2000)</title>
-</head>
-
-
-<body><!--start-->
-
-<p><b><strong><b><a href="../OldWebsite.html">StATS</a>:</b></strong>Archive 2000, 28 entries</b></p>
-<p>Also be sure to look at the list of weblog entries <a href="../TopicList.html">
- organized by topic</a> and the archives for  <a href="archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>, <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../05/Archive05.html">2005</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, and <a href="../99/Archive99.html">1999</a>. These files were created before I 
-tracked creation dates carefully, so the dates listed are only approximate.</p>
-<p><a href="../00/ack.html">StATS: Acknowledgements (January 28, 2000)</a></p>
-<p><a href="../00/alternate.html">StATS: Alternating treatments (created 2000-08-22)</a></p>
-<p><a href="../00/bestfit.html">bestfit</a></p>
-<p><a href="../00/binary.html">binary</a></p>
-<p><a href="../00/bootstrap.html">bootstrap</a></p>
-<p><a href="../00/causation.html">causation</a></p>
-<p><a href="../00/collinearity.html">collinearity</a></p>
-<p><a href="../00/composite.html">composite</a></p>
-<p><a href="../00/confid.html">confid</a></p>
-<p><a href="../00/copyright.html">copyright</a></p>
-<p><a href="../00/disclaimer.html">disclaimer</a></p>
-<p><a href="../00/export.html">export</a></p>
-<p><a href="../00/fishers.html">fishers</a></p>
-<p><a href="../00/flaws.html">flaws</a></p>
-<p><a href="../00/future.html">future</a></p>
-<p><a href="../00/intention.html">intention</a></p>
-<p><a href="../00/jargon.html">jargon</a></p>
-<p><a href="../00/kaplan.html">kaplan</a></p>
-<p><a href="../00/links.html">links</a></p>
-<p><a href="../00/mann.html">mann</a></p>
-<p><a href="../00/mixture.html">mixture</a></p>
-<p><a href="../00/nnt.html">nnt</a></p>
-<p><a href="../00/ObsoletePages.html">ObsoletePages</a></p>
-<p><a href="../00/outliers.html">outliers</a></p>
-<p><a href="../00/performance.html">performance</a></p>
-<p><a href="../00/protocol.html">protocol</a></p>
-<p><a href="../00/quota.html">quota</a></p>
-<p><a href="../00/regression.html">regression</a></p>
-<p><a href="../00/resume.html">resume</a></p>
-<p><a href="../00/sheet.html">sheet</a></p>
-<p><a href="../00/sigma.html">sigma</a></p>
-<p><a href="../00/simon.html">simon</a></p>
-<p><a href="../00/software.html">software</a></p>
-<p><a href="../00/splines.html">splines</a></p>
-<p><a href="../00/stein.html">stein</a></p>
-<p><a href="../00/strata.html">strata</a></p>
-<blockquote>
-  <p><b>December</b></p>
-</blockquote>
-<ol>
-  <li><a href="protocol.html">Stats: Protocol changes (December 22, 2000)</a><br>
-  <br>
-  <b>September</b><br>
-&nbsp;</li>
-  <li><a href="mann.html">Stats: Sample size for Mann-Whitney U (September 28, 
-  2000)</a><br>
-  <br>
-  <b>August</b><br>
-&nbsp;</li>
-  <li><a href="alternate.html">Stats: Alternating treatments (August 31, 2000)</a></li>
-  <li><a href="binary.html">Stats: Binary outcome sample size calculations 
-  (August 23, 2000)</a></li>
-  <li><a href="strata.html">Stats: Stratified random sample (August 23, 2000)</a></li>
-  <li><a href="fishers.html">Stats: Fisher's Exact Test (August 23, 2000)</a><br>
-  <br>
-  <b>July<br>
-&nbsp;</b></li>
-  <li><a href="../03/meanormedian.html">Stats: Mean or median? (July 28, 2003)</a><br>
-  <br>
-  <b>June</b><br>
-&nbsp;</li>
-  <li><a href="kaplan.html">Stats: Kaplan Meier (June 27, 2000)</a><br>
-  <br>
-  <b>January</b><br>
-&nbsp;</li>
-  <li><a href="export.html">Stats: Exporting SPSS graphs and tables (January 28, 
-  2000)</a></li>
-  <li><a href="outliers.html">Stats: Outliers (January 28, 2000)</a></li>
-  <li><a href="quota.html">Stats: Quota stratified random sampling (January 28, 
-  2000)</a></li>
-  <li><a href="sheet.html">Stats: Spreadsheet or database (January 28, 2000)</a></li>
-  <li><a href="regression.html">Stats: Regression to the mean (January 27, 2000)</a></li>
-  <li><a href="sigma.html">Stats: Sigma in the control chart (January 27, 2000)</a></li>
-  <li><a href="splines.html">Stats: Splines (January 27, 2000)</a></li>
-  <li><a href="stein.html">Stats: Stein's paradox (January 27, 2000)</a></li>
-  <li><a href="mixture.html">Stats: Mixture models (January 27, 2000)</a></li>
-  <li><a href="nnt.html">Stats: Number needed to treat (January 27, 2000)</a></li>
-  <li><a href="performance.html">Stats: Physician Performance Data (January 27, 
-  2000)</a></li>
-  <li><a href="collinearity.html">P.Mean: What is collinearity? (created 
-  2000-01-27)</a></li>
-  <li><a href="causation.html">Stats: Causation (January 27, 2000)</a></li>
-  <li><a href="composite.html">Stats: Composite scores (January 27, 2000)</a></li>
-  <li><a href="flaws.html">Stats: Flaws in a research paper (January 27, 2000)</a></li>
-  <li><a href="intention.html">Stats: Intention to treat (January 27, 2000)</a></li>
-  <li><a href="jargon.html">Stats: Jargon in Statistics (January 27, 2000)</a></li>
-  <li><a href="confid.html">Stats: Sample size for a confidence interval 
-  (January 26, 2000)</a></li>
-  <li><a href="bootstrap.html">Stats: Bootstrap (January 26, 2000)</a></li>
-  <li><a href="bestfit.html">P.Mean: Best fitting curve (created 2000-01-26)</a></li>
-</ol>
-<p><a href="../TopicList.html">[Go to full topic list]</a>
- <a href="../index.html#RecentEntries">[Browse through the most recent entries]</a></p><p>This page was written by Steve Simon while working at Children's Mercy Hospital. Although I do not hold the copyright for this material, I am reproducing it here as a service, as it is no longer available on the Children's Mercy Hospital website. Need more information? I have a page with general help resources. You can also browse for pages similar to this one at </p>
-</body>
-
-</html>
+You can find an [earlier version](http://www.pmean.com/00/ack.html) of this page on my [original website](http://www.pmean.com/original_site.html). Acknowledgements
+You can find an [earlier version](http://www.pmean.com/00/alternate.html) of this page on my [original website](http://www.pmean.com/original_site.html). Alternating treatments
+You can find an [earlier version](http://www.pmean.com/00/alternate.html) of this page on my [original website](http://www.pmean.com/original_site.html).Alternating treatments
+You can find an [earlier version](http://www.pmean.com/00/bestfit.html) of this page on my [original website](http://www.pmean.com/original_site.html). Best fitting curve
+You can find an [earlier version](http://www.pmean.com/00/bestfit.html) of this page on my [original website](http://www.pmean.com/original_site.html). bestfit</a></p>
+You can find an [earlier version](http://www.pmean.com/00/binary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Binary outcome sample size calculations 
+You can find an [earlier version](http://www.pmean.com/00/binary.html) of this page on my [original website](http://www.pmean.com/original_site.html). binary</a></p>
+You can find an [earlier version](http://www.pmean.com/00/bootstrap.html) of this page on my [original website](http://www.pmean.com/original_site.html). Bootstrap
+You can find an [earlier version](http://www.pmean.com/00/bootstrap.html) of this page on my [original website](http://www.pmean.com/original_site.html). bootstrap</a></p>
+You can find an [earlier version](http://www.pmean.com/00/causation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Causation
+You can find an [earlier version](http://www.pmean.com/00/causation.html) of this page on my [original website](http://www.pmean.com/original_site.html). causation</a></p>
+You can find an [earlier version](http://www.pmean.com/00/collinearity.html) of this page on my [original website](http://www.pmean.com/original_site.html). What is collinearity?
+You can find an [earlier version](http://www.pmean.com/00/collinearity.html) of this page on my [original website](http://www.pmean.com/original_site.html). collinearity</a></p>
+You can find an [earlier version](http://www.pmean.com/00/composite.html) of this page on my [original website](http://www.pmean.com/original_site.html). Composite scores
+You can find an [earlier version](http://www.pmean.com/00/composite.html) of this page on my [original website](http://www.pmean.com/original_site.html). composite</a></p>
+You can find an [earlier version](http://www.pmean.com/00/confid.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for a confidence interval 
+You can find an [earlier version](http://www.pmean.com/00/confid.html) of this page on my [original website](http://www.pmean.com/original_site.html). confid</a></p>
+You can find an [earlier version](http://www.pmean.com/00/copyright.html) of this page on my [original website](http://www.pmean.com/original_site.html). copyright</a></p>
+You can find an [earlier version](http://www.pmean.com/00/disclaimer.html) of this page on my [original website](http://www.pmean.com/original_site.html). disclaimer</a></p>
+You can find an [earlier version](http://www.pmean.com/00/export.html) of this page on my [original website](http://www.pmean.com/original_site.html). Exporting SPSS graphs and tables
+You can find an [earlier version](http://www.pmean.com/00/export.html) of this page on my [original website](http://www.pmean.com/original_site.html). export</a></p>
+You can find an [earlier version](http://www.pmean.com/00/fishers.html) of this page on my [original website](http://www.pmean.com/original_site.html). Fisher's Exact Test
+You can find an [earlier version](http://www.pmean.com/00/fishers.html) of this page on my [original website](http://www.pmean.com/original_site.html). fishers</a></p>
+You can find an [earlier version](http://www.pmean.com/00/flaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). Flaws in a research paper
+You can find an [earlier version](http://www.pmean.com/00/flaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). flaws</a></p>
+You can find an [earlier version](http://www.pmean.com/00/future.html) of this page on my [original website](http://www.pmean.com/original_site.html). future</a></p>
+You can find an [earlier version](http://www.pmean.com/00/intention.html) of this page on my [original website](http://www.pmean.com/original_site.html). Intention to treat
+You can find an [earlier version](http://www.pmean.com/00/intention.html) of this page on my [original website](http://www.pmean.com/original_site.html). intention</a></p>
+You can find an [earlier version](http://www.pmean.com/00/jargon.html) of this page on my [original website](http://www.pmean.com/original_site.html). Jargon in Statistics
+You can find an [earlier version](http://www.pmean.com/00/jargon.html) of this page on my [original website](http://www.pmean.com/original_site.html). jargon</a></p>
+You can find an [earlier version](http://www.pmean.com/00/kaplan.html) of this page on my [original website](http://www.pmean.com/original_site.html). Kaplan Meier
+You can find an [earlier version](http://www.pmean.com/00/kaplan.html) of this page on my [original website](http://www.pmean.com/original_site.html). kaplan</a></p>
+You can find an [earlier version](http://www.pmean.com/00/links.html) of this page on my [original website](http://www.pmean.com/original_site.html). links</a></p>
+You can find an [earlier version](http://www.pmean.com/00/mann.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for Mann-Whitney U
+You can find an [earlier version](http://www.pmean.com/00/mann.html) of this page on my [original website](http://www.pmean.com/original_site.html). mann</a></p>
+You can find an [earlier version](http://www.pmean.com/00/mixture.html) of this page on my [original website](http://www.pmean.com/original_site.html). Mixture models
+You can find an [earlier version](http://www.pmean.com/00/mixture.html) of this page on my [original website](http://www.pmean.com/original_site.html). mixture</a></p>
+You can find an [earlier version](http://www.pmean.com/00/nnt.html) of this page on my [original website](http://www.pmean.com/original_site.html). Number needed to treat
+You can find an [earlier version](http://www.pmean.com/00/nnt.html) of this page on my [original website](http://www.pmean.com/original_site.html). nnt</a></p>
+You can find an [earlier version](http://www.pmean.com/00/ObsoletePages.html) of this page on my [original website](http://www.pmean.com/original_site.html). ObsoletePages</a></p>
+You can find an [earlier version](http://www.pmean.com/00/outliers.html) of this page on my [original website](http://www.pmean.com/original_site.html). Outliers
+You can find an [earlier version](http://www.pmean.com/00/outliers.html) of this page on my [original website](http://www.pmean.com/original_site.html). outliers</a></p>
+You can find an [earlier version](http://www.pmean.com/00/performance.html) of this page on my [original website](http://www.pmean.com/original_site.html). Physician Performance Data
+You can find an [earlier version](http://www.pmean.com/00/performance.html) of this page on my [original website](http://www.pmean.com/original_site.html). performance</a></p>
+You can find an [earlier version](http://www.pmean.com/00/protocol.html) of this page on my [original website](http://www.pmean.com/original_site.html). Protocol changes
+You can find an [earlier version](http://www.pmean.com/00/protocol.html) of this page on my [original website](http://www.pmean.com/original_site.html). protocol</a></p>
+You can find an [earlier version](http://www.pmean.com/00/quota.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quota stratified random sampling
+You can find an [earlier version](http://www.pmean.com/00/quota.html) of this page on my [original website](http://www.pmean.com/original_site.html). quota</a></p>
+You can find an [earlier version](http://www.pmean.com/00/regression.html) of this page on my [original website](http://www.pmean.com/original_site.html). Regression to the mean
+You can find an [earlier version](http://www.pmean.com/00/regression.html) of this page on my [original website](http://www.pmean.com/original_site.html). regression</a></p>
+You can find an [earlier version](http://www.pmean.com/00/resume.html) of this page on my [original website](http://www.pmean.com/original_site.html). resume</a></p>
+You can find an [earlier version](http://www.pmean.com/00/sheet.html) of this page on my [original website](http://www.pmean.com/original_site.html). Spreadsheet or database
+You can find an [earlier version](http://www.pmean.com/00/sheet.html) of this page on my [original website](http://www.pmean.com/original_site.html). sheet</a></p>
+You can find an [earlier version](http://www.pmean.com/00/sigma.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sigma in the control chart
+You can find an [earlier version](http://www.pmean.com/00/sigma.html) of this page on my [original website](http://www.pmean.com/original_site.html). sigma</a></p>
+You can find an [earlier version](http://www.pmean.com/00/simon.html) of this page on my [original website](http://www.pmean.com/original_site.html). simon</a></p>
+You can find an [earlier version](http://www.pmean.com/00/software.html) of this page on my [original website](http://www.pmean.com/original_site.html). software</a></p>
+You can find an [earlier version](http://www.pmean.com/00/splines.html) of this page on my [original website](http://www.pmean.com/original_site.html). Splines
+You can find an [earlier version](http://www.pmean.com/00/splines.html) of this page on my [original website](http://www.pmean.com/original_site.html). splines</a></p>
+You can find an [earlier version](http://www.pmean.com/00/stein.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stein's paradox
+You can find an [earlier version](http://www.pmean.com/00/stein.html) of this page on my [original website](http://www.pmean.com/original_site.html). stein</a></p>
+You can find an [earlier version](http://www.pmean.com/00/strata.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stratified random sample
+You can find an [earlier version](http://www.pmean.com/00/strata.html) of this page on my [original website](http://www.pmean.com/original_site.html). strata</a></p>
+You can find an [earlier version](http://www.pmean.com/03/meanormedian.html) of this page on my [original website](http://www.pmean.com/original_site.html). Mean or median?

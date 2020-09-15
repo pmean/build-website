@@ -1,7 +1,6 @@
 ---
 title: Composite scores
 author: Steve Simon
-source: http://www.pmean.com/00/composite.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-****[StATS]:** Composite scores (January 27,
-2000).**
-
 *Dear Professor Mean, I have developed a method to distinguish among
 several products that we need to buy so our company can make a good
 purchasing decision. I created a composite score which is a weighted
@@ -41,30 +37,4 @@ different composite scores.*
 > enough to have a practical impact**. This is an example where
 > statistics is a poor substitute for human judgment.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Composite scores (January 27,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/composite.html) of this page on my [original website](http://www.pmean.com/original_site.html).

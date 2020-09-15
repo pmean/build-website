@@ -1,7 +1,6 @@
 ---
 title: Best fitting curve
 author: Steve Simon
-source: http://www.pmean.com/00/bestfit.html
 date: 2000-01-26
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Modeling issues
 output: html_document
 ---
-****[StATS]:** Best fitting curve** **(created
-2000-01-26).**
-
 *Dear Professor Mean, I have a graph of the trend for the mean frequency
 of injuries among children from 1 to 11 years of age. The shape of the
 curve suggests a nonlinear relationship between the age and the
@@ -41,27 +37,4 @@ curves?*
 1.  **Generalized Additive Models** (1990) Trevor J. Hastie and Robert
     Tibshirani. London England: Chapman and Hall. ISBN: 0-412-34390-8.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
-<!---More--->
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Best fitting curve** **(created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/bestfit.html) of this page on my [original website](http://www.pmean.com/original_site.html).

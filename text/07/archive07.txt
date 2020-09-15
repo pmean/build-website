@@ -1,472 +1,200 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Stats: Archive (2007)</title>
-</head>
-
-
-<body><!--start-->
-<p><b><a href="../OldWebsite.html">StATS</a>: </b><b>Archive 2007, 210 entries</b></p>
-<p>Also be sure to look at the list of weblog entries <a href="../TopicList.html">
- organized by topic</a> and the archives for <a href="archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>,  <a href="../08/Archive08.html">2008</a>, <a href="Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>,
-  <a href="../05/Archive05.html">2005</a>,
- <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.</p>
-<p><a href="#Dec">December</a> | <a href="#Nov">November</a> | <a href="#Oct">
-  October</a> | <a href="#Sep">September</a> | <a href="#Aug">August</a> |
-  <a href="#Jul">July</a> | <a href="#Jun">June</a> | <a href="#May">May</a> |
-  <a href="#Apr">April</a> | <a href="#Mar">March</a> | <a href="#Feb">February</a> 
- | <a href="#Jan">January</a></p>
-<p><b><a name="Dec">December</a> 2007 (10 entries)</b></p>
-<ul>
-  <li><a href="WhenToLog.html">Stats: When should you use a log 
-  transformation? (created 2007-12-28)</a></li>
-  <li><a href="AnalyzingItt.html">Stats: Analyzing data under an 
-  Intention to Treat model (created 2007-12-19)</a></li>
-  <li><a href="../article/DataInconsistencies.asp">Interesting article: 
-  Data inconsistencies in abstracts of articles in Clinical Chemistry (created 2007-12-19)</a></li>
-  <li><a href="PostModernAssaultPart2.html">Stats: The post-modern 
-  assault on evidence-based medicine, part 2 (created 2007-12-18)</a></li>
-  <li><a href="../article/OperatingTheSmokescreen.asp">Interesting 
-  article: Operating the smokescreen (created 2007-12-18)</a></li>
-  <li><a href="../article/Haploview.asp">Interesting article: Haploview: 
-  analysis and visualization of LD and haplotype maps  (created 2007-12-18)</a></li>
-  <li><a href="PostModernAssault.html">Stats: The post-modern 
-  assault on evidence-based medicine  (created 2007-12-07)</a></li>
-  <li><a href="../article/FactorsInfluencingPublication.asp">Interesting 
-  article: Factors influencing publication of research results. Follow-up of 
-  applications submitted to two institutional review boards  (created 2007-12-05)</a></li>
-  <li><a href="../website/FearAndLoathing.asp">Interesting website: Fear 
-  and loathing of pharmaceutical statistics (created 2007-12-05)</a></li>
-  <li><a href="../website/RandomizationProcess.asp">Interesting website: 
-  Randomization Process in Question: Efficacy Trials Evaluating Psychotherapy vs 
-  Medications May Not Be Valid (created 2007-12-03)</a></li>
-</ul>
-<p><b><a name="Nov">November</a> 2007 (18 entries)</b></p>
-<ul>
-  <li><a href="../website/NonsignificantResults.asp">Interesting website: 
-  Reporting Non Significant Results: Summary (November 29, 2007)</a></li>
-  <li><a href="../website/ArticlesOnStatistics.asp">Interesting website: 
-  Articles on statistics, epidemiology and research design (November 29, 2007)</a></li>
-  <li><a href="NoLongerAlone.html">Stats: No longer the sole statistician? 
-  (November 28, 2007)</a></li>
-  <li><a href="../website/EngagementInResearch.asp">Interesting website: 
-  Engagement of Institutions in Research (November 28, 2007)</a></li>
-  <li><a href="../article/AbuseOfPower.asp">Interesting article: The abuse of 
-  power: the pervasive fallacy of power calculations for data analysis (November 
-  27, 2007)</a></li>
-  <li><a href="../article/PredictedConfidence.asp">Interesting article: The use 
-  of predicted confidence intervals when planning experiments and the misuse of 
-  power when interpreting results (November 27, 2007)</a></li>
-  <li><a href="IncreasingTrend.html">Stats: Testing for an increasing trend 
-  in a proportion (November 26, 2007)</a></li>
-  <li><a href="DateGapIntroductionPt1.html">Stats: A new and simple approach 
-  for monitoring safety data (November 18, 2007)</a></li>
-  <li><a href="LongPageNames.html">Stats: My page names are too long 
-  (November 17, 2007)</a></li>
-  <li><a href="ProsControlCharts.html">Stats: The pros and cons of control 
-  charts versus data mining (November 17, 2007)</a></li>
-  <li><a href="../website/DistinguishingCausation.asp">Interesting website: 
-  Distinguishing Association from Causation (November 16, 2007)</a></li>
-  <li><a href="PeritonealDialysis.html">Stats: Monitoring adverse events 
-  during peritoneal dialysis (November 15, 2007)</a></li>
-  <li><a href="StairStep.html">Stats: Stair step interpolation in R 
-  (November 15, 2007)</a></li>
-  <li><a href="ReformingCoi.html">Stats: Reforming conflict of interest 
-  statements (November 12, 2007)</a></li>
-  <li><a href="NnhTalkUpdate.html">Stats: NNH talk update (November 12, 
-  2007)</a></li>
-  <li><a href="DallasPostlude.html">Stats: Postlude to my Dallas talk 
-  (November 11, 2007)</a></li>
-  <li><a href="GrowUp.html">Stats: Grow up and learn how to do Statistics 
-  (November 8, 2007)</a></li>
-  <li><a href="DiagnosticHandout.html">Stats: Handout for diagnostic 
-  testing (November 6, 2007)</a></li>
-</ul>
-<p><b><a name="Oct">October</a> 2007 (21 entries)</b></p>
-<ul>
-  <li><a href="RevisingDefinitions.html">Stats: Revising my definition 
-  section (October 18, 2007)</a></li>
-  <li><a href="NewCategories.html">Stats: New categories needed (October 
-  18, 2007)</a></li>
-  <li><a href="../article/HospitalEpisodeStatistics.asp">Interesting article: 
-  Comparison of hospital episode statistics and central cardiac audit database 
-  in public reporting of congenital heart surgery mortality (October 18, 2007)</a></li>
-  <li><a href="../website/OneClickPatent.asp">Interesting website: 1 Guy vs. 
-  1-Click - guy wins (October 18, 2007)</a></li>
-  <li><a href="WarningMessage.html">Stats: Warning message is more 
-  appropriate than you might think (October 18, 2007)</a></li>
-  <li><a href="OpenAccessJournalsPart2.html">Stats: Open Access Journals, 
-  part 2 (October 14, 2007)</a></li>
-  <li><a href="../website/CallingAllCharlatans.asp">Interesting website: Calling 
-  all charlatans (October 12, 2007)</a></li>
-  <li><a href="../website/StowersBioinformaticsCenter.asp">Interesting website: 
-  Stowers Institute Bioinformatics Center and IT Group (October 12, 2007)</a></li>
-  <li><a href="IllustrationsForTgn1412.html">Stats: Illustrations for a case 
-  study of the TGN 1412 trial (October 12, 2007)</a></li>
-  <li><a href="ConfidenceIntervalForRate.html">Stats: Confidence interval for a 
-  rate (October 10, 2007)</a></li>
-  <li><a href="../website/ProveItWithData.asp">Interesting website: Statistical 
-  Data Analysis: Prove It with Data (October 9, 2007)</a></li>
-  <li><a href="../book/PrincipledArgument.asp">Interesting book: Statistics as 
-  Principled Argument (October 9, 2007)</a></li>
-  <li><a href="CaseStudyOfAccrualPart2.html">Stats: Case study of accrual in a 
-  clinical trial, Part 2 (October 9, 2007) </a></li>
-  <li><a href="../book/UsingR.asp">Interesting book: Using R for Introductory 
-  Statistics (October 8, 2007)</a></li>
-  <li><a href="../website/RFaq.asp">Interesting website: R FAQ (October 8, 2007)</a></li>
-  <li><a href="../website/RManuals.asp">Interesting website: R Manuals (October 
-  8, 2007)</a></li>
-  <li><a href="../website/RNews.asp">Interesting website: R News (October 8, 
-  2007)</a></li>
-  <li><a href="OpenAccessJournals.html">Stats: Seminar on Open Access Journals 
-  (October 5, 2007)</a></li>
-  <li><a href="EducationalOpportunities.html">Stats: Educational and networking 
-  opportunities for statisticians in the Kansas City area (October 4, 2007)</a></li>
-  <li><a href="AlternateAccrual.html">Stats: An alternate way of viewing accrual 
-  (October 3, 2007) </a></li>
-  <li><a href="HelpForStatistics.html">Stats: Help for Statistics at UMKC and 
-  KUMC (October 1, 2007) </a></li>
-</ul>
-<p><b><a name="Sep">September</a> 2007 (24 entries)</b></p>
-<ul>
-  <li><a href="Promotion.html">Stats: The latest word on my promotion (September 
-  27, 2007) </a></li>
-  <li><a href="HtmlDebris.html">Stats: Html debris copied from other websites 
-  (September 27, 2007) </a></li>
-  <li><a href="../article/ResearchForChildren.asp">Interesting article: Making a 
-  difference: the clinical research programme for children (September 26, 2007)</a></li>
-  <li><a href="../article/EthicalResearch.asp">Interesting article: Debating how 
-  to do ethical research in developing countries. (September 26, 2007)</a></li>
-  <li><a href="HistogramPatterns.html">Stats: Patterns to look for in a histogram 
-  (September 21, 2007)</a></li>
-  <li><a href="OrderEnteringInteractions.html">Stats: The order of entering 
-  interactions into a model (September 20, 2007) </a></li>
-  <li><a href="DescribeWorkStatistician.html">Stats: What does a statistician do 
-  all day? (September 17, 2007)</a></li>
-  <li><a href="www.childrensmercy.org/definitions/AdverseReaction.htm">Stats: What is an adverse 
-  reaction? (September 14, 2007)</a></li>
-  <li><a href="www.childrensmercy.org/definitions/AdverseEvent.htm">Stats: What is an adverse event? 
-  (September 14, 2007)</a></li>
-  <li><a href="FormatCodes.html">Stats: Format codes for my web pages (September 
-  14, 2007)</a></li>
-  <li><a href="CaseStudyOfAccrual.html">Stats: Case study of accrual in a 
-  clinical trial (September 11, 2007)</a></li>
-  <li><a href="WideConfidenceInterval.html">Stats: Is my confidence interval 
-  wide? (September 11, 2007) </a></li>
-  <li><a href="AlphabeticalBookmarkList.html">Stats: Alphabetical bookmark list 
-  (September 7, 2007)</a></li>
-  <li><a href="MyPromotionApplication.html">Stats: My promotion application 
-  (September 5, 2007)</a></li>
-  <li><a href="ResourcesForGrantWriters.html">Stats: Resources for grant writers 
-  (September 4, 2007)</a></li>
-  <li><a href="../website/GuideForProposalWriting.asp">Interesting website: A 
-  Guide for Proposal Writing (September 4, 2007)</a></li>
-  <li><a href="../website/AllAboutGrantsTutorials.asp">Interesting website: All 
-  About Grants Tutorials (September 4, 2007)</a></li>
-  <li><a href="../website/ClinicalResearchGuide.asp">Interesting website: 
-  Clinical Research Guide (September 4, 2007)</a></li>
-  <li><a href="../website/CommonMistakesInNihApplications.asp">Interesting 
-  website: Common Mistakes in NIH Applications (September 4, 2007)</a></li>
-  <li><a href="../website/EffectiveFoundationGrantseekingStrategies.asp">
-  Interesting website: Effective Foundation Grantseeking Strategies (September 
-  4, 2007)</a></li>
-  <li><a href="../website/GrantProposalWritingTips.asp">Interesting website: 
-  Grant Proposal Writing Tips (September 4, 2007)</a></li>
-  <li><a href="../website/ProposalWritingShortCourse.asp">Interesting website: 
-  Proposal Writing Short Course (September 4, 2007)</a></li>
-  <li><a href="../website/SpecializedProposalDevelopmentGuides.asp">Interesting 
-  website: Specialized Proposal Development Guides (September 4, 2007)</a></li>
-  <li><a href="../website/ArtOfGrantsmanship.asp">Interesting website: The Art 
-  of Grantsmanship (September 4, 2007)</a></li>
-</ul>
-<p><b><a name="Aug">August</a> 2007 (19 entries)</b></p>
-<ul>
-  <li><a href="ExternalScholars.html">Stats: External scholars needed to review 
-  my promotion materials (August 31, 2007)</a></li>
-  <li><a href="../website/ComputerIntensive.asp">Interesting website: Overview 
-  of Computer Intensive Statistical Inference Procedures (August 31, 2007)</a></li>
-  <li><a href="NormalSample.html">Stats: Are we assuming a normal sample or a 
-  normal population? (August 30, 2007)</a></li>
-  <li><a href="PediatricResearch.html">Stats: What makes pediatric research 
-  different? (August 29, 2007)</a></li>
-  <li><a href="../article/OutOfDateReview.asp">Interesting article: How Quickly 
-  Do Systematic Reviews Go Out of Date? A Survival Analysis (August 27, 2007)</a></li>
-  <li><a href="SourcesOfConfusion.html">Stats: Common sources of confusion in a 
-  class on quality control (August 22, 2007)</a></li>
-  <li><a href="../website/MultilevelModelling.asp">Interesting website: Centre 
-  for Multilevel Modelling (August 20, 2007)</a></li>
-  <li><a href="../article/EnhancingResearchIntegrity.asp">Interesting article: 
-  Enhancing research integrity (August 17, 2007)</a></li>
-  <li><a href="../website/GivingPresentations.asp">Interesting website: PubCon 
-  Street Tips on Giving Presentations : Investing in our Speakers (August 17, 
-  2007)</a></li>
-  <li><a href="www.childrensmercy.org/definitions/mosaic.htm">Stats: What is a mosaic plot? (August 
-  14, 2007)</a></li>
-  <li><a href="PromotingYourBook.html">Stats: Does promoting your book constitute 
-  a conflict of interest? (August 13, 2007)</a> </li>
-  <li><a href="HowGood.html">Stats: How good is my prediction? (August 13, 2007)</a></li>
-  <li><a href="ConflictOfInterestPolicy.html">Stats: Need for a conflict of 
-  interest policy (August 9, 2007)</a></li>
-  <li><a href="SampleSizeMicroarray.html">Stats: Justifying the sample size for a 
-  microarray study (August 9, 2007)</a></li>
-  <li><a href="../website/DataVisualization.asp">Interesting website: Data 
-  Visualization (August 7, 2007)</a></li>
-  <li><a href="../article/ImperfectGoldStandard.asp">Interesting article: Visual 
-  inspection with acetic acid as a cervical cancer test (August 7, 2007)</a></li>
-  <li><a href="../article/EffectOfWeb.asp">Interesting article: The effect of 
-  Web 2.0 on the future of medical practice and education (August 7, 2007)</a></li>
-  <li><a href="../website/NewcastleOttawaScale.asp">Interesting website: The 
-  Newcastle-Ottawa Scale (NOS) for assessing the quality of nonrandomised 
-  studies in meta-analyses (August 7, 2007)</a></li>
-  <li><a href="WhichExpert.html">Stats: Which expert should you believe? (August 
-  3, 2007)</a></li>
-</ul>
-<p><b><a name="Jul">July</a> 2007 (23 entries)</b></p>
-<ul>
-  <li><a href="../article/RelatedCorrelationMeasures.asp">Interesting article: 
-  Correlation coefficients in medical research: from product moment correlation 
-  to the odds ratio (July 27, 2007)</a></li>
-  <li><a href="../article/RecordLinkageResearch.asp">Interesting article: Record 
-  linkage research and informed consent: who consents? (July 26, 2007)</a></li>
-  <li><a href="WakefieldMmrStudy.html">Stats: Conflict of interest in the 
-  Wakefield MMR study (July 26, 2007)</a></li>
-  <li><a href="ContinuingEducationQuestions.html">Stats: Continuing education 
-  questions for a talk on diagnostic tests (July 24, 2007)</a> </li>
-  <li><a href="../website/BiasedPowerCalculations.asp">Interesting website: 
-  Bayesian Unconditional Power Analysis (July 24, 2007)</a></li>
-  <li><a href="../website/TaxonomyLogicalFallacies.asp">Interesting website: The 
-  Taxonomy of Logical Fallacies (July 23, 2007)</a></li>
-  <li><a href="../website/DesigningScientificPosters.asp">Interesting website: 
-  Advice on designing scientific posters (July 23, 2007)</a></li>
-  <li><a href="../website/EdRigdonSemFaq.asp">Interesting website: Ed Rigdon's 
-  SEM FAQ (July 23, 2007)</a></li>
-  <li><a href="../article/ViewpointOfChildren.asp">Interesting article: Clinical 
-  trials: the viewpoint of children (July 23, 2007)</a></li>
-  <li><a href="CalculationsDiagnosticTest.html">Stats: Classic calculations for a 
-  diagnostic test (July 20, 2007)</a></li>
-  <li><a href="../website/SloppyAnimalResearch.asp">Interesting website: Chance 
-  News 28, Sloppy animal research (July 19, 2007)</a></li>
-  <li><a href="../article/InformationModels.asp">Interesting article: Linear 
-  Information Models: An Introduction (July 19, 2007)</a></li>
-  <li><a href="DontWantToRandomize.html">Stats: I don't want to use a randomized 
-  trial (July 18, 2007)</a></li>
-  <li><a href="ConflictOfInterestList.html">Stats: Conflict of interest list 
-  (July 18, 2007)</a></li>
-  <li><a href="CodeForNewSlideRule.html">Stats: Code for drawing new likelihood 
-  ratio slide rule (July 12, 2007)</a></li>
-  <li><a href="../article/HormoneReplacementTherapy.asp">Interesting article: 
-  HRT: a reappraisal of the risks and benefits (July 11, 2007)</a></li>
-  <li><a href="../website/ScientificMisconductBlog.asp">Interesting website: 
-  Scientific Misconduct Blog (July 11, 2007)</a></li>
-  <li><a href="../article/ResearchMisconduct.asp">Interesting article: Research 
-  misconduct: can Australia learn from the UK’s stuttering system? (July 9, 
-  2007)</a></li>
-  <li><a href="../website/JournalInfo.asp">Interesting website: Journal Info 
-  (July 9, 2007)</a></li>
-  <li><a href="NotBlackAndWhilte.html">Stats: The research world is not black and 
-  white (July 7, 2007)</a></li>
-  <li><a href="RecommendationsSackett.html">Stats: Recommendations from Sackett 
-  et al for evaluating a diagnostic test (July 2, 2007)</a> </li>
-  <li><a href="../website/BiasGlossary.asp">Interesting website: Bias glossary 
-  (July 2, 2007)</a></li>
-  <li><a href="../quote/AllModelsAre.asp">Interesting quote: All models are... 
-  (July 1, 2007)</a></li>
-</ul>
-<p><b>&nbsp;<a name="Jun">June</a> 2007 (16 entries)</b></p>
-<ul>
-  <li><a href="StubbornInsistence.html">Stats: The stubborn insistence on 
-  placebos (June 29, 2007)</a></li>
-  <li><a href="TwoControlGroups.html">Stats: How two bad control groups can add 
-  up to one good comparison (June 28, 2007)</a></li>
-  <li><a href="DebateHistoricalControls.html">Stats: The debate about historical 
-  control groups (June 27, 2007)</a></li>
-  <li><a href="TroubleWithApples.html">Stats: The trouble with apples and oranges 
-  (June 25, 2007)</a></li>
-  <li><a href="FacultyPromotion.html">Stats: I deserve a promotion (June 22, 
-  2007)</a></li>
-  <li><a href="PercentileFormula.html">Stats: Why the plus one in the percentile 
-  formula p(n+1)? (June 22, 2007)</a></li>
-  <li><a href="StandardDeviationRatio.html">Stats: Can the standard deviation be 
-  more than half of the range? (June 22, 2007)</a></li>
-  <li><a href="DiagnosticTalk.html">Stats: Use of diagnostic tests for making 
-  clinical decisions (June 15, 2007)</a></li>
-  <li><a href="BadControlGroups.html">Stats: When bad control groups happen to 
-  good researchers (June 15, 2007)</a></li>
-  <li><a href="SevenFormulas.html">Stats: Seven different formulas for the odds 
-  ratio (June 14, 2007)</a></li>
-  <li><a href="CyclicalTrends.html">Stats: Accounting for cyclical trends in a 
-  regression model (June 13, 2007)</a></li>
-  <li><a href="IllustratedCaseStudies.html">Stats: Illustrated case studies of 
-  research ethics and research fraud (June 11, 2007)</a> </li>
-  <li><a href="CenteringData.html">Stats: Centering the data (June 8, 2007)</a></li>
-  <li><a href="../website/PrivateInformation.asp">Interesting website: Guidance 
-  on Research Involving Coded Private Information or Biological Specimens (June 
-  6, 2007)</a></li>
-  <li><a href="CorrelatedNormalProbabilities.html">Stats: Calculating 
-  probabilities involving correlated normal variables (June 4, 2007)</a> </li>
-  <li><a href="ApplyingLikelihoodRatios.html">Stats: Applying likelihood ratios 
-  in your head (June 1, 2007)</a></li>
-</ul>
-<p><b><a name="May">May</a> 2007 (6 entries)</b></p>
-<ul>
-  <li><a href="UsingRealExamples.html">Stats: Using real examples in teaching 
-  statistics (May 30, 2007)</a></li>
-  <li><a href="SlowMonth.html">Stats: May has been a slow month (May 29, 2007)</a></li>
-  <li><a href="ConflictingAnalyses.html">Stats: Choosing between two conflicting 
-  analyses (May 16, 2007)</a></li>
-  <li><a href="ClassicReferencesForEbm.html">Stats: Classic references in 
-  evidence based medicine (May 16, 2007)</a></li>
-  <li><a href="InterestingCaseStudies.html">Stats: Where can you find interesting 
-  case studies in Statistics? (May 2, 2007)</a></li>
-  <li><a href="WhatToMeasure.html">Stats: What to measure in a post-marketing 
-  surveillance study (May 2, 2007)</a></li>
-</ul>
-<p><b><a name="Apr">April</a> 2007 (16 entries)</b></p>
-<ul>
-  <li><a href="SmallCellSizes.html">Stats: Cohen's Kappa with small cell sizes 
-  (April 26, 2007)</a></li>
-  <li><a href="AnomTable05Part2.html">Stats: ANOM table for alpha=0.05, part 2 
-  (April 21, 2007)</a></li>
-  <li><a href="BugsBetaBinomial.html">Stats: Fitting a beta binomial model using 
-  BUGS (April 17, 2007)</a></li>
-  <li><a href="MetropolisAlgorithm.html">Stats: A simple illustration of the 
-  Metropolis algorithm (April 13, 2007)</a></li>
-  <li><a href="SpecialSectionForQuotations.html">Stats: Special section for 
-  quotations (April 11, 2007)</a></li>
-  <li><a href="../quote/WhenITalk.asp">Interesting quote: When I talk... (April 
-  11, 2007)</a></li>
-  <li><a href="QuantifyingPredictions.html">Stats: Quantifying the ability of 
-  dreams to predict the future (April 10, 2007)</a></li>
-  <li><a href="MethodologicalFlaws.html">Stats: IRB review of studies with 
-  methodological flaws (April 10, 2007)</a></li>
-  <li><a href="../quote/OneOfTheNaturalists.asp">Interesting quote: One of the 
-  naturalists... (April 9, 2007)</a></li>
-  <li><a href="ValidityReliabilitySampleSize.html">Stats: What is an adequate 
-  sample size for establishing validity and reliability? (April 9, 2007)</a></li>
-  <li><a href="GoodDiagnosticTest.html">Stats: What makes a good diagnostic test? 
-  (April 6, 2007)</a></li>
-  <li><a href="User2007.html">Stats: useR! 2007 conference in Ames, Iowa (April 
-  6, 2007)</a></li>
-  <li><a href="CalculatingRates.html">Stats: Calculating rates (April 6, 2007)</a></li>
-  <li><a href="TypeIand%20IIErrors.html">Stats: Further exploration of Type I and 
-  Type II errors (April 5, 2007)</a></li>
-  <li><a href="TrackingAdverseEventsPart2.html">Stats: Tracking adverse events 
-  during kidney biopsy, Part 2 (April 5, 2007)</a></li>
-  <li><a href="SevenSins.html">Stats: The Seven Deadly Sins of Researchers (April 
-  4, 2007)</a></li>
-</ul>
-<p><b><a name="Mar">March</a> 2007 (22 entries)</b></p>
-<ul>
-  <li><a href="RWiki.html">Stats: R Wiki (March 27, 2007)</a></li>
-  <li><a href="IrbReviewPilot.html">Stats: IRB review of a pilot study (March 26, 
-  2007)</a></li>
-  <li><a href="CountData.html">Stats: Confidence intervals for count data (March 
-  22, 2007)</a></li>
-  <li><a href="UnixHumor.html">Stats: Some UNIX humor (March 22, 2007)</a></li>
-  <li><a href="InterpretationOddsRatio.html">Stats: Interpretation of an odds 
-  ratio (March 21, 2007)</a></li>
-  <li><a href="WhatImWorkingOn.html">Stats: What I'm working on right now (March 
-  18, 2007)</a></li>
-  <li><a href="RandomlyDividingData.html">Stats: Randomly dividing a dataset in R 
-  (March 16, 2007)</a></li>
-  <li><a href="BadCalculation.html">Stats: Bad calculation of annual rate of 
-  return (March 15, 2007)</a></li>
-  <li><a href="TrackingAdverseEvents.html">Stats: Tracking adverse events during 
-  kidney biopsy (March 14, 2007)</a></li>
-  <li><a href="ThanksToProofreaders.html">Stats: Thanks to all my proofreaders! 
-  (March 14, 2007)</a></li>
-  <li><a href="WeakEvidence.html">Stats: Ignore weak evidence at your own peril 
-  (March 13, 2007)</a></li>
-  <li><a href="QualitativeReview.html">Stats: Reviewing a paper on qualitative 
-  data analysis (March 11, 2007)</a></li>
-  <li><a href="ManipulationPeerReview.html">Stats: Manipulation of peer-review 
-  publications by pharmaceutical companies (March 9, 2007)</a> </li>
-  <li><a href="PControlChart.html">Stats: Calculating a P control chart 
-  (March 7, 2007)</a></li>
-  <li><a href="PControlChartAnswers.html">Stats: P control chart, answers to on 
-  your own exercises (March 7, 2007)</a> </li>
-  <li><a href="AnomCalculations1.html">Stats: Calculation of Analysis of 
-  Means limits (March 6, 2007)</a></li>
-  <li><a href="AnomTable05Part1.html">Stats: ANOM table for alpha=0.05, part 1 
-  (March 4, 2007)</a></li>
-  <li><a href="PharmedOutWebsite.html">Stats: PharmedOUT website (March 2, 2007)</a></li>
-  <li><a href="WorkshopHandouts.html">Stats: Handouts for quality control 
-  workshop (March 2, 2007)</a></li>
-  <li><a href="XbarSControlChart.html">Stats: Calculating an XBAR-S control chart 
-  (March 2, 2007)</a></li>
-  <li><a href="XbarSControlChartAnswers.html">Stats: XBAR-S control chart, 
-  answers to on your own exercise (March 2, 2007)</a></li>
-  <li><a href="PocketCalculator.html">Stats: Using a pocket calculator to compute 
-  a standard deviation (March 1, 2007)</a></li>
-</ul>
-<p><b><a name="Feb">February</a> 2007 (12 entries)</b></p>
-<ul>
-  <li><a href="TeamExercise.html">Stats: Team exercise to illustrate ANOM 
-  calculations (February 28, 2007)</a></li>
-  <li><a href="CumulativeProbabilities.html">Stats: Formulas for cumulative 
-  Poisson and binomial probabilities (February 19, 2007)</a> </li>
-  <li><a href="CisSearch.html">Stats: Searching through the Current Index to 
-  Statistics (February 15, 2007)</a></li>
-  <li><a href="WikipediaContribution.html">Stats: A recent contribution to 
-  Wikipedia and to the Chance Wiki (February 15, 2007)</a> </li>
-  <li><a href="ThreeSimpleRules.html">Stats: Three simple rules to establish 
-  quality (February 15, 2007)</a></li>
-  <li><a href="AmbiguousData.html">Stats: Watch out for ambiguous data (February 
-  14, 2007)</a></li>
-  <li><a href="AdviceSearching.html">Stats: Advice for searching in PubMed 
-  (February 11, 2007)</a></li>
-  <li><a href="CompoundInterest.html">Stats: Compound interest and powers 
-  (February 11, 2007)</a></li>
-  <li><a href="FmriAnalysis.html">Stats: Resources for fMRI data analysis 
-  (February 8, 2007)</a></li>
-  <li><a href="AnomExample.html">Stats: When is a control chart not a control 
-  chart? (February 6, 2007)</a></li>
-  <li><a href="http://www.childrensmercy.org/stats/weblog2006/AnalysisOfMeans.html">Stats: Some resources for 
-  Analysis of Means (June 30, 2006)</a> (updated February 1, 2007)</li>
-  <li><a href="ModularArithmeticInR.html">Stats: Modular arithmetic and rounding 
-  in R (February 1, 2007)</a></li>
-</ul>
-<p><b><a name="Jan">January</a> 2007 (13 entries)</b></p>
-<ul>
-  <li><a href="ExpertTestimony.html">Stats: The danger of providing expert 
-  testimony when you are not an expert (January 31, 2007)</a></li>
-  <li><a href="DoYourOwnPower.html">Stats: Do your own power and sample size 
-  calculations (January 30, 2007)</a></li>
-  <li><a href="DifferenceInExponentials.html">Stats: Fitting a difference in 
-  exponential functions (January 26, 2007)</a></li>
-  <li><a href="TouchscreenInterface.html">Stats: Manipulating graphic images 
-  using a touchscreen interface (January 23, 2007)</a></li>
-  <li><a href="PoissonRegressionBooks.html">Stats: Books that discuss Poisson 
-  regression (January 19, 2007)</a></li>
-  <li><a href="CorrelationCoefficient.html">Stats: Tests of hypothesis and 
-  confidence intervals involving a correlation coefficient (January 18, 2007)</a></li>
-  <li><a href="TechnometricsReview.html">Stats: Technometrics review of 
-  Statistical Evidence (January 16, 2007)</a></li>
-  <li><a href="BiplotResources.html">Stats: Resources describing biplots (January 
-  15, 2007)</a></li>
-  <li><a href="HundredWords.html">Stats: What can you do with 100 words? (January 
-  12, 2007)</a></li>
-  <li><a href="DifferencesBetweenTests.html">Stats: Differences between the 
-  Chi-square test, Fisher's Exact test, and logistic regression (January 9, 
-  2007)</a></li>
-  <li><a href="GoogleDiagnosis.html">Stats: Can Google replace your doctor? 
-  (January 4, 2007)</a></li>
-  <li><a href="ClusterSize.html">Stats: Variable cluster sizes and their impact 
-  on sample size calculations (January 3, 2007)</a></li>
-  <li><a href="TeachingStatistics.html">Stats: Teaching Statistics, An 
-  International Journal for Teachers (January 3, 2007)</a></li>
-</ul>
-<p><a href="../TopicList.html">[Go to full topic list]</a>
- <a href="../index.html#RecentEntries">[Browse through the most recent entries]</a></p><p> This web page was 
- written by Steve Simon, edited by Steve Simon, and was last modified on 
-  <!--webbot bot="Timestamp" s-type="EDITED" s-format="%m/%d/%Y" startspan -->04/01/2010<!--webbot bot="Timestamp" i-checksum="12501" endspan -->. </p>
-
-<p>This page was written by 
-  Steve Simon while working at  Children's Mercy Hospital. Although I do not hold the copyright for this material, I am reproducing it here as a service, as it is no longer available on the Children's Mercy Hospital website. Need more 
-  information? I have a page with <a href="../GeneralHelp.html">general help 
-    resources</a>. You can also browse for pages similar to this one at </p></body>
-
-</html>
+"../article/AbuseOfPower.asp">Interesting article: The abuse of 
+"../article/DataInconsistencies.asp">Interesting article: 
+"../article/EffectOfWeb.asp">Interesting article: The effect of 
+"../article/EnhancingResearchIntegrity.asp">Interesting article: 
+"../article/EthicalResearch.asp">Interesting article: Debating how 
+"../article/FactorsInfluencingPublication.asp">Interesting 
+"../article/Haploview.asp">Interesting article: Haploview: 
+"../article/HormoneReplacementTherapy.asp">Interesting article: 
+"../article/HospitalEpisodeStatistics.asp">Interesting article: 
+"../article/ImperfectGoldStandard.asp">Interesting article: Visual 
+"../article/InformationModels.asp">Interesting article: Linear 
+"../article/OperatingTheSmokescreen.asp">Interesting 
+"../article/OutOfDateReview.asp">Interesting article: How Quickly 
+"../article/PredictedConfidence.asp">Interesting article: The use 
+"../article/RecordLinkageResearch.asp">Interesting article: Record 
+"../article/RelatedCorrelationMeasures.asp">Interesting article: 
+"../article/ResearchForChildren.asp">Interesting article: Making a 
+"../article/ResearchMisconduct.asp">Interesting article: Research 
+"../article/ViewpointOfChildren.asp">Interesting article: Clinical 
+"../book/PrincipledArgument.asp">Interesting book: Statistics as 
+"../book/UsingR.asp">Interesting book: Using R for Introductory 
+"../quote/AllModelsAre.asp">Interesting quote: All models are... 
+"../quote/OneOfTheNaturalists.asp">Interesting quote: One of the 
+"../quote/WhenITalk.asp">Interesting quote: When I talk... (April 
+"../website/AllAboutGrantsTutorials.asp">Interesting website: All 
+"../website/ArtOfGrantsmanship.asp">Interesting website: The Art 
+"../website/ArticlesOnStatistics.asp">Interesting website: 
+"../website/BiasGlossary.asp">Interesting website: Bias glossary 
+"../website/BiasedPowerCalculations.asp">Interesting website: 
+"../website/CallingAllCharlatans.asp">Interesting website: Calling 
+"../website/ClinicalResearchGuide.asp">Interesting website: 
+"../website/CommonMistakesInNihApplications.asp">Interesting 
+"../website/ComputerIntensive.asp">Interesting website: Overview 
+"../website/DataVisualization.asp">Interesting website: Data 
+"../website/DesigningScientificPosters.asp">Interesting website: 
+"../website/DistinguishingCausation.asp">Interesting website: 
+"../website/EdRigdonSemFaq.asp">Interesting website: Ed Rigdon's 
+"../website/EffectiveFoundationGrantseekingStrategies.asp">
+"../website/EngagementInResearch.asp">Interesting website: 
+"../website/FearAndLoathing.asp">Interesting website: Fear 
+"../website/GivingPresentations.asp">Interesting website: PubCon 
+"../website/GrantProposalWritingTips.asp">Interesting website: 
+"../website/GuideForProposalWriting.asp">Interesting website: A 
+"../website/JournalInfo.asp">Interesting website: Journal Info 
+"../website/MultilevelModelling.asp">Interesting website: Centre 
+"../website/NewcastleOttawaScale.asp">Interesting website: The 
+"../website/NonsignificantResults.asp">Interesting website: 
+"../website/OneClickPatent.asp">Interesting website: 1 Guy vs. 
+"../website/PrivateInformation.asp">Interesting website: Guidance 
+"../website/ProposalWritingShortCourse.asp">Interesting website: 
+"../website/ProveItWithData.asp">Interesting website: Statistical 
+"../website/RFaq.asp">Interesting website: R FAQ (October 8, 2007)</a></li>
+"../website/RManuals.asp">Interesting website: R Manuals (October 
+"../website/RNews.asp">Interesting website: R News (October 8, 
+"../website/RandomizationProcess.asp">Interesting website: 
+"../website/ScientificMisconductBlog.asp">Interesting website: 
+"../website/SloppyAnimalResearch.asp">Interesting website: Chance 
+"../website/SpecializedProposalDevelopmentGuides.asp">Interesting 
+"../website/StowersBioinformaticsCenter.asp">Interesting website: 
+"../website/TaxonomyLogicalFallacies.asp">Interesting website: The 
+"AdviceSearching.html">Stats: Advice for searching in PubMed 
+"AlphabeticalBookmarkList.html">Stats: Alphabetical bookmark list 
+"AlternateAccrual.html">Stats: An alternate way of viewing accrual 
+"AmbiguousData.html">Stats: Watch out for ambiguous data (February 
+"AnalyzingItt.html">Stats: Analyzing data under an 
+"AnomCalculations1.html">Stats: Calculation of Analysis of 
+"AnomExample.html">Stats: When is a control chart not a control 
+"AnomTable05Part1.html">Stats: ANOM table for alpha=0.05, part 1 
+"AnomTable05Part2.html">Stats: ANOM table for alpha=0.05, part 2 
+"ApplyingLikelihoodRatios.html">Stats: Applying likelihood ratios 
+"BadCalculation.html">Stats: Bad calculation of annual rate of 
+"BadControlGroups.html">Stats: When bad control groups happen to 
+"BiplotResources.html">Stats: Resources describing biplots (January 
+"BugsBetaBinomial.html">Stats: Fitting a beta binomial model using 
+"CalculatingRates.html">Stats: Calculating rates (April 6, 2007)</a></li>
+"CalculationsDiagnosticTest.html">Stats: Classic calculations for a 
+"CaseStudyOfAccrual.html">Stats: Case study of accrual in a 
+"CaseStudyOfAccrualPart2.html">Stats: Case study of accrual in a 
+"CenteringData.html">Stats: Centering the data (June 8, 2007)</a></li>
+"CisSearch.html">Stats: Searching through the Current Index to 
+"ClassicReferencesForEbm.html">Stats: Classic references in 
+"ClusterSize.html">Stats: Variable cluster sizes and their impact 
+"CodeForNewSlideRule.html">Stats: Code for drawing new likelihood 
+"CompoundInterest.html">Stats: Compound interest and powers 
+"ConfidenceIntervalForRate.html">Stats: Confidence interval for a 
+"ConflictOfInterestList.html">Stats: Conflict of interest list 
+"ConflictOfInterestPolicy.html">Stats: Need for a conflict of 
+"ConflictingAnalyses.html">Stats: Choosing between two conflicting 
+"ContinuingEducationQuestions.html">Stats: Continuing education 
+"CorrelatedNormalProbabilities.html">Stats: Calculating 
+"CorrelationCoefficient.html">Stats: Tests of hypothesis and 
+"CountData.html">Stats: Confidence intervals for count data (March 
+"CumulativeProbabilities.html">Stats: Formulas for cumulative 
+"CyclicalTrends.html">Stats: Accounting for cyclical trends in a 
+"DallasPostlude.html">Stats: Postlude to my Dallas talk 
+"DateGapIntroductionPt1.html">Stats: A new and simple approach 
+"DebateHistoricalControls.html">Stats: The debate about historical 
+"DescribeWorkStatistician.html">Stats: What does a statistician do 
+"DiagnosticHandout.html">Stats: Handout for diagnostic 
+"DiagnosticTalk.html">Stats: Use of diagnostic tests for making 
+"DifferenceInExponentials.html">Stats: Fitting a difference in 
+"DifferencesBetweenTests.html">Stats: Differences between the 
+"DoYourOwnPower.html">Stats: Do your own power and sample size 
+"DontWantToRandomize.html">Stats: I don't want to use a randomized 
+"EducationalOpportunities.html">Stats: Educational and networking 
+"ExpertTestimony.html">Stats: The danger of providing expert 
+"ExternalScholars.html">Stats: External scholars needed to review 
+"FacultyPromotion.html">Stats: I deserve a promotion (June 22, 
+"FmriAnalysis.html">Stats: Resources for fMRI data analysis 
+"FormatCodes.html">Stats: Format codes for my web pages (September 
+"GoodDiagnosticTest.html">Stats: What makes a good diagnostic test? 
+"GoogleDiagnosis.html">Stats: Can Google replace your doctor? 
+"GrowUp.html">Stats: Grow up and learn how to do Statistics 
+"HelpForStatistics.html">Stats: Help for Statistics at UMKC and 
+"HistogramPatterns.html">Stats: Patterns to look for in a histogram 
+"HowGood.html">Stats: How good is my prediction? (August 13, 2007)</a></li>
+"HtmlDebris.html">Stats: Html debris copied from other websites 
+"HundredWords.html">Stats: What can you do with 100 words? (January 
+"IllustratedCaseStudies.html">Stats: Illustrated case studies of 
+"IllustrationsForTgn1412.html">Stats: Illustrations for a case 
+"IncreasingTrend.html">Stats: Testing for an increasing trend 
+"InterestingCaseStudies.html">Stats: Where can you find interesting 
+"InterpretationOddsRatio.html">Stats: Interpretation of an odds 
+"IrbReviewPilot.html">Stats: IRB review of a pilot study (March 26, 
+"LongPageNames.html">Stats: My page names are too long 
+"ManipulationPeerReview.html">Stats: Manipulation of peer-review 
+"MethodologicalFlaws.html">Stats: IRB review of studies with 
+"MetropolisAlgorithm.html">Stats: A simple illustration of the 
+"ModularArithmeticInR.html">Stats: Modular arithmetic and rounding 
+"MyPromotionApplication.html">Stats: My promotion application 
+"NewCategories.html">Stats: New categories needed (October 
+"NnhTalkUpdate.html">Stats: NNH talk update (November 12, 
+"NoLongerAlone.html">Stats: No longer the sole statistician? 
+"NormalSample.html">Stats: Are we assuming a normal sample or a 
+"NotBlackAndWhilte.html">Stats: The research world is not black and 
+"OpenAccessJournals.html">Stats: Seminar on Open Access Journals 
+"OpenAccessJournalsPart2.html">Stats: Open Access Journals, 
+"OrderEnteringInteractions.html">Stats: The order of entering 
+"PControlChart.html">Stats: Calculating a P control chart 
+"PControlChartAnswers.html">Stats: P control chart, answers to on 
+"PediatricResearch.html">Stats: What makes pediatric research 
+"PercentileFormula.html">Stats: Why the plus one in the percentile 
+"PeritonealDialysis.html">Stats: Monitoring adverse events 
+"PharmedOutWebsite.html">Stats: PharmedOUT website (March 2, 2007)</a></li>
+"PocketCalculator.html">Stats: Using a pocket calculator to compute 
+"PoissonRegressionBooks.html">Stats: Books that discuss Poisson 
+"PostModernAssault.html">Stats: The post-modern 
+"PostModernAssaultPart2.html">Stats: The post-modern 
+"PromotingYourBook.html">Stats: Does promoting your book constitute 
+"Promotion.html">Stats: The latest word on my promotion (September 
+"ProsControlCharts.html">Stats: The pros and cons of control 
+"QualitativeReview.html">Stats: Reviewing a paper on qualitative 
+"QuantifyingPredictions.html">Stats: Quantifying the ability of 
+"RWiki.html">Stats: R Wiki (March 27, 2007)</a></li>
+"RandomlyDividingData.html">Stats: Randomly dividing a dataset in R 
+"RecommendationsSackett.html">Stats: Recommendations from Sackett 
+"ReformingCoi.html">Stats: Reforming conflict of interest 
+"ResourcesForGrantWriters.html">Stats: Resources for grant writers 
+"RevisingDefinitions.html">Stats: Revising my definition 
+"SampleSizeMicroarray.html">Stats: Justifying the sample size for a 
+"SevenFormulas.html">Stats: Seven different formulas for the odds 
+"SevenSins.html">Stats: The Seven Deadly Sins of Researchers (April 
+"SlowMonth.html">Stats: May has been a slow month (May 29, 2007)</a></li>
+"SmallCellSizes.html">Stats: Cohen's Kappa with small cell sizes 
+"SourcesOfConfusion.html">Stats: Common sources of confusion in a 
+"SpecialSectionForQuotations.html">Stats: Special section for 
+"StairStep.html">Stats: Stair step interpolation in R 
+"StandardDeviationRatio.html">Stats: Can the standard deviation be 
+"StubbornInsistence.html">Stats: The stubborn insistence on 
+"TeachingStatistics.html">Stats: Teaching Statistics, An 
+"TeamExercise.html">Stats: Team exercise to illustrate ANOM 
+"TechnometricsReview.html">Stats: Technometrics review of 
+"ThanksToProofreaders.html">Stats: Thanks to all my proofreaders! 
+"ThreeSimpleRules.html">Stats: Three simple rules to establish 
+"TouchscreenInterface.html">Stats: Manipulating graphic images 
+"TrackingAdverseEvents.html">Stats: Tracking adverse events during 
+"TrackingAdverseEventsPart2.html">Stats: Tracking adverse events 
+"TroubleWithApples.html">Stats: The trouble with apples and oranges 
+"TwoControlGroups.html">Stats: How two bad control groups can add 
+"TypeIand%20IIErrors.html">Stats: Further exploration of Type I and 
+"UnixHumor.html">Stats: Some UNIX humor (March 22, 2007)</a></li>
+"User2007.html">Stats: useR! 2007 conference in Ames, Iowa (April 
+"UsingRealExamples.html">Stats: Using real examples in teaching 
+"ValidityReliabilitySampleSize.html">Stats: What is an adequate 
+"WakefieldMmrStudy.html">Stats: Conflict of interest in the 
+"WarningMessage.html">Stats: Warning message is more 
+"WeakEvidence.html">Stats: Ignore weak evidence at your own peril 
+"WhatImWorkingOn.html">Stats: What I'm working on right now (March 
+"WhatToMeasure.html">Stats: What to measure in a post-marketing 
+"WhenToLog.html">Stats: When should you use a log 
+"WhichExpert.html">Stats: Which expert should you believe? (August 
+"WideConfidenceInterval.html">Stats: Is my confidence interval 
+"WikipediaContribution.html">Stats: A recent contribution to 
+"WorkshopHandouts.html">Stats: Handouts for quality control 
+"XbarSControlChart.html">Stats: Calculating an XBAR-S control chart 
+"XbarSControlChartAnswers.html">Stats: XBAR-S control chart, 
+"http://www.childrensmercy.org/stats/weblog2006/AnalysisOfMeans.html">Stats: Some resources for 
+"www.childrensmercy.org/definitions/AdverseEvent.htm">Stats: What is an adverse event? 
+"www.childrensmercy.org/definitions/AdverseReaction.htm">Stats: What is an adverse 
+"www.childrensmercy.org/definitions/mosaic.htm">Stats: What is a mosaic plot? (August 

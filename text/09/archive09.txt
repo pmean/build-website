@@ -1,447 +1,49 @@
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>P.Mean: 2009 archive</title>
-</head>
-
-<body><!--start-->
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="680">
-  <tr>
-    <td width="131">
-    <img border="0" src="../images/logo.png" width="100" height="98"></td>
-    <td width="546"><b><a href="../index.html">P.Mean</a>:  Archive organized by date (created 2009-01-06).</b><p>
-    <a href="../news.html">
-    <img border="0" src="../images/news.png" width="511" height="68"></a></td>
-  </tr>
-</table>
-<blockquote>
-  <p>This page lists files created in calendar year 2009. Also look at archive 
-  for <a href="archive13.html">2013</a>, <a href="archive12.html">2012</a>, <a href="archive11.html"></a><a href="../Archive11.html">2011</a>,
-  <a href="../10/Archive10.html">2010</a>, <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../05/Archive05.html">2005</a>, <a href="../04/Archive04.html">2004</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.You can 
-  also browse through an archive of pages <a href="../TopicList.html">organized by topic</a>.</p>
-  <p><b>December 2009 (1 entry)</b></p>
-</blockquote>
- <ol>
    <li><a href="../09/TwoByTwo.html">P.Mean: Entering and analyzing data from a 
-  two by two table, using PASW/SPSS (created 2009-12-14)</a>. One of the most common questions I hear is how to enter and analyze data 
-  from a two by two crosstabulation. It is not immediately obvious, especially 
-  to beginners, how to get started with this type of data. The table shown below 
-  presents some data and statistics from several two by two crosstabulations. How do you take information 
-  like this and enter it into PASW/SPSS, 
-  so that you can produce a useful analysis?<br>
-   <br>
-   <b>November 2009 (5 entries)</b><br>
-&nbsp;</li>
-   <li><a href="RandomMath.html">P.Mean: Randomly generating simple math 
-   problems using R (created 2009-11-30)</a>. To help drill simple concepts in 
-   math for my second grade son, I developed a series of R programs to generate 
-   these problems randomly. It makes use of the sample function on a sequence of 
-   integers and allows you to limit or expand the scope of the problems 
-   generated. It is far from perfect, but it shows a few simple tricks in R.</li>
-   <li><a href="ExcelMultinomial.html">P.Mean: Generating multinomial random 
-   variables in Excel (created 2009-11-23)</a>. Someone asked how to generate 
-   six random integers subject to the conditions that the sum of those random 
-   integers had to equal a value, x. This is a classic description of a 
-   multinomial distribution. Unstated in the question, but assumed by me, was 
-   that each random integer had to have the same distribution. that forces the 
-   probability vector for the multinomial to be (1/6, 1/6, 1/6, 1/6, 1/6, 1/6).</li>
-   <li><a href="JumpStart.html">P.Mean: Jump start statistics for beginning 
-   researchers (created 2009-11-07)</a>. I am a part-time faculty at the 
-   University of Missouri-Kansas City, one of four schools in the University of 
-   Missouri system. I responded recently to an email sent to all faculty asking 
-   for suggestions about eLearning and distance education. Here was my proposal.</li>
-   <li><a href="BioinformaticsDegree.html">P.Mean: New Bioinformatics degree 
-   program at UMKC (created 2009-11-03)</a>. I am working part-time in the 
-   Department of Informatic Medicine and Personalized Health in the School of 
-   Medicine at the University of Missouri-Kansas City. This department has just 
-   developed a website advertising the program. Here are a few key links.</li>
-   <li><a href="RotatingLocations.html">P.Mean: Rotating locations (created 
-   2009-11-02)</a>. Someone asked about holding a series of meeting with 
-   subgroups of people and wanted to insure during any round of the meetings 
-   that people would meet at a different location than the previous round and 
-   with a different mix of people. So on the first round of meetings, Allen, 
-   Barb, Charlie, and Denise would meet at location E and Fred, Gina, Harry, and 
-   Iona would meet at location J. On the next round, you'd mix things up so that 
-   it wasn't the same four people at the same location. <br>
-   <br>
-   <b>October 2009 (6 entries)</b><br>
-&nbsp;</li>
-   <li><a href="IneligiblePatients.html">P.Mean: Sneaking ineligible patients 
-   into a clinical trial (created 2009-10-30)</a>. There was an interesting 
-   article in the New York Times (Chen PW. Bending the Rules of Clinical Trials) 
-   that described a terminal cancer patient and the doctor's goal to get them 
-   access to a new experimental drug, even though the patient was not eligible 
-   for the clinical trial that was studying this drug. It's a difficult 
-   situation for doctors. Do you do what's best for the patient in front of you, 
-   knowing that the data collected from this patient might corrupt the findings 
-   of the clinical trial?</li>
-   <li><a href="NormalPlot.html">P.Mean: What is a normal probability plot? 
-   (created 2009-10-29)</a>. The normal probability plot, sometimes called the qq plot,
-is a graphical way of assessing whether a set of data looks like it
-might come from a standard bell shaped curve (normal distribution). To compute a 
-normal probability plot, first sort your data, then compute evenly spaced 
-percentiles from a normal distribution. Optionally, you can choose the normal 
-distribution to have the same mean and standard deviation as your data, or you 
-can save some time by using evenly spaced percentiles from a standard normal 
-distribution. Finally, plot the evenly spaced percentiles versus the sorted 
-data. A reasonably straight line indicates a distribution that is close to 
-normal. A markedly curved line indicates a distribution that deviates from 
-normality.</li>
-   <li><a href="RocLayout.html">P.Mean: Data layout for an ROC curve (created 
-   2009-10-16)</a>. Back in 1999, I wrote a brief description of the ROC curve 
-   and showed what it would look like in SPSS. That page can be found at
-   <a href="http://www.childrensmercy.org/stats/ask/roc.asp">
-   www.childrensmercy.org/stats/ask/roc.asp</a>. I didn't show, however, what 
-   the data would look like when entered into SPSS or what the dialog boxes 
-   would look like.</li>
-   <li><a href="StatisticGods.html">P.Mean: Are we statisticians gods? (created 
-   2009-10-13)</a>. I'm helping someone who wants an alternative statistical 
-   analysis to the one used by the principal investigator. I'm happy to help and 
-   will offer advice about why my approach may be better, but I was warned that 
-   the PI considers the analysis chosen to be ordained by the &quot;Statistic Gods&quot; 
-   at her place of work. I'm not sure what to make of the words &quot;Statistic 
-   Gods&quot;.</li>
-   <li><a href="LikertAnova.html">P.Mean: Use of Likert data with ANOVA (created 
-   2009-10-13)</a>. <i>I never quite feel I can offer my students a thoughtful 
-   explanation about the use of Likert data with ANOVA. It is recommended that 
-   ANOVA be used with interval or ratio data, but, in practice, ANOVA is 
-   sometimes used when the data is ordinal (as you'd find when using Likert 
-   scales). This confuses some students. Are there any good references out there 
-   I can share with my students that might explain the pros and cons of using 
-   ordinal data with ANOVA?</i></li>
    <li><a href="AccountingForClusters.html">P.Mean: Accounting for clusters in 
-   an individually randomized clinical trial (created 2009-10-13)</a>. <i>I have 
-   a clinical trial with clusters (the clusters are medical practice), but 
-   unlike a cluster randomized trial, I am able to randomize within each 
-   cluster. From what I've read about this, I can provide an estimate for the 
-   Intraclass Correlation Coefficient (ICC) that will decrease my sample size. 
-   But I'm uncomfortable doing this. Can you help?<br>
-   <br>
-   </i><b>September 2009 (4 entries)</b><i><br>
-&nbsp;</i></li>
-   <li><a href="CanIStop.html">P.Mean: Can I stop this study? (created 
-   2009-05-29)</a>. I got an email from a researcher on a project I was peripherally involved 
-  with awhile back. Here's what she wrote (with a few details removed to protect 
-  anonymity). <i>As you all are aware, enrollment for the BLANK study has been slower 
-  than anticipated. However, due to a high suspicion that patients in the 
-  CONTROL arm were having more complications (more rescue therapy) and less 
-  improvement, we have decided to look at the data prior to reaching our initial 
-  proposed N=140. We had 79 patients enrolled. We found that significantly more 
-  patients in the TREATMENT arm reported that their main symptom was better at 
-  24 hours than the CONTROL arm (p=0.02). Also, we had 6 patients need some kind 
-  of rescue, 5 of those were in the CONTROL arm (this approached statistical 
-  significance, p=0.08). Therefore, I am writing to see if you agree with 
-  stopping the study at this point. Please let me know at your earliest 
-  convenience.</i></li>
-   <li><a href="TooSensitive.html">P.Mean: The problem with being too sensitive 
-   or too specific (created 2009-09-16)</a>. Somebody asked my opinion about 
-   cost effectiveness research. My bottom line is that I like it, but I 
-   understand why it is controversial. Here's the logic that I presented to draw 
-   that conclusion.</li>
-   <li><a href="ThreeArmPower.html">P.Mean: Power for a three arm experiment 
-   (created 2009-09-14)</a>. <i>&quot;I want to compute power for a three arm 
-   experiment. The outcome variable is binary (yes/no). I know how to compute 
-   power for a two-arm experiment already, but have no idea how to handle the 
-   third arm.&quot;</i></li>
-   <li><a href="SensitivityMoreImportant.html">P.Mean: Getting a good cut-off 
-   when sensitivity is more important than specificity (created 2009-09-14)</a>.
-   <i>&quot;I am working on a prediction model to help with diagnosis. In this 
-   particular area I need a model that has the highest possible sensitivity (low 
-   specificity is not a problem).&quot; </i>One obvious comment is that you can 
-   achieve a sensitivity of 100% if you don't mind a specificity of 0%. So when 
-   you say &quot;low specificity is not a problem&quot; that statement is only partially 
-   true. What you mean to say is that false negatives are far more serious than 
-   false positives. How much more serious, though. Five times? Ten times? Once 
-   you've decided the relative costs of false negatives and false positives, the 
-   rest is easy.<br>
-   <br>
-   <b>August 2009 (3 entries)<br>
-&nbsp;</b></li>
-   <li><a href="TentativeTraining.html">P.Mean: Tentative training schedule 
-   (created 2009-08-31)</a>. I've been asked to develop a series of training 
-   classes. Here's a first draft.</li>
-   <li><a href="StandardizedBetas.html">P.Mean: The controversy over 
-   standardized beta coefficients (created 2009-09-12)</a>. I have a client who 
-   is working on her dissertation. I always warn people working on dissertations 
-   or theses that they should listen more to what their committee members say 
-   about statistics than what I say about statistics. If the committee loves the 
-   statistical analysis and I hate it, you still get your degree. If I love the 
-   statistical analysis and the committee hates it, you get nothing. For this 
-   client, a committee member asked if she could produce standardized beta 
-   coefficients in her regression models. I helped her write an argument as to 
-   why the unstandardized coefficients are better, but the committee member gave 
-   a reasonable counter-argument, so there was no point in persisting. Still, it 
-   would be helpful here to outline some of the controversy over standardized 
-   beta coefficients.</li>
-   <li><a href="SeOddsRatio.html">P.Mean: Standard error for an odds ratio 
-   (created 2009-08-12)</a>. <i>I submitted an article to a journal that 
-   included some odds ratios and their confidence intervals. The journal editor 
-   said that their policy was to report standard errors and not confidence 
-   intervals. How do I do this for an odds ratio?<br>
-   </i><b><br>
-   July 2009 (3 entries)<br>
-&nbsp;</b></li>
-   <li><a href="ImputationFormula.html">P.Mean: Formula for multiple imputation 
-   (created 2009-07-24)</a>. I'm working on a project that involves multiple 
-   imputation, and I may have to program some of the work myself. I can use the 
-   R package MICE to generate the imputed data sets, but then I have to use a 
-   mixed linear model rather than a linear model. How do I combine the estimates 
-   from the multiple imputed data sets? The estimate is just the average of the 
-   individual estimates, but what about the standard error?</li>
-   <li><a href="AppropriateSampleSize.html">P.Mean: The first three steps in 
-   selecting an appropriate sample size (created 2009-07-20)</a>. I got an email 
-   last week from a client wanting to start a new research project looking at 
-   relationships between parenting beliefs and childhood behaviors. The 
-   description of the sorts of things to examine was quite elaborate, and it 
-   ended with the question &quot;<i>how many families would we need to have any 
-   significant differences if they exist?</i>&quot; Unfortunately, all the elaborate 
-   information provided did not include the information I would need to answer 
-   this question. Justifying a sample size usually involves three steps.</li>
-   <li><a href="MultipleTimePoints.html">P.Mean: Do multiple time points require 
-   a Bonferroni adjustment? (created 2009-07-18)</a>. <i>I'm a little confused as 
-   to when to apply the multiple comparisons correction. If I had a measure 
-   which compared blood pressure (say) between two groups after 7, 14 and 21 
-   days post procedure, would I need to adjust for multiple comparisons of the 
-   order three?<br>
-   <br>
-   </i><b>June 2009 (2 entries)</b><i><br>
-&nbsp;</i></li>
-   <li><a href="SelfEvaluation.html">P.Mean: The perils of self-evaluation 
-   (created 2009-06-30)</a>. A survey by New Scientist magazine examined a 
-   phenomenon called &quot;citation amnesia.&quot; This is the tendency of researchers to 
-   overlook previously published work in the bibliography of their articles. 
-   Most of the respondents felt that citation amnesia was a problem. &quot;Indeed, 
-   the vast majority of the survey's roughly 550 respondents -- 85% -- said that 
-   citation amnesia in the life sciences literature is an already-serious or 
-   potentially serious problem. A full 72% of respondents said their own work 
-   had been regularly or frequently ignored in the citations list of subsequent 
-   publications. Respondents' explanations of the causes range from 
-   maliciousness to laziness.&quot; There are several problems with this survey, 
-   though.</li>
-   <li><a href="UnmeasuredCovariate.html">P.Mean: What is the effect of an 
-   unmeasured covariate? (created 2009-06-09)</a>. Suppose you want to conduct 
-   an analysis of covariance, but you have data on some but not all of the 
-   covariates. What do you miss out on because of the unmeasured covariate. To 
-   understand this, we need to venture in to the world of partitioned matrices.<br>
-   <br>
-   <b>May 2009 (5 entries)<br>
-&nbsp;</b></li>
-   <li><a href="IomReport.html">P.Mean: Institute of Medicine report on conflict 
-   of interest (created 2009-05-24)</a>. The National Academies Press has 
-   announced the release of a report, Conflict of Interest in Medical Research, 
-   Education, and Practice, prepared by a special committee of the Institute of 
-   Medicine.</li>
-   <li>
-<a href="../09/DataIrbs.html">P.Mean: Data that IRBs should collect about 
-themselves (created 2009-05-22)</a>. Somone on the IRBForum (TS) asked about 
-what type of reports that an IRB should provide. There were a lot of good 
-comments. I encouraged a data centric approach to reporting. Here's what I 
-wrote.</li>
-   <li><a href="WebsiteLogo.html">P.Mean: Developing a website logo (created 
-   2009-05-22)</a>. I'm not big on graphic logos, but the Zotero website asked 
-   for one. So I wrote a short R program to create a simple logo.</li>
-   <li><a href="BadData.html">P.Mean: Analyzing bad data (created 2009-05-22)</a>. 
-   A discussion on the MEDSTATS email discussion group centered around a data 
-   set involving blood loss. Blood loss was quantified into categories with 
-   values of less than 250 ml, 250-500 ml, 500-1000 ml, and great than 1000 ml. 
-   The discussion centered on the inefficiencies created when continuous data is 
-   reported in categories like these.</li>
-   <li><a href="WebsiteTraffic.html">P.Mean: NYTimes advice on increasing 
-   website traffic (created 2009-05-11)</a>. The New York Times has an excellent 
-   blog entry on increasing traffic to your website. It is well worth reading if 
-   you write a lot of stuff for the web. I had a few additional comments which I 
-   added in the comment section of this webpage.<br>
-   <br>
-   <b>April 2009 (4 entries)</b><br>
-&nbsp;</li>
-   <li><a href="CaseControl.html">P.Mean: Is this a case-control design (created 
-   2009-04-28)</a>. <i>I have a stats study design question. If I were to look at the association 
-  of curly hair for instance with a rash on the forehead, I pick a case control 
-  study design. When I analyze this I find that 45% of kids in the clinic 
-  (surprise) had curly hair. But I look at two groups curly vs non curly and the 
-  outcome of interest is the rash on the forehead, instead of cases vs controls 
-  so now, has this become an observational study instead of case control? Hope I 
-  am making sense, this is only a theoretical question.</i></li>
-   <li><a href="CanIUseYou.html">P.Mean: Can I use you as a teaching example 
-   (created 2009-04-20)</a>. I frequently ask people for permission to talk 
-   about the projects I am helping them with, as they make great teaching 
-   examples. Some people say no, and that's fine. I do offer a discount for 
-   paying clients if you let me talk about this work on my web pages. One person 
-   raised an important issue when I asked. That person asked me to keep details 
-   about his/her organization anonymous if I was illustrating any boneheaded 
-   mistakes.</li>
-   <li><a href="NntForIndirectComparisons.html">P.Mean: Calculating NNT for 
-   indirect comparisons (created 2009-04-20)</a>. <i>To calculate the Numbers 
-   Needed to Treat (NNT) statistic for response rates when the effect size is 
-   shown as an odds ratio I carry out the following calculation: NNT = 
-   (1-(CER*(1-OR))) / ((1-CER)*(CER)*(1-OR)) [1] CER = Control Event Rate OR = 
-   Odds Ratio My query occurs when I am calculating this for an indirect 
-   comparison. So for example if I am comparing A and B vs a common comparator C 
-   I have the following set up: Trial 1 - A vs C: Response rate A = 0.8 Response 
-   rate C = 0.6. Trial 2 - B vs C: Response rate B = 0.7 Response rate C = 0.55. 
-   Indirect comparison gives (for example) A vs B odds ratio of 0.85 (0.6, 1.2). 
-   Is it valid to calculate the NNT by substituting CER = 0.8 and OR = 0.85 into 
-   the first equation [1]?</i></li>
-   <li><a href="NntForRates.html">P.Mean: Calculating NNT for infection rates 
-   (created 2009-04-15)</a>. <i>I will be leading an EBM teaching session for 
-   housestaff on an article about Methicillin-Resistant Staphylococcus aureus 
-   infection rates. I was planning to analyze it using the standard questions 
-   about therapy from the Users' Guides to the Medical Literature, but I was 
-   wondering if there should be any special considerations, given that therapy (MRSA 
-   screening &amp; eradication) was given at a hospital-wide level. For example, the 
-   results are presented as incidence of nosocomial MRSA infections per 
-   person-years -- can I convert this to a percentage, to churn out a number 
-   needed to treat (NNT)? Or is this statistically forbidden? Please let me know 
-   of any journal&nbsp; articles you're aware of that address the issue of 
-   studies taken at a&nbsp; hospital- or population-based level.<br>
-   <br>
-   </i><b>March 2009 (9 entries)</b><i><br>
-&nbsp;</i></li>
-   <li><a href="MontyHall.html">P.Mean: A sportswriter tackles the Monte Hall 
-   problem (created 2009-03-31)</a>. Joe Posnanski, a famous sports writer who 
-   loves statistics, wrote a couple of entries in his blog about the famous 
-   Monty Hall problem. I find the problem trite and annoying, but that probably 
-   says something more about me than about the problem. It is a very popular 
-   problem highly cited on the Internet and in many print publications. The 
-   Wikipedia quotes it from Parade magazine in 1990. Suppose you're on a game 
-   show, and you're given the choice of three doors: Behind one door is a car; 
-   behind the others, goats. You pick a door, say No. 1, and the host, who knows 
-   what's behind the doors, opens another door, say No. 3, which has a goat. He 
-   then says to you, &quot;Do you want to pick door No. 2?&quot; Is it to your advantage 
-   to switch your choice?</li>
-   <li><a href="ShortBiography.html">P.Mean: Short biography (created 
-   2009-03-30)</a>. At irregular intervals, I am asked to provide a brief 
-   biography of myself. Here is the latest version, along with links to earlier 
-   version. I usually put this up on my website, not out of vanity, but rather 
-   so that I would remember all the nice things that I am supposed to say about 
-   myself. If you need material to introduce me as a speaker, to help write a 
-   grant, or to get a better appreciation of who I am and what I do, please feel 
-   free to read and use any of this material.</li>
-   <li><a href="BusinessContacts.htm">P.Mean: Two business contacts (created 
-   2009-03-30)</a>. I got a phone call today from someone applying for a very 
-   high level job at Children's Mercy Hospital (CMH). I no longer work at CMH, 
-   but this person wanted to see what I knew about this position, the person 
-   making the hiring decision, the management climate at CMH, etc. I couldn't 
-   offer too much advice as this position was quite different from the areas I 
-   worked in, but I did try to help as best I could. During the discussion, this 
-   person mentioned two business contacts that I might want to follow up with to 
-   help build my consulting customer base.</li>
-   <li><a href="BindingImage.html">P.Mean: DNA binding image (created 
-   2009-03-25)</a>. There is an important application of information theory in 
-   DNA binding that I discussed at my old website. I may want to expand that 
-   discussion into an article for Chance Magazine. If I do, here is an open 
-   source image of DNA binding that might be useful.</li>
-   <li><a href="LoveToWrite.html">P.Mean: I love to write (or my newsletters are 
-   getting longer) (created 2009-03-19)</a>. In high school and college I 
-   dreaded writing term papers. Something has changed because now I love to 
-   write. I started a monthly newsletter, and it's length seems to be growing 
-   with each month. Here are some statistics on newsletter lengths.</li>
-   <li><a href="SurveyScale.html">P.Mean: Five points or seven points on a 
-   survey scale (created 2009-03-12)</a>. <i>I am creating a survey and wanted 
-   to know if anybody can suggest a scale: both the wording and 5 versus 7 
-   point.</i></li>
-   <li><a href="JournalClub.html">P.Mean: Good papers for a journal club 
-   (created 2009-03-07)</a>. <i>I work as a biostatistician within a medical research area and I am planning on starting a stats/research methods journal club. This would be aimed at postgraduate students (from both science and medical degree background), early career academic researchers (again, they come from both science and medical backgrounds), and clinical researchers (medical doctors from areas such as critical care and gastroenterology). In conjunction with published work from their research areas I wish to use papers that present fairly fundamental statistical concepts in an easy to read manner. I imagine focusing more on theoretical/philosophical issues, 
-   rather than 'this is how you do an ANOVA' type treatises. Does anyone have any favourite such papers that they find useful for 
-   researchers?</i></li>
-   <li><a href="LocatingRoc.html">P.Mean: Locating individual points on an ROC 
-   curve (created 2009-03-05)</a>. In a project examining a diagnostic test, I 
-   was asked to develop an ROC curve. That is fairly easy to do. Six months 
-   later, though, I was asked to designate a particular point on the curve 
-   corresponding to a cutpoint of 7. This is a bit ambiguous, but in re-reading 
-   the paper, it was obvious from the context that this meant locating the point 
-   on the curve where a positive test result of 7 or less (alternatively a 
-   negative test result of 8 or more) occurred. It takes a while to get oriented 
-   properly on an ROC curve. Here's what I did.</li>
-   <li><a href="SurprisalMatrix.html">P.Mean: The surprisal matrix and 
-   applications to exploration of very large discrete data sets (created 
-   2009-03-04)</a>. The surprisal, defined as the negative of the base 2 
-   logarithm of a probability, is a fundamental component used in the 
-   calculation of entropy. In this talk, I will define a surprisal matrix for a 
-   data set consisting of multiple discrete variables, possibly with different 
-   supports. The surprisal matrix is useful in identifying areas of high 
-   heterogeneity in such a data set, which often corresponds to interesting and 
-   unusual patterns among the observations or among the variables. I will 
-   illustrate two applications of the surprisal matrix: monitoring data quality 
-   in a large stream of fixed format text data, and examining consensus in the 
-   evaluation of sperm morphology.<br>
-   <br>
-   <b>February 2009 (3 entries)</b><br>
-&nbsp;</li>
-   <li><a href="FewerThanTen.html">P.Mean: Fewer than 10 events per variable 
-   (created 2009-02-18)</a>. <i>I am in the 
-  process of advising on the design of a study using logistic regression. There 
-   are five confounding variables and a treatment variable. If I apply the rule 
-   that you need 10 events per variable (EPV), then I need 60 events. I expect 
-   that the probability of observing an event is 40%. This means that I'll need 
-   data on 60 / 0.4 = 150 patients. I can only collect data on 90 patients, and 
-   that sample size gives me more than adequate power. Since my power will be 
-   fine, can I ignore the rule of thumb about 10 EPV?</i></li>
-   <li><a href="NegativeAutocorrelation.html">P.Mean: Interpreting a negative 
-   autocorrelation (created 2009-02-16)</a>. <i>I have two questions regarding 
-   autocorrelation: if there is negative autocorrelation is it correct to say 
-   that &quot;past values decreasingly influence future values? Why is positive 
-   auto-correlation considered more important by most statisticians.</i></li>
    <li><a href="AcknowledgingContributions.html">P.Mean: Acknowledging the 
-   contributions of a statistician (created 2009-02-16)</a>. <i>A while back you 
-   assisted me with stats on my paper. I am finally ready to submit and wanted 
-   to know how I should appropriately acknowledge you for your participation 
-   since you are no longer at Children's Mercy Hospital.</i><br>
-   <br>
-   <b>January 2009 (5 entries)</b><br>
-&nbsp;</li>
-   <li><a href="InformationCalibration.html">P.Mean: Calibrating information 
-   using a two by two table (created 2009-01-28)</a>. In a previous webpage, I discussed the concept of joint entropy, 
-  conditional entropy, and information. The information for two measurements is 
-  zero if the two measurements are statistically independent. Information 
-  increases between two measurements as the degree of dependence (either 
-  positive or negative) increases. I thought it would be helpful to visualize 
-  this relationship graphically.</li>
    <li><a href="AdjustedHazardRatio.html">P.Mean: Changes in the adjusted hazard 
-   ratio, but not in the precision of the ratio (created 2009-01-19)</a>. <i>
-   Does anyone know a good reference on why, in Cox regression of a clinical 
-   trial, including covariates often changes the treatment hazard ratio rather 
-   than narrowing the confidence interval? I can remember attending a talk on 
-   this years ago, but cannot remember the details.</i></li>
-   <li><a href="MathematicalGraphs.html">P.Mean: Drawing simple mathematical 
-   graphs (created 2009-01-14)</a>. <i>I'm looking for a good, basic, relatively 
-   easy-to-use graphing program, to draw simple mathematical graphs one would 
-   see in basic calculus, algebra, statistics. Something similar to Paint, but a 
-   step or two up from it, and that I could copy and paste images, venn 
-   diagrams, etc., into a Word file, and the quality would be publication 
-   quality. I want something that is MUCH more versatile than one would get 
-   using Excel or similar.</i></li>
+   <li><a href="AppropriateSampleSize.html">P.Mean: The first three steps in 
+   <li><a href="BadData.html">P.Mean: Analyzing bad data (created 2009-05-22)</a>. 
+   <li><a href="BindingImage.html">P.Mean: DNA binding image (created 
+   <li><a href="BioinformaticsDegree.html">P.Mean: New Bioinformatics degree 
+   <li><a href="BusinessContacts.htm">P.Mean: Two business contacts (created 
+   <li><a href="CanIStop.html">P.Mean: Can I stop this study? (created 
+   <li><a href="CanIUseYou.html">P.Mean: Can I use you as a teaching example 
+   <li><a href="CaseControl.html">P.Mean: Is this a case-control design (created 
+   <li><a href="ExcelMultinomial.html">P.Mean: Generating multinomial random 
+   <li><a href="FewerThanTen.html">P.Mean: Fewer than 10 events per variable 
+   <li><a href="ImputationFormula.html">P.Mean: Formula for multiple imputation 
+   <li><a href="IneligiblePatients.html">P.Mean: Sneaking ineligible patients 
+   <li><a href="InformationCalibration.html">P.Mean: Calibrating information 
+   <li><a href="IomReport.html">P.Mean: Institute of Medicine report on conflict 
    <li><a href="JointEntropy.html">P.Mean: A simple example of joint and 
-   conditional entropy (created 2009-01-07)</a>. In a project involving sperm 
-   morphology classification, I have found that the concept of entropy very 
-   useful in analyzing the data and describing certain patterns. I want to 
-   extend the work to include joint and conditional entropy. I wanted to start 
-   with a simple data set, so I downloaded a file from the Data and Story 
-   Library website. There is an interesting file &quot;High Fiber Diet Plan&quot; that 
-   provides a useful way to explore joint and conditional entropy.</li>
+   <li><a href="JournalClub.html">P.Mean: Good papers for a journal club 
+   <li><a href="JumpStart.html">P.Mean: Jump start statistics for beginning 
+   <li><a href="LikertAnova.html">P.Mean: Use of Likert data with ANOVA (created 
+   <li><a href="LocatingRoc.html">P.Mean: Locating individual points on an ROC 
+   <li><a href="LoveToWrite.html">P.Mean: I love to write (or my newsletters are 
+   <li><a href="MathematicalGraphs.html">P.Mean: Drawing simple mathematical 
+   <li><a href="MontyHall.html">P.Mean: A sportswriter tackles the Monte Hall 
+   <li><a href="MultipleTimePoints.html">P.Mean: Do multiple time points require 
+   <li><a href="NegativeAutocorrelation.html">P.Mean: Interpreting a negative 
+   <li><a href="NntForIndirectComparisons.html">P.Mean: Calculating NNT for 
+   <li><a href="NntForRates.html">P.Mean: Calculating NNT for infection rates 
+   <li><a href="NormalPlot.html">P.Mean: What is a normal probability plot? 
    <li><a href="PowerpointDefense.html">P.Mean: Maybe Powerpoint isn't so bad 
-   (created 2009-01-06)</a>. I have been harshly critical of PowerPoint in the 
-   past (though I did post a rejoinder from one of the readers of my old 
-   website). Most of my criticisms were inspired by Edward Tufte, who wrote an 
-   article for Wired magazine (Powerpoint is evil) and a short monograph (The 
-   Cognitive Style of Powerpoint). In preparing a newsletter article about 
-   Edward Tufte and his new book, Beautiful Evidence, I came across some 
-   reviewers who take Dr. Tufte to task for his harsh criticisms of Powerpoint.</li>
-</ol>
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
- <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png" width="80" height="15"></a> 
- This work is licensed under a
- <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative 
- Commons Attribution 3.0 United States License</a>. This page was written by 
- Steve Simon and was last modified on
- <!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y-%m-%d" startspan -->2017-06-15<!--webbot bot="Timestamp" i-checksum="12409" endspan -->. Need more 
- information? I have a page with <a href="../GeneralHelp.html">general help 
- resources</a>. You can also browse for pages similar to this one at </p>
-
-</body>
-
-</html>
+   <li><a href="RandomMath.html">P.Mean: Randomly generating simple math 
+   <li><a href="RocLayout.html">P.Mean: Data layout for an ROC curve (created 
+   <li><a href="RotatingLocations.html">P.Mean: Rotating locations (created 
+   <li><a href="SeOddsRatio.html">P.Mean: Standard error for an odds ratio 
+   <li><a href="SelfEvaluation.html">P.Mean: The perils of self-evaluation 
+   <li><a href="SensitivityMoreImportant.html">P.Mean: Getting a good cut-off 
+   <li><a href="ShortBiography.html">P.Mean: Short biography (created 
+   <li><a href="StandardizedBetas.html">P.Mean: The controversy over 
+   <li><a href="StatisticGods.html">P.Mean: Are we statisticians gods? (created 
+   <li><a href="SurprisalMatrix.html">P.Mean: The surprisal matrix and 
+   <li><a href="SurveyScale.html">P.Mean: Five points or seven points on a 
+   <li><a href="TentativeTraining.html">P.Mean: Tentative training schedule 
+   <li><a href="ThreeArmPower.html">P.Mean: Power for a three arm experiment 
+   <li><a href="TooSensitive.html">P.Mean: The problem with being too sensitive 
+   <li><a href="UnmeasuredCovariate.html">P.Mean: What is the effect of an 
+   <li><a href="WebsiteLogo.html">P.Mean: Developing a website logo (created 
+   <li><a href="WebsiteTraffic.html">P.Mean: NYTimes advice on increasing 

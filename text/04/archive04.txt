@@ -1,216 +1,118 @@
-<html>
- <head>
-  <meta http-equiv="Content-Language" content="en-us">
-  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-  <meta name="ProgId" content="FrontPage.Editor.Document">
-  <title>Stats: Archive (2004)</title>
- </head>
- 
- <body><!--start-->
-  <p><strong>Archive 2004, 118 entries</strong></p>
-  <p>Also be sure to look at the list of weblog entries <a href="../TopicList.html">organized by 
-  topic</a> and the archives for  <a href="archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>, <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>, <a href="../05/Archive05.html">2005</a>, <a href="../03/Archive03.html">2003</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.</p>
-  <p><a href="#Dec">December</a> | <a href="#Nov">November</a> | <a href="#Oct">October</a>
-   | <a href="#Sep">September</a> | <a href="#Aug">August</a> | <a href="#Jul">July</a>
-   | <a href="#Jun">June</a> | <a href="#May">May</a> | <a href="#Apr">April</a>
-   | <a href="#Mar">March</a> | <a href="#Feb">February</a> (no entries in the 
-weblog prior to February 3)</p>
-  <p><b><a name="Dec">December</a> 2004 (11 entries)</b></p>
-  <ul>
-   <li>
-   <a href="SideEffects.html">Testing for side effects (2004-12-29)</a><li>
-   <a href="WebLinksDecember.html">Recommended web links for the month of December 
-   (2004-12-28)</a><li>
-   <a href="DesigningQuestionnaire.html">Designing a questionnaire (2004-12-24)</a><li>
-   <a href="SimpsonsParadox.html">Simpson's Paradox (2004-12-22)</a><li>
-   <a href="SubgroupAnalysis.html">Subgroup analysis (2004-12-21)</a><li>
-   <a href="BoxQuote.html">George Box Quote (2004-12-20)</a><li>
-   <a href="NeymanBias.html">Neyman bias (2004-12-15)</a><li>
-   <a href="PrayerStudies.html">Prayer studies (2004-12-13)</a><li>
-   <a href="SurromedDecisionSite.html">Surromed and the DecisionSite S-Plus Server Solution 
-   (2004-12-08)</a><li>
-   <a href="SPSSversion13.html">New in SPSS version 13.0 (2004-12-07)</a><li>
-   <a href="EntrenchedBeliefs.html">Entrenched beliefs (2004-12-01)</a></ul>
-  <p><b> <a name="Nov">November</a> 2004 (12 entries)</b></p>
-  <ul>
-   <li>
-   <a href="Heterogeneity.html">Measuring heterogeneity in meta-analysis 
-   (2004-11-29)</a><li>
-   <a href="UnequalSampleSizes.html">Unequal sample sizes (2004-11-24)</a><li>
-   <a href="OutcomesResearch.html">Outcomes research (2004-11-24)</a><li>
-   <a href="GoodBook.html">Can you recommend a good book? (2004-11-24)</a><li>
-   <a href="EquipoiseAlternatives.html">Alternatives to equipoise (2004-11-24)</a><li>
-   <a href="MultivariateModels.html">Discrepancy between univariate and multivariate models 
-   (2004-11-12)</a><li>
-   <a href="MultinomialProportions.html">Testing multinomial proportions 
-   (2004-11-09)</a><li>
-   <a href="ComplexDesigns.html">Confidence intervals for complex research designs 
-   (2004-11-05)</a><li>
-   <a href="NoMechanism.html">Research on therapies that have no known mechanism of action 
-   (2004-11-04)</a>
-   <li>
-   <a href="AnecdotalInformation.html">Anecdotal information (2004-11-02)</a><li>
-   <a href="DeafChairs.html">Speech: Deaf chairs, lost cake recipes, and a letter from Maria. 
-   (2004-11-02)</a><li>
-   <a href="UnblindingStudy.html">Unblinding at the end of a study (2004-11-01)</a></ul>
-  <p><b> <a name="Oct">October</a> 2004 (2 entries)</b></p>
-  <blockquote>
-       <p>There are only two entries this month because of all the time I took off from work. My 
-       wife and I just adopted a little boy from Russia. You can find details about this on my
-       <a href="../03/update.html">personal update page</a>.</p>
-  </blockquote>
-  <ul>
-   <li>
-   <a href="AutomatingAnalyses.html">Automating statistical analyses (2004-10-25)</a><li>
-   <a href="UnnecessaryTests.html">Unnecessary diagnostic tests (2004-10-25)</a></ul>
-  <p><b> <a name="Sep">September</a> 2004 (13 entries)</b></p>
-  <ul>
-   <li>
-   <a href="MistakesEBM.html">Top six mistakes in teaching EBM (2004-09-24)</a><li>
-   <a href="Craniosacral.html">Craniosacral therapy (2004-09-24)</a><li>
-   <a href="GoldStandard.html">Speech: Is the randomized trial the gold standard for research? 
-   (2004-09-23)</a><li>
-   <a href="MultipleDF.html">Multiple degree of freedom tests (2004-09-22)</a><li>
-   <a href="OrdinalLogistic.html">Sample size for an ordinal outcome (2004-09-22)</a><li>
-   <a href="PilotStudy.html">Design and analysis of pilot studies (2004-09-17)</a><li>
-   <a href="BestModel.html">What is the best statistical model? (2004-09-17)</a><li>
-   <a href="Rates.html">Rates versus proportions (2004-09-15)</a><li>
-   <a href="PrinterFriendly.html">Printer friendly versions of web pages 
-   (2004-09-13)</a><li>
-   <a href="icf.html">Seminar notes: International Classification of Functioning, Disability, and 
-   Health (2004-09-10)</a><li>
-   <a href="CronbachAlpha.html">What's a good value for Cronbach's Alpha? 
-   (2004-09-09)</a><li>
-   <a href="FullBodyScan.html">Full-Body Computed Tomography Screening 
-   (2004-09-06)</a><li>
-   <a href="nih.html">Seminar notes: Nitty Gritty NIH (2004-09-03)</a></ul>
-  <p><b> <a name="Aug">August</a> 2004 (12 entries)</b></p>
-  <ul>
-   <li>
-   <a href="information1.html">More on information theory models (2004-08-31)</a><li>
-   <a href="ReportCards.html">Report cards (2004-08-27)</a><li>
-   <a href="software.html">Statistical software (2004-08-25)</a><li>
-   <a href="FullText.html">Free Full Text on the Web (2004-08-24)</a><li>
-   <a href="SelectionBias.html">Selection bias (2004-08-24)</a><li>
-   <a href="Zhenya.html">Nicholas Zhenya Simon (2004-08-24)</a><li>
-   <a href="jsm2004.htm">Weblog entries from the 2004 JSM (2004-08-7-11)</a><li>
-   <a href="pivot.html">Microsoft Excel Pivot Tables (2004-08-05)</a><li>
-   <a href="diagnostic.html">Unbalanced sample sizes for evaluating a diagnostic test 
-   (2004-08-05)</a><li>
-   <a href="volunteer.html">Speech: So you want to volunteer for a research study? 
-   (2004-08-04)</a><li>
-   <a href="bimodality.html">Searching for bimodality (2004-08-04)</a><li>
-   <a href="SecondaryUses.html">Seminar notes: Secondary Uses of Data 
-   (2004-08-02)</a></ul>
-  <p><b> <a name="Jul">July</a> 2004 (21 entries)</b></p>
-  <ul>
-   <li>
-   <a href="irb.html">Submitting a research protocol to the IRB (2004-07-29)</a><li>
-   <a href="stata.html">Statalist (2004-07-29)</a><li>
-   <a href="blind.html">Breaking the blind (2004-07-29)</a><li>
-   <a href="auc.html">Evaluating the AUC for an ROC curve (2004-07-27)</a><li>
-   <a href="RandomID.html">Random identification numbers (2004-07-26)</a><li>
-   <a href="mechanism.html">Is there a mechanism? (2004-07-23)</a><li>
-   <a href="baseline.html">Sample size calculations in studies with a baseline 
-   (2004-07-23)</a><li>
-   <a href="retrospective.html">Retrospective chart reviews and IRB approval 
-   (2004-07-21)</a><li>
-   <a href="conflict1.html">Conflict of interest (2004-07-20)</a><li>
-   <a href="aliasing.html">Aliasing patterns (2004-07-19)</a><li>
-   <a href="adaptive.html">Adaptive randomization (2004-07-15)</a><li>
-   <a href="randomization.html">Randomization test (2004-07-14)</a><li>
-   <a href="ProvisionalMeans.html">Provisional means algorithm (2004-07-09)</a><li>
-   <a href="updates.html">Recent updates (2004-07-08)</a><li>
-   <a href="ConfidenceIntervals.html">Confidence intervals for proportions 
-   (2004-07-08)</a><li>
-   <a href="qualitative.html">Planning a qualitative research study (2004-07-06)</a><li>
-   <a href="../library/qualitative1.asp">Bibliography of resources for qualitative research studies 
-   (2004-07-06)</a><li>
-   <a href="SampleSizeDiagnostic.html">Sample size for a diagnostic test 
-   (2004-07-05)</a><li>
-   <a href="EarlyStoppingAnimal.html">Early stopping in an animal experiment 
-   (2004-07-01)</a><li>
-   <a href="../library/EarlyStopping1.asp">Early Stopping Bibliography 
-   (2004-07-01)</a><li>
-   <a href="powerpoint2.html">I hate PowerPoint talk (2004-07-01)</a></ul>
-  <p><b> <a name="Jun">June</a> 2004 (13 entries)</b></p>
-  <ul>
-   <li>
-   <a href="inVitro.html">In vitro fertilization prayer study (2004-06-29)</a><li>
-   <a href="nonlinear.html">Nonlinear Least Squares in S-plus and R (2004-06-28)</a><li>
-   <a href="placebo.html">Excluding placebo responders (2004-06-25)</a><li>
-   <a href="PublicationBias2.html">Publication bias (2004-06-25)</a><li>
-   <a href="PapSmear.html">Pap smears for women without a cervix (2004-06-24)</a><li>
-   <a href="xml.html">The impact of XML on Statistics (2004-06-23)</a><li>
-   <a href="missing.html">Missing values (2004-06-22)</a><li>
-   <a href="ArrayAnalyzer.html">S+ArrayAnalyzer web seminar (2004-06-22)</a><li>
-   <a href="mcnemar.html">McNemar's Test (2004-06-17)</a><li>
-   <a href="ebcam.html">Evidence Based Complementary and Alternative Medicine 
-   (2004-06-15)</a><li>
-   <a href="datamining.html">Data Mining with Clementine (2004-06-15)</a><li>
-   <a href="consulting.html">Statistical consulting (2004-06-14)</a><li>
-   <a href="categorical.html">Categorical variables in a logistic regression model 
-   (2004-06-01)</a></ul>
-  <p><b> <a name="May">May</a> 2004 (14 entries)</b></p>
-  <ul>
-   <li>
-   <a href="smoking.html">Health effects of smoking (2004-05-31)</a><li>
-   <a href="psa.html">Prostate Specific Antigen testing (2004-05-31)</a><li>
-   <a href="montecarlo.html">Monte Carlo methods (2004-05-31)</a><li>
-   <a href="cluster.html">Sample size for cluster randomized trials (2004-05-27)</a><li>
-   <a href="percentage.html">Analyzing percentage data (2004-05-24)</a><li>
-   <a href="samplesize.html">Sample size calculation example (2004-05-20)</a><li>
-   <a href="powerpoint.html">I hate PowerPoint (2004-05-19)</a><li>
-   <a href="goodness.html">Goodness of fit test (2004-05-18)</a><li>
-   <a href="survival.html">Sample size for a survival data model (2004-05-13)</a><li>
-   <a href="spss.html">Advanced SPSS methods (2004-05-12)</a><li>
-   <a href="information.html">Information theory models (2004-05-11)</a><li>
-   <a href="clt.html">Central Limit Theorem (2004-03-09)</a><li>
-   <a href="acuity.html">Acuity microarray analysis software (2004-05-06)</a><li>
-   <a href="flaws.html">Overlooking one's own flaws (2004-05-03)</a></ul>
-  <p><b> <a name="Apr">April</a> 2004 (9 entries)</b></p>
-  <ul>
-   <li>
-   <a href="DegreesFreedom.html">Degrees of freedom (2004-04-15)</a><li>
-   <a href="Wikipedia.html">The Wikipedia (2004-04-15)</a><li>
-   <a href="FocusGroups.html">Focus groups and qualitative research (2004-04-13)</a><li>
-   <a href="ClinicallyTrivial.html">Clinically trivial effects (2004-04-12)</a><li>
-   <a href="OneTail.html">One-tailed p-values (2004-04-12)</a><li>
-   <a href="PublicationBias.html">A serious problem of publication bias 
-   (2004-04-09)</a><li>
-   <a href="interactions.html">Interactions in logistic regression (2004-04-08)</a><li>
-   <a href="criticisms.html">Criticisms of randomized clinical trials 
-   (2004-04-07)</a><li>
-   <a href="temporality.html">Temporality of causes (2004-04-07)</a></ul>
-  <p><b> <a name="Mar">March</a> 2004 (6 entries)</b></p>
-  <ul>
-   <li>
-   <a href="constraints.html">Constraints on randomization (2004-03-23)</a><li>
-   <a href="cardiology.html">Evidence Based lessons learned from Cardiology 
-   (2004-03-18)</a><li>
-   <a href="microarray.html">Microarray data analysis (2004-03-18)</a><li>
-   <a href="em.html">EM Algorithm (2004-03-15)</a><li>
-   <a href="quality.html">Quality control in the laboratory (2004-03-09)</a><li>
-   <a href="parametric.html">Parametric versus nonparametric tests (2004-03-09)</a></ul>
-  <p><b> <a name="Feb">February</a> 2004 (5 entries)</b></p>
-  <ul>
-   <li>
-   <a href="conflict.html">Conflict of Interest (2004-02-25)</a><li>
-   <a href="ethics.html">Evidence Based Medicine and Ethics (2004-02-20)</a><li>
-   <a href="nnh.html">Number Needed to Harm Examples (2004-02-18)</a><li>
-   <a href="enumerative.html">Enumerative and Analytic Studies (2004-02-05)</a><li>
-   <a href="educational.html">Educational Resources (2004-02-03)</a></ul>
-  <p>(no entries in the weblog prior to February 3)</p>
-  <p><a href="../TopicList.html">[Go to full topic list]</a> <a href="../weblog.html">[Read 
-  current weblog entries]</a> This web page was written by Steve Simon, edited by Steve Simon, and was last modified on 
-  <!--webbot bot="Timestamp" s-type="EDITED" s-format="%m/%d/%Y" startspan -->04/01/2010<!--webbot bot="Timestamp" i-checksum="12501" endspan -->.</p>
-  <p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
-  <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/80x15.png"></a> This work is licensed under a
-  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">
-  Creative Commons Attribution 3.0 United States License</a>. It was written by 
-Steve Simon  and was last modified on  
-        <!--webbot bot="Timestamp"
-        S-Type="EDITED" S-Format="%Y-%m-%d" startspan -->2010-04-01<!--webbot bot="Timestamp" i-checksum="12216" endspan -->. Send feedback to ssimon at cmh 
- dot edu or click on the email link at the top of the page.</p>
- </body>
-</html>
+"../library/EarlyStopping1.asp">Early Stopping Bibliography 
+"../library/qualitative1.asp">Bibliography of resources for qualitative research studies 
+"AnecdotalInformation.html">Anecdotal information (2004-11-02)</a><li>
+"ArrayAnalyzer.html">S+ArrayAnalyzer web seminar (2004-06-22)</a><li>
+"AutomatingAnalyses.html">Automating statistical analyses (2004-10-25)</a><li>
+"BestModel.html">What is the best statistical model? (2004-09-17)</a><li>
+"BoxQuote.html">George Box Quote (2004-12-20)</a><li>
+"ClinicallyTrivial.html">Clinically trivial effects (2004-04-12)</a><li>
+"ComplexDesigns.html">Confidence intervals for complex research designs 
+"ConfidenceIntervals.html">Confidence intervals for proportions 
+"Craniosacral.html">Craniosacral therapy (2004-09-24)</a><li>
+"CronbachAlpha.html">What's a good value for Cronbach's Alpha? 
+"DeafChairs.html">Speech: Deaf chairs, lost cake recipes, and a letter from Maria. 
+"DegreesFreedom.html">Degrees of freedom (2004-04-15)</a><li>
+"DesigningQuestionnaire.html">Designing a questionnaire (2004-12-24)</a><li>
+"EarlyStoppingAnimal.html">Early stopping in an animal experiment 
+"EntrenchedBeliefs.html">Entrenched beliefs (2004-12-01)</a></ul>
+"EquipoiseAlternatives.html">Alternatives to equipoise (2004-11-24)</a><li>
+"FocusGroups.html">Focus groups and qualitative research (2004-04-13)</a><li>
+"FullBodyScan.html">Full-Body Computed Tomography Screening 
+"FullText.html">Free Full Text on the Web (2004-08-24)</a><li>
+"GoldStandard.html">Speech: Is the randomized trial the gold standard for research? 
+"GoodBook.html">Can you recommend a good book? (2004-11-24)</a><li>
+"Heterogeneity.html">Measuring heterogeneity in meta-analysis 
+"MistakesEBM.html">Top six mistakes in teaching EBM (2004-09-24)</a><li>
+"MultinomialProportions.html">Testing multinomial proportions 
+"MultipleDF.html">Multiple degree of freedom tests (2004-09-22)</a><li>
+"MultivariateModels.html">Discrepancy between univariate and multivariate models 
+"NeymanBias.html">Neyman bias (2004-12-15)</a><li>
+"NoMechanism.html">Research on therapies that have no known mechanism of action 
+"OneTail.html">One-tailed p-values (2004-04-12)</a><li>
+"OrdinalLogistic.html">Sample size for an ordinal outcome (2004-09-22)</a><li>
+"OutcomesResearch.html">Outcomes research (2004-11-24)</a><li>
+"PapSmear.html">Pap smears for women without a cervix (2004-06-24)</a><li>
+"PilotStudy.html">Design and analysis of pilot studies (2004-09-17)</a><li>
+"PrayerStudies.html">Prayer studies (2004-12-13)</a><li>
+"PrinterFriendly.html">Printer friendly versions of web pages 
+"ProvisionalMeans.html">Provisional means algorithm (2004-07-09)</a><li>
+"PublicationBias.html">A serious problem of publication bias 
+"PublicationBias2.html">Publication bias (2004-06-25)</a><li>
+"RandomID.html">Random identification numbers (2004-07-26)</a><li>
+"Rates.html">Rates versus proportions (2004-09-15)</a><li>
+"ReportCards.html">Report cards (2004-08-27)</a><li>
+"SPSSversion13.html">New in SPSS version 13.0 (2004-12-07)</a><li>
+"SampleSizeDiagnostic.html">Sample size for a diagnostic test 
+"SecondaryUses.html">Seminar notes: Secondary Uses of Data 
+"SelectionBias.html">Selection bias (2004-08-24)</a><li>
+"SideEffects.html">Testing for side effects (2004-12-29)</a><li>
+"SimpsonsParadox.html">Simpson's Paradox (2004-12-22)</a><li>
+"SubgroupAnalysis.html">Subgroup analysis (2004-12-21)</a><li>
+"SurromedDecisionSite.html">Surromed and the DecisionSite S-Plus Server Solution 
+"UnblindingStudy.html">Unblinding at the end of a study (2004-11-01)</a></ul>
+"UnequalSampleSizes.html">Unequal sample sizes (2004-11-24)</a><li>
+"UnnecessaryTests.html">Unnecessary diagnostic tests (2004-10-25)</a></ul>
+"WebLinksDecember.html">Recommended web links for the month of December 
+"Wikipedia.html">The Wikipedia (2004-04-15)</a><li>
+"Zhenya.html">Nicholas Zhenya Simon (2004-08-24)</a><li>
+"acuity.html">Acuity microarray analysis software (2004-05-06)</a><li>
+"adaptive.html">Adaptive randomization (2004-07-15)</a><li>
+"aliasing.html">Aliasing patterns (2004-07-19)</a><li>
+"auc.html">Evaluating the AUC for an ROC curve (2004-07-27)</a><li>
+"baseline.html">Sample size calculations in studies with a baseline 
+"bimodality.html">Searching for bimodality (2004-08-04)</a><li>
+"blind.html">Breaking the blind (2004-07-29)</a><li>
+"cardiology.html">Evidence Based lessons learned from Cardiology 
+"categorical.html">Categorical variables in a logistic regression model 
+"clt.html">Central Limit Theorem (2004-03-09)</a><li>
+"cluster.html">Sample size for cluster randomized trials (2004-05-27)</a><li>
+"conflict.html">Conflict of Interest (2004-02-25)</a><li>
+"conflict1.html">Conflict of interest (2004-07-20)</a><li>
+"constraints.html">Constraints on randomization (2004-03-23)</a><li>
+"consulting.html">Statistical consulting (2004-06-14)</a><li>
+"criticisms.html">Criticisms of randomized clinical trials 
+"datamining.html">Data Mining with Clementine (2004-06-15)</a><li>
+"diagnostic.html">Unbalanced sample sizes for evaluating a diagnostic test 
+"ebcam.html">Evidence Based Complementary and Alternative Medicine 
+"educational.html">Educational Resources (2004-02-03)</a></ul>
+"em.html">EM Algorithm (2004-03-15)</a><li>
+"enumerative.html">Enumerative and Analytic Studies (2004-02-05)</a><li>
+"ethics.html">Evidence Based Medicine and Ethics (2004-02-20)</a><li>
+"flaws.html">Overlooking one's own flaws (2004-05-03)</a></ul>
+"goodness.html">Goodness of fit test (2004-05-18)</a><li>
+"icf.html">Seminar notes: International Classification of Functioning, Disability, and 
+"inVitro.html">In vitro fertilization prayer study (2004-06-29)</a><li>
+"information.html">Information theory models (2004-05-11)</a><li>
+"information1.html">More on information theory models (2004-08-31)</a><li>
+"interactions.html">Interactions in logistic regression (2004-04-08)</a><li>
+"irb.html">Submitting a research protocol to the IRB (2004-07-29)</a><li>
+"jsm2004.htm">Weblog entries from the 2004 JSM (2004-08-7-11)</a><li>
+"mcnemar.html">McNemar's Test (2004-06-17)</a><li>
+"mechanism.html">Is there a mechanism? (2004-07-23)</a><li>
+"microarray.html">Microarray data analysis (2004-03-18)</a><li>
+"missing.html">Missing values (2004-06-22)</a><li>
+"montecarlo.html">Monte Carlo methods (2004-05-31)</a><li>
+"nih.html">Seminar notes: Nitty Gritty NIH (2004-09-03)</a></ul>
+"nnh.html">Number Needed to Harm Examples (2004-02-18)</a><li>
+"nonlinear.html">Nonlinear Least Squares in S-plus and R (2004-06-28)</a><li>
+"parametric.html">Parametric versus nonparametric tests (2004-03-09)</a></ul>
+"percentage.html">Analyzing percentage data (2004-05-24)</a><li>
+"pivot.html">Microsoft Excel Pivot Tables (2004-08-05)</a><li>
+"placebo.html">Excluding placebo responders (2004-06-25)</a><li>
+"powerpoint.html">I hate PowerPoint (2004-05-19)</a><li>
+"powerpoint2.html">I hate PowerPoint talk (2004-07-01)</a></ul>
+"psa.html">Prostate Specific Antigen testing (2004-05-31)</a><li>
+"qualitative.html">Planning a qualitative research study (2004-07-06)</a><li>
+"quality.html">Quality control in the laboratory (2004-03-09)</a><li>
+"randomization.html">Randomization test (2004-07-14)</a><li>
+"retrospective.html">Retrospective chart reviews and IRB approval 
+"samplesize.html">Sample size calculation example (2004-05-20)</a><li>
+"smoking.html">Health effects of smoking (2004-05-31)</a><li>
+"software.html">Statistical software (2004-08-25)</a><li>
+"spss.html">Advanced SPSS methods (2004-05-12)</a><li>
+"stata.html">Statalist (2004-07-29)</a><li>
+"survival.html">Sample size for a survival data model (2004-05-13)</a><li>
+"temporality.html">Temporality of causes (2004-04-07)</a></ul>
+"updates.html">Recent updates (2004-07-08)</a><li>
+"volunteer.html">Speech: So you want to volunteer for a research study? 
+"xml.html">The impact of XML on Statistics (2004-06-23)</a><li>

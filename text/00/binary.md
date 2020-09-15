@@ -1,7 +1,6 @@
 ---
 title: Binary outcome sample size calculations
 author: Steve Simon
-source: http://www.pmean.com/00/binary.html
 date: 2000-08-23
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-****[StATS]:** Binary outcome sample size
-calculations (created 2000-08-23)**
-
 *Dear Professor Mean, I have to calculate a sample size for a binary
 outcome variable. The research study is on breast feeding failures
 within 7 to 10 days of birth for mothers who intended to breast feed.
@@ -99,30 +95,4 @@ Dear Baffled,
     known."* Published November 29, 1999.
     www.med.mcgill.ca/epidemiology/Joseph/diagsmp.pdf
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Binary outcome sample size
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/binary.html) of this page on my [original website](http://www.pmean.com/original_site.html).

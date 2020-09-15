@@ -1,7 +1,6 @@
 ---
 title: 
 author: Steve Simon
-source: http://www.pmean.com/00/causation.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Corroborating evidence
 output: html_document
 ---
-****[StATS]:(January 27, 2000)** Causation.**
-
 *Dear Professor Mean, Everyone says that smoking causes cancer, but we
 can't really say that, can we? There is an association between smoking
 and cancer, but we know that association does not imply causation,
@@ -129,30 +126,4 @@ don't we?*
 4.  **Methods in Observational Epidemiology.** Kelsey JL, Whittemore AS,
     Evans AS and Thompson DW (1996) Oxford: Oxford University Press.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Corroborating
-evidence](../category/CorroboratingEvidence.asp)
-<!---More--->
-evidence](../category/CorroboratingEvidence.asp)
-this one at [Category: Corroborating
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:(January 27, 2000)** Causation.**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Corroborating
-evidence](../category/CorroboratingEvidence.asp)
---->
-
+You can find an [earlier version](http://www.pmean.com/00/causation.html) of this page on my [original website](http://www.pmean.com/original_site.html).
