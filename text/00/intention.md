@@ -1,7 +1,6 @@
 ---
 title: Intention to treat
 author: Steve Simon
-source: http://www.pmean.com/00/intention.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Measuring benefit and risk
 output: html_document
 ---
-****[StATS]:** Intention to treat (created
-2000-01-27).**
-
 *Dear Professor Mean, I'm confused by medical journal articles that
 talk about the use of "Intention to Treat" analysis. What does this
 term mean?*
@@ -162,30 +158,4 @@ an assessment of the practical impact of a treatment**. There are some
 examples, however, where **intention to treat may answer a different
 question than the one you are interested in**.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-risk](../category/MeasuringBenefitRisk.html).
-this one at [Category: Measuring benefit and
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Intention to treat (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/intention.html) of this page on my [original website](http://www.pmean.com/original_site.html). Intention to treat

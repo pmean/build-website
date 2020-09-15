@@ -10,7 +10,6 @@ tags:
 - SPSS software
 output: html_document
 ---
-
 *Dear Professor Mean
 - I need to export the output from SPSS and use some
 of it in my word processing file. What is the best way to do this? --
@@ -205,3 +204,4 @@ the cells in this table
 - you can make minor
 modifications like rounding.
 
+You can find an [earlier version](http://www.pmean.com/00/export.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Sample size for a confidence interval
 author: Steve Simon
-source: http://www.pmean.com/00/confid.html
 date: 2000-01-26
 categories:
 - Blog post
@@ -10,7 +9,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-
 *Dear Professor Mean
 - We have a large dataset with about 400 million
 records. We need to randomly select a subsample from it. However we need
@@ -169,3 +167,4 @@ intervals are reasonably narrow.
 3.  **Confidence limits and sample size in quarantine research.** HM
     Couey. Forum: Journal of Economic Entomology 1986: 79(4); 887-90.
 
+You can find an [earlier version](http://www.pmean.com/00/confid.html) of this page on my [original website](http://www.pmean.com/original_site.html).

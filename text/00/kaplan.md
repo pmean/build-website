@@ -1,7 +1,6 @@
 ---
 title: Kaplan Meier
 author: Steve Simon
-source: http://www.pmean.com/00/kaplan.html
 date: 2000-06-27
 categories:
 - Blog post
@@ -357,3 +356,5 @@ advanced and detailed approach in Collett's book.
 2.  **Statistical Methods for the Analysis of Biomedical Data.** Woolson
     RF. New York NY: John Wiley & Sons, Inc. (1987). ISBN:
     0-471-80615-3.
+
+You can find an [earlier version](http://www.pmean.com/00/kaplan.html) of this page on my [original website](http://www.pmean.com/original_site.html).

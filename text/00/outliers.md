@@ -1,7 +1,6 @@
 ---
 title: Outliers
 author: Steve Simon
-source: http://www.pmean.com/00/outliers.html
 date: 2000-01-28
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-****[StATS]:** Outliers (January 28, 2000).**
-
 *Dear Professor Mean, I have recently conducted a survey of attitudes
 toward research from a professional group. There are some outliers (+/-
 3SD) that I would eliminate , but others conducting the research with me
@@ -55,30 +52,4 @@ confirm my view, or theirs?*
 1.  **Practical Statistics for Medical Research.** Altman DG. London
     England: Chapman and Hall (1991). ISBN: 0-412-27630-5.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Outliers (January 28, 2000).**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/outliers.html) of this page on my [original website](http://www.pmean.com/original_site.html).

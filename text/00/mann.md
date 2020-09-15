@@ -1,7 +1,6 @@
 ---
 title: Sample size for the Mann-Whitney U test
 author: Steve Simon
-source: http://www.pmean.com/00/mann.html
 date: 2000-09-28
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-****[StATS]:** Sample size for the Mann-Whitney U
-test (September 28, 2000)**
-
 *Dear Professor Mean, I need to calculate the sample size for the
 Mann-Whitney U test. How do I do this? -- Bewildered Bob*
 
@@ -142,30 +138,4 @@ when time permits.
     **New York, John Wiley & Sons (1979).\
     ISBN: 0-471-04245-5.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html)
-<!---More--->
-justification](../category/SampleSizeJustification.html)
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Sample size for the Mann-Whitney U
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/00/mann.html) of this page on my [original website](http://www.pmean.com/original_site.html).

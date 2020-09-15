@@ -1,7 +1,6 @@
 ---
 title: Regression to the mean
 author: Steve Simon
-source: http://www.pmean.com/00/regression.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -195,3 +194,5 @@ care.** Veronica Morton, David J Torgerson. BMJ 2003: 326(7398);
 1083-1084. [Full
 text](http://bmj.com/cgi/content/full/326/7398/1083)
 [PDF](http://bmj.com/cgi/reprint/326/7398/1083.pdf)
+
+You can find an [earlier version](http://www.pmean.com/00/regression.html) of this page on my [original website](http://www.pmean.com/original_site.html).

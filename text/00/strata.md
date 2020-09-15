@@ -1,7 +1,6 @@
 ---
 title: Stratified random sample.
 author: Steve Simon
-source: http://www.pmean.com/00/strata.html
 date: 2000-08-23
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Research designs
 output: html_document
 ---
-****[StATS]:** Stratified random sample. (August 23, 2000)**
-
 *Dear Professor Mean, What is a stratified random sample and why would I
 want to use one?*
 
@@ -45,30 +42,4 @@ want to use one?*
 > subjects, then you can't control the selection of subjects in
 > advance.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Research
-designs](../category/ResearchDesigns.html).
-<!---More--->
-designs](../category/ResearchDesigns.html).
-this one at [Category: Research
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Stratified random sample. (August 23, 2000)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Research
-designs](../category/ResearchDesigns.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/strata.html) of this page on my [original website](http://www.pmean.com/original_site.html).

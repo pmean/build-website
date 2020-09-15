@@ -1,7 +1,6 @@
 ---
 title: Flaws in a research paper
 author: Steve Simon
-source: http://www.pmean.com/00/flaws-00.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Critical appraisal
 output: html_document
 ---
-****[StATS]:** Flaws in a research paper (created
-2000-01-27).**
-
 *Dear Professor Mean, A small group I've been teaching has gotten
 extremely interested in how to decide when there are too many flaws in a
 paper which would completely invalidate (and circular file) it.*
@@ -67,30 +63,4 @@ evidence would help you make a better decision about this problem.
 -   **Biases in the interpretation and use of research results.\
     **MacCoun, R. *Annu Rev Psychol* (1998), 49: 259-87.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-this one at [Category: Critical
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Flaws in a research paper (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/flaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). Flaws in a research paper

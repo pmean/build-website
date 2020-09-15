@@ -1,7 +1,6 @@
 ---
 title: Fisher's Exact Test
 author: Steve Simon
-source: http://www.pmean.com/00/fishers-00.html
 date: 2000-08-23
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Logistic regression
 output: html_document
 ---
-****[StATS]:** Fisher's Exact Test (created
-2000-08-23).**
-
 *Dear Professor Mean, What is Fisher's Exact Test and when should I use
 it?*
 
@@ -142,30 +138,4 @@ specifying whether this was a one-tailed or two-tailed test.
     261(23); 3430-3.
     [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2724487&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
-<!---More--->
-regression](../category/LogisticRegression.html).
-this one at [Category: Logistic
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Fisher's Exact Test (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/fishers.html) of this page on my [original website](http://www.pmean.com/original_site.html).

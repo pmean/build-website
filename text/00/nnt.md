@@ -1,7 +1,6 @@
 ---
 title: Number Needed to Treat
 author: Steve Simon
-source: http://www.pmean.com/00/nnt.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Measuring benefit and risk
 output: html_document
 ---
-****[StATS]:** Number Needed to Treat (created
-2000-01-27).**
-
 *Dear Professor Mean, How are patients and their doctors supposed to
 decide whether a research finding has practical significance? Why don't
 the medical journals make things clearer?*
@@ -324,30 +320,4 @@ the medical journals make things clearer?*
 2.  J Clin Epidemiol. 2002 Jan;55(1):102-3. PMID: 11781128.
 3.  JAMA. 2002 Jun 5;287(21):2813-4. PMID: 12038920
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html)
-<!---More--->
-risk](../category/MeasuringBenefitRisk.html)
-this one at [Category: Measuring benefit and
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Number Needed to Treat (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/00/nnt.html) of this page on my [original website](http://www.pmean.com/original_site.html).

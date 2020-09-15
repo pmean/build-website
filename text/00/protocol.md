@@ -1,7 +1,6 @@
 ---
 title: Protocol changes.
 author: Steve Simon
-source: http://www.pmean.com/00/protocol.html
 date: 2000-12-22
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Early stopping
 output: html_document
 ---
-****[StATS]:** Protocol changes. (December 22, 2000)**
-
 *Dear Professor Mean, After I collected my data, I noticed a problem
 that I had not anticipated. I want to make some protocol changes and
 analyze my data differently. Can I do this?*
@@ -58,30 +55,4 @@ There are no right or wrong answers here. Protocol changes will hurt the
 credibility of your research, but you can mitigate the damages if you
 can show that your changes are rational.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-<!---More--->
-stopping](../category/EarlyStopping.html).
-for pages similar to this one at [Category: Early
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Protocol changes. (December 22, 2000)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/protocol.html) of this page on my [original website](http://www.pmean.com/original_site.html).

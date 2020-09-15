@@ -1,7 +1,6 @@
 ---
 title: Splines
 author: Steve Simon
-source: http://www.pmean.com/00/splines.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,7 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-
 *Dear Professor Mean, Can you send me a basic definition of splines?*
 
 <!---More--->
@@ -56,3 +54,4 @@ is possible that this is just an artefact.
     **London England: Chapman and Hall (1990).
     ISBN: 0-412-34390-8.
 
+You can find an [earlier version](http://www.pmean.com/00/splines.html) of this page on my [original website](http://www.pmean.com/original_site.html).

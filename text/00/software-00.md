@@ -1,7 +1,6 @@
 ---
 title: Software used to create these web pages.
 author: Steve Simon
-source: http://www.pmean.com/00/software-00.html
 date: 2000-08-24
 categories:
 - Blog post
@@ -161,3 +160,4 @@ I also have an image from the CNN web site that I am asking for
 permission to use. The email address for this request went to
 cnn.viewersource@turner.com.
 
+You can find an [earlier version](http://www.pmean.com/00/software.html) of this page on my [original website](http://www.pmean.com/original_site.html).

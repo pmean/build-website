@@ -1,7 +1,6 @@
 ---
 title: Links from other sites
 author: Steve Simon
-source: http://www.pmean.com/00/links.html
 date: 2000-02-02
 categories:
 - Blog post
@@ -10,9 +9,6 @@ tags:
 - Website details
 output: html_document
 ---
-****[StATS]:** Links from other sites (February 2,
-2000)**. [Category: Website details](../category/WebsiteDetails.asp)
-
 It's flattering when someone recommends my site
 - so I keep track of
 this here. I also want to keep tabs on these links so when I change a
@@ -122,33 +118,4 @@ Here's a list from an earlier search.
 -   **Core Library for Evidence Based Practice**. Andrew Booth\
     [www.shef.ac.uk/~scharr/ir/core.html](http://www.shef.ac.uk/~scharr/ir/core.html)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Website details](../category/WebsiteDetails.asp)
-<!---More--->
-this one at [Category: Website details](../category/WebsiteDetails.asp)
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Links from other sites (February 2,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Website details](../category/WebsiteDetails.asp)
---->
-
+You can find an [earlier version](http://www.pmean.com/00/links.html) of this page on my [original website](http://www.pmean.com/original_site.html).

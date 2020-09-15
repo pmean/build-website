@@ -1,7 +1,6 @@
 ---
 title: Stein's paradox
 author: Steve Simon
-source: http://www.pmean.com/00/stein.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Statistical theory
 output: html_document
 ---
-****[StATS]:** Stein's paradox (created
-2000-01-27).**
-
 *Dear Professor Mean, What is "Stein's Paradox"?*
 
 > Stein's paradox is rather technical and I'm not sure I can do it
@@ -79,30 +75,4 @@ output: html_document
 > to try to understand the concept of "regression toward the mean" as
 > it relates closely to Stein's paradox.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-theory](../category/StatisticalTheory.html).
-<!---More--->
-theory](../category/StatisticalTheory.html).
-this one at [Category: Statistical
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Stein's paradox (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-theory](../category/StatisticalTheory.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/00/stein.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Jargon in Statistics
 author: Steve Simon
-source: http://www.pmean.com/00/jargon.html
 date: 2000-01-27
 categories:
 - Blog post
@@ -296,3 +295,5 @@ medical terminology you have already learned.
     **Rosner B.
     Belmont CA: Duxbury Press (1990)
     ISBN: 0-534-91973-1.
+
+You can find an [earlier version](http://www.pmean.com/00/jargon.html) of this page on my [original website](http://www.pmean.com/original_site.html).
