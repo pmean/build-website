@@ -1,3 +1,18 @@
+---
+title: (Being updated)
+author: Steve Simon
+date: 2009-01-01
+categories:
+- Blog post
+tags:
+- Being updated
+output: html_document
+---
+
+This page is being updated from a version on the original website.
+
+<!---More--->
+
 You can find an [earlier version](http://www.pmean.com/09/AccountingForClusters.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Accounting for clusters in 
 You can find an [earlier version](http://www.pmean.com/09/AcknowledgingContributions.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Acknowledging the 
 You can find an [earlier version](http://www.pmean.com/09/AdjustedHazardRatio.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Changes in the adjusted hazard 
