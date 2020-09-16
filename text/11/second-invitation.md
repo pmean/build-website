@@ -1,30 +1,18 @@
-You can find an [earlier version](http://www.pmean.com/06/FrailtyModel.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/AccrualHelp.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/Accuracy.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/Advice.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/AnotherPersonsGrant.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/BinaryCoding.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/BookTitle.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/BusinessCard.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/ConsultingDifferences.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/CuttingCode.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/DissertationConsulting.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/DraftGrant.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/Editorials.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/Fishers.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/GoodNews.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/GroupSequential.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/HelpMyIrb.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/Hierarchical.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/LogisticAssumptions.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/NegativeInterval.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/NewComputer.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/NewForm.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/PilotGrant.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/PlaceboCartoon.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/PositiveStatements.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/QualitativeSampleSize.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/QuietYear.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
+---
+title: (Being updated)
+author: Steve Simon
+date: 1999-01-01
+categories:
+- Blog post
+tags:
+- Being updated
+output: html_document
+---
+
+This page is being updated from a version on the original website.
+
+<!---More--->
+
 You can find an [earlier version](http://www.pmean.com/11/SecondInvitation.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
 You can find an [earlier version](http://www.pmean.com/11/SecondReviewer.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
 You can find an [earlier version](http://www.pmean.com/11/Segmented.html) of this page on my [original website](http://www.pmean.com/original_site.html). 

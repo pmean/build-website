@@ -1,73 +1,73 @@
-"AntiIntellectualism.html">P.Mean: Quote on 
-"DefendingBonferroni.html">P.Mean: Defending Bonferroni (created 
-"PersonalPages.html">P.Mean: New personal pages (created 2008-08-14)</a>. One issue at my old website was that I could not post personal information. 
-"PiecewiseLinear.html">P.Mean: How do I fit a piecewise linear 
-"ReadingAbstracts.html">P.Mean: Reading abstracts instead of the full 
-"ScientificBasis.html">P.Mean: Is there a scientific basis for EBM? 
-"../consult.html">P.Mean: Hire me as a consultant (created 
-"AbandonFrontPage.html">P.Mean: Should I abandon FrontPage? 
-"BusinessAspects.html">P.Mean: Business aspects of an independent 
-"CytelAccrual.html">P.Mean: Cytel software has developed a Poisson 
-"DistrustBayesian.html">P.Mean: Distrust of a Bayesian 
-"EmailLists.html">P.Mean: Getting on and off various email lists 
-"FdaOnBayes.html">P.Mean: What does the FDA think about Bayesian 
-"FirstMetaAnalysis.html">P.Mean: My very first meta-analysis 
-"HowManyFiles.html">P.Mean: How many files are in this new 
-"LearnMore.html">P.Mean: Where can I learn more about Statistics? 
-"MailSoftware.html">P.Mean: Mail and calendar software I use in my 
-"MisleadingBargraph.html">P.Mean: A misleading bar graph (created 
-"NamingConventions.html">P.Mean: Naming conventions for variables 
-"NineOfThirtySix.html">P.Mean: Survey results from nine out of 
-"OneTailed.html">P.Mean: How to report a one-tailed Fisher's Exact 
-"PearsonCorrelation.html">P.Mean: Pearson correlation and ordinal 
-"PlugForAccrual.html">P.Mean: Plug for accrual research (created 
-"ReliableDiagnosis.html">P.Mean: Reliable diagnosis of cataracts 
-"SoftwareForBootstrap.html">P.Mean: Software for bootstrap and 
-"StandardDeviation.html">P.Mean: Where did that standard deviation 
-"UndeclaredMissingCode.html">P.Mean: Undeclared missing code leads 
-"UseMaterial.html">P.Mean: Can I use some material from your 
-"UsingGoogle.html">P.Mean: Using Google to search through my 
-"WhatDistribution.html">P.Mean: What distribution does this data 
-"font-style: normal"><a href="../08/TypeIII.html">Stats: Type III 
-"../08/ComputingPercentiles.html">Stats: Multiple methods for 
-"../06/GeneralizingResearch.html">Stats: Difficulties in generalizing 
-"../08/CriticalValue.html">Stats: What is a critical value? 
-"../08/AssessingExponential.html">Stats: Assessing the assumption of 
-"../08/CalculatingNnt.html">Stats: Calculating NNT for observational 
-"../08/RocCurve.html">Stats: ROC curve for an imperfect gold 
-"../08/RepeatedMeasurements.html">Stats: Simplifying repeated 
-"../08/UnadjustedEstimates.html"> Stats: Presenting unadjusted and 
-"../08/UnadjustedEstimates.html">Stats: Presenting unadjusted and 
-"../08/BadAnalysis.html">Stats: When a client asks for a bad 
-"../08/WhatStatistic.html">Stats: What statistic should I use 
-"../08/StatisticsForBoards.html">Stats: Statistics for Boards 
-"../08/BasicScientists.html">Stats: What sort of statistical 
-"../08/AlternativePvalue.html">Stats: An alternative to the p-value 
-"../08/CaseStudies.html">Stats: Why we need case studies of 
-"../08/WholeNumbers.html"> Stats: Calculating statistics on whole 
-"../08/OneThird.html">Stats: What does one-third of the way 
-"../08/InstrumentalVariables.html">Stats: A brief overview of 
-"../08/BadExamples1.html">Stats: I hate bad research examples (April 
-"../08/EbmForPatients.html">Stats: Evidence Based Medicine for 
-"../08/PostModernAssaultPart3.html">Stats: The post-modern assault 
-"../08/KreamerAward.html">Stats: Nomination for the Kreamer Award 
-"../08/NewOffice.html">Stats: Directions to my new office (April 
-"../08/RefusalsAndExclusions.html">StATS:  Monitoring refusals and 
-"../08/SlippedDeadlines.html">StATS:  Slipped deadlines and sample 
-"../08/WhyBayesian.html">Stats: Why does a Bayesian approach make 
-"../08/ShortBiography.html">Stats: A short biography that can be 
-"../08/ExponentialAccrual.html">StATS:  A simple Bayesian model for 
-"../08/ImpossibleResume.html">Stats: Why it's impossible to keep a 
-"../08/HeterogeneityInAnova.html">Stats: When does heterogeneity 
-"../08/ElicitingPrior.html">Stats: Eliciting a prior distribution 
-"../08/TooMuchPower.html">Stats: Too much power and precision? 
-"../08/ElicitingPrior.html">StATS: Eliciting a prior distribution 
-"../08/RandomEffects.html">Stats: Criticism of random effects in a 
-"../08/DecliningCount.html">Stats: Modeling a declining count 
-"../08/RWebServer.html">Stats: Running R on a web server (June 17, 
-"../08/CanIRun.html">Stats: Can I run a quantitative analysis on 
-"../08/BootstrapStandardError.html">Stats: Bootstrap estimates 
-"../08/ChangedYourMind.html">Stats: What have you changed your mind 
-"../08/ImportantStudies.html">Stats: Finding only the important 
-"../08/AnalyzeSafety.html">Stats: How do you analyze safety data 
-"font-style: normal"><a href="../08/LoweringPrevalence.html">Stats: Does prevalence affect sensitivity (January 31, 2008)</a>. </em><i> Dear Professor Mean, Does lowering the prevalence of a disease have an effect 
+You can find an [earlier version](http://www.pmean.com/06/GeneralizingResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Difficulties in generalizing 
+You can find an [earlier version](http://www.pmean.com/consult.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Hire me as a consultant
+You can find an [earlier version](http://www.pmean.com/08/AbandonFrontPage.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Should I abandon FrontPage? 
+You can find an [earlier version](http://www.pmean.com/08/AlternativePvalue.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: An alternative to the p-value 
+You can find an [earlier version](http://www.pmean.com/08/AnalyzeSafety.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: How do you analyze safety data 
+You can find an [earlier version](http://www.pmean.com/08/AntiIntellectualism.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Quote on 
+You can find an [earlier version](http://www.pmean.com/08/AssessingExponential.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Assessing the assumption of 
+You can find an [earlier version](http://www.pmean.com/08/BadAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: When a client asks for a bad 
+You can find an [earlier version](http://www.pmean.com/08/BadExamples1.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: I hate bad research examples
+You can find an [earlier version](http://www.pmean.com/08/BasicScientists.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What sort of statistical 
+You can find an [earlier version](http://www.pmean.com/08/BootstrapStandardError.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Bootstrap estimates 
+You can find an [earlier version](http://www.pmean.com/08/BusinessAspects.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Business aspects of an independent 
+You can find an [earlier version](http://www.pmean.com/08/CalculatingNnt.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculating NNT for observational 
+You can find an [earlier version](http://www.pmean.com/08/CanIRun.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Can I run a quantitative analysis on 
+You can find an [earlier version](http://www.pmean.com/08/CaseStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Why we need case studies of 
+You can find an [earlier version](http://www.pmean.com/08/ChangedYourMind.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What have you changed your mind 
+You can find an [earlier version](http://www.pmean.com/08/ComputingPercentiles.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Multiple methods for 
+You can find an [earlier version](http://www.pmean.com/08/CriticalValue.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What is a critical value? 
+You can find an [earlier version](http://www.pmean.com/08/CytelAccrual.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Cytel software has developed a Poisson 
+You can find an [earlier version](http://www.pmean.com/08/DecliningCount.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Modeling a declining count 
+You can find an [earlier version](http://www.pmean.com/08/DefendingBonferroni.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Defending Bonferroni
+You can find an [earlier version](http://www.pmean.com/08/DistrustBayesian.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Distrust of a Bayesian 
+You can find an [earlier version](http://www.pmean.com/08/EbmForPatients.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Evidence Based Medicine for 
+You can find an [earlier version](http://www.pmean.com/08/ElicitingPrior.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Eliciting a prior distribution 
+You can find an [earlier version](http://www.pmean.com/08/ElicitingPrior.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Eliciting a prior distribution 
+You can find an [earlier version](http://www.pmean.com/08/EmailLists.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Getting on and off various email lists 
+You can find an [earlier version](http://www.pmean.com/08/ExponentialAccrual.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS:  A simple Bayesian model for 
+You can find an [earlier version](http://www.pmean.com/08/FdaOnBayes.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: What does the FDA think about Bayesian 
+You can find an [earlier version](http://www.pmean.com/08/FirstMetaAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: My very first meta-analysis 
+You can find an [earlier version](http://www.pmean.com/08/HeterogeneityInAnova.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: When does heterogeneity 
+You can find an [earlier version](http://www.pmean.com/08/HowManyFiles.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: How many files are in this new 
+You can find an [earlier version](http://www.pmean.com/08/ImportantStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Finding only the important 
+You can find an [earlier version](http://www.pmean.com/08/ImpossibleResume.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Why it's impossible to keep a 
+You can find an [earlier version](http://www.pmean.com/08/InstrumentalVariables.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: A brief overview of 
+You can find an [earlier version](http://www.pmean.com/08/KreamerAward.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Nomination for the Kreamer Award 
+You can find an [earlier version](http://www.pmean.com/08/LearnMore.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Where can I learn more about Statistics? 
+You can find an [earlier version](http://www.pmean.com/08/MailSoftware.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Mail and calendar software I use in my 
+You can find an [earlier version](http://www.pmean.com/08/MisleadingBargraph.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: A misleading bar graph
+You can find an [earlier version](http://www.pmean.com/08/NamingConventions.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Naming conventions for variables 
+You can find an [earlier version](http://www.pmean.com/08/NewOffice.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Directions to my new office
+You can find an [earlier version](http://www.pmean.com/08/NineOfThirtySix.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Survey results from nine out of 
+You can find an [earlier version](http://www.pmean.com/08/OneTailed.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: How to report a one-tailed Fisher's Exact 
+You can find an [earlier version](http://www.pmean.com/08/OneThird.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What does one-third of the way 
+You can find an [earlier version](http://www.pmean.com/08/PearsonCorrelation.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Pearson correlation and ordinal 
+You can find an [earlier version](http://www.pmean.com/08/PersonalPages.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: New personal pages
+You can find an [earlier version](http://www.pmean.com/08/PiecewiseLinear.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: How do I fit a piecewise linear 
+You can find an [earlier version](http://www.pmean.com/08/PlugForAccrual.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Plug for accrual research
+You can find an [earlier version](http://www.pmean.com/08/PostModernAssaultPart3.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The post-modern assault 
+You can find an [earlier version](http://www.pmean.com/08/RWebServer.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Running R on a web server
+You can find an [earlier version](http://www.pmean.com/08/RandomEffects.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Criticism of random effects in a 
+You can find an [earlier version](http://www.pmean.com/08/ReadingAbstracts.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Reading abstracts instead of the full 
+You can find an [earlier version](http://www.pmean.com/08/RefusalsAndExclusions.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS:  Monitoring refusals and 
+You can find an [earlier version](http://www.pmean.com/08/ReliableDiagnosis.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Reliable diagnosis of cataracts 
+You can find an [earlier version](http://www.pmean.com/08/RepeatedMeasurements.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Simplifying repeated 
+You can find an [earlier version](http://www.pmean.com/08/RocCurve.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: ROC curve for an imperfect gold 
+You can find an [earlier version](http://www.pmean.com/08/ScientificBasis.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Is there a scientific basis for EBM? 
+You can find an [earlier version](http://www.pmean.com/08/ShortBiography.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: A short biography that can be 
+You can find an [earlier version](http://www.pmean.com/08/SlippedDeadlines.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS:  Slipped deadlines and sample 
+You can find an [earlier version](http://www.pmean.com/08/SoftwareForBootstrap.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Software for bootstrap and 
+You can find an [earlier version](http://www.pmean.com/08/StandardDeviation.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Where did that standard deviation 
+You can find an [earlier version](http://www.pmean.com/08/StatisticsForBoards.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Statistics for Boards 
+You can find an [earlier version](http://www.pmean.com/08/TooMuchPower.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Too much power and precision? 
+You can find an [earlier version](http://www.pmean.com/08/UnadjustedEstimates.html) of this page on my [original website](http://www.pmean.com/original_site.html).  Stats: Presenting unadjusted and 
+You can find an [earlier version](http://www.pmean.com/08/UnadjustedEstimates.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Presenting unadjusted and 
+You can find an [earlier version](http://www.pmean.com/08/UndeclaredMissingCode.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Undeclared missing code leads 
+You can find an [earlier version](http://www.pmean.com/08/UseMaterial.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Can I use some material from your 
+You can find an [earlier version](http://www.pmean.com/08/UsingGoogle.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Using Google to search through my 
+You can find an [earlier version](http://www.pmean.com/08/WhatDistribution.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: What distribution does this data 
+You can find an [earlier version](http://www.pmean.com/08/WhatStatistic.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What statistic should I use 
+You can find an [earlier version](http://www.pmean.com/08/WholeNumbers.html) of this page on my [original website](http://www.pmean.com/original_site.html).  Stats: Calculating statistics on whole 
+You can find an [earlier version](http://www.pmean.com/08/WhyBayesian.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Why does a Bayesian approach make 
+You can find an [earlier version](http://www.pmean.com/08/font-style: normalYou can find an [earlier version](http://www.pmean.com/08/><a href=You can find an [earlier version](http://www.pmean.com/08/LoweringPrevalence.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Does prevalence affect sensitivity
+You can find an [earlier version](http://www.pmean.com/10) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Type III 

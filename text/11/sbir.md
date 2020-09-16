@@ -1,0 +1,18 @@
+---
+title: (Being updated)
+author: Steve Simon
+date: 1999-01-01
+categories:
+- Blog post
+tags:
+- Being updated
+output: html_document
+---
+
+This page is being updated from a version on the original website.
+
+<!---More--->
+
+You can find an [earlier version](http://www.pmean.com/11/sbir.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
+You can find an [earlier version](http://www.pmean.com/11/unrealistic.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
+You can find an [earlier version](http://www.pmean.com/11/web20.html) of this page on my [original website](http://www.pmean.com/original_site.html). 

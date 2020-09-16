@@ -1,20 +1,20 @@
-"biography.html">StATS: Biography (created 2002-01-16)</a></p>
-"logist_concepts.html">StATS: The concepts behind the logistic regression model (July 23, 2002)</a></p>
-"longitudinal.html">StATS: Longitudinal data (created 2002-07-26)</a></p>
-"lin_int.html">StATS: Exploring interactions in a linear regression model (August 1, 2002)</a></p>
-"normal.html">StATS: Checking the assumption of normality (created 2002-09-11)</a></p>
-"irb.html">Updated: Getting IRB approval for&nbsp;your research (created 2002-10-09, updated 2010-04-01)</a></p>
-"log.html">StATS: Log transformation (created 2002-10-11)</a></p>
-"survival.html">StATS: Steps in a typical survival data analysis (October 11, 2002)</a></p>
-"stopearly.html">StATS: Stopping a study early (October 29, 2002)</a></p>
-"posthoc.html">StATS: Post hoc power (November 1, 2002)</a></p>
-"percentage.html">StATS: Displaying tables of percentages (November 6, 2002)</a></p>
-"citation.html">StATS: SPSS citation (March 6, 2002)</a></p>
-"validity.html">StATS: Establishing validity and reliability (November 6, 2002)</a></p>
-"why95.html">StATS: Why 95% confidence limits? (created 2002-05-06)</a></p>
-"des_spss.html">StATS: SPSS dialog boxes for a descriptive analysis (June 21, 2002)</a></p>
-"lin_spss.html">StATS: SPSS dialog boxes for linear regression models (June 21, 2002)</a></p>
-"lin_coef.html">StATS: Interpreting coefficients in a linear regression model (created 2002-06-24)</a></p>
-"questionnaire.html">StATS: So you want to write a questionnaire (July 12, 2002)</a></p>
-"privacy.html">StATS: Privacy concerns in research (July 12, 2002)</a></p>
-"logist_spss.html">StATS: SPSS dialog boxes for logistic regression (July 22, 2002)</a></p>
+You can find an [earlier version](http://www.pmean.com/02/biography.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Biography
+You can find an [earlier version](http://www.pmean.com/02/citation.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS citation
+You can find an [earlier version](http://www.pmean.com/02/des_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS dialog boxes for a descriptive analysis
+You can find an [earlier version](http://www.pmean.com/02/irb.html) of this page on my [original website](http://www.pmean.com/original_site.html). Updated: Getting IRB approval for&nbsp;your research
+You can find an [earlier version](http://www.pmean.com/02/lin_coef.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Interpreting coefficients in a linear regression model
+You can find an [earlier version](http://www.pmean.com/02/lin_int.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Exploring interactions in a linear regression model
+You can find an [earlier version](http://www.pmean.com/02/lin_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS dialog boxes for linear regression models
+You can find an [earlier version](http://www.pmean.com/02/log.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Log transformation
+You can find an [earlier version](http://www.pmean.com/02/logist_concepts.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: The concepts behind the logistic regression model
+You can find an [earlier version](http://www.pmean.com/02/logist_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS dialog boxes for logistic regression
+You can find an [earlier version](http://www.pmean.com/02/longitudinal.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Longitudinal data
+You can find an [earlier version](http://www.pmean.com/02/normal.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Checking the assumption of normality
+You can find an [earlier version](http://www.pmean.com/02/percentage.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Displaying tables of percentages
+You can find an [earlier version](http://www.pmean.com/02/posthoc.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Post hoc power
+You can find an [earlier version](http://www.pmean.com/02/privacy.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Privacy concerns in research
+You can find an [earlier version](http://www.pmean.com/02/questionnaire.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: So you want to write a questionnaire
+You can find an [earlier version](http://www.pmean.com/02/stopearly.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Stopping a study early
+You can find an [earlier version](http://www.pmean.com/02/survival.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Steps in a typical survival data analysis
+You can find an [earlier version](http://www.pmean.com/02/validity.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Establishing validity and reliability
+You can find an [earlier version](http://www.pmean.com/02/why95.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Why 95% confidence limits?

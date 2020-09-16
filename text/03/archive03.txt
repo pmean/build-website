@@ -1,22 +1,23 @@
-"consulting.html">StATS: For CMH employees only: Statistical Consulting Services (created 2003-04-30)</a></p>
-"meanormedian.html">StATS: Mean or median? (created July 28, 2003)</a></p>
-"poiss_syntax.html">StATS: SPSS syntax for Poisson Regression (Marta Garcia-Granero, PhD) (July 29, 2003)</a></p>
-"diagnostic.html">StATS: An introduction to diagnostic testing (created 2003-09-08)</a></p>
-"datamining.html">StATS: Steps in a typical data mining model (September 22, 2003)</a></p>
-"nonlinear_growth.html">StATS: A simple model of nonlinear growth (October 1, 2003)</a></p>
-"equivalence.html">StATS: Steps in a typical equivalence data analysis (November 27, 2003)</a></p>
-"complex.html">StATS: Building a complex model (April 23, 2003)</a></p>
-"mle.html">StATS: Maximum likelihood estimation (created 2003-05-06)</a></p>
-"cluster.html">StATS: Cluster randomization (May 9, 2003)</a></p>
-"anova.html">StATS: Steps in a typical ANOVA model (created 2003-06-20)</a></p>
-"datamining.html"></a>15. <a href="accuracy.html">StATS: Accuracy of computations (created 2003-11-26)</a></p>
-"meanormedian.html"></a>16. <a href="data_is.html">StATS: Data is/are (created 2003-11-26)</a></p>
-"mle.html"></a>9. <a href="overfit.html">StATS: What does &quot;overfitting&quot; mean? (July 24, 2003)</a></p>
-"nonlinear_growth.html"></a>3. <a href="consent.html">StATS: Why informed consent is so important (created 2003-05-02)</a></p>
-"../04/Archive04.html">2004</a>, <a href="../02/Archive02.html">2002</a>, <a href="../01/Archive01.html">2001</a>, <a href="../00/Archive00.html">2000</a>, and <a href="../99/Archive99.html">1999</a>.</p>
-"archive13.html">2013</a>, <a href="../archive12.html">2012</a>, <a href="../archive11.html">2011</a>, <a href="../10/Archive10.html">2010</a>, <a href="../09/Archive09.html">2009</a>,  <a href="../08/Archive08.html">2008</a>, <a href="../07/Archive07.html">2007</a>, <a href="../06/Archive06.html">2006</a>,
-"barpie.html">StATS: Pitch the pie! Ban the bar! (June 5, 2003)</a> </blockquote>
-"skew.html">StATS: Skewed data (created June 5, 2003)</a></p>
-"diagnostic.html"></a><strong>Sepember</strong></p>
-"meanormedian.html"></a><strong>July</strong></p>
-"poiss_syntax.html"></a><strong>June</strong></p>
+
+You can find an [earlier version](http://www.pmean.com/03/anova.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Steps in a typical ANOVA model
+You can find an [earlier version](http://www.pmean.com/03/archive13.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2013</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../archive12.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2012</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../archive11.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2011</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../10/Archive10.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2010</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../09/Archive09.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2009</a>,  <a href=You can find an [earlier version](http://www.pmean.com/03/../08/Archive08.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2008</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../07/Archive07.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2007</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../06/Archive06.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2006</a>,
+You can find an [earlier version](http://www.pmean.com/03/barpie.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Pitch the pie! Ban the bar!
+You can find an [earlier version](http://www.pmean.com/03/cluster.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Cluster randomization
+You can find an [earlier version](http://www.pmean.com/03/complex.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Building a complex model
+You can find an [earlier version](http://www.pmean.com/03/consulting.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: For CMH employees only: Statistical Consulting Services
+You can find an [earlier version](http://www.pmean.com/03/datamining.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a>15. <a href=You can find an [earlier version](http://www.pmean.com/03/accuracy.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Accuracy of computations
+You can find an [earlier version](http://www.pmean.com/03/datamining.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Steps in a typical data mining model
+You can find an [earlier version](http://www.pmean.com/03/diagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a><strong>Sepember</strong></p>
+You can find an [earlier version](http://www.pmean.com/03/diagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: An introduction to diagnostic testing
+You can find an [earlier version](http://www.pmean.com/03/equivalence.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Steps in a typical equivalence data analysis
+You can find an [earlier version](http://www.pmean.com/03/meanormedian.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a>16. <a href=You can find an [earlier version](http://www.pmean.com/03/data_is.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Data is/are
+You can find an [earlier version](http://www.pmean.com/03/meanormedian.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a><strong>July</strong></p>
+You can find an [earlier version](http://www.pmean.com/03/meanormedian.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Mean or median?
+You can find an [earlier version](http://www.pmean.com/03/mle.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a>9. <a href=You can find an [earlier version](http://www.pmean.com/03/overfit.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: What does &quot;overfitting&quot; mean?
+You can find an [earlier version](http://www.pmean.com/03/mle.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Maximum likelihood estimation
+You can find an [earlier version](http://www.pmean.com/03/nonlinear_growth.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a>3. <a href=You can find an [earlier version](http://www.pmean.com/03/consent.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Why informed consent is so important
+You can find an [earlier version](http://www.pmean.com/03/nonlinear_growth.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: A simple model of nonlinear growth
+You can find an [earlier version](http://www.pmean.com/03/poiss_syntax.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a><strong>June</strong></p>
+You can find an [earlier version](http://www.pmean.com/03/poiss_syntax.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS syntax for Poisson Regression
+You can find an [earlier version](http://www.pmean.com/03/skew.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Skewed data
+You can find an [earlier version](http://www.pmean.com/04/Archive04.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2004</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../02/Archive02.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2002</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../01/Archive01.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2001</a>, <a href=You can find an [earlier version](http://www.pmean.com/03/../00/Archive00.html) of this page on my [original website](http://www.pmean.com/original_site.html). 2000</a>, and <a href=You can find an [earlier version](http://www.pmean.com/03/../99/Archive99.html) of this page on my [original website](http://www.pmean.com/original_site.html). 1999</a>.</p>

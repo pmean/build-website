@@ -1,200 +1,200 @@
-"../article/AbuseOfPower.asp">Interesting article: The abuse of 
-"../article/DataInconsistencies.asp">Interesting article: 
-"../article/EffectOfWeb.asp">Interesting article: The effect of 
-"../article/EnhancingResearchIntegrity.asp">Interesting article: 
-"../article/EthicalResearch.asp">Interesting article: Debating how 
-"../article/FactorsInfluencingPublication.asp">Interesting 
-"../article/Haploview.asp">Interesting article: Haploview: 
-"../article/HormoneReplacementTherapy.asp">Interesting article: 
-"../article/HospitalEpisodeStatistics.asp">Interesting article: 
-"../article/ImperfectGoldStandard.asp">Interesting article: Visual 
-"../article/InformationModels.asp">Interesting article: Linear 
-"../article/OperatingTheSmokescreen.asp">Interesting 
-"../article/OutOfDateReview.asp">Interesting article: How Quickly 
-"../article/PredictedConfidence.asp">Interesting article: The use 
-"../article/RecordLinkageResearch.asp">Interesting article: Record 
-"../article/RelatedCorrelationMeasures.asp">Interesting article: 
-"../article/ResearchForChildren.asp">Interesting article: Making a 
-"../article/ResearchMisconduct.asp">Interesting article: Research 
-"../article/ViewpointOfChildren.asp">Interesting article: Clinical 
-"../book/PrincipledArgument.asp">Interesting book: Statistics as 
-"../book/UsingR.asp">Interesting book: Using R for Introductory 
-"../quote/AllModelsAre.asp">Interesting quote: All models are... 
-"../quote/OneOfTheNaturalists.asp">Interesting quote: One of the 
-"../quote/WhenITalk.asp">Interesting quote: When I talk... (April 
-"../website/AllAboutGrantsTutorials.asp">Interesting website: All 
-"../website/ArtOfGrantsmanship.asp">Interesting website: The Art 
-"../website/ArticlesOnStatistics.asp">Interesting website: 
-"../website/BiasGlossary.asp">Interesting website: Bias glossary 
-"../website/BiasedPowerCalculations.asp">Interesting website: 
-"../website/CallingAllCharlatans.asp">Interesting website: Calling 
-"../website/ClinicalResearchGuide.asp">Interesting website: 
-"../website/CommonMistakesInNihApplications.asp">Interesting 
-"../website/ComputerIntensive.asp">Interesting website: Overview 
-"../website/DataVisualization.asp">Interesting website: Data 
-"../website/DesigningScientificPosters.asp">Interesting website: 
-"../website/DistinguishingCausation.asp">Interesting website: 
-"../website/EdRigdonSemFaq.asp">Interesting website: Ed Rigdon's 
-"../website/EffectiveFoundationGrantseekingStrategies.asp">
-"../website/EngagementInResearch.asp">Interesting website: 
-"../website/FearAndLoathing.asp">Interesting website: Fear 
-"../website/GivingPresentations.asp">Interesting website: PubCon 
-"../website/GrantProposalWritingTips.asp">Interesting website: 
-"../website/GuideForProposalWriting.asp">Interesting website: A 
-"../website/JournalInfo.asp">Interesting website: Journal Info 
-"../website/MultilevelModelling.asp">Interesting website: Centre 
-"../website/NewcastleOttawaScale.asp">Interesting website: The 
-"../website/NonsignificantResults.asp">Interesting website: 
-"../website/OneClickPatent.asp">Interesting website: 1 Guy vs. 
-"../website/PrivateInformation.asp">Interesting website: Guidance 
-"../website/ProposalWritingShortCourse.asp">Interesting website: 
-"../website/ProveItWithData.asp">Interesting website: Statistical 
-"../website/RFaq.asp">Interesting website: R FAQ (October 8, 2007)</a></li>
-"../website/RManuals.asp">Interesting website: R Manuals (October 
-"../website/RNews.asp">Interesting website: R News (October 8, 
-"../website/RandomizationProcess.asp">Interesting website: 
-"../website/ScientificMisconductBlog.asp">Interesting website: 
-"../website/SloppyAnimalResearch.asp">Interesting website: Chance 
-"../website/SpecializedProposalDevelopmentGuides.asp">Interesting 
-"../website/StowersBioinformaticsCenter.asp">Interesting website: 
-"../website/TaxonomyLogicalFallacies.asp">Interesting website: The 
-"AdviceSearching.html">Stats: Advice for searching in PubMed 
-"AlphabeticalBookmarkList.html">Stats: Alphabetical bookmark list 
-"AlternateAccrual.html">Stats: An alternate way of viewing accrual 
-"AmbiguousData.html">Stats: Watch out for ambiguous data (February 
-"AnalyzingItt.html">Stats: Analyzing data under an 
-"AnomCalculations1.html">Stats: Calculation of Analysis of 
-"AnomExample.html">Stats: When is a control chart not a control 
-"AnomTable05Part1.html">Stats: ANOM table for alpha=0.05, part 1 
-"AnomTable05Part2.html">Stats: ANOM table for alpha=0.05, part 2 
-"ApplyingLikelihoodRatios.html">Stats: Applying likelihood ratios 
-"BadCalculation.html">Stats: Bad calculation of annual rate of 
-"BadControlGroups.html">Stats: When bad control groups happen to 
-"BiplotResources.html">Stats: Resources describing biplots (January 
-"BugsBetaBinomial.html">Stats: Fitting a beta binomial model using 
-"CalculatingRates.html">Stats: Calculating rates (April 6, 2007)</a></li>
-"CalculationsDiagnosticTest.html">Stats: Classic calculations for a 
-"CaseStudyOfAccrual.html">Stats: Case study of accrual in a 
-"CaseStudyOfAccrualPart2.html">Stats: Case study of accrual in a 
-"CenteringData.html">Stats: Centering the data (June 8, 2007)</a></li>
-"CisSearch.html">Stats: Searching through the Current Index to 
-"ClassicReferencesForEbm.html">Stats: Classic references in 
-"ClusterSize.html">Stats: Variable cluster sizes and their impact 
-"CodeForNewSlideRule.html">Stats: Code for drawing new likelihood 
-"CompoundInterest.html">Stats: Compound interest and powers 
-"ConfidenceIntervalForRate.html">Stats: Confidence interval for a 
-"ConflictOfInterestList.html">Stats: Conflict of interest list 
-"ConflictOfInterestPolicy.html">Stats: Need for a conflict of 
-"ConflictingAnalyses.html">Stats: Choosing between two conflicting 
-"ContinuingEducationQuestions.html">Stats: Continuing education 
-"CorrelatedNormalProbabilities.html">Stats: Calculating 
-"CorrelationCoefficient.html">Stats: Tests of hypothesis and 
-"CountData.html">Stats: Confidence intervals for count data (March 
-"CumulativeProbabilities.html">Stats: Formulas for cumulative 
-"CyclicalTrends.html">Stats: Accounting for cyclical trends in a 
-"DallasPostlude.html">Stats: Postlude to my Dallas talk 
-"DateGapIntroductionPt1.html">Stats: A new and simple approach 
-"DebateHistoricalControls.html">Stats: The debate about historical 
-"DescribeWorkStatistician.html">Stats: What does a statistician do 
-"DiagnosticHandout.html">Stats: Handout for diagnostic 
-"DiagnosticTalk.html">Stats: Use of diagnostic tests for making 
-"DifferenceInExponentials.html">Stats: Fitting a difference in 
-"DifferencesBetweenTests.html">Stats: Differences between the 
-"DoYourOwnPower.html">Stats: Do your own power and sample size 
-"DontWantToRandomize.html">Stats: I don't want to use a randomized 
-"EducationalOpportunities.html">Stats: Educational and networking 
-"ExpertTestimony.html">Stats: The danger of providing expert 
-"ExternalScholars.html">Stats: External scholars needed to review 
-"FacultyPromotion.html">Stats: I deserve a promotion (June 22, 
-"FmriAnalysis.html">Stats: Resources for fMRI data analysis 
-"FormatCodes.html">Stats: Format codes for my web pages (September 
-"GoodDiagnosticTest.html">Stats: What makes a good diagnostic test? 
-"GoogleDiagnosis.html">Stats: Can Google replace your doctor? 
-"GrowUp.html">Stats: Grow up and learn how to do Statistics 
-"HelpForStatistics.html">Stats: Help for Statistics at UMKC and 
-"HistogramPatterns.html">Stats: Patterns to look for in a histogram 
-"HowGood.html">Stats: How good is my prediction? (August 13, 2007)</a></li>
-"HtmlDebris.html">Stats: Html debris copied from other websites 
-"HundredWords.html">Stats: What can you do with 100 words? (January 
-"IllustratedCaseStudies.html">Stats: Illustrated case studies of 
-"IllustrationsForTgn1412.html">Stats: Illustrations for a case 
-"IncreasingTrend.html">Stats: Testing for an increasing trend 
-"InterestingCaseStudies.html">Stats: Where can you find interesting 
-"InterpretationOddsRatio.html">Stats: Interpretation of an odds 
-"IrbReviewPilot.html">Stats: IRB review of a pilot study (March 26, 
-"LongPageNames.html">Stats: My page names are too long 
-"ManipulationPeerReview.html">Stats: Manipulation of peer-review 
-"MethodologicalFlaws.html">Stats: IRB review of studies with 
-"MetropolisAlgorithm.html">Stats: A simple illustration of the 
-"ModularArithmeticInR.html">Stats: Modular arithmetic and rounding 
-"MyPromotionApplication.html">Stats: My promotion application 
-"NewCategories.html">Stats: New categories needed (October 
-"NnhTalkUpdate.html">Stats: NNH talk update (November 12, 
-"NoLongerAlone.html">Stats: No longer the sole statistician? 
-"NormalSample.html">Stats: Are we assuming a normal sample or a 
-"NotBlackAndWhilte.html">Stats: The research world is not black and 
-"OpenAccessJournals.html">Stats: Seminar on Open Access Journals 
-"OpenAccessJournalsPart2.html">Stats: Open Access Journals, 
-"OrderEnteringInteractions.html">Stats: The order of entering 
-"PControlChart.html">Stats: Calculating a P control chart 
-"PControlChartAnswers.html">Stats: P control chart, answers to on 
-"PediatricResearch.html">Stats: What makes pediatric research 
-"PercentileFormula.html">Stats: Why the plus one in the percentile 
-"PeritonealDialysis.html">Stats: Monitoring adverse events 
-"PharmedOutWebsite.html">Stats: PharmedOUT website (March 2, 2007)</a></li>
-"PocketCalculator.html">Stats: Using a pocket calculator to compute 
-"PoissonRegressionBooks.html">Stats: Books that discuss Poisson 
-"PostModernAssault.html">Stats: The post-modern 
-"PostModernAssaultPart2.html">Stats: The post-modern 
-"PromotingYourBook.html">Stats: Does promoting your book constitute 
-"Promotion.html">Stats: The latest word on my promotion (September 
-"ProsControlCharts.html">Stats: The pros and cons of control 
-"QualitativeReview.html">Stats: Reviewing a paper on qualitative 
-"QuantifyingPredictions.html">Stats: Quantifying the ability of 
-"RWiki.html">Stats: R Wiki (March 27, 2007)</a></li>
-"RandomlyDividingData.html">Stats: Randomly dividing a dataset in R 
-"RecommendationsSackett.html">Stats: Recommendations from Sackett 
-"ReformingCoi.html">Stats: Reforming conflict of interest 
-"ResourcesForGrantWriters.html">Stats: Resources for grant writers 
-"RevisingDefinitions.html">Stats: Revising my definition 
-"SampleSizeMicroarray.html">Stats: Justifying the sample size for a 
-"SevenFormulas.html">Stats: Seven different formulas for the odds 
-"SevenSins.html">Stats: The Seven Deadly Sins of Researchers (April 
-"SlowMonth.html">Stats: May has been a slow month (May 29, 2007)</a></li>
-"SmallCellSizes.html">Stats: Cohen's Kappa with small cell sizes 
-"SourcesOfConfusion.html">Stats: Common sources of confusion in a 
-"SpecialSectionForQuotations.html">Stats: Special section for 
-"StairStep.html">Stats: Stair step interpolation in R 
-"StandardDeviationRatio.html">Stats: Can the standard deviation be 
-"StubbornInsistence.html">Stats: The stubborn insistence on 
-"TeachingStatistics.html">Stats: Teaching Statistics, An 
-"TeamExercise.html">Stats: Team exercise to illustrate ANOM 
-"TechnometricsReview.html">Stats: Technometrics review of 
-"ThanksToProofreaders.html">Stats: Thanks to all my proofreaders! 
-"ThreeSimpleRules.html">Stats: Three simple rules to establish 
-"TouchscreenInterface.html">Stats: Manipulating graphic images 
-"TrackingAdverseEvents.html">Stats: Tracking adverse events during 
-"TrackingAdverseEventsPart2.html">Stats: Tracking adverse events 
-"TroubleWithApples.html">Stats: The trouble with apples and oranges 
-"TwoControlGroups.html">Stats: How two bad control groups can add 
-"TypeIand%20IIErrors.html">Stats: Further exploration of Type I and 
-"UnixHumor.html">Stats: Some UNIX humor (March 22, 2007)</a></li>
-"User2007.html">Stats: useR! 2007 conference in Ames, Iowa (April 
-"UsingRealExamples.html">Stats: Using real examples in teaching 
-"ValidityReliabilitySampleSize.html">Stats: What is an adequate 
-"WakefieldMmrStudy.html">Stats: Conflict of interest in the 
-"WarningMessage.html">Stats: Warning message is more 
-"WeakEvidence.html">Stats: Ignore weak evidence at your own peril 
-"WhatImWorkingOn.html">Stats: What I'm working on right now (March 
-"WhatToMeasure.html">Stats: What to measure in a post-marketing 
-"WhenToLog.html">Stats: When should you use a log 
-"WhichExpert.html">Stats: Which expert should you believe? (August 
-"WideConfidenceInterval.html">Stats: Is my confidence interval 
-"WikipediaContribution.html">Stats: A recent contribution to 
-"WorkshopHandouts.html">Stats: Handouts for quality control 
-"XbarSControlChart.html">Stats: Calculating an XBAR-S control chart 
-"XbarSControlChartAnswers.html">Stats: XBAR-S control chart, 
-"http://www.childrensmercy.org/stats/weblog2006/AnalysisOfMeans.html">Stats: Some resources for 
+"AdviceSearching.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Advice for searching in PubMed 
+"AlphabeticalBookmarkList.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Alphabetical bookmark list 
+"AlternateAccrual.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: An alternate way of viewing accrual 
+"AmbiguousData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Watch out for ambiguous data
+"AnalyzingItt.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Analyzing data under an 
+"AnomCalculations1.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculation of Analysis of 
+"AnomExample.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: When is a control chart not a control 
+"AnomTable05Part1.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: ANOM table for alpha=0.05, part 1 
+"AnomTable05Part2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: ANOM table for alpha=0.05, part 2 
+"ApplyingLikelihoodRatios.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Applying likelihood ratios 
+"BadCalculation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Bad calculation of annual rate of 
+"BadControlGroups.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: When bad control groups happen to 
+"BiplotResources.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Resources describing biplots
+"BugsBetaBinomial.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Fitting a beta binomial model using 
+"CalculatingRates.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculating rates
+"CalculationsDiagnosticTest.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Classic calculations for a 
+"CaseStudyOfAccrual.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Case study of accrual in a 
+"CaseStudyOfAccrualPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Case study of accrual in a 
+"CenteringData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Centering the data
+"CisSearch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Searching through the Current Index to 
+"ClassicReferencesForEbm.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Classic references in 
+"ClusterSize.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Variable cluster sizes and their impact 
+"CodeForNewSlideRule.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Code for drawing new likelihood 
+"CompoundInterest.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Compound interest and powers 
+"ConfidenceIntervalForRate.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Confidence interval for a 
+"ConflictOfInterestList.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Conflict of interest list 
+"ConflictOfInterestPolicy.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Need for a conflict of 
+"ConflictingAnalyses.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Choosing between two conflicting 
+"ContinuingEducationQuestions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Continuing education 
+"CorrelatedNormalProbabilities.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculating 
+"CorrelationCoefficient.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Tests of hypothesis and 
+"CountData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Confidence intervals for count data
+"CumulativeProbabilities.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Formulas for cumulative 
+"CyclicalTrends.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Accounting for cyclical trends in a 
+"DallasPostlude.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Postlude to my Dallas talk 
+"DateGapIntroductionPt1.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: A new and simple approach 
+"DebateHistoricalControls.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The debate about historical 
+"DescribeWorkStatistician.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What does a statistician do 
+"DiagnosticHandout.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Handout for diagnostic 
+"DiagnosticTalk.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Use of diagnostic tests for making 
+"DifferenceInExponentials.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Fitting a difference in 
+"DifferencesBetweenTests.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Differences between the 
+"DoYourOwnPower.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Do your own power and sample size 
+"DontWantToRandomize.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: I don't want to use a randomized 
+"EducationalOpportunities.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Educational and networking 
+"ExpertTestimony.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The danger of providing expert 
+"ExternalScholars.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: External scholars needed to review 
+"FacultyPromotion.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: I deserve a promotion
+"FmriAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Resources for fMRI data analysis 
+"FormatCodes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Format codes for my web pages
+"GoodDiagnosticTest.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What makes a good diagnostic test? 
+"GoogleDiagnosis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Can Google replace your doctor? 
+"GrowUp.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Grow up and learn how to do Statistics 
+"HelpForStatistics.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Help for Statistics at UMKC and 
+"HistogramPatterns.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Patterns to look for in a histogram 
+"HowGood.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: How good is my prediction?
+"HtmlDebris.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Html debris copied from other websites 
+"HundredWords.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What can you do with 100 words?
+"IllustratedCaseStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Illustrated case studies of 
+"IllustrationsForTgn1412.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Illustrations for a case 
+"IncreasingTrend.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Testing for an increasing trend 
+"InterestingCaseStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Where can you find interesting 
+"InterpretationOddsRatio.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Interpretation of an odds 
+"IrbReviewPilot.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: IRB review of a pilot study
+"LongPageNames.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: My page names are too long 
+"ManipulationPeerReview.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Manipulation of peer-review 
+"MethodologicalFlaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: IRB review of studies with 
+"MetropolisAlgorithm.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: A simple illustration of the 
+"ModularArithmeticInR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Modular arithmetic and rounding 
+"MyPromotionApplication.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: My promotion application 
+"NewCategories.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: New categories needed
+"NnhTalkUpdate.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: NNH talk update
+"NoLongerAlone.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: No longer the sole statistician? 
+"NormalSample.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Are we assuming a normal sample or a 
+"NotBlackAndWhilte.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The research world is not black and 
+"OpenAccessJournals.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Seminar on Open Access Journals 
+"OpenAccessJournalsPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Open Access Journals, 
+"OrderEnteringInteractions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The order of entering 
+"PControlChart.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculating a P control chart 
+"PControlChartAnswers.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: P control chart, answers to on 
+"PediatricResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What makes pediatric research 
+"PercentileFormula.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Why the plus one in the percentile 
+"PeritonealDialysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Monitoring adverse events 
+"PharmedOutWebsite.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: PharmedOUT website
+"PocketCalculator.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Using a pocket calculator to compute 
+"PoissonRegressionBooks.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Books that discuss Poisson 
+"PostModernAssault.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The post-modern 
+"PostModernAssaultPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The post-modern 
+"PromotingYourBook.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Does promoting your book constitute 
+"Promotion.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The latest word on my promotion
+"ProsControlCharts.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The pros and cons of control 
+"QualitativeReview.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Reviewing a paper on qualitative 
+"QuantifyingPredictions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Quantifying the ability of 
+"RWiki.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: R Wiki
+"RandomlyDividingData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Randomly dividing a dataset in R 
+"RecommendationsSackett.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Recommendations from Sackett 
+"ReformingCoi.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Reforming conflict of interest 
+"ResourcesForGrantWriters.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Resources for grant writers 
+"RevisingDefinitions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Revising my definition 
+"SampleSizeMicroarray.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Justifying the sample size for a 
+"SevenFormulas.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Seven different formulas for the odds 
+"SevenSins.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The Seven Deadly Sins of Researchers
+"SlowMonth.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: May has been a slow month
+"SmallCellSizes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Cohen's Kappa with small cell sizes 
+"SourcesOfConfusion.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Common sources of confusion in a 
+"SpecialSectionForQuotations.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Special section for 
+"StairStep.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Stair step interpolation in R 
+"StandardDeviationRatio.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Can the standard deviation be 
+"StubbornInsistence.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The stubborn insistence on 
+"TeachingStatistics.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Teaching Statistics, An 
+"TeamExercise.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Team exercise to illustrate ANOM 
+"TechnometricsReview.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Technometrics review of 
+"ThanksToProofreaders.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Thanks to all my proofreaders! 
+"ThreeSimpleRules.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Three simple rules to establish 
+"TouchscreenInterface.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Manipulating graphic images 
+"TrackingAdverseEvents.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Tracking adverse events during 
+"TrackingAdverseEventsPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Tracking adverse events 
+"TroubleWithApples.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: The trouble with apples and oranges 
+"TwoControlGroups.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: How two bad control groups can add 
+"TypeIand%20IIErrors.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Further exploration of Type I and 
+"UnixHumor.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Some UNIX humor
+"User2007.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: useR! 2007 conference in Ames, Iowa
+"UsingRealExamples.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Using real examples in teaching 
+"ValidityReliabilitySampleSize.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What is an adequate 
+"WakefieldMmrStudy.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Conflict of interest in the 
+"WarningMessage.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Warning message is more 
+"WeakEvidence.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Ignore weak evidence at your own peril 
+"WhatImWorkingOn.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What I'm working on right now
+"WhatToMeasure.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: What to measure in a post-marketing 
+"WhenToLog.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: When should you use a log 
+"WhichExpert.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Which expert should you believe?
+"WideConfidenceInterval.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Is my confidence interval 
+"WikipediaContribution.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: A recent contribution to 
+"WorkshopHandouts.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Handouts for quality control 
+"XbarSControlChart.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Calculating an XBAR-S control chart 
+"XbarSControlChartAnswers.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: XBAR-S control chart, 
+"http://www.childrensmercy.org/stats/weblog2006/AnalysisOfMeans.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Some resources for 
 "www.childrensmercy.org/definitions/AdverseEvent.htm">Stats: What is an adverse event? 
 "www.childrensmercy.org/definitions/AdverseReaction.htm">Stats: What is an adverse 
-"www.childrensmercy.org/definitions/mosaic.htm">Stats: What is a mosaic plot? (August 
+"www.childrensmercy.org/definitions/mosaic.htm">Stats: What is a mosaic plot?
+You can find an [earlier version](http://www.pmean.com/07/article/AbuseOfPower.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: The abuse of 
+You can find an [earlier version](http://www.pmean.com/07/article/DataInconsistencies.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: 
+You can find an [earlier version](http://www.pmean.com/07/article/EffectOfWeb.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: The effect of 
+You can find an [earlier version](http://www.pmean.com/07/article/EnhancingResearchIntegrity.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: 
+You can find an [earlier version](http://www.pmean.com/07/article/EthicalResearch.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Debating how 
+You can find an [earlier version](http://www.pmean.com/07/article/FactorsInfluencingPublication.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting 
+You can find an [earlier version](http://www.pmean.com/07/article/Haploview.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Haploview: 
+You can find an [earlier version](http://www.pmean.com/07/article/HormoneReplacementTherapy.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: 
+You can find an [earlier version](http://www.pmean.com/07/article/HospitalEpisodeStatistics.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: 
+You can find an [earlier version](http://www.pmean.com/07/article/ImperfectGoldStandard.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Visual 
+You can find an [earlier version](http://www.pmean.com/07/article/InformationModels.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Linear 
+You can find an [earlier version](http://www.pmean.com/07/article/OperatingTheSmokescreen.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting 
+You can find an [earlier version](http://www.pmean.com/07/article/OutOfDateReview.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: How Quickly 
+You can find an [earlier version](http://www.pmean.com/07/article/PredictedConfidence.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: The use 
+You can find an [earlier version](http://www.pmean.com/07/article/RecordLinkageResearch.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Record 
+You can find an [earlier version](http://www.pmean.com/07/article/RelatedCorrelationMeasures.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: 
+You can find an [earlier version](http://www.pmean.com/07/article/ResearchForChildren.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Making a 
+You can find an [earlier version](http://www.pmean.com/07/article/ResearchMisconduct.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Research 
+You can find an [earlier version](http://www.pmean.com/07/article/ViewpointOfChildren.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting article: Clinical 
+You can find an [earlier version](http://www.pmean.com/07/book/PrincipledArgument.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting book: Statistics as 
+You can find an [earlier version](http://www.pmean.com/07/book/UsingR.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting book: Using R for Introductory 
+You can find an [earlier version](http://www.pmean.com/07/quote/AllModelsAre.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting quote: All models are... 
+You can find an [earlier version](http://www.pmean.com/07/quote/OneOfTheNaturalists.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting quote: One of the 
+You can find an [earlier version](http://www.pmean.com/07/quote/WhenITalk.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting quote: When I talk...
+You can find an [earlier version](http://www.pmean.com/07/website/AllAboutGrantsTutorials.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: All 
+You can find an [earlier version](http://www.pmean.com/07/website/ArtOfGrantsmanship.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: The Art 
+You can find an [earlier version](http://www.pmean.com/07/website/ArticlesOnStatistics.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/BiasGlossary.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Bias glossary 
+You can find an [earlier version](http://www.pmean.com/07/website/BiasedPowerCalculations.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/CallingAllCharlatans.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Calling 
+You can find an [earlier version](http://www.pmean.com/07/website/ClinicalResearchGuide.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/CommonMistakesInNihApplications.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting 
+You can find an [earlier version](http://www.pmean.com/07/website/ComputerIntensive.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Overview 
+You can find an [earlier version](http://www.pmean.com/07/website/DataVisualization.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Data 
+You can find an [earlier version](http://www.pmean.com/07/website/DesigningScientificPosters.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/DistinguishingCausation.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/EdRigdonSemFaq.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Ed Rigdon's 
+You can find an [earlier version](http://www.pmean.com/07/website/EffectiveFoundationGrantseekingStrategies.asp) of this page on my [original website](http://www.pmean.com/original_site.html). 
+You can find an [earlier version](http://www.pmean.com/07/website/EngagementInResearch.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/FearAndLoathing.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Fear 
+You can find an [earlier version](http://www.pmean.com/07/website/GivingPresentations.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: PubCon 
+You can find an [earlier version](http://www.pmean.com/07/website/GrantProposalWritingTips.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/GuideForProposalWriting.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: A 
+You can find an [earlier version](http://www.pmean.com/07/website/JournalInfo.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Journal Info 
+You can find an [earlier version](http://www.pmean.com/07/website/MultilevelModelling.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Centre 
+You can find an [earlier version](http://www.pmean.com/07/website/NewcastleOttawaScale.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: The 
+You can find an [earlier version](http://www.pmean.com/07/website/NonsignificantResults.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/OneClickPatent.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 1 Guy vs. 
+You can find an [earlier version](http://www.pmean.com/07/website/PrivateInformation.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Guidance 
+You can find an [earlier version](http://www.pmean.com/07/website/ProposalWritingShortCourse.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/ProveItWithData.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Statistical 
+You can find an [earlier version](http://www.pmean.com/07/website/RFaq.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: R FAQ
+You can find an [earlier version](http://www.pmean.com/07/website/RManuals.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: R Manuals
+You can find an [earlier version](http://www.pmean.com/07/website/RNews.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: R News
+You can find an [earlier version](http://www.pmean.com/07/website/RandomizationProcess.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/ScientificMisconductBlog.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/SloppyAnimalResearch.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: Chance 
+You can find an [earlier version](http://www.pmean.com/07/website/SpecializedProposalDevelopmentGuides.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting 
+You can find an [earlier version](http://www.pmean.com/07/website/StowersBioinformaticsCenter.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: 
+You can find an [earlier version](http://www.pmean.com/07/website/TaxonomyLogicalFallacies.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting website: The 

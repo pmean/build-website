@@ -1,196 +1,196 @@
-"AbsoluteRisk.html">The difference between absolute risks and relative risks (July 15, 
-"AdjustedOR.html">Adjusted odds ratios (January 20, 2005)</a><li>
-"AdverseEvents.html">Reporting of adverse events (August 5, 2005)</a><li>
-"AlternativeMedicine.html">What alternative medicine can teach us about evidence-based 
-"AnecdotalEvidence.html">A nice definition of anecdotal evidence (October 24, 2005)</a><li>
-"BaselineAdjustment.html">Adjusting for a baseline measurement (February 28, 2005)</a><li>
-"BaselineImbalance.html">Testing baseline imbalance in a randomized study (January 19, 
-"BestEBM.html">Best EBM methods or teaching papers in 2004 (February 3, 2005)</a><li>
-"Bimodality.html">Testing for bimodality (May 3, 2005)</a><li>
-"CaseCohort.html">Case cohort design (August 11, 2005)</a><li>
-"CensoredValues.html">More than 90% censored values (April 22, 2005)</a><li>
-"ChanceWiki.html">Publication in the ChanceWiki (August 2, 2005)</a><li>
-"ChanceWikiA.html">Two articles in the Chance Wiki (September 6, 2005)</a><li>
-"ChangesStatL.html">Changes to STAT-L/sci.stat.consult (May 25, 2005)</a><li>
-"ClinicalImportance.html">Clinical importance (March 11, 2005)</a><li>
-"CollectionStudies.html">A collection of randomized and non-randomized studies (March 
-"ComingSoon.html">Coming soon (March 22, 2005)</a><li>
-"ConfidenceInterval.html">Where is the confidence interval? (March 31, 2005)</a><li>
-"ConfidenceIntervalA.html">Confidence intervals around a safety level (May 11, 2005)</a><li>
-"ConfidenceIntervalB.html">Examples of confidence intervals (June 28, 2005)</a><li>
-"ConflictInterest.html">More on conflicts of interest (March 23, 2005)</a><li>
-"ConflictInterestA.html">Taking charges of conflicting interest too far (June 4, 2005)</a><li>
-"ConfusionPvalues.html">Confusion about p-values (January 18, 2005)</a><li>
-"ConsecutiveDates.html">Placing consecutive dates in a column of an SPSS file (January 
-"ContinuousVariables.html">Continuous variables in a logistic regression model 
-"ControlCharts.html">Control charts for monitoring mortality rates (February 11, 2005)</a><li>
-"ConvertOddsRatio.html">Converting an odds ratio to a relative risk (August 3, 2005)</a><li>
-"CorrelationCoefficient.html">Confidence interval for a correlation coefficient (July 
-"CovariateImbalance.html">Adjusting for covariate imbalance (May 20, 2005)</a><li>
-"CriticalThinking.html">What is critical thinking? (May 17, 2005)</a><li>
-"CronbachsAlpha.html">Very low values from Cronbach's Alpha (July 19, 2005)</a><li>
-"CumulativeMetaanalysis.html">Cumulative meta-analysis (March 11, 2005)</a><li>
-"DataMining.html">Two cautionary tales about data mining (January 6, 2005)</a><li>
-"DatesInR.html">Dates in Excel and R (August 10, 2005)</a><li>
-"DiagnosticMetaanalysis.html">Meta-analysis for a diagnostic test (March 22, 2005)</a><li>
-"DigitalObjectIdentifier.html">The Digital Object Identifier (January 19, 2005)</a><li>
-"DigitizingGraph.html">Digitizing a graph (March 15, 2005)</a><li>
-"DimensionReduction.html">Dimension reduction in a microarray experiment (May 25, 
-"DisasterAverted.html">A disaster averted (May 16, 2005)</a><li>
-"DisasterAvertedA.html">Another disaster averted (August 16, 2005)</a><li>
-"DishonestyResearch.html">Dishonesty in medical research (September 15, 2005)</a><li>
-"DumpingData.html">Dumping data from R to a text file (June 27, 2005)</a><li>
-"EndSpam.html">Technology to end spam (March 8, 2005)</a><li>
-"EnoughData.html">Do I have enough data after 24 months of time? (April 5, 2005)</a></ol>
-"EntirePopulation.html">Sampling the entire population (February 3, 2005)</a><li>
-"Equipoise.html">More thoughts on equipoise (January 17, 2005)</a><li>
-"EquipoiseA.html">Two articles debating equipoise (September 9, 2005)</a><li>
-"EthicsCAM.html">Ethical principles for Complementary and Alternative Medicine 
-"EthicsRandomization.html">The ethics of randomization (January 14, 2005)</a><li>
-"EvidenceBasedMedicine.html">Overview of evidence-based-medicine (July 29, 2005)</a><li>
-"FairUse.html">Fair Use of copyrighted material (April 15, 2005)</a><li>
-"FalsePositive.html">The costs of a false positive test (March 1, 2005)</a></ol>
-"FindingGenes.html">Finding more information about a gene (September 6, 2005)</a><li>
-"FindingGenesB.html">More on discovering gene information (October 12, 2005)</a><li>
-"ForestPlots.html">Forest plots (January 12, 2005)</a><li>
-"GeneExpression.html">Analysis of Gene Expression Data Short Course (July 26, 2005)</a><li>
-"GeometricDistribution.html">Geometric distribution (May 16, 2005)</a><li>
-"GoogleScholar.html">Counterpoint on Google Scholar (July 19, 2005)</a><li>
-"GrowthCurves.html">Growth curves (March 1, 2005)</a><li>
-"HarmonicMean.html">A surprising application of the harmonic mean (February 1, 2005)</a></ol>
-"HedgesG.html">Hedge's G (May 13, 2005)</a><li>
-"IncidenceDensity.html">Incidence density ratio (April 19, 2005)</a><li>
-"InferentialDescriptive.html">Inferential and descriptive statistics (March 24, 2005)</a><li>
-"InformationTheory.html">More on information theory models (March 24, 2005)</a><li>
-"InformationTheoryA.html">Information theory and microarrays (June 1, 2005)</a></ol>
-"InformationTheoryB.html">Information content of a continuous distribution (August 1, 
-"Intuition.html">How good is your intuition? (January 21, 2005)</a><li>
-"LanguageResources.html">Language resources (March 22, 2005)</a><li>
-"LibrariesR.html">Two nice R libraries (October 14, 2005)</a><li>
-"MMalgorithm.html">Optimization using the MM algorithm (February 14, 2005)</a><li>
-"MathematicaMatlab.html">Using Mathematica and Matlab for Statistics (March 22, 2005)</a><li>
-"MeasuringAgreement.html">Measuring agreement (April 19, 2005)</a><li>
-"MedStats.html">MedStats discussion group (April 25, 2005)</a><li>
-"MediaInterviews.html">Media interview tips (March 23, 2005)</a><li>
-"MergingInR.html">Merging in R (July 26, 2005)</a><li>
-"MetaanalysisArticles.html">Some articles on meta-analysis (June 10, 2005)</a><li>
-"MetaanalysisCritique.html">Responding to a critique of meta-analysis (October 10, 
-"MetaanalysisTalk.html">Meta-analysis talk (May 2, 2005)</a></ol>
-"MicroArrayA.html">Review articles on microarrays (March 7, 2005)</a><li>
-"MicroArrayB.html">More articles on microarrays (March 10, 2005)</a><li>
-"MicroArrayD.html">More on normalization (July 28, 2005)</a><li>
-"MicroArrayE.html">Publicly available microarray data (August 18, 2005)</a><li>
-"MicroArrayF.html">Statistical Analysis of Microarrays by Insightful (August 31, 2005)</a><li>
-"MicroarrayC.html">Microarray data analysis, again (April 22, 2005)</a><li>
-"MicroarrayG.html">RMA normalization of microarrays (October 24, 2005)</a><li>
-"ModeratorVariable.html">Moderator variables (February 15, 2005)</a><li>
-"MolassesMilk.html">Searching for information about the molasses with milk enema 
-"Moments.html">Expected value and moments (July 29, 2005)</a><li>
-"MonetaryIncentives.html">Monetary incentives (January 3, 2005)</a></ol>
-"MovingRObjects.html">Moving R objects (July 28, 2005)</a><li>
-"MultipleComparisons.html">Step-down procedures for multiple comparisons (June 16, 
-"NamingGenes.html">Naming conventions for genes, proteins, etc. (September 8, 2005)</a><li>
-"NegativeMicroarray.html">A totally negative microarray experiment (October 14, 2005)</a><li>
-"NonrandomSamples.html">Non-random samples (March 25, 2005)</a><li>
-"NonspecificDiagnostic.html">A nonspecific diagnostic test (October 13, 2005)</a><li>
-"NormalProbabilities.html">Computing normal probabilities (May 19, 2005)</a><li>
-"NumbersTablesCharts.html">Presenting Numbers, Tables, and Charts (April 15, 2005)</a><li>
-"OddsRatios.html">Odds ratios less than one (January 6, 2005)</a><li>
-"OpenEndedQuestions.html">Open-ended questions on a survey (March 25, 2005)</a><li>
-"OpenSite.html">Another open site closes (May 23, 2005)</a><li>
-"OptimalThreshold.html">Determining the optimal threshold for a diagnostic test (April 
-"OrdinalData.html">Summing ordinal data (April 5, 2005)</a><li>
-"PairedAvailability.html">The paired availability design (May 31, 2005)</a><li>
-"PatientsReactions.html">Patients' reactions to finding out they were in the placebo 
-"PermutationTests.html">Permutation tests for microarrays (July 27, 2005)</a><li>
-"PostHocPower.html">Post hoc power is never justified (May 13, 2005)</a><li>
-"PowerPointA.html">PowerPoint Counterpoint (updated March 2, 2005)</a><li>
-"PracticeGuidelines.html">Developing good practice guidelines (February 18, 2005)</a><li>
-"ProfileAnalysis.html">Profile analysis and MANOVA (April 18, 2005)</a><li>
-"PubMedTags.html">PubMed tags (April 28, 2005)</a><li>
-"PublicAccess.html">Public access to publications from NIH-funded research (February 
-"PublicationQuality.html">Quality of published research (March 14, 2005)</a><li>
-"Publicon.html">Publicon software (March 14, 2005)</a><li>
-"QualityControlExercises.html">Quality control exercises (September 1, 2005)</a></ol>
-"QualityControlExercsiesPart2.html">Quality control exercises, Part 2 (October 5, 2005)</a><li>
-"QuotesFebruary.html">Quotes for February (updated February 21, 2005)</a><li>
-"QuotesJanuary.html">Quotes for the month of January (last update January 24, 2005)</a><li>
-"QuotesMarch.html">Quotes for the month of March (March 10, 2005)</a><li>
-"ROCcurve.html">Application of the ROC curve to microarray data (May 26, 2005)</a><li>
-"RaceEthnicity.html">Coding race/ethnicity (February 3, 2003)</a><li>
-"Randomization.html">An inefficient approach to randomization (August 10, 2005)</a><li>
-"RandomizedTrials.html">More on the weaknesses of randomized trials (February 14, 
-"RandomizedTrialsA.html">Effective communication about randomized clinical trials 
-"RegularExpressions.html">More on regular expressions (July 21, 2005)</a><li>
-"ReportCards.html">Stats: Report cards (February 16, 2005)</a><li>
-"RetractedArticles.html">The fate of retracted articles (October 14, 2005)</a><li>
-"RetroactivePrayer.html">More on the retroactive prayer study (June 10, 2005)</a><li>
-"ReweightingData.html">Re-weighting the data (January 25, 2005)</a><li>
-"SPSSversion14.html">What's New in SPSS version 14.0 (August 17, 2005)</a><li>
-"SafetyMiner.html">Seminar notes, S-PLUS Clinical Safety Miner (March 10, 2005)</a><li>
-"SampleSize.html">Relationship between sample size and p-values (February 14, 2005)</a><li>
-"SampleSizeA.html">Sample size calculation for a nonparametric test (March 8, 2005)</a><li>
-"SampleSizeB.html">Sample size for a binomial confidence interval (October 3, 2005)</a></ol>
-"SampleSizeBinary.html">Sample size for a binary endpoint (August 12, 2005)</a><li>
-"ScienceMentoring.html">Science mentoring (September 12, 2005)</a><li>
-"ScientificMisconduct.html">Allegations of scientific misconduct (updated August 1, 
-"ScientificValidity.html">IRBs and scientific validity (August 12, 2005)</a><li>
-"SearchInternet.html">Searching the Internet (April 26, 2005)</a><li>
-"SearchLiterature.html">Searching the literature (May 3, 2005)</a><li>
-"SearchLiteratureA.html">More on searching the literature (May 17, 2005)</a><li>
-"SearchLiteratureB.html">Another search for evidence (June 7, 2005)</a><li>
-"SearchLiteratureC.html">A third search for the evidence (August 2, 2005)</a><li>
-"SelectiveReporting.html">Selective reporting of research findings (March 14, 2005)
-"SelfExperimentation.html">Self experimentation (September 13, 2005)</a><li>
-"SensitivityError.html">An error slips through the peer review process (September 19, 
-"SideEffects.html">Side effects of Cox-2 inhibitors (February 15, 2005)</a><li>
-"SingleObservation.html">When one group only has a single observation (May 24, 2005)</a><li>
-"SixtyPercentDrop.html">What does a 60% drop mean? (June 20, 2005)</a><li>
-"SmallPvalue.html">A small p-value does not mean a large difference (February 8, 2005)</a><li>
-"SmallRelativeRisk.html">Small relative risks (January 13, 2005)</a><li>
-"SpacingHtml.html">Preserving spacing in html code (May 6, 2005)</a><li>
-"SpectrumBias.html">Spectrum Bias (January 4, 2005)</a><li>
-"SplusCorrelatedData.html">The S+ CorrelatedData Library (May 19, 2005)</a><li>
-"SplusVersion7.html">S-plus version 7 (April 19, 2005)</a><li>
-"StandardError.html">Standard deviation versus standard error (May 16, 2005)</a><li>
-"StatisticsSoftware.html">Free statistics software (September 15, 2005)</a><li>
-"StopStudy.html">When can I stop my CQI study? (June 6, 2005)</a><li>
-"StratifiedCoxRegression.html">Stratified Cox regression models (March 22, 2005)</a><li>
-"StringsR.html">String manipulations in R (May 10, 2005)</a><li>
-"SummaryROC.html">Summary Receiver Operating Characteristic Curve (January 21, 2005)</a><li>
-"SurrogateOutcomes.html">Surrogate outcomes (March 23, 2005)</a><li>
-"TaguchiMethods.html">Taguchi methods (February 22, 2005)</a><li>
-"TenStudies.html">Ten research studies that anyone teaching EBM should be familiar 
-"TenStudiesA.html">Another top ten study in EBM (February 14, 2005)</a><li>
-"TenStudiesB.html">More on the top ten studies in EBM (updated February 28, 2005)</a><li>
-"TestsNormality.html">I abhor Lilliefor and other tests of normality (April 14, 2005)</a><li>
-"ToleranceLimits.html">Tolerance limits (April 15, 2005)</a><li>
-"TrialRegistration.html">Registration of clinical trials (July 22, 2005)</a><li>
-"TrickR.html">A simple trick in R (October 11, 2005)</a><li>
-"TukeyTest.html">When the F test is significant, but Tukey is not (September 9, 2005)</a><li>
-"ValueLabels.html">Importing value labels from Access into SPSS (May 24, 2005)</a><li>
-"WebLinksApril.html">Interesting web links and quotes for the month of April (April 
-"WebLinksAugust.html">Interesting web sites, publications, and quotes for the month of 
-"WebLinksFebruary.html">Recommended web links for the month of February (last updated 
-"WebLinksJanuary.html">Interesting web links for the month of January (last updated 
-"WebLinksJuly.html">Interesting web links and quotes for the month of May (updated May 
-"WebLinksJune.html">Interesting quotes, web pages, and publications for the month of 
-"WebLinksMarch.html">Interesting web links for the month of March (March 30, 2005)</a><li>
-"WebLinksMay.html">Interesting web links and quotes for the month of May (updated May 
-"WebLinksSeptember.html">Interesting web sites, publications, and quotes for the month 
-"WeblinksOctober.html">Interesting web sites, publications, and quotes for the month 
-"ClinicalImportanceA.html">Confidence intervals are needed to evaluate clinical importance 
-"ControversialMetaanalysis.html">A controversial meta-analysis (December 20, 2005)</a><li>
-"FishersExact.html">Web page for Fisher's Exact test (November 17, 2005)</a><li>
-"FunnyFractions.html">Fractions are funny (December 13, 2005)</a><li>
-"GroupSequential.html">Group Sequential Monitoring of Clinical Trials in R (December 13, 
-"HapMap.html">The HapMap project (December 12, 2005)</a></ul>
-"HardLessons.html">Hard learned lessons (November 25, 2005)</a><li>
-"NondestructiveEditing.html">Non-destructive data editing (November 2, 2005)</a></ul>
-"ObjectOrientedR.html">Object oriented features of R (December 19, 2005)</a><li>
-"SeventeenYears.html">Seventeen years between research and practice (November 2, 2005)</a><li>
-"SlowProgress.html">Slow progress on my weblog (November 25, 2005)</a><li>
-"StepwiseRegression.html">Stepwise regression to screen for covariates (November 25, 2005)</a><li>
-"VoteForMe.html">Vote for me (December 21, 2005)</a><li>
-"WebLinksDecember.html">Interesting web sites, publications, and quotes for the month of 
-"WithholdingInformation.html">Withholding information (November 28, 2005)</a><li>
+You can find an [earlier version](http://www.pmean.com/05/AbsoluteRisk.html) of this page on my [original website](http://www.pmean.com/original_site.html). The difference between absolute risks and relative risks
+You can find an [earlier version](http://www.pmean.com/05/AdjustedOR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Adjusted odds ratios
+You can find an [earlier version](http://www.pmean.com/05/AdverseEvents.html) of this page on my [original website](http://www.pmean.com/original_site.html). Reporting of adverse events
+You can find an [earlier version](http://www.pmean.com/05/AlternativeMedicine.html) of this page on my [original website](http://www.pmean.com/original_site.html). What alternative medicine can teach us about evidence-based 
+You can find an [earlier version](http://www.pmean.com/05/AnecdotalEvidence.html) of this page on my [original website](http://www.pmean.com/original_site.html). A nice definition of anecdotal evidence
+You can find an [earlier version](http://www.pmean.com/05/BaselineAdjustment.html) of this page on my [original website](http://www.pmean.com/original_site.html). Adjusting for a baseline measurement
+You can find an [earlier version](http://www.pmean.com/05/BaselineImbalance.html) of this page on my [original website](http://www.pmean.com/original_site.html). Testing baseline imbalance in a randomized study
+You can find an [earlier version](http://www.pmean.com/05/BestEBM.html) of this page on my [original website](http://www.pmean.com/original_site.html). Best EBM methods or teaching papers in 2004
+You can find an [earlier version](http://www.pmean.com/05/Bimodality.html) of this page on my [original website](http://www.pmean.com/original_site.html). Testing for bimodality
+You can find an [earlier version](http://www.pmean.com/05/CaseCohort.html) of this page on my [original website](http://www.pmean.com/original_site.html). Case cohort design
+You can find an [earlier version](http://www.pmean.com/05/CensoredValues.html) of this page on my [original website](http://www.pmean.com/original_site.html). More than 90% censored values
+You can find an [earlier version](http://www.pmean.com/05/ChanceWiki.html) of this page on my [original website](http://www.pmean.com/original_site.html). Publication in the ChanceWiki
+You can find an [earlier version](http://www.pmean.com/05/ChanceWikiA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Two articles in the Chance Wiki
+You can find an [earlier version](http://www.pmean.com/05/ChangesStatL.html) of this page on my [original website](http://www.pmean.com/original_site.html). Changes to STAT-L/sci.stat.consult
+You can find an [earlier version](http://www.pmean.com/05/ClinicalImportance.html) of this page on my [original website](http://www.pmean.com/original_site.html). Clinical importance
+You can find an [earlier version](http://www.pmean.com/05/ClinicalImportanceA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confidence intervals are needed to evaluate clinical importance 
+You can find an [earlier version](http://www.pmean.com/05/CollectionStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). A collection of randomized and non-randomized studies
+You can find an [earlier version](http://www.pmean.com/05/ComingSoon.html) of this page on my [original website](http://www.pmean.com/original_site.html). Coming soon
+You can find an [earlier version](http://www.pmean.com/05/ConfidenceInterval.html) of this page on my [original website](http://www.pmean.com/original_site.html). Where is the confidence interval?
+You can find an [earlier version](http://www.pmean.com/05/ConfidenceIntervalA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confidence intervals around a safety level
+You can find an [earlier version](http://www.pmean.com/05/ConfidenceIntervalB.html) of this page on my [original website](http://www.pmean.com/original_site.html). Examples of confidence intervals
+You can find an [earlier version](http://www.pmean.com/05/ConflictInterest.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on conflicts of interest
+You can find an [earlier version](http://www.pmean.com/05/ConflictInterestA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Taking charges of conflicting interest too far
+You can find an [earlier version](http://www.pmean.com/05/ConfusionPvalues.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confusion about p-values
+You can find an [earlier version](http://www.pmean.com/05/ConsecutiveDates.html) of this page on my [original website](http://www.pmean.com/original_site.html). Placing consecutive dates in a column of an SPSS file
+You can find an [earlier version](http://www.pmean.com/05/ContinuousVariables.html) of this page on my [original website](http://www.pmean.com/original_site.html). Continuous variables in a logistic regression model 
+You can find an [earlier version](http://www.pmean.com/05/ControlCharts.html) of this page on my [original website](http://www.pmean.com/original_site.html). Control charts for monitoring mortality rates
+You can find an [earlier version](http://www.pmean.com/05/ControversialMetaanalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). A controversial meta-analysis
+You can find an [earlier version](http://www.pmean.com/05/ConvertOddsRatio.html) of this page on my [original website](http://www.pmean.com/original_site.html). Converting an odds ratio to a relative risk
+You can find an [earlier version](http://www.pmean.com/05/CorrelationCoefficient.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confidence interval for a correlation coefficient
+You can find an [earlier version](http://www.pmean.com/05/CovariateImbalance.html) of this page on my [original website](http://www.pmean.com/original_site.html). Adjusting for covariate imbalance
+You can find an [earlier version](http://www.pmean.com/05/CriticalThinking.html) of this page on my [original website](http://www.pmean.com/original_site.html). What is critical thinking?
+You can find an [earlier version](http://www.pmean.com/05/CronbachsAlpha.html) of this page on my [original website](http://www.pmean.com/original_site.html). Very low values from Cronbach's Alpha
+You can find an [earlier version](http://www.pmean.com/05/CumulativeMetaanalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Cumulative meta-analysis
+You can find an [earlier version](http://www.pmean.com/05/DataMining.html) of this page on my [original website](http://www.pmean.com/original_site.html). Two cautionary tales about data mining
+You can find an [earlier version](http://www.pmean.com/05/DatesInR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Dates in Excel and R
+You can find an [earlier version](http://www.pmean.com/05/DiagnosticMetaanalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Meta-analysis for a diagnostic test
+You can find an [earlier version](http://www.pmean.com/05/DigitalObjectIdentifier.html) of this page on my [original website](http://www.pmean.com/original_site.html). The Digital Object Identifier
+You can find an [earlier version](http://www.pmean.com/05/DigitizingGraph.html) of this page on my [original website](http://www.pmean.com/original_site.html). Digitizing a graph
+You can find an [earlier version](http://www.pmean.com/05/DimensionReduction.html) of this page on my [original website](http://www.pmean.com/original_site.html). Dimension reduction in a microarray experiment
+You can find an [earlier version](http://www.pmean.com/05/DisasterAverted.html) of this page on my [original website](http://www.pmean.com/original_site.html). A disaster averted
+You can find an [earlier version](http://www.pmean.com/05/DisasterAvertedA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Another disaster averted
+You can find an [earlier version](http://www.pmean.com/05/DishonestyResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Dishonesty in medical research
+You can find an [earlier version](http://www.pmean.com/05/DumpingData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Dumping data from R to a text file
+You can find an [earlier version](http://www.pmean.com/05/EndSpam.html) of this page on my [original website](http://www.pmean.com/original_site.html). Technology to end spam
+You can find an [earlier version](http://www.pmean.com/05/EnoughData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Do I have enough data after 24 months of time?
+You can find an [earlier version](http://www.pmean.com/05/EntirePopulation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sampling the entire population
+You can find an [earlier version](http://www.pmean.com/05/Equipoise.html) of this page on my [original website](http://www.pmean.com/original_site.html). More thoughts on equipoise
+You can find an [earlier version](http://www.pmean.com/05/EquipoiseA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Two articles debating equipoise
+You can find an [earlier version](http://www.pmean.com/05/EthicsCAM.html) of this page on my [original website](http://www.pmean.com/original_site.html). Ethical principles for Complementary and Alternative Medicine 
+You can find an [earlier version](http://www.pmean.com/05/EthicsRandomization.html) of this page on my [original website](http://www.pmean.com/original_site.html). The ethics of randomization
+You can find an [earlier version](http://www.pmean.com/05/EvidenceBasedMedicine.html) of this page on my [original website](http://www.pmean.com/original_site.html). Overview of evidence-based-medicine
+You can find an [earlier version](http://www.pmean.com/05/FairUse.html) of this page on my [original website](http://www.pmean.com/original_site.html). Fair Use of copyrighted material
+You can find an [earlier version](http://www.pmean.com/05/FalsePositive.html) of this page on my [original website](http://www.pmean.com/original_site.html). The costs of a false positive test
+You can find an [earlier version](http://www.pmean.com/05/FindingGenes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Finding more information about a gene
+You can find an [earlier version](http://www.pmean.com/05/FindingGenesB.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on discovering gene information
+You can find an [earlier version](http://www.pmean.com/05/FishersExact.html) of this page on my [original website](http://www.pmean.com/original_site.html). Web page for Fisher's Exact test
+You can find an [earlier version](http://www.pmean.com/05/ForestPlots.html) of this page on my [original website](http://www.pmean.com/original_site.html). Forest plots
+You can find an [earlier version](http://www.pmean.com/05/FunnyFractions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Fractions are funny
+You can find an [earlier version](http://www.pmean.com/05/GeneExpression.html) of this page on my [original website](http://www.pmean.com/original_site.html). Analysis of Gene Expression Data Short Course
+You can find an [earlier version](http://www.pmean.com/05/GeometricDistribution.html) of this page on my [original website](http://www.pmean.com/original_site.html). Geometric distribution
+You can find an [earlier version](http://www.pmean.com/05/GoogleScholar.html) of this page on my [original website](http://www.pmean.com/original_site.html). Counterpoint on Google Scholar
+You can find an [earlier version](http://www.pmean.com/05/GroupSequential.html) of this page on my [original website](http://www.pmean.com/original_site.html). Group Sequential Monitoring of Clinical Trials in R
+You can find an [earlier version](http://www.pmean.com/05/GrowthCurves.html) of this page on my [original website](http://www.pmean.com/original_site.html). Growth curves
+You can find an [earlier version](http://www.pmean.com/05/HapMap.html) of this page on my [original website](http://www.pmean.com/original_site.html). The HapMap project
+You can find an [earlier version](http://www.pmean.com/05/HardLessons.html) of this page on my [original website](http://www.pmean.com/original_site.html). Hard learned lessons
+You can find an [earlier version](http://www.pmean.com/05/HarmonicMean.html) of this page on my [original website](http://www.pmean.com/original_site.html). A surprising application of the harmonic mean
+You can find an [earlier version](http://www.pmean.com/05/HedgesG.html) of this page on my [original website](http://www.pmean.com/original_site.html). Hedge's G
+You can find an [earlier version](http://www.pmean.com/05/IncidenceDensity.html) of this page on my [original website](http://www.pmean.com/original_site.html). Incidence density ratio
+You can find an [earlier version](http://www.pmean.com/05/InferentialDescriptive.html) of this page on my [original website](http://www.pmean.com/original_site.html). Inferential and descriptive statistics
+You can find an [earlier version](http://www.pmean.com/05/InformationTheory.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on information theory models
+You can find an [earlier version](http://www.pmean.com/05/InformationTheoryA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Information theory and microarrays
+You can find an [earlier version](http://www.pmean.com/05/InformationTheoryB.html) of this page on my [original website](http://www.pmean.com/original_site.html). Information content of a continuous distribution
+You can find an [earlier version](http://www.pmean.com/05/Intuition.html) of this page on my [original website](http://www.pmean.com/original_site.html). How good is your intuition?
+You can find an [earlier version](http://www.pmean.com/05/LanguageResources.html) of this page on my [original website](http://www.pmean.com/original_site.html). Language resources
+You can find an [earlier version](http://www.pmean.com/05/LibrariesR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Two nice R libraries
+You can find an [earlier version](http://www.pmean.com/05/MMalgorithm.html) of this page on my [original website](http://www.pmean.com/original_site.html). Optimization using the MM algorithm
+You can find an [earlier version](http://www.pmean.com/05/MathematicaMatlab.html) of this page on my [original website](http://www.pmean.com/original_site.html). Using Mathematica and Matlab for Statistics
+You can find an [earlier version](http://www.pmean.com/05/MeasuringAgreement.html) of this page on my [original website](http://www.pmean.com/original_site.html). Measuring agreement
+You can find an [earlier version](http://www.pmean.com/05/MedStats.html) of this page on my [original website](http://www.pmean.com/original_site.html). MedStats discussion group
+You can find an [earlier version](http://www.pmean.com/05/MediaInterviews.html) of this page on my [original website](http://www.pmean.com/original_site.html). Media interview tips
+You can find an [earlier version](http://www.pmean.com/05/MergingInR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Merging in R
+You can find an [earlier version](http://www.pmean.com/05/MetaanalysisArticles.html) of this page on my [original website](http://www.pmean.com/original_site.html). Some articles on meta-analysis
+You can find an [earlier version](http://www.pmean.com/05/MetaanalysisCritique.html) of this page on my [original website](http://www.pmean.com/original_site.html). Responding to a critique of meta-analysis
+You can find an [earlier version](http://www.pmean.com/05/MetaanalysisTalk.html) of this page on my [original website](http://www.pmean.com/original_site.html). Meta-analysis talk
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Review articles on microarrays
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayB.html) of this page on my [original website](http://www.pmean.com/original_site.html). More articles on microarrays
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayD.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on normalization
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayE.html) of this page on my [original website](http://www.pmean.com/original_site.html). Publicly available microarray data
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayF.html) of this page on my [original website](http://www.pmean.com/original_site.html). Statistical Analysis of Microarrays by Insightful
+You can find an [earlier version](http://www.pmean.com/05/MicroarrayC.html) of this page on my [original website](http://www.pmean.com/original_site.html). Microarray data analysis, again
+You can find an [earlier version](http://www.pmean.com/05/MicroarrayG.html) of this page on my [original website](http://www.pmean.com/original_site.html). RMA normalization of microarrays
+You can find an [earlier version](http://www.pmean.com/05/ModeratorVariable.html) of this page on my [original website](http://www.pmean.com/original_site.html). Moderator variables
+You can find an [earlier version](http://www.pmean.com/05/MolassesMilk.html) of this page on my [original website](http://www.pmean.com/original_site.html). Searching for information about the molasses with milk enema 
+You can find an [earlier version](http://www.pmean.com/05/Moments.html) of this page on my [original website](http://www.pmean.com/original_site.html). Expected value and moments
+You can find an [earlier version](http://www.pmean.com/05/MonetaryIncentives.html) of this page on my [original website](http://www.pmean.com/original_site.html). Monetary incentives
+You can find an [earlier version](http://www.pmean.com/05/MovingRObjects.html) of this page on my [original website](http://www.pmean.com/original_site.html). Moving R objects
+You can find an [earlier version](http://www.pmean.com/05/MultipleComparisons.html) of this page on my [original website](http://www.pmean.com/original_site.html). Step-down procedures for multiple comparisons
+You can find an [earlier version](http://www.pmean.com/05/NamingGenes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Naming conventions for genes, proteins, etc.
+You can find an [earlier version](http://www.pmean.com/05/NegativeMicroarray.html) of this page on my [original website](http://www.pmean.com/original_site.html). A totally negative microarray experiment
+You can find an [earlier version](http://www.pmean.com/05/NondestructiveEditing.html) of this page on my [original website](http://www.pmean.com/original_site.html). Non-destructive data editing
+You can find an [earlier version](http://www.pmean.com/05/NonrandomSamples.html) of this page on my [original website](http://www.pmean.com/original_site.html). Non-random samples
+You can find an [earlier version](http://www.pmean.com/05/NonspecificDiagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). A nonspecific diagnostic test
+You can find an [earlier version](http://www.pmean.com/05/NormalProbabilities.html) of this page on my [original website](http://www.pmean.com/original_site.html). Computing normal probabilities
+You can find an [earlier version](http://www.pmean.com/05/NumbersTablesCharts.html) of this page on my [original website](http://www.pmean.com/original_site.html). Presenting Numbers, Tables, and Charts
+You can find an [earlier version](http://www.pmean.com/05/ObjectOrientedR.html) of this page on my [original website](http://www.pmean.com/original_site.html). Object oriented features of R
+You can find an [earlier version](http://www.pmean.com/05/OddsRatios.html) of this page on my [original website](http://www.pmean.com/original_site.html). Odds ratios less than one
+You can find an [earlier version](http://www.pmean.com/05/OpenEndedQuestions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Open-ended questions on a survey
+You can find an [earlier version](http://www.pmean.com/05/OpenSite.html) of this page on my [original website](http://www.pmean.com/original_site.html). Another open site closes
+You can find an [earlier version](http://www.pmean.com/05/OptimalThreshold.html) of this page on my [original website](http://www.pmean.com/original_site.html). Determining the optimal threshold for a diagnostic test
+You can find an [earlier version](http://www.pmean.com/05/OrdinalData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Summing ordinal data
+You can find an [earlier version](http://www.pmean.com/05/PairedAvailability.html) of this page on my [original website](http://www.pmean.com/original_site.html). The paired availability design
+You can find an [earlier version](http://www.pmean.com/05/PatientsReactions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Patients' reactions to finding out they were in the placebo 
+You can find an [earlier version](http://www.pmean.com/05/PermutationTests.html) of this page on my [original website](http://www.pmean.com/original_site.html). Permutation tests for microarrays
+You can find an [earlier version](http://www.pmean.com/05/PostHocPower.html) of this page on my [original website](http://www.pmean.com/original_site.html). Post hoc power is never justified
+You can find an [earlier version](http://www.pmean.com/05/PowerPointA.html) of this page on my [original website](http://www.pmean.com/original_site.html). PowerPoint Counterpoint
+You can find an [earlier version](http://www.pmean.com/05/PracticeGuidelines.html) of this page on my [original website](http://www.pmean.com/original_site.html). Developing good practice guidelines
+You can find an [earlier version](http://www.pmean.com/05/ProfileAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Profile analysis and MANOVA
+You can find an [earlier version](http://www.pmean.com/05/PubMedTags.html) of this page on my [original website](http://www.pmean.com/original_site.html). PubMed tags
+You can find an [earlier version](http://www.pmean.com/05/PublicAccess.html) of this page on my [original website](http://www.pmean.com/original_site.html). Public access to publications from NIH-funded research
+You can find an [earlier version](http://www.pmean.com/05/PublicationQuality.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quality of published research
+You can find an [earlier version](http://www.pmean.com/05/Publicon.html) of this page on my [original website](http://www.pmean.com/original_site.html). Publicon software
+You can find an [earlier version](http://www.pmean.com/05/QualityControlExercises.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quality control exercises
+You can find an [earlier version](http://www.pmean.com/05/QualityControlExercsiesPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quality control exercises, Part 2
+You can find an [earlier version](http://www.pmean.com/05/QuotesFebruary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quotes for February
+You can find an [earlier version](http://www.pmean.com/05/QuotesJanuary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quotes for the month of January
+You can find an [earlier version](http://www.pmean.com/05/QuotesMarch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quotes for the month of March
+You can find an [earlier version](http://www.pmean.com/05/ROCcurve.html) of this page on my [original website](http://www.pmean.com/original_site.html). Application of the ROC curve to microarray data
+You can find an [earlier version](http://www.pmean.com/05/RaceEthnicity.html) of this page on my [original website](http://www.pmean.com/original_site.html). Coding race/ethnicity
+You can find an [earlier version](http://www.pmean.com/05/Randomization.html) of this page on my [original website](http://www.pmean.com/original_site.html). An inefficient approach to randomization
+You can find an [earlier version](http://www.pmean.com/05/RandomizedTrials.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on the weaknesses of randomized trials
+You can find an [earlier version](http://www.pmean.com/05/RandomizedTrialsA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Effective communication about randomized clinical trials 
+You can find an [earlier version](http://www.pmean.com/05/RegularExpressions.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on regular expressions
+You can find an [earlier version](http://www.pmean.com/05/ReportCards.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stats: Report cards
+You can find an [earlier version](http://www.pmean.com/05/RetractedArticles.html) of this page on my [original website](http://www.pmean.com/original_site.html). The fate of retracted articles
+You can find an [earlier version](http://www.pmean.com/05/RetroactivePrayer.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on the retroactive prayer study
+You can find an [earlier version](http://www.pmean.com/05/ReweightingData.html) of this page on my [original website](http://www.pmean.com/original_site.html). Re-weighting the data
+You can find an [earlier version](http://www.pmean.com/05/SPSSversion14.html) of this page on my [original website](http://www.pmean.com/original_site.html). What's New in SPSS version 14.0
+You can find an [earlier version](http://www.pmean.com/05/SafetyMiner.html) of this page on my [original website](http://www.pmean.com/original_site.html). Seminar notes, S-PLUS Clinical Safety Miner
+You can find an [earlier version](http://www.pmean.com/05/SampleSize.html) of this page on my [original website](http://www.pmean.com/original_site.html). Relationship between sample size and p-values
+You can find an [earlier version](http://www.pmean.com/05/SampleSizeA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size calculation for a nonparametric test
+You can find an [earlier version](http://www.pmean.com/05/SampleSizeB.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for a binomial confidence interval
+You can find an [earlier version](http://www.pmean.com/05/SampleSizeBinary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for a binary endpoint
+You can find an [earlier version](http://www.pmean.com/05/ScienceMentoring.html) of this page on my [original website](http://www.pmean.com/original_site.html). Science mentoring
+You can find an [earlier version](http://www.pmean.com/05/ScientificMisconduct.html) of this page on my [original website](http://www.pmean.com/original_site.html). Allegations of scientific misconduct
+You can find an [earlier version](http://www.pmean.com/05/ScientificValidity.html) of this page on my [original website](http://www.pmean.com/original_site.html). IRBs and scientific validity
+You can find an [earlier version](http://www.pmean.com/05/SearchInternet.html) of this page on my [original website](http://www.pmean.com/original_site.html). Searching the Internet
+You can find an [earlier version](http://www.pmean.com/05/SearchLiterature.html) of this page on my [original website](http://www.pmean.com/original_site.html). Searching the literature
+You can find an [earlier version](http://www.pmean.com/05/SearchLiteratureA.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on searching the literature
+You can find an [earlier version](http://www.pmean.com/05/SearchLiteratureB.html) of this page on my [original website](http://www.pmean.com/original_site.html). Another search for evidence
+You can find an [earlier version](http://www.pmean.com/05/SearchLiteratureC.html) of this page on my [original website](http://www.pmean.com/original_site.html). A third search for the evidence
+You can find an [earlier version](http://www.pmean.com/05/SelectiveReporting.html) of this page on my [original website](http://www.pmean.com/original_site.html). Selective reporting of research findings
+You can find an [earlier version](http://www.pmean.com/05/SelfExperimentation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Self experimentation
+You can find an [earlier version](http://www.pmean.com/05/SensitivityError.html) of this page on my [original website](http://www.pmean.com/original_site.html). An error slips through the peer review process
+You can find an [earlier version](http://www.pmean.com/05/SeventeenYears.html) of this page on my [original website](http://www.pmean.com/original_site.html). Seventeen years between research and practice
+You can find an [earlier version](http://www.pmean.com/05/SideEffects.html) of this page on my [original website](http://www.pmean.com/original_site.html). Side effects of Cox-2 inhibitors
+You can find an [earlier version](http://www.pmean.com/05/SingleObservation.html) of this page on my [original website](http://www.pmean.com/original_site.html). When one group only has a single observation
+You can find an [earlier version](http://www.pmean.com/05/SixtyPercentDrop.html) of this page on my [original website](http://www.pmean.com/original_site.html). What does a 60% drop mean?
+You can find an [earlier version](http://www.pmean.com/05/SlowProgress.html) of this page on my [original website](http://www.pmean.com/original_site.html). Slow progress on my weblog
+You can find an [earlier version](http://www.pmean.com/05/SmallPvalue.html) of this page on my [original website](http://www.pmean.com/original_site.html). A small p-value does not mean a large difference
+You can find an [earlier version](http://www.pmean.com/05/SmallRelativeRisk.html) of this page on my [original website](http://www.pmean.com/original_site.html). Small relative risks
+You can find an [earlier version](http://www.pmean.com/05/SpacingHtml.html) of this page on my [original website](http://www.pmean.com/original_site.html). Preserving spacing in html code
+You can find an [earlier version](http://www.pmean.com/05/SpectrumBias.html) of this page on my [original website](http://www.pmean.com/original_site.html). Spectrum Bias
+You can find an [earlier version](http://www.pmean.com/05/SplusCorrelatedData.html) of this page on my [original website](http://www.pmean.com/original_site.html). The S+ CorrelatedData Library
+You can find an [earlier version](http://www.pmean.com/05/SplusVersion7.html) of this page on my [original website](http://www.pmean.com/original_site.html). S-plus version 7
+You can find an [earlier version](http://www.pmean.com/05/StandardError.html) of this page on my [original website](http://www.pmean.com/original_site.html). Standard deviation versus standard error
+You can find an [earlier version](http://www.pmean.com/05/StatisticsSoftware.html) of this page on my [original website](http://www.pmean.com/original_site.html). Free statistics software
+You can find an [earlier version](http://www.pmean.com/05/StepwiseRegression.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stepwise regression to screen for covariates
+You can find an [earlier version](http://www.pmean.com/05/StopStudy.html) of this page on my [original website](http://www.pmean.com/original_site.html). When can I stop my CQI study?
+You can find an [earlier version](http://www.pmean.com/05/StratifiedCoxRegression.html) of this page on my [original website](http://www.pmean.com/original_site.html). Stratified Cox regression models
+You can find an [earlier version](http://www.pmean.com/05/StringsR.html) of this page on my [original website](http://www.pmean.com/original_site.html). String manipulations in R
+You can find an [earlier version](http://www.pmean.com/05/SummaryROC.html) of this page on my [original website](http://www.pmean.com/original_site.html). Summary Receiver Operating Characteristic Curve
+You can find an [earlier version](http://www.pmean.com/05/SurrogateOutcomes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Surrogate outcomes
+You can find an [earlier version](http://www.pmean.com/05/TaguchiMethods.html) of this page on my [original website](http://www.pmean.com/original_site.html). Taguchi methods
+You can find an [earlier version](http://www.pmean.com/05/TenStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Ten research studies that anyone teaching EBM should be familiar 
+You can find an [earlier version](http://www.pmean.com/05/TenStudiesA.html) of this page on my [original website](http://www.pmean.com/original_site.html). Another top ten study in EBM
+You can find an [earlier version](http://www.pmean.com/05/TenStudiesB.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on the top ten studies in EBM
+You can find an [earlier version](http://www.pmean.com/05/TestsNormality.html) of this page on my [original website](http://www.pmean.com/original_site.html). I abhor Lilliefor and other tests of normality
+You can find an [earlier version](http://www.pmean.com/05/ToleranceLimits.html) of this page on my [original website](http://www.pmean.com/original_site.html). Tolerance limits
+You can find an [earlier version](http://www.pmean.com/05/TrialRegistration.html) of this page on my [original website](http://www.pmean.com/original_site.html). Registration of clinical trials
+You can find an [earlier version](http://www.pmean.com/05/TrickR.html) of this page on my [original website](http://www.pmean.com/original_site.html). A simple trick in R
+You can find an [earlier version](http://www.pmean.com/05/TukeyTest.html) of this page on my [original website](http://www.pmean.com/original_site.html). When the F test is significant, but Tukey is not
+You can find an [earlier version](http://www.pmean.com/05/ValueLabels.html) of this page on my [original website](http://www.pmean.com/original_site.html). Importing value labels from Access into SPSS
+You can find an [earlier version](http://www.pmean.com/05/VoteForMe.html) of this page on my [original website](http://www.pmean.com/original_site.html). Vote for me
+You can find an [earlier version](http://www.pmean.com/05/WebLinksApril.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web links and quotes for the month of April
+You can find an [earlier version](http://www.pmean.com/05/WebLinksAugust.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web sites, publications, and quotes for the month of 
+You can find an [earlier version](http://www.pmean.com/05/WebLinksDecember.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web sites, publications, and quotes for the month of 
+You can find an [earlier version](http://www.pmean.com/05/WebLinksFebruary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Recommended web links for the month of February
+You can find an [earlier version](http://www.pmean.com/05/WebLinksJanuary.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web links for the month of January
+You can find an [earlier version](http://www.pmean.com/05/WebLinksJuly.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web links and quotes for the month of May
+You can find an [earlier version](http://www.pmean.com/05/WebLinksJune.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting quotes, web pages, and publications for the month of 
+You can find an [earlier version](http://www.pmean.com/05/WebLinksMarch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web links for the month of March
+You can find an [earlier version](http://www.pmean.com/05/WebLinksMay.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web links and quotes for the month of May
+You can find an [earlier version](http://www.pmean.com/05/WebLinksSeptember.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web sites, publications, and quotes for the month 
+You can find an [earlier version](http://www.pmean.com/05/WeblinksOctober.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interesting web sites, publications, and quotes for the month 
+You can find an [earlier version](http://www.pmean.com/05/WithholdingInformation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Withholding information

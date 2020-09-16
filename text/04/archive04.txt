@@ -1,118 +1,118 @@
-"../library/EarlyStopping1.asp">Early Stopping Bibliography 
-"../library/qualitative1.asp">Bibliography of resources for qualitative research studies 
-"AnecdotalInformation.html">Anecdotal information (2004-11-02)</a><li>
-"ArrayAnalyzer.html">S+ArrayAnalyzer web seminar (2004-06-22)</a><li>
-"AutomatingAnalyses.html">Automating statistical analyses (2004-10-25)</a><li>
-"BestModel.html">What is the best statistical model? (2004-09-17)</a><li>
-"BoxQuote.html">George Box Quote (2004-12-20)</a><li>
-"ClinicallyTrivial.html">Clinically trivial effects (2004-04-12)</a><li>
-"ComplexDesigns.html">Confidence intervals for complex research designs 
-"ConfidenceIntervals.html">Confidence intervals for proportions 
-"Craniosacral.html">Craniosacral therapy (2004-09-24)</a><li>
-"CronbachAlpha.html">What's a good value for Cronbach's Alpha? 
-"DeafChairs.html">Speech: Deaf chairs, lost cake recipes, and a letter from Maria. 
-"DegreesFreedom.html">Degrees of freedom (2004-04-15)</a><li>
-"DesigningQuestionnaire.html">Designing a questionnaire (2004-12-24)</a><li>
-"EarlyStoppingAnimal.html">Early stopping in an animal experiment 
-"EntrenchedBeliefs.html">Entrenched beliefs (2004-12-01)</a></ul>
-"EquipoiseAlternatives.html">Alternatives to equipoise (2004-11-24)</a><li>
-"FocusGroups.html">Focus groups and qualitative research (2004-04-13)</a><li>
-"FullBodyScan.html">Full-Body Computed Tomography Screening 
-"FullText.html">Free Full Text on the Web (2004-08-24)</a><li>
-"GoldStandard.html">Speech: Is the randomized trial the gold standard for research? 
-"GoodBook.html">Can you recommend a good book? (2004-11-24)</a><li>
-"Heterogeneity.html">Measuring heterogeneity in meta-analysis 
-"MistakesEBM.html">Top six mistakes in teaching EBM (2004-09-24)</a><li>
-"MultinomialProportions.html">Testing multinomial proportions 
-"MultipleDF.html">Multiple degree of freedom tests (2004-09-22)</a><li>
-"MultivariateModels.html">Discrepancy between univariate and multivariate models 
-"NeymanBias.html">Neyman bias (2004-12-15)</a><li>
-"NoMechanism.html">Research on therapies that have no known mechanism of action 
-"OneTail.html">One-tailed p-values (2004-04-12)</a><li>
-"OrdinalLogistic.html">Sample size for an ordinal outcome (2004-09-22)</a><li>
-"OutcomesResearch.html">Outcomes research (2004-11-24)</a><li>
-"PapSmear.html">Pap smears for women without a cervix (2004-06-24)</a><li>
-"PilotStudy.html">Design and analysis of pilot studies (2004-09-17)</a><li>
-"PrayerStudies.html">Prayer studies (2004-12-13)</a><li>
-"PrinterFriendly.html">Printer friendly versions of web pages 
-"ProvisionalMeans.html">Provisional means algorithm (2004-07-09)</a><li>
-"PublicationBias.html">A serious problem of publication bias 
-"PublicationBias2.html">Publication bias (2004-06-25)</a><li>
-"RandomID.html">Random identification numbers (2004-07-26)</a><li>
-"Rates.html">Rates versus proportions (2004-09-15)</a><li>
-"ReportCards.html">Report cards (2004-08-27)</a><li>
-"SPSSversion13.html">New in SPSS version 13.0 (2004-12-07)</a><li>
-"SampleSizeDiagnostic.html">Sample size for a diagnostic test 
-"SecondaryUses.html">Seminar notes: Secondary Uses of Data 
-"SelectionBias.html">Selection bias (2004-08-24)</a><li>
-"SideEffects.html">Testing for side effects (2004-12-29)</a><li>
-"SimpsonsParadox.html">Simpson's Paradox (2004-12-22)</a><li>
-"SubgroupAnalysis.html">Subgroup analysis (2004-12-21)</a><li>
-"SurromedDecisionSite.html">Surromed and the DecisionSite S-Plus Server Solution 
-"UnblindingStudy.html">Unblinding at the end of a study (2004-11-01)</a></ul>
-"UnequalSampleSizes.html">Unequal sample sizes (2004-11-24)</a><li>
-"UnnecessaryTests.html">Unnecessary diagnostic tests (2004-10-25)</a></ul>
-"WebLinksDecember.html">Recommended web links for the month of December 
-"Wikipedia.html">The Wikipedia (2004-04-15)</a><li>
-"Zhenya.html">Nicholas Zhenya Simon (2004-08-24)</a><li>
-"acuity.html">Acuity microarray analysis software (2004-05-06)</a><li>
-"adaptive.html">Adaptive randomization (2004-07-15)</a><li>
-"aliasing.html">Aliasing patterns (2004-07-19)</a><li>
-"auc.html">Evaluating the AUC for an ROC curve (2004-07-27)</a><li>
-"baseline.html">Sample size calculations in studies with a baseline 
-"bimodality.html">Searching for bimodality (2004-08-04)</a><li>
-"blind.html">Breaking the blind (2004-07-29)</a><li>
-"cardiology.html">Evidence Based lessons learned from Cardiology 
-"categorical.html">Categorical variables in a logistic regression model 
-"clt.html">Central Limit Theorem (2004-03-09)</a><li>
-"cluster.html">Sample size for cluster randomized trials (2004-05-27)</a><li>
-"conflict.html">Conflict of Interest (2004-02-25)</a><li>
-"conflict1.html">Conflict of interest (2004-07-20)</a><li>
-"constraints.html">Constraints on randomization (2004-03-23)</a><li>
-"consulting.html">Statistical consulting (2004-06-14)</a><li>
-"criticisms.html">Criticisms of randomized clinical trials 
-"datamining.html">Data Mining with Clementine (2004-06-15)</a><li>
-"diagnostic.html">Unbalanced sample sizes for evaluating a diagnostic test 
-"ebcam.html">Evidence Based Complementary and Alternative Medicine 
-"educational.html">Educational Resources (2004-02-03)</a></ul>
-"em.html">EM Algorithm (2004-03-15)</a><li>
-"enumerative.html">Enumerative and Analytic Studies (2004-02-05)</a><li>
-"ethics.html">Evidence Based Medicine and Ethics (2004-02-20)</a><li>
-"flaws.html">Overlooking one's own flaws (2004-05-03)</a></ul>
-"goodness.html">Goodness of fit test (2004-05-18)</a><li>
-"icf.html">Seminar notes: International Classification of Functioning, Disability, and 
-"inVitro.html">In vitro fertilization prayer study (2004-06-29)</a><li>
-"information.html">Information theory models (2004-05-11)</a><li>
-"information1.html">More on information theory models (2004-08-31)</a><li>
-"interactions.html">Interactions in logistic regression (2004-04-08)</a><li>
-"irb.html">Submitting a research protocol to the IRB (2004-07-29)</a><li>
-"jsm2004.htm">Weblog entries from the 2004 JSM (2004-08-7-11)</a><li>
-"mcnemar.html">McNemar's Test (2004-06-17)</a><li>
-"mechanism.html">Is there a mechanism? (2004-07-23)</a><li>
-"microarray.html">Microarray data analysis (2004-03-18)</a><li>
-"missing.html">Missing values (2004-06-22)</a><li>
-"montecarlo.html">Monte Carlo methods (2004-05-31)</a><li>
-"nih.html">Seminar notes: Nitty Gritty NIH (2004-09-03)</a></ul>
-"nnh.html">Number Needed to Harm Examples (2004-02-18)</a><li>
-"nonlinear.html">Nonlinear Least Squares in S-plus and R (2004-06-28)</a><li>
-"parametric.html">Parametric versus nonparametric tests (2004-03-09)</a></ul>
-"percentage.html">Analyzing percentage data (2004-05-24)</a><li>
-"pivot.html">Microsoft Excel Pivot Tables (2004-08-05)</a><li>
-"placebo.html">Excluding placebo responders (2004-06-25)</a><li>
-"powerpoint.html">I hate PowerPoint (2004-05-19)</a><li>
-"powerpoint2.html">I hate PowerPoint talk (2004-07-01)</a></ul>
-"psa.html">Prostate Specific Antigen testing (2004-05-31)</a><li>
-"qualitative.html">Planning a qualitative research study (2004-07-06)</a><li>
-"quality.html">Quality control in the laboratory (2004-03-09)</a><li>
-"randomization.html">Randomization test (2004-07-14)</a><li>
-"retrospective.html">Retrospective chart reviews and IRB approval 
-"samplesize.html">Sample size calculation example (2004-05-20)</a><li>
-"smoking.html">Health effects of smoking (2004-05-31)</a><li>
-"software.html">Statistical software (2004-08-25)</a><li>
-"spss.html">Advanced SPSS methods (2004-05-12)</a><li>
-"stata.html">Statalist (2004-07-29)</a><li>
-"survival.html">Sample size for a survival data model (2004-05-13)</a><li>
-"temporality.html">Temporality of causes (2004-04-07)</a></ul>
-"updates.html">Recent updates (2004-07-08)</a><li>
-"volunteer.html">Speech: So you want to volunteer for a research study? 
-"xml.html">The impact of XML on Statistics (2004-06-23)</a><li>
+You can find an [earlier version](http://www.pmean.com/04/AnecdotalInformation.html) of this page on my [original website](http://www.pmean.com/original_site.html). Anecdotal information
+You can find an [earlier version](http://www.pmean.com/04/ArrayAnalyzer.html) of this page on my [original website](http://www.pmean.com/original_site.html). S+ArrayAnalyzer web seminar
+You can find an [earlier version](http://www.pmean.com/04/AutomatingAnalyses.html) of this page on my [original website](http://www.pmean.com/original_site.html). Automating statistical analyses
+You can find an [earlier version](http://www.pmean.com/04/BestModel.html) of this page on my [original website](http://www.pmean.com/original_site.html). What is the best statistical model?
+You can find an [earlier version](http://www.pmean.com/04/BoxQuote.html) of this page on my [original website](http://www.pmean.com/original_site.html). George Box Quote
+You can find an [earlier version](http://www.pmean.com/04/ClinicallyTrivial.html) of this page on my [original website](http://www.pmean.com/original_site.html). Clinically trivial effects
+You can find an [earlier version](http://www.pmean.com/04/ComplexDesigns.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confidence intervals for complex research designs 
+You can find an [earlier version](http://www.pmean.com/04/ConfidenceIntervals.html) of this page on my [original website](http://www.pmean.com/original_site.html). Confidence intervals for proportions 
+You can find an [earlier version](http://www.pmean.com/04/Craniosacral.html) of this page on my [original website](http://www.pmean.com/original_site.html). Craniosacral therapy
+You can find an [earlier version](http://www.pmean.com/04/CronbachAlpha.html) of this page on my [original website](http://www.pmean.com/original_site.html). What's a good value for Cronbach's Alpha? 
+You can find an [earlier version](http://www.pmean.com/04/DeafChairs.html) of this page on my [original website](http://www.pmean.com/original_site.html). Speech: Deaf chairs, lost cake recipes, and a letter from Maria. 
+You can find an [earlier version](http://www.pmean.com/04/DegreesFreedom.html) of this page on my [original website](http://www.pmean.com/original_site.html). Degrees of freedom
+You can find an [earlier version](http://www.pmean.com/04/DesigningQuestionnaire.html) of this page on my [original website](http://www.pmean.com/original_site.html). Designing a questionnaire
+You can find an [earlier version](http://www.pmean.com/04/EarlyStoppingAnimal.html) of this page on my [original website](http://www.pmean.com/original_site.html). Early stopping in an animal experiment 
+You can find an [earlier version](http://www.pmean.com/04/EntrenchedBeliefs.html) of this page on my [original website](http://www.pmean.com/original_site.html). Entrenched beliefs
+You can find an [earlier version](http://www.pmean.com/04/EquipoiseAlternatives.html) of this page on my [original website](http://www.pmean.com/original_site.html). Alternatives to equipoise
+You can find an [earlier version](http://www.pmean.com/04/FocusGroups.html) of this page on my [original website](http://www.pmean.com/original_site.html). Focus groups and qualitative research
+You can find an [earlier version](http://www.pmean.com/04/FullBodyScan.html) of this page on my [original website](http://www.pmean.com/original_site.html). Full-Body Computed Tomography Screening 
+You can find an [earlier version](http://www.pmean.com/04/FullText.html) of this page on my [original website](http://www.pmean.com/original_site.html). Free Full Text on the Web
+You can find an [earlier version](http://www.pmean.com/04/GoldStandard.html) of this page on my [original website](http://www.pmean.com/original_site.html). Speech: Is the randomized trial the gold standard for research? 
+You can find an [earlier version](http://www.pmean.com/04/GoodBook.html) of this page on my [original website](http://www.pmean.com/original_site.html). Can you recommend a good book?
+You can find an [earlier version](http://www.pmean.com/04/Heterogeneity.html) of this page on my [original website](http://www.pmean.com/original_site.html). Measuring heterogeneity in meta-analysis 
+You can find an [earlier version](http://www.pmean.com/04/MistakesEBM.html) of this page on my [original website](http://www.pmean.com/original_site.html). Top six mistakes in teaching EBM
+You can find an [earlier version](http://www.pmean.com/04/MultinomialProportions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Testing multinomial proportions 
+You can find an [earlier version](http://www.pmean.com/04/MultipleDF.html) of this page on my [original website](http://www.pmean.com/original_site.html). Multiple degree of freedom tests
+You can find an [earlier version](http://www.pmean.com/04/MultivariateModels.html) of this page on my [original website](http://www.pmean.com/original_site.html). Discrepancy between univariate and multivariate models 
+You can find an [earlier version](http://www.pmean.com/04/NeymanBias.html) of this page on my [original website](http://www.pmean.com/original_site.html). Neyman bias
+You can find an [earlier version](http://www.pmean.com/04/NoMechanism.html) of this page on my [original website](http://www.pmean.com/original_site.html). Research on therapies that have no known mechanism of action 
+You can find an [earlier version](http://www.pmean.com/04/OneTail.html) of this page on my [original website](http://www.pmean.com/original_site.html). One-tailed p-values
+You can find an [earlier version](http://www.pmean.com/04/OrdinalLogistic.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for an ordinal outcome
+You can find an [earlier version](http://www.pmean.com/04/OutcomesResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html). Outcomes research
+You can find an [earlier version](http://www.pmean.com/04/PapSmear.html) of this page on my [original website](http://www.pmean.com/original_site.html). Pap smears for women without a cervix
+You can find an [earlier version](http://www.pmean.com/04/PilotStudy.html) of this page on my [original website](http://www.pmean.com/original_site.html). Design and analysis of pilot studies
+You can find an [earlier version](http://www.pmean.com/04/PrayerStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html). Prayer studies
+You can find an [earlier version](http://www.pmean.com/04/PrinterFriendly.html) of this page on my [original website](http://www.pmean.com/original_site.html). Printer friendly versions of web pages 
+You can find an [earlier version](http://www.pmean.com/04/ProvisionalMeans.html) of this page on my [original website](http://www.pmean.com/original_site.html). Provisional means algorithm
+You can find an [earlier version](http://www.pmean.com/04/PublicationBias.html) of this page on my [original website](http://www.pmean.com/original_site.html). A serious problem of publication bias 
+You can find an [earlier version](http://www.pmean.com/04/PublicationBias2.html) of this page on my [original website](http://www.pmean.com/original_site.html). Publication bias
+You can find an [earlier version](http://www.pmean.com/04/RandomID.html) of this page on my [original website](http://www.pmean.com/original_site.html). Random identification numbers
+You can find an [earlier version](http://www.pmean.com/04/Rates.html) of this page on my [original website](http://www.pmean.com/original_site.html). Rates versus proportions
+You can find an [earlier version](http://www.pmean.com/04/ReportCards.html) of this page on my [original website](http://www.pmean.com/original_site.html). Report cards
+You can find an [earlier version](http://www.pmean.com/04/SPSSversion13.html) of this page on my [original website](http://www.pmean.com/original_site.html). New in SPSS version 13.0
+You can find an [earlier version](http://www.pmean.com/04/SampleSizeDiagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for a diagnostic test 
+You can find an [earlier version](http://www.pmean.com/04/SecondaryUses.html) of this page on my [original website](http://www.pmean.com/original_site.html). Seminar notes: Secondary Uses of Data 
+You can find an [earlier version](http://www.pmean.com/04/SelectionBias.html) of this page on my [original website](http://www.pmean.com/original_site.html). Selection bias
+You can find an [earlier version](http://www.pmean.com/04/SideEffects.html) of this page on my [original website](http://www.pmean.com/original_site.html). Testing for side effects
+You can find an [earlier version](http://www.pmean.com/04/SimpsonsParadox.html) of this page on my [original website](http://www.pmean.com/original_site.html). Simpson's Paradox
+You can find an [earlier version](http://www.pmean.com/04/SubgroupAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html). Subgroup analysis
+You can find an [earlier version](http://www.pmean.com/04/SurromedDecisionSite.html) of this page on my [original website](http://www.pmean.com/original_site.html). Surromed and the DecisionSite S-Plus Server Solution 
+You can find an [earlier version](http://www.pmean.com/04/UnblindingStudy.html) of this page on my [original website](http://www.pmean.com/original_site.html). Unblinding at the end of a study
+You can find an [earlier version](http://www.pmean.com/04/UnequalSampleSizes.html) of this page on my [original website](http://www.pmean.com/original_site.html). Unequal sample sizes
+You can find an [earlier version](http://www.pmean.com/04/UnnecessaryTests.html) of this page on my [original website](http://www.pmean.com/original_site.html). Unnecessary diagnostic tests
+You can find an [earlier version](http://www.pmean.com/04/WebLinksDecember.html) of this page on my [original website](http://www.pmean.com/original_site.html). Recommended web links for the month of December 
+You can find an [earlier version](http://www.pmean.com/04/Wikipedia.html) of this page on my [original website](http://www.pmean.com/original_site.html). The Wikipedia
+You can find an [earlier version](http://www.pmean.com/04/Zhenya.html) of this page on my [original website](http://www.pmean.com/original_site.html). Nicholas Zhenya Simon
+You can find an [earlier version](http://www.pmean.com/04/acuity.html) of this page on my [original website](http://www.pmean.com/original_site.html). Acuity microarray analysis software
+You can find an [earlier version](http://www.pmean.com/04/adaptive.html) of this page on my [original website](http://www.pmean.com/original_site.html). Adaptive randomization
+You can find an [earlier version](http://www.pmean.com/04/aliasing.html) of this page on my [original website](http://www.pmean.com/original_site.html). Aliasing patterns
+You can find an [earlier version](http://www.pmean.com/04/auc.html) of this page on my [original website](http://www.pmean.com/original_site.html). Evaluating the AUC for an ROC curve
+You can find an [earlier version](http://www.pmean.com/04/baseline.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size calculations in studies with a baseline 
+You can find an [earlier version](http://www.pmean.com/04/bimodality.html) of this page on my [original website](http://www.pmean.com/original_site.html). Searching for bimodality
+You can find an [earlier version](http://www.pmean.com/04/blind.html) of this page on my [original website](http://www.pmean.com/original_site.html). Breaking the blind
+You can find an [earlier version](http://www.pmean.com/04/cardiology.html) of this page on my [original website](http://www.pmean.com/original_site.html). Evidence Based lessons learned from Cardiology 
+You can find an [earlier version](http://www.pmean.com/04/categorical.html) of this page on my [original website](http://www.pmean.com/original_site.html). Categorical variables in a logistic regression model 
+You can find an [earlier version](http://www.pmean.com/04/clt.html) of this page on my [original website](http://www.pmean.com/original_site.html). Central Limit Theorem
+You can find an [earlier version](http://www.pmean.com/04/cluster.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for cluster randomized trials
+You can find an [earlier version](http://www.pmean.com/04/conflict.html) of this page on my [original website](http://www.pmean.com/original_site.html). Conflict of Interest
+You can find an [earlier version](http://www.pmean.com/04/conflict1.html) of this page on my [original website](http://www.pmean.com/original_site.html). Conflict of interest
+You can find an [earlier version](http://www.pmean.com/04/constraints.html) of this page on my [original website](http://www.pmean.com/original_site.html). Constraints on randomization
+You can find an [earlier version](http://www.pmean.com/04/consulting.html) of this page on my [original website](http://www.pmean.com/original_site.html). Statistical consulting
+You can find an [earlier version](http://www.pmean.com/04/criticisms.html) of this page on my [original website](http://www.pmean.com/original_site.html). Criticisms of randomized clinical trials 
+You can find an [earlier version](http://www.pmean.com/04/datamining.html) of this page on my [original website](http://www.pmean.com/original_site.html). Data Mining with Clementine
+You can find an [earlier version](http://www.pmean.com/04/diagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). Unbalanced sample sizes for evaluating a diagnostic test 
+You can find an [earlier version](http://www.pmean.com/04/ebcam.html) of this page on my [original website](http://www.pmean.com/original_site.html). Evidence Based Complementary and Alternative Medicine 
+You can find an [earlier version](http://www.pmean.com/04/educational.html) of this page on my [original website](http://www.pmean.com/original_site.html). Educational Resources
+You can find an [earlier version](http://www.pmean.com/04/em.html) of this page on my [original website](http://www.pmean.com/original_site.html). EM Algorithm
+You can find an [earlier version](http://www.pmean.com/04/enumerative.html) of this page on my [original website](http://www.pmean.com/original_site.html). Enumerative and Analytic Studies
+You can find an [earlier version](http://www.pmean.com/04/ethics.html) of this page on my [original website](http://www.pmean.com/original_site.html). Evidence Based Medicine and Ethics
+You can find an [earlier version](http://www.pmean.com/04/flaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). Overlooking one's own flaws
+You can find an [earlier version](http://www.pmean.com/04/goodness.html) of this page on my [original website](http://www.pmean.com/original_site.html). Goodness of fit test
+You can find an [earlier version](http://www.pmean.com/04/icf.html) of this page on my [original website](http://www.pmean.com/original_site.html). Seminar notes: International Classification of Functioning, Disability, and 
+You can find an [earlier version](http://www.pmean.com/04/inVitro.html) of this page on my [original website](http://www.pmean.com/original_site.html). In vitro fertilization prayer study
+You can find an [earlier version](http://www.pmean.com/04/information.html) of this page on my [original website](http://www.pmean.com/original_site.html). Information theory models
+You can find an [earlier version](http://www.pmean.com/04/information1.html) of this page on my [original website](http://www.pmean.com/original_site.html). More on information theory models
+You can find an [earlier version](http://www.pmean.com/04/interactions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interactions in logistic regression
+You can find an [earlier version](http://www.pmean.com/04/irb.html) of this page on my [original website](http://www.pmean.com/original_site.html). Submitting a research protocol to the IRB
+You can find an [earlier version](http://www.pmean.com/04/jsm2004.htmYou can find an [earlier version](http://www.pmean.com/04/>Weblog entries from the 2004 JSM
+You can find an [earlier version](http://www.pmean.com/04/mcnemar.html) of this page on my [original website](http://www.pmean.com/original_site.html). McNemar's Test
+You can find an [earlier version](http://www.pmean.com/04/mechanism.html) of this page on my [original website](http://www.pmean.com/original_site.html). Is there a mechanism?
+You can find an [earlier version](http://www.pmean.com/04/microarray.html) of this page on my [original website](http://www.pmean.com/original_site.html). Microarray data analysis
+You can find an [earlier version](http://www.pmean.com/04/missing.html) of this page on my [original website](http://www.pmean.com/original_site.html). Missing values
+You can find an [earlier version](http://www.pmean.com/04/montecarlo.html) of this page on my [original website](http://www.pmean.com/original_site.html). Monte Carlo methods
+You can find an [earlier version](http://www.pmean.com/04/nih.html) of this page on my [original website](http://www.pmean.com/original_site.html). Seminar notes: Nitty Gritty NIH
+You can find an [earlier version](http://www.pmean.com/04/nnh.html) of this page on my [original website](http://www.pmean.com/original_site.html). Number Needed to Harm Examples
+You can find an [earlier version](http://www.pmean.com/04/nonlinear.html) of this page on my [original website](http://www.pmean.com/original_site.html). Nonlinear Least Squares in S-plus and R
+You can find an [earlier version](http://www.pmean.com/04/parametric.html) of this page on my [original website](http://www.pmean.com/original_site.html). Parametric versus nonparametric tests
+You can find an [earlier version](http://www.pmean.com/04/percentage.html) of this page on my [original website](http://www.pmean.com/original_site.html). Analyzing percentage data
+You can find an [earlier version](http://www.pmean.com/04/pivot.html) of this page on my [original website](http://www.pmean.com/original_site.html). Microsoft Excel Pivot Tables
+You can find an [earlier version](http://www.pmean.com/04/placebo.html) of this page on my [original website](http://www.pmean.com/original_site.html). Excluding placebo responders
+You can find an [earlier version](http://www.pmean.com/04/powerpoint.html) of this page on my [original website](http://www.pmean.com/original_site.html). I hate PowerPoint
+You can find an [earlier version](http://www.pmean.com/04/powerpoint2.html) of this page on my [original website](http://www.pmean.com/original_site.html). I hate PowerPoint talk
+You can find an [earlier version](http://www.pmean.com/04/psa.html) of this page on my [original website](http://www.pmean.com/original_site.html). Prostate Specific Antigen testing
+You can find an [earlier version](http://www.pmean.com/04/qualitative.html) of this page on my [original website](http://www.pmean.com/original_site.html). Planning a qualitative research study
+You can find an [earlier version](http://www.pmean.com/04/quality.html) of this page on my [original website](http://www.pmean.com/original_site.html). Quality control in the laboratory
+You can find an [earlier version](http://www.pmean.com/04/randomization.html) of this page on my [original website](http://www.pmean.com/original_site.html). Randomization test
+You can find an [earlier version](http://www.pmean.com/04/retrospective.html) of this page on my [original website](http://www.pmean.com/original_site.html). Retrospective chart reviews and IRB approval 
+You can find an [earlier version](http://www.pmean.com/04/samplesize.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size calculation example
+You can find an [earlier version](http://www.pmean.com/04/smoking.html) of this page on my [original website](http://www.pmean.com/original_site.html). Health effects of smoking
+You can find an [earlier version](http://www.pmean.com/04/software.html) of this page on my [original website](http://www.pmean.com/original_site.html). Statistical software
+You can find an [earlier version](http://www.pmean.com/04/spss.html) of this page on my [original website](http://www.pmean.com/original_site.html). Advanced SPSS methods
+You can find an [earlier version](http://www.pmean.com/04/stata.html) of this page on my [original website](http://www.pmean.com/original_site.html). Statalist
+You can find an [earlier version](http://www.pmean.com/04/survival.html) of this page on my [original website](http://www.pmean.com/original_site.html). Sample size for a survival data model
+You can find an [earlier version](http://www.pmean.com/04/temporality.html) of this page on my [original website](http://www.pmean.com/original_site.html). Temporality of causes
+You can find an [earlier version](http://www.pmean.com/04/updates.html) of this page on my [original website](http://www.pmean.com/original_site.html). Recent updates
+You can find an [earlier version](http://www.pmean.com/04/volunteer.html) of this page on my [original website](http://www.pmean.com/original_site.html). Speech: So you want to volunteer for a research study? 
+You can find an [earlier version](http://www.pmean.com/04/xml.html) of this page on my [original website](http://www.pmean.com/original_site.html). The impact of XML on Statistics
+You can find an [earlier version](http://www.pmean.com/library/EarlyStopping1.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Early Stopping Bibliography 
+You can find an [earlier version](http://www.pmean.com/library/qualitative1.asp) of this page on my [original website](http://www.pmean.com/original_site.html). Bibliography of resources for qualitative research studies 
