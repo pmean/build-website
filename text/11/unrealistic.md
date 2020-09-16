@@ -14,4 +14,3 @@ This page is being updated from a version on the original website.
 <!---More--->
 
 You can find an [earlier version](http://www.pmean.com/11/unrealistic.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
-You can find an [earlier version](http://www.pmean.com/11/web20.html) of this page on my [original website](http://www.pmean.com/original_site.html). 
