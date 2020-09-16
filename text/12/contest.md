@@ -14,6 +14,3 @@ This page is being updated from a version on the original website.
 <!---More--->
 
 You can find an [earlier version](http://www.pmean.com/12/contest.html) of this page on my [original website](http://www.pmean.com/original_site.html).
-You can find an [earlier version](http://www.pmean.com/12/promoting.html) of this page on my [original website](http://www.pmean.com/original_site.html).
-You can find an [earlier version](http://www.pmean.com/12/PowerStatements.html) of this page on my [original website](http://www.pmean.com/original_site.html).
-You can find an [earlier version](http://www.pmean.com/12/questions.html) of this page on my [original website](http://www.pmean.com/original_site.html).
