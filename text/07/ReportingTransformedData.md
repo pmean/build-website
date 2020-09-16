@@ -1,34 +1,34 @@
 ---
-title: What is a critical value?
+title: Reporting data analysis on transformed data
 author: Steve Simon
-source: http://www.pmean.com/08/CriticalValue-08.html
-date: 2008-02-22
+source: http://www.pmean.com/07/ReportingTransformedData.html
+date: 2007-03-28
 category: Blog post
-tags: Hypothesis testing
+tags: 
 output: html_document
 ---
-**[StATS]:** **What is a critical value? (February
-22, 2008)**.
+**[StATS]:** **Reporting data analysis on
+transformed data (March 28, 2007)**
 
-> Someone wrote in asking about the difference between a p-value and a
-> critical value. I define a p-value on my web pages already. The
-> critical value is typically a percentile from a particular
-> distribution or some function of that percentile that a statistic is
-> compared to. So, for example, a Z-statistic is often compared to the
-> value of plus/minus 1.96. The plus/minus 1.96 is the critical value
-> and it represents the 2.5%ile and 97.5%ile of a standard normal
-> distribution.
+> *Dear Professor Mean, I\'m confused by the use of transformations in
+> Statistics. When you transform the data, the standard deviation is
+> bound to be incorrect, even after you invert the transformation. What
+> is the best way to report a data analysis on transformed data?*
+
+[![Creative Commons
+License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
+This work is licensed under a [Creative Commons Attribution 3.0 United
+States License](http://creativecommons.org/licenses/by/3.0/us/). It was
+written by Steve Simon.\~\~\~
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
 Children\'s Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
+for pages similar to this one at
 <!---More--->
-testing](../category/HypothesisTesting.html).
-for pages similar to this one at [Category: Hypothesis
+for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
 Children\'s Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
@@ -36,13 +36,12 @@ Hospital. Although I do not hold the copyright for this material, I am
 This page was written by Steve Simon while working at Children\'s Mercy
 
 <!---Do not use
-**[StATS]:** **What is a critical value? (February
+**[StATS]:** **Reporting data analysis on
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
 Children\'s Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
+for pages similar to this one at
 --->
 

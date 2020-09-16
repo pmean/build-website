@@ -1,32 +1,26 @@
 ---
-title: Moving content to a private site
+title: May has been a slow month
 author: Steve Simon
-source: http://www.pmean.com/08/MovingContent-08.html
-date: 2008-03-12
+source: http://www.pmean.com/07/SlowMonth.html
+date: 2007-05-29
 category: Blog post
 tags: Website details
 output: html_document
 ---
-**[StATS]:** **Moving content to a private site
-(created 2008-03-12)**.
+**[StATS]:** **May has been a slow month (created
+2007-05-29).**
 
-> I may be setting up a private website to complement the material on
-> this website that Children\'s Mercy Hospital has been so grateful to
-> provide for me. This would include content that is inappropriate for a
-> hospital site (such as personal news and updates), but I might move
-> some of the other material to that site as well.
+> After a burst of activity, my work on the weblog has slowed down quite
+> a bit this month. There are three reasons (excuses):
 >
-> To set up a private site, you need to register a domain name with a
-> [domain name
-> registrar](http://en.wikipedia.org/wiki/Domain_name_registrar). Then
-> you contact an [Internet hosting
-> service](http://en.wikipedia.org/wiki/Internet_hosting_services) to
-> place your site. There\'s a lot of controversy about the process of
-> registering domain names, but it would be difficult to summarize that
-> here. There are companies that bundle both services together. For
-> example, Microsoft has a product, [Office
-> Live](http://www.officelive.com/), that provides domain name
-> registration, web hosting, reporting tools, and other useful tools.
+> 1.  I have been working on making the webpages look more uniform in
+>     style.
+> 2.  I lost six hours of work because of a computer glitch.
+> 3.  I was in Maui for a full week and found that spending time at the
+>     beach was more fun than writing web pages.
+>
+> I\'m hoping that June will be back to normal. My general goal is to
+> write about 10-20 weblog entries every month.
 
 [![Creative Commons
 License](http://i.creativecommons.org/l/by/3.0/us/80x15.png){width="80"
@@ -57,7 +51,7 @@ Hospital. Although I do not hold the copyright for this material, I am
 This page was written by Steve Simon while working at Children\'s Mercy
 
 <!---Do not use
-**[StATS]:** **Moving content to a private site
+**[StATS]:** **May has been a slow month (created
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
