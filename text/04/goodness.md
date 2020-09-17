@@ -1,7 +1,6 @@
 ---
 title: Goodness of fit test
 author: Steve Simon
-source: http://www.pmean.com/04/goodness.html
 date: 2004-05-18
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Measuring agreement
 output: html_document
 ---
-**[StATS]: Goodness of fit test (May 18, 2004)**.
-
 The chi-square test appears in a lot of different places. Some recent
 data on Astrology, published in the [May newsletter of the Skeptic
 Society](http://www.skeptic.com/eskeptic05-17-04.html#dark), offers an
@@ -125,30 +122,4 @@ Inquirer](http://www.csicop.org/si/).
 A good resource about Astrology is in the Skeptic's Dictionary website:
 [www.skepdic.com/astrolgy.html](http://www.skepdic.com/astrolgy.html).
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
-<!---More--->
-agreement](../category/MeasuringAgreement.html).
-this one at [Category: Measuring
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Goodness of fit test (May 18, 2004)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/goodness.html) of this page on my [original website](http://www.pmean.com/original_site.html).

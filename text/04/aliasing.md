@@ -1,7 +1,6 @@
 ---
 title: Aliasing patterns
 author: Steve Simon
-source: http://www.pmean.com/04/aliasing.html
 date: 2004-07-19
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Statistical computing
 output: html_document
 ---
-**[StATS]: Aliasing patterns (July 19, 2004)**.
-
 When you draw lines and curves on a computer screen, most of them end up
 with a subtle staircase pattern because you are using discrete pixels to
 represent a smooth line or curve. Most of the time, this pattern is
@@ -77,30 +74,4 @@ of shading at the edges.
 -   [diwww.epfl.ch/w3lsp/books/moire/](http://diwww.epfl.ch/w3lsp/books/moire/)
 -   [www.wfu.edu/~matthews/misc/DigPhotog/alias/](http://www.wfu.edu/~matthews/misc/DigPhotog/alias/)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-this one at [Category: Statistical
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Aliasing patterns (July 19, 2004)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/aliasing.html) of this page on my [original website](http://www.pmean.com/original_site.html).

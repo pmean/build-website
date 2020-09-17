@@ -1,15 +1,13 @@
 ---
 title: SPSS syntax for Poisson Regression, Marta Garcia-Granero, PhD
 author: Steve Simon
-source: http://www.pmean.com/03/poiss_syntax.html
 date: 2003-07-29
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Poisson regression 
 output: html_document
 ---
-****[StATS]:**** **SPSS syntax for Poisson
-Regression, Marta Garcia-Granero, PhD (July 29, 2003)**
-
 > Here is a nice example of how to run Poisson Regression in SPSS. It
 > was originally posted on the SPSSX-L listerver on July 16, 2003 and is
 > posted here with the author\'s permission.
@@ -120,27 +118,4 @@ Regression, Marta Garcia-Granero, PhD (July 29, 2003)**
 > www.spss.com/tech/answer/details.cfm?tech\_tan\_id=100010963
 > www.spss.com/tech/answer/details.cfm?tech\_tan\_id=100011399
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
-<!---More--->
-this one at
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:**** **SPSS syntax for Poisson
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/03/poiss_syntax.html) of this page on my [original website](http://www.pmean.com/original_site.html).

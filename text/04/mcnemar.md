@@ -1,7 +1,6 @@
 ---
 title: McNemar's Test
 author: Steve Simon
-source: http://www.pmean.com/04/mcnemar.html
 date: 2004-06-17
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-**[StATS]: McNemar's Test (June 17, 2004)**.
-
 I received an email asking how to test two correlated proportions to see
 if one proportion is significantly larger than another. This is a
 classic application of McNemar's test.
@@ -68,30 +65,4 @@ Here are some websites that discuss McNemar's test:
 -   [ourworld.compuserve.com/homepages/jsuebersax/mcnemar.htm](http://ourworld.compuserve.com/homepages/jsuebersax/mcnemar.htm)
 -   [www.nist.gov/speech/tests/sigtests/mcnemar.htm](http://www.nist.gov/speech/tests/sigtests/mcnemar.htm)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: McNemar's Test (June 17, 2004)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/mcnemar.html) of this page on my [original website](http://www.pmean.com/original_site.html).

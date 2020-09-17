@@ -1,7 +1,6 @@
 ---
 title: Testing multinomial proportions
 author: Steve Simon
-source: http://www.pmean.com/04/MultinomialProportions.html
 date: 2004-11-09
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Probability concepts
 output: html_document
 ---
-**[StATS]: Testing multinomial proportions (November
-9, 2004)**.
-
 I received an email inquiry about a problem that seems simple enough,
 but which just doesn't seem to have an easy answer. This person gave
 the following hypothetical data.
@@ -104,30 +100,4 @@ that you can recast the multinomial problem in terms of the marginal
 distribution, which is binomial. I had failed to recognize this and
 I'll try to show how this works, with formulas, when I have time.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Probability
-concepts](../category/ProbabilityConcepts.html).
-<!---More--->
-concepts](../category/ProbabilityConcepts.html).
-for pages similar to this one at [Category: Probability
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Testing multinomial proportions (November
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Probability
-concepts](../category/ProbabilityConcepts.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/MultinomialProportions.html) of this page on my [original website](http://www.pmean.com/original_site.html).

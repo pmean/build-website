@@ -1,14 +1,13 @@
 ---
 title: Skewed data
 author: Steve Simon
-source: http://www.pmean.com/03/skew.html
 date: 2003-06-05
-category: Blog post
-tags: Descriptive statistics
+category:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
-****[StATS]:** Skewed data (created June 5, 2003).**
-
 *Dear Professor Mean, Please explain how the standard deviation can be
 greater than the mean. I think it is because of skewed data.*
 
@@ -30,30 +29,4 @@ greater than the mean. I think it is because of skewed data.*
 > deviation larger than the mean, minus two standard deviations would
 > put you quite a ways negative.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-this one at [Category: Descriptive
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Skewed data (created June 5, 2003).**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/skew.html) of this page on my [original website](http://www.pmean.com/original_site.html).

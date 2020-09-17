@@ -1,7 +1,6 @@
 ---
 title: Provisional means algorithm
 author: Steve Simon
-source: http://www.pmean.com/04/ProvisionalMeans.html
 date: 2004-07-09
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Statistical computing
 output: html_document
 ---
-**[StATS]: Provisional means algorithm (July 9,
-2004)**.
-
 One of the new fellows asked me about a data summary for two groups of
 patients. The ages were quite different, the mean age was 4.6 years in
 the exposure group and 8.5 years in the control group. But the control
@@ -79,30 +75,4 @@ they look bad. As a general rule, you should not remove outliers
 unless you have a good medical or scientific reason to do so. Never
 remove an outlier on the basis of statistics alone.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-this one at [Category: Statistical
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Provisional means algorithm (July 9,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/ProvisionalMeans.html) of this page on my [original website](http://www.pmean.com/original_site.html).

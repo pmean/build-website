@@ -1,15 +1,13 @@
 ---
 title: For CMH employees only: Statistical Consulting Services
 author: Steve Simon
-source: http://www.pmean.com/03/consulting-03.html
 date: 2003-04-30
-category: Blog post
-tags: Professional details
+category: 
+- Blog post
+tags: 
+- Professional details
 output: html_document
 ---
-****[StATS]:** For CMH employees only: Statistical
-Consulting Services (created 2003-04-30).**
-
 This page is obsolete, but I am keeping it around because I am an
 electronic pack rate.
 
@@ -54,30 +52,4 @@ set up an appointment by emailing or calling Judy Champion (jmchampion
 send an email directly to us (ssimon (at) cmh (dot) edu and aksherman
 (at) cmh (dot) edu).
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-this one at [Category: Professional
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** For CMH employees only: Statistical
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/consulting.html) of this page on my [original website](http://www.pmean.com/original_site.html).

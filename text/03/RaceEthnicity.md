@@ -1,15 +1,13 @@
 ---
 title: Coding race/ethnicity
 author: Steve Simon
-source: http://www.pmean.com/03/RaceEthnicity.html
 date: 2003-02-03
-category: Blog post
-tags: Data management
+category: 
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
-**[StATS]: Coding race/ethnicity (February 3,
-2003)**
-
 If you have to collect data on the race and/or ethnicity of your
 research subjects, you should be aware of the official U.S. government
 definitions that all federal agencies have to follow. You don\'t
@@ -98,30 +96,4 @@ The full document on federal standards can be found at
 
 -   [www.whitehouse.gov/omb/fedreg/ombdir15.html](http://www.whitehouse.gov/omb/fedreg/ombdir15.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html).
-<!---More--->
-management](../category/DataManagement.html).
-for pages similar to this one at [Category: Data
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Coding race/ethnicity (February 3,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/RaceEthnicity.html) of this page on my [original website](http://www.pmean.com/original_site.html).

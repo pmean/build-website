@@ -1,7 +1,6 @@
 ---
 title: Information Theory
 author: Steve Simon
-source: http://www.pmean.com/04/information-99.html
 date: 2004-05-10
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Information theory
 output: html_document
 ---
-****[StATS]:** Information Theory (May 10, 2004)**
-
 The formula for uncertainty (sometimes referred to as entropy) is
 
 ![](http://www.pmean.com/images/images/04/information-9901.gif)
@@ -559,33 +556,4 @@ theory and has inspired me to look into this more deeply. Some of his
 work is reflected in the software available through
 <https://splice.cmh.edu>.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Information
-theory](../category/InformationTheory.html).
-<!---More--->
-theory](../category/InformationTheory.html).
-[](../category/WritingResearchPapers.html) [Category: Information
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Information Theory (May 10, 2004)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html) [Category: Information
-theory](../category/InformationTheory.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/information.html) of this page on my [original website](http://www.pmean.com/original_site.html).

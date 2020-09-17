@@ -1,15 +1,13 @@
 ---
 title: Steps in a typical data mining model
 author: Steve Simon
-source: http://www.pmean.com/03/datamining-03.html
 date: 2003-09-22
-category: Blog post
-tags: Data mining
+category: 
+- Blog post
+tags:
+- Data mining
 output: html_document
 ---
-******[StATS]:**** Steps in a typical data mining
-model (September 22, 2003)** \[Incomplete\]
-
 I\'m not an expert on data mining, but I wanted to outline some of the
 basic issues associated with data mining problems. This material is
 based largely on notes that I took during a training class on data
@@ -113,27 +111,4 @@ mining taught by Richard De Veaux.
 5.  **Neural Networks for Statistical Modeling.** M Smith (1993) New
     York: Van Nostrand Reinhold.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Data mining](../category/DataMining.html).
-<!---More--->
-this one at [Category: Data mining](../category/DataMining.html).
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-******[StATS]:**** Steps in a typical data mining
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Data mining](../category/DataMining.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/datamining.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Sample size for cluster randomized trials
 author: Steve Simon
-source: http://www.pmean.com/04/cluster-04.html
 date: 2004-11-30
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-**[StATS]: Sample size for cluster randomized trials
-(November 30, 2004)**.
-
 One of my favorite people to work with, Vidya Sharma, was asking me how
 to compute the sample size in a cluster randomized trial. I had started
 to write a web page about this, but never found the time to finish it.
@@ -119,30 +115,4 @@ www.albany.edu/~areilly/albany_asa/confweb01/abstract/Download/shackman.pdf
 -   [www.amia.org/pubs/symposia/D200657.PDF](http://www.amia.org/pubs/symposia/D200657.PDF)
 -   [arjournals.annualreviews.org/doi/abs/10.1146/annurev.publhealth.21.1.147](http://arjournals.annualreviews.org/doi/abs/10.1146/annurev.publhealth.21.1.147)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Sample size for cluster randomized trials
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/cluster.html) of this page on my [original website](http://www.pmean.com/original_site.html).

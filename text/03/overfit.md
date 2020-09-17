@@ -1,15 +1,13 @@
 ---
-title: What does \"overfitting\" mean?
+title: What does "overfitting" mean?
 author: Steve Simon
-source: http://www.pmean.com/03/overfit.html
 date: 2003-07-24
-category: Blog post
-tags: Modeling issues
+category:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
-****[StATS]:** What does \"overfitting\" mean? (July
-24, 2003)**
-
 *Dear Professor Mean,  I am conducting binary logistic regression
 analyses with a sample size of 80 of which 20 have the outcome of
 interest (e.g. are \"very successful\" versus somewhat/not very
@@ -111,27 +109,5 @@ overfitting. What exactly does overfitting mean?*
 > complexity of any models, and be honest about the limitations of your
 > sample size.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
-<!---More--->
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** What does \"overfitting\" mean? (July
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Modeling issues](../category/ModelingIssues.asp).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/overfit.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS syntax for Poisson Regression
+You can find an [earlier version](http://www.pmean.com/03/skew.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Skewed data

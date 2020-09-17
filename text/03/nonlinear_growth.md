@@ -1,15 +1,13 @@
 ---
 title: A simple model of nonlinear growth
 author: Steve Simon
-source: http://www.pmean.com/03/nonlinear_growth.html
 date: 2003-10-01
-category: Blog post
-tags: Nonlinear regression
+category: 
+- Blog post
+tags:
+- Nonlinear regression
 output: html_document
 ---
-****[StATS]:** A simple model of nonlinear growth
-(October 1, 2003)**
-
 > Part of the challenge in nonlinear regression is to choose the correct
 > form of the nonlinear relationship. Part of this is intuition, part of
 > this is understanding some basic mathematics, and part of it is just
@@ -136,30 +134,4 @@ output: html_document
 > There is a good level of agreement between the growth model and the
 > data.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
-<!---More--->
-regression](../category/NonlinearRegression.html).
-this one at [Category: Nonlinear
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** A simple model of nonlinear growth
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/nonlinear_growth.html) of this page on my [original website](http://www.pmean.com/original_site.html).

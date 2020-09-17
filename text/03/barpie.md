@@ -1,15 +1,14 @@
 ---
 title: Pitch the pie! Ban the bar!
 author: Steve Simon
-source: http://www.pmean.com/03/barpie.html
 date: 2003-06-05
-category: Blog post
-tags: Descriptive statistics, Graphical display
+category: 
+- Blog post
+tags: 
+- Descriptive statistics
+- Graphical display
 output: html_document
 ---
-****[StATS]:** Pitch the pie! Ban the bar! (June 5,
-2003)**.
-
 *This is an outline of a speech that I gave to Bluejacket Toastmasters
 on June 5, 2003.*
 
@@ -289,33 +288,4 @@ collar, aquarium, etc.\
 > reflected in my tables, however, are very close to the ones on the
 > web.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html) or [Category:
-Graphical display](../category/GraphicalDisplay.html).
-<!---More--->
-Graphical display](../category/GraphicalDisplay.html).
-statistics](../category/DescriptiveStatistics.html) or [Category:
-this one at [Category: Descriptive
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Pitch the pie! Ban the bar! (June 5,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html) or [Category:
-Graphical display](../category/GraphicalDisplay.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/barpie.html) of this page on my [original website](http://www.pmean.com/original_site.html).

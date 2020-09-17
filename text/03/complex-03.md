@@ -1,15 +1,13 @@
 ---
 title: Building a complex model
 author: Steve Simon
-source: http://www.pmean.com/03/complex-03.html
 date: 2003-04-23
-category: Blog post
-tags: 
+category: 
+- Blog post
+tags:
+- Linear regression 
 output: html_document
 ---
-****[StATS]:** Building a complex model (April 23,
-2003)**
-
 > When you have a lot of variables that might possibly influence your
 > outcome, your desire is to find some automated procedure that will
 > select your model for you. **Using an automated approach is a mistake,
@@ -48,27 +46,4 @@ output: html_document
 > (even if only imperfectly) from a medical  and scientific perspective
 > and has been shown to often develop inferior models.**
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
-<!---More--->
-this one at
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Building a complex model (April 23,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/03/complex.html) of this page on my [original website](http://www.pmean.com/original_site.html).

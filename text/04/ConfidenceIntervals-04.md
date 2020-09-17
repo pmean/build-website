@@ -1,7 +1,6 @@
 ---
 title: Confidence intervals for proportions
 author: Steve Simon
-source: http://www.pmean.com/04/ConfidenceIntervals-04.html
 date: 2004-07-27
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Confidence intervals
 output: html_document
 ---
-**[StATS]: Confidence intervals for proportions
-(created 2004-07-27)**.
-
 One of the fellows at the hospital asked me about confidence intervals
 for proportions. I wrote a couple of simple spreadsheets to do these
 calculations
@@ -100,30 +96,4 @@ Calculations](http://members.aol.com/johnp71/javastat.html)**.
 Pezzullo JC. Accessed on 2004-07-08.
 members.aol.com/johnp71/javastat.html
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
-<!---More--->
-intervals](../category/ConfidenceIntervals.html).
-for pages similar to this one at [Category: Confidence
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Confidence intervals for proportions
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/ConfidenceIntervals.html) of this page on my [original website](http://www.pmean.com/original_site.html).

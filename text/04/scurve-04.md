@@ -1,7 +1,6 @@
 ---
 title: S-shaped curves
 author: Steve Simon
-source: http://www.pmean.com/04/scurve-04.html
 date: 2004-02-12
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Nonlinear regression
 output: html_document
 ---
-****[StATS]:** S-shaped curves (created
-2004-02-12)**
-
 Competitive binding experiments will often need a nonlinear regression
 model. This model has to level off at both extremes to represent almost
 no binding at one end and saturated binding at the other end. This
@@ -387,30 +383,4 @@ also that both proteins show a small "hump" at x =-6.6 and -6.3 which
 neither S-shaped curve can fit well. This should be investigated
 further.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
-<!---More--->
-regression](../category/NonlinearRegression.html).
-this one at [Category: Nonlinear
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** S-shaped curves (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/scurve.html) of this page on my [original website](http://www.pmean.com/original_site.html).

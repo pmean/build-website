@@ -9,9 +9,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-**[StATS]: Sample size for an ordinal outcome
-(September 22, 2004)**.
-
 Someone asked me for some help with calculating an appropriate sample
 size for a study comparing two treatments, where the outcome measure is
 ordinal (degree of skin toxicity: none, slight, moderate, severe). It
@@ -123,30 +120,4 @@ calculations for the ordinal logistic regression
 model](../00files/PowerForProportionalOddsModel.xls). It is not
 thoroughly tested, so use it at your own risk.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Sample size for an ordinal outcome
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/OrdinalLogistic.html) of this page on my [original website](http://www.pmean.com/original_site.html).

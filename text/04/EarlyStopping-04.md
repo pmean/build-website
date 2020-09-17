@@ -1,7 +1,6 @@
 ---
 title: Early stopping
 author: Steve Simon
-source: http://www.pmean.com/04/EarlyStopping-04.html
 date: 2004-07-01
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Early stopping
 output: html_document
 ---
-**[StATS]: Early stopping (July 1, 2004)**
-
 I was helping someone with power calculations for an animal
 experiment. There were several ways to estimate power and they all
 seemed to point to the use of either 8 animals per group or 12 animals
@@ -113,30 +110,4 @@ experimentation.** Ludbrook J. BMC Med Res Methodol 2003: 3(1); 15.
 I have [some additional references on early
 stopping](../library/EarlyStopping1.asp).
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [](../category/DiagnosticTesting.html)
-[Category: Early stopping](../category/EarlyStopping.html).
-<!---More--->
-[Category: Early stopping](../category/EarlyStopping.html).
-for pages similar to this one at [](../category/DiagnosticTesting.html)
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Early stopping (July 1, 2004)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [](../category/DiagnosticTesting.html)
-[Category: Early stopping](../category/EarlyStopping.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/EarlyStopping.html) of this page on my [original website](http://www.pmean.com/original_site.html). The same page was also accidentally duplicated [here](http://www.pmean.com/04/EarlyStoppingAnimal.html).

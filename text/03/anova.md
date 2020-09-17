@@ -1,15 +1,13 @@
 ---
 title: Steps in a typical ANOVA model
 author: Steve Simon
-source: http://www.pmean.com/03/anova.html
 date: 2003-06-20
-category: Blog post
-tags: Analysis of > variance
+category: 
+- Blog post
+tags: 
+- Analysis of > variance
 output: html_document
 ---
-****[StATS]:** Steps in a typical ANOVA model
-(created 2003-06-20)**
-
 *Dear Professor Mean, I wanted to compare two groups in my research,
 those who completed every test battery, and those who completed only
 some of them. I ran ANOVAs on age, iq, adhd score, and so forth. My
@@ -734,30 +732,4 @@ Analysis of interactions
 > examine interactions. An interaction is a combination of two or more
 > When you have multiple factors in an ANOVA model, you may wish to
 
-<!---Do not use
-****[StATS]:** Steps in a typical ANOVA model
-> When you have multiple factors in an ANOVA model, you may wish to
-> examine interactions. An interaction is a combination of two or more
-> factors where the joint effect of these factors is not equal to the
-> sum of the individual effects.
->
-> ![](../01/images/anova.42.gif)
->
-> Synergism versus antagonism.
->
-> ![](../01/images/anova.43.gif)
->
-> Look at the graph with the flippers and goggles reversing roles.
->
-> ![](../01/images/anova.44.gif)
->
-> This page was written by Steve Simon while working at Children\'s
-> Mercy Hospital. Although I do not hold the copyright for this
-> material, I am reproducing it here as a service, as it is no longer
-> available on the Children\'s Mercy Hospital website. Need more
-> information? I have a page with [general help
-> resources](../GeneralHelp.html). You can also browse for pages similar
-> to this one at [Category: Analysis of
-> variance](../category/AnalysisOfVariance.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/anova.html) of this page on my [original website](http://www.pmean.com/original_site.html).

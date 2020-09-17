@@ -1,15 +1,13 @@
 ---
 title: Steps in a typical equivalence data analysis
 author: Steve Simon
-source: http://www.pmean.com/03/equivalence.html
 date: 2003-11-27
-category: Blog post
-tags: 
+category: 
+- Blog post
+tags:
+- Hypothesis testing 
 output: html_document
 ---
-****[StATS]:**** **Steps in a typical equivalence
-data analysis (November 27, 2003)**
-
 There are three approaches that are used to demonstrate equivalence,
 each with its advantages and disadvantages.
 
@@ -93,27 +91,4 @@ indifference first.
 > **Equivalence trials.** Ware J, Antman E. NEJM 1997: 337(16); 1159-61.
 > [\[Abstract\]](http://content.nejm.org/cgi/content/extract/337/16/1159)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
-<!---More--->
-this one at
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:**** **Steps in a typical equivalence
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/03/equivalence.html) of this page on my [original website](http://www.pmean.com/original_site.html).

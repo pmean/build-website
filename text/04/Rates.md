@@ -1,7 +1,6 @@
 ---
 title: Rates versus proportions
 author: Steve Simon
-source: http://www.pmean.com/04/Rates.html
 date: 2004-09-15
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Confidence intervals
 output: html_document
 ---
-**[StATS]: Rates versus proportions (created
-2004-09-15)**.
-
 Many people use the words "rates" and "proportions" interchangeably,
 but there is an important distinction that I draw.
 
@@ -75,30 +71,4 @@ ratio is the best way to compare two proportions. It is interesting,
 though, to see the similarities and differences between the two
 approaches.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
-<!---More--->
-intervals](../category/ConfidenceIntervals.html).
-for pages similar to this one at [Category: Confidence
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Rates versus proportions (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/Rates.html) of this page on my [original website](http://www.pmean.com/original_site.html).

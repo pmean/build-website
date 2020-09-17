@@ -1,7 +1,6 @@
 ---
 title: Neyman bias
 author: Steve Simon
-source: http://www.pmean.com/04/NeymanBias.html
 date: 2004-12-15
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Measuring benefit and risk
 output: html_document
 ---
-**[StATS]: Neyman bias (December 15, 2004)**.
-
 Selection of controls in a case-control study is difficult enough, but
 you also have to worry about the selection of the cases. Do you select
 incident cases (for example all breast cancer patients newly diagnosed
@@ -101,30 +98,4 @@ Goodwin PJ. J Clin Oncol 1999: 17(11); 3653-63.
 [Full text]](http://www.jco.org/cgi/content/full/17/11/3653)
 [PDF]](http://www.jco.org/cgi/reprint/17/11/3653.pdf)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-benefit/risk](../category/MeasuringBenefitRisk.html).
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Neyman bias (December 15, 2004)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/NeymanBias.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,14 +1,13 @@
 ---
 title: Cluster randomization
 author: Steve Simon
-source: http://www.pmean.com/03/cluster-03.html
 date: 2003-05-09
-category: Blog post
-tags: Sample size justification
+category: 
+- Blog post
+tags: 
+- Sample size justification
 output: html_document
 ---
-****[StATS]:** Cluster randomization (May 9, 2003)**
-
 > One of my favorite people to work with, Vidya Sharma, was asking me
 > how to compute the sample size in a cluster randomized trial. I had
 > started to write a web page about this, but never found the time to
@@ -129,30 +128,4 @@ output: html_document
     of the American Statistical Association. Accessed on 2003-05-08.
     www.albany.edu/\~areilly/albany\_asa/confweb01/abstract/Download/shackman.pdf
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Cluster randomization (May 9, 2003)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/cluster.html) of this page on my [original website](http://www.pmean.com/original_site.html).

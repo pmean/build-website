@@ -1,7 +1,6 @@
 ---
 title: Sample size for a diagnostic test
 author: Steve Simon
-source: http://www.pmean.com/04/SampleSizeDiagnostic.html
 date: 2004-07-05
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-**[StATS]: Sample size for a diagnostic test (July
-5, 2004)**.
-
 Someone asked me how to determine the sample size for a study involving
 a diagnostic test. It seems like a tricky thing, because most studies of
 diagnostic tests don't have a formal hypothesis. What you need to do
@@ -58,30 +54,4 @@ size](../category/SampleSizeJustification.html), including a page on
 [sample size for a diagnostic tests](../size/diag.asp), which I have
 just updated to include the above example.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-this one at [Category: Sample size
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Sample size for a diagnostic test (July
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/SampleSizeDiagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html).

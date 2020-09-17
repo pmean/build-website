@@ -1,7 +1,6 @@
 ---
 title: Interactions in logistic regression
 author: Steve Simon
-source: http://www.pmean.com/04/interactions.html
 date: 2004-04-08
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Logistic regression
 output: html_document
 ---
-**[StATS]: Interactions in logistic regression
-(April 8, 2004)**
-
 Someone asked me how to compute interactions in binary logistic
 regression. You need to be careful, since interactions are tricky to
 interpret. I need to update my pages to offer a detailed description
@@ -61,30 +57,4 @@ only. That seems like the logical choice, but you could also look at
 the odds ratio for gender and dating violence, first for the drinkers
 and then for the teetotalers.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
-<!---More--->
-regression](../category/LogisticRegression.html).
-for pages similar to this one at [Category: Logistic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Interactions in logistic regression
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/04/interactions.html) of this page on my [original website](http://www.pmean.com/original_site.html). Interactions in logistic regression

@@ -1,7 +1,6 @@
 ---
 title: Steps for establishing a quality control program
 author: Steve Simon
-source: http://www.pmean.com/04/quality-99.html
 date: 2004-03-12
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Quality control
 output: html_document
 ---
-******[StATS]:** **Steps for establishing a quality
-control program (March 12, 2004)**
-
 So you've decided to implement a quality control program in your
 laboratory. What will it take to make that program successful? There
 are three steps, and you must follow these steps in order.
@@ -416,30 +412,4 @@ handle most commonly encountered situations. It is not always as
 efficient as an Xbar/Rbar chart, but **simplicity rather than
 efficiency is more important** when you are just starting.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
-<!---More--->
-control](../category/QualityControl.html).
-for pages similar to this one at [Category: Quality
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-******[StATS]:** **Steps for establishing a quality
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/99/quality.html) of this page on my [original website](http://www.pmean.com/original_site.html).
