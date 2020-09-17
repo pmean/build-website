@@ -9,8 +9,6 @@ tags:
 - 
 output: html_document
 ---
-****[StATS]:** BMJ letter (October 11, 2001)**
-
 Here's a letter I submitted to the web letters to the editor for the
 British Medical Journal in response to an article about randomisation
 ([BMJ 1999 Sep
@@ -115,15 +113,4 @@ research settings.
 Steve Simon, Research Biostatistician, Children's Mercy Hospital,
 Kansas City MO, USA
 
-**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
-[Randomize](../99/random.html) >> BMJ letter**
-<!---More--->
-[Randomize](../99/random.html) >> BMJ letter**
-**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
-
-<!---Do not use
-****[StATS]:** BMJ letter (October 11, 2001)**
-**[Stats](../08/index.asp) >> [Planning](../08/plan.asp) >>
-[Randomize](../99/random.html) >> BMJ letter**
---->
-
+You can find an [earlier version](http://www.pmean.com/01/random42.html) of this page on my [original website](http://www.pmean.com/original_site.html).

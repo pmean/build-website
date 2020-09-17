@@ -3,8 +3,10 @@ title: Accuracy of computations
 author: Steve Simon
 source: http://www.pmean.com/03/accuracy.html
 date: 2003-11-26
-category: Blog post
-tags: Statistical computing
+category: 
+- Blog post
+tags: 
+- Statistical computing
 output: html_document
 ---
 ****[StATS]:** Accuracy of computations (created
@@ -85,30 +87,4 @@ problem.*
     software.** SD Simon, JP Lesage. Computational Statistics and Data
     Analysis 1990: 8(3); 325-332.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-this one at [Category: Statistical
-with general help resources. You can also browse for pages similar to
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-****[StATS]:** Accuracy of computations (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/03/accuracy.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Steps in a typical ANOVA model

@@ -1,7 +1,6 @@
 ---
 title: Displaying tables of percentages
 author: Steve Simon
-source: http://www.pmean.com/02/percentage-02.html
 date: 2002-11-06
 categories:
 - Blog post
@@ -10,15 +9,7 @@ tags:
 - Writing research papers
 output: html_document
 ---
-
-*Dear Professor Mean
-- My colleagues and I argue over the most
-appropriate way for displaying tables of percentages. Must the row or
-column always add to 100%? Also
-- in cases where it is difficult to know
-which variable is dependent
-- how does one decide the best way to present
-the results? -- Garrulous Gail*
+*Dear Professor Mean, My colleagues and I argue over the most appropriate way for displaying tables of percentages. Must the row or column always add to 100%? Also in cases where it is difficult to know which variable is dependent how does one decide the best way to present the results? -- Garrulous Gail*
 
 <!---more--->
 
@@ -218,3 +209,4 @@ Notice that this table would not require any sideways scrolling.
 7.  **When in doubt
 - write out your table several different ways.**
 
+You can find an [earlier version](http://www.pmean.com/02/percentage.html) of this page on my [original website](http://www.pmean.com/original_site.html).

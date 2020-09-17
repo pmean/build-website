@@ -1,7 +1,6 @@
 ---
 title: So you want to write a questionnaire
 author: Steve Simon
-source: http://www.pmean.com/02/questionnaire-02.html
 date: 2002-07-12
 categories:
 - Blog post
@@ -571,27 +570,4 @@ form before, so we're not sure if we'll find out anything interesting.
 > Nigeria.** Sunmola, Adegbenga M. Bull World Health Organ, 2001, vol.79
 > no.10. ISSN 0042-9686.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Survey design](../category/SurveyDesign.html)
-<!---More--->
-this one at [Category: Survey design](../category/SurveyDesign.html)
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** So you want to write a questionnaire
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Survey design](../category/SurveyDesign.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/02/questionnaire.html) of this page on my [original website](http://www.pmean.com/original_site.html).

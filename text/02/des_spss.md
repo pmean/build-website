@@ -1,7 +1,6 @@
 ---
 title: SPSS dialog boxes for a descriptive analysis
 author: Steve Simon
-source: http://www.pmean.com/02/des_spss.html
 date: 2002-06-21
 categories:
 - Blog post
@@ -142,3 +141,4 @@ button in the above dialog box and select FILE | CLOSE from the chart
 editor window. The modified graph will appear in the SPSS output
 window.
 
+You can find an [earlier version](http://www.pmean.com/02/des_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html).

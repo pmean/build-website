@@ -1,7 +1,6 @@
 ---
 title: Log transformation
 author: Steve Simon
-source: http://www.pmean.com/02/log-02.html
 date: 2002-10-11
 categories:
 - Blog post
@@ -9,7 +8,6 @@ tags:
 - Modeling issues
 output: html_document
 ---
-
 *Dear Professor Mean, I have some data that I need help with analysis.
 One suggestion is that I use a log transformation. Why would I want to
 do this? -- Stumped Susan*
@@ -287,3 +285,4 @@ your data is at least three times as big as the smallest value.
 2.  Wikipedia entry on the Log-normal distribution:
     [en.wikipedia.org/wiki/Log-normal_distribution](http://en.wikipedia.org/wiki/Log-normal_distribution)
 
+You can find an [earlier version](http://www.pmean.com/02/log.html) of this page on my [original website](http://www.pmean.com/original_site.html).

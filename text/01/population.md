@@ -1,7 +1,6 @@
 ---
 title: The minimal impact of population size on power and precision
 author: Steve Simon
-source: http://www.pmean.com/01/population.html
 date: 2001-01-19
 categories:
 - Blog post
@@ -138,3 +137,4 @@ total population.
     to the questioners to be ridiculously small numbers of people."
     www.gallup.com/poll/FromtheEd/ed0211.asp
 
+You can find an [earlier version](http://www.pmean.com/01/population.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Why 95% confidence limits?
 author: Steve Simon
-source: http://www.pmean.com/02/why95.html
 date: 2002-05-06
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Confidence intervals
 output: html_document
 ---
-****[StATS]:** Why 95% confidence limits? (created
-2002-05-06)**
-
 *Dear Professor Mean,* *I've been working with small data sets for some
 neuroimaging research that have 5 treatment and 5 control participants.
 It is not unusual to have such small samples in this kind of work. My
@@ -79,30 +75,4 @@ making such decisions.*
 > any more research. Not only might you be wasting precious research
 > dollars, but there may be serious ethical problems with your research.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
-<!---More--->
-intervals](../category/ConfidenceIntervals.html).
-this one at [Category: Confidence
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Why 95% confidence limits? (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/why95.html) of this page on my [original website](http://www.pmean.com/original_site.html).

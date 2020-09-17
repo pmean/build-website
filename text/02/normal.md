@@ -1,7 +1,6 @@
 ---
 title: Checking the assumption of normality
 author: Steve Simon
-source: http://www.pmean.com/02/normal.html
 date: 2002-09-11
 categories:
 - Blog post
@@ -9,7 +8,6 @@ tags:
 - Modeling issues
 output: html_document
 ---
-
 *Dear Professor Mean, I have some data that don't seem to meet the
 assumption of normality. What should I do? -Anxious Abby*
 
@@ -110,3 +108,4 @@ Here is the Q-Q plot for the residuals from a linear regression model.
 
 ![](http://www.pmean.com/images/images/02/normal07.gif)
 
+You can find an [earlier version](http://www.pmean.com/02/normal.html) of this page on my [original website](http://www.pmean.com/original_site.html).

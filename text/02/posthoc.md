@@ -1,7 +1,6 @@
 ---
 title: Post hoc power
 author: Steve Simon
-source: http://www.pmean.com/02/posthoc.html
 date: 2002-11-01
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Post hoc power
 output: html_document
 ---
-****[StATS]:** Post hoc power (November 1, 2002)**
-
 *Dear Professor Mean, The results of my study were negative, and the
 journal reviewer insists that I perform a post hoc power calculation.
 How do I do this?<U+00A0> -Jittery Jerry*
@@ -116,27 +113,4 @@ pointless.
     Epidemiology 1992: 3(5); 449-52.
     [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1391138&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Post hoc power](../category/PostHocPower.html).
-<!---More--->
-this one at [Category: Post hoc power](../category/PostHocPower.html).
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Post hoc power (November 1, 2002)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Post hoc power](../category/PostHocPower.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/posthoc.html) of this page on my [original website](http://www.pmean.com/original_site.html).

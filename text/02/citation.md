@@ -1,7 +1,6 @@
 ---
 title: SPSS citation
 author: Steve Simon
-source: http://www.pmean.com/02/citation.html
 date: 2002-03-06
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - SPSS software
 output: html_document
 ---
-****[StATS]:** SPSS citation (March 6, 2002)**
-
 *Dear Professor Mean, I'm writing a research paper. When I talk about
 the statistical methods, how do I properly cite the use of SPSS
 software? And just what does SPSS stand for anyway? --Zealous Zohreh.*
@@ -158,27 +155,5 @@ which, in a less cryptic format, looks like this.
 > [[Full text]](http://genomebiology.com/2004/5/10/R80)
 > [[PDF]](http://genomebiology.com/content/pdf/gb-2004-5-10-r80.pdf)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: SPSS software](../category/SpssSoftware.html).
-<!---More--->
-this one at [Category: SPSS software](../category/SpssSoftware.html).
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-****[StATS]:** SPSS citation (March 6, 2002)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: SPSS software](../category/SpssSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/citation.html) of this page on my [original website](http://www.pmean.com/original_site.html).

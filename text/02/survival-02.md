@@ -1,7 +1,6 @@
 ---
 title: Steps in a typical survival data analysis
 author: Steve Simon
-source: http://www.pmean.com/02/survival-02.html
 date: 2002-10-11
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Survival analysis
 output: html_document
 ---
-******[StATS]:**** Steps in a typical survival data
-analysis (October 11, 2002)**
-
 There are three steps in a typical survival analysis.
 
 Know how much data you have
@@ -112,30 +108,4 @@ The risk of relapse is 2.5 times greater in the group without
 chemotherapy. Although this ratio is large, it does not quite achieve
 statistical significance due to the small sample size.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
-<!---More--->
-analysis](../category/SurvivalAnalysis.html).
-for pages similar to this one at [Category: Survival
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-******[StATS]:**** Steps in a typical survival data
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/survival.html) of this page on my [original website](http://www.pmean.com/original_site.html).

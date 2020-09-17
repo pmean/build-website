@@ -1,7 +1,6 @@
 ---
 title: Steps in a descriptive model
 author: Steve Simon
-source: http://www.pmean.com/01/descriptive-01.html
 date: 2001-10-11
 categories:
 - Blog post
@@ -163,3 +162,5 @@ height="256"}
 
 As with delivery type, we we should be careful to adjust for mother's
 age in any comparison of the two feeding groups.
+
+You can find an [earlier version](http://www.pmean.com/01/descriptive.html) of this page on my [original website](http://www.pmean.com/original_site.html).

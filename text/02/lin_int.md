@@ -1,7 +1,6 @@
 ---
 title: Exploring interactions in a linear regression model
 author: Steve Simon
-source: http://www.pmean.com/02/lin_int.html
 date: 2002-08-01
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Linear regression
 output: html_document
 ---
-****[StATS]:** Exploring interactions in a linear
-regression model (August 1, 2002)**
-
 *Dear Professor Mean, I have a model with two factors. When I ran the
 model, it showed a significant interaction between the two factors. What
 do I do now? --Troubled Trudy*
@@ -41,30 +37,4 @@ sense in the context of your problem, and then see what happens to the
 interaction. Or possibly focus on just two levels that are of special
 interest to you.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Linear
-regression](../category/LinearRegression.html).
-<!---More--->
-regression](../category/LinearRegression.html).
-this one at [Category: Linear
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Exploring interactions in a linear
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Linear
-regression](../category/LinearRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/lin_int.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: SPSS dialog boxes for logistic regression
 author: Steve Simon
-source: http://www.pmean.com/02/logist_spss.html
 date: 2002-07-22
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Logistic regression
 output: html_document
 ---
-****[StATS]:** SPSS dialog boxes for logistic
-regression (July 22, 2002)**
-
 This handout shows some of the dialog boxes that you are likely to
 encounter if you use logistic regression models in SPSS.
 
@@ -101,30 +97,4 @@ which the model is highly sensitive to.
 Click on the **Continue button** to proceed and then click on the **OK
 button** in the earlier dialog box.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
-<!---More--->
-regression](../category/LogisticRegression.html).
-this one at [Category: Logistic
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** SPSS dialog boxes for logistic
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/logist_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Biography
 author: Steve Simon
-source: http://www.pmean.com/02/biography.html
 date: 2002-01-16
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Professional details
 output: html_document
 ---
-******[StATS]:**** Biography (created 2002-01-16)**
-
 > Steve Simon earned a PhD in Statistics from the University of Iowa in
 > 1982. His training emphasized applied statistics and he served for two
 > years as the student head of the University Statistical Consulting
@@ -83,30 +80,4 @@ output: html_document
 > expertise and in-depth knowledge of statistical applications. He has
 > applied these skills in medical, business, and managerial settings.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Professional
-details](../category/ProfessionalDetails.asp).
-<!---More--->
-details](../category/ProfessionalDetails.asp).
-this one at [Category: Professional
-with general help resources. You can also browse for pages similar to
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-******[StATS]:**** Biography (created 2002-01-16)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with general help resources. You can also browse for pages similar to
-this one at [Category: Professional
-details](../category/ProfessionalDetails.asp).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/biography.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Parametric versus nonparametric tests
 author: Steve Simon
-source: http://www.pmean.com/01/parametric-01.html
 date: 2001-07-30
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Unusual data
 output: html_document
 ---
-****[StATS]:** Parametric versus nonparametric tests
-(July 30, 2001)**
-
 *Dear Professor Mean, When should I use a parametric test versus a
 non-parametric test?*
 
@@ -85,30 +81,4 @@ probably using an approach that others in your discipline would like.**
 > **Measurement theory: Frequently asked questions**. Warren S. Sarle
 > (accessed 7/26/01) <ftp://ftp.sas.com/pub/neural/measurement.html>
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Parametric versus nonparametric tests
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/01/parametric.html) of this page on my [original website](http://www.pmean.com/original_site.html).
