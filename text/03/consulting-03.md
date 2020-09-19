@@ -1,5 +1,5 @@
 ---
-title: For CMH employees only: Statistical Consulting Services
+title: For CMH employees only. Statistical Consulting Services
 author: Steve Simon
 date: 2003-04-30
 category: 

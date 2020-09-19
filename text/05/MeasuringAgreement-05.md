@@ -1,15 +1,13 @@
 ---
 title: Measuring agreement
 author: Steve Simon
-source: http://www.pmean.com/05/MeasuringAgreement-05.html
 date: 2005-04-19
-category: Blog post
-tags: Measuring agreement
+category:
+- Blog post
+tags:
+- Measuring agreement
 output: html_document
 ---
-**[StATS]:** **Measuring agreement (April 19,
-2005)**
-
 Someone reviewing a paper asked me about all the \"weird statistics\"
 being used in the paper, such as the Bland-Altman plot and Deming
 regression.
@@ -138,30 +136,4 @@ assess how strongly two measures agree with one another.
     Frequently-Asked-Questions](http://www.westgard.com/quest11.htm%20)**.
     Westgard JO. Accessed on 2005-04-19. www.westgard.com/quest11.htm
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
-<!---More--->
-agreement](../category/MeasuringAgreement.html).
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Measuring agreement (April 19,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MeasuringAgreement.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Meta-analysis
 author: Steve Simon
-source: http://www.pmean.com/05/metaanalysis.html
 date: 2005-03-18
 categories:
 - Blog post
@@ -9,8 +8,6 @@ tags:
 - Systematic overviews
 output: html_document
 ---
-****[StATS]:** Meta-analysis (March 18, 2005)**
-
 Meta-analysis is the quantitative combination of results from multiple
 research studies. There are three steps in a typical meta-analysis
 model.
@@ -491,30 +488,4 @@ evidence that publication bias did not seriously influence your outcome.
     text]](http://bmj.bmjjournals.com/cgi/content/full/327/7414/557)
     [PDF]](http://bmj.bmjjournals.com/cgi/reprint/327/7414/557.pdf)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-****[StATS]:** Meta-analysis (March 18, 2005)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/Metaanalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: MedStats discussion group
 author: Steve Simon
-source: http://www.pmean.com/05/MedStats.html
 date: 2005-04-25
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
-**[StATS]: MedStats discussion group (April 25,
-2005).**
-
 If you don\'t get enough email already, a new discussion group,
 MedStats, was created recently. MedStats is hosted on Google Groups. The
 main page for MedStats is
@@ -37,30 +35,4 @@ listserv/usenet groups related to statistics.
 There is also a mailing list for Bioconductor. Details on how to
 subscribe are at <https://stat.ethz.ch/mailman/listinfo/bioconductor>
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: MedStats discussion group (April 25,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MedStats.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,5 +1,5 @@
 ---
-title: Interesting quote: A mathematician is\...
+title: A mathematician is ...
 author: Steve Simon
 date: 2005-01-24
 category: 

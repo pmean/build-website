@@ -3,13 +3,12 @@ title: Microarray data analysis, again
 author: Steve Simon
 source: http://www.pmean.com/05/MicroarrayC.html
 date: 2005-04-22
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Gene expression 
 output: html_document
 ---
-**[StATS]:** **Microarray data analysis, again
-(April 22, 2005)**.
-
 > One of these days, I will have a coherent set of pages talking about
 > microarray data analysis, but for now, all I have is a haphazard set
 > of pages and weblog entries, most of which are woefully incomplete. In
@@ -58,27 +57,4 @@ output: html_document
 > -   [Microarray data analysis (March
 >     18, 2004)](http://www.childrensmercy.org/stats/weblog2004/microarray.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Microarray data analysis, again
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MicroArrayC.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,14 @@
 ---
-title: Seminar notes: Issues in the analysis of mixed linear models
+title: Seminar notes. Issues in the analysis of mixed linear models
 author: Steve Simon
 source: http://www.pmean.com/06/MixedSeminar.html
 date: 2006-07-17
-category: Blog post
-tags: Mixed linear model
+category:
+- Blog post
+tags:
+- Mixed linear model
 output: html_document
 ---
-**[StATS]:** **Seminar notes: Issues in the analysis
-of mixed linear models (July 17, 2006)**.
-
 The keynote address at the 18th Annual Applied Statistics in Agriculture
 Conference, sponsored by Kansas State University was \"Random
 Observations with Mixed Feelings\", given by Oliver Schabenberger, SAS
@@ -130,31 +129,3 @@ unresolved issues:
 -   diagnostic tests and graphs,
 -   non-normal random effects,
 -   and mixture models.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed linear
-model](../category/MixedModels.html).
-<!---More--->
-model](../category/MixedModels.html).
-for pages similar to this one at [Category: Mixed linear
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Seminar notes: Issues in the analysis
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed linear
-model](../category/MixedModels.html).
---->
-

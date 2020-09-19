@@ -1,5 +1,5 @@
 ---
-title:  P.Mean: Quote on ...
+title:  Anti-intellectualism ...
 author: Steve Simon
 date: 2008-01-01
 categories:

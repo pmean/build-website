@@ -1,12 +1,11 @@
 ---
 title: Finding more information about a gene
 author: Steve Simon
-source: http://www.pmean.com/05/FindingGenes.html
 date: 2005-09-06
 categories:
 - Blog post
 tags:
-- 
+- Gene expression 
 output: html_document
 ---
 
@@ -120,3 +119,4 @@ Here's a portion of the text file that this software produced
 This looks like a tab delimited file, though the semicolons separate
 multiple values for the LocusLink IDs.
 
+You can find an [earlier version](http://www.pmean.com/05/FindingGenes.html) of this page on my [original website](http://www.pmean.com/original_site.html).

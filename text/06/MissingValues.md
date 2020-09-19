@@ -1,15 +1,13 @@
 ---
-title: Seminar notes: Missing values in a dose response model
+title: Seminar notes. Missing values in a dose response model
 author: Steve Simon
-source: http://www.pmean.com/06/MissingValues.html
 date: 2006-07-17
-category: Blog post
-tags: Nonlinear regression
+category:
+- Blog post
+tags:
+- Nonlinear regression
 output: html_document
 ---
-**[StATS]:** **Seminar notes: Missing values in a
-dose response model (July 17, 2006)**
-
 One of the talks at the 18th Annual Applied Statistics in Agriculture
 Conference, sponsored by Kansas State University was \"Dose-Response
 Modeling with Marginal Information on Missing Categorical Covariate\" by
@@ -60,31 +58,4 @@ minimization step.
 
 There were some computational complexities that the author described,
 but which are difficult to capture in this summary.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
-<!---More--->
-regression](../category/NonlinearRegression.html).
-for pages similar to this one at [Category: Nonlinear
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Seminar notes: Missing values in a
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Nonlinear
-regression](../category/NonlinearRegression.html).
---->
 

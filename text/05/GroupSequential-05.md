@@ -1,15 +1,14 @@
 ---
 title: Group Sequential Monitoring of Clinical Trials in R
 author: Steve Simon
-source: http://www.pmean.com/05/GroupSequential-05.html
 date: 2005-12-13
-category: Blog post
-tags: Early stopping, R software
+category:
+- Blog post
+tags:
+- Early stopping
+- R software
 output: html_document
 ---
-**[StATS]: Group Sequential Monitoring of Clinical
-Trials in R (December 13, 2005)**.
-
 It is very expensive to purchase software that performs group sequential
 monitoring of clinical trials (sometimes called interim analysis). Group
 sequential monitoring is looking at a trial at selected time points
@@ -41,33 +40,4 @@ them against some well known examples when I have time.
     1, 2004)](../library/EarlyStopping1.asp)
 -   [Stats: Interim analysis](../plan/interim.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html) or [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-stopping](../category/EarlyStopping.html) or [Category: R
-for pages similar to this one at [Category: Early
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Group Sequential Monitoring of Clinical
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html) or [Category: R
-software](../category/RSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/GroupSequential.html) of this page on my [original website](http://www.pmean.com/original_site.html).

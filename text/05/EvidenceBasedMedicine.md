@@ -2,8 +2,10 @@
 title: Overview of evidence-based-medicine
 author: Steve Simon
 date: 2005-07-29
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 The Archives of Disease in Childhood has a series of articles on

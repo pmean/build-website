@@ -1,15 +1,13 @@
 ---
 title: Responding to a critique of meta-analysis
 author: Steve Simon
-source: http://www.pmean.com/05/MetaanalysisCritique.html
 date: 2005-10-10
-category: Blog post
-tags: Systematic overviews
+category:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
-**[StATS]:** **Responding to a critique of
-meta-analysis (October 10, 2005)**
-
 A contributor to the Evidence-Based Medicine list offered a possible
 criticism of meta-analysis. The criticism was along the lines of (I am
 paraphrasing and summarizing):
@@ -90,30 +88,4 @@ better off or worse off having the tool called meta-analysis in our
 research arsenal.\" And my answer is yes, we\'re much better off as long
 as we keep these tools out of the hands of amateurs.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Responding to a critique of
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MetaanalysisCritique.html) of this page on my [original website](http://www.pmean.com/original_site.html).

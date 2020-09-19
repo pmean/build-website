@@ -1,15 +1,14 @@
 ---
-title: Stopping rules for a Data Safety Monitoring PlanÂ
+title: Stopping rules for a Data Safety Monitoring Plan
 author: Steve Simon
 source: http://www.pmean.com/06/StoppingRules.html
 date: 2006-07-05
-category: Blog post
-tags: Early stopping
+category:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
-**[StATS]: Stopping rules for a Data Safety
-Monitoring PlanÂ (July 5, 2006)**.
-
 If a research study requires a DSMP (Data Safety Monitoring Plan), that
 plan should outline conditions that would cause a study to end early. It
 is difficult to specify what those conditions would be, but it is
@@ -185,31 +184,4 @@ validity of the study as a whole.
     also find this document useful as a guide in fashioning suitable DSM
     plans for their individual trials.*
     http://www.cancer.gov/clinicaltrials/conducting/dsm-guidelines
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-<!---More--->
-stopping](../category/EarlyStopping.html).
-for pages similar to this one at [Category: Early
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Stopping rules for a Data Safety
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
---->
 

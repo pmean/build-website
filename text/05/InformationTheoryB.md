@@ -1,7 +1,6 @@
 ---
 title: Information content of a continuous distribution
 author: Steve Simon
-source: http://www.pmean.com/05/InformationTheoryB.html
 date: 2005-08-01
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Information searching
 output: html_document
 ---
-**[StATS]:** **Information content of a continuous
-distribution (August 1, 2005)**
-
 I was browsing through the book
 
 -   **Statistical Distributions Second Edition.** Evans M, Hastings N,
@@ -90,30 +86,4 @@ distribution in half, you have one less bit of uncertainty.
 -   <http://www.ia.hiof.no/prosjekter/hoit/html/nr1_99/im.html>
 -   <http://planetmath.org/encyclopedia/Entropy.html>
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Information content of a continuous
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/InformationTheoryB.html) of this page on my [original website](http://www.pmean.com/original_site.html).

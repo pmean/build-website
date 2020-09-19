@@ -3,13 +3,12 @@ title: Some articles on meta-analysis
 author: Steve Simon
 source: http://www.pmean.com/05/MetaanalysisArticles.html
 date: 2005-06-10
-category: Blog post
-tags: Systematic overviews
+category:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
-**[StATS]:** **Some articles on meta-analysis (June
-10, 2005)**
-
 I found a couple of interesting articles on meta-analysis that are
 difficult to classify:
 
@@ -68,30 +67,4 @@ examples, however, and they have full free text on the web.
     Ian S Watt, Anne Walker. BMJ 2003: 326(7400); 1175-1177. 
     [\[PDF\]](http://bmj.com/cgi/reprint/326/7400/1175)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Some articles on meta-analysis (June
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MetaanalysisArticles.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,14 +1,13 @@
 ---
 title: Merging in R
 author: Steve Simon
-source: http://www.pmean.com/05/MergingInR.html
 date: 2005-07-26
-category: Blog post
-tags: R software
+category:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
-**[StATS]: Merging in R (July 26, 2005)**
-
 Merging is tricky in any program, and you have to be sure that you know
 what you are doing. I have found that keeping an index variable will
 allow me to backtrack and find information in the original files if
@@ -30,30 +29,4 @@ Additional information on merging can be found at
 
 -   [www.ats.ucla.edu/stat/r/notes/managing.htm](http://www.ats.ucla.edu/stat/r/notes/managing.htm)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-for pages similar to this one at [Category: R
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Merging in R (July 26, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MergingInR.html) of this page on my [original website](http://www.pmean.com/original_site.html).

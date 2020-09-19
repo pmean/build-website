@@ -1,7 +1,7 @@
 ---
-title: P.Mean: What is a good surrogate measure for ...
+title: What is a good surrogate measure for ...
 author: Steve Simon
-date: 1999-01-01
+date: 2010-01-01
 categories:
 - Blog post
 tags:

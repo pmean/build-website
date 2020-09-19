@@ -1,15 +1,13 @@
 ---
 title: Incidence density ratio
 author: Steve Simon
-source: http://www.pmean.com/05/IncidenceDensity.html
 date: 2005-04-19
-category: Blog post
-tags: Measuring benefit/risk
+category:
+- Blog post
+tags:
+- Measuring benefit/risk
 output: html_document
 ---
-**[StATS]:** **Incidence density ratio (April 19,
-2005)**
-
 Someone asked me about a technical term, incidence density ratio, that
 was used in an article:
 
@@ -56,30 +54,4 @@ produce incidence density ratios. I have to write up a web page about
 this model when I have time. It is on my list of unfinished business
 ([Coming Soon! March 22, 2005 weblog entry](ComingSoon.html)).
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-benefit/risk](../category/MeasuringBenefitRisk.html).
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Incidence density ratio (April 19,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/IncidenceDensity.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,5 +1,5 @@
 ---
-title: Lessons learned the hard way: don't throw ...
+title: Lessons learned the hard way. Don't throw ...
 author: Steve Simon
 date: 1999-01-01
 categories:

@@ -1,16 +1,13 @@
 ---
-title: Interesting quote: You have to make\...\...
+title: You have to make a distinction between the science and the technological applications ...
 author: Steve Simon
-source: http://www.pmean.com/05/YouHaveToMake.html
 date: 2005-05-16
-category: Blog post
-tags: Quotations
+category:
+- Quotations
+tags:
+- Theory versus practice
 output: html_document
 ---
-**[StATS]:** **Interesting quote: You have to
-make\...\... (May 16, 2005)** [Category:
-Quotations](../category/InterestingQuotes.html)
-
 > *\"*You have to make a distinction between the science and the
 > technological applications,*\" says Francis Fukuyama, a member of the
 > President\'s Council on Bioethics and director of the Human
@@ -35,34 +32,3 @@ Quotations](../category/InterestingQuotes.html)
 > it.*\"* quoted in the Washington Post article, \"Inventing Our
 > Evolution\" published Monday, May 16, 2005 at
 > [www.washingtonpost.com/wp-dyn/content/article/2005/05/15/AR2005051501092\_pf.html](http://www.washingtonpost.com/wp-dyn/content/article/2005/05/15/AR2005051501092_pf.html).
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.\~\~\~
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Interesting quote: You have to
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

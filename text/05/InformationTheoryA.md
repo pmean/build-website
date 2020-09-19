@@ -1,15 +1,13 @@
 ---
 title: Information theory and microarrays
 author: Steve Simon
-source: http://www.pmean.com/05/InformationTheoryA.html
 date: 2005-06-01
-category: Blog post
-tags: Information searching
+category:
+- Blog post
+tags:
+- Information theory
 output: html_document
 ---
-**[StATS]:** **Information theory and microarrays
-(June 1, 2005)**
-
 I have been toying with the idea of using information theory in a
 microarray experiment to allow incorporation of the proportion of
 \"absent: genes in the calculation of variance reduction. An \"absent\"
@@ -62,30 +60,4 @@ Another interesting microarray article I ran across is
     [\[Full text\]](http://www.biomedcentral.com/1471-2164/5/17)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2164-5-17.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Information theory and microarrays
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/InformationTheoryA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

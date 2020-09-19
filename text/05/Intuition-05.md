@@ -1,15 +1,13 @@
 ---
 title: How good is your intuition?
 author: Steve Simon
-source: http://www.pmean.com/05/Intuition-05.html
 date: 2005-01-21
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
-**[StATS]: How good is your intuition? (created
-2005-01-21)**.
-
 One definition of Evidence Based Medicine is
 
 > *the conscientious, explicit, and judicious use of current best
@@ -87,30 +85,4 @@ this briefly in my speech, [Is the randomized trial the gold standard
 for
 research?](http://www.childrensmercy.org/stats/weblog2004/GoldStandard.asp).
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: How good is your intuition? (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/Intuition.html) of this page on my [original website](http://www.pmean.com/original_site.html).

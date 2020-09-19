@@ -1,15 +1,13 @@
 ---
 title: Using Mathematica and Matlab for Statistics
 author: Steve Simon
-source: http://www.pmean.com/05/MathematicaMatlab.html
 date: 2005-03-22
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
-**[StATS]:** **Using Mathematica and Matlab for
-Statistics (March 22, 2005)**
-
 [Mathematica](http://www.wolfram.com/products/mathematica/introduction.html),
 produced by [Wolfram Research](http://www.wolfram.com/), is a program
 which performs numeric and symbolic computations. It also can produced
@@ -38,30 +36,4 @@ Statistics:
     Martinez, Angel R. Martinez (2001), CRC Press [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/1584882298.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Using Mathematica and Matlab for
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MathematicaMatlab.html) of this page on my [original website](http://www.pmean.com/original_site.html).

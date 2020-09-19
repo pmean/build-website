@@ -1,15 +1,13 @@
 ---
-title: Seminar notes: Working with molecular biologists
+title: Seminar notes. Working with molecular biologists
 author: Steve Simon
-source: http://www.pmean.com/06/MolecularBiologists.html
 date: 2006-07-17
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Human side of statistics 
 output: html_document
 ---
-**[StATS]:** **Seminar notes: Working with molecular
-biologists (July 17, 2006)**.
-
 > One of the talks at the 18th Annual Applied Statistics in Agriculture
 > Conference, sponsored by Kansas State University was \"A visual aid to
 > help a statistician work with a molecular biologist\" by Debbie Boykin
@@ -39,34 +37,3 @@ biologists (July 17, 2006)**.
 > data, but which is very important after removing a single data point.
 > The thing to keep in mind is that in most microarray experiments, a
 > Type II error is far more serious than a Type I error.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon and was last modified on 04/01/2010.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Seminar notes: Working with molecular
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

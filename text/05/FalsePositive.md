@@ -1,15 +1,13 @@
 ---
 title: The costs of a false positive test
 author: Steve Simon
-source: http://www.pmean.com/05/FalsePositive.html
 date: 2005-03-01
-category: Blog post
-tags: Diagnostic testing
+category:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
-**[StATS]:** **The costs of a false positive test
-(March 1, 2005)**
-
 The New York Times had an excellent article on newborn screening tests.
 
 -   **Panel to Advise Testing Babies for 29 Diseases.** Kolata G. The
@@ -102,30 +100,4 @@ discuss diagnostic tests:
 -   [Stats \#24: What do all these numbers mean? Likelihood
     Ratios](../training/hand24.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **The costs of a false positive test
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/FalsePositive.html) of this page on my [original website](http://www.pmean.com/original_site.html).

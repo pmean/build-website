@@ -3,13 +3,12 @@ title: RMA normalization of microarrays
 author: Steve Simon
 source: http://www.pmean.com/05/MicroarrayG.html
 date: 2005-10-24
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Gene expression 
 output: html_document
 ---
-**[StATS]:** **RMA normalization of microarrays
-(October 24, 2005)**.
-
 > If you ask most statisticians if they want raw data or processed data,
 > they will, for the most part, prefer to look at the raw data. There
 > are two reasons for this. First, the statisticians want to understand
@@ -72,27 +71,4 @@ output: html_document
 > distributed like an exponential distribution. The normalized values
 > are estimated through the expected value of the signal distribution.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **RMA normalization of microarrays
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MicroarrayG.html) of this page on my [original website](http://www.pmean.com/original_site.html). RMA normalization of microarrays

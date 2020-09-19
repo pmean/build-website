@@ -1,15 +1,13 @@
 ---
 title: Hard learned lessons
 author: Steve Simon
-source: http://www.pmean.com/05/HardLessons.html
 date: 2005-11-25
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
-**[StATS]: Hard learned lessons (November 25,
-2005)**. [](../category/DataManagement.html)
-
 It\'s been a busy month, as noted below, and in a rush to complete all
 my projects, I ended up doing some things that may have caused a few
 problems (nothing permanent, of course, but they did up delaying further
@@ -51,30 +49,4 @@ but I have a few more lessons worth mentioning.
     time I spent fixing them was far more than the time I would have
     spent laying the proper foundation.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html).
-<!---More--->
-management](../category/DataManagement.html).
-for pages similar to this one at [Category: Data
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Hard learned lessons (November 25,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-management](../category/DataManagement.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/HardLessons.html) of this page on my [original website](http://www.pmean.com/original_site.html).

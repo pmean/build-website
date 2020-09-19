@@ -1,5 +1,5 @@
 ---
-title: Speech: Deaf chairs, lost cake recipes, and a letter from Maria.
+title: Deaf chairs, lost cake recipes, and a letter from Maria.
 author: Steve Simon
 date: 2004-01-01
 categories:

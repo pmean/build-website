@@ -1,15 +1,13 @@
 ---
 title: Optimization using the MM algorithm
 author: Steve Simon
-source: http://www.pmean.com/05/MMalgorithm.html
 date: 2005-02-14
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
-**[StATS]: Optimization using the MM algorithm
-(February 14, 2005)**
-
 A comment on EDSTAT-L reminded me about this important issue. Many
 problems in Statistics involve finding an optimal point of a rather
 complex and messy function. In some situations, the optimal point is the
@@ -29,30 +27,4 @@ optimization is:
 -   **A Tutorial on MM Algorithms.** Hunter DR, Lange K. The American
     Statistician 2004: 54(1); 30-37.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Optimization using the MM algorithm
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/MMalgorithm.html) of this page on my [original website](http://www.pmean.com/original_site.html).

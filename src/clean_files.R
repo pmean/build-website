@@ -58,8 +58,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'categories: ', 
-  'categories:\n- ', 
+  'Website details, ', 
+  '', 
   dir_root="text", 
   file_pattern="md$")
 

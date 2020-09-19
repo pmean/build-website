@@ -1,7 +1,7 @@
 ---
-title: My life so far: fails to meet expectations
+title: My life so far, fails to meet expectations
 author: Steve Simon
-date: 1999-01-01
+date: 2010-01-01
 categories:
 - Blog post
 tags:
