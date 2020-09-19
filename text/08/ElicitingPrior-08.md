@@ -1,7 +1,6 @@
 ---
 title: Eliciting a prior distribution for rejection/refusal rates
 author: Steve Simon
-source: http://www.pmean.com/08/ElicitingPrior-08.html
 date: 2008-06-07
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Accrual problems in clinical trials
 output: html_document
 ---
-**[StATS]: Eliciting a prior distribution for
-rejection/refusal rates (created 2008-06-07)**.
-
 I got a question about the [Bayesian model for rejection/refusal
 rates](RefusalsAndExclusions.html). I had used three prior distributions
 in my calculations, a Beta(10,40), a Beta(45,5), and a Beta(25,25). The
@@ -112,30 +108,4 @@ for eliciting prior distributions should automatically downweight the
 prior distribution that a researcher specifies. This is an area that
 warrants further examination.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Eliciting a prior distribution for
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/ElicitingPrior.html) of this page on my [original website](http://www.pmean.com/original_site.html).

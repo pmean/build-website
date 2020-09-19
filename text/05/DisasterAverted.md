@@ -9,9 +9,6 @@ tags:
 - Data management
 output: html_document
 ---
-**[StATS]:** **A disaster averted (May 16, 2005)**.
-[Category: Data management](../category/DataManagement.html)
-
 I'm working on a microarray experiment of prenatal liver samples.
 When I was trying to normalize the data, I noticed that three of the
 arrays had rather unusual properties. When trying to normalize array
@@ -75,27 +72,4 @@ caught the problem before I ran any serious analyses. Whew!
 The big lesson learned here is to always check things as you go along.
 Sometimes an obvious assumption about your data may be mistaken.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **A disaster averted (May 16, 2005)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DisasterAverted.html) of this page on my [original website](http://www.pmean.com/original_site.html).

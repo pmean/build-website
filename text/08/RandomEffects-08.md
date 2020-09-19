@@ -1,15 +1,13 @@
 ---
 title: Criticism of random effects in a meta-analysis
 author: Steve Simon
-source: http://www.pmean.com/08/RandomEffects-08.html
 date: 2008-06-14
-category: Blog post
-tags: Systematic overviews
+category:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
-**[StATS]:** **Criticism of random effects in a
-meta-analysis (June 14, 2008)**.
-
 There are two approaches to combining results in a meta-analysis. They
 are called the fixed effects model and the random effects model. The
 fixed effects model effectively weights each study by the sample size,
@@ -80,33 +78,4 @@ discussion of the controversies. But I would still argue that the random
 effects meta-analysis is the more intuitive approach, even though at
 first glance it does indeed look counter-intuitive.
 
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-similar to this one at [Category: Systematic
-help resources](../GeneralHelp.html). You can also browse for pages
-Hospital website. Need more information? I have a page with [general
-a service, as it is no longer available on the Children\'s Mercy
-do not hold the copyright for this material, I am reproducing it here as
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-
-<!---Do not use
-**[StATS]:** **Criticism of random effects in a
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children\'s Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children\'s Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/RandomEffects.html) of this page on my [original website](http://www.pmean.com/original_site.html).

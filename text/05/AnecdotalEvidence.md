@@ -1,15 +1,13 @@
 ---
 title: A nice definition of anecdotal evidence
 author: Steve Simon
-source: http://www.pmean.com/05/AnecdotalEvidence.html
 date: 2005-10-24
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
-**[StATS]:** **A nice definition of anecdotal
-evidence (created 2005-10-24)**.
-
 Robert Todd Carroll, author of The Skeptics Dictionary [\[BookFinder4U
 link\]](http://www.bookfinder4u.com/detail/0471272426.html) and creator
 of the website [Skepdic.com](http://www.skepdic.com), mentioned in a
@@ -61,30 +59,5 @@ From the New Science of Behavioral Economics\" [\[BookFinder4U
 link\]](http://www.bookfinder4u.com/detail/0684859386.html) that I have
 not yet read, but which sounds very interesting.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
 
-<!---Do not use
-**[StATS]:** **A nice definition of anecdotal
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/AnecdotalEvidence.html) of this page on my [original website](http://www.pmean.com/original_site.html).

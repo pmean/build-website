@@ -1,15 +1,13 @@
 ---
 title: More thoughts on equipoise
 author: Steve Simon
-source: http://www.pmean.com/05/Equipoise.html
 date: 2005-01-17
-category: Blog post
-tags: Equipoise in research
+category:
+- Blog post
+tags:
+- Equipoise in research
 output: html_document
 ---
-**[StATS]: More thoughts on equipoise (January 17,
-2005)**
-
 Vital to the ethical conduct of a clinical trial is the concept of
 equipoise, that a researcher is clinically indifferent or genuinely
 uncertain, as to whether a new therapy is better than the standard
@@ -73,30 +71,4 @@ I would want to hire people who, because of their intuition and good
 sense, investigate new drugs that have a good chance of actually
 working.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Equipoise in
-research](../category/EquipoiseInResearch.html).
-<!---More--->
-research](../category/EquipoiseInResearch.html).
-for pages similar to this one at [Category: Equipoise in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: More thoughts on equipoise (January 17,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Equipoise in
-research](../category/EquipoiseInResearch.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/Equipoise.html) of this page on my [original website](http://www.pmean.com/original_site.html).

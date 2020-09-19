@@ -1,15 +1,13 @@
 ---
 title: Clinical importance
 author: Steve Simon
-source: http://www.pmean.com/05/ClinicalImportance-05.html
 date: 2005-03-11
-category: Blog post
-tags: Clinical importance
+category:
+- Blog post
+tags:
+- Clinical importance
 output: html_document
 ---
-**[StATS]: Clinical importance (created
-2005-03-11)**.
-
 Many journal authors have the bad habit of looking just at the p-value
 of a study and ignoring the clinical importance of their findings. If
 they get a small p-value, which indicates a statistically significant
@@ -141,30 +139,4 @@ published paper in BMJ.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12811707&dopt=Abstract)
     [\[Abstract\]](http://www2.us.elsevierhealth.com/scripts/om.dll/serve?retrieve=/pii/S0735675702422553&)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Clinical
-importance](../category/ClinicalImportance.html).
-<!---More--->
-importance](../category/ClinicalImportance.html).
-for pages similar to this one at [Category: Clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Clinical importance (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Clinical
-importance](../category/ClinicalImportance.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ClinicalImportance.html) of this page on my [original website](http://www.pmean.com/original_site.html).

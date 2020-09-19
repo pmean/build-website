@@ -1,15 +1,13 @@
 ---
 title: Adjusted odds ratios
 author: Steve Simon
-source: http://www.pmean.com/05/AdjustedOR.html
 date: 2005-01-20
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
-**[StATS]:** **Adjusted odds ratios (January 20,
-2005)**.
-
 Someone asked me today how to compute an adjusted odds ratio. He has a
 case control study where cases represent cancer patients. He also has
 various [Single Nucleotide
@@ -36,30 +34,4 @@ For further details and a simple example, check out
 -   [Stats: Guidelines for logistic regression
     models](../model/logistic.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-<!---More--->
-adjustment](../category/CovariateAdjustment.html).
-for pages similar to this one at [Category: Covariate
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Adjusted odds ratios (January 20,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/AdjustedOR.html) of this page on my [original website](http://www.pmean.com/original_site.html).

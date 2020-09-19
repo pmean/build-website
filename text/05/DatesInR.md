@@ -1,15 +1,13 @@
 ---
 title: Dates in Excel and R
 author: Steve Simon
-source: http://www.pmean.com/05/DatesInR.html
 date: 2005-08-10
-category: Blog post
-tags: R software
+category:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
-**[StATS]:** **Dates in Excel and R (August 10,
-2005)**
-
 Every program uses a slightly different method for calculating date
 values. Excel, for example, counts the number of days since the start of
 1900 (January 1, 1900=1) for Windows, but for the Macintosh it uses 1904
@@ -31,30 +29,4 @@ the results are specific to the system you are working on (just like
 Excel!). So the moral is to always type in and always display four digit
 years.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-for pages similar to this one at [Category: R
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Dates in Excel and R (August 10,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DatesInR.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,14 @@
 ---
 title: Confidence interval for a correlation coefficient
 author: Steve Simon
-source: http://www.pmean.com/05/CorrelationCoefficient-05.html
 date: 2005-07-11
-category: Blog post
-tags: Confidence intervals, Sample size justification
+category:
+- Blog post
+tags:
+- Confidence intervals
+- Sample size justification
 output: html_document
 ---
-**[StATS]: Confidence interval for a correlation
-coefficient (created 2005-07-11)**.
-
 In many exploratory research studies, the goal is to examine
 associations among multiple demographic variables and some outcome
 variables. How can you justify the sample size for such an exploratory
@@ -61,33 +60,4 @@ The nice thing about a spreadsheet is that you can play a lot of \"what
 if\" games and explore how changes in the correlation and/or the sample
 size influence the width of the confidence interval.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
-<!---More--->
-size justification](../category/SampleSizeJustification.html).
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-for pages similar to this one at [Category: Confidence
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Confidence interval for a correlation
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CorrelationCoefficient.html) of this page on my [original website](http://www.pmean.com/original_site.html).

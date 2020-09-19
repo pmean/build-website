@@ -1,15 +1,13 @@
 ---
 title: Two cautionary tales about data mining
 author: Steve Simon
-source: http://www.pmean.com/05/DataMining-05.html
 date: 2005-01-06
-category: Blog post
-tags: Data mining
+category:
+- Blog post
+tags:
+- Data mining
 output: html_document
 ---
-**[StATS]:** **Two cautionary tales about data
-mining (January 6, 2005)**.
-
 > I attended a 7am seminar this morning on data warehousing and data
 > mining, which was quite good. It reminded me of a couple of stories I
 > heard about the pitfalls of data mining.
@@ -53,36 +51,4 @@ mining (January 6, 2005)**.
 > **shrug of the shoulders**. In fact, we often don\'t know what to make
 > of the associations found by data mining models.
 
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon on 2005-01-06, edited by Steve Simon, and was
-last modified on 2010-04-01. Send feedback to ssimon at cmh dot edu or
-click on the email link at the top of the page. [Category: Data
-mining](../category/DataMining.html)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Two cautionary tales about data
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DataMining.html) of this page on my [original website](http://www.pmean.com/original_site.html).

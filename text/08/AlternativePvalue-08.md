@@ -1,15 +1,13 @@
 ---
 title: An alternative to the p-value
 author: Steve Simon
-source: http://www.pmean.com/08/AlternativePvalue-08.html
 date: 2008-04-03
-category: Blog post
-tags: Hypothesis testing
+category:
+- Blog post
+tags:
+- Hypothesis testing
 output: html_document
 ---
-**[StATS]:** **An alternative to the p-value (April
-3, 2008)**.
-
 > A discussion on edstat-l concerned a statistic called p-rep. I had not
 > heard of this statistic before, but at least one journal is calling
 > for its use in all papers published by that journal.
@@ -24,30 +22,4 @@ output: html_document
 > calmer here (they are never completely calm), I will try to describe
 > this in more detail.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
-<!---More--->
-testing](../category/HypothesisTesting.html).
-for pages similar to this one at [Category: Hypothesis
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **An alternative to the p-value (April
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/AlternativePvalue.html) of this page on my [original website](http://www.pmean.com/original_site.html).

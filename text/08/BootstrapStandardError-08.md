@@ -1,15 +1,13 @@
 ---
 title: Bootstrap estimates of the standard error
 author: Steve Simon
-source: http://www.pmean.com/08/BootstrapStandardError-08.html
 date: 2008-06-20
-category: Blog post
-tags: Unusual data
+category:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
-**[StATS]: Bootstrap estimates of the standard error
-(June 20, 2008)**.
-
 A regular correspondent (JU) on the [MEDSTATS email discussion
 group](../category/InterestingWebsites.html#MeStXx) asked about using
 the bootstrap to estimate the standard error of the mean in a simple
@@ -50,22 +48,4 @@ you can use known distributions like the t-distribution for the
 resulting test statistic. But for the record, we don\'t divide by n-1 to
 make the standard error unbiased.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-
- 
-
- 
-<!---More--->
- 
-
-<!---Do not use
-**[StATS]: Bootstrap estimates of the standard error
- 
---->
-
+You can find an [earlier version](http://www.pmean.com/08/BootstrapStandardError.html) of this page on my [original website](http://www.pmean.com/original_site.html).

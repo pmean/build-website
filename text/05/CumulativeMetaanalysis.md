@@ -1,7 +1,6 @@
 ---
 title: Cumulative meta-analysis
 author: Steve Simon
-source: http://www.pmean.com/05/CumulativeMetaanalysis.html
 date: 2005-03-11
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Systematic overviews
 output: html_document
 ---
-**[StATS]:** **Cumulative meta-analysis (March 11,
-2005)**.
-
 This figure below, published in
 
 -   **Erythropoietin, uncertainty principle and cancer related
@@ -58,30 +54,4 @@ easy to include their content on my web pages and in my teaching.
     discussion 1269-72.
     [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Cumulative meta-analysis (March 11,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CumulativeMetaanalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html).

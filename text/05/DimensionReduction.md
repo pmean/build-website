@@ -1,15 +1,13 @@
 ---
 title: Dimension reduction in a microarray experiment
 author: Steve Simon
-source: http://www.pmean.com/05/DimensionReduction.html
 date: 2005-05-25
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Gene expression 
 output: html_document
 ---
-**[StATS]:** **Dimension reduction in a microarray
-experiment (May 25, 2005)**.
-
 > Given the large number of genes in a microarray experiment, you need
 > to find some way of looking at subsets or linear combinations of these
 > genes. Assume that you have G genes and M microarrays and that the
@@ -61,27 +59,4 @@ experiment (May 25, 2005)**.
 >     Oaks (CA): Sage. Accessed on 2005-05-25.
 >     www.utdallas.edu/\~herve/Abdi-PLS-pretty.pdf
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Dimension reduction in a microarray
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DimensionReduction.html) of this page on my [original website](http://www.pmean.com/original_site.html).

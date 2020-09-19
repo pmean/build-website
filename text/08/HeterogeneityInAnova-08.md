@@ -1,15 +1,13 @@
 ---
 title: When does heterogeneity become a concern?
 author: Steve Simon
-source: http://www.pmean.com/08/HeterogeneityInAnova-08.html
 date: 2008-06-05
-category: Blog post
-tags: Analysis of variance
+category:
+- Blog post
+tags:
+- Analysis of variance
 output: html_document
 ---
-**[StATS]: When does heterogeneity become a concern?
-(created 2008-06-05)**.
-
 *Dear Professor Mean, I have an ANOVA model and I am worried about
 heterogeneity\--unequal standard deviations in each group. How should I
 check for this?*
@@ -64,30 +62,4 @@ your model. With balanced data (same or nearly the same sample size in
 each group), there is less need to worry about heterogeneity because it
 is unlikely to have a major impact.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
-<!---More--->
-variance](../category/AnalysisOfVariance.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: When does heterogeneity become a concern?
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/HeterogeneityInAnova.html) of this page on my [original website](http://www.pmean.com/original_site.html).

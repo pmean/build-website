@@ -1,15 +1,11 @@
 ---
 title: Overview of evidence-based-medicine
 author: Steve Simon
-source: http://www.pmean.com/05/EvidenceBasedMedicine.html
 date: 2005-07-29
 category: Blog post
 tags: Teaching resources
 output: html_document
 ---
-**[StATS]: Overview of evidence-based-medicine (July
-29, 2005)** [](../category/TeachingResources.html)
-
 The Archives of Disease in Childhood has a series of articles on
 evidence-based Medicine.
 
@@ -31,30 +27,4 @@ evidence-based Medicine.
 Unfortunately, the full text of these articles is available only to
 subscribers.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Overview of evidence-based-medicine (July
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/EvidenceBasedMedicine.html) of this page on my [original website](http://www.pmean.com/original_site.html).

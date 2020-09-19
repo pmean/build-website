@@ -1,15 +1,13 @@
 ---
 title: What is critical thinking?
 author: Steve Simon
-source: http://www.pmean.com/05/CriticalThinking.html
 date: 2005-05-17
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
-**[StATS]:** **What is critical thinking? (created
-2005-05-17)**.
-
 A lot of people use the term \"critical thinking\" in an offhand way.
 Usually the writer who uses this term is trying to imply that anyone who
 disagrees with the writer\'s theory or belief is naive. Critical
@@ -101,30 +99,4 @@ is based on perfect and unflawed data, but rather that the flaws are
 trivial compared to the flaws in the arguments of those who believe in
 alternative explanations.
 
-was written by Steve Simon while working at Children\'s Mercy Hospital.
-Although I do not hold the copyright for this material, I am reproducing
-it here as a service, as it is no longer available on the Children\'s
-Mercy Hospital website. Need more information? I have a page with
-[general help resources](../GeneralHelp.html). You can also browse for
-pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-pages similar to this one at [Category: Critical
-[general help resources](../GeneralHelp.html). You can also browse for
-Mercy Hospital website. Need more information? I have a page with
-it here as a service, as it is no longer available on the Children\'s
-Although I do not hold the copyright for this material, I am reproducing
-was written by Steve Simon while working at Children\'s Mercy Hospital.
-
-<!---Do not use
-**[StATS]:** **What is critical thinking? (created
-was written by Steve Simon while working at Children\'s Mercy Hospital.
-Although I do not hold the copyright for this material, I am reproducing
-it here as a service, as it is no longer available on the Children\'s
-Mercy Hospital website. Need more information? I have a page with
-[general help resources](../GeneralHelp.html). You can also browse for
-pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CriticalThinking.html) of this page on my [original website](http://www.pmean.com/original_site.html).

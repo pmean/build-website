@@ -1,15 +1,14 @@
 ---
 title: A collection of randomized and non-randomized studies
 author: Steve Simon
-source: http://www.pmean.com/05/CollectionStudies.html
 date: 2005-03-22
-category: Blog post
-tags: Observational studies, Randomized trials
+category:
+- Blog post
+tags:
+- Observational studies
+- Randomized trials
 output: html_document
 ---
-**[StATS]:** **A collection of randomized and
-non-randomized studies (March 22, 2005)**.
-
 I\'m updating some of my training classes to use examples from open
 source journals, because it is easier for me to include content of these
 articles directly in the web pages. An example of this is [practice
@@ -83,33 +82,4 @@ examples for the practice exercises.
     2002: 324(7336); 520-.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11872551&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies) or [Category: Randomized
-trials](#RandomizedTrials).
-<!---More--->
-trials](#RandomizedTrials).
-studies](#ObservationalStudies) or [Category: Randomized
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **A collection of randomized and
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies) or [Category: Randomized
-trials](#RandomizedTrials).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CollectionStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html).

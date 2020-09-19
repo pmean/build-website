@@ -1,15 +1,13 @@
 ---
 title: The post-modern assault on evidence-based medicine, part 3
 author: Steve Simon
-source: http://www.pmean.com/08/PostModernAssaultPart3-08.html
 date: 2008-01-07
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
-**[StATS]:** **The post-modern assault on
-evidence-based medicine, part 3 (created 2008-01-07).**
-
 I have volunteered to give a talk for a group of statisticians which
 discusses an article I am preparing: \"The post-modern assault on
 evidence-based medicine.\" I might give this talk on the first Monday in
@@ -43,30 +41,4 @@ article. Previous weblog entries on this topic are
     (December
     18, 2007)](http://www.childrensmercy.org/stats/weblog2007/PostModernAssaultPart2.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **The post-modern assault on
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/PostModernAssaultPart3.html) of this page on my [original website](http://www.pmean.com/original_site.html).

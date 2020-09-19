@@ -1,15 +1,14 @@
 ---
 title: What statistic should I use when?
 author: Steve Simon
-source: http://www.pmean.com/08/WhatStatistic-08.html
 date: 2008-01-04
-category: Blog post
-tags: Analysis of variance, Linear regression
+category:
+- Blog post
+tags:
+- Analysis of variance
+- Linear regression
 output: html_document
 ---
-**[StATS]: What statistic should I use when?
-(created 2008-01-04)**.
-
 Someone was asking about a multiple choice question on a test that reads
 something like this: A group of researchers investigating in patients
 with diabetes on the basis of demographic characteristics and the level
@@ -41,33 +40,4 @@ model.
 If I get a chance, I will try to delineate further what statistic should
 be used in what situation.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html) or [Category: Linear
-regression](../category/LinearRegression.html).
-<!---More--->
-regression](../category/LinearRegression.html).
-variance](../category/AnalysisOfVariance.html) or [Category: Linear
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: What statistic should I use when?
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html) or [Category: Linear
-regression](../category/LinearRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/WhatStatistic.html) of this page on my [original website](http://www.pmean.com/original_site.html).

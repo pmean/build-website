@@ -1,15 +1,13 @@
 ---
 title: Evidence Based Medicine for patients
 author: Steve Simon
-source: http://www.pmean.com/08/EbmForPatients-08.html
 date: 2008-04-23
-category: Blog post
-tags: Information searching
+category:
+- Blog post
+tags:
+- Information searching
 output: html_document
 ---
-**[StATS]:** **Evidence Based Medicine for patients
-(April 23, 2008)**.
-
 > There was an interesting email exchange on the email discussion group
 > [EVIDENCE-BASED-HEALTH\@JISCMAIL.AC.UK](../category/InterestingWebsites.html#EvBaHe).
 > The first correspondent (TH) described a series of workshops that are
@@ -37,30 +35,4 @@ output: html_document
 > can use to assess the quality of web pages that provide health
 > information.*
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Evidence Based Medicine for patients
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/EbmForPatients.html) of this page on my [original website](http://www.pmean.com/original_site.html).

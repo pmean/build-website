@@ -1,15 +1,13 @@
 ---
 title: Case cohort design
 author: Steve Simon
-source: http://www.pmean.com/05/CaseCohort.html
 date: 2005-08-11
-category: Blog post
-tags: Observational studies
+category:
+- Blog post
+tags:
+- Observational studies
 output: html_document
 ---
-**[StATS]:** **Case cohort design (August 11,
-2005)**
-
 During a consultation about an NIH research grant, the term \"case
 cohort design\" came up. The Case Cohort design is similar to a nest
 Case Control design, but also has some important differences.
@@ -73,30 +71,4 @@ And here are four published examples of a Nested Case Control design:
 When I get the time, I will prepare a formal definition of these two
 terms.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies).
-<!---More--->
-studies](#ObservationalStudies).
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Case cohort design (August 11,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CaseCohort.html) of this page on my [original website](http://www.pmean.com/original_site.html).

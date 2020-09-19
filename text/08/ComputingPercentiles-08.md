@@ -1,15 +1,13 @@
 ---
 title: Multiple methods for computing percentiles
 author: Steve Simon
-source: http://www.pmean.com/08/ComputingPercentiles-08.html
 date: 2008-02-13
-category: Blog post
-tags: Descriptive statistics
+category:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
-**[StATS]:** **Multiple methods for computing
-percentiles (February 13, 2008)**.
-
 > A recent discussion on the [Medstats
 > group](../category/InterestingWebsites.html#MeStXx) highlighted some
 > of the confusion about computing percentiles. I use a simple formula.
@@ -40,30 +38,4 @@ percentiles (February 13, 2008)**.
 > serves as a source of confusion when one statistical program chooses a
 > slightly different percentile than another program.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-for pages similar to this one at [Category: Descriptive
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Multiple methods for computing
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/ComputingPercentiles.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: Two articles debating equipoise
 author: Steve Simon
-source: http://www.pmean.com/05/EquipoiseA.html
 date: 2005-09-09
-category: Blog post
-tags: Equipoise in research, Equipoise in research
+category:
+- Blog post
+tags:
+- Equipoise in research
 output: html_document
 ---
-**[StATS]: Two articles debating equipoise
-(September 9, 2005)** [Category: Equipoise in
-research](../category/EquipoiseInResearch.html)
 
 A frequent contributor to the IRBForum (HM) mentioned a couple of
 articles that discuss equipoise and which are well worth discussing in
@@ -28,30 +26,4 @@ detail.
 These articles are not available for free, but I will try to quote some
 relevant portions of them and comment on them when I get some free time.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Equipoise in
-research](../category/EquipoiseInResearch.html).
-<!---More--->
-research](../category/EquipoiseInResearch.html).
-for pages similar to this one at [Category: Equipoise in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Two articles debating equipoise
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Equipoise in
-research](../category/EquipoiseInResearch.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/EquipoiseA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

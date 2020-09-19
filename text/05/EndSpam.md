@@ -1,14 +1,13 @@
 ---
 title: Technology to end spam
 author: Steve Simon
-source: http://www.pmean.com/05/EndSpam.html
 date: 2005-03-08
-category: Blog post
-tags: Bayesian statistics
+category:
+- Blog post
+tags:
+- Bayesian statistics
 output: html_document
 ---
-**[StATS]: Technology to end spam (March 8, 2005)**
-
 In my job I get a lot of [spam](http://en.wikipedia.org/wiki/Spamming),
 partly because I listed my email address on my web site until just
 recently. The research community is trying to find technological
@@ -87,30 +86,4 @@ Further reading about spam:
 products here, but it is probably a mistake to talk about these products
 without having reviewed them in detail. So I have removed those links.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
-<!---More--->
-statistics](../category/BayesianStatistics.html).
-for pages similar to this one at [Category: Bayesian
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Technology to end spam (March 8, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/EndSpam.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,7 +1,6 @@
 ---
 title: Assessing the assumption of an exponential distribution
 author: Steve Simon
-source: http://www.pmean.com/08/AssessingExponential-08.html
 date: 2008-02-25
 categories:
 - Blog post
@@ -59,3 +58,5 @@ moments and is actually an optional step for most Q-Q plots.
 The Q-Q plot does not provide a formal test of hypothesis and there is
 a tendency to overstate small departures from linearity. Still, it is
 a useful approach that is easy to explain.
+
+You can find an [earlier version](http://www.pmean.com/08/AssessingExponential.html) of this page on my [original website](http://www.pmean.com/original_site.html).

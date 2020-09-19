@@ -9,9 +9,6 @@ tags:
 - Confidence intervals
 output: html_document
 ---
-**[StATS]:** **Confidence intervals around a safety
-level (created 2005-05-11)**.
-
 Someone asked me about an environmental clean up. The government told
 them that the location was cleaned up to a 90% confidence level of the
 standard. Would this give the residents an assurance that everything was
@@ -115,30 +112,4 @@ the safe side if the sampling plan was inadequate, then you have a good
 deal of protection, because it then forces them to use a thorough rather
 than a haphazard sampling plan.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
-<!---More--->
-intervals](../category/ConfidenceIntervals.html).
-for pages similar to this one at [Category: Confidence
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Confidence intervals around a safety
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ConfidenceIntervalA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

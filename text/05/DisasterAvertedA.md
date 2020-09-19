@@ -1,7 +1,6 @@
 ---
 title: Another disaster averted
 author: Steve Simon
-source: http://www.pmean.com/05/DisasterAvertedA.html
 date: 2005-08-16
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Data management
 output: html_document
 ---
-**[StATS]:** **Another disaster averted (August 16,
-2005)**. [Category: Data management](../category/DataManagement.html)
-
 When you are importing a file from one system to another, lots of
 little things can trip you up. Here's an example, and it shows a very
 subtle problem.
@@ -59,27 +55,4 @@ to another can have unintended consequences. Always do a quality check
 on your data after you import it to make sure that nothing funny is
 happening.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Another disaster averted (August 16,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DisasterAvertedA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

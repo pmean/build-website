@@ -1,7 +1,6 @@
 ---
 title: A simple example of a Kaplan-Meier curve
 author: Steve Simon
-source: http://www.pmean.com/08/SimpleKm-08.html
 date: 2008-01-24
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Survival analysis
 output: html_document
 ---
-**[StATS]:** **A simple example of a Kaplan-Meier
-curve (updated January 24, 2008)**.
-
 In response to a query, I wanted to write up a simple example of how to
 calculate survival probabilities when you have censored data. It is
 adapted from Chapter 6 of my book, [Statistical Evidence in Medical
@@ -161,33 +157,4 @@ probability is a little bit less than 25%.
 
 ![](http://www.pmean.com/images/images/08/SimpleKm-0805.gif)
 
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children's Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children's Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
-<!---More--->
-analysis](../category/SurvivalAnalysis.html).
-similar to this one at [Category: Survival
-help resources](../GeneralHelp.html). You can also browse for pages
-Hospital website. Need more information? I have a page with [general
-a service, as it is no longer available on the Children's Mercy
-do not hold the copyright for this material, I am reproducing it here as
-by Steve Simon while working at Children's Mercy Hospital. Although I
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-
-<!---Do not use
-**[StATS]:** **A simple example of a Kaplan-Meier
-[](http://creativecommons.org/licenses/by/3.0/us/) This page was written
-by Steve Simon while working at Children's Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children's Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/SimpleKM.html) of this page on my [original website](http://www.pmean.com/original_site.html).

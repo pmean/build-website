@@ -1,15 +1,13 @@
 ---
 title: How do you analyze safety data
 author: Steve Simon
-source: http://www.pmean.com/08/AnalyzeSafety-08.html
 date: 2008-01-22
-category: Blog post
-tags: Adverse events in clinical trials
+category:
+- Blog post
+tags:
+- Adverse events in clinical trials
 output: html_document
 ---
-**[StATS]: How do you analyze safety data (created
-2008-01-22)**.
-
 Someone on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 email discussion group asked about how to analyze adverse event data. He
 noted that adverse event data is not one of the primary or secondary
@@ -58,30 +56,4 @@ All of the above are just my opinions, of course, and I don\'t want to
 pretend that they are drawn from any consensus opinion among
 researchers.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: How do you analyze safety data (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/AnalyzeSafety.html) of this page on my [original website](http://www.pmean.com/original_site.html).

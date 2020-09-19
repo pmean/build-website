@@ -1,15 +1,13 @@
 ---
 title: A brief overview of instrumental variables
 author: Steve Simon
-source: http://www.pmean.com/08/InstrumentalVariables-08.html
 date: 2008-04-14
-category: Blog post
-tags: Unusual data
+category:
+- Blog post
+tags:
+- Unusual data
 output: html_document
 ---
-**[StATS]: A brief overview of instrumental
-variables (April 14, 2008)**.
-
 > People will often ask me questions that are outside my area of
 > expertise. Yes, I know you\'re shocked to hear this, but there are
 > lots of areas of statistics where I only have a vague understanding.
@@ -47,30 +45,4 @@ variables (April 14, 2008)**.
 > Kenny\'s webpage on [Instrumental Variable
 > Estimation](../category/InterestingWebsites.html#invaes).
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: A brief overview of instrumental
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/InstrumentalVariables.html) of this page on my [original website](http://www.pmean.com/original_site.html).

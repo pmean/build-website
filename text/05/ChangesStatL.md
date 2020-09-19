@@ -1,15 +1,13 @@
 ---
 title: Changes to STAT-L/sci.stat.consult
 author: Steve Simon
-source: http://www.pmean.com/05/ChangesStatL.html
 date: 2005-05-25
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
-**[StATS]: Changes to STAT-L/sci.stat.consult (May
-25, 2005).**
-
 Many years ago, I volunteered to develop a frequently asked questions
 (FAQ) list for the email discussion group, STAT-L. This list is hosted
 at McGill University and run under the capable leadership of Michael
@@ -55,30 +53,4 @@ ways you can do this.
 I have a backlog of work right now, but when that is done, I will update
 the FAQ and send it out again.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Changes to STAT-L/sci.stat.consult (May
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ChangesStatL.html) of this page on my [original website](http://www.pmean.com/original_site.html).

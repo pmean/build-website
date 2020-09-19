@@ -1,15 +1,13 @@
 ---
 title: Confidence intervals are needed to evaluate clinical importance
 author: Steve Simon
-source: http://www.pmean.com/05/ClinicalImportanceA.html
 date: 2005-12-15
-category: Blog post
-tags: Clinical importance
+category:
+- Blog post
+tags:
+- Clinical importance
 output: html_document
 ---
-**[StATS]: Confidence intervals are needed to
-evaluate clinical importance (created 2005-12-15)**.
-
 Back in March, I sent a letter to the American Journal of Psychiatry
 complaining about their failure to include confidence intervals in their
 published reports. The journal decided not to publish this letter, but
@@ -201,30 +199,4 @@ Here is the text of that letter:
 -   [Stats: Clinical importance (March
     11, 2005)](ClinicalImportance.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Clinical
-importance](../category/ClinicalImportance.html).
-<!---More--->
-importance](../category/ClinicalImportance.html).
-for pages similar to this one at [Category: Clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Confidence intervals are needed to
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Clinical
-importance](../category/ClinicalImportance.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ClinicalImportanceA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

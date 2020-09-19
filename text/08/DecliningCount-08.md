@@ -1,15 +1,13 @@
 ---
 title: Modeling a declining count variable
 author: Steve Simon
-source: http://www.pmean.com/08/DecliningCount-08.html
 date: 2008-06-14
-category: Blog post
-tags: Poisson regression
+category:
+- Blog post
+tags:
+- Poisson regression
 output: html_document
 ---
-**[StATS]:** **Modeling a declining count variable
-(created 2008-06-14)**.
-
 I\'ve been working on an interesting project that requires Poisson
 regression. A company sends out a mailing and gets a certain number of
 telephone calls back on each of the days following. The number of phone
@@ -114,30 +112,4 @@ you will not see any more events. There is still a reasonable chance
 (30%) that you will see one more event. It is unlikely (9% probability)
 that you will see 2 or more events.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-<!---More--->
-regression](../category/PoissonRegression.html).
-for pages similar to this one at [Category: Poisson
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Modeling a declining count variable
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/DecliningCount.html) of this page on my [original website](http://www.pmean.com/original_site.html).

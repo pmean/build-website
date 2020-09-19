@@ -1,15 +1,13 @@
 ---
 title: Placing consecutive dates in a column of an SPSS file
 author: Steve Simon
-source: http://www.pmean.com/05/ConsecutiveDates.html
 date: 2005-01-26
-category: Blog post
-tags: SPSS software
+category:
+- Blog post
+tags:
+- SPSS software
 output: html_document
 ---
-**[StATS]: Placing consecutive dates in a column of
-an SPSS file (January 26, 2005)**.
-
 Someone gave me a data set with 549 rows of data. The first row
 corresponded to observations on 06/01/2003, the second to 06/02/2003,
 and so forth through 11/30/2004. She wanted to know how to get those
@@ -55,30 +53,4 @@ Levesque\'s web site:
     Levesque R. Accessed on 2001-09-07.
     pages.infinit.net/rlevesqu/LearningSyntax.htm\#DateTutorial
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: SPSS
-software](../category/SpssSoftware.html).
-<!---More--->
-software](../category/SpssSoftware.html).
-for pages similar to this one at [Category: SPSS
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Placing consecutive dates in a column of
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: SPSS
-software](../category/SpssSoftware.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ConsecutiveDates.html) of this page on my [original website](http://www.pmean.com/original_site.html).

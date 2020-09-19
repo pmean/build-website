@@ -1,15 +1,13 @@
 ---
 title: What sort of statistical training is needed for basic scientists?
 author: Steve Simon
-source: http://www.pmean.com/08/BasicScientists-08.html
 date: 2008-03-29
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
-**[StATS]:** **What sort of statistical training is
-needed for basic scientists? (March 29, 2008)**.
-
 Someone wrote to a mailing list sponsored by the American Statistical
 Association asking about what resources to use in a statistics class
 aimed at basic scientists (as opposed to public health students and
@@ -50,30 +48,4 @@ It should place less emphasis on Epidemiology topics, such as
 case-control designs and risk adjustment models. Of course, you can\'t
 totally ignore Epi.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What sort of statistical training is
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/BasicScientists.html) of this page on my [original website](http://www.pmean.com/original_site.html).

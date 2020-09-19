@@ -1,15 +1,13 @@
 ---
 title: The Digital Object Identifier
 author: Steve Simon
-source: http://www.pmean.com/05/DigitalObjectIdentifier.html
 date: 2005-01-19
-category: Blog post
-tags: Information searching
+category:
+- Blog post
+tags:
+- Information searching
 output: html_document
 ---
-**[StATS]:** **The Digital Object Identifier
-(January 19, 2005)**
-
 Many journals are now using the Digital Object Identifier (DOI) to
 reference their publications.
 
@@ -87,30 +85,4 @@ so when I can find an easy way to import DOIs into my EndNote database.
     2000). Accessed on 2005-01-19.
     www.infotoday.com/searcher/nov00/grogg&tenopir.htm
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **The Digital Object Identifier
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/DigitalObjectIdentifier.html) of this page on my [original website](http://www.pmean.com/original_site.html).

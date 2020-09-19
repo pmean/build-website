@@ -1,7 +1,6 @@
 ---
 title: Too much power and precision?
 author: Steve Simon
-source: http://www.pmean.com/08/TooMuchPower-08.html
 date: 2008-01-09
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Sample size justification
 output: html_document
 ---
-**[StATS]: Too much power and precision? (January 9,
-2008)**.
-
 There was a discussion on EDSTAT-L about studies with too much power
 and precision. [You can indeed have too much power/precision, and here
 is a pragmatic example. I was asked to do an audit of records where we
@@ -67,30 +63,4 @@ where the incremental value of improved precision is offset by the
 direct and indirect costs of obtaining an additional patient. No one
 does it this way, but they should.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-for pages similar to this one at [Category: Sample size
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Too much power and precision? (January 9,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/TooMuchPower.html) of this page on my [original website](http://www.pmean.com/original_site.html).

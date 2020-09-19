@@ -1,15 +1,14 @@
 ---
 title: When a client asks for a bad analysis
 author: Steve Simon
-source: http://www.pmean.com/08/BadAnalysis-08.html
 date: 2008-03-24
-category: Blog post
-tags: Human side of statistics, Multiple comparisons
+category:
+- Blog post
+tags:
+- Human side of statistics
+- Multiple comparisons
 output: html_document
 ---
-**[StATS]: When a client asks for a bad analysis
-(March 24, 2008)**.
-
 I received an email from someone who was being asked to perform a
 subgroup analysis that is likely to produce confusing and
 counter-intuitive results. I was asked to help draft some language to
@@ -40,21 +39,4 @@ general tendency these days is to give the client what he/she wants. As
 long as they understand what they are getting, I don\'t see a problem
 with this.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html) or [Category: Multiple
-comparisons](../category/MultipleComparisons.html)
-
- 
-<!---More--->
- 
-
-<!---Do not use
-**[StATS]: When a client asks for a bad analysis
- 
---->
-
+You can find an [earlier version](http://www.pmean.com/08/BadAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -3,13 +3,12 @@ title: Publication in the ChanceWiki
 author: Steve Simon
 source: http://www.pmean.com/05/ChanceWiki.html
 date: 2005-08-02
-category: Blog post
-tags: Wiki pages
+category:
+- Blog post
+tags:
+- Wiki pages
 output: html_document
 ---
-**[StATS]: Publication in the ChanceWiki (August 2,
-2005)**.
-
 Chance News has changed recently to a Wiki format.
 
 > *Chance News reviews current issues in the news that use probability
@@ -49,30 +48,4 @@ course, could be as minor as fixing my spelling but it could go all the
 way to wholesale deletion of the entire article if the other
 contributors to ChanceWiki don\'t like it.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Wiki
-pages](../category/WikiPages.html)
-<!---More--->
-pages](../category/WikiPages.html)
-for pages similar to this one at [Category: Wiki
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Publication in the ChanceWiki (August 2,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Wiki
-pages](../category/WikiPages.html)
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ChanceWiki.html) of this page on my [original website](http://www.pmean.com/original_site.html).

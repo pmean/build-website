@@ -1,15 +1,13 @@
 ---
 title: Converting an odds ratio to a relative risk
 author: Steve Simon
-source: http://www.pmean.com/05/ConvertOddsRatio.html
 date: 2005-08-03
-category: Blog post
-tags: Measuring benefit and risk
+category:
+- Blog post
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
-**[StATS]:** **Converting an odds ratio to a
-relative risk (August 3, 2005)**.
-
 The odds ratio and the relative risk do not always agree, especially
 when the baseline risk level in the control group is large. I have a
 simple Excel spreadsheet that will calculate the relative risk from the
@@ -52,30 +50,4 @@ that rely on the relationship between the Poisson and Binomial
 distributions and between the Poisson distribution and the F
 distribution.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-risk](../category/MeasuringBenefitRisk.html).
-for pages similar to this one at [Category: Measuring benefit and
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Converting an odds ratio to a
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ConvertOddsRatio.html) of this page on my [original website](http://www.pmean.com/original_site.html).

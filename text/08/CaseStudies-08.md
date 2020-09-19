@@ -1,15 +1,13 @@
 ---
 title: Why we need case studies of research ethics in graphic novel format
 author: Steve Simon
-source: http://www.pmean.com/08/CaseStudies-08.html
 date: 2008-04-03
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
-**[StATS]:** **Why we need case studies of research
-ethics in graphic novel format (created 2008-04-03)**.
-
 I was asked to provide some justification for a project I am working on,
 case studies in research ethics using a graphic novel format. Here is
 what I wrote.
@@ -76,30 +74,4 @@ minimal, but there is potential to attract funding and produce a
 valuable product that has high demand and which would greatly enhance
 the visibility of CMH.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-<!---More--->
-research](../category/EthicsInResearch.html).
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Why we need case studies of research
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/CaseStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html).

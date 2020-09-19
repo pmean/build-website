@@ -1,15 +1,13 @@
 ---
 title: The difference between absolute risks and relative risks
 author: Steve Simon
-source: http://www.pmean.com/05/AbsoluteRisk.html
 date: 2005-07-15
-category: Blog post
-tags: Measuring benefit/risk
+category:
+- Blog post
+tags:
+- Measuring benefit/risk
 output: html_document
 ---
-**[StATS]: The difference between absolute risks and
-relative risks (created 2005-07-15).**
-
 There are two general ways to compare a treatment and a control group,
 relative comparisons and absolute comparisons. For a relative
 comparison, the basic computation is division. When the ratio A/B is
@@ -98,30 +96,4 @@ events being compared are relatively rare.
     Tunstall-Pedoe H. BMJ 2000: 320(7236); 723-. [\[Full
     text\]](http://bmj.com/cgi/content/full/320/7236/723)
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-benefit/risk](../category/MeasuringBenefitRisk.html).
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: The difference between absolute risks and
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-benefit/risk](../category/MeasuringBenefitRisk.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/AbsoluteRisk.html) of this page on my [original website](http://www.pmean.com/original_site.html).

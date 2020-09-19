@@ -1,7 +1,6 @@
 ---
 title: Contacting and working with me
 author: Steve Simon
-source: http://www.pmean.com/05/contact.html
 date: 2005-08-15
 categories:
 - Blog post
@@ -9,9 +8,6 @@ tags:
 - Professional details
 output: html_document
 ---
-**[StATS]:** **Contacting and working with me
-(created 2005-08-15).**
-
 This page is outdated, but I am keeping it because I am an electronic
 pack rat.
 
@@ -130,30 +126,4 @@ For any of these methods to work, you have to be connected to the CMH
 network, of course, and you have to have permission from me to access
 the particular folder.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Contacting and working with me
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/contact.html) of this page on my [original website](http://www.pmean.com/original_site.html).

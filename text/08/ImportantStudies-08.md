@@ -1,15 +1,13 @@
 ---
 title: Finding only the important studies
 author: Steve Simon
-source: http://www.pmean.com/08/ImportantStudies-08.html
 date: 2008-01-21
-category: Blog post
-tags: Systematic overviews
+category:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
-**[StATS]:** **Finding only the important studies
-(January 21, 2008)**.
-
 Someone wrote into the
 [MedStats](../category/InterestingWebsites.html#MeStXx) listserv asking
 about a process that they had chosen to select \"important\" articles in
@@ -70,30 +68,4 @@ I suspect, though, that there is no automated way to screen out
 unimportant studies from important studies, other than reading all the
 papers and making a subjective judgment yourself.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Finding only the important studies
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/ImportantStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html).

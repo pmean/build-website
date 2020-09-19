@@ -1,15 +1,13 @@
 ---
 title: More than 90% censored values
 author: Steve Simon
-source: http://www.pmean.com/05/CensoredValues.html
 date: 2005-04-22
-category: Blog post
-tags: Survival analysis
+category:
+- Blog post
+tags:
+- Survival analysis
 output: html_document
 ---
-**[StATS]:** **More than 90% censored values (April
-22, 2005).**
-
 Someone asked me about running a Cox proportional hazards regression
 model when over 90% of the observations were censored. That means (if
 the outcome of interest was death), that your research subjects did not
@@ -71,30 +69,4 @@ among patients. Some patients are more infection prone and are at
 greater risk of infection than other patients. The models that account
 for this source of heterogeneity are called frailty models.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
-<!---More--->
-analysis](../category/SurvivalAnalysis.html).
-for pages similar to this one at [Category: Survival
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **More than 90% censored values (April
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survival
-analysis](../category/SurvivalAnalysis.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/CensoredValues.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: What does one-third of the way through a study mean?
 author: Steve Simon
-source: http://www.pmean.com/08/OneThird-08.html
 date: 2008-04-06
-category: Blog post
-tags: Early stopping
+category:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
-**[StATS]: What does one-third of the way through a
-study mean? (April 6, 2008)**.
-
 Someone asked me a very good question regarding interim analysis. If the
 call for an interim analysis is specified as occurring one-third (and
 two-third) of the way through a study, what does that mean. In a study
@@ -35,20 +33,4 @@ Sometimes interim analyses for survival curves are defined using number
 of patients (or better still) the number of patients hours. Sometimes it
 can use the number of events, instead.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-
- 
-<!---More--->
- 
-
-<!---Do not use
-**[StATS]: What does one-third of the way through a
- 
---->
-
+You can find an [earlier version](http://www.pmean.com/08/OneThird.html) of this page on my [original website](http://www.pmean.com/original_site.html).

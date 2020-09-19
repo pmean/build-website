@@ -1,14 +1,11 @@
 ---
 title: Type III error
 author: Steve Simon
-source: http://www.pmean.com/08/TypeIII-08.html
 date: 2008-01-03
 category: Blog post
 tags: Hypothesis testing
 output: html_document
 ---
-**[StATS]:** **Type III error (January 3, 2008)**.
-
 > *Dear Professor Mean, What is the definition of a Type III error?*
 >
 > A Type III error is the belief that there are three types of errors in
@@ -26,30 +23,4 @@ output: html_document
 > I and type II errors](../category/InterestingWebsites.html#Type01)
 > (see section 6).
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
-<!---More--->
-testing](../category/HypothesisTesting.html).
-for pages similar to this one at [Category: Hypothesis
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Type III error (January 3, 2008)**.
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Hypothesis
-testing](../category/HypothesisTesting.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/TypeIII.html) of this page on my [original website](http://www.pmean.com/original_site.html).

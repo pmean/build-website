@@ -1,15 +1,13 @@
 ---
 title: Taking charges of conflicting interest too far
 author: Steve Simon
-source: http://www.pmean.com/05/ConflictInterestA.html
 date: 2005-06-04
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
-**[StATS]:** **Taking charges of conflicting
-interest too far (June 4, 2005)**.
-
 You should always be aware of potential conflicts of interest. Sometimes
 researchers allow a financial incentive to influence their research and
 end up skewing  the data to achieve a particular outcome.
@@ -80,30 +78,4 @@ supervise the results of the test rather than cede control to a
     Quack?](http://www.quackwatch.org/11Ind/browne.html%20)**. Farha B.
     Accessed on 2005-06-06. www.quackwatch.org/11Ind/browne.html
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Taking charges of conflicting
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/ConflictInterestA.html) of this page on my [original website](http://www.pmean.com/original_site.html).

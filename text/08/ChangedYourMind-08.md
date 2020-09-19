@@ -1,15 +1,13 @@
 ---
 title: What have you changed your mind about
 author: Steve Simon
-source: http://www.pmean.com/08/ChangedYourMind-08.html
 date: 2008-01-18
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
-**[StATS]:** **What have you changed your mind about
-(January 18, 2008)**.
-
 A group called The Edge (www.edge.org) asks a question each year of
 prominent scientists and a few select non-scientists. This group
 represents  from a broad range of backgrounds and disciplines and
@@ -48,30 +46,4 @@ assumptions of normality are met). I believe that scientists are
 sophisticated enough to understand rules of evidence and to apply them
 fairly in the absence of statistical input.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What have you changed your mind about
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/08/ChangedYourMind.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -1,15 +1,13 @@
 ---
 title: Testing baseline imbalance in a randomized study
 author: Steve Simon
-source: http://www.pmean.com/05/BaselineImbalance.html
 date: 2005-01-19
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
-**[StATS]:** **Testing baseline imbalance in a
-randomized study (January 19, 2005)**.
-
 Randomization will roughly balance out the covariates between the
 treatment group and the control group because of the law of large
 numbers. Once in a while, though, an important amount of covariate
@@ -150,30 +148,4 @@ So a test of significance is only appropriate if you think there was a
 flaw with the randomization process, such as a physician\'s attempt to
 subvert the randomization of the study.
 
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-<!---More--->
-adjustment](../category/CovariateAdjustment.html).
-for pages similar to this one at [Category: Covariate
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Testing baseline imbalance in a
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/05/BaselineImbalance.html) of this page on my [original website](http://www.pmean.com/original_site.html).
