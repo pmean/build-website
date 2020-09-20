@@ -3,7 +3,7 @@ title: Taguchi methods
 author: Steve Simon
 source: http://www.pmean.com/05/TaguchiMethods.html
 date: 2005-02-22
-category:
+categories:
 - Blog post
 tags:
 - Quality control

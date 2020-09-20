@@ -3,7 +3,7 @@ title: Manipulation of peer-review publications by pharmaceutical companies
 author: Steve Simon
 source: http://www.pmean.com/06/ManipulationPeerReview-06.html
 date: 2006-11-21
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

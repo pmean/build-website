@@ -3,7 +3,7 @@ title: Technical Articles and Reports by David Heiser
 author: Steve Simon
 source: http://www.pmean.com/06/HeiserWebpages.html
 date: 2006-11-07
-category:
+categories:
 - Blog post
 tags:
 - Websites

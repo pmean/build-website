@@ -3,7 +3,7 @@ title: Does promoting your book constitute a conflict of interest?
 author: Steve Simon
 source: http://www.pmean.com/07/PromotingYourBook.html
 date: 2007-08-13
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest
@@ -89,7 +89,7 @@ output: html_document
 > products. I have also received honoraria from various local hospitals
 > that I have given talks to.
 >
-> I would argue that none of the potential conflicts of interestÂ 
+> I would argue that none of the potential conflicts of interest 
 > represented in the bulleted list above represent a conflict of
 > interest that is reportable in any CME event that I might participate
 > in. The reason is that none of my talks promotes a particular drug,

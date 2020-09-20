@@ -3,7 +3,7 @@ title: What\'s New in SPSS version 14.0
 author: Steve Simon
 source: http://www.pmean.com/05/SPSSversion14.html
 date: 2005-08-17
-category:
+categories:
 - Blog post
 tags:
 - SPSS software

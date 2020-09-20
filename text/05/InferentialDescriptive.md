@@ -2,7 +2,7 @@
 title: Inferential and descriptive statistics
 author: Steve Simon
 date: 2005-03-24
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

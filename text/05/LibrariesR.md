@@ -3,7 +3,7 @@ title: Two nice R libraries
 author: Steve Simon
 source: http://www.pmean.com/05/LibrariesR.html
 date: 2005-10-14
-category:
+categories:
 - Blog post
 tags:
 - R software

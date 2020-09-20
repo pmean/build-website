@@ -2,7 +2,7 @@
 title: Group Sequential Monitoring of Clinical Trials in R
 author: Steve Simon
 date: 2005-12-13
-category:
+categories:
 - Blog post
 tags:
 - Early stopping

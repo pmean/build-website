@@ -2,7 +2,7 @@
 title: What is a critical value?
 author: Steve Simon
 date: 2008-02-22
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

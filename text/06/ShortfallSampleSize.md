@@ -3,7 +3,7 @@ title: Is a 10% shortfall in sample size critical?
 author: Steve Simon
 source: http://www.pmean.com/06/ShortfallSampleSize.html
 date: 2006-10-23
-category:
+categories:
 - Blog post
 tags:
 - Confidence intervals

@@ -2,7 +2,7 @@
 title: Acuity microarray analysis software.
 author: Steve Simon
 date: 2004-05-06
-category:
+categories:
 - Blog post
 tags:
 - Data mining
@@ -21,7 +21,7 @@ output: html_document
 >     Corporation](http://www.insightful.com/products/s-plus_arrayanalyzer/default.asp),
 > -   [Microarray Solution](http://www.sas.com/industry/pharma/mas/)
 >     from [SAS Corporation](http://www.sas.com/index.html),
-> -   [GeneSpring](http://www.silicongenetics.com/cgi/SiG.cgi/Products/GeneSpring/index.smf)Â 
+> -   [GeneSpring](http://www.silicongenetics.com/cgi/SiG.cgi/Products/GeneSpring/index.smf) 
 >     from [Silicon
 >     Genetics](http://www.silicongenetics.com/cgi/SiG.cgi/index.smf),
 >     and
@@ -51,7 +51,7 @@ output: html_document
 > Bioconductor](http://www.bioconductor.org/labmat.html) that are better
 > written than mine. In particular, the \"[Overview of R and
 > Bioconductor](http://www.bioconductor.org/labMat/pdf/RandBioC.pdf)\"
-> handoutÂ  in PDF format is a nice place to start.
+> handout  in PDF format is a nice place to start.
 >
 > R (and Bioconductor) is an [object oriented
 > language](http://en.wikipedia.org/wiki/Object_oriented), which makes

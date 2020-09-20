@@ -2,7 +2,7 @@
 title: The costs of a false positive test
 author: Steve Simon
 date: 2005-03-01
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

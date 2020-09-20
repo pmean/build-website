@@ -3,7 +3,7 @@ title: When are two events worrisome?
 author: Steve Simon
 source: http://www.pmean.com/06/TwoEventsWorrisome.html
 date: 2006-12-04
-category:
+categories:
 - Blog post
 tags:
 - Early stopping

@@ -2,7 +2,7 @@
 title: Excluding placebo responders
 author: Steve Simon
 date: 2004-06-25
-category:
+categories:
 - Blog post
 tags:
 - Exclusions in research

@@ -3,7 +3,7 @@ title: Propensity scores
 author: Steve Simon
 source: http://www.pmean.com/06/PropensityScores.html
 date: 2006-03-10
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

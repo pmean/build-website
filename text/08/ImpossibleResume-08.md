@@ -2,7 +2,7 @@
 title: Why it\'s impossible to keep a resume current
 author: Steve Simon
 date: 2008-06-05
-category:
+categories:
 - Blog post
 tags:
 - Professional details
@@ -38,7 +38,7 @@ Apparently, I am a great photographer.
 > on the 25-year chronicle of the HIV-AIDS pandemic.\"*
 > [www.stevesimonphoto.com/](http://www.stevesimonphoto.com/)
 
-Â I\'m also a wonderful painter.
+ I\'m also a wonderful painter.
 
 > *\"Steve Simon - Painting the Spirit of Beautiful Places\"*
 > [www.stevesimon.com/](http://www.stevesimon.com/)

@@ -3,7 +3,7 @@ title: Articles on Bayesian data analysis
 author: Steve Simon
 source: http://www.pmean.com/06/BayesianAnalysis.html
 date: 2006-03-30
-category:
+categories:
 - Blog post
 tags:
 - Bayesian statistics

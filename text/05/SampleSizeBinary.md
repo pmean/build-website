@@ -3,7 +3,7 @@ title: Sample size for a binary endpoint
 author: Steve Simon
 source: http://www.pmean.com/05/SampleSizeBinary.html
 date: 2005-08-12
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

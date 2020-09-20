@@ -3,7 +3,7 @@ title: Which expert should you believe?
 author: Steve Simon
 source: http://www.pmean.com/07/WhichExpert.html
 date: 2007-08-03
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

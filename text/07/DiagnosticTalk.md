@@ -3,7 +3,7 @@ title: Use of diagnostic tests for making clinical decisions
 author: Steve Simon
 source: http://www.pmean.com/07/DiagnosticTalk.html
 date: 2007-06-15
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing
@@ -43,7 +43,7 @@ case-control design, but with more careful sampling from the overall
 population. Phase 3 is a retrospective attempt to refine the test. One
 refinement is to develop criteria for determining when the test is
 positive. Another refinement is examination of covariates that can
-affect the performance of the test.Â  Studies in this phase may also
+affect the performance of the test.  Studies in this phase may also
 compare competing tests and develop a recommended sequence of applying
 multiple tests. Phase 4 is prospective attempt to validate the test in a
 more realistic setting. This phase uses a prospective cohort and is able

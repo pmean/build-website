@@ -3,7 +3,7 @@ title: A simple trick in R
 author: Steve Simon
 source: http://www.pmean.com/05/TrickR.html
 date: 2005-10-11
-category:
+categories:
 - Blog post
 tags:
 - R software

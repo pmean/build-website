@@ -3,7 +3,7 @@ title: Adjusting a variable for age and sex
 author: Steve Simon
 source: http://www.pmean.com/06/AdjustingForAgeAndSex.html
 date: 2006-10-26
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

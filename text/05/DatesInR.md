@@ -2,7 +2,7 @@
 title: Dates in Excel and R
 author: Steve Simon
 date: 2005-08-10
-category:
+categories:
 - Blog post
 tags:
 - R software

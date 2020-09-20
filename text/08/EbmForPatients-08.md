@@ -2,7 +2,7 @@
 title: Evidence Based Medicine for patients
 author: Steve Simon
 date: 2008-04-23
-category:
+categories:
 - Blog post
 tags:
 - Information searching

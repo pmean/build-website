@@ -3,7 +3,7 @@ title: Randomly dividing a dataset in R
 author: Steve Simon
 source: http://www.pmean.com/07/RandomlyDividingData.html
 date: 2007-03-16
-category:
+categories:
 - Blog post
 tags:
 - R software

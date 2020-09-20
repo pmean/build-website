@@ -3,7 +3,7 @@ title: Review of statistical methods in The New England Journal of Medicine and 
 author: Steve Simon
 source: http://www.pmean.com/07/ReviewStatisticalMethods.html
 date: 2007-03-05
-category:
+categories:
 - Blog post
 tags:
 - Human side of Statistics 

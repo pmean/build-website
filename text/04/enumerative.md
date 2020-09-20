@@ -2,7 +2,7 @@
 title: Enumerative and Analytic Studies
 author: Steve Simon
 date: 2004-02-05
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

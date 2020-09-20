@@ -2,7 +2,7 @@
 title: Research on therapies that have no known mechanism of action
 author: Steve Simon
 date: 2004-11-04
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

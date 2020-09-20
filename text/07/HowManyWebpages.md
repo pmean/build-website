@@ -3,10 +3,10 @@ title: How many webpages have I written?
 author: Steve Simon
 source: http://www.pmean.com/07/HowManyWebpages.html
 date: 2007-09-14
-category:
+categories:
 - Blog post
 tags:
-- Administrative details
+- Blog post
 output: html_document
 ---
 > I wanted to get a rough count of the number of web pages that I have

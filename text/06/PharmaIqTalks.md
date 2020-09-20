@@ -3,7 +3,7 @@ title: Two talks for PharmaIQ
 author: Steve Simon
 source: http://www.pmean.com/06/PharmaIqTalks.html
 date: 2006-09-19
-category:
+categories:
 - Blog post
 tags:
 - Children in research

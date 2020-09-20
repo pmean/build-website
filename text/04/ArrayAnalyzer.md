@@ -2,7 +2,7 @@
 title: S+ArrayAnalyzer web seminar
 author: Steve Simon
 date: 2004-06-22
-category:
+categories:
 - Blog post
 tags:
 - Data mining

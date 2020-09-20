@@ -2,7 +2,7 @@
 title: Conflict of interest
 author: Steve Simon
 date: 2004-07-20
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest

@@ -2,7 +2,7 @@
 title: Multiple methods for computing percentiles
 author: Steve Simon
 date: 2008-02-13
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

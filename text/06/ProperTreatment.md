@@ -2,7 +2,7 @@
 title: Proper treatment will cure a cold in seven days, but ...
 author: Steve Simon
 date: 2006-03-29
-category:
+categories:
 - Quotations
 tags:
 - Evidence Based Medicine

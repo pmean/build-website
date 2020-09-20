@@ -2,7 +2,7 @@
 title: Focus groups and qualitative research
 author: Steve Simon
 date: 2004-04-13
-category:
+categories:
 - Blog post
 tags:
 - Qualitative data analysis

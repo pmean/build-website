@@ -1,10 +1,10 @@
 ---
-title: "Quote: Did you hear about the mathematician..."
+title: "Did you hear about the mathematician..."
 author: "Steve Simon"
 source: "http://blog.pmean.com/negative-numers/"
 date: "2019-03-08"
 categories:
-- Quote
+- Quotations
 tags:
 - 
 output: html_document

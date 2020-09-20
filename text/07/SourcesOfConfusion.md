@@ -3,7 +3,7 @@ title: Common sources of confusion in a class on quality control
 author: Steve Simon
 source: http://www.pmean.com/07/SourcesOfConfusion.html
 date: 2007-08-22
-category:
+categories:
 - Blog post
 tags:
 - Control charts

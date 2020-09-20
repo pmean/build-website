@@ -2,10 +2,10 @@
 title: Bluejacket Toastmasters speech
 author: Steve Simon
 date: 2004-07-15
-category:
+categories:
 - Blog post
 tags:
-- Presenting research data
+- Presenting research
 output: html_document
 ---
 > This is the text of a talk I gave to Bluejacket Toastmasters on July

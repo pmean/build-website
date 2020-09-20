@@ -3,7 +3,7 @@ title: How good is my prediction?
 author: Steve Simon
 source: http://www.pmean.com/07/HowGood.html
 date: 2007-08-13
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

@@ -2,7 +2,7 @@
 title: You have to make a distinction between the science and the technological applications ...
 author: Steve Simon
 date: 2005-05-16
-category:
+categories:
 - Quotations
 tags:
 - Theory versus practice

@@ -3,7 +3,7 @@ title: Where can you find interesting case studies in Statistics?
 author: Steve Simon
 source: http://www.pmean.com/07/InterestingCaseStudies.html
 date: 2007-05-02
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

@@ -2,7 +2,7 @@
 title: Information theory and microarrays
 author: Steve Simon
 date: 2005-06-01
-category:
+categories:
 - Blog post
 tags:
 - Information theory

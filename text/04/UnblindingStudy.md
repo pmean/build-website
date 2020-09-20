@@ -2,7 +2,7 @@
 title: Unblinding at the end of a study
 author: Steve Simon
 date: 2004-11-01
-category:
+categories:
 - Blog post
 tags:
 - Blinding in research

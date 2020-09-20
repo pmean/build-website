@@ -3,7 +3,7 @@ title: Classic references in evidence based medicine
 author: Steve Simon
 source: http://www.pmean.com/07/ClassicReferencesForEbm.html
 date: 2007-05-16
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

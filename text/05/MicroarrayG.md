@@ -3,7 +3,7 @@ title: RMA normalization of microarrays
 author: Steve Simon
 source: http://www.pmean.com/05/MicroarrayG.html
 date: 2005-10-24
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 

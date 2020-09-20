@@ -3,7 +3,7 @@ title: What is construct validity?
 author: Steve Simon
 source: http://www.pmean.com/06/ConstructValidity.html
 date: 2006-03-08
-category:
+categories:
 - Blog post
 tags:
 - Measuring agreement

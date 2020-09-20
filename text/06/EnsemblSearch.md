@@ -3,7 +3,7 @@ title: An Ensembl search
 author: Steve Simon
 source: http://www.pmean.com/06/EnsemblSearch.html
 date: 2006-02-01
-category:
+categories:
 - Blog post
 tags:
 output: html_document

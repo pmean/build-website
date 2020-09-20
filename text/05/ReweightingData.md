@@ -3,7 +3,7 @@ title: Re-weighting the data
 author: Steve Simon
 source: http://www.pmean.com/05/ReweightingData.html
 date: 2005-01-25
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

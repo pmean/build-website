@@ -2,7 +2,7 @@
 title: The post-modern assault on evidence-based medicine, part 3
 author: Steve Simon
 date: 2008-01-07
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

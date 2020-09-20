@@ -2,7 +2,7 @@
 title: Sackettisation, the artificial linkage ...
 author: Steve Simon
 date: 2005-02-21
-category:
+categories:
 - Quotations
 tags:
 - Evidence Based Medicine

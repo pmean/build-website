@@ -3,7 +3,7 @@ title: Handout for diagnostic testing
 author: Steve Simon
 source: http://www.pmean.com/07/DiagnosticHandout.html
 date: 2007-11-06
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

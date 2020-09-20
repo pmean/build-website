@@ -2,7 +2,7 @@
 title: Adjusting for a baseline measurement
 author: Steve Simon
 date: 2005-02-28
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

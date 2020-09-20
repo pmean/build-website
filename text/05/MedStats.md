@@ -2,7 +2,7 @@
 title: MedStats discussion group
 author: Steve Simon
 date: 2005-04-25
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources
@@ -23,7 +23,7 @@ distributed by email. Or they were based on
 monitor the discussion groups. More recently, Yahoo, Google, and others
 have developed web based systems that allow you to view the content of a
 discussion group on the web, or you could have the contents delivered to
-you by email.Â  More details about google groups appears at
+you by email.  More details about google groups appears at
 [groups-beta.google.com/googlegroups/tour/index.html](http://groups-beta.google.com/googlegroups/tour/index.html).
 Information about Yahoo! Groups is at
 [groups.yahoo.com/](http://groups.yahoo.com/).

@@ -2,7 +2,7 @@
 title: Unnecessary diagnostic tests
 author: Steve Simon
 date: 2004-10-25
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

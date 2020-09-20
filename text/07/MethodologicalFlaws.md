@@ -3,7 +3,7 @@ title: IRB review of studies with methodological flaws
 author: Steve Simon
 source: http://www.pmean.com/07/MethodologicalFlaws.html
 date: 2007-04-10
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

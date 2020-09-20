@@ -3,7 +3,7 @@ title: Reporting data analysis on transformed data
 author: Steve Simon
 source: http://www.pmean.com/07/ReportingTransformedData.html
 date: 2007-03-28
-category:
+categories:
 - Blog post
 tags:
 - Statistical modeling 

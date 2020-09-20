@@ -3,7 +3,7 @@ title: When should you worry about recall bias?
 author: Steve Simon
 source: http://www.pmean.com/06/RecallBias.html
 date: 2006-08-03
-category:
+categories:
 - Blog post
 tags:
 output: html_document

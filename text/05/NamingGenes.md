@@ -3,7 +3,7 @@ title: Naming conventions for genes, proteins, etc.
 author: Steve Simon
 source: http://www.pmean.com/05/NamingGenes.html
 date: 2005-09-08
-category:
+categories:
 - Blog post
 tags:
 output: html_document

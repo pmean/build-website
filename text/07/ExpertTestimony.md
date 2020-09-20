@@ -3,7 +3,7 @@ title: The danger of providing expert testimony when you are not an expert
 author: Steve Simon
 source: http://www.pmean.com/07/ExpertTestimony.html
 date: 2007-01-31
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

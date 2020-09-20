@@ -3,7 +3,7 @@ title: Accrual grant, Round 3
 author: Steve Simon
 source: http://www.pmean.com/07/AccrualGrantRound3.html
 date: 2007-08-21
-category:
+categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials

@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: 2020-08-14
 categories:
-- Recommended
+- Recommendation
 tags:
 - Human side of statistics
 output: html_document

@@ -2,10 +2,10 @@
 title: The difference between absolute risks and relative risks
 author: Steve Simon
 date: 2005-07-15
-category:
+categories:
 - Blog post
 tags:
-- Measuring benefit/risk
+- Measuring benefit and risk
 output: html_document
 ---
 There are two general ways to compare a treatment and a control group,

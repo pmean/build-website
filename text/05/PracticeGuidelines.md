@@ -3,7 +3,7 @@ title: Developing good practice guidelines
 author: Steve Simon
 source: http://www.pmean.com/05/PracticeGuidelines.html
 date: 2005-02-18
-category:
+categories:
 - Blog post
 tags:
 - Teaching Resources

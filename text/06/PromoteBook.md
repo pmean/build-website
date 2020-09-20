@@ -3,7 +3,7 @@ title: Using a web site to promote your book
 author: Steve Simon
 source: http://www.pmean.com/06/PromoteBook.html
 date: 2006-05-10
-category:
+categories:
 - Blog post
 tags:
 - Statistical evidence

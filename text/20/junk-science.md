@@ -3,7 +3,7 @@ title: "Constructing sound science and good epidemiology: tobacco, lawyers, and 
 source: "New"
 date: "2020-05-24"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Observational studies
 output: html_document

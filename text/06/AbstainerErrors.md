@@ -3,7 +3,7 @@ title: Abstainer errors in study of alcohol abuse
 author: Steve Simon
 source: http://www.pmean.com/06/AbstainerErrors.html
 date: 2006-04-19
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

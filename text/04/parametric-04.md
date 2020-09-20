@@ -2,7 +2,7 @@
 title: Parametric versus nonparametric tests
 author: Steve Simon
 date: 2004-03-09
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

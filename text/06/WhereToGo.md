@@ -3,7 +3,7 @@ title: Where to go, where to go
 author: Steve Simon
 source: http://www.pmean.com/06/WhereToGo.html
 date: 2006-01-11
-category:
+categories:
 - Blog post
 tags:
 - Professional details

@@ -3,7 +3,7 @@ title: Moderator variables
 author: Steve Simon
 source: http://www.pmean.com/05/ModeratorVariable.html
 date: 2005-02-15
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

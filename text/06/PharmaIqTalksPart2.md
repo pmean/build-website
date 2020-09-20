@@ -3,7 +3,7 @@ title: PharmaIQ talks
 author: Steve Simon
 source: http://www.pmean.com/06/PharmaIqTalksPart2.html
 date: 2006-12-06
-category:
+categories:
 - Blog post
 tags:
 - Data mining

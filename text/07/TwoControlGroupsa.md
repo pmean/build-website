@@ -3,7 +3,7 @@ title: How two bad control groups can add up to one good comparison
 author: Steve Simon
 source: http://www.pmean.com/07/TwoControlGroups.html
 date: 2007-06-28
-category:
+categories:
 - Blog post
 tags:
 - Observational studies
@@ -97,7 +97,7 @@ output: html_document
 >
 > But wait, how can Pennsylvania be both an apple and and orange? We
 > know that if the comparison PA-NJ has a positive bias, then NJ-PA must
-> have a negative bias.Â  If PA-NJ has a negative bias, then NJ-PA must
+> have a negative bias.  If PA-NJ has a negative bias, then NJ-PA must
 > have a positive bias. If we see the same trivial change in
 > unemployment when the study is positively biased as when the study is
 > negatively biased, we know that the biases are not large enough to

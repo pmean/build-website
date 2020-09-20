@@ -3,7 +3,7 @@ title: Poisson regression? Maybe not!
 author: Steve Simon
 source: http://www.pmean.com/06/PoissonRegression-06.html
 date: 2006-03-10
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression

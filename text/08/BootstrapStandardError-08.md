@@ -2,7 +2,7 @@
 title: Bootstrap estimates of the standard error
 author: Steve Simon
 date: 2008-06-20
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

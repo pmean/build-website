@@ -3,10 +3,10 @@ title: Odds ratios less than one
 author: Steve Simon
 source: http://www.pmean.com/05/OddsRatios.html
 date: 2005-01-06
-category:
+categories:
 - Blog post
 tags:
-- Measuring benefit/risk
+- Measuring benefit and risk
 output: html_document
 ---
 **[StATS]:** **Odds ratios less than one (January 6,

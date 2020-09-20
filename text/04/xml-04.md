@@ -2,7 +2,7 @@
 title: The impact of XML on Statistics
 author: Steve Simon
 date: 2004-06-23
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

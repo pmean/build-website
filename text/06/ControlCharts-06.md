@@ -3,7 +3,7 @@ title: Learning more about control charts
 author: Steve Simon
 source: http://www.pmean.com/06/ControlCharts-06.html
 date: 2006-02-01
-category:
+categories:
 - Blog post
 tags:
 - Control charts

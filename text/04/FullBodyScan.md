@@ -2,7 +2,7 @@
 title: Full-Body Computed Tomography Screening
 author: Steve Simon
 date: 2004-09-06
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

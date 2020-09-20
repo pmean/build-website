@@ -2,7 +2,7 @@
 title: Monte Carlo methods
 author: Steve Simon
 date: 2004-05-31
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

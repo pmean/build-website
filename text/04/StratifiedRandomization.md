@@ -2,10 +2,10 @@
 title: Stratified randomization
 author: Steve Simon
 date: 2004-08-24
-category:
+categories:
 - Blog post
 tags:
-- Randomization in research
+- Randomization
 output: html_document
 ---
 A writer on the [IRB Discussion Forum](http://www.irbforum.org/) asked a

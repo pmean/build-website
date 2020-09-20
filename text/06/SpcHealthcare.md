@@ -3,7 +3,7 @@ title: Resources for the use of Statistical Process Control in Healthcare
 author: Steve Simon
 source: http://www.pmean.com/06/SpcHealthcare.html
 date: 2006-09-15
-category:
+categories:
 - Blog post
 tags:
 - Quality control

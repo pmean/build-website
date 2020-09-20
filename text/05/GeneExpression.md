@@ -2,7 +2,7 @@
 title: Analysis of Gene Expression Data Short Course
 author: Steve Simon
 date: 2005-07-26
-category:
+categories:
 - Blog post
 tags:
 - Gene expression

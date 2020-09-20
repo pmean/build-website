@@ -2,7 +2,7 @@
 title: Taking charges of conflicting interest too far
 author: Steve Simon
 date: 2005-06-04
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest
@@ -10,7 +10,7 @@ output: html_document
 ---
 You should always be aware of potential conflicts of interest. Sometimes
 researchers allow a financial incentive to influence their research and
-end up skewingÂ  the data to achieve a particular outcome.
+end up skewing  the data to achieve a particular outcome.
 
 Does having a commercial interest in the results of a drug trial cause a
 problem for the people running the trial? If it does, then much of the

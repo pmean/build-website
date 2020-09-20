@@ -3,7 +3,7 @@ title: Html debris copied from other websites
 author: Steve Simon
 source: http://www.pmean.com/07/HtmlDebris.html
 date: 2007-09-27
-category:
+categories:
 - Blog post
 tags:
 - Website details

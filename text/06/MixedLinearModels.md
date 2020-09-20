@@ -6,7 +6,7 @@ date: 2006-10-18
 categories:
 - Blog post
 tags:
-- Mixed linear model
+- Multilevel models
 output: html_document
 ---
 **[StATS]:** **A simple example of a mixed linear

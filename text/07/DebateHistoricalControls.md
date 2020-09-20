@@ -3,7 +3,7 @@ title: The debate about historical control groups
 author: Steve Simon
 source: http://www.pmean.com/07/DebateHistoricalControls.html
 date: 2007-06-27
-category:
+categories:
 - Blog post
 tags:
 - Observational studies

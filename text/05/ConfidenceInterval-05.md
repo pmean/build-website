@@ -2,7 +2,7 @@
 title: Where is the confidence interval?
 author: Steve Simon
 date: 2005-03-31
-category:
+categories:
 - Blog post
 tags:
 - Clinical importance

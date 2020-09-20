@@ -5,7 +5,7 @@ date: 2000-08-22
 categories:
 - Blog post
 tags:
-- Randomization in research
+- Randomization
 output: html_document
 ---
 *Dear Professor Mean, I'm running an experiment where I randomize by

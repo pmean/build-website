@@ -3,7 +3,7 @@ title: Relationship between sample size and p-values
 author: Steve Simon
 source: http://www.pmean.com/05/SampleSize-05.html
 date: 2005-02-14
-category:
+categories:
 - Blog post
 tags:
 - Pvalues

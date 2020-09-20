@@ -2,7 +2,7 @@
 title: Steps in a typical equivalence data analysis
 author: Steve Simon
 date: 2003-11-27
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing 

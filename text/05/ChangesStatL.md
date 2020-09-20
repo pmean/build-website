@@ -2,7 +2,7 @@
 title: Changes to STAT-L/sci.stat.consult
 author: Steve Simon
 date: 2005-05-25
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources
@@ -13,7 +13,7 @@ Many years ago, I volunteered to develop a frequently asked questions
 at McGill University and run under the capable leadership of Michael
 Walsh. You can find the FAQ at either
 
--   [www-personal.umich.edu/\~dronis/statfaq.htm](http://www-personal.umich.edu/~dronis/statfaq.htm)Â 
+-   [www-personal.umich.edu/\~dronis/statfaq.htm](http://www-personal.umich.edu/~dronis/statfaq.htm) 
     or
 -   [www.childrensmercy.org/stats/faq.asp](http://www.childrensmercy.org/stats/faq.asp)
 

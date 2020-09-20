@@ -2,7 +2,7 @@
 title: Case cohort design
 author: Steve Simon
 date: 2005-08-11
-category:
+categories:
 - Blog post
 tags:
 - Observational studies

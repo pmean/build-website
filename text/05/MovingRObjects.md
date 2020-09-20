@@ -3,7 +3,7 @@ title: Moving R objects
 author: Steve Simon
 source: http://www.pmean.com/05/MovingRObjects.html
 date: 2005-07-28
-category:
+categories:
 - Blog post
 tags:
 - Data management

@@ -3,7 +3,7 @@ title: Free statistics software
 author: Steve Simon
 source: http://www.pmean.com/05/StatisticsSoftware.html
 date: 2005-09-15
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

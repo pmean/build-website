@@ -2,7 +2,7 @@
 title: Meta-analysis talk
 author: Steve Simon
 date: 2005-05-02
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

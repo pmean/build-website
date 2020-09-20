@@ -2,7 +2,7 @@
 title: What sort of statistical training is needed for basic scientists?
 author: Steve Simon
 date: 2008-03-29
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

@@ -3,7 +3,7 @@ title: More on the Emily Rosa experiment
 author: Steve Simon
 source: http://www.pmean.com/06/EmilyRosaExperiment.html
 date: 2006-03-10
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

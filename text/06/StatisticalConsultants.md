@@ -3,7 +3,7 @@ title: Should/Can Statistical Consultants, be Independent?
 author: Steve Simon
 source: http://www.pmean.com/06/StatisticalConsultants.html
 date: 2006-12-14
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

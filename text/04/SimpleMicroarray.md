@@ -2,7 +2,7 @@
 title: A simple microarray experiment
 author: Steve Simon
 date: 2004-09-21
-category:
+categories:
 - Blog post
 tags:
 - Data mining
@@ -13,19 +13,19 @@ output: html_document
 > through Exp.8). The microarray has 96 genes, as well as some
 > housekeeping genes
 >
-> `Â Â Â  PositionÂ Â  UniGeneÂ  Genebank Symbol`
+> `    Position   UniGene  Genebank Symbol`
 >
-> `97Â Â Â Â Â Â Â  97Â Â Â Â Â Â          N/AÂ Â  L08752Â Â  PUC18`
+> `97        97               N/A   L08752   PUC18`
 >
-> `98Â Â Â Â Â Â  100Â Â Â Â  BlankÂ Â Â Â          BlankÂ  Blank`
+> `98       100     Blank             Blank  Blank`
 >
-> `99Â Â Â Â Â Â  103Â Â  Mm.5289Â Â Â          M32599Â Â  Gapd`
+> `99       103   Mm.5289            M32599   Gapd`
 >
-> `100Â Â Â Â Â  105Â Â  Mm.5246 NM_008907Â Â  Ppia`
+> `100      105   Mm.5246 NM_008907   Ppia`
 >
-> `101Â Â Â Â Â  109Â  Mm.13020 NM_009438 Rpl13a`
+> `101      109  Mm.13020 NM_009438 Rpl13a`
 >
-> `102Â Â Â Â Â  111 Mm.195066Â Â Â  M12481Â Â          ActbÂ Â Â Â Â  `
+> `102      111 Mm.195066    M12481           Actb      `
 >
 > To read this data into R, I first created a comma separated value file
 > from Excel. Then I used the read.csv() command in R to create a data

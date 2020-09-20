@@ -2,7 +2,7 @@
 title: Counterpoint on Google Scholar
 author: Steve Simon
 date: 2005-07-19
-category:
+categories:
 - Blog post
 tags:
 - Information searching
@@ -22,7 +22,7 @@ resources, such as:
 
 -   TRIP [www.tripdatabase.org](http://www.tripdatabase.org)
 -   Scirus [www.scirus.com](http://www.scirus.com)
--   OAIster <http://oaister.umdl.umich.edu>Â 
+-   OAIster <http://oaister.umdl.umich.edu> 
 
 A [Rapid Response letter](http://www.cmaj.ca/cgi/eletters/172/12/1549)
 added some additional comments and noted a valuable paper on optimizing

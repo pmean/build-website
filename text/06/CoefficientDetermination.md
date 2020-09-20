@@ -3,7 +3,7 @@ title: Can you use the coefficient of determination for categorical variables?
 author: Steve Simon
 source: http://www.pmean.com/06/CoefficientDetermination.html
 date: 2006-04-04
-category:
+categories:
 - Blog post
 tags:
 - Linear regression

@@ -2,7 +2,7 @@
 title: Finding only the important studies
 author: Steve Simon
 date: 2008-01-21
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

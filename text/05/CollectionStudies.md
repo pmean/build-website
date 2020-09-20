@@ -2,11 +2,11 @@
 title: A collection of randomized and non-randomized studies
 author: Steve Simon
 date: 2005-03-22
-category:
+categories:
 - Blog post
 tags:
 - Observational studies
-- Randomized trials
+- Randomization
 output: html_document
 ---
 I\'m updating some of my training classes to use examples from open

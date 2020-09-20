@@ -3,7 +3,7 @@ title: What is an adequate sample size for establishing validity and reliability
 author: Steve Simon
 source: http://www.pmean.com/07/ValidityReliabilitySampleSize.html
 date: 2007-04-09
-category:
+categories:
 - Blog post
 tags:
 - Measuring agreement

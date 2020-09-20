@@ -2,7 +2,7 @@
 title: A brief overview of instrumental variables
 author: Steve Simon
 date: 2008-04-14
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

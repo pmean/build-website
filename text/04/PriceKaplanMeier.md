@@ -2,7 +2,7 @@
 title: The price of Kaplan-Meier
 author: Steve Simon
 date: 2004-09-23
-category:
+categories:
 - Blog post
 tags:
 - Survival analysis

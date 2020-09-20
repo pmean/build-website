@@ -3,7 +3,7 @@ title: More articles on microarrays
 author: Steve Simon
 source: http://www.pmean.com/05/MicroArrayB.html
 date: 2005-03-10
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 

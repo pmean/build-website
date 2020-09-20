@@ -2,7 +2,7 @@
 title: Confidence intervals for complex research designs
 author: Steve Simon
 date: 2004-11-05
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

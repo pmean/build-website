@@ -3,7 +3,7 @@ title: Small relative risks
 author: Steve Simon
 source: http://www.pmean.com/05/SmallRelativeRisk.html
 date: 2005-01-13
-category:
+categories:
 - Blog post
 tags:
 - Measuring benefit and risk

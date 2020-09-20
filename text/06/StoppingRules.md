@@ -3,7 +3,7 @@ title: Stopping rules for a Data Safety Monitoring Plan
 author: Steve Simon
 source: http://www.pmean.com/06/StoppingRules.html
 date: 2006-07-05
-category:
+categories:
 - Blog post
 tags:
 - Early stopping
@@ -93,7 +93,7 @@ recruiting patients. An explicit statement along these lines would still
 be useful. For example,
 
 > *Our goal is to recruit \[state sample size goal\] patients, but if
-> the accrual rate is slowerÂ  than accepted, we will continue to accrue
+> the accrual rate is slower  than accepted, we will continue to accrue
 > patients until \[specify date\]. If the required number are not
 > recruited by then, we will end the study at that time and analyze the
 > data using the same techniques, but will provide an appropriate

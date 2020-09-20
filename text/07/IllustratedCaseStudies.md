@@ -3,7 +3,7 @@ title: Illustrated case studies of research ethics and research fraud
 author: Steve Simon
 source: http://www.pmean.com/07/IllustratedCaseStudies.html
 date: 2007-06-11
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

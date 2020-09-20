@@ -3,7 +3,7 @@ title: What percentage of medical decisions are based on good evidence?
 author: Steve Simon
 source: http://www.pmean.com/06/GoodEvidence.html
 date: 2006-12-29
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

@@ -3,7 +3,7 @@ title: Auditing for data entry errors
 author: Steve Simon
 source: http://www.pmean.com/06/DataEntryErrors.html
 date: 2006-06-20
-category:
+categories:
 - Blog post
 tags:
 - Data management

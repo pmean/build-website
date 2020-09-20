@@ -3,7 +3,7 @@ title: Some resources for Analysis of Means
 author: Steve Simon
 source: http://www.pmean.com/06/AnalysisOfMeans-06.html
 date: 2006-06-30
-category:
+categories:
 - Blog post
 tags:
 - Analysis of means

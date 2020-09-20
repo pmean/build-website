@@ -3,10 +3,10 @@ title: Seminar notes. Issues in the analysis of mixed linear models
 author: Steve Simon
 source: http://www.pmean.com/06/MixedSeminar.html
 date: 2006-07-17
-category:
+categories:
 - Blog post
 tags:
-- Mixed linear model
+- Multilevel models
 output: html_document
 ---
 The keynote address at the 18th Annual Applied Statistics in Agriculture

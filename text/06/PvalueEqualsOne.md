@@ -3,7 +3,7 @@ title: Can the p-value actually equal 1.0?
 author: Steve Simon
 source: http://www.pmean.com/06/PvalueEqualsOne.html
 date: 2006-05-23
-category:
+categories:
 - Blog post
 tags:
 - Pvalues

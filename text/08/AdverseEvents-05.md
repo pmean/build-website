@@ -2,7 +2,7 @@
 title: Reporting of adverse events
 author: Steve Simon
 date: 2008-08-05
-category:
+categories:
 - Blog post
 tags:
 - Adverse events in clinical trials

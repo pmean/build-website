@@ -3,10 +3,10 @@ title: Who wrote the law that mandates PowerPoint?
 author: Steve Simon
 source: http://www.pmean.com/07/WhoWrote.html
 date: 2007-12-28
-category:
+categories:
 - Blog post
 tags:
-- Presenting research data
+- Presenting research
 output: html_document
 ---
 > A recent filler item in BMJ, [The PowerPoint

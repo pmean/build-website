@@ -3,7 +3,7 @@ title: Summary Receiver Operating Characteristic Curve
 author: Steve Simon
 source: http://www.pmean.com/05/SummaryROC.html
 date: 2005-01-21
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

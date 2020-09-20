@@ -2,7 +2,7 @@
 title: Losing web pages in the mass of information
 author: Steve Simon
 date: 2008-03-05
-category:
+categories:
 - Blog post
 tags:
 - Website details
@@ -12,7 +12,7 @@ output: html_document
 > of something important that I may need six months down the road. But
 > there are now so many webpages that even when I write it down, I still
 > may lose track of it. One of those things that I had lost track of
-> wasÂ 
+> was 
 >
 > -   [Stats: Frank Harrell\'s Philosophy of Biostatistics (October
 >     10, 2006)](http://www.childrensmercy.org/stats/weblog2006/HarrellPhilosophy.html)

@@ -2,7 +2,7 @@
 title: Free Full Text on the Web
 author: Steve Simon
 date: 2004-08-24
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

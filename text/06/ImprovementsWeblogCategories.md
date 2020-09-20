@@ -3,7 +3,7 @@ title: Improvements to weblog categories
 author: Steve Simon
 source: http://www.pmean.com/06/ImprovementsWeblogCategories.html
 date: 2006-09-25
-category:
+categories:
 - Blog post
 tags:
 - Website details

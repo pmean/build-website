@@ -3,7 +3,7 @@ title: A simple function for a Biplot in R
 author: Steve Simon
 source: http://www.pmean.com/06/BiplotFunction.html
 date: 2006-01-24
-category:
+categories:
 - Blog post
 tags:
 - Data mining

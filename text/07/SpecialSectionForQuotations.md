@@ -3,7 +3,7 @@ title: Special section for quotations
 author: Steve Simon
 source: http://www.pmean.com/07/SpecialSectionForQuotations.html
 date: 2007-04-11
-category:
+categories:
 - Blog post
 tags:
 - Website details

@@ -3,7 +3,7 @@ title: Educational and networking opportunities for statisticians in the Kansas 
 author: Steve Simon
 source: http://www.pmean.com/07/EducationalOpportunities.html
 date: 2007-10-04
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

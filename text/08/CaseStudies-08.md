@@ -2,7 +2,7 @@
 title: Why we need case studies of research ethics in graphic novel format
 author: Steve Simon
 date: 2008-04-03
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

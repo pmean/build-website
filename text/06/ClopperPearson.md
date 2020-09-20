@@ -3,7 +3,7 @@ title: An exact confidence interval for a binomial proportion
 author: Steve Simon
 source: http://www.pmean.com/06/ClopperPearson.html
 date: 2006-08-18
-category:
+categories:
 - Blog post
 tags:
 - Confidence intervals

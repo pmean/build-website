@@ -2,7 +2,7 @@
 title: Confidence interval for a correlation coefficient
 author: Steve Simon
 date: 2005-07-11
-category:
+categories:
 - Blog post
 tags:
 - Confidence intervals

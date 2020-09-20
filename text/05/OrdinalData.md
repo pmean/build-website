@@ -3,7 +3,7 @@ title: Summing ordinal data
 author: Steve Simon
 source: http://www.pmean.com/05/OrdinalData.html
 date: 2005-04-05
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

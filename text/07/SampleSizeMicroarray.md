@@ -3,7 +3,7 @@ title: Justifying the sample size for a microarray study
 author: Steve Simon
 source: http://www.pmean.com/07/SampleSizeMicroarray.html
 date: 2007-08-09
-category:
+categories:
 - Blog post
 tags:
 - Data mining
@@ -22,7 +22,7 @@ output: html_document
 > **Determination of minimum sample size and discriminatory expression
 > patterns in microarray data**. Daehee Hwang, William A. Schmitt,
 > George Stephanopoulos and Gregory Stephanopoulos. Bioinformatics 2002:
-> 18(9);Â  1184-1193.
+> 18(9);  1184-1193.
 > [\[Medline\]](http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=retrieve&db=pubmed&list_uids=12217910&dopt=AbstractPlus)
 > [\[Abstract\]](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/18/9/1184)
 > [\[PDF\]](http://bioinformatics.oxfordjournals.org/cgi/reprint/18/9/1184.pdf)

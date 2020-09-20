@@ -3,7 +3,7 @@ title: Ignore weak evidence at your own peril
 author: Steve Simon
 source: http://www.pmean.com/07/WeakEvidence.html
 date: 2007-03-13
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

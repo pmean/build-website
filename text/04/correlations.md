@@ -2,7 +2,7 @@
 title: Correlations with categorical variables
 author: Steve Simon
 date: 2004-05-13
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

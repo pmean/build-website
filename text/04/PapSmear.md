@@ -2,7 +2,7 @@
 title: Pap smears for women without a cervix
 author: Steve Simon
 date: 2004-06-24
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

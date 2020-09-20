@@ -2,7 +2,7 @@
 title: Moving content to a private site
 author: Steve Simon
 date: 2008-03-12
-category:
+categories:
 - Blog post
 tags:
 - Website details

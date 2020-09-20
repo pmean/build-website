@@ -3,7 +3,7 @@ title: Determining the optimal threshold for a diagnostic test
 author: Steve Simon
 source: http://www.pmean.com/05/OptimalThreshold.html
 date: 2005-04-27
-category:
+categories:
 - Blog post
 tags:
 output: html_document

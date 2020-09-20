@@ -2,7 +2,7 @@
 title: Statistical software
 author: Steve Simon
 date: 2004-08-25
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

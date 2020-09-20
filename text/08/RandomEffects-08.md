@@ -2,7 +2,7 @@
 title: Criticism of random effects in a meta-analysis
 author: Steve Simon
 date: 2008-06-14
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

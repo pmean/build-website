@@ -2,7 +2,7 @@
 title: Acuity microarray analysis software
 author: Steve Simon
 date: 2004-12-24
-category:
+categories:
 - Blog post
 tags:
 - Being updated

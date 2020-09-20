@@ -3,7 +3,7 @@ title: Categorizing my weblog entries
 author: Steve Simon
 source: http://www.pmean.com/06/CategorizingWeblog.html
 date: 2006-01-18
-category:
+categories:
 - Blog post
 tags:
 - Website details

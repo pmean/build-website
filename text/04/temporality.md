@@ -2,7 +2,7 @@
 title: Temporality of Causes
 author: Steve Simon
 date: 2004-04-07
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

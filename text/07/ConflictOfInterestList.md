@@ -3,7 +3,7 @@ title: Conflict of interest list
 author: Steve Simon
 source: http://www.pmean.com/07/ConflictOfInterestList.html
 date: 2007-07-18
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest

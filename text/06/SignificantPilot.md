@@ -3,7 +3,7 @@ title: Oops! I found statistical significance in my pilot study
 author: Steve Simon
 source: http://www.pmean.com/06/SignificantPilot.html
 date: 2006-09-18
-category:
+categories:
 - Blog post
 tags:
 - Early stopping

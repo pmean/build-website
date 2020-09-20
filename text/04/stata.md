@@ -2,7 +2,7 @@
 title: Statalist
 author: Steve Simon
 date: 2004-07-29
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

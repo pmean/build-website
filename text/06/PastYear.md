@@ -3,7 +3,7 @@ title: The past year in my weblog
 author: Steve Simon
 source: http://www.pmean.com/06/PastYear.html
 date: 2006-01-04
-category:
+categories:
 - Blog post
 tags:
 - Website details

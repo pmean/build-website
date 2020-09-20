@@ -3,7 +3,7 @@ title: Bad calculation of annual rate of return
 author: Steve Simon
 source: http://www.pmean.com/07/BadCalculation.html
 date: 2007-03-15
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

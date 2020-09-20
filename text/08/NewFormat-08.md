@@ -2,7 +2,7 @@
 title: New format for articles, books, and websites
 author: Steve Simon
 date: 2008-01-01
-category:
+categories:
 - Blog post
 tags:
 - Website details

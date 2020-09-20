@@ -2,7 +2,7 @@
 title: General guide to data entry
 author: Steve Simon
 date: 1999-09-03
-category:
+categories:
 - Blog post
 tags:
 - Data management

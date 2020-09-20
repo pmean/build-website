@@ -2,7 +2,7 @@
 title: Unequal sample sizes
 author: Steve Simon
 date: 2004-11-24
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

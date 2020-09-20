@@ -3,7 +3,7 @@ title: R libraries for sample size justification
 author: Steve Simon
 source: http://www.pmean.com/06/SampleSizeR.html
 date: 2006-07-28
-category:
+categories:
 - Blog post
 tags:
 - R software

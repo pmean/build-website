@@ -3,7 +3,7 @@ title: How do the various clustering algorithms work?
 author: Steve Simon
 source: http://www.pmean.com/06/ClusteringAlgorithms.html
 date: 2006-01-31
-category:
+categories:
 - Blog post
 tags:
 output: html_document

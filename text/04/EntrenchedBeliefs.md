@@ -2,7 +2,7 @@
 title: Entrenched beliefs
 author: Steve Simon
 date: 2004-12-01
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

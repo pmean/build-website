@@ -2,7 +2,7 @@
 title: Optimization using the MM algorithm
 author: Steve Simon
 date: 2005-02-14
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

@@ -3,7 +3,7 @@ title: What constitutes a conflict of interest?
 author: Steve Simon
 source: http://www.pmean.com/06/ConflictOfInterest-06.html
 date: 2006-05-04
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest

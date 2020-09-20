@@ -3,7 +3,7 @@ title: Self experimentation
 author: Steve Simon
 source: http://www.pmean.com/05/SelfExperimentation.html
 date: 2005-09-13
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

@@ -2,7 +2,7 @@
 title: What\'s the best statistical model?
 author: Steve Simon
 date: 2004-09-17
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

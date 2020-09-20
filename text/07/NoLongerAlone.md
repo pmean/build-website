@@ -3,7 +3,7 @@ title: No longer the sole statistician?
 author: Steve Simon
 source: http://www.pmean.com/07/NoLongerAlone.html
 date: 2007-11-28
-category:
+categories:
 - Blog post
 tags:
 - Professional details

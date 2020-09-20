@@ -3,7 +3,7 @@ title: Interesting stuff for the month of May
 author: Steve Simon
 source: http://www.pmean.com/06/InterestingMay.html
 date: 2006-05-30
-category:
+categories:
 - Blog post
 tags:
 - Interesting stuff

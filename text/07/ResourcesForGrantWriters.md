@@ -3,7 +3,7 @@ title: Resources for grant writers
 author: Steve Simon
 source: http://www.pmean.com/07/ResourcesForGrantWriters.html
 date: 2007-09-04
-category:
+categories:
 - Blog post
 tags:
 - Grant writing

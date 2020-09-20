@@ -3,7 +3,7 @@ title: The tension between scientific validity and ethical concerns
 author: Steve Simon
 source: http://www.pmean.com/06/TensionScienceEthics.html
 date: 2006-11-17
-category:
+categories:
 - Blog post
 tags:
 - Placebos in research

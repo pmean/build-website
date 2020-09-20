@@ -2,7 +2,7 @@
 title: Using Mathematica and Matlab for Statistics
 author: Steve Simon
 date: 2005-03-22
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

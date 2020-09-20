@@ -2,7 +2,7 @@
 title: The Digital Object Identifier
 author: Steve Simon
 date: 2005-01-19
-category:
+categories:
 - Blog post
 tags:
 - Information searching

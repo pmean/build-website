@@ -3,7 +3,7 @@ title: String manipulations in R
 author: Steve Simon
 source: http://www.pmean.com/05/StringsR.html
 date: 2005-05-10
-category:
+categories:
 - Blog post
 tags:
 - Data management

@@ -3,7 +3,7 @@ title: Case studies for differences in research in children
 author: Steve Simon
 source: http://www.pmean.com/06/CaseStudiesChildren.html
 date: 2006-10-16
-category:
+categories:
 - Blog post
 tags:
 - Children in research

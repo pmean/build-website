@@ -2,7 +2,7 @@
 title: Is the randomized trial the gold standard for research? 
 author: Steve Simon
 date: 2004-12-24
-category:
+categories:
 - Blog post
 tags:
 - Being updated

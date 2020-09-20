@@ -3,7 +3,7 @@ title: Quality of published research
 author: Steve Simon
 source: http://www.pmean.com/05/PublicationQuality.html
 date: 2005-03-14
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

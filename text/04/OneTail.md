@@ -2,7 +2,7 @@
 title: One-tailed p-values
 author: Steve Simon
 date: 2004-04-12
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing
@@ -15,7 +15,7 @@ page](../ask/tail.asp) on how to do this.
 
 There is a fierce debate about when you should use one-sided tests. In
 an editorial in the Journal of Clinical Epidemiology
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=11166523),Â 
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=11166523), 
 Knotttnerus and Bouter argue in favor of one-sided tests when it is
 obvious that a statistically significant change in the opposite
 direction would not influence practice any differently than a finding of
@@ -36,7 +36,7 @@ Medicine. The Intuitive P-Value Primer**, argues forcefully against
 one-sided tests. Researchers should be open to the possibility that
 their proposed treatments could do more harm than good. Moye offers a
 compromise where the alpha level is allocated asymmetrically. For
-example, the \"benefit\" tail could be allocated .03 ofÂ  the total alpha
+example, the \"benefit\" tail could be allocated .03 of  the total alpha
 level and the remaining .02 would be allocated to the \"harm\" tail.
 
 Another example of where a one-sided test is called for is when the

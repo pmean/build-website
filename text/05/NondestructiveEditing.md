@@ -3,7 +3,7 @@ title: Non-destructive data editing
 author: Steve Simon
 source: http://www.pmean.com/05/NondestructiveEditing.html
 date: 2005-11-02
-category:
+categories:
 - Blog post
 tags:
 - Data management

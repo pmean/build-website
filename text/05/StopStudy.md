@@ -3,7 +3,7 @@ title: When can I stop my CQI study?
 author: Steve Simon
 source: http://www.pmean.com/05/StopStudy.html
 date: 2005-06-06
-category:
+categories:
 - Blog post
 tags:
 - Early stopping

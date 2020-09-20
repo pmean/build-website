@@ -2,7 +2,7 @@
 title: Confusion about p-values
 author: Steve Simon
 date: 2005-01-18
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

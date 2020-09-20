@@ -2,7 +2,7 @@
 title: For CMH employees only. Statistical Consulting Services
 author: Steve Simon
 date: 2003-04-30
-category:
+categories:
 - Blog post
 tags:
 - Professional details

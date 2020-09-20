@@ -3,7 +3,7 @@ title: More lessons learned the hard way
 author: Steve Simon
 source: http://www.pmean.com/06/LessonsLearned.html
 date: 2006-01-31
-category:
+categories:
 - Blog post
 tags:
 - Data management

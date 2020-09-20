@@ -2,7 +2,7 @@
 title: When does heterogeneity become a concern?
 author: Steve Simon
 date: 2008-06-05
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

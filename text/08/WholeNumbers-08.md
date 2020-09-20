@@ -3,7 +3,7 @@ title: Calculating statistics on whole numbers
 author: Steve Simon
 source: http://www.pmean.com/08/WholeNumbers-08.html
 date: 2008-04-04
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

@@ -3,7 +3,7 @@ title: Accuracy of computations
 author: Steve Simon
 source: http://www.pmean.com/03/accuracy.html
 date: 2003-11-26
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

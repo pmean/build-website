@@ -2,7 +2,7 @@
 title: Analysis of subgroup results ...
 author: Steve Simon
 date: 2005-03-10
-category:
+categories:
 - Quotations
 tags:
 - Multiple comparisons

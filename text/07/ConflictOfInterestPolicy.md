@@ -3,7 +3,7 @@ title: Need for a conflict of interest policy
 author: Steve Simon
 source: http://www.pmean.com/07/ConflictOfInterestPolicy.html
 date: 2007-08-09
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest

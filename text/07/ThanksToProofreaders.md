@@ -3,7 +3,7 @@ title: Thanks to all my proofreaders!
 author: Steve Simon
 source: http://www.pmean.com/07/ThanksToProofreaders.html
 date: 2007-03-14
-category:
+categories:
 - Blog post
 tags:
 - Website details

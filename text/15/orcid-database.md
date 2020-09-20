@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/orcid-database/"
 date: "2015-05-27"
 categories:
-- Administrative
+- Blog post
 tags:
 - Professional details
 output: html_document

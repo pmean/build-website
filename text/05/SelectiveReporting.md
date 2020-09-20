@@ -3,7 +3,7 @@ title: Selective reporting of research findings
 author: Steve Simon
 source: http://www.pmean.com/05/SelectiveReporting.html
 date: 2005-03-14
-category:
+categories:
 - Blog post
 tags:
 - Publication bias

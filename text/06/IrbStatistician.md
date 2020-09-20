@@ -3,7 +3,7 @@ title: The role of a statistician on an IRB
 author: Steve Simon
 source: http://www.pmean.com/06/IrbStatistician.html
 date: 2006-03-29
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

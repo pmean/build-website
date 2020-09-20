@@ -3,7 +3,7 @@ title: Presenting Numbers, Tables, and Charts
 author: Steve Simon
 source: http://www.pmean.com/05/NumbersTablesCharts.html
 date: 2005-04-15
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

@@ -3,7 +3,7 @@ title: Why the plus one in the percentile formula?
 author: Steve Simon
 source: http://www.pmean.com/07/PercentileFormula.html
 date: 2007-06-22
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

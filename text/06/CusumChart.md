@@ -3,7 +3,7 @@ title: Applications of the CUSUM chart
 author: Steve Simon
 source: http://www.pmean.com/06/CusumChart.html
 date: 2006-06-20
-category:
+categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials

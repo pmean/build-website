@@ -3,7 +3,7 @@ title: Email discussion groups
 author: Steve Simon
 source: http://www.pmean.com/06/EmailDiscussionGroup.html
 date: 2006-09-13
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

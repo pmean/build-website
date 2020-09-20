@@ -5,7 +5,7 @@ date: "2020-03-04"
 categories:
 - Recommendation
 tags:
-- Interesting datasets
+- datasets
 output: html_document
 ---
 

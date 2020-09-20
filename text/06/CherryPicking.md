@@ -3,7 +3,7 @@ title: Cherry picking the literature
 author: Steve Simon
 source: http://www.pmean.com/06/CherryPicking.html
 date: 2006-12-20
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

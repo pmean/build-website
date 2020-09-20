@@ -3,7 +3,7 @@ title: IRB review of a pilot study
 author: Steve Simon
 source: http://www.pmean.com/07/IrbReviewPilot.html
 date: 2007-03-26
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

@@ -3,7 +3,7 @@ title: Applying likelihood ratios in your head
 author: Steve Simon
 source: http://www.pmean.com/07/ApplyingLikelihoodRatios.html
 date: 2007-06-01
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

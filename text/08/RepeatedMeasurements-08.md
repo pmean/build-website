@@ -2,10 +2,10 @@
 title: Simplifying repeated measurements
 author: Steve Simon
 date: 2008-03-12
-category:
+categories:
 - Blog post
 tags:
-- Mixed models
+- Multilevel models
 output: html_document
 ---
 > I received an email inquiry about a project that involved four repeat

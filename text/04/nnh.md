@@ -2,10 +2,10 @@
 title: Number needed to harm examples
 author: Steve Simon
 date: 2004-02-18
-category:
+categories:
 - Blog post
 tags:
-- Measuring benefit/risk
+- Measuring benefit and risk
 output: html_document
 ---
 > I was trying to track down a reference on the NNH (number needed to

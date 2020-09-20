@@ -3,7 +3,7 @@ title: Unusual advice about control charts
 author: Steve Simon
 source: http://www.pmean.com/06/ControlChartAdvice.html
 date: 2006-12-18
-category:
+categories:
 - Blog post
 tags:
 - Control charts

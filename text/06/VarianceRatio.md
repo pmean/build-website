@@ -2,7 +2,7 @@
 title: Seminar notes. Confidence intervals for a variance ratio
 author: Steve Simon
 date: 2006-06-17
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

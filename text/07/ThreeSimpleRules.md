@@ -3,7 +3,7 @@ title: Three simple rules to establish quality
 author: Steve Simon
 source: http://www.pmean.com/07/ThreeSimpleRules.html
 date: 2007-02-15
-category:
+categories:
 - Blog post
 tags:
 - Quality control

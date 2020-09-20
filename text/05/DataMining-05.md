@@ -2,7 +2,7 @@
 title: Two cautionary tales about data mining
 author: Steve Simon
 date: 2005-01-06
-category:
+categories:
 - Blog post
 tags:
 - Data mining

@@ -2,7 +2,7 @@
 title: Machine Learning tools in R
 author: Steve Simon
 date: 2006-01-24
-category:
+categories:
 - Blog post
 tags:
 - Big data
@@ -21,7 +21,7 @@ output: html_document
 >
 > R has a library, MLInterfaces, that puts a uniform interface in front
 > of the input and output from all of these procedures. I could not load
-> the MLInterfaces library directly, but could download andÂ  then
+> the MLInterfaces library directly, but could download and  then
 > install the package from
 >
 > -   <http://www.bioconductor.org/packages/bioc/1.6/src/contrib/html/MLInterfaces.html>

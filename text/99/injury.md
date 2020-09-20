@@ -2,7 +2,7 @@
 title: Injury index creation
 author: Steve Simon
 date: 1999-09-23
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

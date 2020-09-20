@@ -2,7 +2,7 @@
 title: So you want to volunteer for a research study?
 author: Steve Simon
 date: 2004-08-04
-category:
+categories:
 - Blog post
 tags:
 - Exclusions in research

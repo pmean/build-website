@@ -3,7 +3,7 @@ title: Stratified Cox regression models
 author: Steve Simon
 source: http://www.pmean.com/05/StratifiedCoxRegression.html
 date: 2005-03-22
-category:
+categories:
 - Blog post
 tags:
 - Survival analysis

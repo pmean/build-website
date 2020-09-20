@@ -2,7 +2,7 @@
 title: Discrepancy between univariate and multivariate models
 author: Steve Simon
 date: 2004-11-12
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

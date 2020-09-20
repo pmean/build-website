@@ -2,7 +2,7 @@
 title: Skewed data
 author: Steve Simon
 date: 2003-06-05
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

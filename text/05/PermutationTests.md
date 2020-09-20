@@ -3,7 +3,7 @@ title: Permutation tests for microarrays
 author: Steve Simon
 source: http://www.pmean.com/05/PermutationTests.html
 date: 2005-07-27
-category:
+categories:
 - Blog post
 tags:
 - Data mining

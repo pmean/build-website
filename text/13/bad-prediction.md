@@ -3,7 +3,7 @@ title: "PMean: The cost of a bad prediction"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bad-prediction/"
 date: "2013-12-04"
-category:
+categories:
 - Blog post
 tags:
 - Bayesian statistics

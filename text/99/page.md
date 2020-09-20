@@ -2,7 +2,7 @@
 title: Page\'s test
 author: Steve Simon
 date: 1999-09-03
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

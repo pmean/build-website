@@ -3,7 +3,7 @@ title: Nitty Gritty NIH
 author: Steve Simon
 source: http://www.pmean.com/04/nih.html
 date: 2004-09-03
-category:
+categories:
 - Blog post
 tags:
 - Grant writing
@@ -18,7 +18,7 @@ output: html_document
 > billion in 2005 and 38 thousand research project grants. You should
 > visit their web site at [www.nih.gov](http://www.nih.gov/).
 >
-> There are a number of things that can slow down the award process:Â 
+> There are a number of things that can slow down the award process: 
 >
 > -   Budgets with inadequate justification,
 >
@@ -62,7 +62,7 @@ output: html_document
 > of animals or human subjects, shift in research emphasis to different
 > disease area, application of a new technology (i.e., changing to a
 > different type of assay), significant rebudgeting (more than 25% of
-> total direct costs awarded).Â 
+> total direct costs awarded). 
 >
 > Withdrawal of the PI or key personnel, absence for period of 3
 > continuous months, reduction of percent effort by a quarter or more.

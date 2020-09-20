@@ -3,7 +3,7 @@ title: The latest word on my promotion
 author: Steve Simon
 source: http://www.pmean.com/07/Promotion.html
 date: 2007-09-27
-category:
+categories:
 - Blog post
 tags:
 - Professional details

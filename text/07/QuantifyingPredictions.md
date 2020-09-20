@@ -3,7 +3,7 @@ title: Quantifying the ability of dreams to predict the future
 author: Steve Simon
 source: http://www.pmean.com/07/QuantifyingPredictions.html
 date: 2007-04-10
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

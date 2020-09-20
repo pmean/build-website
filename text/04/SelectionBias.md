@@ -2,7 +2,7 @@
 title: Selection bias
 author: Steve Simon
 date: 2004-08-24
-category:
+categories:
 - Blog post
 tags:
 - Exclusions in research

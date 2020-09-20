@@ -2,7 +2,7 @@
 title: A simple math error
 author: Steve Simon
 date: 2008-04-06
-category:
+categories:
 - Blog post
 tags:
 - Website details

@@ -3,7 +3,7 @@ title: Calculating rates
 author: Steve Simon
 source: http://www.pmean.com/07/CalculatingRates.html
 date: 2007-04-06
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression

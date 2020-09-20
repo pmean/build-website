@@ -2,7 +2,7 @@
 title: Planning a qualitative research study
 author: Steve Simon
 date: 2004-07-06
-category:
+categories:
 - Blog post
 tags:
 - Qualitative data analysis

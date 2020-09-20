@@ -2,7 +2,7 @@
 title: SPSS syntax for Poisson Regression, Marta Garcia-Granero, PhD
 author: Steve Simon
 date: 2003-07-29
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression 

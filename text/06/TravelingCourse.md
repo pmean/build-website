@@ -3,7 +3,7 @@ title: American Statistical Association Traveling Course committee
 author: Steve Simon
 source: http://www.pmean.com/06/TravelingCourse.html
 date: 2006-08-15
-category:
+categories:
 - Blog post
 tags:
 output: html_document

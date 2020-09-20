@@ -2,7 +2,7 @@
 title: It seems to me reasonable to look for benefit or harm ...
 author: Steve Simon
 date: 2005-03-10
-category:
+categories:
 - Quotations
 tags:
 - Subgroup analysis

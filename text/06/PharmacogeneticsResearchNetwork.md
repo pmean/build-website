@@ -3,7 +3,7 @@ title: Pharmacogenetics Research Network
 author: Steve Simon
 source: http://www.pmean.com/06/PharmacogeneticsResearchNetwork.html
 date: 2006-09-14
-category:
+categories:
 - Blog post
 tags:
 output: html_document

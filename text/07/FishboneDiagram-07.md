@@ -3,7 +3,7 @@ title: How to draw a fishbone diagram
 author: Steve Simon
 source: http://www.pmean.com/07/FishboneDiagram-07.html
 date: 2007-03-08
-category:
+categories:
 - Blog post
 tags:
 - Quality control

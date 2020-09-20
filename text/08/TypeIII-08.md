@@ -2,7 +2,7 @@
 title: Type III error
 author: Steve Simon
 date: 2008-01-03
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

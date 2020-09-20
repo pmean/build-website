@@ -2,7 +2,7 @@
 title: Dishonesty in medical research
 author: Steve Simon
 date: 2005-09-15
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

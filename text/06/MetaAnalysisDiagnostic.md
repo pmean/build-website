@@ -3,7 +3,7 @@ title: Meta-analysis and diagnostic tests
 author: Steve Simon
 source: http://www.pmean.com/06/MetaAnalysisDiagnostic.html
 date: 2006-02-14
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

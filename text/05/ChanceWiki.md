@@ -3,7 +3,7 @@ title: Publication in the ChanceWiki
 author: Steve Simon
 source: http://www.pmean.com/05/ChanceWiki.html
 date: 2005-08-02
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

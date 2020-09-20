@@ -2,7 +2,7 @@
 title: Top six mistakes in teaching EBM
 author: Steve Simon
 date: 2004-09-24
-category:
+categories:
 - Blog post
 tags:
 - Teaching Resources

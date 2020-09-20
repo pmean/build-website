@@ -3,7 +3,7 @@ title: Extreme value distribution
 author: Steve Simon
 source: http://www.pmean.com/06/ExtremeValue.html
 date: 2006-01-09
-category:
+categories:
 - Blog post
 tags:
 - Probability concepts

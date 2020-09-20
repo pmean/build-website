@@ -3,7 +3,7 @@ title: Evidence-based development of medical guidelines
 author: Steve Simon
 source: http://www.pmean.com/06/MedicalGuidelines.html
 date: 2006-12-13
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

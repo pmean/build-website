@@ -2,7 +2,7 @@
 title: Seminar notes. Adjustments for multiple comparisons
 author: Steve Simon
 date: 2006-07-17
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

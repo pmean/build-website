@@ -3,7 +3,7 @@ title: May has been a slow month
 author: Steve Simon
 source: http://www.pmean.com/07/SlowMonth.html
 date: 2007-05-29
-category:
+categories:
 - Blog post
 tags:
 - Website details

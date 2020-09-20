@@ -2,7 +2,7 @@
 title: Degrees of freedom, Part 2
 author: Steve Simon
 date: 2004-04-15
-category:
+categories:
 - Blog post
 tags:
 - Statistical theory

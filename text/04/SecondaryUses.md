@@ -2,7 +2,7 @@
 title: Secondary Uses of Data
 author: Steve Simon
 date: 2004-08-02
-category:
+categories:
 - Blog post
 tags:
 - Privacy concerns

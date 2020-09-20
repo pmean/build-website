@@ -3,7 +3,7 @@ title: What makes pediatric research different?
 author: Steve Simon
 source: http://www.pmean.com/07/PediatricResearch.html
 date: 2007-08-29
-category:
+categories:
 - Blog post
 tags:
 - Children in research
@@ -24,7 +24,7 @@ Some possible titles are
 I\'ll work with the group that is inviting me to see what they like. An
 abstract of the talk could be something like:
 
-**Content:** Â Assessing the safety of medical treatments for children
+**Content:**  Assessing the safety of medical treatments for children
 offers some unique challenges and difficulties. Although the research is
 in many ways similar to adult research, there are special considerations
 because of the differing physiology of children and the more stringent
@@ -35,7 +35,7 @@ published research to encourage open discussion of these issues and
 exploration of the best approaches to meet the sometimes conflicting
 needs of regulators, drug companies, and ethics review boards.
 
-**Objectives:** Â In this class you will learn how to
+**Objectives:**  In this class you will learn how to
 
 -   understand the medical differences in children that make pediatric
     research unique.
@@ -44,4 +44,4 @@ needs of regulators, drug companies, and ethics review boards.
 -   be able to identify the unique statistical challenges associated
     with pediatric research.
 
-**Teaching strategies:** Â Didactic lectures and small group exercises.
+**Teaching strategies:**  Didactic lectures and small group exercises.

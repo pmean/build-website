@@ -3,7 +3,7 @@ title: Upcoming talks about control charts
 author: Steve Simon
 source: http://www.pmean.com/06/ControlChartsA.html
 date: 2006-05-25
-category:
+categories:
 - Blog post
 tags:
 - Adverse events in clinical trials

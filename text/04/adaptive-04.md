@@ -3,11 +3,11 @@ title: Adaptive randomization
 author: Steve Simon
 source: http://www.pmean.com/04/adaptive-04.html
 date: 2004-07-15
-category:
+categories:
 - Blog post
 tags:
 - Equipoise in research
-- Randomization in research
+- Randomization
 output: html_document
 ---
 Someone on the IRBForum posed a theoretical question. Is running a three

@@ -2,7 +2,7 @@
 title: Evidence-based lessons learned from Cardiology
 author: Steve Simon
 date: 2004-03-18
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources
@@ -12,7 +12,7 @@ There was a nice series of articles in the journal Circulation that
 appeared in 2002 with free full text online. These articles offer
 specific lessons about evidence-based medicine.
 
-Â In the [August 6
+ In the [August 6
 issue](http://circ.ahajournals.org/cgi/content/full/106/6/746), DeMets
 and Califf tackle the difficult topics of
 
@@ -20,7 +20,7 @@ and Califf tackle the difficult topics of
 -   composite clinical endpoints,
 -   and subgroup analysis.
 
-Â In the [August 13
+ In the [August 13
 issue](http://circ.ahajournals.org/cgi/content/full/106/7/880), DeMets
 and Califf continue with a discussion about
 

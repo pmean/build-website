@@ -3,7 +3,7 @@ title: The Healthcare Cost and Utilization Project
 author: Steve Simon
 source: http://www.pmean.com/06/HcupSeminar.html
 date: 2006-04-11
-category:
+categories:
 - Blog post
 tags:
 output: html_document

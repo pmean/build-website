@@ -3,7 +3,7 @@ title: A totally negative microarray experiment
 author: Steve Simon
 source: http://www.pmean.com/05/NegativeMicroarray.html
 date: 2005-10-14
-category:
+categories:
 - Blog post
 tags:
 output: html_document

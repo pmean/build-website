@@ -2,7 +2,7 @@
 title: Testing for bimodality
 author: Steve Simon
 date: 2005-09-15
-category:
+categories:
 - Blog post
 tags:
 - Being updated

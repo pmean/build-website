@@ -3,7 +3,7 @@ title: Recent developments in searching for evidence
 author: Steve Simon
 source: http://www.pmean.com/06/SearchingEvidence.html
 date: 2006-01-31
-category:
+categories:
 - Blog post
 tags:
 - Information searching

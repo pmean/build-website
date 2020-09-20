@@ -3,7 +3,7 @@ title: Characterizing reasons for refusal
 author: Steve Simon
 source: http://www.pmean.com/06/RefusalReasons.html
 date: 2006-01-17
-category:
+categories:
 - Blog post
 tags:
 - Exclusions in research

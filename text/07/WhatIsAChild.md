@@ -3,7 +3,7 @@ title: What, exactly, is a child?
 author: Steve Simon
 source: http://www.pmean.com/07/WhatIsAChild.html
 date: 2007-11-19
-category:
+categories:
 - Blog post
 tags:
 - Children in research

@@ -3,7 +3,7 @@ title: The stubborn insistence on placebos
 author: Steve Simon
 source: http://www.pmean.com/07/StubbornInsistence.html
 date: 2007-06-29
-category:
+categories:
 - Blog post
 tags:
 - Placebos in research

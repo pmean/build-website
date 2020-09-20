@@ -2,7 +2,7 @@
 title: Designing a questionnaire
 author: Steve Simon
 date: 2004-12-24
-category:
+categories:
 - Blog post
 tags:
 - Survey design

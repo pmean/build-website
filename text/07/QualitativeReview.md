@@ -3,7 +3,7 @@ title: Reviewing a paper on qualitative data analysis
 author: Steve Simon
 source: http://www.pmean.com/07/QualitativeReview.html
 date: 2007-03-11
-category:
+categories:
 - Blog post
 tags:
 - Qualitative data analysis
@@ -78,7 +78,7 @@ output: html_document
 >     the amount of information about the research process that is
 >     provided to readers.*
 >
-> Â I personally do not find this list very helpful.
+>  I personally do not find this list very helpful.
 >
 > The authors then summarize a perspective of a third group, the subtle
 > realists, who hold a position somewhere between antirealists and the

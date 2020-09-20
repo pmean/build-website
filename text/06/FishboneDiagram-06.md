@@ -3,7 +3,7 @@ title: Examples of a fishbone diagram
 author: Steve Simon
 source: http://www.pmean.com/06/FishboneDiagram-06.html
 date: 2006-03-24
-category:
+categories:
 - Blog post
 tags:
 output: html_document

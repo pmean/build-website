@@ -2,7 +2,7 @@
 title: Modeling a declining count variable
 author: Steve Simon
 date: 2008-06-14
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression
@@ -25,12 +25,12 @@ code:
 `ct <- c(9,4,2,3,0,0,1)   tm <- 0:6   pmod <- glm(ct~tm,family=poisson)`
 
 Using 0 as the starting point rather than 1 makes the interpretation of
-this model simpler. When you list the contents ofÂ  pmod, you get the
+this model simpler. When you list the contents of  pmod, you get the
 following
 
-`Call: glm(formula = ct ~ tm, family = poisson)       Coefficients:   (Intercept)Â Â Â Â Â Â Â Â Â Â  tm      Â Â Â Â  2.1063Â Â Â Â Â  -0.5505       Degrees of Freedom: 6 Total (i.e. Null); 5 Residual   Null Deviance:Â Â Â Â Â  22.06    Residual Deviance: 5.289Â Â Â Â Â Â Â  AIC: 24.21`
+`Call: glm(formula = ct ~ tm, family = poisson)       Coefficients:   (Intercept)           tm           2.1063      -0.5505       Degrees of Freedom: 6 Total (i.e. Null); 5 Residual   Null Deviance:      22.06    Residual Deviance: 5.289        AIC: 24.21`
 
-How would you interpret these coefficients?Â  The Poisson regression
+How would you interpret these coefficients?  The Poisson regression
 model uses a log link function. This means that the average value for
 the data is assumed to be linear on a log scale.
 
@@ -65,7 +65,7 @@ multiplicative change less than 1. This is an exponential decline.
 The predict function in R produces estimated average values on a log
 scale for each time point.
 
-`> round(predict(pmod),4)   Â Â Â Â  1Â Â Â Â Â  2Â Â Â Â Â     3Â Â Â Â Â  4Â Â Â Â Â Â  5Â Â Â Â Â Â     6Â Â Â Â Â Â  7   2.1063 1.5558 1.0053 0.4548 -0.0957 -0.6462 -1.1967 `
+`> round(predict(pmod),4)        1      2         3      4       5          6       7   2.1063 1.5558 1.0053 0.4548 -0.0957 -0.6462 -1.1967 `
 
 I\'ve rounded these data slightly from the actual output to save space.
 Note that R places an index of 1 through 7 above each predicted value.
@@ -75,7 +75,7 @@ time=0 and the last value corresponds to time=6.
 If you take the antilog of these values, you get the estimated average
 count at each time point.
 
-`> round(exp(predict(pmod)),4)   Â Â Â Â  1Â Â Â Â Â  2Â Â Â Â Â     3Â Â Â Â Â  4Â Â Â Â Â  5Â Â Â Â Â     6Â Â Â Â Â  7    8.2177 4.7388 2.7327 1.5758 0.9087 0.5240 0.3022`
+`> round(exp(predict(pmod)),4)        1      2         3      4      5         6      7    8.2177 4.7388 2.7327 1.5758 0.9087 0.5240 0.3022`
 
 To demonstrate that this is an exponential decline, note that
 
@@ -87,14 +87,14 @@ using the antilog of the predicted values.
 You might wonder if you are likely to see any more values beyond time=6.
 The estimated average counts for times 7, 8, etc. are
 
-`8.2*0.58^7 = 0.18   8.2*0.58^8 = 0.11   Â .   Â .   Â .`
+`8.2*0.58^7 = 0.18   8.2*0.58^8 = 0.11    .    .    .`
 
 You can sum the infinite series from time=0 to time=infinity if you
 like. Notice that the terms in the above expression can be represented
 by a classic [geometric
 series](http://en.wikipedia.org/wiki/Geometric_series)
 
-`a   ar   ar2   ar3   Â .   Â .   Â .`
+`a   ar   ar2   ar3    .    .    .`
 
 For r\<1, the sum of this infinite series is
 

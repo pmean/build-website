@@ -2,7 +2,7 @@
 title: Small relative risk
 author: Steve Simon
 date: 2004-06-30
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

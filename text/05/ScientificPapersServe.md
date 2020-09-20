@@ -2,7 +2,7 @@
 title: Scientific papers serve the needs of their authors ...
 author: Steve Simon
 date: 2005-02-21
-category:
+categories:
 - Quotations
 tags:
 - Writing research papers

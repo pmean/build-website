@@ -2,7 +2,7 @@
 title: Bonferroni correction
 author: Steve Simon
 date: 1999-09-03
-category:
+categories:
 - Blog post
 tags:
 - Multiple comparisons

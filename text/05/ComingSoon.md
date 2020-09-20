@@ -2,7 +2,7 @@
 title: Coming soon!
 author: Steve Simon
 date: 2005-03-22
-category:
+categories:
 - Blog post
 tags:
 - Website details

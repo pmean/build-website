@@ -3,7 +3,7 @@ title: My promotion application
 author: Steve Simon
 source: http://www.pmean.com/07/MyPromotionApplication.html
 date: 2007-09-05
-category:
+categories:
 - Blog post
 tags:
 - Professional details

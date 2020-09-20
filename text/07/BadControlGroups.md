@@ -3,7 +3,7 @@ title: When bad control groups happen to good researchers
 author: Steve Simon
 source: http://www.pmean.com/07/BadControlGroups.html
 date: 2007-06-15
-category:
+categories:
 - Blog post
 tags:
 - Observational studies
@@ -38,7 +38,7 @@ my book, [Statistical Evidence in Medical Trials](../evidence.asp).
 In order to get CME credit, I need to specify three objectives. Here
 they are:
 
-Â In this talk, you will learn how to:
+ In this talk, you will learn how to:
 
 -   recognize the importance of a good control group in research
     studies,

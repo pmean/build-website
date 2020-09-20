@@ -2,7 +2,7 @@
 title: Sample size for a survival data model
 author: Steve Simon
 date: 2004-05-13
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification
@@ -16,7 +16,7 @@ a few minutes trying discussing general principles and offering a
 reference or two. People are very grateful for the time, and I\'ve had
 an offer for free room and board should I ever visit Rome. I also am
 getting a copy of Opera News on CD in thanks for a bit of advice I
-provided.Â  **\[Conflict of interest alert: should I ever publish any
+provided.  **\[Conflict of interest alert: should I ever publish any
 research on opera, I will have to disclose this non-monetary
 compensation.\]**
 

@@ -2,7 +2,7 @@
 title: A serious problem of publication bias
 author: Steve Simon
 date: 2004-04-09
-category:
+categories:
 - Blog post
 tags:
 - Publication bias
@@ -11,7 +11,7 @@ output: html_document
 I was browsing a paper by Leonard Leibovici
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=10600974)
 about alternative medicine when a [comment by Andrew
-Vickers](http://bmj.bmjjournals.com/cgi/eletters/319/7225/1629#6000)Â  in
+Vickers](http://bmj.bmjjournals.com/cgi/eletters/319/7225/1629#6000)  in
 the eletters section caught my eye. He noted the serious problem of
 publication bias in Chinese journals. Apparently, the Chinese journals
 almost never publish a negative trial. He cites two sources: Vickers et

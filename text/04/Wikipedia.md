@@ -3,7 +3,7 @@ title: The Wikipedia
 author: Steve Simon
 source: http://www.pmean.com/04/Wikipedia.html
 date: 2004-04-15
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

@@ -3,7 +3,7 @@ title: An amusing correlation
 author: Steve Simon
 source: http://www.pmean.com/06/AmusingCorrelation.html
 date: 2006-06-05
-category:
+categories:
 - Blog post
 tags:
 - Linear regression

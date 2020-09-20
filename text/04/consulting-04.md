@@ -2,7 +2,7 @@
 title: Statistical consulting
 author: Steve Simon
 date: 2004-06-14
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

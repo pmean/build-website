@@ -3,7 +3,7 @@ title: Advice for searching in PubMed
 author: Steve Simon
 source: http://www.pmean.com/07/AdviceSearching.html
 date: 2007-02-11
-category:
+categories:
 - Blog post
 tags:
 - Information searching

@@ -6,7 +6,7 @@ date: 2006-07-18
 categories:
 - Blog post
 tags:
-- Randomized trials
+- Randomization
 output: html_document
 ---
 **[StATS]:** **Selecting randomly from a list (July

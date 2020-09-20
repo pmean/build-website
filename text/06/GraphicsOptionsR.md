@@ -3,7 +3,7 @@ title: Graphics options in R
 author: Steve Simon
 source: http://www.pmean.com/06/GraphicsOptionsR.html
 date: 2006-09-12
-category:
+categories:
 - Blog post
 tags:
 - Graphical display
@@ -62,7 +62,7 @@ forward slash (/) to separate directories in the path, or use a double
 backslash (\\\\). A single backslash causes problems because R has
 special codes like \\n to represent a new line.
 
-So aÂ  file name like
+So a  file name like
 
 -   `file="C:/Data/NewProject/Scatterplot.pdf" `or
 -   `file="C:\\Data\\NewProject\\Scatterplot.pdf" `

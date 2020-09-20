@@ -3,7 +3,7 @@ title: The research world is not black and white
 author: Steve Simon
 source: http://www.pmean.com/07/NotBlackAndWhilte.html
 date: 2007-07-07
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

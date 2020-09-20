@@ -3,7 +3,7 @@ title: More than one thousand web pages now available on my site
 author: Steve Simon
 source: http://www.pmean.com/06/ThousandPages.html
 date: 2006-08-16
-category:
+categories:
 - Blog post
 tags:
 - Website details

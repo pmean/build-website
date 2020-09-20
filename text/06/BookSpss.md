@@ -3,7 +3,7 @@ title: Crash Course in Spss for Windows
 author: Steve Simon
 source: http://www.pmean.com/06/BookSpss.html
 date: 2006-03-16
-category:
+categories:
 - Blog post
 tags:
 - Interesting books

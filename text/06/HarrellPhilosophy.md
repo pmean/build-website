@@ -3,7 +3,7 @@ title: Frank Harrell\'s Philosophy of Biostatistics
 author: Steve Simon
 source: http://www.pmean.com/06/HarrellPhilosophy.html
 date: 2006-10-10
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

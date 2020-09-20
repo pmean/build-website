@@ -3,7 +3,7 @@ title: Postmodern thought and evidence based medicine
 author: Steve Simon
 source: http://www.pmean.com/06/PostmodernThought.html
 date: 2006-09-07
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

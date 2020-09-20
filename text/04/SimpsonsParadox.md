@@ -2,7 +2,7 @@
 title: Simpson\'s Paradox
 author: Steve Simon
 date: 2004-12-22
-category:
+categories:
 - Blog post
 tags:
 - Statistical theory

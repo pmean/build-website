@@ -2,7 +2,7 @@
 title: Seminar notes. Working with molecular biologists
 author: Steve Simon
 date: 2006-07-17
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics 

@@ -3,7 +3,7 @@ title: When I talk about statistics ...
 author: Steve Simon
 source: http://www.pmean.com/07/WhenITalk.html
 date: 2007-04-11
-category:
+categories:
 - Quotations
 tags:
 - Critical appraisal

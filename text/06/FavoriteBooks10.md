@@ -3,7 +3,7 @@ title: My ten favorite books, \#10
 author: Steve Simon
 source: http://www.pmean.com/06/FavoriteBooks10.html
 date: 2006-03-17
-category:
+categories:
 - Blog post
 tags:
 - Good books

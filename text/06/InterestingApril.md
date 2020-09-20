@@ -3,7 +3,7 @@ title: Interesting websites, publications and quotes for the month of April
 author: Steve Simon
 source: http://www.pmean.com/06/InterestingApril.html
 date: 2006-04-12
-category:
+categories:
 - Blog post
 tags:
 - Interesting stuff

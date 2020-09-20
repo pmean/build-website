@@ -3,7 +3,7 @@ title: Cohen\'s Kappa with small cell sizes
 author: Steve Simon
 source: http://www.pmean.com/07/SmallCellSizes.html
 date: 2007-04-26
-category:
+categories:
 - Blog post
 tags:
 - Measuring agreement
@@ -13,7 +13,7 @@ output: html_document
 Someone on Edstat-L wrote in asking about using Cohen\' Kappa with a
 small sample size in some of the cells. Here\'s an example:
 
-`Â Â Â Â Â Â Â  NÂ Â Â  YÂ Â Â Â     Total   Â  NÂ Â Â  890Â Â  1Â Â Â Â Â  891   Â  YÂ Â Â Â Â  2Â Â  2Â Â Â Â Â Â Â  4      TotalÂ  892Â Â  3Â Â Â Â Â  894`
+`        N    Y        Total     N    890   1      891     Y      2   2        4      Total  892   3      894`
 
 As a general rule, kappa should not be computed when the distribution is
 skewed so heavily towards one category. But another valuable thing to

@@ -2,7 +2,7 @@
 title: Web page for Fisher's Exact test
 author: Steve Simon
 date: 2005-11-17
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

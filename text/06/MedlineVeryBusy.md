@@ -3,7 +3,7 @@ title: Medline is a very busy place
 author: Steve Simon
 source: http://www.pmean.com/06/MedlineVeryBusy.html
 date: 2006-11-06
-category:
+categories:
 - Blog post
 tags:
 - Information searching

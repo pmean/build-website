@@ -2,7 +2,7 @@
 title: More thoughts on equipoise
 author: Steve Simon
 date: 2005-01-17
-category:
+categories:
 - Blog post
 tags:
 - Equipoise in research

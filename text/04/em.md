@@ -2,7 +2,7 @@
 title: EM Algorithm
 author: Steve Simon
 date: 2004-03-15
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

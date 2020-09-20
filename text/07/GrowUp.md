@@ -3,7 +3,7 @@ title: Grow up and learn how to do Statistics
 author: Steve Simon
 source: http://www.pmean.com/07/GrowUp.html
 date: 2007-11-08
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

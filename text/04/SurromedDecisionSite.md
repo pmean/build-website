@@ -2,7 +2,7 @@
 title: Surromed and the DecisionSite S-Plus Server Solution
 author: Steve Simon
 date: 2004-12-08
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

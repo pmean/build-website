@@ -3,7 +3,7 @@ title: Slash and burn models
 author: Steve Simon
 source: http://www.pmean.com/06/SlashAndBurn-06.html
 date: 2006-06-26
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

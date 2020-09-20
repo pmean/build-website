@@ -2,7 +2,7 @@
 title: Writing a research grant
 author: Steve Simon
 date: 1999-09-13
-category:
+categories:
 - Blog post
 tags:
 - Grant writing

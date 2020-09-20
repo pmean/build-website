@@ -2,7 +2,7 @@
 title: E notation
 author: Steve Simon
 date: 1999-09-03
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

@@ -3,7 +3,7 @@ title: Public access to publications from NIH-funded research
 author: Steve Simon
 source: http://www.pmean.com/05/PublicAccess.html
 date: 2005-02-15
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

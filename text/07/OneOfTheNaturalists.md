@@ -2,7 +2,7 @@
 title: One of the naturalists had argued that ...
 author: Steve Simon
 date: 2007-04-09
-category:
+categories:
 - Quotations
 tags:
 - Theory versus practice

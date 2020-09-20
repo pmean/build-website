@@ -3,7 +3,7 @@ title: Further explanation about Type I and Type II errors
 author: Steve Simon
 source: http://www.pmean.com/07/TypeIand IIErrors.html
 date: 2007-04-05
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

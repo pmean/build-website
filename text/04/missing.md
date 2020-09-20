@@ -2,7 +2,7 @@
 title: Missing values
 author: Steve Simon
 date: 2004-06-22
-category:
+categories:
 - Blog post
 tags:
 - Statistical theory

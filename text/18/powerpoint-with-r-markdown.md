@@ -6,7 +6,7 @@ date: "2018-12-05"
 categories:
 - Recommendation
 tags:
-- Presenting research data
+- Presenting research
 - R software
 output: html_document
 ---

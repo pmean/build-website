@@ -3,7 +3,7 @@ title: Handling dropouts in NNT/NNH calculations
 author: Steve Simon
 source: http://www.pmean.com/06/HandlingDropouts.html
 date: 2006-01-16
-category:
+categories:
 - Blog post
 tags:
 - Measuring benefit and risk

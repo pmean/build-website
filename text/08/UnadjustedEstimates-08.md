@@ -2,7 +2,7 @@
 title: Presenting unadjusted and adjusted estimates side by side
 author: Steve Simon
 date: 2008-03-24
-category:
+categories:
 - Blog post
 tags:
 - Modeling issues

@@ -3,7 +3,7 @@ title: Using a colloquial tone in a grant application
 author: Steve Simon
 source: http://www.pmean.com/06/ColloquialTone.html
 date: 2006-07-25
-category:
+categories:
 - Blog post
 tags:
 - Grant writing

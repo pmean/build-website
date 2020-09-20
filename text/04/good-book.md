@@ -2,7 +2,7 @@
 title: Can you recommend a good book?
 author: Steve Simon
 date: 2004-12-24
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

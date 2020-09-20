@@ -2,7 +2,7 @@
 title: Cluster randomization
 author: Steve Simon
 date: 2003-05-09
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

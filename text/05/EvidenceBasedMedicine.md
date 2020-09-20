@@ -2,7 +2,7 @@
 title: Overview of evidence-based-medicine
 author: Steve Simon
 date: 2005-07-29
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

@@ -3,14 +3,14 @@ title: The trouble with apples and oranges
 author: Steve Simon
 source: http://www.pmean.com/07/TroubleWithApples.html
 date: 2007-06-25
-category:
+categories:
 - Blog post
 tags:
 - Observational studies
 - Placebos in research
 output: html_document
 ---
-I am still working on the details ofÂ  a presentation for the [Kansas
+I am still working on the details of  a presentation for the [Kansas
 City University of Medicine and Biosciences](http://www.kcumb.edu/).
 They want me to talk at lunch during the [2007 Homecoming CME and
 Reunion
@@ -36,7 +36,7 @@ my book, [Statistical Evidence in Medical Trials](../evidence.asp).
 In order to get CME credit, I need to specify three objectives. Here
 they are:
 
-Â In this talk, you will learn how to:
+ In this talk, you will learn how to:
 
 -   recognize the importance of a good control group in research
     studies,

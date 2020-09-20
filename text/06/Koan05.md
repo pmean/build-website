@@ -3,7 +3,7 @@ title: Three new koans
 author: Steve Simon
 source: http://www.pmean.com/06/Koan05.html
 date: 2006-04-17
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

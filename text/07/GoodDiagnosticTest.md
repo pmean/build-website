@@ -3,7 +3,7 @@ title: What makes a good diagnostic test?
 author: Steve Simon
 source: http://www.pmean.com/07/GoodDiagnosticTest.html
 date: 2007-04-06
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

@@ -2,7 +2,7 @@
 title: Analyzing percentage data
 author: Steve Simon
 date: 2004-05-24
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

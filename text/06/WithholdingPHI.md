@@ -3,7 +3,7 @@ title: Withholding Personal Health Information from a patient
 author: Steve Simon
 source: http://www.pmean.com/06/WithholdingPHI.html
 date: 2006-06-20
-category:
+categories:
 - Blog post
 tags:
 - Privacy in research

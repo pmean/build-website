@@ -3,7 +3,7 @@ title: Choosing between two conflicting analyses
 author: Steve Simon
 source: http://www.pmean.com/07/ConflictingAnalyses.html
 date: 2007-05-16
-category:
+categories:
 - Blog post
 tags:
 - Pvalues

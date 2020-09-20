@@ -3,7 +3,7 @@ title: Resources for Item Response Theory
 author: Steve Simon
 source: http://www.pmean.com/06/ItemResponseTheory.html
 date: 2006-06-28
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

@@ -3,7 +3,7 @@ title: Putting a human face on Evidence Based Medicine
 author: Steve Simon
 source: http://www.pmean.com/06/HumanFace.html
 date: 2006-06-20
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

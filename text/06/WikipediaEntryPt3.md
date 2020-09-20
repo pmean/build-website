@@ -3,7 +3,7 @@ title: Wikipedia entry on Binomial Confidence Interval, Part 3
 author: Steve Simon
 source: http://www.pmean.com/06/WikipediaEntryPt3.html
 date: 2006-08-29
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

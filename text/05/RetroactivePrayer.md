@@ -3,7 +3,7 @@ title: More on the retroactive prayer study
 author: Steve Simon
 source: http://www.pmean.com/05/RetroactivePrayer.html
 date: 2005-06-10
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

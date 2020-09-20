@@ -3,7 +3,7 @@ title: New entry in the Chance Wiki
 author: Steve Simon
 source: http://www.pmean.com/06/ChanceNews1.html
 date: 2006-06-07
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

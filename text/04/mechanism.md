@@ -2,7 +2,7 @@
 title: Is there a mechanism?
 author: Steve Simon
 date: 2004-07-23
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

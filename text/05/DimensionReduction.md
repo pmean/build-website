@@ -2,7 +2,7 @@
 title: Dimension reduction in a microarray experiment
 author: Steve Simon
 date: 2005-05-25
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 
@@ -21,7 +21,7 @@ output: html_document
 > deviation of one.
 >
 > **Principal components**. A simple approach that looks at linear
-> combinations ofÂ  the columns of X (the genes) that have the largest
+> combinations of  the columns of X (the genes) that have the largest
 > amount of variation. Alternately, you can look at linear combinations
 > of the rows of X (the arrays) that have the largest amount of
 > variation. These linear combinations are often interesting, and you

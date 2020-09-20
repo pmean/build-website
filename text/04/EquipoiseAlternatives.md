@@ -2,7 +2,7 @@
 title: Alternatives to equipoise
 author: Steve Simon
 date: 2004-11-24
-category:
+categories:
 - Blog post
 tags:
 - Equipoise in research

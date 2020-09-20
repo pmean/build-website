@@ -6,7 +6,7 @@ date: "2020-02-04"
 categories:
 - Blog post
 tags:
-- Graphics
+- Graphical display
 output: html_document
 ---
 

@@ -3,7 +3,7 @@ title: Microarray data analysis, again
 author: Steve Simon
 source: http://www.pmean.com/05/MicroarrayC.html
 date: 2005-04-22
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 

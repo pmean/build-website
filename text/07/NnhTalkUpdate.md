@@ -3,7 +3,7 @@ title: NNH talk update
 author: Steve Simon
 source: http://www.pmean.com/07/NnhTalkUpdate.html
 date: 2007-11-12
-category:
+categories:
 - Blog post
 tags:
 - Adverse events in clinical trials

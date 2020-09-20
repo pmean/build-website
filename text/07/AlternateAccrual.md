@@ -3,7 +3,7 @@ title: An alternate way of viewing accrual
 author: Steve Simon
 source: http://www.pmean.com/07/AlternateAccrual.html
 date: 2007-10-03
-category:
+categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials
@@ -41,7 +41,7 @@ output: html_document
 > would be to count the number of EKGs between successive failures to
 > complete the proper paperwork. The values would be
 >
-> `Â 1    11    Â 9    Â 4+`
+> ` 1    11     9     4+`
 >
 > The goal then becomes to model these waiting times. This relates
 > closely to some other work I am thinking about, the tracking of

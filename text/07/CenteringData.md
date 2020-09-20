@@ -3,7 +3,7 @@ title: Centering the data
 author: Steve Simon
 source: http://www.pmean.com/07/CenteringData.html
 date: 2007-06-08
-category:
+categories:
 - Blog post
 tags:
 - Data transformations 

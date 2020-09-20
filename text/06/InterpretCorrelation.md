@@ -3,7 +3,7 @@ title: Interpretation of the correlation coefficient
 author: Steve Simon
 source: http://www.pmean.com/06/InterpretCorrelation.html
 date: 2006-04-04
-category:
+categories:
 - Blog post
 tags:
 - Linear regression

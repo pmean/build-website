@@ -3,7 +3,7 @@ title: Surrogate outcomes
 author: Steve Simon
 source: http://www.pmean.com/05/SurrogateOutcomes.html
 date: 2005-03-23
-category:
+categories:
 - Blog post
 tags:
 output: html_document

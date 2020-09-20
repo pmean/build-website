@@ -2,7 +2,7 @@
 title: Prayer studies
 author: Steve Simon
 date: 2004-12-13
-category:
+categories:
 - Blog post
 tags:
 - Corroborating evidence

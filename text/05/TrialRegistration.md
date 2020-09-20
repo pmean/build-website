@@ -3,7 +3,7 @@ title: Registration of clinical trials
 author: Steve Simon
 source: http://www.pmean.com/05/TrialRegistration.html
 date: 2005-07-22
-category:
+categories:
 - Blog post
 tags:
 - Publication bias

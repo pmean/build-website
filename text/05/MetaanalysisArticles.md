@@ -3,7 +3,7 @@ title: Some articles on meta-analysis
 author: Steve Simon
 source: http://www.pmean.com/05/MetaanalysisArticles.html
 date: 2005-06-10
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews
@@ -48,10 +48,10 @@ examples, however, and they have full free text on the web.
     Celecoxib for Treatment of Osteoarthritis and Rheumatoid Arthritis:
     Systematic Review of Randomised Controlled Trials.** Jonathan J
     Deeks, Lesley A Smith, Matthew D Bradley. BMJ 2002: 325(7365);
-    619-.Â Â  [\[PDF\]](http://bmj.com/cgi/reprint/325/7365/619.pdf)
+    619-.   [\[PDF\]](http://bmj.com/cgi/reprint/325/7365/619.pdf)
 -   **Effect of Iron Supplementation on Incidence of Infectious Illness
     in Children: Systematic Review.** Tarun Gera, H P S Sachdev. BMJ
-    2002: 325(7373); 1142-.Â 
+    2002: 325(7373); 1142-. 
     [\[PDF\]](http://bmj.com/cgi/reprint/325/7373/1142.pdf)
 -   **House Dust Mite Control Measures in the Management of Asthma:
     Meta-Analysis.** Peter C Gotzsche, Cecilia Hammarquist, Michael
@@ -64,7 +64,7 @@ examples, however, and they have full free text on the web.
 -   **Systematic Review of the Effectiveness of Stage Based
     Interventions to Promote Smoking Cessation.** Robert Paul Riemsma,
     Jill Pattenden, Christopher Bridle, Amanda J Sowden, Lisa Mather,
-    Ian S Watt, Anne Walker. BMJ 2003: 326(7400); 1175-1177.Â 
+    Ian S Watt, Anne Walker. BMJ 2003: 326(7400); 1175-1177. 
     [\[PDF\]](http://bmj.com/cgi/reprint/326/7400/1175)
 
 You can find an [earlier version](http://www.pmean.com/05/MetaanalysisArticles.html) of this page on my [original website](http://www.pmean.com/original_site.html).

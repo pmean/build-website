@@ -2,7 +2,7 @@
 title: Review articles on microarrays
 author: Steve Simon
 date: 2005-03-07
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 

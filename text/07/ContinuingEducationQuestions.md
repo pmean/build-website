@@ -3,7 +3,7 @@ title: Continuing education questions for a talk on diagnostic tests
 author: Steve Simon
 source: http://www.pmean.com/07/ContinuingEducationQuestions.html
 date: 2007-07-24
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

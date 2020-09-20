@@ -2,7 +2,7 @@
 title: More than 90% censored values
 author: Steve Simon
 date: 2005-04-22
-category:
+categories:
 - Blog post
 tags:
 - Survival analysis

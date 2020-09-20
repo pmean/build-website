@@ -3,7 +3,7 @@ title: Parametric tests for a ratio
 author: Steve Simon
 source: http://www.pmean.com/06/ParametricTestForRatio.html
 date: 2006-10-27
-category:
+categories:
 - Blog post
 tags:
 - Unusual data

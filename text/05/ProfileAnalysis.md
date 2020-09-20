@@ -3,10 +3,10 @@ title: Profile analysis and MANOVA
 author: Steve Simon
 source: http://www.pmean.com/05/ProfileAnalysis.html
 date: 2005-04-18
-category:
+categories:
 - Blog post
 tags:
-- Mixed linear model
+- Multilevel models
 output: html_document
 ---
 **[StATS]:** **Profile analysis and MANOVA (April

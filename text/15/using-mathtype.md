@@ -6,7 +6,7 @@ date: "2015-04-12"
 categories:
 - Blog post
 tags:
-- Presenting research data
+- Presenting research
 output: html_document
 ---
 

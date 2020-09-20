@@ -3,7 +3,7 @@ title: Be sure to account for dropouts in your sample size calculation
 author: Steve Simon
 source: http://www.pmean.com/06/AccountForDropouts.html
 date: 2006-12-29
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

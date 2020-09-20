@@ -2,7 +2,7 @@
 title: What have you changed your mind about
 author: Steve Simon
 date: 2008-01-18
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources
@@ -10,7 +10,7 @@ output: html_document
 ---
 A group called The Edge (www.edge.org) asks a question each year of
 prominent scientists and a few select non-scientists. This group
-representsÂ  from a broad range of backgrounds and disciplines and
+represents  from a broad range of backgrounds and disciplines and
 provides an interesting variety of responses. Questions asked in the
 past include:
 

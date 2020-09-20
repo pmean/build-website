@@ -3,7 +3,7 @@ title: "Recommendation: Study Development (Kansas City area resource)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/study-development/"
 date: "2013-12-12"
-category:
+categories:
 - Recommendation
 tags:
 - Grant writing

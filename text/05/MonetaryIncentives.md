@@ -3,7 +3,7 @@ title: Monetary incentives
 author: Steve Simon
 source: http://www.pmean.com/05/MonetaryIncentives.html
 date: 2005-01-03
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

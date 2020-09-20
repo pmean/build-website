@@ -2,10 +2,10 @@
 title: Random identification numbers
 author: Steve Simon
 date: 2004-07-26
-category:
+categories:
 - Blog post
 tags:
-- Randomization in research
+- Randomization
 output: html_document
 ---
 Someone asked me today for a set of random numbers. The purpose was to

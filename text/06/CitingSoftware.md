@@ -3,7 +3,7 @@ title: Citing statistical software in research papers
 author: Steve Simon
 source: http://www.pmean.com/06/CitingSoftware.html
 date: 2006-08-25
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

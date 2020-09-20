@@ -3,7 +3,7 @@ title: Help for Statistics at UMKC and KUMC
 author: Steve Simon
 source: http://www.pmean.com/07/HelpForStatistics.html
 date: 2007-10-01
-category:
+categories:
 - Blog post
 tags:
 - Professional details

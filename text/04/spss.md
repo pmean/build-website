@@ -2,7 +2,7 @@
 title: Advanced SPSS methods
 author: Steve Simon
 date: 2004-05-12
-category:
+categories:
 - Blog post
 tags:
 - SPSS software

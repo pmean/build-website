@@ -2,7 +2,7 @@
 title: How do you analyze safety data
 author: Steve Simon
 date: 2008-01-22
-category:
+categories:
 - Blog post
 tags:
 - Adverse events in clinical trials

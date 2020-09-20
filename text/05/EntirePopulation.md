@@ -2,7 +2,7 @@
 title: Sampling the entire population
 author: Steve Simon
 date: 2005-02-03
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics
@@ -33,7 +33,7 @@ and p-values are still meaningful.
 
 An earlier weblog entry
 
--   [Â Enumerative and Analytic Studies (February
+-   [ Enumerative and Analytic Studies (February
     5, 2004)](http://www.childrensmercy.org/stats/weblog2004/enumerative.asp)
 
 discusses this concept in further detail.

@@ -3,7 +3,7 @@ title: Non-random samples
 author: Steve Simon
 source: http://www.pmean.com/05/NonrandomSamples.html
 date: 2005-03-25
-category:
+categories:
 - Blog post
 tags:
 - Observational studies

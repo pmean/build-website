@@ -2,7 +2,7 @@
 title: More on information theory models
 author: Steve Simon
 date: 2005-03-24
-category:
+categories:
 - Blog post
 tags:
 - Information theory

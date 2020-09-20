@@ -2,10 +2,10 @@
 title: Constraints on Randomization
 author: Steve Simon
 date: 2004-03-23
-category:
+categories:
 - Blog post
 tags:
-- Randomization in research
+- Randomization
 output: html_document
 ---
 I received an inquiry from our Institutional Review Board about a study
@@ -40,7 +40,7 @@ where Plaisier noted that most patients did not want to participate in a
 randomized study of extracorporeal shock wave lithotripsy with open
 cholecystectomy, and that a newer technique, laparoscopic
 cholecystectomy, was so popular that it would probably be impossible to
-ever run a randomized trial for this surgery. 
+ever run a randomized trial for this surgery.<U+FFFD>
 
 In a 1984 NEJM article
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=6717508),

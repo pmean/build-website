@@ -1,10 +1,10 @@
 ---
-title: "Quote: In a world where the price of calculation continues to decrease rapidly..."
+title: "In a world where the price of calculation continues to decrease rapidly..."
 author: "Steve Simon"
 source: "http://blog.pmean.com/price-of-calculation/"
 date: "2019-01-20"
 categories:
-- Quote
+- Quotations
 tags:
 - Big data
 output: html_document

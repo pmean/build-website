@@ -2,7 +2,7 @@
 title: Type II error
 author: Steve Simon
 date: 1999-09-13
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

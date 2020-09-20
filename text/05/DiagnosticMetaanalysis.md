@@ -2,7 +2,7 @@
 title: Meta-analysis for a diagnostic test
 author: Steve Simon
 date: 2005-03-22
-category:
+categories:
 - Blog post
 tags:
 - Systematic overviews

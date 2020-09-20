@@ -3,7 +3,7 @@ title: Seminar on Open Access Journals
 author: Steve Simon
 source: http://www.pmean.com/07/OpenAccessJournals.html
 date: 2007-10-05
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

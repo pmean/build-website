@@ -2,7 +2,7 @@
 title: Microarray data analysis
 author: Steve Simon
 date: 2004-03-18
-category:
+categories:
 - Blog post
 tags:
 - Data mining.

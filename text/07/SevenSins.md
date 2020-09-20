@@ -3,7 +3,7 @@ title: The Seven Deadly Sins of Researchers
 author: Steve Simon
 source: http://www.pmean.com/07/SevenSins.html
 date: 2007-04-04
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

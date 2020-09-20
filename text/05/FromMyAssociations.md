@@ -2,7 +2,7 @@
 title: From my associations with doctors in controlled trials ...
 author: Steve Simon
 date: 2005-09-09
-category:
+categories:
 - Quotations
 tags:
 - Research ethics

@@ -3,7 +3,7 @@ title: Using a charge of fraud to achieve a political end
 author: Steve Simon
 source: http://www.pmean.com/06/PoliticalEnd.html
 date: 2006-06-23
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

@@ -2,7 +2,7 @@
 title: Unbalanced sample sizes for evaluating a diagnostic test
 author: Steve Simon
 date: 2004-08-05
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

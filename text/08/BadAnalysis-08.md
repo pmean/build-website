@@ -2,7 +2,7 @@
 title: When a client asks for a bad analysis
 author: Steve Simon
 date: 2008-03-24
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

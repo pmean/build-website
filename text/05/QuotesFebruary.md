@@ -2,7 +2,7 @@
 title: Quotes for February
 author: Steve Simon
 date: 2005-02-21
-category:
+categories:
 - Blog post
 tags:
 - Interesting quotes

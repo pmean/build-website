@@ -3,7 +3,7 @@ title: Open-ended questions on a survey
 author: Steve Simon
 source: http://www.pmean.com/05/OpenEndedQuestions.html
 date: 2005-03-25
-category:
+categories:
 - Blog post
 tags:
 - Survey design

@@ -3,7 +3,7 @@ title: Post hoc comparisons
 author: Steve Simon
 source: http://www.pmean.com/06/PostHocComparisons.html
 date: 2006-03-15
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

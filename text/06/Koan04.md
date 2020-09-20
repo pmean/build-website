@@ -3,7 +3,7 @@ title: Statistical koan \#4
 author: Steve Simon
 source: http://www.pmean.com/06/Koan04.html
 date: 2006-03-26
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

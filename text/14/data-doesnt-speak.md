@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Graphical display
-- Presenting research data
+- Presenting research
 output: html_document
 ---
 

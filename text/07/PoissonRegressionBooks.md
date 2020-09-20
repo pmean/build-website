@@ -3,7 +3,7 @@ title: Books that discuss Poisson regression
 author: Steve Simon
 source: http://www.pmean.com/07/PoissonRegressionBooks.html
 date: 2007-01-19
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression

@@ -3,7 +3,7 @@ title: Surviving Statistical Spitting Matches
 author: Steve Simon
 source: http://www.pmean.com/06/SpittingMatches.html
 date: 2006-04-25
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

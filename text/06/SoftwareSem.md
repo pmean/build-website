@@ -3,7 +3,7 @@ title: Software for structural equations models
 author: Steve Simon
 source: http://www.pmean.com/06/SoftwareSem.html
 date: 2006-03-14
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

@@ -2,7 +2,7 @@
 title: Data is/are
 author: Steve Simon
 date: 2003-11-26
-category:
+categories:
 - Blog post
 tags:
 - Writing research papers

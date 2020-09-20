@@ -3,7 +3,7 @@ title: All models are ...
 author: Steve Simon
 source: http://www.pmean.com/05/AllModelsAre.html
 date: 2005-09-15
-category:
+categories:
 - Quotations
 tags:
 - Statistical models

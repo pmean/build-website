@@ -3,7 +3,7 @@ title: Difficulties in generalizing research
 author: Steve Simon
 source: http://www.pmean.com/06/GeneralizingResearch.html
 date: 2006-02-15
-category:
+categories:
 - Blog post
 tags:
 - Extrapolations in research

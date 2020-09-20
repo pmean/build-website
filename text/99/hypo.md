@@ -2,7 +2,7 @@
 title: Developing a research hypothesis
 author: Steve Simon
 date: 1999-08-18
-category:
+categories:
 - Blog post
 tags:
 - Grant writing

@@ -3,7 +3,7 @@ title: More on the top ten studies in EBM
 author: Steve Simon
 source: http://www.pmean.com/05/TenStudiesB.html
 date: 2005-02-28
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

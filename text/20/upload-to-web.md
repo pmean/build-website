@@ -4,9 +4,9 @@ author: "Steve Simon"
 source: "New"
 date: 2020-08-16
 categories:
-- Recommended
+- Recommendation
 tags:
-- R programming
+- R software
 output: html_document
 ---
 

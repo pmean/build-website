@@ -2,7 +2,7 @@
 title: Hard learned lessons
 author: Steve Simon
 date: 2005-11-25
-category:
+categories:
 - Blog post
 tags:
 - Data management

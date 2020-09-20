@@ -3,7 +3,7 @@ title: Variable cluster sizes and their impact on sample size calculations
 author: Steve Simon
 source: http://www.pmean.com/07/ClusterSize.html
 date: 2007-01-03
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

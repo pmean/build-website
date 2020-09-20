@@ -2,10 +2,10 @@
 title: Incidence density ratio
 author: Steve Simon
 date: 2005-04-19
-category:
+categories:
 - Blog post
 tags:
-- Measuring benefit/risk
+- Measuring benefit and risk
 output: html_document
 ---
 Someone asked me about a technical term, incidence density ratio, that

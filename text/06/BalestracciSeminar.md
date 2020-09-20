@@ -3,7 +3,7 @@ title: Davis Balestracci seminar
 author: Steve Simon
 source: http://www.pmean.com/06/BalestracciSeminar.html
 date: 2006-01-19
-category:
+categories:
 - Blog post
 tags:
 - Quality control

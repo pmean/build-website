@@ -3,7 +3,7 @@ title: Resources describing biplots
 author: Steve Simon
 source: http://www.pmean.com/07/BiplotResources.html
 date: 2007-01-15
-category:
+categories:
 - Blog post
 tags:
 - Categorical data 
@@ -24,7 +24,7 @@ output: html_document
 > The singular value decomposition produces linear combinations of
 > observations and linear combinations of columns that represent
 > dimensions of maximal variation (a formal definition of \"maximal
-> variation\" would require matrix algebra).Â  The biplot is a simple
+> variation\" would require matrix algebra).  The biplot is a simple
 > graphical display these linear combinations. The first two or three
 > dimensions of maximal variation often (but not always) capture
 > interesting relationships among the observations and variables in a

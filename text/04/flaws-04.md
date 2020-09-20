@@ -2,14 +2,14 @@
 title: Overlooking one\'s own flaws
 author: Steve Simon
 date: 2004-05-03
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal
 output: html_document
 ---
 Can we ever be truly objective about ourselves? Maybe not. A recent
-article in Scientific AmericanÂ  by Michael Shermer, [The Enchanted
+article in Scientific American  by Michael Shermer, [The Enchanted
 Glass](http://www.sciam.com/article.cfm?articleID=00044900-A374-1084-983483414B7F0000&ref=sciam&chanID=sa006),
 talks about the tendency to see ourselves more positively than our
 peers. For example, when asked the probability that certain people will

@@ -3,7 +3,7 @@ title: Why does a Bayesian approach make sense for monitoring accrual?
 author: Steve Simon
 source: http://www.pmean.com/08/WhyBayesian-08.html
 date: 2008-05-08
-category:
+categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials

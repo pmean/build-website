@@ -3,7 +3,7 @@ title: What makes a good book? A sense of humor.
 author: Steve Simon
 source: http://www.pmean.com/06/GoodBook-06.html
 date: 2006-02-13
-category:
+categories:
 - Blog post
 tags:
 - Good books

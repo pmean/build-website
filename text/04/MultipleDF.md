@@ -2,7 +2,7 @@
 title: Multiple degree of freedom tests
 author: Steve Simon
 date: 2004-09-22
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

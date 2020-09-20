@@ -3,7 +3,7 @@ title: Reforming conflict of interest statements
 author: Steve Simon
 source: http://www.pmean.com/07/ReformingCoi.html
 date: 2007-11-12
-category:
+categories:
 - Blog post
 tags:
 - Conflict of interest

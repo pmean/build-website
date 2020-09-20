@@ -6,7 +6,7 @@ date: "2020-01-29"
 categories:
 - Blog post
 tags:
-- R programming
+- R software
 output: html_document
 ---
 

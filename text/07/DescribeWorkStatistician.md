@@ -3,7 +3,7 @@ title: What does a statistician do all day?
 author: Steve Simon
 source: http://www.pmean.com/07/DescribeWorkStatistician.html
 date: 2007-09-17
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

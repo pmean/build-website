@@ -2,10 +2,10 @@
 title: Longitudinal data analysis
 author: Steve Simon
 date: 1999-10-15
-category:
+categories:
 - Blog post
 tags:
-- Mixed models
+- Multilevel models
 output: html_document
 ---
 [This is a very early draft]

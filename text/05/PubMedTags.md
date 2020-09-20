@@ -3,7 +3,7 @@ title: PubMed tags
 author: Steve Simon
 source: http://www.pmean.com/05/PubMedTags.html
 date: 2005-04-28
-category:
+categories:
 - Blog post
 tags:
 - Information searching

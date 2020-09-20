@@ -3,7 +3,7 @@ title: Revising my definition section
 author: Steve Simon
 source: http://www.pmean.com/07/RevisingDefinitions.html
 date: 2007-10-18
-category:
+categories:
 - Blog post
 tags:
 - Website details

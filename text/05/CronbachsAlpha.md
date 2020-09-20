@@ -2,7 +2,7 @@
 title: Very low values from Cronbach\'s Alpha
 author: Steve Simon
 date: 2005-07-19
-category:
+categories:
 - Blog post
 tags:
 - Measuring agreement

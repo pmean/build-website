@@ -3,7 +3,7 @@ title: Mathematical and statistical challenges
 author: Steve Simon
 source: http://www.pmean.com/06/IbmPuzzle.html
 date: 2006-12-13
-category:
+categories:
 - Blog post
 tags:
 - Statistical theory

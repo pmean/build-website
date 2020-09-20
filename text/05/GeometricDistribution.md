@@ -2,7 +2,7 @@
 title: Geometric distribution
 author: Steve Simon
 date: 2005-05-16
-category:
+categories:
 - Blog post
 tags:
 - Probability concepts

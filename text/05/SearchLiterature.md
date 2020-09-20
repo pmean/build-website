@@ -3,7 +3,7 @@ title: Searching the literature
 author: Steve Simon
 source: http://www.pmean.com/05/SearchLiterature.html
 date: 2005-05-03
-category:
+categories:
 - Blog post
 tags:
 - Information searching

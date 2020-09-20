@@ -3,7 +3,7 @@ title: A recent contribution to Wikipedia and to the Chance Wiki
 author: Steve Simon
 source: http://www.pmean.com/07/WikipediaContribution.html
 date: 2007-02-15
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

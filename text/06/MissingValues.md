@@ -2,7 +2,7 @@
 title: Seminar notes. Missing values in a dose response model
 author: Steve Simon
 date: 2006-07-17
-category:
+categories:
 - Blog post
 tags:
 - Nonlinear regression

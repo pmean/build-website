@@ -2,10 +2,10 @@
 title: Steps in a typical ANOVA model
 author: Steve Simon
 date: 2003-06-20
-category:
+categories:
 - Blog post
 tags:
-- Analysis of > variance
+- Analysis of variance 
 output: html_document
 ---
 *Dear Professor Mean, I wanted to compare two groups in my research,

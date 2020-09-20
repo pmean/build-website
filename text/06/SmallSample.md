@@ -3,7 +3,7 @@ title: Small sample size, yet again
 author: Steve Simon
 source: http://www.pmean.com/06/SmallSample.html
 date: 2006-03-29
-category:
+categories:
 - Blog post
 tags:
 - Small sample size issues

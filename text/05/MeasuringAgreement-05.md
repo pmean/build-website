@@ -2,7 +2,7 @@
 title: Measuring agreement
 author: Steve Simon
 date: 2005-04-19
-category:
+categories:
 - Blog post
 tags:
 - Measuring agreement

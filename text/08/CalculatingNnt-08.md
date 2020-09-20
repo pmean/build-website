@@ -2,7 +2,7 @@
 title: Calculating NNT for observational studies
 author: Steve Simon
 date: 2008-03-03
-category:
+categories:
 - Blog post
 tags:
 - Measuring benefit and risk
@@ -11,7 +11,7 @@ output: html_document
 Recent discussion at the [Evidence Based health
 list](../category/InterestingWebsites.html#EvBaHe) centered on the
 calculation of NNT in a case-control study. While it is indeed possible
-to do so,Â  I have always been a bit curious why NNT and NNH are computed
+to do so,  I have always been a bit curious why NNT and NNH are computed
 almost exclusively for randomized studies and why they are rarely used
 for observational studies. No one says this explicitly, but I suspect
 that the reason is that the NNT and NNH lead to problematic

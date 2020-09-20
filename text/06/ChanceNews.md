@@ -3,7 +3,7 @@ title: An entry in Chance News
 author: Steve Simon
 source: http://www.pmean.com/06/ChanceNews.html
 date: 2006-01-05
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

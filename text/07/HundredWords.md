@@ -3,7 +3,7 @@ title: What can you do with 100 words?
 author: Steve Simon
 source: http://www.pmean.com/07/HundredWords.html
 date: 2007-01-12
-category:
+categories:
 - Blog post
 tags:
 - Wiki pages

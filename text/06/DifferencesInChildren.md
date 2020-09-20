@@ -3,7 +3,7 @@ title: Differences between children and adults
 author: Steve Simon
 source: http://www.pmean.com/06/DifferencesInChildren.html
 date: 2006-10-13
-category:
+categories:
 - Blog post
 tags:
 - Children in research

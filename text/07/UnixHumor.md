@@ -3,7 +3,7 @@ title: Some UNIX humor
 author: Steve Simon
 source: http://www.pmean.com/07/UnixHumor.html
 date: 2007-03-22
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

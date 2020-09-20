@@ -3,7 +3,7 @@ title: Fraudulent images in research
 author: Steve Simon
 source: http://www.pmean.com/06/FraudulentImages.html
 date: 2006-07-12
-category:
+categories:
 - Blog post
 tags:
 - Ethics in research

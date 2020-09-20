@@ -3,7 +3,7 @@ title: S-plus version 7
 author: Steve Simon
 source: http://www.pmean.com/05/SplusVersion7.html
 date: 2005-04-19
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

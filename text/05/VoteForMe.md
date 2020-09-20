@@ -3,7 +3,7 @@ title: Vote for me
 author: Steve Simon
 source: http://www.pmean.com/05/VoteForMe.html
 date: 2005-12-21
-category:
+categories:
 - Blog post
 tags:
 - Professional details

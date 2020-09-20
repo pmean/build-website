@@ -3,7 +3,7 @@ title: Manipulating graphic images using a touchscreen interface
 author: Steve Simon
 source: http://www.pmean.com/07/TouchscreenInterface.html
 date: 2007-01-23
-category:
+categories:
 - Blog post
 tags:
 - Statistical computing

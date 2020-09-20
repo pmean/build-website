@@ -2,7 +2,7 @@
 title: Control charts for monitoring mortality rates
 author: Steve Simon
 date: 2005-02-11
-category:
+categories:
 - Blog post
 tags:
 - Adverse events in clinical trials

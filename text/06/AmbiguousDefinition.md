@@ -3,7 +3,7 @@ title: Ambiguous nature of the word \"risk\"
 author: Steve Simon
 source: http://www.pmean.com/06/AmbiguousDefinition.html
 date: 2006-09-13
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

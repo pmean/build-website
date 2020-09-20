@@ -3,7 +3,7 @@ title: Another regular expression tip
 author: Steve Simon
 source: http://www.pmean.com/06/RegularExpressionsA.html
 date: 2006-05-23
-category:
+categories:
 - Blog post
 tags:
 - Data management

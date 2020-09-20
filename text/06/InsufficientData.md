@@ -3,7 +3,7 @@ title: Excluding zip codes with insufficient data
 author: Steve Simon
 source: http://www.pmean.com/06/InsufficientData.html
 date: 2006-01-19
-category:
+categories:
 - Blog post
 tags:
 - Descriptive statistics

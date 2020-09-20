@@ -2,7 +2,7 @@
 title: A short biography that can be used as an introduction
 author: Steve Simon
 date: 2008-05-09
-category:
+categories:
 - Blog post
 tags:
 - Professional details

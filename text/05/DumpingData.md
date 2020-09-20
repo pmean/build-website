@@ -2,7 +2,7 @@
 title: Dumping data from R to a text file
 author: Steve Simon
 date: 2005-06-27
-category:
+categories:
 - Blog post
 tags:
 - Data management

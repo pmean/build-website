@@ -2,7 +2,7 @@
 title: Two articles debating equipoise
 author: Steve Simon
 date: 2005-09-09
-category:
+categories:
 - Blog post
 tags:
 - Equipoise in research

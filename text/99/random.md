@@ -5,7 +5,7 @@ date: 1999-08-18
 categories:
 - Blog post
 tags:
-- Randomization in research
+- Randomization
 output: html_document
 ---
 *Dear Professor Mean

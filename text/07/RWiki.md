@@ -3,7 +3,7 @@ title: R Wiki
 author: Steve Simon
 source: http://www.pmean.com/07/RWiki.html
 date: 2007-03-27
-category:
+categories:
 - Blog post
 tags:
 - R software

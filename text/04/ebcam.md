@@ -2,7 +2,7 @@
 title: Evidence-based Complementary and Alternative Medicine
 author: Steve Simon
 date: 2004-06-15
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

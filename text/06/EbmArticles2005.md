@@ -3,7 +3,7 @@ title: Best EBM articles in 2005
 author: Steve Simon
 source: http://www.pmean.com/06/EbmArticles2005.html
 date: 2006-03-06
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

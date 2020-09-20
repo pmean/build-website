@@ -3,7 +3,7 @@ title: The paired availability design
 author: Steve Simon
 source: http://www.pmean.com/05/PairedAvailability.html
 date: 2005-05-31
-category:
+categories:
 - Blog post
 tags:
 - Observational studies

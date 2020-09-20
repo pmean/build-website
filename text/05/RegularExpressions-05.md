@@ -3,7 +3,7 @@ title: More on regular expressions
 author: Steve Simon
 source: http://www.pmean.com/05/RegularExpressions-05.html
 date: 2005-07-21
-category:
+categories:
 - Blog post
 tags:
 - Data management

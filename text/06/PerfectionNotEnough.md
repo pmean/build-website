@@ -3,7 +3,7 @@ title: Perfect isn\'t quite good enough
 author: Steve Simon
 source: http://www.pmean.com/06/PerfectionNotEnough.html
 date: 2006-12-12
-category:
+categories:
 - Blog post
 tags:
 - Small sample size issues

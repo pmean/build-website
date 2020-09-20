@@ -3,11 +3,11 @@ title: I don't want to use a randomized trial
 author: Steve Simon
 source: http://www.pmean.com/07/DontWantToRandomize.html
 date: 2007-07-18
-category:
+categories:
 - Blog post
 tags:
 - Observational studies
-- Randomization in research
+- Randomization
 output: html_document
 ---
 An email on the [MedStats](../category/InterestingWebsites.html#MeStXx)

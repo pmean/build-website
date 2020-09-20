@@ -2,7 +2,7 @@
 title: Fair Use of copyrighted material
 author: Steve Simon
 date: 2005-04-15
-category:
+categories:
 - Blog post
 tags:
 - Website details

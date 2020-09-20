@@ -3,7 +3,7 @@ title: More on normalization
 author: Steve Simon
 source: http://www.pmean.com/05/MicroArrayD.html
 date: 2005-07-28
-category:
+categories:
 - Blog post
 tags:
 - Gene expression 

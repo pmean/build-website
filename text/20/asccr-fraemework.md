@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: 2020-08-06
 categories:
-- Recommended
+- Recommendation
 tags:
 - Professional details
 output: html_document

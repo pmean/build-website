@@ -3,7 +3,7 @@ title: Methods for haplotype analysis
 author: Steve Simon
 source: http://www.pmean.com/06/HaplotypeAnalysis1.html
 date: 2006-05-31
-category:
+categories:
 - Blog post
 tags:
 output: html_document

@@ -2,7 +2,7 @@
 title: Quotes for the month of March
 author: Steve Simon
 date: 2005-03-10
-category:
+categories:
 - Blog post
 tags:
 - Interesting quotes

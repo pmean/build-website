@@ -3,7 +3,7 @@ title: My page names are too long
 author: Steve Simon
 source: http://www.pmean.com/07/LongPageNames.html
 date: 2007-11-17
-category:
+categories:
 - Blog post
 tags:
 - Website details

@@ -3,7 +3,7 @@ title: Rebutting an expert reviewer
 author: Steve Simon
 source: http://www.pmean.com/06/RebuttingReviewer.html
 date: 2006-11-07
-category:
+categories:
 - Blog post
 tags:
 - Human side of statistics

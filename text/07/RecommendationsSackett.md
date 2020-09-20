@@ -3,7 +3,7 @@ title: Recommendations from Sackett et al for evaluating a diagnostic test
 author: Steve Simon
 source: http://www.pmean.com/07/RecommendationsSackett.html
 date: 2007-07-02
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

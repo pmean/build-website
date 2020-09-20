@@ -3,7 +3,7 @@ title: A Poisson regression model with interactions
 author: Steve Simon
 source: http://www.pmean.com/07/PoissonInteractions.html
 date: 2007-12-12
-category:
+categories:
 - Blog post
 tags:
 - Poisson regression 

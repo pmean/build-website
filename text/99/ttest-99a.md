@@ -2,7 +2,7 @@
 title: T-test
 author: Steve Simon
 date: 1999-04-18
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing

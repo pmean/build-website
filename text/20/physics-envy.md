@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: 2020-09-04
 categories:
-- Recommended
+- Recommendation
 tags:
 - Critical appraisal
 output: html_document

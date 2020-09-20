@@ -2,7 +2,7 @@
 title: Brief Biography
 author: Steve Simon
 date: 2004-01-14
-category:
+categories:
 - Blog post
 tags:
 - Professional details

@@ -3,7 +3,7 @@ title: What to measure in a post-marketing surveillance study
 author: Steve Simon
 source: http://www.pmean.com/07/WhatToMeasure.html
 date: 2007-05-02
-category:
+categories:
 - Blog post
 tags:
 - Clinical importance

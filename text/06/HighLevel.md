@@ -3,7 +3,7 @@ title: Searching high level sources first
 author: Steve Simon
 source: http://www.pmean.com/06/HighLevel.html
 date: 2006-05-17
-category:
+categories:
 - Blog post
 tags:
 - Information searching

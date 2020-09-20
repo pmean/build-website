@@ -2,7 +2,7 @@
 title: All or nothing
 author: Steve Simon
 date: 1999-08-18
-category:
+categories:
 - Blog post
 tags:
 - Small sample size issues

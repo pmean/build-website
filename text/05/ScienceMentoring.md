@@ -3,7 +3,7 @@ title: Science mentoring
 author: Steve Simon
 source: http://www.pmean.com/05/ScienceMentoring.html
 date: 2005-09-12
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

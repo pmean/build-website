@@ -2,7 +2,7 @@
 title: Testing baseline imbalance in a randomized study
 author: Steve Simon
 date: 2005-01-19
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

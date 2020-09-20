@@ -3,7 +3,7 @@ title: Importing value labels from Access into SPSS
 author: Steve Simon
 source: http://www.pmean.com/05/ValueLabels.html
 date: 2005-05-24
-category:
+categories:
 - Blog post
 tags:
 - Data management

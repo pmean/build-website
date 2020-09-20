@@ -3,7 +3,7 @@ title: Modular arithmetic and rounding in R
 author: Steve Simon
 source: http://www.pmean.com/07/ModularArithmeticInR.html
 date: 2007-02-01
-category:
+categories:
 - Blog post
 tags:
 - R software

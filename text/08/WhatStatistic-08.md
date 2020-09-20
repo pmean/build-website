@@ -2,7 +2,7 @@
 title: What statistic should I use when?
 author: Steve Simon
 date: 2008-01-04
-category:
+categories:
 - Blog post
 tags:
 - Analysis of variance

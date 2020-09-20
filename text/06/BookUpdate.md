@@ -3,7 +3,7 @@ title: Update on my book, Statistical Evidence in Medical Trials
 author: Steve Simon
 source: http://www.pmean.com/06/BookUpdate.html
 date: 2006-02-28
-category:
+categories:
 - Blog post
 tags:
 - Statistical evidence

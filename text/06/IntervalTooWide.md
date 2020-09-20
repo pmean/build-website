@@ -3,7 +3,7 @@ title: Is my confidence interval too wide?
 author: Steve Simon
 source: http://www.pmean.com/06/IntervalTooWide.html
 date: 2006-09-21
-category:
+categories:
 - Blog post
 tags:
 - Clinical importance

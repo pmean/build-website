@@ -2,7 +2,7 @@
 title: Quotes for the month of January
 author: Steve Simon
 date: 2005-01-24
-category:
+categories:
 - Blog post
 tags:
 - Interesting quotes

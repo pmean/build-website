@@ -3,7 +3,7 @@ title: "PMean: Claims lacking specificity are meaningless"
 author: "Steve Simon"
 source: "http://blog.pmean.com/claims-lacking-specificity/"
 date: "2013-12-10"
-category:
+categories:
 - Blog post
 tags:
 - Critical appraisal

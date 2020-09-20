@@ -2,7 +2,7 @@
 title: Steps in a typical Bayesian model
 author: Steve Simon
 date: 2005-01-24
-category:
+categories:
 - Blog post
 tags:
 - Bayesian statistics

@@ -3,7 +3,7 @@ title: Stepwise regression to screen for covariates
 author: Steve Simon
 source: http://www.pmean.com/05/StepwiseRegression.html
 date: 2005-11-25
-category:
+categories:
 - Blog post
 tags:
 - Covariate adjustment

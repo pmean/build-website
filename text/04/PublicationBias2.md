@@ -2,7 +2,7 @@
 title: Publication bias
 author: Steve Simon
 date: 2004-06-25
-category:
+categories:
 - Blog post
 tags:
 - Publication bias

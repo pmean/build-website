@@ -2,7 +2,7 @@
 title: Sample size calculations in studies with a baseline
 author: Steve Simon
 date: 2004-07-23
-category:
+categories:
 - Blog post
 tags:
 - Sample size justification

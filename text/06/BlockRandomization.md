@@ -3,11 +3,11 @@ title: What is block randomization
 author: Steve Simon
 source: http://www.pmean.com/06/BlockRandomization.html
 date: 2006-06-30
-category:
+categories:
 - Blog post
 tags:
 - Definitions
-- Randomized trials
+- Randomization
 output: html_document
 ---
 Several people have asked me about block randomization, and while I

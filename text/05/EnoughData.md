@@ -2,7 +2,7 @@
 title: Do I have enough data after 24 months of time?
 author: Steve Simon
 date: 2005-04-05
-category:
+categories:
 - Blog post
 tags:
 - Clinical importance

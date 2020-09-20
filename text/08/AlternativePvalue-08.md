@@ -2,7 +2,7 @@
 title: An alternative to the p-value
 author: Steve Simon
 date: 2008-04-03
-category:
+categories:
 - Blog post
 tags:
 - Hypothesis testing
