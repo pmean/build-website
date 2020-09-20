@@ -3,8 +3,10 @@ title: When I talk about statistics ...
 author: Steve Simon
 source: http://www.pmean.com/07/WhenITalk.html
 date: 2007-04-11
-category: Blog post
-tags: Quotations
+category:
+- Quotations
+tags:
+- Critical appraisal
 output: html_document
 ---
 > *When I talk to people about statistics, I find that they usually are

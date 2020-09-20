@@ -3,13 +3,13 @@ title: Conflict of interest list
 author: Steve Simon
 source: http://www.pmean.com/07/ConflictOfInterestList.html
 date: 2007-07-18
-category: Blog post
-tags: Conflict of interest, Professional details
+category:
+- Blog post
+tags:
+- Conflict of interest
+- Professional details
 output: html_document
 ---
-**[StATS]:** **Conflict of interest list (created
-2007-07-18, updated 2008-11-21)**.
-
 I was asked to fill out a conflict of interest form for a talk I will be
 giving in December. While I have not gotten any money directly from drug
 companies recently, I do have some financial support outside the
@@ -62,34 +62,3 @@ give a talk in Indianapolis, IN at their annual conference.
 
 There are additional sources of outside support prior to July 2006,
 which I will try to list when I have time.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html), [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-interest](../category/ConflictOfInterest.html), [Category: Professional
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Conflict of interest list (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html), [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
-

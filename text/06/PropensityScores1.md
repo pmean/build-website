@@ -3,8 +3,10 @@ title: A simple application of propensity scores
 author: Steve Simon
 source: http://www.pmean.com/06/PropensityScores1.html
 date: 2006-04-26
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
 **[StATS]:** **A simple application of propensity

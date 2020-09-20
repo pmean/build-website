@@ -9,7 +9,6 @@ tags:
 - Analysis of means
 output: html_document
 ---
-
 On the web page
 
 [Stats: Calculation of Analysis of Means limits](AnomCalculations1.html)

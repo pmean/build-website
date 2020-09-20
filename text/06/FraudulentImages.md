@@ -3,8 +3,10 @@ title: Fraudulent images in research
 author: Steve Simon
 source: http://www.pmean.com/06/FraudulentImages.html
 date: 2006-07-12
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **Fraudulent images in research (July
@@ -14,7 +16,7 @@ Fraud in research is a big problem. One issue that has come up recently
 is that graphical images can be \"Photoshopped\" to present the image in
 a way that does not truly represent how the original research was done.
 Photoshop is a very useful program that can enhance images, but it must
-be used very carefully and with very limited objectives  There are some
+be used very carefully and with very limited objectives<U+FFFD> There are some
 recently published guidelines that are worth keeping in mind.
 
 In particular, you can\'t use Photoshop to delete a band from a blot or

@@ -3,8 +3,10 @@ title: What constitutes a conflict of interest?
 author: Steve Simon
 source: http://www.pmean.com/06/ConflictOfInterest-06.html
 date: 2006-05-04
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
 **[StATS]:** **What constitutes a conflict of
@@ -37,7 +39,7 @@ interest? (May 4, 2006)**
 > conflict.
 >
 > There is no easy answer, though, for where you would draw the line. A
-> general rule is  that the more transparent and replicable the research
+> general rule is<U+FFFD> that the more transparent and replicable the research
 > process is, the less you have to worry about a conflict of interest.
 > So, for example, you might accept a meta-analysis from a group that
 > has a financial stake in the outcome, but not an invited editorial.

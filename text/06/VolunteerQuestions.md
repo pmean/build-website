@@ -3,8 +3,10 @@ title: Questions a volunteer should ask before participating in a clinical trial
 author: Steve Simon
 source: http://www.pmean.com/06/VolunteerQuestions.html
 date: 2006-07-18
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **Questions a volunteer should ask

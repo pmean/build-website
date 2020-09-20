@@ -3,8 +3,10 @@ title: Vote for me
 author: Steve Simon
 source: http://www.pmean.com/05/VoteForMe.html
 date: 2005-12-21
-category: Blog post
-tags: Professional details
+category:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 **[StATS]:** **Vote for me (December 21, 2005)**.

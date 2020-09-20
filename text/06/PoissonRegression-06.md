@@ -3,8 +3,10 @@ title: Poisson regression? Maybe not!
 author: Steve Simon
 source: http://www.pmean.com/06/PoissonRegression-06.html
 date: 2006-03-10
-category: Blog post
-tags: Poisson regression
+category:
+- Blog post
+tags:
+- Poisson regression
 output: html_document
 ---
 **[StATS]:** **Poisson regression? Maybe not!

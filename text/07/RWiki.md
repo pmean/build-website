@@ -3,12 +3,12 @@ title: R Wiki
 author: Steve Simon
 source: http://www.pmean.com/07/RWiki.html
 date: 2007-03-27
-category: Blog post
-tags: R software
+category:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
-**[StATS]:** **R Wiki (March 27, 2007)**
-
 I use R software for a lot of my complex data analyses and have written
 up a few web pages about various things you can do with R. It turns out
 that R has a Wiki site, R Wiki:

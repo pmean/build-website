@@ -2,9 +2,9 @@
 title: Bonferroni correction
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Multiple comparisons
 output: html_document
 ---
@@ -169,7 +169,7 @@ and why we want to keep scientists from fishing? \-- Judicious John*
 **Examples**
 
 > In a study of Parkinson\'s disease ([Kaasinen
-> 2001](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11687621&dopt=Abstract)), 
+> 2001](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11687621&dopt=Abstract)),<U+FFFD>
 > a group of 61 unmedicated Parkinson\'s disease patients and 45 healthy
 > controls were compared on 22 separate personality scales. The was
 > prior data to suggest that novelty seeking would be lower in patients

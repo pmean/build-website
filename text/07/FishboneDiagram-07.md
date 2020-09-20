@@ -3,13 +3,12 @@ title: How to draw a fishbone diagram
 author: Steve Simon
 source: http://www.pmean.com/07/FishboneDiagram-07.html
 date: 2007-03-08
-category: Blog post
-tags: Quality control
+category:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
-**[StATS]:** **How to draw a fishbone diagram (March
-8, 2007)**. [Category: Quality control](../category/QualityControl.html)
-
 > This is a condensed version of a handout
 >
 > -   [Stats: Examples of a fishbone diagram (March
@@ -63,34 +62,3 @@ output: html_document
 >     www.management-tools.org/files/c-ediag.pdf and
 >     www.saferpak.com/cause\_effect\_articles/howto\_cause\_effect.pdf.
 >     Other guides are available at www.hq.navy.mil/RBA/text/tools.html.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.\~\~\~
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **How to draw a fishbone diagram (March
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

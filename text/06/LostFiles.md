@@ -3,8 +3,10 @@ title: Lost files
 author: Steve Simon
 source: http://www.pmean.com/06/LostFiles.html
 date: 2006-05-23
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Lost files (May 23, 2006)**

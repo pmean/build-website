@@ -3,8 +3,10 @@ title: Seminar on control charts and adverse events
 author: Steve Simon
 source: http://www.pmean.com/06/AdverseEvents1.html
 date: 2006-06-05
-category: Blog post
-tags: Accrual problems in clinical trials
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Seminar on control charts and adverse

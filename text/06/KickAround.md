@@ -3,8 +3,10 @@ title: You won\'t have Steve Simon to kick around anymore
 author: Steve Simon
 source: http://www.pmean.com/06/KickAround.html
 date: 2006-05-24
-category: Blog post
-tags: Professional details
+category:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 **[StATS]:** **You won\'t have Steve Simon to kick

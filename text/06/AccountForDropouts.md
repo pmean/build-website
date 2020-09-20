@@ -3,8 +3,10 @@ title: Be sure to account for dropouts in your sample size calculation
 author: Steve Simon
 source: http://www.pmean.com/06/AccountForDropouts.html
 date: 2006-12-29
-category: Blog post
-tags: Sample size justification
+category:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]:** **Be sure to account for dropouts in

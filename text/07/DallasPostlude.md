@@ -3,13 +3,12 @@ title: Postlude to my Dallas talk
 author: Steve Simon
 source: http://www.pmean.com/07/DallasPostlude.html
 date: 2007-11-11
-category: Blog post
-tags: Diagnostic testing
+category:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
-**[StATS]:** **Postlude to my Dallas talk (November
-11, 2007)**.
-
 > I gave a talk this morning to the American College of Allergy, Asthma
 > & Immunology (ACAAI). I documented my preparations for this talk on my
 > webpages and wanted to share some thoughts I had during and after the
@@ -59,31 +58,3 @@ output: html_document
 > also disclose any financial ties with competing companies. I have
 > tried to put my thoughts down in a [November 12 weblog
 > entry](ReformingCoi.html).
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Postlude to my Dallas talk (November
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
-

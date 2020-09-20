@@ -3,8 +3,10 @@ title: More on the top ten studies in EBM
 author: Steve Simon
 source: http://www.pmean.com/05/TenStudiesB.html
 date: 2005-02-28
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **More on the top ten studies in EBM
@@ -106,7 +108,7 @@ This was a large trial where 2471 pregnant women received a multivitamin
 supplement including folic acid, and 2391 pregnant women received a
 trace-element supplement (copper, manganese, zinc and vitamin C). In the
 latter group, six cases of neural-tube defects were found, while none
-were found in the folic acid group. Surprisingly  this was not mentioned
+were found in the folic acid group. Surprisingly<U+FFFD> this was not mentioned
 in an [MMWR report published in
 1992](http://www.cdc.gov/mmwr/preview/mmwrhtml/00019479.htm) which
 instead cites

@@ -3,13 +3,13 @@ title: Graphics options in R
 author: Steve Simon
 source: http://www.pmean.com/06/GraphicsOptionsR.html
 date: 2006-09-12
-category: Blog post
-tags: Graphical display, R software
+category:
+- Blog post
+tags:
+- Graphical display
+- R software
 output: html_document
 ---
-**[StATS]:** **Graphics options in R (September 12,
-2006)**
-
 When you are producing graphics in R, the default option does not save
 your graphs for later review. You can change this in several ways. My
 comments will discuss the options for R running under Microsoft Windows.
@@ -92,34 +92,3 @@ use one or more trailing zeros with `%02d` (01, 02, 03, etc.) or `%03d`
     Software)](http://www.childrensmercy.org/stats/weblog2005/TrickR.asp)
 -   [Stats: Dates in Excel and R (August 10, 2005, Model,
     Software)](http://www.childrensmercy.org/stats/weblog2005/DatesInR.asp)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html) or [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-display](../category/GraphicalDisplay.html) or [Category: R
-for pages similar to this one at [Category: Graphical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Graphics options in R (September 12,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html) or [Category: R
-software](../category/RSoftware.html).
---->
-

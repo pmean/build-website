@@ -3,8 +3,10 @@ title: Intellectual conflict of interest \[Incomplete\]
 author: Steve Simon
 source: http://www.pmean.com/04/IntellectualCOI.html
 date: 2004-11-24
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
 **[StATS]: Intellectual conflict of interest

@@ -2,9 +2,9 @@
 title: Pilot study
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Ask Professor Mean
 - Pilot studies
 output: html_document

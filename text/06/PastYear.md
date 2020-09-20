@@ -3,8 +3,10 @@ title: The past year in my weblog
 author: Steve Simon
 source: http://www.pmean.com/06/PastYear.html
 date: 2006-01-04
-category: Blog post
-tags: Website details
+category:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]:** **The past year in my weblog (January

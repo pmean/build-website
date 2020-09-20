@@ -3,13 +3,12 @@ title: Use of diagnostic tests for making clinical decisions
 author: Steve Simon
 source: http://www.pmean.com/07/DiagnosticTalk.html
 date: 2007-06-15
-category: Blog post
-tags: Diagnostic testing
+category:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
-**[StATS]:** **Use of diagnostic tests for making
-clinical decisions (June 15, 2007)**
-
 I\'m giving a talk for the [American College of Allergy, Asthma, and
 Immunology](http://www.acaai.org/) with the title \"Use of diagnostic
 tests for making clinical decisions.\" Here\'s an abstract of this talk:
@@ -77,31 +76,3 @@ itself an imperfect standard. Still another bias may occur if the
 results of the gold standard are not blinded from those performing the
 diagnostic test and the results of the diagnostic test are not blinded
 from those performing the gold standard evaluation.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Use of diagnostic tests for making
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
-

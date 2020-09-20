@@ -3,8 +3,10 @@ title: Learning more about control charts
 author: Steve Simon
 source: http://www.pmean.com/06/ControlCharts-06.html
 date: 2006-02-01
-category: Blog post
-tags: Control charts
+category:
+- Blog post
+tags:
+- Control charts
 output: html_document
 ---
 **[StATS]:** **Learning more about control charts

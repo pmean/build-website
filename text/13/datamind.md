@@ -3,8 +3,10 @@ title: "Recommendation: DataMind website"
 author: "Steve Simon"
 source: "http://blog.pmean.com/datamind/"
 date: "2013-12-12"
-category: Recommendation
-tags: R software
+category:
+- Recommendation
+tags:
+- R software
 output: html_document
 ---
 

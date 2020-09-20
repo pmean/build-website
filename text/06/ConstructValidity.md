@@ -3,8 +3,10 @@ title: What is construct validity?
 author: Steve Simon
 source: http://www.pmean.com/06/ConstructValidity.html
 date: 2006-03-08
-category: Blog post
-tags: Measuring agreement
+category:
+- Blog post
+tags:
+- Measuring agreement
 output: html_document
 ---
 **[StATS]:** **What is construct validity? (March 8,
@@ -393,7 +395,7 @@ for this attempt to explain the concept and elaborate its implications.*
 and reliability of the University of Michigan Sedation Scale (UMSS).**
 S. Malviya, T. Voepel-Lewis, A. R. Tait, S. Merkel, K. Tremper, N.
 Naughton. Br J Anaesth 2002: 88(2); 241-5.
-[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11878656&dopt=Abstract) 
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11878656&dopt=Abstract)<U+FFFD>
 *BACKGROUND: Safe care of sedated children requires ongoing assessment
 of the depth of sedation to permit early recognition of progression to
 over-sedation. This study evaluated the validity and reliability of the

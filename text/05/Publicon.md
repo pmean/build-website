@@ -3,8 +3,10 @@ title: Publicon software
 author: Steve Simon
 source: http://www.pmean.com/05/Publicon.html
 date: 2005-03-14
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]:** **Publicon software (March 14, 2005)**

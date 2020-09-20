@@ -11,9 +11,6 @@ tags:
 - Quality control
 output: html_document
 ---
-**[StATS]: What I'm working on right now (created
-2007-03-18)**
-
 There are several research projects where I am actively looking for
 collaborators. I thought I'd outline these topics briefly here.
 
@@ -108,49 +105,3 @@ well to simple graphical summaries. I have always enjoyed the more
 visual applications of statistics (like regression analysis) and I
 believe that a single well constructed graph can provide a wealth of
 information.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html)
-- [Category: Bayesian
-statistics](../category/BayesianStatistics.html)
-- or [Category: Quality
-control](../category/QualityControl.html).
-<!---More--->
-control](../category/QualityControl.html).
-statistics](../category/BayesianStatistics.html)
-- or [Category: Quality
-means](../category/AnalysisOfMeans.html)
-- [Category: Bayesian
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: What I'm working on right now (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html)
-- [Category: Bayesian
-statistics](../category/BayesianStatistics.html)
-- or [Category: Quality
-control](../category/QualityControl.html).
---->
-

@@ -3,8 +3,10 @@ title: Slash and burn models
 author: Steve Simon
 source: http://www.pmean.com/06/SlashAndBurn-06.html
 date: 2006-06-26
-category: Blog post
-tags: Modeling issues
+category:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
 **[StATS]:** **Slash and burn models (created
@@ -13,10 +15,10 @@ output: html_document
 I received an email question about developing a logistic regression
 model with some interaction terms. One of the interaction terms was
 statistically significant but one or both of the main effects associated
-with the interaction was not.  So is it okay, I was asked to include the
+with the interaction was not.<U+FFFD> So is it okay, I was asked to include the
 interaction in the final model but not the non-significant main effects?
 
-First, I need to comment on the \"slash and burn\"  model building
+First, I need to comment on the \"slash and burn\"<U+FFFD> model building
 practice that this person is using. A recent posting to the
 [MedStats](../category/InterestingWebsites.html#MeStXx) email discussion
 group outlines problems with this approach (although it does not use the

@@ -3,8 +3,10 @@ title: The paired availability design
 author: Steve Simon
 source: http://www.pmean.com/05/PairedAvailability.html
 date: 2005-05-31
-category: Blog post
-tags: Observational studies
+category:
+- Blog post
+tags:
+- Observational studies
 output: html_document
 ---
 **[StATS]:** **The paired availability design (May
@@ -18,7 +20,7 @@ was about the paired availability design. Here\'s what I had written.
 > change over time in the availability of a new therapy, then you can
 > pool the effects in these hospitals in a way that avoids some of the
 > biases in a simpler historical controls study. The trick is that your
-> *before*  group were all patients when availability was low,
+> *before* <U+FFFD>group were all patients when availability was low,
 > recognizing that some of these patients will still be lucky enough to
 > get the new therapy. The *after* group were all patients when
 > availability was high, again recognizing that some of these patients

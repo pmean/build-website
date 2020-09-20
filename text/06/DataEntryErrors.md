@@ -3,8 +3,10 @@ title: Auditing for data entry errors
 author: Steve Simon
 source: http://www.pmean.com/06/DataEntryErrors.html
 date: 2006-06-20
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Auditing for data entry errors (June
@@ -25,12 +27,12 @@ management](../category/DataManagement.html)
 > A more formal approach would be to specify the maximum error rate (P)
 > that you are willing to tolerate. Then sample 3/P records. If you find
 > any errors, check all of your data. If you find no errors then you are
-> 95% confident that the error rate is less than P. 
+> 95% confident that the error rate is less than P.<U+FFFD>
 >
 > So for example, if you are willing to tolerate up to a 2% error rate,
 > then sample 3/0.02=150 records. If you notice one or more errors, then
 > you may have an unacceptably high error rate and you need to check the
-> entire data set. 
+> entire data set.<U+FFFD>
 >
 > This method is based on the famous \"rule of three\".
 >

@@ -3,8 +3,10 @@ title: Moderator variables
 author: Steve Simon
 source: http://www.pmean.com/05/ModeratorVariable.html
 date: 2005-02-15
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
 **[StATS]:** **Moderator variables (February 15,

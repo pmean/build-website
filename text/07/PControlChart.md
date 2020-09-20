@@ -9,9 +9,6 @@ tags:
 - Control charts
 output: html_document
 ---
-**[StATS]:** **Calculating a P control chart (March
-7, 2007)**.
-
 If you are collecting data on proportions with a consistent denominator
 for each proportion, then you can plot this data on a control chart.
 This type of chart is called a P chart and it is very simple to
@@ -60,31 +57,3 @@ until you've done the work, but the answers are available on a
 [separate web page](PControlChartAnswers.html).
 
 `Worker #2:   60 56 78 60 74 70 70 68 82 76 72 76   68 78 76 68 74 56 74 62 60 70 60 84   Worker #3:   34 42 30 24 42 32 30 36 36 48 40 26   46 42 48 24 36 24 48 30 24 28 32 44`
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
-<!---More--->
-charts](../category/ControlCharts.html).
-for pages similar to this one at [Category: Control
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Calculating a P control chart (March
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
---->
-

@@ -3,13 +3,13 @@ title: Justifying the sample size for a microarray study
 author: Steve Simon
 source: http://www.pmean.com/07/SampleSizeMicroarray.html
 date: 2007-08-09
-category: Blog post
-tags: Data mining, Sample size justification
+category:
+- Blog post
+tags:
+- Data mining
+- Sample size justification
 output: html_document
 ---
-**[StATS]:** **Justifying the sample size for a
-microarray study (August 9, 2007)**
-
 > I\'m helping out with a grant proposal that is using microarrays for
 > part of the analysis. A microarray is system for quantitative
 > measurement of circulating mRNA in human, animal, or plant tissue. A
@@ -71,34 +71,3 @@ microarray study (August 9, 2007)**
 >
 > I will try to summarize one or more of these papers when I get the
 > chance.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-mining](../category/DataMining.html) or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-mining](../category/DataMining.html) or [Category: Sample size
-for pages similar to this one at [Category: Data
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Justifying the sample size for a
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Data
-mining](../category/DataMining.html) or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-

@@ -3,8 +3,10 @@ title: Can the p-value actually equal 1.0?
 author: Steve Simon
 source: http://www.pmean.com/06/PvalueEqualsOne.html
 date: 2006-05-23
-category: Blog post
-tags: Pvalues
+category:
+- Blog post
+tags:
+- Pvalues
 output: html_document
 ---
 **[StATS]:** **Can the p-value actually equal 1.0? (May 23, 2006)**
@@ -42,7 +44,7 @@ Your two by two table is
 >   --- ---- ----
 >     5   21   26
 >     3   13   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 There are eight other tables that have the same marginal totals.
@@ -50,7 +52,7 @@ There are eight other tables that have the same marginal totals.
 >   --- ---- ----
 >     8   18   26
 >     0   16   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 This table shown above represents the most extreme case in that the
@@ -59,7 +61,7 @@ difference in proportions is the largest possible value (30.77%).
 >   --- ---- ----
 >     7   19   26
 >     1   15   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 This table also produces a more extreme difference in proportions
@@ -68,7 +70,7 @@ This table also produces a more extreme difference in proportions
 >   --- ---- ----
 >     6   20   26
 >     2   14   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 as does this this table (10.58%). Your table shows a difference of
@@ -79,7 +81,7 @@ There are four other tables to consider.
 >   --- ---- ----
 >     4   22   26
 >     4   12   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 This table shows a difference of -9.62%, which is a bit more extreme
@@ -88,16 +90,16 @@ than 0.48%, but in the opposite direction from the previous tables.
 >   --- ---- ----
 >     3   23   26
 >     5   11   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
-This table is also more extreme, with a difference in proportions of 
+This table is also more extreme, with a difference in proportions of<U+FFFD>
 -19.71%
 
 >   --- ---- ----
 >     2   24   26
 >     6   10   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 as is this table (-29.81%)
@@ -105,7 +107,7 @@ as is this table (-29.81%)
 >   --- ---- ----
 >     1   25   26
 >     7    9   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 and this table (-39.90%)
@@ -113,7 +115,7 @@ and this table (-39.90%)
 >   --- ---- ----
 >     0   26   26
 >     8    8   16
->     8   34     
+>     8   34    <U+FFFD>
 >   --- ---- ----
 >
 and this table, which shows a whopping difference of -50%.

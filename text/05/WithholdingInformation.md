@@ -3,8 +3,10 @@ title: Withholding information
 author: Steve Simon
 source: http://www.pmean.com/05/WithholdingInformation.html
 date: 2005-11-28
-category: Blog post
-tags: Blinding in research
+category:
+- Blog post
+tags:
+- Blinding in research
 output: html_document
 ---
 **[StATS]: Withholding information (November 28,

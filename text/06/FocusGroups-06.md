@@ -3,8 +3,10 @@ title: Using focus groups to bridge the gap between research and practice
 author: Steve Simon
 source: http://www.pmean.com/06/FocusGroups-06.html
 date: 2006-12-14
-category: Blog post
-tags: Qualitative data analysis
+category:
+- Blog post
+tags:
+- Qualitative data analysis
 output: html_document
 ---
 **[StATS]:** **Using focus groups to bridge the gap

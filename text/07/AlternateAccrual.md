@@ -3,13 +3,12 @@ title: An alternate way of viewing accrual
 author: Steve Simon
 source: http://www.pmean.com/07/AlternateAccrual.html
 date: 2007-10-03
-category: Blog post
-tags: Accrual problems in clinical trials
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
-**[StATS]: An alternate way of viewing accrual
-(created 2007-10-03)**
-
 > I was talking about a project with a fellow in Emergency Medicine and
 > during the discussion realized a different way of looking at accrual
 > in a clinical trial. She plans to look how accurately EKGs are read by
@@ -53,31 +52,3 @@ output: html_document
 >
 > I\'ll try to work out some of the mathematical details of this
 > situation when I have time.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: An alternate way of viewing accrual
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
---->
-

@@ -3,8 +3,10 @@ title: The role of a statistician on an IRB
 author: Steve Simon
 source: http://www.pmean.com/06/IrbStatistician.html
 date: 2006-03-29
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 **[StATS]:** **The role of a statistician on an IRB
@@ -29,7 +31,7 @@ There\'s a quote that I find particularly relevant here.
 > persuading the investigator to explain why he wishes to do the
 > experiment, by persuading him to justify the experimental treatments,
 > and to explain why it is that the experiment, when completed, will
-> assist him in his research.*\"  \-- Gertrude M. Cox
+> assist him in his research.*\"<U+FFFD> \-- Gertrude M. Cox
 
 My belief is that statisticians, because of their intimate involvement
 with the scientific method, can ask a lot of important and valuable

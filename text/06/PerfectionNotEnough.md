@@ -3,8 +3,10 @@ title: Perfect isn\'t quite good enough
 author: Steve Simon
 source: http://www.pmean.com/06/PerfectionNotEnough.html
 date: 2006-12-12
-category: Blog post
-tags: Small sample size issues
+category:
+- Blog post
+tags:
+- Small sample size issues
 output: html_document
 ---
 **[StATS]:** **Perfect isn\'t quite good enough
@@ -20,7 +22,7 @@ That calculation is a bit disappointing, but perhaps not too surprising.
 The rule of three states that when you observe zero events in a sample
 of n patients, then 3/n is an approximate upper 95% confidence interval.
 So with 0/6, that upper limit would be 3/6 or 50% which is well above
-the control rate of 30%.  So perfection just isn\'t good enough when you
+the control rate of 30%.<U+FFFD> So perfection just isn\'t good enough when you
 have such small sample sizes.
 
 **Related web pages**:

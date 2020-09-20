@@ -3,13 +3,12 @@ title: Does promoting your book constitute a conflict of interest?
 author: Steve Simon
 source: http://www.pmean.com/07/PromotingYourBook.html
 date: 2007-08-13
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
-**[StATS]:** **Does promoting your book constitute a
-conflict of interest? (August 13, 2007)**.
-
 > I give lots of talks and I usually put in a plug for my book,
 > [Statistical Evidence in Medical Trials](../evidence.asp). I even
 > promote my book in the signature file that I put at the bottom of all
@@ -148,31 +147,3 @@ conflict of interest? (August 13, 2007)**.
 > educate but rather to promote a particular drug. There was special
 > concern about training events that promoted off-label uses of a drug,
 > because other forms of promotion of off-label uses were banned.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Does promoting your book constitute a
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
---->
-

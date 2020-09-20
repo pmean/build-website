@@ -2,7 +2,7 @@
 title: Steps in a typical data mining model
 author: Steve Simon
 date: 2003-09-22
-category: 
+category:
 - Blog post
 tags:
 - Data mining

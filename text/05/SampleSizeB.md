@@ -3,8 +3,10 @@ title: Sample size for a binomial confidence interval
 author: Steve Simon
 source: http://www.pmean.com/05/SampleSizeB.html
 date: 2005-10-03
-category: Blog post
-tags: Sample size justification
+category:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]:** **Sample size for a binomial confidence

@@ -3,8 +3,10 @@ title: Multicollinearity is not a violation of assumptions
 author: Steve Simon
 source: http://www.pmean.com/06/Multicollinearity.html
 date: 2006-01-20
-category: Blog post
-tags: Modeling issues
+category:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
 **[StATS]:** **Multicollinearity is not a violation

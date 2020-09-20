@@ -3,8 +3,10 @@ title: What is a beta coefficient?
 author: Steve Simon
 source: http://www.pmean.com/06/BetaCoefficient.html
 date: 2006-04-04
-category: Blog post
-tags: Linear regression
+category:
+- Blog post
+tags:
+- Linear regression
 output: html_document
 ---
 **[StATS]:** **What is a beta coefficient? (April 4,
@@ -50,7 +52,7 @@ output: html_document
 >
 > **WARNING!** In Finance, there is an alternate use of the term \"beta
 > coefficient\" to represent the level of risk associated with an
-> individual stock or of a  portfolio of stocks. This is not the same
+> individual stock or of a<U+FFFD> portfolio of stocks. This is not the same
 > thing as the beta coefficient described above.
 
 This page was written by Steve Simon while working at Children\'s Mercy

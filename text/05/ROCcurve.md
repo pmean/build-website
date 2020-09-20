@@ -3,8 +3,9 @@ title: Application of the ROC curve to microarray data
 author: Steve Simon
 source: http://www.pmean.com/05/ROCcurve.html
 date: 2005-05-26
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **Application of the ROC curve to

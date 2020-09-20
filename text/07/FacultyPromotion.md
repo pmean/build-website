@@ -3,14 +3,12 @@ title: I deserve a promotion
 author: Steve Simon
 source: http://www.pmean.com/07/FacultyPromotion.html
 date: 2007-06-22
-category: Blog post
-tags: Professional details, Professional details
+category:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
-**[StATS]:** **I deserve a promotion (June 22,
-2007)**. [Category: Professional
-details](../category/ProfessionalDetails.html)
-
 Please note a related weblog entry: [External scholars needed to review
 my promotion materials.](ExternalScholars.html)
 
@@ -111,31 +109,3 @@ or portfolio
 
 This portfolio is something, perhaps, that I can develop on these web
 pages.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **I deserve a promotion (June 22,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
-

@@ -3,13 +3,12 @@ title: The stubborn insistence on placebos
 author: Steve Simon
 source: http://www.pmean.com/07/StubbornInsistence.html
 date: 2007-06-29
-category: Blog post
-tags: Placebos in research
+category:
+- Blog post
+tags:
+- Placebos in research
 output: html_document
 ---
-**[StATS]:** **The stubborn insistence on placebos
-(created 2007-06-29)**.
-
 The patients who volunteer for a randomized trial are sacrificing a
 great deal of autonomy. They giving up the right to determine which drug
 they get and they are ceding this authority not to an expert but to a

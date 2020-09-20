@@ -3,13 +3,12 @@ title: How good is my prediction?
 author: Steve Simon
 source: http://www.pmean.com/07/HowGood.html
 date: 2007-08-13
-category: Blog post
-tags: Modeling issues
+category:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
-**[StATS]:** **How good is my prediction? (created
-2007-08-13).**
-
 > *Dear Professor Mean, I have two time series of data, one actual and
 > one predicted. Since I\'m quite new to statistical methods, I would
 > like to know what methods are used to evaluate the different between
@@ -40,31 +39,3 @@ output: html_document
 > prediction in the denominator. In linear regression, this is known as
 > R-squared or multiple R-squared depending on the context, but it
 > should also work for time series data.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-<!---More--->
-issues](../category/ModelingIssues.html).
-for pages similar to this one at [Category: Modeling
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **How good is my prediction? (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
---->
-

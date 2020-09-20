@@ -3,8 +3,10 @@ title: Side effects of Cox-2 inhibitors
 author: Steve Simon
 source: http://www.pmean.com/05/SideEffects-05.html
 date: 2005-02-15
-category: Blog post
-tags: Measuring benefit/risk
+category:
+- Blog post
+tags:
+- Measuring benefit/risk
 output: html_document
 ---
 **[StATS]: Side effects of Cox-2 inhibitors

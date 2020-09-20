@@ -98,6 +98,5 @@ proportion.
 ![](http://www.pmean.com/images/images/07/ConfidenceIntervalForRate04.gif)
 
 though if the proportion is small and the sample size is large
-- the
-confidence interval for a rate   can be used as simple and fairly
+- the confidence interval for a rate   can be used as simple and fairly
 accurate approximation.

@@ -9,9 +9,6 @@ tags:
 - Poisson regression
 output: html_document
 ---
-**[StATS]:** **Confidence intervals for count data
-(created 2007-03-22)**.
-
 If you have data involving counts, you have several options for
 computing confidence intervals. All of these approaches rely on
 approximations to the Poisson distribution or to relationships involving
@@ -151,31 +148,3 @@ other confidence intervals.
 -   [www.idready.org/slides/epistats.pdf](http://www.idready.org/slides/epistats.pdf)
 -   [seer.cancer.gov/seerstat/WebHelp/Standardized_Incidence_Ratio_and_Confidence_Limits.htm](http://seer.cancer.gov/seerstat/WebHelp/Standardized_Incidence_Ratio_and_Confidence_Limits.htm)
 -   [www.medicine.mcgill.ca/epidemiology/dendukuri/course668/poisson.pdf](http://www.medicine.mcgill.ca/epidemiology/dendukuri/course668/poisson.pdf)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-<!---More--->
-regression](../category/PoissonRegression.html).
-for pages similar to this one at [Category: Poisson
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Confidence intervals for count data
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
---->
-

@@ -2,9 +2,9 @@
 title: Where do research ideas come from? by Ronan Conroy
 author: Steve Simon
 date: 1999-09-20
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Grant writing
 output: html_document
 ---

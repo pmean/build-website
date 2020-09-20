@@ -3,8 +3,9 @@ title: Surrogate outcomes
 author: Steve Simon
 source: http://www.pmean.com/05/SurrogateOutcomes.html
 date: 2005-03-23
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **Surrogate outcomes (March 23, 2005,
@@ -67,7 +68,7 @@ Individual educational uses are also okay. Please contact me for
 permission to use these pages in any other way. For more details, please
 consult my [copyright notice](../00/copyright.html).
 
- 
+<U+FFFD>
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

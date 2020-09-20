@@ -2,9 +2,9 @@
 title: Cluster randomization
 author: Steve Simon
 date: 2003-05-09
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Sample size justification
 output: html_document
 ---
@@ -48,12 +48,12 @@ output: html_document
 
 ![](../weblog/images/cluster7.gif){width="438" height="65"}
 
->  Then multiply this sample size by the DEFF to get your adjusted
+> <U+FFFD>Then multiply this sample size by the DEFF to get your adjusted
 > sample size.
 
 ![](../weblog/images/cluster8.gif){width="293" height="26"}
 
->  The number of clusters, c, is just
+> <U+FFFD>The number of clusters, c, is just
 
 ![](../weblog/images/cluster9.gif){width="128" height="51"}
 

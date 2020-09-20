@@ -3,13 +3,13 @@ title: Abstainer errors in study of alcohol abuse
 author: Steve Simon
 source: http://www.pmean.com/06/AbstainerErrors.html
 date: 2006-04-19
-category: Blog post
-tags: Diagnostic testing, Observational studies
+category:
+- Blog post
+tags:
+- Diagnostic testing
+- Observational studies
 output: html_document
 ---
-**[StATS]:** **Abstainer errors in study of alcohol
-abuse (created 2006-04-19).**
-
 A correspondent in the
 [MedStats](../category/InterestingWebsites.html#MeStXx) email discussion
 group (RR), mentioned an interesting example of problems in defining
@@ -43,34 +43,3 @@ I\'ll try to find the original research article and produce a summary
 here. It is an interesting example of how defining a control group
 without the benefit of randomization can sometimes lead to faulty
 conclusions.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-studies](../category/ObservationalStudies.html).
-<!---More--->
-studies](../category/ObservationalStudies.html).
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Abstainer errors in study of alcohol
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-studies](../category/ObservationalStudies.html).
---->
-

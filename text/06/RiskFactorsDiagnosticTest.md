@@ -3,8 +3,10 @@ title: Incorporating risk factors into diagnostic test calculations
 author: Steve Simon
 source: http://www.pmean.com/06/RiskFactorsDiagnosticTest.html
 date: 2006-11-09
-category: Blog post
-tags: Diagnostic testing
+category:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
 **[StATS]:** **Incorporating risk factors into

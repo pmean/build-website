@@ -3,13 +3,12 @@ title: Handouts for quality control workshop
 author: Steve Simon
 source: http://www.pmean.com/07/WorkshopHandouts.html
 date: 2007-03-02
-category: Blog post
-tags: Quality control
+category:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
-**[StATS]:** **Handouts for quality control workshop
-(created 2007-03-02)**.
-
 I am in charge of a workshop for the [American Society for
 Andrology](http://www.andrologysociety.com/) for their [32nd Annual
 Conference](http://www.andrologysociety.com/meetings/709/default.aspx)
@@ -115,31 +114,3 @@ of this material and may have a different spin and an alternative
 perspective. He does a very good job of describing the actual use of
 quality control in a laboratory setting and can offer some practical
 insights about how to use control charts.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
-<!---More--->
-control](../category/QualityControl.html).
-for pages similar to this one at [Category: Quality
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Handouts for quality control workshop
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
---->
-

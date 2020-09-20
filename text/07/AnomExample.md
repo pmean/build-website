@@ -10,9 +10,6 @@ tags:
 - Control charts
 output: html_document
 ---
-**[StATS]: When is a control chart not a control
-chart? (created 2007-02-06)**.
-
 I found a pair of data sets on the web that represent counts and where
 one goal of the data collection is to see if any of the individual
 counts differ from the overall average. They look quite similar and you
@@ -183,43 +180,3 @@ lower limits are 31 and 74.
 
 Seven hospitals have volume above the overall average and twelve have
 volume significantly below the overall average.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html)
-- or [Category: Control
-charts](../category/ControlCharts.html).
-<!---More--->
-charts](../category/ControlCharts.html).
-means](../category/AnalysisOfMeans.html)
-- or [Category: Control
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: When is a control chart not a control
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html)
-- or [Category: Control
-charts](../category/ControlCharts.html).
---->
-

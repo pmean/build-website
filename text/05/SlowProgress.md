@@ -3,8 +3,10 @@ title: Slow progress on my weblog
 author: Steve Simon
 source: http://www.pmean.com/05/SlowProgress.html
 date: 2005-11-25
-category: Blog post
-tags: Website details
+category:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]:** **Slow progress on my weblog (November

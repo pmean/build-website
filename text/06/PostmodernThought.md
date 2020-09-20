@@ -3,8 +3,10 @@ title: Postmodern thought and evidence based medicine
 author: Steve Simon
 source: http://www.pmean.com/06/PostmodernThought.html
 date: 2006-09-07
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Postmodern thought and evidence based
@@ -16,7 +18,7 @@ medicine (September 7, 2006)**
 >
 > has been drawing a lot of attention on the Internet. It takes a
 > post-modern look at Evidence Based Medicine and in the abstract they
-> report that 
+> report that<U+FFFD>
 >
 > > *the evidence-based movement in the health sciences is outrageously
 > > exclusionary and dangerously normative with regards to scientific

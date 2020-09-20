@@ -3,8 +3,9 @@ title: Methods for haplotype analysis
 author: Steve Simon
 source: http://www.pmean.com/06/HaplotypeAnalysis1.html
 date: 2006-05-31
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **Methods for haplotype analysis (May
@@ -20,19 +21,19 @@ output: html_document
 > about the first fifteen SNPs on chromosome 22 for a subject in the
 > HapMap project.
 >
-> `rs3016036  AA         rs2334386  GG         rs2844882  AA         rs11089130 GG         rs738829   GG         rs7510853  CC         rs10154488 CC         rs915674   AG         rs915675   AC         rs915677   GG         rs9604648  GG         rs7286962  CC         rs9604721  CC         rs12159982 CC         rs4389403  AG `
+> `rs3016036<U+FFFD> AA         rs2334386<U+FFFD> GG         rs2844882<U+FFFD> AA         rs11089130 GG         rs738829<U+FFFD><U+FFFD> GG         rs7510853<U+FFFD> CC         rs10154488 CC         rs915674<U+FFFD><U+FFFD> AG         rs915675<U+FFFD><U+FFFD> AC         rs915677<U+FFFD><U+FFFD> GG         rs9604648<U+FFFD> GG         rs7286962<U+FFFD> CC         rs9604721<U+FFFD> CC         rs12159982 CC         rs4389403<U+FFFD> AG `
 >
 > There are eight possible ways that these SNPs could arrange themselves
 > on the two strands of DNA:
 >
-> `Haplotype 1: AGAGGCCAAGGCCCA and              AGAGGCCGCGGCCCG        `\
-> `Haplotype 2: AGAGGCCAAGGCCCG and              AGAGGCCGCGGCCCA        `\
-> `Haplotype 3: AGAGGCCACGGCCCA and              AGAGGCCGAGGCCCG        `\
-> `Haplotype 4: AGAGGCCACGGCCCG and              AGAGGCCGAGGCCCA        `\
-> `Haplotype 5: AGAGGCCGAGGCCCA and              AGAGGCCACGGCCCG        `\
-> `Haplotype 6: AGAGGCCGAGGCCCG and              AGAGGCCACGGCCCA        `\
-> `Haplotype 7: AGAGGCCGCGGCCCA and              AGAGGCCAAGGCCCG        `\
-> `Haplotype 8: AGAGGCCGCGGCCCG and              AGAGGCCAAGGCCCA`
+> `Haplotype 1: AGAGGCCAAGGCCCA and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCGCGGCCCG        `\
+> `Haplotype 2: AGAGGCCAAGGCCCG and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCGCGGCCCA        `\
+> `Haplotype 3: AGAGGCCACGGCCCA and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCGAGGCCCG        `\
+> `Haplotype 4: AGAGGCCACGGCCCG and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCGAGGCCCA        `\
+> `Haplotype 5: AGAGGCCGAGGCCCA and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCACGGCCCG        `\
+> `Haplotype 6: AGAGGCCGAGGCCCG and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCACGGCCCA        `\
+> `Haplotype 7: AGAGGCCGCGGCCCA and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCAAGGCCCG        `\
+> `Haplotype 8: AGAGGCCGCGGCCCG and <U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD><U+FFFD> AGAGGCCAAGGCCCA`
 >
 > Actually, if you look closely at this, there are only four unique
 > haplotypes (1/8, 2/7, 3/6, and 4/5 are effectively the same
@@ -43,7 +44,7 @@ output: html_document
 > out which of these haplotype combinations is actually present, but
 > sequencing is a very expensive thing to do. Instead, you might be able
 > to infer the likelihood of these haplotypes by looking at multiple
-> patients and  making assumptions consistent with Hardy-Wienberg
+> patients and<U+FFFD> making assumptions consistent with Hardy-Wienberg
 > equilibrium.
 >
 > These inferences are effectively the same as many missing data

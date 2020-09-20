@@ -3,13 +3,12 @@ title: Reforming conflict of interest statements
 author: Steve Simon
 source: http://www.pmean.com/07/ReformingCoi.html
 date: 2007-11-12
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
-**[StATS]:** **Reforming conflict of interest
-statements (November 12, 2007)**.
-
 In a recent talk, I was asked to disclose any conflicts of interest. I
 did so, but I also commented that the organization I was speaking to, as
 well as most other organizations have a poorly thought out conflict of
@@ -101,31 +100,3 @@ There has been a lot written about non-financial conflicts of interest
 in general and intellectual conflicts of interest in particular. I\'m
 skeptical about these as well, but the whole topic needs more
 discussion.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Reforming conflict of interest
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
---->
-

@@ -9,7 +9,6 @@ tags:
 - Statistical theory
 output: html_document
 ---
-
 *Dear Professor Mean, I was trying to work with some simple data sets to
 see how large I could make the standard deviation relative to the range.
 I know the standard deviation can never be larger than the range, but I

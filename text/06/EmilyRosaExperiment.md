@@ -3,8 +3,10 @@ title: More on the Emily Rosa experiment
 author: Steve Simon
 source: http://www.pmean.com/06/EmilyRosaExperiment.html
 date: 2006-03-10
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
 **[StATS]:** **More on the Emily Rosa experiment
@@ -108,7 +110,7 @@ trials, only 70 of the 150 guesses were correct (47%, 95% CI 37% to
 57%). In the second series, only 53 of 130 guesses were correct (41%,
 95% CI 32% to 50%).
 
- I talk about this study on several places on these web pages:
+<U+FFFD>I talk about this study on several places on these web pages:
 
 -   [Stats: What alternative medicine can teach us about evidence-based
     medicine (August

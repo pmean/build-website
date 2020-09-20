@@ -3,8 +3,10 @@ title: Seventeen years between research and practice
 author: Steve Simon
 source: http://www.pmean.com/05/SeventeenYears.html
 date: 2005-11-02
-category: Blog post
-tags: Teaching Resources
+category:
+- Blog post
+tags:
+- Teaching Resources
 output: html_document
 ---
 **[StATS]: Seventeen years between research and

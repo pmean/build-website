@@ -3,8 +3,10 @@ title: Non-random samples
 author: Steve Simon
 source: http://www.pmean.com/05/NonrandomSamples.html
 date: 2005-03-25
-category: Blog post
-tags: Observational studies
+category:
+- Blog post
+tags:
+- Observational studies
 output: html_document
 ---
 **[StATS]: Non-random samples (March 25, 2005)**

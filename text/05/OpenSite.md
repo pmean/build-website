@@ -3,8 +3,10 @@ title: Another open site closes
 author: Steve Simon
 source: http://www.pmean.com/05/OpenSite.html
 date: 2005-05-23
-category: Blog post
-tags: Writing research papers
+category:
+- Blog post
+tags:
+- Writing research papers
 output: html_document
 ---
 **[StATS]:** **Another open site closes (May 23,

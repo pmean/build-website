@@ -9,7 +9,6 @@ tags:
 - Bayesian statistics
 output: html_document
 ---
-
 I've spent a bit of time trying to learn how to run a program called
 BUGS. The acronym stands for Bayes Using Gibbs Sampling. Here is my
 first serious attempt to run a BUGS program.

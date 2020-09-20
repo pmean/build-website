@@ -3,8 +3,10 @@ title: The danger of using humor on a web page
 author: Steve Simon
 source: http://www.pmean.com/06/DangerUsingHumor.html
 date: 2006-11-14
-category: Blog post
-tags: Website details
+category:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]:** **The danger of using humor on a web

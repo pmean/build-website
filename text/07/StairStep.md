@@ -10,10 +10,6 @@ tags:
 - R software
 output: html_document
 ---
-**[StATS]:** **Stair step interpolation in R
-(November 15
-- 2007)**.
-
 I am working on some charts that show discrete (sudden) jumps at
 specific time points. This requires the use of stair step
 interpolation
@@ -80,43 +76,4 @@ to get this plot
 ![](http://www.pmean.com/images/images/07/StairStep05.gif)
 
 This plot shows a linear transition between (5,0) and (4,1).
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html)
-- [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-display](../category/GraphicalDisplay.html)
-- [Category: R
-for pages similar to this one at [Category: Graphical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Stair step interpolation in R
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html)
-- [Category: R
-software](../category/RSoftware.html).
---->
 

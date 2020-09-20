@@ -3,8 +3,10 @@ title: Real-life examples of survey mistakes
 author: Steve Simon
 source: http://www.pmean.com/06/SurveyMistakes.html
 date: 2006-01-31
-category: Blog post
-tags: Survey design
+category:
+- Blog post
+tags:
+- Survey design
 output: html_document
 ---
 **[StATS]:** **Real-life examples of survey mistakes

@@ -3,13 +3,13 @@ title: What is block randomization
 author: Steve Simon
 source: http://www.pmean.com/06/BlockRandomization.html
 date: 2006-06-30
-category: Blog post
-tags: Definitions, Randomized trials
+category:
+- Blog post
+tags:
+- Definitions
+- Randomized trials
 output: html_document
 ---
-**[StATS]:** **What is block randomization (June 30,
-2006)**
-
 Several people have asked me about block randomization, and while I
 discuss it briefly on one of my web pages,
 
@@ -35,34 +35,3 @@ separate randomization list for different centers or for different
 demographic groups in order to assure good balance across these
 important factor, is actually stratified randomization and not block
 randomization.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category:
-Definitions](../category/Definitions.html) or [Category: Randomized
-trials](#RandomizedTrials).
-<!---More--->
-trials](#RandomizedTrials).
-Definitions](../category/Definitions.html) or [Category: Randomized
-for pages similar to this one at [Category:
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What is block randomization (June 30,
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category:
-Definitions](../category/Definitions.html) or [Category: Randomized
-trials](#RandomizedTrials).
---->
-

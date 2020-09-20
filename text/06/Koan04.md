@@ -3,8 +3,10 @@ title: Statistical koan \#4
 author: Steve Simon
 source: http://www.pmean.com/06/Koan04.html
 date: 2006-03-26
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Statistical koan \#4 (March 26,

@@ -3,8 +3,10 @@ title: Likelihood software for clinical trials
 author: Steve Simon
 source: http://www.pmean.com/06/LikelihoodSoftware.html
 date: 2006-06-29
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]:** **Likelihood software for clinical

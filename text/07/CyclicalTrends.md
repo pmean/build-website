@@ -9,9 +9,6 @@ tags:
 - Linear regression
 output: html_document
 ---
-**[StATS]:** **Accounting for cyclical trends in a
-regression model (June 13, 2007)**.
-
 One of the doctors brought by a data set that showed the average volume
 of business (number of beds filled) in a month for 28 consecutive months
 starting in January 2005. Here is the data:
@@ -139,31 +136,3 @@ distribution. Second, it fails to exploit the tendency for consecutive
 months values to exhibit a positive autocorrelation. When I have time, I
 will illustrate how to produce a more complex model that accounts for
 these facts.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Linear
-regression](../category/LinearRegression.html).
-<!---More--->
-regression](../category/LinearRegression.html).
-for pages similar to this one at [Category: Linear
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Accounting for cyclical trends in a
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Linear
-regression](../category/LinearRegression.html).
---->
-

@@ -3,8 +3,10 @@ title: Importing value labels from Access into SPSS
 author: Steve Simon
 source: http://www.pmean.com/05/ValueLabels.html
 date: 2005-05-24
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]: Importing value labels from Access into
@@ -12,7 +14,7 @@ SPSS (May 24, 2005)**.
 
 Someone asked about importing data from Access into SPSS. The Access
 file has value labels (e.g., 1=Male, 2=Female, 3=Missing) and wanted to
-know if there was any  way to get this information into SPSS.
+know if there was any<U+FFFD> way to get this information into SPSS.
 
 You cannot easily import value labels into SPSS, as far as I know. One
 workaround is to use a join in Access to link the table that has the

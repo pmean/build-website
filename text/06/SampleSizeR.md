@@ -3,13 +3,13 @@ title: R libraries for sample size justification
 author: Steve Simon
 source: http://www.pmean.com/06/SampleSizeR.html
 date: 2006-07-28
-category: Blog post
-tags: R software, Sample size justification
+category:
+- Blog post
+tags:
+- R software
+- Sample size justification
 output: html_document
 ---
-**[StATS]:** **R libraries for sample size
-justification (July 28, 2006)**
-
 There are a lot of good commercial and free sources for sample size
 justification. Note that most people use the term power calculation, but
 there is more than one way to justify a sample size, so I try to avoid
@@ -667,34 +667,3 @@ noted in Cohen\'s book on sample size.
     modules are large in file size, please view them through a T1
     network rather than a modem connection).*
     seamonkey.ed.asu.edu/\~alex/teaching/WBI/power\_es.html
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html) or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-software](../category/RSoftware.html) or [Category: Sample size
-for pages similar to this one at [Category: R
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **R libraries for sample size
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html) or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-

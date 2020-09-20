@@ -3,8 +3,10 @@ title: Post hoc comparisons
 author: Steve Simon
 source: http://www.pmean.com/06/PostHocComparisons.html
 date: 2006-03-15
-category: Blog post
-tags: Analysis of variance
+category:
+- Blog post
+tags:
+- Analysis of variance
 output: html_document
 ---
 **[StATS]: Post hoc comparisons (created
@@ -14,7 +16,7 @@ Note: It\'s been a while since I last used the \"Ask Professor Mean\"
 format on these web pages, and I can\'t think of a good reason why I
 abandoned that format. I just saw a question on the [Epidemiology email
 discussion group](http://www.listes.umontreal.ca/wws/info/epidemio-l)
-that  I could adapt to the Ask Professor Mean format.
+that<U+FFFD> I could adapt to the Ask Professor Mean format.
 
 *Dear Professor Mean, I need to run multiple comparisons among all
 possible pairs of means following an analysis of variance test. What is

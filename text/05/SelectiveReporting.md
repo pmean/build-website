@@ -3,8 +3,10 @@ title: Selective reporting of research findings
 author: Steve Simon
 source: http://www.pmean.com/05/SelectiveReporting.html
 date: 2005-03-14
-category: Blog post
-tags: Publication bias
+category:
+- Blog post
+tags:
+- Publication bias
 output: html_document
 ---
 **[StATS]:** **Selective reporting of research

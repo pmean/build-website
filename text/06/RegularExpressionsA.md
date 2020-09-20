@@ -3,8 +3,10 @@ title: Another regular expression tip
 author: Steve Simon
 source: http://www.pmean.com/06/RegularExpressionsA.html
 date: 2006-05-23
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Another regular expression tip (May

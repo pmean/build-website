@@ -3,8 +3,10 @@ title: "Recommendation: Comparison of Logistic Regression versus Propensity Scor
 author: "Steve Simon"
 source: "http://blog.pmean.com/propensity-monte-carlo/"
 date: "2013-12-20"
-category: Recommendation
-tags: Risk adjustment
+category:
+- Recommendation
+tags:
+- Risk adjustment
 output: html_document
 ---
 
@@ -47,10 +49,6 @@ least eight events per confounder." Available at:
 <http://europepmc.org/abstract/MED/12882951>
 
 ![](http://www.pmean.com/images/propensity-monte-carlo01.png)
-
-
-
-<U+00A0>
 
 </div>
 

@@ -3,13 +3,12 @@ title: Need for a conflict of interest policy
 author: Steve Simon
 source: http://www.pmean.com/07/ConflictOfInterestPolicy.html
 date: 2007-08-09
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
-**[StATS]:** **Need for a conflict of interest
-policy (August 9, 2007)**.
-
 I attended a very interesting session at the Joint Statistical Meetings
 last week on conflict of interest. I asked a question during the session
 that seemed quite obvious to me at the time, but which was apparently

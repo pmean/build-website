@@ -3,13 +3,13 @@ title: Searching for pediatric articles on Medline
 author: Steve Simon
 source: http://www.pmean.com/06/SearchingPediatricArticles.html
 date: 2006-10-26
-category: Blog post
-tags: Children in research, Information searching
+category:
+- Blog post
+tags:
+- Children in research
+- Information searching
 output: html_document
 ---
-**[StATS]: Searching for pediatric articles on
-Medline (October 26, 2006)**.
-
 A recent publication
 
 -   **Age-Specific Search Strategies for Medline**. Monika Kastner,
@@ -75,34 +75,3 @@ of relevant articles (ie, articles with the desired age-specific
 content) that are retrieved; specificity is the proportion of
 nonrelevant articles (ie, articles that are outside the desired
 age-specific content) not retrieved*.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html) or [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-research](../category/ChildrenInResearch.html) or [Category: Information
-for pages similar to this one at [Category: Children in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Searching for pediatric articles on
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html) or [Category: Information
-searching](../category/InformationSearching.html).
---->
-

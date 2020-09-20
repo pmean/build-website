@@ -3,13 +3,12 @@ title: Resources describing biplots
 author: Steve Simon
 source: http://www.pmean.com/07/BiplotResources.html
 date: 2007-01-15
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Categorical data 
 output: html_document
 ---
-**[StATS]:** **Resources describing biplots (January
-15, 2007)**
-
 > I\'ve written some code in R to present a graphical summary of a
 > complex data set using biplots. I write most of the code myself using
 > the singular value decomposition function (svd) in R. There are a wide
@@ -50,28 +49,3 @@ output: html_document
 >     Torsten Hothorn (2006). Chapman & Hall/CRC. ISBN: 1584885394, and
 > -   **Visualizing Categorical Data**. Michael Friendly (2000). SAS
 >     Publishing. ISBN: 1580256600.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Resources describing biplots (January
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

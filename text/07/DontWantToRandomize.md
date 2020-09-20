@@ -1,15 +1,15 @@
 ---
-title: I don\'t want to use a randomized trial
+title: I don't want to use a randomized trial
 author: Steve Simon
 source: http://www.pmean.com/07/DontWantToRandomize.html
 date: 2007-07-18
-category: Blog post
-tags: Observational studies, Randomization in research
+category:
+- Blog post
+tags:
+- Observational studies
+- Randomization in research
 output: html_document
 ---
-**[StATS]:** **I don\'t want to use a randomized
-trial (July 18, 2007)**
-
 An email on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 group outlines a new treatment that is:
 
@@ -79,34 +79,3 @@ never be persuaded). What you will find is that most of your skeptical
 colleagues will not change their practice on the basis of a single
 historical control study. So why are you doing research that is
 essentially unpersuasive?
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html) or [Category:
-Randomization in research](../category/RandomizationInResearch.html).
-<!---More--->
-Randomization in research](../category/RandomizationInResearch.html).
-studies](../category/ObservationalStudies.html) or [Category:
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **I don\'t want to use a randomized
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html) or [Category:
-Randomization in research](../category/RandomizationInResearch.html).
---->
-

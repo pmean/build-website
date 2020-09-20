@@ -3,13 +3,12 @@ title: Illustrated case studies of research ethics and research fraud
 author: Steve Simon
 source: http://www.pmean.com/07/IllustratedCaseStudies.html
 date: 2007-06-11
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
-**[StATS]:** **Illustrated case studies of research
-ethics and research fraud (created 2007-06-11)**.
-
 I\'ve written a fair number of case studies involving research ethics
 and research fraud for the Chance Wiki. I want to take some of this
 material and produce some web pages with nice illustrations that will
@@ -40,31 +39,3 @@ The death of Ellen Roche during an experiment using healthy volunteers
 is also an interesting case study. For more details, see
 
 -   [jme.bmj.com/cgi/content/extract/28/1/3](http://jme.bmj.com/cgi/content/extract/28/1/3)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-<!---More--->
-research](../category/EthicsInResearch.html).
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Illustrated case studies of research
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
---->
-

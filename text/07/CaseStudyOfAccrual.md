@@ -9,7 +9,6 @@ tags:
 - Accrual problems in clinical trials
 output: html_document
 ---
-
 Someone came by today with a project where he wants to monitor the
 accrual in a clinical trial. The trial started on August 28, 2007 and
 will continue until January 31, 2008, for a total of 22 weeks. He

@@ -3,13 +3,13 @@ title: Applications of the CUSUM chart
 author: Steve Simon
 source: http://www.pmean.com/06/CusumChart.html
 date: 2006-06-20
-category: Blog post
-tags: Accrual problems in clinical trials, Control charts
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Control charts
 output: html_document
 ---
-**[StATS]: Applications of the CUSUM chart (created
-2006-06-20)**
-
 I am interested in investigating the use of CUSUM charts in monitoring
 accrual rates, drop out rates, and adverse event rates in a clinical
 trial. Some references which I might cite in a literature review are:
@@ -63,22 +63,3 @@ trial. Some references which I might cite in a literature review are:
 11. **A surveillance system based on a short memory scheme.** D. L.
     Shore, D. Quade. Stat Med 1989: 8(3); 311-22; discussion 331-2.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2711063&dopt=Abstract)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html) or [Category: Control
-charts](../category/ControlCharts.html).
-
- 
-<!---More--->
- 
-
-<!---Do not use
-**[StATS]: Applications of the CUSUM chart (created
- 
---->
-

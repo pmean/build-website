@@ -3,8 +3,10 @@ title: What percentage of medical decisions are based on good evidence?
 author: Steve Simon
 source: http://www.pmean.com/06/GoodEvidence.html
 date: 2006-12-29
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **What percentage of medical decisions
@@ -18,9 +20,9 @@ that I was aware of:
 
 Robert Todd Carroll offers some historical perspective at
 
--   [www.skepdic.com/refuge/bunk8.html\#myth3](http://www.skepdic.com/refuge/bunk8.html#myth3) 
+-   [www.skepdic.com/refuge/bunk8.html\#myth3](http://www.skepdic.com/refuge/bunk8.html#myth3)<U+FFFD>
     and
--   [skepdic.com/news/newsletter35.html](http://skepdic.com/news/newsletter35.html) 
+-   [skepdic.com/news/newsletter35.html](http://skepdic.com/news/newsletter35.html)<U+FFFD>
 
 Dr. Carroll, with the help of some colleagues, traces the 10% figure
 back to a 1968 study by Dr. Kerr White. Apparently, this was an armchair

@@ -3,8 +3,9 @@ title: American Statistical Association Traveling Course committee
 author: Steve Simon
 source: http://www.pmean.com/06/TravelingCourse.html
 date: 2006-08-15
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **American Statistical Association

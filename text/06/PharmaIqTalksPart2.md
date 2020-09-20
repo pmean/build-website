@@ -3,8 +3,10 @@ title: PharmaIQ talks
 author: Steve Simon
 source: http://www.pmean.com/06/PharmaIqTalksPart2.html
 date: 2006-12-06
-category: Blog post
-tags: Data mining
+category:
+- Blog post
+tags:
+- Data mining
 output: html_document
 ---
 **[StATS]:** **PharmaIQ talks (December 6, 2006)**
@@ -112,7 +114,7 @@ output: html_document
 > >
 > > The key criteria for the wisdom of crowds to work is that you need a
 > > true diversity of opinion, independence of individual opinions, the
-> > ability to draw on local knowledge, and  some mechanism for creating
+> > ability to draw on local knowledge, and<U+FFFD> some mechanism for creating
 > > a consensus estimate.
 > >
 > > CIOMS III presented the five axis model for evaluation of safety

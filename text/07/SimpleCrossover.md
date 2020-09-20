@@ -9,9 +9,6 @@ tags:
 - Analysis of variance
 output: html_document
 ---
-**[StATS]: Analyzing data from a simple crossover
-design (created 2007-08-22)**.
-
 A doctor brought me some data from a crossover design and asked me to
 help analyze it. The analysis was a bit trickier than I had expected, so
 I reviewed some of the material in Stephen Senn's book.
@@ -97,31 +94,3 @@ test for such an interaction.
 
 In a future weblog entry, I will show a formal analysis of the crossover
 data.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
-<!---More--->
-variance](../category/AnalysisOfVariance.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Analyzing data from a simple crossover
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
---->
-

@@ -3,13 +3,12 @@ title: Recommendations from Sackett et al for evaluating a diagnostic test
 author: Steve Simon
 source: http://www.pmean.com/07/RecommendationsSackett.html
 date: 2007-07-02
-category: Blog post
-tags: Diagnostic testing
+category:
+- Blog post
+tags:
+- Diagnostic testing
 output: html_document
 ---
-**[StATS]:** **Recommendations from Sackett et al
-for evaluating a diagnostic test (July 2, 2007)**
-
 There is a lot of controversy about diagnostic testing, and I have
 mentioned some of these controversies in other weblog entries. I wanted
 to review what the experts say about diagnostic testing. The definitive
@@ -160,31 +159,3 @@ Just run a few examples that are typical for a reasonable range of
 patients (e.g., calculate the results using pre-test probabilities from
 45 year old, 65 year old, and 85 year old patients, both smokers and
 non-smokers).
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
-<!---More--->
-testing](../category/DiagnosticTesting.html).
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Recommendations from Sackett et al
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html).
---->
-

@@ -2,8 +2,10 @@
 title: Type II error
 author: Steve Simon
 date: 1999-09-13
-category: Blog post
-tags: Hypothesis testing
+category:
+- Blog post
+tags:
+- Hypothesis testing
 output: html_document
 ---
 ****[StATS]:** Type II error (created 1999-09-13)**

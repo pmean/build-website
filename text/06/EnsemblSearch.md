@@ -3,8 +3,9 @@ title: An Ensembl search
 author: Steve Simon
 source: http://www.pmean.com/06/EnsemblSearch.html
 date: 2006-02-01
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **An Ensembl search (February 1,
@@ -78,7 +79,7 @@ output: html_document
 > > <http://www.ensembl.org/Homo_sapiens/contigview?gene=ENSG00000124151>*
 >
 > I want to use this example as an excuse to try to document the various
-> naming conventions used in genetics.  As you can see from my previous
+> naming conventions used in genetics.<U+FFFD> As you can see from my previous
 > weblog entries, this is something I have tried to do in the past, but
 > have just been too busy to follow-up on.
 >

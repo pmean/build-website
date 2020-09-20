@@ -3,8 +3,9 @@ title: A totally negative microarray experiment
 author: Steve Simon
 source: http://www.pmean.com/05/NegativeMicroarray.html
 date: 2005-10-14
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **A totally negative microarray

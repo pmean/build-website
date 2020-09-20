@@ -3,8 +3,10 @@ title: Materials for Signal Detection and Data Mining Strategies conference
 author: Steve Simon
 source: http://www.pmean.com/06/ConferenceMaterials.html
 date: 2006-11-06
-category: Blog post
-tags: Adminstrative details
+category:
+- Blog post
+tags:
+- Adminstrative details
 output: html_document
 ---
 **[StATS]:** **Materials for Signal Detection and

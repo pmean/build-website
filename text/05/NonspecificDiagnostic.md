@@ -3,8 +3,10 @@ title: A nonspecific diagnostic test
 author: Steve Simon
 source: http://www.pmean.com/05/NonspecificDiagnostic.html
 date: 2005-10-13
-category: Blog post
-tags: Corroborating evidence
+category:
+- Blog post
+tags:
+- Corroborating evidence
 output: html_document
 ---
 **[StATS]:** **A nonspecific diagnostic test

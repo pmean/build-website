@@ -3,14 +3,13 @@ title: Articles on Bayesian data analysis
 author: Steve Simon
 source: http://www.pmean.com/06/BayesianAnalysis.html
 date: 2006-03-30
-category: Blog post
-tags: Bayesian statistics, Bayesian statistics
+category:
+- Blog post
+tags:
+- Bayesian statistics
+- Bayesian statistics
 output: html_document
 ---
-**[StATS]: Articles on Bayesian data analysis (March
-30, 2006)**. [Category: Bayesian
-statistics](../category/BayesianStatistics.html)
-
 The [Journal of Data Science](http://www.sinica.edu.tw/~jds/index.html)
 has a couple of interesting Bayesian papers in the [April 2006
 issue](http://www.sinica.edu.tw/~jds/Content-v-4-2.html).
@@ -51,31 +50,3 @@ language is quite blunt. Users of frequentist methods
 Dr. Lecoutre advocates the use of non-informative priors and offers the
 term \"Fiducial Bayesian\" to describe this approach. Although I dislike
 the aggressive tone of this article, it is worth reading.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
-<!---More--->
-statistics](../category/BayesianStatistics.html).
-for pages similar to this one at [Category: Bayesian
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Articles on Bayesian data analysis (March
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
---->
-

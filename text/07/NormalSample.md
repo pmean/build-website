@@ -9,7 +9,6 @@ tags:
 - Modeling issues
 output: html_document
 ---
-
 *Dear Professor Mean, I'm fitting an ANOVA model to a sample of 25
 observations, and the data is quite skewed. I'm quite worried about
 this, but my husband reassures me that this is not a problem. He says
@@ -54,4 +53,3 @@ distribution of the averages that influences the validity of ANOVA.
 How large is large enough? There is no answer that works in all
 situations. It depends a lot on how extremely different the population
 distribution for individual items departs from normality.
-

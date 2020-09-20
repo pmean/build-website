@@ -3,13 +3,12 @@ title: Monitoring adverse events during peritoneal dialysis
 author: Steve Simon
 source: http://www.pmean.com/07/PeritonealDialysis.html
 date: 2007-11-15
-category: Blog post
-tags: Adverse events in clinical trials
+category:
+- Blog post
+tags:
+- Adverse events in clinical trials
 output: html_document
 ---
-**[StATS]: Monitoring adverse events during
-peritoneal dialysis (created 2007-11-15)**.
-
 One of the doctors I was working with had an interesting data set
 examining adverse events in patients with peritoneal dialysis. These
 patients start treatment with peritoneal dialysis on a specific day and
@@ -115,31 +114,3 @@ Here\'s the plot for peritonitis events.
 
 Notice that there is no evidence that peritonitis is becoming a rarer
 event after the intervention.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Monitoring adverse events during
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
---->
-

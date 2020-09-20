@@ -3,8 +3,10 @@ title: Always ask why
 author: Steve Simon
 source: http://www.pmean.com/06/AlwaysAskWhy.html
 date: 2006-05-08
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 **[StATS]:** **Always ask why (May 8, 2006)**
@@ -71,7 +73,7 @@ output: html_document
 > > persuading the investigator to explain why he wishes to do the
 > > experiment, by persuading him to justify the experimental
 > > treatments, and to explain why it is that the experiment, when
-> > completed, will assist him in his research.*  \-- Gertrude M. Cox.
+> > completed, will assist him in his research.*<U+FFFD> \-- Gertrude M. Cox.
 
 This web page was written by Steve Simon, edited by Steve Simon, and was
 last modified on 04/01/2010.

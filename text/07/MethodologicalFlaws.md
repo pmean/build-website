@@ -3,13 +3,12 @@ title: IRB review of studies with methodological flaws
 author: Steve Simon
 source: http://www.pmean.com/07/MethodologicalFlaws.html
 date: 2007-04-10
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
-**[StATS]:** **IRB review of studies with
-methodological flaws (created 2007-04-10)**
-
 Someone (AK) wrote into the IRBForum asking about how the IRB should do
 when they discover methodological flaws in the proposed research. If
 everything else is in order (e.g., appropriate consent forms), is the
@@ -96,31 +95,3 @@ reputations of being **nitpickers**. Do you want to add an extra
 dimension of nitpickiness to your review process? **Stay away from
 arguments about methodological rigor unless the issue is drop-dead
 important.**
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-<!---More--->
-research](../category/EthicsInResearch.html).
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **IRB review of studies with
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
---->
-

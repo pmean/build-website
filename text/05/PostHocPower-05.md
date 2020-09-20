@@ -3,8 +3,10 @@ title: Post hoc power is never justified
 author: Steve Simon
 source: http://www.pmean.com/05/PostHocPower-05.html
 date: 2005-05-13
-category: Blog post
-tags: Post hoc power
+category:
+- Blog post
+tags:
+- Post hoc power
 output: html_document
 ---
 **[StATS]:** **Post hoc power is never justified

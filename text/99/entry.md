@@ -2,9 +2,9 @@
 title: General guide to data entry
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Data management
 output: html_document
 ---

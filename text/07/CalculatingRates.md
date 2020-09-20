@@ -3,13 +3,12 @@ title: Calculating rates
 author: Steve Simon
 source: http://www.pmean.com/07/CalculatingRates.html
 date: 2007-04-06
-category: Blog post
-tags: Poisson regression
+category:
+- Blog post
+tags:
+- Poisson regression
 output: html_document
 ---
-**[StATS]:** **Calculating rates (created
-2007-04-06)**.
-
 Someone on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 discussion group asked how to calculate a rate of needlestick incidents.
 The answer is quite simple, but there are a variety of possible
@@ -37,31 +36,3 @@ confidence intervals for count data.
 
 -   [Stats: Confidence intervals for count data (March
     22, 2007)](CountData.html)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-<!---More--->
-regression](../category/PoissonRegression.html).
-for pages similar to this one at [Category: Poisson
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Calculating rates (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
---->
-

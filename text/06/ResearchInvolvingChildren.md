@@ -3,8 +3,10 @@ title: Special issues for research involving children
 author: Steve Simon
 source: http://www.pmean.com/06/ResearchInvolvingChildren.html
 date: 2006-09-15
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **Special issues for research involving

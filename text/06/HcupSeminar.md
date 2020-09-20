@@ -3,8 +3,9 @@ title: The Healthcare Cost and Utilization Project
 author: Steve Simon
 source: http://www.pmean.com/06/HcupSeminar.html
 date: 2006-04-11
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **The Healthcare Cost and Utilization
@@ -20,7 +21,7 @@ Project (April 11, 2006)**.
 > a hard A (STAY-TA).
 >
 > You can find a nice overview of HCUP on the web at
-> [www.hcup-us.ahrq.gov/home.jsp](http://www.hcup-us.ahrq.gov/home.jsp). 
+> [www.hcup-us.ahrq.gov/home.jsp](http://www.hcup-us.ahrq.gov/home.jsp).<U+FFFD>
 >
 > > *HCUP Databases provide data beginning in 1988 and contain
 > > encounter-level information for all payers compiled in a uniform

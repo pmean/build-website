@@ -3,13 +3,13 @@ title: Is a 10% shortfall in sample size critical?
 author: Steve Simon
 source: http://www.pmean.com/06/ShortfallSampleSize.html
 date: 2006-10-23
-category: Blog post
-tags: Confidence intervals, Sample size justification
+category:
+- Blog post
+tags:
+- Confidence intervals
+- Sample size justification
 output: html_document
 ---
-**[StATS]:** **Is a 10% shortfall in sample size
-critical? (created 2006-10-23)**.
-
 *Dear Professor Mean, I\'m reviewing a paper where they did a power
 calculation based on 60 patients per group, but in the research study,
 they ended up only getting 55/58 per group. Since their sample size was
@@ -58,34 +58,3 @@ These calculations apply for a two sample t-test, but would probably
 produce comparable results for other scenarios such as a paired t-test,
 an ANOVA F-test, or a Chi-square test for testing independence in a two
 by two table.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
-<!---More--->
-size justification](../category/SampleSizeJustification.html).
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-for pages similar to this one at [Category: Confidence
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Is a 10% shortfall in sample size
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Confidence
-intervals](../category/ConfidenceIntervals.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
---->
-

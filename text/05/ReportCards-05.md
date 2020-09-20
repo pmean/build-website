@@ -3,13 +3,13 @@ title: Report cards
 author: Steve Simon
 source: http://www.pmean.com/05/ReportCards-05.html
 date: 2005-02-16
-category: Blog post
-tags: Evidence Based Medicine, Teaching resources
+category:
+- Blog post
+tags:
+- Evidence Based Medicine
+- Teaching resources
 output: html_document
 ---
-**[StATS]: Report cards (February 16, 2005)**
-[](../category/TeachingResources.html)
-
 The Minnesota Department of Health recently published a report over a 15
 month period that documenting 99 events occurring in Minnesota hospitals
 that should never occur. This included things like wrong-site surgery,
@@ -221,34 +221,3 @@ has the following quote:
     [\[Full
     text\]](http://bmj.bmjjournals.com/cgi/content/full/316/7146/1685)
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/316/7146/1685.pdf)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Evidence Based
-Medicine](../category/TeachingResources.html) or [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-Medicine](../category/TeachingResources.html) or [Category: Teaching
-for pages similar to this one at [Category: Evidence Based
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Report cards (February 16, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Evidence Based
-Medicine](../category/TeachingResources.html) or [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-

@@ -3,8 +3,10 @@ title: The tension between scientific validity and ethical concerns
 author: Steve Simon
 source: http://www.pmean.com/06/TensionScienceEthics.html
 date: 2006-11-17
-category: Blog post
-tags: Placebos in research
+category:
+- Blog post
+tags:
+- Placebos in research
 output: html_document
 ---
 **[StATS]:** **The tension between scientific
@@ -27,7 +29,7 @@ validity and ethical concerns (created 2006-11-17)**.
 > from \"placebos are never acceptable when an active control is
 > available\" to \"placebo surgery is an acceptable research option.\"
 >
-> A good starting point for this debate is the  International Conference
+> A good starting point for this debate is the<U+FFFD> International Conference
 > on Harmonization (ICH) report E-10 which discusses the use of placebos
 > and various alternative designs in great detail. The big advantage of
 > knowing ICH E-10 inside and out is that it is an authoritative summary
@@ -37,7 +39,7 @@ validity and ethical concerns (created 2006-11-17)**.
 > It is also important to recognize that there is some tension here
 > between the use of a placebo (or scientific validity in a broader
 > sense) the desire to avoid undue pain and suffering (ethical concerns
-> in a broader sense). A research design  that is more attractive from
+> in a broader sense). A research design<U+FFFD> that is more attractive from
 > one perspective is often less attractive from the other perspective.
 >
 > That\'s not to say that the two concerns are mutually exclusive. A

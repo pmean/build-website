@@ -3,8 +3,10 @@ title: Self experimentation
 author: Steve Simon
 source: http://www.pmean.com/05/SelfExperimentation.html
 date: 2005-09-13
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **Self experimentation (created
@@ -14,7 +16,7 @@ Stephen Dubner and Steven D. Levitt, authors of the hot selling book,
 **Freakonomics: A Rogue Economist Explores the Hidden Side of
 Everything**, have a regular column in the New York Times Magazine. In
 the September 11, 2005 issue, the article \"Does the Truth Lie Within\"
-discusses self-experimentation.  The authors highlight Seth Roberts:
+discusses self-experimentation.<U+FFFD> The authors highlight Seth Roberts:
 
 > *Seth Roberts is a 52-year-old psychology professor at the University
 > of California at Berkeley. If you knew Roberts 25 years ago, you might

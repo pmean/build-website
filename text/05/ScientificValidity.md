@@ -3,8 +3,10 @@ title: IRBs and scientific validity
 author: Steve Simon
 source: http://www.pmean.com/05/ScientificValidity.html
 date: 2005-08-12
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]: IRBs and scientific validity (August 12,

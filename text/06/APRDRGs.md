@@ -3,8 +3,10 @@ title: Using APR-DRGs for risk adjustment
 author: Steve Simon
 source: http://www.pmean.com/06/APRDRGs.html
 date: 2006-05-24
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
 **[StATS]:** **Using APR-DRGs for risk adjustment

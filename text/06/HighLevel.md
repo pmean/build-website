@@ -3,8 +3,10 @@ title: Searching high level sources first
 author: Steve Simon
 source: http://www.pmean.com/06/HighLevel.html
 date: 2006-05-17
-category: Blog post
-tags: Information searching
+category:
+- Blog post
+tags:
+- Information searching
 output: html_document
 ---
 **[StATS]:** **Searching high level sources first

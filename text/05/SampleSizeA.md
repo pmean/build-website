@@ -3,8 +3,10 @@ title: Sample size calculation for a nonparametric test
 author: Steve Simon
 source: http://www.pmean.com/05/SampleSizeA.html
 date: 2005-03-08
-category: Blog post
-tags: Sample size justification
+category:
+- Blog post
+tags:
+- Sample size justification
 output: html_document
 ---
 **[StATS]:** **Sample size calculation for a

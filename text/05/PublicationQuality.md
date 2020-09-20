@@ -3,8 +3,10 @@ title: Quality of published research
 author: Steve Simon
 source: http://www.pmean.com/05/PublicationQuality.html
 date: 2005-03-14
-category: Blog post
-tags: Systematic overviews
+category:
+- Blog post
+tags:
+- Systematic overviews
 output: html_document
 ---
 **[StATS]:** **Quality of published research (March
@@ -64,7 +66,7 @@ overviews](../category/SystematicOverviews.html)
 >     [\[PDF\]](http://bmj.com/cgi/reprint/317/7167/1181.pdf)
 >
 > which documented problems with selecting the wrong patients, not
-> studying enough of them, not studying them long  enough and not
+> studying enough of them, not studying them long<U+FFFD> enough and not
 > measuring them properly.
 
 [![Creative Commons

@@ -3,8 +3,10 @@ title: When is a co-authorship warranted?
 author: Steve Simon
 source: http://www.pmean.com/06/Coauthorship.html
 date: 2006-04-04
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 **[StATS]:** **When is a co-authorship warranted?

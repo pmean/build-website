@@ -3,13 +3,12 @@ title: Seminar on Open Access Journals
 author: Steve Simon
 source: http://www.pmean.com/07/OpenAccessJournals.html
 date: 2007-10-05
-category: Blog post
-tags: Writing research papers
+category:
+- Blog post
+tags:
+- Writing research papers
 output: html_document
 ---
-**[StATS]:** **Seminar on Open Access Journals
-(October 5, 2007)**
-
 > I was inspired by a talk by Jim Pitman, President of the IMS, at the
 > Joint Statistical Meetings in August, \"Open Access to Professional
 > Information\" so when an opportunity arose for me to give a talk at
@@ -40,31 +39,3 @@ output: html_document
 > The talk is on October 18, so I have to hustle. I\'m going to write an
 > abstract and course objectives and place it on my [training
 > page](../training.asp).
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Writing research
-papers](../category/WritingResearchPapers.html).
-<!---More--->
-papers](../category/WritingResearchPapers.html).
-for pages similar to this one at [Category: Writing research
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Seminar on Open Access Journals
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Writing research
-papers](../category/WritingResearchPapers.html).
---->
-

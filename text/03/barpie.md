@@ -2,9 +2,9 @@
 title: Pitch the pie! Ban the bar!
 author: Steve Simon
 date: 2003-06-05
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Descriptive statistics
 - Graphical display
 output: html_document
@@ -47,23 +47,23 @@ on June 5, 2003.*
 > page.
 
   ------------------- ------------ -------- -------------- ---------
-                        Amphibians    Birds           Cats      Dogs
+                    <U+FFFD>   Amphibians    Birds           Cats      Dogs
       Initial Cost^1^       113.41   354.17         298.70    341.92
        Food/Treats^2^        48.99   295.31          97.74    246.94
     Vet Bills/Meds^2^        48.70   354.39         193.08    317.24
        Misc. Costs^2^        41.11   116.06          64.19    211.57
-                                                                    
-                           Ferrets     Fish   Hermit Crabs   Lizards
+                    <U+FFFD>            <U+FFFD>        <U+FFFD>              <U+FFFD>         <U+FFFD>
+                    <U+FFFD>      Ferrets     Fish   Hermit Crabs   Lizards
       Initial Cost^1^        96.58   104.74          89.57    103.84
        Food/Treats^2^       101.86    58.68          32.79    296.84
     Vet Bills/Meds^2^       150.86    43.60          21.72    348.00
        Misc. Costs^2^        60.10   103.28           7.97     92.78
-                                                                    
-                           Rodents   Snakes     Tarantulas          
-      Initial Cost^1^        53.16    97.31         101.11          
-       Food/Treats^2^        52.54   295.93          48.43          
-    Vet Bills/Meds^2^        52.00   153.83          23.68          
-       Misc. Costs^2^        61.56    70.06          43.32          
+                    <U+FFFD>            <U+FFFD>        <U+FFFD>              <U+FFFD>         <U+FFFD>
+                    <U+FFFD>      Rodents   Snakes     Tarantulas         <U+FFFD>
+      Initial Cost^1^        53.16    97.31         101.11         <U+FFFD>
+       Food/Treats^2^        52.54   295.93          48.43         <U+FFFD>
+    Vet Bills/Meds^2^        52.00   153.83          23.68         <U+FFFD>
+       Misc. Costs^2^        61.56    70.06          43.32         <U+FFFD>
   ------------------- ------------ -------- -------------- ---------
 
 ^1^includes items like cost of the pet, initial shots, litter box,
@@ -213,12 +213,12 @@ collar, aquarium, etc.\
 > column. I also sorted the numbers based on the initial cost.
 
   -------------- ---------- ----------- ------------- ----------
-                   Initial\      Food/\   Vet Bills/\     Misc.\
+               <U+FFFD>   Initial\      Food/\   Vet Bills/\     Misc.\
                     Cost^1^   Treats^2^       Meds^2^   Costs^2^
 
            Birds        350         300           350        120
 
-           Dogs         340         250           320        210
+           Dogs<U+FFFD>        340         250           320        210
 
             Cats        300         100           190         60
 
@@ -257,7 +257,7 @@ collar, aquarium, etc.\
 
 **Summary**
 
-> If you are  displaying numbers, pitch the pie and ban the bar. Most of
+> If you are<U+FFFD> displaying numbers, pitch the pie and ban the bar. Most of
 > the time you are better off displaying the numbers themselves. Just be
 > sure to do a little bit of rounding and re-ordering first.
 

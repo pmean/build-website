@@ -3,8 +3,10 @@ title: Unusual advice about control charts
 author: Steve Simon
 source: http://www.pmean.com/06/ControlChartAdvice.html
 date: 2006-12-18
-category: Blog post
-tags: Control charts
+category:
+- Blog post
+tags:
+- Control charts
 output: html_document
 ---
 **[StATS]:** **Unusual advice about control charts
@@ -48,7 +50,7 @@ signal. This is a point that is out of control because control charts
 are not perfect and sometimes they produce false positive signals. This
 happens rarely, but it does happen. But how will the average person know
 what a point that is out of control represents a false positive signal?
-Well, one way is to be so smart and so perceptive that  you can
+Well, one way is to be so smart and so perceptive that<U+FFFD> you can
 recognize better than a control chart can what is going on with your
 work process. There are few of us who are that intelligent. Another way
 you might recognize that a signal is a false positive signal is if you

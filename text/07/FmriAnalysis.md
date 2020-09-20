@@ -3,13 +3,12 @@ title: Resources for fMRI data analysis
 author: Steve Simon
 source: http://www.pmean.com/07/FmriAnalysis.html
 date: 2007-02-08
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Imaging 
 output: html_document
 ---
-**[StATS]:** **Resources for fMRI data analysis
-(February 8, 2007)**.
-
 > I was asked to provide feedback on a grant that will use functional
 > magnetic resonance imaging (fMRI) as one component of the research.
 > This technique is used to quantify brain activity by measuring changes
@@ -90,28 +89,3 @@ output: html_document
 >     Glover. J Neurosci Methods 2002: 118(2); 115-28.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12204303&dopt=Abstract)
 >     [\[Abstract\]](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6T04-460DN2T-3&_user=4010150&_coverDate=08%2F30%2F2002&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000062051&_version=1&_urlVersion=0&_userid=4010150&md5=26fc26c64c63a698675a94b8d03aee51)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Resources for fMRI data analysis
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

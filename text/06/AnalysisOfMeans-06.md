@@ -3,8 +3,10 @@ title: Some resources for Analysis of Means
 author: Steve Simon
 source: http://www.pmean.com/06/AnalysisOfMeans-06.html
 date: 2006-06-30
-category: Blog post
-tags: Analysis of means
+category:
+- Blog post
+tags:
+- Analysis of means
 output: html_document
 ---
 **[StATS]: Some resources for Analysis of Means
@@ -44,7 +46,7 @@ A brief tutorial for ANOM is available at
 -   [www.sixsigmafirst.com/ANOM.htm](http://www.sixsigmafirst.com/ANOM.htm)
 
 that shows how to use MINITAB for ANOM. Most software programs do not
-have ANOM.  (I know for sure that R, SPSS, and STATA do not have it) but
+have ANOM.<U+FFFD> (I know for sure that R, SPSS, and STATA do not have it) but
 instead provide the results of the ANOVA model instead. Apparently, ANOM
 is available in the SAS/QC package.
 
@@ -72,7 +74,7 @@ the book on the web in PDF format at
 
 -   [www.siam.org/books/textbooks/SA18sample.pdf](http://www.siam.org/books/textbooks/SA18sample.pdf)
 
-The first  chapter includes several simple examples. The first example
+The first<U+FFFD> chapter includes several simple examples. The first example
 shows paint drying times for four different types of paint. The data
 (mean +/- sd) are
 

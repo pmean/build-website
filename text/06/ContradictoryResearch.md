@@ -3,8 +3,10 @@ title: Contradictory research
 author: Steve Simon
 source: http://www.pmean.com/06/ContradictoryResearch.html
 date: 2006-03-30
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
 **[StATS]:** **Contradictory research (created

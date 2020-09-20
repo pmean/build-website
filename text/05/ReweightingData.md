@@ -3,8 +3,10 @@ title: Re-weighting the data
 author: Steve Simon
 source: http://www.pmean.com/05/ReweightingData.html
 date: 2005-01-25
-category: Blog post
-tags: Covariate adjustment
+category:
+- Blog post
+tags:
+- Covariate adjustment
 output: html_document
 ---
 **[StATS]:** **Re-weighting the data (January 25,
@@ -39,7 +41,7 @@ differing demographic mix that causes the paradox.
 The average score for each state is a weighted average. For Nebraska,
 the calculation is
 
-> 281\*0.87 +  236\*0.05 + 259\*0.08 = 277
+> 281\*0.87 +<U+FFFD> 236\*0.05 + 259\*0.08 = 277
 
 and for New Jersey, the calculation is
 

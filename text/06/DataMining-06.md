@@ -3,8 +3,10 @@ title: Data mining and drug safety
 author: Steve Simon
 source: http://www.pmean.com/06/DataMining-06.html
 date: 2006-05-04
-category: Blog post
-tags: Adverse events in clinical trials
+category:
+- Blog post
+tags:
+- Adverse events in clinical trials
 output: html_document
 ---
 **[StATS]: Data mining and drug safety (created

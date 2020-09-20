@@ -3,14 +3,12 @@ title: Reviewing a paper on qualitative data analysis
 author: Steve Simon
 source: http://www.pmean.com/07/QualitativeReview.html
 date: 2007-03-11
-category: Blog post
-tags: Qualitative data analysis
+category:
+- Blog post
+tags:
+- Qualitative data analysis
 output: html_document
 ---
-**[StATS]:** **Reviewing a paper on qualitative data
-analysis (March 11, 2007)**. [Category: Qualitative data
-analysis](../category/QualitativeData.html)
-
 > I was asked by BMJ to review a paper that involved a qualitative data
 > analysis. These reviews are confidential, so I don\'t want to describe
 > the paper in any detail. It is worthwhile, however, to note some of
@@ -153,34 +151,3 @@ analysis](../category/QualitativeData.html)
 > -   [resources.bmj.com/bmj/authors/checklists-forms/qualitative-research](http://resources.bmj.com/bmj/authors/checklists-forms/qualitative-research)
 >
 > The last source is particularly relevant to me.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Reviewing a paper on qualitative data
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

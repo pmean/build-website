@@ -2,9 +2,9 @@
 title: E notation
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Writing research papers
 output: html_document
 ---

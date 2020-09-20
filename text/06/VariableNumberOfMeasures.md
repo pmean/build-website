@@ -3,8 +3,10 @@ title: The complexities of having a variable number of measures per patient
 author: Steve Simon
 source: http://www.pmean.com/06/VariableNumberOfMeasures.html
 date: 2006-11-16
-category: Blog post
-tags: Mixed linear regression models
+category:
+- Blog post
+tags:
+- Mixed linear regression models
 output: html_document
 ---
 **[StATS]:** **The complexities of having a variable

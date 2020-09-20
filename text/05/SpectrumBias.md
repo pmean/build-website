@@ -3,12 +3,13 @@ title: Spectrum Bias
 author: Steve Simon
 source: http://www.pmean.com/05/SpectrumBias.html
 date: 2005-01-04
-category: Blog post
-tags: Diagnostic testing, Observational studies
+category:
+- Blog post
+tags:
+- Diagnostic testing
+- Observational studies
 output: html_document
 ---
-**[StATS]:** **Spectrum Bias (January 4, 2005)**
-
 I tried to start a page on [diagnostic
 tests](../category/DiagnosticTesting.html) a while back, but have not
 had the time to fully develop it. One of the important issues for
@@ -152,34 +153,3 @@ www.consort-statement.org/stardstatement.htm
     screening.** Schmitz N, Kruse J, Tress W. Soc Psychiatry Psychiatr
     Epidemiol 2000: 35(8); 375-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11037307&dopt=Abstract)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-studies](#ObservationalStudies).
-<!---More--->
-studies](#ObservationalStudies).
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-for pages similar to this one at [Category: Diagnostic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Spectrum Bias (January 4, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Diagnostic
-testing](../category/DiagnosticTesting.html) or [Category: Observational
-studies](#ObservationalStudies).
---->
-

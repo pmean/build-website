@@ -9,9 +9,6 @@ tags:
 - Adverse events in clinical trials
 output: html_document
 ---
-**[StATS]: Tracking adverse events during kidney
-biopsy, Part 2 (created 2007-04-05)**.
-
 This is a major revision of a [March 14, 2007 weblog
 entry](TrackingAdverseEvents.html).
 
@@ -148,31 +145,3 @@ warning limit (or the two sigma limit) is computed as
 `10.9 +/- (2/3)*2.66*8.48`
 
 The upper warning limit is 25.9 and the lower warning limit is negative.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Tracking adverse events during kidney
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
---->
-

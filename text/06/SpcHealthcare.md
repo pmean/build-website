@@ -3,8 +3,10 @@ title: Resources for the use of Statistical Process Control in Healthcare
 author: Steve Simon
 source: http://www.pmean.com/06/SpcHealthcare.html
 date: 2006-09-15
-category: Blog post
-tags: Quality control
+category:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
 **[StATS]:** **Resources for the use of Statistical
@@ -359,7 +361,7 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     Measurement](http://www.nysscpa.org/cpajournal/2004/604/essentials/p32.htm)**.
 >     Joseph F. Castellano, Saul Young, Harper A. Roehm, Published June
 >     2004 in the The CPA Journal Online. Accessed on 2006-03-24.
->     **(Model, Quality control)** 
+>     **(Model, Quality control)**<U+FFFD>
 >     www.nysscpa.org/cpajournal/2004/604/essentials/p32.htm
 > -   **[Preventing Hospital Falls: The quality profession\'s major
 >     contribution to the world is the ability to scientifically

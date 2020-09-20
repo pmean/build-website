@@ -3,8 +3,10 @@ title: Handling dropouts in NNT/NNH calculations
 author: Steve Simon
 source: http://www.pmean.com/06/HandlingDropouts.html
 date: 2006-01-16
-category: Blog post
-tags: Measuring benefit and risk
+category:
+- Blog post
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
 **[StATS]:** **Handling dropouts in NNT/NNH
@@ -15,7 +17,7 @@ group](http://www.jiscmail.ac.uk/lists/EVIDENCE-BASED-HEALTH.html) about
 how to handle dropouts in an NNT/NNH calculation. There is no standard
 way of handling this, but a little bit of common sense goes a long way.
 Here are some examples. In each example, assume that there are 100
-patients in each group, and 80 in each group who complete the study.  In
+patients in each group, and 80 in each group who complete the study.<U+FFFD> In
 the treatment group 70 patients experience the event (either a cure or a
 side effect), 10 do not, and the results are unknown in 20. In the
 control group, 50 patients experience the event of interest, 30 do not,

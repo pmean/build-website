@@ -2,7 +2,7 @@
 title: Coding race/ethnicity
 author: Steve Simon
 date: 2003-02-03
-category: 
+category:
 - Blog post
 tags:
 - Data management

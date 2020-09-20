@@ -3,13 +3,12 @@ title: Help for Statistics at UMKC and KUMC
 author: Steve Simon
 source: http://www.pmean.com/07/HelpForStatistics.html
 date: 2007-10-01
-category: Blog post
-tags: Professional details
+category:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
-**[StATS]:** **Help for Statistics at UMKC and KUMC
-(October 1, 2007)**
-
 I get lots of questions about where to go for help with Statistics for
 someone outside of Children\'s Mercy Hospital. If you are a student or
 work at the University of Missouri, Kansas City (UMKC) or at Kansas
@@ -66,31 +65,3 @@ Clinical Research Center](http://gcrc.kumc.edu/index.aspx).
 
 I am familiar with many of the statisticians at UMKC and KUMC. They are
 all excellent people to work with.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Help for Statistics at UMKC and KUMC
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
-

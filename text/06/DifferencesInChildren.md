@@ -3,8 +3,10 @@ title: Differences between children and adults
 author: Steve Simon
 source: http://www.pmean.com/06/DifferencesInChildren.html
 date: 2006-10-13
-category: Blog post
-tags: Children in research
+category:
+- Blog post
+tags:
+- Children in research
 output: html_document
 ---
 **[StATS]: Differences between children and adults
@@ -29,9 +31,9 @@ adults.
 
   Less protective muscle around internal organs.                                                                                                                                                                              Internal organs are more susceptible to traumatic forces.                                                                                                            Recognition of internal injury requires a high degree of suspicion, and such injury should not be ruled out based on the absence of external signs of trauma.
 
-  Small size.                                                                                                                                                                                                                 More vulnerable to exposure and toxicity from agents that are heavier than air, such as sarin gas and chlorine, and that accumulate closer to the ground.             
+  Small size.                                                                                                                                                                                                                 More vulnerable to exposure and toxicity from agents that are heavier than air, such as sarin gas and chlorine, and that accumulate closer to the ground.            <U+FFFD>
 
-  Less fat, less elastic connective tissue, and closer proximity of chest and abdominal organs.                                                                                                                               Higher frequency of multiple organ injury.                                                                                                                            
+  Less fat, less elastic connective tissue, and closer proximity of chest and abdominal organs.                                                                                                                               Higher frequency of multiple organ injury.                                                                                                                           <U+FFFD>
 
   Head is proportionally larger and heavier in children.                                                                                                                                                                      Head injury is common in young children.                                                                                                                             Head size also makes children more susceptible to greater heat loss when they are exposed during resuscitation.
 
@@ -51,13 +53,13 @@ The report also described physiological differences.
                                                                                                                                                                        be carefully calculated\
                                                                                                                                                                        based on the childs\
                                                                                                                                                                        weight and body size.\
-                                                                                                                                                                        
+                                                                                                                                                                       <U+FFFD>
 
   Lower blood pressure\                        Indicators of serious illness may not appear until the child is near collapse.                                          Vital signs are less reliable indicators of serious illness than in adults. Respiratory arrest is more common than cardiac arrest; cardiopulmonary arrest is signaled by respiratory arrest or shock, rather than by\
   levels than adults; levels\                                                                                                                                          cardiac arrhythmias.
   vary with age.                                                                                                                                                       
 
-  Immature immunological systems.              Greater risk of infection; less herd immunity from infections such as smallpox.                                          
+  Immature immunological systems.              Greater risk of infection; less herd immunity from infections such as smallpox.                                         <U+FFFD>
   -------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 There are also important developmental differences between children and
@@ -67,7 +69,7 @@ adults.
   **Developmental Differences**                                                                                                                                              **Implications for Illness\   **Implications for Care**
                                                                                                                                                                              and Injury**                  
 
-  Communication barriers may exist in all pediatric age groups, but the nature of the barrier varies by age (i.e., infants and young children cannot articulate symptoms).                                 Assessment tools need to be tailored to reflect age-appropriate responses.
+  Communication barriers may exist in all pediatric age groups, but the nature of the barrier varies by age (i.e., infants and young children cannot articulate symptoms).   <U+FFFD>                             Assessment tools need to be tailored to reflect age-appropriate responses.
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------- ----------------------------------------------------------------------------
 
 Finally, there are emotional differences.
@@ -76,7 +78,7 @@ Finally, there are emotional differences.
   **Emotional Differences**                                        **Implications for Illness\                                                                                                                                      **Implications for Care**
                                                                    and Injury**                                                                                                                                                     
 
-  Greater, varying emotional needs based on developmental level.                                                                                                                                                                    Need for family-centered policies and a family-friendly environment in EDs. Depending on age, children require or prefer the presence of a parent during treatment.
+  Greater, varying emotional needs based on developmental level.   <U+FFFD>                                                                                                                                                                Need for family-centered policies and a family-friendly environment in EDs. Depending on age, children require or prefer the presence of a parent during treatment.
 
   Higher sensitivity to environmental factors during treatment.    Age and developmental level of child, characteristics of event, and parental reactions play significant role in determining the childs reactions and recovery.   Providers must manage the mental health needs of pediatric patients and parents reactions.
   ---------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------

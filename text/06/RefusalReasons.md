@@ -3,8 +3,10 @@ title: Characterizing reasons for refusal
 author: Steve Simon
 source: http://www.pmean.com/06/RefusalReasons.html
 date: 2006-01-17
-category: Blog post
-tags: Exclusions in research
+category:
+- Blog post
+tags:
+- Exclusions in research
 output: html_document
 ---
 **[StATS]: Characterizing reasons for refusal
@@ -12,7 +14,7 @@ output: html_document
 
 A participant in the IRB Forum raised a question about a research study
 where people were asked to participate, and when some of them said
-\"no\" they were then asked why they did not want to participate. The 
+\"no\" they were then asked why they did not want to participate. The<U+FFFD>
 reasons were tallied across all of the refusals, and percentages were
 published as part of the full research study. Since the people had
 already said \"no\" to participating in the research study, did that
@@ -47,7 +49,7 @@ complete reproductive health assessment. Now the sort of person who
 views this as an incentive might be someone who was wondering \"Hmm, my
 wife and I have been trying to have children for the past six months and
 it just isn\'t working.\" If those are the sorts of people who volunteer
-in greater numbers in the control group,  you will end up with a very
+in greater numbers in the control group,<U+FFFD> you will end up with a very
 bad bias in your research. Not all of the couples who have been trying
 for six months will have problems, of course, but enough might to
 seriously skew the control group.
@@ -88,12 +90,12 @@ with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Exclusions in
 research](../category/ExclusionsInResearch.html).
 
- 
+<U+FFFD>
 <!---More--->
- 
+<U+FFFD>
 
 <!---Do not use
 **[StATS]: Characterizing reasons for refusal
- 
+<U+FFFD>
 --->
 

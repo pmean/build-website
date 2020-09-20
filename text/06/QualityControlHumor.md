@@ -3,8 +3,10 @@ title: Quality control humor
 author: Steve Simon
 source: http://www.pmean.com/06/QualityControlHumor.html
 date: 2006-08-20
-category: Blog post
-tags: Quality control
+category:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
 **[StATS]:** **Quality control humor (created

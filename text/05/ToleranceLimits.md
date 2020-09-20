@@ -3,8 +3,10 @@ title: Tolerance limits
 author: Steve Simon
 source: http://www.pmean.com/05/ToleranceLimits.html
 date: 2005-04-15
-category: Blog post
-tags: Quality control
+category:
+- Blog post
+tags:
+- Quality control
 output: html_document
 ---
 **[StATS]:** **Tolerance limits (created

@@ -3,8 +3,10 @@ title: Two talks for PharmaIQ
 author: Steve Simon
 source: http://www.pmean.com/06/PharmaIqTalks.html
 date: 2006-09-19
-category: Blog post
-tags: Children in research
+category:
+- Blog post
+tags:
+- Children in research
 output: html_document
 ---
 **[StATS]: Two talks for PharmaIQ (created
@@ -46,7 +48,7 @@ By applying a straightforward data transformation, you can use the
 control chart to monitor the Number Needed to Harm (NNH), an easily
 interpreted measure of absolute risk.*
 
--   \* Identify those situations where simple control charts are
+-   \*<U+FFFD>Identify those situations where simple control charts are
     preferable, but also recognize their risks and limitations.*
 -   *Adapt different decision rules and alternate control chart formats
     to increase your sensitivity for small but consistent shifts in

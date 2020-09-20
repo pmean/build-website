@@ -3,8 +3,10 @@ title: Possible sources of funding for my grant
 author: Steve Simon
 source: http://www.pmean.com/06/FundingSources.html
 date: 2006-07-06
-category: Blog post
-tags: Accrual problems in clinical trials
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: Possible sources of funding for my grant

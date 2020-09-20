@@ -3,8 +3,10 @@ title: Developing good practice guidelines
 author: Steve Simon
 source: http://www.pmean.com/05/PracticeGuidelines.html
 date: 2005-02-18
-category: Blog post
-tags: Teaching Resources
+category:
+- Blog post
+tags:
+- Teaching Resources
 output: html_document
 ---
 **[StATS]: Developing good practice guidelines
@@ -12,7 +14,7 @@ output: html_document
 
 A physician here, Lloyd Olson, who has been aggressively promoting
 Evidence Based Medicine suggested the following interesting article on
-practice guidelines. 
+practice guidelines.<U+FFFD>
 
 -   **Are guidelines following guidelines? The methodological quality of
     clinical practice guidelines in the peer-reviewed medical

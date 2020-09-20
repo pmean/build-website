@@ -3,8 +3,10 @@ title: When are two events worrisome?
 author: Steve Simon
 source: http://www.pmean.com/06/TwoEventsWorrisome.html
 date: 2006-12-04
-category: Blog post
-tags: Early stopping
+category:
+- Blog post
+tags:
+- Early stopping
 output: html_document
 ---
 **[StATS]: When are two events worrisome? (December

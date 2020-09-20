@@ -3,13 +3,12 @@ title: How two bad control groups can add up to one good comparison
 author: Steve Simon
 source: http://www.pmean.com/07/TwoControlGroups.html
 date: 2007-06-28
-category: Blog post
-tags: Observational studies
+category:
+- Blog post
+tags:
+- Observational studies
 output: html_document
 ---
-**[StATS]:** **How two bad control groups can add up
-to one good comparison (June 28, 2007)**
-
 > Many observational studies are criticized (often deservedly) for
 > having a bad control group. If you choose a bad control group, you
 > create an unfair (apples to oranges) comparison. But surprisingly, two
@@ -144,31 +143,3 @@ to one good comparison (June 28, 2007)**
 > you can\'t blame it on the calendar. It would be a very weird set of
 > circumstances that would cause a positive bias at individual sites
 > that would coincide with the six different changeover dates.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html).
-<!---More--->
-studies](../category/ObservationalStudies.html).
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **How two bad control groups can add up
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html).
---->
-

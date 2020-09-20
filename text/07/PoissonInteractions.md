@@ -3,13 +3,12 @@ title: A Poisson regression model with interactions
 author: Steve Simon
 source: http://www.pmean.com/07/PoissonInteractions.html
 date: 2007-12-12
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
+- Poisson regression 
 output: html_document
 ---
-**[StATS]:** **A Poisson regression model with
-interactions (December 12, 2007)**.
-
 > I got a question about how to interpret an interaction term in a
 > Poisson regression model. The first thing to remember is that the
 > estimates in a Poisson regression model are computed using a log link
@@ -116,36 +115,3 @@ interactions (December 12, 2007)**.
 > You can get confidence intervals for all of these values, but you need
 > to know both the standard error of the individual coefficients and the
 > correlations among the coefficients.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon on 2007-12-12, edited by Steve Simon, and was
-last modified on 2010-04-01. Send feedback to ssimon at cmh dot edu or
-click on the email link at the top of the page.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **A Poisson regression model with
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

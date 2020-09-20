@@ -3,8 +3,10 @@ title: PowerPoint Counterpoint
 author: Steve Simon
 source: http://www.pmean.com/05/PowerPointA.html
 date: 2005-03-02
-category: Blog post
-tags: Presenting research data
+category:
+- Blog post
+tags:
+- Presenting research data
 output: html_document
 ---
 **[StATS]: PowerPoint Counterpoint (March 2, 2005)**

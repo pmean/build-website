@@ -3,8 +3,10 @@ title: Using regular expressions to insert line breaks
 author: Steve Simon
 source: http://www.pmean.com/06/RegularExpressions-06.html
 date: 2006-05-18
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Using regular expressions to insert

@@ -3,13 +3,13 @@ title: Why does a Bayesian approach make sense for monitoring accrual?
 author: Steve Simon
 source: http://www.pmean.com/08/WhyBayesian-08.html
 date: 2008-05-08
-category: Blog post
-tags: Accrual problems in clinical trials, Bayesian statistics
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Bayesian statistics
 output: html_document
 ---
-**[StATS]: Why does a Bayesian approach make sense
-for monitoring accrual? (created 2008-05-08)**
-
 > I\'m working with Byron Gajewski to develop some models for monitoring
 > the progress of clinical trials. Too many researchers overpromise and
 > undeliver on the planned sample size and the planned completion date
@@ -73,25 +73,3 @@ for monitoring accrual? (created 2008-05-08)**
 > distribution about accrual patterns, early evidence of problems is
 > given greater weight, allowing for rapid interventions to correct the
 > slow accrual.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html) or [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
-
-> ::: {align="left"}
-> :::
-<!---More--->
-> :::
-> ::: {align="left"}
-
-<!---Do not use
-**[StATS]: Why does a Bayesian approach make sense
-> ::: {align="left"}
-> :::
---->
-

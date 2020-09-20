@@ -9,7 +9,6 @@ tags:
 - Linear regression
 output: html_document
 ---
-
 Suppose you compute a correlation coefficient from a sample of
 patients. Can you test a hypothesis about this correlation? Can you
 place confidence limits around this correlation? Yes, you can, but

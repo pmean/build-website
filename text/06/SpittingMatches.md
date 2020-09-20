@@ -3,8 +3,10 @@ title: Surviving Statistical Spitting Matches
 author: Steve Simon
 source: http://www.pmean.com/06/SpittingMatches.html
 date: 2006-04-25
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 **[StATS]:** **Surviving Statistical Spitting
@@ -128,7 +130,7 @@ Dr. Kritzer also asks
 
 and while knowledge of a person\'s background and potential conflicts of
 interest are important, often professional orientation is just a red
-herring. I dislike arguments that start out with a statement like 
+herring. I dislike arguments that start out with a statement like<U+FFFD>
 \"You\'re only saying this because you are a \...\". While knowing that
 someone is an allopath or is on the payroll of a pharmaceutical firm or
 is an advocate for the environment may color their judgment, I believe

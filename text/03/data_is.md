@@ -2,9 +2,9 @@
 title: Data is/are
 author: Steve Simon
 date: 2003-11-26
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Writing research papers
 output: html_document
 ---

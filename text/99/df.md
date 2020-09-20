@@ -2,9 +2,9 @@
 title: Degrees of Freedom
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Statistical theory
 output: html_document
 ---

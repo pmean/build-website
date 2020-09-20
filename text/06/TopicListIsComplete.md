@@ -3,8 +3,10 @@ title: Topic list is complete!
 author: Steve Simon
 source: http://www.pmean.com/06/TopicListIsComplete.html
 date: 2006-04-17
-category: Blog post
-tags: Website details
+category:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]:** **Topic list is complete! (April 17,

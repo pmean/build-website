@@ -9,7 +9,6 @@ tags:
 - Accrual problems in clinical trials
 output: html_document
 ---
-
 I received additional accrual data on a clinical trial I am
 monitoring. To review, the trial started on August 28, 2007 and will
 continue until January 31, 2008, for a total of 22 weeks. The
@@ -79,4 +78,3 @@ limits had a total width of 52 at the start of the study and only 32
 after 6 weeks. As more time elapses and you gain more experience with
 understanding exactly how fast or slow patients accrue, you get more
 precision in your prediction about the final sample size.
-

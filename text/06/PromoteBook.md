@@ -3,8 +3,10 @@ title: Using a web site to promote your book
 author: Steve Simon
 source: http://www.pmean.com/06/PromoteBook.html
 date: 2006-05-10
-category: Blog post
-tags: Statistical evidence
+category:
+- Blog post
+tags:
+- Statistical evidence
 output: html_document
 ---
 **[StATS]: Using a web site to promote your book
@@ -20,7 +22,7 @@ output: html_document
 > Gee, what a coincidence. That\'s what I am hoping to do at my [Stats:
 > Statistical Evidence in Medical Trials](../evidence.asp) web page.
 >
-> I said that  my employer has generously provided me with space for a
+> I said that<U+FFFD> my employer has generously provided me with space for a
 > web site, and you should check with your employer also. A subweb at
 > your employers web site will carry some restrictions, and some
 > employers might impose only some trivial restrictions (e.g., no links

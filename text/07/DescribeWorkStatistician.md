@@ -3,13 +3,12 @@ title: What does a statistician do all day?
 author: Steve Simon
 source: http://www.pmean.com/07/DescribeWorkStatistician.html
 date: 2007-09-17
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
-**[StATS]:** **What does a statistician do all day?
-(September 17, 2007)**
-
 I have to write up a job description for a statistician. This includes
 essential functions and important functions. Here are two examples.
 
@@ -142,31 +141,3 @@ I have drafted a job opening announcement
 
 and will start publicizing this opening aggressively when I get a formal
 commitment from above.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-<!---More--->
-statistics](../category/HumanSideStatistics.html).
-for pages similar to this one at [Category: Human side of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What does a statistician do all day?
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
---->
-

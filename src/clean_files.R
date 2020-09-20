@@ -39,7 +39,7 @@ clean_files <- function(
       found_lines <- str_which(tx, search_string)
       if (length(found_lines)==0) next
       k <- k+1
-      "\n\n" %0% i_file %>% br %>% cat
+      "\n\n" %0% subdir %s% i_file %>% br %>% cat
       str_c(tx[found_lines], collapse="\n") %>% cat
       if (replace_string!="Not yet") {
         tx %<>% str_replace_all(original_string, replace_string)
@@ -58,43 +58,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'Website details, ', 
-  '', 
+  '^category: ',
+  'category:\n- ',
   dir_root="text", 
   file_pattern="md$")
 
-copy_files <- function(
-  old_root="text", new_root="../blogdown/content",
-  subdir_list=c("99", zpad(0:20), "no"),
-  file_pattern="md$", v=TRUE) {
-  k <- 0
-  for (subdir in subdir_list) {
-    list.files(old_root %s% subdir) %>%
-      str_subset(file_pattern) -> file_list
-    "\nSearching through" %b% 
-      length(file_list) %b% 
-      "files in" %b%
-      old_root %s% 
-      subdir %>%
-      br -> message
-    if (verbose) cat(message)
-    new_sub <- ifelse(subdir > "30", "19", "20") %0% subdir
-    if (subdir=="no") new_dir <- "no"
-    for (i_file in file_list) {
-      k <- k+1
-      old_file <- old_root %s% subdir %s% i_file 
-      new_file <- new_root %s% new_sub %s% i_file
-      if (ok_to_copy) file.copy(old_file, new_file, overwrite=TRUE)
-      "\n" %b%
-        old_file %C% 
-        ifelse(ok_to_copy, "copied to", "to be copied to ") %b%
-        new_file %>% cat
-    }
-  }
-  "\n\nTotal files" %b%
-    ifelse(ok_to_copy, "copied:", "to be copied:") %b%
-    k %>% cat
-}
-ok_to_copy <- TRUE
-ok_to_copy <- FALSE
-copy_files(file_pattern="md$")

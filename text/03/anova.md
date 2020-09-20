@@ -2,9 +2,9 @@
 title: Steps in a typical ANOVA model
 author: Steve Simon
 date: 2003-06-20
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Analysis of > variance
 output: html_document
 ---
@@ -12,7 +12,7 @@ output: html_document
 those who completed every test battery, and those who completed only
 some of them. I ran ANOVAs on age, iq, adhd score, and so forth. My
 professor says that I should have used a t-test instead. Why can\'t I
-use ANOVA. Isn\'t ANOVA better than a t-test?  \--Angry Anastasia*
+use ANOVA. Isn\'t ANOVA better than a t-test?<U+FFFD> \--Angry Anastasia*
 
 When your grouping variable has two levels, the t-test and ANOVA are
 identical. It\'s sort of like arguing over whether to buy twelve
@@ -53,7 +53,7 @@ the previous dialog box.
 > The output from SPSS starts out nicely enough. SPSS tells you that the
 > control group has 44 patients, a mean of 13.32, a standard deviation
 > of 9.981, and a standard error (standard deviation divided by the
-> square root of the sample size) of 1.505. The  treatment group has
+> square root of the sample size) of 1.505. The<U+FFFD> treatment group has
 > fewer patients, 38, and the mean is much larger. The standard
 > deviation and standard error for the treatment group are roughly the
 > same as the controls.
@@ -118,7 +118,7 @@ important.
 > between the treatment and control groups. Furthermore, this difference
 > is large\--at least 2.8 weeks, even after allowing for sampling error.
 >
-> Now let\'s compute the same statistic using an ANOVA model. Select 
+> Now let\'s compute the same statistic using an ANOVA model. Select<U+FFFD>
 > ANALYZE \| GENERAL LINEAR MODEL \| UNIVARIATE from the SPSS menu.
 
 ![](../01/images/anova.63.gif)
@@ -262,7 +262,7 @@ somehow. I\'ll fix it soon. Sorry!\]*
 > For example, the calculation for within subject variation used all 19
 > data points, and had 3 estimated means, so the degrees of freedom
 > would be 16. The calculation for between subject variation used not
-> the 19 data points, but the 3 group means.  We estimated the deviation
+> the 19 data points, but the 3 group means.<U+FFFD> We estimated the deviation
 > from a single overall mean. So the degrees of freedom for between
 > subject variation is 3-1=2. By a similar argument, the degrees of
 > freedom for total variation would be 18.

@@ -9,9 +9,6 @@ tags:
 - Bayesian statistics
 output: html_document
 ---
-**[StATS]: A simple illustration of the Metropolis
-algorithm (April 13, 2007)**
-
 In many situations, you need to generate a random sample from a
 distribution that is rather complex.   When simpler methods for
 generating a random sample don't work, there are a series of
@@ -82,37 +79,3 @@ property of this simulation introduces a positive correlation to
 successive values. This makes the set of values somewhat patchy unless
 the number of simulations is quite large. You would only use this
 approach if the more direct simulation methods were too difficult.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
-<!---More--->
-statistics](../category/BayesianStatistics.html).
-for pages similar to this one at [Category: Bayesian
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: A simple illustration of the Metropolis
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Bayesian
-statistics](../category/BayesianStatistics.html).
---->
-

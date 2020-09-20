@@ -3,8 +3,9 @@ title: When should you worry about recall bias?
 author: Steve Simon
 source: http://www.pmean.com/06/RecallBias.html
 date: 2006-08-03
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **When should you worry about recall

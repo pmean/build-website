@@ -9,9 +9,6 @@ tags:
 - Control charts
 output: html_document
 ---
-**[StATS]:** **Calculating an XBAR-S control chart
-(March 2, 2007)**
-
 The following data represents a weekly evaluation of vaccine potency.
 The data is taken from
 
@@ -113,31 +110,3 @@ Don't peek until you've done the work, but the answers are available
 on a [separate web page](XbarSControlChartAnswers.html).
 
 `Week01 1.097 1.204        Week03 1.030 1.362        Week05 0.682 0.978        Week07 0.820 1.080        Week09 1.042 0.858        Week11 1.398 1.146        Week13 1.301 1.204`
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
-<!---More--->
-charts](../category/ControlCharts.html).
-for pages similar to this one at [Category: Control
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Calculating an XBAR-S control chart
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
---->
-

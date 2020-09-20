@@ -3,8 +3,10 @@ title: My second grant, part 2
 author: Steve Simon
 source: http://www.pmean.com/06/SecondGrantPart2.html
 date: 2006-09-13
-category: Blog post
-tags: Accrual problems in clinical trials
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
 output: html_document
 ---
 **[StATS]: My second grant, part 2 (created

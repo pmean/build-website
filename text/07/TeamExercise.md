@@ -3,13 +3,12 @@ title: Team exercise to illustrate ANOM calculations
 author: Steve Simon
 source: http://www.pmean.com/07/TeamExercise.html
 date: 2007-02-28
-category: Blog post
-tags: Analysis of means
+category:
+- Blog post
+tags:
+- Analysis of means
 output: html_document
 ---
-**[StATS]: Team exercise to illustrate ANOM
-calculations (created 2007-02-28)**
-
 I am in charge of a workshop for the [American Society for
 Andrology](http://www.andrologysociety.com/) for their [32nd Annual
 Conference](http://www.andrologysociety.com/meetings/709/default.aspx)
@@ -115,31 +114,3 @@ A table of constants for the XBAR-S charts
 can be found at
 
 -   [www.robertluttman.com/vms/Week5/page6.htm](http://www.robertluttman.com/vms/Week5/page6.htm)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
-<!---More--->
-means](../category/AnalysisOfMeans.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]: Team exercise to illustrate ANOM
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
---->
-

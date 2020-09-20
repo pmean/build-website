@@ -3,8 +3,10 @@ title: A simple function for a Biplot in R
 author: Steve Simon
 source: http://www.pmean.com/06/BiplotFunction.html
 date: 2006-01-24
-category: Blog post
-tags: Data mining
+category:
+- Blog post
+tags:
+- Data mining
 output: html_document
 ---
 **[StATS]:** **A simple function for a Biplot in R
@@ -18,7 +20,7 @@ me. It\'s not the fanciest or best code in the world, but I wanted to
 put it here and comment on the various alternative forms of the biplot
 and principal components plot when I have time.
 
-`pc.plot <- function(x,ulabs,vlabs) {    nrows <- dim(x)[[1]]    ncols <- dim(x)[[2]]    x.means <- apply(x,1,mean)    x.sd <- sqrt(apply(x,1,var))    x.cen <- x - (x.means %o% rep(1,ncols))    x.z <- x.cen / (x.sd %o% rep(1,ncols))    x.svd <- svd(x.z)    d1 <- x.svd$d[1]    d2 <- x.svd$d[2]    u1 <- x.svd$u[,1]*sqrt(d1)    u2 <- x.svd$u[,2]*sqrt(d2)    v1 <- x.svd$v[,1]*sqrt(d1)    v2 <- x.svd$v[,2]*sqrt(d2)    u.v.range <- range(u1,u2,v1,v2)    par(mar=rep(0.1,4))    plot(u.v.range,u.v.range,type="n",xlab=" ",ylab=" ")    arrows(0,0,v1,v2)    text(v1,v2,vlabs)    text(u1,u2,steroid.symbol)    u1   }`
+`pc.plot <- function(x,ulabs,vlabs) {   <U+FFFD>nrows <- dim(x)[[1]]   <U+FFFD>ncols <- dim(x)[[2]]   <U+FFFD>x.means <- apply(x,1,mean)   <U+FFFD>x.sd <- sqrt(apply(x,1,var))   <U+FFFD>x.cen <- x - (x.means %o% rep(1,ncols))   <U+FFFD>x.z <- x.cen / (x.sd %o% rep(1,ncols))   <U+FFFD>x.svd <- svd(x.z)   <U+FFFD>d1 <- x.svd$d[1]   <U+FFFD>d2 <- x.svd$d[2]   <U+FFFD>u1 <- x.svd$u[,1]*sqrt(d1)   <U+FFFD>u2 <- x.svd$u[,2]*sqrt(d2)   <U+FFFD>v1 <- x.svd$v[,1]*sqrt(d1)   <U+FFFD>v2 <- x.svd$v[,2]*sqrt(d2)   <U+FFFD>u.v.range <- range(u1,u2,v1,v2)   <U+FFFD>par(mar=rep(0.1,4))   <U+FFFD>plot(u.v.range,u.v.range,type="n",xlab=" ",ylab=" ")   <U+FFFD>arrows(0,0,v1,v2)   <U+FFFD>text(v1,v2,vlabs)   <U+FFFD>text(u1,u2,steroid.symbol)   <U+FFFD>u1   }`
 
 This code uses the singular value decomposition function (svd) to
 identify the linear combinations of rows and columns that maximize the

@@ -9,7 +9,6 @@ tags:
 - Analysis of means
 output: html_document
 ---
-
 This page shows some of the details for calculating an analysis of means
 (ANOM) chart.
 

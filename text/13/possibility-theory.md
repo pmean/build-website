@@ -3,8 +3,10 @@ title: "PMean: Is Possibility Theory better than Probability Theory?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/possibility-theory/"
 date: "2013-12-09"
-category: Blog post
-tags: Bayesian statistics
+category:
+- Blog post
+tags:
+- Bayesian statistics
 output: html_document
 ---
 

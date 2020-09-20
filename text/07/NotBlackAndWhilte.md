@@ -3,13 +3,12 @@ title: The research world is not black and white
 author: Steve Simon
 source: http://www.pmean.com/07/NotBlackAndWhilte.html
 date: 2007-07-07
-category: Blog post
-tags: Critical appraisal
+category:
+- Blog post
+tags:
+- Critical appraisal
 output: html_document
 ---
-**[StATS]:** **The research world is not black and
-white (created 2007-07-07)**.
-
 I was asked to review a commentary about studies involving remote
 healing (which includes prayer studies as a subgroup). It is not
 available yet on the web, but I\'ll try to link to it when it becomes
@@ -110,31 +109,3 @@ is that studies are not good or bad, but rather they vary in their
 degree of persuasiveness. Perhaps an adaptation of the famous George Box
 quote is called for here: All research studies are flawed, but some are
 still useful.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **The research world is not black and
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
---->
-

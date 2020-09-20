@@ -3,8 +3,10 @@ title: PubMed tags
 author: Steve Simon
 source: http://www.pmean.com/05/PubMedTags.html
 date: 2005-04-28
-category: Blog post
-tags: Information searching
+category:
+- Blog post
+tags:
+- Information searching
 output: html_document
 ---
 **[StATS]:** **PubMed tags (April 28, 2005)**

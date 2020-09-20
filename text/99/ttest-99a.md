@@ -2,8 +2,10 @@
 title: T-test
 author: Steve Simon
 date: 1999-04-18
-category: Blog post
-tags: Hypothesis testing
+category:
+- Blog post
+tags:
+- Hypothesis testing
 output: html_document
 ---
 *Dear Professor Mean, How do you analyze a t-test. I have a t-test

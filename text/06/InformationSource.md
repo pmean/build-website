@@ -3,12 +3,14 @@ title:
 author: Steve Simon
 source: http://www.pmean.com/06/InformationSource.html
 date: 2006-07-10
-category: Blog post
-tags: Conflict of interest
+category:
+- Blog post
+tags:
+- Conflict of interest
 output: html_document
 ---
 **[StATS]:**(2006-07-10) **When can a conservative trust a
-liberal information source (and vice versa)  **
+liberal information source (and vice versa)<U+FFFD> **
 
 I have a brother-in-law who loves to debate politics and religion. He
 always takes an aggressively conservative stand (I\'m a flaming liberal,
@@ -123,7 +125,7 @@ weblog:
 -   [Stats: Conflict of Interest (February
     25, 2004)](http://www.childrensmercy.org/stats/weblog2004/conflict.asp)
 
- Just be careful that you don\'t overreact.
+<U+FFFD>Just be careful that you don\'t overreact.
 
 -   [Stats: Taking charges of conflicting interest too far (June
     4, 2005)](http://www.childrensmercy.org/stats/weblog2005/ConflictInterestA.asp)

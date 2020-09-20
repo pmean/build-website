@@ -3,8 +3,10 @@ title: Best EBM articles in 2005
 author: Steve Simon
 source: http://www.pmean.com/06/EbmArticles2005.html
 date: 2006-03-06
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Best EBM articles in 2005 (March 6,
@@ -91,7 +93,7 @@ that I like:
 
 The first article in the list, by Richard Smith, is one among a large
 series of articles that identify how commercial interests have made the
-entire research endeavor open to question. The second article, by  John
+entire research endeavor open to question. The second article, by<U+FFFD> John
 Ioannidis also calls the entire research endeavor into question and
 points out the many factors that cause incorrect conclusions to be drawn
 in most published research findings. The third article by Dean Fergusson

@@ -9,7 +9,6 @@ tags:
 - Diagnostic testing
 output: html_document
 ---
-
 I created a table that illustrates many of the classic calculations for
 a diagnostic test.
 

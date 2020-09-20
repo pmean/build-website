@@ -3,8 +3,10 @@ title: Can you use the coefficient of determination for categorical variables?
 author: Steve Simon
 source: http://www.pmean.com/06/CoefficientDetermination.html
 date: 2006-04-04
-category: Blog post
-tags: Linear regression
+category:
+- Blog post
+tags:
+- Linear regression
 output: html_document
 ---
 **[StATS]:** **Can you use the coefficient of
@@ -44,7 +46,7 @@ in Woolson\'s book, the section on ANOVA models has the following quote.
 > *The coefficient of multiple determination, denoted by R^2^, is
 > defined by R^2^ = SSR/SST, analogous to the simple linear regression
 > situation, and again is the proportion of the Y variability accounted
-> for by the fitted model.*  **Statistical Methods for the Analysis of
+> for by the fitted model.*<U+FFFD> **Statistical Methods for the Analysis of
 > Biomedical Data.** Robert F. Woolson (1987) New York: John Wiley &
 > Sons. page 299. [\[BookFinder4U
 > link\]](http://www.bookfinder4u.com/detail/0471806153.html)

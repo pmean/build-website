@@ -3,13 +3,14 @@ title: IRB review of a pilot study
 author: Steve Simon
 source: http://www.pmean.com/07/IrbReviewPilot.html
 date: 2007-03-26
-category: Blog post
-tags: Ethics in research, Pilot studies, Sample size justification
+category:
+- Blog post
+tags:
+- Ethics in research
+- Pilot studies
+- Sample size justification
 output: html_document
 ---
-**[StATS]:** **IRB review of a pilot study (created
-2007-03-26)**
-
 *I am the new chair of the IRB at a county hospital. Many of the studies
 we review are pilot studies with small samples. I have been trying to
 locate criteria for the scientific review of pilot studies, but have not
@@ -83,37 +84,3 @@ Closely related web pages:
     17, 2004)](http://www.childrensmercy.org/stats/weblog2004/PilotStudy.asp)
 -   [Stats: IRBs and scientific validity (August
     12, 2005)](http://www.childrensmercy.org/stats/weblog2005/ScientificValidity.asp)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html), [Category: Pilot
-studies](../category/PilotStudies.html), or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-studies](../category/PilotStudies.html), or [Category: Sample size
-research](../category/EthicsInResearch.html), [Category: Pilot
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **IRB review of a pilot study (created
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html), [Category: Pilot
-studies](../category/PilotStudies.html), or [Category: Sample size
-justification](../category/SampleSizeJustification.html).
---->
-

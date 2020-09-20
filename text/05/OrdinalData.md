@@ -3,8 +3,10 @@ title: Summing ordinal data
 author: Steve Simon
 source: http://www.pmean.com/05/OrdinalData.html
 date: 2005-04-05
-category: Blog post
-tags: Descriptive statistics
+category:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
 **[StATS]: Summing ordinal data (April 5, 2005)**
@@ -69,8 +71,8 @@ Suppose that the number of people responding in each category is
 -   3 people select more than 100 thousand dollars
 
 Then the average ranks are 25, 60, 75, 81, and 84. This says that the
-difference between 0 to 10  and 10 to 20 (45 units) is three times more
-severe than the difference between 10 to 20  and 20 to 50 (15 units).
+difference between 0 to 10<U+FFFD> and 10 to 20 (45 units) is three times more
+severe than the difference between 10 to 20<U+FFFD> and 20 to 50 (15 units).
 Even worse, the difference between 0 to 10 and 10 to 20 is fifteen times
 more severe than the difference between 50 to 100 and more than 100.
 

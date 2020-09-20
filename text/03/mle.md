@@ -2,9 +2,9 @@
 title: Maximum likelihood estimation
 author: Steve Simon
 date: 2003-05-06
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Statistical theory
 output: html_document
 ---

@@ -3,8 +3,9 @@ title: Pharmacogenetics Research Network
 author: Steve Simon
 source: http://www.pmean.com/06/PharmacogeneticsResearchNetwork.html
 date: 2006-09-14
-category: Blog post
-tags: 
+category:
+- Blog post
+tags:
 output: html_document
 ---
 **[StATS]:** **Pharmacogenetics Research Network
@@ -29,7 +30,7 @@ output: html_document
 > There are several interest groups developed in the PGRN and these are
 > described at
 >
-> -    <http://www.nigms.nih.gov/Initiatives/PGRN/Network/InterestGroups.htm>
+> -   <U+FFFD><http://www.nigms.nih.gov/Initiatives/PGRN/Network/InterestGroups.htm>
 >
 > Some of these interest groups deal with the complex statistical
 > analysis issues that arise in this area.

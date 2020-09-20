@@ -3,8 +3,10 @@ title: Frank Harrell\'s Philosophy of Biostatistics
 author: Steve Simon
 source: http://www.pmean.com/06/HarrellPhilosophy.html
 date: 2006-10-10
-category: Blog post
-tags: Modeling issues
+category:
+- Blog post
+tags:
+- Modeling issues
 output: html_document
 ---
 **[StATS]:** **Frank Harrell\'s Philosophy of
@@ -37,7 +39,7 @@ Biostatistics (created 2006-10-10)**
 > where he outlines his philosophy of biostatistics. It is well worth
 > repeating here, and each bullet point needs to be expanded on
 >
-> -   \* Biostatistics needs to be fully integrated into biomedical
+> -   \*<U+FFFD>Biostatistics needs to be fully integrated into biomedical
 >     research; experimental design is all important*
 > -   *Don\'t be afraid of using modern methods*
 > -   *Avoid categorizing continuous variables and predicted values at

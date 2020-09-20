@@ -3,8 +3,10 @@ title: Giving credit where credit is due
 author: Steve Simon
 source: http://www.pmean.com/06/GivingCredit.html
 date: 2006-04-19
-category: Blog post
-tags: Website details
+category:
+- Blog post
+tags:
+- Website details
 output: html_document
 ---
 **[StATS]:** **Giving credit where credit is due

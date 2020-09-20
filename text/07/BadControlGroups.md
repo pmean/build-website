@@ -3,13 +3,13 @@ title: When bad control groups happen to good researchers
 author: Steve Simon
 source: http://www.pmean.com/07/BadControlGroups.html
 date: 2007-06-15
-category: Blog post
-tags: Observational studies, Placebos in research
+category:
+- Blog post
+tags:
+- Observational studies
+- Placebos in research
 output: html_document
 ---
-**[StATS]:** **When bad control groups happen to
-good researchers (created 2007-06-15).**
-
 The [Kansas City University of Medicine and
 Biosciences](http://www.kcumb.edu/) wants me to give a light humorous
 talk at lunch during the [2007 Homecoming CME and Reunion
@@ -48,34 +48,3 @@ they are:
 
 There\'s also a nice Shakespeare quote to use in the talk: \"It is
 neither good nor bad, but thinking makes it so.\"
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html) or [Category: Placebos
-in research](../category/PlaceboControlledTrials.html).
-<!---More--->
-in research](../category/PlaceboControlledTrials.html).
-studies](../category/ObservationalStudies.html) or [Category: Placebos
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **When bad control groups happen to
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](../category/ObservationalStudies.html) or [Category: Placebos
-in research](../category/PlaceboControlledTrials.html).
---->
-

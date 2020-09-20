@@ -3,8 +3,10 @@ title: Manipulation of peer-review publications by pharmaceutical companies
 author: Steve Simon
 source: http://www.pmean.com/06/ManipulationPeerReview-06.html
 date: 2006-11-21
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **Manipulation of peer-review
@@ -26,7 +28,7 @@ publications by pharmaceutical companies** (November 21, 2006)
 > -   [Stats \#72: Manipulation of peer-review publications by
 >     pharmaceutical companies](../training/hand72.asp)
 >
->  but right now it is only the briefest of outlines.
+> <U+FFFD>but right now it is only the briefest of outlines.
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

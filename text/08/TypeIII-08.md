@@ -2,8 +2,10 @@
 title: Type III error
 author: Steve Simon
 date: 2008-01-03
-category: Blog post
-tags: Hypothesis testing
+category:
+- Blog post
+tags:
+- Hypothesis testing
 output: html_document
 ---
 > *Dear Professor Mean, What is the definition of a Type III error?*

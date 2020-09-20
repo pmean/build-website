@@ -2,7 +2,7 @@
 title: A simple model of nonlinear growth
 author: Steve Simon
 date: 2003-10-01
-category: 
+category:
 - Blog post
 tags:
 - Nonlinear regression

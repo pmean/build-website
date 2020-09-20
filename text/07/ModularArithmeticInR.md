@@ -3,13 +3,12 @@ title: Modular arithmetic and rounding in R
 author: Steve Simon
 source: http://www.pmean.com/07/ModularArithmeticInR.html
 date: 2007-02-01
-category: Blog post
-tags: R software
+category:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
-**[StATS]:** **Modular arithmetic and rounding in R
-(February 1, 2007)**
-
 In certain programming situations, you need to perform calculations
 involving division that produce whole numbers as a result. For example,
 if you divided 27 by 4, you would get 6.75, but if you were using whole
@@ -58,31 +57,3 @@ value. Thus
 
 -   [Stats: Rules for rounding numbers (September
     7, 2006)](http://www.childrensmercy.org/stats/weblog2006/RoundingNumbers.asp)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-for pages similar to this one at [Category: R
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Modular arithmetic and rounding in R
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: R
-software](../category/RSoftware.html).
---->
-

@@ -3,13 +3,13 @@ title: What is an adequate sample size for establishing validity and reliability
 author: Steve Simon
 source: http://www.pmean.com/07/ValidityReliabilitySampleSize.html
 date: 2007-04-09
-category: Blog post
-tags: Measuring agreement, Sample size justification
+category:
+- Blog post
+tags:
+- Measuring agreement
+- Sample size justification
 output: html_document
 ---
-**[StATS]:** **What is an adequate sample size for
-establishing validity and reliability? (April 9, 2007)**
-
 Someone from Mumbai, India wrote in asking whether a sample of 163 was
 sufficiently large for a study of reliability and validity. This was for
 a project that was already done, and this person was worried that
@@ -35,34 +35,3 @@ correlation (0.5) or a very impressive correlation (0.9). Without the
 actual data, I cannot compute any confidence intervals, but with 163
 patients, I suspect that they are more than narrow enough to establish
 an adequate sample size.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
-<!---More--->
-size justification](../category/SampleSizeJustification.html).
-agreement](../category/MeasuringAgreement.html) or [Category: Sample
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What is an adequate sample size for
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html) or [Category: Sample
-size justification](../category/SampleSizeJustification.html).
---->
-

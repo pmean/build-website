@@ -3,13 +3,12 @@ title: Interpretation of an odds ratio
 author: Steve Simon
 source: http://www.pmean.com/07/InterpretationOddsRatio.html
 date: 2007-03-21
-category: Blog post
-tags: Logistic regression
+category:
+- Blog post
+tags:
+- Logistic regression
 output: html_document
 ---
-**[StATS]:** **Interpretation of an odds ratio
-(March 21, 2007)**
-
 Someone sent me some data on crime. In a sample of 2,957,239 people, 961
 were criminals. 41 of the criminals were in the first group (who
 numbered 20,109). The remaining 920 were in the larger group
@@ -32,31 +31,3 @@ The math works out nicely in this example because crime is a rare event.
 If the proportion of crimes in either group was large (say 20% of more)
 then interpretation of the odds ratio and other related ratios becomes
 more difficult.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
-<!---More--->
-regression](../category/LogisticRegression.html).
-for pages similar to this one at [Category: Logistic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Interpretation of an odds ratio
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Logistic
-regression](../category/LogisticRegression.html).
---->
-

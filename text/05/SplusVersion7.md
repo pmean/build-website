@@ -3,8 +3,10 @@ title: S-plus version 7
 author: Steve Simon
 source: http://www.pmean.com/05/SplusVersion7.html
 date: 2005-04-19
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]:** **S-plus version 7 (April 19, 2005)**
@@ -71,7 +73,7 @@ than scatterplots. With large data sets, a scatterplot often looks like
 a big blob of ink that is difficult to interpret.
 
 S-plus has new out-of-memory algorithms for linear, logistics, and
-Poisson  regression. You can apply arbitrary S-plus functions to data
+Poisson<U+FFFD> regression. You can apply arbitrary S-plus functions to data
 blocks using the bd.by.group() function.
 
 Dr. Smith ended with a case study using US 2000 Census data. To read the

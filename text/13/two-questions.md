@@ -3,8 +3,10 @@ title: "PMean: Two questions you should always ask at the end of a consulting se
 author: "Steve Simon"
 source: "http://blog.pmean.com/two-questions/"
 date: "2013-11-29"
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 

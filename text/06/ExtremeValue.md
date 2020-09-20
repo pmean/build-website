@@ -3,8 +3,10 @@ title: Extreme value distribution
 author: Steve Simon
 source: http://www.pmean.com/06/ExtremeValue.html
 date: 2006-01-09
-category: Blog post
-tags: Probability concepts
+category:
+- Blog post
+tags:
+- Probability concepts
 output: html_document
 ---
 **[StATS]:** **Extreme value distribution (January
@@ -131,12 +133,12 @@ with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).
 
- 
+<U+FFFD>
 <!---More--->
- 
+<U+FFFD>
 
 <!---Do not use
 **[StATS]:** **Extreme value distribution (January
- 
+<U+FFFD>
 --->
 

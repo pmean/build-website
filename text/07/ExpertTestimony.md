@@ -3,13 +3,12 @@ title: The danger of providing expert testimony when you are not an expert
 author: Steve Simon
 source: http://www.pmean.com/07/ExpertTestimony.html
 date: 2007-01-31
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
-**[StATS]:** **The danger of providing expert
-testimony when you are not an expert (January 31, 2007)**
-
 Sir Roy Meadow is an expert on child abuse, having published a landmark
 paper in 1977 on a condition known as Munchausen Syndrome by Proxy. An
 observation of his
@@ -59,31 +58,3 @@ follow-up. Here are just a few of the links that I uncovered:
 -   [www.bmj.com/cgi/content/full/328/7430/9](http://www.bmj.com/cgi/content/full/328/7430/9)
 -   [www.bmj.com/cgi/content/full/320/7226/2](http://www.bmj.com/cgi/content/full/320/7226/2)
 -   [adc.bmj.com/cgi/content/full/92/2/102](http://adc.bmj.com/cgi/content/full/92/2/102)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-<!---More--->
-statistics](../category/HumanSideStatistics.html).
-for pages similar to this one at [Category: Human side of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **The danger of providing expert
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
---->
-

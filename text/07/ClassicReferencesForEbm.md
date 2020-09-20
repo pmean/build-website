@@ -3,13 +3,12 @@ title: Classic references in evidence based medicine
 author: Steve Simon
 source: http://www.pmean.com/07/ClassicReferencesForEbm.html
 date: 2007-05-16
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
-**[StATS]:** **Classic references in evidence based
-medicine (May 16, 2007)**
-
 A couple of weeks ago, a regular correspondent (PG) on the Evidence
 Based Health email discussion group asked about what were the essential
 readings in Evidence Based Medicine (EBM). These are articles beyond
@@ -512,31 +511,3 @@ organized in a variety of topics.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10406751&dopt=Abstract)
     [\[Full text\]](http://bmj.com/cgi/content/full/319/7203/160)
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/319/7203/160.pdf)
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Classic references in evidence based
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
---->
-

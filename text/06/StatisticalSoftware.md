@@ -3,8 +3,10 @@ title: The Journal of Statistical Software
 author: Steve Simon
 source: http://www.pmean.com/06/StatisticalSoftware.html
 date: 2006-01-18
-category: Blog post
-tags: Statistical computing
+category:
+- Blog post
+tags:
+- Statistical computing
 output: html_document
 ---
 **[StATS]:** **The Journal of Statistical Software

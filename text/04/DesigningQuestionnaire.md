@@ -2,8 +2,10 @@
 title: Designing a questionnaire
 author: Steve Simon
 date: 2004-12-24
-category: Blog post
-tags: Survey design
+category:
+- Blog post
+tags:
+- Survey design
 output: html_document
 ---
 I\'m behind in my reading of the British Medical Journal, and the first
@@ -65,7 +67,7 @@ all questionnaires, but some with certain topics (such as sexually
 transmitted diseases, or drug/alcohol abuse), this concern is especially
 acute. The authors don\'t mention another important risk. If a
 questionnaire identifies a patient as having a risk of committing
-suicide, the researcher needs to have a plan in place  to provide
+suicide, the researcher needs to have a plan in place<U+FFFD> to provide
 appropriate referrals.
 
 In short, this is a very useful list of questions. Some of the details

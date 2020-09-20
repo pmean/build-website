@@ -3,13 +3,12 @@ title: What can you do with 100 words?
 author: Steve Simon
 source: http://www.pmean.com/07/HundredWords.html
 date: 2007-01-12
-category: Blog post
-tags: Wiki pages
+category:
+- Blog post
+tags:
+- Wiki pages
 output: html_document
 ---
-**[StATS]:** **What can you do with 100 words?
-(January 12, 2007)**. [Category: Wiki pages](../category/WikiPages.html)
-
 > I added another short entry to Chance News 23 about a dubious claim
 > that 100 words are needed for half of all reading in English.
 >
@@ -43,34 +42,3 @@ output: html_document
 >     profiling](http://chance.dartmouth.edu/chancewiki/index.php/Chance_News_4#Racial_Profiling)
 > -   Chance News 4: [Can you get fired over the wording of a
 >     questionnaire](http://chance.dartmouth.edu/chancewiki/index.php/Chance_News_4#Can_you_get_fired_over_the_wording_of_a_questionnaire.3F)
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **What can you do with 100 words?
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
---->
-

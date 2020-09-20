@@ -3,8 +3,10 @@ title: The fate of retracted articles
 author: Steve Simon
 source: http://www.pmean.com/05/RetractedArticles.html
 date: 2005-10-14
-category: Blog post
-tags: Ethics in research
+category:
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 **[StATS]:** **The fate of retracted articles

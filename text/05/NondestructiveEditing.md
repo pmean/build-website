@@ -3,8 +3,10 @@ title: Non-destructive data editing
 author: Steve Simon
 source: http://www.pmean.com/05/NondestructiveEditing.html
 date: 2005-11-02
-category: Blog post
-tags: Data management
+category:
+- Blog post
+tags:
+- Data management
 output: html_document
 ---
 **[StATS]:** **Non-destructive data editing

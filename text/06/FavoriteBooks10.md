@@ -3,8 +3,10 @@ title: My ten favorite books, \#10
 author: Steve Simon
 source: http://www.pmean.com/06/FavoriteBooks10.html
 date: 2006-03-17
-category: Blog post
-tags: Good books
+category:
+- Blog post
+tags:
+- Good books
 output: html_document
 ---
 **[StATS]:** **My ten favorite books, \#10 (March
@@ -20,7 +22,7 @@ output: html_document
 >
 > There is a nice review of this book on Evidence Based Medicine 2005;
 > 10:60,
-> [ebm.bmjjournals.com/cgi/content/full/10/2/60](http://ebm.bmjjournals.com/cgi/content/full/10/2/60) 
+> [ebm.bmjjournals.com/cgi/content/full/10/2/60](http://ebm.bmjjournals.com/cgi/content/full/10/2/60)<U+FFFD>
 
 [![Creative Commons
 License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)

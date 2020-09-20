@@ -3,8 +3,10 @@ title: Philosophy of teaching
 author: Steve Simon
 source: http://www.pmean.com/06/TeachingPhilosophy.html
 date: 2006-06-20
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Philosophy of teaching (June 20,

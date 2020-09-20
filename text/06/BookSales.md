@@ -3,8 +3,10 @@ title: Sales figures for Statistical Evidence in Medical Trials
 author: Steve Simon
 source: http://www.pmean.com/06/BookSales.html
 date: 2006-08-02
-category: Blog post
-tags: Statistical evidence
+category:
+- Blog post
+tags:
+- Statistical evidence
 output: html_document
 ---
 **[StATS]: Sales figures for Statistical Evidence in

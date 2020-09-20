@@ -2,9 +2,9 @@
 title: Chi-squared test
 author: Steve Simon
 date: 1999-09-03
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Unusual data
 output: html_document
 ---

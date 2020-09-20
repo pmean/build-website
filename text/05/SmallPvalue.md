@@ -3,8 +3,10 @@ title: A small p-value does not mean a large difference
 author: Steve Simon
 source: http://www.pmean.com/05/SmallPvalue.html
 date: 2005-02-08
-category: Blog post
-tags: Pvalues
+category:
+- Blog post
+tags:
+- Pvalues
 output: html_document
 ---
 **[StATS]:** **A small p-value does not mean a large

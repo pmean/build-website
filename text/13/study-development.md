@@ -3,14 +3,16 @@ title: "Recommendation: Study Development (Kansas City area resource)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/study-development/"
 date: "2013-12-12"
-category: Recommendation
-tags: Grant writing
+category:
+- Recommendation
+tags:
+- Grant writing
 output: html_document
 ---
 
 This is an excellent local resource for those of you in the Kansas City
 area. They have guidance on coming up with a study idea, finding
-funding,<U+00A0> and identifying study participants. This site offers general
+funding, and identifying study participants. This site offers general
 information and links to resources with Frontiers (aka the Heartland
 Institute for Clinical and Translational Research).
 

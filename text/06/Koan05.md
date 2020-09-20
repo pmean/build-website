@@ -3,8 +3,10 @@ title: Three new koans
 author: Steve Simon
 source: http://www.pmean.com/06/Koan05.html
 date: 2006-04-17
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 **[StATS]:** **Three new koans (April 17, 2006)**

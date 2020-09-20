@@ -2,9 +2,9 @@
 title: Interim analysis
 author: Steve Simon
 date: 1999-09-13
-category: 
+category:
 - Blog post
-tags: 
+tags:
 - Early stopping
 output: html_document
 ---

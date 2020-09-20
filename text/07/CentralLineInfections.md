@@ -9,7 +9,6 @@ tags:
 - Adverse events in clinical trials
 output: html_document
 ---
-
 I'm working with a group that is tracking central line infections
 over time. There were 22 infections over the previous year, and the
 infants were divided into five risk groups. For this example, I am

@@ -3,13 +3,12 @@ title: Why the plus one in the percentile formula?
 author: Steve Simon
 source: http://www.pmean.com/07/PercentileFormula.html
 date: 2007-06-22
-category: Blog post
-tags: Descriptive statistics
+category:
+- Blog post
+tags:
+- Descriptive statistics
 output: html_document
 ---
-**[StATS]:** **Why the plus one in the percentile
-formula? (June 22, 2007)**.
-
 > *Dear Professor Mean, I was reviewing your page on the interquartile
 > range and was wondering why the formula for the quartiles in
 > particular and percentiles in general asks you to select the p(n+1)
@@ -40,31 +39,3 @@ formula? (June 22, 2007)**.
 >
 > There are more technical justifications for adding one, but on a
 > Friday afternoon, I prefer a less technical justification.
-
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-for pages similar to this one at [Category: Descriptive
-with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
-
-<!---Do not use
-**[StATS]:** **Why the plus one in the percentile
-This page was written by Steve Simon while working at Children\'s Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
---->
-
