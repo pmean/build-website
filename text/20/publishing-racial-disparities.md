@@ -1,5 +1,5 @@
 ---
-title: "AI Fairness 360 Open Source Toolkit"
+title: "A New Standard For Publishing On Racial Health Inequities"
 source: "New"
 date: "2020-08-21"
 categories:
