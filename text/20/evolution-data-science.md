@@ -1,0 +1,16 @@
+---
+title: "The Evolution of Data Science ... As I Remember It"
+source: "New"
+date: "2020-10-22"
+categories:
+- Recommended
+tags:
+- Big data
+output: html_document
+---
+
+Charlie Kufs. The Evolution of Data Science ... As I Remember It. Stats with Cats blog 2020-10-22. Available in [html format](https://statswithcats.net/2020/10/22/the-evolution-of-data-science-as-i-remember-it/).
+
+<!---more--->
+
+A historical overview of the development of Applied Statistics and how it morphed into Data Science. It starts with the IBM mainframe computers of the 1960s and quotes from prominent statisticians throughout.
