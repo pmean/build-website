@@ -1,7 +1,6 @@
 ---
 title: Data management for survival data
 author: Steve Simon
-source: http://www.pmean.com/02/srv_data-99.html
 date: 2002-08-27
 categories:
 - Blog post
@@ -9,11 +8,9 @@ tags:
 - Survival analysis
 output: html_document
 ---
-******[StATS]:** **Data management for survival data
-(August 27, 2002)**
-
 Every project is different, of course, but here are some general
-concepts that may help you manage data.
+concepts that may help you manage data a survival data analysis
+project.
 
 Survival data will involve calculating the time between the various
 dates and noting when certain dates are present or absent.
@@ -29,7 +26,7 @@ to four dates:
 The dates of relapse and death are censored because either they did
 not occur, or they occurred after the date of last follow-up.
 
-![](http://www.pmean.com/images/images/02/srv_data-9901.gif)
+![](http://www.pmean.com/images/images/02/srv_data-0201.gif)
 
 The data shown above represents an example of this data. Notice that
 the relapse and death dates are missing (censored) for most of the
@@ -42,7 +39,7 @@ if it exists, it has to be later than the date of the last follow-up.
 Also notice that at least one subjects has relapsed without dying and
 at least one subject died without having a relapse first.
 
-![](http://www.pmean.com/images/images/02/srv_data-9902.gif)
+![](http://www.pmean.com/images/images/02/srv_data-0202.gif)
 
 Notice the formula here:
 
@@ -62,7 +59,7 @@ missing, this variable represents the number of days that we
 followed-up on the patient, which is a lower bound for the number of
 days the patient lived.
 
-![](http://www.pmean.com/images/images/02/srv_data-9903.gif)
+![](http://www.pmean.com/images/images/02/srv_data-0203.gif)
 
 To distinguish between the two situations, we create a variable,
 dth_code, which equals 1 when the patients is not missing a death
@@ -72,7 +69,7 @@ and 2 if the patient is not missing a death date).
 
 This is what the data looks like after the transformations.
 
-![](http://www.pmean.com/images/images/02/srv_data-9904.gif)
+![](http://www.pmean.com/images/images/02/srv_data-0204.gif)
 
 We need to create similar variables for analysis of progression free
 survival. In this analysis, we note the time until relapse. If the
@@ -93,33 +90,4 @@ operation might be replaced by the time that the tumor was diagnosed
 or the time when therapy ended. You might also calculate a composite
 event, such as relapse and/or death within 100 days of the operation.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html)[Category: Survival
-analysis](../category/SurvivalAnalysis.html).
-<!---More--->
-analysis](../category/SurvivalAnalysis.html).
-[](../category/WritingResearchPapers.html)[Category: Survival
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-******[StATS]:** **Data management for survival data
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-[](../category/WritingResearchPapers.html)[Category: Survival
-analysis](../category/SurvivalAnalysis.html).
---->
-
+You can find an [earlier version](http://www.pmean.com/02/srv_data-02.html) of this page on my [original website](http://www.pmean.com/original_site.html).
