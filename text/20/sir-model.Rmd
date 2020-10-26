@@ -1,0 +1,164 @@
+---
+title: "A peek into the inner workings of pandemic prediction models"
+source: "New"
+categories:
+- Blog post
+tags:
+- COVID-19
+output: word_document
+---
+
+There was a cute meme that was going around on the Internet earlier this year that showed the time spent looking at exponential graphs that showed an exponential increase from January to February to March. This was, of course, the time that most of us were learning about how serious the COVID-19 crisis could be. There were a whole host of statistical models that were trying to predict how many people would become infected and how many people would die.
+
+How do these models work? There are many approaches, but the most common uses some variation of the SIR compartment model.
+
+Think of a compartment as a bucket of water with a hole in the side of the bucket. Water spills out at a certain rate, depending on the size and shape of the hole. The water that spills out of this bucket goes into a second bucket, which also has a hold in the side. This water goes into a third bucket, and so forth.
+
+The compartments represent various disease states. In the simplest model, there are three compartments representing patients that are susceptible (*S*), infected (*I*), and recovered (*R*). The most interesting of these is the *I* compartment. The level in that compartment depends on how quickly it gets filled from the *S* compartment and how quickly it drains into the *R* compartment. You want don’t want the *I* compartment to get too full for many reasons, but mostly because a large number of infected individuals can tax the available health care resources.
+
+```{r, echo=FALSE}
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+knitr::opts_chunk$set(echo=FALSE, fig.width=6, fig.height=3)
+```
+
+```{r}
+sz <- 1.2
+xc <- 20
+yc <- 80
+xbox <- 10*c(-1, -1,  1,  1, -1) + xc
+ybox <- 10*c(-1,  1,  1, -1, -1) + yc
+data.frame(x=xbox, y=ybox) %>%
+  ggplot(aes(x, y)) +
+  expand_limits(x=c(0, 100), y=c(0, 100)) +
+  theme_void() +
+  geom_path(size=sz) + 
+  geom_text(x=xc, y=yc, label="S") +
+  geom_path(x=xbox+30, y=ybox-30, size=sz) +
+  geom_text(x=xc+30, y=yc-30, label="I") +
+  geom_path(x=xbox+60, y=ybox-60, size=sz) +
+  geom_text(x=xc+60, y=yc-60, label="R") +
+  geom_curve(
+    x=xc+40, y=yc-35, xend=xc+55, yend=30, curvature=-0.3, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) -> sir_plot
+sir_plot +
+  geom_curve(
+    x=xc+10, y=yc- 5, xend=xc+25, yend=yc-20, curvature=-0.3, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches")))
+```
+
+##### Figure 1. Susceptible/Infected/Recovered (SIR) model
+
+There is an interesting equation that describes the *I* compartment:
+
+$dI/dt = \beta (S \times I) - \gamma I$
+
+Let's take this equation apart to see what is going on.
+
+First the derivative notation, $dI/dt$ tells you that the model is explaining not the amount in the *I* compartment, but the rate at which the level in the *I* compartment changes. You do not want the rate to be postive, as that means the compartment is filling faster than it is draining.
+
+The term $- \gamma I$ represents the rate at which the compartment drains, and this is a constant $\gamma$ times the amount in the compartment *I*. If $\gamma$ is small, the compartment drains slowly and infectious people stay infectious for a very long time, weeks or maybe months. If $\gamma$ is large, then the compartment drains quickly meaning that infectious people recover very quickly, maybe within a few days.
+
+For most infectious diseases, you do not have any control over $\gamma$. It is controlled by how quickly your body's defenses can beat back the infection and rid your body of the evil virus.
+
+The term $\beta S \times I$ tells you how quickly the compartment is filling, and this is a constant $\beta$ times the product of the amounts in compartment *S* and compartment *I*. You do have a lot of control over this part of the equation.
+
+Since the filling rate is the product of *S* and *I*, the *I* compartment fills fast only when *S* and *I* are both large. If *I* is small, that means that there are not a lot of people around to do the infecting. If *S* is small that means that there are not a lot of people around to get infected.
+
+Typically *I* is small early in the course of a pandemic, and represents the early part of the exponential curve where the disease spreads slowly. Over time, however, *I* may grow and with it the rate at which *I* grows will increase, leading to the dreaded exponential increase in infections.
+
+Eventually as the *S* compartment drains into the *I* compartment, *S* will shrink enough so that the product $S \times I$ becomes small again. This represents herd immunity, the setting where the number of people susceptible to infection becomes too small to keep the epidemic going. It is like a forest fire that burns itself out because there is nothing left to burn.
+
+### Dynamics that avoid an exponential explosion of cases
+
+You can avoid the dreaded exponential curve, but it is not easy. You have to insure that the *I* compartment never grows big enough to start that exponential rise. This occurs when the constant $\beta$ is smaller than the constant $\gamma$. 
+
+We designate $R_0$ as the ratio, $\beta / \gamma$.
+
+This ratio plays a key role in the spread of disease. If it is less than one, then the *I* compartment drains faster into the *R* compartment than it can get filled by the *S* component. Keeping *I* low keeps the pandemic from growing exponentially. If the ratio $R_0$ is larger than 1, then the *I* compartment fills faster than it can drain. We want to avoid this, if we can.
+
+You make the ratio small by decreasing the numerator, $\beta$ or increasing the denominator, $\gamma$. There is little that you can do to influence $\gamma$. If you could strengthen your immune system so you can rid yourself of the infection faster, that would be great. But therapies to strengthen your immune system are not that easy to come by.
+
+Decreasing $\beta$, on the other hand, can be done. Even if there are a large number of susceptible people and a large number of infected people, you can reduce $\beta$ through policies like masking and social distancing.
+
+### Concerns about heteorgeneity
+
+A concern about compartment models is that it treats every individual the same. Some people, however, are less likely to get infected than others. Some parts of the country, because of urban crowding, are more likely to see higher rates of infection than other parts of the country. This leads to heterogeneity, and if you don't properly account for this heterogeneity, the accuracy of your predictions will suffer.
+
+### Adding compartments to enhance the SIR model
+
+The compartment model allows you to add extra layers to more closely model the complex process of disease propogation. You can, for example, add an additional compartment $E$, between the susceptible and infected compartments. The would represent people who were exposed to the virus but who were not yet infectious. The infected compartment could have two holes, one which drains into the recovered compartment with the other draining into compartment for hospitalization and/or death.
+
+```{r}
+sir_plot +
+  geom_path(x=xbox, y=ybox-30, size=sz) +
+  geom_text(x=xc, y=yc-30, label="E") +
+  geom_curve(
+    x=xc, y=yc-10, xend=xc, yend=yc-20, curvature=0, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) +
+  geom_curve(
+    x=xc+10, y=yc-30, xend=xc+20, yend=yc-30, curvature=0, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) -> seir_plot
+seir_plot
+```
+
+##### Figure 2. Susceptible/Exposed/Infected/Recovered (SIR) model
+
+You can also describe multiple paths out of the *I* compartment. Some of the individuals in this compartment be hospitalized (the *H* compartment) and from the hospital, some could recover and some could die (the *D* compartment).
+
+```{r}
+seir_plot + 
+  geom_path(x=xbox+30, y=ybox-60, size=sz) +
+  geom_text(x=xc+30, y=yc-60, label="H") +
+  geom_path(x=xbox, y=ybox-60, size=sz) +
+  geom_text(x=xc, y=yc-60, label="D") +
+  geom_curve(
+    x=xc+30, y=yc-40, xend=xc+30, yend=yc-50, curvature=0, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) +
+  geom_curve(
+    x=xc+40, y=yc-60, xend=xc+50, yend=yc-60, curvature=0, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) +
+  geom_curve(
+    x=xc+20, y=yc-60, xend=xc+10, yend=yc-60, curvature=0, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) -> seirhd_plot
+seirhd_plot
+```
+
+##### Figure 3. Adding Hospitalized/Death compartments to the SEIR model
+
+The nightmare scenario for infectious disease Epidemiologists is when the recovered compartment *R* can drain back into the susceptible compartment *S*. This could happen if your immunity wears off after a certain amount of time or when the virus mutates to a form that your current immunity system no longer recognizes. This can produce a setting where the infection never dies down, or where the infection goes up and down in a regular cycle. Although there are some reports of individuals becoming infected a second time, there is not enough data yet on whether this occurs at a rate that would be an issue. 
+
+```{r}
+seirhd_plot +
+  geom_curve(
+    x=xc+65, y=yc-50, xend=xc+10, yend=yc+5, curvature=0.2, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches")))
+```
+
+##### Figure 4. A model with Recovered returning to Susceptible
+
+### Concerns about the data sources
+
+It is interesting to examine these models from a mathematical perspective, but predictions about the future course of any pandemic requires linking the theoretical models to actual data.
+
+For COVID-19, data is free for the taking, thanks to Johns Hopkins University, the New York Times, USA Facts, and others. If you have more than a little skill in data science, you can build your own model and run it on real data.
+
+There is concern, however, about the raw data. Tests for COVID-19 will sometimes produce false positives and false negatives. There is a lag between when the test is done and when a positive result gets reported. More importantly, not everyone who has an infection will get tested.
+
+You can build a model based on the number of deaths rather than the number of infections. While there are no false positives or negatives on an outcome like death, there is uncertainty on when a death should be associated with COVID-19.
+
+While these are serious problems, they are not new to infectious disease Epidemiologists. There are ways to adjust models for some types of over and under reporting. When adjustments are not available, there is often the ability to recognize the direction in which these problems will bias the model estimates.
+
+### Concerns about heteorgeneity
+
+A concern about compartment models is that it treats every individual the same. Some people, however, are less likely to get infected than others. Some parts of the country, because of urban crowding, are more likely to see higher rates of infection than other parts of the country. The models are affected by important temporal changes such as business shutdowns and reopenings, increased testing, and mandates for masking. This leads to heterogeneity, and if you don't properly account for this heterogeneity, the accuracy of your predictions will suffer.
+
+[Talk about agent based models and state/county projections.]
+
+### References
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935673/
+
+https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/
+
+https://www.washingtonpost.com/graphics/2020/world/corona-simulator/

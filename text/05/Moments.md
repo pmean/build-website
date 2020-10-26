@@ -74,6 +74,8 @@ variable with density function f(x), then the expected value of X is
 
 $E[X]=\displaystyle\int_{-\infty}^{\infty}xf(x)dx$
 
+Often, you will see the Greek letter $\mu$ used in place of $E[X]$.
+
 To calculate such an expected value, you often have to recall your
 college Calculus formulas. Here are a few simple examples. An
 exponential distribution has a density function
@@ -82,26 +84,41 @@ $f(x)=\lambda e^{-\lambda x}\ for\ 0 \le x \le \infty, \ 0 \ otherwise$
 
 where $\lambda$ is a rate parameter. You would compute the expected value as
 
-![](http://www.pmean.com/images/05/Moments08.gif)
+$E[X]=\displaystyle\int_{-\infty}^{\infty}x\lambda e^{-\lambda x}dx$
 
 Notice that the lower limit of the integral is zero rather than
--infinity because the density is defined only for values between 0 and
+$-\infty$ because the density is defined only for values between 0 and
 infinity.
 
-  This integral is a bit tedious, but you can use [integration by
+This integral is a bit tedious, but you can use [integration by
 parts](http://en.wikipedia.org/wiki/Integration_by_parts) to compute it.
 The basic form for integration by parts is
 
-![](http://www.pmean.com/images/05/Moments09.gif)
+$\displaystyle\int u dv = uv - \displaystyle\int v du$
 
-Careful selection of u and dv yields the following.
+Careful selection of u and dv as
 
-![](http://www.pmean.com/images/05/Moments10.gif)
+$u=\lambda x$, $dv=e^{-\lambda x}dx$
+
+produces 
+
+$du=\lambda dx$, $v=\frac{1}{\lambda}e^{-\lambda x}dx$
+
+and yields the following.
+
+$\displaystyle\int_{0}^{\infty}x\lambda e^{-\lambda x}dx$
+
+$= \lambda x \frac{1}{\lambda}e^{-\lambda x}-\displaystyle\int_{-\infty}^{\infty}\lambda \frac{1}{\lambda}e^{-\lambda x}dx$
+
+$= x e^{-\lambda x}-\displaystyle\int_{0}^{\infty}e^{-\lambda x}dx$
 
 When you evaluate this integral at the limits of zero and infinity, most
 of the terms become zero and you are left with
 
-![](http://www.pmean.com/images/05/Moments11.gif)
+$x e^{-\lambda x}\Big|_0^\infty - \frac{1}{\lambda}e^{-\lambda x}\Big|_0^\infty$
+
+$=\frac{1}{\lambda}$
+
 
 Now that was a lot of work for a relatively simple expected value
 calculation. For most distributions, someone else has already done the
@@ -109,23 +126,39 @@ Calculus for you and you can just consult the appropriate reference. One
 of my favorite books that has a lot of these expected value calculations
 for a wide range of statistical distributions is:
 
--   **Statistical Distributions Second Edition.** Evans M, Hastings N,
-    Peacock B (1993) New York: John Wiley & Sons. ISBN: 0471559512.
-    [BookFinder4U
-    link]](http://www.bookfinder4u.com/detail/0471559512.html)
+Evans M, Hastings N,
+    Peacock B. Statistical Distributions Second Edition (1993) New York: John Wiley & Sons. ISBN: 0471559512.
 
 **Moments**
 
 A moment is a special type of expected value. The formal definition of
 the nth moment is
 
-![](http://www.pmean.com/images/05/Moments12.gif)
+$E[X^n]=\sum x^n P[X=x]$
+
+or 
+
+$E[X^n]=\displaystyle\int x^n f(x)dx$
 
 depending on whether x is continuous or discrete. In simpler terms, a
 moment is the expect value of a power of x. A central moment is defined
 similarly, except you subtract the mean before raising to a power.
 
 ![](http://www.pmean.com/images/05/Moments13.gif)
+
+**Central moments**
+
+The nth central moment is defined as 
+
+$E[(X-\mu)^n]=\sum (x-\mu)^n P[X=x]$
+
+or 
+
+$E[(X-\mu)^n]=\displaystyle\int (x-\mu)^n f(x)dx$
+
+The second central moment is known as the variance and is represented by $\sigma^2$.
+
+**Why are moments important?**
 
 Moments are used in the calculation of important statistics like the
 mean, variance, skewness, and kurtosis of a distribution. The mean is
@@ -135,30 +168,35 @@ moments..
 
 The second moment of the exponential distribution, for example, is
 
-![](http://www.pmean.com/images/05/Moments14.gif)
+$E[X^2]=\displaystyle \int_0^\infty x^2 \lambda e^{-\lambda x}dx$
 
 This integral is again a bit tedious to calculate, because you have to
 use integration by parts twice. When you do this you get
 
-![](http://www.pmean.com/images/05/Moments15.gif)
+
+$E[X^2]=\frac{2}{\lambda^2}$
 
 The second central moment of the exponential distribution is
 
-![](http://www.pmean.com/images/05/Moments16.gif)
+$E[(X-\mu)^2]=\displaystyle \int_0^\infty (x-\mu)^2 \lambda e^{-\lambda x}dx$
 
 Again, you can use Calculus, but there is a shortcut formula that
 provides an even simpler answer.
 
-![](http://www.pmean.com/images/05/Moments17.gif)
+$E[(X-\mu)^2]=E[X^2]-\mu^2$
+
+which yields
+
+$E[(X-\mu)^2]=\frac{1}{\lambda^2}$
 
 Skewness is defined as
 
-![](http://www.pmean.com/images/05/Moments18.gif)
+$E\Big[\frac{(X-\mu)^3}{\sigma^3}\Big]$
 
 Again, you need a bit of patience, but repeated integration by parts
 yields
 
-![](http://www.pmean.com/images/05/Moments19.gif)
+$E\Big[\frac{(X-\mu)^3}{\sigma^3}\Big]=2$
 
 What does all this tell us from a practical perspective? First notice
 that the variance of the exponential distribution is equal to the square

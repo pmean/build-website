@@ -1,7 +1,6 @@
 ---
 title: Step-down procedures for multiple comparisons
 author: Steve Simon
-source: http://www.pmean.com/05/MultipleComparisons-05.html
 date: 2005-06-16
 categories:
 - Blog post
@@ -56,22 +55,32 @@ procedure.
 
 Step 1. Sort the p-values from low to high:
 
-![02a.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0501.png)
+$p_{(1)} \le p_{(2)} \le p_{(3)} \le \cdots \le p_{(K)}$
 
 Step 2: Multiply the p-values by K, K-1, K-2,...
 
-![02b.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0502.png)
+$p_{(1)}^*=K p_{(1)}$
+
+$p_{(2)}^*=(K-1) p_{(2)}$
+
+$p_{(3)}^*=(K-3) p_{(3)}$
+
+$\vdots$
+
+$p_{(i)}^*=(K-i+1) p_{(i)}$
+
+$\vdots$
 
 Step 3: Correct for any p-values out of their proper order.
 
-![02c.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0503.png)
+$p_{(i)}^**=max_{j \le i}p_{(j)^*}$
 
 Here's a small example. Suppose I have ten p-values: 0.0002, 0.0011,
 0.0012, 0.0015, 0.0022, 0.0091, 0.0131, 0.0152, 0.0311, and 0.1986.
 These are impressively small, even after accounting for the fact that we
 have ten of them.
 
-![02d.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0504.png)
+![](http://www.pmean.com/news/images/201102/02d.gif)
 
 Notice that the first part of the Holm adjustment (the fourth column)
 leaves a few of the adjusted p-values out of order. The third p-value is
@@ -142,22 +151,35 @@ The formal mathematical definition is
 
 Step 1. Sort the p-values from high to low:
 
-![02e.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0505.png)
+$p_{(K)} \ge p_{(K-1)} \ge p_{(K-2)} \ge \cdots \ge p_{(1)}$
 
-Step 2. Multiply the p-values by 1, K/(K-1), K/(K-2), ..., K.
+Step 2: Multiply the p-values by 1, K/(K-1), K/(K-2),...
 
-![Holm06.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0506.png)
+$p_{(K)}^*=p_{(K)}$
 
-Step 3. Correct for any p-values out of the proper order.
+$p_{(K-1)}^*=p_{(K-1)}\frac{K}{(K-1)}$
 
-![02g.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0507.png)
+$p_{(K-2)}^*=p_{(K-2)}\frac{K}{(K-2)}$
+
+$\vdots$
+
+$p_{(K-i)}^*=p_{(K-i)}\frac{K}{(K-i)}$
+
+$\vdots$
+
+$p_{(1)}^*=p_{(i)} K$
+
+
+Step 3: Correct for any p-values out of their proper order.
+
+$p_{(K-i)}^**=min_{j \le i}p_{(K-i)}^*$
 
 Here's the same example using the ten p-values discussed above. It
 seems a bit silly, perhaps to apply the false discovery rate to such a
 small number of p-values, but it does help to illustrate the
 calculations.
 
-![02h.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0508.png)
+![](http://www.pmean.com/news/images/201102/02h.gif)
 
 The p-values for the Holm adjustment are listed at the end for
 comparison.
@@ -178,7 +200,7 @@ the notation which appears in the book
 The Bonferroni approach (and the Holm adjustment) control the familywise
 error rate, which is defined as
 
-![02i.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0509.png)
+$P[V > 0]$
 
 This is saying that even a single false positive is intolerable and you
 must control this scrupulously. For a microarray experiment, this may be
@@ -187,7 +209,7 @@ V/R. A formal mathematical definition here is a bit tricky, because we
 can't allow even a small probability that the denominator is zero. It
 turns out that the false discovery rate is equal to
 
-![02j.gif not found.](http://www.pmean.com/images/images/05/MultipleComparisons-0510.png)
+$E\big[\frac{V}{R}|R > 0\big]P[R > 0]$
 
 Once you let go of the concepts of p-values, then you can drop the
 dogmatic insistence on an alpha level of 0.05 as well.
@@ -203,3 +225,5 @@ In a microarray experiment, it means tracking down a lead that ends up
 being a dead end. This is not a trivial cost, but your perspective here
 is quite different than testing a new drug, for example. There, a false
 positive means allowing an ineffective drug onto the market.
+
+You can find an [earlier version](http://www.pmean.com/05/MultipleComparisons.html) of this page on my [original website](http://www.pmean.com/original_site.html).
