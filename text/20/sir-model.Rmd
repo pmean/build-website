@@ -19,6 +19,8 @@ The compartments represent various disease states. In the simplest model, there 
 ```{r, echo=FALSE}
 suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
+suppressMessages(suppressWarnings(library(usmap)))
+
 knitr::opts_chunk$set(echo=FALSE, fig.width=6, fig.height=3)
 ```
 
@@ -80,6 +82,10 @@ This ratio plays a key role in the spread of disease. If it is less than one, th
 You make the ratio small by decreasing the numerator, $\beta$ or increasing the denominator, $\gamma$. There is little that you can do to influence $\gamma$. If you could strengthen your immune system so you can rid yourself of the infection faster, that would be great. But therapies to strengthen your immune system are not that easy to come by.
 
 Decreasing $\beta$, on the other hand, can be done. Even if there are a large number of susceptible people and a large number of infected people, you can reduce $\beta$ through policies like masking and social distancing.
+
+### A vaccination model
+
+When you get a vaccine, the dynamics change. The susceptible 
 
 ### Concerns about heteorgeneity
 
@@ -155,6 +161,22 @@ A concern about compartment models is that it treats every individual the same. 
 
 [Talk about agent based models and state/county projections.]
 
+### Agent based models
+
+An agent based model replaces buckets of water with individual particles. There particles move around at varying speeds and when an infected particle collides a susceptible particle, the latter also becomes infected. Think of it as a giant simulated game of tag, with the infected people playing the role of "it". You can control each particle differently. Faster moving particles represent individuals who do not practice social distancing well. You can assign each particle a different level of susceptibility as well, so that some become infected with very high probability after a collision and others become infected with a much lower probability. These models can include other sources of variation, such as changes in social distancing after a lockdown.
+
+Agent based models have been compared to a giant game of the Sims. The number of people in the agent based models, however, is often in the thousands or even millions.
+
+### Hierarchical models
+
+A hierarchical model divides up the country into regions (typically individual counties) and lets each region have a different SIR model. With 3,141 counties, this represents a huge increase in complexity, one that could potentially choke even the fastest computers. The saving grace in these hierarchical models is that you can often rely on the fact that similar regions will behave similarly in the dynamics of the SIR model.
+
+You can model the similarity of regions using geographic proximity (New York counties and New Jersey counties should have similar dynamics, for example). You could also model the similarities using U.S. Census information (counties with very low population densities should have similar dynamics, for example).
+
+### Time varying parameters
+
+Time is one of the biggest sources of heterogeneity. The spread of an infectious disease changes over time as personal behavior changes and as government interventions change.
+
 ### References
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935673/
@@ -162,3 +184,5 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935673/
 https://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/
 
 https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+
+https://www.nature.com/articles/d41586-020-01003-6
