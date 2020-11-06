@@ -1,0 +1,34 @@
+---
+title: "How I use R Markdown to write research papers"
+source: "New"
+categories:
+- Blog post
+tags:
+- Writing research papers
+output: html_document
+---
+
+I joined a writing group at UMKC and am making very good progress on a couple of research papers. The group meets once a week to talk about everyone's progress and to share ideas. One interesting suggestion was the use of [Notion](https://www.notion.so/), software that organizes all your myriad writing tasks (actually tasks in general). I shared how I use R Markdown for writing and promised that I'd provide some resources about it before the next meeting.
+
+<!--more-->
+
+R Markdown is an implementation of [Markdown](https://commonmark.org/help/) inside the R programming language. R Markdown also leverages features in [LaTex](https://www.latex-project.org/), [MathJax](https://www.mathjax.org/), and [Pandoc](https://pandoc.org/).
+
+If you use the [RStudio integrated development environment](https://rstudio.com/) to run R, then you already have many of the features of R built-in. There are several R packages that use or extend R Markdown:
+
++ [bookdown](https://bookdown.org/)
++ [blogdown](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/)
++ [knitr](https://yihui.org/knitr/)
++ [rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html)
+
+I use R Markdown to produce early drafts of research publications. It simplifies writing in several different ways.
+
+**Figures** R can produce beautiful graphs, and with R Markdown, you can insert these graphs anywhere in your document. You can't control page breaks easily in R Markdown, however. Here's an example of a simple graph.
+
+```{r, echo=FALSE}
+suppressMessages(suppressWarnings(library(tidyverse)))
+x=seq(-1, 1, length=10000)
+y <- sin(1/x)
+data.frame(x, y) %>%
+  ggplot(aes(x, y)) + geom_line()
+```
