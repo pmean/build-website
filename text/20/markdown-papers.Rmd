@@ -6,6 +6,10 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+bibliography: rmarkdown-papers.bib
+csl: biomed-central.csl
+nocite: |
+  @ziemann-2016, @zeeberg-2004
 ---
 
 I joined a writing group at UMKC and am making very good progress on a couple of research papers. The group meets once a week to talk about everyone's progress and to share ideas. One interesting suggestion was the use of [Notion](https://www.notion.so/), software that organizes all your myriad writing tasks (actually tasks in general). I shared how I use R Markdown for writing and promised that I'd provide some resources about it before the next meeting.
@@ -25,10 +29,72 @@ I use R Markdown to produce early drafts of research publications. It simplifies
 
 **Figures** R can produce beautiful graphs, and with R Markdown, you can insert these graphs anywhere in your document. You can't control page breaks easily in R Markdown, however. Here's an example of a simple graph.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.width=6, fig.height=3}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 x=seq(-1, 1, length=10000)
-y <- sin(1/x)
+y <- x*sin(1/x)
 data.frame(x, y) %>%
   ggplot(aes(x, y)) + geom_line()
 ```
+
+With the ability to plot polygons, line segments, and arrows, you can create informational diagrams like this.
+
+```{r, echo=FALSE}
+sz <- 1.2
+xc <- 20
+yc <- 80
+xbox <- 10*c(-1, -1,  1,  1, -1) + xc
+ybox <- 10*c(-1,  1,  1, -1, -1) + yc
+data.frame(x=xbox, y=ybox) %>%
+  ggplot(aes(x, y)) +
+  expand_limits(x=c(0, 100), y=c(0, 100)) +
+  theme_void() +
+  geom_path(size=sz) + 
+  geom_text(x=xc, y=yc, label="S") +
+  geom_path(x=xbox+30, y=ybox-30, size=sz) +
+  geom_text(x=xc+30, y=yc-30, label="I") +
+  geom_path(x=xbox+60, y=ybox-60, size=sz) +
+  geom_text(x=xc+60, y=yc-60, label="R") +
+  geom_curve(
+    x=xc+40, y=yc-35, xend=xc+55, yend=30, curvature=-0.3, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches"))) -> sir_plot
+sir_plot +
+  geom_curve(
+    x=xc+10, y=yc- 5, xend=xc+25, yend=yc-20, curvature=-0.3, size=sz, 
+    arrow = arrow(type = "closed", length=unit(0.15, "inches")))
+```
+
+The code to produce this graph is a bit tedious to create, but since the code that produces this graph is part of the R Markdown file, you can edit it as you are editting other parts of your paper. If you want to relabel the middle box as an "E", you do not need to exit and run a different program, and then cut-and-paste back into your documents.
+
+**Formulas**
+
+You can get really nice looking mathematical formulas inserted into your paper using a really simple syntax. For example, the code
+
+V = \\frac{4}{3} \\pi r^3
+
+becomes
+
+$V = \frac{4}{3} \pi r^3$
+
+when you sandwich it between two dollar signs.
+
+**Tables**
+
+I used to spend a lot of time retyping numbers from what the statistical software said into a table that was organized to make it more readable. That is a tedious and error prone practice, and if your data set changes, even just a little bit, you have to re-type everything all over again. You can produce nice looking tables in R Markdown. It takes about as much work as just retyping everything, but once the table looks nice, you can use the code over again for other projects. I am still learning how to do tables well, but here is some output that I generated to show the potential value.
+
+```{r}
+lm(breaks ~ wool*tension, data = warpbreaks) %>%
+  tidy %>%
+  rename(t.test=statistic) %>% 
+  kable(
+    digits=c(1, 1, 1, 2, 4),
+    caption="Analysis of variance table")
+```
+
+I can change how the values in this table are rounded or the names in the header row with just one line of code. Other enhancements may take a bit more work.
+
+**Bibliographies**
+
+If you have your references stored in BibTeX format, you can place them at the end of your document.
