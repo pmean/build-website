@@ -27,7 +27,9 @@ If you use the [RStudio integrated development environment](https://rstudio.com/
 
 I use R Markdown to produce early drafts of research publications. It simplifies writing in several different ways.
 
-**Figures** R can produce beautiful graphs, and with R Markdown, you can insert these graphs anywhere in your document. You can't control page breaks easily in R Markdown, however. Here's an example of a simple graph.
+**Figures** 
+
+R can produce beautiful graphs, and with R Markdown, you can insert these graphs anywhere in your document. You can't control page breaks easily in R Markdown, however. Here's an example of a simple graph.
 
 ```{r, echo=FALSE, fig.width=6, fig.height=3}
 suppressMessages(suppressWarnings(library(broom)))
@@ -95,6 +97,23 @@ lm(breaks ~ wool*tension, data = warpbreaks) %>%
 
 I can change how the values in this table are rounded or the names in the header row with just one line of code. Other enhancements may take a bit more work.
 
+**Output formats**
+
+You can specify a variety of output formats. The ones I use most often are
+
++ docx
++ html
++ pdf
++ pptx
+
+The pdf option requires that you have a version of LaTeX installed on your computer. I use [MikTeX](https://miktex.org/), but others work just fine.
+
 **Bibliographies**
 
 If you have your references stored in BibTeX format, you can place them at the end of your document.
+
+The bibliography always appears at the end of the document.
+
+**Final comments**
+
+Most of the people that I collaborate with do not use R Markdown, so I typically will start a draft in R Markdown, but when it gets to the point where I can share it with my collaborators, I send the document in Word format and we make any further changes there. If I am the sole author, then I can keep the file in R Markdown.
