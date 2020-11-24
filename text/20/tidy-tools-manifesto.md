@@ -1,0 +1,16 @@
+---
+title: "The tidy tools manifesto"
+source: "New"
+date: "2020-11-24"
+categories:
+- Recommendation
+tags:
+- R programming
+output: html_document
+---
+
+Hadley Wickham. The tidy tools manifesto. 2019-11-19. Available in [html format](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html).
+
+<!---More--->
+
++ Hadley Wickham outlines the general principles that underlie all of the packages published in the so-called tidyverse.
