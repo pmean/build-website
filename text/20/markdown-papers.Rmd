@@ -6,10 +6,6 @@ categories:
 tags:
 - Writing research papers
 output: html_document
-bibliography: rmarkdown-papers.bib
-csl: biomed-central.csl
-nocite: |
-  @ziemann-2016, @zeeberg-2004
 ---
 
 I joined a writing group at UMKC and am making very good progress on a couple of research papers. The group meets once a week to talk about everyone's progress and to share ideas. One interesting suggestion was the use of [Notion](https://www.notion.so/), software that organizes all your myriad writing tasks (actually tasks in general). I shared how I use R Markdown for writing and promised that I'd provide some resources about it before the next meeting.
@@ -112,7 +108,7 @@ The pdf option requires that you have a version of LaTeX installed on your compu
 
 If you have your references stored in BibTeX format, you can place them at the end of your document.
 
-The bibliography always appears at the end of the document.
+The bibliography always appears at the end of the document. I'm not showing a bibliography for technical reasons, but it is pretty easy.
 
 **Final comments**
 
