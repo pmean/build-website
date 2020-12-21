@@ -12,7 +12,4 @@ This book, produced by the [National Academy of Sciences, Engineering, and Medic
 
 <!--more-->
 
-Committee on Science, Engineering, Medicine, and Public Policy; Policy and
-Global Affairs; National Academies of Sciences, Engineering, and Medicine
-National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility
-and Replicability in Science. Washington, DC: The National Academies Press. This book is available in various formats--start on [this html page](https://doi.org/10.17226/25303).
+Committee on Science, Engineering, Medicine, and Public Policy; Policy and Global Affairs; National Academies of Sciences, Engineering, and Medicine National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press. This book is available in various formats--start on [this html page](https://doi.org/10.17226/25303).
