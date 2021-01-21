@@ -1,6 +1,7 @@
 ---
 title: "How I use R Markdown to write research papers"
 source: "New"
+date: "2020-11-21"
 categories:
 - Blog post
 tags:

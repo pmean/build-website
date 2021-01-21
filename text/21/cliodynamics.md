@@ -1,7 +1,7 @@
 ---
 title: "Today's False Prophets"
 source: "New"
-date: "2020-01-04"
+date: "2021-01-04"
 categories:
 - Recommendation
 tags:
