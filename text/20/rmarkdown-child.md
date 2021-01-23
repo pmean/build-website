@@ -1,0 +1,16 @@
+---
+title: "Child documents. Input child document into the main document"
+source: "New"
+date: "2021-01-11"
+categories:
+- Recommendation
+tags:
+- R programming
+output: html_document
+---
+
+This is part of the documentation for knitr, a package in R. It shows how to include one or more Rmarkdown files inside a master Rmarkdown file.
+
+<!--more-->
+
+Yihui Xie. Child documents. Input child document into the main document. Available in [html format](https://yihui.org/knitr/demo/child/).
