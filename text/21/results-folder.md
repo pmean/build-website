@@ -3,7 +3,7 @@ title: "How to save RMarkdown output in the results folder"
 source: "New"
 date: "2021-01-23"
 categories:
-- Recommendation
+- Blog post
 tags:
 - R programming
 output: html_document
