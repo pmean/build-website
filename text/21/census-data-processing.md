@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 
-The data collected as pasrt of the decennial U.S. Census comes from a variety of sources and it all needs to be combined. This article provides a simple and easy to follow overview of the various data processing steps.
+The data collected as part of the decennial U.S. Census comes from a variety of sources and it all needs to be combined. This article provides a simple and easy to follow overview of the various data processing steps.
 
 <!--more-->
 
