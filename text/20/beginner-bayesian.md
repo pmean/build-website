@@ -5,7 +5,7 @@ date: "2020-11-20"
 categories:
 - Blog post
 tags:
-- Bayesian statisticis
+- Bayesian statistics
 output: html_document
 ---
 
