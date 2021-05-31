@@ -28,8 +28,25 @@ geometry: a6paper, landscape, margins=0.25in
 
 Now to convert from pdf to png, I use a program called [ImagePrinter Pro](https://code-industry.net/imageprinterpro/). It's not free, but it is professionally done and has some extra features I may end up using, such as cropping PDF files. There are free alternatives: just google for something like "convert pdf to png."
 
+### SAS users (update: 2021-05-31)
+
+You can also control papersize in SAS. You can specify
+
+```{}
+options papersize="4x6 card";
+```
+
+or
+
+```{}
+options papersize=(4in 6in);
+```
+
+Note that SAS uses a default of inches for units of measurement, but specifying the unit is still a good habit to follow. You can find details about papersize at the [SAS Help Center][sas1].
 
 
 ### Important notice, January 23, 2020.
 
 I am in the process of updating my website and blog and am adopting a simpler approach that will ease the maintenance of these web pages. I have about 2,000 pages and they are in a wide range of styles and formats. I will be using markdown code to create fairly minimimally formatted html pages. The process is tricky, and I expect to see a lot of misformatted pages and broken links during this transition. Please be patient.
+
+[sas1]: https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/lesysoptsref/n1ieb4hg6fijzon1slcsyiqu7972.htm
