@@ -1,0 +1,57 @@
+---
+title: "Anonymizing ids"
+author: "Steve Simon"
+source: "New"
+date: "2020-04-15"
+categories:
+- Blog post
+tags:
+- Privacy in research
+output: html_document
+---
+
+I'm working on a project that might be exempt from IRB review...if I can convert a particular ID code to an anonymous code. The ID codes are an eight digit number. Here's a simple approach that should work for this project.
+
+<!---More--->
+
+The steps are
+
+1. Create a random number between 100,000,000 and 900,000,000.
+
+2. Add the same random number to each eight digit id. This will produce a new nine digit id.
+
+3. Link the eight and nine digit ids to the raw data.
+
+4. Store the merged data with the nine digit id, but not the eight digit id.
+
+5. Shred the random number.
+
+The process of shredding the random number will prevent anyone from converting the nine digit id back into an eight digit id.
+
+### 1. Create a random number between 100,000,000 and 900,000,000.
+
+There are several easy ways to create a random number with a specific range. In Microsoft Excel, you would place the formula
+
+```{}
+=randbetween(100000000, 900000000)
+```
+
+Count your zeros carefully, there should be eight of them for both numbers.
+
+This will produce a value. Mine is 480035489, but yours will be different.
+
+### 2. Add the same random number to each eight digit id. This will produce a new nine digit id.
+
+Here's some data with some made up id values
+
+```{r, echo=FALSE}
+library(knitr)
+x <- rep(c(12345678, 23456789, 34567890), c(4, 3, 2))
+kable(x)
+```
+
+Here's what those ID numbers look like when you add my random number
+
+```{r, echo=FALSE}
+kable(data.frame(x=x, y=x+480035489))
+```
