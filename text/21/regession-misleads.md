@@ -1,18 +1,18 @@
 ---
-title: "Choosing a good chart"
+title: "The illusion of predictability. How regression statistics mislead experts"
 source: "New"
 date: "2021-05-18"
 categories:
 - Recommended
 tags:
-- Graphical display
+- HUman side of statistics
 output: html_document
 ---
 
-A simple guide for choosing among a variety of different visualization methods. These are mostly basic charts, such as pie charts, histograms, and pie charts. I don't agree with all of the choices, but this is still a good starting point.
+The authors argue that regression models fail to capture important levels of uncertainty needed for economic decisions.
 
 <!--more-->
 
-Andrew Abela. Choosing a good chart. The Extreme Presentation Method blog, 2006-09-06. Available in [html format][abe1].
+Emre Soyer, Robin H. Sogarth. The illusion of predictability: How regression statistics mislead experts. International Journal of Forecasting, 2021, 28(3), 695-711. Available in [html format][emr1].
 
-[abe1]: https://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+[emr1]: https://www.sciencedirect.com/science/article/pii/S0169207012000258
