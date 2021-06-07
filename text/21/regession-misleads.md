@@ -5,7 +5,7 @@ date: "2021-05-18"
 categories:
 - Recommended
 tags:
-- HUman side of statistics
+- Human side of statistics
 output: html_document
 ---
 
