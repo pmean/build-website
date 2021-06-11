@@ -2,7 +2,7 @@
 title: "Anonymizing ids"
 author: "Steve Simon"
 source: "New"
-date: "2020-04-15"
+date: "2020-06-10"
 categories:
 - Blog post
 tags:
@@ -18,7 +18,7 @@ The steps are
 
 1. Create a random number between 100,000,000 and 900,000,000.
 
-2. Add the same random number to each eight digit id. This will produce a new nine digit id.
+2. Add the same random number to each eight digit id.
 
 3. Link the eight and nine digit ids to the raw data.
 
@@ -40,18 +40,73 @@ Count your zeros carefully, there should be eight of them for both numbers.
 
 This will produce a value. Mine is 480035489, but yours will be different.
 
-### 2. Add the same random number to each eight digit id. This will produce a new nine digit id.
+There is a complication in Microsoft Excel that you have to work around. The randbetween function will recalculate everytime you make a change anywhere else in the workbook. You need to "freeze" the random number by copying and pasting it to a different cell using the "past values" option under "paste special."
+
+### 2. Add the same random number to each eight digit id.
 
 Here's some data with some made up id values
 
 ```{r, echo=FALSE}
-library(knitr)
-x <- rep(c(12345678, 23456789, 34567890), c(4, 3, 2))
-kable(x)
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(kableExtra)))
+suppressMessages(suppressWarnings(library(magrittr)))
+private_id <- 12345678+(0:7)*11262783
+data.frame(private_id=private_id) %>%
+  kbl %>%
+  kable_minimal(full_width=FALSE, position="left")
 ```
 
-Here's what those ID numbers look like when you add my random number
+Here's what those ID numbers look like when you add my random number. We now have a random nine digit id associated with each eight digit id.
 
 ```{r, echo=FALSE}
-kable(data.frame(x=x, y=x+480035489))
+e <- data.frame(private_id=as.character(private_id), random_id=as.character(private_id+480035489))
+
+e %>%
+  kbl %>%
+  kable_minimal(full_width=FALSE, position="left")
 ```
+
+### 3. Link the eight and nine digit ids to the raw data.
+
+Here's the file with the actual data and the private ID code
+
+```{r, echo=FALSE}
+d <- data.frame(
+  private_id=c(rep(private_id[1:3], c(4, 3, 2)), "..."),
+  report_date=c(as.character(Sys.Date()-round(runif(9, 0, 60))), "..."),
+  data=c(round(runif(9, 100, 199)), "..."))
+d %>%
+  kbl %>%
+  kable_minimal(full_width=FALSE, position="left")
+```
+
+Merge the two files together.
+
+```{r, echo=FALSE}
+e %>%
+  bind_rows(data.frame(private_id="...", random_id="...")) -> f
+merge(f, d) -> g
+# g <- g[c(2:9, 1), ]
+h <- g[c(2:9, 1), ]
+h %>%
+  tibble %>%
+  data.frame %>%
+  kbl %>%
+  kable_minimal(full_width=FALSE, position="left")
+```
+
+### 4. Store the merged data with the nine digit id, but not the eight digit id.
+
+You now have a new random_id in place of the private id.
+
+```{r, echo=FALSE}
+h %>%
+  select(-private_id) %>%
+  kbl %>%
+  kable_minimal(full_width=FALSE, position="left")
+```
+
+### 5. Shred the random number.
+
+Once the random number is destroyed, the nine digit id cannot be converted back to the eight digit id. 
