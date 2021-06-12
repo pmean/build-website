@@ -1,5 +1,5 @@
 ---
-title: "The illusion of predictability. How regression statistics mislead experts"
+title: "Basic Python Resources"
 source: "New"
 date: "2021-06-12"
 categories:
