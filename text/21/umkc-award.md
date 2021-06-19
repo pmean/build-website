@@ -53,11 +53,19 @@ My greatest contribution to enhance the research reputation of the UMKC School o
 
 I have given talks on grant writing both locally and at national conferences. These talks focus on aspects of the grant that are not difficult, such as creating a data sharing plan or setting up a data safety monitoring board. Nevertheless, these details are the ones that most grant writers feel the greatest insecurity and uncertainty about. Providing rigorous documentation of the non-medical aspects of a research study makes these grants more competitive. It's all part of my effort to make smart people smarter.
 
-I have an extensive publication record, with 31 publications since I started work at UMKC (14 in the past five years). Some of this represents my own effort. Dr. Shui Ye invited me to write a chapter on the R programming language in his book, Big Data Analysis for Bioinformatics, published in 2015. I also contributed two articles to The Encyclopedia of Big Data, published in 2018. These articles describe the U.S. Bureau of the Census and the Centers for Disease Control and Prevention, the two most important government agencies for providing the big data that our researchers use.
+I have an extensive publication record, with 31 publications since I started work at UMKC (14 in the past five years). Some of this represents my own effort. Dr. Shui Ye invited me to write a chapter on the R programming language in his book, Big Data Analysis for Bioinformatics, published in 2015. I also contributed two articles to The Encyclopedia of Big Data, published in 2018. These articles describe the U.S. Bureau of the Census and the Centers for Disease Control and Prevention, the two most important government agencies for providing big data that our researchers use.
 
 Just as with grants, however, my best work is on those publications where I am not the lead author. I co-authored three publications (two in the past five years) from the research team that used a network of African-American churches to deliver health care interventions to underserved communities in Kansas City. Two more publications (one in the past five years) was with a quality improvement effort team at Children's Mercy Hospital and Boston Children's Hospital that examined the quality of echocardiograms at both institutions. In both cases, the medical work was done by others, but I played a major role in the documentation of methods and reporting of results.
 
-My role in research presentations is difficult to quantify. I stopped counting presentations where I was not the first author over 20 years ago. I have 42 first author presentations at regional, national, or international conferences since I started work at UMKC (23 in the past five years). None of these presentations were peer-reviewed, as that is not the norm in the field of Statistics. It is also difficult to identify which presentations were invited, and it would be safer to assume that only two of the presentations in part five years were invited.
+My role in research presentations is difficult to quantify. I stopped tracking most presentations over 20 years ago, because there were too many of them and it was impossible to indepdently verify them.
+
+I only track presentations where I am the first author. I have 42 first author presentations at regional, national, or international conferences since I started work at UMKC (23 in the past five years). None of these presentations were peer-reviewed, as that is not the norm in the field of Statistics. 
+
+My most popular presentations are short courses. I have been invited to give short courses to the American Society of Andrology, the American Statistical Association, the Medical Librarians Association, and the Midwest Society for Pediatric Research. These organizations all asked me back repeatedly because my short courses were so well received.
+
+
+
+
 
 #### 14 publications from July 2016 through June 2021. Note that 4 of these are not peer-reviewed or indexed in PubMed.
 
