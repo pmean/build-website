@@ -1,12 +1,12 @@
 ---
 title: "UMKC Faculty Researcher Award"
-source: "New"
-date: "2021-06-18"
-categories:
-- Blog post
-tags:
-- Python
-output: html_document
+date: '2021-06-18'
+output:
+  word_document: default
+  html_document: default
+source: New
+tags: Python
+categories: Blog post
 ---
 
 UMKC has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"
@@ -27,7 +27,7 @@ I need to prepare a nomination letter. This letter must document "how the indivi
 
 The first is the "number of peer-reviewed PMID publications and journal name(s) in the past 5 years." If it has to be in Pubmed and be peer-reviewed, then I have 9. If you are more inclusive, I have 13.
 
-The second is the "number of presentations (invited and peer reviewed) at regional, national, and international academic meetings in the past 5 years." In my career of close to 40 years, I have never had a peer-reviewed presentation. This is not the norm in the world of Statistics. It is very difficult to count the number of invited presentations, as there is a fuzzy boundary between invited and contributed presentations. If you count invited presentations, I have one that is definitely invited, and two or three that could probably be counted as invited.
+The second is the "number of presentations (invited and peer reviewed) at regional, national, and international academic meetings in the past 5 years." In my career of close to 40 years, I have never had a peer-reviewed presentation. This is not the norm in the world of Statistics. It is very difficult to count the number of invited presentations, as there is a fuzzy boundary between invited and contributed presentations. Does it count, for example, if you are invited to give a talk in a session by the session organizer and not the conference organizer? If you are invited to be part of a panel discussion, is that an invited talk? If you have to categorize them, I have one that is definitely invited, and two or three that could probably be counted as invited. 
 
 The third is the "number and type of grants (and if these grants are UMKC SOM), amount of funding, and role in each project in past 5 years." Amount of funding is problematic as many of these grants are massive multi-site initiatives and my role, while not insubstantial, does not account for more than a small fraction of the effort.
 
@@ -67,8 +67,6 @@ I only track presentations where I am the first author. I have 42 first author p
 
 My most popular presentations are the short courses. In addition to the two short courses mentioned earlier for the International Research Conference on Complementary and Alternative Medicine, I have been invited to give short courses for the American Society of Andrology, the American Statistical Association, the Medical Librarians Association, and the Midwest Society for Pediatric Research. These organizations all asked me back repeatedly because my short courses were so well received. The people attending these conferences were already accomplished researchers. They just wanted to learn more in an area of research that they were not yet comfortable with. This is again a way in which I make smart people smarter.
 
-It is impossible to count the number of collaborations that I have been a part of since I joined UMKC. When I ran the Research and Statistical Consult Service (RSCS) from 2008 through 2016, I had been averaging roughly 60 different collaborations per year. Many of these were with medical students and residents, starting on their very first research project. While I still help out from time to time with the RSCS, my collaborations since then have been much more focussed.
-
 #### Research collaborations
 
 I dislike the term "mentoring" as it implies a subordinate status to the person being mentored. In my interactions with other researchers, I learn as much from them as they learn from me, so I will substitute the term "collaboration."
@@ -85,7 +83,13 @@ Karen and I have also participated in workshops and panel discussions sponsored 
 
 I have also built successful research collaborations in Informatics through a series of quarterly meetings at Kansas University Medical Center (KUMC) since 2018. The recent meetings, of course, have been virtual. These are co-organized with Mei Liu, the acting director of Medical Informatics at KUMC. We have invited speakers from KUMC, UMKC, Childrens Mercy, Kansas State University, and the University of Missouri. These meetings promote existing research and encourage new efforts and cross-institutional collaborations. The meetups are supported by the Frontiers Clinical and Translational grant and promote their goal of bringing together researchers across the Kansas City region.
 
-Additional research collaborators occur through the Kansas City R Users Group, which I took over the management of in 2014. This group meets monthly to discuss all aspects of the R programming language. It attracts faculty and students at Kansas University, UMKC, and Northwest Missouri State University as well as researchers at Childrens Mercy, Cerner Corporation, and Hallmark Corportation.
+Additional research collaborators occur through the Kansas City R Users Group, which I took over the management of in 2014. This group meets monthly to discuss all aspects of the R programming language. It attracts faculty and students at Kansas University, UMKC, and Northwest Missouri State University as well as researchers at Childrens Mercy and Cerner Corporation.
+
+It is impossible to count the number of collaborations that I have been a part of since I joined UMKC. When I ran the Research and Statistical Consult Service (RSCS) from 2008 through 2016, I had been averaging roughly 60 different collaborations per year. Many of these were with medical students and residents, starting on their very first research project. While I still help out from time to time with the RSCS, my collaborations since then have been much more focussed.
+
+One of my most enjoyable collaborations has been with Mark Patterson, a faculty member in the School of Pharmacy. We collaborated on a University of Missouri Research Board grant many years ago. When I found out that I was ineligible for support on that grant (because of my part-time status), I helped Mark reallocate my funds to support a graduate research assistant in the Mathematics and Statistics Department. That was a wise move because this student was very smart and ambitious and could allocate 20 hours per week on the project. He helped Mark produce several peer-reviewed publications.
+
+Since I have worked with Mark, he has developed a broad range of research skills. He talks with me regularly about advanced methodologies in Statistics. While he has learned most of this on his own, I do help by explaining the theoretical foundations and defining the limitations of these approaches. He was quite talented when I first met him, but he has grown into a top-notch researcher who earned tenure and who now holds a joint appointment in our department.
 
 #### 14 publications from July 2016 through June 2021. Note that 4 of these are not peer-reviewed or indexed in PubMed.
 
