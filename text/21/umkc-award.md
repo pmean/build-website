@@ -9,7 +9,7 @@ tags: Python
 categories: Blog post
 ---
 
-UMKC has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"
+The UMKC School of Medicine has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"
 
 Here is a review of the criteria for the award and an early draft of my application. Wish me luck.
 
@@ -45,13 +45,13 @@ I need to submit
 
 I wish to submit this self-nomination for the Faculty Researcher Award. I am enclosing this nomination letter, three letters of support, and a current CV.
 
-As a consulting statistician, my research efforts are largely in support of other researchers. In the past five years, I do have one grant where I am the principal investigator, but on the remaining grants, I am tpyically making a small but important role inplay a smaller role, typically supported at 10% effor or less. Likewise, in most of my publications, I am a co-author rather than the lead author. I don't mind playing second fiddle in these settings; my best work is often a small piece of a larger project.
+As a consulting statistician, my research efforts are largely in support of other researchers. In the past five years, I do have one grant where I am the principal investigator, but on the remaining grants, I am typically playing a small but still important role, typically supported at 10% effort or less. Likewise, in most of my publications, I am more often a co-author rather than the lead author. I don't mind playing second fiddle in these settings; my best work is often that done in the service of others.
 
-My job, I tell people, is to make smart people smarter. I assist with details like data management, sample size justification, and documentation of research methods. These make no direct contribution to the practice of medicine, but are still vital components of any grant or publication. As such, my efforts are largely behind the scenes.
+I assist with details like data management, sample size justification, and documentation of research methods. These make no direct contribution to the practice of medicine, but are still vital components of any grant or publication. As such, my efforts are largely behind the scenes. My job, I tell people, is to make smart people smarter.
 
 #### Research grants
 
-My greatest contribution to enhance the research reputation of the UMKC School of Medicine has been through research grants. Since I started work at UMKC in 2009, I have received formal support on 13 research grants (7 in the past five years, see the list below). This does not include, however, the large number of grants that I have provided informal assistance on. In particular, I have helped write many Sarah Morrison research awards as part of my work for the Research and Statistical Consult Service.
+My greatest contribution to the research reputation of the UMKC School of Medicine has been through research grants. Since I started work at UMKC in 2009, I have received formal support on 13 research grants (7 in the past five years, see the list below). This does not include, however, the large number of grants that I have provided informal assistance on. In particular, I have helped write many Sarah Morrison research awards as part of my work for the Research and Statistical Consult Service.
 
 I have given talks on grant writing both locally (2018) and at the International Research Conference on Complementary and Alternative Medicine (2012 and 2014). These talks focus on aspects of the grant that are not difficult, such as creating a data sharing plan or setting up a data safety monitoring board. Nevertheless, these details are the ones that most grant writers feel the greatest insecurity and uncertainty about. Providing rigorous documentation of the non-medical aspects of a research study makes these grants more competitive. It's all part of my effort to make smart people smarter.
 
@@ -67,13 +67,27 @@ I only track presentations where I am the first author. I have 42 first author p
 
 My most popular presentations are the short courses. In addition to the two short courses mentioned earlier for the International Research Conference on Complementary and Alternative Medicine, I have been invited to give short courses for the American Society of Andrology, the American Statistical Association, the Medical Librarians Association, and the Midwest Society for Pediatric Research. These organizations all asked me back repeatedly because my short courses were so well received. The people attending these conferences were already accomplished researchers. They just wanted to learn more in an area of research that they were not yet comfortable with. This is again a way in which I make smart people smarter.
 
-#### Research collaborations
+#### Research collaborations, internal
 
 I dislike the term "mentoring" as it implies a subordinate status to the person being mentored. In my interactions with other researchers, I learn as much from them as they learn from me, so I will substitute the term "collaboration."
 
 My collaboration with the Center for Economic Information (CEI) started in 2018 when I met Doug Bowles at an organizational meeting of the Institute for Data Education, Analytics, and Science. CEI has had a long history of working in Kansas City, Kansas, and Kansas City, Missouri to share geocoded information to help decision makers in neighborhood organizations and local governments. I worked with CEI to submit two grants in 2019 to the Department of Housing and Urban Development for seven hundred thousand dollars and one million dollars. Both grants supported cost effective lead remediation efforts and represented cross-institutional collaborations. Although only the first grant was funded, the second one missed the funding cut-off by a single point on a 100 point scale. We plan to resubmit this grant later this summer.
 
 CEI has employed many Ph.D. students and helped direct their dissertation work. I provided informal guidance on Bayesian statistical models for two recent graduates, Natalie Kane and Neal Wilson. Natalie is currently working in a post-doctoral position at Children's Mercy Hospital and Neal has parlayed his research expertise into major support on two large research grants.
+
+It is impossible to count the number of collaborations that I have been a part of since I joined UMKC. When I ran the Research and Statistical Consult Service (RSCS) from 2008 through 2016, I had been averaging roughly 60 different collaborations per year. Many of these were with medical students and residents, starting on their very first research project. While I still help out from time to time with the RSCS, my collaborations since then have been much more focussed.
+
+One of my most enjoyable collaborations has been with Mark Patterson, a faculty member in the School of Pharmacy. We collaborated on a University of Missouri Research Board grant many years ago. When I found out that I was ineligible for support on that grant (because of my part-time status), I helped Mark reallocate my funds to support a graduate research assistant in the Mathematics and Statistics Department. That was a wise move because this student was very smart and ambitious and could allocate 20 hours per week on the project. He helped Mark produce several peer-reviewed publications.
+
+Since I have worked with Mark, he has developed a broad range of research skills. He talks with me regularly about advanced methodologies in Statistics. While he has learned most of this on his own, I do help by explaining the theoretical foundations and defining the limitations of these approaches. He was quite talented when I first met him, but he has grown into a top-notch researcher who earned tenure and who now holds a joint appointment in our department.
+
+I have served on four thesis or dissertation committees in the past five years, but this understates my efforts to help graduate students with their research. As an example, I got an email inquiry in April 2021 from Kyle Reed, an IPhD student in the Earth and Environmental Sciences department. He is developing a regional climate model and tying it to mortality data to estimate future heat-related deaths in Missouri. They have a very good handle on things but had questions about a modelling approach, quasi-Poisson regression, that is commonly used in the literature. I have met with this student and his advisor twice and helped explain how this model works.
+
+I attended a talk in 2019 by Raj Anantharaman, a Big Data Fellow and PhD candidate in Computer Science, who gave an excellent talk on the use of a convolutional neural network to examine nerve conduction signals in the arm and identify certain postural motions such as pointing. He described the training set, where a volunteer would make repeated motions like pointing for 100 replications before switching to a different motion. I noted in the question and answer session how the training set could be vastly improved through the use of randomization, as one motion in a real world setting would never be used consecutively, but rather one motion would almost always be followed by a different motion. Thus, randomization would help the training set model a real world setting more accurately.
+
+#### Research collaborations, external
+
+My collaboriations do not stop at the edge of campus. I have many collaborations in the Kansas City area and beyond.
 
 Another very profitable collaboration has been with The Analysis Factor. The Analysis Factor, founded by Karen Grace-Martin, is a training and statistical consulting group providing support to other statistical consultants. One of the biggest challenges to a brand new statistical consultant is handling the unexpected, odd, or strange consulting requests from researchers that do not fit neatly into the statistical coursework in a Masters or PhD program. They offer webinars and short courses on an eclectic series of topics that fill in the gaps not covered in traditional statistics classes. The also answer tehcnical questions on discussion boards that they host.
 
@@ -84,12 +98,6 @@ Karen and I have also participated in workshops and panel discussions sponsored 
 I have also built successful research collaborations in Informatics through a series of quarterly meetings at Kansas University Medical Center (KUMC) since 2018. The recent meetings, of course, have been virtual. These are co-organized with Mei Liu, the acting director of Medical Informatics at KUMC. We have invited speakers from KUMC, UMKC, Childrens Mercy, Kansas State University, and the University of Missouri. These meetings promote existing research and encourage new efforts and cross-institutional collaborations. The meetups are supported by the Frontiers Clinical and Translational grant and promote their goal of bringing together researchers across the Kansas City region.
 
 Additional research collaborators occur through the Kansas City R Users Group, which I took over the management of in 2014. This group meets monthly to discuss all aspects of the R programming language. It attracts faculty and students at Kansas University, UMKC, and Northwest Missouri State University as well as researchers at Childrens Mercy and Cerner Corporation.
-
-It is impossible to count the number of collaborations that I have been a part of since I joined UMKC. When I ran the Research and Statistical Consult Service (RSCS) from 2008 through 2016, I had been averaging roughly 60 different collaborations per year. Many of these were with medical students and residents, starting on their very first research project. While I still help out from time to time with the RSCS, my collaborations since then have been much more focussed.
-
-One of my most enjoyable collaborations has been with Mark Patterson, a faculty member in the School of Pharmacy. We collaborated on a University of Missouri Research Board grant many years ago. When I found out that I was ineligible for support on that grant (because of my part-time status), I helped Mark reallocate my funds to support a graduate research assistant in the Mathematics and Statistics Department. That was a wise move because this student was very smart and ambitious and could allocate 20 hours per week on the project. He helped Mark produce several peer-reviewed publications.
-
-Since I have worked with Mark, he has developed a broad range of research skills. He talks with me regularly about advanced methodologies in Statistics. While he has learned most of this on his own, I do help by explaining the theoretical foundations and defining the limitations of these approaches. He was quite talented when I first met him, but he has grown into a top-notch researcher who earned tenure and who now holds a joint appointment in our department.
 
 #### 14 publications from July 2016 through June 2021. Note that 4 of these are not peer-reviewed or indexed in PubMed.
 
