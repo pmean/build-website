@@ -1,15 +1,15 @@
 ---
 title: "Cel-Sci CEO tries to spin cancer trial failure into a win"
 source: "New"
-date: "2021-07-09"
+date: "2021-07-19"
 categories:
 - Recommendation
 tags:
-- 
+- Human side of Statistics
 output: html_document
 ---
 
-.
+It is unusual for issues like p-value hacking to make it into our court system. It is unpredictable how judges will react to some rather technical arguments..
 
 <!--more-->
 

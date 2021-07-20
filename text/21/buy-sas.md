@@ -1,15 +1,15 @@
 ---
 title: "Broadcom in talks to buy SAS for as much as $20B"
 source: "New"
-date: "2021-07-09"
+date: "2021-07-19"
 categories:
 - Recommendation
 tags:
-- 
+- SAS software
 output: html_document
 ---
 
-.
+SAS Institute is a privately held company and the two owners are both getting old. So this report about a possible purchase of SAS by an outside group is an interesting development.
 
 <!--more-->
 
