@@ -1,5 +1,5 @@
 ---
-title: "Kaggle, 80 cerealsAlluvial Plots in ggplot2"
+title: "Kaggle, 80 cereals"
 source: "New"
 date: "2021-07-27"
 categories:
