@@ -23,12 +23,16 @@ I have not read SAS® for Mixed Models: Introduction and Basic Applications, by 
 
 There used to be a good SAS Users Group in the Kansas City area, and there may be a move to revive it. SAS sponsors many regional, national, and international conferences on SAS, but I can't recommend these wholeheartedly because they tend to focus too much on other products from SAS Institute like Viya. You can still pick and choose and get some good material.
 
-Many of the SAS conferences provide well written pdf articles based on the presentations. These are not reproductions of the Powerpoint slides, but nicely laid out full text articles with bibliographies.
+Many of the SAS conferences provide well written pdf articles based on the presentations. These are not reproductions of the Powerpoint slides, but nicely laid out full text articles with bibliographies. You will often find these papers on a Google search, but there is an [unofficial site][jan1] that tries to organize them.
 
 SAS includes all its documentation for free. It is well written and has lots of good examples. Pick a procedure--I'd recommend proc glm--and do a Google search. You'll find documentation from several different versions of SAS (here's an [html file][sas1] with hyperlinks and here's a [196 page pdf][sas2]). Don't worry so much about which version, as SAS is a very stable language and you won't notice any differences unless you are running something quite exotic and specialized.
 
+Finally, my obigation to you does not end when this class ends. If you are ever in need of advice about SAS, come and talk to me.
+
 [ali1]: https://www.sas.com/store/books/categories/usage-and-reference/survival-analysis-using-sas-a-practical-guide-second-edition/prodBK_61339_en.html
 [ali2]: https://www.sas.com/storefront/aux/en/spsurvivalanly/61339_excerpt.pdf
+
+[jan1]: https://www.lexjansen.com/
 
 [sas1]: https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.3/statug/statug_glm_syntax01.htm
 [sas2]: https://support.sas.com/documentation/onlinedoc/stat/141/glm.pdf
