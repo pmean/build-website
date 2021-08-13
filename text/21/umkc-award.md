@@ -5,7 +5,8 @@ output:
   word_document: default
   html_document: default
 source: New
-tags: Python
+tags: 
+- Professional details
 categories: Blog post
 ---
 
