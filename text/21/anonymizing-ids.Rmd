@@ -61,7 +61,6 @@ Here's what those ID numbers look like when you add my random number. We now hav
 
 ```{r, echo=FALSE}
 e <- data.frame(private_id=as.character(private_id), random_id=as.character(private_id+480035489))
-
 e %>%
   kbl %>%
   kable_minimal(full_width=FALSE, position="left")
