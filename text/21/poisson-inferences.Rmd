@@ -91,7 +91,7 @@ A count X divided by a measure of time, T, is called a rate (R=X/T). If you assu
 
 x ~ Pois($\lambda$T)
 
-where T is known, but $lambda$ is unknown, then a 95% confidence interval for $lambda is 
+where T is known, but $\lambda$ is unknown, then a 95% confidence interval for $\lambda$ is 
 
 $\frac{X}{T} \pm 2 \frac{\sqrt{X}}{T}$
 
@@ -99,19 +99,29 @@ $\frac{X}{T} \pm 2 \frac{\sqrt{X}}{T}$
 
 The natural log transformation helps produce a better confidence interval.
 
+The general rule is that a nonlinear transformation leads to a similar change in the expected value, but a change in the variance that is related to the Taylor series expansion.
+
+If X has an expected value, $\mu$ and a variance, $\sigma^2_x$, then g(X) can be written as
+
+$g(X) \approx g(\mu)+(X-\mu)g'(\mu)$
+
+which can be used to show that 
+
+$Var(g(X))=(g'(\mu))^2 \sigma^2_x$
+
 If 
 
-X ~ Pois(T$\lambda$) and
+X ~ Pois($\lambda T$) and
 
-Y=ln(X), then
+$Y = g(X) = ln(X)$, then
 
-E[Y] $\approx$ ln($\lambda T$) and
+$g'(X)=\frac{1}{X}$, and
 
-V[Y] $\approx \frac{1}{\lambda T}$
+V[Y] $\approx (g'(\mu))^2 \sigma^2_x = (\frac{1}{\lambda T})^2 \lambda T = \frac{1}{\lambda T}$
 
 An approximate 95% confidence interval for ln($\lambda  T$) is
 
-ln(X) $\pm 2 \sqrt{\frac{1}{X}}$
+$ln(X) \pm 2 \sqrt{\frac{1}{X}}$
 
 Exponentiate both sides to get a confidence interval for $\lambda T$.
 
@@ -119,7 +129,62 @@ Divide by T to get a confidence interval for $\lambda$.
 
 ### Examples
 
+```{r echo=FALSE}
+x <- 17
+n <- 1989
+lo <- x-2*sqrt(x)
+hi <- x+2*sqrt(x)
+log_lo <- log(x)-2*sqrt(1/x)
+log_hi <- log(x)+2*sqrt(1/x)
+exp_lo <- exp(log_lo)
+exp_hi <- exp(log_hi)
+```
+
+The Pennsylvania Department of Health has a web page oulining calculations for rates with two simple examples. The infant mortality rate in Butler County in 1984 was 17 deaths out of 1,989 births. This is actually a proportion, but let's treat it as a rate here.
+
+The death rate is 17/ 1989 =`r 17/1989`. To avoid dealing with small numbers, let's quote this as a rate per 1,000 live births. 1000 * 17/ 1989 = `r 1000*17/1989`. if we wanted a confidence interval for $\lambda T$, it would be
+
+17 $\pm$  2 $\sqrt{17}$ = `r lo` to `r hi`
+
+Divide everything by 1,989 and multiply by 1,000 to get
+
+`r lo/1.989` to `r hi/1.989` which you should round to get 
+`r round(lo/1.989, 1)` to `r round(hi/1.989, 1)`
+
+Let's rework this using the better formula.
+
+The confidence limits on the log scale are
+
+$ln(17) \pm 2 \sqrt{\frac{1}{17}}$ = `r log_lo` to `r log_hi`
+
+Exponentiate these values to get 
+
+`r exp_lo` to `r exp_hi`
+
+Divide by 1,989 and multiply by 1,000 to get
+
+`r exp_lo/1.989` to `r exp_hi/1.989`
+
+and don't forget to round this: `r round(exp_lo/1.989, 1)` to `r round(exp_hi/1.989, 1)`.
+
+
+### References
+
 http://www.pmean.com/07/ConfidenceIntervalForRate.html
 
 https://www.health.pa.gov/topics/HealthStatistics/Statistical-Resources/UnderstandingHealthStats/Documents/Confidence_Intervals_for_a_Crude_Rate.pdf
+
+https://en.wikipedia.org/wiki/Taylor_expansions_for_the_moments_of_functions_of_random_variables
+
+https://en.wikipedia.org/wiki/Delta_method
+
+https://en.wikipedia.org/wiki/Poisson_distribution
+
+https://en.wikipedia.org/wiki/Binomial_distribution#Poisson_approximation
+
+http://www.pmean.com/definitions/or.htm
+
+http://www.pmean.com/01/oddsratio.html
+
+http://www.pmean.com/04/Rates.html
 
