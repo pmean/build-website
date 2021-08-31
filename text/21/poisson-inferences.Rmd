@@ -46,6 +46,14 @@ $X_1$ and $X_2$ are independent, then
 
 $X_1+X_2$ ~ Pois($\lambda_1+\lambda_2$).
 
+If you have series of Poisson random variables,
+
+$X_1, X_2,...,X_n$ all indpendent and all with the same Pois($\lambda$) distribution, then
+
+$\Sigma_{i=1}^n X_i$ ~ Pois($k \lambda$)
+
+These properties and more are described on the [Wikipedia page on the Poisson distribution][pois1].
+
 ### Visualization of Poisson probabilities
 
 ```{r bar-charts}
@@ -71,7 +79,7 @@ data.frame(x=0:25) %>%
 
 ### Relationship to the Binomial distribution
 
-If Y has a binomial distribution with n trials and probability of success p (X ~ Bin(n,p)), then for large n and small p, you can approximate Y with X ~ Pois($\lambda$=np).
+If Y has a binomial distribution with n trials and probability of success p (X ~ Bin(n,p)), then for large n and small p, you can approximate Y with X ~ Pois($\lambda$=np). Wikipedia has a [nice explanation][pois2] of this.
 
 ### Inference for unknown value of lambda
 
@@ -79,9 +87,9 @@ If you collect data on a single Poisson random variable X where the parameter $\
 
 $\hat{\lambda}=X$
 
-and a crude 95% confidence interval for $\lambda$ is 
+and a crude $1-\alpha$ confidence interval for $\lambda$ is 
 
-$X \pm 2 \sqrt{X}$
+$X \pm z_{\alpha/2} \sqrt{X}$
 
 This confidence interval does poorly for small values of $\lambda$ because of the skewness of the Poisson distribution. it also can sometimes produce confidence intervals with a negative lower limit.
 
@@ -89,11 +97,13 @@ This confidence interval does poorly for small values of $\lambda$ because of th
 
 A count X divided by a measure of time, T, is called a rate (R=X/T). If you assume that 
 
-x ~ Pois($\lambda$T)
+x ~ Pois($\lambda T$)
 
-where T is known, but $\lambda$ is unknown, then a 95% confidence interval for $\lambda$ is 
+where T is known, but $\lambda$ is unknown, then a $1-\alpha$ confidence interval for $\lambda$ is 
 
-$\frac{X}{T} \pm 2 \frac{\sqrt{X}}{T}$
+$\frac{X}{T} \pm z_{\alpha/2} \frac{\sqrt{X}}{T}$
+
+I have a [page on my website][simo1] that describes these calculations.
 
 ### An improved confidence interval
 
@@ -119,68 +129,106 @@ $g'(X)=\frac{1}{X}$, and
 
 V[Y] $\approx (g'(\mu))^2 \sigma^2_x = (\frac{1}{\lambda T})^2 \lambda T = \frac{1}{\lambda T}$
 
-An approximate 95% confidence interval for ln($\lambda  T$) is
+An approximate $1-\alpha$ confidence interval for ln($\lambda  T$) is
 
-$ln(X) \pm 2 \sqrt{\frac{1}{X}}$
+$ln(X) \pm z_{\alpha/2} \sqrt{\frac{1}{X}}$
 
 Exponentiate both sides to get a confidence interval for $\lambda T$.
 
 Divide by T to get a confidence interval for $\lambda$.
 
+The mathematical approach used here is known as the delta method and is [documented in general terms] on Wikipedia.
+
 ### Examples
 
-```{r echo=FALSE}
+The Pennsylvania Department of Health has a [web page][penn1] oulining calculations for rates with three simple examples. The infant mortality rate in Butler County in 1984 was 17 deaths out of 1,989 births. This is actually a proportion, but let's treat it as a rate here.
+
+```{r}
 x <- 17
 n <- 1989
-lo <- x-2*sqrt(x)
-hi <- x+2*sqrt(x)
-log_lo <- log(x)-2*sqrt(1/x)
-log_hi <- log(x)+2*sqrt(1/x)
-exp_lo <- exp(log_lo)
-exp_hi <- exp(log_hi)
+rate <- x/n
+rate
 ```
 
-The Pennsylvania Department of Health has a web page oulining calculations for rates with two simple examples. The infant mortality rate in Butler County in 1984 was 17 deaths out of 1,989 births. This is actually a proportion, but let's treat it as a rate here.
+This rate is difficult to read because all of the leading zeros. So it is common practice to quote it not as a rate per live births, but a rate per 1,000 live births.
 
-The death rate is 17/ 1989 =`r 17/1989`. To avoid dealing with small numbers, let's quote this as a rate per 1,000 live births. 1000 * 17/ 1989 = `r 1000*17/1989`. if we wanted a confidence interval for $\lambda T$, it would be
+```{r}
+rate_per_thousand <- rate*1000
+rate_per_thousand
+```
 
-17 $\pm$  2 $\sqrt{17}$ = `r lo` to `r hi`
+To construct a confidence interval for the rate, first start with a confidence interval for the count rather than the rate.
 
-Divide everything by 1,989 and multiply by 1,000 to get
+```{r}
+lo <- 
+hi <- x+1.96*sqrt(x)
+count_ci <- c(x-1.96*sqrt(x), x+1.96*sqrt(x))
+count_ci
+```
 
-`r lo/1.989` to `r hi/1.989` which you should round to get 
-`r round(lo/1.989, 1)` to `r round(hi/1.989, 1)`
+Then convert from a count to a rate.
 
-Let's rework this using the better formula.
+```{r}
+rate_ci <- count_ci * 1000 / n
+rate_ci
+```
 
-The confidence limits on the log scale are
+It's always a good idea to round your results.
 
-$ln(17) \pm 2 \sqrt{\frac{1}{17}}$ = `r log_lo` to `r log_hi`
+```{r}
+round(rate_ci, 1)
+```
 
-Exponentiate these values to get 
+Now let's try it using the improved formula. First build a confidence interval for the log count.
 
-`r exp_lo` to `r exp_hi`
+```{r}
+log_count <- log(x)
+log_ci <- c(log_count-1.96*sqrt(1/x), log_count+1.96*sqrt(1/x))
+log_ci
+```
 
-Divide by 1,989 and multiply by 1,000 to get
+Back transform to the original scale.
 
-`r exp_lo/1.989` to `r exp_hi/1.989`
+```{r}
+back_transformed_ci <- exp(log_ci)
+back_transformed_ci
+```
 
-and don't forget to round this: `r round(exp_lo/1.989, 1)` to `r round(exp_hi/1.989, 1)`.
+Convert from a count to a rate
 
+```{r}
+rate_ci <- back_transformed_ci * 1000 / n
+rate_ci
+```
 
+And again remember to round your final result.
+
+```{r}
+round(rate_ci, 1)
+```
+
+Notice that the rate (`r round(rate_per_thousand, 2)`) is not in the middle of the interval. It is slightly closer to the lower limit than the upper limit. This reflects the skewness in the Poisson distribution and provides a slightly more accurate interval.
+
+### On your own
+
+The reference also includes an infant mortality rate for the city of Philadelphia. There were 388 infant deaths out of 24,979 live births. Show that the 95% confidence interval for the infant mortality rate in Philadelphia is 14.0 to 17.1.
+            
+
+Notice, by the way, how much narrower the confidence interval is when it is based on 388 deaths rather than 17.
+            
 ### References
 
-http://www.pmean.com/07/ConfidenceIntervalForRate.html
+[simo1]: http://www.pmean.com/07/ConfidenceIntervalForRate.html
 
-https://www.health.pa.gov/topics/HealthStatistics/Statistical-Resources/UnderstandingHealthStats/Documents/Confidence_Intervals_for_a_Crude_Rate.pdf
+[penn1]: https://www.health.pa.gov/topics/HealthStatistics/Statistical-Resources/UnderstandingHealthStats/Documents/Confidence_Intervals_for_a_Crude_Rate.pdf
 
-https://en.wikipedia.org/wiki/Taylor_expansions_for_the_moments_of_functions_of_random_variables
+[delt1]: https://en.wikipedia.org/wiki/Delta_method
 
-https://en.wikipedia.org/wiki/Delta_method
+[delt2]: https://en.wikipedia.org/wiki/Taylor_expansions_for_the_moments_of_functions_of_random_variables
 
-https://en.wikipedia.org/wiki/Poisson_distribution
+[pois1]: https://en.wikipedia.org/wiki/Poisson_distribution
 
-https://en.wikipedia.org/wiki/Binomial_distribution#Poisson_approximation
+[pois2]: https://en.wikipedia.org/wiki/Binomial_distribution#Poisson_approximation
 
 http://www.pmean.com/definitions/or.htm
 
