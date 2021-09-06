@@ -1,11 +1,13 @@
-# repository-title-goes-here
+# blogdown-backup
 
-This is a single file stand-alone application using R Markdown.
+I am using the R package, blogdown, to consolidate
+and update my website. I do this with two separate
+directories, blogdown and blogdown-backup. It seems
+strange, but I cannot seem to create my website and
+backup all the files onto github without using two
+directories. It is probably just my lack of
+understanding. So here is how everything works.
 
-It was run and tested using RStudio and the knitr package.
-
-Use the file with the .Rmd extension as input, or examine the
-file with the .html extension to see what the output is like.
-
-This application does not need any special files beyond the
-ones listed above.
+I create text files in Markdown (md) or R Markdown
+(Rmd) files in the backup folder and transfer them 
+to the blogdown folder for processing.

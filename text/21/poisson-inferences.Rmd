@@ -111,7 +111,7 @@ The natural log transformation helps produce a better confidence interval.
 
 The general rule is that a nonlinear transformation leads to a similar change in the expected value, but a change in the variance that is related to the Taylor series expansion.
 
-If X has an expected value, $\mu$ and a variance, $\sigma^2_x$, then g(X) can be written as
+If X has an expected value, $\mu$ and a variance, $\sigma^2_x$, then g(X) can be approximated, using a Taylor series expansion as
 
 $g(X) \approx g(\mu)+(X-\mu)g'(\mu)$
 
@@ -207,7 +207,7 @@ And again remember to round your final result.
 round(rate_ci, 1)
 ```
 
-Notice that the rate (`r round(rate_per_thousand, 2)`) is not in the middle of the interval. It is slightly closer to the lower limit than the upper limit. This reflects the skewness in the Poisson distribution and provides a slightly more accurate interval.
+Notice that the rate (`r round(rate_per_thousand, 1)`) is not in the middle of the interval. It is slightly closer to the lower limit than the upper limit. This reflects the skewness in the Poisson distribution and provides a slightly more accurate interval.
 
 ### On your own
 
@@ -216,7 +216,108 @@ The reference also includes an infant mortality rate for the city of Philadelphi
 
 Notice, by the way, how much narrower the confidence interval is when it is based on 388 deaths rather than 17.
             
+### Comparison of two rates
+
+Suppose you have independent rates from two different groups,
+
+$R_1=\frac{X_1}{T_1}$
+
+$R_2=\frac{X_2}{T_2}$
+
+where the numerators of the rates are Poisson counts,
+
+$X_1$ ~ Pois($\lambda_1 T_1$) and
+
+$X_2$ ~ Pois($\lambda_2 T_2$).
+
+You can get a $1-\alpha$ confidence interval for
+
+$\frac{\lambda_1}{\lambda_2}$
+
+by first getting a confidence interval for 
+
+$\frac{\lambda_1 T_1}{\lambda_2 T_2}$
+
+and then dividing the interval by
+
+$\frac{T_1}{T_2}$
+
+Start by noting that
+
+$ln\big(\frac{X_1}{X_2}\big)=ln(X_1)-ln(X_2)$
+
+As long as the two groups are independent, the variance of the difference is just the sum of the variances, so you can use
+
+$ln(X_1)-ln(X_2) \pm z_{\alpha/2}\sqrt{\frac{1}{X_1}+\frac{1}{X_2}}$
+
+as an approximate confidence interval for
+
+$\frac{\lambda_1 T_1}{\lambda_2 T_2}$
+
+Then exponentiate both sides of the interval and adjust by divinding by $T_1/T_2$.
+
+### Example
+
+In a [2018 article][kuma1] published in the Indian Journal of Dermatology, the researchers compared the incidence rates of leprosy in different age groups. In patients under the age of 14 there were 33 cases cumulated across 290508.9 patient years. In patients 15-29, there were 52 cases 141,112.0 patient years. Here are the calculations for the confidence interval for the rate ratio.
+
+First calculate the rates and their ratio. Since rates are so low, adjust them to a rate per 10,000 patient years.
+
+```{r}
+x1 <- 33
+T1 <- 290508.9
+x2 <- 52
+T2 <- 141112
+x2 <- 60
+T2 <- 100212.3
+
+x1 <- 2
+T1 <- 0.6*2*10000
+
+x2 <- 8
+T2 <- 5.47*8*10000
+
+r1 <- x1/T1*10000
+r2 <- x2/T2*10000
+r1
+r2
+r2/r1
+```
+
+Calculate the interval for $ln(\lambda_1 T_1/\lambda_2 T_2)$.
+
+```{r}
+ln_ratio <- log(x2/x1)
+se_ratio <- sqrt(1/x1+1/x2)
+se_ratio
+ci1 <- c(ln_ratio-1.96*se_ratio, ln_ratio+1.96*se_ratio)
+ci1
+```
+
+
+Exponentiate both limits.
+
+```{r}
+ci2 <- exp(ci1)
+ci2
+```
+
+Adjust for the patient years. Don't forget to round your final answer.
+
+```{r}
+ci3 <- ci2/(T2/T1)
+round(ci3, 2)
+```
+
+
 ### References
+
+http://www.pmean.com/definitions/or.htm
+
+http://www.pmean.com/01/oddsratio.html
+
+http://www.pmean.com/04/Rates.html
+
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
 
 [simo1]: http://www.pmean.com/07/ConfidenceIntervalForRate.html
 
@@ -230,11 +331,4 @@ Notice, by the way, how much narrower the confidence interval is when it is base
 
 [pois2]: https://en.wikipedia.org/wiki/Binomial_distribution#Poisson_approximation
 
-http://www.pmean.com/definitions/or.htm
-
-http://www.pmean.com/01/oddsratio.html
-
-http://www.pmean.com/04/Rates.html
-
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
-
+[kuma1]: https://ijdvl.com/incidence-of-leprosy-in-firozabad-district-uttar-pradesh/
