@@ -267,26 +267,39 @@ x1 <- 33
 T1 <- 290508.9
 x2 <- 52
 T2 <- 141112
+d<- 10000
 x2 <- 60
 T2 <- 100212.3
 
 x1 <- 2
-T1 <- 0.6*2*10000
-
+T1 <- 0.6*2
 x2 <- 8
-T2 <- 5.47*8*10000
+T2 <- 5.47*8
+d <- 1
 
-r1 <- x1/T1*10000
-r2 <- x2/T2*10000
+x1 <- 30
+T1 <- 54308.7
+x2 <- 60
+T2 <- 51477.5
+d <- 100000
+
+x1 <- 215
+T1 <- 4770
+x2 <- 84
+T2 <- 4193
+d <- 1000
+
+r1 <- x1/T1*d
+r2 <- x2/T2*d
 r1
 r2
-r2/r1
+r1/r2
 ```
 
 Calculate the interval for $ln(\lambda_1 T_1/\lambda_2 T_2)$.
 
 ```{r}
-ln_ratio <- log(x2/x1)
+ln_ratio <- log(r1/r2)
 se_ratio <- sqrt(1/x1+1/x2)
 se_ratio
 ci1 <- c(ln_ratio-1.96*se_ratio, ln_ratio+1.96*se_ratio)
@@ -304,7 +317,7 @@ ci2
 Adjust for the patient years. Don't forget to round your final answer.
 
 ```{r}
-ci3 <- ci2/(T2/T1)
+ci3 <- ci2/(T1/T2)
 round(ci3, 2)
 ```
 
@@ -318,6 +331,18 @@ http://www.pmean.com/01/oddsratio.html
 http://www.pmean.com/04/Rates.html
 
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+
+Good example of rate ratio confidence interval calculations
+
+https://pubmed.ncbi.nlm.nih.gov/31895593/
+
+https://pubmed.ncbi.nlm.nih.gov/29637909/
+
+https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pmed.1001270/1/pmed.1001270.s005.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20210906%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20210906T225128Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=ae5dde1295ee4d956450c3632eef6f9232594b386e2c4cb01f68bd8e516b25bb05beff6dd146fb84098b1186f3f19cb25b3c8e4c622a11cebfa75bf4a78150761b30984b7f816e1cf9566f7410eac7b9ee45b7a6d77e7b01517eeb36add101d012ba04a50d05d0f50d68097fa8a6b9882b43ab6a93013c066632be8b03b4efc5af597f7fd0ba423c6bd3ceb223847bdcc9f75f8b46cf67ba5ee27ea050855029f5e2c2339e867142d2d82871d9b80c1eb2e91bf06aacfb75ad6fa4f5726ab0ea53ca65e25074a33329eb45146eec575d22f4e324a90e126e1df7b45fc7b58f9246ae863f7f946be73fef76e869d9996ac3ac904d15a4c7bd34eb3777cc1f202a
+
+https://sphweb.bumc.bu.edu/otlt/MPH-Modules/PH717-QuantCore/PH717_ComparingFrequencies/PH717_ComparingFrequencies9.html
+
+https://www.jabfm.org/content/33/4/549.long
 
 [simo1]: http://www.pmean.com/07/ConfidenceIntervalForRate.html
 
