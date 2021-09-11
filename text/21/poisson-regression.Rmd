@@ -1,0 +1,250 @@
+---
+title: "Working with Poisson regression"
+author: "Steve Simon"
+source: "New"
+date: "2020-08-30"
+categories:
+- Blog post
+tags:
+- Probability distributions
+output: html_document
+---
+
+Poisson regression is a statistical model under the large umbrella of generalized linear models. I want to explain how Poisson regression works. I also will show and interpret an example.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
+
+<!---More--->
+
+### The linear regression model
+
+A linear regression model is written as
+
+$Y_i=\beta_0+X_i\beta_1+\epsilon_i$
+
+and has two assumptions that are often violated:
+
+1. the $\epsilon_i$ are normally distributed, and 
+2. the variance is the same for all $\epsilon_i$.
+
+This led to a variety of alternative approaches that worked better, especially for dependent variables that represented proportions or counts.
+
+### The generalized linear model
+
+In 1982, McCullagh and Nelder wrote a [book][mcc1] outlining the generalized linear model, an approach to regression that would work well both for situations that met the assumptions of linear regression and for situations that did not meet those assumptions.
+
+It was the sort of breakthrough that Physicists are still hoping for in the [grand unified theory][gut1] of the electromagnetic, strong, and weak forces under one model.
+
+McCullagh and Nelder developed a model that works for any statistical distribution in a very broad class of distributions known as the exponential family. The exponential family of distributions includes both continuous and categorical distributions. The only requirement is that the probability density function (for continuous distributions) or the probability mass function (for categorical variables) can be factored in a a way that isolates the parameter(s) of the distribution in the following way:
+
+$ln(f(y; \theta))=d(\theta)e(y)+g(\theta)+h(y)$
+
+The Poisson distribution
+
+$f(y; \theta)=\theta^{-y}e^{-\theta}/y!$ for y=0, 1, ...$
+
+clearly fits into the exponential family, because
+
+$lnf(y; \theta)=y ln(\theta)-\theta-ln(y!)$
+
+Other distributions that fit into this family include the 
+
++ bernoulli
++ beta
++ chi-squared
++ exponential
++ gamma
++ geometric
++ normal
+
+There are some distributions which are not part of the exponential family. The t-distribution is one example.
+
+If you know that a distribution is part of the exponential family, you know the general form of the maximum likelihood estimates and find a solution using iteratively reweighted least squares.
+
+### More on Poisson regression
+
+Counts are never negative, so we need to insure that no matter what the values of the covariates in a Poisson regression model, the predicted values produced by this model are never negative. A simple way to achieve this is to calculate the regression coefficients on a log scale.
+
+The logarithm is an interesting function that converts multiplication into addition.
+
+$log(ab)=log(a)+log(b)$
+
+Back before computers, tables of logarithms simplified complex calculations. To compute a product of 4,156 and 2,023, you could multiply things out directly, but it would look something like
+
+```{}
+   2141
+ x 2123
+ ------
+   6423
+  4282
+ 2141
+4282
+-------
+4545343
+```
+
+Instead, you could look up the base 10 logarithm of each number, add them together, and then convert back from the log scale to the original scale.
+
+```{r}
+log10(2141)
+log10(2123)
+log10(2141)+log10(2123)
+10^(log10(2141)+log10(2123))
+```
+
+It only saves you a little bit of time, but back when mathematicians had to do hundreds or thousands of these calculations, it added up.
+
+There's a joke along these lines.
+
+After the flood waters receded, Noah's ark landed on solid ground. Noah opened the door and let all the animals out with the exhortation "Go forth and multiply." There were two snakes, however, that did not want to leave the ark. Noah looked at them and said, "I told you to go forth and multiply." The snakes looked sadly at him and said "We can't multiply. We're adders." So Noah left the ark and found some wood to build a small flat platform. "Here." he said. "This is a log table. It will allow adders to multiply."
+
+The Poisson regression model produces estimates on a log scale. This implies that the relationships are effectively multiplicative when transformed back to the original scale.
+
+### Simple example
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual’s mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
+
+```{r}
+pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
+summary(pois1)
+```
+
+The interpretation of the coefficients is tricky. The Poisson regression model is linear on the log scale. If you take the anti-log, you will convert this model to a multiplicative model. Here are the coefficents on the log scale.
+
+```{r}
+pois1 %>%
+  tidy %>%
+  mutate(lower_limit=estimate-1.96*std.error) %>%
+  mutate(upper_limit=estimate+1.96*std.error) %>%
+  select(term, estimate, lower_limit, upper_limit) -> log_coefficients
+log_coefficients
+```
+
+```{r}
+log_coefficients %>%
+  mutate(estimate=exp(estimate)) %>%
+  mutate(lower_limit=exp(lower_limit)) %>%
+  mutate(upper_limit=exp(upper_limit)) -> multiplicative_coefficients
+multiplicative_coefficients
+```
+
+```
+
+### Analysis of rates
+
+Often the Poisson observations are observed over varying numbers of patients, varying amounts of time, or both. Here's an example. Auto insurance claims in Sweden are borken down into several subgroups, as described on [this web page][swe1]. 
+
+Here are the variables:
+
++ Kilometres		Kilometres travelled per year
+  + 1: < 1000
+  + 2: 1000-15000
+  + 3: 15000-20000
+  + 4: 20000-25000
+  + 5: > 25000
++ Zone		Geographical zone
+  + 1: Stockholm, Göteborg, Malmö with surroundings
+  + 2: Other large cities with surroundings
+  + 3: Smaller cities with surroundings in southern Sweden
+  + 4: Rural areas in southern Sweden
+  + 5: Smaller cities with surroundings in northern Sweden
+  + 6: Rural areas in northern Sweden
+  + 7: Gotland
++ Bonus		No claims bonus. Equal to the number of years, plus one, since last claim
++ Make		1-8 represent eight different common car models. All other models are combined in class 9
++ Insured		Number of insured in policy-years
++ Claims		Number of claims
++ Payment		Total value of payments in Skr
+
+```{r}
+fn <- "http://www.statsci.org/data/general/motorins.txt"
+swe <- read.delim(fn, header=TRUE, sep="\t")
+head(swe)
+```
+
+The number of drives and the months that they are covered by insurance varies from group to group. the measure, Insured, calculates the number of policy-years in each group. We want to estimate the effect of certain variables on the rate of claims (number of claims per policy year). You calculate the rate by including an offset variable equal to the natural log of policy years.
+
+```{r}
+pois2 <- 
+  glm(
+    Claims~offset(log(Insured)) + factor(Kilometres) + factor(Zone) + Bonus + factor(Make),
+    data=swe, family=poisson)
+summary(pois2)
+```
+
+The coefficients are easier to interpret after a transformation.
+
+```{r}
+pois2 %>%
+  tidy %>%
+  mutate(lower_limit=estimate-1.96*std.error) %>%
+  mutate(upper_limit=estimate+1.96*std.error) %>%
+  select(term, estimate, lower_limit, upper_limit) %>%
+  mutate(estimate=exp(estimate)) %>%
+  mutate(lower_limit=exp(lower_limit)) %>%
+  mutate(upper_limit=exp(upper_limit)) -> multiplicative_coefficients
+multiplicative_coefficients
+```
+
+
+### Extensions
+
+McCullagh and Nelder also extended their results to an even broader setting using an approach known as quasi likelihood. In a quasi likelihood model, you do not specify a distribution, but rather a link function that converts the nonlinear regression relationship to a linear one, and a function that describes the mean-variance relationship. The latter is very important. In many statistical models, there is a specific type of heterogeneity where the mean and variance march together in lock step. Groups that have larger means also have larger variances. Groups that have smaller means also have smaller variances.
+
+In the Poisson model, we specify a mean-variance relationship that hte identify relationship. If a group has a mean that is 12, the variance is assumed to be 12 as well. If the mean is 5, then the variance is 5. That works fairly well for some data, but other times it does not work so well.
+
+There are many alternatives. You can assume that the variance is not equal to the mean but equal to the mean times a mutliplicative constant which you can estimate from the data.
+
+Notice, for example, in the first data set that
+
+```{r}
+mean(articles$art)
+var(articles$art)
+```
+
+The variance looks to be about twice as large as the mean. Additional evidence of this is provided by the deviance statistic. The deviance is a quantity produced by a generalized linear model and should equal the degrees of freedom in a Poisson regression model.
+
+```{r}
+glance(pois1)
+```
+
+You will notice here that the deviance is about twice as big as the degrees of freedom.
+
+You can fix this problem in seveal ways. First, you can specify a quasi-likelihood that behaves like the Poisson except that the function specifying the mean-variance relationship has an extra parameter, estimated from the data. 
+
+You can also use a counting distribution, the negative binomial distribution, that allows for greater flexibility in the mean-variance relationship. 
+
+Finally, you can adjust the zero probability upward from what a Poisson model would expect. This is commonly thought of as a mixture distribution where there is a certain probability p, of getting exactly zero, and a probability 1-p or getting a Poisson random variable (which can sometimes equal zero, but only sometimes). These models are known as zero-inflated models.
+
+The [web page cited earlier][hua1] has more details about these models.
+
+### References
+
+[gut1]: https://en.wikipedia.org/wiki/Grand_Unified_Theory
+
+[hua1]: https://francish.netlify.app/post/poisson-and-negative-binomial-regression-using-r/
+
+[mcc1]: https://www.routledge.com/Generalized-Linear-Models/McCullagh-Nelder/p/book/9780412317606
+
+[swe1]: http://www.statsci.org/data/general/motorins.html
