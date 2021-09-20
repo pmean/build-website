@@ -1,0 +1,37 @@
+---
+title: "Deviance in a generalized linear model"
+author: "Steve Simon"
+source: "New"
+date: "2020-09-20"
+categories:
+- Blog post
+tags:
+- Generalized linear model
+output: html_document
+---
+
+Deviance is a measure computed for generalized linear models that can help you decide between two competing models. It is somewhat analagous to residual sums of squares in linear regression.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
+
+<!---More--->
+
+### References
+
+Eduardo Garcia Portugues. Section 5.5. Deviance, in Notes for Predictive Modeling, 2021-08-18. Available in [html format][port1]
+
+Freddy Hernandez. Deviance in glm. RPubs, 2020-07-07. Available in [html format][hern1]
+
+German Rodriguez. Generalized Linear Model Theory. Lecture Notes on Generalized Linear Models. Available in [pdf format][rodr1]
+
+Kenneth Tay. What is deviance? Statistical Odds and Ends blog, 2019-03-27. Available in [html format][tay1]
+
+[hern1]: https://rpubs.com/fhernanb/deviance_glm
+[port1]: https://bookdown.org/egarpor/PM-UC3M/glm-deviance.html
+[rodr1]: https://data.princeton.edu/wws509/notes/a2.pdf
+[tay1]: https://statisticaloddsandends.wordpress.com/2019/03/27/what-is-deviance/
