@@ -1,0 +1,29 @@
+---
+title: "Direct standardization of mortality rates"
+author: "Steve Simon"
+source: "New"
+date: "2020-09-20"
+categories:
+- Blog post
+tags:
+- Gneralized linear model
+output: html_document
+---
+
+With the generalized linear model, you have the option of choosing a model that works well with a variety of different distributions (normal, Poisson, Gamma, etc.). But you also have the option of working outside of these distributions. You can fit models that do not specify the distribtution, but which fit a particular transformation of the linear effect and particular mean-variance relationship.
+
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
+
+<!---More--->
+
+### References
+
+David Lillis. Generalized Linear Models in R, Part 7: Checking for Overdispersion in Count Regression. The Analysis Factor blog. Available in [html format][taf1]
+
+[taf1]: https://www.theanalysisfactor.com/glm-r-overdispersion-count-regression/
