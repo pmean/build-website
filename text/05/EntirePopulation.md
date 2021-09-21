@@ -33,8 +33,7 @@ and p-values are still meaningful.
 
 An earlier weblog entry
 
--   [ Enumerative and Analytic Studies (February
-    5, 2004)](http://www.childrensmercy.org/stats/weblog2004/enumerative.asp)
+[Enumerative and Analytic Studies](http://new.pmean.com/post/enumerative/)
 
 discusses this concept in further detail.
 

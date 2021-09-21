@@ -57,7 +57,7 @@ variable representing multiple rows or multiple columns is
 Fisher\'s Exact test is an alternative to the Chi-square test for
 two-by-two tables. The adjective \"exact\" stresses that this test does
 not rely on an approximation. Although some have cautioned about the
-conservative nature of  Fisher\'s Exact test, there is general consensus
+conservative nature of Fisher\'s Exact test, there is general consensus
 in the research community that this test is preferred to the Chi-square
 test for small data sets, though there are varying rules for deciding
 whether a data set is small enough to warrant the use of Fisher\'s Exact

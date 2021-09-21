@@ -23,7 +23,7 @@ transformation, and I might want to show this graph on a different
 scale. Another comment was on the use of Bayesian statistics to model
 accrual rates. As the data accumulates, you would get more information
 about the estimated stopping date of the study or about the estimated
-total sample size at the end of the study. It  would be important to get
+total sample size at the end of the study. It would be important to get
 a good prior distribution or possibly both an optimistic and a
 pessimistic prior. If even an optimistic prior is swamped by actual data
 suggesting that accrual is slow enough that no realistic sample size

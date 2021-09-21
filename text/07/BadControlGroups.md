@@ -38,7 +38,7 @@ my book, [Statistical Evidence in Medical Trials](../evidence.asp).
 In order to get CME credit, I need to specify three objectives. Here
 they are:
 
- In this talk, you will learn how to:
+In this talk, you will learn how to:
 
 -   recognize the importance of a good control group in research
     studies,

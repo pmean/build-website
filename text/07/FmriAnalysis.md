@@ -60,7 +60,7 @@ output: html_document
 > There are two R libraries for analysis of fMRI data:
 >
 > -   AnalyzieFMRI,
->     [cran.r-project.org/src/contrib/Descriptions/AnalyzeFMRI.html](http://cran.r-project.org/src/contrib/Descriptions/AnalyzeFMRI.html) 
+>     [cran.r-project.org/src/contrib/Descriptions/AnalyzeFMRI.html](http://cran.r-project.org/src/contrib/Descriptions/AnalyzeFMRI.html)
 >     and
 > -   fmri,
 >     [cran.r-project.org/src/contrib/Descriptions/fmri.html](http://cran.r-project.org/src/contrib/Descriptions/fmri.html).

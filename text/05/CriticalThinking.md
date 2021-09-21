@@ -34,7 +34,7 @@ the nitpickers pointed out that you can\'t always extrapolate from
 animals to humans. There were far higher rates of smoking in cancer
 patients than among controls, but the nitpickers pointed out that these
 were retrospective studies and people didn\'t always remember things
-accurately or report them truthfully.  Prospective studies were harder
+accurately or report them truthfully. Prospective studies were harder
 to do, but when these also showed a link between smoking and cancer, the
 nitpickers had another counterargument. They pointed out that people who
 smoke also tend to have other vices and bad habits that might account

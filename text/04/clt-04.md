@@ -18,7 +18,7 @@ sample size increases, even if the individual data values follow a
 different distribution.
 
 How quickly the average converges to a normal distribution depends on
-what the individual data look like.  Highly skewed data and/or data with
+what the individual data look like. Highly skewed data and/or data with
 outliers will tend to converge more slowly. If your data has no outliers
 and is reasonably symmetric, then convergence will be very fast.
 

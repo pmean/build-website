@@ -2,7 +2,7 @@
 title: "Working with the Poisson distribution"
 author: "Steve Simon"
 source: "New"
-date: "2020-08-30"
+date: "2021-08-30"
 categories:
 - Blog post
 tags:

@@ -62,7 +62,7 @@ forward slash (/) to separate directories in the path, or use a double
 backslash (\\\\). A single backslash causes problems because R has
 special codes like \\n to represent a new line.
 
-So a  file name like
+So a file name like
 
 -   `file="C:/Data/NewProject/Scatterplot.pdf" `or
 -   `file="C:\\Data\\NewProject\\Scatterplot.pdf" `

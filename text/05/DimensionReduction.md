@@ -21,7 +21,7 @@ output: html_document
 > deviation of one.
 >
 > **Principal components**. A simple approach that looks at linear
-> combinations of  the columns of X (the genes) that have the largest
+> combinations of the columns of X (the genes) that have the largest
 > amount of variation. Alternately, you can look at linear combinations
 > of the rows of X (the arrays) that have the largest amount of
 > variation. These linear combinations are often interesting, and you

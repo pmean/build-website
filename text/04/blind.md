@@ -49,7 +49,7 @@ guidelines](http://www.ich.org) which read as follows:
 > Under these and similar circumstances, it may be appropriate to reach
 > agreement with regulatory authorities in advance concerning serious
 > events that would be treated as disease-related and not subject to
-> routine expedited reporting. * **Clinical Safety Data Management:
+> routine expedited reporting.* **Clinical Safety Data Management:
 > Definitions And Standards For Expedited Reporting. E2A**, page 9.
 > [www.fda.gov/cder/guidance/iche2a.pdf](http://www.fda.gov/cder/guidance/iche2a.pdf)
 

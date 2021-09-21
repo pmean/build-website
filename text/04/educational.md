@@ -21,7 +21,7 @@ interesting developments and controversies in research and provide links
 to free sources of information on the web. Here are some examples of
 sources that I will draw on.
 
--   **STATS ([www.stats.org](http://www.stats.org))**.  This page is
+-   **STATS ([www.stats.org](http://www.stats.org))**. This page is
     published by the Statistical Assessment Service. I\'m worried that
     they will come after me because I use the same acronym STATS that
     they do, but as far as I know you cannot copyright an acronym. If
@@ -77,7 +77,7 @@ sources that I will draw on.
     Journal. They will [limit access to
     articles](http://bmj.bmjjournals.com/cgi/content/full/327/7409/241)
     starting January 2005, though, but they would still have a
-    wonderful  archive going back to the mid 1990\'s and they would
+    wonderful archive going back to the mid 1990\'s and they would
     still re-open access to published articles six months after the
     publication date. BMJ has always done a nice job of highlighting
     research methodology and their [collected resources

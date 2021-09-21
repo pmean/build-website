@@ -67,14 +67,14 @@ that intuition is not as good as a careful analysis. Some of these I
 have read, and others were recommended to me just recently.
 
 -   **Rational Choice in an Uncertain World: The Psychology of Judgement
-    and Decision Making**. Robyn Dawes and  [\[BookFinder4U
+    and Decision Making**. Robyn Dawes and [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/076192275X.html)
 -   **Calculated Risks: How to Know When Numbers Deceive You**. Gerd
     Gigerenzer [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0743254236.html)
 -   **How We Know What Isn\'t So.** Thomas Gilovich [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0029117062.html)
--   **Choices, Values, and Frames**. Daniel Kahneman and Amos Tversky 
+-   **Choices, Values, and Frames**. Daniel Kahneman and Amos Tversky
     (Editors) [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0521284147.html)
 

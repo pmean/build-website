@@ -13,7 +13,7 @@ link\]](http://www.bookfinder4u.com/detail/0471272426.html) and creator
 of the website [Skepdic.com](http://www.skepdic.com), mentioned in a
 recent newsletter that he has updated his definition for [anecdotal
 evidence](http://www.skepdic.com/testimon.html). He points out that
-anecdotes are unreliable because they  are
+anecdotes are unreliable because they are
 
 > *prone to contamination by beliefs, later experiences, feedback,
 > selective attention to details, and so on.*
@@ -30,7 +30,7 @@ Dr. Carroll also provides some other good definitions for related terms,
 and I am including the first sentence from each definition since they
 are so well written.
 
--   **[Confirmation bias](http://www.skepdic.com/confirmbias.html)**: 
+-   **[Confirmation bias](http://www.skepdic.com/confirmbias.html)**:
     *Confirmation bias refers to a type of selective thinking whereby
     one tends to notice and to look for what confirms one\'s beliefs,
     and to ignore, not look for, or undervalue the relevance of what

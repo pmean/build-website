@@ -22,7 +22,7 @@ resources, such as:
 
 -   TRIP [www.tripdatabase.org](http://www.tripdatabase.org)
 -   Scirus [www.scirus.com](http://www.scirus.com)
--   OAIster <http://oaister.umdl.umich.edu> 
+-   OAIster <http://oaister.umdl.umich.edu>
 
 A [Rapid Response letter](http://www.cmaj.ca/cgi/eletters/172/12/1549)
 added some additional comments and noted a valuable paper on optimizing

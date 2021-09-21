@@ -11,7 +11,7 @@ output: html_document
 On my [web page about odds ratios](../journal/oddsratio.asp), I point
 out the fractions are funny and cite some well known examples of how
 fractions behave in a counter intuitive fashion. One of the examples I
-cite is a Car Talk Puzzler problem about a 100 pound sack of potatoes. 
+cite is a Car Talk Puzzler problem about a 100 pound sack of potatoes.
 I cited the puzzler book that Tom and Ray Magliozzi had published:
 
 -   **A Haircut in Horse Town: And Other Great Car Talk

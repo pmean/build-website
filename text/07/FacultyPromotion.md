@@ -26,7 +26,7 @@ The guidelines for promotion are on the web at
 
 -   <http://www.med.umkc.edu/facultyguidelines/NontenureGuidelines.pdf>
 
- My credentials are reviewed by a committee of
+My credentials are reviewed by a committee of
 
 > *five Professors and Associate Professors who themselves are
 > non-regular (non-tenure), non-MD and nonclinical MD faculty, plus the
@@ -94,9 +94,8 @@ The application form for promotion includes
 2.  *Personal Information Sheet,*
 3.  *Self Appraisal Sheet,*
 4.  *Scholarly Activities Descriptions and Sheets,*
-5.  *Teaching, Professional/Clinical Service \[Descriptions and
-    Sheets\],*
-6.  *Advancement of Knowledge (Research)  \[Descriptions and Sheets\]*
+5.  *Teaching, Professional/Clinical Service,*
+6.  *Advancement of Knowledge (Research)*
 
 and a form asking for five external scholars for soliciting evaluation
 letters.

@@ -41,7 +41,7 @@ output: html_document
 > would be to count the number of EKGs between successive failures to
 > complete the proper paperwork. The values would be
 >
-> ` 1    11     9     4+`
+> `1    11    9    4+`
 >
 > The goal then becomes to model these waiting times. This relates
 > closely to some other work I am thinking about, the tracking of

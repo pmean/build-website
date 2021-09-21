@@ -17,7 +17,7 @@ output: html_document
 > This was by far the largest audience I had ever given a talk for. I
 > don\'t have an official count, but the talk was in one of those large
 > ballrooms (the Texas Ballroom, both A and B!) and more than half of
-> the seats looked  to be filled. It was easily more than five hundred
+> the seats looked to be filled. It was easily more than five hundred
 > people. No doubt many of the attendees were there for the other two
 > speakers, but it was still flattering to have such a large group to
 > talk to.

@@ -34,7 +34,7 @@ is a self-report, and this can be measured in several different ways:
 -   Profile of Mood States, a 65 item scale with a subscale of five
     items representing fatigue. Each item is rated from 0 to 4.
 -   Schwartz Cancer Fatigue Scale, a 28 item scale with four subscales:
-    physical, emotional, cognitive, and temporal.  Each item is rated
+    physical, emotional, cognitive, and temporal. Each item is rated
     from 0 to 4.
 -   General Fatigue Scale a ten item scale with no subscales. Each item
     is rated from 1 to 10.

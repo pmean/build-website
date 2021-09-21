@@ -8,7 +8,7 @@ tags:
 - Statistical computing
 output: html_document
 ---
->  Many of my projects involve writing a program in my text editor
+> Many of my projects involve writing a program in my text editor
 > ([Textpad](http://www.textpad.com/)), copying it into the clipboard,
 > and then pasting it into a statistical program like
 > [S-plus](http://www.insightful.com/products/splus/default.asp) or

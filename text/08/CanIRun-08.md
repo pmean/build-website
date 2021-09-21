@@ -29,7 +29,7 @@ border, I do talk about sample sizes that are so small that only an
 
 -   [Stats: All or nothing (August 18, 1999)](../size/all.asp)
 
- By \"all or nothing\" I mean that the worst case in the first group is
+By \"all or nothing\" I mean that the worst case in the first group is
 still higher than the best case in the second group. A total sample size
 of 5 and 5 (10 total) represents an \"all or nothing\" threshold. Since
 you have exceeded that value in the second group, you probably have

@@ -21,7 +21,7 @@ the standards of evidence based medicine should be modified for
 alternative therapies. There is a lot of discussion about how randomized
 trials are \"reductionist\" and while some of this is post-modernist
 nonsense, there are still some points worth considering. On the other
-side of the equation, since alternative medicine  claims often violate
+side of the equation, since alternative medicine claims often violate
 many of the criteria for [causality](../ask/causation.asp), perhaps
 their claims should be held to an even higher standard ([extraordinary
 claims require extraordinary

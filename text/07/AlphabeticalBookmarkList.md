@@ -12,7 +12,7 @@ output: html_document
 ---
 > As part of my reorganization efforts, I am including bookmarks in some
 > of my longer pages. Here\'s an example of an alphabetical list of
-> bookmarks, which I have already used on 
+> bookmarks, which I have already used on
 >
 > -   [Category: Ask Professor Mean](../category/AskProfessorMean.html)
 >     and

@@ -21,7 +21,7 @@ used TRANSFORM \| COMPUTE to calculate the following formula:
 
 -   DATE.DMY(31,05,2003)+\$casenum\*24\*60\*60
 
- This gives you dates starting on June 1, 2003 and moving up day by day
+This gives you dates starting on June 1, 2003 and moving up day by day
 in each row.
 
 She also wanted a column designating the particular month. You can do

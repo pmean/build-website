@@ -13,7 +13,7 @@ Someone sent me some data on crime. In a sample of 2,957,239 people, 961
 were criminals. 41 of the criminals were in the first group (who
 numbered 20,109). The remaining 920 were in the larger group
 (2,937,130). This person computed an odds ratio of 6.5 and wondered what
-it meant.  Does this mean that for every criminal in the larger group,
+it meant. Does this mean that for every criminal in the larger group,
 there are 6.5 criminals in the smaller group?
 
 I had to explain that that sort of ratio would only occur if the two

@@ -38,7 +38,7 @@ Apparently, I am a great photographer.
 > on the 25-year chronicle of the HIV-AIDS pandemic.\"*
 > [www.stevesimonphoto.com/](http://www.stevesimonphoto.com/)
 
- I\'m also a wonderful painter.
+I\'m also a wonderful painter.
 
 > *\"Steve Simon - Painting the Spirit of Beautiful Places\"*
 > [www.stevesimon.com/](http://www.stevesimon.com/)
