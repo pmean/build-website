@@ -65,7 +65,7 @@ diseases) and/or you need some personal identifiers, then you have to
 offer greater levels of assurance of confidentiality. Storing the
 personal identifiers in a separate location offers greater
 confidentiality. Destroying any data that links records to personally
-identified data at the earliest opportunity also helps.  Rather than
+identified data at the earliest opportunity also helps. Rather than
 keeping your data on a floppy disk, require that it be stored on a
 network folder, which requires password access. Keeping part or all of
 the data within your institution provides further assurance.

@@ -25,7 +25,7 @@ output: html_document
 > > have never liked cluttering up the screen or the page with a bunch
 > > of navigation links. I especially dislike the almost universal
 > > tendency to put those links on the left hand side of the page. It
-> > doesn\'t look good and  it interferes with the ability to print
+> > doesn\'t look good and it interferes with the ability to print
 > > well. In my mind, navigation links belong at the top of the page
 > > (with possibly a repetition at the bottom of the page).
 > >

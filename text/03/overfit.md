@@ -8,11 +8,11 @@ tags:
 - Modeling issues
 output: html_document
 ---
-*Dear Professor Mean,  I am conducting binary logistic regression
+*Dear Professor Mean, I am conducting binary logistic regression
 analyses with a sample size of 80 of which 20 have the outcome of
 interest (e.g. are \"very successful\" versus somewhat/not very
 successful). I have thirty possible independent variables which I
-examined in a univariate  logistic regression with the dependent
+examined in a univariate logistic regression with the dependent
 variable. Of these thirty, five look like they might have a relationship
 with the independent variable. Now I want to include these six variables
 in a stepwise logistic regression model, but I am worried about
@@ -64,7 +64,7 @@ overfitting. What exactly does overfitting mean?*
 > temporal trends that might interfere with your logistic model. But both
 > of these \"sins\" are less serious than overfitting your data.
 >
-> 2.  You could slap the \"exploratory\" label on your research. Put in
+> 2. You could slap the \"exploratory\" label on your research. Put in
 > a lot of qualifiers like \"Although these results are intriguing, the
 > small sample size means that these results may not replicate well with
 > a larger data set.\" This is a cop-out in my opinion. I\'ve fallen
@@ -96,7 +96,7 @@ overfitting. What exactly does overfitting mean?*
 >
 > 6\. There are some newer approaches to statistical modeling that are less
 > prone to overfitting. Perhaps the one you are most likely to see if CART
-> (Classification and Regression Trees).  These models can\'t make a silk
+> (Classification and Regression Trees). These models can\'t make a silk
 > purse out of a sow\'s ear, but they do have some cross validation checks
 > that make them slightly better than stepwise approaches.
 

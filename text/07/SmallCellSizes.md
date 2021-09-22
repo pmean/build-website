@@ -13,7 +13,7 @@ output: html_document
 Someone on Edstat-L wrote in asking about using Cohen\' Kappa with a
 small sample size in some of the cells. Here\'s an example:
 
-`        N    Y        Total     N    890   1      891     Y      2   2        4      Total  892   3      894`
+`        N    Y        Total     N    890   1      891     Y      2   2        4      Total  892   3      894`
 
 As a general rule, kappa should not be computed when the distribution is
 skewed so heavily towards one category. But another valuable thing to

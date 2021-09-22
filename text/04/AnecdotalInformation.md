@@ -10,7 +10,7 @@ output: html_document
 ---
 Anecdotal information is problematic for several reasons, and I have
 highlighted some of these reasons in a [speech I gave at the 2004
-meeting of the  Midwest Society for Pediatric
+meeting of the Midwest Society for Pediatric
 Research](GoldStandard.html).
 
 Catherine Fiorello highlights the weakness of the anecdotal argument

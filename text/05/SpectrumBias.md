@@ -37,7 +37,7 @@ Much better would be to evaluate sensitivity and specificity in a cohort
 design. With this design, people who have certain symptoms and who come
 to a health care professional for evaluation are given a diagnostic test
 and that test is compared to a gold standard (which is often just
-waiting to see if the disease fully manifests itself over  time). With
+waiting to see if the disease fully manifests itself over time). With
 such a design, you are likely to get a wide range of disease states and
 (hopefully) a fairer depiction of the performance of a diagnostic test.
 
@@ -46,7 +46,7 @@ the response of patients to a diagnostic test. For example, in Muhlerin
 2002, the performance of an enzyme immunoassy for Chlamydia trachomatis
 was shown to vary by age group. The sensitivity was much better in the
 patients older than 24 years (76% vs 58%). While the specificity showed
-less dramatic changes, it was also significantly higher  in the older
+less dramatic changes, it was also significantly higher in the older
 group (99.5% versus 99.2%). With such a finding, you should be cautious
 about extrapolating results of the study.
 

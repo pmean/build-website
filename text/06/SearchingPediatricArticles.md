@@ -43,7 +43,7 @@ Personal Name as Subject, MEDLINE Secondary Source, and Other Terms (see
 Other Term \[OT\] above) typically non-MeSH subject terms (keywords),
 including NASA Space Flight Mission, assigned by an organization other
 than NLM.*
-[www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search\_Field\_Descrip](http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search_Field_Descrip) 
+[www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search\_Field\_Descrip](http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search_Field_Descrip)
 
 The best compromise was
 
@@ -65,7 +65,7 @@ analysts examine journal articles and assign to each the most specific
 MeSH terms applicable - typically ten to twelve. Applying the MeSH
 vocabulary ensures that articles are uniformly indexed by subject,
 whatever the author\'s words*.
-[www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search\_Field\_Descrip](http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search_Field_Descrip) 
+[www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search\_Field\_Descrip](http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search_Field_Descrip)
 
 What does sensitivity and specificity mean in the context of a Medline
 search. The JMIR article explains it thusly:

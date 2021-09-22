@@ -10,7 +10,7 @@ tags:
 - Placebos in research
 output: html_document
 ---
-I am still working on the details of  a presentation for the [Kansas
+I am still working on the details of a presentation for the [Kansas
 City University of Medicine and Biosciences](http://www.kcumb.edu/).
 They want me to talk at lunch during the [2007 Homecoming CME and
 Reunion
@@ -36,7 +36,7 @@ my book, [Statistical Evidence in Medical Trials](../evidence.asp).
 In order to get CME credit, I need to specify three objectives. Here
 they are:
 
- In this talk, you will learn how to:
+In this talk, you will learn how to:
 
 -   recognize the importance of a good control group in research
     studies,

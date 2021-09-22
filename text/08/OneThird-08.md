@@ -12,7 +12,7 @@ Someone asked me a very good question regarding interim analysis. If the
 call for an interim analysis is specified as occurring one-third (and
 two-third) of the way through a study, what does that mean. In a study
 with 60 patients lasting a full year, does that mean until 20 (40)
-patients  have arrived, or does it mean until 4 (8) months? Also, if you
+patients have arrived, or does it mean until 4 (8) months? Also, if you
 are counting discrete events, such as adverse events, does it mean
 one-third of the expected number of adverse events?
 

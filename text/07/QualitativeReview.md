@@ -78,7 +78,7 @@ output: html_document
 >     the amount of information about the research process that is
 >     provided to readers.*
 >
->  I personally do not find this list very helpful.
+> I personally do not find this list very helpful.
 >
 > The authors then summarize a perspective of a third group, the subtle
 > realists, who hold a position somewhere between antirealists and the

@@ -13,19 +13,19 @@ output: html_document
 > through Exp.8). The microarray has 96 genes, as well as some
 > housekeeping genes
 >
-> `    Position   UniGene  Genebank Symbol`
+> `    Position   UniGene  Genebank Symbol`
 >
-> `97        97               N/A   L08752   PUC18`
+> `97        97               N/A   L08752   PUC18`
 >
-> `98       100     Blank             Blank  Blank`
+> `98       100     Blank             Blank  Blank`
 >
-> `99       103   Mm.5289            M32599   Gapd`
+> `99       103   Mm.5289            M32599   Gapd`
 >
-> `100      105   Mm.5246 NM_008907   Ppia`
+> `100      105   Mm.5246 NM_008907   Ppia`
 >
-> `101      109  Mm.13020 NM_009438 Rpl13a`
+> `101      109  Mm.13020 NM_009438 Rpl13a`
 >
-> `102      111 Mm.195066    M12481           Actb      `
+> `102      111 Mm.195066    M12481           Actb      `
 >
 > To read this data into R, I first created a comma separated value file
 > from Excel. Then I used the read.csv() command in R to create a data
