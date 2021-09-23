@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: "2021-09-22"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Data mining
 output: html_document

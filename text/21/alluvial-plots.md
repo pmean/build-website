@@ -3,7 +3,7 @@ title: "Alluvial Plots in ggplot2"
 source: "New"
 date: "2021-04-28"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Graphical display
 output: html_document

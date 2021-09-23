@@ -3,13 +3,13 @@ title: "Precisely the opposite of what we now know to be true"
 source: "New"
 date: "2020-12-21"
 categories:
-- Quote
+- Quotation
 tags:
 - Reproducible research
 output: html_document
 ---
 
-Dr. Melik: This morning for breakfast he requested something called ‚Äúwheat germ, organic honey, and tiger‚Äôs milk.‚Äù
+Dr. Melik: This morning for breakfast he requested something called ìwheat germ, organic honey, and tigerís milk.î
 
 Dr. Aragon: [chuckling] Oh, yes. Those are the charmed substances that some years ago were thought to contain life-preserving properties.
 

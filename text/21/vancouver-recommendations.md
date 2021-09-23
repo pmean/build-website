@@ -3,7 +3,7 @@ title: "The Vancouver Recommendations"
 source: "New"
 date: "2021-08-13"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Writing research papers
 output: html_document

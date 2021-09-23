@@ -3,7 +3,7 @@ title: "Reference Collection to push back against Common Statistical Myths"
 source: "New"
 date: "2021-05-16"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Teaching resources
 output: html_document
@@ -13,6 +13,6 @@ There are some commonly used statistical methods (e.g., post hoc power, stepwise
 
 <!--more-->
 
-Andrew Althouse. Reference Collection to push back against ‚ÄúCommon Statistical Myths.‚Äù, Datmethods wiki. Available in [html format][alt1].
+Andrew Althouse. Reference Collection to push back against ìCommon Statistical Myths.î, Datmethods wiki. Available in [html format][alt1].
 
 [alt1]: https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787

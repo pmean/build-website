@@ -3,13 +3,13 @@ title: "Disappearing Data"
 source: "New"
 date: "2020-10-29"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Government statistics
 output: html_document
 ---
 
-Kirsten Berg, Jonathan Cohn, Delphine Dâ€™Amora, Chris Dâ€™Angelo, Michael Hobbes, Alex Kaufman, Emily Peck, Kate Sheppard, Samanth Subramanian. Disappearing Data. HuffPost. Available in [html format](https://highline.huffingtonpost.com/article/disappearing-data/).
+Kirsten Berg, Jonathan Cohn, Delphine D’Amora, Chris D’Angelo, Michael Hobbes, Alex Kaufman, Emily Peck, Kate Sheppard, Samanth Subramanian. Disappearing Data. HuffPost. Available in [html format](https://highline.huffingtonpost.com/article/disappearing-data/).
 
 <!---more--->
 

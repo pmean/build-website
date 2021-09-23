@@ -3,7 +3,7 @@ title: "Statistical Thinking"
 source: "New"
 date: "2021-06-07"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Teaching resources
 output: html_document

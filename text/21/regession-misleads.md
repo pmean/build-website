@@ -3,7 +3,7 @@ title: "The illusion of predictability. How regression statistics mislead expert
 source: "New"
 date: "2021-05-18"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Human side of statistics
 output: html_document

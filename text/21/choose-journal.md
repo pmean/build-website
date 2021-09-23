@@ -3,7 +3,7 @@ title: "How to Choose the Journal That's Right for Your Study"
 source: "New"
 date: "2021-07-27"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Writing research papers
 output: html_document

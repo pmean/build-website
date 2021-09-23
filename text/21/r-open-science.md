@@ -3,7 +3,7 @@ title: "R Open Science"
 source: "New"
 date: "2021-08-11"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R software
 output: html_document
@@ -13,9 +13,9 @@ R OPen Science is a team effort to develop a systematic process to develop and t
 
 <!--more-->
 
-Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, MaÃ«lle Salmon, Melina Vidoni. Transforming science through open data, software & reproducibility. Available in [html format][and1]
+Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, Maëlle Salmon, Melina Vidoni. Transforming science through open data, software & reproducibility. Available in [html format][and1]
 
-Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, MaÃ«lle Salmon, Melina Vidoni. R OpenSci Packages. Development, Maintenance, and Peer Review. Available in [pdf format][and2].
+Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, Maëlle Salmon, Melina Vidoni. R OpenSci Packages. Development, Maintenance, and Peer Review. Available in [pdf format][and2].
 
 Maelle Salmon, Emily Riederer, Julia Gustavsen, Laura DeCicco, Melina Vidoni, Anna Krystalli, Mauro Lepore, Karthik Ram, Noam Ross. rOpenSci Software Peer Review. Available in [html format].
 

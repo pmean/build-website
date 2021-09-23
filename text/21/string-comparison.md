@@ -3,7 +3,7 @@ title: "Real-world String Comparison"
 source: "New"
 date: "2021-08-25"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Statistical computing
 output: html_document

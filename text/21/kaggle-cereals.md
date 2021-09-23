@@ -3,7 +3,7 @@ title: "Kaggle, 80 cereals"
 source: "New"
 date: "2021-07-27"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Datasets
 output: html_document

@@ -3,7 +3,7 @@ title: "The Precis-2 toolkit"
 source: "New"
 date: "2021-08-11"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Research design
 output: html_document

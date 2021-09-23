@@ -3,7 +3,7 @@ title: "Speaking R"
 source: "New"
 date: "2021-08-12"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R programming
 - Teaching resources

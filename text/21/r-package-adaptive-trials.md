@@ -3,7 +3,7 @@ title: "R Package for Adaptive Clinical Trials"
 source: "New"
 date: "2021-07-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Bayesian statistics
 - R software

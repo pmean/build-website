@@ -3,7 +3,7 @@ title: "Heterogeneity introduced by EHR system implementation in a de-identified
 source: "New"
 date: "2021-04-28"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Electronic health records
 output: html_document

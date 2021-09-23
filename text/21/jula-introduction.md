@@ -3,7 +3,7 @@ title: "Julia for Statistics and Data Science"
 source: "New"
 date: "2021-08-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Julia programming
 output: html_document
@@ -13,6 +13,6 @@ Doug Bates gave an excellent talk at the 2021 Joint Statistics Meetings about Ju
 
 <!--more-->
 
-CÃ©cile AnÃ©, Claudia Solis-Lemus, and Douglas Bates, Introductory Overview Lecture: Julia for Statistics and Data Science, Joint Statistics Meetings, 2021-08-08. Available in a [github repository][bat1].
+Cécile Ané, Claudia Solis-Lemus, and Douglas Bates, Introductory Overview Lecture: Julia for Statistics and Data Science, Joint Statistics Meetings, 2021-08-08. Available in a [github repository][bat1].
 
 [bat1]: https://github.com/dmbates/JSM2021

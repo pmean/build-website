@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: "2021-09-21"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R software
 - Software engineering

@@ -3,7 +3,7 @@ title: "How to write a scope of work"
 source: "New"
 date: "2021-02-18"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Human side of statistics
 output: html_document

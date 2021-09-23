@@ -3,7 +3,7 @@ title: "The Evolution of Data Science ... As I Remember It"
 source: "New"
 date: "2020-10-22"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Big data
 output: html_document

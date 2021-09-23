@@ -3,7 +3,7 @@ title: "Choosing a good chart"
 source: "New"
 date: "2021-05-18"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Graphical display
 output: html_document

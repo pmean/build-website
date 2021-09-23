@@ -3,7 +3,7 @@ title: "Finally, a proven method to show just how funny I am"
 source: "New"
 date: "2021-05-31"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Big data
 output: html_document

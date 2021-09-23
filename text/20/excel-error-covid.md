@@ -3,7 +3,7 @@ title: "Excel: Why using Microsoft's tool caused Covid-19 results to be lost"
 source: "New"
 date: "2020-10-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Data management
 - Covid-19

@@ -3,7 +3,7 @@ title: "The obesity wars and the education of a researcher"
 source: "New"
 date: "2021-07-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Human side of statistics
 output: html_document

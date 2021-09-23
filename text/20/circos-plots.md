@@ -3,7 +3,7 @@ title: "Making genome data come alive with circos plots"
 source: "New"
 date: "2020-10-20"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Graphical display
 output: html_document

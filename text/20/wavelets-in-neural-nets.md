@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: 2020-08-31
 categories:
-- Recommended
+- Recommendation
 tags:
 - Big data
 output: html_document

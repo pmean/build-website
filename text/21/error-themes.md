@@ -3,7 +3,7 @@ title: "Issues with data and analyses. Errors, underlying themes, and potential 
 source: "New"
 date: "2021-03-20"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Critical appraisal
 output: html_document
@@ -13,4 +13,4 @@ One of my students showed me this paper. It looks at errors in research and trie
 
 <!--more-->
 
-Andrew W. Brown, Kathryn A. Kaiser, David B. Allison. Issues with data and analyses: Errors, underlying themes, and potential solutions. Brown, Andrew W et al. ‚ÄúIssues with data and analyses: Errors, underlying themes, and potential solutions.‚Äù Proceedings of the National Academy of Sciences of the United States of America vol. 115,11 (2018): 2563-2570. doi:10.1073/pnas.1708279115. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856502/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856502/pdf/pnas.201708279.pdf).
+Andrew W. Brown, Kathryn A. Kaiser, David B. Allison. Issues with data and analyses: Errors, underlying themes, and potential solutions. Brown, Andrew W et al. ìIssues with data and analyses: Errors, underlying themes, and potential solutions.î Proceedings of the National Academy of Sciences of the United States of America vol. 115,11 (2018): 2563-2570. doi:10.1073/pnas.1708279115. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856502/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856502/pdf/pnas.201708279.pdf).

@@ -18,7 +18,7 @@ clean_files <- function(
     search_string, 
     replace_string="Not yet", 
     dir_root="text/zotero", 
-    subdir_list=c("99", zpad(0:20), "no"),
+    subdir_list=c("99", zpad(0:21), "no"),
     file_pattern="*.bib", 
     original_string=search_string,
     v=TRUE) {
@@ -58,8 +58,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'title: "Pmean: ',
-  'title: "',
+  '- Quote',
+  '- Quotation',
   dir_root="text", 
   file_pattern="md$")
 

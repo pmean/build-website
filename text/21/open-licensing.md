@@ -3,7 +3,7 @@ title: "Enabling Reproducible Research: Open Licensing for Scientific Innovation
 source: "New"
 date: "2021-02-15"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Data sharing
 output: html_document

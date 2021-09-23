@@ -3,7 +3,7 @@ title: "Making the CECPfuns package: my own usable package"
 source: "New"
 date: "2021-02-12"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R programming
 output: html_document

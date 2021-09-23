@@ -3,7 +3,7 @@ title: "Metadata vignette"
 source: "New"
 date: "2021-07-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R software
 - Reproducible research

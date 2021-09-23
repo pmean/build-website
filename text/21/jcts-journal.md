@@ -3,7 +3,7 @@ title: "Journal of Clinical and Translational Science"
 source: "New"
 date: "2021-03-04"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Writing research papers
 output: html_document

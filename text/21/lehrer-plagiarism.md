@@ -3,7 +3,7 @@ title: "Songs by Tom Lehrer (1953), Lobachevsky"
 source: "New"
 date: "2021-05-27"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Ethics in research
 output: html_document

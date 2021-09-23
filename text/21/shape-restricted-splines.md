@@ -3,7 +3,7 @@ title: "Shape-Restricted Regression Splines with R Package splines2"
 source: "New"
 date: "2021-08-30"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Linear regression
 output: html_document

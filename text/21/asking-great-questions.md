@@ -3,7 +3,7 @@ title: "Asking great questions"
 source: "New"
 date: "2021-08-13"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Human side of statistics
 output: html_document

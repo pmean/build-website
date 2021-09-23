@@ -3,7 +3,7 @@ title: "Mapping R functions"
 source: "New"
 date: "2021-07-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R software
 output: html_document

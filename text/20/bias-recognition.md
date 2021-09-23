@@ -3,7 +3,7 @@ title: "Bias in Bias Recognition"
 source: "New"
 date: "2020-10-08"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Critical appraisal
 output: html_document

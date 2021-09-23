@@ -3,7 +3,7 @@ title: "Experimental Evaluation of Algorithm-Assisted Human Decision-Making: App
 source: "New"
 date: "2021-04-29"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Big data
 output: html_document

@@ -3,7 +3,7 @@ title: "The documentation system"
 source: "New"
 date: "2021-01-26"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Software engineering
 output: html_document

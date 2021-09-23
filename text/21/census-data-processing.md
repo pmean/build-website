@@ -3,7 +3,7 @@ title: "Census Data Processing 101"
 source: "New"
 date: "2021-02-12"
 categories:
-- Recommended
+- Recommendation
 tags:
 - Bureau of the Census
 output: html_document

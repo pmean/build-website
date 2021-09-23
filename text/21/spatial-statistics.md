@@ -3,7 +3,7 @@ title: "Resources for spatial statistics"
 source: "New"
 date: "2021-08-11"
 categories:
-- Recommended
+- Recommendation
 tags:
 - R software
 output: html_document
@@ -19,7 +19,7 @@ The two books mentioned were
 
 + Noel Cressie, Christopher K. Wikle. Statistics for Spatio-Temporal Data, Wiley. Again, there is a nice description on the [publisher's website][cre1].
 
-Edzer Pebesma, Marius Appel, and Daniel NÃ¼st have a nice [blog][peb1], r-spatial, for those interested in learning how to do spatial analysis using R.
+Edzer Pebesma, Marius Appel, and Daniel Nüst have a nice [blog][peb1], r-spatial, for those interested in learning how to do spatial analysis using R.
 
 Lu Zhang. Nearest Neighbor Gaussian Processes (NNGP) based models in Stan (2018, Jan), is a nicely worked out [example of spatial analysis][zha1] using the Bayesian package, Stan.
 
