@@ -13,59 +13,68 @@ I've been meaning to update and consolidate my webpages and blog. Here's a list 
 
 <!--more-->
 
-1. Systematize the references. No bare html addresses. Put the URLs at the bottom of the page. 
+1. Edit the appropriate category page. Add 
+   <p>These pages are transitioning to a <a href="http://new.pmean.com/tags/name/">new website</a>.</p>
 
-2. Get rid of unnecessary headers, indenting, and bolding. Lean towards plain vanilla text for the most part.
+2. Link the old pages to the new ones. Add 
+   <p>This page has moved to a <a href="http://new.pmean.com/post/name/">new website</a>
+and remove everything except the header.
 
-3. Get rid of non-standard characters.
+3. Systematize the references. No bare html addresses. Put the URLs at the bottom of the page. 
 
-4. Link the old pages to the new ones. Add <p>This page has moved to a <a href="http://new.pmean.com/post/name/">new website</a> and remove everything except the header.
+4. Get rid of unnecessary headers, indenting, and bolding. Lean towards plain vanilla text for the most part.
 
-5. Ditch camel case names and underscores. Use dashes instead. Use two or three word names for the most part.
+5. Get rid of non-standard characters.
 
-6. Use headers liberally.
+6. Ditch camel case names and underscores. Use dashes instead. Use two or three word names for the most part.
 
-7. Get rid of backslashes in front of ", ', etc.
+7. Use headers liberally.
 
-8. Use headers for Dear Professor Mean and Dear Reader
+8. Get rid of backslashes in front of ", ', etc.
 
-9. List authors in references using first names then the last name rather than the reverse of initials.
+9. Use headers for Dear Professor Mean and Dear Reader
 
-10. Move all images and binary files to new-images.
+10. List authors in references using first names then the last name rather than the reverse of initials.
 
-11. Edit the appropriate category page. Add <p>These pages are transitioning to a <a href="http://new.pmean.com/tags/name/">new website</a>.</p>
+11. Move all images and binary files to new-images.
+
 
 
 ### List of files completed
 
-1. computational-accuracy.md, accuracy.html
-2. anova-steps.md, anova.html
-3. overfit-models.md, overfit.html
+1. computational-accuracy.md, http://www.pmean.com/03/accuracy.html
+2. anova-steps.md, http://www.pmean.com/03/anova.html
+3. overfit-models.md, http://www.pmean.com/03/overfit.html
+4. bar-pie-charts.md, http://www.pmean.com/03/barpie.html
 
 ### List of files partially completed
 
-1. bar-pie-charts.md, barpie.html
-2. cluster-randomization.md, cluster.html
-3. building-complex-models.md, complex-03.html
-4. cmh-consulting.md, consulting-03.html
-5. data-is.md, data_is,html
-6. data-mining-steps.md, datamining-03.html
-7. introduction-diagnostic-tests.md, diagnostic.html
-8. equivalence-testing-steps.md, equivalence.html
-9. mean-or-median.md, mean-or-median.html
-10. maximumm-likelihood.md, mle.html
-11. nonlinear-growth.md, nonlinear_growth.html
-12. spss-poisson-regression.md, pois_syntax.html
-13. coding-race-ethnicity.md, RaceEthnicity.md
-14. skewed-data.md, skew.html
++ cluster-randomization.md, http://www.pmean.com/03/cluster.html
++ building-complex-models.md, http://www.pmean.com/03/complex.html
++ cmh-consulting.md, http://www.pmean.com/03/consulting.html
++ data-is.md, http://www.pmean.com/03/data_is,html
++ data-mining-steps.md, http://www.pmean.com/03/datamining.html
++  introduction-diagnostic-tests.md, http://www.pmean.com/03/diagnostic.html
++ equivalence-testing-steps.md, http://www.pmean.com/03/equivalence.html
++ mean-or-median.md, http://www.pmean.com/03/mean-or-median.html
++ maximumm-likelihood.md, http://www.pmean.com/03/mle.html
++ nonlinear-growth.md, http://www.pmean.com/03/nonlinear_growth.html
++ spss-poisson-regression.md, http://www.pmean.com/03/pois_syntax.html
++ coding-race-ethnicity.md, http://www.pmean.com/03/RaceEthnicity.md
++ skewed-data.md, http://www.pmean.com/03/http://www.pmean.com/03/skew.html
 
 ### List of files that need to be imported
 
-1. consent.html
+1. http://www.pmean.com/03/consent.html
 
 
 ### List of category pages linked
 
-1. StatisticalComputing.html
-2. ModelingIssues.html
-3. AnalysisOfVariance.html
+1. http://www.pmean.com/category/StatisticalComputing.html
+2. http://www.pmean.com/category/ModelingIssues.html
+3. http://www.pmean.com/category/AnalysisOfVariance.html
+
+### Archive files checked
+
+1. http://www.pmean.com/03/Archive2003.html
+2. http://www.pmean.com/03/Archive03.html

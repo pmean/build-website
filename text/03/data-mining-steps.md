@@ -4,6 +4,7 @@ author: Steve Simon
 date: 2003-09-22
 categories:
 - Blog post
+- Incomplete page
 tags:
 - Data mining
 output: html_document
