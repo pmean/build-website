@@ -23,7 +23,7 @@ I also need to show "a sustained record of collaborating and mentoring learners 
 
 Grant funding is very important. I "must have received grant funding as a Principal Investigator or Co-Principal Investigator" or I must have "consistently contributed as Co-Investigator on funded research." I have one grant where I am the principal investigator and can point to seven more what I am a co-investigator or consultant.
 
-I need to prepare a nomination letter. This letter must document "how the individual’s clinical or bench research has impacted UMKC." It asks for specific outcome measures.
+I need to prepare a nomination letter. This letter must document "how the individual's clinical or bench research has impacted UMKC." It asks for specific outcome measures.
 
 The first is the "number of peer-reviewed PMID publications and journal name(s) in the past 5 years." If it has to be in Pubmed and be peer-reviewed, then I have 9. If you are more inclusive, I have 13.
 
@@ -183,7 +183,7 @@ Note: I have not included the total grant awards for any of these grants, which 
 
 5. Frontiers: University of Kansas Clinical and Translational Science Institute (NIH 5UL1TR002366-04, Principal Investigator: Mario Castro). The Heartland Institute for Clinical and Translational Research has been a catalyst for bringing together translational science investigators and stakeholders across the KC region, and beyond. The vision of Frontiers is to contribute to and lead national efforts to transform the way we do clinical and translational research (CTR), and to ensure research is more rapidly and more efficiently translated to the point of care so that it may contribute to improved health.
 
-6. Preschool Development Grant Birth through Five Initiative (90TP0066-01, Missouri Department of Elementary and Secondary Education, Principal Investigator: Mike Abel). We present best practices for professionals and programs across Missouri’s early childhood mixed-delivery system. For more than 50 years, early childhood programs that support the growth and development of young children have been shown to have a profound impact on children over their lifespan. The challenge is to identify what elements of a high-quality early childhood program are most associated with positive outcomes for children and families.
+6. Preschool Development Grant Birth through Five Initiative (90TP0066-01, Missouri Department of Elementary and Secondary Education, Principal Investigator: Mike Abel). We present best practices for professionals and programs across Missouri's early childhood mixed-delivery system. For more than 50 years, early childhood programs that support the growth and development of young children have been shown to have a profound impact on children over their lifespan. The challenge is to identify what elements of a high-quality early childhood program are most associated with positive outcomes for children and families.
 
 7. Greater Plains Collaborative (PCORI HSRP20162063, Principal Investigator: Lemuel Waitman). The Greater Plains Collaborative (GPC) is a new network of 10 leading medical centers in 7 states committed to a shared vision of improving healthcare delivery through ongoing learning, adoption of evidence-based practices, and active research dissemination. 
 

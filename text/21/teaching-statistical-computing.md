@@ -32,7 +32,7 @@ I won't include the full bibliographic details of the individual pages, but here
 + Web scraping in the statistics and data science curriculum: Challenges and opportunities
 + Teaching creative and practical data science at scale
 + The data mine: Enabling data science across the curriculum
-+ ’Playing the whole game’: A data collection and analysis exercise with Google Calendar’
++ 'Playing the whole game': A data collection and analysis exercise with Google Calendar'
 + Easy-to-use cloud computing for teaching data science
 + Computing in the statistics curricula: A 10-year retrospective
 + Expanding the scope of statistical computing: Training statisticians to be software engineers
@@ -42,6 +42,6 @@ I won't include the full bibliographic details of the individual pages, but here
 
 In addition to the articles in the special issue, the main article cited some from earlier issues or different journals.
 
-+ Cobb, G. (2015), ‘Mere renovation is too little too late: We need to rethink our undergraduate curriculum from the ground up’, The American Statistician 69(4), 266–282. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/00031305.2015.1093029). You can also find links to a pre-print plus links to the various comments and the rejoinder [here](https://nhorton.people.amherst.edu/mererenovation/).
++ Cobb, G. (2015), �Mere renovation is too little too late: We need to rethink our undergraduate curriculum from the ground up', The American Statistician 69(4), 266�282. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/00031305.2015.1093029). You can also find links to a pre-print plus links to the various comments and the rejoinder [here](https://nhorton.people.amherst.edu/mererenovation/).
 National Academies of Science, Engineering, and Medicine (2018), Data Science for Undergraduates: Opportunities and Options. Available in [pdf format](https://nas.edu/envisioningds).
-Wing, J. M. (2006), ‘Computational thinking’, Communications of the ACM 49(3). Available in [html format](https://dl.acm.org/doi/fullHtml/10.1145/1118178.1118215).
+Wing, J. M. (2006), �Computational thinking', Communications of the ACM 49(3). Available in [html format](https://dl.acm.org/doi/fullHtml/10.1145/1118178.1118215).

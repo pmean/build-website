@@ -120,7 +120,7 @@ The variables are
 + marital status (mar),
 + number of children (kid5),
 + prestige of graduate program (phd), 
-+ the number of articles published by the individualâ€™s mentor (ment)
++ the number of articles published by the individual's mentor (ment)
 + the number of articles published by the scientist (art: the outcome).
 
 To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
@@ -164,7 +164,7 @@ Here are the variables:
   + 4: 20000-25000
   + 5: > 25000
 + Zone		Geographical zone
-  + 1: Stockholm, GÃ¶teborg, MalmÃ¶ with surroundings
+  + 1: Stockholm, Göteborg, Malmö with surroundings
   + 2: Other large cities with surroundings
   + 3: Smaller cities with surroundings in southern Sweden
   + 4: Rural areas in southern Sweden

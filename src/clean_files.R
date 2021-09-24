@@ -58,8 +58,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '- Quote',
-  '- Quotation',
+  "</U",
+  " ",
   dir_root="text", 
   file_pattern="md$")
-
