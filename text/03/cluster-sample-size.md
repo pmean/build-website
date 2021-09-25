@@ -91,3 +91,5 @@ You can find an [earlier version][sim1] of this page on my [original website][si
 [sha1]: https://moam.info/sample-size-and-design-effect-oit-web-services_59b10d0c1723ddd8c6ad2b95.html
 [sim1]: http://www.pmean.com/03/cluster.html
 [sim2]: http://www.pmean.com/original_site.html
+
+http://www.pmean.com/weblog/images/04_cluster1.gif

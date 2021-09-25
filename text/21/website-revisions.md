@@ -46,10 +46,10 @@ and remove everything except the header.
 2. anova-steps.md, http://www.pmean.com/03/anova.html
 3. overfit-models.md, http://www.pmean.com/03/overfit.html
 4. bar-pie-charts.md, http://www.pmean.com/03/barpie.html
+5. cluster-sample-size.md, http://www.pmean.com/03/cluster.html
 
 ### List of files partially completed
 
-+ cluster-randomization.md, http://www.pmean.com/03/cluster.html
 + building-complex-models.md, http://www.pmean.com/03/complex.html
 + cmh-consulting.md, http://www.pmean.com/03/consulting.html
 + data-is.md, http://www.pmean.com/03/data_is,html
@@ -73,6 +73,9 @@ and remove everything except the header.
 1. http://www.pmean.com/category/StatisticalComputing.html
 2. http://www.pmean.com/category/ModelingIssues.html
 3. http://www.pmean.com/category/AnalysisOfVariance.html
+4. http://www.pmean.com/category/DescriptiveStatistics.html
+5. http://www.pmean.com/category/GraphicalDisplay.html
+6. http://www.pmean.com/category/SampleSizeJustification.html
 
 ### Archive files checked
 
