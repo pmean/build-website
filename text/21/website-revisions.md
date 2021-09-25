@@ -17,7 +17,7 @@ I've been meaning to update and consolidate my webpages and blog. Here's a list 
    <p>These pages are transitioning to a <a href="http://new.pmean.com/tags/name/">new website</a>.</p>
 
 2. Link the old pages to the new ones. Add 
-   <p>This page has moved to a <a href="http://new.pmean.com/post/name/">new website</a>
+   <p>This page has moved to a <a href="http://new.pmean.com/post/name/">new website</a>.</p>
 and remove everything except the header.
 
 3. Systematize the references. No bare html addresses. Put the URLs at the bottom of the page. 

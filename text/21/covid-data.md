@@ -1,22 +1,19 @@
----
-title: "Revisions to my website"
+--
+title: "Show me the data"
 source: "New"
-date: "2021-09-24"
+date: "2021-08-27"
 categories:
-- Blog post
+- Recommendation
 tags:
-- Administrative details
+- Critcal appraisal
 output: html_document
 ---
 
-I've been meaning to update and consolidate my webpages and blog. Here's a list of the things I need to look for as I do the updating.
+Inadequate data on the COVID-19 pandemic has hindered our ability to make the right decisions about prevention and treatment.
 
 <!--more-->
 
-1. Systematize the references. No bare html addresses. Put the URLs at the bottom of the page. 
+Zeynep Tufekci. Show Me the Data! The New York Times, 2021-08-27. Available in [html format][tuf1].
 
-2. Get rid of unnecessary headers, indenting, and bolding. Lean towards plain vanilla text for the most part.
 
-3. Get rid of non-standard characters.
-
-4. Link the old pages to the new ones.
+[tuf1]: https://www.nytimes.com/2021/08/27/opinion/covid-data-vaccines.html
