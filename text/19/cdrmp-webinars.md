@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Webinar Series, Congressionally Directed Medical Research Programs"
+title: "Webinar Series, Congressionally Directed Medical Research Programs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cdrmp-webinars/"
 date: "2019-03-14"

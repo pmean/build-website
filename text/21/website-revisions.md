@@ -18,6 +18,8 @@ I've been meaning to update and consolidate my webpages and blog. Here's a list 
 
 2. Link the old pages to the new ones. Add 
    <p>This page has moved to a <a href="http://new.pmean.com/post/name/">new website</a>.</p>
+   or
+   This page has moved to a new website. Link to http://new.pmean.com/post/name/
 and remove everything except the header.
 
 3. Systematize the references. No bare html addresses. Put the URLs at the bottom of the page. 
@@ -38,6 +40,12 @@ and remove everything except the header.
 
 11. Move all images and binary files to new-images.
 
+12. Remove Recommendation from title.
+
+13. Recommendation text with image, invert and add <div class="notes">
+
+14. Add source to yaml header if it is not already there.
+
 
 
 ### List of files completed
@@ -47,25 +55,37 @@ and remove everything except the header.
 3. overfit-models.md, http://www.pmean.com/03/overfit.html
 4. bar-pie-charts.md, http://www.pmean.com/03/barpie.html
 5. cluster-sample-size.md, http://www.pmean.com/03/cluster.html
+6. building-complex-models.md, http://www.pmean.com/03/complex.html
+7. cmh-consulting.md, http://www.pmean.com/03/consulting.html
 
 ### List of files partially completed
 
-+ building-complex-models.md, http://www.pmean.com/03/complex.html
-+ cmh-consulting.md, http://www.pmean.com/03/consulting.html
-+ data-is.md, http://www.pmean.com/03/data_is,html
-+ data-mining-steps.md, http://www.pmean.com/03/datamining.html
-+  introduction-diagnostic-tests.md, http://www.pmean.com/03/diagnostic.html
-+ equivalence-testing-steps.md, http://www.pmean.com/03/equivalence.html
-+ mean-or-median.md, http://www.pmean.com/03/mean-or-median.html
-+ maximumm-likelihood.md, http://www.pmean.com/03/mle.html
-+ nonlinear-growth.md, http://www.pmean.com/03/nonlinear_growth.html
-+ spss-poisson-regression.md, http://www.pmean.com/03/pois_syntax.html
-+ coding-race-ethnicity.md, http://www.pmean.com/03/RaceEthnicity.md
-+ skewed-data.md, http://www.pmean.com/03/http://www.pmean.com/03/skew.html
++ 03
+  + data-is.md, http://www.pmean.com/03/data_is,html
+  + data-mining-steps.md, http://www.pmean.com/03/datamining.html
+  + introduction-diagnostic-tests.md, http://www.pmean.com/03/diagnostic.html
+  + equivalence-testing-steps.md, http://www.pmean.com/03/equivalence.html
+  + mean-or-median.md, http://www.pmean.com/03/mean-or-median.html
+  + maximumm-likelihood.md, http://www.pmean.com/03/mle.html
+  + nonlinear-growth.md, http://www.pmean.com/03/nonlinear_growth.html
+  + spss-poisson-regression.md, http://www.pmean.com/03/pois_syntax.html
+  + coding-race-ethnicity.md, http://www.pmean.com/03/RaceEthnicity.md
+  + skewed-data.md, http://www.pmean.com/03/http://www.pmean.com/03/skew.html
+  
++ 19
+  + ai-story.md, http://blog.pmean.com/ai-story/
+  + artist.md, http://blog.pmean.com/artist/
+  + bending-the-rules.md, http://blog.pmean.com/bending-the-rules/
+  + bibliographies-in-r-markdown, http://blog.pmean.com/bibliographies-in-r-markdown/
+  + big-data-goes-to-school.md, http://blog.pmean.com/big-data-goes-to-school/
+  + biography-2019, http://blog.pmean.com/biography-2019/
+  + blow-the-whistle.md, http://blog.pmean.com/blow-the-whistle/
 
 ### List of files that need to be imported
 
 1. http://www.pmean.com/03/consent.html
+2. http://blog.pmean.com/scientific-work/
+3. http://blog.pmean.com/combination-of-some-data/
 
 
 ### List of category pages linked

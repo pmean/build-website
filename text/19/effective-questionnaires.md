@@ -1,7 +1,7 @@
 ---
 title: "Recommendation: Hints for designing effective questionnaires"
 author: "Steve Simon"
-source: "http://blog.pmean.com/effective-quesitonnaires/"
+source: "http://blog.pmean.com/effective-questionnaires/"
 date: "2019-01-14"
 categories:
 - Blog post

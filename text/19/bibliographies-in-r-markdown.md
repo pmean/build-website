@@ -12,18 +12,17 @@ tags:
 output: html_document
 ---
 
-If you want to use R Markdown to prepare research papers and
-presentations
-- you need to learn how to cite references and include a
-bibliography. This is a nice introduction and shows the variety of
-options at your fingertips.
+![](http://www.pmean.com/images/19/bibliographies-in-r-markdown01.png)
 
-<!---More--->
+<div class="notes">
 
-R Studio. Bibliographies and Citations. Available in [html
-format](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html).
+If you want to use R Markdown to prepare research papers and presentations - you need to learn how to cite references and include a bibliography. This is a nice introduction and shows the variety of options at your fingertips.
 
-![](http://www.pmean.com/images/images/19/bibliographies-in-r-markdown01.png)
+R Studio. Bibliographies and Citations. Available in [html format][rst1].
+
+[rst1]: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+
+</div>
 
 
 

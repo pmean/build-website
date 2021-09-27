@@ -10,17 +10,17 @@ tags:
 output: html_document
 ---
 
-A great teaching resource with a test bank of items to assess knowledge
-and attitudes about Statistics. There are also links to other helpful
-resources.
+![](http://www.pmean.com/images/19/artist01.png)
 
-<!---More--->
+<div class="notes">
 
-Bob delMas. Assessment Resource Tools for Improving Statistical
-Thinking. Available in [html
-format](https://apps3.cehd.umn.edu/artist/index.html).
+A great teaching resource with a test bank of items to assess knowledge and attitudes about Statistics. There are also links to other helpful resources.
 
-![](http://www.pmean.com/images/images/19/artist01.png)
+Bob delMas. Assessment Resource Tools for Improving Statistical Thinking. Available in [html format][del1].
+
+[del1]: https://apps3.cehd.umn.edu/artist/index.html
+
+</div>
 
 
 
