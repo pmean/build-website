@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Teaching precursors to data science in introductory and second courses in statistics"
+title: "Teaching precursors to data science in introductory and second courses in statistics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/precursors-to-data-science/"
 date: "2017-11-15"

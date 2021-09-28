@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Statistical and Machine Learning forecasting methods: Concerns and ways forward"
+title: "Statistical and Machine Learning forecasting methods: Concerns and ways forward"
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning-comparison/"
 date: "2018-04-03"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Why Coincidences, Miracles And Rare Events Happen Every Day."
+title: "Why Coincidences, Miracles And Rare Events Happen Every Day."
 author: "Steve Simon"
 source: "http://blog.pmean.com/why-coincidences-happen/"
 date: "2014-02-20"

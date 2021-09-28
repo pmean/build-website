@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: How to write a literature review"
+title: "How to write a literature review"
 author: "Steve Simon"
 source: "http://blog.pmean.com/literature-review/"
 date: "2019-01-16"

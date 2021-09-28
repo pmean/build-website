@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: 12 things I wish I'd known before starting as a Data Scientist"
+title: "12 things I wish I'd known before starting as a Data Scientist"
 author: "Steve Simon"
 source: "http://blog.pmean.com/twelve-things/"
 date: "2019-03-06"

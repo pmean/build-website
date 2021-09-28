@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Predicting clinical trial results based on announcements of interim analyses"
+title: "Predicting clinical trial results based on announcements of interim analyses"
 author: "Steve Simon"
 source: "http://blog.pmean.com/predicting-trial-results/"
 date: "2014-04-06"

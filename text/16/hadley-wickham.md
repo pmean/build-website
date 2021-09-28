@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Hadley Wickham
+title: "Hadley Wickham
 - the Man Who Revolutionized R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/hadley-wickham/"

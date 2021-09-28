@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models"
+title: "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models"
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning-vs-logistic-regression/"
 date: "2019-03-15"

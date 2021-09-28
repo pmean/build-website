@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Meet John Gawalt, Director of the National Center for Science and Engineering Statistics"
+title: "Meet John Gawalt, Director of the National Center for Science and Engineering Statistics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/john-gawalt/"
 date: "2014-05-05"

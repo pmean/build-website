@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Imbalanced sample sizes in the Fisher Exact test"
+title: "Imbalanced sample sizes in the Fisher Exact test"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-17"

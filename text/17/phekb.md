@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: PheKB. A knowledge base for discovering phenotypes from electronic health records"
+title: "PheKB. A knowledge base for discovering phenotypes from electronic health records"
 author: "Steve Simon"
 source: "http://blog.pmean.com/phekb/"
 date: "2017-03-24"

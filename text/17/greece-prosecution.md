@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Greece's troubling prosecution of its former chief statistician"
+title: "Greece's troubling prosecution of its former chief statistician"
 author: "Steve Simon"
 source: "http://blog.pmean.com/greece-prosecution/"
 date: "2017-07-12"

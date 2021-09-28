@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Standardized Mortality Ratio"
+title: "Standardized Mortality Ratio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/smr-example/"
 date: "2018-12-11"

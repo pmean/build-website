@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Accessible R Markdown Documents"
+title: "Accessible R Markdown Documents"
 author: "Steve Simon"
 source: "http://blog.pmean.com/accessible-r-markdown/"
 date: "2018-10-23"

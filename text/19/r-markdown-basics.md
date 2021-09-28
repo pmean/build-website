@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: R Markdown Basics"
+title: "R Markdown Basics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-markdown-basics/"
 date: "2019-03-08"

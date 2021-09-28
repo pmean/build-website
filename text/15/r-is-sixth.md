@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: R number 6 in IEEE 2015 Top Programming Languages, Rising 3 Places"
+title: "R number 6 in IEEE 2015 Top Programming Languages, Rising 3 Places"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-is-sixth/"
 date: "2015-08-20"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A Framework for Program Evaluation"
+title: "A Framework for Program Evaluation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/program-evaluation/"
 date: "2019-02-14"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A crummy drop-down menu appeared to kill dozens of mothers in Texas."
+title: "A crummy drop-down menu appeared to kill dozens of mothers in Texas."
 author: "Steve Simon"
 source: "http://blog.pmean.com/maternal-mortality/"
 date: "2018-04-19"

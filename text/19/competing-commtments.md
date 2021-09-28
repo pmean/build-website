@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Competing commtments in clinical trials"
+title: "Competing commtments in clinical trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/competing-commtments/"
 date: "2019-01-25"

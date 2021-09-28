@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Is the staggeringly profitable business of scientific publishing bad for science?"
+title: "Is the staggeringly profitable business of scientific publishing bad for science?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/for-profit-journals/"
 date: "2017-07-10"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: plotrix: Various plotting functions"
+title: "plotrix: Various plotting functions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/plotrix/"
 date: "2014-02-26"

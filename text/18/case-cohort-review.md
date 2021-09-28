@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A Review of Published Analyses of Case-Cohort Studies and Recommendations for Future Reporting"
+title: "A Review of Published Analyses of Case-Cohort Studies and Recommendations for Future Reporting"
 author: "Steve Simon"
 source: "http://blog.pmean.com/case-cohort-review/"
 date: "2018-07-20"

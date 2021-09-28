@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Reporting and methodological quality of sample size calculations in cluster randomized trials could be improved: a review"
+title: "Reporting and methodological quality of sample size calculations in cluster randomized trials could be improved: a review"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cluster-randomized/"
 date: "2016-03-30"

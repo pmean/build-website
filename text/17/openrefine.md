@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: OpenRefine: A free, open source, powerful tool for working with messy data"
+title: "OpenRefine: A free, open source, powerful tool for working with messy data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/openrefine/"
 date: "2017-09-28"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The Next Billionaire: A Statistician Who Changed Medicine."
+title: "The Next Billionaire: A Statistician Who Changed Medicine."
 author: "Steve Simon"
 source: "http://blog.pmean.com/billionaire-statistician/"
 date: "2014-01-24"

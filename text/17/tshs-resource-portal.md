@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: TSHS Resource Portal"
+title: "TSHS Resource Portal"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tshs-resource-portal/"
 date: "2017-01-30"

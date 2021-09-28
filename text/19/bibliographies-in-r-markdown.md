@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Bibliographies and citations (in R Markdown)"
+title: "Bibliographies and citations (in R Markdown)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bibliographies-in-r-markdown/"
 date: "2019-04-18"

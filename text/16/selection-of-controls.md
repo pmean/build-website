@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Selection of controls in case-control studies"
+title: "Selection of controls in case-control studies"
 author: "Steve Simon"
 source: "http://blog.pmean.com/selection-of-controls/"
 date: "2016-02-29"

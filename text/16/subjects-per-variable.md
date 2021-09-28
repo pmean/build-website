@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The number of subjects per variable required in linear regression analyses"
+title: "The number of subjects per variable required in linear regression analyses"
 author: "Steve Simon"
 source: "http://blog.pmean.com/subjects-per-variable/"
 date: "2016-03-30"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Observational studies often make clinical practice recommendations"
+title: "Observational studies often make clinical practice recommendations"
 author: "Steve Simon"
 source: "http://blog.pmean.com/observational-recommendations/"
 date: "2019-01-25"

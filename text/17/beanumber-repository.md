@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: beanumber repository"
+title: "beanumber repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/beanumber-repository/"
 date: "2017-11-15"

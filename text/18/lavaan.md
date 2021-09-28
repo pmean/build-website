@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: lavaan tutorial"
+title: "lavaan tutorial"
 author: "Steve Simon"
 source: "http://blog.pmean.com/lavaan/"
 date: "2018-09-07"

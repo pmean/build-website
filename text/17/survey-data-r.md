@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Analyze Survey Data for Free"
+title: "Analyze Survey Data for Free"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-data-r/"
 date: "2017-07-12"

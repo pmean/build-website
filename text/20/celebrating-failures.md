@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Celebrating the failures of medical research using a graphic novel format"
+title: "Celebrating the failures of medical research using a graphic novel format"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-23"

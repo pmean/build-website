@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: We Have Ways To Stop Rogue Scientists. They Don't Always Work."
+title: "We Have Ways To Stop Rogue Scientists. They Don't Always Work."
 author: "Steve Simon"
 source: "http://blog.pmean.com/rogue-scientists/"
 date: "2018-12-29"

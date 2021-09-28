@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Points to consider on switching between superiority and non-inferiority"
+title: "Points to consider on switching between superiority and non-inferiority"
 author: "Steve Simon"
 source: "http://blog.pmean.com/switching-hypotheses/"
 date: "2015-12-20"

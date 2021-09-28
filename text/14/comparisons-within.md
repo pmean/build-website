@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Comparisons within randomised groups can be very misleading"
+title: "Comparisons within randomised groups can be very misleading"
 author: "Steve Simon"
 source: "http://blog.pmean.com/comparisons-within/"
 date: "2014-06-10"

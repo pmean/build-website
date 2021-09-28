@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Statistics Attitude Survey scale"
+title: "Statistics Attitude Survey scale"
 author: "Steve Simon"
 source: "http://blog.pmean.com/attitude-survey/"
 date: "2014-01-15"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: GloVe word vector embeddings"
+title: "GloVe word vector embeddings"
 author: "Steve Simon"
 source: "http://blog.pmean.com/word-vector-embeddings/"
 date: "2018-08-01"

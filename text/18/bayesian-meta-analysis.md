@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Bayesian meta-analysis of two proportions in random control trials"
+title: "Bayesian meta-analysis of two proportions in random control trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bayesian-meta-analysis/"
 date: "2018-07-05"

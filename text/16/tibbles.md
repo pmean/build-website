@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Tibbles (Tibbles are a modern take on data frames)"
+title: "Tibbles (Tibbles are a modern take on data frames)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tibbles/"
 date: "2016-08-15"

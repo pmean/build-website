@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Framingham Contribution to Cardiovascular Disease"
+title: "Framingham Contribution to Cardiovascular Disease"
 author: "Steve Simon"
 source: "http://blog.pmean.com/framingham-contribution/"
 date: "2019-01-23"

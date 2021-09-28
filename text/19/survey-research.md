@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Harvard University Program on Survey Research"
+title: "Harvard University Program on Survey Research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-research/"
 date: "2019-03-23"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Restoring invisible and abandoned trials"
+title: "Restoring invisible and abandoned trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/riat/"
 date: "2015-04-16"

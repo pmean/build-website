@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Ethical Practice in Data Mining"
+title: "Ethical Practice in Data Mining"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ethical-data-mining/"
 date: "2019-04-01"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Blind analysis: Hide results to seek the truth"
+title: "Blind analysis: Hide results to seek the truth"
 author: "Steve Simon"
 source: "http://blog.pmean.com/triple-blind/"
 date: "2017-04-11"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The riddle of experience vs. memory"
+title: "The riddle of experience vs. memory"
 author: "Steve Simon"
 source: "http://blog.pmean.com/experience-vs-memory/"
 date: "2013-12-02"

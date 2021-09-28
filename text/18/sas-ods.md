@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Getting Started with the SAS 9.4 Output Delivery System"
+title: "Getting Started with the SAS 9.4 Output Delivery System"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sas-ods/"
 date: "2018-03-23"

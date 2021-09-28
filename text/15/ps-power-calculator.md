@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: PS: Power and Sample Size Calculation"
+title: "PS: Power and Sample Size Calculation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ps-power-calculator/"
 date: "2015-09-24"

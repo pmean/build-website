@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Separating Unique and Duplicated Observations Using PROC SORT in SAS 9.3 and Newer Versions"
+title: "Separating Unique and Duplicated Observations Using PROC SORT in SAS 9.3 and Newer Versions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/separating-unique/"
 date: "2019-04-18"

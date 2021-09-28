@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Comparison of Logistic Regression versus Propensity Score When the Number of Events Is Low and There Are Multiple Confounders"
+title: "Comparison of Logistic Regression versus Propensity Score When the Number of Events Is Low and There Are Multiple Confounders"
 author: "Steve Simon"
 source: "http://blog.pmean.com/propensity-monte-carlo/"
 date: "2013-12-20"

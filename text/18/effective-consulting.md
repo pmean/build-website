@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: How to be more effective in your professional life"
+title: "How to be more effective in your professional life"
 author: "Steve Simon"
 source: "http://blog.pmean.com/effective-consulting/"
 date: "2018-07-10"

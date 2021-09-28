@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: ProbOnto"
+title: "ProbOnto"
 author: "Steve Simon"
 source: "http://blog.pmean.com/probonto/"
 date: "2017-06-12"

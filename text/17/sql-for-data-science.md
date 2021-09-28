@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Intro to SQL for Data Science"
+title: "Intro to SQL for Data Science"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sql-for-data-science/"
 date: "2017-11-15"

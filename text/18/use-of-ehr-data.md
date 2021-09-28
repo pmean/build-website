@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Use of Electronic Health Record Data in Clinical Investigations"
+title: "Use of Electronic Health Record Data in Clinical Investigations"
 author: "Steve Simon"
 source: "http://blog.pmean.com/use-of-ehr-data/"
 date: "2018-07-23"

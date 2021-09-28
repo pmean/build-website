@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: What I need from statisticians"
+title: "What I need from statisticians"
 author: "Steve Simon"
 source: "http://blog.pmean.com/silver-interview/"
 date: "2016-09-01"

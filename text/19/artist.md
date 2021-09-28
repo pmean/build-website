@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Assessment Resource Tools for Improving Statistical Thinking"
+title: "Assessment Resource Tools for Improving Statistical Thinking"
 author: "Steve Simon"
 source: "http://blog.pmean.com/artist/"
 date: "2019-05-02"

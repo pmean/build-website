@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Dogs vs cats. Create an algorithm to distinguish dogs from cats"
+title: "Dogs vs cats. Create an algorithm to distinguish dogs from cats"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dogs-vs-cats/"
 date: "2018-04-19"

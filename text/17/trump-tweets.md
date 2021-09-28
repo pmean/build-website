@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Trump's Android and iPhone tweets
+title: "Trump's Android and iPhone tweets
 - one year later"
 author: "Steve Simon"
 source: "http://blog.pmean.com/trump-tweets/"

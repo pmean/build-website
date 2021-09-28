@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Tessera. Open source environment for deep analysis of large complex data"
+title: "Tessera. Open source environment for deep analysis of large complex data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tessera/"
 date: "2015-01-12"

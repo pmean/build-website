@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Data visualizaiton as art"
+title: "Data visualizaiton as art"
 author: "Steve Simon"
 source: "New"
 date: "2020-02-04"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Meet Charles J. Rothwell, Director, National Center for Health Statistics"
+title: "Meet Charles J. Rothwell, Director, National Center for Health Statistics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/meet-rothwell/"
 date: "2014-03-05"

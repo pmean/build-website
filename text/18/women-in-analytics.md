@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A sampling of outstanding women in analytics"
+title: "A sampling of outstanding women in analytics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/women-in-analytics/"
 date: "2018-02-28"

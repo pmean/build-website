@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Text Mining with R"
+title: "Text Mining with R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/text-mining-with-r/"
 date: "2017-02-23"

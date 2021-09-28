@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The FAIR Guiding Principles for scientific data management and stewardship"
+title: "The FAIR Guiding Principles for scientific data management and stewardship"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fair-principles/"
 date: "2016-08-25"

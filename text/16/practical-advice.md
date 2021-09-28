@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Practical advice for analysis of large, complex data sets"
+title: "Practical advice for analysis of large, complex data sets"
 author: "Steve Simon"
 source: "http://blog.pmean.com/practical-advice/"
 date: "2016-11-10"

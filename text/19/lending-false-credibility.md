@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Data Science Has Become About Lending False Credibility To Decisions We've Already Made"
+title: "Data Science Has Become About Lending False Credibility To Decisions We've Already Made"
 author: "Steve Simon"
 source: "http://blog.pmean.com/lending-false-credibility/"
 date: "2019-03-25"

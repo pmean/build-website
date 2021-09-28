@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Should you blow the whistle?"
+title: "Should you blow the whistle?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/blow-the-whistle/"
 date: "2019-01-25"

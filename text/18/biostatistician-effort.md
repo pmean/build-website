@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Guidelines for estimating biostatistician effort and resources on grants"
+title: "Guidelines for estimating biostatistician effort and resources on grants"
 author: "Steve Simon"
 source: "http://blog.pmean.com/biostatistician-effort/"
 date: "2018-04-03"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Definitions of Criteria and Considerations for Research Project Grant Critiques"
+title: "Definitions of Criteria and Considerations for Research Project Grant Critiques"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nih-criteria/"
 date: "2018-04-11"

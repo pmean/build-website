@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Python bindings for MPI"
+title: "Python bindings for MPI"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mpi4py/"
 date: "2018-09-04"

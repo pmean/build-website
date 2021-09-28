@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Bayesian computing with INLA"
+title: "Bayesian computing with INLA"
 author: "Steve Simon"
 source: "http://blog.pmean.com/inla/"
 date: "2016-04-28"

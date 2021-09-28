@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Institute for Digital Research and Education - Statistical Computing"
+title: "Institute for Digital Research and Education - Statistical Computing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/idre/"
 date: "2016-06-24"

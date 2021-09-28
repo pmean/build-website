@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Troubleshooting Public Data Archiving: Suggestions to Increase Participation"
+title: "Troubleshooting Public Data Archiving: Suggestions to Increase Participation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/archiving/"
 date: "2014-02-03"

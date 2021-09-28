@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Enrichment design studies should enhance signals of effectiveness."
+title: "Enrichment design studies should enhance signals of effectiveness."
 author: "Steve Simon"
 source: "http://blog.pmean.com/enrichment-designs/"
 date: "2016-08-03"

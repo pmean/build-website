@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Making it easier to discover data sets"
+title: "Making it easier to discover data sets"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dataset-search/"
 date: "2018-09-14"

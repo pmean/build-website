@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Databases using R"
+title: "Databases using R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/databases-using-r/"
 date: "2017-11-15"

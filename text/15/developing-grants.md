@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Developing Grant Proposals: Guidelines for Statisticians Collaborating Under Limited Resources"
+title: "Developing Grant Proposals: Guidelines for Statisticians Collaborating Under Limited Resources"
 author: "Steve Simon"
 source: "http://blog.pmean.com/developing-grants/"
 date: "2015-05-26"

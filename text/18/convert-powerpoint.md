@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Convert PowerPoint Slides to xaringan (remark.js) Slides"
+title: "Convert PowerPoint Slides to xaringan (remark.js) Slides"
 author: "Steve Simon"
 source: "http://blog.pmean.com/convert-powerpoint/"
 date: "2018-12-30"

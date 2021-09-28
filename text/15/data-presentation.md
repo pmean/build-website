@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm"
+title: "Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-presentation/"
 date: "2015-04-30"

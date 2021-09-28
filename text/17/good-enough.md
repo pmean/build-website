@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Good enough practices in scientific computing"
+title: "Good enough practices in scientific computing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/good-enough/"
 date: "2017-09-05"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: What Teachers Should Know about the Bootstrap: Resampling in the Undergraduate Statistics Curriculum"
+title: "What Teachers Should Know about the Bootstrap: Resampling in the Undergraduate Statistics Curriculum"
 author: "Steve Simon"
 source: "http://blog.pmean.com/teaching-bootstrap/"
 date: "2014-11-24"

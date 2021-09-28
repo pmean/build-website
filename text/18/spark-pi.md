@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: 1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3 Model Bs"
+title: "1.1 Billion Taxi Rides with Spark 2.2 & 3 Raspberry Pi 3 Model Bs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/spark-pi/"
 date: "2018-10-23"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: PROC-X.com. An online (unofficial) SAS journal -- written by bloggers"
+title: "PROC-X.com. An online (unofficial) SAS journal -- written by bloggers"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sas-blog/"
 date: "2019-05-10"

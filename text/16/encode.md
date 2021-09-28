@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: ENCODE: Encyclopedia of DNA Elements"
+title: "ENCODE: Encyclopedia of DNA Elements"
 author: "Steve Simon"
 source: "http://blog.pmean.com/encode/"
 date: "2016-01-19"

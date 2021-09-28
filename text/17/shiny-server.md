@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Launch a Shiny App on Your Own Server in 4 Steps"
+title: "Launch a Shiny App on Your Own Server in 4 Steps"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shiny-server/"
 date: "2017-04-10"

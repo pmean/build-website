@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: MPI Tutorial Introduction"
+title: "MPI Tutorial Introduction"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mpi-tutorial/"
 date: "2018-08-31"

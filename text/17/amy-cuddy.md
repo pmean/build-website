@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: When the revolution came for Amy Cuddy"
+title: "When the revolution came for Amy Cuddy"
 author: "Steve Simon"
 source: "http://blog.pmean.com/amy-cuddy/"
 date: "2017-10-19"

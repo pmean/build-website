@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Leaflet
+title: "Leaflet
 - an open source Javascript library for mobile-friendly interactive maps"
 author: "Steve Simon"
 source: "http://blog.pmean.com/leaflet/"

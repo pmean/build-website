@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: PLOS ONE 2015 Reviewer Thank You"
+title: "PLOS ONE 2015 Reviewer Thank You"
 author: "Steve Simon"
 source: "http://blog.pmean.com/plos-one-2015/"
 date: "2016-03-08"

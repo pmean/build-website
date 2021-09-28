@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Create Awesome HTML Table with knitr::kable and kableExtra"
+title: "Create Awesome HTML Table with knitr::kable and kableExtra"
 author: "Steve Simon"
 source: "http://blog.pmean.com/kableextra/"
 date: "2019-02-09"

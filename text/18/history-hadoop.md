@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The history of Hadoop"
+title: "The history of Hadoop"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-hadoop/"
 date: "2018-02-24"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Editorial (Basic and Applied Social Psychology)"
+title: "Editorial (Basic and Applied Social Psychology)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/basp-editorial/"
 date: "2015-02-24"

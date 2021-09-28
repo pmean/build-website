@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Differences between information in registries and articles did not influence publication acceptance"
+title: "Differences between information in registries and articles did not influence publication acceptance"
 author: "Steve Simon"
 source: "http://blog.pmean.com/registry-differences/"
 date: "2015-12-07"

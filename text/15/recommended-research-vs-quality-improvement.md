@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Research vs Quality Improvement"
+title: "Research vs Quality Improvement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/recommended-research-vs-quality-improvement/"
 date: "2015-09-16"

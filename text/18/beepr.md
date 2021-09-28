@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: beepr: easily play notification sounds on any platform"
+title: "beepr: easily play notification sounds on any platform"
 author: "Steve Simon"
 source: "http://blog.pmean.com/beepr/"
 date: "2018-05-13"

@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Printing R Markdown output to png files"
+title: "Printing R Markdown output to png files"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-29"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Standards and guidelines for the interpretation of sequence variants"
+title: "Standards and guidelines for the interpretation of sequence variants"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sequence-variants/"
 date: "2017-04-13"

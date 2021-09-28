@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A guide to the line style arguments for R graphics"
+title: "A guide to the line style arguments for R graphics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/line-style-r/"
 date: "2014-02-25"

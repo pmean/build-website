@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The Survey Statistician"
+title: "The Survey Statistician"
 author: "Steve Simon"
 source: "http://blog.pmean.com/the-survey-statistician/"
 date: "2016-02-03"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Large randomized controlled trials are ready for retirement"
+title: "Large randomized controlled trials are ready for retirement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/large-rcts/"
 date: "2014-01-17"

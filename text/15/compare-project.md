@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The COMPare Project"
+title: "The COMPare Project"
 author: "Steve Simon"
 source: "http://blog.pmean.com/compare-project/"
 date: "2015-12-07"

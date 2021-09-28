@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Use of Electronic Health Record Data in Clinical Investigations. Guidance for Industry"
+title: "Use of Electronic Health Record Data in Clinical Investigations. Guidance for Industry"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ehr-fda-guidance/"
 date: "2018-09-13"

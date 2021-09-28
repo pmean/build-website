@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Hi
+title: "Hi
 - I'm Mike Bostock."
 author: "Steve Simon"
 source: "http://blog.pmean.com/mike-bostock/"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Why randomized controlled trials fail but needn't: 2. Failure to employ physiological statistics, or the only formula a clinician-trialist is ever likely to need (or understand!)"
+title: "Why randomized controlled trials fail but needn't: 2. Failure to employ physiological statistics, or the only formula a clinician-trialist is ever likely to need (or understand!)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/physiological-statistics/"
 date: "2014-02-10"

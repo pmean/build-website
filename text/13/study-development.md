@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Study Development (Kansas City area resource)"
+title: "Study Development (Kansas City area resource)"
 author: "Steve Simon"
 source: "http://blog.pmean.com/study-development/"
 date: "2013-12-12"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: How to increase value and reduce waste when research priorities are set"
+title: "How to increase value and reduce waste when research priorities are set"
 author: "Steve Simon"
 source: "http://blog.pmean.com/research-waste/"
 date: "2017-09-25"

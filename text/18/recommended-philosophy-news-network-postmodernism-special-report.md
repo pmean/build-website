@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Philosophy News Network: Postmodernism Special Report"
+title: "Philosophy News Network: Postmodernism Special Report"
 author: "Steve Simon"
 source: "http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/"
 date: "2018-01-02"

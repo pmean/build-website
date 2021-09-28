@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: How confidence intervals become confusion intervals."
+title: "How confidence intervals become confusion intervals."
 author: "Steve Simon"
 source: "http://blog.pmean.com/confusion-intervals/"
 date: "2013-12-03"

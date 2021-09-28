@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Git can facilitate greater reproducibility and increased transparency in science"
+title: "Git can facilitate greater reproducibility and increased transparency in science"
 author: "Steve Simon"
 source: "http://blog.pmean.com/git/"
 date: "2014-01-13"

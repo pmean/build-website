@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Defining Urban and Rural Areas in U.S. Epidemiologic Studies"
+title: "Defining Urban and Rural Areas in U.S. Epidemiologic Studies"
 author: "Steve Simon"
 source: "http://blog.pmean.com/defining-urban/"
 date: "2016-12-02"

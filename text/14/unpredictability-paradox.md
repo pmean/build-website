@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: In search of justification for the unpredictability paradox"
+title: "In search of justification for the unpredictability paradox"
 author: "Steve Simon"
 source: "http://blog.pmean.com/unpredictability-paradox/"
 date: "2014-12-11"

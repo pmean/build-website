@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Writing a discussion section: how to integrate substantive and statistical expertise"
+title: "Writing a discussion section: how to integrate substantive and statistical expertise"
 author: "Steve Simon"
 source: "http://blog.pmean.com/discussion-section/"
 date: "2019-04-16"

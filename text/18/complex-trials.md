@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Complex Innovative Trial Designs Pilot Program"
+title: "Complex Innovative Trial Designs Pilot Program"
 author: "Steve Simon"
 source: "http://blog.pmean.com/complex-trials/"
 date: "2018-09-13"

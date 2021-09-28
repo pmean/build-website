@@ -1,5 +1,5 @@
 ---
-title: "Blog post: An example of a poor color choice"
+title: "An example of a poor color choice"
 author: "Steve Simon"
 source: "New"
 date: "2020-03-11"

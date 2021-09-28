@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Dryad Digital Repository"
+title: "Dryad Digital Repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dryad/"
 date: "2017-08-16"

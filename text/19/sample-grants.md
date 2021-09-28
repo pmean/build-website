@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Sample applications and more"
+title: "Sample applications and more"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sample-grants/"
 date: "2019-01-25"

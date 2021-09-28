@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD Statement"
+title: "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD Statement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tripod-statement/"
 date: "2015-01-08"

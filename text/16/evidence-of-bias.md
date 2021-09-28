@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The Empirical Evidence of Bias in Trials Measuring Treatment Differences"
+title: "The Empirical Evidence of Bias in Trials Measuring Treatment Differences"
 author: "Steve Simon"
 source: "http://blog.pmean.com/evidence-of-bias/"
 date: "2016-01-25"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Congratulations on the Promotion. But Did Science Get a Demotion?"
+title: "Congratulations on the Promotion. But Did Science Get a Demotion?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nonfinancial-conflicts/"
 date: "2018-12-31"

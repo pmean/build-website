@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Evaluation Methods in Biomedical Informatics"
+title: "Evaluation Methods in Biomedical Informatics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/evaluation-methods/"
 date: "2018-03-29"

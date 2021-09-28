@@ -10,12 +10,10 @@ tags:
 output: html_document
 ---
 
-"The most challenging thing in the world is not to learn fancy
-technologies, but control your own wild heart." Yihui Xie, as quoted in
-[Appendix C](https://bookdown.org/yihui/bookdown/faq.html) of Authoring
-Books wtih R Markdown.
+"The most challenging thing in the world is not to learn fancy technologies, but control your own wild heart." Yihui Xie, as quoted in [Appendix C][xie1] of Authoring Books wtih R Markdown.
 
 <!---more--->
 
+[xie1]: https://bookdown.org/yihui/bookdown/faq.html
 
 

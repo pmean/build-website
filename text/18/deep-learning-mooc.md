@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Practical deep learning for coders"
+title: "Practical deep learning for coders"
 author: "Steve Simon"
 source: "http://blog.pmean.com/deep-learning-mooc/"
 date: "2018-08-01"

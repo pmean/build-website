@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: New R Package: cdcfluview"
+title: "New R Package: cdcfluview"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cdcfluview/"
 date: "2015-02-03"

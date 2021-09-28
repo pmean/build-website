@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Where Do You Run Your R Scripts?"
+title: "Where Do You Run Your R Scripts?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-and-sqlserver/"
 date: "2016-10-20"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Data science curriculum roadmap"
+title: "Data science curriculum roadmap"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-science-curriculum/"
 date: "2019-04-25"

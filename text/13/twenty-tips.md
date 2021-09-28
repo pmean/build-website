@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Twenty tips for interpreting scientific claims"
+title: "Twenty tips for interpreting scientific claims"
 author: "Steve Simon"
 source: "http://blog.pmean.com/twenty-tips/"
 date: "2013-11-27"

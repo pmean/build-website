@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: How Bright Promise in Cancer Testing Fell Apart"
+title: "How Bright Promise in Cancer Testing Fell Apart"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cancer-testing/"
 date: "2017-04-13"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Call R from SPSS"
+title: "Call R from SPSS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-within-spss/"
 date: "2018-09-23"

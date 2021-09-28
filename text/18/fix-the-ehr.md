@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: To combat physician burnout and improve care, fix the electronic health record"
+title: "To combat physician burnout and improve care, fix the electronic health record"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fix-the-ehr/"
 date: "2018-04-01"

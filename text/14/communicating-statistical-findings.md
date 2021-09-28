@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Communicating Statistical Findings to Consulting Clients Operating in a Decisionmaking Climate: Best and Worst Practices"
+title: "Communicating Statistical Findings to Consulting Clients Operating in a Decisionmaking Climate: Best and Worst Practices"
 author: "Steve Simon"
 source: "http://blog.pmean.com/communicating-statistical-findings/"
 date: "2014-08-19"

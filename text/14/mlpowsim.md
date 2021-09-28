@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: MLPowSim software"
+title: "MLPowSim software"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mlpowsim/"
 date: "2014-06-16"

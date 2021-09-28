@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Proving the null hypothesis in clinical trials"
+title: "Proving the null hypothesis in clinical trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/proving-null/"
 date: "2017-04-27"

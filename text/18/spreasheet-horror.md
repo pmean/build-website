@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: EuSpRIG horror stories."
+title: "EuSpRIG horror stories."
 author: "Steve Simon"
 source: "http://blog.pmean.com/spreasheet-horror/"
 date: "2018-04-03"

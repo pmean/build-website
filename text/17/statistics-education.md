@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Guidelines for Assessment and Instruction in Statistics Education College Report 2016"
+title: "Guidelines for Assessment and Instruction in Statistics Education College Report 2016"
 author: "Steve Simon"
 source: "http://blog.pmean.com/statistics-education/"
 date: "2017-01-24"

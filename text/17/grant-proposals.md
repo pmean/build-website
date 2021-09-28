@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Statistical Issues Seen in Non-Statistics Proposals"
+title: "Statistical Issues Seen in Non-Statistics Proposals"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grant-proposals/"
 date: "2017-01-24"

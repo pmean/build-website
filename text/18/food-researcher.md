@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A top Cornell food researcher has had 13 studies retracted. That's a lot."
+title: "A top Cornell food researcher has had 13 studies retracted. That's a lot."
 author: "Steve Simon"
 source: "http://blog.pmean.com/food-researcher/"
 date: "2018-09-24"

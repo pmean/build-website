@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Safeguarding Patients in Clinical Trials with High Mortality Rates"
+title: "Safeguarding Patients in Clinical Trials with High Mortality Rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/safeguarding/"
 date: "2015-12-02"

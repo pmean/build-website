@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Lyndon B. Johnson Space Center job opening for a GS-14 Statistician"
+title: "Lyndon B. Johnson Space Center job opening for a GS-14 Statistician"
 author: "Steve Simon"
 source: "http://blog.pmean.com/space-center/"
 date: "2016-01-13"

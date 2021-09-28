@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Interpretation of Changes in Health-related Quality of Life: The Remarkable Universality of Half a Standard Deviation"
+title: "Interpretation of Changes in Health-related Quality of Life: The Remarkable Universality of Half a Standard Deviation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/effect-size/"
 date: "2016-04-18"

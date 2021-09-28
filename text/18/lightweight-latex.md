@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: TinyTeX: A lightweight
+title: "TinyTeX: A lightweight
 - cross-platform
 - portable
 - and easy-to-maintain LaTeX distribution based on TeX Live"

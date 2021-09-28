@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Welcome to developerWorks"
+title: "Welcome to developerWorks"
 author: "Steve Simon"
 source: "http://blog.pmean.com/developer-works/"
 date: "2018-03-23"

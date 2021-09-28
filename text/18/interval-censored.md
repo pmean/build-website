@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Interval censored data analysis"
+title: "Interval censored data analysis"
 author: "Steve Simon"
 source: "http://blog.pmean.com/interval-censored/"
 date: "2018-05-21"

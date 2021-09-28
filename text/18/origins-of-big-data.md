@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The Origins of 'Big Data'"
+title: "The Origins of 'Big Data'"
 author: "Steve Simon"
 source: "http://blog.pmean.com/origins-of-big-data/"
 date: "2018-01-02"

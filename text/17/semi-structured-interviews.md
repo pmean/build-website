@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Designing and conducting semi-structured interviews for research"
+title: "Designing and conducting semi-structured interviews for research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/semi-structured-interviews/"
 date: "2017-12-27"

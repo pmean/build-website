@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Adherence to Methodological Standards in Research Using the National Inpatient Sample"
+title: "Adherence to Methodological Standards in Research Using the National Inpatient Sample"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nis-standards/"
 date: "2018-02-20"

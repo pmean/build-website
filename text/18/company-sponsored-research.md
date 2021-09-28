@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Good Publication Practice for Communicating Company-Sponsored Medical Research: GPP3"
+title: "Good Publication Practice for Communicating Company-Sponsored Medical Research: GPP3"
 author: "Steve Simon"
 source: "http://blog.pmean.com/company-sponsored-research/"
 date: "2018-03-27"

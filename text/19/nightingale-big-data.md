@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: What would Florence Nightingale make of big data?"
+title: "What would Florence Nightingale make of big data?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nightingale-big-data/"
 date: "2019-04-17"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Dr. Russell Waitman. Innovation: Breaking the Barriers on Medical Information"
+title: "Dr. Russell Waitman. Innovation: Breaking the Barriers on Medical Information"
 author: "Steve Simon"
 source: "http://blog.pmean.com/russell-waitman/"
 date: "2019-02-12"

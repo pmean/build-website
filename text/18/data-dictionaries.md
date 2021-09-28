@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Data dictionaries"
+title: "Data dictionaries"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-dictionaries/"
 date: "2018-02-24"

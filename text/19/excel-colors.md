@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: When life gives you coloured cells, make categories"
+title: "When life gives you coloured cells, make categories"
 author: "Steve Simon"
 source: "http://blog.pmean.com/excel-colors/"
 date: "2019-04-03"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: HEDIS and Performance Measurement"
+title: "HEDIS and Performance Measurement"
 author: "Steve Simon"
 source: "http://blog.pmean.com/hedis/"
 date: "2019-02-04"

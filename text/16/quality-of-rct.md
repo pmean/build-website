@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Published methodological quality of randomized controlled trials does not reflect the actual quality assessed in protocols"
+title: "Published methodological quality of randomized controlled trials does not reflect the actual quality assessed in protocols"
 author: "Steve Simon"
 source: "http://blog.pmean.com/quality-of-rct/"
 date: "2016-09-28"

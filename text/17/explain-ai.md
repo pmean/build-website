@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Can A.I. be taught to explain itself"
+title: "Can A.I. be taught to explain itself"
 author: "Steve Simon"
 source: "http://blog.pmean.com/explain-ai/"
 date: "2017-11-27"

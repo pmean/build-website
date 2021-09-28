@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Quality Improvement in Healthcare"
+title: "Quality Improvement in Healthcare"
 author: "Steve Simon"
 source: "http://blog.pmean.com/qi-video/"
 date: "2019-02-14"

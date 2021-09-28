@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: A Tutorial on Loops in R"
+title: "A Tutorial on Loops in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/loops-in-r/"
 date: "2016-10-20"

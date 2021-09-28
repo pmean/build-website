@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Report on Survey Participation Refusals"
+title: "Report on Survey Participation Refusals"
 author: "Steve Simon"
 source: "http://blog.pmean.com/survey-refusals/"
 date: "2014-12-23"

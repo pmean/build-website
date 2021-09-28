@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Installing R and Python in Anaconda for Biologists"
+title: "Installing R and Python in Anaconda for Biologists"
 author: "Steve Simon"
 source: "http://blog.pmean.com/anaconda/"
 date: "2018-11-08"

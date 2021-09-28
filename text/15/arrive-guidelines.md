@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research"
+title: "Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/arrive-guidelines/"
 date: "2015-04-30"

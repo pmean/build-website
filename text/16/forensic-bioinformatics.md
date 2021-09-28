@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: The Importance of Reproducible Research in High-Throughput Biology"
+title: "The Importance of Reproducible Research in High-Throughput Biology"
 author: "Steve Simon"
 source: "http://blog.pmean.com/forensic-bioinformatics/"
 date: "2016-08-03"

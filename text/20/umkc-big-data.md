@@ -1,5 +1,5 @@
 ---
-title: "Blog post: UMKC big data and data science initiatives"
+title: "UMKC big data and data science initiatives"
 author: "Steve Simon"
 source: "New"
 date: "2020-03-10"

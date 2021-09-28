@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Announcing a new monthly feature: What's going on in this graph"
+title: "Announcing a new monthly feature: What's going on in this graph"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nytimes-graph/"
 date: "2017-09-14"

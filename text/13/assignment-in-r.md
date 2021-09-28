@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Use equal sign for assignmentin R?"
+title: "Use equal sign for assignmentin R?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/assignment-in-r/"
 date: "2013-12-09"

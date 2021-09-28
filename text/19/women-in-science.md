@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Making women in science visible"
+title: "Making women in science visible"
 author: "Steve Simon"
 source: "http://blog.pmean.com/women-in-science/"
 date: "2019-01-09"

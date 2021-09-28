@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Data collection in a research methods class"
+title: "Data collection in a research methods class"
 author: "Steve Simon"
 source: "New"
 date: "2020-02-04"

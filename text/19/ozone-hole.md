@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: NOVA, A Hole in the Sky"
+title: "NOVA, A Hole in the Sky"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ozone-hole/"
 date: "2019-02-13"

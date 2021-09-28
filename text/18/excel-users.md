@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: 9 Reasons Excel Users Should Consider Learning Programming"
+title: "9 Reasons Excel Users Should Consider Learning Programming"
 author: "Steve Simon"
 source: "http://blog.pmean.com/excel-users/"
 date: "2018-12-29"

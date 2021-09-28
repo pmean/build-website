@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: This is your machine learning system?"
+title: "This is your machine learning system?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/machine-learning/"
 date: "2017-05-18"

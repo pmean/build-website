@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: NOOBS -- Raspberry Pi documentation"
+title: "NOOBS -- Raspberry Pi documentation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/noobs-installation/"
 date: "2018-08-15"

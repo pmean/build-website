@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Why be an independent consultant?"
+title: "Why be an independent consultant?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/why-independent/"
 date: "2017-04-04"

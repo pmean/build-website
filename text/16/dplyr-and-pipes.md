@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: dplyr and pipes: the basics"
+title: "dplyr and pipes: the basics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dplyr-and-pipes/"
 date: "2016-08-07"

@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Identifying and manipulating non-breaking spaces"
+title: "Identifying and manipulating non-breaking spaces"
 author: "Steve Simon"
 source: "New"
 date: "2020-01-07"

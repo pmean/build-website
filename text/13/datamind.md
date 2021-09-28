@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: DataMind website"
+title: "DataMind website"
 author: "Steve Simon"
 source: "http://blog.pmean.com/datamind/"
 date: "2013-12-12"

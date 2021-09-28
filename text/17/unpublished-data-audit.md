@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Search for unpublished data by systematic reviewers: an audit"
+title: "Search for unpublished data by systematic reviewers: an audit"
 author: "Steve Simon"
 source: "http://blog.pmean.com/unpublished-data-audit/"
 date: "2017-10-17"

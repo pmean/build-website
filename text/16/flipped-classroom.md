@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Diverse Perspectives on a Flipped Biostatistics Classroom"
+title: "Diverse Perspectives on a Flipped Biostatistics Classroom"
 author: "Steve Simon"
 source: "http://blog.pmean.com/flipped-classroom/"
 date: "2016-09-06"

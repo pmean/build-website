@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Requiring fuel gauges. A pitch for justifying impact evaluation sample size assumptions"
+title: "Requiring fuel gauges. A pitch for justifying impact evaluation sample size assumptions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/justifying-assumptions/"
 date: "2014-12-10"

@@ -1,5 +1,5 @@
 ---
-title: "Blog post: Smart quotes, em dashes, and en dashes"
+title: "Smart quotes, em dashes, and en dashes"
 author: "Steve Simon"
 source: "New"
 date: "2020-03-02"

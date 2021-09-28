@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Oracle Dates and Times"
+title: "Oracle Dates and Times"
 author: "Steve Simon"
 source: "http://blog.pmean.com/oracle-dates/"
 date: "2016-10-18"

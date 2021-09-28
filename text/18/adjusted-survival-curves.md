@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Adjusted survival curves"
+title: "Adjusted survival curves"
 author: "Steve Simon"
 source: "http://blog.pmean.com/adjusted-survival-curves/"
 date: "2018-05-20"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Kaggle data"
+title: "Kaggle data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/kaggle-data/"
 date: "2017-06-19"

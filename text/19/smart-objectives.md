@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: SMART Objectives"
+title: "SMART Objectives"
 author: "Steve Simon"
 source: "http://blog.pmean.com/smart-objectives/"
 date: "2019-02-14"

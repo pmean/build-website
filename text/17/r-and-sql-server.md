@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: R and SQL Server 2016"
+title: "R and SQL Server 2016"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-and-sql-server/"
 date: "2017-02-02"

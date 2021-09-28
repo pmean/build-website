@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Case for omitting tied observations in the two-sample t-test and the Wilcoxon-Mann-Whitney Test"
+title: "Case for omitting tied observations in the two-sample t-test and the Wilcoxon-Mann-Whitney Test"
 author: "Steve Simon"
 source: "http://blog.pmean.com/tied-ranks/"
 date: "2019-04-04"

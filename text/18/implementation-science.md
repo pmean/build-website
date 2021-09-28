@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: An introduction to implementation science for the non-specialist"
+title: "An introduction to implementation science for the non-specialist"
 author: "Steve Simon"
 source: "http://blog.pmean.com/implementation-science/"
 date: "2018-02-06"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: In UC's battle with the world's largest scientific publisher, the future of information is at stake"
+title: "In UC's battle with the world's largest scientific publisher, the future of information is at stake"
 author: "Steve Simon"
 source: "http://blog.pmean.com/elsevier-vs-uc/"
 date: "2018-12-11"

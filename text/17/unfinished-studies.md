@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: One in Five Clinical Trials for Adults with Cancer Never Finish"
+title: "One in Five Clinical Trials for Adults with Cancer Never Finish"
 author: "Steve Simon"
 source: "http://blog.pmean.com/unfinished-studies/"
 date: "2017-05-05"

@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Reproducible research with Stata"
+title: "Reproducible research with Stata"
 author: "Steve Simon"
 source: "http://blog.pmean.com/reproducible-stata/"
 date: "2018-05-13"

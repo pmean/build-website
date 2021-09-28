@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Get credit for your data -- BMC Research Notes launches data notes"
+title: "Get credit for your data -- BMC Research Notes launches data notes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-notes/"
 date: "2017-10-17"

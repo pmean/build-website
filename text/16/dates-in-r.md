@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Handling date-times in R"
+title: "Handling date-times in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dates-in-r/"
 date: "2016-06-15"
