@@ -1,0 +1,179 @@
+---
+title: "Working with negative binomial regression"
+author: "Steve Simon"
+source: "New"
+date: "2021-08-30"
+categories:
+- Blog post
+tags:
+- Probability distributions
+- Generalized linear models
+output: html_document
+---
+
+The negative binomial distribution is similar to the Poisson distribution, but it offers a bit more flexibility. This page will review some basic properties of the negative binomial distribution and show how it can be incorporated into the framework of the generalized linear model.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
+
+<!---More--->
+
+### Definition of the negative binomial distribution
+
+A random variable X, defined on the set of non-negative integers (0, 1, 2, ...), is said to have a negative binomial distribution with parameters n and p (X ~ NB(n, p)) if
+
+$P[X=k]=\binom{k+n-1}{k}(1-p)^np^k$ for k=0, 1, 2, ...
+
+where $\binom{\ \ }{\ \ }$ is the binomial coefficient, defined as 
+
+$\binom{a}{b}=\frac{a!}{b!(b-a)!}$
+
+Notice the similarity to the binomial probability
+
+$P[X=k]=\binom{n}{k}(1-p)^{n-k}p^k$ for k=0, 1, 2, ..., n
+
+The binomial distribution measures the number of successes k in n independent trials, where p is the probability of success. The negative binomial distribution measures the number of trials needed until k successes are observed.
+
+The distinction is subtle, but important. There was a story on NPR a long time ago about street musicians and what songs they play. One violinist had tremendous success playing "Happy Birthday" as people walked by. Most people would ignore this, but the few who happened to have a birthday on that day would invariably smile and pitch money into the musician's hat. What's even better is that most people are in a good mood on their birthday and the musician would often see tens and twenties. The people who did not have a birthday would maybe just glare at him.
+
+If 10,000 people walked by, a binomial distribution would tell you how many gave money and how many glared. If the musician quite after getting $1,000 (assuming each birthday person contributes $10), then the negative binomial would represent the number of glares that the musician would get before accumulating a hundred Hamiltons.
+
+The only mathematical differences between the two distributions are 
+
++ $\binom{k+n-1}{k}$ versus $\binom{n}{k}$
++ $(1-p)^np^k$ versus $(1-p)^{n-k}p^k$
++ k=0, 1, 2, ... versus k=0, 1, 2, ..., n
+
+This last distinction is important. There is a firm upper bound for the binomial distribution. It is impossible to get more than n successes out of n trials. But there is no upper bound for negative binomial distribution. If you are waiting for k successes, a bad run of luck could cause this wait to become interminably long.
+
+### Mean and variance of a negative binomial distribution.
+
+$E[X]=\frac{np}{1-p}$
+
+$Var[X]= \frac{np}{(1-p)^2}$
+
+With a bit of math you can show that 
+
+$Var[X]=E[X] \left(1+\frac{E[X]}{n} \right)$
+
+Since E[X] is always positive, the variance of a negative binomial random variable is always larger than the mean.
+
+If
+
+$X_1 \sim NB(n_1, p)$ and $X_2 \sim NB(n_2, p)$ then
+
+$X_1+X_2 \sim NB(n_1+n_2, p)$
+
+### Visualization of negative binomial probabilities
+
+Here are the probabilities for various negative binomial cases where n changes, and p is held constant at 0.8.
+
+```{r bar-charts-n}
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x,  2, 0.8)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=2, p=0.8")
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x, 10, 0.8)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=10, p=0.8")
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x, 50, 0.8)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=50, p=0.8")
+```
+
+Here are the probabilities for various negative binomial cases where n changes, and p is held constant at 0.8.
+
+```{r bar-charts-p}
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x,  2, 0.8)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=2, p=0.8")
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x, 2, 0.5)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=2, p=0.5")
+data.frame(x=0:25) %>%
+  mutate(p=dnbinom(x, 2, 0.2)) %>%
+  ggplot(aes(x,p)) +
+    geom_col() +
+    expand_limits(y=1) +
+    ggtitle("Poisson probabilities with n=2, p=0.2")
+```
+
+### Is the negative binomial distribution part of the exponential family?
+
+Yes and no. Remember the definition
+
+$ln(f(y; \theta))=d(\theta)e(y)+g(\theta)+h(y)$
+
+Where $\theta$ is the unknow parameter. For the negative binomial distribution,
+
+$ln(f(y; n, p))=ln((y+n-1)!) - ln((n-1)!) -ln(y!) + n ln(1-p) + y ln(p)$
+
+The very first term is a function of y and n that cannot be factored into function of only y times a function of only n. So if n is a known value, the negative binomial is part of the exponential family. In most practical settings, however, n is an unknown parameter along with p. 
+
+This means that you can't use the glm function in R to fit a negative binomial regression. The methods of the generalized linear model have been adapted to the negative binomial case, and it is fit in R using the glm.nb function.
+
+### Comparing a Poisson regression to a negative binomial regression.
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model, the negative binomial model and several others. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual's mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
+
+```{r}
+pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
+summary(pois1)
+```
+
+
+```{r}
+library(MASS)
+nb1 <- glm.nb(art ~ fem + ment + phd + mar + kid5, data = articles)
+summary(nb1)
+```
+
+
+### References
+
+https://en.wikipedia.org/wiki/Negative_binomial_distribution
+https://www.sagepub.com/sites/default/files/upm-binaries/21121_Chapter_15.pdf
+https://data.library.virginia.edu/getting-started-with-negative-binomial-regression-modeling/
+https://stats.idre.ucla.edu/r/dae/negative-binomial-regression/
+http://www2.stat.duke.edu/~cr173/Sta444_Sp17/slides/Lec3.pdf
+https://www.jstor.org/stable/2289071
+https://towardsdatascience.com/diagnose-the-generalized-linear-models-66ad01128261
+https://cran.r-project.org/web/packages/bbmle/vignettes/quasi.pdf
+
+
+[hua1]: https://francish.netlify.app/post/poisson-and-negative-binomial-regression-using-r/
+

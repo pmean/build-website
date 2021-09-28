@@ -149,8 +149,6 @@ log_coefficients %>%
 multiplicative_coefficients
 ```
 
-```
-
 ### Analysis of rates
 
 Often the Poisson observations are observed over varying numbers of patients, varying amounts of time, or both. Here's an example. Auto insurance claims in Sweden are borken down into several subgroups, as described on [this web page][swe1]. 
@@ -164,7 +162,7 @@ Here are the variables:
   + 4: 20000-25000
   + 5: > 25000
 + Zone		Geographical zone
-  + 1: Stockholm, Göteborg, Malmö with surroundings
+  + 1: Stockholm, G?teborg, Malm? with surroundings
   + 2: Other large cities with surroundings
   + 3: Smaller cities with surroundings in southern Sweden
   + 4: Rural areas in southern Sweden
