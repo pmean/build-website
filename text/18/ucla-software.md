@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Textbook Examples Applied Survival Analysis"
+title: "Textbook Examples Applied Survival Analysis"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ucla-software/"
 date: "2018-03-24"

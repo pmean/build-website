@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Make PowerPoint Presentations with R Markdown"
+title: "Make PowerPoint Presentations with R Markdown"
 author: "Steve Simon"
 source: "http://blog.pmean.com/powerpoint-with-r-markdown/"
 date: "2018-12-05"

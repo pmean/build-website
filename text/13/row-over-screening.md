@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Row over breast cancer screening shows that scientists bring some subjectivity into their work."
+title: "Row over breast cancer screening shows that scientists bring some subjectivity into their work."
 author: "Steve Simon"
 source: "http://blog.pmean.com/row-over-screening/"
 date: "2013-11-29"

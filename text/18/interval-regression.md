@@ -1,5 +1,5 @@
 ---
-title: "Recommendation: Interval regression
+title: "Interval regression
 - R data analysis examples"
 author: "Steve Simon"
 source: "http://blog.pmean.com/interval-regression/"
