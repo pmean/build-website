@@ -1,0 +1,55 @@
+---
+title: "Reading information from the American Community Survey into R"
+source: "New"
+date: "2021-09-29"
+categories:
+- Recommendation
+tags:
+- Website details
+output: html_document
+---
+
+Here is a simple example of how to read data from the American Community Survey into R.
+
+<!---more--->
+
+The Bureau of the Census allows computerized systems to access their data. This is a great convenience for you, but raises a potential security risk for them. To provide them with a reasonable amount of protection, the Bureau requires that you sign up for a free key that you insert in your code. The key allows the Bureau to track requests to insure that you are not a robot trying to scoop up an excessive amount of data. You get a key on [this page][cen3]. Look for "Request a KEY" in the left side menu (see the first screenshot at the bottom of this page).
+
+You can embed this key so that it can be re-used at will. Use the census_api_key function in the tidycensus package.
+
+
+```{r}
+library(tidycensus)
+library(tidyverse)
+library(viridis)
+key <- Sys.getenv("CENSUS_API_KEY")
+census_api_key("11bafd82737f7d75b3305ada1e772501d0eab002")
+tarr <- get_acs(geography = "tract", variables = "B19013_001",
+state = "TX", county = "Tarrant", geometry = TRUE)
+ggplot(tarr, aes(fill = estimate, color = estimate)) +
+geom_sf() +
+coord_sf(crs = 26914) +
+scale_fill_viridis(option = "magma") +
+scale_color_viridis(option = "magma")
+```
+
+### Resources
+
+Ari Lamstein, Logan Powell. A Guide to Working with US Census Data in R. Available in [mhtml format][lam1] and at their [github site].
+
+U.S. Census Bureau, Geography and the American Community Survey: What Data Users Need to Know. Available in [pdf format][cen1].
+
+[lam1]: https://rconsortium.github.io/censusguide/r-packages-all.html
+[lam2]: https://github.com/RConsortium/censusguide
+
+[cen1]: https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_geography_handbook_2020.pdf
+
+[cen2]: https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020_ch02.pdf
+
+[cen3]: https://www.census.gov/data/developers.html
+
+### Screenshots
+
+#### Request an API key
+
+![](reading-acs-data-01.png)
