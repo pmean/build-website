@@ -20,5 +20,5 @@ Right. Available at:
 
 ```{r}
 library(knitr)
-include_graphics("../../web/images/8-tips01.png")
+# include_graphics("../../web/images/8-tips01.png")
 ```

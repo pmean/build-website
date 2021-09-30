@@ -9,6 +9,7 @@ tags:
 - Graphical display
 output: html_document
 ---
+install.packages("rnaturalearthhires", repos="http://packages.ropensci.org", type="source")
 
 I have been drawing some maps in R and was struggling to figure out how to display things with the appropriate map projections. Here is some code where I experimented with a variety of approaches.
 

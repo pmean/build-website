@@ -66,7 +66,9 @@ The extension of the filename will sometimes help. An extension of .txt is almos
 
 If you don't know if the file is in text format, try opening it in a text editor like notepad for Windows or TextEdit for the Mac. If the file refuses to open, then you know it is not in text format. If the file opens, but the result looks like gibberish, then you know it is not in text format.
 
+```{}
 ![A non-text file displayed in notepad](../../../web/images/reading-text-files01.png)
+```
 
 The above image is an example of a binary format. You can recognize a couple of words, perhaps, but most of the file is unreadable.
 
@@ -76,7 +78,9 @@ The most common binary format for data files is Microsoft Excel, and how to work
 
 Many text files will use the first line to provide a name to each variable. Here's an example.
 
+```{}
 ![Data set on movies](../../../web/images/read-text-files03.png)
+```
 
 If a dataset does not include the names of the variables in the first line, then you have to find the names in a data dictionary.
 
@@ -88,7 +92,9 @@ There are two main varieties of text formats, fixed width and delimited.
 
 In a fixed width format, the data is restricted to a specific coloumn or columns. The dataset shown above is an example of a fixed width format. When you encounter a fixed width format, you should expect to see a list of columns associated with each variable as part of the data dictionary. 
 
+```{}
 ![Data dictionary](../../../web/images/read-text-files06.png)
+```
 
 If you don't have this, then you need to count out the columns yourself, which is a very tedious job.
 
@@ -120,7 +126,9 @@ You don't need quotes around the 243 and the 75 as these pieces of data do not h
 
 The space delimited file is not that commonly used, for reasons that I've never understood, but here is an example.
 
+```{}
 ![Example of a space delimited file](../../../web/images/read-text-files02.png)
+```
 
 ### Comma delimited format
 
@@ -134,13 +142,17 @@ If there is the possibility that a comma might be found in the data itself, then
 
 Data files that use a comma delimiter often use the extension csv. This is an abbreviation of comma separated values. Here is an example of a comma delimited file.
 
+```{}
 ![Dataset showing COVID-19 deaths over time](../../../web/images/read-text-files04.png)
+```
 
 ### Tab delimited format
 
 The tab character is an unusual character in the 7-bit ASCII universe. It is a single character that causes a jump to various tab stops. For most computer systems, when they display data with tab characters, they place the tab stops are in columns 9, 17, 25, 33, etc. This is intended to produce a clean and legible spacing of variables, but there is a lot that can go wrong. Often a tab delimited format looks somewhat orderly but with some odd alignments in certain rows.
 
+```{}
 ![Dataset of revenues for selected movies](../../../web/images/read-text-files05.png)
+```
 
 ### Missing value codes
 

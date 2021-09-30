@@ -252,7 +252,7 @@ draw.ticks <- function() {
   
   segments(od8,h-2,od8,h-1)
   
-  extend odd ticks
+  # extend odd ticks
   
   segments(ev8,h-4,ev8,h-1)
   
