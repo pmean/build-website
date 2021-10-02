@@ -156,4 +156,7 @@ which, in a less cryptic format, looks like this.
 > [[PDF]](http://genomebiology.com/content/pdf/gb-2004-5-10-r80.pdf)
 
 
-You can find an [earlier version](http://www.pmean.com/02/citation.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/citation.html
+[sim2]: http://www.pmean.com/original_site.html

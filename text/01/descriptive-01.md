@@ -163,4 +163,7 @@ height="256"}
 As with delivery type, we we should be careful to adjust for mother's
 age in any comparison of the two feeding groups.
 
-You can find an [earlier version](http://www.pmean.com/01/descriptive.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/descriptive.html
+[sim2]: http://www.pmean.com/original_site.html

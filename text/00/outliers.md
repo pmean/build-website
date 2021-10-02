@@ -52,4 +52,7 @@ confirm my view, or theirs?*
 1.  **Practical Statistics for Medical Research.** Altman DG. London
     England: Chapman and Hall (1991). ISBN: 0-412-27630-5.
 
-You can find an [earlier version](http://www.pmean.com/00/outliers.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/outliers.html
+[sim2]: http://www.pmean.com/original_site.html

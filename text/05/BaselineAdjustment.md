@@ -92,4 +92,8 @@ have time)
     Dickson P, School of Nursing, The University of Texas at Austin.
     Accessed on 2003-08-28. www.nur.
 
-You can find an [earlier version](http://www.pmean.com/05/BaselineAdjustment.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/BaselineAdjustment.html
+[sim2]: http://www.pmean.com/original_site.html

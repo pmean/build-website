@@ -60,4 +60,8 @@ The nice thing about a spreadsheet is that you can play a lot of \"what
 if\" games and explore how changes in the correlation and/or the sample
 size influence the width of the confidence interval.
 
-You can find an [earlier version](http://www.pmean.com/05/CorrelationCoefficient.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/CorrelationCoefficient.html
+[sim2]: http://www.pmean.com/original_site.html

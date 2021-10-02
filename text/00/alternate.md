@@ -159,4 +159,7 @@ not the proper way to do this. Why not?*
 3.  **Randomised trials, human nature, and reporting guidelines**.
     Schulz, KF. Lancet, 348: 596-598 (1996).
 
-You can find an [earlier version](http://www.pmean.com/00/alternate.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/alternate.html
+[sim2]: http://www.pmean.com/original_site.html

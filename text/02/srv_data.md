@@ -90,4 +90,7 @@ operation might be replaced by the time that the tumor was diagnosed
 or the time when therapy ended. You might also calculate a composite
 event, such as relapse and/or death within 100 days of the operation.
 
-You can find an [earlier version](http://www.pmean.com/02/srv_data-02.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/srv_data-02.html
+[sim2]: http://www.pmean.com/original_site.html

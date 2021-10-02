@@ -37,4 +37,7 @@ sense in the context of your problem, and then see what happens to the
 interaction. Or possibly focus on just two levels that are of special
 interest to you.
 
-You can find an [earlier version](http://www.pmean.com/02/lin_int.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/lin_int.html
+[sim2]: http://www.pmean.com/original_site.html

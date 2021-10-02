@@ -46,4 +46,8 @@ listserv](http://www.lsoft.com/scripts/wl.exe?SL1=EDSTAT-L&H=LISTS.PSU.EDU)
 has had an active debate about the weaknesses of p-values and null
 hypothesis significance testing starting in late December.
 
-You can find an [earlier version](http://www.pmean.com/05/ConfusionPvalues.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/ConfusionPvalues.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -320,4 +320,7 @@ the medical journals make things clearer?*
 2.  J Clin Epidemiol. 2002 Jan;55(1):102-3. PMID: 11781128.
 3.  JAMA. 2002 Jun 5;287(21):2813-4. PMID: 12038920
 
-You can find an [earlier version](http://www.pmean.com/00/nnt.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/nnt.html
+[sim2]: http://www.pmean.com/original_site.html

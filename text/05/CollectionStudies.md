@@ -82,4 +82,8 @@ examples for the practice exercises.
     2002: 324(7336); 520-.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11872551&dopt=Abstract)
 
-You can find an [earlier version](http://www.pmean.com/05/CollectionStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/CollectionStudies.html
+[sim2]: http://www.pmean.com/original_site.html

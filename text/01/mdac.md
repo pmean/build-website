@@ -59,4 +59,7 @@ You need the driver for the application that contains the data. Since the data a
 
 + [support.microsoft.com/support/kb/articles/Q237/5/75.ASP](http://support.microsoft.com/support/kb/articles/Q237/5/75.ASP).
 
-You can find an [earlier version](http://www.pmean.com/01/mdac.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/mdac.html
+[sim2]: http://www.pmean.com/original_site.html

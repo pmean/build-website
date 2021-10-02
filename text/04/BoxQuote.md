@@ -1,5 +1,5 @@
 ---
-title: Hiring a statistician after the data has been collected ...
+title: Hiring a statistician after the data has been collected
 author: Steve Simon
 date: 2004-12-20
 categories:

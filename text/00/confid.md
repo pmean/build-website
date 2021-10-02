@@ -167,4 +167,7 @@ intervals are reasonably narrow.
 3.  **Confidence limits and sample size in quarantine research.** HM
     Couey. Forum: Journal of Economic Entomology 1986: 79(4); 887-90.
 
-You can find an [earlier version](http://www.pmean.com/00/confid.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/confid.html
+[sim2]: http://www.pmean.com/original_site.html

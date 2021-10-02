@@ -138,4 +138,7 @@ specifying whether this was a one-tailed or two-tailed test.
     261(23); 3430-3.
     [[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2724487&dopt=Abstract)
 
-You can find an [earlier version](http://www.pmean.com/00/fishers.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/fishers.html
+[sim2]: http://www.pmean.com/original_site.html

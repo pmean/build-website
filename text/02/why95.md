@@ -75,4 +75,7 @@ making such decisions.*
 > any more research. Not only might you be wasting precious research
 > dollars, but there may be serious ethical problems with your research.
 
-You can find an [earlier version](http://www.pmean.com/02/why95.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/why95.html
+[sim2]: http://www.pmean.com/original_site.html

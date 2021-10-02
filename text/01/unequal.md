@@ -31,4 +31,7 @@ sizes are not equal.
 So my recommendation is to not worry too much about group sizes that are
 not equal.
 
-You can find an [earlier version](http://www.pmean.com/01/unequal.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/unequal.html
+[sim2]: http://www.pmean.com/original_site.html

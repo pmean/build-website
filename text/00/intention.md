@@ -158,4 +158,7 @@ an assessment of the practical impact of a treatment**. There are some
 examples, however, where **intention to treat may answer a different
 question than the one you are interested in**.
 
-You can find an [earlier version](http://www.pmean.com/00/intention.html) of this page on my [original website](http://www.pmean.com/original_site.html). Intention to treat
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/intention.html
+[sim2]: http://www.pmean.com/original_site.html Intention to treat
