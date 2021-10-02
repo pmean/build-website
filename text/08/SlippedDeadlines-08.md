@@ -162,4 +162,7 @@ Only a small number of researchers provided comments about shortfalls
 or delays. The predominant reason provided was reluctance of patients
 to volunteer for the study.
 
-You can find an [earlier version](http://www.pmean.com/08/SlippedDeadlines.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/SlippedDeadlines.html
+[sim2]: http://www.pmean.com/original_site.html

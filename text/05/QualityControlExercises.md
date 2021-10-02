@@ -59,4 +59,8 @@ Some other possible ideas for quality control exercises might come from
 
 I have not had a chance to look at these four papers in detail, yet.
 
-You can find an [earlier version](http://www.pmean.com/05/QualityControlExercises.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/QualityControlExercises.html
+[sim2]: http://www.pmean.com/original_site.html

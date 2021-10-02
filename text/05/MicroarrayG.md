@@ -71,4 +71,8 @@ output: html_document
 > distributed like an exponential distribution. The normalized values
 > are estimated through the expected value of the signal distribution.
 
-You can find an [earlier version](http://www.pmean.com/05/MicroarrayG.html) of this page on my [original website](http://www.pmean.com/original_site.html). RMA normalization of microarrays
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MicroarrayG.html
+[sim2]: http://www.pmean.com/original_site.html RMA normalization of microarrays

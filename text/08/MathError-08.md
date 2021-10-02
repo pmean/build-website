@@ -27,4 +27,7 @@ output: html_document
 > actually be Fahey 1995. That\'s an eye for detail that I have to
 > admire.
 
-You can find an [earlier version](http://www.pmean.com/08/MathError.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/MathError.html
+[sim2]: http://www.pmean.com/original_site.html

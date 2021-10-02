@@ -22,4 +22,7 @@ output: html_document
 > calmer here (they are never completely calm), I will try to describe
 > this in more detail.
 
-You can find an [earlier version](http://www.pmean.com/08/AlternativePvalue.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/AlternativePvalue.html
+[sim2]: http://www.pmean.com/original_site.html

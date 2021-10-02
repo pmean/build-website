@@ -67,4 +67,8 @@ examples, however, and they have full free text on the web.
     Ian S Watt, Anne Walker. BMJ 2003: 326(7400); 1175-1177.
     [\[PDF\]](http://bmj.com/cgi/reprint/326/7400/1175)
 
-You can find an [earlier version](http://www.pmean.com/05/MetaanalysisArticles.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MetaanalysisArticles.html
+[sim2]: http://www.pmean.com/original_site.html

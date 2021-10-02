@@ -33,4 +33,8 @@ This journal, unfortunately, does not offer full free text on the web.
     Statistical Applications in Genetics and Molecular Biology: Vol. 3:
     No. 1, Article 3. <http://www.bepress.com/sagmb/vol3/iss1/art3>
 
-You can find an [earlier version](http://www.pmean.com/05/MicroArrayB.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MicroArrayB.html
+[sim2]: http://www.pmean.com/original_site.html

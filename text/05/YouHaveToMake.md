@@ -1,5 +1,5 @@
 ---
-title: You have to make a distinction between the science and the technological applications ...
+title: You have to make a distinction between the science and the technological applications
 author: Steve Simon
 date: 2005-05-16
 categories:

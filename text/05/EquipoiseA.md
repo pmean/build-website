@@ -26,4 +26,8 @@ detail.
 These articles are not available for free, but I will try to quote some
 relevant portions of them and comment on them when I get some free time.
 
-You can find an [earlier version](http://www.pmean.com/05/EquipoiseA.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/EquipoiseA.html
+[sim2]: http://www.pmean.com/original_site.html

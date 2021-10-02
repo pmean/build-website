@@ -70,4 +70,8 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon.
 
-You can find an [earlier version](http://www.pmean.com/05/DishonestyResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/DishonestyResearch.html
+[sim2]: http://www.pmean.com/original_site.html

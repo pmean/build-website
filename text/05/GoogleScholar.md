@@ -38,4 +38,8 @@ your Medline search:
     text\]](http://bmj.bmjjournals.com/cgi/content/full/330/7501/1179)
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/330/7501/1179.pdf)
 
-You can find an [earlier version](http://www.pmean.com/05/GoogleScholar.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/GoogleScholar.html
+[sim2]: http://www.pmean.com/original_site.html

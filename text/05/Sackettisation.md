@@ -1,5 +1,5 @@
 ---
-title: Sackettisation, the artificial linkage ...
+title: Sackettisation, the artificial linkage
 author: Steve Simon
 date: 2005-02-21
 categories:

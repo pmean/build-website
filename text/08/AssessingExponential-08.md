@@ -59,4 +59,7 @@ The Q-Q plot does not provide a formal test of hypothesis and there is
 a tendency to overstate small departures from linearity. Still, it is
 a useful approach that is easy to explain.
 
-You can find an [earlier version](http://www.pmean.com/08/AssessingExponential.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/AssessingExponential.html
+[sim2]: http://www.pmean.com/original_site.html

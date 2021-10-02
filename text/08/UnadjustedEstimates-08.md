@@ -33,4 +33,7 @@ not produce results you liked. When you show that the simple model
 produces the same results, it takes that argument away from your
 critics.
 
-You can find an [earlier version](http://www.pmean.com/08/UnadjustedEstimates.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/UnadjustedEstimates.html
+[sim2]: http://www.pmean.com/original_site.html

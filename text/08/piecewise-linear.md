@@ -1,5 +1,5 @@
 ---
-title: How do I fit a piecewise linear ...
+title: How do I fit a piecewise linear
 author: Steve Simon
 date: 2008-01-01
 categories:
@@ -13,4 +13,7 @@ This page is being updated from a version on the original website.
 
 <!---More--->
 
-You can find an [earlier version](http://www.pmean.com/08/PiecewiseLinear.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/PiecewiseLinear.html
+[sim2]: http://www.pmean.com/original_site.html

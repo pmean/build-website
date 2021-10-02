@@ -1,5 +1,5 @@
 ---
-title: From my associations with doctors in controlled trials ...
+title: From my associations with doctors in controlled trials
 author: Steve Simon
 date: 2005-09-09
 categories:
@@ -22,4 +22,8 @@ output: html_document
 > as quoted in **Ethics and Statistics in Randomized Clinical Trials**.
 > Royall RM. Statistical Science 1991; 6(1): 52-88
 
-You can find an [earlier version](http://www.pmean.com/05/FromMyAssociations.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/FromMyAssociations.html
+[sim2]: http://www.pmean.com/original_site.html

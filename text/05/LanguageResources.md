@@ -34,4 +34,8 @@ It listed several software vendors as well that offer similar services:
 -   Auralog, [www.auralog.com](http://www.auralog.com/)
 -   Instant Immersion, [topics-ent.com](http://topics-ent.com/)
 
-You can find an [earlier version](http://www.pmean.com/05/LanguageResources.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/LanguageResources.html
+[sim2]: http://www.pmean.com/original_site.html

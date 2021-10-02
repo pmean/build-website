@@ -63,4 +63,7 @@ where the incremental value of improved precision is offset by the
 direct and indirect costs of obtaining an additional patient. No one
 does it this way, but they should.
 
-You can find an [earlier version](http://www.pmean.com/08/TooMuchPower.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/TooMuchPower.html
+[sim2]: http://www.pmean.com/original_site.html

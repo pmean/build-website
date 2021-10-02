@@ -86,4 +86,8 @@ distribution in half, you have one less bit of uncertainty.
 -   <http://www.ia.hiof.no/prosjekter/hoit/html/nr1_99/im.html>
 -   <http://planetmath.org/encyclopedia/Entropy.html>
 
-You can find an [earlier version](http://www.pmean.com/05/InformationTheoryB.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/InformationTheoryB.html
+[sim2]: http://www.pmean.com/original_site.html

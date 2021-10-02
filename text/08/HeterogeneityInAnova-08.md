@@ -62,4 +62,7 @@ your model. With balanced data (same or nearly the same sample size in
 each group), there is less need to worry about heterogeneity because it
 is unlikely to have a major impact.
 
-You can find an [earlier version](http://www.pmean.com/08/HeterogeneityInAnova.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/HeterogeneityInAnova.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -40,4 +40,8 @@ them against some well known examples when I have time.
     1, 2004)](../library/EarlyStopping1.asp)
 -   [Stats: Interim analysis](../plan/interim.asp)
 
-You can find an [earlier version](http://www.pmean.com/05/GroupSequential.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/GroupSequential.html
+[sim2]: http://www.pmean.com/original_site.html

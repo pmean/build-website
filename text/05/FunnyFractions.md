@@ -44,4 +44,8 @@ The fact that a 10% raise and 10% pay cut do not offset one another may
 not be immediately apparent, but when you consider a more extreme case,
 a 100% pay raise and a 100% pay cut, it becomes more apparent.
 
-You can find an [earlier version](http://www.pmean.com/05/FunnyFractions.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/FunnyFractions.html
+[sim2]: http://www.pmean.com/original_site.html

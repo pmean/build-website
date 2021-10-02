@@ -55,4 +55,8 @@ The first problem is that multiple spaces appear as a single space. You can repl
 
 which is very nice. It's also important to use the *br* tag rather than the *p* tag because otherwise your program ends up being double spaced. Finally, if you are cutting and pasting in Microsoft Front Page, be sure to use PASTE SPECIAL and choose the ONE FORMATTED PARAGRAPH option.
 
-You can find an [earlier version](http://www.pmean.com/05/SpacingHtml.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/SpacingHtml.html
+[sim2]: http://www.pmean.com/original_site.html

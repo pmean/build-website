@@ -49,4 +49,8 @@ but I have a few more lessons worth mentioning.
     time I spent fixing them was far more than the time I would have
     spent laying the proper foundation.
 
-You can find an [earlier version](http://www.pmean.com/05/HardLessons.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/HardLessons.html
+[sim2]: http://www.pmean.com/original_site.html

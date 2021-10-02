@@ -28,4 +28,8 @@ A\'s was before the coin flip. So that implies that Y=0.5X. By a similar
 argument, Z=0.5Y=0.25X. Since X, Y, and Z have to add up to 1, that
 implies that X +0.5X+0.25X=1. Solve for X to get your answer.
 
-You can find an [earlier version](http://www.pmean.com/05/GeometricDistribution.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/GeometricDistribution.html
+[sim2]: http://www.pmean.com/original_site.html

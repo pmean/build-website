@@ -200,4 +200,7 @@ Here is the code that produced these graphs.
 The next logical step is to combine and exponential accrual model with
 a geometric model of rejection/refusal rates.
 
-You can find an [earlier version](http://www.pmean.com/08/RefusalsAndExclusions.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/RefusalsAndExclusions.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -126,4 +126,8 @@ For any of these methods to work, you have to be connected to the CMH
 network, of course, and you have to have permission from me to access
 the particular folder.
 
-You can find an [earlier version](http://www.pmean.com/05/contact.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/contact.html
+[sim2]: http://www.pmean.com/original_site.html
