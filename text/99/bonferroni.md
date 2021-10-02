@@ -211,4 +211,7 @@ and why we want to keep scientists from fishing? \-- Judicious John*
 > comparison using an adjusted alpha level equal to the original alpha
 > level (usually .05) divided by the number of outcome measures.
 
-You can find an [earlier version](http://www.pmean.com/99/bonferroni.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/bonferroni.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -204,4 +204,7 @@ PA: American College of Physicians.
 > your research. This book also uses an easy to skim outline format, but
 > it has significant narrative text under each outline element.
 
-You can find an [earlier version](http://www.pmean.com/99/hypo.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/hypo.html
+[sim2]: http://www.pmean.com/original_site.html

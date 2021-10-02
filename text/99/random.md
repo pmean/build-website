@@ -265,4 +265,7 @@ when I replace all my z's with s's.)
 - which they [published at their
     site](http://www.bmj.com/cgi/eletters/319/7211/703).
 
-You can find an [earlier version](http://www.pmean.com/99/random.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/random.html
+[sim2]: http://www.pmean.com/original_site.html

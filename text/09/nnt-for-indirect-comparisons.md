@@ -1,5 +1,5 @@
 ---
-title: Calculating NNT for ...
+title: Calculating NNT for
 author: Steve Simon
 date: 2009-01-01
 categories:
@@ -13,4 +13,7 @@ This page is being updated from a version on the original website.
 
 <!---More--->
 
-You can find an [earlier version](http://www.pmean.com/09/NntForIndirectComparisons.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/09/NntForIndirectComparisons.html
+[sim2]: http://www.pmean.com/original_site.html

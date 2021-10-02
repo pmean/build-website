@@ -150,4 +150,7 @@ You can find modifications for SPSS data under the TRANSFORM menu.
 Select the COMPUTE submenu if you want to modify a continuous variable.
 Select the RECODE submenu if you want to modify a categorical variable.
 
-You can find an [earlier version](http://www.pmean.com/99/modify.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/modify.html
+[sim2]: http://www.pmean.com/original_site.html
