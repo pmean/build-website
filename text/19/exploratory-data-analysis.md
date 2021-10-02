@@ -1,5 +1,5 @@
 ---
-title: "Exploratory data analysis is an attitude..."
+title: "Exploratory data analysis is an attitude"
 author: "Steve Simon"
 source: "http://blog.pmean.com/exploratory-data-analysis/"
 date: "2019-01-20"

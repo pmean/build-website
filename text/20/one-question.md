@@ -1,5 +1,5 @@
 ---
-title: "No aphorism is more frequently repeated..."
+title: "No aphorism is more frequently repeated"
 author: "Steve Simon"
 source: new
 date: "2020-02-21"

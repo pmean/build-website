@@ -1,5 +1,5 @@
 ---
-title: "PMean: How many research subjects..."
+title: "PMean: How many research subjects"
 author: "Steve Simon"
 source: "http://blog.pmean.com/how-many-research-subjects/"
 date: "2015-10-13"

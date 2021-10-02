@@ -1,5 +1,5 @@
 ---
-title: "The most challenging thing in the world..."
+title: "The most challenging thing in the world"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fancy-technologies/"
 date: "2019-02-01"

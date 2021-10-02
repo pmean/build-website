@@ -1,5 +1,5 @@
 ---
-title: "In medicine, there is automatic..."
+title: "In medicine, there is automatic"
 author: "Steve Simon"
 source: "New"
 date: "2020-05-23"

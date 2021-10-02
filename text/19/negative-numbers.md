@@ -1,5 +1,5 @@
 ---
-title: "Did you hear about the mathematician..."
+title: "Did you hear about the mathematician"
 author: "Steve Simon"
 source: "http://blog.pmean.com/negative-numers/"
 date: "2019-03-08"

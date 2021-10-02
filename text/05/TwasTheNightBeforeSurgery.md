@@ -1,5 +1,5 @@
 ---
-title: Twas the night before surgery\...
+title: Twas the night before surgery
 author: Steve Simon
 date: 2005-01-24
 categories:

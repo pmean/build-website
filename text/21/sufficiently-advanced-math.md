@@ -1,5 +1,5 @@
 ---
-title: "Any sufficiently advanced math..."
+title: "Any sufficiently advanced math"
 author: "Steve Simon"
 source: "New"
 date: 2020-08-11

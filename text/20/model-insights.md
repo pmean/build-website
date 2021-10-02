@@ -1,5 +1,5 @@
 ---
-title: "The tendency of some modelers..."
+title: "The tendency of some modelers"
 author: "Steve Simon"
 source: "New"
 date: "2020-05-05"

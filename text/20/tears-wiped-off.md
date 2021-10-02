@@ -1,5 +1,5 @@
 ---
-title: "Health statistics represent..."
+title: "Health statistics represent"
 author: "Steve Simon"
 source: "New"
 date: 2020-08-11

@@ -1,5 +1,5 @@
 ---
-title: "Quote: Because statistics has too often been presented ..."
+title: "Quote: Because statistics has too often been presented"
 author: "Steve Simon"
 source: "http://blog.pmean.com/morbid-emphasis/"
 date: "2014-02-06"

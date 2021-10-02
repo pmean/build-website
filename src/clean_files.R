@@ -58,19 +58,9 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "of this  of this page",
-  "of this page",
+  '\\.\\.\\.',
+  '',
   dir_root="text", 
   file_pattern="md$",
   subdir_list=zpad(c(99, 0:21)))
 
-ok_to_replace <- TRUE
-ok_to_replace <- FALSE
-clean_files(
-  "You can find an \\[earlier version\\]\\(",
-  "You can find an [earlier version][sim1] of this page on my [original website][sim2].\n\n[sim1]: ",
-  dir_root="text", 
-  file_pattern="md$",
-  subdir_list=zpad(c(16:21)))
-
-"of this  of this page"
