@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Counting squares
 author: Steve Simon
-date: 1999-01-01
+date: 2013-04-02
 categories:
 - Blog post
 tags:

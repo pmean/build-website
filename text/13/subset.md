@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Can I focus on a subset of conditions in my experiment
 author: Steve Simon
-date: 1999-01-01
+date: 2013-09-10
 categories:
 - Blog post
 tags:

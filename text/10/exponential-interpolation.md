@@ -1,7 +1,7 @@
 ---
 title: Exponential interpolation
 author: Steve Simon
-date: 1999-01-01
+date: 2010-02-11
 categories:
 - Blog post
 tags:

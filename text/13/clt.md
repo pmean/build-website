@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: What does it really mean to say that a mean of a large number of variables is approximately normal
 author: Steve Simon
-date: 1999-01-01
+date: 2013-01-14
 categories:
 - Blog post
 tags:

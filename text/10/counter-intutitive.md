@@ -1,7 +1,7 @@
 ---
-title: Another counter-intuitive ...
+title: Another counter-intuitive probability problem
 author: Steve Simon
-date: 1999-01-01
+date: 2010-07-04
 categories:
 - Blog post
 tags:

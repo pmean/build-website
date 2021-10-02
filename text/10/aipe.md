@@ -1,7 +1,7 @@
 ---
-title: An interesting alternative to power ...
+title: An interesting alternative to power calculattions
 author: Steve Simon
-date: 1999-01-01
+date: 2010-06-09
 categories:
 - Blog post
 tags:

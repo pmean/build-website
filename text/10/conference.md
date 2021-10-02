@@ -1,7 +1,7 @@
 ---
-title: What is the premier conference for ...
+title: What is the premier conference for statistical consulting
 author: Steve Simon
-date: 1999-01-01
+date: 2010-05-28
 categories:
 - Blog post
 tags:

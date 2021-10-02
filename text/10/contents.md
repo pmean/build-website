@@ -1,7 +1,7 @@
 ---
-title: Tentative table of contents for my second
+title: Tentative table of contents for my second book
 author: Steve Simon
-date: 1999-01-01
+date: 2010-07-24
 categories:
 - Blog post
 tags:

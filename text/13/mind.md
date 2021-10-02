@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Placing the mind of a statistician into software
 author: Steve Simon
-date: 1999-01-01
+date: 2013-02-19
 categories:
 - Blog post
 tags:

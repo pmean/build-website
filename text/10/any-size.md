@@ -1,7 +1,7 @@
 ---
-title: Fighting the claim that any size...
+title: Fighting the claim that any size difference is clinically important
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-05
 categories:
 - Blog post
 tags:

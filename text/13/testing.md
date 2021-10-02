@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Testing an R function
 author: Steve Simon
-date: 1999-01-01
+date: 2013-11-02
 categories:
 - Blog post
 tags:

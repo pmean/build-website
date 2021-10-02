@@ -58,7 +58,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "Blog post: ",
+  "1999-01-01",
   "",
   dir_root="text", 
   file_pattern="md$")

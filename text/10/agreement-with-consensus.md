@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Using entropy and the surprisal value to measure the degree of agreement with the consensus finding
 author: Steve Simon
-date: 1999-01-01
+date: 2010-04-11
 categories:
 - Blog post
 tags:

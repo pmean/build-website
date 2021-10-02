@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: I get a letter published in the Kansas City Star
 author: Steve Simon
-date: 1999-01-01
+date: 2013-08-26
 categories:
 - Blog post
 tags:

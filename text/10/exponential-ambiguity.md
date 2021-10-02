@@ -1,7 +1,7 @@
 ---
 title: Ambiguity in the definition of the exponential distribution
 author: Steve Simon
-date: 1999-01-01
+date: 2010-11-16
 categories:
 - Blog post
 tags:

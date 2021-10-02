@@ -1,7 +1,7 @@
 ---
-title: Is Evidence-Based Medicine too rigid?
+title: Is Evidence-Based Medicine too rigid
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-19
 categories:
 - Blog post
 tags:

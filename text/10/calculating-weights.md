@@ -1,7 +1,7 @@
 ---
-title: Calculating weights to correct...
+title: Calculating weights to correct for over and under sampling
 author: Steve Simon
-date: 1999-01-01
+date: 2010-03-22
 categories:
 - Blog post
 tags:

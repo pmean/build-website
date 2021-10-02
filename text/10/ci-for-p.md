@@ -1,7 +1,7 @@
 ---
-title: Can you compute a confidence interval for
+title: Can you compute a confidence interval for your p-value
 author: Steve Simon
-date: 1999-01-01
+date: 2010-09-10
 categories:
 - Blog post
 tags:

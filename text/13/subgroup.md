@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: A complex subgroup definition
 author: Steve Simon
-date: 1999-01-01
+date: 2013-03-25
 categories:
 - Blog post
 tags:

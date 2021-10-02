@@ -1,7 +1,7 @@
 ---
-title: Standard operating procedures for a ...
+title: Standard operating procedures for a statistical consulting center
 author: Steve Simon
-date: 1999-01-01
+date: 2010-07-30
 categories:
 - Blog post
 tags:

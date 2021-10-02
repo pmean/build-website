@@ -1,7 +1,7 @@
 ---
-title: How I got started in my career as an ...
+title: How I got started in my career as an independent statistical consultant
 author: Steve Simon
-date: 1999-01-01
+date: 2010-05-24
 categories:
 - Blog post
 tags:

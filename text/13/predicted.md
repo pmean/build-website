@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Calculating predicted probabilities from a logistic regression model 
 author: Steve Simon
-date: 1999-01-01
+date: 2013-07-31
 categories:
 - Blog post
 tags:

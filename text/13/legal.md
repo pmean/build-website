@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Resource for statisticians called as legal experts in a trial
 author: Steve Simon
-date: 1999-01-01
+date: 2013-08-14
 categories:
 - Blog post
 tags:

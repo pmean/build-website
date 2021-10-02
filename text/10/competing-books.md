@@ -1,7 +1,7 @@
 ---
-title: Competing books to the book I ...
+title: Competing books to the book I am planning to write
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-16
 categories:
 - Blog post
 tags:

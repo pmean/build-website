@@ -1,7 +1,7 @@
 ---
-title: Finding duplicate records in a 19 ...
+title: Finding duplicate records in a 19 million record database
 author: Steve Simon
-date: 1999-01-01
+date: 2010-03-02
 categories:
 - Blog post
 tags:

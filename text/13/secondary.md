@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Data sources for a proposed course on secondary data analysis
 author: Steve Simon
-date: 1999-01-01
+date: 2013-08-07
 categories:
 - Blog post
 tags:

@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: R code for estimating the duration of a clinical trial with a fixed sample size
 author: Steve Simon
-date: 1999-01-01
+date: 2013-07-29
 categories:
 - Blog post
 tags:

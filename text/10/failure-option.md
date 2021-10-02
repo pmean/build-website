@@ -1,7 +1,7 @@
 ---
-title: If you knew that failure was not an ...
+title: If you knew that failure was not an option what would you do
 author: Steve Simon
-date: 1999-01-01
+date: 2010-10-01
 categories:
 - Blog post
 tags:

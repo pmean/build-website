@@ -1,7 +1,7 @@
 ---
-title: What should clients get from you at ...
+title: What should clients get from you at the end of your first consulting session
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-14
 categories:
 - Blog post
 tags:

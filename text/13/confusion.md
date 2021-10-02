@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Confusion about BUGS
 author: Steve Simon
-date: 1999-01-01
+date: 2013-09-03
 categories:
 - Blog post
 tags:
