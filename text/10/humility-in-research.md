@@ -1,7 +1,7 @@
 ---
-title: Humility is a good thing for ...
+title: Humility is a good thing for researchers to have
 author: Steve Simon
-date: 1999-01-01
+date: 2010-02-08
 categories:
 - Blog post
 tags:

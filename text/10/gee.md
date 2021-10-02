@@ -1,7 +1,7 @@
 ---
-title: What is a Generalized Estimating Equations ...
+title: What is a Generalized Estimating Equations Model
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-19
 categories:
 - Blog post
 tags:

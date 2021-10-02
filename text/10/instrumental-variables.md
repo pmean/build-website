@@ -1,7 +1,7 @@
 ---
-title: More discussion on ...
+title: More discussion on instrumental variables
 author: Steve Simon
-date: 1999-01-01
+date: 2010-05-03
 categories:
 - Blog post
 tags:

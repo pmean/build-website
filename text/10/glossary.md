@@ -1,7 +1,7 @@
 ---
 title: Glossary for my second book
 author: Steve Simon
-date: 1999-01-01
+date: 2010-08-11
 categories:
 - Blog post
 tags:

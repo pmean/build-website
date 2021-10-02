@@ -1,5 +1,5 @@
 ---
-title: Where can I find free online textbooks?
+title: Where can I find free online textbooks
 author: Steve Simon
 date: 2010-01-17
 categories:
