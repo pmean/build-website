@@ -57,4 +57,8 @@ maybe a few negative x values, but certainly not anything less than -1.
 There is a simple way to compute the probability for any negative value,
 of course, using the positive value.
 
-You can find an [earlier version](http://www.pmean.com/05/NormalProbabilities.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/NormalProbabilities.html
+[sim2]: http://www.pmean.com/original_site.html

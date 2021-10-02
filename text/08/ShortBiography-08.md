@@ -46,4 +46,7 @@ In 2002, Steve and his wife, Cathy, adopted a two year old boy,
 Nicholas, from Russia. When he\'s not playing with Nicholas, Steve
 dances with the Back Porch Cloggers, an Appalachian Clogging group.
 
-You can find an [earlier version](http://www.pmean.com/08/ShortBiography.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/ShortBiography.html
+[sim2]: http://www.pmean.com/original_site.html
