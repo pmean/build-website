@@ -1,5 +1,5 @@
 ---
-title:  Anti-intellectualism ...
+title:  Anti-intellectualism
 author: Steve Simon
 date: 2008-01-01
 categories:

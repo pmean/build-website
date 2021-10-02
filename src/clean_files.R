@@ -58,7 +58,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "1999-01-01",
-  "",
+  "\\) of this page on my \\[original website\\]\\(http://www.pmean.com/original_site.html\\)\\.",
+  "\n[sim2]: http://www.pmean.com/original_site.html",
   dir_root="text", 
   file_pattern="md$")
