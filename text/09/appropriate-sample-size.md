@@ -1,5 +1,5 @@
 ---
-title: The first three steps in   ...
+title: The first three steps in  
 author: Steve Simon
 date: 2009-01-01
 categories:

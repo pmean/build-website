@@ -1,5 +1,5 @@
 ---
-title: Institute of Medicine report on conflict ...
+title: Institute of Medicine report on conflict
 author: Steve Simon
 date: 2009-01-01
 categories:

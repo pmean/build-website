@@ -1,5 +1,5 @@
 ---
-title: Lessons learned the hard way. Don't ...
+title: Lessons learned the hard way. Don't
 author: Steve Simon
 date: 2010-01-01
 categories:

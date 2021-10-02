@@ -1,5 +1,5 @@
 ---
-title: Sneaking ineligible patients ...
+title: Sneaking ineligible patients
 author: Steve Simon
 date: 2009-01-01
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Calibrating information  ...
+title: Calibrating information 
 author: Steve Simon
 date: 2009-01-01
 categories:

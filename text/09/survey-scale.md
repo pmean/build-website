@@ -1,5 +1,5 @@
 ---
-title: Five points or seven points on a ...
+title: Five points or seven points on a
 author: Steve Simon
 date: 2009-01-01
 categories:

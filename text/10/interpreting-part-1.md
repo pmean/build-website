@@ -1,5 +1,5 @@
 ---
-title: Interpreting p-values in a ...
+title: Interpreting p-values in a
 author: Steve Simon
 date: 1999-01-01
 categories:

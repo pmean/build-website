@@ -1,5 +1,5 @@
 ---
-title: Distrust of a Bayesian ...
+title: Distrust of a Bayesian
 author: Steve Simon
 date: 2008-01-01
 categories:

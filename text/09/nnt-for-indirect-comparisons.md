@@ -1,5 +1,5 @@
 ---
-title: Calculating NNT for ...
+title: Calculating NNT for
 author: Steve Simon
 date: 2009-01-01
 categories:

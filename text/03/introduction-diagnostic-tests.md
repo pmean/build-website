@@ -1,5 +1,5 @@
 ---
-title: Diagnostic ...
+title: Diagnostic
 author: Steve Simon
 date: 2003-01-01
 categories:

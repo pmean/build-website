@@ -1,5 +1,5 @@
 ---
-title: What to say when any data ...
+title: What to say when any data
 author: Steve Simon
 date: 1999-01-01
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Generating multinomial random ...
+title: Generating multinomial random
 author: Steve Simon
 date: 2009-01-01
 categories:

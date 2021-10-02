@@ -1,5 +1,5 @@
 ---
-title: Analysis of subgroup results ...
+title: Analysis of subgroup results
 author: Steve Simon
 date: 2005-03-10
 categories:

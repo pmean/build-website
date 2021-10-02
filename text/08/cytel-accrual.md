@@ -1,5 +1,5 @@
 ---
-title: Cytel software has developed a Poisson ...
+title: Cytel software has developed a Poisson
 author: Steve Simon
 date: 2008-01-01
 categories:

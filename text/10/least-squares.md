@@ -1,5 +1,5 @@
 ---
-title: Why the least squares regression line ...
+title: Why the least squares regression line
 author: Steve Simon
 date: 1999-01-01
 categories:

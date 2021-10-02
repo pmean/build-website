@@ -1,5 +1,5 @@
 ---
-title: Poster presentation at the ...
+title: Poster presentation at the
 author: Steve Simon
 date: 1999-01-01
 categories:

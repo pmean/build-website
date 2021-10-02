@@ -1,5 +1,5 @@
 ---
-title: Undeclared missing code leads ...
+title: Undeclared missing code leads
 author: Steve Simon
 date: 2008-01-01
 categories:

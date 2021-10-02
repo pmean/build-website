@@ -1,5 +1,5 @@
 ---
-title: Is there something better than ...
+title: Is there something better than
 author: Steve Simon
 date: 1999-01-01
 categories:

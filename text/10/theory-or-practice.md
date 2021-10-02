@@ -1,5 +1,5 @@
 ---
-title: Would you hire someone who knew theory ...
+title: Would you hire someone who knew theory
 author: Steve Simon
 date: 1999-01-01
 categories:

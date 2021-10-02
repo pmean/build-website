@@ -1,5 +1,5 @@
 ---
-title: Are certain CAM therapies ...
+title: Are certain CAM therapies
 author: Steve Simon
 date: 1999-01-01
 categories:

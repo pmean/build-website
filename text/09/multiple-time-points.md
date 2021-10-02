@@ -1,5 +1,5 @@
 ---
-title: Do multiple time points require ...
+title: Do multiple time points require
 author: Steve Simon
 date: 2009-01-01
 categories:

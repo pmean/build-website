@@ -1,5 +1,5 @@
 ---
-title: The surprisal matrix and ...
+title: The surprisal matrix and
 author: Steve Simon
 date: 2009-01-01
 categories:

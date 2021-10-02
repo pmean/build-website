@@ -1,5 +1,5 @@
 ---
-title: How do I fit a piecewise linear ...
+title: How do I fit a piecewise linear
 author: Steve Simon
 date: 2008-01-01
 categories:

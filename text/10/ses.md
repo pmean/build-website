@@ -1,5 +1,5 @@
 ---
-title: What is a good surrogate measure for ...
+title: What is a good surrogate measure for
 author: Steve Simon
 date: 2010-01-01
 categories:

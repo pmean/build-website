@@ -1,5 +1,5 @@
 ---
-title: Randomly generating simple math ...
+title: Randomly generating simple math
 author: Steve Simon
 date: 2009-01-01
 categories:

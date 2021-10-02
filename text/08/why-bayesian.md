@@ -1,5 +1,5 @@
 ---
-title: Why does a Bayesian approach make ...
+title: Why does a Bayesian approach make
 author: Steve Simon
 date: 2008-01-01
 categories:

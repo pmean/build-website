@@ -1,5 +1,5 @@
 ---
-title: Software for bootstrap and ...
+title: Software for bootstrap and
 author: Steve Simon
 date: 2008-01-01
 categories:

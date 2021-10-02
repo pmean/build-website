@@ -1,5 +1,5 @@
 ---
-title: Is it ethical to recruit a panhandler ...
+title: Is it ethical to recruit a panhandler
 author: Steve Simon
 date: 1999-01-01
 categories:

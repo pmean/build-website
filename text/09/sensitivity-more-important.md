@@ -1,5 +1,5 @@
 ---
-title: Getting a good cut-off ...
+title: Getting a good cut-off
 author: Steve Simon
 date: 2009-01-01
 categories:

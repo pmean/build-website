@@ -1,5 +1,5 @@
 ---
-title: Business aspects of an independent ...
+title: Business aspects of an independent
 author: Steve Simon
 date: 2008-01-01
 categories:

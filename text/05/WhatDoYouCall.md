@@ -1,5 +1,5 @@
 ---
-title: What do you call the removal of ...
+title: What do you call the removal of
 author: Steve Simon
 date: 2005-01-24
 categories:

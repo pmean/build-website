@@ -1,5 +1,5 @@
 ---
-title: What I use for talks instead of ...
+title: What I use for talks instead of
 author: Steve Simon
 date: 1999-01-01
 categories:

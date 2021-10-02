@@ -1,5 +1,5 @@
 ---
-title: The test of a first rate intelligence ...
+title: The test of a first rate intelligence
 author: Steve Simon
 source: http://www.pmean.com/05/TheTest.html
 date: 2005-04-20

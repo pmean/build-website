@@ -1,5 +1,5 @@
 ---
-title: Transforming the parameter ...
+title: Transforming the parameter
 author: Steve Simon
 date: 1999-01-01
 categories:

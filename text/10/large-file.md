@@ -1,5 +1,5 @@
 ---
-title: Dealing with a large text file that ...
+title: Dealing with a large text file that
 author: Steve Simon
 date: 1999-01-01
 categories:

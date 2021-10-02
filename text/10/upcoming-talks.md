@@ -1,5 +1,5 @@
 ---
-title: Abstracts for a possible upcoming ...
+title: Abstracts for a possible upcoming
 author: Steve Simon
 date: 1999-01-01
 categories:

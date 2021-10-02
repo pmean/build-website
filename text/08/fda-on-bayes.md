@@ -1,5 +1,5 @@
 ---
-title: What does the FDA think about Bayesian ...
+title: What does the FDA think about Bayesian
 author: Steve Simon
 date: 2008-01-01
 categories:

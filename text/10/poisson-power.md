@@ -1,5 +1,5 @@
 ---
-title: Power calculations for comparison of ...
+title: Power calculations for comparison of
 author: Steve Simon
 date: 1999-01-01
 categories:

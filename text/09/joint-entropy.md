@@ -1,5 +1,5 @@
 ---
-title: A simple example of joint and  ...
+title: A simple example of joint and 
 author: Steve Simon
 date: 2009-01-01
 categories:

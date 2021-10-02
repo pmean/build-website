@@ -1,5 +1,5 @@
 ---
-title: Withdrawing from a study and taking ...
+title: Withdrawing from a study and taking
 author: Steve Simon
 date: 1999-01-01
 categories:

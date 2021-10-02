@@ -1,5 +1,5 @@
 ---
-title: The controversy over ...
+title: The controversy over
 author: Steve Simon
 date: 2009-01-01
 categories:

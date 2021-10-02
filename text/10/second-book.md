@@ -1,5 +1,5 @@
 ---
-title: Jumpstart Statistics, a proposal for my ...
+title: Jumpstart Statistics, a proposal for my
 author: Steve Simon
 date: 1999-01-01
 categories:

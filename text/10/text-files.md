@@ -1,5 +1,5 @@
 ---
-title: Using information theory to identify ...
+title: Using information theory to identify
 author: Steve Simon
 date: 1999-01-01
 categories:

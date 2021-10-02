@@ -1,5 +1,5 @@
 ---
-title: The Science-Based Medicine ...
+title: The Science-Based Medicine
 author: Steve Simon
 date: 1999-01-01
 categories:

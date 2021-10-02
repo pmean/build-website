@@ -1,5 +1,5 @@
 ---
-title: Pooling different measures of risk in a ...
+title: Pooling different measures of risk in a
 author: Steve Simon
 date: 1999-01-01
 categories:

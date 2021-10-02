@@ -1,5 +1,5 @@
 ---
-title: What distribution does this data ...
+title: What distribution does this data
 author: Steve Simon
 date: 2008-01-01
 categories:

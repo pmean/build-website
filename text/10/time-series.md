@@ -1,5 +1,5 @@
 ---
-title: Minimum sample size needed for a time ...
+title: Minimum sample size needed for a time
 author: Steve Simon
 date: 1999-01-01
 categories:

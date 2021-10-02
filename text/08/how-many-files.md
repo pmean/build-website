@@ -1,5 +1,5 @@
 ---
-title: How many files ...
+title: How many files
 author: Steve Simon
 date: 2008-01-01
 categories:

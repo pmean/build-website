@@ -1,5 +1,5 @@
 ---
-title: Proposed poster for the Missouri ...
+title: Proposed poster for the Missouri
 author: Steve Simon
 date: 1999-01-01
 categories:

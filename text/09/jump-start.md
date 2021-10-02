@@ -1,5 +1,5 @@
 ---
-title: Jump start statistics for beginning ...
+title: Jump start statistics for beginning
 author: Steve Simon
 date: 2009-01-01
 categories:
