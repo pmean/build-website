@@ -72,4 +72,8 @@ caught the problem before I ran any serious analyses. Whew!
 The big lesson learned here is to always check things as you go along.
 Sometimes an obvious assumption about your data may be mistaken.
 
-You can find an [earlier version](http://www.pmean.com/05/DisasterAverted.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/DisasterAverted.html
+[sim2]: http://www.pmean.com/original_site.html

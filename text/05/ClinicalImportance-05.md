@@ -139,4 +139,8 @@ published paper in BMJ.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12811707&dopt=Abstract)
     [\[Abstract\]](http://www2.us.elsevierhealth.com/scripts/om.dll/serve?retrieve=/pii/S0735675702422553&)
 
-You can find an [earlier version](http://www.pmean.com/05/ClinicalImportance.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/ClinicalImportance.html
+[sim2]: http://www.pmean.com/original_site.html

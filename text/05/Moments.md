@@ -206,4 +206,8 @@ the distribution is not symmetric, but instead is positively skewed.
 This means that this distribution has a greater tendency to produce
 outliers on the high end rather than the low end of the distribution.
 
-You can find an [earlier version](http://www.pmean.com/05/Moments.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/Moments.html
+[sim2]: http://www.pmean.com/original_site.html

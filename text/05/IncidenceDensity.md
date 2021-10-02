@@ -54,4 +54,8 @@ produce incidence density ratios. I have to write up a web page about
 this model when I have time. It is on my list of unfinished business
 ([Coming Soon! March 22, 2005 weblog entry](ComingSoon.html)).
 
-You can find an [earlier version](http://www.pmean.com/05/IncidenceDensity.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/IncidenceDensity.html
+[sim2]: http://www.pmean.com/original_site.html

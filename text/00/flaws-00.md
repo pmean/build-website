@@ -63,4 +63,7 @@ evidence would help you make a better decision about this problem.
 -   **Biases in the interpretation and use of research results.\
     **MacCoun, R. *Annu Rev Psychol* (1998), 49: 259-87.
 
-You can find an [earlier version](http://www.pmean.com/00/flaws.html) of this page on my [original website](http://www.pmean.com/original_site.html). Flaws in a research paper
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/flaws.html
+[sim2]: http://www.pmean.com/original_site.html Flaws in a research paper

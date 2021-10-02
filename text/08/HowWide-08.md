@@ -107,4 +107,7 @@ breaks yourself. Ideally, try to use code examples where no line of
 code exceeds 45 columns. for complex programs, this is difficult to
 achieve, so 60 columns might be a more reasonable limit.
 
-You can find an [earlier version](http://www.pmean.com/08/Howwide.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/Howwide.html
+[sim2]: http://www.pmean.com/original_site.html

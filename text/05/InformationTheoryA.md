@@ -60,4 +60,8 @@ Another interesting microarray article I ran across is
     [\[Full text\]](http://www.biomedcentral.com/1471-2164/5/17)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2164-5-17.pdf)
 
-You can find an [earlier version](http://www.pmean.com/05/InformationTheoryA.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/InformationTheoryA.html
+[sim2]: http://www.pmean.com/original_site.html

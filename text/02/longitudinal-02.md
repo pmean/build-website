@@ -202,4 +202,7 @@ Be sure to include a key variable to link the two tables together.
 
 **[Stats: Merging files in SPSS](../99/merging.html)**
 
-You can find an [earlier version](http://www.pmean.com/02/longitudinal.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: Longitudinal data
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/longitudinal.html
+[sim2]: http://www.pmean.com/original_site.html StATS: Longitudinal data

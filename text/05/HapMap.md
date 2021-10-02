@@ -163,4 +163,8 @@ about disequilibrium that relate to the HapMap project:
     [Full text]](http://www.genome.org/cgi/content/full/15/11/1566)
     [PDF]](http://www.genome.org/cgi/reprint/15/11/1566.pdf)
 
-You can find an [earlier version](http://www.pmean.com/05/HapMap.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/HapMap.html
+[sim2]: http://www.pmean.com/original_site.html

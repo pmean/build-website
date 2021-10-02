@@ -13,4 +13,7 @@ This page is being updated from a version on the original website.
 
 <!---More--->
 
-You can find an [earlier version](http://www.pmean.com/10/Salary.html) of this page on my [original website](http://www.pmean.com/original_site.html). P.Mean: Salary survey for Biostatisticians
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/10/Salary.html
+[sim2]: http://www.pmean.com/original_site.html P.Mean: Salary survey for Biostatisticians

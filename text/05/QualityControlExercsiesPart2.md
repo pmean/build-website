@@ -65,4 +65,8 @@ program, collect data on a simple work process, graph the trends in
 that work process to identify trends, and compute control limits to
 separate common and special cause variation.
 
-You can find an [earlier version](http://www.pmean.com/05/QualityControlExercsiesPart2.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/QualityControlExercsiesPart2.html
+[sim2]: http://www.pmean.com/original_site.html

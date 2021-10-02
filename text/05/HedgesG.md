@@ -22,4 +22,8 @@ and you adjust this value to get Hedge's G with the formula:
 
 ![HedgesG2.gif not found.](http://www.pmean.com/images/images/05/HedgesG02.png)
 
-You can find an [earlier version](http://www.pmean.com/05/HedgesG.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/HedgesG.html
+[sim2]: http://www.pmean.com/original_site.html

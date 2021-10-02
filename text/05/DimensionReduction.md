@@ -59,4 +59,8 @@ output: html_document
 >     Oaks (CA): Sage. Accessed on 2005-05-25.
 >     www.utdallas.edu/\~herve/Abdi-PLS-pretty.pdf
 
-You can find an [earlier version](http://www.pmean.com/05/DimensionReduction.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/DimensionReduction.html
+[sim2]: http://www.pmean.com/original_site.html

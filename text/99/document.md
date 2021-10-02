@@ -339,4 +339,7 @@ some time now with documentation because SPSS can easily produce
 dozens of graphs and hundreds of tables. Good documentation will help
 you keep your bearings in all of this output.
 
-You can find an [earlier version](http://www.pmean.com/99/document.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/document.html
+[sim2]: http://www.pmean.com/original_site.html

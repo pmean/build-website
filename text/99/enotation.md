@@ -51,4 +51,7 @@ following web site.
     Philip Spencer (accessed on July 27, 2001)\
     <http://www.math.toronto.edu/mathnet/plain/questionCorner/scinot.html>
 
-You can find an [earlier version](http://www.pmean.com/99/enotation.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/enotation.html
+[sim2]: http://www.pmean.com/original_site.html

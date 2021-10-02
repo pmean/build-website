@@ -226,4 +226,8 @@ being a dead end. This is not a trivial cost, but your perspective here
 is quite different than testing a new drug, for example. There, a false
 positive means allowing an ineffective drug onto the market.
 
-You can find an [earlier version](http://www.pmean.com/05/MultipleComparisons.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MultipleComparisons.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -150,4 +150,7 @@ approaches commonly used when the data represents binomial counts.
 -   **An overview of methods for the analysis of longitudinal data.**
     Zeger SL, Liang KY. Stat Med 1992: 11(14-15); 1825-39.
 
-You can find an [earlier version](http://www.pmean.com/99/longitudinal.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/longitudinal.html
+[sim2]: http://www.pmean.com/original_site.html

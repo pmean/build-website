@@ -195,4 +195,7 @@ care.** Veronica Morton, David J Torgerson. BMJ 2003: 326(7398);
 text](http://bmj.com/cgi/content/full/326/7398/1083)
 [PDF](http://bmj.com/cgi/reprint/326/7398/1083.pdf)
 
-You can find an [earlier version](http://www.pmean.com/00/regression.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/regression.html
+[sim2]: http://www.pmean.com/original_site.html

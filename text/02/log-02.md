@@ -285,4 +285,7 @@ your data is at least three times as big as the smallest value.
 2.  Wikipedia entry on the Log-normal distribution:
     [en.wikipedia.org/wiki/Log-normal_distribution](http://en.wikipedia.org/wiki/Log-normal_distribution)
 
-You can find an [earlier version](http://www.pmean.com/02/log.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/log.html
+[sim2]: http://www.pmean.com/original_site.html

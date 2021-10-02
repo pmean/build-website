@@ -97,4 +97,7 @@ which the model is highly sensitive to.
 Click on the **Continue button** to proceed and then click on the **OK
 button** in the earlier dialog box.
 
-You can find an [earlier version](http://www.pmean.com/02/logist_spss.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/logist_spss.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -81,4 +81,7 @@ probably using an approach that others in your discipline would like.**
 > **Measurement theory: Frequently asked questions**. Warren S. Sarle
 > (accessed 7/26/01) <ftp://ftp.sas.com/pub/neural/measurement.html>
 
-You can find an [earlier version](http://www.pmean.com/01/parametric.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/parametric.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -112,4 +112,8 @@ the safe side if the sampling plan was inadequate, then you have a good
 deal of protection, because it then forces them to use a thorough rather
 than a haphazard sampling plan.
 
-You can find an [earlier version](http://www.pmean.com/05/ConfidenceIntervalA.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/ConfidenceIntervalA.html
+[sim2]: http://www.pmean.com/original_site.html

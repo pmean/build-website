@@ -35,4 +35,7 @@ statisticians to make this stuff harder to understand.*
 > life?\" The other statistic responds, \"It\'s okay, but you lose a
 > degree of freedom.\"
 
-You can find an [earlier version](http://www.pmean.com/99/df.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/df.html
+[sim2]: http://www.pmean.com/original_site.html

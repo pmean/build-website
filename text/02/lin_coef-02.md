@@ -217,4 +217,7 @@ understanding what might have gone wrong and the magnitude of the error
 made.
 
 
-You can find an [earlier version](http://www.pmean.com/02/lin_coef.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/lin_coef.html
+[sim2]: http://www.pmean.com/original_site.html

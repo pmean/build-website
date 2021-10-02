@@ -85,4 +85,8 @@ so when I can find an easy way to import DOIs into my EndNote database.
     2000). Accessed on 2005-01-19.
     www.infotoday.com/searcher/nov00/grogg&tenopir.htm
 
-You can find an [earlier version](http://www.pmean.com/05/DigitalObjectIdentifier.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/DigitalObjectIdentifier.html
+[sim2]: http://www.pmean.com/original_site.html

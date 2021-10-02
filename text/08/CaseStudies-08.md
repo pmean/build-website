@@ -74,4 +74,7 @@ minimal, but there is potential to attract funding and produce a
 valuable product that has high demand and which would greatly enhance
 the visibility of CMH.
 
-You can find an [earlier version](http://www.pmean.com/08/CaseStudies.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/CaseStudies.html
+[sim2]: http://www.pmean.com/original_site.html

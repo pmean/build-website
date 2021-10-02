@@ -30,4 +30,7 @@ hypothesis, and you won't know if it is because of your small sample
 size or the fact that there really is no difference. In other words, the
 experiment will not provide any useful information.
 
-You can find an [earlier version](http://www.pmean.com/01/small.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/small.html
+[sim2]: http://www.pmean.com/original_site.html

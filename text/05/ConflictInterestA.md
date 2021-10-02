@@ -78,4 +78,8 @@ supervise the results of the test rather than cede control to a
     Quack?](http://www.quackwatch.org/11Ind/browne.html%20)**. Farha B.
     Accessed on 2005-06-06. www.quackwatch.org/11Ind/browne.html
 
-You can find an [earlier version](http://www.pmean.com/05/ConflictInterestA.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/ConflictInterestA.html
+[sim2]: http://www.pmean.com/original_site.html

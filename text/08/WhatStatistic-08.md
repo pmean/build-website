@@ -40,4 +40,7 @@ model.
 If I get a chance, I will try to delineate further what statistic should
 be used in what situation.
 
-You can find an [earlier version](http://www.pmean.com/08/WhatStatistic.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/WhatStatistic.html
+[sim2]: http://www.pmean.com/original_site.html

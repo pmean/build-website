@@ -357,4 +357,7 @@ advanced and detailed approach in Collett's book.
     RF. New York NY: John Wiley & Sons, Inc. (1987). ISBN:
     0-471-80615-3.
 
-You can find an [earlier version](http://www.pmean.com/00/kaplan.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/kaplan.html
+[sim2]: http://www.pmean.com/original_site.html

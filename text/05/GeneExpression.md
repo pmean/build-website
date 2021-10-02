@@ -17,4 +17,8 @@ output: html_document
 > I hope to learn a lot and then include some of what I learn on these
 > web pages.
 
-You can find an [earlier version](http://www.pmean.com/05/GeneExpression.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/GeneExpression.html
+[sim2]: http://www.pmean.com/original_site.html

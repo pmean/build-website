@@ -51,4 +51,8 @@ output: html_document
 > **shrug of the shoulders**. In fact, we often don\'t know what to make
 > of the associations found by data mining models.
 
-You can find an [earlier version](http://www.pmean.com/05/DataMining.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/DataMining.html
+[sim2]: http://www.pmean.com/original_site.html

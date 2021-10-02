@@ -15,4 +15,7 @@ responses are available as PDF files at the following location:
 
 -   [www.fda.gov/ohrms/dockets/dockets/05n0038/mostrecent.htm](http://www.fda.gov/ohrms/dockets/dockets/05n0038/mostrecent.htm)
 
-You can find an [earlier version](http://www.pmean.com/05/AdverseEvents.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/05/AdverseEvents.html
+[sim2]: http://www.pmean.com/original_site.html

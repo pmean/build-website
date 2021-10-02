@@ -95,4 +95,7 @@ Dear Baffled,
     known."* Published November 29, 1999.
     www.med.mcgill.ca/epidemiology/Joseph/diagsmp.pdf
 
-You can find an [earlier version](http://www.pmean.com/00/binary.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/binary.html
+[sim2]: http://www.pmean.com/original_site.html

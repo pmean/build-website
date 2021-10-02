@@ -76,4 +76,8 @@ A less intuitive version of the %in% operator is the match function. Additional 
 
 -   [www.ats.ucla.edu/stat/r/notes/managing.htm](http://www.ats.ucla.edu/stat/r/notes/managing.htm)
 
-You can find an [earlier version](http://www.pmean.com/05/MergingInR.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MergingInR.html
+[sim2]: http://www.pmean.com/original_site.html

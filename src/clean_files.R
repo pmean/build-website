@@ -17,9 +17,9 @@ v <- TRUE
 clean_files <- function(
     search_string, 
     replace_string="Not yet", 
-    dir_root="text/zotero", 
+    dir_root="text", 
     subdir_list=c("99", zpad(0:21), "no"),
-    file_pattern="*.bib", 
+    file_pattern="*\\.md$", 
     original_string=search_string,
     v=TRUE) {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
@@ -58,7 +58,19 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "\\) of this page on my \\[original website\\]\\(http://www.pmean.com/original_site.html\\)\\.",
-  "\n[sim2]: http://www.pmean.com/original_site.html",
+  "of this  of this page",
+  "of this page",
   dir_root="text", 
-  file_pattern="md$")
+  file_pattern="md$",
+  subdir_list=zpad(c(99, 0:21)))
+
+ok_to_replace <- TRUE
+ok_to_replace <- FALSE
+clean_files(
+  "You can find an \\[earlier version\\]\\(",
+  "You can find an [earlier version][sim1] of this page on my [original website][sim2].\n\n[sim1]: ",
+  dir_root="text", 
+  file_pattern="md$",
+  subdir_list=zpad(c(16:21)))
+
+"of this  of this page"

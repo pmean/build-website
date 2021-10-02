@@ -160,4 +160,7 @@ I also have an image from the CNN web site that I am asking for
 permission to use. The email address for this request went to
 cnn.viewersource@turner.com.
 
-You can find an [earlier version](http://www.pmean.com/00/software.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/00/software.html
+[sim2]: http://www.pmean.com/original_site.html

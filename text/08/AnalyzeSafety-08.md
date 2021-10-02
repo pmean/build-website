@@ -56,4 +56,7 @@ All of the above are just my opinions, of course, and I don\'t want to
 pretend that they are drawn from any consensus opinion among
 researchers.
 
-You can find an [earlier version](http://www.pmean.com/08/AnalyzeSafety.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/AnalyzeSafety.html
+[sim2]: http://www.pmean.com/original_site.html

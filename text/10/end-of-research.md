@@ -19,4 +19,7 @@ This is not done in practice, and leads to a lot of redundancy in research. Ther
 
 Now the fly in the ointment is that in many areas, there are too many complicating factors to rely just on a simple confidence interval. This is especially true for observational research, where many of the assumptions that you need to make to assure a valid confidence interval are untestable. As we learn more about an area, some of the untestable assumptions may seem more reasonable or less reasonable and may be cause for re-opening the investigation.
 
-You can find an [earlier version](http://www.pmean.com/10/EndOfResearch.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/10/EndOfResearch.html
+[sim2]: http://www.pmean.com/original_site.html

@@ -137,4 +137,7 @@ total population.
     to the questioners to be ridiculously small numbers of people."
     www.gallup.com/poll/FromtheEd/ed0211.asp
 
-You can find an [earlier version](http://www.pmean.com/01/population.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/01/population.html
+[sim2]: http://www.pmean.com/original_site.html

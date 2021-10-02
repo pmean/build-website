@@ -136,4 +136,8 @@ assess how strongly two measures agree with one another.
     Frequently-Asked-Questions](http://www.westgard.com/quest11.htm%20)**.
     Westgard JO. Accessed on 2005-04-19. www.westgard.com/quest11.htm
 
-You can find an [earlier version](http://www.pmean.com/05/MeasuringAgreement.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MeasuringAgreement.html
+[sim2]: http://www.pmean.com/original_site.html

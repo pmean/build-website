@@ -25,4 +25,8 @@ output: html_document
 > [\[Full text\]](http://cvm.controlled-trials.com/content/1/1/25)
 > [\[PDF\]](http://cvm.controlled-trials.com/content/pdf/cvm-1-1-025.pdf)
 
-You can find an [earlier version](http://www.pmean.com/05/AnalysisOfSubgroupResults.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/AnalysisOfSubgroupResults.html
+[sim2]: http://www.pmean.com/original_site.html

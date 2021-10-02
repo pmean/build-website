@@ -27,4 +27,8 @@ optimization is:
 -   **A Tutorial on MM Algorithms.** Hunter DR, Lange K. The American
     Statistician 2004: 54(1); 30-37.
 
-You can find an [earlier version](http://www.pmean.com/05/MMalgorithm.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+
+[sim1]: http://www.pmean.com/05/MMalgorithm.html
+[sim2]: http://www.pmean.com/original_site.html

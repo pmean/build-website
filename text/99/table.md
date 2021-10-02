@@ -166,4 +166,7 @@ the **Risk and/or Chi-square option boxes**.
     1999:81(1);F61-F63. This paper is [available on the
     web](http://adc.bmjjournals.com/cgi/content/full/fetalneonatal;81/1/F61).
 
-You can find an [earlier version](http://www.pmean.com/99/table.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/99/table.html
+[sim2]: http://www.pmean.com/original_site.html

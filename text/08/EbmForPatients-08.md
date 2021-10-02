@@ -35,4 +35,7 @@ output: html_document
 > can use to assess the quality of web pages that provide health
 > information.*
 
-You can find an [earlier version](http://www.pmean.com/08/EbmForPatients.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/EbmForPatients.html
+[sim2]: http://www.pmean.com/original_site.html

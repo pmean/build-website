@@ -108,4 +108,7 @@ The risk of relapse is 2.5 times greater in the group without
 chemotherapy. Although this ratio is large, it does not quite achieve
 statistical significance due to the small sample size.
 
-You can find an [earlier version](http://www.pmean.com/02/survival.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/02/survival.html
+[sim2]: http://www.pmean.com/original_site.html
