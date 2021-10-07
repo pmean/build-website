@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/03/consulting.html
 date: 2003-04-30
 categories:
-- Obsolete pages
+- Obsolete page
 tags:
 - Professional details
 output: html_document

@@ -35,16 +35,18 @@ clean_files <- function(
       br -> message
     if (verbose) cat(message)
     for (i_file in file_list) {
-      tx <- read_lines(dir_root %s% subdir %s% i_file)
+      dir_root %s% subdir %s% i_file -> fn
+      tx <- read_lines(fn)
       found_lines <- str_which(tx, search_string)
       if (length(found_lines)==0) next
       k <- k+1
-      "\n\n" %0% subdir %s% i_file %>% br %>% cat
+      "\n\n" %0% fn %>% br %>% cat
       str_c(tx[found_lines], collapse="\n") %>% cat
       if (replace_string!="Not yet") {
         tx %<>% str_replace_all(original_string, replace_string)
         "\n" %0% str_c(tx[found_lines], collapse="\n") %>% cat
-      if (ok_to_replace) writeLines(tx, dir_root %s% subdir %s% i_file)
+      if (ok_to_replace) {
+        writeLines(tx, con=fn)}
       }
     }
   }
@@ -58,8 +60,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '\\.\\.\\.',
-  '',
+  '\\- Quotations',
+  '- Quotation',
   dir_root="text", 
   file_pattern="md$",
   subdir_list=zpad(c(99, 0:21)))
