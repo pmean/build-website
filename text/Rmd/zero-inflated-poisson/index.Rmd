@@ -1,0 +1,98 @@
+---
+title: "Zero-inflated models"
+author: "Steve Simon"
+source: "New"
+date: "2021-09-20"
+categories:
+- Blog post
+tags:
+- Generalized linear model
+output: html_document
+---
+
+In models of counts, zeros represent a special case. Often there is more than one reason why you might observe a zero count, and you might want to model this probability separately. One approach is known as a zero inflated Poisson model.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(pscl)))
+```
+
+### The zero inflated Poisson distribution
+
+
+In any Poisson distribution, the probabilty of obtaining a zero is defined as
+
+$P[Y=0]=\frac{\lambda^0e^{-\lambda}}{0!}=e^{-\lambda}$
+
+Sometimes this probability is too low because there are multiple reasons why you might observe a zero. The zero-inflated Poisson model is a mixture of the Poisson random variable with a random variable that places all of its probability at zero.
+
+$\pi \ 0 + (1-\pi)\frac{e^{-\lambda}\lambda^y}{y!}$
+
+This changes the probability of zero to
+
+$P[Y=0]=\pi+(1-\pi)e^{-\lambda}$
+
+Since $\lambda$ has to be a positive value, the probability above is greater than the Poisson probability for any value of $\pi>0$.
+
+The remaining probabilities are shrunk by a factor of $1-\pi$ to compensate for the increase in the probability at zero.
+
+You can develop a separate regression model for $\pi$ the increase in the probability of zero in addition to the regression model for $\lambda$, the mean of the Poisson distribution.
+
+The zero-inflated Poisson probability distribution is not part of the exponential family, so you need separate methods for estimation. You can find a function in the pscl library that will fit a zero-inflated Poisson model.
+
+### Start with Poisson regression
+
+It is easiest to understand the quasiPoisson model by comparing it to the Poisson model.
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual's mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
+
+```{r}
+pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
+summary(pois1)
+```
+
+The interpretation of the coefficients should be done after exponentiating their values.
+
+```{r}
+pois1 %>%
+  tidy %>%
+  mutate(lower_limit=estimate-1.96*std.error) %>%
+  mutate(upper_limit=estimate+1.96*std.error) %>%
+  select(term, estimate, lower_limit, upper_limit) %>%
+  mutate(estimate=exp(estimate)) %>%
+  mutate(lower_limit=exp(lower_limit)) %>%
+  mutate(upper_limit=exp(upper_limit)) -> pois1_coefficients
+pois1_coefficients
+```
+
+### Fitting a zero-inflated-Poisson model
+
+```{r}
+zip1 <- zeroinfl(art ~ fem + ment + phd + mar + kid5 | 1, family=poisson, data = articles)
+summary(zip1)
+```
+
+We cannot use the broom package to extract coefficients.
+
+
+
+### References

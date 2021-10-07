@@ -20,7 +20,111 @@ suppressMessages(suppressWarnings(library(ggplot2)))
 suppressMessages(suppressWarnings(library(magrittr)))
 ```
 
+### Link and variance functions
+
+The generalized linear model for any distribution in the exponential family can be described in terms of a link function and a variance function.
+
+For Poisson regression, the link function is
+
+$g(\mu)=ln(\mu)$
+
+and the variance function is
+
+$V(\mu)=\mu$
+
+These functions are derived from the form of the Poisson distribution, and the estimation methods in the generalized linear model depend only on the link and variance functions.
+
+In 1974, Robert Weddeburn developed a theory that would work for any link and variance function, even if it could not be derived from a particular probability distribution. His approach used the same principles as maximum likelihood, but it could not be called a likelihood approach since there was no probability distribution. He called his approach quasi-likelihood and showed that it created estimates with reasonable properties.
+
+### The quasi Poisson model
+
+If you modify the variance function of Poisson regression, from 
+
+$V(\mu)=\mu$
+
+to
+
+$V(\mu)=\phi \mu$
+
+and keep the link function the same, then you get a quasi Poisson model. There is no simple probability distribution that would produce this link and variance function, but it seems like a more reasonable approach, because there is more flexibility.
+
+For technical reasons, the parameter $\phi$ has to be greater than one, implying that the dispersion of the quasiPoisson model is greater than the dispersion of the Poissson model. The quasiPoisson model is often called an overdispersion model.
+
+There are two ways to estimate $\phi$. The first is very simple and direct.
+
+$\hat{\phi}= dispersion / df$
+
+The amount of overdispersion is equal to much much larger the dispersion is than the degrees of freedom.
+
+A second approach estimates $\phi$ iteratively along with the other terms in the regression model.
+
+One important limitation of the quasi likelihood approach is that there is no natural way to estimate AIC (Akaike's Information Criteria) an important statistic for comparing different models.
+
 <!---More--->
+
+### Start with Poisson regression
+
+It is easiest to understand the quasiPoisson model by comparing it to the Poisson model.
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual's mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
+
+```{r}
+pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
+summary(pois1)
+```
+
+The interpretation of the coefficients should be done after exponentiating their values.
+
+```{r}
+pois1 %>%
+  tidy %>%
+  mutate(lower_limit=estimate-1.96*std.error) %>%
+  mutate(upper_limit=estimate+1.96*std.error) %>%
+  select(term, estimate, lower_limit, upper_limit) %>%
+  mutate(estimate=exp(estimate)) %>%
+  mutate(lower_limit=exp(lower_limit)) %>%
+  mutate(upper_limit=exp(upper_limit)) -> pois1_coefficients
+pois1_coefficients
+```
+
+### Fitting a quasi-Poisson model
+
+```{r}
+quasi1 <- glm(art ~ fem + ment + phd + mar + kid5, family=quasipoisson, data = articles)
+summary(quasi1)
+```
+
+Notice that there is no value listed for AIC.
+
+```{r}
+quasi1 %>%
+  tidy %>%
+  mutate(lower_limit=estimate-1.96*std.error) %>%
+  mutate(upper_limit=estimate+1.96*std.error) %>%
+  select(term, estimate, lower_limit, upper_limit) %>%
+  mutate(estimate=exp(estimate)) %>%
+  mutate(lower_limit=exp(lower_limit)) %>%
+  mutate(upper_limit=exp(upper_limit)) -> quasi1_coefficients
+quasi1_coefficients
+```
+
+If you compare these confidence intervals to the earlier ones, they are wider. This reflects the overdispersion that is only accounted for properly by the quasi Poisson model.
 
 ### References
 
