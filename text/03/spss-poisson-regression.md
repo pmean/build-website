@@ -118,4 +118,7 @@ output: html_document
 > www.spss.com/tech/answer/details.cfm?tech\_tan\_id=100010963
 > www.spss.com/tech/answer/details.cfm?tech\_tan\_id=100011399
 
-You can find an [earlier version](http://www.pmean.com/03/poiss_syntax.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/03/poiss_syntax.html
+[sim2]: http://www.pmean.com/original_site.html

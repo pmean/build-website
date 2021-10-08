@@ -13,4 +13,7 @@ output: html_document
 
 <!---More--->
 
-You can find an [earlier version](http://www.pmean.com/03/diagnostic.html) of this page on my [original website](http://www.pmean.com/original_site.html). </a><strong>Sepember</strong></p>
+You can find an [earlier version][sim1] of this page on my [original website][sim2]. </a><strong>Sepember</strong></p>
+
+[sim1]: http://www.pmean.com/03/diagnostic.html
+[sim2]: http://www.pmean.com/original_site.html

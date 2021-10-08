@@ -16,8 +16,7 @@ I've heard a lot about accuracy problems with Microsoft Excel, but I'd like to s
 
 #### Dear Reader,
 
-> It takes a fairly extreme data set to show this, but Excel does indeed
-> have some problems with numerical accuracy.
+It takes a fairly extreme data set to show this, but Excel does indeed have some problems with numerical accuracy.
 
 I designed a simple benchmark data set that tests the accuracy of Analysis of Variance calculations. Some software, including Microsoft Excel will have problems for data that is **almost perfectly constant**. The benchmark data set is computed as
 
@@ -43,7 +42,7 @@ With this extreme value, Excel produces a **negative value** for MSTR (see above
 
 #### Download the spreadsheet yourself.
 
-You can [download the Excel spreadsheet](http://www.pmean.com/new-images/03/anova%20benchmark.xls) yourself. If you get different results using a different version of Excel, please let me know. These examples use Excel 2002.
+You can [download the Excel spreadsheet][exc1] yourself. If you get different results using a different version of Excel, please let me know. These examples use Excel 2002.
 
 #### Where the problem lies
 
@@ -63,3 +62,5 @@ You can find an [earlier version][sim1] of this page on my [original website][si
 
 [sim1]: http://www.pmean.com/03/accuracy.html
 [sim2]: http://www.pmean.com/original_site.html
+
+[exc1]: http://www.pmean.com/new-images/03/anova%20benchmark.xls

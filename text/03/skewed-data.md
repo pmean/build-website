@@ -29,4 +29,7 @@ greater than the mean. I think it is because of skewed data.*
 > deviation larger than the mean, minus two standard deviations would
 > put you quite a ways negative.
 
-You can find an [earlier version](http://www.pmean.com/03/skew.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/03/skew.html
+[sim2]: http://www.pmean.com/original_site.html
