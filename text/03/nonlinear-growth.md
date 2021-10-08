@@ -134,4 +134,7 @@ output: html_document
 > There is a good level of agreement between the growth model and the
 > data.
 
-You can find an [earlier version](http://www.pmean.com/03/nonlinear_growth.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/03/nonlinear_growth.html
+[sim2]: http://www.pmean.com/original_site.html

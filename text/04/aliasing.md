@@ -74,4 +74,8 @@ of shading at the edges.
 -   [diwww.epfl.ch/w3lsp/books/moire/](http://diwww.epfl.ch/w3lsp/books/moire/)
 -   [www.wfu.edu/~matthews/misc/DigPhotog/alias/](http://www.wfu.edu/~matthews/misc/DigPhotog/alias/)
 
-You can find an [earlier version](http://www.pmean.com/04/aliasing.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/04/aliasing.html
+[sim2]: http://www.pmean.com/original_site.html
+

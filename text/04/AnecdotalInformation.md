@@ -37,4 +37,7 @@ Straus MA, Sugarman DB, Giles-Sims J. Arch Pediatr Adolesc Med. 1997
 Aug;151(8):761-7.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=9265876)
 
-You can find an [earlier version](http://www.pmean.com/04/AnecdotalInformation.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/04/AnecdotalInformation.html
+[sim2]: http://www.pmean.com/original_site.html

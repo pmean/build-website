@@ -50,4 +50,7 @@ I wouldn't count on it, though. If you want to improve your chances of publishin
 
 If you asked a group of statisticians how many of them have published results when they knew that the sample size was way too small, almost every hand would go up, I suspect. I've done it more times than I want to admit. Just be sure to scale back your expectations, limit the complexity of any models, and be honest about the limitations of your sample size.
 
-You can find an [earlier version](http://www.pmean.com/03/overfit.html) of this page on my [original website](http://www.pmean.com/original_site.html). StATS: SPSS syntax for Poisson Regression
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/03/overfit.html
+[sim2]: http://www.pmean.com/original_site.html

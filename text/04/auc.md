@@ -33,4 +33,7 @@ output: html_document
 > but the evenness of the intervals strikes me as rather arbitrary.
 > I\'ll keep looking.
 
-You can find an [earlier version](http://www.pmean.com/04/auc.html) of this page on my [original website](http://www.pmean.com/original_site.html). Evaluating the AUC for an ROC curve
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/04/auc.html
+[sim2]: http://www.pmean.com/original_site.html
