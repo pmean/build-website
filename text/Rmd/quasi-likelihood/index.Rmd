@@ -22,9 +22,40 @@ suppressMessages(suppressWarnings(library(magrittr)))
 
 ### Link and variance functions
 
-The generalized linear model for any distribution in the exponential family can be described in terms of a link function and a variance function.
+A distribution is said to be in the exponential family
+
+$ln f(y, \theta)=d(\theta)e(y)+g(\theta)+h(y)$
+
+but sometimes this is rewritten in the form
+
+$ln f(y, \theta)=\frac{\theta y+b(\theta)}{a(\phi)}+c(y, \phi)$
+
+where $\phi$ is a dispersion or scale parameter. This is called the canonical form. There are names for these parameters and functions.
+
++ $\theta$ is the natural parameter,
++ $\phi$ is the dispersion parameter,
++ $a(\ ) is the variance function, and
++ $g(\ ) = b'(\ )^{-1} is the link function.
+
+If you also define 
+
+$\mu=E[Y]$
+
+then the link function, g, and its inverse, b, define how the regression model works.
 
 For Poisson regression, the link function is
+
+$ln(f(y, \lambda) = ln(\frac{\lambda^y e^{-\lambda}}{y!})=\lambda ln(\lambda)-\lambda-ln(y!)$
+
+To write this in the canonical form, you need to define the natural parameter as
+
+$\theta=ln(\lambda)$
+
+and
+
+$a(\phi)=1$
+
+The link function is
 
 $g(\mu)=ln(\mu)$
 
