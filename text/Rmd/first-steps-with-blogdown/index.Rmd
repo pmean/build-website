@@ -26,25 +26,35 @@ I found using blogdown to be difficult because I am an incurable tinkerer, and m
 
 So even though I already had around 1,600 web pages, I created a new project and named it b01. That didn't work out, so I went to b02 and b03, befure finally getting things right with b04.
 
-![Dialog box for new project](first-steps-with-blogdown-01.png)
+![Dialog box for new project](http://www.pmean.com/new-images/21/first-steps-with-blogdown-01.png)
 
 I made a conscious choice to avoid version control, at least at first. I've had some issues with earlier attempts to work with blogdown and version control at the same time. Rather than wrestle with both simultaneously, I want a new project rather than a project based on version control. Later I might recognize that I was being too careful here, but for now the philosophy is "baby steps."
 
-![Dialog box for new project](first-steps-with-blogdown-02.png)
+![Dialog box for new project](http://www.pmean.com/new-images/21/first-steps-with-blogdown-02.png)
 
 There's another tempting option dangled in front of you with the second dialog box. You can specify the project type here and R Studio has "Website using blogdown" as one of the choices. This could be a big time saver, but I worry that R Studio may make some default choices that I don't like or that don't work on my computer. I also dislike some of the work being done behind the scenes. So again, I recognize this as a step made too cautious, but I made this a plain vanilla "New Project."
 
-![Dialog box for project type](first-steps-with-blogdown-03.png)
+![Dialog box for project type](http://www.pmean.com/new-images/21/first-steps-with-blogdown-03.png)
 
-The thid dialog box tells you where to place the new project and you should know what to do from this point.
+The third dialog box tells you where to place the new project and you should know what to do from this point.
 
 ### Step two: Create a new site
 
-If you haven't done so already, install the blogdown package. You need to make a choice here. Hugo has a variety of themes that control what features your website will have along with the general appearance of the site.
+If you haven't done so already, install the blogdown package. 
+
+If you do not already have hugo installed on your computer, there is a function inside of the blogdown library that will do this for you.
+
+```{}
+blogdown::install_hugo()
+```
+
+There's no need to reinstall hugo unless your version of hugo is old.
+
+You need to make a choice here. Hugo has a variety of themes that control what features your website will have along with the general appearance of the site.
 
 The blogdown book likes yihui/hugo-lithium, Allison Hill's blog post likes wowchemy/starter-academic. There are hundreds of themes, developed by a wide range of people with different interests and different needs. Do an Internet search on "Hugo themes" to ge a feel for what these systems offer.
 
-I tried both yihui/hugo-lithium and wowchemy/starter-academic. There were things I liked a lot about both themes, but there were also things I really hated. By the way, you can easily swithc between themes, but I made a conscious choice: better to restart at Square One. A new theme meant a new project. Again, perhaps overly cautious.
+I tried both yihui/hugo-lithium and wowchemy/starter-academic. There were things I liked a lot about both themes, but there were also things I really hated. By the way, you can easily switch between themes, but I made a conscious choice: better to restart at Square One. A new theme meant a new project. Again, perhaps overly cautious.
 
 I finally settled on a theme that I liked: yihui/hugo-xmin. This is a minimal theme with not that many features. But it still looks good.
 
