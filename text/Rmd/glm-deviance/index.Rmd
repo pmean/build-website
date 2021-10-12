@@ -19,7 +19,109 @@ suppressMessages(suppressWarnings(library(ggplot2)))
 suppressMessages(suppressWarnings(library(magrittr)))
 ```
 
-<!---More--->
+### Maximum likelihood equations for a generalized linear model
+
+The maximum likelihood equations are pretty easy to compute.
+
+$L(y, \theta)=\prod_i f(y, \theta)$
+
+$ln L(y, \theta)=\sum_i ln(f(y, \theta)$
+
+If we write the distribution in the canonical form
+
+$ln f(y, \theta)=\frac{\theta y+b(\theta)}{a(\phi)}+c(y, \phi)$ 
+
+which means that 
+
+$ln L(y, \theta)=\sum_i \frac{\theta y}{a(\phi)} + \sum_i \frac{b(\theta)}{a{\phi}}+\sum_i c(y_i, \theta)$
+
+For a Poisson regression model,
+
+$ln L(y, \theta)=\sum_i \theta y_i + \sum_i e^\theta - \sum_i ln(y_i!)$
+
+The deviance is defined as 
+
+$D=-2(ln L(y, y) - ln L(y, \hat \theta))$
+
+which in the Poisson regression model equals
+
+$D=2(\sum_i y_i(y_i-\hat \theta)+e^{y_i}-e^{\hat \theta})$
+
+In terms of $\hat \theta$, this converts to
+
+$D=2 \sum_i (y_i ln(y_i/ \hat\theta)-(y_i-\hat\lambda))$
+
+You want the deviance to as small as possible. So any term inside this sum that is big represents a data value that is contributing a lot to lack of fit.
+
+The individual terms in this sum are all positive, so we have to account for whether the lack of fit is due to underprediction or overprediction. So the deviance residual is defines as 
+
+$sign(y_i-\hat\theta)\sqrt{2(y_i ln(y_i / \hat\theta)- (y_i-\hat\theta))}$
+
+### Computing deviance residuals in R
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual's mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
+
+```{r}
+pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
+summary(pois1)
+
+rd <- articles
+rd$r <- resid(pois1, type="deviance")
+rd$p <- predict(pois1, type="response")
+```
+
+```{r}
+ggplot(rd, aes(r)) +
+  geom_histogram(bin_width=0.2)
+```
+
+```{r}
+ggplot(rd, aes(p, r)) +
+  geom_point()
+```
+
+```{r}
+ggplot(rd, aes(fem, r)) +
+  geom_point()
+```
+
+
+```{r}
+ggplot(rd, aes(ment, r)) +
+  geom_point()
+```
+
+```{r}
+ggplot(rd, aes(phd, r)) +
+  geom_point()
+```
+
+```{r}
+ggplot(rd, aes(mar, r)) +
+  geom_point()
+```
+
+```{r}
+ggplot(rd, aes(kid5, r)) +
+  geom_point()
+```
+
 
 ### References
 
@@ -35,3 +137,4 @@ Kenneth Tay. What is deviance? Statistical Odds and Ends blog, 2019-03-27. Avail
 [port1]: https://bookdown.org/egarpor/PM-UC3M/glm-deviance.html
 [rodr1]: https://data.princeton.edu/wws509/notes/a2.pdf
 [tay1]: https://statisticaloddsandends.wordpress.com/2019/03/27/what-is-deviance/
+https://stats.stackexchange.com/questions/40876/what-is-the-difference-between-a-link-function-and-a-canonical-link-function
