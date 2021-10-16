@@ -15,7 +15,23 @@ barely noticeable. But when you try to fit too many lines or curves
 together, aliasing can create some false and artificial patterns. I
 wrote a simple program in R to illustrate this.
 
-`co <- c("black","white")   f.g <- function(n) {      par(mar=rep(0,4))      plot(c(-1,1),c(-1,1),type="n",axes=F,xlab=" ",ylab=" ")      d1 <- c(0,1,0,-1)      d2 <- c(-1,0,1,0)      for (i in n:1) {          polygon(d1*(i/n),d2*sqrt(i/n),density=-1,              col=co[1+((n-i) %%       2)],border=NA)      }      text(0.8,0.8,labels=n,cex=1.5)   }      bmp(filename="diamond%03d.bmp",width=60,height=60)      for (i in 1:99) {f.g(i)}      dev.off()`
+```{}
+co <- c("black","white")
+f.g <- function(n) {
+  par(mar=rep(0,4))
+  plot(c(-1,1),c(-1,1),type="n",axes=F,xlab=" ",ylab=" ")
+  d1 <- c(0,1,0,-1)
+  d2 <- c(-1,0,1,0)
+  for (i in n:1) {
+    polygon(d1*(i/n),d2*sqrt(i/n),density=-1,
+      col=co[1+((n-i) %%       2)],border=NA)
+  }
+  text(0.8,0.8,labels=n,cex=1.5)
+}
+bmp(filename="diamond%03d.bmp",width=60,height=60)
+for (i in 1:99) {f.g(i)}
+dev.off()`
+```
 
 This program creates a series of diamonds superimposed on one another
 alternating in color between black and white. I placed 99 of these
