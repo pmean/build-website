@@ -88,6 +88,16 @@ Your entire website now appears in
 blogdown::serve_site()
 ```
 
+![Preview website main page](http://www.pmean.com/new-images/21/first-steps-with-blogdown-04.png)
+![Preview website main page](http://www.pmean.com/new-images/21/first-steps-with-blogdown-05.png)
+
+![Preview website main page](http://www.pmean.com/new-images/21/first-steps-with-blogdown-06.png)
+
+![Preview website main page](http://www.pmean.com/new-images/21/first-steps-with-blogdown-07.png)
+
+
+
+
 ### Step four: Create a new post
 
 ### Step five: Tinker
