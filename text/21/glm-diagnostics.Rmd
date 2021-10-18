@@ -1,0 +1,329 @@
+---
+title: "Diagnostics for a generalized linear model"
+author: "Steve Simon"
+source: "New"
+date: "2021-10-18"
+categories:
+- Blog post
+tags:
+- Generalized linear model
+output: html_document
+---
+
+There are a broad range of diagnostic methods (mostly graphical) that can help you decide from among a dizzying array of alternative models for count data. The most important consideration is to start at the shallow end of the pool with the simplest approaches. Don't jump in at the deep end and try something really complex before you've had the chance to look at simpler models, even if you know they are overly simplistic.
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(pscl)))
+```
+
+### The dataset used in this example
+
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download.
+
+```{r}
+fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
+articles <- read.csv(fn)
+head(articles)
+```
+
+The variables are
++ gender (fem),
++ marital status (mar),
++ number of children (kid5),
++ prestige of graduate program (phd), 
++ the number of articles published by the individual's mentor (ment)
++ the number of articles published by the scientist (art: the outcome).
+
+### Histogram of outcome variable
+
+Look at the possible values for your outcome variable, which is usually a count. If you have rate data, do a histogram both for counts and rates.
+
+```{r}
+ggplot(articles, aes(art)) + 
+  geom_histogram(binwidth=1, color="black", fill="white")
+```
+
+Compare this to a bar chart of Poisson probabilities. The outcome variable from a Poisson regression model does not need to follow a single simple Poisson set of probabilities. It is more likely a mixture of different Poisson variables depending on the covariate pattern. Nevertheless, it can't hurt to look at the Poisson probabilities, as long as you don't get too concerned about discrepancies between the actual data and the Poisson probabilities.
+
+```{r}
+data.frame(x=0:max(articles$art)) %>%
+  mutate(p=dpois(x, lambda=mean(articles$art))) %>%
+  ggplot(aes(factor(x), p)) +
+    geom_col(color="black", fill="white")
+```
+
+Here there seems to be a disparity at zero, which may (or may not) indicate the need for a zero-inflated model.
+
+### Descriptive statistics on indepdent variables
+
+It helps to know the general descriptive statistics (means, standard deviations, percentages) for each of the independent variables.
+
+```{r}
+articles %>%
+  group_by(fem) %>%
+  summarize(n=n())
+```
+
+```{r}
+quantile(articles$ment)
+```
+
+```{r}
+quantile(articles$phd)
+```
+
+```{r}
+articles %>%
+  group_by(mar) %>%
+  summarize(n=n())
+```
+
+```{r}
+articles %>%
+  group_by(kid5) %>%
+  summarize(n=n())
+```
+
+The wide ranges for ment and phd may make it difficult to interpret. A simple approach is to scale them to the interval 0 to 1.
+
+```{r}
+articles %>%
+  mutate(ment=(ment-min(ment))/(max(ment)-min(ment))) %>%
+  mutate(phd=(phd-min(phd))/(max(phd)-min(phd))) -> articles_scaled
+```
+
+### Bivariate plots
+
+Although you are going to fit multiple independent variables, it does not hurt to look at the bivariate relationships first. A variable that looks important from a bivariate perspective, may be unimportant from the multivariate perspective and vice versa. So don't read too much into these plots. It is intended to get you familiar with trends and patterns that might (or might not) show up in more complex models.
+
+Use boxplots when the independent variable is categorical and scatterplots when the independent variable is continuous.
+
+```{r}
+ggplot(articles, aes(factor(fem), art)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(articles, aes(ment, art)) +
+  geom_point() + 
+  geom_smooth()
+```
+
+```{r}
+ggplot(articles, aes(phd, art)) +
+  geom_point() + 
+  geom_smooth()
+```
+
+```{r}
+ggplot(articles, aes(factor(mar), art)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(articles, aes(factor(kid5), art)) +
+  geom_boxplot()
+```
+
+There aren't any huge trends here. It looks like there might not be much going on here at all. If there are differences, they seem to show up in the values above the 75th percentile. 
+
+The one cause for early concern is that the effect of ment seems to level off after a certain point.
+
+### Fit simple models first
+
+```{r}
+pois_fem <- glm(art ~ fem, family=poisson, data = articles_scaled)
+summary(pois_fem)
+```
+
+```{r}
+pois_ment <- glm(art ~ ment, family=poisson, data = articles_scaled)
+summary(pois_ment)
+```
+
+```{r}
+pois_phd <- glm(art ~ phd, family=poisson, data = articles_scaled)
+summary(pois_phd)
+```
+
+```{r}
+pois_mar <- glm(art ~ mar, family=poisson, data = articles_scaled)
+summary(pois_mar)
+```
+
+```{r}
+pois_kid5 <- glm(art ~ kid5, family=poisson, data = articles_scaled)
+summary(pois_kid5)
+```
+
+For all of these models, the deviance is much greater than the degrees of freedom, indicating a poor fit. This could be failure to include all the variables in a multivariate sense or a problem with the underlying Poisson model.
+
+Don't put too much stock in the p-values just yet, but several of them are small. This may change when we look at the independent variables in combination.
+
+### Fit graually more complex models
+
+```{r}
+pois_all_ivs <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles_scaled)
+summary(pois_all_ivs)
+```
+
+```{r}
+tidy(pois_fem) %>%
+  bind_rows(tidy(pois_ment)) %>%
+  bind_rows(tidy(pois_phd)) %>%
+  bind_rows(tidy(pois_mar)) %>%
+  bind_rows(tidy(pois_kid5)) %>%
+  filter(term != "(Intercept)") %>%
+  mutate(unadjusted_rate_ratio=round(exp(estimate), 2)) %>%
+  select(term, unadjusted_rate_ratio) -> pois_crude
+
+tidy(pois_all_ivs) %>%
+  filter(term != "(Intercept)") %>%
+  mutate(adjusted_rate_ratio=round(exp(estimate), 2)) %>%
+  select(term, adjusted_rate_ratio) -> pois_adjust
+
+pois_crude %>%
+  full_join(pois_adjust)
+
+```
+
+### Examine residuals
+
+A good general plot is fitted (predicted) values versus residuals. Since the fitted value is a composite of all the independent variables, it is likely to show unusual behavior if there are issues involving any of the independent variables.
+
+An ideal pattern would be a random scatter of points spread across all regions of the graph. A curvilinear pattern (e.g., high in the middle, low at either extreme) or a fanning out pattern (e.g., more variation on the right side of the graph than the left) is indication that there are unusual features in the data that are not fully captured by the current model.
+
+```{r}
+r_pois <- augment(pois_all_ivs, articles_scaled, type.predict="response", type.residuals="deviance")
+ggplot(r_pois, aes(.fitted, .resid)) +
+  geom_point() +
+  geom_smooth()
+```
+
+Clearly there is something unusual going on with the largest fitted value.
+
+```{r}
+r_pois %>%
+  filter(.fitted > 7) %>%
+  data.frame
+```
+
+This appears to be the subject where the scaled value for ment equals 1. In other words, the highest possible value for ment.
+
+You should also plot the residuals versus every independent variable, although the plots versus binary independent variables are unlikely to show anything interesting.
+
+```{r}
+ggplot(r_pois, aes(factor(fem), .resid)) + 
+  geom_boxplot()
+```
+
+```{r}
+ggplot(r_pois, aes(ment, .resid)) + 
+  geom_point() +
+  geom_smooth()
+```
+
+```{r}
+ggplot(r_pois, aes(phd, .resid)) + 
+  geom_point() +
+  geom_smooth()
+```
+
+```{r}
+ggplot(r_pois, aes(factor(mar), .resid)) + 
+  geom_boxplot()
+```
+
+```{r}
+ggplot(r_pois, aes(factor(kid5), .resid)) + 
+  geom_boxplot()
+```
+
+Perhaps, the value of a mentor is good only to a point and anything after offers no additional help. Let's compute a new value for ment where any value above 40 is set equal to 40.
+
+```{r}
+articles %>%
+  mutate(ment=pmin(40, ment)) %>% 
+  mutate(ment=(ment-min(ment))/(max(ment)-min(ment))) %>%
+  mutate(phd=(phd-min(phd))/(max(phd)-min(phd))) -> articles_rescaled
+pois_rescaled <- 
+  glm(
+    art ~ fem + ment + phd + mar + kid5, 
+      family=poisson, 
+        data = articles_rescaled)
+r_rescaled <- 
+  augment(
+    pois_rescaled, 
+      articles_rescaled, 
+        type.predict="response", 
+          type.residuals="deviance") 
+ggplot(r_rescaled, aes(.fitted, .resid)) +
+  geom_point() +
+  geom_smooth()
+ggplot(r_rescaled, aes(ment, .resid)) +
+  geom_point() +
+  geom_smooth()
+```
+
+### Negative binomial model
+
+```{r}
+library(MASS)
+nb1 <- glm.nb(art ~ fem + ment + phd + mar + kid5, data = articles_rescaled)
+summary(pois_rescaled)
+summary(nb1)
+```
+
+### Zero inflated model
+
+```{r}
+zip1 <- 
+  zeroinfl(
+    art ~ fem + ment + phd + mar + kid5 | 
+      1, 
+        dist="poisson", 
+          data = articles_rescaled)
+summary(zip1)
+```
+
+```{r}
+zip2 <- 
+  zeroinfl(
+    art ~ fem + ment + phd + mar + kid5 | 
+      fem + ment + phd + mar + kid5, 
+        dist="poisson",
+          data = articles_rescaled)
+summary(zip2)
+```
+
+```{r}
+zip3 <- 
+  zeroinfl(
+    art ~ fem + ment + phd + mar + kid5 | 
+      ment, 
+        dist="poisson",
+          data = articles_rescaled)
+summary(zip3)
+```
+
+```{r}
+zinb <- 
+  zeroinfl(
+    art ~ fem + ment + phd + mar + kid5 | 
+      ment, 
+        dist="negbin",
+          data = articles_rescaled)
+summary(zinb)
+```
+
+### Comparing competing models
+
+The AIC statistic is useful for comparing models, but it is not produced automatically for negative binomial regression or the zero-inflated models. It requires you to pull the individual components from the 
+
+```{r}
+save.image(file="glm_diagnostics.RData")
+```
