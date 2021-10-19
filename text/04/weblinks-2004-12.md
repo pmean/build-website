@@ -1,7 +1,7 @@
 ---
-title: Subgroup analysis 
+title: Weblinks for December 2004
 author: Steve Simon
-date: 2004-12-21
+date: 2004-12-28
 categories:
 - Blog post
 tags:
