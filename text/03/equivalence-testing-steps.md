@@ -9,15 +9,13 @@ tags:
 - Hypothesis testing 
 output: html_document
 ---
-There are three approaches that are used to demonstrate equivalence,
-each with its advantages and disadvantages.
+There are three approaches that are used to demonstrate equivalence, each with its advantages and disadvantages.
 
 1.  Establish adequate power
 2.  Report confidence intervals
 3.  Perform two one-sided tests
 
-Each of these approaches requires that you define a range of clinical
-indifference first.
+Each of these approaches requires that you define a range of clinical indifference first.
 
 ### Defining a range of clinical indifference
 

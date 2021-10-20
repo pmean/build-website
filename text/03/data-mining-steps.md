@@ -11,10 +11,7 @@ tags:
 output: html_document
 ---
 
-I'm not an expert on data mining, but I wanted to outline some of the
-basic issues associated with data mining problems. This material is
-based largely on notes that I took during a training class on data
-mining taught by Richard De Veaux.
+I'm not an expert on data mining, but I wanted to outline some of the basic issues associated with data mining problems. This material is based largely on notes that I took during a training class on data mining taught by Richard De Veaux.
 
 <blockquote>
 
