@@ -1,7 +1,7 @@
 ---
-title: Subgroup Analysis
+title: Testing for side effects
 author: Steve Simon
-date: 2004-12-24
+date: 2004-12-29
 categories:
 - Blog post
 tags:
@@ -13,4 +13,4 @@ output: html_document
 
 <!---More--->
 
-You can find an [earlier version](http://www.pmean.com/04/SubgroupAnalysis.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version](http://www.pmean.com/04/SideEffects.html) of this page on my [original website](http://www.pmean.com/original_site.html).
