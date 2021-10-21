@@ -245,7 +245,7 @@ end.nm  <- c("f","m")
 text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
 ```
 
-![](http://www.pmean.com/images/images/14/cox-regression01.png)
+![](http://www.pmean.com/new-images/14/cox-regression01.png)
 
 
 The Cox model works fairly similarly for continuous independent
@@ -356,7 +356,7 @@ end.nm  <- c(30,40,50,60)
 text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
 ```
 
-![](http://www.pmean.com/images/images/14/cox-regression02.png)
+![](http://www.pmean.com/new-images/14/cox-regression02.png)
 
 
 

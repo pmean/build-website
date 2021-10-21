@@ -266,7 +266,7 @@ plot(h5sqft,h5$price)
 lines(lowess(h5price~h5$sqft))
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r01.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r01.png)
 
 
 
@@ -276,7 +276,7 @@ sb <- is.finite(h5age)
 lines(lowess(h5price[sb]~h5$age[sb]))
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r02.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r02.png)
 
 
 
@@ -316,7 +316,7 @@ categorical variable is a boxplot.
 boxplot(h5price~h5$feats)
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r03.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r03.png)
 
 
 
@@ -324,7 +324,7 @@ boxplot(h5price~h5$feats)
 boxplot(h5price~h5$ne)
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r04.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r04.png)
 
 
 
@@ -332,7 +332,7 @@ boxplot(h5price~h5$ne)
 boxplot(h5price~h5$cust)
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r05.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r05.png)
 
 
 
@@ -340,7 +340,7 @@ boxplot(h5price~h5$cust)
 boxplot(h5price~h5$cor)
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r06.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r06.png)
 
 
 
@@ -352,7 +352,7 @@ plot(h5price,h5$ne)
 lines(lowess(h5ne~h5$price))
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r07.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r07.png)
 
 
 
@@ -361,7 +361,7 @@ plot(h5price,h5$cust)
 lines(lowess(h5cust~h5$price))
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r08.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r08.png)
 
 
 
@@ -370,7 +370,7 @@ plot(h5price,h5$cor)
 lines(lowess(h5cor~h5$price))
 ```
 
-![](http://www.pmean.com/images/images/15/relationships-in-r09.png)
+![](http://www.pmean.com/new-images/15/relationships-in-r09.png)
 
 
 

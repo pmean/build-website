@@ -24,7 +24,7 @@ Statistics.
 American Statistical Association. Educators |This is Statistics.
 <http://thisisstatistics.org/educators/>.
 
-![](http://www.pmean.com/images/images/15/promotional-toolkit01.png)
+![](http://www.pmean.com/new-images/15/promotional-toolkit01.png)
 
 
 

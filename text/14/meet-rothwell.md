@@ -21,7 +21,7 @@ Amstat News. "Meet Charles J. Rothwell, Director, National Center for
 Health Statistics." March 1, 2014. Available at:
 <http://magazine.amstat.org/blog/2014/03/01/rothwell/>.
 
-![](http://www.pmean.com/images/images/14/meet-rothwell01.png)
+![](http://www.pmean.com/new-images/14/meet-rothwell01.png)
 
 
 

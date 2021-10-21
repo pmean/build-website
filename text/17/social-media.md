@@ -21,7 +21,7 @@ Sree Sreenivasan. How to Use Social Media in Your Career. The New York
 Times (no date). Available at
 <https://www.nytimes.com/guides/business/social-media-for-career-and-business>.
 
-![](http://www.pmean.com/images/images/17/social-media01.png)
+![](http://www.pmean.com/new-images/17/social-media01.png)
 
 
 

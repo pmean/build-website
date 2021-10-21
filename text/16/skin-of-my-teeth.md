@@ -66,7 +66,7 @@ early December.
 Now it's time to start on income taxes. I got a six month extension, but
 that expires on October 15.
 
-![](http://www.pmean.com/images/images/16/skin-of-my-teeth01.png)
+![](http://www.pmean.com/new-images/16/skin-of-my-teeth01.png)
 
 
 

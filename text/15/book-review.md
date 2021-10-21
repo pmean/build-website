@@ -30,7 +30,7 @@ the Data Really Tell Us? MAA Reviews (2006
 - Available at
 <http://www.maa.org/press/maa-reviews/statistical-evidence-in-medical-trials-what-do-the-data-really-tell-us>.
 
-![](http://www.pmean.com/images/images/15/book-review01.png)
+![](http://www.pmean.com/new-images/15/book-review01.png)
 
 
 

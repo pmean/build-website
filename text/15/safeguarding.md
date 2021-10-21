@@ -34,7 +34,7 @@ Rates"
 Available at
 <http://www.atsjournals.org/doi/full/10.1164/ajrccm.164.2.2011028>.
 
-![](http://www.pmean.com/images/images/15/safeguarding01.png)
+![](http://www.pmean.com/new-images/15/safeguarding01.png)
 
 
 

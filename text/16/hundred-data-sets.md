@@ -20,7 +20,7 @@ interested in text data.
 
 Robb Seaton. 100+ Interesting Data Sets for Statistics.
 
-![](http://www.pmean.com/images/images/16/hundred-data-sets01.png)
+![](http://www.pmean.com/new-images/16/hundred-data-sets01.png)
 
 
 

@@ -204,7 +204,7 @@ First
 
     > plot(survfit(p.surv~1))
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier01.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier01.png)
 
 
 
@@ -268,7 +268,7 @@ for (v in v.cat) {
     ## 158 154 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier02.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier02.png)
 
 
 
@@ -278,7 +278,7 @@ for (v in v.cat) {
     ##  36 276 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier03.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier03.png)
 
 
 
@@ -288,7 +288,7 @@ for (v in v.cat) {
     ## 288  24 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier04.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier04.png)
 
 
 
@@ -298,7 +298,7 @@ for (v in v.cat) {
     ## 152 160 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier05.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier05.png)
 
 
 
@@ -308,7 +308,7 @@ for (v in v.cat) {
     ## 222  90 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier06.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier06.png)
 
 
 
@@ -318,7 +318,7 @@ for (v in v.cat) {
     ## 263  29  20 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier07.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier07.png)
 
 
 
@@ -328,7 +328,7 @@ for (v in v.cat) {
     ##  16  67 120 109 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier08.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier08.png)
 
 
 
@@ -344,7 +344,7 @@ for (v in v.con) {
     ##          78          78          78          78 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier09.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier09.png)
 
 
 
@@ -354,7 +354,7 @@ for (v in v.con) {
     ##          90          66          78          78 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier10.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier10.png)
 
 
 
@@ -364,7 +364,7 @@ for (v in v.con) {
     ##             71             71             72             70 
     ## [1] "There are 28 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier11.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier11.png)
 
 
 
@@ -374,7 +374,7 @@ for (v in v.con) {
     ##          81          76          81          74 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier12.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier12.png)
 
 
 
@@ -384,7 +384,7 @@ for (v in v.con) {
     ##        78        80        75        77 
     ## [1] "There are 2 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier13.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier13.png)
 
 
 
@@ -396,7 +396,7 @@ for (v in v.con) {
     ##                  78 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier14.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier14.png)
 
 
 
@@ -406,7 +406,7 @@ for (v in v.con) {
     ##         79         78         79         76 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier15.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier15.png)
 
 
 
@@ -416,7 +416,7 @@ for (v in v.con) {
     ##         71         71         70         70 
     ## [1] "There are 30 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier16.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier16.png)
 
 
 
@@ -426,7 +426,7 @@ for (v in v.con) {
     ##        77        77        77        77 
     ## [1] "There are 4 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier17.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier17.png)
 
 
 
@@ -436,7 +436,7 @@ for (v in v.con) {
     ##          89          85          61          77 
     ## [1] "There are 0 missing values."
 
-![](http://www.pmean.com/images/images/14/more-kaplan-meier18.png)
+![](http://www.pmean.com/new-images/14/more-kaplan-meier18.png)
 
 
 

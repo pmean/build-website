@@ -23,7 +23,7 @@ Graphs: Time for a New Data Presentation Paradigm. PLoS Biol.
 2015;13(4):e1002128. doi:10.1371/journal.pbio.1002128. Available at
 [journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128).
 
-![](http://www.pmean.com/images/images/15/data-presentation01.png)
+![](http://www.pmean.com/new-images/15/data-presentation01.png)
 
 
 

@@ -67,7 +67,7 @@ that NIH sees the need for more work.
 You can view the full RFA at
 <http://grants.nih.gov/grants/guide/rfa-files/RFA-HG-14-020.html>.
 
-![](http://www.pmean.com/images/images/14/nih-big-data01.png)
+![](http://www.pmean.com/new-images/14/nih-big-data01.png)
 
 
 

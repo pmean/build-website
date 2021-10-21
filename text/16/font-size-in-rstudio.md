@@ -22,7 +22,7 @@ Go to the menu in RStudio and click on Tools and then Global Options.
 Select the Appearance tab on the left. Again buried in the middle of
 things is the font size.
 
-![](http://www.pmean.com/images/images/16/font-size-in-rstudio01.png)
+![](http://www.pmean.com/new-images/16/font-size-in-rstudio01.png)
 
 
 

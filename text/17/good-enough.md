@@ -33,7 +33,7 @@ Good enough practices in scientific computing. PLoS Comput Biol 13(6):
 e1005510. Available at
 <https://doi.org/10.1371/journal.pcbi.1005510>.
 
-![](http://www.pmean.com/images/images/17/good-enough01.png)
+![](http://www.pmean.com/new-images/17/good-enough01.png)
 
 
 

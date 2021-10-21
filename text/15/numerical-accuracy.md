@@ -57,6 +57,6 @@ microcomputers. Computational Statistics and Data Analysis 1985: 3;
 Here's a picture of Dr. Lesage, from his website at Texas State
 University -- San Marcos.
 
-![jim_new-1.jpeg not found.](http://www.pmean.com/images/images/15/numerical-accuracy01.png)
+![jim_new-1.jpeg not found.](http://www.pmean.com/new-images/15/numerical-accuracy01.png)
 
 

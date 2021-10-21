@@ -23,7 +23,7 @@ Jeffrey Witmer, Beverly Wood. Guidelines for Assessment and Instruction
 in Statistics Education College Report. Published July 2016. Available
 at: <http://www.amstat.org/education/gaise>.
 
-![](http://www.pmean.com/images/images/17/statistics-education01.png)
+![](http://www.pmean.com/new-images/17/statistics-education01.png)
 
 
 

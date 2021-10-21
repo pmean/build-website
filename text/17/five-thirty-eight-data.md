@@ -21,7 +21,7 @@ examples.
 Five Thirty Eight Data. Available at
 [https://github.com/fivethirtyeight/data](https://github.com/fivethirtyeight/data').
 
-![](http://www.pmean.com/images/images/17/five-thirty-eight-data01.png)
+![](http://www.pmean.com/new-images/17/five-thirty-eight-data01.png)
 
 
 

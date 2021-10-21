@@ -19,7 +19,7 @@ analysis, etc.
 
 Kaggle data. Available at <https://www.kaggle.com/datasets>.
 
-![](http://www.pmean.com/images/images/17/kaggle-data01.png)
+![](http://www.pmean.com/new-images/17/kaggle-data01.png)
 
 
 

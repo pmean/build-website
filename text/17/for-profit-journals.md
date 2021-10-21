@@ -59,6 +59,6 @@ Stephen Buryani. Is the staggeringly profitable business of scientific
 publishing bad for science? The Guardian, June 27, 2017. Available at
 <https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science>.
 
-![](http://www.pmean.com/images/images/17/for-profit-journals01.png)
+![](http://www.pmean.com/new-images/17/for-profit-journals01.png)
 
 

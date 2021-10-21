@@ -24,7 +24,7 @@ models.
 Bristol University | Centre for Multilevel Modelling | MLPowSim.
 Available at: <http://www.bristol.ac.uk/cmm/software/mlpowsim/>
 
-![](http://www.pmean.com/images/images/14/mlpowsim01.png)
+![](http://www.pmean.com/new-images/14/mlpowsim01.png)
 
 
 

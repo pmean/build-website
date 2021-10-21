@@ -30,7 +30,7 @@ a refusal, who refuses, refusal aversion and conversion. Discussion of
 rights of respondents. Available at
 <http://www.aapor.org/AAPORKentico/Communications/Press-Releases/Report-on-Survey-Participation-Refusals.aspx>.
 
-![](http://www.pmean.com/images/images/14/survey-refusals01.png)
+![](http://www.pmean.com/new-images/14/survey-refusals01.png)
 
 
 

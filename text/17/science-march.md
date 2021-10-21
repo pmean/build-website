@@ -19,6 +19,6 @@ Siobhan Tompson
 
 <!---More--->
 
-![Double-blind%20Tweet.jpg%3b not found.](http://www.pmean.com/images/images/17/science-march01.png)
+![Double-blind%20Tweet.jpg%3b not found.](http://www.pmean.com/new-images/17/science-march01.png)
 
 

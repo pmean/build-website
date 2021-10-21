@@ -22,7 +22,7 @@ Isabella Ghement. Communicating Statistical Findings to Consulting
 Clients Operating in a Decisionmaking Climate: Best and Worst Practices.
 Available at <http://www.ghement.ca/jsm2014.html>
 
-![](http://www.pmean.com/images/images/14/communicating-statistical-findings01.png)
+![](http://www.pmean.com/new-images/14/communicating-statistical-findings01.png)
 
 
 

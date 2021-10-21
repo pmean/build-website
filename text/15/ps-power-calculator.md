@@ -23,7 +23,7 @@ quality.
 Dupont WD, Plummer WD. PS: Power and Sample Size Calculation. Available
 at <http://biostat.mc.vanderbilt.edu/wiki/Main/PowerSampleSize>.
 
-![](http://www.pmean.com/images/images/15/ps-power-calculator01.png)
+![](http://www.pmean.com/new-images/15/ps-power-calculator01.png)
 
 
 

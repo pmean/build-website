@@ -19,7 +19,7 @@ separate core of your multi-core computer.
 Steve Weston. foreach: Foreach looping construct for R. Available at:
 <http://cran.r-project.org/web/packages/foreach/index.html>.
 
-![](http://www.pmean.com/images/images/14/foreach01.png)
+![](http://www.pmean.com/new-images/14/foreach01.png)
 
 
 

@@ -19,7 +19,7 @@ messages.
 Here's an example. I'm installing a new package, broom, and here's what
 I get.
 
-![](http://www.pmean.com/images/images/17/red-text01.png)
+![](http://www.pmean.com/new-images/17/red-text01.png)
 
 
 

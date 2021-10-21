@@ -34,7 +34,7 @@ Kristian Widjaja
 Available at
 <http://infolab.stanford.edu/~ullman/fcdb/oracle/or-time.html>.
 
-![](http://www.pmean.com/images/images/16/oracle-dates01.png)
+![](http://www.pmean.com/new-images/16/oracle-dates01.png)
 
 
 

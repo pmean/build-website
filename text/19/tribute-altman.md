@@ -22,7 +22,7 @@ Drummond Rennie. A Tribute to Douglas G. Altman, DSc. JAMA. 2019;
 321(16): 1621. doi:10.1001/jama.2019.3830. Available in [html
 format](https://jamanetwork.com/journals/jama/fullarticle/2731154).
 
-![](http://www.pmean.com/images/images/19/tribute-altman01.png)
+![](http://www.pmean.com/new-images/19/tribute-altman01.png)
 
 
 

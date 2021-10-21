@@ -29,7 +29,7 @@ van Lent M
 registries and articles did not influence publication acceptance.
 Journal of clinical Epidemiology. 68(9): 2015 (September); 1059-1067.
 
-![](http://www.pmean.com/images/images/15/registry-differences01.png)
+![](http://www.pmean.com/new-images/15/registry-differences01.png)
 
 
 

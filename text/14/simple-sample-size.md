@@ -38,14 +38,14 @@ available for free at [Dr. Russ Lenth's
 website](http://homepage.stat.uiowa.edu/~rlenth/Power/). Here's the
 splash screen.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size01.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size01.png)
 
 
 
 Dr. Lenth's son, Brian, did the artwork here. After you click OK, you
 get the following window.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size02.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size02.png)
 
 
 
@@ -56,13 +56,13 @@ consider something later on that involves matching or risk adjustment,
 we would have to look at a more complex model. Select the "Two sample t
 test" under "Type of analysis",
 
-![](http://www.pmean.com/images/images/14/simple-sample-size03.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size03.png)
 
 
 
 and then click on the "Run dialog" button. This is what you get.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size04.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size04.png)
 
 
 
@@ -71,7 +71,7 @@ The default option in Piface is to use sliders, which are very nice for
 entry by clicking on the small gray box above and to the right of each
 slider.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size05.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size05.png)
 
 
 
@@ -83,7 +83,7 @@ not sure what will work here, but let's try 15 for the minimum
 clinically important difference (true difference in means). Once you
 enter the 15 and click on OK, you get the following window.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size06.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size06.png)
 
 
 
@@ -96,7 +96,7 @@ able detect differences of size 10 rather than 15. What would this do to
 our power? Replace the 15 in the true difference of mean entry field and
 you get this.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size07.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size07.png)
 
 
 
@@ -115,13 +115,13 @@ To get the difference in means that you could detect with 80% power,
 change the "Solve for" field to "Diff of means" and put 0.80 in the
 "Power" field.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size08.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size08.png)
 
 
 
 Now, let's see what we could get at 90% power.
 
-![](http://www.pmean.com/images/images/14/simple-sample-size09.png)
+![](http://www.pmean.com/new-images/14/simple-sample-size09.png)
 
 
 

@@ -22,7 +22,7 @@ Review. April 29
 - 2014. Available at:
 <http://blogs.hbr.org/2014/04/data-doesnt-speak-for-itself/>
 
-![](http://www.pmean.com/images/images/14/data-doesnt-speak01.png)
+![](http://www.pmean.com/new-images/14/data-doesnt-speak01.png)
 
 
 

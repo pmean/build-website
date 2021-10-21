@@ -21,7 +21,7 @@ Julia Silge
 - David Robinson. Text Mining with R (online version).
 Available at <http://tidytextmining.com/>.
 
-![](http://www.pmean.com/images/images/17/text-mining-with-r01.png)
+![](http://www.pmean.com/new-images/17/text-mining-with-r01.png)
 
 
 

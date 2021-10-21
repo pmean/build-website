@@ -33,7 +33,7 @@ to work with this software
 
 Tessera. Available at [http://tessera.io](http://tessera.io/).
 
-![](http://www.pmean.com/images/images/15/tessera01.png)
+![](http://www.pmean.com/new-images/15/tessera01.png)
 
 
 

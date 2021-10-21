@@ -19,7 +19,7 @@ databases.
 
 RStudio. Databases using R. Available at <http://db.rstudio.com/>.
 
-![](http://www.pmean.com/images/images/17/databases-using-r01.png)
+![](http://www.pmean.com/new-images/17/databases-using-r01.png)
 
 
 

@@ -26,7 +26,7 @@ Animal Research. PLoS Biol. 2010;8(6). doi:10.1371/journal.pbio.1000412.
 Available at
 [journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000412](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000412).
 
-![](http://www.pmean.com/images/images/15/arrive-guidelines01.png)
+![](http://www.pmean.com/new-images/15/arrive-guidelines01.png)
 
 
 

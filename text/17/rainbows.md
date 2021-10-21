@@ -23,7 +23,7 @@ sharing this.
 Matt Hall. No more rainbows! Agile blog, 2017 (December 15). Available
 at <https://agilescientific.com/blog/2017/12/14/no-more-rainbows>.
 
-![](http://www.pmean.com/images/images/17/rainbows01.png)
+![](http://www.pmean.com/new-images/17/rainbows01.png)
 
 
 

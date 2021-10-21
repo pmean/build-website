@@ -22,7 +22,7 @@ your axes.
 Jim Lemon. plotrix: Various plotting functions.
 <http://cran.r-project.org/web/packages/plotrix/index.html>
 
-![](http://www.pmean.com/images/images/14/plotrix01.png)
+![](http://www.pmean.com/new-images/14/plotrix01.png)
 
 
 

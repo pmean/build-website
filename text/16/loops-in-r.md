@@ -24,7 +24,7 @@ Carlo Fanara. A Tutorial on Loops in R. DataCamp blog
 2016. Available at
 <https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r>.
 
-![](http://www.pmean.com/images/images/16/loops-in-r01.png)
+![](http://www.pmean.com/new-images/16/loops-in-r01.png)
 
 
 

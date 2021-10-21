@@ -25,11 +25,11 @@ Simon).
 doi:10.1371/journal.pone.0121093. Available at
 <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0121093#pone.0121093.s001>.
 
-![](http://www.pmean.com/images/images/15/plos-one-reviewer01.png)
+![](http://www.pmean.com/new-images/15/plos-one-reviewer01.png)
 
 
 
-![](http://www.pmean.com/images/images/15/plos-one-reviewer02.png)
+![](http://www.pmean.com/new-images/15/plos-one-reviewer02.png)
 
 
 

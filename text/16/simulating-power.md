@@ -24,7 +24,7 @@ showing the first ten rows. Now, you don't have to type the numbers 1 to
 the cell beneath it, highlight both cells, and then extend down to
 10,000. Import this file into SPSS.
 
-![](http://www.pmean.com/images/images/16/simulating-power01.png)
+![](http://www.pmean.com/new-images/16/simulating-power01.png)
 
 
 
@@ -35,33 +35,33 @@ probability of success of 50%. We want a one-sided test at an alpha
 level of 0.05. First simulate the number of successes in the treatment
 group as binomial with n=200 and p=0.6.
 
-![](http://www.pmean.com/images/images/16/simulating-power02.png)
+![](http://www.pmean.com/new-images/16/simulating-power02.png)
 
 
 
 Next simulate the number of success in the control group as binomial
 with n=100 and p=0.5.
 
-![](http://www.pmean.com/images/images/16/simulating-power03.png)
+![](http://www.pmean.com/new-images/16/simulating-power03.png)
 
 
 
 Calculate the difference in proportions
 
-![](http://www.pmean.com/images/images/16/simulating-power04.png)
+![](http://www.pmean.com/new-images/16/simulating-power04.png)
 
 
 
 and the standard error.
 
-![](http://www.pmean.com/images/images/16/simulating-power05.png)
+![](http://www.pmean.com/new-images/16/simulating-power05.png)
 
 
 
 Then calculate for each row whether you exceeded the 0.95 percentile of
 a standard normal distribution.
 
-![](http://www.pmean.com/images/images/16/simulating-power06.png)
+![](http://www.pmean.com/new-images/16/simulating-power06.png)
 
 
 

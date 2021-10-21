@@ -20,7 +20,7 @@ Gina Kolata. How Bright Promise in Cancer Testing Fell Apart. The New
 York Times, July 7, 2011. Available at
 <http://www.nytimes.com/2011/07/08/health/research/08genes.html>.
 
-![](http://www.pmean.com/images/images/17/cancer-testing01.png)
+![](http://www.pmean.com/new-images/17/cancer-testing01.png)
 
 
 

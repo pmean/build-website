@@ -35,7 +35,7 @@ in linear regression analyses. Journal of Clinical Epidemiology 2015,
 68(6):627-636. Available at
 <http://europepmc.org/abstract/med/25704724>.
 
-![](http://www.pmean.com/images/images/16/subjects-per-variable01.png)
+![](http://www.pmean.com/new-images/16/subjects-per-variable01.png)
 
 
 

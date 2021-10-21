@@ -18,6 +18,6 @@ interpreted.
 
 Randall Munroe. P-Values. Available at: <http://xkcd.com/1478/>.
 
-![p_values.png not found.](http://www.pmean.com/images/images/15/xkcd-p-values01.png)
+![p_values.png not found.](http://www.pmean.com/new-images/15/xkcd-p-values01.png)
 
 

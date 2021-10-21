@@ -25,14 +25,14 @@ blog. Here are some examples.
 
 Here's a simple equation related to something called the power prior.
 
-![](http://www.pmean.com/images/images/15/using-mathtype01.png)
+![](http://www.pmean.com/new-images/15/using-mathtype01.png)
 
 
 
 This is the default option, which saves the file at 96 dots per inch
 (dpi). The letters are a bit fuzzy.
 
-![](http://www.pmean.com/images/images/15/using-mathtype02.gif)
+![](http://www.pmean.com/new-images/15/using-mathtype02.gif)
 
 
 
@@ -40,14 +40,14 @@ Here's the same equation where the default file is saved at 120 dpi.
 It's a bit cleaner, but seems a bit out of proportion with the regular
 text.
 
-![](http://www.pmean.com/images/images/15/using-mathtype03.gif)
+![](http://www.pmean.com/new-images/15/using-mathtype03.gif)
 
 
 
 The default options under "Other" is 300 dpi and it looks sharp and
 crisp, but way too large.
 
-![](http://www.pmean.com/images/images/15/using-mathtype04.gif)
+![](http://www.pmean.com/new-images/15/using-mathtype04.gif)
 
 
 

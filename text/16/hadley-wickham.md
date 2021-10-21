@@ -25,7 +25,7 @@ Dan Kopf. Hadley Wickham
 - 2015. Available at
 <http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/>
 
-![](http://www.pmean.com/images/images/16/hadley-wickham01.png)
+![](http://www.pmean.com/new-images/16/hadley-wickham01.png)
 
 
 

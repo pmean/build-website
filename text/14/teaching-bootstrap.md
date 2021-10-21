@@ -21,7 +21,7 @@ Hesterberg, Tim (2014) What Teachers Should Know about the Bootstrap:
 Resampling in the Undergraduate Statistics Curriculum. Available at
 <http://arxiv.org/abs/1411.5279>.
 
-![](http://www.pmean.com/images/images/14/teaching-bootstrap01.png)
+![](http://www.pmean.com/new-images/14/teaching-bootstrap01.png)
 
 
 

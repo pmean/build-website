@@ -23,7 +23,7 @@ Herper M. The Next Billionaire: A Statistician Who Changed Medicine.
 Forbes. Available at:
 <http://www.forbes.com/sites/matthewherper/2013/05/08/the-next-billionaire-a-statistician-who-changed-medicine/>.
 
-![](http://www.pmean.com/images/images/14/billionaire-statistician01.png)
+![](http://www.pmean.com/new-images/14/billionaire-statistician01.png)
 
 
 

@@ -23,7 +23,7 @@ Horton NJ
 introductory and second courses in statistics. Available at
 <https://arxiv.org/abs/1401.3269>.
 
-![](http://www.pmean.com/images/images/17/precursors-to-data-science01.png)
+![](http://www.pmean.com/new-images/17/precursors-to-data-science01.png)
 
 
 

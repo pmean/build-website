@@ -27,7 +27,7 @@ Norman GR, Sloan JA, Wyrwich KW. Point/Counterpoint. Interpretation of
 Changes in Health-related Quality of Life: The Remarkable Universality
 of Half a Standard Deviation. Medical Care: May 2003, 41(5): 582-592.
 
-![](http://www.pmean.com/images/images/16/effect-size01.png)
+![](http://www.pmean.com/new-images/16/effect-size01.png)
 
 
 

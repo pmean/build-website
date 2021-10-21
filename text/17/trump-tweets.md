@@ -26,7 +26,7 @@ Variance Explained blog
 - 2017. Available at
 <http://varianceexplained.org/r/trump-followup/>.
 
-![](http://www.pmean.com/images/images/17/trump-tweets01.png)
+![](http://www.pmean.com/new-images/17/trump-tweets01.png)
 
 
 

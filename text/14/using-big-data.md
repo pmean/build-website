@@ -29,7 +29,7 @@ Health Affairs: July 2014; Volume 33
 Available at
 [http://content.healthaffairs.org/content/33/7.toc.](http://content.healthaffairs.org/content/33/7.toc)
 
-![](http://www.pmean.com/images/images/14/using-big-data01.png)
+![](http://www.pmean.com/new-images/14/using-big-data01.png)
 
 
 

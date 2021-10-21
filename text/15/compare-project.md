@@ -38,7 +38,7 @@ Hartley P
 - Heneghan C. The COMPare Project. Available at
 <http://compare-trials.org/>.
 
-![](http://www.pmean.com/images/images/15/compare-project01.png)
+![](http://www.pmean.com/new-images/15/compare-project01.png)
 
 
 

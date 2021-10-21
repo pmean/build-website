@@ -21,7 +21,7 @@ Accessed May 1, 2014.
 
 <U+00A0>
 
-![](http://www.pmean.com/images/images/14/not-created-equal01.png)
+![](http://www.pmean.com/new-images/14/not-created-equal01.png)
 
 
 

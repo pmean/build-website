@@ -25,7 +25,7 @@ Martin Magdinier. OpenRefine: A free, open source, powerful tool for
 working with messy data. Available at
 <http://openrefine.org/index.html>.
 
-![](http://www.pmean.com/images/images/17/openrefine01.png)
+![](http://www.pmean.com/new-images/17/openrefine01.png)
 
 
 

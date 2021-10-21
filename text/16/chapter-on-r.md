@@ -30,7 +30,7 @@ Amazon page does have a nice biography of the editor, Shui Qing Ye.
 
 I've got a picture of the cover.
 
-![](http://www.pmean.com/images/images/16/chapter-on-r01.png)
+![](http://www.pmean.com/new-images/16/chapter-on-r01.png)
 
 
 
