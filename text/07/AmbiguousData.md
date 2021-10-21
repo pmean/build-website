@@ -19,7 +19,7 @@ The following table shows frequencies for a string variable called
 "RaceID". This variable used single letter codes to represent race
 and ethnicity.
 
-![](http://www.pmean.com/images/images/07/AmbiguousData01.gif)
+![](http://www.pmean.com/new-images/07/AmbiguousData01.gif)
 
 Note that two of the letter codes are blank. This is bad form, as it
 forces you to guess whether blank means unknown, other, or "I

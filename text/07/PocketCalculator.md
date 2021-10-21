@@ -9,7 +9,7 @@ tags:
 - Descriptive statistics
 output: html_document
 ---
-![](http://www.pmean.com/images/images/07/PocketCalculator01.jpg)
+![](http://www.pmean.com/new-images/07/PocketCalculator01.jpg)
 the time
 - I let a computer program like SPSS compute quantities for
 me

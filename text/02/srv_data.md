@@ -26,7 +26,7 @@ to four dates:
 The dates of relapse and death are censored because either they did
 not occur, or they occurred after the date of last follow-up.
 
-![](http://www.pmean.com/images/images/02/srv_data-0201.gif)
+![](http://www.pmean.com/new-images/02/srv_data-0201.gif)
 
 The data shown above represents an example of this data. Notice that
 the relapse and death dates are missing (censored) for most of the
@@ -39,7 +39,7 @@ if it exists, it has to be later than the date of the last follow-up.
 Also notice that at least one subjects has relapsed without dying and
 at least one subject died without having a relapse first.
 
-![](http://www.pmean.com/images/images/02/srv_data-0202.gif)
+![](http://www.pmean.com/new-images/02/srv_data-0202.gif)
 
 Notice the formula here:
 
@@ -59,7 +59,7 @@ missing, this variable represents the number of days that we
 followed-up on the patient, which is a lower bound for the number of
 days the patient lived.
 
-![](http://www.pmean.com/images/images/02/srv_data-0203.gif)
+![](http://www.pmean.com/new-images/02/srv_data-0203.gif)
 
 To distinguish between the two situations, we create a variable,
 dth_code, which equals 1 when the patients is not missing a death
@@ -69,7 +69,7 @@ and 2 if the patient is not missing a death date).
 
 This is what the data looks like after the transformations.
 
-![](http://www.pmean.com/images/images/02/srv_data-0204.gif)
+![](http://www.pmean.com/new-images/02/srv_data-0204.gif)
 
 We need to create similar variables for analysis of progression free
 survival. In this analysis, we note the time until relapse. If the

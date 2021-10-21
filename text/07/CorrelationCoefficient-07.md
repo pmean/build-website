@@ -19,7 +19,7 @@ there are a wide array of approaches that you could use.
 If you are testing the hypothesis that the correlation is equal to
 zero, you can compute a test statistic.
 
-![corr01.gif not found.](http://www.pmean.com/images/images/07/CorrelationCoefficient-0701.png)
+![corr01.gif not found.](http://www.pmean.com/new-images/07/CorrelationCoefficient-0701.png)
 
 You would compare this test statistic with a t distribution with n-2
 degrees of freedom. Someone asked me for a table of critical values
@@ -27,7 +27,7 @@ for r. When the observed correlation is larger than the critical
 value, you would reject the null hypothesis. You can get the formula
 for the critical value:
 
-![corr02.gif not found.](http://www.pmean.com/images/images/07/CorrelationCoefficient-0702.png)
+![corr02.gif not found.](http://www.pmean.com/new-images/07/CorrelationCoefficient-0702.png)
 
 through simple algebra. I programmed a spreadsheet
 

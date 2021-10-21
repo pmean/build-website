@@ -53,7 +53,7 @@ probability for this data, you would draw a curve that decreases by  4%
 
 Here's a graph of these probabilities over time.
 
-![](http://www.pmean.com/images/images/08/SimpleKm-0801.gif)
+![](http://www.pmean.com/new-images/08/SimpleKm-0801.gif)
 
 By tradition and for some rather technical reasons, you should use a
 stair step pattern rather than a diagonal line to connect adjacent
@@ -81,7 +81,7 @@ Here is a graph of the survival probabilities of the second experiment.
 This graph is identical to the graph in the first experiment up to day
 70 after which you can no longer estimate survival probabilities.
 
-![](http://www.pmean.com/images/images/08/SimpleKm-0802.gif)
+![](http://www.pmean.com/new-images/08/SimpleKm-0802.gif)
 
 By the way, you might be tempted to ignore the ten flies who escaped.
 But that would seriously bias your results. All of these flies were
@@ -115,7 +115,7 @@ each remaining death are much larger.
 Here is a graph of the survival probability estimates from the third
 experiment.
 
-![](http://www.pmean.com/images/images/08/SimpleKm-0803.gif)
+![](http://www.pmean.com/new-images/08/SimpleKm-0803.gif)
 
 These survival probabilities differ only slightly from the survival
 probabilities in the original experiment. This works out because the
@@ -148,14 +148,14 @@ survival curve and then head down to get your estimate. In the survival
 curve we have just looked at, you would estimate the median survival as
 slightly more than 60 days.
 
-![](http://www.pmean.com/images/images/08/SimpleKm-0804.gif)
+![](http://www.pmean.com/new-images/08/SimpleKm-0804.gif)
 
 You can also estimate probabilities for survival at any given time by
 projecting up from the time and then moving to the left to estimate the
 probability. In the example below, you can see that the 80 day survival
 probability is a little bit less than 25%.
 
-![](http://www.pmean.com/images/images/08/SimpleKm-0805.gif)
+![](http://www.pmean.com/new-images/08/SimpleKm-0805.gif)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

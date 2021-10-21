@@ -22,21 +22,21 @@ or more units and A is also smaller than B by one or more units.*
 
 This is equivalent to calculating the following probability.
 
-![](http://www.pmean.com/images/images/07/CorrelatedNormalProbabilities01.gif)
+![](http://www.pmean.com/new-images/07/CorrelatedNormalProbabilities01.gif)
 
 If you redefine X=A-B and Y=A-C, then this probability changes to
 
-![](http://www.pmean.com/images/images/07/CorrelatedNormalProbabilities02.gif)
+![](http://www.pmean.com/new-images/07/CorrelatedNormalProbabilities02.gif)
 
 where X and Y are correlated normal random variables with covariance
 matrix
 
-![](http://www.pmean.com/images/images/07/CorrelatedNormalProbabilities03.gif)
+![](http://www.pmean.com/new-images/07/CorrelatedNormalProbabilities03.gif)
 
 The density function represented by this pair of correlated normal
 random variables looks like the following:
 
-![](http://www.pmean.com/images/images/07/CorrelatedNormalProbabilities04.gif)
+![](http://www.pmean.com/new-images/07/CorrelatedNormalProbabilities04.gif)
 height="397"}
 
 Notice the classic image of a bell shaped curve, but now it is in three
@@ -45,7 +45,7 @@ varies with the widest bells along the line x=y and the narrowest bells
 perpendicular to the line x=y. The probability shown above is equivalent
 to integrating the following portion of the bell shaped curve:
 
-![](http://www.pmean.com/images/images/07/CorrelatedNormalProbabilities05.gif)
+![](http://www.pmean.com/new-images/07/CorrelatedNormalProbabilities05.gif)
 height="397"}
 
 R has a library for calculation of multivariate t and multivariate

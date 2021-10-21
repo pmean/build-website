@@ -27,7 +27,7 @@ will have defects on them and we want to monitor the rate at which
 defects occur to see if there is a shift for the better or for the worse
 in manufacturing quality.
 
-![](http://www.pmean.com/images/images/07/AnomExample01.gif)
+![](http://www.pmean.com/new-images/07/AnomExample01.gif)
 
 The average rate of defects is 16. Did any wafers produce defects above
 the average of 16? You could take this literally and point out that the
@@ -39,7 +39,7 @@ want to identify wafers that are above average after accounting for the
 uncertainty inherent in this process. A control chart (in this
 particular case a C chart) works well for this data.
 
-![](http://www.pmean.com/images/images/07/AnomExample02.gif)
+![](http://www.pmean.com/new-images/07/AnomExample02.gif)
 
 The control limits are 8 and 32. Look for a single point outside the
 control limits (wafer #24) or eight consecutive points on the same side
@@ -62,8 +62,8 @@ material in the middle of the web page was removed to shrink the image
 size and to delete some data that is extraneous to this particular
 discussion.
 
-![](http://www.pmean.com/images/images/07/AnomExample03.gif)
-![](http://www.pmean.com/images/images/07/AnomExample04.gif)
+![](http://www.pmean.com/new-images/07/AnomExample03.gif)
+![](http://www.pmean.com/new-images/07/AnomExample04.gif)
 
 The average hospital performs 52.5 procedures. Which hospitals perform
 more than the overall average? Your first instinct might be to use a
@@ -127,7 +127,7 @@ approximation would hold.
 
 The general formula for balanced data is
 
-![](http://www.pmean.com/images/images/07/AnomExample05.gif)
+![](http://www.pmean.com/new-images/07/AnomExample05.gif)
 
 where I is the number of groups and N is the total sample size. If there
 are n observations in each group
@@ -176,7 +176,7 @@ example
 - I=25 (three of the data values are redundant). The upper and
 lower limits are 31 and 74.
 
-![](http://www.pmean.com/images/images/07/AnomExample06.gif)
+![](http://www.pmean.com/new-images/07/AnomExample06.gif)
 
 Seven hospitals have volume above the overall average and twelve have
 volume significantly below the overall average.

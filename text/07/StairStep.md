@@ -18,7 +18,7 @@ interpolation
 a linear transition between consecutive points. Here's an example of
 the plot I want.
 
-![](http://www.pmean.com/images/images/07/StairStep01.gif)
+![](http://www.pmean.com/new-images/07/StairStep01.gif)
 
 It shows the number of patients at risk during any time point in the
 study. The number at risk has to be a whole number because it is
@@ -26,7 +26,7 @@ impossible to have half a patient at risk in a study.
 
 Here's what it would look like if I just connected the dots.
 
-![](http://www.pmean.com/images/images/07/StairStep02.gif)
+![](http://www.pmean.com/new-images/07/StairStep02.gif)
 
 The programming language R allows you to connect the points either a
 linear transition (which is what you want for most plots) or using a
@@ -49,7 +49,7 @@ Here's a simple example. The following R code
 
 will produce this plot.
 
-![](http://www.pmean.com/images/images/07/StairStep03.gif)
+![](http://www.pmean.com/new-images/07/StairStep03.gif)
 
 Notice that when you move from (5,0) to (4,1)
 - you produce
@@ -60,7 +60,7 @@ Change the R code to this
 
 and you get this plot instead.
 
-![](http://www.pmean.com/images/images/07/StairStep04.gif)
+![](http://www.pmean.com/new-images/07/StairStep04.gif)
 
 Now when you move from (5,0) to (4,1)
 - you drop veritcally to 4 first
@@ -73,7 +73,7 @@ difference
 
 to get this plot
 
-![](http://www.pmean.com/images/images/07/StairStep05.gif)
+![](http://www.pmean.com/new-images/07/StairStep05.gif)
 
 This plot shows a linear transition between (5,0) and (4,1).
 

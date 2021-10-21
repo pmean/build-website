@@ -83,7 +83,7 @@ model..
 **Step 1. check your syntax**. In WinBUGS, you need to open the
 ***Specification Tool*** dialog box
 
-![](http://www.pmean.com/images/images/07/BugsBetaBinomial01.gif)
+![](http://www.pmean.com/new-images/07/BugsBetaBinomial01.gif)
 
 by selecting ***Model | Specification*** from the menu. Highlight any
 set of characters inside the curly braces of the MODEL statement and
@@ -134,7 +134,7 @@ You will see a message
 
 In WinBUGS, open the ***Sample Monitor Tool*** dialog box
 
-![](http://www.pmean.com/images/images/07/BugsBetaBinomial02.gif)
+![](http://www.pmean.com/new-images/07/BugsBetaBinomial02.gif)
 
 by selecting ***Inference | Samples*** from the menu. Type "p" in
 the ***node*** field and click on the ***set*** button. In BRugs, call
@@ -149,7 +149,7 @@ You will get the diagnostic message
 **Step 6. update the model**. In WinBUGS, open the ***Update Tool***
 dialog box
 
-![](http://www.pmean.com/images/images/07/BugsBetaBinomial03.gif)
+![](http://www.pmean.com/new-images/07/BugsBetaBinomial03.gif)
 
 by selecting ***Model | Update*** from the menu. For this analysis,
 5,000 is a reasonable value for the ***updates*** field. Click on the

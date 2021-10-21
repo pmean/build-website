@@ -52,7 +52,7 @@ You can use a measure of uncertainty (sometimes called the entropy
 measure) to quantify the variation in SNP probabilities. The formula for
 uncertainty is
 
-![](http://www.pmean.com/images/images/05/HapMap01.gif)
+![](http://www.pmean.com/new-images/05/HapMap01.gif)
 
 where pi represent the probabilities of the two base pairs (or the
 probabilities of the three possible allele combinations for paired
@@ -72,7 +72,7 @@ quantifying this. The conditional uncertainty is computed in a fashion
 similar to the uncertainty measure described above, but you substitute
 conditional probabilities in the formula:
 
-![](http://www.pmean.com/images/images/05/HapMap02.gif)
+![](http://www.pmean.com/new-images/05/HapMap02.gif)
 
 You can compute conditional uncertainty for each group. The results are
 presented below:
@@ -85,19 +85,19 @@ three groups. For other SNPs, the conditional uncertainties are all
 smaller than the unconditional uncertainty. You can aggregate the
 conditional uncertainties together using the formula:
 
-![](http://www.pmean.com/images/images/05/HapMap03.gif)
+![](http://www.pmean.com/new-images/05/HapMap03.gif)
 
 This is just a weighted average of the conditional uncertainties. The
 difference between the conditional uncertainty and the unconditional
 uncertainty is called the mutual information.
 
-![](http://www.pmean.com/images/images/05/HapMap04.gif)
+![](http://www.pmean.com/new-images/05/HapMap04.gif)
 
 This definition is quite intuitive. The mutual information represents
 the decrease in uncertainty in Y when we know the value of X. This
 definition of mutual information is symmetric, so if you define
 
-![](http://www.pmean.com/images/images/05/HapMap05.gif)
+![](http://www.pmean.com/new-images/05/HapMap05.gif)
 
 then you will get the exact same answer
 

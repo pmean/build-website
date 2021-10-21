@@ -42,11 +42,11 @@ The mean and standard deviation for each week are shown below
 
 Here is a plot of the means
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart01.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart01.gif)
 
 and of the standard deviations.
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart02.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart02.gif)
 
 I have included a single reference line at the average of all the data
 points. For these two charts, the data values fluctuate more or less
@@ -59,7 +59,7 @@ at three sigma distance from the overall mean and variation inside
 these limits is considered normal variation. The formula for control
 limits for the XBAR chart is
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart03.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart03.gif)
 
 where the constant A3 comes from the following table.
 
@@ -79,14 +79,14 @@ units away from the mean. If you notice two out of three consecutive
 points outside the warning limits, then your process is out of
 control. Here is a control chart that includes warning limits.
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart04.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart04.gif)
 
 Notice that the tenth week is below the lower control limit and that
 two consecutive weeks (11 and 12) fall above the upper warning limit.
 You can also compute control limits for the standard deviations using
 the formula
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart05.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart05.gif)
 
 where the constants B3 and B4 come from the same table. When n is
 small (5 or less), the value of B3 is zero which places no effective
@@ -96,7 +96,7 @@ any concern.
 
 Here is a plot of the standard deviations with control limits.
 
-![](http://www.pmean.com/images/images/07/XbarSControlChart06.gif)
+![](http://www.pmean.com/new-images/07/XbarSControlChart06.gif)
 
 There are no points outside the control or warning limits.
 

@@ -14,5 +14,5 @@ a diagnostic test.
 
 <!---More--->
 
-![](http://www.pmean.com/images/images/07/CalculationsDiagnosticTest01.gif)
+![](http://www.pmean.com/new-images/07/CalculationsDiagnosticTest01.gif)
 

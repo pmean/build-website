@@ -21,7 +21,7 @@ other one has a negative bias (it makes the treatment group look worse
 than it should), then these two control groups bracket the ideal
 control group.
 
-![](http://www.pmean.com/images/images/07/TwoControlGroups01.gif)
+![](http://www.pmean.com/new-images/07/TwoControlGroups01.gif)
 
 If the treatment group is shown to be significantly better than both
 control groups, then it has to be significantly better than anything
@@ -114,7 +114,7 @@ pay methods on different paychecks.
 The first thought is that you could just measure things before and
 after the intervention (see figure below).
 
-![](http://www.pmean.com/images/images/07/TwoControlGroups02.gif)
+![](http://www.pmean.com/new-images/07/TwoControlGroups02.gif)
 
 This is not an awful thing to do, and it is certainly better than
 doing no evaluation. How often have we made changes in our workplace
@@ -124,18 +124,18 @@ actually make things worse, but we go along, blissfully unaware of the
 damage we've done. Suppose we have a multicenter trial. The above
 design looks like.
 
-![](http://www.pmean.com/images/images/07/TwoControlGroups03.gif)
+![](http://www.pmean.com/new-images/07/TwoControlGroups03.gif)
 
 An immediate and obvious improvement is to intervene in half of the
 centers and leaving the others alone (see below).
 
-![](http://www.pmean.com/images/images/07/TwoControlGroups04.gif)
+![](http://www.pmean.com/new-images/07/TwoControlGroups04.gif)
 
 Still, you have to worry about whether Sites A, D, and E are New
 Jersey apples and Sites B, C, and F are Pennsylvania oranges. Another
 variation (see below) can work even better.
 
-![](http://www.pmean.com/images/images/07/TwoControlGroups05.gif)
+![](http://www.pmean.com/new-images/07/TwoControlGroups05.gif)
 
 Here each center gets to participate in the intervention (no one stuck
 in the boring control group), but because we stagger the intervention,

@@ -31,14 +31,14 @@ followed by placebo are noted by the code VP and patients who were
 randomly assigned to receive placebo followed by Vitamin C are noted by
 the code PV. The outcome variable is a measure of endurance.
 
-![](http://www.pmean.com/images/images/07/SimpleCrossover01.gif)
+![](http://www.pmean.com/new-images/07/SimpleCrossover01.gif)
 
 In the format shown above, the endurance measure when the placebo is
 given appears in the column labeled "Placebo" and the endurance
 measure when Vitamin C is given appears in the column labeled
 "Vitamin."
 
-![](http://www.pmean.com/images/images/07/SimpleCrossover02.gif)
+![](http://www.pmean.com/new-images/07/SimpleCrossover02.gif)
 
 In the format shown here, the endurance measured the first time appears
 in the column labeled "T1" and the endurance measured the second time
@@ -57,7 +57,7 @@ allowed for looking at both treatment effects and period effects
 simultaneously. To do this effectively, it helps to produce a third
 format for the data.
 
-![](http://www.pmean.com/images/images/07/SimpleCrossover03.gif)
+![](http://www.pmean.com/new-images/07/SimpleCrossover03.gif)
 
 In the format shown above, the endurance values appear in a single
 column. Since endurance is measured twice on each of 15 patients, this

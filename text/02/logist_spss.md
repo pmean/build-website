@@ -17,12 +17,12 @@ want to compare exclusive breast feeding as one category with partial,
 supplement, and none combined as a second category. To do this, select
 **Transform | Recode from the SPSS menu**.
 
-![](http://www.pmean.com/images/images/02/logist_spss01.gif)
+![](http://www.pmean.com/new-images/02/logist_spss01.gif)
 
 Be sure to define your output variable name and label and click on the
 CHANGE button. Then click on the **Old and New Values button**.
 
-![](http://www.pmean.com/images/images/02/logist_spss02.gif)
+![](http://www.pmean.com/new-images/02/logist_spss02.gif)
 
 We convert the values
 
@@ -34,7 +34,7 @@ To fit a logistic regression model, select **Analyze | Regression |
 Binary Logistic from the SPSS menu**. Shown below is the dialog box
 you will see.
 
-![](http://www.pmean.com/images/images/02/logist_spss03.gif)
+![](http://www.pmean.com/new-images/02/logist_spss03.gif)
 
 In this dialog box, add your binary outcome variable to the
 **Dependent field**. Add all of your independent variables to the
@@ -42,7 +42,7 @@ In this dialog box, add your binary outcome variable to the
 categorical, click on the **Categorical button**. Shown below is the
 dialog box you will get.
 
-![](http://www.pmean.com/images/images/02/logist_spss04.gif)
+![](http://www.pmean.com/new-images/02/logist_spss04.gif)
 
 Add any of your categorical covariates to the **Categorical Covariates
 field**. By default, SPSS will use one or more indicator variables to
@@ -58,7 +58,7 @@ to the earlier dialog box.
 SPSS offers additional analysis options for the logistic regression
 model. Click on the **Options button** to see your choices.
 
-![](http://www.pmean.com/images/images/02/logist_spss05.gif)
+![](http://www.pmean.com/new-images/02/logist_spss05.gif)
 
 This dialog box shown above illustrates all of the additional options
 for the logistic regression model. The one option I would always
@@ -80,7 +80,7 @@ SPSS also lets you choose whether to save some information from this
 logistic regression model in your data set. Click on the **Save
 button** to see your choices.
 
-![](http://www.pmean.com/images/images/02/logist_spss06.gif)
+![](http://www.pmean.com/new-images/02/logist_spss06.gif)
 
 The dialog box shown above lists all of the information that SPSS can
 save in your data set. The most useful information is in the

@@ -51,21 +51,21 @@ the pooled standard deviation.
 
 The formulas for the decision limits in an ANOM chart are
 
-![](http://www.pmean.com/images/images/07/AnomCalculations101.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations101.gif)
 
 where
 
-![](http://www.pmean.com/images/images/07/AnomCalculations102.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations102.gif)
 
 In this example, I is 5 and N-I is 20. The value of h from the [table of
 critical values for a balanced ANOM](AnomTable05Part1.html) is 2.80. The
 ANOM decision limits are
 
-![](http://www.pmean.com/images/images/07/AnomCalculations103.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations103.gif)
 
 and the ANOM chart looks like this:
 
-![](http://www.pmean.com/images/images/07/AnomCalculations104.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations104.gif)
 
 All five means are inside the decision limits, so you would conclude
 that no individual mean differs from the overall average.
@@ -74,7 +74,7 @@ You can also use an ANOM chart for the standard deviations. I will not
 show the formulas or the calculations for this chart, but here is what
 it looks like:
 
-![](http://www.pmean.com/images/images/07/AnomCalculations105.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations105.gif)
 
 All standard deviations are inside the decision limits, so you would
 conclude that no individual standard deviation differs from the pooled
@@ -123,17 +123,17 @@ deviation.
 In this example, I is 6 and N is 18. The critical value h is 3.07. The
 upper decision limit is 64.62, as shown below
 
-![](http://www.pmean.com/images/images/07/AnomCalculations106.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations106.gif)
 
 and the lower decision limit is -0.06, as shown below
 
-![](http://www.pmean.com/images/images/07/AnomCalculations107.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations107.gif)
 
 We round the lower decision limit up to zero because a negative result
 is impossible in this experiment. Here is a graph showing the individual
 means and the ANOM limits.
 
-![](http://www.pmean.com/images/images/07/AnomCalculations108.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations108.gif)
 
 Even though there is some disparity in the mean values, these
 disparities are well within the limits of sampling error.
@@ -152,11 +152,11 @@ In this case, the value of I would remain the same (6) but the value of
 N would increase to 60. The critical value for h would be 2.71. The
 upper decision limit is 47.92
 
-![](http://www.pmean.com/images/images/07/AnomCalculations109.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations109.gif)
 
 and the lower decision limit is
 
-![](http://www.pmean.com/images/images/07/AnomCalculations110.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations110.gif)
 
 **Improvement in toy slingshot experiment**. The group then worked on
 the process and made some improvements. Here is the data after the
@@ -187,15 +187,15 @@ Avg   18.28   186.56
 The square root of the average variance, 13.65, represents the pooled
 standard deviation. The decision limits are
 
-![](http://www.pmean.com/images/images/07/AnomCalculations111.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations111.gif)
 
 and
 
-![](http://www.pmean.com/images/images/07/AnomCalculations112.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations112.gif)
 
 which we round to zero. The ANOM chart is
 
-![](http://www.pmean.com/images/images/07/AnomCalculations113.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations113.gif)
 
 Again, all data points are inside the decision limits.
 
@@ -208,7 +208,7 @@ an infinite number of degrees of freedom. This is effectively the same
 thing as replacing a t-distribution with a normal distribution. Here is
 the formula.
 
-![](http://www.pmean.com/images/images/07/AnomCalculations114.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations114.gif)
 
 A worker is asked to compare four different hearing tests to assure that
 they are of comparable difficulty.
@@ -224,11 +224,11 @@ The results represent the percentage of words out of fifty that are
 identified correctly. The average of these four proportions is 0.795.
 The decision limits are computed as
 
-![](http://www.pmean.com/images/images/07/AnomCalculations115.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations115.gif)
 
 and the ANOM chart looks like
 
-![](http://www.pmean.com/images/images/07/AnomCalculations116.gif)
+![](http://www.pmean.com/new-images/07/AnomCalculations116.gif)
 
 The second test appears to be more difficult than average.
 

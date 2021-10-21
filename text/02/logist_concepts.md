@@ -59,7 +59,7 @@ This means that each unit increase in GA would add b percentage points
 to the probability of BF. The table shown below gives an example of a
 linear function.
 
-![](http://www.pmean.com/images/images/02/logist_concepts01.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts01.gif)
 
 This table represents the linear function
 
@@ -83,7 +83,7 @@ following:
 
 This model would produce the following table of probabilities.
 
-![](http://www.pmean.com/images/images/02/logist_concepts02.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts02.gif)
 
 You may find it difficult to explain what a probability of 106% means.
 This is a reason to avoid using a additive model for estimating
@@ -100,7 +100,7 @@ as the additive model**.
 **In a multiplicative model, you change the probabilities by
 multiplying rather than adding**. Here's a simple example.
 
-![](http://www.pmean.com/images/images/02/logist_concepts03.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts03.gif)
 
 In this example, **each extra week of GA produces a tripling in the
 probability of BF**. Contrast this to the linear models shown above,
@@ -161,7 +161,7 @@ bounded below by zero, but have no upper bound.
 Let's consider a **multiplicative model for the odds** (not the
 probability) of BF.
 
-![](http://www.pmean.com/images/images/02/logist_concepts04.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts04.gif)
 
 This model implies that **each additional week of GA triples the odds
 of BF**. A multiplicative model for odds is nice because it can't
@@ -169,7 +169,7 @@ produce any meaningless estimates.
 
 It's interesting to look at how the **logarithm of the odds** behave.
 
-![](http://www.pmean.com/images/images/02/logist_concepts05.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts05.gif)
 
 Notice that **an extra week of GA adds 1.1 units to the log odds**. So
 you can describe this model as linear (additive) in the log odds. When
@@ -183,7 +183,7 @@ results.
 
 Let's look at how the probabilities behave in this model.
 
-![](http://www.pmean.com/images/images/02/logist_concepts06.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts06.gif)
 
 Notice that **even when the odds get as large as 27 to 1, the
 probability still stays below 100%**. Also notice that the
@@ -192,7 +192,7 @@ fashion.
 
 A graph shows what is happening.
 
-![](http://www.pmean.com/images/images/02/logist_concepts07.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts07.gif)
 
 The probabilities follow an **S-shaped curve** that is characteristic
 of all logistic regression models. The curve **levels off at zero on
@@ -205,7 +205,7 @@ There are other approaches that also work well for this type of data,
 such as a probit model, that I won't discuss here. But I did want to
 show you what the data relating GA and BF really looks like.
 
-![](http://www.pmean.com/images/images/02/logist_concepts08.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts08.gif)
 
 I've simplified this data set by removing some of the extreme
 gestational ages. The estimated logistic regression model is
@@ -215,7 +215,7 @@ gestational ages. The estimated logistic regression model is
 The table below shows the predicted log odds, and the calculations
 needed to transform this estimate back into predicted probabilities.
 
-![](http://www.pmean.com/images/images/02/logist_concepts09.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts09.gif)
 
 Let's examine these calculations for GA = 30. The predicted log odds
 would be
@@ -260,7 +260,7 @@ and 863 passengers died out of a total of 1,313. This happened during
 an era where there was a strong belief in "women and children"
 first.
 
-![logistic1.gif not found.](http://www.pmean.com/images/images/02/logist_concepts10.png)
+![logistic1.gif not found.](http://www.pmean.com/new-images/02/logist_concepts10.png)
 
 You can see this in the crosstabulation shown above. Among females,
 the odds of dying were 2-1 against, because the number of survivors
@@ -269,7 +269,7 @@ odds of dying were almost 5 to 1 in favor (actually 4.993 to 1), since
 the number who survived (142) was about one-fifth the number who died
 (709).
 
-![logistic2.gif not found.](http://www.pmean.com/images/images/02/logist_concepts11.png)
+![logistic2.gif not found.](http://www.pmean.com/new-images/02/logist_concepts11.png)
 
 The odds ratio is 0.1, and we are very confident that this odds ratio
 is less than one, because the confidence interval goes up to only
@@ -279,26 +279,26 @@ sex.
 In SPSS, you would do this by selecting TRANSFORM | RECODE from the
 menu
 
-![logistic3.gif not found.](http://www.pmean.com/images/images/02/logist_concepts12.png)
+![logistic3.gif not found.](http://www.pmean.com/new-images/02/logist_concepts12.png)
 
 Then click on the OLD AND NEW VALUES button.
 
-![logistic4.gif not found.](http://www.pmean.com/images/images/02/logist_concepts13.png)
+![logistic4.gif not found.](http://www.pmean.com/new-images/02/logist_concepts13.png)
 
 Here, I use the codes of 0 for female and 1 for male. To run a
 logistic regression in SPSS, select ANALYZE | REGRESSION | BINARY
 LOGISTIC from the menu.
 
-![logistic06.gif not found.](http://www.pmean.com/images/images/02/logist_concepts14.png)
+![logistic06.gif not found.](http://www.pmean.com/new-images/02/logist_concepts14.png)
 
 Click on the OPTIONS button.
 
-![logistic07.gif not found.](http://www.pmean.com/images/images/02/logist_concepts15.png)
+![logistic07.gif not found.](http://www.pmean.com/new-images/02/logist_concepts15.png)
 
 Select the CI for exp(B) option, then click on the CONTINUE button and
 then on the OK button. Here is what the output looks like:
 
-![logistic08.gif not found.](http://www.pmean.com/images/images/02/logist_concepts16.png)
+![logistic08.gif not found.](http://www.pmean.com/new-images/02/logist_concepts16.png)
 
 Let's start with the CONSTANT row of the data. This has an
 interpretation similar to the intercept in the linear regression
@@ -320,11 +320,11 @@ provides you with the odds ratio (0.100).
 Coding is very important here. Suppose you had chosen the coding for
 SexFemale where1=female and 0=male.
 
-![logistic09.gif not found.](http://www.pmean.com/images/images/02/logist_concepts17.png)
+![logistic09.gif not found.](http://www.pmean.com/new-images/02/logist_concepts17.png)
 
 Then the output would look quite different.
 
-![logistic10.gif not found.](http://www.pmean.com/images/images/02/logist_concepts18.png)
+![logistic10.gif not found.](http://www.pmean.com/new-images/02/logist_concepts18.png)
 
 The log odds is now -1.608 which represents the log odds for males.
 The log odds ratio is now 2.301 and the odds ratio is 9.986 (which you
@@ -333,7 +333,7 @@ might want to round to 10).
 SPSS will create an indicator variable for you if you click on the
 CATEGORICAL button in the logistic regression dialog box.
 
-![logistic11.gif not found.](http://www.pmean.com/images/images/02/logist_concepts19.png)
+![logistic11.gif not found.](http://www.pmean.com/new-images/02/logist_concepts19.png)
 
 If you select LAST as the reference category, SPSS will use the code
 0=male, 1=female (last means last alphabetically). If you select FIRST
@@ -348,14 +348,14 @@ levels
 
 Here's a crosstabulation of survival versus passenger class.
 
-![logistic5.gif not found.](http://www.pmean.com/images/images/02/logist_concepts20.png)
+![logistic5.gif not found.](http://www.pmean.com/new-images/02/logist_concepts20.png)
 
 Notice that the odds of dying are 0.67 to 1 in 1st class, 1.35 to 1 in
 2nd class, and 4.15 to 1 in 3rd class. These are odds in favor of
 dying. The odds against dying are 1.50 to 1, 0.74 to 1, and 0.24 to 1,
 respectively.
 
-![logistic12.gif not found.](http://www.pmean.com/images/images/02/logist_concepts21.png)
+![logistic12.gif not found.](http://www.pmean.com/new-images/02/logist_concepts21.png)
 
 The odds ratio for the pclass(1) row is 6.212, which is equal to 1.50
 / 0.24. You should interpret this as the odds against dying are 6
@@ -369,11 +369,11 @@ If you prefer to do the analysis with each of the other classes being
 compared back to first class, then select FIRST for reference
 category.
 
-![logistic13.gif not found.](http://www.pmean.com/images/images/02/logist_concepts22.png)
+![logistic13.gif not found.](http://www.pmean.com/new-images/02/logist_concepts22.png)
 
   This produces the following output:
 
-![logistic14.gif not found.](http://www.pmean.com/images/images/02/logist_concepts23.png)
+![logistic14.gif not found.](http://www.pmean.com/new-images/02/logist_concepts23.png)
 
 Here the pclass(1) row provides an odds ratio of 0.494 which equals
 0.74 / 1.50. The odds against dying are about half in second class
@@ -398,7 +398,7 @@ children first" by looking at how age affects the odds against
 survival. Here is a simple model that includes age as a continuous
 variable:
 
-![](http://www.pmean.com/images/images/02/logist_concepts24.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts24.gif)
 
 The odds ratio for age is 0.991. This tells you that the odds against
 dying drop by about 1% for each year of life. In other words, the
@@ -418,22 +418,22 @@ see how each of them compares.
 
 To do this in SPSS, select TRANSFORM | RANK CASES from the menu.
 
-![](http://www.pmean.com/images/images/02/logist_concepts25.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts25.gif)
 
 Click on the RANK TYPES button.
 
-![](http://www.pmean.com/images/images/02/logist_concepts26.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts26.gif)
 
 Select **Ntiles** and choose 10 for the number of groups. This is a
 somewhat arbitrary choice. You want enough groups to allow for subtle
 changes across the age range, but if there are too many groups, you
 lose too much precision.
 
-![](http://www.pmean.com/images/images/02/logist_concepts27.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts27.gif)
 
 Here's what you get
 
-![](http://www.pmean.com/images/images/02/logist_concepts28.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts28.gif)
 
 Notice that the first group has an average age of 6.6. We'll call
 those the young children. The next group has an average age of 17.9
@@ -441,7 +441,7 @@ which looks more like older teenagers. The remaining groups represent
 adults of various ages. We have about 70-80 people in each age group.
 Here is a crosstabulation of age groups by survival.
 
-![](http://www.pmean.com/images/images/02/logist_concepts29.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts29.gif)
 
 Notice that the chances for survival are best for the young children.
 Survival also seems to be high for older teenagers and some of the
@@ -450,7 +450,7 @@ older adult categories. The worst survival rates are in age groups 3,
 "women, children, and old people" first. Here's what a logistic
 regression model looks like for age groups.
 
-![](http://www.pmean.com/images/images/02/logist_concepts30.gif)
+![](http://www.pmean.com/new-images/02/logist_concepts30.gif)
 
 All age groups have a decreased chance of surviving relative to the
 young children group. You might want to investigate this further

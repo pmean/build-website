@@ -30,7 +30,7 @@ past as my thinking on this issue has evolved.
 
 First, let's take a look at the Excel help file.
 
-![](http://www.pmean.com/images/images/07/HeteroscedasticTtest01.gif)
+![](http://www.pmean.com/new-images/07/HeteroscedasticTtest01.gif)
 
 The choice that you are asking about, of course, is between type=2 and
 type=3. **This function produces a p-value** for testing the

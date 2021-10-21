@@ -136,7 +136,7 @@ informed consent requirement was waived.   There were no other factors
 which had a major influence on the ratio of actual to planned
 subjects.  
 
-![](http://www.pmean.com/images/images/08/SlippedDeadlines-0801.gif)
+![](http://www.pmean.com/new-images/08/SlippedDeadlines-0801.gif)
 
 Only 24 studies (19%) commented on subject shortfalls or delays. The
 most common reason cited (n=16) was reluctance of patients/parents to

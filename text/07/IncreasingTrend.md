@@ -20,27 +20,27 @@ To analyze this data in SPSS, you need to code both the events (39, 60,
 67, and 80), as well as the non-events (20, 21, 26, and 12). You should
 arrange the data as is shown below.
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend01.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend01.gif)
 
 I could have coded year as 1992, 1996, etc., and that is perfectly fine.
 It leads to a slightly different interpretation, however. Just as with a
 two by two table, you need to weight the cases properly so that the
 numbers add up properly. Select DATA | WEIGHT CASES from the menu.
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend02.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend02.gif)
 
 Include COUNT as the frequency variable and click OK. Here is what a
 crosstabs looks like with row percentages.
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend03.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend03.gif)
 
 The simplest way to assess trend is to assume that the trend is linear
 on a log-odds scale and apply a logistic regression model. The relevant
 portion of the output is a wide table, which I split into two pieces.
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend04.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend04.gif)
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend05.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend05.gif)
 
 The odds ratio (in the column labeled Exp(B)) is 1.398, which I
 typically round to 1.40. This estimate tells you that the estimated
@@ -48,9 +48,9 @@ increase in odds is 40% for each unit increase. Note that a "unit"
 here is a four year chunk of time. If you had coded year as 1992, 1996,
 etc., here is what the output would look like
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend06.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend06.gif)
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend07.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend07.gif)
 
 The odds ratio of 1.087 is actually consistent with 1.398 when you
 consider that an 8.7% increase over a four year period translates into a
@@ -81,7 +81,7 @@ regression.
 You can produce the predicted probabilities in SPSS and add them to your
 data set (see below).
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend08.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend08.gif)
 
 Notice that the predicted probabilities show a consistent trend. The
 second value is a bit smaller than the observed probability (72% versus
@@ -89,7 +89,7 @@ second value is a bit smaller than the observed probability (72% versus
 below demonstrates visually the compromises that the logistic regression
 model made.
 
-![](http://www.pmean.com/images/images/07/IncreasingTrend09.gif)
+![](http://www.pmean.com/new-images/07/IncreasingTrend09.gif)
 
 These changes are small enough, that I would be comfortable with
 believing that a simple logistic curve fits the data well. But if you

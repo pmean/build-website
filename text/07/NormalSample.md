@@ -29,7 +29,7 @@ this? You can get a rough feel for this by taking repeated samples of
 25 normally distributed random variables and drawing a histogram. I
 did this below.
 
-![](http://www.pmean.com/images/images/07/NormalSample01.gif)
+![](http://www.pmean.com/new-images/07/NormalSample01.gif)
 
 Notice a slightly skewed pattern once in a while (such as in the lower
 right corner). But in general, the sample of 25 does not appear to

@@ -34,7 +34,7 @@ deviation. If you have a count, C, that you believe comes from a Poisson
 distribution, then a confidence interval for the mean of this Poisson
 distribution is
 
-![](http://www.pmean.com/images/images/07/CountData-0701.gif)
+![](http://www.pmean.com/new-images/07/CountData-0701.gif)
 
 This is a rather unusual situation in that most confidence intervals
 require a sample of more than just one value. But because a single
@@ -63,7 +63,7 @@ would be Poisson with mean 4.5<U+03BB>.
 If you computed a rate R = C/t, that rate would be a good estimate for
 <U+03BB>. A 95% confidence interval for the expected rate is
 
-![](http://www.pmean.com/images/images/07/CountData-0702.gif)
+![](http://www.pmean.com/new-images/07/CountData-0702.gif)
 
 This formula also relies on the normal approximation. Suppose you
 counted 61 events over a seven day period and computed a rate of 61/7 =
@@ -80,7 +80,7 @@ Poisson variable with a common parameter <U+03BB>. The sum of those n counts is
 also distributed as a Poisson variable, but the parameter is n<U+03BB>. The
 average is a good estimate of <U+03BB>. A 95% confidence interval is
 
-![](http://www.pmean.com/images/images/07/CountData-0703.gif)
+![](http://www.pmean.com/new-images/07/CountData-0703.gif)
 
 Note that this formulas is effectively the same as the formula for the
 confidence interval for a rate if you let t=n.
@@ -90,7 +90,7 @@ using the traditional formulas. You should feel more comfortable with
 the assumption of a Poisson distribution if the sample standard
 deviation is close to
 
-![](http://www.pmean.com/images/images/07/CountData-0704.gif)
+![](http://www.pmean.com/new-images/07/CountData-0704.gif)
 
 **Justifying a sample size**. Suppose you want to justify the sample
 size for a study whose primary goal is to estimate a rate. How would you
@@ -100,11 +100,11 @@ One way is to get a confidence interval for the rate that has a
 sufficient amount of precision. If you want the confidence interval to
 have a width of no more than +/-D, then you need to solve the equation
 
-![](http://www.pmean.com/images/images/07/CountData-0705.gif)
+![](http://www.pmean.com/new-images/07/CountData-0705.gif)
 
 for t, which produces the following equation.
 
-![](http://www.pmean.com/images/images/07/CountData-0706.gif)
+![](http://www.pmean.com/new-images/07/CountData-0706.gif)
 
 In order to calculate t, you need an estimate of R. You don't know R,
 of course, but you probably have a rough idea of how large it would be.
@@ -119,11 +119,11 @@ of the confidence interval was sufficiently small. Set the desired width
 of the confidence interval to PR where P is a proportion. Substitute PR
 for D in the above equation to get
 
-![](http://www.pmean.com/images/images/07/CountData-0707.gif)
+![](http://www.pmean.com/new-images/07/CountData-0707.gif)
 
 which simplifies to
 
-![](http://www.pmean.com/images/images/07/CountData-0708.gif)
+![](http://www.pmean.com/new-images/07/CountData-0708.gif)
 
 Note that Rt represents a count of the number of events across the full
 time range t. Suppose we wanted to have a 95% confidence interval for a

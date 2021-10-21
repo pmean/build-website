@@ -20,16 +20,16 @@ involving compound interest may help me remember better in the future.
 If you invest an amount of money A for t years at a simple interest
 rate, i, the amount of money that you earn is
 
-![](http://www.pmean.com/images/images/07/CompoundInterest01.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest01.gif)
 
 and if you compound the interest n times per year, the amount you earn
 is
 
-![](http://www.pmean.com/images/images/07/CompoundInterest02.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest02.gif)
 
 If you let n go to infinity, this term converges to
 
-![](http://www.pmean.com/images/images/07/CompoundInterest03.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest03.gif)
 
 This formula is well known to people in finance and in mathematics. A
 nice explanation can be found in the [Wikipedia article on compound
@@ -37,12 +37,12 @@ interest](http://en.wikipedia.org/wiki/Compound_interest).
 
 As an example of how I would use this, I had an expression of the form
 
-![](http://www.pmean.com/images/images/07/CompoundInterest04.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest04.gif)
 
 What would this equal for values of s close to zero? Replace s with 1/n
 to get
 
-![](http://www.pmean.com/images/images/07/CompoundInterest05.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest05.gif)
 
 This is just like the compound interest formula with A=1, r=1, and t=-1.
 A purist might quibble that compound interest for a negative amount of
@@ -53,17 +53,17 @@ mathematical relationship holds anyway.
 The limit as n approaches infinity (which is equivalent to the limit as
 s approaches zero) is
 
-![](http://www.pmean.com/images/images/07/CompoundInterest06.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest06.gif)
 
 How good is this approximation? The constant e is 2.718 and the ratio
 1/e is 0.3679. For s=0.1, you get
 
-![](http://www.pmean.com/images/images/07/CompoundInterest07.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest07.gif)
 
   For s=0.01, you get
 
-![](http://www.pmean.com/images/images/07/CompoundInterest08.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest08.gif)
 
 For s=0.001, you get
 
-![](http://www.pmean.com/images/images/07/CompoundInterest09.gif)
+![](http://www.pmean.com/new-images/07/CompoundInterest09.gif)

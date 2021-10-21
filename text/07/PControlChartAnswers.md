@@ -21,11 +21,11 @@ you were asked to calculate P charts for the following two data sets:
 For worker #2, the average of all 24 proportions is 0.6967. The
 control limits are calculated as
 
-![](http://www.pmean.com/images/images/07/PControlChartAnswers01.gif)
+![](http://www.pmean.com/new-images/07/PControlChartAnswers01.gif)
 
 and the control chart is
 
-![](http://www.pmean.com/images/images/07/PControlChartAnswers02.gif)
+![](http://www.pmean.com/new-images/07/PControlChartAnswers02.gif)
 
 Notice that the computer rounds these numbers slightly differently,
 reporting the lower control limit as 0.50 rather than 0.51. Do not
@@ -37,11 +37,11 @@ There are no points out of control on this chart.
 For worker #3, the average proportion is 0.2525. The control limits
 are calculated as
 
-![](http://www.pmean.com/images/images/07/PControlChartAnswers03.gif)
+![](http://www.pmean.com/new-images/07/PControlChartAnswers03.gif)
 
 and the control chart is
 
-![](http://www.pmean.com/images/images/07/PControlChartAnswers04.gif)
+![](http://www.pmean.com/new-images/07/PControlChartAnswers04.gif)
 
 Again, the answers diverge slightly because of rounding. There are no
 points out of control on this chart.

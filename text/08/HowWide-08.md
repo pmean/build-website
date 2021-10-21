@@ -64,7 +64,7 @@ Look at the following monospace text.
 On my screen, this display works well when the browser window is 800
 pixels wide.
 
-![](http://www.pmean.com/images/images/08/HowWide-0801.jpg)
+![](http://www.pmean.com/new-images/08/HowWide-0801.jpg)
 height="229"}
 
 (Note that I am violating one of my unofficial rules which is to keep
@@ -76,7 +76,7 @@ the potential for problems.
 
 `                 1                    2                 3                    4                 5                    6   123456789012345678901234567890123456789012345678901234567890`
 
-![](http://www.pmean.com/images/images/08/HowWide-0802.jpg)
+![](http://www.pmean.com/new-images/08/HowWide-0802.jpg)
 height="229"}
 
 At an extreme of 480 pixels wide, you can only fit about 45 columns
@@ -84,14 +84,14 @@ comfortably.
 
 `                 1                    2                 3                    4   123456789012345678901234567890123456789012345`
 
-![](http://www.pmean.com/images/images/08/HowWide-0803.jpg)
+![](http://www.pmean.com/new-images/08/HowWide-0803.jpg)
 height="237"}
 
 Does anyone use a web browser window this narrow? I don't know, but
 designing for such a narrow window will help when the end user has a
 larger font displayed by default.
 
-![](http://www.pmean.com/images/images/08/HowWide-0804.jpg)
+![](http://www.pmean.com/new-images/08/HowWide-0804.jpg)
 height="265"}
 
 The screenshot above, for example, is what a 640 pixel window looks

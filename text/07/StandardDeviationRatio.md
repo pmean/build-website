@@ -21,11 +21,11 @@ very creative things with numbers. Have you tried talking to them?
 
 It helps to look at the formula. The most commonly used formula is
 
-![](http://www.pmean.com/images/images/07/StandardDeviationRatio01.gif)
+![](http://www.pmean.com/new-images/07/StandardDeviationRatio01.gif)
 
 but some people use
 
-![](http://www.pmean.com/images/images/07/StandardDeviationRatio02.gif)
+![](http://www.pmean.com/new-images/07/StandardDeviationRatio02.gif)
 
 instead. If you use the second formula, then it is pretty obvious that
 the standard deviation cannot exceed the range. The mean of the data has
@@ -50,7 +50,7 @@ Now when you use the first formula, you will get a slightly larger
 value. In fact the ratio of the first formula to the second formula is
 simply
 
-![](http://www.pmean.com/images/images/07/StandardDeviationRatio03.gif)
+![](http://www.pmean.com/new-images/07/StandardDeviationRatio03.gif)
 
 which is maximized for n=2. We won't talk about the case where n=1. So
 the best case (two data points 0 and 1) yields a standard deviation of

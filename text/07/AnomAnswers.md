@@ -47,7 +47,7 @@ which represents the pooled standard deviation.
 In this example, I is 6 and N is 12. The critical value h is 3.62. The
 upper decision limit is
 
-![](http://www.pmean.com/images/images/07/AnomAnswers04.gif)
+![](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
 
 ```{}
 26.4+3.62*18.2*v5/18=61.4
@@ -56,7 +56,7 @@ The lower decision limit is less than zero. Since negative values are
 impossible in this setting, you should not plot this value. Here is a
 graphical display.
 
-![](http://www.pmean.com/images/images/07/AnomAnswers02.gif)
+![](http://www.pmean.com/new-images/07/AnomAnswers02.gif)
 
 The second data set represents proportions and is reproduced below.
 
@@ -69,7 +69,7 @@ The average of these 20 proportions is 0.26. In this example, I=20 and
 N=2000. The critical value h is 3.02. The upper and lower decision
 limits are
 
-![](http://www.pmean.com/images/images/07/AnomAnswers03.gif)
+![](http://www.pmean.com/new-images/07/AnomAnswers03.gif)
 
 ```{}
 0.26-3.02*v(0.26*0.74)*v(19/2000)=0.13
@@ -79,5 +79,5 @@ limits are
 Here is a graphical display of the individual proportions and the
 decision limits.
 
-![](http://www.pmean.com/images/images/07/AnomAnswers04.gif)
+![](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
 

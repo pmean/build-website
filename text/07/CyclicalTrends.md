@@ -17,12 +17,12 @@ starting in January 2005. Here is the data:
 
 Here is a plot of the 28 consecutive values.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends01.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends01.gif)
 
 and here is the plot aligning the months in a given year (5=2005,
 6=2006, 7=2007).
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends02.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends02.gif)
 
 Notice that the number of beds filled is highest in the wintertime and
 lowest in the summertime. Also notice that there is slight upward trend
@@ -32,26 +32,26 @@ well. A simple way to estimate a cyclical pattern is to use a bit of
 trigonometry. Do you remember the sine function from your trig class in
 high school? Here is an example of a sine wave.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends03.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends03.gif)
 
 Notice that it has a cyclical trend with regular peaks and troughs, but
 this is not the sine wave that we want to fit to our data. To fit a sine
 wave properly, you need to estimate three quantities: the amplitude, the
 period/frequency, and the phase.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends04.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends04.gif)
 
 Amplitude is the distance from the middle of the sine curve to the peak
 (or equivalently, the distance from the middle to the trough).
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends05.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends05.gif)
 
 Period is the distance that a sine wave travels before it repeats
 itself. Period is inversely related to frequency. You can define the
 frequency as the number of times (sometimes a fractional number of
 times) that a sine wave repeats in the interval 0 to 2pi.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends06.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends06.gif)
 
 Phase is the amount that the sine wave is shifted from the origin.
 
@@ -63,33 +63,33 @@ because estimating period/frequency and phase is already more than
 enough challenge. One formula that will produce a sine wave with a
 period of 12 and variable amplitude and phase is
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends07.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends07.gif)
 
 This is a nonlinear model, because the term phi is inside the sin
 function. We can find a more convenient form that does not require the
 use of nonlinear regression by remembering the formula for the sine of a
 sum of two angles
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends08.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends08.gif)
 
 If you apply this formula, the equation changes to
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends09.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends09.gif)
 
 where
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends10.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends10.gif)
 
 and
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends11.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends11.gif)
 
 With a bit of work, you can show that the amplitude and phase are simple
 functions of B and C.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends12.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends12.gif)
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends13.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends13.gif)
 
 The code in R to fit a linear trend in the presence of cyclical
 variation is
@@ -128,7 +128,7 @@ equivalently 1.86 filled beds per year).
 
 Here is a plot of the data and the estimated equation.
 
-![](http://www.pmean.com/images/images/07/CyclicalTrends14.gif)
+![](http://www.pmean.com/new-images/07/CyclicalTrends14.gif)
 
 The model used here is overly simplistic for two reasons. First, it
 fails to take advantage of the fact that counts often followed a Poisson

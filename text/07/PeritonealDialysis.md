@@ -41,7 +41,7 @@ than days.
 This graph shows the cumulative number of patients at risk of an adverse
 event at any time point in the review period.
 
-![](http://www.pmean.com/images/images/07/PeritonealDialysis01.gif)
+![](http://www.pmean.com/new-images/07/PeritonealDialysis01.gif)
 
 The vertical line segments at the bottom of the graph represent the
 times that patients began dialysis and the segments at the top of the
@@ -80,12 +80,12 @@ eight year study (you can get this by integrating the figure shown
 above). This graph also notes the occurrence of exit site infections
 using a red plus sign.
 
-![](http://www.pmean.com/images/images/07/PeritonealDialysis02.gif)
+![](http://www.pmean.com/new-images/07/PeritonealDialysis02.gif)
 
 Here's a second graph with occurrence of peritonitis marked with a red
 plus sign.
 
-![](http://www.pmean.com/images/images/07/PeritonealDialysis03.gif)
+![](http://www.pmean.com/new-images/07/PeritonealDialysis03.gif)
 
 The horizontal distance between successive plus signs represents the
 waiting time in years between the successive patients. The vertical
@@ -99,7 +99,7 @@ successive years.
 If you plot the patient-years between successive exit site infections,
 you will see the following control chart.
 
-![](http://www.pmean.com/images/images/07/PeritonealDialysis04.gif)
+![](http://www.pmean.com/new-images/07/PeritonealDialysis04.gif)
 
 The gray region represents the first four years of the study. After the
 fourth year, an intervention was implemented to reduce adverse events.
@@ -110,7 +110,7 @@ slipped back at least partway to the norm.
 
 Here's the plot for peritonitis events.
 
-![](http://www.pmean.com/images/images/07/PeritonealDialysis05.gif)
+![](http://www.pmean.com/new-images/07/PeritonealDialysis05.gif)
 
 Notice that there is no evidence that peritonitis is becoming a rarer
 event after the intervention.

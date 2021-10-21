@@ -25,7 +25,7 @@ an additional observation to the data set, assuming a 95% one sided
 confidence interval, a standard deviation of 50, a cost of 100 per
 sampled record, and a total population of 500 records.
 
-![](http://www.pmean.com/images/images/08/TooMuchPower-0801.gif)
+![](http://www.pmean.com/new-images/08/TooMuchPower-0801.gif)
 
 At about 37 records, the change in precision is about 100. If you
 sampled more than this value, you would be spending more on the

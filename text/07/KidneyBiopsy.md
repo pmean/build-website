@@ -41,16 +41,16 @@ be part of the post implementation phase.
 The plot below shows the time when certain biopsy events occurred. The
 shaded region represents the transition period.
 
-![](http://www.pmean.com/images/images/07/KidneyBiopsy01.gif)
+![](http://www.pmean.com/new-images/07/KidneyBiopsy01.gif)
 
 Here are some control charts monitoring the frequency of events.
 
-![](http://www.pmean.com/images/images/07/KidneyBiopsy02.gif)
+![](http://www.pmean.com/new-images/07/KidneyBiopsy02.gif)
 
 Note that about one in 11 biopsies involves hematuria and that rate is
 relatively stable before, during, and after the transition.
 
-![](http://www.pmean.com/images/images/07/KidneyBiopsy03.gif)
+![](http://www.pmean.com/new-images/07/KidneyBiopsy03.gif)
 
 In contrast, the problems with inadequate tissue have virtually
 disappeared. there are more than 80 consecutive biopsies since the
@@ -62,12 +62,12 @@ for kidney biopsies, we were sending every ninth patient back for a
 second biopsy because of inadequate tissue. After using ultrasound, we
 have stopped experiencing any problems with inadequate tissue.
 
-![](http://www.pmean.com/images/images/07/KidneyBiopsy04.gif)
+![](http://www.pmean.com/new-images/07/KidneyBiopsy04.gif)
 
 Approximately every tenth biopsy required the use of pain control
 medication. This rate is stable before, during, and after biopsy.
 
-![](http://www.pmean.com/images/images/07/KidneyBiopsy05.gif)
+![](http://www.pmean.com/new-images/07/KidneyBiopsy05.gif)
 
 Other adverse events occur in one out of every 20 biopsies on average.
 We are currently experiencing a large gap in other adverse events, and

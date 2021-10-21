@@ -45,19 +45,19 @@ random variable is simply the square root of the expected value
 - you can
 use the simple approximate formula
 
-![](http://www.pmean.com/images/images/07/ConfidenceIntervalForRate01.gif)
+![](http://www.pmean.com/new-images/07/ConfidenceIntervalForRate01.gif)
 
 as a confidence interval for a Poisson count variable equal to x. Then
 simply divide the limits of the confidence interval by the same quantity
 that you divided the count by the same denominator. This produces the
 following formula
 
-![](http://www.pmean.com/images/images/07/ConfidenceIntervalForRate02.gif)
+![](http://www.pmean.com/new-images/07/ConfidenceIntervalForRate02.gif)
 
 If you let R=x/T
 - then this formula simplifies to
 
-![](http://www.pmean.com/images/images/07/ConfidenceIntervalForRate03.gif)
+![](http://www.pmean.com/new-images/07/ConfidenceIntervalForRate03.gif)
 
 **Example**: In a study of AIDS patients
 - six cases of tuberculosis were
@@ -95,7 +95,7 @@ If the statistic in question is a proportion rather than a rate
 you should use the formula for a confidence interval for a single
 proportion.
 
-![](http://www.pmean.com/images/images/07/ConfidenceIntervalForRate04.gif)
+![](http://www.pmean.com/new-images/07/ConfidenceIntervalForRate04.gif)
 
 though if the proportion is small and the sample size is large
 - the confidence interval for a rate   can be used as simple and fairly

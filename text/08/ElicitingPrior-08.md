@@ -82,7 +82,7 @@ A simple way to fit a Beta distribution to a sample from that
 distribution is the method of moments. The formula for the prior sample
 size for this Beta distribution is simply
 
-![](http://www.pmean.com/images/images/08/ElicitingPrior-0801.gif)
+![](http://www.pmean.com/new-images/08/ElicitingPrior-0801.gif)
 
 Example: Suppose that the success rates
 

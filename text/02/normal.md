@@ -66,11 +66,11 @@ To compute the skewness and kurtosis, select ANALYZE | DESCRIPTIVE
 STATISTICS | DESCRIPTIVES from the SPSS menu. Then click on the
 OPTIONS button.
 
-![](http://www.pmean.com/images/images/02/normal01.gif)
+![](http://www.pmean.com/new-images/02/normal01.gif)
 
 Here is the output.
 
-![](http://www.pmean.com/images/images/02/normal02.gif)
+![](http://www.pmean.com/new-images/02/normal02.gif)
 
 The skewness is close to zero, indicating that the residuals are
 roughly symmetric. The kurtosis is very small. This tells you that the
@@ -82,16 +82,16 @@ does not resemble a bell shaped curve. The deviation from normality,
 however, is not very troublesome. It would have been more of a concern
 if the histogram showed evidence of one or more outliers.
 
-![](http://www.pmean.com/images/images/02/normal03.gif)
+![](http://www.pmean.com/new-images/02/normal03.gif)
 
 One trouble with histograms is that the width of the bars is somewhat
 arbitrary. Here is an example of a histogram with wider bars.
 
-![](http://www.pmean.com/images/images/02/normal04.gif)
+![](http://www.pmean.com/new-images/02/normal04.gif)
 
 And here is an example of a histogram with narrower bars.
 
-![](http://www.pmean.com/images/images/02/normal05.gif)
+![](http://www.pmean.com/new-images/02/normal05.gif)
 
 There is no simple way to select the width of the bars, and a pattern
 that may be hidden in one histogram may appear when the bars gets
@@ -102,11 +102,11 @@ plots the data values versus evenly spaced percentiles from a normal
 distribution. If the Q-Q plot shows a line that is If there is a good
 correspondence between the data
 
-![](http://www.pmean.com/images/images/02/normal06.gif)
+![](http://www.pmean.com/new-images/02/normal06.gif)
 
 Here is the Q-Q plot for the residuals from a linear regression model.
 
-![](http://www.pmean.com/images/images/02/normal07.gif)
+![](http://www.pmean.com/new-images/02/normal07.gif)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

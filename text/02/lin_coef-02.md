@@ -54,7 +54,7 @@ The graph shown below represents the relationship between mother's age
 and the duration of breast feeding in a research study on breast feeding
 in pre-term infants.
 
-![](http://www.pmean.com/images/images/02/lin_coef-0201.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0201.gif)
 
 The regression coefficients are shown below. The intercept, 6, is
 represented the estimated average duration of breast feeding for a
@@ -64,7 +64,7 @@ the slope, approximately 0.4. The estimated average duration of breast
 feeding increases by 0.4 weeks for every extra year in the mother's
 age.
 
-![](http://www.pmean.com/images/images/02/lin_coef-0202.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0202.gif)
 
 When X is categorical, the interpretation changes somewhat. Let's look
 at the simplest situation, a binary variable. A binary variable can have
@@ -77,14 +77,14 @@ In a study of breast feeding, we have a treatment group and a control
 group. Let us label the treatment group as 1 and the control group as 0.
 The outcome variable is the age when breast feeding stopped.
 
-![](http://www.pmean.com/images/images/02/lin_coef-0203.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0203.gif)
 
 The control group had a mean duration of breast feeding just a bit
 larger than 13. The mean for the treatment group is just a bit larger
 than 20. Notice that the regression line shown above connects the two
 means.
 
-![](http://www.pmean.com/images/images/02/lin_coef-0204.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0204.gif)
 
 In this situation, the intercept, 13, represents the average duration
 for the control group. The slope is 7, which is the change in the
@@ -95,14 +95,14 @@ We could have just as easily labeled the treatment group as 0 and the
 control group as 1. If we did that, we would get a graph that looks like
 the following:
 
-![](http://www.pmean.com/images/images/02/lin_coef-0205.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0205.gif)
 
 Here, the intercept, 20, represents the mean of the treatment group. The
 slope, -7, represents the change in average duration as we move from the
 treatment group to the control group. It is actually this reverse coding
 that SPSS chooses as a default.
 
-![](http://www.pmean.com/images/images/02/lin_coef-0206.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0206.gif)
 
 Neither coding is correct or incorrect. Just make sure that you
 understand the difference. If you get a slope that is in the opposite
@@ -158,7 +158,7 @@ what I present here. My analysis is more useful for helping you to
 understand concepts in regression than for resolving this voting
 controversy.  
 
-![](http://www.pmean.com/images/images/02/lin_coef-0207.gif)
+![](http://www.pmean.com/new-images/02/lin_coef-0207.gif)
 
 The scatter plot shown above shows the number of votes for George Bush
 in each Florida County versus the number of votes for Patrick Buchanan

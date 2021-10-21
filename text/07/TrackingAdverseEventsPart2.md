@@ -41,13 +41,13 @@ part of the post implementation phase.
 
 The plot below shows the time when certain biopsy events occurred.
 
-![](http://www.pmean.com/images/images/07/TrackingAdverseEventsPart201.gif)
+![](http://www.pmean.com/new-images/07/TrackingAdverseEventsPart201.gif)
 
 Hematuria is one of the most common adverse events, occurring about 9%
 of the time or roughly one in every 11 patients. There are no trends or
 patterns over time.
 
-![](http://www.pmean.com/images/images/07/TrackingAdverseEventsPart202.gif)
+![](http://www.pmean.com/new-images/07/TrackingAdverseEventsPart202.gif)
 
 Inadequate tissue is another serious concern. This occurs about 7.5% of
 the time or roughly once in every 13 patients. Notice that no instances
@@ -56,13 +56,13 @@ really estimate the rate very well with this data, but we suspect that
 it is small (less than 2%) and it represents a sudden drop in the rate
 from what we observed prior to the intervention.
 
-![](http://www.pmean.com/images/images/07/TrackingAdverseEventsPart203.gif)
+![](http://www.pmean.com/new-images/07/TrackingAdverseEventsPart203.gif)
 
 Another concern is a biopsy with pain sufficient to require the use of
 narcotics. This occurs roughly once in every ten patients and shows no
 trends or patterns over time.
 
-![](http://www.pmean.com/images/images/07/TrackingAdverseEventsPart204.gif)
+![](http://www.pmean.com/new-images/07/TrackingAdverseEventsPart204.gif)
 
 All other adverse events represents a smaller piece of the puzzle, with
 an average of one other adverse event for every twenty patients.
@@ -73,7 +73,7 @@ the adverse event rate is not large enough to allow us to claim an
 improvement in the process of biopsies, but as additional data
 accumulates, we may be able to draw a stronger conclusion.
 
-![](http://www.pmean.com/images/images/07/TrackingAdverseEventsPart205.gif)
+![](http://www.pmean.com/new-images/07/TrackingAdverseEventsPart205.gif)
 
 **How can you construct these graphs?**
 
