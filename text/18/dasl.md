@@ -22,7 +22,7 @@ resource.
 Data Description, Inc. Welcome to DASL -- The Data And Story Library.
 Available in [html format](https://dasl.datadescription.com/).
 
-![](http://www.pmean.com/images/images/18/dasl01.png)
+![](http://www.pmean.com/new-images/18/dasl01.png)
 
 
 

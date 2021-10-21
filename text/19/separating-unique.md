@@ -24,7 +24,7 @@ in SAS 9.3 and Newer Versions. The Chemical Statistician blog
 2015. Available in [html
 format](https://chemicalstatistician.wordpress.com/2015/04/10/separating-unique-and-duplicate-variables-using-proc-sort-in-sas-9-3-and-newer-versions/).
 
-![](http://www.pmean.com/images/images/19/separating-unique01.png)
+![](http://www.pmean.com/new-images/19/separating-unique01.png)
 
 
 

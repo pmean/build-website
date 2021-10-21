@@ -25,7 +25,7 @@ yourself.
 Philosophy News Network: Postmoderism Special Report. Available at
 <http://existentialcomics.com/comic/218>.
 
-![](http://www.pmean.com/images/images/18/recommended-philosophy-news-network-postmodernism-special-report01.png)
+![](http://www.pmean.com/new-images/18/recommended-philosophy-news-network-postmodernism-special-report01.png)
 
 
 

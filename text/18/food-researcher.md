@@ -21,7 +21,7 @@ studies retracted. That's a lot. Vox, September 21, 2018. Available in
 [html
 format](https://www.vox.com/science-and-health/2018/9/19/17879102/brian-wansink-cornell-food-brand-lab-retractions-jama).
 
-![](http://www.pmean.com/images/images/18/food-researcher01.png)
+![](http://www.pmean.com/new-images/18/food-researcher01.png)
 
 
 

@@ -20,7 +20,7 @@ tutorial is a slow and easy introduction to MPI.
 Wes Kendall. MPI Tutorial Introduction. Available at
 <http://mpitutorial.com/tutorials/mpi-introduction/>.
 
-![](http://www.pmean.com/images/images/18/mpi-tutorial01.png)
+![](http://www.pmean.com/new-images/18/mpi-tutorial01.png)
 
 
 

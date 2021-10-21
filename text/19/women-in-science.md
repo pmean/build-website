@@ -24,7 +24,7 @@ a fairly easy 15 minutes to listen to.
 Rachel Ignotofsky. Making women in science visible. TEDx Talks, January
 8, 2019. Available in [video format](https://youtu.be/386kmzBH4Co).
 
-![](http://www.pmean.com/images/images/19/women-in-science01.png)
+![](http://www.pmean.com/new-images/19/women-in-science01.png)
 
 
 

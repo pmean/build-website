@@ -10,17 +10,17 @@ tags:
 output: html_document
 ---
 
-This is a very nice summary of six major areas where data mining has led
-to serious ethical concerns.
+![](http://www.pmean.com/new-images/19/ethical-data-mining01.png)
 
-<!---More--->
+<div class="notes">
 
-Peter Bruce. Ethical Practice in Data Mining. Statistics.com blog, March
-28, 2019. Available in [html
-format](https://www.statistics.com/blog/1/1553803419-ethical-practice-in-data-mining/).
+This is a very nice summary of six major areas where data mining has led to serious ethical concerns.
 
-![](http://www.pmean.com/images/images/19/ethical-data-mining01.png)
+Peter Bruce. Ethical Practice in Data Mining. Statistics.com blog, 2019-03-28. Available in [html format][bru1]. About 2,000 words.
 
+[bru1]: https://medium.com/@PeterBruce/ethical-practice-in-data-mining-1ec297b43fd9
+
+</div>
 
 
 

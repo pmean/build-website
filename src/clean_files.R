@@ -60,8 +60,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '\\- Quotations',
-  '- Quotation',
+  'http://www.pmean.com/images/images/19/',
+  'http://www.pmean.com/new-images/19/',
   dir_root="text", 
   file_pattern="md$",
   subdir_list=zpad(c(99, 0:21)))

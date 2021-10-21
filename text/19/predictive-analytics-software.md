@@ -12,7 +12,7 @@ output: html_document
 
 <!---more--->
 
-![](http://www.pmean.com/images/images/19/predictive-analytics-software01.jpeg)
+![](http://www.pmean.com/new-images/19/predictive-analytics-software01.jpeg)
 
 
 

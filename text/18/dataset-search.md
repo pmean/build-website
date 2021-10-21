@@ -28,7 +28,7 @@ published September 5
 - 2018. Available in [html
 format](https://www.blog.google/products/search/making-it-easier-discover-datasets/amp/).
 
-![](http://www.pmean.com/images/images/18/dataset-search01.png)
+![](http://www.pmean.com/new-images/18/dataset-search01.png)
 
 
 

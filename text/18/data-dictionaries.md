@@ -18,7 +18,7 @@ from the perspective of research data management.
 Kristin Briney. Data dictionaries. Data Ab Initio blog, August 5, 2014.
 Available at <http://dataabinitio.com/?p=454%C2%A0>.
 
-![](http://www.pmean.com/images/images/18/data-dictionaries01.png)
+![](http://www.pmean.com/new-images/18/data-dictionaries01.png)
 
 
 

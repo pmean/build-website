@@ -22,7 +22,7 @@ Applications & More. Available in [html
 format](https://www.niaid.nih.gov/grants-contracts/sample-applications),
 but please note that the links on this page go mostly to PDF files.
 
-![](http://www.pmean.com/images/images/19/sample-grants01.png)
+![](http://www.pmean.com/new-images/19/sample-grants01.png)
 
 
 

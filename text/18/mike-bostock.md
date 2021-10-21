@@ -32,7 +32,7 @@ and open source. AMA!
 10.15200/winn.144172.22400. Available at
 <https://thewinnower.com/papers/2374-hi-i-m-mike-bostock-creator-of-d3-js-and-a-former-graphics-editor-for-the-new-york-times-i-do-data-visualization-design-and-open-source-ama>.
 
-![](http://www.pmean.com/images/images/18/mike-bostock01.png)
+![](http://www.pmean.com/new-images/18/mike-bostock01.png)
 
 
 

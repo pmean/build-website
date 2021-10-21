@@ -21,7 +21,7 @@ International Association of Survey Statisticians. The Survey
 Statistician newsletter. Available at
 <http://isi-iass.org/home/services/the-survey-statistician/>.
 
-![](http://www.pmean.com/images/images/18/survey-newsletter01.png)
+![](http://www.pmean.com/new-images/18/survey-newsletter01.png)
 
 
 

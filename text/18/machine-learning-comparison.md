@@ -28,7 +28,7 @@ Machine Learning forecasting methods: Concerns and ways forward. PLoS
 ONE 13(3): e0194889. Available at
 <https://doi.org/10.1371/journal.pone.0194889>.
 
-![](http://www.pmean.com/images/images/18/machine-learning-comparison01.png)
+![](http://www.pmean.com/new-images/18/machine-learning-comparison01.png)
 
 
 

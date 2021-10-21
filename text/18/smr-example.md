@@ -24,7 +24,7 @@ with the clarity of the writing style.
 New Mexico Department of Health. Standardized Mortality Ratio. Available
 in [html format](https://ibis.health.state.nm.us/resource/SMR_ISR.html).
 
-![](http://www.pmean.com/images/images/18/smr-example01.png)
+![](http://www.pmean.com/new-images/18/smr-example01.png)
 
 
 

@@ -30,7 +30,7 @@ format](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.020083
 or [PDF
 format](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0200837&type=printable).
 
-![](http://www.pmean.com/images/images/19/tied-ranks01.png)
+![](http://www.pmean.com/new-images/19/tied-ranks01.png)
 
 
 

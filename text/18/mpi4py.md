@@ -22,7 +22,7 @@ Passing Interface applications within Python.
 Python Software Foundation. mpi4py 3.0.0. Available at
 <https://pypi.org/project/mpi4py/>.
 
-![](http://www.pmean.com/images/images/18/mpi4py01.png)
+![](http://www.pmean.com/new-images/18/mpi4py01.png)
 
 
 

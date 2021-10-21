@@ -24,7 +24,7 @@ shows how to apply this algorithm within R.
 Dmitriy Selivanov. GloVe Word Embeddings. Available at
 <https://cran.r-project.org/web/packages/text2vec/vignettes/glove.html>.
 
-![](http://www.pmean.com/images/images/18/word-vector-embeddings01.png)
+![](http://www.pmean.com/new-images/18/word-vector-embeddings01.png)
 
 
 

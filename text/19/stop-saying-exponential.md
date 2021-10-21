@@ -19,7 +19,7 @@ Manil Suri. Stop Saying 'Exponential.' Sincerely, a Math Nerd. New York
 Times. March 4, 2019. Available in [html
 format](https://www.nytimes.com/2019/03/04/opinion/exponential-language-math.html).
 
-![](http://www.pmean.com/images/images/19/stop-saying-exponential01.png)
+![](http://www.pmean.com/new-images/19/stop-saying-exponential01.png)
 
 
 

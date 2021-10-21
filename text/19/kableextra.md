@@ -21,7 +21,7 @@ Hao Zhu. Create Awesome HTML Table with knitr::kable and kableExtra.
 2019-01-15. Available in [html
 format](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html).
 
-![](http://www.pmean.com/images/images/19/kableextra01.png)
+![](http://www.pmean.com/new-images/19/kableextra01.png)
 
 
 

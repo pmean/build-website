@@ -27,7 +27,7 @@ Will Knight. Microsoft is creating an oracle for catching biased AI
 algorithms. MIT Technology Review, May 25, 2018. Available at
 <https://www.technologyreview.com/s/611138/microsoft-is-creating-an-oracle-for-catching-biased-ai-algorithms>.
 
-![](http://www.pmean.com/images/images/18/biased-algorithms01.png)
+![](http://www.pmean.com/new-images/18/biased-algorithms01.png)
 
 
 

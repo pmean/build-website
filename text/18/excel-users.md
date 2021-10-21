@@ -25,7 +25,7 @@ Programming. Dataquest blog
 - 2018. Available in [html
 format](https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/).
 
-![](http://www.pmean.com/images/images/18/excel-users01.png)
+![](http://www.pmean.com/new-images/18/excel-users01.png)
 
 
 

@@ -24,7 +24,7 @@ Steve Lohr. The Origins of 'Big Data': An Etymological Detective Story.
 The New York Times, February 1, 2013. Available at
 <https://bits.blogs.nytimes.com/2013/02/01/the-origins-of-big-data-an-etymological-detective-story/>.
 
-![](http://www.pmean.com/images/images/18/origins-of-big-data01.png)
+![](http://www.pmean.com/new-images/18/origins-of-big-data01.png)
 
 
 

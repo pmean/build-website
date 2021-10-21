@@ -23,7 +23,7 @@ David W. Hosmer, Jr. Stanley Lemeshow, Susanne May. Applied Survival
 Analysis, Second Edition. 2008. Wiley_interscience. ISBN-13:
 978-0471754992.
 
-![41Y3hCIFjdL._SX310_BO1%2c204%2c203%2c200_.jpg not found.](http://www.pmean.com/images/images/18/applied-survival-analysis01.png)
+![41Y3hCIFjdL._SX310_BO1%2c204%2c203%2c200_.jpg not found.](http://www.pmean.com/new-images/18/applied-survival-analysis01.png)
 width="260px"}
 
 

@@ -23,7 +23,7 @@ format](http://journals.sagepub.com/doi/full/10.1177/0956797611417632)
 or [pdf
 format](http://journals.sagepub.com/doi/pdf/10.1177/0956797611417632).
 
-![](http://www.pmean.com/images/images/18/false-positive-psychology01.png)
+![](http://www.pmean.com/new-images/18/false-positive-psychology01.png)
 
 
 

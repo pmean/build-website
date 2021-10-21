@@ -26,7 +26,7 @@ control trials. Doing Bayesian Data Analysi blog
 Available at
 <http://doingbayesiandataanalysis.blogspot.com/2016/11/bayesian-meta-analysis-of-two.html>.
 
-![](http://www.pmean.com/images/images/18/bayesian-meta-analysis01.png)
+![](http://www.pmean.com/new-images/18/bayesian-meta-analysis01.png)
 
 
 

@@ -11,19 +11,14 @@ tags:
 output: html_document
 ---
 
-How do you teach data science? That's not an easy question
-- because data
-science means different things to different people. This site shows
-different curricula depending on what you want your program to
-emphasize.
+![](http://www.pmean.com/new-images/19/data-science-curriculum01.png)
 
-<!---More--->
+<div class="notes">
 
-Brandon Rohrer. Data science curriculum roadmap. Available in [html
-format](https://github.com/brohrer/academic_advisory/blob/master/curriculum_roadmap.md).
+How do you teach data science? That's not an easy question - because data science means different things to different people. This site shows different curricula depending on what you want your program to emphasize.
 
-![](http://www.pmean.com/images/images/19/data-science-curriculum01.png)
+Brandon Rohrer. Data science curriculum roadmap. Available in [html format][roh1].
 
+[roh1]: https://github.com/brohrer/academic_advisory/blob/master/curriculum_roadmap.md
 
-
-
+</div>

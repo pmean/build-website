@@ -56,7 +56,7 @@ Stanley Lemeshow
 - and Susanne May. Available at
 <https://stats.idre.ucla.edu/other/examples/asa2/>.
 
-![](http://www.pmean.com/images/images/18/ucla-software01.png)
+![](http://www.pmean.com/new-images/18/ucla-software01.png)
 
 
 

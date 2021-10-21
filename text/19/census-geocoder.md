@@ -10,17 +10,14 @@ tags:
 output: html_document
 ---
 
-This website will take an address, either on a form or as a batch of up
-to 10,000 addresses (CSV format) and provide latitude, longitude pairs
-as well as U.S. Census tract information.
+![](http://www.pmean.com/new-images/19/census-geocoder01.png)
 
-<!---More--->
+<div class="notes">
 
-United States Census Bureau. Census Geocoder. Available in [html
-format](https://www.census.gov/geo/maps-data/data/geocoder.html).
+This website will take an address, either on a form or as a batch of up to 10,000 addresses (CSV format) and provide latitude, longitude pairs as well as U.S. Census tract information.
 
-![](http://www.pmean.com/images/images/19/census-geocoder01.png)
+United States Census Bureau. Census Geocoder. Available in [html format][cen1].
 
+[cen1]: https://www.census.gov/geo/maps-data/data/geocoder.html
 
-
-
+</div>

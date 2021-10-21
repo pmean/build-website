@@ -22,7 +22,7 @@ Paul Johnson. R Markdown Basics. Published February 19
 in [PDF
 format](https://cran.r-project.org/web/packages/stationery/vignettes/Rmarkdown.pdf).
 
-![](http://www.pmean.com/images/images/19/r-markdown-basics01.png)
+![](http://www.pmean.com/new-images/19/r-markdown-basics01.png)
 
 
 

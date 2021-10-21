@@ -27,7 +27,7 @@ foundation.
 Marko Bonaci. The history of Hadoop. Medium, April 11, 2015. Available
 at <https://medium.com/@markobonaci/the-history-of-hadoop-68984a11704>.
 
-![](http://www.pmean.com/images/images/18/history-hadoop01.png)
+![](http://www.pmean.com/new-images/18/history-hadoop01.png)
 
 
 

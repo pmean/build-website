@@ -25,7 +25,7 @@ Webinars
 - 2018. Available in [html
 format](https://resources.rstudio.com/webinars/make-powerpoint-presentations-with-r-markdown-nathan-stephens).
 
-![](http://www.pmean.com/images/images/18/powerpoint-with-r-markdown01.png)
+![](http://www.pmean.com/new-images/18/powerpoint-with-r-markdown01.png)
 
 
 

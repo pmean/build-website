@@ -23,7 +23,7 @@ Terry M. Thernau
 survival curves. 2015 (January). Available at
 <https://cran.r-project.org/web/packages/survival/vignettes/adjcurve.pdf>.
 
-![](http://www.pmean.com/images/images/18/adjusted-survival-curves01.png)
+![](http://www.pmean.com/new-images/18/adjusted-survival-curves01.png)
 
 
 

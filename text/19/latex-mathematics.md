@@ -12,7 +12,7 @@ tags:
 output: powerpoint_presentation
 ---
 
-![](http://www.pmean.com/images/images/19/latex-mathematics01.png)
+![](http://www.pmean.com/new-images/19/latex-mathematics01.png)
 
 <div class="notes">
 

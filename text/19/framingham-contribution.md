@@ -21,7 +21,7 @@ Rachel Hajar. Framingham Contribution to Cardiovascular Disease. Heart
 Views. 2016 Apr-Jun; 17(2): 78--81. Available in [html
 format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4966216/).
 
-![](http://www.pmean.com/images/images/19/framingham-contribution01.png)
+![](http://www.pmean.com/new-images/19/framingham-contribution01.png)
 
 
 

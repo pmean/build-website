@@ -21,7 +21,7 @@ meet the SMART criteria.
 Minnesota Department of Health. SMART Objectives. Available in [html
 format](http://www.health.state.mn.us/divs/opi/qi/toolbox/objectives.html).
 
-![](http://www.pmean.com/images/images/19/smart-objectives01.png)
+![](http://www.pmean.com/new-images/19/smart-objectives01.png)
 
 
 

@@ -25,7 +25,7 @@ Sample.<U+00A0>JAMA. 2017;318(20):2011-2018. doi:10.1001/jama.2017.17653.
 Abstract available
 at<U+00A0><https://jamanetwork.com/journals/jama/article-abstract/2664461>.
 
-![](http://www.pmean.com/images/images/18/nis-standards01.png)
+![](http://www.pmean.com/new-images/18/nis-standards01.png)
 
 
 
