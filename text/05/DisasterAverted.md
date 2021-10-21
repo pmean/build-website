@@ -14,21 +14,21 @@ When I was trying to normalize the data, I noticed that three of the
 arrays had rather unusual properties. When trying to normalize array
 6287 versus the median array, for example, the R vs I plot looked like
 
-![](http://www.pmean.com/images/images/05/DisasterAverted01.gif)
+![](http://www.pmean.com/new-images/05/DisasterAverted01.gif)
 
 which was much more scattered than most of the other plots, such as
 7446.
 
-![](http://www.pmean.com/images/images/05/DisasterAverted02.gif)
+![](http://www.pmean.com/new-images/05/DisasterAverted02.gif)
 
 When I plotted pairs of arrays versus each other, it became even more
 apparent. Here is what 6287 versus 7446 looked like.
 
-![](http://www.pmean.com/images/images/05/DisasterAverted03.gif)
+![](http://www.pmean.com/new-images/05/DisasterAverted03.gif)
 
 Compare this to 7446 versus 7447.
 
-![](http://www.pmean.com/images/images/05/DisasterAverted04.gif)
+![](http://www.pmean.com/new-images/05/DisasterAverted04.gif)
 
 It turns out that the order of the genes were not the same in all of
 the files. For example in file 6287, the first ten genes were

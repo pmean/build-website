@@ -48,7 +48,7 @@ be obvious, but we often forget it. Here's a simple exercise to
 illustrate this. Perform the exercise in the box before you read any
 further.
 
-![](http://www.pmean.com/images/images/04/quality-9901.gif)
+![](http://www.pmean.com/new-images/04/quality-9901.gif)
 
 There are several reasons why two different people could come up with
 different answers to this exercise. First, there is human error, it's
@@ -260,27 +260,27 @@ Here is some data on a work process that involves drilling. I'm not
 quite sure where I originally found this data.
 
 
-![](http://www.pmean.com/images/images/04/quality-9902.gif)
+![](http://www.pmean.com/new-images/04/quality-9902.gif)
 
 Notice that the drill bit is replaced after nine days. The right had
 side shows some simple calculations for a control chart. You compute
 an average and a range for each subgroup. The averages are then
 averaged to get an overall mean (Xbarbar) and an average range (Rbar).
 
-![](http://www.pmean.com/images/images/04/quality-9903.gif)
+![](http://www.pmean.com/new-images/04/quality-9903.gif)
 
 The formulas for the control limits are
 
-![](http://www.pmean.com/images/images/04/quality-9904.gif)
+![](http://www.pmean.com/new-images/04/quality-9904.gif)
 
 where the constant, A~2~, can be found in any quality control text
 book. The chart for the range looks like
 
-![](http://www.pmean.com/images/images/04/quality-9905.gif)
+![](http://www.pmean.com/new-images/04/quality-9905.gif)
 
 and the formulas for the control limits are
 
-![](http://www.pmean.com/images/images/04/quality-9906.gif)
+![](http://www.pmean.com/new-images/04/quality-9906.gif)
 
 Again, the constants, D~3~ and D~4~, are in any quality control text
 book.
@@ -326,8 +326,8 @@ measurements. The measurements that you get are **distinct and cannot
 be put into batches** without some degree of "ad hoc"ery. For these
 situation, an XmR chart works well. Here is an example.
 
-![](http://www.pmean.com/images/images/04/quality-9907.gif)
-![](http://www.pmean.com/images/images/04/quality-9908.gif)
+![](http://www.pmean.com/new-images/04/quality-9907.gif)
+![](http://www.pmean.com/new-images/04/quality-9908.gif)
 
 This example appears in section 6.4 of Wheeler and Poling (1998). The
 data represents accounts receivable as a percentage of sales. This is
@@ -344,7 +344,7 @@ above.
 
 Here is what the control limits look like
 
-![](http://www.pmean.com/images/images/04/quality-9909.gif)
+![](http://www.pmean.com/new-images/04/quality-9909.gif)
 
 There is also a moving range chart for this data, which I do not
 display.
@@ -363,21 +363,21 @@ appears on page 272 of
 
 The data appears below:
 
-![](http://www.pmean.com/images/images/04/quality-9910.gif)
+![](http://www.pmean.com/new-images/04/quality-9910.gif)
 
 The average number of defects is
 
-![](http://www.pmean.com/images/images/04/quality-9911.gif)
+![](http://www.pmean.com/new-images/04/quality-9911.gif)
 
 The formula for the control limits is
 
-![](http://www.pmean.com/images/images/04/quality-9912.gif)
+![](http://www.pmean.com/new-images/04/quality-9912.gif)
 
 In this example, the lower control limit is negative, which is
 impossible. When this happens, you should set the lower control limit
 to zero. The control chart looks like the following:
 
-![](http://www.pmean.com/images/images/04/quality-9913.gif)
+![](http://www.pmean.com/new-images/04/quality-9913.gif)
 
 Note that **any number of defects from 0 to 5 would be considered
 common cause variation**. There are two special causes to investigate:

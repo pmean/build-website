@@ -29,7 +29,7 @@ Genetics in Medicine (2015) 17, 405--423. doi:10.1038/gim.2015.30.
 Available at
 <http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html>.
 
-![](http://www.pmean.com/images/images/17/sequence-variants01.png)
+![](http://www.pmean.com/new-images/17/sequence-variants01.png)
 
 
 

@@ -17,7 +17,7 @@ bit.
 
 <!---More--->
 
-![](http://www.pmean.com/images/images/15/how-many-research-subjects01.png)
+![](http://www.pmean.com/new-images/15/how-many-research-subjects01.png)
 
 
 

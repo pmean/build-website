@@ -20,12 +20,12 @@ that work, but the simplest is to arrange your list in a systematic
 order, attach a list of random numbers and then sort your list by those
 random numbers. The figure below shows how this process works.
 
-![RandomSelection01.gif not found.](http://www.pmean.com/images/images/06/RandomSelection01.png)
-![RandomSelection02.gif not found.](http://www.pmean.com/images/images/06/RandomSelection02.png)
-![RandomSelection03.gif not found.](http://www.pmean.com/images/images/06/RandomSelection03.png)
-![RandomSelection04.gif not found.](http://www.pmean.com/images/images/06/RandomSelection04.png)
-![RandomSelection05.gif not found.](http://www.pmean.com/images/images/06/RandomSelection05.png)
-![RandomSelection06.gif not found.](http://www.pmean.com/images/images/06/RandomSelection06.png)
+![RandomSelection01.gif not found.](http://www.pmean.com/new-images/06/RandomSelection01.png)
+![RandomSelection02.gif not found.](http://www.pmean.com/new-images/06/RandomSelection02.png)
+![RandomSelection03.gif not found.](http://www.pmean.com/new-images/06/RandomSelection03.png)
+![RandomSelection04.gif not found.](http://www.pmean.com/new-images/06/RandomSelection04.png)
+![RandomSelection05.gif not found.](http://www.pmean.com/new-images/06/RandomSelection05.png)
+![RandomSelection06.gif not found.](http://www.pmean.com/new-images/06/RandomSelection06.png)
 
 If you needed five randomly selected patients, they would be Xray,
 Sierra, Charlie, Oscar, and Hotel. If you found out after the fact that

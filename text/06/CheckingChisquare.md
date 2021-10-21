@@ -38,10 +38,10 @@ This person looked in SPSS and found a Chi-square test in the menus
 under ANALYZE | NON_PARAMETRIC TEST | CHI-SQUARE. Here's the output
 that the program produced:
 
-![06_CheckingChisquare1.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare01.png)
+![06_CheckingChisquare1.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare01.png)
 height="135"}
-![CheckingChisquare2.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare02.png)
-![CheckingChisquare3.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare03.png)
+![CheckingChisquare2.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare02.png)
+![CheckingChisquare3.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare03.png)
 
 Unfortunately, this is the wrong test to use, because it examines
 whether the proportion who avoided the risky behavior was equal to the
@@ -58,9 +58,9 @@ though, so I am not too worried about losing my job to a computer.
 
 Here's the correct analysis, by the way, using the CROSSTABS procedure.
 
-![CheckingChisquare4.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare04.png)
-![CheckingChisquare5.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare05.png)
-![CheckingChisquare6.jpg not found.](http://www.pmean.com/images/images/06/CheckingChisquare06.png)
+![CheckingChisquare4.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare04.png)
+![CheckingChisquare5.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare05.png)
+![CheckingChisquare6.jpg not found.](http://www.pmean.com/new-images/06/CheckingChisquare06.png)
 
 You could also get a similar result using logistic regression.
 

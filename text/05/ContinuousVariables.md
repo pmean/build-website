@@ -29,7 +29,7 @@ make sense out of it.
 Here's an example computed from the bf.sav file that I use in several
 of my training classes:
 
-![LogisticScaling1.gif not found.](http://www.pmean.com/images/images/05/ContinuousVariables01.png)
+![LogisticScaling1.gif not found.](http://www.pmean.com/new-images/05/ContinuousVariables01.png)
 
 The dependent variable is exclusive breast feeding at discharge, and
 birth weight in grams has a highly significant effect on the outcome
@@ -41,7 +41,7 @@ gram. This is rather hard to interpret.
 If you refit the model using birth weight in kilograms, you get the same
 p-value, but now the odds ratio is much easier to interpret.
 
-![LogisticScaling2.gif not found.](http://www.pmean.com/images/images/05/ContinuousVariables02.png)
+![LogisticScaling2.gif not found.](http://www.pmean.com/new-images/05/ContinuousVariables02.png)
 
 The odds of exclusive breast feeding at discharge increase six fold when
 the birth weight increases by one kilogram.

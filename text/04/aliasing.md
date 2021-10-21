@@ -37,7 +37,7 @@ This program creates a series of diamonds superimposed on one another
 alternating in color between black and white. I placed 99 of these
 images in an animated GIF file.
 
-![d60.gif not found.](http://www.pmean.com/images/images/04/aliasing01.png)
+![d60.gif not found.](http://www.pmean.com/new-images/04/aliasing01.png)
 
 Notice that after about 8 diamonds appear on the image, you start to see
 some distortions. The diamonds eventually become unrecognizable. Then
@@ -50,7 +50,7 @@ try experimenting with this code. Just change the width and height
 parameters in the bmp command. Here is an animated GIF file with 90
 pixels rather than 60.
 
-![d90.gif not found.](http://www.pmean.com/images/images/04/aliasing02.png)
+![d90.gif not found.](http://www.pmean.com/new-images/04/aliasing02.png)
 
 This is similar to a program called circle2.bas that was described
 several decades ago in the Mathematical Recreations column of Scientific

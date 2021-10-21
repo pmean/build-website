@@ -56,7 +56,7 @@ file has the following variables:
 I wanted to look first at the mpg column by itself. Here is a rug plot
 of the data.
 
-![ModelBasedRug.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering01.png)
+![ModelBasedRug.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering01.png)
 
 Notice that there are some gaps in the data that might indicate that
 the mpg data comes from a mixture of two or possibly three different
@@ -78,17 +78,17 @@ option in mclust) or allowing each distribution in the normal mixture
 to have its own variance (the V option in mclust). Here is the
 sequence of mixtures from 1 to 6 assuming equal variances (E option).
 
-![ModelBased01.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering02.png)
+![ModelBased01.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering02.png)
 
-![ModelBased02.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering03.png)
+![ModelBased02.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering03.png)
 
-![ModelBased03.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering04.png)
+![ModelBased03.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering04.png)
 
-![ModelBased04.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering05.png)
+![ModelBased04.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering05.png)
 
-![ModelBased05.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering06.png)
+![ModelBased05.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering06.png)
 
-![ModelBased06.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering07.png)
+![ModelBased06.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering07.png)
 
 The code that created these plots is shown below.
 
@@ -97,17 +97,17 @@ The code that created these plots is shown below.
 Compare this to the sequence of fits when you allow the variances to
 be unique in each component of the normal mixture (V option).
 
-![ModelBased07.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering08.png)
+![ModelBased07.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering08.png)
 
-![ModelBased08.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering09.png)
+![ModelBased08.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering09.png)
 
-![ModelBased09.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering10.png)
+![ModelBased09.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering10.png)
 
-![ModelBased10.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering11.png)
+![ModelBased10.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering11.png)
 
-![ModelBased11.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering12.png)
+![ModelBased11.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering12.png)
 
-![ModelBased12.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering13.png)
+![ModelBased12.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering13.png)
 
 Here's the code that produced these graphs:
 
@@ -147,7 +147,7 @@ option.
 
 Here is a plot of the BIC values
 
-![ModelBasedBIC.gif not found.](http://www.pmean.com/images/images/06/UnivariateClustering14.png)
+![ModelBasedBIC.gif not found.](http://www.pmean.com/new-images/06/UnivariateClustering14.png)
 
 and here is a table of those values
 

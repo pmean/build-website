@@ -23,7 +23,7 @@ entering the command
 in the command syntax window. You can also do this from the menu system
 by selecting EDIT | OPTIONS from the menu.
 
-![](http://www.pmean.com/images/images/06/PageBreaksSPSS01.gif)
+![](http://www.pmean.com/new-images/06/PageBreaksSPSS01.gif)
 
 Click on the VIEWER tab and select an infinite length for LENGTH.
 

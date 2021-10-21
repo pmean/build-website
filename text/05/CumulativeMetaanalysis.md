@@ -39,7 +39,7 @@ same mistake of those that approved the post-1995 studies of EPO. In
 some situations, that is definitely overkill, but it is a suggestion
 worth serious consideration in other circumstances.
 
-![](http://www.pmean.com/images/images/05/CumulativeMetaanalysis01.gif)
+![](http://www.pmean.com/new-images/05/CumulativeMetaanalysis01.gif)
 
 Since BMC Cancer is published with an [open access
 license](http://www.biomedcentral.com/info/about/license), I can freely

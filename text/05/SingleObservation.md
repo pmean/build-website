@@ -36,12 +36,12 @@ values (25, 40, and 55). Here's what the t-test output looks like in
 SPSS. Notice that I had to split the second table in SPSS into three
 pieces so it would fit on this web page.
 
-![SingleObservation01.gif not found.](http://www.pmean.com/images/images/05/SingleObservation01.png)
+![SingleObservation01.gif not found.](http://www.pmean.com/new-images/05/SingleObservation01.png)
 
 The first table tells you what you already guessed, that you cannot
 compute a standard deviation for a group with only one observation.
 
-![SingleObservation02.gif not found.](http://www.pmean.com/images/images/05/SingleObservation02.png)
+![SingleObservation02.gif not found.](http://www.pmean.com/new-images/05/SingleObservation02.png)
 
   
 
@@ -49,14 +49,14 @@ The left portion of the second table tells us that you cannot compute
 the Levene test either. I am not too upset about this because I don't
 like the Levene test.
 
-![SingleObservation03.gif not found.](http://www.pmean.com/images/images/05/SingleObservation03.png)
+![SingleObservation03.gif not found.](http://www.pmean.com/new-images/05/SingleObservation03.png)
 
 The middle portion of the second table shows a p-value for this test,
 but only for the first row (Equal variances assumed). This makes sense.
 What other choice would you have for a group without any standard
 deviaiton?
 
-![SingleObservation04.gif not found.](http://www.pmean.com/images/images/05/SingleObservation04.png)
+![SingleObservation04.gif not found.](http://www.pmean.com/new-images/05/SingleObservation04.png)
 
 The right portion of the second table shows the confidence interval for
 the difference in means. Notice that this interval is painfully wide. It
@@ -66,24 +66,24 @@ still cannot state that this difference is statistically significant.
 
 Here's what the output looks like using the General Linear Model.
 
-![SingleObservation5.gif not found.](http://www.pmean.com/images/images/05/SingleObservation05.png)
+![SingleObservation5.gif not found.](http://www.pmean.com/new-images/05/SingleObservation05.png)
 
 The first table reminds you that our first group only has a single
 observation.
 
-![SingleObservation06.gif not found.](http://www.pmean.com/images/images/05/SingleObservation06.png)
+![SingleObservation06.gif not found.](http://www.pmean.com/new-images/05/SingleObservation06.png)
 
 The second table reminds you that you cannot estimate a standard
 deviation for the first group.
 
-![SingleObservation07.gif not found.](http://www.pmean.com/images/images/05/SingleObservation07.png)
+![SingleObservation07.gif not found.](http://www.pmean.com/new-images/05/SingleObservation07.png)
 
 The third table shows that the huge difference that you see here is not
 statistically significant. Notice that this model accounts for 86% of
 the variation, a huge amount, and yet you still do not have a
 statistically significant finding.
 
-![SingleObservation08.gif not found.](http://www.pmean.com/images/images/05/SingleObservation08.png)
+![SingleObservation08.gif not found.](http://www.pmean.com/new-images/05/SingleObservation08.png)
 
 The last table shows the same confidence interval, which is
 frustratingly wide.

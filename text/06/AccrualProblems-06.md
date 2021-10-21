@@ -42,7 +42,7 @@ number of patients recruited each month.
 
 Here is a plot of the data:
 
-![accr02.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0601.png)
+![accr02.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0601.png)
 
 The accrual could also be summarized as the number of patients recruited
 per quarter.
@@ -51,7 +51,7 @@ per quarter.
 
 which looks like this when you plot the data
 
-![accr04.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0602.png)
+![accr04.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0602.png)
 
 or as a yearly rate
 
@@ -59,7 +59,7 @@ or as a yearly rate
 
 which looks like this when you plot it.
 
-![accr06.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0603.png)
+![accr06.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0603.png)
 
 It is not clear what scale is most logical for this data. Should you
 analyze the data monthly? That allows you to respond quickly if a trend
@@ -74,7 +74,7 @@ The trouble with rates becomes more apparent when you try to apply
 control chart limits to the data. Here is a simple control chart for the
 monthly rates.
 
-![06_accr01.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0604.png)
+![06_accr01.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0604.png)
 
 Note that the minus signs got clipped off the values of -0.06 and =0.58.
 Sorry!)
@@ -144,7 +144,7 @@ also need to be skwed.
 The control chart for the quarterly data exhibits much the same issues
 as the monthly data.
 
-![accr03.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0605.png)
+![accr03.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0605.png)
 
 The control limits are -2.37 and 5.08. The value of zero falling into
 Zone B (between the one and two sigma limits) is fortunate, because
@@ -156,7 +156,7 @@ signal could occur in as little as four quarters (one year).
 
 The control chart for yearly data is a bit better, perhaps.
 
-![accr05.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0606.png)
+![accr05.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0606.png)
 
 The control limits are 1.83 and 8.67. The problem with the yearly chart
 is not the control limits but rather the delay in discovering a trend.
@@ -223,7 +223,7 @@ So, for example, you had to wait 56 days for the first patient, 37
 between the first and second patients, 94 days between the second and
 third patient, etc. Here is what a plot of the date gaps look like:
 
-![accr08.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0607.png)
+![accr08.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0607.png)
 
 Notice that the number of data points is equal to the number of patients
 recruited. If you converted the data into the number of weeks between
@@ -242,13 +242,13 @@ research study, you have a new point on your graph.
 Finally, the average date gap has a simple interpretation. When you sum
 all the date gaps, the terms telescope.
 
-![06_accrualf1.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0608.png)
+![06_accrualf1.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0608.png)
 
-![accrualf2.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0609.png)
+![accrualf2.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0609.png)
 
 When you invert the average date gap, you get a familiar formula
 
-![accrualf3.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0610.png)
+![accrualf3.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0610.png)
 
 The numerator on the right hand side is the total number of patients
 recruited and the denominator is the total amount of time it took to
@@ -260,7 +260,7 @@ recruiting 2 patients per month.
 The control limits for a date gap chart have the same issues that
 control limits for a rate have.
 
-![accr07.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0611.png)
+![accr07.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0611.png)
 
 The control limits are -5 months (-150 days) and 9.3 months (280 days).
 The center line is at 2.15 months (64 days). Since the date gap is
@@ -275,11 +275,11 @@ One intriguing possibility is to draw a control chart after a log
 transformation. The log transformation removes much of the skewness from
 the data.
 
-![accr10.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0612.png)
+![accr10.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0612.png)
 
 The control limits for the log transformed data are interesting.
 
-![accr09.gif not found.](http://www.pmean.com/images/images/06/AccrualProblems-0613.png)
+![accr09.gif not found.](http://www.pmean.com/new-images/06/AccrualProblems-0613.png)
 
 The control limits are at 0.5 days and 6.9 years (approximately 2500
 days). Notice that the log scale places Zones B and C in the range of

@@ -47,7 +47,7 @@ category in the past week.*
 Here is a plot of the data showing a linear trend line and a quadratic
 trend line.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression01.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression01.gif)
 
 Before you examine the quadratic regression equation, you may find it
 helpful to look at the linear equation. Even if you are already
@@ -58,7 +58,7 @@ regression model.
 To estimate the coefficients of a linear regression model, select
 ANALYZE | GENERAL LINEAR MODEL | UNIVARIATE.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 The slope is 0.363, which tells you that the estimated average number
 of impressions increases by 0.4 when the TV advertsing budget
@@ -72,25 +72,25 @@ To actually estimate the quadratic regression equation in SPSS, you
 need to first compute a squared term. For other programs you may be
 able to skip this step.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 Select TRANSFORM | COMPUTE from the SPSS menu to get the dialog box
 shown above. Create a new variable, Spending_Sq and set it equal to
 Spending **2.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 Now to fit a quadratic regression in SPSS, select ANALYZE | GENERAL
 LINEAR MODEL | UNIVARIATE to get the dialog box shown above. Add both
 Spending and Spending_Sq to the COVARIATE field.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 When you click on the OPTIONS button, you get the above dialog box.
 You want to make sure that the PARAMETER ESTIMATES option box is
 selected. Then click on the CONTINUE button and then the OK button.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 The output shown above tells you that there is a borderline effect of
 the quadratic term. The p-value is small, but not less than 0.05.
@@ -115,7 +115,7 @@ negative.
   
   y = 4 + 0.5x - 0.1x^2
   
-![](http://www.pmean.com/images/images/06/QuadraticRegression07.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression07.gif)
 
 
 The graph above and on the left shows an equation with a positive
@@ -159,7 +159,7 @@ max < -b/2a
 
 -b/a < max
   
-![](http://www.pmean.com/images/images/06/QuadraticRegression10.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression10.gif)
 
 When the maximum is smaller than -b/2a, then the curve is always
 increasing, but the rate of increase is slowing down. When the maximum
@@ -176,7 +176,7 @@ y = 4 - 0.5x + 0.1x^2
 
 y = 4 - 0.5x - 0.1x^2
   
-![](http://www.pmean.com/images/images/06/QuadraticRegression13.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression13.gif)
 
 The graph above and on the left shows a negative linear relationship
 to establish a frame of reference. The graph above and in the middle
@@ -196,7 +196,7 @@ y = 4 + 0.5z + 0.1z^2
 
 y = 4 + 0.5z - 0.1z^2^
   
-![](http://www.pmean.com/images/images/06/QuadraticRegression16.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression16.gif)
 
 The graphs above show how to interpret a quadratic equation when the
 data is centered. The graph above and to the left represents a linear
@@ -210,7 +210,7 @@ y = 4 - 0.5z + 0.1z^2
 
 y = 4 - 0.5z - 0.1z^2
   
-![](http://www.pmean.com/images/images/06/QuadraticRegression19.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression19.gif)
 
 When the slope term is negative, the interpretation is still similar.
 A positive quadratic term makes the curve convex and a negative
@@ -224,7 +224,7 @@ direction.
 So how do you interpret the advertising example. Let's review the
 linear equation first.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 The intercept is 22.163, which tells you that the estimated average
 number of retained impressions is about 20 million if no money is
@@ -232,7 +232,7 @@ spent on TV advertising. The slope is 0.363, which tells you that the
 estimated average number of impressions increases by 0.4 million when
 the TV advertising budget increases by 1 million dollars.
 
-![](http://www.pmean.com/images/images/06/QuadraticRegression22.gif)
+![](http://www.pmean.com/new-images/06/QuadraticRegression22.gif)
 
 When you fit the quadratic equation, the linear term (1.085) is
 positive and the quadratic term (-0.004) is negative. The ratio -b/a

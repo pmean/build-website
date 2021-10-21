@@ -18,24 +18,24 @@ values for some measurement has a bimodal distribution. A second mode
 is an indication of a subgroup of patients that may have a genetic
 variation from the rest of the patients.
 
-![04_bi04.gif not found.](http://www.pmean.com/images/images/04/bimodality01.png)
+![04_bi04.gif not found.](http://www.pmean.com/new-images/04/bimodality01.png)
 
 A histogram, like the one shown above is a quick and simple way to
 look for bimodality. The problem is that histograms are very sensitive
 to how thick
 
-![bi05.gif not found.](http://www.pmean.com/images/images/04/bimodality02.png)
+![bi05.gif not found.](http://www.pmean.com/new-images/04/bimodality02.png)
 
 or thin
 
-![bi06.gif not found.](http://www.pmean.com/images/images/04/bimodality03.png)
+![bi06.gif not found.](http://www.pmean.com/new-images/04/bimodality03.png)
 
 the bars are. Indications for bimodality may appear or disappear
 depending on how you draw the histogram.
 
 A QQplot is much better because it is not dependent on bar widths.
 
-![bi07.gif not found.](http://www.pmean.com/images/images/04/bimodality04.png)
+![bi07.gif not found.](http://www.pmean.com/new-images/04/bimodality04.png)
 
 The QQplot compares your data to evenly spaced percentiles from a
 normal distribution. If you had nine data values, the smallest one

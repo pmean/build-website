@@ -10,7 +10,7 @@ output: html_document
 ---
 The formula for uncertainty (sometimes referred to as entropy) is
 
-![](http://www.pmean.com/images/images/04/information-9901.gif)
+![](http://www.pmean.com/new-images/04/information-9901.gif)
 
 By convention, if any probability is zero, we set the product term to
 zero as well. Those of you who are familiar with calculus could use
@@ -20,11 +20,11 @@ limits to establish that zero is a reasonable value for this product.
 
 Consider this distribution of ratings:
 
-![](http://www.pmean.com/images/images/04/information-9902.gif)
+![](http://www.pmean.com/new-images/04/information-9902.gif)
 
 The uncertainty calculation would be
 
-![](http://www.pmean.com/images/images/04/information-9903.gif)
+![](http://www.pmean.com/new-images/04/information-9903.gif)
 
 Suppose we wanted to send a coded binary message that would indicate
 what category the rater chose. A simple approach would use three
@@ -106,9 +106,9 @@ variable number of bits to represent each letter. Notice that
 -   **B, C, D, F, G, H, M, P, U, W, and Y use 5-6 bits, and**
 -   **J, K, Q, V, X and Z use 7-12 bits.**
 
-![](http://www.pmean.com/images/images/04/information-9904.gif)
-![](http://www.pmean.com/images/images/04/information-9905.gif)
-![](http://www.pmean.com/images/images/04/information-9906.gif)
+![](http://www.pmean.com/new-images/04/information-9904.gif)
+![](http://www.pmean.com/new-images/04/information-9905.gif)
+![](http://www.pmean.com/new-images/04/information-9906.gif)
 
 The table shows that the surprisal values are close to the number of
 digits used in Huffman encoding. The weighted average surprisal is
@@ -122,7 +122,7 @@ the uncertainty.
 This is a group of DNA segments representing Lambda cI and cro binding
 sites.
 
-![](http://www.pmean.com/images/images/04/information-9907.gif)
+![](http://www.pmean.com/new-images/04/information-9907.gif)
 
 Notice that there are some common patterns to these DNA segments but
 also some uncertainty, especially at location zero. Information theory
@@ -131,7 +131,7 @@ features.
 
 First we need to compute the surprisal values.
 
-![](http://www.pmean.com/images/images/04/information-9908.gif)
+![](http://www.pmean.com/new-images/04/information-9908.gif)
 
 If a letter has probability zero, that equals an infinite surprisal
 value and is dentoed by Inf in the table. Notice that letters A and G
@@ -140,7 +140,7 @@ rarely.
 
 The weighted surprisals appear below.
 
-![](http://www.pmean.com/images/images/04/information-9909.gif)
+![](http://www.pmean.com/new-images/04/information-9909.gif)
 
 The uncertainty for this group of DNA segments is 17.5. The maximum
 possible uncertainty is 38 (2 bits times 19 base pairs). The
@@ -165,7 +165,7 @@ contributes to the information.
 
   
 
-![](http://www.pmean.com/images/images/04/information-9910.gif)
+![](http://www.pmean.com/new-images/04/information-9910.gif)
 
 **Evaluating new DNA segments**
 
@@ -175,18 +175,18 @@ evaluate new DNA segments. Notice that for each base pair location, we
 have surprisal values for A, C, G, and T. We can evaluate those
 surprisal values for each DNA segment.
 
-![](http://www.pmean.com/images/images/04/information-9911.gif)
+![](http://www.pmean.com/new-images/04/information-9911.gif)
 
-![](http://www.pmean.com/images/images/04/information-9912.gif)
+![](http://www.pmean.com/new-images/04/information-9912.gif)
 
-![](http://www.pmean.com/images/images/04/information-9913.gif)
+![](http://www.pmean.com/new-images/04/information-9913.gif)
 
-![](http://www.pmean.com/images/images/04/information-9914.gif)
+![](http://www.pmean.com/new-images/04/information-9914.gif)
 
 Now we can average these values across all 12 DNA segments. This gives
 us the same weighted surprisals and the same uncertainty as before.
 
-![](http://www.pmean.com/images/images/04/information-9915.gif)
+![](http://www.pmean.com/new-images/04/information-9915.gif)
 
 This could help us understand whether one or more of the DNA segments
 does not fit in with the others, but more importantly, it can help us
@@ -235,7 +235,7 @@ Raters were asked to evaluate
 
 The following picture describes the various parts of the sperm cell:
 
-![](http://www.pmean.com/images/images/04/information-9916.gif)
+![](http://www.pmean.com/new-images/04/information-9916.gif)
 
 In addition, the raters were asked to classify non-sperm cells such as
 monocytes and macrophages that appeared in the sample. Here is a list
@@ -294,13 +294,13 @@ each rater was asked to provide an overall classification:
 Here are two examples of the micrographs of sperm cells that the
 raters were asked to evaluate.
 
-![](http://www.pmean.com/images/images/04/information-9917.gif)
+![](http://www.pmean.com/new-images/04/information-9917.gif)
 
 This picture and the one below it are not as good quality as the ones
 that the raters used, but I just wanted you to see the general type of
 images they were asked to rate.
 
-![b150gs.gif not found.](http://www.pmean.com/images/images/04/information-9918.png)
+![b150gs.gif not found.](http://www.pmean.com/new-images/04/information-9918.png)
 
 **What information theory can tell us about sperm classification**
 
@@ -516,9 +516,9 @@ the quantity produced, conditional uncertainty, represents how much
 the uncertainty in one variable is reduced when another variable is
 known.
 
-![](http://www.pmean.com/images/images/04/information-9919.gif)
+![](http://www.pmean.com/new-images/04/information-9919.gif)
 
-![](http://www.pmean.com/images/images/04/information-9920.gif)
+![](http://www.pmean.com/new-images/04/information-9920.gif)
 
 There are several sperm morphology classification systems in use. Two
 commonly used systems are WHO-3 classification and strict

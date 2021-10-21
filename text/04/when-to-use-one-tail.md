@@ -44,19 +44,19 @@ p-value would be 0.017, assuming that the treatment behaved as you
 expected it to. But if the effect were unexpectedly negative, your
 p-value would be 0.983 and not 0.017.
 
-![](http://www.pmean.com/images/images/04/tail-0401.gif)
+![](http://www.pmean.com/new-images/04/tail-0401.gif)
 
 The graph shown above illustrates the calculation of a two-sided
 p-value. The p-value is the sum of the positive and negative tails of
 the distribution, which adds up to 0.034.
 
-![](http://www.pmean.com/images/images/04/tail-0402.gif)
+![](http://www.pmean.com/new-images/04/tail-0402.gif)
 
 This graph shows how the p-value changes to a one-sided p-value with the
 change going in the direction that you hypothesized. In this case, the
 p-value is half of the two-sided p-value or 0.017.
 
-![](http://www.pmean.com/images/images/04/tail-0403.gif)
+![](http://www.pmean.com/new-images/04/tail-0403.gif)
 
 This graph shows how the p-value changes with the change going in the
 opposite direction from what you hypothesized. In this case, the p-value

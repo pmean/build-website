@@ -23,7 +23,7 @@ Titanic. That ship was struck by an iceberg and 863 passengers died out
 of a total of 1,313. This happened during an era where there was a
 strong belief in "women and children" first.
 
-![logistic1.gif not found.](http://www.pmean.com/images/images/04/categorical01.png)
+![logistic1.gif not found.](http://www.pmean.com/new-images/04/categorical01.png)
 
 You can see this in the crosstabulation shown above. Among females, the
 odds of dying were 2-1 against, because the number of survivors (308)
@@ -31,7 +31,7 @@ was twice as big as the number who died (154). Among males, the odds of
 dying were almost 5 to 1 in favor (actually 4.993 to 1), since the
 number who survived (142) was about one-fifth the number who died (709).
 
-![logistic2.gif not found.](http://www.pmean.com/images/images/04/categorical02.png)
+![logistic2.gif not found.](http://www.pmean.com/new-images/04/categorical02.png)
 
 The odds ratio is 0.1, and we are very confident that this odds ratio is
 less than one, because the confidence interval goes up to only 0.13.
@@ -40,26 +40,26 @@ Let's analyze this data by creating an indicator variable for sex.
 In SPSS, you would do this by selecting TRANSFORM | RECODE from the
 menu
 
-![logistic3.gif not found.](http://www.pmean.com/images/images/04/categorical03.png)
+![logistic3.gif not found.](http://www.pmean.com/new-images/04/categorical03.png)
 
 Then click on the OLD AND NEW VALUES button.
 
-![logistic4.gif not found.](http://www.pmean.com/images/images/04/categorical04.png)
+![logistic4.gif not found.](http://www.pmean.com/new-images/04/categorical04.png)
 
 Here, I use the codes of 0 for female and 1 for male. To run a logistic
 regression in SPSS, select ANALYZE | REGRESSION | BINARY LOGISTIC from
 the menu.
 
-![logistic06.gif not found.](http://www.pmean.com/images/images/04/categorical05.png)
+![logistic06.gif not found.](http://www.pmean.com/new-images/04/categorical05.png)
 
 Click on the OPTIONS button.
 
-![logistic07.gif not found.](http://www.pmean.com/images/images/04/categorical06.png)
+![logistic07.gif not found.](http://www.pmean.com/new-images/04/categorical06.png)
 
 Select the CI for exp(B) option, then click on the CONTINUE button and
 then on the OK button. Here is what the output looks like:
 
-![logistic08.gif not found.](http://www.pmean.com/images/images/04/categorical07.png)
+![logistic08.gif not found.](http://www.pmean.com/new-images/04/categorical07.png)
 
 Let's start with the CONSTANT row of the data. This has an
 interpretation similar to the intercept in the linear regression model.
@@ -81,11 +81,11 @@ odds ratio (0.100).
 Coding is very important here. Suppose you had chosen the coding for
 SexFamale where1=female and 0=male.
 
-![logistic09.gif not found.](http://www.pmean.com/images/images/04/categorical08.png)
+![logistic09.gif not found.](http://www.pmean.com/new-images/04/categorical08.png)
 
 Then the output would look quite different.
 
-![logistic10.gif not found.](http://www.pmean.com/images/images/04/categorical09.png)
+![logistic10.gif not found.](http://www.pmean.com/new-images/04/categorical09.png)
 
 The log odds is now -1.608 which represents the log odds for males. The
 log odds ratio is now 2.301 and the odds ratio is 9.986 (which you might
@@ -94,7 +94,7 @@ want to round to 10).
 SPSS will create an indicator variable for you if you click on the
 CATEGORICAL button in the logistic regression dialog box.
 
-![logistic11.gif not found.](http://www.pmean.com/images/images/04/categorical10.png)
+![logistic11.gif not found.](http://www.pmean.com/new-images/04/categorical10.png)
 
 If you select LAST as the reference category, SPSS will use the code
 0=male, 1=female (last means last alphabetically). If you select FIRST
@@ -109,14 +109,14 @@ levels
 
 Here's a crosstabulation of survival versus passenger class.
 
-![logistic5.gif not found.](http://www.pmean.com/images/images/04/categorical11.png)
+![logistic5.gif not found.](http://www.pmean.com/new-images/04/categorical11.png)
 
 Notice that the odds of dying are 0.67 to 1 in 1st class, 1.35 to 1 in
 2nd class, and 4.15 to 1 in 3rd class. These are odds in favor of dying.
 The odds against dying are 1.50 to 1, 0.74 to 1, and 0.24 to 1,
 respectively.
 
-![logistic12.gif not found.](http://www.pmean.com/images/images/04/categorical12.png)
+![logistic12.gif not found.](http://www.pmean.com/new-images/04/categorical12.png)
 
 The odds ratio for the pclass(1) row is 6.212, which is equal to 1.50 /
 0.24. You should interpret this as the odds against dying are 6 times
@@ -129,11 +129,11 @@ in third class.
 If you prefer to do the analysis with each of the other classes being
 compared back to first class, then select FIRST for reference category.
 
-![logistic13.gif not found.](http://www.pmean.com/images/images/04/categorical13.png)
+![logistic13.gif not found.](http://www.pmean.com/new-images/04/categorical13.png)
 
   This produces the following output:
 
-![logistic14.gif not found.](http://www.pmean.com/images/images/04/categorical14.png)
+![logistic14.gif not found.](http://www.pmean.com/new-images/04/categorical14.png)
 
 Here the pclass(1) row provides an odds ratio of 0.494 which equals 0.74
 / 1.50. The odds against dying are about half in second class versus

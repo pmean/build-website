@@ -25,7 +25,7 @@ Muenchen B. Will 2015 be the Beginning of the End for SAS and SPSS?
 r4stats.com. Available at:
 <http://r4stats.com/2012/05/09/beginning-of-the-end/>.
 
-![](http://www.pmean.com/images/images/14/end-of-sas01.png)
+![](http://www.pmean.com/new-images/14/end-of-sas01.png)
 
 
 

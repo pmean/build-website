@@ -39,12 +39,12 @@ interchangeably.
 
 Here's a conceptual framework for the comparison of two rates
 
-![rate03.gif not found.](http://www.pmean.com/images/images/04/Rates01.png)
+![rate03.gif not found.](http://www.pmean.com/new-images/04/Rates01.png)
 
 You could compute a rate ratio for this data, and the confidence
 interval would look something like
 
-![rate04.gif not found.](http://www.pmean.com/images/images/04/Rates02.png)
+![rate04.gif not found.](http://www.pmean.com/new-images/04/Rates02.png)
 
 It's a bit surprising, perhaps, but the denominators of the two rates
 play no part in determining the variability of the confidence interval.
@@ -54,12 +54,12 @@ different than accumulating 100,000 patient years of data and counting
 
 Here's a conceptual framework for the comparison of two proportions:
 
-![rate01.gif not found.](http://www.pmean.com/images/images/04/Rates03.png)
+![rate01.gif not found.](http://www.pmean.com/new-images/04/Rates03.png)
 
 You might want to compute an odds ratio for data like this, and the
 formula for the confidence interval looks something like
 
-![rate05.gif not found.](http://www.pmean.com/images/images/04/Rates04.png)
+![rate05.gif not found.](http://www.pmean.com/new-images/04/Rates04.png)
 
 When both c and d are large (compared to a and b), the last two terms
 under the square root become negligible, and you get a formula not too

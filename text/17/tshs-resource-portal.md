@@ -23,7 +23,7 @@ registration.
 American Statistical Association. TSHS Resources Portal. Available at:
 <https://www.causeweb.org/tshs/>.
 
-![](http://www.pmean.com/images/images/17/tshs-resource-portal01.png)
+![](http://www.pmean.com/new-images/17/tshs-resource-portal01.png)
 
 
 

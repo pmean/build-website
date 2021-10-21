@@ -80,7 +80,7 @@ the rgb() function. For example
 draws a series of points on the diagonal from the darkest green to the
 lightest green (see below).
 
-![ColorsForR.gif not found.](http://www.pmean.com/images/images/06/ColorsForR01.png)
+![ColorsForR.gif not found.](http://www.pmean.com/new-images/06/ColorsForR01.png)
 
 If you need a special range of colors for a contour plot or a heatmap,
 then you can use the palette() function. refer to the help function in R

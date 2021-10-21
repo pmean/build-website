@@ -68,7 +68,7 @@ Here are pictures of the two doctors that I co-wrote EBM editorials
 with, Jay Portnoy and Chitra Dinakar.
 
 ![Image result for jay portnoy children's mercy
-![](http://www.pmean.com/images/images/15/contributions-to-ebm01.jpeg)
+![](http://www.pmean.com/new-images/15/contributions-to-ebm01.jpeg)
 
 
 

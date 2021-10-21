@@ -19,40 +19,40 @@ S-shaped curve.
 
 A very simple formula that serves as a starting point is
 
-![](http://www.pmean.com/images/images/04/scurve-0401.gif)
+![](http://www.pmean.com/new-images/04/scurve-0401.gif)
 
 Here is a graph of this function.
 
-![](http://www.pmean.com/images/images/04/scurve-0402.gif)
+![](http://www.pmean.com/new-images/04/scurve-0402.gif)
 
 **Stretching and shrinking the S-shaped curve**
 
 Multiplying x by a constant,
 
-![](http://www.pmean.com/images/images/04/scurve-0403.gif)
+![](http://www.pmean.com/new-images/04/scurve-0403.gif)
 
 yields S shaped curves that are either shrunk towards the center or
 stretched out.
 
-![](http://www.pmean.com/images/images/04/scurve-0404.gif)
+![](http://www.pmean.com/new-images/04/scurve-0404.gif)
 
 A negative value of b,
 
-![](http://www.pmean.com/images/images/04/scurve-0405.gif)
+![](http://www.pmean.com/new-images/04/scurve-0405.gif)
 
 yields curves that rise rather than fall.
 
-![](http://www.pmean.com/images/images/04/scurve-0406.gif)
+![](http://www.pmean.com/new-images/04/scurve-0406.gif)
 
 **Shifting the S-shaped curve**
 
 You can subtract a constant
 
-![](http://www.pmean.com/images/images/04/scurve-0407.gif)
+![](http://www.pmean.com/new-images/04/scurve-0407.gif)
 
 to shift the curve.
 
-![](http://www.pmean.com/images/images/04/scurve-0408.gif)
+![](http://www.pmean.com/new-images/04/scurve-0408.gif)
 
 Negative values for a, of course, would shift the curve to the left.
 
@@ -95,7 +95,7 @@ the concentration in log10 units, and yn is the normalized signal.
 
 Here is a graph of the data.
 
-![](http://www.pmean.com/images/images/04/scurve-0409.gif)
+![](http://www.pmean.com/new-images/04/scurve-0409.gif)
 
 The middle 50% ranges from about -7.3 to -7.1. So a reasonable starting
 values b is 2 / 0.2 = 10. The midway point looks like it is close to
@@ -106,11 +106,11 @@ starting value for a.
 
 Select ANALYZE | REGRESSION | NONLINEAR from the SPSS menu.
 
-![](http://www.pmean.com/images/images/04/scurve-0410.gif)
+![](http://www.pmean.com/new-images/04/scurve-0410.gif)
 
 First, click on the parameters button.
 
-![](http://www.pmean.com/images/images/04/scurve-0411.gif)
+![](http://www.pmean.com/new-images/04/scurve-0411.gif)
 
 Specify b and a as parameters with starting values of 10 and -72,
 respectively. Then click on the CONTINUE button.
@@ -119,7 +119,7 @@ Now include yn as the dependent variable and specify the formula for the
 equation as
 1 / (1 + exp (b * x - a)).
 
-![](http://www.pmean.com/images/images/04/scurve-0412.gif)
+![](http://www.pmean.com/new-images/04/scurve-0412.gif)
 
 Then click on the OK button.
 
@@ -129,7 +129,7 @@ This produces a lot of output. Since the output is so large, you need to
 double click on it to get a scroll bar. Here's the top third of the
 output.
 
-![](http://www.pmean.com/images/images/04/scurve-0413.gif)
+![](http://www.pmean.com/new-images/04/scurve-0413.gif)
 
 Non-linear regression uses an interative estimation approach, and SPSS
 provides you with details of these iterations. The residual SS is a
@@ -137,7 +137,7 @@ measure of how good the estimates are: it starts at 0.10 and declines to
 0.09 as the estimates improve. Our values of b and a decline slightly as
 the model improves.
 
-![](http://www.pmean.com/images/images/04/scurve-0414.gif)
+![](http://www.pmean.com/new-images/04/scurve-0414.gif)
 
 The remaining iterations appear in the middle third of the screen. You
 should examine the reason why iterations stopped. Here they stopped
@@ -156,7 +156,7 @@ is dependent, at times, on the particular nonlinear regression model. As
 a general rule, though, an R squared value close to 1.0 is an indication
 that the model fits the data well.
 
-![](http://www.pmean.com/images/images/04/scurve-0415.gif)
+![](http://www.pmean.com/new-images/04/scurve-0415.gif)
 
 The bottom third of the output gives parameter estimates, confidence
 intervals, and correlations among the parameters. The ratio of a/b gives
@@ -169,7 +169,7 @@ the SAVE button. If you add some extra x values with missing yn values,
 you can also get predictions at some of the intermediate points. A plot
 of the predicted values shows the general shape of the S-shaped curve.
 
-![](http://www.pmean.com/images/images/04/scurve-0416.gif)
+![](http://www.pmean.com/new-images/04/scurve-0416.gif)
 
 Notice that this curve badly misses on two of the values (x = -6.3, and
 x = -6.6), but comes very close to the remaining four data values. There
@@ -187,7 +187,7 @@ In the first example, I chose a starting value of -10 rather than +10
 for b. This is easy to do if you forget whether the S-shaped curve is
 rising or falling.
 
-![](http://www.pmean.com/images/images/04/scurve-0417.gif)
+![](http://www.pmean.com/new-images/04/scurve-0417.gif)
 
 Notice how the values for b and a hop madly about. This is a sign of bad
 starting values, but it looks like SPSS finally settled down on
@@ -195,7 +195,7 @@ reasonable values for a and b. Unfortunately, when you plot the
 predicted values, you see an S-shaped curve that doesn't come anywhere
 close to your data.
 
-![](http://www.pmean.com/images/images/04/scurve-0418.gif)
+![](http://www.pmean.com/new-images/04/scurve-0418.gif)
 
 The curve you see is just a small fragment of the S-shaped curve, with
 most of the interesting portions extending off well beyond the range of
@@ -204,7 +204,7 @@ the data.
 As another example of what can go wrong, suppose I naively set the
 starting value for a to 0. Here's what the output looks like.
 
-![](http://www.pmean.com/images/images/04/scurve-0419.gif)
+![](http://www.pmean.com/new-images/04/scurve-0419.gif)
 
 There are three warning signs here. First the model stopped at the first
 iteration. Second, it stopped for an unusual reason. Third, the model
@@ -212,7 +212,7 @@ has negative sum of squares.
 
 The remainder of the output also has some warning signs.
 
-![](http://www.pmean.com/images/images/04/scurve-0420.gif)
+![](http://www.pmean.com/new-images/04/scurve-0420.gif)
 
 Notice that the two parameters have zero standard errors, which almost
 never happens with real data. Finally the correlation between b and a is
@@ -236,11 +236,11 @@ DESCRIPTIVES to find out that the mean of X is -6.8. Then select
 TRANSFORM | COMPUTE from the SPSS menu to create a new variable, XC,
 which is X - (-6.8).
 
-![](http://www.pmean.com/images/images/04/scurve-0421.gif)
+![](http://www.pmean.com/new-images/04/scurve-0421.gif)
 
 Here's what the centered data looks like.
 
-![](http://www.pmean.com/images/images/04/scurve-0422.gif)
+![](http://www.pmean.com/new-images/04/scurve-0422.gif)
 
 Fit the same nonlinear regression model, with two changes:
 
@@ -249,7 +249,7 @@ Fit the same nonlinear regression model, with two changes:
 
 Here are the results.
 
-![](http://www.pmean.com/images/images/04/scurve-0423.gif)
+![](http://www.pmean.com/new-images/04/scurve-0423.gif)
 
 There is some improvement--the correlation is down to -0.9081 from
 -0.9998, but the confidence intervals are still rather wide.
@@ -263,11 +263,11 @@ A second approach is to reparameterize the nonlinear formula. By
 because some of the parameters have been re-arranged. Here is a
 reparameterization that is worth considering:
 
-![](http://www.pmean.com/images/images/04/scurve-0424.gif)
+![](http://www.pmean.com/new-images/04/scurve-0424.gif)
 
 Here is the output.
 
-![](http://www.pmean.com/images/images/04/scurve-0425.gif)
+![](http://www.pmean.com/new-images/04/scurve-0425.gif)
 
 Notice that the parameters u and b are almost perfectly uncorrelated.
 The confidence interval for b is still wide, but the confidence interval
@@ -291,7 +291,7 @@ Here's a plot of the data with the positive and negative controls. In
 theory, the controls represent the limits at plus or minus infinity, but
 I just set them well outside the range of the remaining data.
 
-![](http://www.pmean.com/images/images/04/scurve-0426.gif)
+![](http://www.pmean.com/new-images/04/scurve-0426.gif)
 
 Notice how the signal at x = -7.6 extends above the ceiling defined by
 the negative control. When we normalized this data, we truncated that
@@ -303,7 +303,7 @@ negative control and slightly smaller than the signal at -7.6.
 The formula for the S-shaped curve adds two additional parameters, c and
 d.
 
-![](http://www.pmean.com/images/images/04/scurve-0427.gif)
+![](http://www.pmean.com/new-images/04/scurve-0427.gif)
 
 The parameter c represents the floor, the minimum value of the S-shaped
 curve, and the curve rises to a maximum value of c+d. For starting
@@ -311,7 +311,7 @@ values, we can set c to the positive control level (0.2) and if we set
 c+d to the negative control level (2.0) then a starting value of 1.8 for
 d seems reasonable.   Here's the output.
 
-![](http://www.pmean.com/images/images/04/scurve-0428.gif)
+![](http://www.pmean.com/new-images/04/scurve-0428.gif)
 
 The estimated floor and ceiling levels are a bit surprising. The floor
 (c) is 0.4, which is larger than the positive control   and the ceiling
@@ -321,7 +321,7 @@ computed (-7.1).
 
 Here's a graph of the fitted curve.
 
-![](http://www.pmean.com/images/images/04/scurve-0429.gif)
+![](http://www.pmean.com/new-images/04/scurve-0429.gif)
 
 This graph confirms the observations we noted above. Notice how the
 curve levels off at a value well above the positive control and well
@@ -353,7 +353,7 @@ The middle column is an indicator variable which equals zero for the
 first protein and one for the second protein. Here's a plot of the
 data.
 
-![](http://www.pmean.com/images/images/04/scurve-0430.gif)
+![](http://www.pmean.com/new-images/04/scurve-0430.gif)
 
 The blue circles represent the first protein. The green pluses represent
 the second protein.
@@ -362,11 +362,11 @@ To compare the two proteins we will incorporate the indicator variable
 into the nonlinear regression model and add a parameter to estimate the
 difference between the two S-shaped curves.
 
-![](http://www.pmean.com/images/images/04/scurve-0431.gif)
+![](http://www.pmean.com/new-images/04/scurve-0431.gif)
 
 Here is the output.
 
-![](http://www.pmean.com/images/images/04/scurve-0432.gif)
+![](http://www.pmean.com/new-images/04/scurve-0432.gif)
 
 The estimate for u (-7.1) is the estimated IC50 for the first protein.
 The estimate for v (0.07) is the difference in the IC50 between the two
@@ -376,7 +376,7 @@ from sampling error.
 
 Here is a graph of the data.
 
-![](http://www.pmean.com/images/images/04/scurve-0433.gif)
+![](http://www.pmean.com/new-images/04/scurve-0433.gif)
 
 There is a slight separation between the two S-shaped curves. Notice
 also that both proteins show a small "hump" at x =-6.6 and -6.3 which

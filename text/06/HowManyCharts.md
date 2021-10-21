@@ -28,7 +28,7 @@ would go from 70% to 90%), then you would need to sample 62 patients.
 
 There's a simple formula that you could use to get this value
 
-![06_BinomialSampleSize01.gif not found.](http://www.pmean.com/images/images/06/HowManyCharts01.png)
+![06_BinomialSampleSize01.gif not found.](http://www.pmean.com/new-images/06/HowManyCharts01.png)
 height="56"}
 
 where H is the half width of the confidence interval and Z is the

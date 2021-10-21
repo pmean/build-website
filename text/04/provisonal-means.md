@@ -36,14 +36,14 @@ data or have problems with numerical stability.
 Here's the algorithm for updating the mean. The formulas here should
 appeal to your general intuition.
 
-![provMeans1.gif not found.](http://www.pmean.com/images/images/04/ProvisionalMeans01.png)
+![provMeans1.gif not found.](http://www.pmean.com/new-images/04/ProvisionalMeans01.png)
 
 Notice that the average at each step is a weighted sum of the new
 value and the mean from the previous step. The formula for the
 variance is a bit less intuitive, but it follows the same general
 pattern.
 
-![provMeans2.gif not found.](http://www.pmean.com/images/images/04/ProvisionalMeans02.png)
+![provMeans2.gif not found.](http://www.pmean.com/new-images/04/ProvisionalMeans02.png)
 
 The formulas here are slightly modified from the provisional means
 algorithm. The actual algorithm uses the sums of squares rather than
@@ -60,11 +60,11 @@ and standard deviation to get 69.9 and 42.2. The variance is 1780.84.
 How would these numbers change if the last value were removed from the
 data? Here's the calculation for the mean:
 
-![provMeans3.gif not found.](http://www.pmean.com/images/images/04/ProvisionalMeans03.png)
+![provMeans3.gif not found.](http://www.pmean.com/new-images/04/ProvisionalMeans03.png)
 
 and for the variance and standard deviation:
 
-![provMeans4.gif not found.](http://www.pmean.com/images/images/04/ProvisionalMeans04.png)
+![provMeans4.gif not found.](http://www.pmean.com/new-images/04/ProvisionalMeans04.png)
 
 When the largest value is removed from this data set, the mean
 decrease by about 20% and the standard deviation is reduced by about a

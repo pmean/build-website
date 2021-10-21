@@ -40,9 +40,9 @@ have different legal requirements for patients depending on which state
 they come from. How much more different is it when you consider
 regulations in the international arena!
 
-![](http://www.pmean.com/images/images/06/EthicalConcernsChildren01.gif)
-![](http://www.pmean.com/images/images/06/EthicalConcernsChildren02.gif)
-![](http://www.pmean.com/images/images/06/EthicalConcernsChildren03.gif)
+![](http://www.pmean.com/new-images/06/EthicalConcernsChildren01.gif)
+![](http://www.pmean.com/new-images/06/EthicalConcernsChildren02.gif)
+![](http://www.pmean.com/new-images/06/EthicalConcernsChildren03.gif)
 (Source:
 [www.idcide.com/citydata/mo/kansas-city.htm](http://www.idcide.com/citydata/mo/kansas-city.htm))
 

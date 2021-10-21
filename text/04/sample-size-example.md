@@ -21,7 +21,7 @@ deviation of 9.5, and to allow for a 25 percent dropout rate.*
 
 and the formula for estimating the sample size would be
 
-![](http://www.pmean.com/images/images/04/samplesize-0401.gif)
+![](http://www.pmean.com/new-images/04/samplesize-0401.gif)
 
 where D represents the minimum clinically relevant difference. This
 formula assumes that you have two parallel groups and you are
@@ -30,7 +30,7 @@ t-test. There are several variations on this formula, but they all
 give the same answer. Extracting the information from the text shown
 above, you would get
 
-![](http://www.pmean.com/images/images/04/samplesize-0402.gif)
+![](http://www.pmean.com/new-images/04/samplesize-0402.gif)
 
 Using these numbers, I get an estimated sample size of 56.60. In order
 to allow for dropouts, divide this number by 0.75 to get 75.47. I

@@ -29,7 +29,7 @@ large gap shrinks by a considerable amount. There is still a significant
 difference in the prices, but not as extreme as the unadjusted values
 might lead you to believe.
 
-![CovariateAdjustment.gif not found.](http://www.pmean.com/images/images/05/CovariateImbalance01.png)
+![CovariateAdjustment.gif not found.](http://www.pmean.com/new-images/05/CovariateImbalance01.png)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

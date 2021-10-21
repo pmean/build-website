@@ -29,7 +29,7 @@ samples, cytomegalovirus was detecting 36 times (8.8%) using
 formaldehyde and 22 times (5.4%) using acetone. The table below
 illustrates how both assays performed.
 
-![mcnemar01.gif not found.](http://www.pmean.com/images/images/04/mcnemar01.png)
+![mcnemar01.gif not found.](http://www.pmean.com/new-images/04/mcnemar01.png)
 
   Is the rate of detection significantly greater for formaldehyde? To
 answer this, we need to know how often the tests disagreed and if the

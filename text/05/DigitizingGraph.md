@@ -21,7 +21,7 @@ and it looks like 300 dpi worked reasonably well. Here is a portion of
 the image that I scanned (reduced to one third the original size to
 fit easily on this web page).
 
-![Kawasaki2.gif not found.](http://www.pmean.com/images/images/05/DigitizingGraph01.png)
+![Kawasaki2.gif not found.](http://www.pmean.com/new-images/05/DigitizingGraph01.png)
 
 Notice that there is a marked tilt to these graphs.
 

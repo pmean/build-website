@@ -26,14 +26,14 @@ text]](http://www.hqlo.com/content/2/1/26)
 If your data is normally distributed, then the classic formulas for
 sample size work just fine.
 
-![ordinal01.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic01.png)
+![ordinal01.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic01.png)
 
 If your data is continuous, but non-normal, then the Mann-Whitney test
 is a good choice. Define the effect size, P, as P[Y>X], where Y and X
 are randomly selected values from the treatment and control groups. The
 formula for the sample size is
 
-![ordinal12.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic02.png)
+![ordinal12.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic02.png)
 
 You want to select P so that the two distributions, normal or
 non-normal, are separated by an amount that is clinically relevant.
@@ -55,45 +55,45 @@ If you have a set of control probabilities, it is easy to see what the
 treatment probabilities will be under the proportional odds assumption.
 Let's start with the probabilities listed below.
 
-![ordinal03.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic03.png)
+![ordinal03.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic03.png)
 
 Compute the cumulative probabilities, that is,   the probability of A,
 then A/B, then A/B/C, and then A/B/C/D. The last of these has to equal
 1.00.
 
-![ordinal04.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic04.png)
+![ordinal04.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic04.png)
 
 Now compute the cumulative odds, which is just the cumulative
 probability divided by its complement. For example, in column C, the
 cumulative probability is 0.8. The cumulative odds would be 0.8/0.2 =
 4.0. You won't be able to compute an odds for the last column.
 
-![ordinal05.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic05.png)
+![ordinal05.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic05.png)
 
 Multiply those odds by a common ratio. Here we use a common ratio of
 2.0.
 
-![ordinal06.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic06.png)
+![ordinal06.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic06.png)
 
 Convert the odds back into cumulative probabilities.
 
-![ordinal07.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic07.png)
+![ordinal07.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic07.png)
 
 Finally convert the cumulative probabilities back into simple
 probabilities.
 
-![ordinal08.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic08.png)
+![ordinal08.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic08.png)
 
 Here's what the calculations would look like if the odds ratio was 0.33
 rather than 2.0.
 
-![ordinal09.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic09.png)
-![ordinal10.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic10.png)
-![ordinal11.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic11.png)
+![ordinal09.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic09.png)
+![ordinal10.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic10.png)
+![ordinal11.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic11.png)
 
 The formula for sample size with ordinal logistic regression is
 
-![ordinal13.gif not found.](http://www.pmean.com/images/images/04/OrdinalLogistic12.png)
+![ordinal13.gif not found.](http://www.pmean.com/new-images/04/OrdinalLogistic12.png)
 
 Let's look at all three calculations at the same time. First, let's
 assume that categories A through D can be represented by the numbers 0

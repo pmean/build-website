@@ -20,13 +20,13 @@ during an era when people believed in the phrase "Women and children
 first"). The effect, however, is not as strong in 3rd class
 passengers as it is in first and second class passengers.
 
-![interact1.gif not found.](http://www.pmean.com/images/images/04/interactions01.png)
+![interact1.gif not found.](http://www.pmean.com/new-images/04/interactions01.png)
 
 When you calculate a separate odds ratio for each passenger class, you
 get a value of 30 for first class, 42 for second class, and 4.6 for
 third class.
 
-![interact2.gif not found.](http://www.pmean.com/images/images/04/interactions02.png)
+![interact2.gif not found.](http://www.pmean.com/new-images/04/interactions02.png)
 
 This disparity is the classic example of interaction--the effect of
 one variable becomes stronger or weaker depending on the level of the
@@ -35,7 +35,7 @@ other variable.
 When you fit a binary logistic model with an interaction, the
 estimates look like this:
 
-![interact3.gif not found.](http://www.pmean.com/images/images/04/interactions03.png)
+![interact3.gif not found.](http://www.pmean.com/new-images/04/interactions03.png)
 
 The last passenger class (third class) becomes the reference level.
 The odds ratio for sex, 4.6, is the odds ratio within the third

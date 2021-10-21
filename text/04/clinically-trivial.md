@@ -68,7 +68,7 @@ millimeters on a 10 centimeter scale. On your screen, of course, or on
 your printer, these lines may not be equal to exactly 10 centimeters,
 but the distances should be proportional.
 
-![04_clinical01.gif not found.](http://www.pmean.com/images/images/04/ClinicallyTrivial01.png)
+![04_clinical01.gif not found.](http://www.pmean.com/new-images/04/ClinicallyTrivial01.png)
 
 Is a difference of 3 mm large enough to justify a claim of "less
 drowsy"? The authors of the study do not discuss this, and quite

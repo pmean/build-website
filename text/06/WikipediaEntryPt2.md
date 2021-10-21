@@ -60,11 +60,11 @@ np>5 and n(1-p)>5.
 
 Here's a screen shot of my changes
 
-![](http://www.pmean.com/images/images/06/WikipediaEntryPt201.gif)
+![](http://www.pmean.com/new-images/06/WikipediaEntryPt201.gif)
 
 and
 
-![](http://www.pmean.com/images/images/06/WikipediaEntryPt202.gif)
+![](http://www.pmean.com/new-images/06/WikipediaEntryPt202.gif)
 
 I also experimented with some messier formulas. Here is the TeX code
 
@@ -76,9 +76,9 @@ I also experimented with some messier formulas. Here is the TeX code
 
 and here is what the equations look like
 
-![](http://www.pmean.com/images/images/06/WikipediaEntryPt203.gif)
+![](http://www.pmean.com/new-images/06/WikipediaEntryPt203.gif)
 >
-![](http://www.pmean.com/images/images/06/WikipediaEntryPt204.gif)
+![](http://www.pmean.com/new-images/06/WikipediaEntryPt204.gif)
 
 There is no entry for standard normal distribution, and the entry on
 statistical sample

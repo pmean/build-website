@@ -16,11 +16,11 @@ but if you do a web search, you will find
 which defines it as a variation on Cohen's D that corrects for biases
 due to small sample sizes. The formula for Cohen's D is well known:
 
-![HedgesG1.gif not found.](http://www.pmean.com/images/images/05/HedgesG01.png)
+![HedgesG1.gif not found.](http://www.pmean.com/new-images/05/HedgesG01.png)
 
 and you adjust this value to get Hedge's G with the formula:
 
-![HedgesG2.gif not found.](http://www.pmean.com/images/images/05/HedgesG02.png)
+![HedgesG2.gif not found.](http://www.pmean.com/new-images/05/HedgesG02.png)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

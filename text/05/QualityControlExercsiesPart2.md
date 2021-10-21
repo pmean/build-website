@@ -39,7 +39,7 @@ after initial impact. Most of the coin flips landed close enough but
 then bounced further away. They ended up using a sugar packet. The graph
 of their next 20 trials appears below.
 
-![QualityControl4.jpg not found.](http://www.pmean.com/images/images/05/QualityControlExercsiesPart204.png)
+![QualityControl4.jpg not found.](http://www.pmean.com/new-images/05/QualityControlExercsiesPart204.png)
 
 This entire experiment took about 30 minutes. With a bit more time, I
 would discuss the computation of a center line and control limits.

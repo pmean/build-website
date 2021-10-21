@@ -84,7 +84,7 @@ just for the sampling. Total bill: 3.65 million.
 
 Here's a graph of all possible sample sizes and total costs.
 
-![SafetyLevel.gif not found.](http://www.pmean.com/images/images/05/ConfidenceIntervalA01.png)
+![SafetyLevel.gif not found.](http://www.pmean.com/new-images/05/ConfidenceIntervalA01.png)
 
 It turns out that the most economical sample size is 50. It leads a
 confidence interval of +/-47 and a total bill of 1.72 million dollars.

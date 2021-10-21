@@ -23,7 +23,7 @@ around on the date that you go looking for them.
 
 Let's consider an example with simulated data.
 
-![neyman01.gif not found.](http://www.pmean.com/images/images/04/NeymanBias01.png)
+![neyman01.gif not found.](http://www.pmean.com/new-images/04/NeymanBias01.png)
 
 The lines on this graph represent the duration of disease with the left
 endpoint representing the date that the disease was first diagnosed and
@@ -32,12 +32,12 @@ line segments are ordered from the time of initial diagnosis with
 patients diagnosed in 1999 and 2000 at the bottom of the graph and
 patients diagnosed in 2003 and 2004 at the top of the graph.
 
-![neyman02.gif not found.](http://www.pmean.com/images/images/04/NeymanBias02.png)
+![neyman02.gif not found.](http://www.pmean.com/new-images/04/NeymanBias02.png)
 
 This graph represents a selection of prevalent cases, and the green
 lines represent those patients who were alive on January 1, 2002.
 
-![neyman03.gif not found.](http://www.pmean.com/images/images/04/NeymanBias03.png)
+![neyman03.gif not found.](http://www.pmean.com/new-images/04/NeymanBias03.png)
 
 This graph represents incident cases, and the green lines represent
 those patients newly diagnosed with the disease between January 1, 2001
@@ -47,14 +47,14 @@ The prevalent cases include very few patients with short survival time,
 compared to the incident cases. This becomes more apparent when you
 reorder the patients by survival time.
 
-![neyman04.gif not found.](http://www.pmean.com/images/images/04/NeymanBias04.png)
+![neyman04.gif not found.](http://www.pmean.com/new-images/04/NeymanBias04.png)
 
 In this graph, the patients with the shortest survival times appear at
 the bottom of the graph and the patients with the longest survival times
 appear at the top. Notice how rarely the patients with short survival
 times appear among the prevalent cases.
 
-![neyman05.gif not found.](http://www.pmean.com/images/images/04/NeymanBias05.png)
+![neyman05.gif not found.](http://www.pmean.com/new-images/04/NeymanBias05.png)
 
 This graph shows the incident cases with the patients again sorted by
 survival time. Notice that the incident cases include a fair number of
