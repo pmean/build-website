@@ -5,7 +5,7 @@ date: "2021-08-09"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 output: html_document
 ---
 
@@ -29,7 +29,7 @@ Stories in the news media about this topic include
 There are various pre-prints and peer-reviewed publications that offer technical explanations of the problem and propose some solutions.
 
 + Irene Y. Chen, Emma Pierson, Sherri Rose, Shalmali Joshi, Kadija Ferryman, Marzyeh Ghassemi. Ethical Machine Learning in Health Care. arxiv.org, 2020-10-08. Available in [pdf format][che1]
-+ Darshali A. Vyas, Leo G. Eisenstein, David S. Jones. Hidden in Plain Sight — Reconsidering the Use of Race Correction in Clinical Algorithms. New England Journal of Medicine, 2020-08-27, 383, 874-882, DOI: 10.1056/NEJMms2004740. Available in [html format][vya1].
++ Darshali A. Vyas, Leo G. Eisenstein, David S. Jones. Hidden in Plain Sight <U+FFFD> Reconsidering the Use of Race Correction in Clinical Algorithms. New England Journal of Medicine, 2020-08-27, 383, 874-882, DOI: 10.1056/NEJMms2004740. Available in [html format][vya1].
 + Anna Zink, Sherri Rose. Fair Regression for Health Care Spending. arxiv.org, 2091-07-13. Available in [pdf format][zin1]
 + Thomas McGuire, Anna Zink, and Sherri Rose. Improving the Performance of Risk Adjustment Systems Constrained Regressions, Reinsurance, and Variable Selection. American Journal of Health Economics, 2021-03-18.
 + Savannah L.Bergquist, Timothy J.Layton, Thomas G.McGuire, SherriRose. Data transformations to improve the performance of health plan payment methods. Journal of Health Economics, 2019 (July), 66, 195-207.

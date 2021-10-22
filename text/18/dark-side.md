@@ -6,7 +6,7 @@ date: "2018-08-13"
 categories:
 - Blog post
 tags:
-- Big data
+- Data science
 - Human side of statistics
 output: html_document
 ---

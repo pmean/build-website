@@ -6,12 +6,9 @@ date: 2006-12-14
 categories:
 - Blog post
 tags:
-- Qualitative data analysis
+- Qualitative research
 output: html_document
 ---
-**[StATS]:** **Using focus groups to bridge the gap
-between research and practice (December 14, 2006)**. [Category:
-Qualitative data analysis](../category/QualitativeData.html)
 
 > The Injury Prevention journal published a nice article on how to use
 > focus groups to bridge the research-practice gap,

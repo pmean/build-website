@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/summary-of-my-research/"
 date: "2014-02-15"
 category: Blog post
-tags: Accrual
+tags: Accrual problems in clinical trials
 output: html_document
 ---
 

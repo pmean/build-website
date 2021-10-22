@@ -6,7 +6,7 @@ date: "2019-02-14"
 categories:
 - Cartoon
 tags:
-- Big data
+- Data science
 output: html_document
 ---
 

@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/screen-sharing/"
 date: "2016-11-07"
 category: Blog post
-tags: Presenting research data
+tags: Presenting research
 output: html_document
 ---
 

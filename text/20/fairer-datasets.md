@@ -6,7 +6,7 @@ date: 2020-08-11
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - Ethics in research
 output: html_document
 ---

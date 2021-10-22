@@ -6,7 +6,7 @@ date: "2018-04-03"
 categories:
 - Blog post
 tags:
-- Big data
+- Data science
 output: html_document
 ---
 

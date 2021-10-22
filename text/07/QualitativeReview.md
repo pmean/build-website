@@ -6,7 +6,7 @@ date: 2007-03-11
 categories:
 - Blog post
 tags:
-- Qualitative data analysis
+- Qualitative research
 output: html_document
 ---
 > I was asked by BMJ to review a paper that involved a qualitative data

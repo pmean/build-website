@@ -6,7 +6,7 @@ date: "2017-11-15"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - R software
 - SQL
 - Teaching resources

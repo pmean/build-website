@@ -5,7 +5,7 @@ date: 2006-01-24
 categories:
 - Blog post
 tags:
-- Big data
+- Data science
 - R software 
 output: html_document
 ---

@@ -3,8 +3,11 @@ title: "PMean: A non-technical answer to why we need Markov Chain Monte Carlo"
 author: "Steve Simon"
 source: "http://blog.pmean.com/non-technical-mcmc/"
 date: "2015-09-21"
-category: Blog post
-tags: Accrual
+category:
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Bayesian statistics
 output: html_document
 ---
 
@@ -58,7 +61,7 @@ are looking at would require MCMC.
 The key reference for these ideas is Gajewski BJ, Simon SD, Carlson SE.
 Predicting accrual in clinical trials with Bayesian posterior predictive
 distributions. Stat Med. 2008 Jun 15;27(13):2328-40 which is available
-on the web at 
+on the web at?
 <http://onlinelibrary.wiley.com/doi/10.1002/sim.3128/abstract>
 
 I have other material related to the Bayesian modelling of patient

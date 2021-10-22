@@ -3,8 +3,11 @@ title: "PMean: Extremely imbalanced multi-center trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/imbalanced-multi-center-trials/"
 date: "2017-05-05"
-category: Blog post
-tags: Accrual
+category: 
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Bayesian statistics
 output: html_document
 ---
 

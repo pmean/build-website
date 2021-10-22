@@ -6,7 +6,7 @@ date: "2019-03-15"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - Logistic regression
 - Systematic overviews
 output: html_document

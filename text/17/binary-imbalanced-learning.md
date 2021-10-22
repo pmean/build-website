@@ -6,7 +6,7 @@ date: "2017-05-02"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - Logistic regression
 output: html_document
 ---

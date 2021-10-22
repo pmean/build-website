@@ -5,7 +5,7 @@ date: 2004-07-06
 categories:
 - Blog post
 tags:
-- Qualitative data analysis
+- Qualitative research
 output: html_document
 ---
 > Someone asked me for some specific advice on how to design a

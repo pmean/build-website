@@ -6,7 +6,7 @@ date: "2014-07-14"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - Ethics in research
 output: html_document
 ---

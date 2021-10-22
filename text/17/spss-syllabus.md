@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/spss-syllabus/"
 date: "2017-08-30"
 category: Blog post
-tags: SPSS
+tags: SPSS software
 output: html_document
 ---
 
@@ -192,10 +192,10 @@ Your Q drive space is limited (approximately 500 mB), so you might want
 to also use cloud storage for your files. Free cloud storage options
 include --
 
--   <U+00A0>Box.com
--   <U+00A0>Drop Box
--   <U+00A0>Google Drive (free with a Google email address)
--   <U+00A0>Microsoft One Drive
+-   Box.com
+-   Drop Box
+-   Google Drive (free with a Google email address)
+-   Microsoft One Drive
 
 Cloud storage will give you additional space to store files. If you have
 any question about setting up a cloud storage account using any of these

@@ -6,7 +6,7 @@ date: "2015-01-12"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - R software
 output: html_document
 ---

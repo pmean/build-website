@@ -6,7 +6,7 @@ date: "2018-01-26"
 category:
 - Blog post
 tags:
-- Big data
+- Data science
 - R software
 - SQL
 output: html_document

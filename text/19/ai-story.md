@@ -6,7 +6,7 @@ date: "2019-01-09"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 - Ethics in research
 - Human side of statistics
 output: powerpoint_presentation

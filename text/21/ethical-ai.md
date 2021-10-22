@@ -5,7 +5,7 @@ date: "2021-04-16"
 categories:
 - Recommendation
 tags:
-- Big data
+- Data science
 output: html_document
 ---
 

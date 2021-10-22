@@ -6,7 +6,7 @@ date: "2019-01-20"
 categories:
 - Quotation
 tags:
-- Big data
+- Data science
 output: html_document
 ---
 

@@ -5,7 +5,7 @@ date: 2004-04-13
 categories:
 - Blog post
 tags:
-- Qualitative data analysis
+- Qualitative research
 output: html_document
 ---
 > A student is giving a talk on focus groups and asked me a few

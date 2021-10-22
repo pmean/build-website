@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Humor
-- Placebos
+- Placebos in research
 output: html_document
 ---
 
