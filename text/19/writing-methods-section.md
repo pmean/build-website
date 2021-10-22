@@ -18,39 +18,39 @@ It helps to see the variety of different formats that are presented in various r
 
 Alice Frye's [Powerpoint presentation][fry1]  also see [this presentation][fry2] and [this one][fry3] as well) lays out the methods section requirements with great detail.
 
--   Participants,
--   Procedure,
--   Measures/Materials,
--   Analysis section
++ Participants,
++ Procedure,
++ Measures/Materials,
++ Analysis section
 
 
 
 Richard Kallet has a [nice publication in Respiratory Care][kal1].
 
--   Subjects,
--   Ethical considerations,
--   Preparations,
--   Protocol design,
--   Measurements and calculations,
--   Data analysis
++ Subjects,
++ Ethical considerations,
++ Preparations,
++ Protocol design,
++ Measurements and calculations,
++ Data analysis
 
 Elena Kallestinova's [publication in the Yale Journal of Biology and Medicine][kal2] provides a structure through a series of questions.
 
--   What materials did you use?
--   Who were the subjects of your study?
--   What was the design of your research?
--   What procedure did you follow?
++ What materials did you use?
++ Who were the subjects of your study?
++ What was the design of your research?
++ What procedure did you follow?
 
 The International Committee of Medical Journal Editors have published a [general guide to writing a paper][icm1] with a fair amount of detail about what goes in the methods section.
 
--   Selection and description of participants,
--   Technical information,
--   Statistics.
++ Selection and description of participants,
++ Technical information,
++ Statistics.
 
 Asghar Ghasemi and others have a [nice publication in the International Journal of Endocrinology and Metabolism][gha1] with only two major sections (but several subsections in each).
 
--   Materials (Chemical, Experimental materials, Experimental animals, Human subjects),
--   Methods (Study design, Measurements/assessments, Statistical analyses)
++ Materials (Chemical, Experimental materials, Experimental animals, Human subjects),
++ Methods (Study design, Measurements/assessments, Statistical analyses)
 
 Are you confused yet? Don't despair. The fact that there are so many different standards out there means that you have a lot of latitude in how to structure your methods section. The best advice I can offer is to read a half dozen articles or theses and take notes about what these writers did.
 
@@ -62,11 +62,11 @@ An important dividing line comes between the methods section and the results sec
 
 Your methods section should have five sections:
 
--   Participants
--   Materials
--   Procedures
--   Measures
--   Analysis
++ Participants
++ Materials
++ Procedures
++ Measures
++ Analysis
 
 If you don't have anything for a particular section, it's okay to drop it. If you have a different section that you want to add, that's fine also. Use this (or any of the guides mentioned above) as a framework, but adapt it to the needs of your particular research. Let's talk about each of these sections in a bit more detail.
 
