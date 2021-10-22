@@ -10,18 +10,19 @@ tags:
 output: html_document
 ---
 
-This page offers a broad and comprehensive overview of how to plan and
-conduct a program evaluation. There are tons of resources (a mix of html
-pages and PDF documents) behind various hyperlinks on this
-page.
+![](http://www.pmean.com/new-images/19/program-evaluation01.png)
 
-<!---More--->
+<div class="notes">
+
+This page offers a broad and comprehensive overview of how to plan and conduct a program evaluation. There are tons of resources (a mix of html pages and PDF documents) behind various hyperlinks on this page.
 
 Centers for Disease Control and Prevention. A Framework for Program
 Evaluation. Available in [html
-format](https://www.cdc.gov/eval/framework/index.htm).
+format][cdc1].
 
-![](http://www.pmean.com/new-images/19/program-evaluation01.png)
+[cdc1]: https://www.cdc.gov/eval/framework/index.htm
+
+</div>
 
 
 

@@ -10,20 +10,17 @@ tags:
 output: html_document
 ---
 
-This article was recommended to me at a webinar I attended. The author
-offers very personal and practical advice. The author's third point
-"You'll never have to know all the tools" is quite
-reassuring.
+![](http://www.pmean.com/new-images/19/twelve-things01.png)
 
-<!---More--->
+<div class="notes">
+
+This article was recommended to me at a webinar I attended. The author offers very personal and practical advice. The author's third point "You'll never have to know all the tools" is quite reassuring.
 
 Jason Goodman. 12 things I wish I'd known before starting as a Data
 Scientist. Published on the medium.com website, February 21, 2019.
 Available in [html
-format](https://medium.com/deliberate-data-science/12-things-i-wish-id-known-before-starting-as-a-data-scientist-45989be6300e).
+format][goo1]
 
-![](http://www.pmean.com/new-images/19/twelve-things01.png)
+[goo1]: https://medium.com/deliberate-data-science/12-things-i-wish-id-known-before-starting-as-a-data-scientist-45989be6300e
 
-
-
-
+</div>

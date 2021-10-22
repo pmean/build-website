@@ -10,14 +10,9 @@ tags:
 output: html_document
 ---
 
-<!---more--->
-
 ![](http://www.pmean.com/new-images/19/predictive-analytics-software01.jpeg)
 
-
-
-Purchased from CartoonStock.com for this blog site only. Do not
-reproduce this cartoon without their permission.
+Purchased from CartoonStock.com for this blog site only. Do not reproduce this cartoon without their permission.
 
 
 
