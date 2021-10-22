@@ -3,8 +3,11 @@ title: "PMean: Bad examples of data analysis are bad examples to use in teaching
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-bad-examples/"
 date: "2016-08-07"
-category: Blog post
-tags: Critical appraisal, Teaching resources
+category: 
+- Blog post
+tags:
+- Critical appraisal
+- Teaching resources
 output: html_document
 ---
 
@@ -31,7 +34,7 @@ examples to show the right way to do research.
 
 **Black-and-white thinking**. An important critical thinking skill is
 deciding when a problem is so serious that you should totally disregard
-that study.  Think of this as the fatal flaw approach to critical
+that study.? Think of this as the fatal flaw approach to critical
 thinking. It's easy to find fatally flawed studies. The problem is that
 the number and frequency of fatal flaws is far outnumbered by non-fatal
 flaws.

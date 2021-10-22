@@ -3,8 +3,12 @@ title: "PMean: My work on a CTSA grant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ctsa-grant/"
 date: "2018-01-26"
-category: Blog post
-tags: Big data, R software, SQL
+category:
+- Blog post
+tags:
+- Big data
+- R software
+- SQL
 output: html_document
 ---
 

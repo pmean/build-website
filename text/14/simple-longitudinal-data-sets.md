@@ -3,8 +3,12 @@ title: "PMean: Simple longitudinal data sets to illustrate data management"
 author: "Steve Simon"
 source: "http://blog.pmean.com/simple-longitudinal-data-sets/"
 date: "2014-07-07"
-category: Blog post
-tags: Datasets, Longitudinal data, Missing data
+category:
+- Blog post
+tags:
+- Datasets
+- Longitudinal data
+- Missing data
 output: html_document
 ---
 

@@ -3,8 +3,11 @@ title: "Why secondary data analysis takes a lot longer"
 author: "Steve Simon"
 source: "http://blog.pmean.com/a-lot-longer/"
 date: "2016-12-17"
-category: Blog post
-tags: Human side of statistics, Observational studies
+category: 
+- Blog post
+tags:
+- Human side of statistics
+- Observational studies
 output: html_document
 ---
 

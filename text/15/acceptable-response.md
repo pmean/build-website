@@ -3,8 +3,11 @@ title: "PMean: Acceptable response rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/acceptable-response/"
 date: "2015-03-30"
-category: Blog post
-tags: Observational studies, Survey design
+category: 
+- Blog post
+tags: 
+- Observational studies
+- Survey design
 output: html_document
 ---
 

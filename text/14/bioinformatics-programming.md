@@ -3,8 +3,11 @@ title: "Recommendation: A Quick Guide for Developing Effective Bioinformatics Pr
 author: "Steve Simon"
 source: "http://blog.pmean.com/bioinformatics-programming/"
 date: "2014-01-07"
-category: Recommendation
-tags: Informatics, R software
+category: 
+- Recommendation
+tags: 
+- Informatics
+- R software
 output: html_document
 ---
 

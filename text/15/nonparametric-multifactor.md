@@ -3,8 +3,11 @@ title: "PMean: Nonparametric tests for multifactor designs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nonparametric-multifactor/"
 date: "2015-03-30"
-category: Blog post
-tags: Logistic regression, Nonparametric tests
+category: 
+- Blog post
+tags:
+- Logistic regression
+- Nonparametric tests
 output: html_document
 ---
 

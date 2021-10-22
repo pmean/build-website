@@ -3,8 +3,11 @@ title: "PMean: Nonlinear regression for the difference of two exponentials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/difference-of-two-exponentials/"
 date: "2015-10-05"
-category: Blog post
-tags: nonlinear regression, R software
+category: 
+- Blog post
+tags: 
+- nonlinear regression
+- R software
 output: html_document
 ---
 

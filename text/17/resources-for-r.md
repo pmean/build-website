@@ -3,8 +3,11 @@ title: "PMean: Resources for R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/resources-for-r/"
 date: "2017-11-22"
-category: Blog post
-tags: R software, Teaching resources
+category: 
+- Blog post
+tags:
+- R software
+- Teaching resources
 output: html_document
 ---
 
@@ -16,21 +19,21 @@ so here they are.
 <!---More--->
 
 Data Science with R, Garrett
-Grolemund,<U+00A0>[http://garrettgman.github.io](http://garrettgman.github.io/)
+Grolemund, [http://garrettgman.github.io](http://garrettgman.github.io/)
 
-gitlab,<U+00A0>[https://about.gitlab.com](https://about.gitlab.com/)
+gitlab, [https://about.gitlab.com](https://about.gitlab.com/)
 
-profvis,<U+00A0><https://rstudio.github.io/profvis/>
+profvis, <https://rstudio.github.io/profvis/>
 
-sparklyr,<U+00A0>[http://spark.rstudio.com](http://spark.rstudio.com/)
+sparklyr, [http://spark.rstudio.com](http://spark.rstudio.com/)
 
-readr,<U+00A0><http://blog.revolutionanalytics.com/2015/04/new-packages-for-reading-data-into-r-fast.html>
+readr, <http://blog.revolutionanalytics.com/2015/04/new-packages-for-reading-data-into-r-fast.html>
 
-purrr,<U+00A0><https://blog.rstudio.org/2015/09/29/purrr-0-1-0/>
+purrr, <https://blog.rstudio.org/2015/09/29/purrr-0-1-0/>
 
-tibble,<U+00A0><https://blog.rstudio.org/2016/03/24/tibble-1-0-0/>
+tibble, <https://blog.rstudio.org/2016/03/24/tibble-1-0-0/>
 
-haven,<U+00A0><https://www.r-bloggers.com/reading-spss-data-into-r-with-haven/>
+haven, <https://www.r-bloggers.com/reading-spss-data-into-r-with-haven/>
 
 
 

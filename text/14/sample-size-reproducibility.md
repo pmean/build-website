@@ -3,8 +3,11 @@ title: "PMean: Sample size for a study of reproducibility"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sample-size-reproducibility/"
 date: "2014-06-16"
-category: Blog post
-tags: Measuring agreement, Sample size
+category: 
+- Blog post
+tags: 
+- Measuring agreement
+- Sample size
 output: html_document
 ---
 
@@ -32,7 +35,7 @@ be reasonably narrow. An ICC with a confidence interval that goes from
 
 So dig out the formula for the confidence interval for ICC and find a
 sample size that makes your interval reasonably narrow. Make sure that
-you plug in a plausible value for  ICC and not zero.
+you plug in a plausible value for? ICC and not zero.
 
 The formula for this confidence interval is very messy, so you will
 almost certainly be better off using a simulation approach. Set up a

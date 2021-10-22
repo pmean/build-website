@@ -3,8 +3,11 @@ title: "PMean: Measuring pixels in an R graph"
 author: "Steve Simon"
 source: "http://blog.pmean.com/measuring-pixels/"
 date: "2016-11-01"
-category: Blog post
-tags: Cheat sheet, R software
+category: 
+- Blog post
+tags:
+- Cheat sheet
+- R software
 output: html_document
 ---
 

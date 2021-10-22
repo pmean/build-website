@@ -3,8 +3,11 @@ title: "PMean: Open source as a budgetary measure"
 author: "Steve Simon"
 source: "http://blog.pmean.com/budgetary-measure/"
 date: "2017-08-30"
-category: Blog post
-tags: R software, Writing research papers
+category: 
+- Blog post
+tags:
+- R software
+- Writing research papers
 output: html_document
 ---
 

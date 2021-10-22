@@ -3,8 +3,11 @@ title: "PMean: The unthinking approach to borderline p-values"
 author: "Steve Simon"
 source: "http://blog.pmean.com/unthinking-approach/"
 date: "2017-10-19"
-category: Blog post
-tags: Hypothesis testing, Writing research papers
+category: 
+- Blog post
+tags:
+- Hypothesis testing
+- Writing research papers
 output: html_document
 ---
 

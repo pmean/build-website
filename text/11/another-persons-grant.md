@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: When you're stuck writing major sections of another person's grant
 author: Steve Simon
-date: 1999-01-01
+date: 2011-06-02
 categories:
 - Blog post
 tags:

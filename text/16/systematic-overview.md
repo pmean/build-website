@@ -4,7 +4,9 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/systematic-overview/"
 date: "2016-06-17"
 category: Blog post
-tags: Research design, Systematic overviews
+tags: 
+- Research design
+- Systematic overviews
 output: html_document
 ---
 

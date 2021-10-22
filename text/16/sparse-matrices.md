@@ -3,8 +3,11 @@ title: "PMean: Examining the storage format for sparse matrices in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sparse-matrices/"
 date: "2016-05-16"
-category: Blog post
-tags: Big data, R software
+category:
+- Blog post
+tags:
+- Big data
+- R software
 output: html_document
 ---
 
@@ -291,7 +294,7 @@ The pointer format is usually quite efficient, but there are other
 alternatives. You can store the row and column locations for every
 non-zero element. This is the T format. With pointers, I showed the
 format with row locations and column pointers, but you could just as
-easily have listed the column location and row pointers. These are the 
+easily have listed the column location and row pointers. These are the?
 (C and R formats), respectively.
 
 If you matrix contains only zeros and ones, you can save a bit more
