@@ -2,7 +2,7 @@
 title: "Deviance in a generalized linear model"
 author: "Steve Simon"
 source: "New"
-date: "2020-09-20"
+date: "2021-09-20"
 categories:
 - Blog post
 tags:
