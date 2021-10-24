@@ -1,11 +1,11 @@
 ---
-title: (Being updated)
+title: A simple hierarchical model for the Poisson distribution, borrowed from the BUGS manual
 author: Steve Simon
-date: 1999-01-01
+date: 2011-05-20
 categories:
 - Blog post
 tags:
-- Being updated
+- Bayesian statistics
 output: html_document
 ---
 

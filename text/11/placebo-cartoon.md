@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: Cartoon about placebos
 author: Steve Simon
-date: 1999-01-01
+date: 2011-06-14
 categories:
 - Blog post
 tags:
@@ -9,9 +9,11 @@ tags:
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+I drew a small cartoon about placebos. I know you think that this is drawn by a professional artist, but I did this. Really!
 
 <!---More--->
+
+http://www.pmean.com/new-images/11/PlaceboDomingo.jpg
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
