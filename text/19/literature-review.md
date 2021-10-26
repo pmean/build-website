@@ -14,10 +14,10 @@ output: html_document
 
 <div class="notes">
 
-This is a nice checklist of things that you should do when you are
-creating a literature review.
+This is a nice checklist of things that you should do when you are creating a literature review.
 
-Deborah Gabriel. How to write a literature review. Available in [html
-format](http://deborahgabriel.com/2017/08/21/how-to-write-a-literature-review/).
+Deborah Gabriel. How to write a literature review. Available in [html format][gab1].
+
+[gab1]: http://deborahgabriel.com/2017/08/21/how-to-write-a-literature-review/
 
 </div>

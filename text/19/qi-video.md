@@ -16,8 +16,7 @@ output: html_document
 
 This is a slick video that outlines the quality improvement process using clever drawings. It is only 11 minutes long but provides a very nice overview.
 
-Mike Evans. Quality Improvement in Healthcare. YouTube, November 26,
-2014. Available as a [video (11 minutes)][eva1].
+Mike Evans. Quality Improvement in Healthcare. YouTube, 2014-11-26. Available as a [video (11 minutes)][eva1].
 
 [eva1]: https://www.youtube.com/watch?v=jq52ZjMzqyI
 

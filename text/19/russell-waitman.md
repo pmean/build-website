@@ -16,14 +16,8 @@ output: html_document
 
 This is a short article and video of Russ Waitman. Russ is my boss at one of my three jobs, and this gives a nice introduction to the sort of work I help out with.
 
-Bionexus KC. Dr. Russell Waitman. Innovation: Breaking the Barriers on
-Medical Information. Available in [html
-format][bio1].
+Bionexus KC. Dr. Russell Waitman. Innovation: Breaking the Barriers on Medical Information. Available in [html format][bio1].
 
 [bio1]: https://bionexuskc.org/video_blog/dr-russell-waitman/
 
 </div>
-
-
-
-
