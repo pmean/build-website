@@ -15,7 +15,7 @@ output: html_document
 
 <div class="notes">
 
-How do you teach data science? That's not an easy question - because data science means different things to different people. This site shows different curricula depending on what you want your program to emphasize.
+How do you teach data science? That's not an easy question because data science means different things to different people. This site shows different curricula depending on what you want your program to emphasize.
 
 Brandon Rohrer. Data science curriculum roadmap. Available in [html format][roh1].
 

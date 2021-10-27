@@ -16,14 +16,8 @@ output: html_document
 
 This page offers a broad and comprehensive overview of how to plan and conduct a program evaluation. There are tons of resources (a mix of html pages and PDF documents) behind various hyperlinks on this page.
 
-Centers for Disease Control and Prevention. A Framework for Program
-Evaluation. Available in [html
-format][cdc1].
+Centers for Disease Control and Prevention. A Framework for Program Evaluation. Available in [html format][cdc1].
 
 [cdc1]: https://www.cdc.gov/eval/framework/index.htm
 
 </div>
-
-
-
-

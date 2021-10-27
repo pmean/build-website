@@ -16,7 +16,7 @@ output: html_document
 
 <div class="notes">
 
-If you want to use R Markdown to prepare research papers and presentations - you need to learn how to cite references and include a bibliography. This is a nice introduction and shows the variety of options at your fingertips.
+If you want to use R Markdown to prepare research papers and presentations, you need to learn how to cite references and include a bibliography. This is a nice introduction and shows the variety of options at your fingertips.
 
 R Studio. Bibliographies and Citations. Available in [html format][rst1].
 

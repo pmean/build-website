@@ -16,7 +16,7 @@ output: html_document
 
 A nice site that aggregates blog posts about SAS from a variety of authors.
 
-PROC-X.com. An online (unofficial) SAS journal -- written by bloggers. Available in [html format][pro1],
+PROC-X.com. An online (unofficial) SAS journal written by bloggers. Available in [html format][pro1],
 
 [pro1]: http://proc-x.com/
 
