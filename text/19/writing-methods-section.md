@@ -23,8 +23,6 @@ Alice Frye's [Powerpoint presentation][fry1]  also see [this presentation][fry2]
 + Measures/Materials,
 + Analysis section
 
-
-
 Richard Kallet has a [nice publication in Respiratory Care][kal1].
 
 + Subjects,
