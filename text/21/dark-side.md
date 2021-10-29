@@ -82,11 +82,11 @@ https://www.homernews.com/marketplace/fitnus-smartwatch-review-legit-fitness-tra
 
 ### Are Statisticians Gods?
 
-I'm helping someone who wants an alternative statistical analysis to the one used by the principal investigator. I'm happy to help and will offer advice about why my approach may be better, but I was warned that the PI considers the analysis chosen to be ordained by the **"Statistic Gods"** at her place of work.
+I'm helping someone who wants an alternative statistical analysis to the one used by the principal investigator. I'm happy to help and will offer advice about why my approach may be better, but I was warned that the PI considers the analysis chosen to be ordained by the **"Statistical Gods"** at her place of work.
 
 <div class="notes">
 
-True story. I was asked to review a report from a federal agency, but was warned that negative comments might not be well received.
+True story. I was asked to review a report from a federal agency, but was warned that negative comments, even if accurate, might not be well received because the agency's work was ordained by their Statistic Gods. At first, I thought this was amusing. If I could get the title of "Statistical God", I could double my hourly consulting rate. But deep down this story really bothered me. It implies that Statistical skills are supernatural, and only available to a select few special people. I learned Statistics through hard work, and you can learn Statistics through hard work also. Some people will learn it faster than others because they have good aptitudes in mathematics and programming. But there is nothing other than time to stop you.
 
 </div>
 

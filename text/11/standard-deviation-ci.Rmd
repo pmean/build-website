@@ -1,0 +1,71 @@
+---
+title: Calculating a confidence interval for a standard deviation
+author: Steve Simon
+date: 2011-07-10
+categories:
+- Blog post
+tags:
+- Confidence intervals
+output: html_document
+---
+
+Suppose that you had a sample of 80 observations and you computed a standard deviation of those 80 observations. Like any other statistic, the standard deviation will have some sampling error associated with it. But how much sampling error. This is an important question, because I needed to establish that 80 was a reasonable sample size in a study where there was no formal research hypothesis. You do this by showing that key statistics that you will estimate have good precision. In this study, the standard deviation was especially important, so I wanted to show that a standard deviation based on 80 observations had a good level of precision.
+
+<!---More--->
+
+It's a standard result in mathematical statistics that the sample variance (variance is the square of the standard deviation) is distributed as a multiple of a Chi-square random variable. To be more precise, define the greek letter sigma (Ïƒ) as the unknown standard deviation of the population and the roman letter S as the standard deviation computed from a sample of n observations.
+
+If the data comes from a normally distributed population, then n-1 times the sample variance divided by the population variance has a Chisquare distribution with n-1 degrees of freedom.
+
+$\frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$
+
+Now if the data comes from a non-normally distributed population, you still may be okay. If the sample size is large and if certain other conditions exist, then the above distribution will hold approximately.
+
+Now if the ratio follows a Chi-square distribution, then you can make the following probability statement.
+
+$P[\chi^2(\alpha/2,n-1) > \frac{(n-1)S^2}{\sigma^2}  > \chi^2(1-\alpha/2;n-1)]=1-\alpha$
+
+Re-arrange the terms algebraicly to get
+
+$P[\frac{(n-1)S^2}{\chi^2(1-\alpha/2;n-1)} < \sigma^2 < \frac{(n-1)S^2}{\chi^2(\alpha/2;n-1)}]=1-\alpha$
+
+The two limits
+
+$\frac{(n-1)S^2}{\chi^2(n-1;1-\alpha/2)}$
+
+and
+
+$\frac{(n-1)S^2}{\chi^2(n-1;\alpha/2)}$
+
+represent a 95% confidence interval for the sample variance. Take the square root of both sides to get a 95% confidence interval for the sample standard deviation.
+
+There's a subtle shift that happened in our algebraic manipulations that appears in the final formula. Notice that the upper percentile (the 1-alpha/2 percentile) of the Chi-square distribution appears in the denominator of the lower confidence limit. This happened because in an intermediate step of the algebraic manipulation not shown here, you need to invert the fraction and at the same time invert the inequality (if A < B < C then 1/C < 1/B < 1/A). It make sense, of course, because the numerators are the same. So lower limit has to have a larger number in the denominator than the upper limit.
+
+Something else interesting is going on. Most confidence intervals that you have seen are additive--your interval is that sample estimate plus or minus a certain value. This confidence interval, though, is multiplicative--your interval is the sample estimate multiplied by a couple of values.
+
+In our example, there were 80 observations. The appropriate limits of the Chi-square distribution are
+
+```{r}
+qchisq(0.025, 79)
+```
+
+and
+
+```{r}
+qchisq(0.975, 79)
+```
+
+The upper and lower limits of the 95% confidence interval for the standard deviation, then are
+
+$S \sqrt{\frac{79}{105.5}} = 0.865*S$
+
+and
+
+$S \sqrt{\frac{79}{56.3}}=1.184*S$
+
+Notice that I put the larger Chisquare percentile in the denominator of the lower confidence limit. Our confidence interval is 86% to 118% of the sample standard deviation, which indicates a small amount of sampling error.
+
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/11/StandardDeviation.html
+[sim2]: http://www.pmean.com/original_site.html 
