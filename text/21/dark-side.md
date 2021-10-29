@@ -86,7 +86,7 @@ I'm helping someone who wants an alternative statistical analysis to the one use
 
 <div class="notes">
 
-True story.
+True story. I was asked to review a report from a federal agency, but was warned that negative comments might not be well received.
 
 </div>
 
