@@ -346,7 +346,7 @@ Engineering Statistics Handbook
 -   [Stats: Reporting serious adverse events (updated February
     3, 2006)](AdverseEvents.asp)
 -   [Stats: Control charts for monitoring mortality rates (February
-    11, 2005)](http://www.childrensmercy.org/stats/weblog2005/ControlCharts.asp)
+    11, 2005)](http://www.pmean.com/weblog2005/ControlCharts.asp)
 -   [Stats: Guidelines for quality control models](../model/quality.asp)
 
 This page was written by Steve Simon while working at Children's Mercy

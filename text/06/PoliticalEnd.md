@@ -42,7 +42,7 @@ but for conducting fraudulent or unethical research.
 I highlighted the case of Gretchen LeFever on my weblog
 
 -   [Stats: Allegations of scientific misconduct (August
-    1, 2005)](http://www.childrensmercy.org/stats/weblog2005/ScientificMisconduct.asp)
+    1, 2005)](http://www.pmean.com/weblog2005/ScientificMisconduct.asp)
 
 and in an article on the Chance Wiki
 

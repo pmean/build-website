@@ -53,9 +53,9 @@ It looks like a well written program.
 -   [Stats: What is block randomization (June
     30, 2006)](BlockRandomization.html)
 -   [Stats: An inefficient approach to randomization (August
-    10, 2005)](http://www.childrensmercy.org/stats/weblog2005/Randomization.asp)
+    10, 2005)](http://www.pmean.com/weblog2005/Randomization.asp)
 -   [Stats: Random identification numbers (July
-    26, 2004)](http://www.childrensmercy.org/stats/weblog2004/RandomID.asp)
+    26, 2004)](http://www.pmean.com/weblog2004/RandomID.asp)
 
 This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am

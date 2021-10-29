@@ -12,7 +12,7 @@ output: html_document
 > This is a condensed version of a handout
 >
 > -   [Stats: Examples of a fishbone diagram (March
->     24, 2006)](http://www.childrensmercy.org/stats/weblog2006/FishboneDiagram.html)
+>     24, 2006)](http://www.pmean.com/weblog2006/FishboneDiagram.html)
 >
 > that I have used in previous training classes.
 >

@@ -42,7 +42,7 @@ Means (ANOM). Some preliminary weblog entries about ANOM are
     2007-02-06)](AnomExample.html)
 -   [Stats: Some resources for Analysis of Means (created 2006-06-30,
     updated
-    2007-02-01)](http://www.childrensmercy.org/stats/weblog2006/AnalysisOfMeans.html)
+    2007-02-01)](http://www.pmean.com/weblog2006/AnalysisOfMeans.html)
 
 I want to use some published examples of control charts, and some
 possible journal articles that I might want to review include

@@ -73,15 +73,15 @@ output: html_document
 > -   [Stats: More lessons learned the hard way (January
 >     31, 2006)](LessonsLearned.html)
 > -   [Stats: Hard learned lessons (November
->     25, 2005)](http://www.childrensmercy.org/stats/weblog2005/HardLessons.asp)
+>     25, 2005)](http://www.pmean.com/weblog2005/HardLessons.asp)
 > -   [Stats: Non-destructive data editing (November
->     2, 2005)](http://www.childrensmercy.org/stats/weblog2005/NondestructiveEditing.asp)
+>     2, 2005)](http://www.pmean.com/weblog2005/NondestructiveEditing.asp)
 > -   [Stats: Another disaster averted (August
->     16, 2005)](http://www.childrensmercy.org/stats/weblog2005/DisasterAvertedA.asp)
+>     16, 2005)](http://www.pmean.com/weblog2005/DisasterAvertedA.asp)
 > -   [Stats: Merging in R (July
->     26, 2005)](http://www.childrensmercy.org/stats/weblog2005/MergingInR.asp)
+>     26, 2005)](http://www.pmean.com/weblog2005/MergingInR.asp)
 > -   [Stats: Coding race/ethnicity (February
->     3, 2003)](http://www.childrensmercy.org/stats/weblog2005/RaceEthnicity.asp)
+>     3, 2003)](http://www.pmean.com/weblog2005/RaceEthnicity.asp)
 > -   [Stats: Date calculations in SPSS](../data/dates.asp)
 > -   [Stats: Documenting your SPSS data sets](../data/document.asp)
 > -   [Stats: General guide to data entry](../data/entry.asp)

@@ -81,6 +81,6 @@ Closely related web pages:
 -   [Stats: Designing a pilot study](../plan/pilot.asp)
 -   [Stats: Getting IRB approval for your research](../plan/irb.asp)
 -   [Stats: Design and analysis of pilot studies (September
-    17, 2004)](http://www.childrensmercy.org/stats/weblog2004/PilotStudy.asp)
+    17, 2004)](http://www.pmean.com/weblog2004/PilotStudy.asp)
 -   [Stats: IRBs and scientific validity (August
-    12, 2005)](http://www.childrensmercy.org/stats/weblog2005/ScientificValidity.asp)
+    12, 2005)](http://www.pmean.com/weblog2005/ScientificValidity.asp)

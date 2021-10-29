@@ -38,9 +38,9 @@ output: html_document
 > **Previous weblog entries on this topic:**
 >
 > -   [Stats: Hard learned lessons (November
->     25, 2005)](http://www.childrensmercy.org/stats/weblog2005/HardLessons.asp)
+>     25, 2005)](http://www.pmean.com/weblog2005/HardLessons.asp)
 > -   [Stats: Non-destructive data editing (November
->     2, 2005)](http://www.childrensmercy.org/stats/weblog2005/NondestructiveEditing.asp)
+>     2, 2005)](http://www.pmean.com/weblog2005/NondestructiveEditing.asp)
 
 [![Creative Commons
 License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)

@@ -34,9 +34,9 @@ My pages on Information Theory are at:
 -   [Definition:
     Entropy](www.childrensmercy.org/definitions/entropy.htm)
 -   [More on information theory models (August
-    31, 2004)](http://www.childrensmercy.org/stats/weblog2004/information1.asp)
+    31, 2004)](http://www.pmean.com/weblog2004/information1.asp)
 -   [Information theory models (May
-    11, 2004)](http://www.childrensmercy.org/stats/weblog2004/information.asp)
+    11, 2004)](http://www.pmean.com/weblog2004/information.asp)
 
 but they need to be consolidated and updated.
 

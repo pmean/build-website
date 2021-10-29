@@ -44,7 +44,7 @@ Here is the R code that produced this data and graph.
 
 -   [Stats: Standard deviation versus standard error (May 16, 2005,
     Evidence, Interpreting
-    numbers)](http://www.childrensmercy.org/stats/weblog2005/StandardError.asp)
+    numbers)](http://www.pmean.com/weblog2005/StandardError.asp)
 -   [Definition: Standard
     error](www.childrensmercy.org/definitions/stderr.htm)
 -   [Definition: Standard

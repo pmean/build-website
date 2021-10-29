@@ -25,7 +25,7 @@ It's nice to double check the statistics used in journal articles as
 there are often errors. One memorable one cited in this weblog is
 
 -   [Stats: An error slips through the peer review process (September
-    19, 2005)](http://www.childrensmercy.org/stats/weblog2005/SensitivityError.asp)
+    19, 2005)](http://www.pmean.com/weblog2005/SensitivityError.asp)
 
 The problem, unfortunately, is the the term "Chi-square test" is used
 in a variety of different contexts, as I allude to in an "Ask Professor

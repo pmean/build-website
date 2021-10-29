@@ -38,7 +38,7 @@ and try again.
 I had commented about this issue in an earlier weblog entry:
 
 -   [Testing for side effects (December
-    29, 2004)](http://www.childrensmercy.org/stats/weblog2004/SideEffects.asp)
+    29, 2004)](http://www.pmean.com/weblog2004/SideEffects.asp)
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

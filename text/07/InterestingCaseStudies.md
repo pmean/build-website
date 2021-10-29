@@ -25,7 +25,7 @@ long as you acknowledge the source. I regularly quote abstracts from
 these journals on my web pages and use them in my training classes. You
 can find several examples in the Practice Exercises at
 
-<http://www.childrensmercy.org/stats/training/hand21.asp>
+<http://www.pmean.com/training/hand21.asp>
 
 I also relied heavily on BMC journals for my book. Almost all of my \"On
 Your Own\" exercises come from BMC journals.

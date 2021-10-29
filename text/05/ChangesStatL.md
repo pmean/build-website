@@ -15,7 +15,7 @@ Walsh. You can find the FAQ at either
 
 -   [www-personal.umich.edu/\~dronis/statfaq.htm](http://www-personal.umich.edu/~dronis/statfaq.htm)
     or
--   [www.childrensmercy.org/stats/faq.asp](http://www.childrensmercy.org/stats/faq.asp)
+-   [www.pmean.com/faq.asp](http://www.pmean.com/faq.asp)
 
 The STAT-L email discussion group was linked to the USENET group,
 sci.stat.consult, but about ten years ago, this link broke and no one

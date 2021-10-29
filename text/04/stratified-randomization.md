@@ -24,7 +24,7 @@ randomization and similar methods at
 [www.consort-statement.org/table38b.htm](http://www.consort-statement.org/table38b.htm).
 If you ever have to create a randomization table yourself, I have a nice
 tutorial on the web at
-[www.childrensmercy.org/stats/plan/random.asp](../99/random.asp).
+[www.pmean.com/plan/random.asp](../99/random.asp).
 
 **Understanding controlled trials: Baseline imbalance in randomised
 controlled trials.** Roberts C, Torgerson DJ. BMJ 1999: 319(7203); 185-.

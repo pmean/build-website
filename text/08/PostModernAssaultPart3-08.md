@@ -36,10 +36,10 @@ I\'m hoping to get some feedback that will help me write a better
 article. Previous weblog entries on this topic are
 
 -   [Stats: The post-modern assault on evidence-based medicine (December
-    7, 2007)](http://www.childrensmercy.org/stats/weblog2007/PostModernAssault.html)
+    7, 2007)](http://www.pmean.com/weblog2007/PostModernAssault.html)
 -   [Stats: The post-modern assault on evidence-based medicine, part 2
     (December
-    18, 2007)](http://www.childrensmercy.org/stats/weblog2007/PostModernAssaultPart2.html)
+    18, 2007)](http://www.pmean.com/weblog2007/PostModernAssaultPart2.html)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

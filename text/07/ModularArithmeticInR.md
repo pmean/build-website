@@ -56,4 +56,4 @@ value. Thus
 **Related web pages:**
 
 -   [Stats: Rules for rounding numbers (September
-    7, 2006)](http://www.childrensmercy.org/stats/weblog2006/RoundingNumbers.asp)
+    7, 2006)](http://www.pmean.com/weblog2006/RoundingNumbers.asp)

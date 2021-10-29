@@ -33,9 +33,9 @@ them against some well known examples when I have time.
 **Further reading:**
 
 -   [Stats: Controversy over stopping a study early (November
-    24, 2004)](http://www.childrensmercy.org/stats/weblog2004/EarlyStoppingControversy.html)
+    24, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingControversy.html)
 -   [Stats: Early stopping in an animal experiment (July
-    1, 2004)](http://www.childrensmercy.org/stats/weblog2004/EarlyStoppingAnimal.html)
+    1, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingAnimal.html)
 -   [Stats: Early Stopping Bibliography (July
     1, 2004)](../library/EarlyStopping1.asp)
 -   [Stats: Interim analysis](../plan/interim.asp)

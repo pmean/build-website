@@ -83,7 +83,7 @@ us, especially when we really on [anecdotal
 evidence](http://en.wikipedia.org/wiki/Anecdotal_evidence). I touch on
 this briefly in my speech, [Is the randomized trial the gold standard
 for
-research?](http://www.childrensmercy.org/stats/weblog2004/GoldStandard.asp).
+research?](http://www.pmean.com/weblog2004/GoldStandard.asp).
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

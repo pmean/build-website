@@ -114,15 +114,15 @@ trials, only 70 of the 150 guesses were correct (47%, 95% CI 37% to
 
 -   [Stats: What alternative medicine can teach us about evidence-based
     medicine (August
-    23, 2005)](http://www.childrensmercy.org/stats/weblog2005/AlternativeMedicine.asp)
+    23, 2005)](http://www.pmean.com/weblog2005/AlternativeMedicine.asp)
 -   [Stats: Ten research studies that anyone teaching EBM should be
     familiar with (January
-    17, 2005)](http://www.childrensmercy.org/stats/weblog2005/TenStudies.asp)
+    17, 2005)](http://www.pmean.com/weblog2005/TenStudies.asp)
 -   [Stats: Is the randomized trial the gold standard for research?
     (September 23, 2004, Evidence, Internal
-    validity)](http://www.childrensmercy.org/stats/weblog2004/GoldStandard.asp)
+    validity)](http://www.pmean.com/weblog2004/GoldStandard.asp)
 -   [Stats: Criticisms of randomized clinical trials (April
-    7, 2004)](http://www.childrensmercy.org/stats/weblog2004/criticisms.asp)
+    7, 2004)](http://www.pmean.com/weblog2004/criticisms.asp)
 -   [Seminar \#61: Controversies in Randomized
     Trials](../training/hand61.asp)
 -   [Seminar \#65: Is the Randomized Trial the Gold Standard for

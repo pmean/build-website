@@ -70,7 +70,7 @@ others to the full text, and still others to a page telling you how you
 can buy this article. Also,
 [PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi) does not yet
 include the DOI in its database. Actually, you can find it in the
-[XML](http://www.childrensmercy.org/stats/weblog2004/xml.asp) view of
+[XML](http://www.pmean.com/weblog2004/xml.asp) view of
 the PubMed citation, but it is buried deep and is not easily accessible.
 
 I have not started using DOIs on the links on my web pages, but will do

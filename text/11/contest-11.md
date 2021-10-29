@@ -19,7 +19,7 @@ My submission is still an early draft, but you can look at it at
 --> http://www.inside-r.org/howto/predict-duration-your-clinical-trial
 
 The R code was originally published at
--->http://www.childrensmercy.org/stats/08/ExponentialAccrual.aspx
+-->http://www.pmean.com/08/ExponentialAccrual.aspx
 
 but I have tweaked it a bit here.
 

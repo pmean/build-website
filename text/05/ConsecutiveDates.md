@@ -43,7 +43,7 @@ another page that talks about this:
 and version 13 of SPSS has a very useful date and time wizard:
 
 -   [Stats: New in SPSS version 13.0 (December
-    7, 2004)](http://www.childrensmercy.org/stats/weblog2004/SPSSversion13.asp)
+    7, 2004)](http://www.pmean.com/weblog2004/SPSSversion13.asp)
 
 but the best resource for these types of things is on Raynald
 Levesque\'s web site:

@@ -22,7 +22,7 @@ this.
 **Related web pages:**
 
 -   [Stats: Vote for me (December 21, 2005,
-    General)](http://www.childrensmercy.org/stats/weblog2005/VoteForMe.asp)
+    General)](http://www.pmean.com/weblog2005/VoteForMe.asp)
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

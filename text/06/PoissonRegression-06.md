@@ -47,7 +47,7 @@ pages.
 -   [Definition: Poisson
     distribution](www.childrensmercy.org/definitions/poisson.htm)
 -   [Stats: Sample size for an ordinal outcome (September
-    22, 2004)](http://www.childrensmercy.org/stats/weblog2004/OrdinalLogistic.asp)
+    22, 2004)](http://www.pmean.com/weblog2004/OrdinalLogistic.asp)
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

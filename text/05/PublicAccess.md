@@ -24,7 +24,7 @@ still making available a comprehensive archive of NIH-funded research
 for health care providers, educators, and the public.
 
 I\'ve written about [journals that make the full free text available on
-the web](http://www.childrensmercy.org/stats/weblog2004/FullText.asp),
+the web](http://www.pmean.com/weblog2004/FullText.asp),
 which makes my job as a web author so much easier. This NIH policy will
 also help me find and include good relevant teaching example of real
 research.

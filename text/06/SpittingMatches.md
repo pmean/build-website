@@ -57,9 +57,9 @@ Here are a couple of relevant pages:
 
 -   [Stats: Clinically trivial effects (April 12, 2004, Evidence,
     Clinical
-    importance)](http://www.childrensmercy.org/stats/weblog2004/ClinicallyTrivial.html)
+    importance)](http://www.pmean.com/weblog2004/ClinicallyTrivial.html)
 -   [Stats: Clinical importance (March 11, 2005, Evidence, Clinical
-    importance)](http://www.childrensmercy.org/stats/weblog2005/ClinicalImportance.html)
+    importance)](http://www.pmean.com/weblog2005/ClinicalImportance.html)
 
 Another important issue is the use of leading questions in a survey to
 produce a desired outcome. Dr. Kritzer asks

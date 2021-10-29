@@ -39,6 +39,6 @@ You can find an [earlier version][sim1] of this page on my [original website][si
 [sim2]: http://www.pmean.com/original_site.html 
 
 [sim3]: http://www.pmean.com/category/EarlyStopping.html
-[sim4]: http://www.childrensmercy.org/stats/weblog2005/GroupSequential.aspx
+[sim4]: http://www.pmean.com/weblog2005/GroupSequential.aspx
 
 [cra1]: http://cran.r-project.org/

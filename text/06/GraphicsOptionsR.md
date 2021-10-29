@@ -85,10 +85,10 @@ use one or more trailing zeros with `%02d` (01, 02, 03, etc.) or `%03d`
 
 -   [Stats: Colors for R graphs (June 28, 2006)](ColorsForR.html)
 -   [Stats: Object oriented features of R (December
-    19, 2005)](http://www.childrensmercy.org/stats/weblog2005/ObjectOrientedR.asp)
+    19, 2005)](http://www.pmean.com/weblog2005/ObjectOrientedR.asp)
 -   [Stats: Two nice R libraries (October 14, 2005, Model,
-    Software)](http://www.childrensmercy.org/stats/weblog2005/LibrariesR.asp)
+    Software)](http://www.pmean.com/weblog2005/LibrariesR.asp)
 -   [Stats: A simple trick in R (October 11, 2005, Model,
-    Software)](http://www.childrensmercy.org/stats/weblog2005/TrickR.asp)
+    Software)](http://www.pmean.com/weblog2005/TrickR.asp)
 -   [Stats: Dates in Excel and R (August 10, 2005, Model,
-    Software)](http://www.childrensmercy.org/stats/weblog2005/DatesInR.asp)
+    Software)](http://www.pmean.com/weblog2005/DatesInR.asp)

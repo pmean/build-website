@@ -15,14 +15,14 @@ output: html_document
 > among various categories.
 >
 > -   [Stats: Report cards (August
->     27, 2004)](http://www.childrensmercy.org/stats/weblog2004/ReportCards.asp)
+>     27, 2004)](http://www.pmean.com/weblog2004/ReportCards.asp)
 > -   [Stats: Report cards (February
->     16, 2005)](http://www.childrensmercy.org/stats/weblog2005/ReportCards.asp)
+>     16, 2005)](http://www.pmean.com/weblog2005/ReportCards.asp)
 > -   [Stats: Using APR-DRGs for risk adjustment (May
->     24, 2006)](http://www.childrensmercy.org/stats/weblog2006/APRDRGs.asp)
+>     24, 2006)](http://www.pmean.com/weblog2006/APRDRGs.asp)
 > -   [Stats: Resources for the use of Statistical Process Control in
 >     Healthcare (September
->     15, 2006)](http://www.childrensmercy.org/stats/weblog2006/SpcHealthcare.html)
+>     15, 2006)](http://www.pmean.com/weblog2006/SpcHealthcare.html)
 > -   [Stats: When is a control chart not a control chart? (February
 >     6, 2007)](AnomExample.html)
 > -   [Stats: What I\'m working on right now (March

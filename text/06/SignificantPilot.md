@@ -68,13 +68,13 @@ additional 15 patients in each arm.
     5, 2006)](http://StoppingRules.asp)
 -   [Stats: Group Sequential Monitoring of Clinical Trials in R
     (December
-    13, 2005)](http://www.childrensmercy.org/stats/weblog2005/GroupSequential.html)
+    13, 2005)](http://www.pmean.com/weblog2005/GroupSequential.html)
 -   [Stats: When can I stop my CQI study? (June
-    6, 2005)](http://www.childrensmercy.org/stats/weblog2005/StopStudy.html)
+    6, 2005)](http://www.pmean.com/weblog2005/StopStudy.html)
 -   [Stats: Controversy over stopping a study early (November
-    24, 2004)](http://www.childrensmercy.org/stats/weblog2004/EarlyStoppingControversy.html)
+    24, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingControversy.html)
 -   [Stats: Early stopping in an animal experiment (July
-    1, 2004)](http://www.childrensmercy.org/stats/weblog2004/EarlyStoppingAnimal.html)
+    1, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingAnimal.html)
 -   [Stats: Protocol changes (No date)](../ask/protocol.asp)
 -   [Stats: Interim analysis (No date)](../plan/interim.asp)
 

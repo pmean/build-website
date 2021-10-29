@@ -86,11 +86,11 @@ output: html_document
 > **Previous weblog entries on this topic:**
 >
 > -   [Stats: More on discovering gene information (October
->     12, 2005)](http://www.childrensmercy.org/stats/weblog2005/FindingGenesB.asp)
+>     12, 2005)](http://www.pmean.com/weblog2005/FindingGenesB.asp)
 > -   [Stats: Naming conventions for genes, proteins, etc. (September
->     8, 2005)](http://www.childrensmercy.org/stats/weblog2005/NamingGenes.asp)
+>     8, 2005)](http://www.pmean.com/weblog2005/NamingGenes.asp)
 > -   [Stats: Finding more information about a gene (September
->     6, 2005)](http://www.childrensmercy.org/stats/weblog2005/FindingGenes.asp)
+>     6, 2005)](http://www.pmean.com/weblog2005/FindingGenes.asp)
 
 [![Creative Commons
 License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)

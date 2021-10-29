@@ -123,7 +123,7 @@ the longer the patient is under study.
 **Previous weblog entries on this topic:**
 
 -   [Stats: Reporting of adverse events (August 5, 2005,
-    General)](http://www.childrensmercy.org/stats/weblog2005/AdverseEvents.asp)
+    General)](http://www.pmean.com/weblog2005/AdverseEvents.asp)
 
 **Further reading**
 

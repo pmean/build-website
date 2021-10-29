@@ -133,7 +133,7 @@ American Statistical Association.
 > **Related Activities**
 >
 > I am the author of StATS (Steve\'s Attempt to Teach Statistics), a web
-> page at www.childrensmercy.org/stats which provides information on a
+> page at www.pmean.com which provides information on a
 > wide range of statistical topics.
 >
 > In 1997, my presentation \"Medical Statistics Case Studies on the

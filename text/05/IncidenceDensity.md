@@ -45,10 +45,10 @@ only of academic importance.
 
 I have a few web pages that discuss some of the technical issues if you
 are curious. The [December 15, 2004 weblog entry on Neyman
-bias](http://www.childrensmercy.org/stats/weblog2004/NeymanBias.asp)
+bias](http://www.pmean.com/weblog2004/NeymanBias.asp)
 draws a careful distinction between incidence and prevalence. I also
 have [September 15, 2004 weblog entry on rates versus
-proportions](http://www.childrensmercy.org/stats/weblog2004/Rates.html).
+proportions](http://www.pmean.com/weblog2004/Rates.html).
 Certain statistical models, such as a Poisson regression model will also
 produce incidence density ratios. I have to write up a web page about
 this model when I have time. It is on my list of unfinished business

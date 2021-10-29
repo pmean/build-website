@@ -15,11 +15,11 @@ findings (March 14, 2005)**
 I have talked extensively about publication bias in my weblog
 
 -   [A serious problem of publication bias (April
-    9, 2004)](http://www.childrensmercy.org/stats/weblog2004/PublicationBias.asp)
+    9, 2004)](http://www.pmean.com/weblog2004/PublicationBias.asp)
 -   [Publication bias (June
-    25, 2004)](http://www.childrensmercy.org/stats/weblog2004/PublicationBias2.asp)
+    25, 2004)](http://www.pmean.com/weblog2004/PublicationBias2.asp)
 -   [Publication Bias
-    references](http://www.childrensmercy.org/stats/weblog2004/PublicationBias1.asp)
+    references](http://www.pmean.com/weblog2004/PublicationBias1.asp)
 
 and address this issue in detail on [my book on Statistical
 Evidence](../evidence.asp) which I hope to finish sometime soon.

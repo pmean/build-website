@@ -22,7 +22,7 @@ to display paragraphs in a readable fashion. But I am finding that
 certain things cause problems. If you list the explicit URL as part of
 a webpage, this can often cause an awkward line break. Here is an
 example. If I list the main page for my website in the middle of a
-paragraph (<http://www.childrensmercy.org/stats/>), it might look
+paragraph (<http://www.pmean.com>), it might look
 okay, but it might be long enough to cause an odd page break.
 
 I try to avoid these problems by stripping the redundant http://, by

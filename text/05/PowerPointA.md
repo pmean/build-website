@@ -14,11 +14,11 @@ output: html_document
 I am a rather harsh critic of PowerPoint,
 
 -   [Bluejacket Toastmasters Speech (July
-    15, 2004)](http://www.childrensmercy.org/stats/weblog2004/powerpoint1.asp)
+    15, 2004)](http://www.pmean.com/weblog2004/powerpoint1.asp)
 -   [I hate PowerPoint talk (July
-    1, 2004)](http://www.childrensmercy.org/stats/weblog2004/powerpoint2.asp)
+    1, 2004)](http://www.pmean.com/weblog2004/powerpoint2.asp)
 -   [I hate PowerPoint (May
-    19, 2004)](http://www.childrensmercy.org/stats/weblog2004/powerpoint.asp)
+    19, 2004)](http://www.pmean.com/weblog2004/powerpoint.asp)
 
 and include this brief disclaimer
 

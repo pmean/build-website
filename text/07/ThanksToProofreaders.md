@@ -27,5 +27,5 @@ output: html_document
 >
 > If you happen to find any errors, or want to comment on anything about
 > my webpages
-> ([compliments](http://www.childrensmercy.org/stats/weblog2004/compliments.html)
+> ([compliments](http://www.pmean.com/weblog2004/compliments.html)
 > are also appreciated), send me an email at ssimon (at) cmh (dot) edu.

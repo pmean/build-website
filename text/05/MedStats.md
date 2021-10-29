@@ -30,7 +30,7 @@ Information about Yahoo! Groups is at
 
 As part of the FAQ for STAT-L/sci.stat.consult, I listed other
 listserv/usenet groups related to statistics.
-<http://www.childrensmercy.org/stats/faq/faq02.asp>.
+<http://www.pmean.com/faq/faq02.asp>.
 
 There is also a mailing list for Bioconductor. Details on how to
 subscribe are at <https://stat.ethz.ch/mailman/listinfo/bioconductor>

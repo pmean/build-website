@@ -18,4 +18,4 @@ output: html_document
 > I have a web page that discusses many of these same issues:
 >
 > -   [Stats: Step-down procedures for multiple
->     comparisons](http://www.childrensmercy.org/stats/weblog2005/MultipleComparisons.asp)
+>     comparisons](http://www.pmean.com/weblog2005/MultipleComparisons.asp)

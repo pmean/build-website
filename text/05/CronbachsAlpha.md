@@ -20,7 +20,7 @@ Cronbach\'s alpha increased to 0.74.
 **Further reading:**
 
 -   [Stats: What\'s a good value for Cronbach\'s Alpha? (September
-    9, 2004)](http://www.childrensmercy.org/stats/weblog2004/CronbachAlpha.asp)
+    9, 2004)](http://www.pmean.com/weblog2004/CronbachAlpha.asp)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

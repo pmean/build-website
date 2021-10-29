@@ -82,7 +82,7 @@ Evidence](../evidence.asp), talks about [Corroborating
 Evidence](../journal/book06.htm). This chapter mentions strength of
 association, among other factors that can influence the quality of
 evidence in research. I also have a weblog entry on [side
-effects](http://www.childrensmercy.org/stats/weblog2004/SideEffects.asp)
+effects](http://www.pmean.com/weblog2004/SideEffects.asp)
 which mentions Vioxx and other COX-2 inhibitors.
 
 I sent an email along the same lines as this weblog entry to Dr. Carroll

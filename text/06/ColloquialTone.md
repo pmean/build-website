@@ -94,7 +94,7 @@ models to see if they produce reasonable results.
 -   [Stats: Reporting serious adverse events (updated February
     3, 2006)](AdverseEvents.html)
 -   [Stats: Control charts for monitoring mortality rates (February
-    11, 2005)](http://www.childrensmercy.org/stats/weblog2005/ControlCharts.html)
+    11, 2005)](http://www.pmean.com/weblog2005/ControlCharts.html)
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

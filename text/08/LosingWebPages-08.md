@@ -15,7 +15,7 @@ output: html_document
 > was
 >
 > -   [Stats: Frank Harrell\'s Philosophy of Biostatistics (October
->     10, 2006)](http://www.childrensmercy.org/stats/weblog2006/HarrellPhilosophy.html)
+>     10, 2006)](http://www.pmean.com/weblog2006/HarrellPhilosophy.html)
 >
 > which never got assigned a category. I\'ve fixed that and hope that
 > there aren\'t any other webpages like that.

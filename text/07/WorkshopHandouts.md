@@ -60,7 +60,7 @@ to discuss this in some detail and point out that some of the best ideas
 for innovation come from unexpected areas.
 
 -   [Stats: A plea for open mindedness (November
-    2, 2006)](http://www.childrensmercy.org/stats/weblog2006/OpenMindedness.asp)
+    2, 2006)](http://www.pmean.com/weblog2006/OpenMindedness.asp)
 
 Then I will introduce some brief definitions
 
@@ -101,7 +101,7 @@ If there is time, I want to present a Fishbone diagram and let people
 develop their own Fishbone diagrams.
 
 -   [Stats: Examples of a fishbone diagram (March
-    24, 2006)](http://www.childrensmercy.org/stats/weblog2006/FishboneDiagram.asp)
+    24, 2006)](http://www.pmean.com/weblog2006/FishboneDiagram.asp)
 
 During one of the breaks, I will offer to review how to do some simple
 statistical calculations using a pocket calculator.

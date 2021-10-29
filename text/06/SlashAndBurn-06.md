@@ -137,13 +137,13 @@ by some.
     regression?](../faq/faq12.asp)
 -   [Stats: Stepwise regression to screen for covariates (November 25,
     2005, Model, Linear
-    regression)](http://www.childrensmercy.org/stats/weblog2005/StepwiseRegression.asp)
+    regression)](http://www.pmean.com/weblog2005/StepwiseRegression.asp)
 -   [Stats: What is the best statistical model? (September 17, 2004,
     Model, Logistic
-    regression)](http://www.childrensmercy.org/stats/weblog2004/BestModel.html)
+    regression)](http://www.pmean.com/weblog2004/BestModel.html)
 -   [Stats: Interactions in logistic regression (April 8, 2004, Model,
     Logistic
-    regression)](http://www.childrensmercy.org/stats/weblog2004/interactions.asp)
+    regression)](http://www.pmean.com/weblog2004/interactions.asp)
 
 This page was written by Steve Simon while working at Children\'s Mercy
 Hospital. Although I do not hold the copyright for this material, I am

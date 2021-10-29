@@ -119,16 +119,16 @@ weblog:
 -   [Stats: What constitutes a conflict of interest? (May
     4, 2006)](ConflictOfInterest.html)
 -   [Stats: More on conflicts of interest (March
-    23, 2005)](http://www.childrensmercy.org/stats/weblog2005/ConflictInterest.html)
+    23, 2005)](http://www.pmean.com/weblog2005/ConflictInterest.html)
 -   [Stats: Conflict of interest (July
-    20, 2004)](http://www.childrensmercy.org/stats/weblog2004/conflict1.asp)
+    20, 2004)](http://www.pmean.com/weblog2004/conflict1.asp)
 -   [Stats: Conflict of Interest (February
-    25, 2004)](http://www.childrensmercy.org/stats/weblog2004/conflict.asp)
+    25, 2004)](http://www.pmean.com/weblog2004/conflict.asp)
 
 <U+FFFD>Just be careful that you don\'t overreact.
 
 -   [Stats: Taking charges of conflicting interest too far (June
-    4, 2005)](http://www.childrensmercy.org/stats/weblog2005/ConflictInterestA.asp)
+    4, 2005)](http://www.pmean.com/weblog2005/ConflictInterestA.asp)
 
 **Intellectual conflict of interest**
 

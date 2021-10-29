@@ -95,9 +95,9 @@ and how to interpret results from a logistic regression model at
 -   [Stats: The concepts behind the logistic regression
     model](../model/logist_concepts.asp),
 -   [Stats: Interactions in logistic regression (April
-    8, 2004)](http://www.childrensmercy.org/stats/weblog2004/interactions.asp)
+    8, 2004)](http://www.pmean.com/weblog2004/interactions.asp)
 -   [Stats: Categorical variables in a logistic regression model (June
-    1, 2004)](http://www.childrensmercy.org/stats/weblog2004/categorical.asp)
+    1, 2004)](http://www.pmean.com/weblog2004/categorical.asp)
 -   [Stats: Guidelines for logistic regression
     models](../model/logistic.asp), and
 -   [Stats: SPSS dialog boxes for logistic

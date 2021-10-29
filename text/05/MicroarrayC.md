@@ -49,13 +49,13 @@ output: html_document
 > -   **More articles on microarrays (March 10, 2005)**
 > -   **Review articles on microarrays (March 7, 2005)**
 > -   [Surromed and the DecisionSite S-Plus Server Solution (December
->     8, 2004)](http://www.childrensmercy.org/stats/weblog2004/SurromedDecisionSite.asp)
+>     8, 2004)](http://www.pmean.com/weblog2004/SurromedDecisionSite.asp)
 > -   [S+ArrayAnalyzer web seminar (June
->     22, 2004)](http://www.childrensmercy.org/stats/weblog2004/ArrayAnalyzer.asp)
+>     22, 2004)](http://www.pmean.com/weblog2004/ArrayAnalyzer.asp)
 > -   [Acuity microarray analysis software (May
->     6, 2004)](http://www.childrensmercy.org/stats/weblog2004/acuity.asp)
+>     6, 2004)](http://www.pmean.com/weblog2004/acuity.asp)
 > -   [Microarray data analysis (March
->     18, 2004)](http://www.childrensmercy.org/stats/weblog2004/microarray.asp)
+>     18, 2004)](http://www.pmean.com/weblog2004/microarray.asp)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

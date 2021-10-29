@@ -154,7 +154,7 @@ would just randomly shuffle the entire block.
 **Further reading in the StATS pages:**
 
 -   [Stats: Randomization test (July
-    14, 2004)](http://www.childrensmercy.org/stats/weblog2004/randomization.asp)
+    14, 2004)](http://www.pmean.com/weblog2004/randomization.asp)
 
 **Further reading outside:**
 
