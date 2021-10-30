@@ -1,0 +1,60 @@
+---
+title: "Test diagrams"
+author: "Steve Simon"
+source: "New"
+date: "2021-10-30"
+categories:
+- Blog post
+tags:
+- Graphical display
+output: html_document
+---
+
+
+```{r setup, echo=FALSE}
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
+
+```{r, fig.width=5, fig.height=5, echo=FALSE}
+o <- 0.6
+v <- 0.85
+draw_circles <- function() {
+  dx <- 1
+  dy <- 0.866
+  i <- seq(0, 2*pi, length=100)
+  circle <- data.frame(x=sin(i), y=cos(i))
+  circle %>%
+    mutate(g=1) %>%
+    mutate(x=x-o*dx) %>%
+    mutate(y=y+o*dy) -> circle1
+  circle %>%
+    mutate(g=2) %>%
+    mutate(x=x+o*dx) %>%
+    mutate(y=y+o*dy) -> circle2
+  circle %>%
+    mutate(g=3) %>%
+    mutate(y=y-o*dy) -> circle3
+
+  circle1 %>%
+    bind_rows(circle2) %>%
+    bind_rows(circle3) %>%
+    ggplot(aes(x, y, group=g)) + 
+      geom_path(color=rep(c("red", "darkgreen", "blue"), each=100), size=3) +
+      geom_text(x=v*dx, y=v*dy, size=5, label="Math,\nStat", color="darkgreen") +
+      geom_text(x=-v*dx, y=v*dy, size=5, label="Computers,\nCoding", color="red") +
+      geom_text(x=0, y=-v*dy, size=5, label="Science,\nMedicine", color="blue") +
+      expand_limits(x=c(-(dx+1),(dx+1))) +
+      expand_limits(y=c(-(dx+1),(dx+1))) +
+      theme_void()
+}
+o <- 0.6
+v <- 0.85
+draw_circles()
+```
+
+```{r, fig.width=5, fig.height=5, echo=FALSE}
+o <- 0.88
+draw_circles()
+```

@@ -60,8 +60,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '<U+00A0>',
-  ' ',
+  'childrensmercy.org/stats',
+  'pmean.com',
   dir_root="text", 
   file_pattern="md$",
   subdir_list=zpad(c(99, 0:21)))

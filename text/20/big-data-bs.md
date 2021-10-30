@@ -9,7 +9,9 @@ tags:
 output: html_document
 ---
 
-Michelle Nijhuis. How to Call B.S. on Big Data. A Practical Guide. The New Yorker. 2017-06-03. Available in [html format](https://www.newyorker.com/tech/annals-of-technology/how-to-call-bullshit-on-big-data-a-practical-guide).
+Michelle Nijhuis. How to Call B.S. on Big Data. A Practical Guide. The New Yorker. 2017-06-03. Approximately 1,300 words. Available in [html format][nij1]
+
+[nij1]: https://www.newyorker.com/tech/annals-of-technology/how-to-call-bullshit-on-big-data-a-practical-guide
 
 <!---More--->
 
