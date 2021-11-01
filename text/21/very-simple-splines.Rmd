@@ -1,16 +1,19 @@
 ---
-title: "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models"
+title: "Very simple spline models"
 author: "Steve Simon"
-source: "http://blog.pmean.com/machine-learning-vs-logistic-regression/"
-date: "2019-03-15"
+date: "2021-10-29"
 categories:
 - Recommendation
 tags:
-- Data science
-- Logistic regression
-- Systematic overviews
+- Linear regression
 output: html_document
 ---
+
+```{r setup}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(magrittr)))
+```
 
 ### Downward bend
 
@@ -26,42 +29,121 @@ $u_+ = u$ if $u \ge 0$, $= 0$ if $u<0$
 
 Here is some simulated data for testing this function.
 
-```{r, echo=FALSE}
+```{r}
 library(ggplot2)
 x <- 1:20
-y <- c(rep(8, 15), 7:3)+round(rnorm(10), 1)
-d <- data.frame(x, y)
-d
-ggplot(d, aes(x, y)) +
+y <- c(rep(40, 15), 40-(1:5)^2)+round(rnorm(10), 1)
+simulated_example <- data.frame(x, y)
+simulated_example
+ggplot(simulated_example, aes(x, y)) +
   geom_point()
 ```
 
+### Fit a linear spline
+
+I want a function that is flat for the values x = 0 to 15, and that drops linearly for x > 15. I also want to function to be continuous (no abrupt jumps).
+
+To fit this function, you need a special X matrix.
+
+```{r}
+linear_spline_ivs <- data.frame(x0=rep(1, 20), x1=c(rep(0, 15), 1:5))
+linear_spline_ivs
+```
+
+Surprisingly, even though the function you are trying to fit is not a linear function of x, you can still fit it with the lm function, as long as you have the correct independent variable matrix.
+
+```{r}
+simple_spline_data <- 
+  data.frame(
+    x1=linear_spline_ivs$x1, 
+    x=simulated_example$x,
+    y=simulated_example$y)
+linear_spline_model <- lm(y~x1, data=simple_spline_data)
+tidy(linear_spline_model)
+```
+
+To get the plot of predictions for this model and future models accurate, you need to create values between the existing values.
+
+```{r}
+x_extra <- seq(0, 20, length=1000)
+data.frame(
+  x=x_extra,
+  x1=pmax(0, x_extra-15),
+  x1sq=pmax(0, x_extra-15)^2) %>%
+  full_join(simulated_example, by="x") -> enhanced_data
+```
+
+```{r}
+linear_spline_predictions <- augment(linear_spline_model, newdata=enhanced_data)
+ggplot(linear_spline_predictions, aes(x, y)) +
+  geom_point() +
+  geom_line(y=linear_spline_predictions$.fitted)
+```
+
+### Fit a quadratic spline
+
+Suppose you want to fit a function which is flat up to a certain point and then declines quadratically. You could do this with the following model.
+
+```{r}
+simple_spline_data %>%
+  mutate(x1sq=x1*x1) -> quadratic_spline_data
+quadratic_spline_model <- lm(y~x1sq, data=quadratic_spline_data)
+tidy(quadratic_spline_model)
+quadratic_spline_predictions <- augment(quadratic_spline_model, newdata=enhanced_data)
+ggplot(quadratic_spline_predictions, aes(x, y)) +
+  geom_point() +
+  geom_line(y=quadratic_spline_predictions$.fitted)
+```
+
+Notice that the quadratic model is smoother. It does not have a sharp elbow at the transition. Smoothness is often preferred in model fitting, though there are exceptions.
+
+### Fit a cubic spline
+
+Here's a final example of very simple splines. I want to display graphically the transition of probabilities in a study of dog walking. Data was collected  of 
+
+Source: Wallengren O, Bosaeus I, Frändin K, Lissner L, Falk Erhag H, Wetterberg H, Rydberg Sterner T, Rydén L, Rothenberg E, Skoog I. Comparison of the 2010 and 2019 diagnostic criteria for sarcopenia by the European Working Group on Sarcopenia in Older People (EWGSOP) in two cohorts of Swedish older adults. BMC Geriatr. 2021 Oct 26;21(1):600. doi: 10.1186/s12877-021-02533-y. PMID: 34702174; PMCID: PMC8547086. Available in [html format][wal1] or [pdf format][wal2].
+
 ```{r}
 par(mar=rep(0.1,4))
-plot(c(-1,2), 0:1, type="n", axes=FALSE, xlab="", ylab="")
-segments(-1, 0, 2, 0)
-segments(-1, 1, 2, 1)
-segments(-1, 0.6, 0, 0.6)
-segments(-1, 0.9, 0, 0.9)
-segments( 1, 0.4, 2, 0.4)
-segments( 1, 0.8, 2, 0.8)
-segments( 0, 0.35, 1, 0.35)
-segments( 0, 0.95, 1, 0.95)
+plot(c(-1,2), c(0, 216), type="n", axes=FALSE, xlab="", ylab="")
+
+polygon(x=c(-1, 0, 0, -1), y=c(   0,   0,  88,  88), col="pink", border=NA)
+polygon(x=c( 2, 1, 1,  2), y=c(   0,   0, 120, 120), col="pink", border=NA)
+polygon(x=c( 0, 1, 1,  0), y=c(   0,   0,  48,  48), col="pink", border=NA)
+
+polygon(x=c(-1, 0, 0, -1), y=c(216, 216,  88,  88), col="lightgreen", border=NA)
+polygon(x=c( 2, 1, 1,  2), y=c(216, 216, 120, 120), col="lightgreen", border=NA)
+polygon(x=c( 0, 1, 1,  0), y=c(216, 216, 160, 160), col="lightgreen", border=NA)
+
+segments(-1,   0, 2,   0)
+segments(-1, 216, 2, 216)
+
+segments(-1,  88, 0,  88)
+segments( 1, 120, 2, 120)
+
+segments(-0.5,  48, 0,  48, lty="dotted")
+segments(-0.5, 160, 0, 160, lty="dotted")
+segments( 1.5,  48, 1,  48, lty="dotted")
+segments( 1.5, 160, 1, 160, lty="dotted")
+
 x <-seq(0,1, length=100)
 y <- 3*x^2-2*x^3
-lines(x, 0.35+0.05*y)
-lines(x, 0.5+0.05*y)
-lines(x, 0.5+0.3*y)
-lines(x, 0.6+0.3*y)
-lines(x, 0.6-0.25*y)
-lines(x, 0.65-0.25*y)
-lines(x, 0.65-0.1*y)
-lines(x, 0.85-0.15*y)
-lines(x, 0.85+0.05*y)
-lines(x, 0.9-0.15*y)
-lines(x, 0.9+0.05*y)
-lines(x, 0.9-0.15*y)
-lines(x, 0.95-0.15*y)
+
+for (i in 1:length(x)) {
+  segments(x[i], 160-40*y[i], x[i], 88-40*y[i], col=rgb(floor(colorRamp(c("lightgreen", "pink"))(x[i]))/255), lwd=3)
+}
+
+lines(x,  88 -  40*y)
+lines(x, 160 -  40*y)
+lines(x, 160 +   0*y)
+
+for (i in 1:length(x)) {
+  segments(x[i], 48+72*y[i], x[i], 88+72*y[i], col=rgb(floor(colorRamp(c("pink", "lightgreen"))(x[i]))/255), lwd=3)
+}
+
+lines(x,  48 +   0*y)
+lines(x,  48 +  72*y)
+lines(x,  88 +  72*y)
 ```
 
 ```{r}
@@ -75,3 +157,6 @@ Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A revie
 
 [per1]: https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0666-3
 [per2]: https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0666-3.pdf
+
+[wal1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8547086/
+[wal2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8547086/pdf/12877_2021_Article_2533.pdf
