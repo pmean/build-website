@@ -99,9 +99,68 @@ Notice that the quadratic model is smoother. It does not have a sharp elbow at t
 
 ### Fit a cubic spline
 
-Here's a final example of very simple splines. I want to display graphically the transition of probabilities in a study of dog walking. Data was collected  of 
+Here's a final example of very simple splines. There is a "magic" cubic polynomial, $3x^2-2x^3$. It rises smoothly from 0 at x=0, to 1 at x=1. It is flat (zero first derivative) at x=0 and x=1. This is what the function looks like.
+
+```{r}
+x <- seq(0, 1, length=100)
+y <- 3*x^2-2*x^3
+data.frame(x=x, y=y) %>%
+  ggplot(aes(x, y)) +
+    geom_line()
+```
+
+You can add a constant and/or multiply by a constant to get different starting and ending points. So, for example,
+
+$0.75 - 0.5(3x^2-2x^3)$
+
+will start at 0.75 and drop 0.5 units to end at 0.25.
+
+```{r}
+x <- seq(0, 1, length=100)
+y <- 3*x^2-2*x^3
+data.frame(x=x, y=y) %>%
+  mutate(y=0.75-0.5*y) %>%
+  ggplot(aes(x, y)) +
+    geom_line() + 
+    expand_limits(y=0:1)
+```
+
+I will use this function to show transition probabilities in a graph.
+
+In a study of dog walking. Data was collected before and during the COVID pandemic. A "dog walker" was classified as someone who spent 150 minutes or more per week walking their dog. Did the proportion of dog walkers increase or decrease during the pandemic?
 
 Source: Wallengren O, Bosaeus I, Frändin K, Lissner L, Falk Erhag H, Wetterberg H, Rydberg Sterner T, Rydén L, Rothenberg E, Skoog I. Comparison of the 2010 and 2019 diagnostic criteria for sarcopenia by the European Working Group on Sarcopenia in Older People (EWGSOP) in two cohorts of Swedish older adults. BMC Geriatr. 2021 Oct 26;21(1):600. doi: 10.1186/s12877-021-02533-y. PMID: 34702174; PMCID: PMC8547086. Available in [html format][wal1] or [pdf format][wal2].
+
+Here's the data.
+
+```{}
+                  During
+                  Pandemic
+Before
+Pandemic    Dog walker Non-walker   Total
+
+Dog walker      56         72        128  
+Non-walker      40         48         96
+
+Total           96        120        216
+```
+
+Let's convert these to cell percentages.
+
+```{}
+                  During
+                  Pandemic
+Before
+Pandemic    Dog walker Non-walker   Total
+
+Dog walker      26%        33%        59%  
+Non-walker      19%        22%        41%
+
+Total           45%        55%       100%
+```
+
+
+Vucinic M, Vucicevic M, Nenadovicć K. THE COVID-19 PANDEMIC AFFECTS OWNERS WALKING WITH THEIR DOGS. J Vet Behav. 2021 Oct 20. doi: 10.1016/j.jveb.2021.10.009. Epub ahead of print. PMID: 34690614; PMCID: PMC8527592. Avialble in [html format][vuc1] or [pdf format][vuc2].
 
 ```{r}
 par(mar=rep(0.1,4))
@@ -144,13 +203,26 @@ for (i in 1:length(x)) {
 lines(x,  48 +   0*y)
 lines(x,  48 +  72*y)
 lines(x,  88 +  72*y)
+
+text(-0.95, 49, "No dog walking", srt=90)
+text(-0.95, 157, "Dog walking", srt=90)
+text(-0.5, 210, "Before pandemic")
+text( 1.5, 210, "During pandemic")
+text(-0.7, 48, "41%")
+text(-0.2, 24, "22%")
+text(-0.2, 68, "19%")
+text( 1.2, 24, "22%")
+text( 1.2, 84, "33%")
+text( 1.7, 48, "55%")
+text(-0.7,160, "59%")
+text(-0.2,188, "26%")
+text(-0.2,124, "33%")
+text( 1.2,188, "26%")
+text( 1.2,140, "19%")
+text( 1.7,160, "45%")
 ```
 
-```{r}
-x <- seq(0,1, length=100)
-y <- 3*x^2-2*x^3
-plot(x, y)
-```
+Notice how the 19% slides smoothly upward and the 33% slides smoothly downward. So you can see that while some people took up dog walking during the pandemic, this was more than offset by the number who dropped dog walking during the pandemic.
 
 Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A review of spline function procedures in R. BMC Medical Research Methodology, 2019-03-06, 19(46). Available in [html format][per1] or [pdf format][per2].
 
@@ -158,5 +230,5 @@ Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A revie
 [per1]: https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0666-3
 [per2]: https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0666-3.pdf
 
-[wal1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8547086/
-[wal2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8547086/pdf/12877_2021_Article_2533.pdf
+[vuc1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8527592/
+[vuc2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8527592/pdf/main.pdf
