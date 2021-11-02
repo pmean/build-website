@@ -10,17 +10,19 @@ tags:
 output: html_document
 ---
 
-A nice overview of the problems with shoddy research in genetics
-testing. It highlights the work of "forensic statistics" of Keith
-Baggerly and Kevin Coombes.
+![Figure 1. First page of newspaper article](http://www.pmean.com/new-images/17/cancer-testing01.png)
 
-<!---More--->
+<div class="notes">
+
+A nice overview of the problems with shoddy research in genetics testing. It highlights the work of "forensic statistics" of Keith Baggerly and Kevin Coombes.
 
 Gina Kolata. How Bright Promise in Cancer Testing Fell Apart. The New
-York Times, July 7, 2011. Available at
-<http://www.nytimes.com/2011/07/08/health/research/08genes.html>.
+York Times, 2011-07-07. Available in [html format][kol1]. Approximately 1,200 words.
 
-![](http://www.pmean.com/new-images/17/cancer-testing01.png)
+[kol1]: http://www.nytimes.com/2011/07/08/health/research/08genes.html
+
+</div>
+
 
 
 

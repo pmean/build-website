@@ -10,6 +10,10 @@ tags:
 output: html_document
 ---
 
+![Figure 1. First page of newpaper article](http://www.pmean.com/new-images/17/explain-ai01.png)
+
+<div class="notes">
+
 This is a nice article in the popular press that talks about some of the
 problems with "black box" models (in particular deep neural nets) used
 extensively in many big data projects. It is a bit shy on technical
@@ -18,10 +22,9 @@ Even so, the stories are quite intriguing. This is a wake up call for
 those people who fail to recognize the serious problems with many big
 data models.
 
-<!---More--->
-
 Cliff Kuang. Can A.I. Be Taught to Explain Itself. The New York Times
-Magazine. November 26, 2017. Available at
-<https://www.nytimes.com/2017/11/21/magazine/can-ai-be-taught-to-explain-itself.html>.
+Magazine. November 26, 2017. Available in [html format][kua1]. Approximately 5,000 words.
 
-![](http://www.pmean.com/new-images/17/explain-ai01.png)
+[kua1]: https://www.nytimes.com/2017/11/21/magazine/can-ai-be-taught-to-explain-itself.html
+
+</div>
