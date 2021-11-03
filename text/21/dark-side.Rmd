@@ -31,13 +31,42 @@ Let me introduce myself. I am Steve Simon. I got a PhD in Statistics almost 40 y
 
 ![Figure 1. Section on computer skills from my resume](http://www.pmean.com/new-images/21/dark-side-03.png)
 
+<div class="notes">
+
+I should add that I am a bit of a computer geek. Here's a list of computer skills that I put on my resume. I deliberately made this too small to read so that you wouldn't recognize that half of the computer skills I mention have been obsolete for several deades. The computers I used in the 1970s were nothing like today's computers.
+
+</div>
+
+### Worked with health care applications since 1987
+
++ Recent positions
+  + Centers for Disease Control and Prevention (1987-1996)
+  + Children's Mercy Hospital (1996-2008)
+  + UMKC School of Medicine (2008 to present)
++ But...
+  + I am not a doctor
+  + Still confused about many things
+    + Example: Difference between good and bad cholesterol.
+  
+<div class="notes">
+
+I've also been working with a variety of health care professionals for many decades. I have learned a lot along the way, but I am not a doctor. Not an MD doctor anyway. When I talk about medical examples, keep that in mind. I don't always describe things accurately from a mdedical perspective, and I'm always forgetting which one is the bad cholesterol.
+
+Is it ldl or hdl? Does anyone know?
+
+</div>
+
 ### First poll question
 
 ![Figure 2. Quote from "Peggy Sue Got Married"](http://www.pmean.com/new-images/21/dark-side-01.png)
 
 <div class="notes">
 
-Think about your high school algebra class.
+I want to get a quick feel for your background and interests. Here's a quote from a romantic comedy starring Kathleen Turner from 1986. A forty year old woman, played by Kathleen Turner, travels back in time to her high school senior year, 1960. She has an amusing interchange with her high school math teacher.
+
+"I happend to know that in the future, I will not have the slightest use for algebra, and I speak from experience."
+
+Think back to your high school algebra class.
 
 1. Do you remember any important formulas from that class?
 
@@ -164,23 +193,27 @@ https://www.youtube.com/watch?v=G0ZZJXw4MTA
 
 </div>
 
-### But numbers still have value
+### But numbers still have value. Example: Quality of Life
 
-Recognizing that Statistics are a social construction does not mean that Statistics are worthless and that experiments are a waste of time.
-
-### Example: Quality of Life
-
-![Figure 7. First few questions from SF-36 form](http://www.pmean.com/new-images/21/dark-side-08.png)
+![Figure 7. First few questions from SF-36 form](http://www.pmean.com/new-images/21/dark-side-07.png)
 
 <div class="notes">
 
+Recognizing that Statistics are a social construction does not mean that Statistics are worthless and that experiments are a waste of time. The best example I can give for this is the measure of quality of life.
+
 Quality of Life is a measure that is reported in many research studies. There is no question that quality of life is a social construction. It is measured by forms like the SF-36 shown here. But it is not an objective reality but something that was constructed by humans.
 
-Now I mentioned earlier that I like to run. It is a pretty strenuous activity, but one that I enjoy. A friend of mine said, though, that she couldn't understand why you would want to run, unless you were being chased. One the other hand, I would not miss a thing if I did not push a vacuum, bowl, or play golf.
+Now I mentioned earlier that I like to run. It is a pretty strenuous activity, but one that I enjoy. A friend of mine said, though, that she couldn't understand why you would want to run, unless you were being chased. One the other hand, I would not miss a thing if I did not push a vacuum.
 
 There is no objective measure of quality of life. It depends on the values of the people who are developing forms like the SF-36.
 
+Problems occur when these social constructs are developed by research teams with limited diversity (they may have blind spots) or if the social constructs are not evaluated in diverse populations.
+
 But we can still use social constructs like quality of life, as long as we do it carefully.
+
+In fact, we should use these measures because they get at information which is important, and which cannot be measured by a laboratory.
+
+There's a lot of uncertainty about treatments for cancer, for example, which can sometimes extend a person's lifetime, but can also substantially interfere with their ability to do things that they feel are important. You can't discuss this trade-off without first measuring the deterioration of quality of life associated with some of these aggressive therapies.
 
 Image obtained from
 
@@ -202,15 +235,23 @@ https://clinmedjournals.org/articles/jmdt/jmdt-2-023-figure-1.pdf
 
 <div class="notes">
 
+Once you recognize that Statistics are a social construct, you can take steps to make sure that these statistics are used properly. You need to think about the process the generates the statistics. Is there a "night watchman" who puts down whatever he pleases?
 
+Just as an example, I do a lot of work with electronic health records. The health care professionals who populate the data in a system like Cerner or Epic are not doing this because they want to make sure that I have something interesting to publish. They have two objectives. First, they want to make sure that the information they put in is helpful to other members of the health care team. Second, they want to make sure they get the maximum possible billing from the insurance companies. Third, they want to wrap this up quickly so they can get home to their families.
+
+Second, identify possible biases. Does the desire to maximize billing skew the results? 
+
+Third, recognize limitations. Am I, as a researcher, asking for information that is not important for documenting the care a patient receives to other members of the treatment team?
+
+Fourth, beware of confirmation bias. Confirmation bias is the tendency to look harder for information that reinforces our preconceived notions, or to overlook or downweight information that contradicts our view of the world.
+
+Fifth, avoid nihilistic thinking. Once you recognize that Statistics are a social construct, you have to work harder, but it is not an impossible task. Our tendency to treat Statistics as hard and objective has led us astray at times, but we've still made a lot of progress in science and medicine, thanks to Statistics.
 
 </div>
 
 ### Things have gotten worse, thanks to big data
 
 1. Large amounts of data of uneven quality
-
-2. Too much trust of objectivity of numbers
 
 2. Black box models
 
@@ -222,19 +263,153 @@ https://clinmedjournals.org/articles/jmdt/jmdt-2-023-figure-1.pdf
 
 <div class="notes">
 
+Now everything I've mentioned so far is a problem in Statistics that has been around since before I was born. But we are in a new era, the era of big data. We have data today at a size and a level of detail that was unavailable twenty years ago. This is thanks to the internet, the human genome project, and many other things.
 
+I'm glad we have all these data, because it increases the opportunities for learning. But at the same time, the flaws of empiricism have gotten worse.
+
+Part of the problem is that the massive data sets that we use today have a great unevenness of quality. it is not too hard to identify obvious typos in a data set with a few hundred observations, but you would never been able to spot them in a data set with a few million observations.
+
+Second, big data requires more complex data analysis methods and these methods are often difficult to understand. Not just from a how do these new methods work, but also in what aspects of the data are emphasized and what aspects of the data are ignored. A small model that has ten inputs is easily taken apart and examined, but you can't do that with a model that has ten thousand inputs.
+
+Third, there is a lack of accountability. These complex models are rarely audited, for example, to look for hidden biases.
+
+Fourth, big data provides an opportunity to produce answers not just for a small number of people, but for thousands or millions of them all at once. If the big data model is flawed, the flaws are multiplied across the large number of people who are affected by the big data model.
+
+Fifth, there is so much data out there that you can often infer quite intimate and private details about individuals, often without them being aware of this.
+
+</div>
+
+### Small group exercises
+
++ Form groups of 4-5 people.
++ Answer the following questions
+  + Who is the villain?
+  + Who is the victim?
+  + How was the victim harmed?
+  + What could have prevented this?
+  + Did anything surprise you?
+  + Did you disagree with anything in the article?
+  + Is there a single quote from the article that summarizes it well?
+  
+<div class="notes">
+
+I want to do a small group exercise where you look at a newspaper article that discusses harm that occurred thanks to computer models. Do this in groups of 4 to 5 people. Read the article quicly. It should not take more than 5 minutes to read. Then designate someone as a note taker and a different individual as the spokesperson for the group. Come up with answers for the questions listed here.
+
+Given the size of the class, we may not have the opportunity to let every group speak, but I will try to spread things around as much as possible.
 
 </div>
 
 ### Weapons of Math Destruction
 
-![Figure 6. Cover of Cathy O'Neill's book](http://www.pmean.com/new-images/21/dark-side-06.png)
+![Figure 8. Cover of Cathy O'Neill's book](http://www.pmean.com/new-images/21/dark-side-06.png)
 
 <div class="notes">
 
-
+I want to discuss one example in detail. It comes from chapter 1 of the book, Weapons of Math Destruction, by Cathy O'Neil.
 
 </div>
+
+### First villain
+
++ Walter Quijano
+  + Provided testimony on recidivism rates at seven trials
+  + Unfairly included race in his calculations and testimony
+  + Six of seven convictions later overturned
+  
+<div class="notes">
+
+The big data example in O'Neil's book starts with the story of a person, Walter Quijano, who provided testimony in seven trials about the risk of recidivism. Recidivism is the unfortunate even where someone who has been released from prison commits a new crime and gets tossed back in jail. Mr. Quijano gave overtly biased recommendations at these trials that incorporated race into his assessment of recidivism. This was noted in the appeals of one of the defendants, and led to six of the seven convictions being overturned.
+
+</div>
+  
+### Second villain  
+  
++ LSI-R questionnaire
+  + Given to thousands of inmates
+  + Classifies risk of recidivism
+  + Does not explicitly ask about race
+  + But does have "leading" questions
+  
+<div class="notes">
+
+It contrasts this individual with a big data prediction model based on the LSI-R questionnaire. LSI-R stands for Level of Service Inventory-Revised that asks a bunch of questions like "How many prior convictions have you had?" This questionnaire weights the responses to various questions to provide an estimate of the risk of recidivism. Although the questionnaire does not explicitly ask about race, it can still indirectly identify a person's race by their pattern of responses to a series of leading questions.
+
+</div>
+
+### Victims
+
++ Inmates at parole hearings
++ Defendants at trial sentencing
+
+<div class="notes">
+
+This questionnaire was used at a large number of parole hearings in multiple states and at sentencing hearings in a few states as well.
+
+</div>
+
+### How were the victims harmed
+
++ Disproportionate recidivism risks by race
+  + Fewer paroles grants
+  + Longer sentences
++ No avenue to appeal
+  + Model presumed to be unbiased
+  + Complexity prevents examination of bias
++ Scale issues
+  + Walter Quijano harmed 7 defendants
+  + LSI-R harmed thousands of defendants.
+
+<div class="notes">
+
+The model was shown to grossly overstate the recidivism risk of black defendants. This led to fewer grants of parole to black prisoners and longer prison sentences for newly convicted black defendants.
+
+There was no avenue of appeal for those harmed by the LSI-R. You can't cross-examine an algorithm at trial, and the company that developed the LSI-R model did not want to disclose details about how the model worked. It was a trade secret and revealing its details would allow other companies to steal their technology. To be honest, the model itself was so complex that the company would have been unable to reveal its inner workings, even if it wanted to.
+
+The other important is issue is the scale of the harm. A biased witness could only influece a handful of defendants. This algorithm, however, was applied to many people. Walter Quijano had only enough time and energy to taint the sentencing of seven defendants, but the impact of the LSI-R questionnaire ended up influencing thousands.
+
+That's a hallmark of big data models. They are expensive to build and very labor intensive, but once they are built, it costs almost nothing to deploy it broadly.
+
+</div>
+  
+### What could have prevented this
+
++ Insist on transparency
++ Test the model for bias
++ Build the model with better objective
+
+### Did anything surprise you?
+
++ Questionnaire includes questions that would be inadmissable if they were asked during a normal trial
+  + When was the first time you were ever involved with the police?
+  + Do any of your friends or relatives have a criminal record?
+
+<div class="notes">
+
+I read about this a couple of years ago, but I think the thing that surprised me was the number of questions on the LSI-R that would not have been allowed in an open trial, because the questions would have been ruled as prejudicial.
+
+But apparently, you can ask prejudicial questions outside of a courtroom in a questionnaire and then use that information to create a recidivism risk score.
+
+</div>
+
+### Did you disagree with anything in the article?
+
++ No
+
+### Is there are single quote that summarizes the article well
+
+"The questionnaire includes circumstances of a criminal's birth and upbringing, including his or her family, neighborhood, and friends. These details should not be relevant to a criminal case or to the sentencing."
+
+### A Face Is Exposed for AOL Searcher No. 4417749
+
+![Figure 9. First page of newspaper article](http://www.pmean.com/new-images/21/aol-searcher-01.png)
+
+### How a 'NULL' License Plate Landed One Hacker in Ticket Hell
+
+![Figure 10. First page of newspaper article](http://www.pmean.com/new-images/21/null-license-plate-01.png)
+
+### How Bright Promise in Cancer Testing Fell Apart
+
+![Figure 11. First page of newspaper article](http://www.pmean.com/new-images/21/bright-promise-01.png)
 
 ### Myths about big data
 
@@ -243,6 +418,12 @@ https://clinmedjournals.org/articles/jmdt/jmdt-2-023-figure-1.pdf
 2. If you have enough data, quality is no longer an issue
 
 3. We are getting better at this
+
+<div class="notes">
+
+If there are any big lessons from this, they are that you should be skeptical about big data. Algorithms are not objective. They are a social construct. Also, don't believe that bigger datasets are always better. A lot of data does not compensate for poor quality. Finally, while I am a big believer in progress, I think that too many of us are making mistakes and those mistakes are a lot worse when the data is big.
+
+</div>
 
 ### No single cause of these problems
 
@@ -253,6 +434,12 @@ https://clinmedjournals.org/articles/jmdt/jmdt-2-023-figure-1.pdf
 3. Wrong deployment
 
 4. Wrong team
+
+<div class="notes">
+
+There is no single cause for these problems. They are built into the system and it takes a lot of effort to work these biases out of the system.
+
+</div>
 
 ### What they say data science is
 
@@ -301,7 +488,9 @@ draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=5)
 
 <div class="notes">
 
+Here's a classic Venn diagram that you will see in pretty much any article that talks about big data or data science (I use those words interchangeably).
 
+There are three areas of expertise that you need as a data scientist: knowledge of mathematics and statistics, skill with computer science and coding, and expertise in medical or scientific specialties.
 
 </div>
 
@@ -314,7 +503,9 @@ draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=10)
 
 <div class="notes">
 
+A more accurate picture would show that there is not enough overlap among these disciplines.Not that many people are skilled at both science and statistics. Fewer stil know both of those skills well and can program effectively.
 
+That's actually good news from your perspective. You don't have to be a genius in all three areas. Be good in one area and have an appreciation of the the other two and you'll do just fine.
 
 </div>
 
@@ -327,14 +518,9 @@ If you are interested, email me: simons@umkc.edu
 
 <div class="notes">
 
+I'd like to end with an exhortation. We need people like you in data science. It's okay to spend most of your time learning the complexities of medicine, but some of you have a bit of talent and aptitude in math/stat and in computers/coding. That's an advantage your generation has that my generation did not. So you have the ability to appreciate the full picture more so than people my age. A few of us knew computers well, but today's generation is saturated in computational experience.
 
+Second, these research teams need a lot more racial and gender diversity. I try really hard to appreciate the viewpoints of people different than me, bit I can't understand it at a level of someone who has seen life from a different perspective. If the only people developing these data science models are white males, then the models will continue to be biased against women and minorities.
 
 </div>
 
-### Readings
-
-[sim1]: http://new.pmean.com/amazon-bias/
-[sim2]: http://new.pmean.com/big-data-bs/
-[sim3]: http://new.pmean.com/big-data-goes-to-school/
-[sim4]: http://new.pmean.com/lending-false-credibility/
-[sim5]: http://new.pmean.com/ai-story/
