@@ -439,6 +439,16 @@ If there are any big lessons from this, they are that you should be skeptical ab
 
 There is no single cause for these problems. They are built into the system and it takes a lot of effort to work these biases out of the system.
 
+On the next couple of slides, I want to show a classic Venn diagram and my variation on it to illustrate an important point.
+
+Here's a classic Venn diagram that you will see in pretty much any article that talks about big data or data science (I use those words interchangeably).
+
+There are three areas of expertise that you need as a data scientist: knowledge of mathematics and statistics, skill with computer science and coding, and expertise in medical or scientific specialties.
+
+A more accurate picture would show that there is not enough overlap among these disciplines.Not that many people are skilled at both science and statistics. Fewer stil know both of those skills well and can program effectively.
+
+That's actually good news from your perspective. You don't have to be a genius in all three areas. Be good in one area and have an appreciation of the the other two and you'll do just fine.
+
 </div>
 
 ### What they say data science is
@@ -486,28 +496,12 @@ v <- 0.85
 draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=5)
 ```
 
-<div class="notes">
-
-Here's a classic Venn diagram that you will see in pretty much any article that talks about big data or data science (I use those words interchangeably).
-
-There are three areas of expertise that you need as a data scientist: knowledge of mathematics and statistics, skill with computer science and coding, and expertise in medical or scientific specialties.
-
-</div>
-
 ### What data science really is
 
 ```{r, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.88
 draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=10)
 ```
-
-<div class="notes">
-
-A more accurate picture would show that there is not enough overlap among these disciplines.Not that many people are skilled at both science and statistics. Fewer stil know both of those skills well and can program effectively.
-
-That's actually good news from your perspective. You don't have to be a genius in all three areas. Be good in one area and have an appreciation of the the other two and you'll do just fine.
-
-</div>
 
 ### Why you are needed
 
