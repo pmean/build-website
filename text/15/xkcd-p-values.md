@@ -10,14 +10,21 @@ tags:
 output: html_document
 ---
 
+![Figure 1. Screenshot of comic strip](http://www.pmean.com/new-images/15/xkcd-p-values01.png)
+
+<div class="notes">
+
 Randall Munroe, author of the xkcd comic strip, will often comment on
 Statistics. This cartoon shows how p-values are typically
 interpreted.
 
-<!---More--->
+Randall Munroe. P-Values. Available im [html format][mun1].
 
-Randall Munroe. P-Values. Available at: <http://xkcd.com/1478/>.
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-![p_values.png not found.](http://www.pmean.com/new-images/15/xkcd-p-values01.png)
+[sim1]: http://blog.pmean.com/xkcd-p-values/
+[sim2]: http://blog.pmean.com
 
+[mun1]: http://xkcd.com/1478/
 
+</div>
