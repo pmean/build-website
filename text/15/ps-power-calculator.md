@@ -10,21 +10,14 @@ tags:
 output: html_document
 ---
 
-Someone stopped by today with a power calculation and I asked what
-software they used. They showed me something I had not seen before, a
-program developed by the Department of Biostatistics at Vanderbilt
-University (more specifically, William Dupont and Walton Plummer). The
-Vanderbilt Biostatistics Department is run by Frank Harrell, so you can
-be pretty sure that anything that they develop will be high
-quality.
+![Figure 1. First page of research article](http://www.pmean.com/new-images/15/ps-power-calculator01.png)
 
-<!---More--->
+<div class="notes">
 
-Dupont WD, Plummer WD. PS: Power and Sample Size Calculation. Available
-at <http://biostat.mc.vanderbilt.edu/wiki/Main/PowerSampleSize>.
+Someone stopped by today with a power calculation and I asked what software they used. They showed me something I had not seen before, a program developed by the Department of Biostatistics at Vanderbilt University (more specifically, William Dupont and Walton Plummer). The Vanderbilt Biostatistics Department is run by Frank Harrell, so you can be pretty sure that anything that they develop will be high quality.
 
-![](http://www.pmean.com/new-images/15/ps-power-calculator01.png)
+Dupont WD, Plummer WD. PS: Power and Sample Size Calculation. Available in [html format][dup1]
 
+[dup1]: http://biostat.mc.vanderbilt.edu/wiki/Main/PowerSampleSizee
 
-
-
+</div>
