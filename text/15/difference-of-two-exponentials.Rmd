@@ -1,0 +1,34 @@
+---
+title: "PMean: Nonlinear regression for the difference of two exponentials"
+author: "Steve Simon"
+source: "http://blog.pmean.com/difference-of-two-exponentials/"
+date: "2015-10-05"
+category: 
+- Blog post
+tags: 
+- incomplete page
+- nonlinear regression
+- R software
+output: html_document
+---
+
+I wanted to provide an overview of how you analyze a classic nonlinear regression model. It is a difference of two exponential functions. This nonlinear function is used commonly in pharmocokinetic models and is a simply way to model the oral administration of a drug. I want to show how the model works in a mathematical sense and then how you fit it using R.
+
+<!---More--->
+
+Here are some simple examples of nonlinear regression. We will use the built-in data set Theoph for all our examples.
+
+```{r}
+head(Theoph)
+```
+
+```{r}
+tail(Theoph)
+```
+
+### look at just the first patient.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/difference-of-two-exponentials/
+[sim2]: http://blog.pmean.com

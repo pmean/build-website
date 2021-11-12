@@ -10,15 +10,22 @@ tags:
 output: html_document
 ---
 
-Here's a quote from yours truly. I've added a cute graphic from the
-public domain (downloaded from
-[www.pixabay.com](http://www.pixabay.com/)) to liven it up a
-bit.
+![Figure 1. Graphic image of a light bulb joke](http://www.pmean.com/new-images/15/how-many-research-subjects01.png)
 
-<!---More--->
+<div class="notes">
 
-![](http://www.pmean.com/new-images/15/how-many-research-subjects01.png)
+Here's a quote from yours truly. 
+
+How many research subjects does it take to screw in a light bulb? At least 300 if you want the bulb to have adequate power.
+
+I've added a cute graphic from the public domain (downloaded from [Pixabay][pix1] to liven it up a bit.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/how-many-research-subjects/
+[sim2]: http://blog.pmean.com
 
 
+[pix1]: www.pixabay.com
 
-
+</div>

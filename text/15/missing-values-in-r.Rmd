@@ -1,0 +1,324 @@
+---
+title: "PMean: Missing values in R talk"
+author: "Steve Simon"
+source: "http://blog.pmean.com/missing-values-in-r/"
+date: "2015-02-07"
+category: Blog post
+tags: R software
+output: html_document
+---
+
+I'm talking a bit about missing values in R this afternoon for the
+Kansas City R Users Group. Here is what I'll be talking
+about.
+
+<!---More--->
+
+
+
+When you import data into R, the first thing you should do is
+
+KNOW YOUR COUNT
+
+This means that you need to know how many rows are in your data, and for
+all of the key variables, how many missing values you have. In a nested
+or hierarchical model, you need to also know the counts at each level of
+nesting or each level of the hierarchy.
+
+Here is a data set, freely available on the web, that shows sleep
+patterns and other statistics on various mammals. It has a handful of
+missing values and can help illustrate how you might tackle a new
+dataset. You can find a description of this data set in [html format][sta1].
+
+```{r}
+sl <- read.table(file="http://www.statsci.org/data/general/sleep.txt",header=TRUE)
+dim(sl)
+```
+
+```{r}
+names(sl)
+```
+
+This data set has 62 rows and 11 variables. Since the data set doesn't
+have too many variables, let's print out the first few and last few
+rows.
+
+```{r}
+head(sl)
+```
+
+```{r}
+tail(sl)
+```
+
+The summary function is useful, as it will display percentiles and the
+mean for numeric variables, but also (very importantly) display the
+number of missing values.
+
+For factors, it will display a table of the first seven most frequently
+occuring values
+
+```{r}
+summary(sl)
+```
+
+
+The first variable, Species, has 62 unique values. You can tell this by
+the fact that the first seven most frequently occurring values all had
+frequency 1. There are several other ways to check for uniqueness.
+
+```{r}
+table(table(sl$Species))
+```
+
+```{r}
+length(unique(sl$Species))
+```
+
+    ## [1] 62
+
+The table function does not show NAs, at least with the default option
+
+```{r}
+table(sl$Gestation)
+```
+
+You would notice this if you added a total to the end of the table.
+
+```{r}
+addmargins(table(sl$Gestation))
+```
+
+The total is only 58, which is less than the magic number of 62. This
+means that there are 4 missing values.
+
+You can also force the table to show counts for missing values.
+
+```{r}
+table(sl$Gestation,useNA="always")
+```
+
+The default option for useNA is "never" and a third option is "ifany".
+Notice how "ifany" differs from "always"
+
+```{r}
+table(sl$Gestation,useNA="ifany")
+```
+
+```{r}
+table(sl$Danger,useNA="ifany")
+```
+
+```{r}
+table(sl$Danger,useNA="always")
+```
+
+Many other functions in R offer multiple ways to handle NAs.
+
+```{r}
+mean(sl$Gestation,na.rm=FALSE)
+```
+
+```{r}
+mean(sl$Gestation,na.rm=TRUE)
+```
+
+```{r}
+mod1 <- lm(TotalSleep~Gestation,data=sl,na.action=na.omit)
+summary(mod1)
+```
+
+The alternate option for na.action in the lm function is na.fail, but I
+cannot run this directly in knitr, because the resulting error message
+causes knitr to stop.
+
+Logic values involving NAs are a bit tricky. You cannot get at NAs
+directly using the == comparison operator.
+
+```{r}
+which(sl$Gestation==NA)
+```
+
+    ## integer(0)
+
+What's happening here is that most logic comparisons invloving NA will
+evaluate not to TRUE or FALSE, but rather to NA.
+
+If you want to select missing values, you must use the is.na function.
+
+```{r}
+which(is.na(sl$Gestation))
+```
+
+    ## [1] 13 19 20 56
+
+The is.finite function represents "opposite" function, though there are
+a few subtle differences.
+
+```{r}
+which(is.finite(sl$Gestation))
+```
+
+    ##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 14 15 16 17 18 21 22 23 24 25 26
+    ## [24] 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49
+    ## [47] 50 51 52 53 54 55 57 58 59 60 61 62
+
+Logic involving missing values can seem at times a bit illogical.
+
+```{r}
+sl$Gestation==NA
+```
+
+    ##  [1] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+    ## [24] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+    ## [47] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+
+```{r}
+sl$Gestation==645
+```
+
+    ##  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [12] FALSE    NA FALSE FALSE FALSE FALSE FALSE    NA    NA FALSE FALSE
+    ## [23] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [34] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [45] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [56]    NA FALSE FALSE FALSE FALSE FALSE FALSE
+
+```{r}
+tst.na <- NA
+tst.na==tst.na
+```
+
+    ## [1] NA
+
+Why would NA==NA not evaluate to TRUE? You could argue that a missing
+value might be 3 or 7 or 923.427, so you would never know if it equaled
+something else, even another missing value.
+
+This produces a three valued logic system.
+
+```{r}
+tst.tvl <- c(TRUE,FALSE,NA)
+not.table <- !tst.tvl
+names(not.table) <- tst.tvl
+not.table
+```
+
+    ##  TRUE FALSE  <NA> 
+    ## FALSE  TRUE    NA
+
+```{r}
+and.table <- outer(tst.tvl,tst.tvl,"&")
+dimnames(and.table) <- list(tst.tvl,tst.tvl)
+and.table
+```
+
+    ##        TRUE FALSE  <NA>
+    ## TRUE   TRUE FALSE    NA
+    ## FALSE FALSE FALSE FALSE
+    ## <NA>     NA FALSE    NA
+
+```{r}
+or.table <- outer(tst.tvl,tst.tvl,"|")
+dimnames(or.table) <- list(tst.tvl,tst.tvl)
+or.table
+```
+
+Other programs, such as SAS, use a two valued logic system. What SAS
+does is to set missing values equal to negative infinity. This seems
+simpler because it allows you to keep a two-valued logic system. But it
+has its own problems.
+
+Note how R handles the less than comparison operator with missing
+values.
+
+```{r}
+sl$Gestation<50
+```
+
+In SAS, this comparison would evaluate to TRUE for the four missing
+values.
+
+The only way to select missing values is with the is.na function.
+
+There are three more values in R that are closely related to missing.
+
+```{r}
+1/0
+```
+
+```{r}
+-1/0
+```
+
+```{r}
+sqrt(-1)
+```
+
+The difference between Inf and NaN is in how comparisons are made.
+
+```{r}
+Inf>3
+```
+
+```{r}
+NaN>3
+```
+
+```{r}
+Inf==Inf
+```
+
+```{r}
+NaN==NaN
+```
+
+R allows you to make a few computations using Inf, but others are not
+allowed.
+
+```{r}
+Inf+1
+```
+
+```{r}
+1/Inf
+```
+
+```{r}
+0*Inf
+```
+
+```{r}
+Inf-Inf
+```
+
+It's also worth noting that you can force R to use complex numbers for
+the square root of -1, although this is not the default.
+
+```{r}
+sqrt(as.complex(-1))
+```
+
+The is.na and is.finite functions are not perfect opposites.
+
+```{r}
+tst.cases <- c(3,NA,NaN,Inf,-Inf)
+is.na.table <- is.na(tst.cases)
+names(is.na.table) <- tst.cases
+is.na.table
+```
+
+```{r}
+is.finite.table <- is.finite(tst.cases)
+names(is.finite.table) <- tst.cases
+is.finite.table
+```
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/missing-values-in-r/
+[sim2]: http://blog.pmean.com
+
+
+
+[sta1]: http://www.statsci.org/data/general/sleep.html
