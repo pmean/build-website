@@ -25,13 +25,11 @@ two categorical variables and measures of a relationship between a
 categorical variable and a continuous variable.
 
 ```{r}
-fn <- "http://lib.stat.cmu.edu/DASL/Datafiles/homedat.html"
+fn <- "https://raw.githubusercontent.com/pmean/introduction-to-SAS/master/data/housing.txt"
 h0 <- readLines(fn)
 n <- length(h0)
 print(n)
 ```
-
-    ## [1] 165
 
 ```{r}
 head(h0)
