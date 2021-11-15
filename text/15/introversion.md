@@ -3,8 +3,10 @@ title: "PMean: What problems does introversion cause for a statistical consultan
 author: "Steve Simon"
 source: "http://blog.pmean.com/introversion/"
 date: "2015-09-08"
-category: Blog post
-tags: Human side of statistics
+category:
+- Blog post
+tags:
+- Human side of statistics
 output: html_document
 ---
 

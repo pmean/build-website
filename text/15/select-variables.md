@@ -3,8 +3,10 @@ title: "PMean: How do you select variables for a risk adjusted model?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/select-variables/"
 date: "2015-07-16"
-category: Blog post
-tags: Risk adjustment
+category: 
+- Blog post
+tags:
+- Risk adjustment
 output: html_document
 ---
 

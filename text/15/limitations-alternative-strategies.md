@@ -3,8 +3,10 @@ title: "What not to say in the limitations and alternative strategies section of
 author: "Steve Simon"
 source: "http://blog.pmean.com/limitations-alternative-strategies/"
 date: "2015-05-06"
-category: Blog post
-tags: Grant writing
+category:
+- Blog post
+tags:
+- Grant writing
 output: html_document
 ---
 

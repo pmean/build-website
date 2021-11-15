@@ -3,8 +3,10 @@ title: "PMean: Missing values in R talk"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-values-in-r/"
 date: "2015-02-07"
-category: Blog post
-tags: R software
+category:
+- Blog post
+tags:
+- R software
 output: html_document
 ---
 

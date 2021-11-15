@@ -60,9 +60,10 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'childrensmercy.org/stats',
-  'pmean.com',
+  'tags:',
+  'tags:\n- 2015-pages',
   dir_root="text", 
   file_pattern="md$",
-  subdir_list=zpad(c(99, 0:21)))
+  subdir_list=15 # zpad(c(99, 0:21))
+)
 

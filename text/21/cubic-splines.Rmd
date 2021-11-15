@@ -85,6 +85,41 @@ This function is not continuous or smooth. To make a single smooth continuous fu
 ```{r}
 simulated_example %>%
   mutate(x1=x) %>%
+  mutate(x4=(x>5)*(x-5)) %>%
+  mutate(x5=(x>10)*(x-10)) %>%
+  mutate(x6=(x>15)*(x-15)) -> linear_spline_basis
+```
+
+```{r}
+lm(y~x1+x4+x5+x6, data=linear_spline_basis) %>%
+  augment(newdata=linear_spline_basis) %>%
+  ggplot(aes(x, y)) +
+    geom_point() +
+  geom_line(aes(y=.fitted))
+```
+
+```{r}
+simulated_example %>%
+  mutate(x1=x) %>%
+  mutate(x2=x^2) %>%
+  mutate(x4=(x>5)*(x-5)^2) %>%
+  mutate(x5=(x>10)*(x-10)^2) %>%
+  mutate(x6=(x>15)*(x-15)^2) -> quadratic_spline_basis
+```
+
+```{r}
+lm(y~x1+x4+x5+x6, data=quadratic_spline_basis) %>%
+  augment(newdata=quadratic_spline_basis) %>%
+  ggplot(aes(x, y)) +
+    geom_point() +
+  geom_line(aes(y=.fitted))
+```
+
+This function is not continuous or smooth. To make a single smooth continuous function you need to define
+
+```{r}
+simulated_example %>%
+  mutate(x1=x) %>%
   mutate(x2=x^2) %>%
   mutate(x3=x^3) %>%
   mutate(x4=(x>5)*(x-5)^3) %>%

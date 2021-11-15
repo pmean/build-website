@@ -3,8 +3,10 @@ title: "PMean: My H-index"
 author: "Steve Simon"
 source: "http://blog.pmean.com/h-index/"
 date: "2015-08-20"
-category: Blog post
-tags: Professional details
+category:
+- Blog post
+tags:
+- Professional details
 output: html_document
 ---
 
