@@ -3,8 +3,10 @@ title: "PMean: Can I replace missing values with zero?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-equals-zero/"
 date: "2015-05-18"
-category: Blog post
-tags: Missing data
+category: 
+- Blog post
+tags:
+- Missing data
 output: html_document
 ---
 

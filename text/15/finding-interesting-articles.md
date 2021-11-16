@@ -3,8 +3,10 @@ title: "PMean: Finding interesting peer-reviewed articles that illustrate statis
 author: "Steve Simon"
 source: "http://blog.pmean.com/finding-interesting-articles/"
 date: "2015-09-16"
-category: Blog post
-tags: Teaching resources
+category:
+- Blog post
+tags:
+- Teaching resources
 output: html_document
 ---
 

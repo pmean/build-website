@@ -3,8 +3,10 @@ title: "PMean: Informed consent in a study without human subjects"
 author: "Steve Simon"
 source: "http://blog.pmean.com/informed-consent/"
 date: "2015-06-01"
-category: Blog post
-tags: Ethics in research
+category: 
+- Blog post
+tags:
+- Ethics in research
 output: html_document
 ---
 

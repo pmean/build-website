@@ -6,7 +6,7 @@ date: "2015-01-15"
 categories:
 - Blog post
 tags:
-- 
+- Critical appraisal
 output: html_document
 ---
 
