@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 
-![Screen shot of article lead](replication-crisis-01.png){width=25%}
+![Screen shot of article lead](http://www.pmean.com/new-images/21/replication-crisis-01.png)
 
 <div class="notes">
 

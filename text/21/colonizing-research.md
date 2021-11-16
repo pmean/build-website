@@ -9,7 +9,7 @@ tags:
 output: powerpoint_presentation
 ---
 
-![](colonizing-research-01.png){width=25%}
+![](http://www.pmean.com/new-images/21/colonizing-research-01.png)
 
 <div class="notes">
 
