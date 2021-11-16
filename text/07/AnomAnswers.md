@@ -7,11 +7,12 @@ categories:
 - Blog post
 tags:
 - Analysis of means
+- Incomplete page
 output: html_document
 ---
 On the web page
 
-[Stats: Calculation of Analysis of Means limits](AnomCalculations1.html)
+[Stats: Calculation of Analysis of Means limits][sim3]
 
 you were asked to calculate ANOM charts for two different data sets.
 
@@ -40,23 +41,21 @@ E 28.5 112.5 10.61
 F 35.5 612.5 24.75`
 ```
 
-The average of the individual means is 26.4 and the average of the
-individual variances is 331.1. The square root of this value is 18.2
-which represents the pooled standard deviation.
+The average of the individual means is 26.4 and the average of the individual variances is 331.1. The square root of this value is 18.2 which represents the pooled standard deviation.
 
-In this example, I is 6 and N is 12. The critical value h is 3.62. The
-upper decision limit is
+In this example, I is 6 and N is 12. The critical value h is 3.62. The upper decision limit is
 
-![](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
+$26.4+3.62 \sqrt{331.1 \frac{5}{18}}=61.4$
+
+
+![Figure 1. ANOM graph](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
 
 ```{}
 26.4+3.62*18.2*v5/18=61.4
 ```
-The lower decision limit is less than zero. Since negative values are
-impossible in this setting, you should not plot this value. Here is a
-graphical display.
+The lower decision limit is less than zero. Since negative values are impossible in this setting, you should not plot this value. Here is a graphical display.
 
-![](http://www.pmean.com/new-images/07/AnomAnswers02.gif)
+![Figure 2. ANOM graph](http://www.pmean.com/new-images/07/AnomAnswers02.gif)
 
 The second data set represents proportions and is reproduced below.
 
@@ -65,19 +64,19 @@ The second data set represents proportions and is reproduced below.
 19 35 33 35 33 17 19 19 40 26`
 ```
 
-The average of these 20 proportions is 0.26. In this example, I=20 and
-N=2000. The critical value h is 3.02. The upper and lower decision
-limits are
+The average of these 20 proportions is 0.26. In this example, I=20 and N=2000. The critical value h is 3.02. The upper and lower decision limits are
 
-![](http://www.pmean.com/new-images/07/AnomAnswers03.gif)
+$0.26-3.02 \sqrt{0.26(1-0.26) \frac{(19}{2000})}=0.13$
+$0.26+3.02 \sqrt{0.26(1-0.26) \frac{(19}{2000})}=0.39$
 
-```{}
-0.26-3.02*v(0.26*0.74)*v(19/2000)=0.13
-0.26+3.02*v(0.26*0.74)*v(19/2000)=0.39`
-```
 
-Here is a graphical display of the individual proportions and the
-decision limits.
+Here is a graphical display of the individual proportions and the decision limits.
 
-![](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
+![Figure 3. ANOM graph](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
 
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/AnomAnswers.html
+[sim2]: http://www.pmean.com
+
+[sim4]: http://www.pmean.com/07/AnomCalculations1.html

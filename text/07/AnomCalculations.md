@@ -7,22 +7,16 @@ categories:
 - Blog post
 tags:
 - Analysis of means
+- Incomplete page
 output: html_document
 ---
-Analysis of Means (ANOM) are available for a wide range of data sets,
-and it is impossible to summarize all the applications of ANOM here. The
-goal on this web page is to illustrate a few of the calculations.
+Analysis of Means (ANOM) are available for a wide range of data sets, and it is impossible to summarize all the applications of ANOM here. The goal on this web page is to illustrate a few of the calculations.
 
 <!---More--->
 
-The simplest application of ANOM is a balanced single factor study. A
-single factor represents measurements done across individuals or
-sometimes machines, or other conditions). Let I represent the number of
-individuals being studied and let N represent the total number of
-observations. If there are m observations per individual, then N=mI.
+The simplest application of ANOM is a balanced single factor study. A single factor represents measurements done across individuals or sometimes machines, or other conditions). Let I represent the number of individuals being studied and let N represent the total number of observations. If there are m observations per individual, then N=mI.
 
-For each individual, calculate a mean and a variance. The formula for
-upper and lower decision limits in this setting is
+For each individual, calculate a mean and a variance. The formula for upper and lower decision limits in this setting is
 
 ![](http://www.pmean.com/new-images/07/AnomCalculations01.gif)
 
@@ -30,22 +24,17 @@ where
 
 ![](http://www.pmean.com/new-images/07/AnomCalculations02.gif)
 
-As a classroom exercise, a group of three volunteers (labeled A, R, and
-V to protect their anonymity) were asked to take turns hitting a target
-with a hand launched foam rocket.
+As a classroom exercise, a group of three volunteers (labeled A, R, and V to protect their anonymity) were asked to take turns hitting a target with a hand launched foam rocket.
 
-The equipment
+### The equipment
 
-Shooting at the target
+### Shooting at the target
 
-Measuring the result
+### Measuring the result
 
 ![](http://www.pmean.com/new-images/07/AnomCalculations03.jpg)
 
-Since the group was small, I asked each team member to shoot twice with
-their dominant hand and twice with their non-dominant hand. For each
-shot, the distance from the target was measured in centimeters. Here is
-the data (D=dominant hand, N=non-dominant hand).
+Since the group was small, I asked each team member to shoot twice with their dominant hand and twice with their non-dominant hand. For each shot, the distance from the target was measured in centimeters. Here is the data (D=dominant hand, N=non-dominant hand).
 
 ```{}
 A-D 14 39
@@ -68,8 +57,7 @@ V-D 28.5 112.5 10.61
 V-N 35.5 612.5 24.75
 ```
 
-The overall mean is 26.42 and the pooled standard deviation is 18.20.
-The ANOM limits are
+The overall mean is 26.42 and the pooled standard deviation is 18.20. The ANOM limits are
 
 ```{}
 26.4 - 3.724 * 18.2 * sqrt(5/12) = -17.3 (round this to zero)
