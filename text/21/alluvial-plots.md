@@ -9,10 +9,14 @@ tags:
 output: html_document
 ---
 
+![Figure 1. Excerpt from vignette](http://www.pmean.com/new-images/21/alluvial-plots-01.png)
+
+<div class="notes">
+
 Alluvial plots show streams of different colors that show how certain categorical variables interrelate. I am not sure that the graphs are all that effective, but if you want to draw these types of graphs, this page shows a lot of wonderful examples using the structure of ggplot2. 
 
-<!--more-->
+Jason Cory Brunson. Alluvial Plots in ggplot2, 2020-12-04. Available in [html format][bru1].
 
-Jason Cory Brunson. Alluvial Plots in ggplot2, 2020-12-04. Available in [html format][bru01].
+[bru1]: https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html
 
-[bru01]: https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html
+</div>

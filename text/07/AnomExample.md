@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of means
 - Control charts
+- Incomplete page
 output: html_document
 ---
 I found a pair of data sets on the web that represent counts and where
