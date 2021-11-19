@@ -6,7 +6,7 @@ categories:
 - Recommendation
 tags:
 - writing research papers
-output: powerpoint_presentation
+output: html_document
 ---
 
 ![](http://www.pmean.com/new-images/21/journal-profits-01.png){width=25%}

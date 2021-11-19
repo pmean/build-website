@@ -9,7 +9,7 @@ tags:
 - Presenting research
 - R software
 - Writing research papers
-output: powerpoint_presentation
+output: html_document
 ---
 
 ![](http://www.pmean.com/new-images/19/latex-mathematics01.png)

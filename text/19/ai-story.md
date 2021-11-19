@@ -9,7 +9,7 @@ tags:
 - Data science
 - Ethics in research
 - Human side of statistics
-output: powerpoint_presentation
+output: html_document
 ---
 
 ## A machine learning model in Flint, MI

@@ -6,7 +6,7 @@ categories:
 - Recommendation
 tags:
 - Health disparities
-output: powerpoint_presentation
+output: html_document
 ---
 
 ![](http://www.pmean.com/new-images/21/ebm-progress-01.png)

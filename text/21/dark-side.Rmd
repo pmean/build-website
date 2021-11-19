@@ -7,7 +7,7 @@ categories:
 tags:
 - Big data
 - Incomplete page
-output: powerpoint_presentation
+output: html_document
 ---
 
 ### Who am I?
@@ -187,7 +187,7 @@ There's a great book by Stephen Jay Gould that really makes you think hard about
 
 This short video clip is an excellent illustration of how the questions leading up to a particular question on a survey can bias the response to that survey. It comes from a British comedy, Yes Prime Minister, that ran in the 1980s.
 
-YouTube. Leading Questions- Yes Prime Minister. Taken from the 1st Season of Yes Prime Minister â€“ Episode 2, The Ministerial Broadcast. 2:16 running time. Published on Jan 15, 2012. 
+YouTube. Leading Questions- Yes Prime Minister. Taken from the 1st Season of Yes Prime Minister – Episode 2, The Ministerial Broadcast. 2:16 running time. Published on Jan 15, 2012. 
 
 https://www.youtube.com/watch?v=G0ZZJXw4MTA
 

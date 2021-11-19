@@ -60,10 +60,10 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'tags:',
-  'tags:\n- 2015-pages',
+  'powerpoint_presentation',
+  'html_document',
   dir_root="text", 
   file_pattern="md$",
-  subdir_list=15 # zpad(c(99, 0:21))
+  subdir_list=zpad(c(99, 0:21))
 )
 
