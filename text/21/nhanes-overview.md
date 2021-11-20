@@ -13,13 +13,70 @@ The National Health and Nutrition Examination Survey (NHANES) is a large scale s
 
 <!--more-->
 
+### Introduction
+
 The CDC provides a [nice historical summary][cdc01] of NHANES. It started out as a series of surveys in the 1960s. the National Health Examination Survey. In 1971, the survey added information about nutrition and was re-labeled the National Health and Nutrition Examination Survey. The series of surveys were labelled NHANES I (1971 to 1975), NHANES II (1976 to 1980), NHANES III (1988 to 1994), and continuous NHANES (1999 to present). A closely related survey Hispanic Health and Nutrition Examination Survey (HHANES) focussed on three major Hispanic groups (Mexican Americans, Cuban Americans, and Puerto Ricans) and was conducted from 1982 to 1984. While various features of the sample and the data collected varied from one series to the next, the CDC made a conscious effort to maintain a broad similarity across these series to allow researchers to evaluate trends and changes over a multi-year period.
 
-Although I will use NHANES as a generic description of all of the series of survey described above, the following descriptions will apply only to continuous NHANES.
+Although I will use NHANES as a generic description of all of the series of survey described above, the following descriptions will apply only to continuous NHANES. I also use the adjectives "small" or "large" throughout this document, and size always refers to number of people rather than square miles. So Cook Couny, Illinois with 5 million people, is a large county even though its area (1,600 square miles) is quite modest compared to other counties. And Nye County, Nevada, with 18,000 square miles would be described by me as a small county because only 46,000 people live there.
 
-Much of the data from the NHANES
+If you plan to analyze NHANES data, start at the main [NHANES page][cdc02] of the CDC website and click on the Questionnaires, Datasets, and Related Documentation link. You might also find the link to tutorials helpful.
+
+### Complex survey
+
+The first thing to recognize about the NHANES survey is that a simple random sample would be far too expensive to implement. If you wanted a simple random sample to be nationally representative, you would probably have to visit thousands of individual locations. The CDC saves an immense amount of money by sampling from clusters.
+
+You can find a detailed description of the process at one of several sample design and estimation documents at the CDC website. I relied on the [2015 to 2018 document][cdc03] to prepare this summary. There are small differences in the cluster sample over time, but the process is largely similar for all years of the continuous NHANES survey.
+
+There is clustering in done at four stages. The first level of clustering is at the county level, more or less. Counties with larger populations are divided into several pieces while counties with smaller populations are combined. These "counties" are labelled as Primary Sampling Units (PSUs). 
+
+These PSUs are assigned to different strata. These strata represent PSUs in a specific geographic area with certain features (e.g., small rural counties in the northeast). Two or more PSUs are sampled within strata. This, by itself is a great cost savings. There are about 3,000 counties in the United States, and you don't want to be visiting that many different places.
+
+PSU's are sampled relative to their population size, with larger PSUs having a greater probability of selection. Some PSUs are so large that the probability of sampling them becomes 1. Others have sampling probabilities less than 1. The PSUs with sampling probabilities less than one are upweighted. 
+
+An overly simplistic explanation of why this is important is that PSUs with sampling probabilities less than 1 have to represent their peers that weren't selected along with themselves. So, hypothetically, if you selected 2 PSUs out of a strata that had 20, you would have to upweight any estimates of those PSUs by 10 because each selected PSUs represents 10 PSUs (itself plus 9 unselected PSUs). This differential probability of sampling PSUs is the first reason you need to account for weights in NHANES.
+
+The second stage of sampling occurs at the census block level. A census block is a small geographic region, sometimes as small as a single city block in big densely populated cities, but larger in less densely populated areas. Census blocks (or sometimes a collection of several census blocks) are randomly sampled within each selected PSU.
+
+These census blocks are also selected relative to their population size and weighted accordingly.
+
+A third stage of sampling occurs at the dwelling unit (DU). A DU could be a single family house, a duplex, or a multi-family apartment building. A random sample of DUs are selected within each selected city block.
+
+The fourth and final stage of sampling occurs at the invididual person level as a limited number of residents are selected randomly from each DU.
+
+### Oversampling
+
+In order to insure accurate estimation, certain demographic groups are oversampled to insure that statistics on these groups have reasonable precision. The actual groups that are oversampled has varied over time. In the 2015-2018 cycle of NHANES, the oversampled groups included:
+
++ Hispanic persons;
++ Non-Hispanic black persons;
++ Non-Hispanic, non-black Asian persons;
++ Non-Hispanic white persons and persons of other racesand ethnicities at or below 185% of the federal povertylevel; and
++ Non-Hispanic white persons and persons of other races andracesand ethnicities aged 0–11 years or 80 years and over.
+
+When these oversampled groups are included in national averages, you need to downweight them so that they don't skew the results. Oversampling is the second reason why you need to account for weights in NHANES.
+
+### Timing
+
+Continuous NHANES runs in four year cycles. 60 PSUs are selected for each cycle and divided carefully into groups of 15 PSUs for each year. The selection insures that the 15 PSUs can produce nationally representative samples. The publicly available NHANES data, however, is aggregated into two year intervals. The aggregation is done to help preserve privacy. Researchers who need to see year by year results must work at special Research Data Centers (RDCs) where access to the data is restricted to special computers to avoid disclosure of sensitive information.
+
+### Non-response
+
+### Components
+
+#### Questionnaire
+
+#### Dietary assessment
+
+#### Medical Examination
+
+#### Laboratory measures
+
 
 [cdc01]: https://www.cdc.gov/nchs/nhanes/history.htm
+[cdc02]: https://www.cdc.gov/nchs/nhanes/index.htm
+[cdc03]: https://www.cdc.gov/nchs/data/series/sr_02/sr02-184-508.pdf
+
+
 
 Beilfuss, J., Camargo Jr, C.A., Kamycheva E. (2017). Serum 25-Hydroxyvitamin D Has a Modest Positive Association with Leukocyte Telomere Length in Middle-Aged US Adults. Journal of Nutrition. doi:10.3945/jn.116.244137.
 
