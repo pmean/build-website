@@ -8,7 +8,7 @@ tags:
 - Data management
 output: html_document
 ---
-It\'s been a busy month, as noted below, and in a rush to complete all
+It's been a busy month, as noted below, and in a rush to complete all
 my projects, I ended up doing some things that may have caused a few
 problems (nothing permanent, of course, but they did up delaying further
 some projects that were already behind schedule). I alluded to a bit of
@@ -21,8 +21,8 @@ but I have a few more lessons worth mentioning.
 1.  It is very difficult to perform a good data analysis by email and
     telephone. A good data analysis requires a lot of dialog that can
     only be done in a face-to-face setting. Often I will produce a graph
-    or table and have to ask a simple question like \"Is this what you
-    expected?\" to make sure that I am on the right track. Sometimes I
+    or table and have to ask a simple question like "Is this what you
+    expected?" to make sure that I am on the right track. Sometimes I
     will need more information about a variable but will only realize
     this halfway through the analysis. I hate to ask busy people to sit
     with me as I work through a data analysis, but I am starting to
@@ -34,12 +34,12 @@ but I have a few more lessons worth mentioning.
     it is easy to end up sorting just some of the columns or just some
     of the rows, leading to the production of a data set that has
     grossly incorrect results.
-3.  You can\'t just jump in and run the final statistical model for a
+3.  You can't just jump in and run the final statistical model for a
     project without first laying a firm foundation of preliminary
     charts, tables, and graphs. This is a lesson I harp on in many of my
     classes, but one that I have ignored myself at my own peril. In
     particular, I had a data analysis that involved survival times with
-    time varying covariates and with multiple events per patient. It\'s
+    time varying covariates and with multiple events per patient. It's
     not that difficult an analysis to run, but it does require some
     care. But instead of starting with some simple analysis (estimating
     survival probabilities before incorporating time varying covariates,

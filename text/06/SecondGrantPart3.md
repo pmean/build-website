@@ -12,15 +12,15 @@ output: html_document
 **[StATS]: My second grant, part 3 (created
 2006-10-02)**
 
-I just finished my second grant, which I gave the title \"Estimating
+I just finished my second grant, which I gave the title "Estimating
 delays in completion of IRB approved and KBR supported research
-studies\" The two acronyms, IRB and KBR should be familiar to the group
+studies" The two acronyms, IRB and KBR should be familiar to the group
 I am applying to. IRB stands for Institutional Review Board and KBR
-represents an internal grant mechanism here at Children\'s Mercy
+represents an internal grant mechanism here at Children's Mercy
 Hospital to support initial research efforts. The initials KBR stand for
 [Katherine Berry
 Richardson](http://beckerexhibits.wustl.edu/mowihsp/bios/GrahamRichardson.htm),
-who is one of the initial founders in Children\'s Mercy Hospital.
+who is one of the initial founders in Children's Mercy Hospital.
 
 So I am applying for a KBR grant in order to study delays in completion
 of other KBR grants. If nothing else, it should be something that the
@@ -30,7 +30,7 @@ reviews IRB approved studies.
 
 The technical abstract for this grant submission is
 
-> *As the research biostatistician at Children\'s Mercy, Dr. Simon has
+> *As the research biostatistician at Children's Mercy, Dr. Simon has
 > supported the development of literally hundreds of clinical trials
 > across just about every branch of pediatric medicine. In his
 > experience and in the experience of many of the people he works with,
@@ -48,7 +48,7 @@ The technical abstract for this grant submission is
 > caused, in large part, by the lack of hard data on scope and magnitude
 > of the problem with slow patient accrual. This research proposal asks
 > for \$15,000 for a pilot study to evaluate a random sample of 100
-> studies approved by the Children\'s Mercy IRB. This sample will
+> studies approved by the Children's Mercy IRB. This sample will
 > produce an estimate of the proportion of studies that fall behind
 > schedule, the proportion that end with fewer patients than originally
 > planned, and the average shortfall in those studies. A qualitative
@@ -97,10 +97,10 @@ and an earlier grant in these weblog entries
     25, 2006)](ControlChartsA.asp)
 -   [Stats: I want to write a grant (April 25, 2006)](WriteGrant.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
@@ -108,17 +108,17 @@ trials](../category/AccrualProblems.html).
 trials](../category/AccrualProblems.html).
 for pages similar to this one at [Category: Accrual problems in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: My second grant, part 3 (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).

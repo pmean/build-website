@@ -19,19 +19,19 @@ sent to a fire, the more damage they caused.
 
 When scientists were first establishing that smoking causes lung cancer,
 some people offered the counter argument that cancer causes smoking.
-It\'s a difficult argument to make, but it was put forth with perfect
+It's a difficult argument to make, but it was put forth with perfect
 seriousness. We all know that smoking preceded cancer, usually by
 several decades of time. The argument was that there were genetic
 tendencies towards cancer and perhaps these same tendencies also were
-related to the tendency to become addicted to nicotine. It\'s pretty
+related to the tendency to become addicted to nicotine. It's pretty
 easy to demolish this argument, of course.
 
 Victor Stenger highlights another example in [an
 article](http://www.csicop.org/sb/2004-03/reality-check.html) in the
 March 2004 issue of Skeptical Briefs. There was a cute article in the
-2001 year end issue of the British Medical Journal titled: \"Beyond
+2001 year end issue of the British Medical Journal titled: "Beyond
 Science? Effects of remote, retroactive intercessory prayer on outcomes
-in patients with bloodstream infection: randomized controlled trial.\"
+in patients with bloodstream infection: randomized controlled trial."
 ([\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=retrieve&db=pubmed&list_uids=11751349&dopt=Abstract)).
 The author, Leonard Leibovici, found the records of 3,393 adult patients
 with bloodstream infection at Rabin Medical Center, randomly divided
@@ -55,7 +55,7 @@ that could explain this result. They first argue that our understanding
 of how the world truly works is incomplete. For example, there is a
 classic result in physics where particles separated by vast distances of
 space can influence one another. There is no good explanation for how
-this occurs, therefore we shouldn\'t be too upset if there is no good
+this occurs, therefore we shouldn't be too upset if there is no good
 explanation for how retrospective prayer would work.
 
 They then cite obscure theoretical models in physics (bosonic string

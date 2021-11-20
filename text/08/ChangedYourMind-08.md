@@ -28,7 +28,7 @@ directly or indirectly on Statistics.
     physicians, patients, and politicians could adopt and apply basic
     statistical literacy techniques to questions about health:
     [edge.org/q2008/q08\_13.html\#gigerenzer](http://edge.org/q2008/q08_13.html#gigerenzer).
--   Beatrice Golomb cites the medical community\'s change of mind about
+-   Beatrice Golomb cites the medical community's change of mind about
     various treatments and cites the randomized trials of
     post-menopausal hormone therapy as a particular example:
     [edge.org/q2008/q08\_15.html\#golomb](http://edge.org/q2008/q08_15.html#golomb).

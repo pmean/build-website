@@ -17,6 +17,6 @@ Colman, Briony Pulford. ISBN: 1405145315 Publisher: Blackwell Publishers
 link\]](http://www.bookfinder4u.com/detail/1405145315.html) People
 always ask me for book recommendations, and I am frequently at a loss
 for what to say. Recommending a book is actually quite difficult,
-though, because people\'s needs vary so much. A common request is for a
+though, because people's needs vary so much. A common request is for a
 book about SPSS, and the book mentioned above looks pretty good, though
 I have not read it yet.

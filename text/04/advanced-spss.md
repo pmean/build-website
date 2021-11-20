@@ -42,7 +42,7 @@ models](../training/hand05.asp) on my web pages. The example given in
 class is an interesting one, where people are promoted after a training
 program. Some are promoted early, others are promoted late, and some
 left for other jobs before they had a chance to be promoted. People who
-left might have been promoted eventually. We don\'t know when. All that
+left might have been promoted eventually. We don't know when. All that
 we do know if that they did not get promoted during the time they were
 here. A survival model will factor that person in to help estimate
 promotion rates up to and including the day that they left. After they
@@ -55,7 +55,7 @@ assumption for survival data is that censoring is independent of
 outcome. In this case, it means that people left for reasons unrelated
 to whether they might get a promotion sooner rather than later. This is
 worth investigating; perhaps people left because they were frustrated
-and didn\'t expect to get promoted anytime soon.
+and didn't expect to get promoted anytime soon.
 
 Survival models are used a lot in cancer studies and you should also
 investigate whether censoring is independent of outcome. If, for

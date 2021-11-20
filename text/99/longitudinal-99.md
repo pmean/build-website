@@ -31,7 +31,7 @@ Many of the methods described below for longitudinal designs would also
 be useful for cluster designs. For simplicity, I will discuss these
 methods solely from the perspective of a longitudinal design.
 
-If your data are continuous, then there are several \"classical\"
+If your data are continuous, then there are several "classical"
 approaches such as multivariate analysis of variance and repeated
 measures analysis of variance. These approaches work well for simple
 well structured longitudinal data.

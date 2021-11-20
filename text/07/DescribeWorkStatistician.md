@@ -123,7 +123,7 @@ The justification for the Masters degree is
 > *The applicant must have detailed understanding of the foundations of
 > statistis across the broad range of analyses needed in a highly
 > heterogenous research environment. This level of knowledge requires
-> extensive coursework and training beyond the level of a bachelor\'s
+> extensive coursework and training beyond the level of a bachelor's
 > degree.*
 
 The additional knowledge, skills, abilities, and work experience are
@@ -136,7 +136,7 @@ The additional knowledge, skills, abilities, and work experience are
 
 I have drafted a job opening announcement
 
--   [Master\'s level statistician needed for Children\'s Mercy Hospital
+-   [Master's level statistician needed for Children's Mercy Hospital
     in Kansas City, MO](../JobOpening.asp)
 
 and will start publicizing this opening aggressively when I get a formal

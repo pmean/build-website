@@ -12,8 +12,8 @@ output: html_document
 > I have a section on definitions and it is an odd mix of things. I want
 > to simplify these pages by separating examples of how to calculate a
 > particular statistic from the formal definition of the statistic. This
-> would make the definition shorter and sweeter in most cases. Here\'s a
-> list of proposed \"how to calculate\" pages. Items with an asterisk
+> would make the definition shorter and sweeter in most cases. Here's a
+> list of proposed "how to calculate" pages. Items with an asterisk
 > represent entries where the definition already includes an example of
 > how to calculate the statistic.
 >
@@ -47,7 +47,7 @@ output: html_document
 > -   How to calculate a t-statistic.
 > -   How to calculate a weighted mean.
 >
-> I\'d also like to show how to draw various graphic displays.
+> I'd also like to show how to draw various graphic displays.
 >
 > -   How to draw a boxplot.
 > -   How to draw a control chart.

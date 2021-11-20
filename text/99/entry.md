@@ -8,7 +8,7 @@ tags:
 - Data management
 output: html_document
 ---
-*Dear Professor Mean, I\'m about to start typing in my research data. Do
+*Dear Professor Mean, I'm about to start typing in my research data. Do
 you have any general guidelines for data entry?*
 
 > Spreadsheets allow you enormous flexibility in how you enter your
@@ -28,7 +28,7 @@ you have any general guidelines for data entry?*
 **1. Arrange your data in rectangular format.**
 
 > Arrange your data in a rectangular format. **The intersection of each
-> row and column should contain a single number**. Here\'s an example of
+> row and column should contain a single number**. Here's an example of
 > data which does not fit into a rectangular format. These data are
 > loosely based on a study of breast feeding in pre-term infants. The
 > data have been shortened and modified to serve as a simple example of
@@ -78,10 +78,10 @@ you have any general guidelines for data entry?*
 > **Never let a empty field represent missing data**. Explicitly create
 > a code for missing, and be sure to explain why the data are missing to
 > anyone involved with analysis of your data. In this example, let -1
-> represent a missing value for Mom\'s Age and Birth Weight. Let 9
+> represent a missing value for Mom's Age and Birth Weight. Let 9
 > represent a missing value for Marital Status.
 
-> Here\'s what the data looks like when we plug up the missing value
+> Here's what the data looks like when we plug up the missing value
 > holes.
 
     Breast
@@ -114,7 +114,7 @@ you have any general guidelines for data entry?*
 >
 > **Use eight characters or less**. If you try to use a longer name,
 > SPSS and most other statistical software will truncate the name to the
-> first eight characters. It\'s a challenge to provide a descriptive
+> first eight characters. It's a challenge to provide a descriptive
 > name when you are limited to eight characters, but try your best. SPSS
 > will later allow you to provide lengthier and more detailed
 > description in the variable label.
@@ -130,17 +130,17 @@ you have any general guidelines for data entry?*
 > blank will cause the software to presume that you are referring to two
 > variables. SPSS, for example, gets confused when you ask for a
 > histogram for `mom age` and will try instead to product two
-> histograms, one for `mom` and one for `age`. Here\'s where the
+> histograms, one for `mom` and one for `age`. Here's where the
 > underscore comes in handy. The variable `mom_age` is easy to read.
 > Compare this to the alternative, `momage`, which looks like a nonsense
 > word rhyming with homage.
 >
-> **Finally, don\'t rely on upper/lower case to distinguish among
-> variable names** (for example, don\'t name one variable `x` and the
+> **Finally, don't rely on upper/lower case to distinguish among
+> variable names** (for example, don't name one variable `x` and the
 > next one `X`). Some packages are case insensitive. SPSS, for example,
 > will convert your variable name to all lower case.
 >
-> Here\'s what the data set looks like with variable names.
+> Here's what the data set looks like with variable names.
 
     br_feed  mom_age  mar_st   birth_wt
      No        18     Married   1.550
@@ -180,7 +180,7 @@ you have any general guidelines for data entry?*
 > in the following meaningless order: Agree, Disagree, Neutral, No
 > Answer, Strongly Agree, Strongly Disagree.
 >
-> Let\'s assign number codes for the categorical variables in the breast
+> Let's assign number codes for the categorical variables in the breast
 > feeding data example. For br\_feed, let 0=No, 1=Yes, and 9=Lost. For
 > mar\_st, let 0=Single; 1=Married, and 9=Missing. With this change, the
 > data will look like this:

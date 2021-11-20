@@ -24,28 +24,28 @@ obviously have a Midas touch.
 The first thing you should do is to go back and look at the original
 protocol. Did you include a sentence like
 
-> *\"If the results of the pilot study achieve statistical significance,
-> we will\...\"*
+> *"If the results of the pilot study achieve statistical significance,
+> we will\..."*
 
-I didn\'t think so. If you had that level of foresight, you wouldn\'t be
+I didn't think so. If you had that level of foresight, you wouldn't be
 writing to me. So what you are looking at is a post hoc modification of
 the original research protocol.
 
 Post hoc modifications of research protocols happen all the time.
 Stephen Senn has a cute definition:
 
-> *\"Medical statistician: one who will not accept that Columbus
+> *"Medical statistician: one who will not accept that Columbus
 > discovered America \... because he said he was looking for India in
-> the trial plan.\"*
+> the trial plan."*
 
 Still, it is worth noting that post hoc modifications will dilute the
 credibility of your research finding. Is your research finding so robust
 that it can withstand such dilution?
 
 If you answer yes, then you have to put yourself conceptually in a time
-machine and ask the question \"If I was smart enough during the writing
+machine and ask the question "If I was smart enough during the writing
 of the protocol to consider the possibility of stopping the study after
-the pilot, how would I have written the protocol?\" You\'d probably
+the pilot, how would I have written the protocol?" You'd probably
 include some sort of adjustment to the p-value to reflect the fact that
 you have potentially multiple peeks at the data. Analyze the data under
 the new protocol procedures.
@@ -90,7 +90,7 @@ additional 15 patients in each arm.
 
 **Research articles:**
 
--   **Monitoring randomised controlled trials. Parkinson\'s disease
+-   **Monitoring randomised controlled trials. Parkinson's disease
     trial illustrates the dangers of stopping early.** K. R. Abrams.
     British Medical Journal 1998: 316(7139); 1183-4.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9552993&dopt=Abstract)
@@ -272,10 +272,10 @@ additional 15 patients in each arm.
     UCSF School of Medicine. Accessed on 2003-01-21.
     www.som.ucsf.edu/som/research/clinical\_research/resources/dsmp.asp
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).
@@ -283,17 +283,17 @@ stopping](../category/EarlyStopping.html).
 stopping](../category/EarlyStopping.html).
 for pages similar to this one at [Category: Early
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Oops! I found statistical significance in
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).

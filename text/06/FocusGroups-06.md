@@ -41,10 +41,10 @@ output: html_document
 > 6.  Fill in remaining gaps with personal interviews, and
 > 7.  Develop an action plan based on the input provided.
 >
-> The authors discussed the concept of \"saturation.\" How many focus
+> The authors discussed the concept of "saturation." How many focus
 > groups do you need to convene? The answer is dependent on the input
-> you get at successive meetings. When \"the same points are reiterated
-> in all groups and ideas become repetitive\" then saturation has
+> you get at successive meetings. When "the same points are reiterated
+> in all groups and ideas become repetitive" then saturation has
 > occurred and you have a sufficient sample size. The authors cite a
 > rule of them that six meetings are needed to reach saturation. In the
 > paper, the authors mention that four meetings were initially planned,
@@ -68,26 +68,26 @@ output: html_document
 > information and offers a good model for how to use focus groups to
 > collect this information.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Using focus groups to bridge the gap
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

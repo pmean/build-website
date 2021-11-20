@@ -19,7 +19,7 @@ have a collection of averages representing the performance of specific
 subgroups. The classic application is examining the performance of
 several different workers who are all performing a similar task. I tend
 to dislike examples like that because it implies that the root cause of
-most problems lies in the workers themselves. That\'s not really true,
+most problems lies in the workers themselves. That's not really true,
 though, but even if it were, such a focus early on in a quality program
 would lead to a lot of resistance, defensiveness, and possibly even
 fudging the numbers.
@@ -54,7 +54,7 @@ Donald Wheeler is one of my favorite authors, and you can find a nice
 discussion of ANOM in Chapter 18 of
 
 -   **Advanced Topics in Statistical Process Control: The Power of
-    Shewhart\'s Charts.** Donald J. Wheeler (1995) Knoxville, Tennessee:
+    Shewhart's Charts.** Donald J. Wheeler (1995) Knoxville, Tennessee:
     SPC Press. [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0945320450.html)
 
@@ -85,13 +85,13 @@ shows paint drying times for four different types of paint. The data
 
 Each paint type was tested four times, for a total of 16 observations.
 The overall mean is 8.8 and the lower and upper decision limits are 7.0
-and 10.5, respectively. When I get some time, I\'d like to replicate
+and 10.5, respectively. When I get some time, I'd like to replicate
 this example using R software.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Analysis of
 means](../category/AnalysisOfMeans.html).
@@ -99,17 +99,17 @@ means](../category/AnalysisOfMeans.html).
 means](../category/AnalysisOfMeans.html).
 for pages similar to this one at [Category: Analysis of
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Some resources for Analysis of Means
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Analysis of
 means](../category/AnalysisOfMeans.html).

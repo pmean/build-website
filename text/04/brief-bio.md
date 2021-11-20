@@ -22,7 +22,7 @@ inhalation toxicology.
 
 Steve Simon has provided lectures on Quality Control methods for several
 short course at the American Society of Andrology. Steve also
-participated in a workshop \"Methods for semen studies in humans\" in
+participated in a workshop "Methods for semen studies in humans" in
 1989, leading the discussion on longitudinal research designs.
 
 Throughout his career, Steve has been an active researcher. He has

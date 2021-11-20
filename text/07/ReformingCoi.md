@@ -19,19 +19,19 @@ statement of no conflict a more detailed one.
 
 Conflicts are only of potential interest when you are presenting
 information about a commercial product, or you are advocating a change
-in regulations that might influence a company\'s bottom line. If your
+in regulations that might influence a company's bottom line. If your
 talk is about how everyone should present their data using confidence
-intervals, it doesn\'t matter how much money you have gotten from any
+intervals, it doesn't matter how much money you have gotten from any
 source.
 
 If you mention a commercial product, then the only conflicts that matter
 are financial ties associated with a company that produces that
 commercial product or with a company that produces a competing product.
 I received a nice gift from someone I helped with a consulting
-assignment. It was a CD of \"Opera Digest.\" Now this is potentially
+assignment. It was a CD of "Opera Digest." Now this is potentially
 reportable if I was reviewing their product or if I was advocating that
 Wagner play in the background of all operating rooms. But for any
-reasonable article that I might write, the gift of \"Opera Digest\"
+reasonable article that I might write, the gift of "Opera Digest"
 should not be reported.
 
 So asking for details about any financial support from any drug company
@@ -69,7 +69,7 @@ questions.
 7.  Are there any other relevant financial ties that your audience would
     want to know about?
 
-The phrase \"financial ties\" needs a careful definition, of course. You
+The phrase "financial ties" needs a careful definition, of course. You
 must mention employment by the company. You must also mention any
 consulting arrangements and private research grants from the company.
 You should mention any stock ownership, excluding ownership via a mutual
@@ -78,25 +78,25 @@ Finally, mention any gifts you have received from a company of more than
 nominal value. Attending a training class sponsored by a company does
 not count as a conflict, unless the company defrays part or all of your
 travel or provides lavish materials or food (the rubber chicken that
-most hotels provide during catered lunch doesn\'t count). Any financial
+most hotels provide during catered lunch doesn't count). Any financial
 tie involving a direct family member (spouse, sibling, or child)
 deserves the same disclosure as a financial tie to you directly.
 
 Some people, for example, have stated that being a recipient of a
 government grant produces a conflict of interest, because it encourages
 people to skew results towards those that the governmental agency wants
-to see. It\'s an argument that on its face looks good. I believe,
+to see. It's an argument that on its face looks good. I believe,
 however, that this is a red herring that is raised by people who want to
 distract attention from the fact that they have very real corporate
 conflicts that they want to minimize. If you expand the sphere of people
-who have to declare a conflict, then your conflict doesn\'t stand out
+who have to declare a conflict, then your conflict doesn't stand out
 quite as much. Furthermore, although there are many empirical examples
 of how corporate financial ties can produce skewed research results, I
 am unaware of any research that shows a similar problem with government
-funded research. That doesn\'t mean that there isn\'t a problem, just
+funded research. That doesn't mean that there isn't a problem, just
 that the critics have not made a convincing case yet.
 
 There has been a lot written about non-financial conflicts of interest
-in general and intellectual conflicts of interest in particular. I\'m
+in general and intellectual conflicts of interest in particular. I'm
 skeptical about these as well, but the whole topic needs more
 discussion.

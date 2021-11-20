@@ -11,7 +11,7 @@ output: html_document
 *Dear Professor Mean, I want to create an injury index that describes
 the severity of an injury to a child. This would include information
 about the type of injury, the location of the injury, the age of the
-child, etc. What\'s the best way to do this?*
+child, etc. What's the best way to do this?*
 
 > It seems to me like you have two choices. First, you can **build an
 > index based on your judgment, intuition, and knowledge of medicine**.
@@ -31,7 +31,7 @@ child, etc. What\'s the best way to do this?*
 > with how to do this than I am.
 >
 > I would **strongly urge you to build your own index rather than
-> letting a machine build it for you**. If you don\'t feel like you know
+> letting a machine build it for you**. If you don't feel like you know
 > enough to build an index on your own, how will you be able to
 > critically evaluate an index that your automated procedure creates?
 > Also, the number of variables you have is small enough that you can

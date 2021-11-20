@@ -8,7 +8,7 @@ tags:
 - R software
 output: html_document
 ---
-I\'m working on a project for planning and monitoring accrual patterns
+I'm working on a project for planning and monitoring accrual patterns
 in clinical trials. This will eventually lead, I hope, to a grant to
 support this work. I have some existing R scripts and want to examine
 the possibility of running those scripts on a web page.
@@ -21,7 +21,7 @@ There are a variety of solutions, using
 [CGI](http://en.wikipedia.org/wiki/Common_Gateway_Interface),
 [Java](http://en.wikipedia.org/wiki/Java_(programming_language)),
 [JavaScript](http://en.wikipedia.org/wiki/JavaScript), and
-[PHP](http://en.wikipedia.org/wiki/Php). I\'ll investigate these, but
+[PHP](http://en.wikipedia.org/wiki/Php). I'll investigate these, but
 the one that seems to be the best fit is rwui.
 
 -   [rwui.cryst.bbk.ac.uk/](http://rwui.cryst.bbk.ac.uk/)

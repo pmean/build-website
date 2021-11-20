@@ -27,7 +27,7 @@ be a combination of material from the following web pages:
 -   [Stats: Meta-analysis for a diagnostic
     test](../model/diagnostic.asp)
 
-The title of the talk will be \"Meta-analysis and diagnostic tests.\"
+The title of the talk will be "Meta-analysis and diagnostic tests."
 and here is my abstract:
 
 > Meta-analysis is the quantitative combination of results from multiple
@@ -48,10 +48,10 @@ and here is my abstract:
 > for this seminar can be found at
 > [www.childrens-mercy.org/stats/training/hand67.asp](http://www.childrens-mercy.org/stats/training/hand67.asp).
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).
@@ -59,17 +59,17 @@ overviews](../category/SystematicOverviews.html).
 overviews](../category/SystematicOverviews.html).
 for pages similar to this one at [Category: Systematic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Meta-analysis and diagnostic tests
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).

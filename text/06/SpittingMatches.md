@@ -19,7 +19,7 @@ information, but I came across a website
 
 that provides such valuable information that I am willing to overlook
 the lack of narrative text. The title of this web page is quite
-provocative \"Surviving Statistical Spitting Matches\" and there is a
+provocative "Surviving Statistical Spitting Matches" and there is a
 lot of good advice. The author (Bert Kritzer) developed this material
 for a professional development seminar for senior staff of the National
 Conference of State Legislatures in October 1996. He points out that
@@ -51,7 +51,7 @@ Another important question is
 > *How big is big enough?*
 
 which is equivalent to a discussion on the clinical significance of the
-findings. I\'ve written extensively about clinical importance on these
+findings. I've written extensively about clinical importance on these
 web pages (and even in Chapter 3 of [my new book](../evidence.asp)).
 Here are a couple of relevant pages:
 
@@ -87,14 +87,14 @@ website](http://www.stats.org/index.jsp) has an interesting example of
 this.
 
 > *A survey commissioned for the 60 Plus Association asked if the
-> respondent would be \"*more or less likely to vote for your Member of
-> Congress if they vote to ELIMINATE the estate tax.*\" Unfortunately,
-> the question was preceded with the description that \"i*n order to pay
+> respondent would be "*more or less likely to vote for your Member of
+> Congress if they vote to ELIMINATE the estate tax.*" Unfortunately,
+> the question was preceded with the description that "i*n order to pay
 > for this tax bill, some sons and daughters have had to sell off the
-> farms and small businesses they just inherited.*\"*
+> farms and small businesses they just inherited.*"*
 > [www.stats.org/record.jsp?type=news&ID=318](http://www.stats.org/record.jsp?type=news&ID=318)
 
-Getting back to Dr. Kritzer\'s presentation, there are another important
+Getting back to Dr. Kritzer's presentation, there are another important
 pair of questions
 
 > *Compared to what?\
@@ -125,13 +125,13 @@ median comparisons.
 
 Dr. Kritzer also asks
 
-> *How has the analyst\'s professional orientation affected his or her
+> *How has the analyst's professional orientation affected his or her
 > interpretations?*
 
-and while knowledge of a person\'s background and potential conflicts of
+and while knowledge of a person's background and potential conflicts of
 interest are important, often professional orientation is just a red
 herring. I dislike arguments that start out with a statement like<U+FFFD>
-\"You\'re only saying this because you are a \...\". While knowing that
+"You're only saying this because you are a \...". While knowing that
 someone is an allopath or is on the payroll of a pharmaceutical firm or
 is an advocate for the environment may color their judgment, I believe
 that these people can still make careful and thoughtful interpretations
@@ -142,7 +142,7 @@ because he receives consulting income from pharmaceutical companies.
 -   [Seminar \#66: What Can Alternative Medicine Teach Us About
     Evidence-Based Medicine?](../training/hand66.asp)
 
-Dr. Kritzer\'s point, I presume, is that lawyers tend to view the world
+Dr. Kritzer's point, I presume, is that lawyers tend to view the world
 from an adversarial viewpoint, whereas social scientists tend to take a
 more collegial view.
 
@@ -150,10 +150,10 @@ There are a lot more ideas presented in this web page. While I dislike
 the spartan format of an outline, Dr. Kritzer lists some important and
 provocative questions.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Human side of
 statistics](../category/HumanSideStatistics.html).
@@ -161,17 +161,17 @@ statistics](../category/HumanSideStatistics.html).
 statistics](../category/HumanSideStatistics.html).
 for pages similar to this one at [Category: Human side of
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Surviving Statistical Spitting
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Human side of
 statistics](../category/HumanSideStatistics.html).

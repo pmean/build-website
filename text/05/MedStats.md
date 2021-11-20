@@ -8,7 +8,7 @@ tags:
 - Teaching resources
 output: html_document
 ---
-If you don\'t get enough email already, a new discussion group,
+If you don't get enough email already, a new discussion group,
 MedStats, was created recently. MedStats is hosted on Google Groups. The
 main page for MedStats is
 [groups.google.com/group/MedStats](http://groups.google.com/group/MedStats)

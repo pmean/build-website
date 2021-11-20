@@ -1,5 +1,5 @@
 ---
-title: Frank Harrell\'s Philosophy of Biostatistics
+title: Frank Harrell's Philosophy of Biostatistics
 author: Steve Simon
 source: http://www.pmean.com/06/HarrellPhilosophy.html
 date: 2006-10-10
@@ -9,7 +9,7 @@ tags:
 - Modeling issues
 output: html_document
 ---
-**[StATS]:** **Frank Harrell\'s Philosophy of
+**[StATS]:** **Frank Harrell's Philosophy of
 Biostatistics (created 2006-10-10)**
 
 > There are a lot of people in the world who are a lot smarter than I am
@@ -27,12 +27,12 @@ Biostatistics (created 2006-10-10)**
 > that should be required reading for any statistician who is planning
 > to develop a regression model. It covers all the new things that I
 > know I should be using, but that I have been too lazy to check out.
-> It\'s not for a beginner, but if you have some experience with
+> It's not for a beginner, but if you have some experience with
 > regression models and want to learn how to use the best state of the
 > art methods, there is no better place to look.
 >
 > A reminder of how important all of this stuff is appears on Dr.
-> Harrell\'s website:
+> Harrell's website:
 >
 > -   [biostat.mc.vanderbilt.edu/twiki/bin/view/Main/FrankHarrell](http://biostat.mc.vanderbilt.edu/twiki/bin/view/Main/FrankHarrell)
 >
@@ -41,10 +41,10 @@ Biostatistics (created 2006-10-10)**
 >
 > -   \*<U+FFFD>Biostatistics needs to be fully integrated into biomedical
 >     research; experimental design is all important*
-> -   *Don\'t be afraid of using modern methods*
+> -   *Don't be afraid of using modern methods*
 > -   *Avoid categorizing continuous variables and predicted values at
 >     all costs*
-> -   *Don\'t assume that anything operates linearly*
+> -   *Don't assume that anything operates linearly*
 > -   *Account for model uncertainty and avoid it when possible by using
 >     subject matter knowledge*
 > -   *Use the bootstrap routinely*
@@ -59,10 +59,10 @@ Biostatistics (created 2006-10-10)**
 > which outlines the issue far better than anything I have written on
 > the topic.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).
@@ -70,17 +70,17 @@ issues](../category/ModelingIssues.html).
 issues](../category/ModelingIssues.html).
 for pages similar to this one at [Category: Modeling
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
-**[StATS]:** **Frank Harrell\'s Philosophy of
-This page was written by Steve Simon while working at Children\'s Mercy
+**[StATS]:** **Frank Harrell's Philosophy of
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).

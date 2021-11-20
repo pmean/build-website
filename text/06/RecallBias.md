@@ -24,10 +24,10 @@ bias? (August 3, 2006, Evidence, Mountain)**
 > sometimes it is a minor concern and sometimes it is a serious problem.
 >
 > I would be especially concerned about recall bias if you are asking
-> about things that most people forget. So if you\'re asking about major
-> surgery, that\'s something that pretty much everyone remembers, so
+> about things that most people forget. So if you're asking about major
+> surgery, that's something that pretty much everyone remembers, so
 > there is little risk for recall bias. Dietary studies are trickier
-> because who can remember exactly what foods they ate last week (I\'m
+> because who can remember exactly what foods they ate last week (I'm
 > not even sure I remember what I ate last night).
 >
 > Subjectivity is also an important issue. If different people are
@@ -36,20 +36,20 @@ bias? (August 3, 2006, Evidence, Mountain)**
 > interview, Linus Pauling was extolling the virtues of Vitamin C. He
 > pointed out that he and his family took Vitamin C supplements daily
 > and nobody ever had trouble with colds. The interviewer pressed him on
-> this, \"No colds, ever?\" Dr. Pauling replied, \"No, just an
-> occasional sniffle.\"
+> this, "No colds, ever?" Dr. Pauling replied, "No, just an
+> occasional sniffle."
 >
 > The other thing to remember is that an inaccurate answer because some
 > people forgot is not all that serious. You lose a bit of precision,
-> but it doesn\'t cause any serious bias. The problem occurs when one
+> but it doesn't cause any serious bias. The problem occurs when one
 > group in your study has more difficulty with remembering than another
 > group. Frequently this happens when one of your research groups has
 > suffered an event that stirs strong emotions\--a miscarriage or a
 > recent diagnosis of cancer, for example. There is something about
-> tragedy that heightens people\'s memory. They search through their
+> tragedy that heightens people's memory. They search through their
 > past to see if there is any explanation for what has just happened to
-> them. It\'s not that they make up stuff, but it\'s more that the
-> control group doesn\'t search as hard and will not recall events with
+> them. It's not that they make up stuff, but it's more that the
+> control group doesn't search as hard and will not recall events with
 > the same level of detail. Also, the things they remember are risk
 > factors that are described in the popular press, some of which are
 > real risk factors, of course, and some of which are illusory.
@@ -73,7 +73,7 @@ bias? (August 3, 2006, Evidence, Mountain)**
 >     course, but the combination of the two might help avoid some
 >     problems with recall bias.
 > 3.  Perform a quality audit of a fraction of your patients. You
->     probably won\'t have time to do this for every patient, but if you
+>     probably won't have time to do this for every patient, but if you
 >     could do some additional investigation for 5 or 10% of your
 >     patients, that would give you a way of checking on the degree to
 >     which both groups had problems recalling information.
@@ -84,26 +84,26 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon and was last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **When should you worry about recall
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

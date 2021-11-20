@@ -25,7 +25,7 @@ output: html_document
 >     15, 2006)](http://www.pmean.com/weblog2006/SpcHealthcare.html)
 > -   [Stats: When is a control chart not a control chart? (February
 >     6, 2007)](AnomExample.html)
-> -   [Stats: What I\'m working on right now (March
+> -   [Stats: What I'm working on right now (March
 >     18, 2007)](WhatImWorkingOn.html)
 > -   [Interesting article: Comparison of hospital episode statistics
 >     and central cardiac audit database in public reporting of

@@ -8,7 +8,7 @@ tags:
 - Publication bias
 output: html_document
 ---
-Eliot Spitzer, New York\'s state attorney general has filed a lawsuit
+Eliot Spitzer, New York's state attorney general has filed a lawsuit
 against GlaxoSmithKline for concealing negative trials about an
 antidepressant that the company manufactures (Paxil).
 

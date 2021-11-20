@@ -8,10 +8,10 @@ tags:
 - Human side of Statistics
 output: html_document
 ---
-> *\"Hiring a statistician after the data has been collected is like
+> *"Hiring a statistician after the data has been collected is like
 > hiring a physician when your patient is in the morgue. He might be
 > able to tell you what went wrong, but he is unlikely to be able to fix
-> it.\"* George Box, as cited on the EDSTAT-L email discussion group.
+> it."* George Box, as cited on the EDSTAT-L email discussion group.
 
 <!---More--->
 

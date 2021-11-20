@@ -13,7 +13,7 @@ output: html_document
 There are a lot of good commercial and free sources for sample size
 justification. Note that most people use the term power calculation, but
 there is more than one way to justify a sample size, so I try to avoid
-the term \"power calculation\" as being too restrictive. Anyway, I just
+the term "power calculation" as being too restrictive. Anyway, I just
 noted an email on the
 [MedStats](../category/InterestingWebsites.html#MeStXx) list that
 suggests two R libraries.
@@ -32,7 +32,7 @@ The pwr R package:
 -   [cran.at.r-project.org/src/contrib/Descriptions/pwr.html](http://cran.at.r-project.org/src/contrib/Descriptions/pwr.html)
 
 uses a more traditional approach that follows the effect size notation
-noted in Cohen\'s book on sample size.
+noted in Cohen's book on sample size.
 
 -   **Statistical Power Analysis for the Behavioral Sciences Revised
     Edition.** Jacob Cohen (1977) New York: Academic Press. **(Sample
@@ -46,8 +46,8 @@ noted in Cohen\'s book on sample size.
 -   **Ethics and sample size.** Peter Bacchetti, Leslie E Wolf, Mark R
     Segal, Charles E McCulloch. American Journal of Epidemiology 2005:
     161(2); 105-110. **(Sample, Ethics)**
--   **Bacchetti et al. Respond to \"Ethics and Sample Size - Another
-    View\".** Peter Bacchetti, Leslie E Wolf, Mark R Segal, Charles E
+-   **Bacchetti et al. Respond to "Ethics and Sample Size - Another
+    View".** Peter Bacchetti, Leslie E Wolf, Mark R Segal, Charles E
     McCulloch. American Journal Epidemiology 2005: 161(2); 113.
     **(Sample, Ethics)**
 -   **[How likely is it to go wrong
@@ -57,9 +57,9 @@ noted in Cohen\'s book on sample size.
     If you have never seen a horrible complication from a particular
     drug or intervention how likely is it to happen? A short and
     illuminating paper from Germany may be very helpful \[1\] - as the
-    authors say \"experience and Murphy\'s law teach us that
+    authors say "experience and Murphy's law teach us that
     catastrophes do happen, and their probability can in fact be
-    calculated by a simple rule of thumb.\"*
+    calculated by a simple rule of thumb."*
     www.jr2.ox.ac.uk/bandolier/band23/b23-2.html
 -   **The Observation to Variable Ratio in Factor Analysis.** P.T.
     Barrett, P. Kline. Personality Study and Group Behavior 1981: 1;
@@ -131,13 +131,13 @@ noted in Cohen\'s book on sample size.
 -   **[Power for Simple Mixed
     Models](http://www.nur.utexas.edu/Dickson/stats/mxpower.html)**. Pat
     Dickson, School of Nursing, The University of Texas at Austin.
-    Accessed on 2003-08-28. **(Sample Size, Mixed Model)** *Mok\'s
-    often-cited 1995 article ends: \'To the extent that these data are
+    Accessed on 2003-08-28. **(Sample Size, Mixed Model)** *Mok's
+    often-cited 1995 article ends: 'To the extent that these data are
     representative, one might offer as a rule of thumb, in the 2-level
     random slope balanced case with intraclass correlation of below,
     say, 0.15, at the x-intercept, that an actual sample size of 3500,
     and an effective sample size at the x-intercept of 400, to ensure
-    reasonable efficiency and lack of bias.\'*
+    reasonable efficiency and lack of bias.'*
     www.nur.utexas.edu/Dickson/stats/mxpower.html
 -   **Sample size requirements for reliability studies.** A. Donner, M.
     Eliasziw. Stat Med 1987: 6(4); 441-8. **(Sample Size, General)**
@@ -151,7 +151,7 @@ noted in Cohen\'s book on sample size.
     [\[Full text\]](http://www.biomedcentral.com/1471-2288/1/11)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2288-1-11.pdf)
     **(Sample size, Case control)**
--   **Why \"underpowered\" trials are not necessarily unethical.** S. J.
+-   **Why "underpowered" trials are not necessarily unethical.** S. J.
     Edwards, R. J. Lilford, D. Braunholtz, J. Jackson. Lancet 1997:
     350(9080); 804-7.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9298015&dopt=Abstract)
@@ -210,14 +210,14 @@ noted in Cohen\'s book on sample size.
     particularly in its requirement of informed consent of experimental
     subjects. The 10 principles of the Nuremberg Code deal with other
     ethical issues, and there are strong implications for correct sample
-    size estimation. \"Ethical Guidelines for Statistical Practice,\"
+    size estimation. "Ethical Guidelines for Statistical Practice,"
     approved by the American Statistical Association in 1999, calls for
-    statisticians to \"avoid the use of excessive or inadequate numbers
+    statisticians to "avoid the use of excessive or inadequate numbers
     of research subjects by making informed recommendations for study
-    size.\" A recent article \"Why \'underpowered\' trials are not
-    necessarily unethical\" (S. J. L. Edwards, et al, 1997) will be
+    size." A recent article "Why 'underpowered' trials are not
+    necessarily unethical" (S. J. L. Edwards, et al, 1997) will be
     analyzed with regard to subject equipoise, utility functions,
-    meta-analysis, and the \"implicit contract\" with research subjects
+    meta-analysis, and the "implicit contract" with research subjects
     (Harrington, 2000).*
     www.amstat.org/meetings/jsm/2001/index.cfm?fuseaction=abstract\_details&abstractid=301013
 -   **The use of predicted confidence intervals when planning
@@ -246,7 +246,7 @@ noted in Cohen\'s book on sample size.
 -   **On sample-size and power calculations for studies using confidence
     intervals.** S Greenland. American Journal of Epidemiology 1988:
     128(1); 231-7. **(Sample Size, General)**
--   **\"Underpowered\" trials.** M. Griffiths. Lancet 1997: 350(9088);
+-   **"Underpowered" trials.** M. Griffiths. Lancet 1997: 350(9088);
     1406.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9365485&dopt=Abstract)
     **(Sample Size, Ethics)**
@@ -553,7 +553,7 @@ noted in Cohen\'s book on sample size.
     either estimates of sample size or power for one sample binomial
     problem. The first button calculates approximate power or sample
     size and critical values (reject if \>= critical value). The second
-    button calculates \"exact\" power and alpha for the given null and
+    button calculates "exact" power and alpha for the given null and
     alternative proportions and sample size. Note, sample size and null
     and alternative proportions can be changed before using the second
     button.* www.swogstat.org/Stat/Public/one\_binomial.htm
@@ -635,14 +635,14 @@ noted in Cohen\'s book on sample size.
 -   **[Power analysis
     examples](http://www.angelfire.com/wv/bwhomedir/spss/power_analysis.txt)**.
     Bruce Weaver. Accessed on 2003-01-20. **(Sample Size, General)**
-    *\"The following examples are from a paper by D\'Amico, Neilands,
+    *"The following examples are from a paper by D'Amico, Neilands,
     and Zambarano in Behavior Research Methods, Instruments, &
     Computers, 2001, 33(4), 479-484. These examples use the MATRIX DATA
     command to input the data. For a brief explanation of how this
     works, go to www.utexas.edu/cc/faqs/stat/spss/spss33.html. Example
     1: ANCOVA with 3 groups and 2 covariates. Example 2: MANOVA with 3
     groups and 2 dependent variables. Example 3: Mixed design
-    (between-within) ANOVA.\"*
+    (between-within) ANOVA."*
     www.angelfire.com/wv/bwhomedir/spss/power\_analysis.txt
 -   **Sample size for logistic repression with small response
     probability.** Alice Whittemore. Journal of the American Statistical

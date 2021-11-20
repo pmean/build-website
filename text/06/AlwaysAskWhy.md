@@ -11,19 +11,19 @@ output: html_document
 ---
 **[StATS]:** **Always ask why (May 8, 2006)**
 
-> I have a three year old boy at home and he\'s learned that one way to
+> I have a three year old boy at home and he's learned that one way to
 > keep the conversation going with an adult is to simply ask the
-> question, \"Why?\"
+> question, "Why?"
 >
-> I\'ll say \"We\'re going to church this morning\" and he\'ll say
-> \"Why?\" I\'ll say, \"Because it\'s Sunday\" and he\'ll say \"Why?\"
-> At this point, I\'m stumped. Why exactly is it Sunday today and not
+> I'll say "We're going to church this morning" and he'll say
+> "Why?" I'll say, "Because it's Sunday" and he'll say "Why?"
+> At this point, I'm stumped. Why exactly is it Sunday today and not
 > Tuesday.
 >
-> Or in the morning I\'ll point out that it\'s raining outside and
-> he\'ll say \"Why?\" And I have to struggle with an answer like, \"When
+> Or in the morning I'll point out that it's raining outside and
+> he'll say "Why?" And I have to struggle with an answer like, "When
 > there is too much moisture in the air, it falls down to the ground in
-> the form of precipitation.\"
+> the form of precipitation."
 >
 > At work when people ask me to do something, I need to emulate my
 > little boy and and ask them why. Not in a hostile way, but to get them
@@ -52,15 +52,15 @@ output: html_document
 > spreadsheet just like this.
 >
 > Now I could probably figure out how to do something that would produce
-> a degree of deviation from the norm or standard, but there\'s a very
+> a degree of deviation from the norm or standard, but there's a very
 > good chance that I will produce something that is not quite what this
 > person wants. So I wrote back and asked politely why do you need a
-> standard deviation? It\'s just a question to get someone to talk more
+> standard deviation? It's just a question to get someone to talk more
 > about what their goals are.
 >
 > I try to do this a lot. If they want to match subjects based on age
-> and race, I\'ll ask them why they think matching is important. If they
-> respond, I thought you had to match or the study wouldn\'t be valid,
+> and race, I'll ask them why they think matching is important. If they
+> respond, I thought you had to match or the study wouldn't be valid,
 > then we can talk about the various ways of ensuring validity of a
 > research trial. Asking why always seems to start a productive dialog.
 >
@@ -78,10 +78,10 @@ output: html_document
 This web page was written by Steve Simon, edited by Steve Simon, and was
 last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Human side of
 statistics](../category/HumanSideStatistics.html).
@@ -89,17 +89,17 @@ statistics](../category/HumanSideStatistics.html).
 statistics](../category/HumanSideStatistics.html).
 for pages similar to this one at [Category: Human side of
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Always ask why (May 8, 2006)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Human side of
 statistics](../category/HumanSideStatistics.html).

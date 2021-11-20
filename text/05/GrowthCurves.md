@@ -19,8 +19,8 @@ This article contrasts the growth charts developed by Dr. Tanner with
 Prevention](http://www.cdc.gov/growthcharts/).
 
 > *Dr. Tanner and his colleagues at the Institute for Child Health in
-> London revolutionized growth charts in the 1960\'s by taking into
-> account variations in a child\'s tempo of growth. Rather than
+> London revolutionized growth charts in the 1960's by taking into
+> account variations in a child's tempo of growth. Rather than
 > one-size-fits-all curves, the Tanner-derived charts have separate
 > curves, with a separate set of percentiles, for early-, average- and
 > late-maturing boys and girls. Thus they expand the range of normal
@@ -34,7 +34,7 @@ Prevention](http://www.cdc.gov/growthcharts/).
 > the distribution of heights and weights for each age group.*
 >
 > *In contrast, Dr. Tanner and others believe a more accurate (and
-> flexible) picture of a child\'s growth emerges from so-called
+> flexible) picture of a child's growth emerges from so-called
 > longitudinal studies, where the same children are repeatedly measured
 > over the course of many years of growth, so that individual variations
 > in tempo - those who mature early and those who mature late - can be

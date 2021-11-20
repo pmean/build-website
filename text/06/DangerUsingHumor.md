@@ -27,11 +27,11 @@ details](../category/WebsiteDetails.html)
 >
 > The person who read that page suggested that the comment was
 > insensitive and possibly hurtful for someone who was researching their
-> own child\'s illness. She pointed out that some level of humor is
-> probably needed for a dry topic, but that this comment was \"*more
-> likely to offend than to amuse.*\"
+> own child's illness. She pointed out that some level of humor is
+> probably needed for a dry topic, but that this comment was "*more
+> likely to offend than to amuse.*"
 >
-> It\'s worth keeping in mind that when you make a humorous comment that
+> It's worth keeping in mind that when you make a humorous comment that
 > is taken the wrong way in a live seminar, you have the opportunity to
 > immediately qualify the statement. But on a web page, unless the
 > person reading it is nice enough to offer some feedback, you will
@@ -49,7 +49,7 @@ details](../category/WebsiteDetails.html)
 > the research study is at odds with what everyone really wants. Anytime
 > you are studying a discrete event, you need to accumulate about 25 to
 > 50 of these events in each group in order to get reasonable power and
-> precision. Most of the \"events\" that we study in research are bad
+> precision. Most of the "events" that we study in research are bad
 > things, like death, relapse, device failure. You need to plan the
 > research carefully so that you study a large enough group of patients
 > for a long enough period of time so that you do get a sufficient
@@ -71,26 +71,26 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon and was last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **The danger of using humor on a web
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

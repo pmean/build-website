@@ -13,9 +13,9 @@ of a study and ignoring the clinical importance of their findings. If
 they get a small p-value, which indicates a statistically significant
 difference between the new therapy and the standard therapy, they dance
 in the streets, they pop open the champagne bottles, they celebrate
-wildly, and they publish their results in an \"A\" journal. If they get
+wildly, and they publish their results in an "A" journal. If they get
 a large p-value, they rend their clothes, they throw ashes on their
-heads, they wail and moan, and they publish their results in a \"C\"
+heads, they wail and moan, and they publish their results in a "C"
 journal.
 
 An article about measurement of fatigue
@@ -40,9 +40,9 @@ is a self-report, and this can be measured in several different ways:
     is rated from 1 to 10.
 -   A ten point single item scale.
 
-The last scale asked the question \"what is your level of fatigue
-today\" with 0 representing \"no fatigue\" and 10 representing \"the
-greatest possible fatigue.\" There\'s a slight error here, because if
+The last scale asked the question "what is your level of fatigue
+today" with 0 representing "no fatigue" and 10 representing "the
+greatest possible fatigue." There's a slight error here, because if
 you count properly, there are 11 numbers in the range from 0 to 10.
 
 The researchers measured a group of 103 cancer patients before and after
@@ -58,7 +58,7 @@ decreases in fatigue.
 
 If you look at the average change in each scale for those patients who
 report a small change in fatigue, this represents a minimally important
-clinical difference. The numbers don\'t seem to quite match the tables,
+clinical difference. The numbers don't seem to quite match the tables,
 but the authors suggest that a 5.6 unit shift in POMS, 5.0 for SCFS, 9.7
 for GFS, and 2.4 for the single item scale. If you divide each of these
 values by the number of items in the scale, you get values that hover

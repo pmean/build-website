@@ -39,7 +39,7 @@ report adverse events and negative trials.
 
 When a [potential conflict of interest](conflict.html) is brought to
 your attention, you need to approach the research cautiously, and you
-should rightly demand extra evidence. Don\'t turn into a statistical
+should rightly demand extra evidence. Don't turn into a statistical
 nihilist, though, and disregard any research with a potential conflict
 of interest.
 

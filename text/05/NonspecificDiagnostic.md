@@ -14,7 +14,7 @@ output: html_document
 
 > Someone posted a note on the IRBFORUM complaining that the IRB was
 > preventing him/her from volunteering for a test. This company has a
-> very promising \"non-intrusive Universal Early Cancer Detection test\"
+> very promising "non-intrusive Universal Early Cancer Detection test"
 > but the company could not take any volunteers before getting IRB
 > approval. There were a lot of good comments, but one thing that caught
 > my eye in a later email was the following claim:
@@ -33,8 +33,8 @@ output: html_document
 > is helpful for a wide range of conditions) but the principle has stood
 > the test of time.
 >
-> Let\'s look again at the original claim. This diagnostic test can
-> detect ANY type of cancer. That\'s certainly possible, but extremely
+> Let's look again at the original claim. This diagnostic test can
+> detect ANY type of cancer. That's certainly possible, but extremely
 > unlikely. The ways that breast cancer, melanoma, leukemia, prostate
 > cancer, lung cancer, bladder cancer, etc. progress are quite
 > different, and it extremely unlikely that a diagnostic test could find
@@ -59,10 +59,10 @@ output: html_document
 > overly broad usually represent either delusional thinking or the use
 > of highly biased research samples.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Corroborating
 evidence](../category/CorroboratingEvidence.html).
@@ -70,17 +70,17 @@ evidence](../category/CorroboratingEvidence.html).
 evidence](../category/CorroboratingEvidence.html).
 for pages similar to this one at [Category: Corroborating
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **A nonspecific diagnostic test
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Corroborating
 evidence](../category/CorroboratingEvidence.html).

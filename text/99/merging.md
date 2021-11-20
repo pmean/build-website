@@ -33,8 +33,8 @@ Second
 - one-to-many
 - or many-to-one.
  
-A **one-to-one merge** occurs when each record in your first data set corresponds to a single record in your second data set. Possibly there might be some records in one data set that don\'t have a partner in the other data set. That\'s fine
-- but make sure that you don\'t have two records in the second data set that would match with the same record in the first data set. That would be the computer equivalent of bigamy which is not allowed in a one-to-one merge.
+A **one-to-one merge** occurs when each record in your first data set corresponds to a single record in your second data set. Possibly there might be some records in one data set that don't have a partner in the other data set. That's fine
+- but make sure that you don't have two records in the second data set that would match with the same record in the first data set. That would be the computer equivalent of bigamy which is not allowed in a one-to-one merge.
  
 If you have a one-to-one merge
 - select the BOTH FILES PROVIDE CASES
@@ -46,7 +46,7 @@ A **one-to-many merge** occurs when a single record in your first data set might
 - bigamy is allowed
 - but only in a single direction. A record in the first data set can be linked to more than one record in the second data set
 - but a record in the second data set is never paired with more than one record in the first data set. Sort of like the type of bigamy where a husband can have more than one wife
-- but a wife can\'t have more than one husband.
+- but a wife can't have more than one husband.
 
 If you have a one-to-many merge
 - select the WORKING DATA FILE IS KEYED TABLE option.

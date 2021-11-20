@@ -28,8 +28,8 @@ A recent BMJ article
 
 discusses the use of this type of control chart in a particular hospital
 that had a hospital standardized mortality ratio of 130, which was
-\"*the highest of all main acute hospitals in England (30% above the
-value for England as a whole, which is 100)*\". In response, the authors
+"*the highest of all main acute hospitals in England (30% above the
+value for England as a whole, which is 100)*". In response, the authors
 used control charts to reduce this rate to 92.8, with the largest
 reductions in circulatory diseases and respiratory diseases.
 

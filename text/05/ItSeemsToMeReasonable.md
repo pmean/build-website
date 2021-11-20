@@ -15,7 +15,7 @@ output: html_document
 > because our trial methodology cannot cope. An intelligent review of
 > subgroups would allow this ratio to be much more reasonable.* Desmond
 > G Julian, **Debate: A subversive view of subsets - a dissident
-> clinician\'s opinion.** Curr Control Trials Cardiovasc Med 2000: 1(1);
+> clinician's opinion.** Curr Control Trials Cardiovasc Med 2000: 1(1);
 > 28-30.
 > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11714403&dopt=Abstract)
 > [\[Abstract\]](http://cvm.controlled-trials.com/content/1/1/28/abstract)

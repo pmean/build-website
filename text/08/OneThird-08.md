@@ -19,7 +19,7 @@ one-third of the expected number of adverse events?
 One-third does indeed mean one-third of the patients rather than
 one-third of the time. This can lead to some complexity when accrual is
 a lot faster or a lot slower than originally planned, and simple rules
-such as Pocock and O\'Brien-Fleming may need to be adapted if the
+such as Pocock and O'Brien-Fleming may need to be adapted if the
 interim analysis is consistent with a time interval, but seriously
 inconsistent with the sample size. If you are chained to a calendar, you
 might consider using a more complex approach such as an alpha-spending

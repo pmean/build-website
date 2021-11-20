@@ -25,7 +25,7 @@ the new therapy being tested is better.
 > they convince Society they are right.* \-- [Senn
 > (2000)](http://bmj.bmjjournals.com/cgi/eletters/321/7258/442#9231).
 
-The FDA comments on equipoise are less extreme than Dr. Senn\'s but
+The FDA comments on equipoise are less extreme than Dr. Senn's but
 still echo the same sentiment.
 
 > *Indeed, true neutrality is rarely present at the start of an
@@ -66,7 +66,7 @@ Perhaps this 74/26 split is a reflection, not of publication bias, not
 of choice of inappropriate controls, but rather the intelligence of the
 research planners who work for commercial sponsors. This is not to say
 that publication bias does not exist, or that bad controls are not
-sometimes deliberately chosen. It\'s just that if I were a drug company,
+sometimes deliberately chosen. It's just that if I were a drug company,
 I would want to hire people who, because of their intuition and good
 sense, investigate new drugs that have a good chance of actually
 working.

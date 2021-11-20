@@ -1,5 +1,5 @@
 ---
-title: What\'s New in SPSS version 14.0
+title: What's New in SPSS version 14.0
 author: Steve Simon
 source: http://www.pmean.com/05/SPSSversion14.html
 date: 2005-08-17
@@ -9,10 +9,10 @@ tags:
 - SPSS software
 output: html_document
 ---
-**[StATS]:** **What\'s New in SPSS version 14.0
+**[StATS]:** **What's New in SPSS version 14.0
 (August 17, 2005)**
 
-I attended a web seminar, What\'s New in SPSS version 14.0, taught by
+I attended a web seminar, What's New in SPSS version 14.0, taught by
 Meta Brown, a Senior Systems Engineer with SPSS, Inc. Version 14 will
 ship in October 2005. The major improvements in version 14.0 include
 
@@ -34,8 +34,8 @@ in the SPSS base product, and
 
 in the SPSS product family.
 
-The licensing allows first access to advanced modules to \"power
-users.\" There is also a new commuter license that allows you to borrow
+The licensing allows first access to advanced modules to "power
+users." There is also a new commuter license that allows you to borrow
 a license from the network version to place on a laptop that is taken
 away from the network for up to 30 days. The network license is
 decreased by one user during this time, and the laptop can run SPSS
@@ -63,18 +63,18 @@ and where they occur.
 
 The chart builder seemed a bit gimmicky to me and the process seemed to
 encourage the use of pseudo 3D effects that most statisticians despise.
-I am also cautious about \"expert modelers\" because computers can\'t
+I am also cautious about "expert modelers" because computers can't
 match the efficiency and insights of a human. This is slowly changing
-though, and when the computer \"expert modelers\" catch up with their
+though, and when the computer "expert modelers" catch up with their
 human counterparts, I will probably have to retire.
 
-There wasn\'t a lot on the graphics programming language but this looks
+There wasn't a lot on the graphics programming language but this looks
 like something I would enjoy working with.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: SPSS
 software](../category/SpssSoftware.html).
@@ -82,17 +82,17 @@ software](../category/SpssSoftware.html).
 software](../category/SpssSoftware.html).
 for pages similar to this one at [Category: SPSS
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
-**[StATS]:** **What\'s New in SPSS version 14.0
-This page was written by Steve Simon while working at Children\'s Mercy
+**[StATS]:** **What's New in SPSS version 14.0
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: SPSS
 software](../category/SpssSoftware.html).

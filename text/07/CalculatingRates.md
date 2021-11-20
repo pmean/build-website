@@ -31,7 +31,7 @@ time. So one possible denominator is simply time itself. Divide the 6
 needlesticks by the 30 days in a month to produce a rate of 0.2
 needlesticks per day.
 
-I\'m also starting to pull together some of the formulas needed for
+I'm also starting to pull together some of the formulas needed for
 confidence intervals for count data.
 
 -   [Stats: Confidence intervals for count data (March

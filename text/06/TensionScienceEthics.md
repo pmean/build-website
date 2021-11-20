@@ -19,22 +19,22 @@ validity and ethical concerns (created 2006-11-17)**.
 > possibly endure some greater level of pain in order to achieve certain
 > scientific goals?
 >
-> If the amount of pain is minor, I would argue that an IRB\'s effort to
+> If the amount of pain is minor, I would argue that an IRB's effort to
 > protect the research subjects veer towards paternalism. Just make sure
 > that the research subjects know what they are in for.
 >
 > If there is the potential for substantial pain, then things become
 > more complicated. There is no consensus in the scientific community
 > about placebos, so you can find support for pretty much any position
-> from \"placebos are never acceptable when an active control is
-> available\" to \"placebo surgery is an acceptable research option.\"
+> from "placebos are never acceptable when an active control is
+> available" to "placebo surgery is an acceptable research option."
 >
 > A good starting point for this debate is the<U+FFFD> International Conference
 > on Harmonization (ICH) report E-10 which discusses the use of placebos
 > and various alternative designs in great detail. The big advantage of
 > knowing ICH E-10 inside and out is that it is an authoritative summary
 > of the most permissive perspective on placebos. So if ICH E-10
-> doesn\'t support the use of placebos, nothing will.
+> doesn't support the use of placebos, nothing will.
 >
 > It is also important to recognize that there is some tension here
 > between the use of a placebo (or scientific validity in a broader
@@ -42,7 +42,7 @@ validity and ethical concerns (created 2006-11-17)**.
 > in a broader sense). A research design<U+FFFD> that is more attractive from
 > one perspective is often less attractive from the other perspective.
 >
-> That\'s not to say that the two concerns are mutually exclusive. A
+> That's not to say that the two concerns are mutually exclusive. A
 > trial that raises ethical concerns with the IRB is likely to raise
 > similar concerns with the patients, leading to a subsequent
 > degradation of scientific validity when large numbers of patients drop
@@ -58,10 +58,10 @@ validity and ethical concerns (created 2006-11-17)**.
 > ethical perspective and you can justify ethical concerns from a
 > scientific validity perspective.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Placebos in
 research](../category/PlaceboControlledTrials.html).
@@ -69,17 +69,17 @@ research](../category/PlaceboControlledTrials.html).
 research](../category/PlaceboControlledTrials.html).
 for pages similar to this one at [Category: Placebos in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **The tension between scientific
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Placebos in
 research](../category/PlaceboControlledTrials.html).

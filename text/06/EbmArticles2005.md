@@ -14,7 +14,7 @@ output: html_document
 
 One of the regular contributors to the Evidence Based Health email
 discussion group asked what we felt were the Best EBM methods papers in
-2005. I\'ll report on the articles that people suggest. Here are a few
+2005. I'll report on the articles that people suggest. Here are a few
 that I like:
 
 1.  **Medical journals are an extension of the marketing arm of
@@ -36,7 +36,7 @@ that I like:
     [\[Abstract\]](http://www.ingentaconnect.com/content/arn/ct/2005/00000002/00000003/art00004#avail)
     [\[PDF\]](http://docserver.ingentaconnect.com/deliver/cw/arn/17407745/v2n3/s4/p218.pdf?fmt=dirpdf&tt=10307&cl=43&ini=connect&bini=&wis=connect&ac=0&acs=32629,75000325,22076418&expires=1136476037&checksum=9FDEF46EE6EA18C7BB6F457C405B6CC2&cookie=1602592000)
     **(Evidence, Metaanalysis, History)**
-4.  **\"Is Cybermedicine Killing You?\"\--The story of a Cochrane
+4.  **"Is Cybermedicine Killing You?"\--The story of a Cochrane
     disaster.** G. Eysenbach, P. E. Kummervold. J Med Internet Res 2005:
     7(2); e21.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15998612&dopt=Abstract)
@@ -75,7 +75,7 @@ that I like:
     **(Evidence, Leftout, Exclusions, Placebo responders)**
 9.  **Assessment of methodological quality of primary studies by
     systematic reviews: results of the metaquality cross sectional
-    study.** L. P. Moja, E. Telaro, R. D\'Amico, I. Moschetti, L.
+    study.** L. P. Moja, E. Telaro, R. D'Amico, I. Moschetti, L.
     Coe, A. Liberati. Bmj 2005;
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15817526&dopt=Abstract)
     [\[Abstract\]](http://bmj.bmjjournals.com/cgi/content/abstract/bmj.38414.515938.8Fv1)
@@ -101,10 +101,10 @@ and others, argues that we do too much duplicative research that just
 confirms what is already well established. The authors cite a particular
 example involving placebo controlled trials which raises serious ethical
 concerns, because 64 trials were run, but clear and convincing evidence
-emerged by the time the 12th study was published. I\'ll add brief
+emerged by the time the 12th study was published. I'll add brief
 comments about the remaining seven papers when I have time.
 
-Here\'s a list of the papers that other people cited:
+Here's a list of the papers that other people cited:
 
 1.  Alper BS, White DS, Ge B. Physicians answer more clinical questions
     and change clinical decisions more often with synthesized evidence:
@@ -132,10 +132,10 @@ Here\'s a list of the papers that other people cited:
 
 I will dig out the details of these papers when I get some time.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).
@@ -143,17 +143,17 @@ resources](../category/TeachingResources.html).
 resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Best EBM articles in 2005 (March 6,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).

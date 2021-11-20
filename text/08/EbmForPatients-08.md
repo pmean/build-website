@@ -24,7 +24,7 @@ output: html_document
 > accessible without a login?) and reliability questions (e.g., is it
 > clear who has developed the web site and what their objectives are?).
 >
-> This looks like an interesting and valuable thing to work on and I\'m
+> This looks like an interesting and valuable thing to work on and I'm
 > going to discuss it with some of our EBM experts here where I work.
 
 **Further reading**

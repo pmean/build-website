@@ -8,7 +8,7 @@ tags:
 - Survey design
 output: html_document
 ---
-I\'m behind in my reading of the British Medical Journal, and the first
+I'm behind in my reading of the British Medical Journal, and the first
 issue I looked at today has a gem of an article.
 
 -   **Selecting, designing, and developing your questionnaire.** Boynton
@@ -19,13 +19,13 @@ issue I looked at today has a gem of an article.
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/328/7451/1312.pdf)
 
 Questionnaire development is something that many researchers do, but few
-researchers do well. Here\'s a quick summary of the questions this paper
+researchers do well. Here's a quick summary of the questions this paper
 raises.
 
 ***What information are you trying to collect?*** A clear plan at the
 outset can prevent a lot of grief later on.
 
-***Is a questionnaire appropriate?*** The authors don\'t really explore
+***Is a questionnaire appropriate?*** The authors don't really explore
 the alternatives, especially personal interviews and focus groups.
 Instead, they list several examples where a questionnaire is
 inappropriate.
@@ -42,7 +42,7 @@ in some cases might warrant an entirely separate project.
 
 ***How should you present your questions?*** The authors contrast open
 and close ended questions in a nice table. They also mention two words,
-\"frequently\" and \"regularly\" that often lead to ambiguous and
+"frequently" and "regularly" that often lead to ambiguous and
 confusing situations. The authors encourage the use of reverse scaling,
 which means that not all questions are worded in a positive manner. This
 is possibly good advice, but it could possibly backfire as well.
@@ -65,7 +65,7 @@ of causing undue offense if they handle sensitive health care matters in
 an impersonal way. The is also a confidentiality risk with pretty much
 all questionnaires, but some with certain topics (such as sexually
 transmitted diseases, or drug/alcohol abuse), this concern is especially
-acute. The authors don\'t mention another important risk. If a
+acute. The authors don't mention another important risk. If a
 questionnaire identifies a patient as having a risk of committing
 suicide, the researcher needs to have a plan in place<U+FFFD> to provide
 appropriate referrals.

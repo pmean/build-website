@@ -80,7 +80,7 @@ data collection and adjust for them in an analysis of covariance model.
 The reason to avoid a test of significance for baseline values in a
 randomized trial is that such a test addresses only whether there was a
 flaw in the randomization process. Perhaps the numbers that you thought
-were random really weren\'t so random after all.
+were random really weren't so random after all.
 
 A more serious concern is subversion of randomization, where some of the
 physicians recruiting patients for the study will try to steer certain
@@ -88,7 +88,7 @@ types of patients towards one treatment or away from the other
 treatment. They could do this subconciously by applying the inclusion
 and exclusion criteria more rigidly for certain types of patients if
 they know that a certain treatment will be assigned. They could also
-deliberately delay a patient\'s entry into a trial for a day or two so
+deliberately delay a patient's entry into a trial for a day or two so
 that a different patient gets the less preferred treatment.
 
 Physicians who deliberately tries to subvert the randomization process
@@ -145,7 +145,7 @@ the study is not blinded.
     4 - 6.
 
 So a test of significance is only appropriate if you think there was a
-flaw with the randomization process, such as a physician\'s attempt to
+flaw with the randomization process, such as a physician's attempt to
 subvert the randomization of the study.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

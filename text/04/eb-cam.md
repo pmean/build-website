@@ -8,12 +8,12 @@ tags:
 - Teaching resources
 output: html_document
 ---
-There\'s a new journal out with free full text on the web. It is
+There's a new journal out with free full text on the web. It is
 [Evidence-based Complementary and Alternative
 Medicine](http://ecam.oupjournals.org/) and is published by Oxford
 Journals online. I find that CAM makes for interesting teaching examples
 because students are willing to be extra skeptical for these studies and
-don\'t passively and uncritically accept the findings on CAM research.
+don't passively and uncritically accept the findings on CAM research.
 
 I had previously raised the issue of randomized controlled trials (RCT)
 and CAM. Some of the criticisms of RCTs by CAM proponents are on the

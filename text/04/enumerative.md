@@ -50,19 +50,19 @@ output: html_document
 >     studying, then you have an analytic study.
 >
 > Consider two conceptual samples taken of the entire populations at
-> Children\'s Mercy Hospital. The first sample is all of the billing
+> Children's Mercy Hospital. The first sample is all of the billing
 > records for 2001 through 2003. We have some evidence of overbilling,
 > and we want to estimate the overbilling in order to repay the
-> insurance companies. We don\'t care about bills prior to 2001 (statute
+> insurance companies. We don't care about bills prior to 2001 (statute
 > of limitations) or beyond 2003 (because we have corrected the billing
 > process to prevent further overbilling). We are also not interested in
-> overbilling at similar children\'s hospitals (let them pay their own
+> overbilling at similar children's hospitals (let them pay their own
 > bills). This is an enumerative study.
 >
 > The second sample is an observation of the hand washing practices of
 > all physicians at the hospital during the month of December 2003. Here
 > we do care about future handwashing of these physicians and our
-> findings might apply to other children\'s hospitals as well. This is
+> findings might apply to other children's hospitals as well. This is
 > an analytic study.
 >
 > Walter Shewhart and W. Edwards Deming developed the concept of
@@ -71,7 +71,7 @@ output: html_document
 > Some resources are May 2001 presentation by Lloyd Provost, [Use of
 > experimental Design in Analytic
 > Studies](http://www.sematech.org/resources/stats/symposia/qp2001/invited/provost.pdf),
-> and a September 1997 presentation by Anthony Cutler, [Deming\'s Vision
+> and a September 1997 presentation by Anthony Cutler, [Deming's Vision
 > Applied to Probabilistic Risk
 > Analysis](http://www.sigma-engineering.co.uk/praqual.shtml) and a web
 > page by Jonathan Siegel on the [Shewhart-Deming Critique of Classical

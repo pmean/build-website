@@ -31,20 +31,20 @@ Interesting quotes](../quote/InterestingQuotes.asp).
 >
 > **[Comparing Two Measurement Devices. Part
 > I](http://www.tufts.edu/~gdallal/compare.htm)**. Gerard E. Dallal.
-> Accessed on 2006-05-26. **(Model, Agreement)** \[Excerpt\] *It\'s rare
+> Accessed on 2006-05-26. **(Model, Agreement)** \[Excerpt\] *It's rare
 > when a paper says everything that needs to be said in a way that can
 > be readily understood by a nontechnical audience, but this is one of
-> those cases. The paper is \"Statistical Methods for Assessing
-> Agreement Between Two Methods of Clinical Measurement,\" by JM Bland
+> those cases. The paper is "Statistical Methods for Assessing
+> Agreement Between Two Methods of Clinical Measurement," by JM Bland
 > and DG Altman (The Lancet, February 8, 1986, 307-310). Perhaps it is
 > so approachable because it was written for medical researchers three
 > years after an equally readable version appeared in the applied
 > statistics literature (Altman and Bland, 1983) and about the same time
 > as a heated exchange over another approach to the problem (Kelly,
 > 1985; Altman and Bland, 1987; Kelly, 1987). This could very well have
-> been a two-sentence note: \"Here\'s the Bland and Altman reference.
-> Please, read it.\" Still, its message is so elegant by virtue of its
-> simplicity that it\'s worth the time and space to review the approach
+> been a two-sentence note: "Here's the Bland and Altman reference.
+> Please, read it." Still, its message is so elegant by virtue of its
+> simplicity that it's worth the time and space to review the approach
 > and see why it works while other approaches do little more than
 > confuse the issues.* www.tufts.edu/\~gdallal/compare.htm
 >

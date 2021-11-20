@@ -12,7 +12,7 @@ output: html_document
 
 *Dear Professor Mean, A journal reviewer criticized the small sample
 size in my research study and suggested that I mention a Type II error
-as a possible explanation for my results. I\'ve never heard this term
+as a possible explanation for my results. I've never heard this term
 before. What is a Type II error?*
 
 In your research, you specified a null hypothesis and an alternative
@@ -32,8 +32,8 @@ this. Here are the two types of errors:
 The null hypothesis traditionally represents a negative finding (i.e.,
 there is no difference between the treatment and control). You should
 always remember that it is impossible to prove a negative. Some
-statisticians will emphasize this fact by using the phrase \"fail to
-reject the null hypothesis\" in place of \"accept the null hypothesis.\"
+statisticians will emphasize this fact by using the phrase "fail to
+reject the null hypothesis" in place of "accept the null hypothesis."
 The former phrase always strikes me as semantic overkill.
 
 **Example**

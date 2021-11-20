@@ -24,12 +24,12 @@ output: html_document
 >
 > There is also the possibility that the multivariate model is itself
 > wrong. There is no approach to multivariate models that will guarantee
-> that you end up with the \"correct model\" when you are done. Some
+> that you end up with the "correct model" when you are done. Some
 > approaches work better than others, but there will always be some
 > unquantifiable degree of uncertainty about the final multivariate
 > model that you choose.
 >
 > This may not be as bad as it sounds though. George Box has a famous
-> quote \"All models are wrong, but some are useful.\"
+> quote "All models are wrong, but some are useful."
 
 You can find an [earlier version](http://www.pmean.com/04/MultivariateModels.html) of this page on my [original website](http://www.pmean.com/original_site.html).

@@ -8,7 +8,7 @@ tags:
 - Unusual data
 output: html_document
 ---
-I\'m working on a project looking at some outcomes that might eventually
+I'm working on a project looking at some outcomes that might eventually
 become part of a report card or benchmarking system. This is an area
 fraught with controversy and it needs to be handled very carefully. Here
 are a few references that I have accumulated that address some of these
@@ -64,7 +64,7 @@ issues.
 > Portland, Oregon: Productivity Press.
 >
 > **Lessons from the Bristol case. More openness\--on risks and on
-> individual surgeons\' performance \[editorial\].** Treasure T. Bmj
+> individual surgeons' performance \[editorial\].** Treasure T. Bmj
 > 1998: 316(7146); 1685-6.
 > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9614010&dopt=Abstract)
 > [\[Full

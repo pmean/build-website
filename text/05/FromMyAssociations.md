@@ -10,7 +10,7 @@ output: html_document
 ---
 > *\...from my associations with doctors in controlled trials I have
 > learned that the better the statistician understands the
-> doctor/patient relationship and the doctor\'s very real and unique
+> doctor/patient relationship and the doctor's very real and unique
 > ethical problem the better he can help to devise a trial that may be
 > less than ideal experimentally but yet likely to be of some, and
 > perhaps considerable, value to medicine. \...still more important, I

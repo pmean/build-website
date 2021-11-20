@@ -12,7 +12,7 @@ output: html_document
 > mining, which was quite good. It reminded me of a couple of stories I
 > heard about the pitfalls of data mining.
 >
-> The first was told to me by a doctor here at Children\'s Mercy, Jay
+> The first was told to me by a doctor here at Children's Mercy, Jay
 > Portnoy. He was describing a data mining model that was fed images of
 > both cars and trucks (a training set, in the parlance of data mining)
 > to see if it could develop a rule for **identifying whether a future
@@ -33,8 +33,8 @@ output: html_document
 > distinguish cars from trucks.
 >
 > The second story was one I heard in a training class by Richard
-> DeVeaux on data mining models that dealt with the question \"so
-> what?\". He mentioned one of the earliest findings in a data mining
+> DeVeaux on data mining models that dealt with the question "so
+> what?". He mentioned one of the earliest findings in a data mining
 > model world (though he is uncertain if this is a true story or an
 > urban legend) was that there was an unusual association seen in sales
 > patterns at convenience stores. It seemed that **people who came in to
@@ -48,7 +48,7 @@ output: html_document
 > was: **put the beer and the diapers at opposite ends of the store** so
 > that customers would have to spend more time in the store, increasing
 > the chances for impulse purchases. Another common response was a
-> **shrug of the shoulders**. In fact, we often don\'t know what to make
+> **shrug of the shoulders**. In fact, we often don't know what to make
 > of the associations found by data mining models.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

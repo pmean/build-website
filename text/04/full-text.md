@@ -78,7 +78,7 @@ comes out only in the letters.
     [\[PDF\]](http://www.cmaj.ca/cgi/reprint/170/9/1365.pdf)
 6.  **Electronic preprints: what should the BMJ do? \[editorial\].**
     Delamothe T. British Medical Journal 1998: 316(7134); 794-5.
-7.  **The BMJ\'s website scales up.** Delamothe T, Smith R. Bmj 1998:
+7.  **The BMJ's website scales up.** Delamothe T, Smith R. Bmj 1998:
     316(7138); 1109-10.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9552946&dopt=Abstract)
     [\[Full

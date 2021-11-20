@@ -9,14 +9,14 @@ tags:
 - Randomization
 output: html_document
 ---
-I\'m updating some of my training classes to use examples from open
+I'm updating some of my training classes to use examples from open
 source journals, because it is easier for me to include content of these
 articles directly in the web pages. An example of this is [practice
 exercises](../training/exercises/exercises32.htm) for my training class
 [Statistical Evidence: Apples or Oranges?](../training/hand32.asp)
 
 But the previous practice exercise, which used a wider range of journals
-had some cute articles in the mix. I\'ll especially miss the article on
+had some cute articles in the mix. I'll especially miss the article on
 episiotomy.
 
 You should bring a research paper with you to the class for use in the
@@ -42,7 +42,7 @@ examples for the practice exercises.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11182011&dopt=Abstract)
 -   **Influence of maternal age at delivery and birth order on risk of
     type 1 diabetes in childhood: prospective population based family
-    study. Bart\'s-Oxford Family Study Group.** P. J. Bingley, I. F.
+    study. Bart's-Oxford Family Study Group.** P. J. Bingley, I. F.
     Douek, C. A. Rogers, E. A. Gale. British Medical Journal 2000:
     321(7258); 420-4.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10938050&dopt=Abstract)
@@ -53,7 +53,7 @@ examples for the practice exercises.
     Gaziano, P. M. Ridker, W. Willett, R. Peto. N Engl J Med 1996:
     334(18); 1145-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8602179&dopt=Abstract)
--   **Male Pattern Baldness and Coronary Heart Disease: The Physician\'s
+-   **Male Pattern Baldness and Coronary Heart Disease: The Physician's
     Health Study.** Paulo A Lotufo. Archives of Internal Medicine 2000:
     160165-171.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10647754&dopt=Abstract)

@@ -54,7 +54,7 @@ the percentage is a ratio of two continuous measurements:
 > artery were taken before, during, and after 5 minutes of proximal cuff
 > occlusion. FMD was measured as the percent increase in diameter after
 > cuff release. Vascular tone was calculated using the resting diameter
-> as a percentage of the vessel\'s vasoactive range. Minimum diameter
+> as a percentage of the vessel's vasoactive range. Minimum diameter
 > occurred during ischemia and maximal diameter occurred following
 > reactive hyperemia with local heating. The lower leg was heated with
 > 10 minutes of immersion in 44 degrees C water. Mean diameters at rest,
@@ -75,7 +75,7 @@ model](../model/poisson.asp), or some closely related model works well.
 When the percentage involves continuous measures, then a [linear
 regression model](../model/linear.asp) usually works well, though you
 should consider a [log transformation](../model/log.asp) of the data. If
-you think the data involves counts, but you can\'t get the numbers for
+you think the data involves counts, but you can't get the numbers for
 the numerator or the denominator, then you are probably forced to use
 linear regression.
 

@@ -13,11 +13,11 @@ output: html_document
 2006-09-13)**
 
 > I took a three day workshop on grant writing and prepared a draft
-> grant as part of the student exercises in that class. It\'s not in the
+> grant as part of the student exercises in that class. It's not in the
 > format that I need to use, but it outlines most of the goals and
-> efforts of my proposed work. Here\'s what I wrote:
+> efforts of my proposed work. Here's what I wrote:
 >
-> As the research biostatistician at Children\'s Mercy, Dr. Simon has
+> As the research biostatistician at Children's Mercy, Dr. Simon has
 > supported the development of literally hundreds of clinical trials
 > across just about every branch of pediatric medicine. In his
 > experience and in the experience of many of the people he works with,
@@ -38,9 +38,9 @@ output: html_document
 > has recognized this as well and has documented the need for better
 > tools in an Program Announcement which calls in particular for
 >
-> > \"Development of appropriate outcomes measures and quality
+> > "Development of appropriate outcomes measures and quality
 > > indicators for the IRB review process for measurement of adequate
-> > protection of human subjects.\"
+> > protection of human subjects."
 >
 > Foundations and government agencies that support medical research
 > directly bear the costs of a study with poor accrual rates. When they
@@ -49,7 +49,7 @@ output: html_document
 > accrual goals and would have provided scientifically useful output.
 > The amount of research money tied up in these underperforming clinical
 > trials represents a huge lost opportunity cost that dilutes the
-> effectiveness of the agency\'s grant program.
+> effectiveness of the agency's grant program.
 >
 > Although slow accrual rates are a serious threat to the overall
 > research endeavor, they are treated like the crazy aunt in the attic.
@@ -65,7 +65,7 @@ output: html_document
 > monitoring accrual rates in clinical trials.
 >
 > Specific Aim \#1. Estimate the proportion of studies approved by the
-> Children\'s Mercy IRB between 2001 and 2004 that have experienced
+> Children's Mercy IRB between 2001 and 2004 that have experienced
 > delays in the completion of the studies because of accrual rates
 > problems or which ended without recruiting the original planned number
 > patients.
@@ -132,7 +132,7 @@ output: html_document
 > useful and if it gives them ideas on how to change and improve their
 > review process.
 >
-> **Executive summary**. As the research biostatistician at Children\'s
+> **Executive summary**. As the research biostatistician at Children's
 > Mercy, Dr. Simon has supported the development of literally hundreds
 > of clinical trials across just about every branch of pediatric
 > medicine. In his experience and in the experience of many of the
@@ -150,7 +150,7 @@ output: html_document
 > caused, in large part, by the lack of hard data on scope and magnitude
 > of the problem with slow patient accrual. This research proposal asks
 > for \$15,000 for a pilot study to evaluate a random sample of 100
-> studies approved by the Children\'s Mercy IRB. This sample will
+> studies approved by the Children's Mercy IRB. This sample will
 > produce an estimate of the proportion of studies that fall behind
 > schedule, the proportion that end with fewer patients than originally
 > planned, and the average shortfall in those studies. A qualitative
@@ -162,7 +162,7 @@ output: html_document
 > and realistic accrual rates and monitor them regularly, so that
 > corrective action can be taken early to get a study back on track.
 >
-> The teacher laughed at the \"crazy aunt in the attic\" analogy, but
+> The teacher laughed at the "crazy aunt in the attic" analogy, but
 > suggested that I would be better off leaving out that analogy.
 >
 > My first grant, by the way, went in on schedule and I should hear back
@@ -179,10 +179,10 @@ output: html_document
 -   [Stats: Early detection of accrual problems in clinical trials (June
     30, 2006)](AccrualProblems1.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
@@ -190,17 +190,17 @@ trials](../category/AccrualProblems.html).
 trials](../category/AccrualProblems.html).
 for pages similar to this one at [Category: Accrual problems in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: My second grant, part 2 (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).

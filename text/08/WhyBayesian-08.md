@@ -10,7 +10,7 @@ tags:
 - Bayesian statistics
 output: html_document
 ---
-> I\'m working with Byron Gajewski to develop some models for monitoring
+> I'm working with Byron Gajewski to develop some models for monitoring
 > the progress of clinical trials. Too many researchers overpromise and
 > undeliver on the planned sample size and the planned completion date
 > of their research. This leads to serious delays in the research and
@@ -20,7 +20,7 @@ output: html_document
 > researchers carefully monitor the progress of their studies and let
 > them take action quickly if accrual rates are suffering.
 >
-> We\'ve adopted a Bayesian approach for these tools. While a Bayesian
+> We've adopted a Bayesian approach for these tools. While a Bayesian
 > approach to Statistics is controversial, we feel that there should be
 > no controversy with regard to using a Bayesian approach to model
 > accrual.
@@ -28,9 +28,9 @@ output: html_document
 > There are lots of humorous quips about Bayesian statistics. One of my
 > favorites is from Stephen Senn.
 >
-> -   \"*Bayesian: One who, vaguely expecting a horse and catching a
+> -   "*Bayesian: One who, vaguely expecting a horse and catching a
 >     glimpse of a donkey, strongly concludes that he has seen a
->     mule.*\" **Statistical Issues in Drug Development, 2nd edition**,
+>     mule.*" **Statistical Issues in Drug Development, 2nd edition**,
 >     Senn SJ (2007) page 46.
 >
 > This quip alludes to the classic lay description of Bayesian

@@ -10,7 +10,7 @@ tags:
 - Website details
 output: html_document
 ---
-As part of my reorganization efforts, I am including bookmarks in some of my longer pages. Here\'s an example of an alphabetical list of bookmarks, which I have already used on [Category: Ask Professor Mean][sim3] and [Stats: Archive organized by category ][sim4].
+As part of my reorganization efforts, I am including bookmarks in some of my longer pages. Here's an example of an alphabetical list of bookmarks, which I have already used on [Category: Ask Professor Mean][sim3] and [Stats: Archive organized by category ][sim4].
 
 I plan to add similar bookmarks to other pages when I have time.
 

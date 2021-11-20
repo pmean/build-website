@@ -22,19 +22,19 @@ Adminstrative details](../category/AdministrativeDetails.asp)
 >
 > and I was told it was okay to put the [PDF flier for this
 > conference](../00files/LondonBrochure.pdf) on my web pages. I had to
-> list a \"Chairperson\'s Aid\" form which asked for my three claims to
+> list a "Chairperson's Aid" form which asked for my three claims to
 > fame: one work related, one humorous, and one that I am particularly
-> proud of. Here\'s what I wrote:
+> proud of. Here's what I wrote:
 >
 > > *Three Claims To Fame:*
 > >
-> > *1) One Work Related: I\'m the author of a book Statistical Evidence
+> > *1) One Work Related: I'm the author of a book Statistical Evidence
 > > in Medical Trials, recently published by Oxford University press. It
 > > has not sold as well as Harry Potter yet*
 > >
 > > *2) One humorous: I have a statistics advice column on my web pages
-> > called \"Ask Professor Mean.\" and I remind people that he is \"not
-> > just your average professor.\"*
+> > called "Ask Professor Mean." and I remind people that he is "not
+> > just your average professor."*
 > >
 > > *3) Something That You Are Particularly Proud Of: (This could be
 > > anything, funny, serious or work related. From running a marathon
@@ -42,8 +42,8 @@ Adminstrative details](../category/AdministrativeDetails.asp)
 > > years ago, I adopted a little boy from Russia. He is four years old
 > > now and he keeps me very busy.*
 >
-> I\'ve prepared my handouts for these talks on my training page, and
-> I\'ve tried to make the talks general enough that I can use them in
+> I've prepared my handouts for these talks on my training page, and
+> I've tried to make the talks general enough that I can use them in
 > other situaitons. Here are the two talks but as of today (November 6,
 > 2006), the second talk is much more complete than the first.
 >
@@ -58,26 +58,26 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon and was last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Materials for Signal Detection and
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

@@ -55,7 +55,7 @@ output: html_document
 > -   Subjects cannot agree to a future research project about which
 >     they have not been, and cannot be, informed.
 >
-> -   Subjects should be permitted to \"donate\" their own
+> -   Subjects should be permitted to "donate" their own
 >     data/materials for future uses.
 >
 > You need to disclose the operation of the data/tissue repository, the
@@ -83,13 +83,13 @@ output: html_document
 > federal regulations. There have been several examples of litigation
 > over commercialization of research products.
 >
-> **Greenberg v. Miami Children\'s Hospital**. Miami Children\'s applied
+> **Greenberg v. Miami Children's Hospital**. Miami Children's applied
 > for a patent on some work derived from research performed by
 > volunteers. Some of these volunteers were upset because they freely
 > sacrificed their time and endured many inconveniences, risks, and
 > discomforts. They did this because they wanted to help other patients
-> with disease and not to enrich Miami Children\'s Hospital. The court
-> held that failure to gain consent of patients on Canavan\'s disease on
+> with disease and not to enrich Miami Children's Hospital. The court
+> held that failure to gain consent of patients on Canavan's disease on
 > the commercialization of research products represented unjust
 > enrichment.
 >
@@ -121,13 +121,13 @@ output: html_document
 > Data/materials collected during standard of care potentially falls
 > under a different standard.
 >
-> It\'s more important than ever to have clear and understandable
+> It's more important than ever to have clear and understandable
 > informed consent forms because if you are sued, it will be scrutinized
-> by a judge and/or jury with a typical lay person\'s understanding of
+> by a judge and/or jury with a typical lay person's understanding of
 > the issues.
 >
 > If you store records of your own practice in a separate location, then
-> be careful. Even if you do nothing \"researchy\" with the data right
+> be careful. Even if you do nothing "researchy" with the data right
 > away, you should submit a general databanking protocol to the IRB with
 > continuing review every year. The protocol would describe how you will
 > store the records, what information will be stored, and what security
@@ -163,7 +163,7 @@ output: html_document
 >
 > How does an IRB handle adverse event reports (AE)? A committee of FDA
 > and OHRP is working on consistency of reporting of AEs. Committee has
-> to do \"triage\" on AE reports. The full IRB would only review serious
+> to do "triage" on AE reports. The full IRB would only review serious
 > AEs that are related to the drug/device. Especially critical is a
 > review of any AEs that are not mentioned in the informed consent form.
 >

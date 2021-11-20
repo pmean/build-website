@@ -176,11 +176,11 @@ collar, aquarium, etc.
 
 $^2$ yearly cost. This cost will vary based on the size of the pet.
 
-This table is a lot easier to look at. You might notice a few new patterns that weren\'t so obvious before.
+This table is a lot easier to look at. You might notice a few new patterns that weren't so obvious before.
 
 - Birds, dogs, and cats all have about the same initial cost, but cats have far smaller yearly costs.
 - Lizards and snakes may not cost a lot at first, but they are expensive to feed.
-- Fish don\'t cost that much to buy and to feed, but have a lot of miscellaneous costs, probably due to aquarium upkeep.
+- Fish don't cost that much to buy and to feed, but have a lot of miscellaneous costs, probably due to aquarium upkeep.
 
 You will probably notice other interesting patterns.
 
@@ -198,7 +198,7 @@ Steph Bairey. How Much Does it Cost to Own a Pet?
 
 But my link to that article no longer works. Here is a similar article in [html format][bai1].
 
-Note: The numbers on the web page were already rounded, so I had to \"unround\" them for this example by adding a small random amount to each value. I also replaced some of the zero values by a slightly larger number and made some other minor adjustments. The costs reflected in my tables, however, are very close to the ones on the web.
+Note: The numbers on the web page were already rounded, so I had to "unround" them for this example by adding a small random amount to each value. I also replaced some of the zero values by a slightly larger number and made some other minor adjustments. The costs reflected in my tables, however, are very close to the ones on the web.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

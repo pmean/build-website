@@ -14,7 +14,7 @@ squared deviation. If it is an average, how come we divide by the
 degrees of freedom (n-1) rather than n. Is this just a conspiracy among
 statisticians to make this stuff harder to understand.*
 
-> You\'ve been watching too many episodes of the X-files. We\'d make
+> You've been watching too many episodes of the X-files. We'd make
 > this simpler if we could.
 >
 > Degrees of freedom is a **measure of how much precision an estimate of
@@ -29,11 +29,11 @@ statisticians to make this stuff harder to understand.*
 > procedures have even smaller degrees of freedom than our standard
 > deviation formula.
 >
-> Here\'s a cute joke I heard that is based on the concepts we just
+> Here's a cute joke I heard that is based on the concepts we just
 > talked about. Two statistics are in a bar, talking and drinking. One
-> statistic turns to the other and says \"So how are you finding married
-> life?\" The other statistic responds, \"It\'s okay, but you lose a
-> degree of freedom.\"
+> statistic turns to the other and says "So how are you finding married
+> life?" The other statistic responds, "It's okay, but you lose a
+> degree of freedom."
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

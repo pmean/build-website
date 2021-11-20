@@ -74,8 +74,8 @@ SwissProt/UniProt
 > an accession number is always conserved, and therefore allows
 > unambiguous citation of entries. Researchers who wish to cite entries
 > in their publications should always cite the first accession number.
-> This is commonly referred to as the \'primary accession number\'.
-> \'Secondary accession numbers\' are sorted alphanumerically. We
+> This is commonly referred to as the 'primary accession number'.
+> 'Secondary accession numbers' are sorted alphanumerically. We
 > strongly advise those users who have programs performing mappings of
 > Swiss-Prot to another data resource to use Swiss-Prot accession
 > numbers to identify an entry. Entries will have more than one
@@ -110,17 +110,17 @@ Other information
 > list of the latest version of the entry in which it first appeared.
 > Accession numbers allow unambiguous citation of database entries.
 > Researchers who wish to cite entries in their publications should
-> always cite the first accession number in the list (the \"primary\"
+> always cite the first accession number in the list (the "primary"
 > accession number) to ensure that readers can find the relevant data in
 > a subsequent release. Readers wishing to find the data thus cited must
-> look at all the accession numbers in each entry\'s list.*
+> look at all the accession numbers in each entry's list.*
 >
 > *Secondary accession numbers: One reason for allowing the existence of
 > several accession numbers is to allow tracking of data when entries
 > are merged or split. For example, when two entries are merged into
-> one, a \"primary\" accession number goes at the start of the list, and
+> one, a "primary" accession number goes at the start of the list, and
 > those from the merged entries are added after this one as
-> \"secondary\" numbers. Example: AC X56734; S46826; Similarly, if an
+> "secondary" numbers. Example: AC X56734; S46826; Similarly, if an
 > existing entry is split into two or more entries (a rare occurrence),
 > the original accession number list is retained in all the derived
 > entries. An accession number is dropped from the database only when
@@ -143,26 +143,26 @@ Other information
     text\]](http://nar.oxfordjournals.org/cgi/content/full/31/1/28)
     [\[PDF\]](http://nar.oxfordjournals.org/cgi/reprint/31/1/28.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Naming conventions for genes,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

@@ -10,7 +10,7 @@ output: html_document
 ---
 Someone wrote into the
 [MedStats](../category/InterestingWebsites.html#MeStXx) listserv asking
-about a process that they had chosen to select \"important\" articles in
+about a process that they had chosen to select "important" articles in
 a particular research area. This was, I presume, a qualitative summary
 of interesting results in a broad medical area rather than a
 quantitative synthesis of all available research addressing a specific
@@ -56,7 +56,7 @@ also filter out those studies that use surrogate outcomes. Both of these
 filters have their own problems, of course, but they are more defensible
 that the filter of statistical significance.
 
-You could also use other people\'s judgments as a filter. If it gets
+You could also use other people's judgments as a filter. If it gets
 reported in the New York Times, it is probably important. Or you could
 see how often the article is blogged. Or you could only include articles
 that are published in journals that have an impact factor above a

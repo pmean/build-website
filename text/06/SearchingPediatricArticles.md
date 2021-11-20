@@ -25,8 +25,8 @@ following terms:
 -   child:.mp. OR adolescent.mp. OR infan:.mp.
 
 which had a sensitivity of 98% and a specificity of 81%. The colon after
-\"child\" tells MedLine to search for any word beginning with \"child.\"
-This allows you to search for either \"child\" or \"children\". The .mp
+"child" tells MedLine to search for any word beginning with "child."
+This allows you to search for either "child" or "children". The .mp
 is a PubMed tag for multiple posting. It searches for terms that appear
 in the title, abstract, or subject heading. The search that maximized
 specificity was
@@ -54,7 +54,7 @@ tag for MeSH subheading. MeSH is an acronym for Medical Subject Heading
 and represents an effort by the coders at PubMed to classify the medical
 specialties associated with the article being listed.
 
-*NLM\'s Medical Subject Headings controlled vocabulary of biomedical
+*NLM's Medical Subject Headings controlled vocabulary of biomedical
 terms that is used to describe the subject of each journal article in
 MEDLINE. MeSH contains more than 23,000 terms and is updated annually to
 reflect changes in medicine and medical terminology. MeSH terms are
@@ -64,7 +64,7 @@ and select terms for searching in the MeSH Database. Skilled subject
 analysts examine journal articles and assign to each the most specific
 MeSH terms applicable - typically ten to twelve. Applying the MeSH
 vocabulary ensures that articles are uniformly indexed by subject,
-whatever the author\'s words*.
+whatever the author's words*.
 [www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search\_Field\_Descrip](http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Search_Field_Descrip)
 
 What does sensitivity and specificity mean in the context of a Medline

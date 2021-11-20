@@ -48,4 +48,4 @@ uncomfortable.
 **Greed**: Researchers will often overstate the clinical significance of
 their findings in the discussion section.
 
-I\'d like to elaborate on each of these points in later weblog entries.
+I'd like to elaborate on each of these points in later weblog entries.

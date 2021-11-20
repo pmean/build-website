@@ -8,7 +8,7 @@ tags:
 - Corroborating evidence
 output: html_document
 ---
-\"*Extraordinary claims require extraordinary proof.*\" This is the
+"*Extraordinary claims require extraordinary proof.*" This is the
 mantra of skeptical thinkers and it provides useful for evaluating
 claims that fall outside the mainstream of science. This is part of the
 network of corroborating evidence that we demand as we review research
@@ -17,14 +17,14 @@ claims in medical journal articles.
 One aspect of a claim that makes it extraordinary is that there is no
 plausible mechanism that would explain how the therapy works. Therapies
 without such a mechanism would be subjected to a higher standard of
-proof. Don\'t reject a therapy automatically, though, just because no
+proof. Don't reject a therapy automatically, though, just because no
 known mechanism exists. Many successful medical interventions were
 adopted before a mechanism was discovered that explained how and why
 that intervention worked.
 
 Another problem is that not everyone agrees on when a plausible
 mechanism exists. Proponents of homeopathy argue that their approach
-works because water has \"memory\" that retains the effect of medicines
+works because water has "memory" that retains the effect of medicines
 that otherwise would be diluted out. They point to a series of
 experiments published in Nature magazine.
 
@@ -78,16 +78,16 @@ fact itself, as well as the theory.
 One thing that has always bothered me about the extraordinary claims
 quote is that it is so highly dependent on subjective judgment. If you
 have spent your life practicing homeopathy, any claim about its power
-would not surprise you, so you wouldn\'t demand extraordinary proof. If
-you\'ve never used homeopathy, you would view any positive findings more
+would not surprise you, so you wouldn't demand extraordinary proof. If
+you've never used homeopathy, you would view any positive findings more
 skeptically and would demand more evidence.
 
-It\'s a bit disillusioning to review this sort of thing, because one
+It's a bit disillusioning to review this sort of thing, because one
 side or the other in this debate is severely deluded. On the other hand,
-it\'s probably a good thing that people don\'t drop their cherished
+it's probably a good thing that people don't drop their cherished
 beliefs on the basis of one or two studies. If homeopathy really works,
 evidence for it will gradually rise to the level where it will convince
-all but the most entrenched minds. If homeopathy really doesn\'t work,
+all but the most entrenched minds. If homeopathy really doesn't work,
 evidence against it will gradually erode the foundation until the only
 proponents will be again the most entrenched minds.
 

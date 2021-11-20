@@ -30,7 +30,7 @@ The letter writers dispute (among other things) the claim of a
 statistically and clinically significant reduction. In the original
 paper, the authors show several results, and the one that is perhaps the
 most important is the proportion of patients who score 28 or less on the
-Children\'s Depression Rating Scale. By this criteria, 36% of the
+Children's Depression Rating Scale. By this criteria, 36% of the
 treated patients and 24% of the control patients showed improvement.
 
 One way to see if the results of a study are clinically significant is
@@ -39,7 +39,7 @@ difference in percentages is 12% and when you invert it, you get a value
 of NNT=8.1. This means that you have to treat 8 patients with the drug
 in order to see one additional improvement over placebo.
 
-Is an NNT of 8 clinically significant? I can\'t answer this question
+Is an NNT of 8 clinically significant? I can't answer this question
 because I am not a psychiatrist. I will point out that you have to
 balance the costs of the treatment (economic costs, the inconveniences
 caused by having to take the medication, and the side effects that these
@@ -47,7 +47,7 @@ patients will have to endure) against the benefits.
 
 The thing to keep in mind is that all eight patients pay the costs of
 the drugs to accrue benefits for a single patient. If the benefit of
-pushing one additional patient below 28 on the Children\'s Depression
+pushing one additional patient below 28 on the Children's Depression
 Scale is more than 8 times as valuable as the costs that each patient
 endures, then a change from 24% to 36% is worthwhile from a clinical
 viewpoint.
@@ -77,7 +77,7 @@ statistical significance, but even then, I suspect that the upper limit
 for the confidence interval for NNT would be in the hundreds or
 thousands.
 
-I shouldn\'t pick on these particular authors. There is a general
+I shouldn't pick on these particular authors. There is a general
 problem with reporting confidence intervals
 
 -   **Confidence intervals rather than P values: estimation rather than

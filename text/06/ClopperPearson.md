@@ -47,17 +47,17 @@ binomial proportion (created 2006-08-18)**.
 > review of Clopper Pearson approach and some competing formulas for
 > confidence intervals appears in
 >
-> -   **Approximate Is Better than \"Exact\" for Interval Estimation of
+> -   **Approximate Is Better than "Exact" for Interval Estimation of
 >     Binomial Proportions**. Alan Agresti; Brent A. Coull. The American
 >     Statistician, Vol. 52, No. 2. (May, 1998), pp. 119-126.
 >
 > Neither of these papers is readily available on the web for free.
 > Sorry!
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).
@@ -65,17 +65,17 @@ intervals](../category/ConfidenceIntervals.html).
 intervals](../category/ConfidenceIntervals.html).
 for pages similar to this one at [Category: Confidence
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **An exact confidence interval for a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).

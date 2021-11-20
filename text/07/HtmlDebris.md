@@ -20,40 +20,40 @@ output: html_document
 > bothered adding yet to my web pages. Out of morbid curiosity, I noted
 > all the various \<span\> tags on my site.
 >
-> -   \<span class=\"copySubtitle-B\"\>
-> -   \<span class=\"DA\"\>
-> -   \<span class=\"Fn\"\>
-> -   \<span class=\"Ip\"\>
-> -   \<span class=\"Is\"\>
-> -   \<span class=\"Mn\"\>
-> -   \<span class=\"Pb\"\>
-> -   \<span class=\"Pg\"\>
-> -   \<span class=\"Pn\"\>
-> -   \<span class=\"Sn\"\>
-> -   \<span class=\"V\"\>
-> -   \<span class=\"Yr\"\>
-> -   \<span id=\"BodyContent\"\>
-> -   \<span style=\"background-color: \#FFFFFF\"\>
-> -   \<span style=\"background-color: \#FFFF00\"\>
-> -   \<span style=\"color: black\"\>
-> -   \<span style=\"font-size: 12.0pt; font-family: Times New Roman;
->     font-weight: 700\"\>
-> -   \<span style=\"font-size: 12.0pt; font-family: Times New Roman;
->     font-weight: 700\"\>
-> -   \<span style=\"font-size:24.0pt\"\>
-> -   \<span STYLE=\"font-style: normal\"\>
-> -   \<span style=\"font-weight: 400\"\>
-> -   \<span style=\"font-weight: 700\"\>
-> -   \<span STYLE=\"font-weight: medium\"\>
-> -   \<span title=\"BMJ (Clinical research ed.)\"
->     onmouseover=\"AbbrLookUp(this, \'BMJ.\');\"\>
-> -   \<span title=\"The New England journal of medicine.\"
->     onmouseover=\"AbbrLookUp(this, \'N Engl J Med.\');\"\>
+> -   \<span class="copySubtitle-B"\>
+> -   \<span class="DA"\>
+> -   \<span class="Fn"\>
+> -   \<span class="Ip"\>
+> -   \<span class="Is"\>
+> -   \<span class="Mn"\>
+> -   \<span class="Pb"\>
+> -   \<span class="Pg"\>
+> -   \<span class="Pn"\>
+> -   \<span class="Sn"\>
+> -   \<span class="V"\>
+> -   \<span class="Yr"\>
+> -   \<span id="BodyContent"\>
+> -   \<span style="background-color: \#FFFFFF"\>
+> -   \<span style="background-color: \#FFFF00"\>
+> -   \<span style="color: black"\>
+> -   \<span style="font-size: 12.0pt; font-family: Times New Roman;
+>     font-weight: 700"\>
+> -   \<span style="font-size: 12.0pt; font-family: Times New Roman;
+>     font-weight: 700"\>
+> -   \<span style="font-size:24.0pt"\>
+> -   \<span STYLE="font-style: normal"\>
+> -   \<span style="font-weight: 400"\>
+> -   \<span style="font-weight: 700"\>
+> -   \<span STYLE="font-weight: medium"\>
+> -   \<span title="BMJ (Clinical research ed.)"
+>     onmouseover="AbbrLookUp(this, 'BMJ.');"\>
+> -   \<span title="The New England journal of medicine."
+>     onmouseover="AbbrLookUp(this, 'N Engl J Med.');"\>
 >
 > These tags do not directly affect the display of my webpages, so it
 > would be safe to ignore them. But the thought of alien tags on my
 > website bothered me enough that I took the trouble to strip them all
 > out.
 >
-> Update (October 3, 2007) Another stray tag is \<font face=\"Times New
-> Roman\"\>
+> Update (October 3, 2007) Another stray tag is \<font face="Times New
+> Roman"\>

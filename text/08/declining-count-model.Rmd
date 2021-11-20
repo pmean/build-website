@@ -8,14 +8,14 @@ tags:
 - Poisson regression
 output: html_document
 ---
-I\'ve been working on an interesting project that requires Poisson
+I've been working on an interesting project that requires Poisson
 regression. A company sends out a mailing and gets a certain number of
 telephone calls back on each of the days following. The number of phone
 calls is typically (but not always) highest on the first day afterwards
 and declines rapidly on successive days. I wanted to develop a simple
 Poisson regression model for this data.
 
-Here\'s an example of this data
+Here's an example of this data
 
 `1 9   2 4   3 2   4 3   5 0   6 0   7 1`
 
@@ -105,7 +105,7 @@ For r\<1, the sum of this infinite series is
 
 `a/(1-r)`
 
-For a=8.2 and r=0.58, this equals 19.5. Since we\'ve already seen 19
+For a=8.2 and r=0.58, this equals 19.5. Since we've already seen 19
 events, we would expect to see half an event on average for the
 remainder the time. You can use the dpois function to estimate
 probabilities for a Poisson random variable with a mean of 0.5.

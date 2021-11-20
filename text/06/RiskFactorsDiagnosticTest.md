@@ -36,7 +36,7 @@ increase the pre-test probability of breast cancer for this patient.
 
 How much you adjust the pre-test probability is tricky, but it should
 certainly be done. This is classic illustration of how we can apply
-David Sackett\'s admonition to individualize the practice of EBM.
+David Sackett's admonition to individualize the practice of EBM.
 
 You could indeed think of the risk factors as diagnostic tests in their
 own right. Some of these ideas are covered in the JAMA Rational Clinical
@@ -44,14 +44,14 @@ Examination series. Still this seems to me to be bit much. So if you are
 testing for heart disease and the patient is a smoker, just double the
 prevalence estimate.
 
-Don\'t forget about the Step-2 adjustments also. Where you practice
+Don't forget about the Step-2 adjustments also. Where you practice
 medicine can make a big difference in your pre-test probability. If you
 work in a tertiary care center, your prevalence rates are probably
 higher than it would be for a primary care physician. The funneling of
 patients and the screening/filtering that goes on will tend to
 concentrate the proportion of difficult cases.
 
-There\'s an amusing story about screening for alcohol abuse. It turns
+There's an amusing story about screening for alcohol abuse. It turns
 out (not surprisingly) that alcohol abuse is very much dependent on the
 age and gender of the patient which is important for your Step-3
 adjustment, but another interesting fact is that the rate of abuse in an
@@ -60,8 +60,8 @@ population. For an inpatient setting, the rate is four times higher.
 These are Step-2 adjustments.
 
 \%22Why is it that patients in an outpatient or inpatient setting have a
-much greater probability of alcohol abuse?\" I will typically ask my
-students. \"Does being around doctors so much drive people to drink?\"
+much greater probability of alcohol abuse?" I will typically ask my
+students. "Does being around doctors so much drive people to drink?"
 The answer, of course, is actually quite logical. People who abuse
 alcohol tend to have more health problems than the general population
 and tend to be overrepresented in outpatient and inpatient settings.
@@ -72,10 +72,10 @@ and tend to be overrepresented in outpatient and inpatient settings.
     American College of Physicians. [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0943126754.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Diagnostic
 testing](../category/DiagnosticTesting.html).
@@ -83,17 +83,17 @@ testing](../category/DiagnosticTesting.html).
 testing](../category/DiagnosticTesting.html).
 for pages similar to this one at [Category: Diagnostic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Incorporating risk factors into
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Diagnostic
 testing](../category/DiagnosticTesting.html).

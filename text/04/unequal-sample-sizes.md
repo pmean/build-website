@@ -14,7 +14,7 @@ the tests that they would run on the data would be valid or not. As a
 general rule, there is no reason that you cannot analyze data with
 unequal sample sizes. There are a few procedures, such as the Tukey
 follow-up test in Analysis of Variance, that require some adaptations.
-You also may not have as much precision as you\'d like to have. The rule
+You also may not have as much precision as you'd like to have. The rule
 of thumb is that precision is determined predominantly by the group with
 the smaller sample size. Finally, some violations of assumptions (such
 as unequal variances) may be more serious when the samples sizes are

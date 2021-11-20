@@ -16,7 +16,7 @@ comments will discuss the options for R running under Microsoft Windows.
 There are similar approaches that work for other systems.
 
 First, the `windows()` function will create a new window in R that
-graphics will appear in. You don\'t need to use this function because
+graphics will appear in. You don't need to use this function because
 the first time you use a function like `plot()`, the `windows()`
 function will be called with all the default options. If you do call the
 windows() function, you can set an argument, record, to the value of

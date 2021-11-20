@@ -14,10 +14,10 @@ meeting of the Midwest Society for Pediatric
 Research](GoldStandard.html).
 
 Catherine Fiorello highlights the weakness of the anecdotal argument
-\"*I was spanked as a child and I turned out okay.*\" Such an
+"*I was spanked as a child and I turned out okay.*" Such an
 observation ignores the need for a comparison group. Such a group would
-help answer the question \"*What would I have been like if I hadn\'t
-been spanked as a child?*\" When large groups of both spanked and
+help answer the question "*What would I have been like if I hadn't
+been spanked as a child?*" When large groups of both spanked and
 unspanked children are compared, the unspanked children tend to fare
 better. They are less aggressive and have fewer problems with
 depression.
@@ -29,7 +29,7 @@ impossible to disentangle causes and effects (did the child misbehave
 more because of being spanked or did the parent spank because the child
 misbehaved so often).
 
-**Common Myths of Children\'s Behavior**. Fiorello CA. Skeptical
+**Common Myths of Children's Behavior**. Fiorello CA. Skeptical
 Inquirer 25(3) (May/June 2001): 37-39,44.
 
 **Spanking by parents and subsequent antisocial behavior of children**.

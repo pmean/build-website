@@ -16,7 +16,7 @@ output: html_document
 > out that 4 repeated measurements on 10 subjects is not the same as 40
 > independent observations. There is almost always a positive
 > correlation among these measurements and that implies a level of
-> redundancy. You don\'t get as much information as you would with 40
+> redundancy. You don't get as much information as you would with 40
 > independent observations.
 >
 > But it is not the same as a sample size of 10 either. The repeated

@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 > I was asked by BMJ to review a paper that involved a qualitative data
-> analysis. These reviews are confidential, so I don\'t want to describe
+> analysis. These reviews are confidential, so I don't want to describe
 > the paper in any detail. It is worthwhile, however, to note some of
 > the standards that others have suggested for assessing the quality of
 > a qualitative data analysis.
@@ -34,7 +34,7 @@ output: html_document
 > research. In particular, do concepts like validity, generalizability,
 > and reliability apply in the same ways?
 >
-> Those who would answer \"no\" to this question, the antirealists,
+> Those who would answer "no" to this question, the antirealists,
 >
 > > *argue that qualitative research represents a distinctive paradigm
 > > and as such it cannot and should not be judged by conventional
@@ -51,7 +51,7 @@ output: html_document
 > some of these articles in a separate web page.
 >
 > On the opposite side of the fence are the relativists, those who would
-> offer a conditional \"yes\" to the above question. According to the
+> offer a conditional "yes" to the above question. According to the
 > authors, relativists believe that
 >
 > > *assessment criteria are feasible but that distinctive ones are
@@ -91,7 +91,7 @@ output: html_document
 >
 > > *there is an underlying reality which can be studied*
 >
-> and that while research may not be able attain the \"truth\", it is
+> and that while research may not be able attain the "truth", it is
 > capable of representing the underlying reality.
 >
 > The difference between attaining truth and representing an underlying
@@ -119,11 +119,11 @@ output: html_document
 >     should be able to make informed judgments about the extent to
 >     which your work was influenced by personal biases.
 > -   Reflexivity. This is a term that the authors use without a good
->     definition. One source defines it as an \"*awareness of the
->     researcher\'s contribution to the construction of meanings
+>     definition. One source defines it as an "*awareness of the
+>     researcher's contribution to the construction of meanings
 >     throughout the research process, and an acknowledgment of the
->     impossibility of remaining \'outside of\' one\'s subject matter
->     while conducting research.*\" When you are documenting your
+>     impossibility of remaining 'outside of' one's subject matter
+>     while conducting research.*" When you are documenting your
 >     qualitative research study, you should therefore define your own
 >     prior assumptions and experience.
 > -   Attention to negative data. The authors also define this as

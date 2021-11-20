@@ -9,16 +9,16 @@ tags:
 output: html_document
 ---
 > One of the talks at the 18th Annual Applied Statistics in Agriculture
-> Conference, sponsored by Kansas State University was \"A visual aid to
-> help a statistician work with a molecular biologist\" by Debbie Boykin
+> Conference, sponsored by Kansas State University was "A visual aid to
+> help a statistician work with a molecular biologist" by Debbie Boykin
 > of the USDA Agricultural Research Service, coauthored by Earl
 > Taliercio, also of the USDA Agricultural Research Service and Rowena
 > Kelly from Mississippi State University. The original title of the
-> talk was \"Improving Power of Microarray Experiments by Adjusting Data
-> so Fewer Differentially Expressed Genes are Overlooked\" but Dr.
+> talk was "Improving Power of Microarray Experiments by Adjusting Data
+> so Fewer Differentially Expressed Genes are Overlooked" but Dr.
 > Boykin reviewed the material and decided to change the focus.
 >
-> Dr. Boykin\'s efforts to work with molecular biologists have not been
+> Dr. Boykin's efforts to work with molecular biologists have not been
 > easy. She warned us that these people speak a different language. The
 > statistician needs to invest some time in learning about the
 > technology in order to understand the problems. The scientists, on the

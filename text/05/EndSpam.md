@@ -40,7 +40,7 @@ messages.
     Accessed on 2004-02-09. www.paulgraham.com/better.html
 
 There is a nice article about email spoofing (making an email look like
-it is coming from a different person\'s account). Spoofing is a way that
+it is coming from a different person's account). Spoofing is a way that
 spammers hide their tracks and can also be used to try to get someone in
 hot water. Spoofing is illegal, but you have to track down the person
 who did it, which is not always easy.
@@ -60,8 +60,8 @@ Further reading about spam:
     www.cdt.org/speech/spam/030319spamreport.shtml
 -   **[Welcome to CAUCE!](http://www.cauce.org/)**. Accessed on
     2003-02-12. www.cauce.org/
--   **[SPAM FAQ or \"Figure out fake E-Mail &
-    Posts\"](http://digital.net/~gandalf/spamfaq.html)**. Hollis K.
+-   **[SPAM FAQ or "Figure out fake E-Mail &
+    Posts"](http://digital.net/~gandalf/spamfaq.html)**. Hollis K.
     Accessed on 1997-digital.net/\~gandalf/spamfaq.html
 -   **[Junkbusters Home Page](http://www.junkbusters.com/index.html)**.
     Junkbusters Corporation. Accessed on 2003-02-12.

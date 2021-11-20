@@ -9,7 +9,7 @@ tags:
 - Categorical data 
 output: html_document
 ---
-> I\'ve written some code in R to present a graphical summary of a
+> I've written some code in R to present a graphical summary of a
 > complex data set using biplots. I write most of the code myself using
 > the singular value decomposition function (svd) in R. There are a wide
 > range of techniques that can be loosely classified as biplots, such as
@@ -23,15 +23,15 @@ output: html_document
 > variables) does not allow a simple direct examination of the data set.
 > The singular value decomposition produces linear combinations of
 > observations and linear combinations of columns that represent
-> dimensions of maximal variation (a formal definition of \"maximal
-> variation\" would require matrix algebra). The biplot is a simple
+> dimensions of maximal variation (a formal definition of "maximal
+> variation" would require matrix algebra). The biplot is a simple
 > graphical display these linear combinations. The first two or three
 > dimensions of maximal variation often (but not always) capture
 > interesting relationships among the observations and variables in a
 > data set.
 >
 > A biplot is an exploratory approach that the data mining experts would
-> classify as \"unsupervised learning.\"
+> classify as "unsupervised learning."
 >
 > A nice book that describes the biplot in its many forms is:
 >
@@ -39,8 +39,8 @@ output: html_document
 >     J.C. Gower and David J. Hand (1995). Chapman & Hall/CRC.
 >     ISBN: 0412716305.
 >
-> I don\'t have this book (yet), but a quick glance using the \"Search
-> Inside\" feature of Amazon indicates that there is a wealth of
+> I don't have this book (yet), but a quick glance using the "Search
+> Inside" feature of Amazon indicates that there is a wealth of
 > information about the interrelationships among the various methods.
 >
 > Two other books which discuss biplots in a lesser amount of detail are

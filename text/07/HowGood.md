@@ -10,10 +10,10 @@ tags:
 output: html_document
 ---
 > *Dear Professor Mean, I have two time series of data, one actual and
-> one predicted. Since I\'m quite new to statistical methods, I would
+> one predicted. Since I'm quite new to statistical methods, I would
 > like to know what methods are used to evaluate the different between
-> the two time series. I would like to able to say something like \"the
-> predicted values were 70% accurate.\"*
+> the two time series. I would like to able to say something like "the
+> predicted values were 70% accurate."*
 >
 > See what others in your area are doing and emulate them, as there is
 > no one measure that is used uniformly. Most formulas are based on the

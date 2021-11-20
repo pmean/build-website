@@ -40,13 +40,13 @@ The second article discusses the teaching of Bayesian statistics.
     Bayesian)**
 
 This article is written from the perspective of someone who believes
-that anyone who thinks carefully about statistics can\'t help but
+that anyone who thinks carefully about statistics can't help but
 abandon traditional frequentist methods because of their many flaws. The
 language is quite blunt. Users of frequentist methods
 
-> *must make \"judgmental adjustments\" or \"adaptative distorsions\"
+> *must make "judgmental adjustments" or "adaptative distorsions"
 > designed to make an ill-suited tool fit their true needs.*
 
 Dr. Lecoutre advocates the use of non-informative priors and offers the
-term \"Fiducial Bayesian\" to describe this approach. Although I dislike
+term "Fiducial Bayesian" to describe this approach. Although I dislike
 the aggressive tone of this article, it is worth reading.

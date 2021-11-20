@@ -17,7 +17,7 @@ I ran across an interesting article recently.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=17227937&dopt=Abstract)
     [\[Abstract\]](http://www.annals.org/cgi/content/abstract/146/2/133)
 
-I\'m reproducing the abstract here because I find the results
+I'm reproducing the abstract here because I find the results
 intriguing.
 
 > *Our objective was to illustrate the effects of using stricter

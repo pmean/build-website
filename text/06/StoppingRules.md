@@ -18,10 +18,10 @@ listed below.
 Not all trials should have explicit rules for stopping early. Early
 stopping may not be all that critical if you are examining a condition
 that does not cause serious and irreversible morbidity. For practical
-reasons you can\'t stop a short term study early because it will be over
+reasons you can't stop a short term study early because it will be over
 before the statistician has a chance to analyze the data. Likewise,
 early stopping is problematic when you are looking at long term
-outcomes. Don\'t stop a study early for efficacy reasons if a careful
+outcomes. Don't stop a study early for efficacy reasons if a careful
 assessment of side effects might be incomplete and that assessment is a
 critical component of the research.
 
@@ -37,7 +37,7 @@ stopping.
     text\]](http://ajrccm.atsjournals.org/cgi/content/full/164/2/190)
     [\[PDF\]](http://ajrccm.atsjournals.org/cgi/reprint/164/2/190.pdf)
 
-You should use the following as a general guide, but don\'t be afraid to
+You should use the following as a general guide, but don't be afraid to
 include whatever considerations for early stopping that your particular
 research warrants.
 
@@ -50,10 +50,10 @@ order to preserve the scientific integrity of the study.
 > *A statistician will review the unblinded efficacy data after roughly
 > 1/3 of the target sample size has accumulated and after roughly 2/3 of
 > the target sample size has accumulated. If the primary endpoint is
-> statistically significant after using the O\'Brien-Fleming p-value
+> statistically significant after using the O'Brien-Fleming p-value
 > adjustment, then the study will end early.*
 
-A good reference for O\'Brien-Fleming and related methods is
+A good reference for O'Brien-Fleming and related methods is
 
 -   **Group Sequential Methods with Applications to Clinical Trails.**
     Christopher Jennison, Bruce W. Turnbull (2000) Boca Raton, Florida:
@@ -133,7 +133,7 @@ the study early. For example,
 > irreversible disability, unless it can be shown that this event was
 > unrelated to participation in the clinical trial.*
 
-The last provision is important, because you shouldn\'t end a drug trial
+The last provision is important, because you shouldn't end a drug trial
 if your patient dies while climbing Mount Everest.
 
 If the risks and benefits are both large, then perhaps you need to do an

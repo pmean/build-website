@@ -17,7 +17,7 @@ uses the form ESTIMATE +/- 1.96 * STANDARD ERROR.
 <!---More--->
 
 **Not every confidence interval uses a plus or minus type formula**. The
-ones that don\'t are usually asymmetric. In particular, **most
+ones that don't are usually asymmetric. In particular, **most
 confidence intervals involving ratios are asymemmetric** (though some of
 them are symmetric on a log scale). Also **confidence intervals that
 take the small sample sizes into account are often asymmetric**. It's

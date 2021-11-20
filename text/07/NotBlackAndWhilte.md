@@ -11,7 +11,7 @@ output: html_document
 ---
 I was asked to review a commentary about studies involving remote
 healing (which includes prayer studies as a subgroup). It is not
-available yet on the web, but I\'ll try to link to it when it becomes
+available yet on the web, but I'll try to link to it when it becomes
 available. One of the documents that this commentary did refer to,
 however, is available on the web.
 
@@ -55,9 +55,9 @@ excluded from the overview. But in most situations, black and white
 rules are too simplistic.
 
 I knew a statistician who refused to work on any research study that
-wasn\'t randomized. He felt that non-randomized studies were so
+wasn't randomized. He felt that non-randomized studies were so
 compromised that to provide any help was to encourage bad research.
-That\'s his prerogative, of course, but it struck me as a bit elitist
+That's his prerogative, of course, but it struck me as a bit elitist
 (and also a bit impractical). Our goal as statisticians is to present
 the data fairly and make sure that researchers (and the readers of the
 papers that they publish) understand the strengths and limitations of
@@ -70,11 +70,11 @@ intention to treat analysis, in chapter 3 it was blinding, and in
 chapter 4 it was biological plausibility. One of the reviewers of my
 book roundly criticized me for saying that randomization was overrated.
 It was like I was betraying my profession. But my point was not that you
-shouldn\'t randomize. Rather, it was that randomization does not confer
+shouldn't randomize. Rather, it was that randomization does not confer
 on a study an immunity from criticism. Randomized studies have serious
 problems that are underappreciated.
 
-There\'s another important issue to remember here. Studies are designed
+There's another important issue to remember here. Studies are designed
 in a complex environment with a mix of competing demands. If you were
 studying the positive influences of breastfeeding on the health of a
 child, you would not normally randomize this type of study. First, it is
@@ -82,7 +82,7 @@ a mistake to ask half of the mothers to forgo something that is known to
 benefit their children, even if our knowledge of all of the dimensions
 of benefit is still somewhat incomplete. Second, the decision to
 breastfeed (and for how long) is a very personal choice and we cannot
-easily control this in the way we control the dose of a patient\'s
+easily control this in the way we control the dose of a patient's
 medication.
 
 So, really, you could argue that randomizing a breastfeeding study is a
@@ -93,18 +93,18 @@ rests on an imperfect research foundation. Well, you could say that
 about our knowledge of anything, but what I really mean is that it rests
 on a shakier foundation than other areas where randomization is easy.
 
-So rather than a list of \"mistakes\" I would much prefer a list of
-\"factors that dilute the credibility of a research study\". I like the
-word \"dilute\" because when you are dealing with a research area like
+So rather than a list of "mistakes" I would much prefer a list of
+"factors that dilute the credibility of a research study". I like the
+word "dilute" because when you are dealing with a research area like
 breastfeeding where there is a lot of replication, a strong association,
 a plausible mechanism, etc., that can easily overcome the dilution of
 credibility that occurs when a study is not randomized, for example, or
 not blinded.
 
 Now everyone falls into the black and white trap (including me). It is
-just so tempting to say \"this is a bad study because the authors did
-not use blinding\" or \"this is a good study because the authors
-collected a large sample.\" If there is any message I could get across
+just so tempting to say "this is a bad study because the authors did
+not use blinding" or "this is a good study because the authors
+collected a large sample." If there is any message I could get across
 is that studies are not good or bad, but rather they vary in their
 degree of persuasiveness. Perhaps an adaptation of the famous George Box
 quote is called for here: All research studies are flawed, but some are

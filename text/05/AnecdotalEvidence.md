@@ -18,7 +18,7 @@ anecdotes are unreliable because they are
 > *prone to contamination by beliefs, later experiences, feedback,
 > selective attention to details, and so on.*
 
-and although these are \"scientifically worthless\", their vivid details
+and although these are "scientifically worthless", their vivid details
 make them popular. But Dr. Carroll wisely does not totally rule out
 their use. A physician, he explains should listen to anecdotal evidence
 from individual patients, but has to be careful.
@@ -32,9 +32,9 @@ are so well written.
 
 -   **[Confirmation bias](http://www.skepdic.com/confirmbias.html)**:
     *Confirmation bias refers to a type of selective thinking whereby
-    one tends to notice and to look for what confirms one\'s beliefs,
+    one tends to notice and to look for what confirms one's beliefs,
     and to ignore, not look for, or undervalue the relevance of what
-    contradicts one\'s beliefs.*
+    contradicts one's beliefs.*
 -   **[Selective thinking](http://www.skepdic.com/selectiv.html)**:
     *Selective thinking is the process whereby one selects out favorable
     evidence for remembrance and focus, while ignoring unfavorable
@@ -48,14 +48,14 @@ are so well written.
 A good book that Dr. Carroll cites, and which I have mentioned on
 several of my webpages is:
 
--   **How We Know What Isn\'t So: The Fallibility of Human Reason in
+-   **How We Know What Isn't So: The Fallibility of Human Reason in
     Everyday Life.** Gilovich T (1991) New York: The Free Press. ISBN:
     0029117062. [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0029117062.html)
 
-Dr. Carroll also mentions another book, co-authored by Gilovich, \"Why
+Dr. Carroll also mentions another book, co-authored by Gilovich, "Why
 Smart People Make Big Money Mistakes and How to Correct Them: Lessons
-From the New Science of Behavioral Economics\" [\[BookFinder4U
+From the New Science of Behavioral Economics" [\[BookFinder4U
 link\]](http://www.bookfinder4u.com/detail/0684859386.html) that I have
 not yet read, but which sounds very interesting.
 

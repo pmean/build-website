@@ -12,7 +12,7 @@ output: html_document
 heterogeneity\--unequal standard deviations in each group. How should I
 check for this?*
 
-There\'s no perfect answer to a question like this and certainly no
+There's no perfect answer to a question like this and certainly no
 consensus in the research community on how to handle heterogeneity.
 There is no magic formula and not very much empirical data on this
 question. As a general rule a lack of research consensus is good news in
@@ -22,7 +22,7 @@ that his/her way is the only way to handle this problem.
 
 Here are some general guideline that I use.
 
-First, avoid formal significance tests like Levene\'s test. There are a
+First, avoid formal significance tests like Levene's test. There are a
 wide range of reasons why significance tests should be avoided for
 checking some of the underlying assumptions in a model. They tend to
 have too much power and detect trivial deviations from the assumptions
@@ -38,7 +38,7 @@ heterogeneity. Look at the ratio of standard deviations in each group.
 Do any differ by more than a factor of 2 or 3? Only then do I start to
 worry about heterogeneity.
 
-Is there a \"dose response\" pattern to the standard deviations? A
+Is there a "dose response" pattern to the standard deviations? A
 common one is that the larger standard deviations are associated with
 the groups with the larger means and the smaller standard deviations are
 associated with the groups with the smaller means. That makes me sit up

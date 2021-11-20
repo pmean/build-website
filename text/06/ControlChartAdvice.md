@@ -19,10 +19,10 @@ and it included the following quote:
 > to be due to chance failure when process is actually in control
 > (special cause variation).*
 
-I\'m probably taking this quote out of context, but it is a rather
+I'm probably taking this quote out of context, but it is a rather
 unusual claim.
 
-The phrase \"correct the process\" could mean start a fresh chart with a
+The phrase "correct the process" could mean start a fresh chart with a
 new set of control limits. When should you start a fresh control chart?
 It depends, but I discourage a lot of tinkering. If there is a wholesale
 revision in a work process, definitely start with a fresh set of control
@@ -35,7 +35,7 @@ spent investigating issues with the work process itself. Talking to the
 people involved with the work process is likely to lead to more
 improvements to the system than fiddling with the control limits.
 
-The phrase \"chance failure\" is also interesting. It could mean a point
+The phrase "chance failure" is also interesting. It could mean a point
 that is out of control, but where no assignable cause has been found.
 This can happen, because a control chart will tell you WHEN a process is
 out of control, but it will not tell you WHY it is out of control. If
@@ -45,7 +45,7 @@ working on the investigation and if your co-workers are being honest
 with you. Many work processes have negative incentives for honesty. This
 encourages people to hide the truth.
 
-Finally, the phrase \"chance failure\" could mean a false positive
+Finally, the phrase "chance failure" could mean a false positive
 signal. This is a point that is out of control because control charts
 are not perfect and sometimes they produce false positive signals. This
 happens rarely, but it does happen. But how will the average person know
@@ -55,10 +55,10 @@ recognize better than a control chart can what is going on with your
 work process. There are few of us who are that intelligent. Another way
 you might recognize that a signal is a false positive signal is if you
 discover that there is no assignable cause. But I would always worry
-that it was a true positive and that I just didn\'t investigate
+that it was a true positive and that I just didn't investigate
 thoroughly enough.
 
-There\'s a great website, [www.skymark.com](http://www.skymark.com),
+There's a great website, [www.skymark.com](http://www.skymark.com),
 that offers advice about how to react to signals in a control chart. I
 have quoted some of this advice at:
 
@@ -67,10 +67,10 @@ have quoted some of this advice at:
 -   [Stats: What is a common cause of
     variation?](../definitions/CommonCause.htm)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).
@@ -78,17 +78,17 @@ charts](../category/ControlCharts.html).
 charts](../category/ControlCharts.html).
 for pages similar to this one at [Category: Control
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Unusual advice about control charts
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).

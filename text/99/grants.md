@@ -8,20 +8,20 @@ tags:
 - Grant writing
 output: html_document
 ---
-*Dear Professor Mean, I\'m writing a research grant to look at the
+*Dear Professor Mean, I'm writing a research grant to look at the
 impact of managed care on the care of children with chronic epilepsy.
-How do I structure the grant so I\'m guaranteed to get funding? \--
+How do I structure the grant so I'm guaranteed to get funding? \--
 Ambitious Ann*
 
 Dear Ambitious,
 
-You\'re writing a research grant, and you want Professor Mean to
-guarantee your funding? I can\'t do that, but if you mention my name at
-McDonald\'s you can get 10% off on your order of french fries.
+You're writing a research grant, and you want Professor Mean to
+guarantee your funding? I can't do that, but if you mention my name at
+McDonald's you can get 10% off on your order of french fries.
 
 **Short answer**
 
-It\'s tricky to provide advice on how to write a grant, because each
+It's tricky to provide advice on how to write a grant, because each
 research problem is different and each granting agency has its own
 guidelines. I can outline a few of the things that I look for when I am
 asked to help write or revise a grant application.
@@ -72,7 +72,7 @@ categories:
 -   evaluating an exposure
 -   describing a population
 
-. These categories aren\'t perfect, but help guide further discussion
+. These categories aren't perfect, but help guide further discussion
 about writing grants.
 
 **Evaluating a treatment**
@@ -105,12 +105,12 @@ between waiting time and staffing levels.
 **1. Theme: Develop a primary objective**.
 
 Your proposal should have a **unifying theme**. I will refer to this
-theme as a \"primary objective\" though some granting agencies may
+theme as a "primary objective" though some granting agencies may
 prefer to use nouns like aim, hypothesis, or goal in place of objective.
-It\'s important to understand the language that is commonly used by the
+It's important to understand the language that is commonly used by the
 researchers in your area. When they get bored, they invent criticisms
-like \"this researcher is naive because he/she confused the aims with
-the objectives.\" These are the same people who argue about how toilet
+like "this researcher is naive because he/she confused the aims with
+the objectives." These are the same people who argue about how toilet
 paper rolls should be hung in your bathroom.
 
 Whatever you decide to call it, you must have a primary objective. It
@@ -124,7 +124,7 @@ objective should be:
 **Precise**.
 
 You should e**xplain your primary objective briefly and succinctly**.
-Use a single sentence, if possible. You don\'t want to ramble. Also be
+Use a single sentence, if possible. You don't want to ramble. Also be
 sure to use clear and unambiguous language in your primary objective.
 
 **Prominent**.
@@ -134,7 +134,7 @@ to someone who just skims your proposal**. This is not the time to be
 subtle. If the grant format allows it, mention your primary objective on
 the very first page of your proposal. Otherwise, draw attention to your
 primary objective by using a text box, shading, or bold formatting. Use
-language like \"the primary objective of this study is\" that identifies
+language like "the primary objective of this study is" that identifies
 your theme unmistakably to your reviewers**.**
 
 **Persistent**.
@@ -217,7 +217,7 @@ that you are aware of the issues involving volunteers and dropouts.
 **How you plan to evaluate your work**.
 
 **Evaluation usually implies some type of comparison**, especially for
-intervention or exposure studies. This can be a \"**before and after**\"
+intervention or exposure studies. This can be a "**before and after**"
 comparison (before we intervened, our patients were rich and miserable,
 now they are poor and happy). It can also be an **internal comparison**
 (those patients who attended only one session of our intervention were
@@ -241,13 +241,13 @@ justify the sample soze for your experiment.
 You need to provide a rationale for your research plan. Explain **what
 you will learn** from this research and **who will it help**. This is an
 easy thing to ignore, because it is so obvious, at least to you. Some of
-the \"why\" will already be in your literature review, but repeat and
+the "why" will already be in your literature review, but repeat and
 expand on your rationale when you outline your research plan.
 
 **3. Legibility: Make your proposal easy to read**.
 
 Reviewers will spend more time reading a proposal that they can read
-quickly and easily. Less is more. It\'s better to have a 6,000 word
+quickly and easily. Less is more. It's better to have a 6,000 word
 proposal that is read twice than an 8,000 word proposal that is read
 once. So say less, but say it in a way that will invite the reviewers to
 read it a second time. You do this by making your proposal:
@@ -267,15 +267,15 @@ have a good idea of what you want to do.
 
 Your grant should follow a logical progression. When you are reviewing
 the literature, for example, **start with the general and move to the
-specific**. This sets up the \"big picture\" and places your proposal in
+specific**. This sets up the "big picture" and places your proposal in
 the approprate context of the big picture.
 
 When you are addressing a sequence of topics, **use numbers to track the
-progress of your sequence**. The \"one, two, three\" provides anchors of
+progress of your sequence**. The "one, two, three" provides anchors of
 one, two, three, etc. that allow your reviewer to jump from point to
 point.
 
-**Don\'t write your grant proposal like a murder mystery**. You don\'t
+**Don't write your grant proposal like a murder mystery**. You don't
 want to keep your reviewers guessing about what you plan to do while you
 summarize the literature and all your previous research. Also use a
 logical and predictable sequence (such as general to specific) to make
@@ -285,9 +285,9 @@ surprises**.
 **Skimmable**.
 
 You want to make it easy for reviewers to skim your proposal. Most
-reviewers can\'t devote the amount of time to reviewing your proposal
+reviewers can't devote the amount of time to reviewing your proposal
 that you (or they ) would like to. When you make your grant skimmable,
-you encourage the reviewer to \'hit the high points\".
+you encourage the reviewer to 'hit the high points".
 
 Use a topic sentence at the start of each paragraph and make an obvious
 transition from one topic sentence to the next topic sentence. This
@@ -303,37 +303,37 @@ suggests.
 
 Use tables, numbered lists and/or bullets to highlight key information.
 
-Don\'t cram. Cramming is the enemy of skimming. I understand that the
+Don't cram. Cramming is the enemy of skimming. I understand that the
 temptation to cram is strong. You want to fit in a bit of extra
 information. So you lower the font size from 12 points to 11.5 and then
 11. You fiddle with the margins. You move some required information into
 the appendix. You combine short paragraphs into long paragraphs. You
 take out a blank line here and a blank line there. You take out some of
-the subheadings. And you end up with a proposal that is dense. You\'re
+the subheadings. And you end up with a proposal that is dense. You're
 proud of yourself because you got an extra 2,000 words into your
-proposal. Don\'t be so proud. In order to squeeze in a few things,
-you\'ve aggravated the people who will decide the fate of your proposal.
+proposal. Don't be so proud. In order to squeeze in a few things,
+you've aggravated the people who will decide the fate of your proposal.
 
 **Simple**.
 
-Don\'t assume that the reviewer knows as much about your area of
+Don't assume that the reviewer knows as much about your area of
 research as you do. **Avoid jargon and minimize the number of acronyms
 that you use**. If you have to use acronyms, be sure to define them at
 their first appearance. Also, keep the acronyms out of your abstract and
-out of your research hypotheses. If you can\'t avoid using a large
+out of your research hypotheses. If you can't avoid using a large
 number of acronyms, put in a table that lists all of them.
 
 You should adopt a **tutorial approach to the new and unusual aspects of
 your research**. Take advantage of any analogies about your work.
 Although it may appear as oversimplification, you should remember that
 **no one understands your research as well as you do**. If your
-reviewers don\'t uderstand your research, they will have a hard time
+reviewers don't uderstand your research, they will have a hard time
 supporting it. We all have a tendency to mistrust those things that we
-don\'t understand. Make sure your reviewers understand your science.
+don't understand. Make sure your reviewers understand your science.
 
 Your writing style can also help simplify your proposal. **Use short
 sentences**. You should, for example, split any sentence into two or
-more sentences whenever you see the word \"and\" appearing more than
+more sentences whenever you see the word "and" appearing more than
 once. **Also use short paragraphs**. Not only does this improve
 skimmability (see above), it also makes it easier for the reviewer to
 stay on track. **Keep your nouns and verbs close to one another**. A
@@ -372,17 +372,17 @@ The reviewer wants to understand the benefits of your work. This is not
 the time to be dispassionate. Let your enthusiasm for your research
 shine through. **Advocate the value of your work through the severity of
 the illness and/or the number of people affected**. Explain how your
-work fits into \"the big picture.\"
+work fits into "the big picture."
 
 Although you need to be an advocate, you should **avoid sounding
 close-minded**. Too strong an emphasis can give the impression that you
-already know the answer and you won\'t let any data get in the way.
+already know the answer and you won't let any data get in the way.
 Avoid any overtly partisan language that might lead the reviewers to
 believe you are biased.
 
 Part of your advocacy will be **stating how your approach is the best**.
-If you can\'t explain why your approach is the best, you shouldn\'t be
-applying for the grant. That doesn\'t mean that you shouldn\'t
+If you can't explain why your approach is the best, you shouldn't be
+applying for the grant. That doesn't mean that you shouldn't
 acknowledge the shortcomings of your approach. You should, so the
 reviewers appreciate your realism. Also you need to acknowledge other
 approaches and compare their strengths and weaknesses to your approach.
@@ -395,7 +395,7 @@ presentation or a fanatical zealotry will turn off your reviewers**.
 
 The reviewers also want reassurance. They want to feel confident the
 money will be spent well and there will be a good return on the
-agency\'s investment. Some things that reassure your reviewers are:
+agency's investment. Some things that reassure your reviewers are:
 
 1.  the **training, experience, and resources** you have to conduct this
     research
@@ -418,7 +418,7 @@ and priorities.
 
 This is easy to do. Every agency will have **guidelines for grant
 writers** that will tell you what they are interested in. If you are
-like me, you don\'t want to bother reading these guidelines. It\'s like
+like me, you don't want to bother reading these guidelines. It's like
 using software without reading the documentation. But reading the
 guidelines is very important.
 
@@ -470,15 +470,15 @@ be sure to address them in the order in which they are stated.
 
 There are other things you can and should do beyond reading the grant
 guidelines. Many granting agencies have a program official who is
-available to discuss your proposal. Take advantage of this person\'s
+available to discuss your proposal. Take advantage of this person's
 expertise.
 
-You should also visit the granting agency\'s web site. Look for a
+You should also visit the granting agency's web site. Look for a
 mission statement and try to show how your grant will help that agency
 achieve its mission. For example the mission statement for NIOSH
 (National Institute for Occupational Safety and Health:
 [www.cdc.gov/niosh](http://www.cdc.gov/niosh)) is: *Delivering on the
-Nation\'s promise: Safety and health at work for all people through
+Nation's promise: Safety and health at work for all people through
 research and prevention.* If you are applying for a NIOSH grant, be sure
 to adress any aspects of your work that relate to safety, health, work,
 and prevention.
@@ -490,12 +490,12 @@ the 21 priorities your grant will address.
 
 **Example**
 
-It\'s difficult to provide a good example for two reasons. First, I do
+It's difficult to provide a good example for two reasons. First, I do
 not have the room or the energy to reproduce a 25 page proposal. Second,
 it is easier for me to tell you how to write a good research grant than
 write one myself.
 
-I\'m hoping to get some examples of successful research grants that I
+I'm hoping to get some examples of successful research grants that I
 can post online. If you have a research grant proposal that got funded
 and you are willing to share an electronic version of it for these web
 pages, contact me at

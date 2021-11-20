@@ -15,8 +15,8 @@ A correspondent in the
 group (RR), mentioned an interesting example of problems in defining
 groups in observational studies. The actual publication is
 
--   Kaye Fillmore et al. \"Moderate alcohol use and reduced mortality
-    risk: systematic error in prospective studies.\" Addiction Research
+-   Kaye Fillmore et al. "Moderate alcohol use and reduced mortality
+    risk: systematic error in prospective studies." Addiction Research
     and Theory. Advanced online publication March 30, 2006.
 
 I cannot find this particular article yet, but there are several news
@@ -39,7 +39,7 @@ that define abstention as never having consumed alcohol, the difference
 in risk compared to moderate drinkers disappears. Of course, both groups
 always look much better than the heavy alcohol consumption group.
 
-I\'ll try to find the original research article and produce a summary
+I'll try to find the original research article and produce a summary
 here. It is an interesting example of how defining a control group
 without the benefit of randomization can sometimes lead to faulty
 conclusions.

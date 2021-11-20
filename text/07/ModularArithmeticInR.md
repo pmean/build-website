@@ -18,7 +18,7 @@ In R, the operator `%/%` produces an integer division, and the operator
 `   %%` computes the remainder. So in R, the result of `19%/%4` would be
 `6` and the result of `19%%4` would be `3`.
 
-Here\'s a practical example. Suppose you wanted to take the numbers 0
+Here's a practical example. Suppose you wanted to take the numbers 0
 through 23 and place them in a matrix with 4 rows and 6 columns, filling
 the matrix row by row. Integer division will help you assign the rows
 

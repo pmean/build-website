@@ -27,7 +27,7 @@ depending on how variable that second random component is. Studies with
 smaller sample sizes will get larger weights under a random effects
 meta-analysis compared to a fixed effects meta-analysis.
 
-Someone on the epidemio-l list claimed that this was \"unfair\".
+Someone on the epidemio-l list claimed that this was "unfair".
 Certainly it is counterintuitive at first glance. I would still argue
 that the random effects meta-analysis still makes sense.
 
@@ -45,21 +45,21 @@ much emphasis on the largest studies.
 
 If you really feel strongly that studies should be weighted only by
 their sample size, you are elevating a general principle to an
-inviolable standard. It\'s almost as if this were an edict from the
-Supreme Court like \"one person-one vote\".
+inviolable standard. It's almost as if this were an edict from the
+Supreme Court like "one person-one vote".
 
 But I suspect most people are not so upset when random effects are used
 in a randomized trial to account for the center effect in a multi-center
-trial. This model also is \"unfair\" because the weights given to each
+trial. This model also is "unfair" because the weights given to each
 center are not directly proportional to the number of patients at each
 center. I will admit that there is some level of controversy here as
 well, but if you accept random effects in a multi-center trial but
-don\'t accept them in a meta-analysis, I would ask you what is the
+don't accept them in a meta-analysis, I would ask you what is the
 difference?
 
 Suppose you have a linear regression model with measurement errors in
 the independent variable. Would you trust a least squares estimate
-because least squares always produces the \"best\" fit to the data? I
+because least squares always produces the "best" fit to the data? I
 would argue that clinging to weights that are proportional to the sample
 size in the face of heterogeneity is no different than clinging to the
 least squares principle in the face of measurement error.
@@ -72,7 +72,7 @@ distributed variable is actually normally distributed or pretending that
 a non-normally distributed variable is uniformly zero?
 
 Now I realize that people smarter than me have criticized the random
-effects meta-analysis. That\'s worth remembering and I would not
+effects meta-analysis. That's worth remembering and I would not
 blithely recommend this approach to a client without considerable
 discussion of the controversies. But I would still argue that the random
 effects meta-analysis is the more intuitive approach, even though at

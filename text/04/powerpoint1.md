@@ -16,12 +16,12 @@ output: html_document
 > The May Issue of Toastmasters Magazine had several articles about
 > electronic presentations, which in 95% of the cases means PowerPoint
 > presentations. One author (Eric Spellmann) summarizes the viewpoint
-> that I\'ve come to despise. He writes:
+> that I've come to despise. He writes:
 >
 > > *PowerPoint also can liven up an otherwise boring topic. In addition
 > > to using vibrant text and background colors, presenters can choose
 > > from a wide variety of clip art and photos. And when using
-> > PowerPoint\'s animation and sound options, these graphics can shake,
+> > PowerPoint's animation and sound options, these graphics can shake,
 > > rattle and roll.*
 
 **The \<BLINK\> tag**
@@ -50,17 +50,17 @@ output: html_document
 > tag on web pages. What they found was that when people encountered a
 > page with blinking text, they did one of two things. If they could,
 > they immediately clicked on the **BACK button** to close the page. If
-> they couldn\'t do this, they would **cover up the blinking text with
+> they couldn't do this, they would **cover up the blinking text with
 > one hand** and tried to read the rest of the text.
 
-**Why Powerpoint doesn\'t help**
+**Why Powerpoint doesn't help**
 
 > The problem with PowerPoint is that it is a **box full of BLINK
 > tags**\--cheap amateurish gimmicks.
 >
 > Can Powerpoint **salvage** a boring talk? Not really.
 >
-> If your topic is boring, then it won\'t become less boring by changing
+> If your topic is boring, then it won't become less boring by changing
 > your text to a **firecracker red**, or adding **soft clouds** in the
 > background, or placing a clip art image of a **racer crossing the
 > finish lin**e, or having the new slides **spin into place**, or
@@ -86,13 +86,13 @@ output: html_document
 > Peter Norvig, one of the computer geeks behind the Google search
 > engine, imagined how awful it would be **if Abraham Lincoln had to use
 > PowerPoint for the Gettysburg address**. Visualize a tall thin man
-> with a short beard and a stove pipe hat. He\'s staring down at a
+> with a short beard and a stove pipe hat. He's staring down at a
 > **laptop computer**.
 >
-> > *Do I press this button here? Function-F7? No, that\'s not right.
-> > Hmmm. Maybe I\'ll have to reboot. Hold on a minute.*
+> > *Do I press this button here? Function-F7? No, that's not right.
+> > Hmmm. Maybe I'll have to reboot. Hold on a minute.*
 >
-> Peter Norvig fed the full text of Lincoln\'s Gettysburg address into
+> Peter Norvig fed the full text of Lincoln's Gettysburg address into
 > something called the **PowerPoint AutoContent Wizard**. What the
 > AutoContent Wizard does, and you should be **very frightened** that
 > computers do this, is that it digests the talks, throws out the
@@ -105,8 +105,8 @@ output: html_document
 >
 > -   *Men are equal*
 >
-> Can\'t you just feel PowerPoint **sucking out all the passion** from
-> Lincoln\'s speech. In contrast, look at the full text of Lincoln\'s
+> Can't you just feel PowerPoint **sucking out all the passion** from
+> Lincoln's speech. In contrast, look at the full text of Lincoln's
 > speech on your handout. The writing is just brilliant. The second
 > sentence reads
 >
@@ -122,9 +122,9 @@ output: html_document
 > often detract from the quality. But what if **your boss** says that
 > you have to use PowerPoint?
 >
-> Do you have the option of telling your boss that **he\'s an idiot**?
+> Do you have the option of telling your boss that **he's an idiot**?
 >
-> No, I didn\'t think so.
+> No, I didn't think so.
 >
 > If you have to use PowerPoint, use it to the **minimum extent
 > possible**.
@@ -150,11 +150,11 @@ output: html_document
 > to be **liberating**, because I no longer **fumble at the computer**
 > or the overhead projector. I no longer **look back over my shoulder**
 > to make sure that the slide is displayed properly. I **look at my
-> audience** instead, which is what you\'re supposed to do.
+> audience** instead, which is what you're supposed to do.
 
 **Summary**
 
-> In summary, PowerPoint **won\'t improve a bad talk**, and they may
+> In summary, PowerPoint **won't improve a bad talk**, and they may
 > **detract from a good talk**. Trying to improve a talk with PowerPoint
 > is like trying to improve your **weight loss program** in the **candy
 > aisle** of the supermarket.

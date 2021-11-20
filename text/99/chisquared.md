@@ -22,7 +22,7 @@ besides categorical data?*
 > at the ratio of the sample variance to the hypothesized variance.
 >
 > Finally **many nonparametric tests rely on the Chi-square distribution
-> as an approximation** when you don\'t have exact tables available.
+> as an approximation** when you don't have exact tables available.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

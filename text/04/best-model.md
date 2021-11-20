@@ -1,5 +1,5 @@
 ---
-title: What\'s the best statistical model?
+title: What's the best statistical model?
 author: Steve Simon
 date: 2004-09-17
 categories:
@@ -17,7 +17,7 @@ output: html_document
 >
 > So rather than deciding which among these models is best, perhaps you
 > should just choose an approach that produces easily understood
-> results. In other words, you don\'t have to have a perfect statistical
+> results. In other words, you don't have to have a perfect statistical
 > model. You just have to have one that helps you get published. As long
 > as you avoid using a very bad statistical model, you should be just
 > fine.

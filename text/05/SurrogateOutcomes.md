@@ -11,7 +11,7 @@ output: html_document
 **[StATS]:** **Surrogate outcomes (March 23, 2005,
 Evidence, Clinical Importance)**
 
-> I\'m on the mailing list of the Alliance for Human Research
+> I'm on the mailing list of the Alliance for Human Research
 > Protection, and they highlighted a book review:
 >
 > -   **Is Evidence-Based Medicine Evidence Based?** Bodenheimer T.
@@ -54,9 +54,9 @@ Evidence, Clinical Importance)**
 > > rather than trabecular bone, which improves the BMD score but may
 > > not contribute as much to fracture prevention.*
 >
-> This is a classic example of a surrogate outcome. Most patients don\'t
+> This is a classic example of a surrogate outcome. Most patients don't
 > care about cortical or trabecular bone density. What they care about
-> is having to endure a broken bone or living with dowager\'s hump.
+> is having to endure a broken bone or living with dowager's hump.
 
 **Surrogate outcomes (March 23, 2005, Evidence, Clinical Importance)**
 
@@ -70,26 +70,26 @@ consult my [copyright notice](../00/copyright.html).
 
 <U+FFFD>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Surrogate outcomes (March 23, 2005,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

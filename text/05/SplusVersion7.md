@@ -80,23 +80,23 @@ Dr. Smith ended with a case study using US 2000 Census data. To read the
 data in as a bdFrame, the code looks like
 
 -   census \<-
-    importData(\"/projects/census/census.csv\",stignasAsFactors=F,,bigdata=T)
+    importData("/projects/census/census.csv",stignasAsFactors=F,,bigdata=T)
 
 You can remove rows with zero population totals using standard S
 subscripting techniques
 
--   census \<- census\[census\[,\"poptotal\"\]\>0,\]
+-   census \<- census\[census\[,"poptotal"\]\>0,\]
 
 but this requires two passes through the data. A new and faster
 alternative is
 
--   census \<- bd.filter.rows(census,\"popTotal\>0\")
+-   census \<- bd.filter.rows(census,"popTotal\>0")
 
 You can also use [regular
 expressions](http://en.wikipedia.org/wiki/Regular_expression) to filter
 this data.
 
-There are new \"Big Vector\" data types: bdNumeric, bdFactor,
+There are new "Big Vector" data types: bdNumeric, bdFactor,
 bdCharacter, bdLogical, bdTimeDate. These data types have the same
 efficiency advantages of the bdFrame.
 
@@ -108,10 +108,10 @@ There are two white papers:
 
 A new course, S-plus 7 - Working With Big Data, is also available.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
@@ -119,17 +119,17 @@ computing](../category/StatisticalComputing.html).
 computing](../category/StatisticalComputing.html).
 for pages similar to this one at [Category: Statistical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **S-plus version 7 (April 19, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).

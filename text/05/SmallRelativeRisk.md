@@ -11,16 +11,16 @@ output: html_document
 ---
 **[StATS]: Small relative risks (January 13, 2005)**
 
-I found a quote on the [Skeptic\'s Dictionary web
+I found a quote on the [Skeptic's Dictionary web
 site](http://skepdic.com) that is worth commenting on. The author,
 Robert Todd Carroll was describing the Vioxx controversy and the lawyers
 who are now aggressively recruiting people for a lawsuit against Merck,
 the manufacturer of Vioxx. In it, he repeats a common misconception
 about relative risk (RR):
 
-> *According to mathematician John Brignell, \"In observational studies,
+> *According to mathematician John Brignell, "In observational studies,
 > \[scientists\] will not normally accept an RR of less than 3 as
-> significant and never an RR of less than 2.\" \--*
+> significant and never an RR of less than 2." \--*
 > [skepdic.com/refuge/funk43.html](http://skepdic.com/refuge/funk43.html)
 
 This is a widely quoted rule, but it vastly oversimplifies the issue. A
@@ -59,22 +59,22 @@ risk of a disease that is already [responsible for about 40% of all
 deaths](http://www.americanheart.org/presenter.jhtml?identifier=4478),
 according to the American Heart Association. Nevertheless, pretty much
 everyone accepts the link between smoking and cardiovascular disease. If
-you relied on John Brignell\'s advice about relative risks less than 2
+you relied on John Brignell's advice about relative risks less than 2
 or 3, then your standard of proof would require that 80% to 120% of all
 smokers would have to die from cardiovascular disease. Nothing, not even
 cigarettes, can produce 120% mortality, and even 80% mortality from a
 single cause is probably out of reach.
 
-A good recent commentary on this issue is \"The missed lessons of Sir
-Austin Bradford Hill\" by Carl Phillips and Karne Goodman.
+A good recent commentary on this issue is "The missed lessons of Sir
+Austin Bradford Hill" by Carl Phillips and Karne Goodman.
 
-That\'s my major quibble. A minor quibble is that this rule is usually
+That's my major quibble. A minor quibble is that this rule is usually
 restricted, even by John Brignell, to observational studies. But the
 study that showed an increase in risk for Vioxx was a randomized study.
 
-This doesn\'t mean that the rest of Dr. Carroll\'s comments are
+This doesn't mean that the rest of Dr. Carroll's comments are
 incorrect. It is indeed possible that we are all overreacting to weak
-data. I don\'t think the final chapter has been written yet on Vioxx and
+data. I don't think the final chapter has been written yet on Vioxx and
 other drugs in its class.
 
 A chapter of the book I am writing, [Statistical
@@ -99,10 +99,10 @@ and he published it on his web site at
     [\[Full text\]](http://www.epi-perspectives.com/content/1/1/3)
     [\[PDF\]](http://www.epi-perspectives.com/content/pdf/1742-5573-1-3.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).
@@ -110,17 +110,17 @@ risk](../category/MeasuringBenefitRisk.html).
 risk](../category/MeasuringBenefitRisk.html).
 for pages similar to this one at [Category: Measuring benefit and
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Small relative risks (January 13, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).

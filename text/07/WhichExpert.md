@@ -9,8 +9,8 @@ tags:
 - Critical appraisal
 output: html_document
 ---
-There\'s a common saying in research circles that goes something like
-this: \"For every PhD, there is an equal and opposite PhD.\" That saying
+There's a common saying in research circles that goes something like
+this: "For every PhD, there is an equal and opposite PhD." That saying
 is certainly true in my experience. For just about any scientific
 controversy, you can find an expert on either side of the issue. Some
 examples of these controversies are:
@@ -28,13 +28,13 @@ examples of these controversies are:
 
 Quite often the experts on both sides know far more about the
 controversy than you or I will ever get a chance to know. So the
-question becomes: \"Which expert should you believe?\"
+question becomes: "Which expert should you believe?"
 
 The easy answer is to select the expert who supports the perspective
 that you have been believing all along. Go ahead, if you like, because
 that expert has given you some cover and allowed you to continue in your
 belief. It offers you another advantage in the time savings that you
-accrue when you don\'t have to think hard and critically about the
+accrue when you don't have to think hard and critically about the
 issue.
 
 A hard but equally unsatisfactory answer is to read more about the
@@ -59,10 +59,10 @@ Be especially cautious of an expert who repeatedly sounds false alarms
 of catastrophes.
 
 **Does the expert profit financially from his/her beliefs?** Monetary
-incentives are pervasive in today\'s society, so you have to be careful
+incentives are pervasive in today's society, so you have to be careful
 here. But ask if this person is making an outrageous claim in order to
 sell more books or attract more patients. Even if that is not his/her
-only motivation, a financial conflict will often color one\'s
+only motivation, a financial conflict will often color one's
 perspective and makes it difficult for that person to be dispassionate.
 
 **Does the expert rely on personal *(ad hominem)* attacks?** Most of the
@@ -72,11 +72,11 @@ can look into the soul of another and discern their true motives. Often
 a personal attack is a distraction from the facts. Be especially aware
 of insinuations about the motivations that one expert may attribute to
 the experts on the opposite side. Note that this attribution of motives
-is something that I argue in favor of in the previous question. It\'s
+is something that I argue in favor of in the previous question. It's
 okay to point out financial influences, but watch out for negative
 characterizations (greedy, in it only for the money).
 
-**Is the expert an \"outsider\"?** While there is some benefit to
+**Is the expert an "outsider"?** While there is some benefit to
 providing a fresh perspective, most outsiders will often get it wrong.
 Without formal training in the area of the controversy, the outside
 experts will often oversimplify the problem at hand. There are some who
@@ -113,7 +113,7 @@ literature is not likely to be in it for shallow reasons. It is just too
 darn hard to get a peer-reviewed publication.
 
 There are some red herrings that some people tend to focus on, but which
-don\'t really help in gauging the credibility of an expert.
+don't really help in gauging the credibility of an expert.
 
 **Red herring \#1: Intellectual conflict of interest**. A lot has been
 written about intellectual conflicts of interest, but it is all highly

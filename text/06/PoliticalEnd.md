@@ -15,7 +15,7 @@ political end (June 23, 2006)**
 There was an interesting paper published recently:
 
 -   **The 1996 Continuous Negative Extrathoracic Pressure (CNEP) trial:
-    were parents\' allegations of research fraud fraudulent?** E. Hey.
+    were parents' allegations of research fraud fraudulent?** E. Hey.
     Pediatrics 2006: 117(6); 2244-6.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16740870&dopt=Abstract)
     [\[Full
@@ -57,10 +57,10 @@ to make sure that any resolution of allegations of fraud follow an
 appropriate format that allows for full and fair investigation into the
 facts of the allegation.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).
@@ -68,17 +68,17 @@ research](../category/EthicsInResearch.html).
 research](../category/EthicsInResearch.html).
 for pages similar to this one at [Category: Ethics in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Using a charge of fraud to achieve a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).

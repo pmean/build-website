@@ -14,7 +14,7 @@ output: html_document
 
 > Someone asked me about resources for learning how to use control
 > charts. I have a web page that talks about quality control in general
-> and shows some of the computational details of a control chart. It\'s
+> and shows some of the computational details of a control chart. It's
 > just a draft, but it might help.
 >
 > -   [Stats: Guidelines for quality control
@@ -46,7 +46,7 @@ output: html_document
 > programs in R that you could access via a web server.
 >
 > There is also a large amount of commercial software that you can buy.
-> I don\'t have a lot of recommendations here, because I have not used
+> I don't have a lot of recommendations here, because I have not used
 > any of this software.
 
 [![Creative Commons
@@ -55,10 +55,10 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon and was last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).
@@ -66,17 +66,17 @@ charts](../category/ControlCharts.html).
 charts](../category/ControlCharts.html).
 for pages similar to this one at [Category: Control
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Learning more about control charts
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).

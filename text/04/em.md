@@ -13,7 +13,7 @@ computational approach that works well for missing data problems and
 data models with latent (unobserved) variabels. The basic approach is to
 estimate the missing or latent data (E-step), compute maximum likelihood
 estimates that incorporates the missing/latent estimates (M-step), then
-update the missing or latent data (E-step) and so forth. There\'s a book
+update the missing or latent data (E-step) and so forth. There's a book
 by McLachlan and Krishnan, The EM Algorithm and Extensions, that I have
 not seen, but which sounds pretty good. There are also a few good web
 sites about this algorithm.

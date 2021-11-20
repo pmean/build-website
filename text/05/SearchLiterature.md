@@ -34,7 +34,7 @@ but since I am just curious about Reiki in general, I only have the I
 part of PICO defined. It would be better to ask a question like:
 
 In adults with lower back pain (P), does the use of Reiki therapy (I)
-compared to physical massage (C) affect the patient\'s self report of
+compared to physical massage (C) affect the patient's self report of
 pain?
 
 There are several good guides to the PICO format:
@@ -44,26 +44,26 @@ There are several good guides to the PICO format:
 -   <http://library.downstate.edu/EBM2/pico.htm>
 -   <http://www4.umdnj.edu/camlbweb/ebm/picomodel.htm>
 
-It\'s a good idea to start at the highest level of the evidence
+It's a good idea to start at the highest level of the evidence
 hierarchy and work your way down. So I went first to the Cochrane
 Database of Systematic Reviews and looked for any review including the
-word \"Reiki.\"
+word "Reiki."
 
 There were five reviews, but none of these looked helpful. Two of them
 used Reiki as an exclusion criteria and the other three allowed Reiki as
 a cointervention but did not evaluate its effects.
 
-Then I went to an Ovid link to \"All EBM Reviews - Cochrane DSR, ACP
-Journal Club, DARE, and CCTR.\" A search here yielded 16 links including
+Then I went to an Ovid link to "All EBM Reviews - Cochrane DSR, ACP
+Journal Club, DARE, and CCTR." A search here yielded 16 links including
 the five I had found earlier.
 
 Several results looked promising:
 
--   EBM Reviews - ACP Journal Club Review: \"Distant healing\" is often
+-   EBM Reviews - ACP Journal Club Review: "Distant healing" is often
     effective for improving patient outcomes \[Therapeutics\] ACP
     Journal Club. v133(3):107, November/December, 2000.
 -   EBM Reviews - Database of Abstracts of Reviews of Effects Centre for
-    Reviews and Dissemination. The efficacy of \'distant healing\': a
+    Reviews and Dissemination. The efficacy of 'distant healing': a
     systematic review of randomized trials (Structured abstract).
     \[Miscellaneous\] Database of Abstracts of Reviews of Effectiveness.
     Issue 1, 2005.
@@ -103,7 +103,7 @@ Several results looked promising:
 
 The first two are critical reviews of a paper:
 
--   Astin JA, Harkness E, Ernst E. The efficacy of \"distant healing\":
+-   Astin JA, Harkness E, Ernst E. The efficacy of "distant healing":
     a systematic review of randomized trials. Ann Intern Med. 2000 Jun
     6;132:903-10.
 
@@ -117,16 +117,16 @@ for now to see if I could something broader instead.
 
 A peek at the National Guideline Clearinghouse (free to the public at
 [www.guidelines.gov](http://www.guidelines.gov)) yielded no hits on
-\"Reiki.\" I did not hold out a lot of hope here, because this is a
+"Reiki." I did not hold out a lot of hope here, because this is a
 resource better suited when you have a well defined patient population
 that you need to manage. Since I am totally missing the P portion of
 PICO, I am at a serious disadvantage here.
 
-A review of the Best Bets website (www.bestbets.org \-- please don\'t
+A review of the Best Bets website (www.bestbets.org \-- please don't
 put a .com here because it will lead to a gambling site), also yielded
 no publications relating to Reiki.
 
-Then I went to PubMed. A search for \"Reiki\" with a limit of
+Then I went to PubMed. A search for "Reiki" with a limit of
 publication type to meta-analysis yielded two publications, both of
 which focused on therapeutic touch rather than Reiki.
 
@@ -139,17 +139,17 @@ which focused on therapeutic touch rather than Reiki.
 A search without limits yielded 381 articles, too many to skim through.
 
 It may be time to think about single randomized trials again, so I reran
-the \"Reiki\" search with publication type of randomized clinical
+the "Reiki" search with publication type of randomized clinical
 trials. This yielded 28 references, most of which talked about
 therapeutic touch rather than Reiki.
 
 I was curious why I was getting so many articles about therapeutic
 touch. It turns out that Medline apparently lumps Reiki in with
 therapeutic touch as a MeSH term. To look for references that use the
-word \"Reiki\" rather than the MeSH term associated with Reiki, you need
+word "Reiki" rather than the MeSH term associated with Reiki, you need
 to use \[tw\], the text word tag.
 
-If you do a search on \"Reiki \[tw\]\" without any limits, you get 52
+If you do a search on "Reiki \[tw\]" without any limits, you get 52
 articles rather than 381. Now restrict this list to publication type of
 randomized controlled trial, and you get six references. Most of these
 are articles that we found earlier.
@@ -184,10 +184,10 @@ Postscript (May 4, 2005): I asked for some comments and suggestions from
 the Evidence Based Health mailgroup, and got two responses right away.
 One person pointed out an evidence based review
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).
@@ -195,17 +195,17 @@ searching](../category/InformationSearching.html).
 searching](../category/InformationSearching.html).
 for pages similar to this one at [Category: Information
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Searching the literature (May 3,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).

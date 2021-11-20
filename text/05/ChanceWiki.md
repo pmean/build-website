@@ -42,11 +42,11 @@ edit this material. You can view my contribution at
 
 -   [chance.dartmouth.edu/chancewiki/index.php/Can\_you\_get\_fired\_over\_the\_wording\_of\_a\_questionnaire](http://chance.dartmouth.edu/chancewiki/index.php/Can_you_get_fired_over_the_wording_of_a_questionnaire)
 
-I\'ll make a few editing changes and additions over time, and it is
+I'll make a few editing changes and additions over time, and it is
 possible that others may edit or add information as well. Editing, of
 course, could be as minor as fixing my spelling but it could go all the
 way to wholesale deletion of the entire article if the other
-contributors to ChanceWiki don\'t like it.
+contributors to ChanceWiki don't like it.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

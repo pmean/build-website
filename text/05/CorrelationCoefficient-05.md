@@ -20,14 +20,14 @@ understand.
 
 I wrote a [simple
 spreadsheet](../00files/ConfidenceIntervalForCorrelation.xls) that will
-use the Fisher\'s z transformation to estimate 95% confidence intervals
+use the Fisher's z transformation to estimate 95% confidence intervals
 for a correlation.
 
-Stan Brown has a nice description of the Fisher\'s z transformation at
+Stan Brown has a nice description of the Fisher's z transformation at
 
 -   [www.tc3.edu/instruct/sbrown/stat/correl.htm](http://www.tc3.edu/instruct/sbrown/stat/correl.htm)
 
-Here\'s an example of how it might work. In a study of various
+Here's an example of how it might work. In a study of various
 biomarkers for bone damage, several measures that are considered
 preliminary or experimental are compared to other more established
 measures. You might want to examine the correlations among the
@@ -42,7 +42,7 @@ precision. If the correlation were estimated to be 0.6, the 95%
 confidence interval from a sample of 30 patients would range from 0.31
 to 0.79. That level of precision might be acceptable if you only wanted
 to make broad and general statements about the associations among
-variables and didn\'t need to narrow the correlation to a precise
+variables and didn't need to narrow the correlation to a precise
 interval.
 
 A sample size of 10 is clearly inadequate for a study using
@@ -56,8 +56,8 @@ interval from a sample of 10 patients would range from 0.62 to 0.98. In
 some studies this might be an acceptable level of precision. But how
 often would you expect to only see correlations of 0.9 and higher?
 
-The nice thing about a spreadsheet is that you can play a lot of \"what
-if\" games and explore how changes in the correlation and/or the sample
+The nice thing about a spreadsheet is that you can play a lot of "what
+if" games and explore how changes in the correlation and/or the sample
 size influence the width of the confidence interval.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

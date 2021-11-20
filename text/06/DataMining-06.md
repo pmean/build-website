@@ -19,7 +19,7 @@ data mining modules. Two recent web seminars addressed this topic:
 
 -   Pre-Analytic and Post-Analytic Factors in Post market Drug Safety
     Data Mining. Speakers: Alan Hochberg of ProSanos Corporation and
-    Michael O\'Connell of Insightful Corporation. Abstract: The
+    Michael O'Connell of Insightful Corporation. Abstract: The
     pharmaceutical industry is now responding to a series of
     high-profile drug safety issues in a number of ways, including the
     development and deployment of new methods of visualizing and mining
@@ -34,7 +34,7 @@ data mining modules. Two recent web seminars addressed this topic:
 -   Safety Data Analysis and Reporting: Signal Detection, Data-Mining
     and Next Generation Methodology for Drug Risk Assessment and Safety
     Research. Speakers: Alejandro Murua, University of Montreal and
-    Michael O\'Connell, Insightful Corporation. In its efforts to
+    Michael O'Connell, Insightful Corporation. In its efforts to
     continue to serve the public health and protect public safety, the
     pharmaceutical industry is now challenged to set up sound
     pharmacovigilance plans that carefully analyze and report on
@@ -65,10 +65,10 @@ is still valuable because it will be used more often by
 non-statisticians and will allow more people to engage themselves in the
 examination of safety issues.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Adverse events in clinical
 trials](../category/AdverseEvents.html).
@@ -76,17 +76,17 @@ trials](../category/AdverseEvents.html).
 trials](../category/AdverseEvents.html).
 for pages similar to this one at [Category: Adverse events in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Data mining and drug safety (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Adverse events in clinical
 trials](../category/AdverseEvents.html).

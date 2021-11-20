@@ -21,7 +21,7 @@ output: html_document
 > > **Analyzing & Reporting Focus Group Results.** Krueger RA (1998)
 > > Thousand Oaks, CA: Sage Publications, Inc.
 >
-> Here\'s a nice web resource about focus groups:
+> Here's a nice web resource about focus groups:
 >
 > > **[Research Perspective on Focus
 > > Groups](http://www.unt.edu/cpe/module4/blk2focus1.htm)**. Resources
@@ -46,12 +46,12 @@ output: html_document
 > There are a pair of articles on how to critically evaluate qualitative
 > research:
 >
-> > **Users\' guides to the medical literature XXIII. Qualitative
+> > **Users' guides to the medical literature XXIII. Qualitative
 > > research in health care A. Are the Results of the Study Valid?**
 > > Giacomini M, Cook D. JAMA 2000: 284(3); 357-362.
 > > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10891968&dopt=Abstract)
 > >
-> > **Users\' guides to the medical literature XXIII. Qualitative
+> > **Users' guides to the medical literature XXIII. Qualitative
 > > research in health care B. What are the results and how do they help
 > > me care for my patients?** Giacomini M, Cook D. JAMA 2000: 284(4);
 > > 478-482.
@@ -77,7 +77,7 @@ output: html_document
 >
 > a lot of nice examples of qualitative research,
 >
-> > **Qualitative study of patients\' perceptions of doctors\' advice to
+> > **Qualitative study of patients' perceptions of doctors' advice to
 > > quit smoking: implications for opportunistic health promotion.**
 > > Butler CC, Pill R, Stott NC. British Medical Journal 1998:
 > > 316(7148); 1878-81.
@@ -88,7 +88,7 @@ output: html_document
 > > [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/316/7148/1878.pdf)
 > >
 > > **Understanding the culture of prescribing: qualitative study of
-> > general practitioners\' and patients\' perceptions of antibiotics
+> > general practitioners' and patients' perceptions of antibiotics
 > > for sore throats.** Butler CC, Rollnick S, Pill R, Maggs-Rapport F,
 > > Stott N. British Medical Journal 1998: 317(7159); 637-42.
 > > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9727992&dopt=Abstract)

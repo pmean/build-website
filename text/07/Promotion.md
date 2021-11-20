@@ -28,7 +28,7 @@ developments.
     part of the process, as I have to select someone with rather
     stringent requirements (Full Professor, AAMC accredited school, no
     personal or professional entanglements). Perhaps this is a sign that
-    I should \"network\" more aggressively. I need to have a final list
+    I should "network" more aggressively. I need to have a final list
     of external scholars by October 1. Credentials will be mailed out to
     the external scholars on or around October 16.
 2.  I have a new paper which has been tentatively accepted in Statistics
@@ -37,7 +37,7 @@ developments.
     well-respected Statistics journal will help broaden and strengthen
     my research record.
 3.  I also have taught a dizzying number of short courses and classes
-    and I\'m trying to get an accurate list of these. My teaching
+    and I'm trying to get an accurate list of these. My teaching
     efforts are quite diffuse and do not fit well into the traditional
     academic teaching mold.
 4.  Pulling together the promotion materials has also made me realize

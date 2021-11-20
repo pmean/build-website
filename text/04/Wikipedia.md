@@ -10,9 +10,9 @@ tags:
 output: html_document
 ---
 > Part of my job on these web pages is to find good resources beyond
-> what I can write about Statistics. I\'m finding more and more that
+> what I can write about Statistics. I'm finding more and more that
 > there are wonderful references in a web resource known as the
-> Wikipedia. If you haven\'t visited the
+> Wikipedia. If you haven't visited the
 > [Wikipedia](http://en.wikipedia.org/wiki/Main_Page), it is worth a
 > look.
 >

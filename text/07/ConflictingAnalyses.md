@@ -16,7 +16,7 @@ logistic regression model adjusting for two covariates. These covariates
 were not imbalanced between the two groups. With the logistic regression
 model, the p-value changed from 0.048 to 0.06. The researcher wanted to
 know if it was appropriate to adjust for covariates in such a small data
-set. Here\'s what I suggested.
+set. Here's what I suggested.
 
 If I were you, I would write the paper to include both analyses. Point
 out that the effect seen in your study is marginal (both 0.048 and 0.06

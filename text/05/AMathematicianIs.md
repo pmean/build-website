@@ -8,7 +8,7 @@ tags:
 - Mathematics
 output: html_document
 ---
-*A mathematician is a machine for turning coffee into theorems.* Paul Erdos. It\'s worth noting that Paul Erdos is one of the most eccentric mathematicians, a group that already has more than its share of eccentrics. A nice summary of his life is in a [Discover magazine article by Paul Hoffman][hof1].
+*A mathematician is a machine for turning coffee into theorems.* Paul Erdos. It's worth noting that Paul Erdos is one of the most eccentric mathematicians, a group that already has more than its share of eccentrics. A nice summary of his life is in a [Discover magazine article by Paul Hoffman][hof1].
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

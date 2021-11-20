@@ -24,7 +24,7 @@ output: html_document
 > best example of eagle-eyed proof-reading was someone who noted that my
 > bibliographic reference on [Stats: Odds ratio versus relative risk
 > (January 9, 2001)](../journal/oddsratio.asp) to Fahey 1996 should
-> actually be Fahey 1995. That\'s an eye for detail that I have to
+> actually be Fahey 1995. That's an eye for detail that I have to
 > admire.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

@@ -16,14 +16,14 @@ that should never occur. This included things like wrong-site surgery,
 pressure ulcers, and misuse of medical devices. Among these events, 20
 resulted in a patient death.
 
--   **[Minnesota hospitals\' report on \"never events\"
+-   **[Minnesota hospitals' report on "never events"
     released](http://www.ama-assn.org/amednews/2005/02/21/prsc0221.htm%20)**.
     Robeznieks A, Published in Amercian Medical News on February 21,
     2005. Accessed on 2005-02-16.
     www.ama-assn.org/amednews/2005/02/21/prsc0221.htm
 
 This is an example of the increasing demand that hospitals and other
-health care organizations produce \"report cards\" that tell the public
+health care organizations produce "report cards" that tell the public
 how well or poorly they are doing. We need to be cautious about
 reporting this type of information because if it is presented poorly, it
 may unfairly taint the reputation of individuals or organizations. In
@@ -31,7 +31,7 @@ particular, if a group of doctors takes on the most difficult cases
 because of their unique skill, their rates of adverse outcomes will be
 higher, unless some risk adjustment is made.
 
-There\'s an entire book on risk adjustment,
+There's an entire book on risk adjustment,
 
 -   **Risk Adjustment for Measuring Health Care Outcomes, Third
     Edition.** Iezzoni LI (2003) Chicago, IL: Health Administration
@@ -44,12 +44,12 @@ has the following quote:
 
 > *A BMA spokesperson agreed that patients should have high quality
 > information. However, the BMA would oppose the use of crude mortality
-> data. \"Evidence from other countries shows that some surgeons are
+> data. "Evidence from other countries shows that some surgeons are
 > deterred from taking on very complex and therefore high risk
 > procedures because published simplistic leagues tables count against
-> them,\" the spokesperson said. \"We are keen to work with the
+> them," the spokesperson said. "We are keen to work with the
 > government and patients to develop meaningful and accurate data that
-> will enhance patient choice.\"*
+> will enhance patient choice."*
 > [bmj.bmjjournals.com/cgi/content/full/330/7488/384-b](http://bmj.bmjjournals.com/cgi/content/full/330/7488/384-b)
 
 **Further reading (new reference added March 23, 2005):**
@@ -129,7 +129,7 @@ has the following quote:
 -   **A broader concept of medical errors.** Lee TH. N Engl J Med 2002:
     347(24); 1965-7.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12477949&dopt=Abstract)
--   **Relationship Between Low Quality-of-Care Scores and HMOs\'
+-   **Relationship Between Low Quality-of-Care Scores and HMOs'
     Subsequent Public Disclosure of Quality-of-Care Scores.** McCormick
     D, Himmelstein DU, Woolhandler S, Wolfe SM, Bor DH. Jama 2002:
     288(12); 1484-90.
@@ -215,7 +215,7 @@ has the following quote:
 -   **Practical Benchmarking for Mutual Improvement.** Thor CG (1995)
     Portland, Oregon: Productivity Press.
 -   **Lessons from the Bristol case. More openness\--on risks and on
-    individual surgeons\' performance \[editorial\].** Treasure T. Bmj
+    individual surgeons' performance \[editorial\].** Treasure T. Bmj
     1998: 316(7146); 1685-6.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9614010&dopt=Abstract)
     [\[Full

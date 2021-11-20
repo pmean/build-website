@@ -31,7 +31,7 @@ My credentials are reviewed by a committee of
 > *five Professors and Associate Professors who themselves are
 > non-regular (non-tenure), non-MD and nonclinical MD faculty, plus the
 > Chairman of the UMKC SOM Appointment and Promotion Committee for MD
-> Faculty who shall serve ex officio and the school\'s faculty
+> Faculty who shall serve ex officio and the school's faculty
 > representative to the UMKC Promotion and Continuous Appointment
 > Advisory Committee.*
 

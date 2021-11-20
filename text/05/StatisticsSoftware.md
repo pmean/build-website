@@ -21,7 +21,7 @@ Accessed on 2005-09-15.
 
 > \[Excerpt\] *IRT (Item Response Theory) has been undergoing important
 > developments in the past few years. Indeed, many general purpose
-> statistical packages still don\'t have procedures implementing these
+> statistical packages still don't have procedures implementing these
 > new indices, methods and models. As a consequence, a significant
 > number of specific packages have been developed by psychometricians
 > (see http://www.assess.com). However, no package offers a
@@ -44,16 +44,16 @@ Accessed on 2005-09-15.
 > statistical modeling of data. It offers the fitting fuctions found in
 > commercial software such as LISREL, LISCOMP, EQS and CALIS, along with
 > facilities for maximum likelihood estimation of parameters from
-> missing data structures, under normal theory. Complex \'nonstandard\'
+> missing data structures, under normal theory. Complex 'nonstandard'
 > models are easy to specify. For further general applicability, it
 > allows the user to define their own fit functions, and optimization
 > may be performed subject to linear and nonlinear equality or boundary
 > constraints.* www.vcu.edu/mx
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
@@ -61,17 +61,17 @@ computing](../category/StatisticalComputing.html).
 computing](../category/StatisticalComputing.html).
 for pages similar to this one at [Category: Statistical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Free statistics software (September
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).

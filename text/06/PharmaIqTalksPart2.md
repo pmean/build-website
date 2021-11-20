@@ -12,12 +12,12 @@ output: html_document
 **[StATS]:** **PharmaIQ talks (December 6, 2006)**
 [Category: Data mining](../category/DataMining.html)
 
-> I attended the conference \"Signal Detection and Data Mining\"
+> I attended the conference "Signal Detection and Data Mining"
 > sponsored by PharmaIQ. Here are some notes I took during some of the
 > talks.
 >
-> Wolfgang Schurman from Schering AG presented a talk, \"Developing
-> Successful Long-Term Drug Safety Strategies for an Uncertain Future\".
+> Wolfgang Schurman from Schering AG presented a talk, "Developing
+> Successful Long-Term Drug Safety Strategies for an Uncertain Future".
 >
 > > Most regulatory changes in the review of drugs occurred as the
 > > result of medical disasters, such as the death of ten children from
@@ -30,8 +30,8 @@ output: html_document
 > > [2001/83/EC](http://ec.europa.eu/enterprise/pharmaceuticals/eudralex/vol-1/dir_2001_83/dir_2001_83_en.pdf)
 > > speak to new safety reporting requirements.
 > >
-> > The IOM report [\"The Future of Drug Safety: Promoting and
-> > Protecting the Health of the Public\"](http://www.iom.edu/?id=37339)
+> > The IOM report ["The Future of Drug Safety: Promoting and
+> > Protecting the Health of the Public"](http://www.iom.edu/?id=37339)
 > > came up with four conclusions:
 > >
 > > -   we have a safety crisis
@@ -53,7 +53,7 @@ output: html_document
 > >
 > > Pharmacovigilance staff need to be adequately resourced, staffed,
 > > and trained. They need a thorough knowledge of the literature,
-> > epidemiology principles, and the company\'s products. The department
+> > epidemiology principles, and the company's products. The department
 > > needs to be independent and report directly to a board member rather
 > > than be subordinate to marketing or medical affairs. You also need
 > > an optimal IT environment (e.g., e-reporting, image storing, and
@@ -65,14 +65,14 @@ output: html_document
 > > simplify regulations. You also need to concentrate on the important
 > > cases rather than get lost in a sea of information.
 >
-> William Maier, Director of Epidemiology at Elan Ltd, talked about \"A
+> William Maier, Director of Epidemiology at Elan Ltd, talked about "A
 > Combinatorial Approach to Signal Detection for Respiratory Adverse
-> Reactions\"
+> Reactions"
 >
 > > He summarized the new EU risk management plan
 > > ([www.emea.eu.int/pdfs/human/euleg/9626805en.pdf](http://www.emea.eu.int/pdfs/human/euleg/9626805en.pdf)).
 > >
-> > Dr. Maier\'s approach was what to do when a signal is detected.
+> > Dr. Maier's approach was what to do when a signal is detected.
 > > Where can epidemiology help you?
 > >
 > > -   Event classification-are you only seeing the severe tip of an
@@ -100,11 +100,11 @@ output: html_document
 > > limitations to the inferences that you can draw from these
 > > databases, and Dr. Maier outlined these limitations.
 >
-> Ulrich Vogel from Boehringer Ingelheim talked about \"Best Practices
-> for Combining Manual and Medical Opinion With Statistical Analysis.\"
+> Ulrich Vogel from Boehringer Ingelheim talked about "Best Practices
+> for Combining Manual and Medical Opinion With Statistical Analysis."
 >
-> > He applied a general sociological concept known as \"the wisdom of
-> > crowds\". He cited work by a famous statistician, Sir Francis Galton
+> > He applied a general sociological concept known as "the wisdom of
+> > crowds". He cited work by a famous statistician, Sir Francis Galton
 > > who witnessed a crowd at a county fair estimating the weight of an
 > > ox on display. The crowd included both cattle experts and lay
 > > persons. Each participant wrote their estimate of weight on a card.
@@ -144,8 +144,8 @@ output: html_document
 > > diversity and appease concerns about limitations of an individual
 > > database.
 >
-> Nawab Qizilbash from Oxon Clinical Epidemiology gave a talk, \"Signal
-> Matching: Managing and Monitoring Databases.\"
+> Nawab Qizilbash from Oxon Clinical Epidemiology gave a talk, "Signal
+> Matching: Managing and Monitoring Databases."
 >
 > > His outline covered the following topics: key factors in choosing a
 > > database, comparing accessible databases, matching signal types to
@@ -199,7 +199,7 @@ output: html_document
 > > those patients who had been taking the drug the least amount of time
 > > and the effect more or less disappeared among patients taking the
 > > drug for several years. This is an example of prescription bias. If
-> > a patient comes into a doctor\'s office showing signs of memory
+> > a patient comes into a doctor's office showing signs of memory
 > > problems and forgetfulness, the doctor may be reluctant to add on a
 > > new drug, especially if it is for prevention of a future illness
 > > rather than the treatment of a current illness.
@@ -209,9 +209,9 @@ output: html_document
 > > who is not afraid of dirty data, and a statistician who can
 > > appreciate the special issues of observational data.
 >
-> Pauline Gerritsen-van Schieveen from Astellas presented a talk, \"Risk
+> Pauline Gerritsen-van Schieveen from Astellas presented a talk, "Risk
 > Management and Signal Detection in the Real Life of a Middle Size
-> Company.\"
+> Company."
 >
 > > She stressed the need to start risk assessment before the
 > > first-in-man study. You can identify potential issues from the
@@ -232,7 +232,7 @@ output: html_document
 > > life-threatening adverse events). Risk management processes need a
 > > direct link with crisis management.
 > >
-> > Dr. Gerritsen-van Scieveen\'s company has seen some major changes
+> > Dr. Gerritsen-van Scieveen's company has seen some major changes
 > > after the creation of a risk management group. There was a company
 > > wide update of terminology to reflect appreciation of risk
 > > management issues, closer cooperation with the exploratory
@@ -250,29 +250,29 @@ output: html_document
 > > documentation of the risk management process and proof that the
 > > documented process is actually being followed.
 >
-> It\'s hard to take good notes, so I apologize to the speakers if I did
+> It's hard to take good notes, so I apologize to the speakers if I did
 > not accurately portray their messages.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **PharmaIQ talks (December 6, 2006)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

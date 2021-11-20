@@ -13,24 +13,24 @@ output: html_document
 2006)**
 
 Someone asked me to define face validity, criterion validity, and
-construct validity. That\'s a tall order. In general, validity means
+construct validity. That's a tall order. In general, validity means
 that a measurement that we take represents what we think it should. This
 is important to establish, because many times we think we are measuring
 one thing, but we are measuring something else entirely. It is important
 to remember that validity is a journey and not a goal. You never reach a
 place called the land of valid measurements. Instead, you gradually
 strengthen the evidence for validity, but there is no threshold that you
-cross where you can say, \"We can now conclude that the measure is
-valid.\" Similarly, there is no region we can point to where we can say
-with confidence \"We have not yet reached the point where we can say
-that the measure is valid.\"
+cross where you can say, "We can now conclude that the measure is
+valid." Similarly, there is no region we can point to where we can say
+with confidence "We have not yet reached the point where we can say
+that the measure is valid."
 
 Let me tackle the last definition first. Construct validity is the
 degree to which a direct measurement represents an unobserved social
 construct. To establish construct validity, you demonstrate that the
 measure changes in a logical way when other conditions change. For
 example, the study described below, faculty viewed videotapes of
-\"standardized residents\" who depicted either unsatisfactory,
+"standardized residents" who depicted either unsatisfactory,
 marginal/satisfactory, or high satisfactory/superior performance. The
 ratings given by the miniCEX reflected the actual performance levels,
 demonstrating validity with the standardized resident construct.
@@ -212,7 +212,7 @@ of use. Guidelines regarding administration of the tools were provided
 in 43% of cases. CONCLUSIONS: There was considerable variability in
 intent, components, construction and psychometric properties of
 published critical appraisal tools for research reports. There is no
-\"gold standard\' critical appraisal tool for any study design, nor is
+"gold standard' critical appraisal tool for any study design, nor is
 there any widely accepted generic tool that can be applied equally well
 across study types. No tool was specific to allied health research
 requirements. Thus interpretation of critical appraisal of research
@@ -361,7 +361,7 @@ assess the articles: research assistants, clinicians with research
 training and experts in research methodology, with 3 judges in each
 category. The sensibility of the index was assessed by 15 randomly
 selected faculty members of the Department of Clinical Epidemiology and
-Biostatistics at McMaster. Authors\' reports of their methods related
+Biostatistics at McMaster. Authors' reports of their methods related
 closely to ratings from corresponding OQAQ items: for each criterion,
 the mean score was significantly higher for articles for which the
 authors responses indicated that they had used more rigorous methods.
@@ -379,7 +379,7 @@ to specify what qualities should be investigated before a test is
 published. In order to make coherent recommendations the Committee found
 it necessary to distinguish four types of validity, established by
 different types of research and requiring different interpretation. The
-chief innovation in the Committee\'s report was the term construct
+chief innovation in the Committee's report was the term construct
 validity.\[2\] This idea was first formulated by a subcommittee (Meehl
 and R. C. Challman) studying how proposed recommendations would apply to
 projective techniques, and later modified and clarified by the entire
@@ -387,7 +387,7 @@ Committee (Bordin, Challman, Conrad, Humphreys, Super, and the present
 writers). The statements agreed upon by the Committee (and by committees
 of two other associations) were published in the Technical
 Recommendations (59). The present interpretation of construct validity
-is not \"official\" and deals with some areas where the Committee would
+is not "official" and deals with some areas where the Committee would
 probably not be unanimous. The present writers are solely responsible
 for this attempt to explain the concept and elaborate its implications.*
 
@@ -410,18 +410,18 @@ child was videotaped during each assessment, and segments were edited
 and their order was randomized. Four nurses blinded to sedative
 administration viewed the segments and scored sedation using the UMSS.
 One of these nurses also scored sedation using a visual analogue scale
-(VAS) and another using the Observer\'s Assessment of Alertness/Sedation
+(VAS) and another using the Observer's Assessment of Alertness/Sedation
 Scale (OAAS). To examine the test-retest reliability, 75 randomly
 selected video segments were viewed and scored on a second occasion.
 RESULTS: Changes in scores from baseline to discharge supported
 construct validity (P\<0.0001). Criterion validity was demonstrated by
 significant correlations between the UMSS and the VAS and OAAS. There
-was good interobserver agreement between blinded observers\' scores for
+was good interobserver agreement between blinded observers' scores for
 each level of sedation and at discharge, and between blinded observers
 and the CT nurse for scores of 0 and 1 (lighter levels of sedation), but
 less agreement for scores 2 and 3 (deeper sedation) and discharge
 scores. Test-retest reliability was supported by agreement in the
-observers\' UMSS scores. CONCLUSION: The UMSS is a simple, valid and
+observers' UMSS scores. CONCLUSION: The UMSS is a simple, valid and
 reliable tool that facilitates rapid and frequent assessment and
 documentation of depth of sedation in children.*
 
@@ -448,7 +448,7 @@ hospitals to assess quality improvement and to make benchmark
 comparisons with similar hospitals.*
 
 **[A Plethora of Threats: A Mildly Amusing Guide for the Weary Student
-and Anyone Else Encountering the How To\'s and What If\'s of Construct
+and Anyone Else Encountering the How To's and What If's of Construct
 Validity.](http://trochim.human.cornell.edu/tutorial/driebe/tweb1.htm)**.
 Nicole M. Driebe. Accessed on 2003-09-17. \[Excerpt\] *Warning: This web
 page may cause severe gastrointestinal disorders, bloodshot eyes and
@@ -461,11 +461,11 @@ purely fictional. If anyone or any situation resemble you or your own
 situation in any way \-- join the club.*
 trochim.human.cornell.edu/tutorial/driebe/tweb1.htm
 
-**Reliability and validity of the Children\'s Health Survey for
+**Reliability and validity of the Children's Health Survey for
 Asthma.** L. Asmussen, L. M. Olson, E. N. Grant, J. Fagan, K. B. Weiss.
 Pediatrics 1999: 104(6); e71.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10586005&dopt=Abstract)
-*OBJECTIVE: Describe the psychometric properties of the Children\'s
+*OBJECTIVE: Describe the psychometric properties of the Children's
 Health Survey for Asthma (CHSA)- a condition-specific, self-report,
 functional health measure for parents of children 5 to 12 years of age
 with chronic asthma. METHOD: Data from two cross-sectional and one
@@ -481,7 +481,7 @@ higher scores indicating better or more positive outcomes. RESULTS:
 Across the three samples, mean scale scores ranged from a low of 61.5
 (emotional health of the child) to a high of 86.1 (activity \[family\]).
 Internal consistency reliability for each of the scales was high
-(Cronbach\'s alpha =.81-. 92), and test-retest reliability (correlation
+(Cronbach's alpha =.81-. 92), and test-retest reliability (correlation
 between forms) ranged from.62 to.86. Significant differences in mean
 scores for four of five scales were noted between those with low versus
 moderate to high recent symptom activity. CONCLUSION: In three tests,
@@ -492,12 +492,12 @@ each of the five scales. Construct validity is demonstrated by the
 ability of CHSA to distinguish levels of disease severity, defined by
 symptom activity.*
 
-**Reliability and validity of the Women\'s Health Initiative Insomnia
+**Reliability and validity of the Women's Health Initiative Insomnia
 Rating Scale.** D. W. Levine, D. F. Kripke, R. M. Kaplan, M. A. Lewis,
 M. J. Naughton, D. J. Bowen, S. A. Shumaker. Psychol Assess 2003: 15(2);
 137-48.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12847774&dopt=Abstract)
-*Reliability and construct validity of the 5-item Women\'s Health
+*Reliability and construct validity of the 5-item Women's Health
 Initiative Insomnia Rating Scale (WHIIRS) were evaluated in 2 studies.
 In Study 1, using a sample of 66,269 postmenopausal women, validity of
 the WHIIRS was assessed by examining its relationship to other measures
@@ -555,7 +555,7 @@ Kraiprasit, S. Petcharatana, S. Prakkamodom, N. Muntraporn. Br J Anaesth
 [\[Full text\]](http://bja.oupjournals.org/cgi/content/full/87/3/400)
 [\[PDF\]](http://bja.oupjournals.org/cgi/reprint/87/3/400.pdf) *This
 study was designed to cross-validate a composite measure of the pain
-scales CHEOPS (Children\'s Hospital of Eastern Ontario Pain Scale), OPS
+scales CHEOPS (Children's Hospital of Eastern Ontario Pain Scale), OPS
 (Objective Pain Scale, simplified for parent use by replacing blood
 pressure measurement with observation of body language or posture),
 TPPPS (Toddler Preschool Postoperative Pain Scale) and FLACC (Face,
@@ -564,7 +564,7 @@ The pain scales were translated and tested for content, construct and
 concurrent validity, including inter-rater and intra-rater
 reliabilities. Discriminative validity in immediate and persistent pain
 for the age groups \< or =3 and \>3 yr were also studied. The
-children\'s behaviour was videotaped before and after surgery, before
+children's behaviour was videotaped before and after surgery, before
 analgesia had been given in the post-anaesthesia care unit (PACU), and
 on the ward. Four observers then rated pain behaviour from rearranged
 videotapes. The decision to treat pain was based on routine practice and
@@ -582,10 +582,10 @@ PACU but only moderate agreement on the ward. On the basis of data from
 this study, we recommend CHEOPS as a valid, reliable and practical
 tool.*
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 agreement](../category/MeasuringAgreement.html).
@@ -593,17 +593,17 @@ agreement](../category/MeasuringAgreement.html).
 agreement](../category/MeasuringAgreement.html).
 for pages similar to this one at [Category: Measuring
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **What is construct validity? (March 8,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 agreement](../category/MeasuringAgreement.html).

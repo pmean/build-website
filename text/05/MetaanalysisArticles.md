@@ -29,7 +29,7 @@ difficult to classify:
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1741-7015-1-2.pdf)
 
 The first relates how meta-analysis supports some, but not all of
-Hill\'s criteria for causation. The second compared systematic reviews
+Hill's criteria for causation. The second compared systematic reviews
 with narrative reviews. Systematic reviews were cited more often (26
 times on average versus 8) and included twice as many citations.
 
@@ -41,7 +41,7 @@ examples, however, and they have full free text on the web.
 
 -   **Collaborative Meta-Analysis of Randomised Trials of Antiplatelet
     Therapy for Prevention of Death, Myocardial Infarction, and Stroke
-    in High Risk Patients.** Antithrombotic Trialists\' Collaboration.
+    in High Risk Patients.** Antithrombotic Trialists' Collaboration.
     BMJ 2002: 324(7329); 71-86.
     [\[PDF\]](http://bmj.com/cgi/reprint/324/7329/71.pdf)
 -   **Efficacy, Tolerability, and Upper Gastrointestinal Safety of

@@ -11,7 +11,7 @@ output: html_document
 *Dear Professor Mean, In my regression output, I saw that following
 value: -2.384E-03. What does this E notation mean?*
 
-Think of the \"E\" as short for extreme. Some numbers are very small,
+Think of the "E" as short for extreme. Some numbers are very small,
 such as
 
 0.0000000000000000000000016727
@@ -26,7 +26,7 @@ space. We can save some space by representing the number as a value
 between 1 and 10 times a power of ten. For example, the two numbers
 listed above could be represented as 1.6727\*10\^-24 and 5.91352\*10\^9.
 
-The \"E\" is shorthand for multiply the number on the left by 10 raised
+The "E" is shorthand for multiply the number on the left by 10 raised
 to the power of the number on the right. We refer to this as scientific
 notation.
 
@@ -37,7 +37,7 @@ the decimal three places to the left. When we do this, we get
 
 -0.002384
 
-Let\'s suppose that SPSS displayed a very large number as 3.452E6. We
+Let's suppose that SPSS displayed a very large number as 3.452E6. We
 would move the decimal 6 places to the right to get
 
 3,452,000

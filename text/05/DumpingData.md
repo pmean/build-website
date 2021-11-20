@@ -13,7 +13,7 @@ output: html_document
 > data he needed was in a data frame with 94 rows and 16 columns
 > (folate.signal). But unfortunately, the names of the rows
 > (gene.symbol) and columns (liver.names) were stored in separate
-> objects. Here\'s one way to match the values back up.
+> objects. Here's one way to match the values back up.
 >
 > First, there are duplicates in the gene.symbol list, so to create new
 > names, use the makeUnique function found in the limma library. Then

@@ -70,14 +70,14 @@ medicine (September 7, 2006)**
 > > narrator.*
 >
 > Perhaps the most popular exposition of a postmodern philosophy is the
-> claim in Dan Brown\'s DaVinci Code that \"history is written by the
-> winners.\" It is actually through an analogy of historical thought
+> claim in Dan Brown's DaVinci Code that "history is written by the
+> winners." It is actually through an analogy of historical thought
 > that the concept of postmodernism became clearer to me.
 >
 > Can historians reach an objective conclusion about something like the
-> existence of the Holocaust? That\'s a topic tackled early in a book by
-> Michael Shermer and Alex Grobman, \"Denying History: Who Says the
-> Holocaust Never Happened and Why Do They Say It?\" The book reviews
+> existence of the Holocaust? That's a topic tackled early in a book by
+> Michael Shermer and Alex Grobman, "Denying History: Who Says the
+> Holocaust Never Happened and Why Do They Say It?" The book reviews
 > the evolution of historical thought which started as a belief that an
 > objective account of history was an achievable goal. It then evolved
 > into a postmodern belief that all historical accounts reflect the
@@ -134,29 +134,29 @@ medicine (September 7, 2006)**
 > Joel Best, in his book, Damned Lies and Statistics, has a very nice
 > argument for postmodernism when he states:
 >
-> > \"We sometimes talk about statistics as though they are facts that
+> > "We sometimes talk about statistics as though they are facts that
 > > simply exist, like rocks, completely independent of people, and that
 > > people gather statistics much as rock collectors pick up stones.
-> > This is wrong. All statistics are created through people\'s action:
+> > This is wrong. All statistics are created through people's action:
 > > people have to decide what to count and how to count it, people have
 > > to do the counting, and people have to interpret the resulting
 > > statistics, to decide what the numbers mean. All statistics are
-> > social products, the results of people\'s efforts.\"
+> > social products, the results of people's efforts."
 >
-> This is not to say that all statistics are bad, just that you can\'t
+> This is not to say that all statistics are bad, just that you can't
 > interpret them without first understanding the context in which they
 > were created.
 >
 > The same can be argued about EBM. Medical research is produced in a
 > social context, and failure to recognize this is a serious limitation
 > of EBM. Not to pick on a single medical specialty, but when someone
-> argues \"they\'re only saying this because they\'re surgeons\" that is
-> probably a good thing as long as you don\'t take it to the point of
-> \"you can\'t trust anything that a surgeon tells you.\"
+> argues "they're only saying this because they're surgeons" that is
+> probably a good thing as long as you don't take it to the point of
+> "you can't trust anything that a surgeon tells you."
 >
 > I suspect (but have to admit that this is just speculation) that the
-> authors of \"Deconstructing the evidence-based discourse in health
-> sciences: truth, power and fascism\" have adopted a postmodern
+> authors of "Deconstructing the evidence-based discourse in health
+> sciences: truth, power and fascism" have adopted a postmodern
 > position because they are upset at the EBM rejection of some forms of
 > alternative medicine. Indeed there are some in the alternative
 > medicine community who adopt an evidentiary perspective that places
@@ -188,12 +188,12 @@ medicine (September 7, 2006)**
 >     2002 Oct 12;325(7368):832-4.
 >
 > So a bit of postmodernism is probably good medicine, as long as you
-> don\'t overdose on it.
+> don't overdose on it.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).
@@ -201,17 +201,17 @@ resources](../category/TeachingResources.html).
 resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Postmodern thought and evidence based
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).

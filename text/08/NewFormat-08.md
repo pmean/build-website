@@ -11,7 +11,7 @@ output: html_document
 > On my thousand plus web pages, I have included various other
 > resources: peer-reviewed articles, books, and websites. These have
 > been handled in a haphazard fashion, and my attempts to standardize
-> the formats (most notably in Professor Mean\'s Library) have been only
+> the formats (most notably in Professor Mean's Library) have been only
 > partially successful. I have been experimenting with a new format. I
 > want something that is useful to you loyal readers of my webpages
 > while still being easy for me to maintain and update.
@@ -43,7 +43,7 @@ output: html_document
 > books with little or no mathematics, those that provide a good general
 > introduction to statistics, those that have more mathematical rigor,
 > etc. I also want to develop a top ten list of recommended book. I get
-> lots of questions about what book I would recommend, and I can\'t pick
+> lots of questions about what book I would recommend, and I can't pick
 > one over all the others, but I think I can come up with ten that I
 > like and that I heartily recommend.
 >

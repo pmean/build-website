@@ -19,7 +19,7 @@ data (January 19, 2006)**
 > evaluated children that it would make more sense not to report a rate
 > at all, but instead label that zip code as having insufficient data.
 >
-> There\'s no right or wrong answer here, and it may be worthwhile to
+> There's no right or wrong answer here, and it may be worthwhile to
 > experiment a bit.
 >
 > You could use the width of the confidence interval as a guide and set
@@ -37,10 +37,10 @@ data (January 19, 2006)**
 > that would produce a width of plus/minus 20% when the rate was exactly
 > equal to the overall rate.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).
@@ -48,17 +48,17 @@ statistics](../category/DescriptiveStatistics.html).
 statistics](../category/DescriptiveStatistics.html).
 for pages similar to this one at [Category: Descriptive
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Excluding zip codes with insufficient
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).

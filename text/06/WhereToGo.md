@@ -21,14 +21,14 @@ Center. The [website for this
 conference](http://www.kclifesciencesday.org/index.htm), however, does
 not have much information yet.
 
-Another local event is a day long training class, \"[Bayesian Clinical
-Trials](http://www.amstat.org/education/learnstat/bct.cfm)\" taught by
+Another local event is a day long training class, "[Bayesian Clinical
+Trials](http://www.amstat.org/education/learnstat/bct.cfm)" taught by
 Scott Berry. This class will be held on Friday, April 14 at the Kansas
 University Medical Center. The class does not have a lot of
-prerequisites, just \"a basic understanding of statistics and clinical
-trials.\"
+prerequisites, just "a basic understanding of statistics and clinical
+trials."
 
-The shortest trip is to the Kansas State University\'s annual conference
+The shortest trip is to the Kansas State University's annual conference
 on [Applied Statistics in
 Agriculture](http://www.k-state.edu/stats/agstat.conference/). This year
 it is being held from April 30 to May 2. The short course on Sunday is
@@ -59,7 +59,7 @@ is available.
 The Joint Statistics Meetings are August 5-10 in Seattle, WA. The
 American Statistical Association is the main sponsor of this meeting,
 but all of the Statistics Societies participate (hence the adjective
-\"Joint\"). An extensive set of web pages about the meetings are at the
+"Joint"). An extensive set of web pages about the meetings are at the
 ASA web site ([start
 here](http://www.amstat.org/meetings/jsm/2006/index.cfm)), but there are
 very few details yet. The preliminary program will be available on
@@ -87,13 +87,13 @@ conference](http://www.r-project.org/useR-2006/Tutorials/index.html)
 lists the keynote lectures, tutorials, and a panel discussion on getting
 recognition for excellence in computational statistics.
 
-I\'m not sure which of these conferences I will end up attending, but
+I'm not sure which of these conferences I will end up attending, but
 they all look good.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).
@@ -101,17 +101,17 @@ details](../category/ProfessionalDetails.html).
 details](../category/ProfessionalDetails.html).
 for pages similar to this one at [Category: Professional
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Where to go, where to go (January 11,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).

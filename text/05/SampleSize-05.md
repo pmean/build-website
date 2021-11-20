@@ -29,17 +29,17 @@ out that when you increase your sample size, the p-value always goes
 down. There are a few exceptions for one-sided hypotheses, but this is a
 general rule that almost always works.
 
-There is an obvious lesson here, but it wasn\'t obvious to me the first
+There is an obvious lesson here, but it wasn't obvious to me the first
 time I did it. If two data sets show the same estimated odds ratio (or
 mean difference, or hazard ratio, or whatever) and are otherwise
 identical except for the sample size, it will be the larger of the two
 data sets that provides more precision, and therefore more evidence
 against the null hypothesis.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).
@@ -47,17 +47,17 @@ Pvalues](../category/Pvalues.html).
 Pvalues](../category/Pvalues.html).
 for pages similar to this one at [Category:
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Relationship between sample size and
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).

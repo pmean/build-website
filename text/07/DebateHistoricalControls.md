@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 Someone on the Evidence Based Medicine email discussion group asked
-about how to appraise a \"before and after\" design. This is effectively
+about how to appraise a "before and after" design. This is effectively
 the same as using a historical control group. Historical control groups
 have a bad reputation.
 
@@ -50,7 +50,7 @@ is also very critical of historical controls
 > time.*
 
 Most experts recommend that you only use a historical control group as a
-last resort. It\'s hard to find anyone to defend historical control
+last resort. It's hard to find anyone to defend historical control
 groups, but Sir Michael Rawlins, in a web page at Pharmafocus
 
 -   [www.pharmafocus.com/cda/focusH/1,2109,22-0-0-0-focus\_feature\_detail-0-75778,00.html](http://www.pharmafocus.com/cda/focusH/1,2109,22-0-0-0-focus_feature_detail-0-75778,00.html)
@@ -62,7 +62,7 @@ argues that there is a time and a place for this type of study.
 > biologically plausible basis for the treatment, and where the outcome
 > untreated is homogenous and either very disabling or fatal. When I was
 > at the CSM, for example, we agreed to licence valganciclovir
-> \[Roche\'s Valcyte\] for CMV retinitis in AIDS patients. That was done
+> \[Roche's Valcyte\] for CMV retinitis in AIDS patients. That was done
 > entirely on the basis of historical controls.*
 >
 > *At the time the FDA refused to accept historical controls and
@@ -76,7 +76,7 @@ argues that there is a time and a place for this type of study.
 > careful historical controls because of the virtual impossibility of
 > randomised controlled trials.*
 
-I don\'t think that there is a formal appraisal tool for a historical
+I don't think that there is a formal appraisal tool for a historical
 control study. Perhaps you could adapt (very carefully) an appraisal
 tool for cohort designs. Historical controls can be thought of as an
 inferior version of a cohort design.

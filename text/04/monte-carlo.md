@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 I got a question from someone in my office who is taking a class on
-research methods. She asked me to define the term \"Monte Carlo\" that
+research methods. She asked me to define the term "Monte Carlo" that
 her teacher had used without much of an explanation.
 
 Monte Carlo is a method that studies a problem by repeatedly simulating

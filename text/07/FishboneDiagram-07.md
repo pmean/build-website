@@ -19,11 +19,11 @@ output: html_document
 > The fishbone diagram (also called the Ishikawa diagram, or the case
 > and effect diagram) is a tool for identifying the root causes of
 > quality problems. It was named after Kaoru Ishikawa, the man who
-> pioneered the use of this chart in quality improvement in the 1960\'s.
+> pioneered the use of this chart in quality improvement in the 1960's.
 >
 > If you want to use a Fishbone Diagram, first list the main problem on
 > the right hand side of the paper. Then draw a horizontal line to
-> represent the \"backbone\" of the diagram. This line is not labeled.
+> represent the "backbone" of the diagram. This line is not labeled.
 > Off of the backbone, draw and label major bones: 4 to 7 major
 > categories of causes. A commonly used list of major causes is
 > Management, Manpower, Machines, and Materials. Another possible list
@@ -56,8 +56,8 @@ output: html_document
 >     characteristic (Viewgraph 1). It graphically illustrates the
 >     relationship between a given outcome and all the factors that
 >     influence the outcome. This type of diagram is sometimes called an
->     \"Ishikawa diagram\" because it was invented by Kaoru Ishikawa, or
->     a \"fishbone diagram\" because of the way it looks.*
+>     "Ishikawa diagram" because it was invented by Kaoru Ishikawa, or
+>     a "fishbone diagram" because of the way it looks.*
 >     www.hq.navy.mil/RBA/c-ediag.pdf. Also found at
 >     www.management-tools.org/files/c-ediag.pdf and
 >     www.saferpak.com/cause\_effect\_articles/howto\_cause\_effect.pdf.

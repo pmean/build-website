@@ -31,28 +31,28 @@ leveled by people who have an opposite interest and conflict with the
 research. So, for example, a common charge is that EPA preferentially
 funds research that exaggerates environmental hazards and the
 researchers funded by EPA try to deliver this type of finding. Often
-this sort of charge is a \"red herring\" by opponents of environmental
+this sort of charge is a "red herring" by opponents of environmental
 regulation intended to sow doubt and confusion.
 
-Another \"red herring\" was claims about a financial conflict of
+Another "red herring" was claims about a financial conflict of
 interest with the James Randi prize. James Randi, through the James
 Randi Education Foundation, has offered a million dollar prize
 
-> \"*to anyone who can show, under proper observing conditions, evidence
-> of any paranormal, supernatural, or occult power or event.*\" \--
+> "*to anyone who can show, under proper observing conditions, evidence
+> of any paranormal, supernatural, or occult power or event.*" \--
 > [www.randi.org/research](http://www.randi.org/research)
 
 This generous offer includes claims for:
 
-> \"*Dowsing. ESP. Precognition. Remote Viewing. Communicating with the
-> Dead and/or \'Channeling\'. Violations of Newton\'s Laws of Motion
+> "*Dowsing. ESP. Precognition. Remote Viewing. Communicating with the
+> Dead and/or 'Channeling'. Violations of Newton's Laws of Motion
 > (Perpetual Motion Devices). Homeopathy. Chiropractic Healing (beyond
 > back/joint problems). Faith Healing. Psychic Surgery. Astrology.
-> Therapeutic Touch (aka \'TT\'). Qi Gong. Psychokinesis (aka \'PK\').
+> Therapeutic Touch (aka 'TT'). Qi Gong. Psychokinesis (aka 'PK').
 > The Existence of Ghosts. Precognition & Prophecy. Levitation.
 > Physiognomy. Psychometry. Pyramid Power. Reflexology. Acupuncture.
-> Applied Kinesiology (aka \"AK\"). Clairvoyance. The Existence of
-> Auras. Graphology. Numerology. Palmistry. Phrenology.*\" \--
+> Applied Kinesiology (aka "AK"). Clairvoyance. The Existence of
+> Auras. Graphology. Numerology. Palmistry. Phrenology.*" \--
 > [www.randi.org/research/faq.html](http://www.randi.org/research/faq.html)
 
 Notice the wide range of alternative medicine practices included in this
@@ -62,7 +62,7 @@ seems like a reasonable question to me, but at least one proponent has
 offered a conflict of interest charge against James Randi.
 
 > *The idea of letting a former illusionist with a substantial financial
-> stake in a negative result supervise a \"double-blind\" experiment is
+> stake in a negative result supervise a "double-blind" experiment is
 > perhaps questionable.* \--
 > [www.weirdtech.com/sci/expe.html](http://www.weirdtech.com/sci/expe.html)
 
@@ -70,7 +70,7 @@ For someone to willing risk the loss of a million dollars shows the
 exact opposite to me. It was a response to a challenge that James Randi
 needed to put his money where his mouth is. The fact that he wants to
 supervise the results of the test rather than cede control to a
-\"neutral\" party is just a sign of reasonable prudence.
+"neutral" party is just a sign of reasonable prudence.
 
 **Further reading**:
 

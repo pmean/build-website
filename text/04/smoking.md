@@ -8,7 +8,7 @@ tags:
 - Corroborating evidence
 output: html_document
 ---
-A recent [Surgeon\'s General report on
+A recent [Surgeon's General report on
 smoking](http://www.surgeongeneral.gov/library/smokingconsequences/)
 adds new cause-and-effect links between smoking and several diseases
 including cataracts, pneumonia, acute myeloid leukemia, abdominal aortic
@@ -63,14 +63,14 @@ and the remaining criteria are
 These criteria are very commonly used, although Rothman and Greenland
 criticize them in their classic textbook, [Modern Epidemiology, Second
 Edition](http://www.lww.com/iproduct/?0-316-75780-2) (see pages 24-28).
-B. Burt Gerstman devotes a full chapter to Hill\'s criteria in his book,
+B. Burt Gerstman devotes a full chapter to Hill's criteria in his book,
 [Epidemiology Kept
 Simple](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471400289.html)
-(chapter 12). Edward Tufte liked Hill\'s criteria so much that he
+(chapter 12). Edward Tufte liked Hill's criteria so much that he
 reproduced the [original 1965 article by
 Hill](http://www.edwardtufte.com/tufte/hill) on his web site.
 
-I\'d like to talk a bit more about specificity, because that is an
+I'd like to talk a bit more about specificity, because that is an
 important, but neglected criteria.
 
 I am generally skeptical of very general medical claims. For example,
@@ -78,8 +78,8 @@ Linus Pauling has claimed in an [interview with the Academy of
 Achievement](http://www.achievement.org/autodoc/page/pau0int-4?hb=0)
 that large doses of vitamin (particularly Vitamin C) can cure conditions
 from a simple cold through cardiovascular disease, and advanced cancer.
-It\'s possible that Vitamin C can cure all of these conditions, but
-it\'s hard to identify a mechanism that would explain all this. It is
+It's possible that Vitamin C can cure all of these conditions, but
+it's hard to identify a mechanism that would explain all this. It is
 easy, however, to identify a common source of bias in many of the
 observational studies: people who take the time and trouble to take
 vitamin supplements also tend to have other good self-care habits. The
@@ -108,15 +108,15 @@ Also, ironically, the reports about cigarette smoking violate the rule
 about specificity. It turns out that smoking increases the risks of a
 broad range of cancers, as well as arthritis, stroke, osteoporosis,
 peptic ulcers, reproductive disorders, cataracts, thyroid conditions,
-and baldness. The Surgeon General\'s report cited above is the best
+and baldness. The Surgeon General's report cited above is the best
 resource about the wide range of diseases linked with smoking, but other
 sources about this are:
 
 -   [www.acsh.org/publications/pubID.188/pub\_detail.asp](http://www.acsh.org/publications/pubID.188/pub_detail.asp)
 -   [www.somersetmedicalcenter.com/13560.cfm](http://www.somersetmedicalcenter.com/13560.cfm)
 
-Like all of Hill\'s criteria, specificity is only a general indication.
-If an association is specific, that\'s one piece of evidence in support
+Like all of Hill's criteria, specificity is only a general indication.
+If an association is specific, that's one piece of evidence in support
 of that finding, but specificity alone does not guarantee a causal
 relationship. Neither does lack of specificity refute a causal
 relationship. You have to look at specificity along with all the other

@@ -10,7 +10,7 @@ tags:
 - Sample size justification
 output: html_document
 ---
-> I\'m helping out with a grant proposal that is using microarrays for
+> I'm helping out with a grant proposal that is using microarrays for
 > part of the analysis. A microarray is system for quantitative
 > measurement of circulating mRNA in human, animal, or plant tissue. A
 > microarray will typically measure thousands or tens of thousands of

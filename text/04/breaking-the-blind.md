@@ -26,7 +26,7 @@ guidelines](http://www.ich.org) which read as follows:
 > even if the investigator has not broken the blind. It is also
 > recommended that, when possible and appropriate, the blind be
 > maintained for those persons, such as biometrics personnel,
-> responsible for analysis and interpretation of results at the study\'s
+> responsible for analysis and interpretation of results at the study's
 > conclusion.*
 >
 > *There are several disadvantages to maintaining the blind under the
@@ -36,14 +36,14 @@ guidelines](http://www.ich.org) which read as follows:
 > may be many weeks or months after reporting to regulators, it must be
 > ensured that company and regulatory data bases are revised. If the
 > event is serious, new, and possibly related to the medicinal product,
-> then if the Investigator\'s Brochure is updated, notifying relevant
+> then if the Investigator's Brochure is updated, notifying relevant
 > parties of the new information in a blinded fashion is inappropriate
 > and possibly misleading. Moreover, breaking the blind for a single
 > patient usually has little or no significant implications for the
 > conduct of the clinical investigation or on the analysis of the final
 > clinical investigation data.*
 >
-> *However, when a fatal or other \"serious\" outcome is the primary
+> *However, when a fatal or other "serious" outcome is the primary
 > efficacy endpoint in a clinical investigation, the integrity of the
 > clinical investigation may be compromised if the blind is broken.
 > Under these and similar circumstances, it may be appropriate to reach
@@ -54,9 +54,9 @@ guidelines](http://www.ich.org) which read as follows:
 > [www.fda.gov/cder/guidance/iche2a.pdf](http://www.fda.gov/cder/guidance/iche2a.pdf)
 
 This is excellent advice. In particular, I support their comment about
-how breaking the blind for a single patient usually doesn\'t have any
+how breaking the blind for a single patient usually doesn't have any
 significant implications on the scientific validity of the study.
-Sometimes researchers get hung up over running the \"perfect\" research
+Sometimes researchers get hung up over running the "perfect" research
 study and let that unduly interfere with other important considerations.
 
 Another consideration is that the research subjects themselves should
@@ -66,7 +66,7 @@ drug being administered in the clinical trial because one of the two
 drugs being studied thins out the blood and increases the risk of the
 operation.
 
-You don\'t want to break the blind for any old reason, but if the
+You don't want to break the blind for any old reason, but if the
 patient has a legitimate reason to know, we should respect that.
 Patients who volunteer for a research study cede a lot of their autonomy
 when they join. They let a random flip of the coin decide which

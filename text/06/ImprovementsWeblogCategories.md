@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 > With over a thousand web pages, I need a good way of letting people
-> find related topics on my website. I\'ve added categories to my weblog
+> find related topics on my website. I've added categories to my weblog
 > entries, and now I want to link those categories to the appropriate
 > location on my topiclist page. That way, if you are on a page
 > discussing early stopping of clinical trials, you can jump to another

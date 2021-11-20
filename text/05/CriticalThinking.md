@@ -8,11 +8,11 @@ tags:
 - Critical appraisal
 output: html_document
 ---
-A lot of people use the term \"critical thinking\" in an offhand way.
+A lot of people use the term "critical thinking" in an offhand way.
 Usually the writer who uses this term is trying to imply that anyone who
-disagrees with the writer\'s theory or belief is naive. Critical
+disagrees with the writer's theory or belief is naive. Critical
 thinking is also produced as an excuse to attack a particular theory or
-to promote \"equal time\" for a competing belief.
+to promote "equal time" for a competing belief.
 
 Critical thinking, however, is much more complex than this. It involves
 more than just fault finding. After all, no theory is perfect and
@@ -27,13 +27,13 @@ A perfect example of critical thinking versus nit picking is the
 developing recognition in the 1950s and 1960s that cigarette smoking
 causes cancer. This body of research is summarized well in Gail 1996.
 The research studies that identified a link between smoking and cancer
-were not perfect. You couldn\'t use randomized trials and you couldn\'t
-use blinding and you couldn\'t use a host of other research methods that
+were not perfect. You couldn't use randomized trials and you couldn't
+use blinding and you couldn't use a host of other research methods that
 would make these studies more rigorous. There were animal studies, but
-the nitpickers pointed out that you can\'t always extrapolate from
+the nitpickers pointed out that you can't always extrapolate from
 animals to humans. There were far higher rates of smoking in cancer
 patients than among controls, but the nitpickers pointed out that these
-were retrospective studies and people didn\'t always remember things
+were retrospective studies and people didn't always remember things
 accurately or report them truthfully. Prospective studies were harder
 to do, but when these also showed a link between smoking and cancer, the
 nitpickers had another counterargument. They pointed out that people who
@@ -51,7 +51,7 @@ evidence. It becomes a house of cards that eventually collapses under
 its own weight.
 
 One of the more fascinating episodes in this history was an alternate
-theory proposed by the nitpickers. The theory was that it wasn\'t the
+theory proposed by the nitpickers. The theory was that it wasn't the
 smoking that caused cancer, but rather the cancer that caused smoking.
 This seems like a bizarre claim, since the smoking often precedes the
 cancer by several decades. The explanation offered was the certain
@@ -59,8 +59,8 @@ people have a genetic makeup that makes them more vulnerable to cancer.
 The same genes that make a person cancer prone might also make a person
 more susceptible to nicotine addiction.
 
-A critical thinker would have to carefully examine this claim. It\'s
-true that in many situations, you can\'t easily identify whether A
+A critical thinker would have to carefully examine this claim. It's
+true that in many situations, you can't easily identify whether A
 causes B or B causes A. For example, there is a fair amount of research
 that seems to indicate that an optimistic and hopeful attitude is
 associated with better outcomes when facing a serious illness or
@@ -69,7 +69,7 @@ stronger immune system that allows them to better battle the disease? Or
 is it possible that the disease itself is less virulent in certain
 people, possibly in ways that are difficult to measure directly. Perhaps
 these people with the less virulent disease know something that the
-doctors don\'t and it manifests itself as a more positive attitude. So
+doctors don't and it manifests itself as a more positive attitude. So
 maybe it is prognosis of the disease itself that causes the differing
 attitudes and outlooks rather than the attitudes and outlooks affecting
 the prognosis of the disease.
@@ -79,7 +79,7 @@ which is the cause. If it were true that a genetic predisposition to
 cancer were associated with a genetic predisposition to addictability,
 then these cancer genes would operate the same way in countries where
 cigarettes were easily available as in countries where cigarettes were
-hard to come by. That\'s not really the case, though. In China,
+hard to come by. That's not really the case, though. In China,
 cigarettes came into widespread use much later than in Europe and
 America. The late surge in lung cancer cases in China that followed the
 wide distribution of cigarettes contradicts the hypothesis that it is
@@ -94,7 +94,7 @@ maintain this belief, you would have to postulate that a mutation
 occurred in the genes of most Chinese people right around the time that
 cigarettes were widely adopted.
 
-In summary, it\'s not so much that the belief that smoking causes cancer
+In summary, it's not so much that the belief that smoking causes cancer
 is based on perfect and unflawed data, but rather that the flaws are
 trivial compared to the flaws in the arguments of those who believe in
 alternative explanations.

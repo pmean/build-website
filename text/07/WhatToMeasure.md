@@ -11,10 +11,10 @@ output: html_document
 ---
 *Dear Professor Mean, I am volunteering as a data analyst in a
 post-marketing surveillance to assess the safety and efficacy of a drug.
-I\'m not sure what to measure and how to measure it. Can you help me
+I'm not sure what to measure and how to measure it. Can you help me
 figure out what really needs to be done?*
 
-I do my best thinking on sandy beaches by the ocean. I\'m sure you are
+I do my best thinking on sandy beaches by the ocean. I'm sure you are
 the same. Can you arrange for your company to fly us to South Padre
 Island to work out this problem together?
 
@@ -25,10 +25,10 @@ post marketing surveillance through a medline search and see if you can
 adopt their general approach. The one important issue is the need to
 balance practical considerations (what can be measured without excessive
 time and expense) and medical considerations (what is important from the
-clinician\'s perspective and from the patient\'s perspective).
+clinician's perspective and from the patient's perspective).
 
-There\'s an important acronym, POEM, which stands for Patient Oriented
-Evidence that Matters. The POEM philosophy is that patients don\'t care
+There's an important acronym, POEM, which stands for Patient Oriented
+Evidence that Matters. The POEM philosophy is that patients don't care
 about concentrations of various markers in their blood or what their
 cells look like under a microscope. They only care about three things:
 mortality (will I die?), morbidity (will I go blind?) or quality of life

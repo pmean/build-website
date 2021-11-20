@@ -11,16 +11,16 @@ output: html_document
 Many journals are now using the Digital Object Identifier (DOI) to
 reference their publications.
 
-For example, a recently published article in BMJ, \"Parachute use to
+For example, a recently published article in BMJ, "Parachute use to
 prevent death and major trauma related to gravitational challenge:
-systematic review of randomised controlled trials,\" appears on their
+systematic review of randomised controlled trials," appears on their
 web site as
 
 -   <http://bmj.bmjjournals.com/cgi/content/full/327/7429/1459>
 
 but this might change in a few years or a few decades. The web site
 might re-organize their files or change to a different provider of
-Internet services. There\'s a technical term for this, [link
+Internet services. There's a technical term for this, [link
 rot](http://en.wikipedia.org/wiki/Link_rot) (also spelled Linkrot and
 LinkRot). Link rot is the bane of all web writers: the links we include
 on our web pages gradually become broken over time and we have to be
@@ -34,8 +34,8 @@ content (both on the web and in my EndNote bibliography file) no longer
 worked. To fix this, I had to do a manual search of each document.
 
 There are several ways to avoid link rot. The first is to plan your
-website well enough that you won\'t need to reorganize it a year later.
-I am not very good at this, myself, I\'m afraid and I do move files
+website well enough that you won't need to reorganize it a year later.
+I am not very good at this, myself, I'm afraid and I do move files
 around from time to time. The second is to redirect requests from an old
 page to the newer page that replaces it. The DOI represents a third way
 to prevent link rot.

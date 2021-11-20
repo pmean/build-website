@@ -12,9 +12,9 @@ Someone asked me whether it was okay to define a correlation coefficient
 as a descriptive statistic. It depends on whether the correlation is
 being used to describe a population or if it is intended to test a
 particular hypothesis. I also warned that these types of labels
-(inferential, descriptive) aren\'t really needed most of the time.
+(inferential, descriptive) aren't really needed most of the time.
 
-After I responded to her, I realized that I didn\'t have a decent
+After I responded to her, I realized that I didn't have a decent
 definition of inferential or descriptive statistics, so I add them and
 found a few examples on the BioMed Central website.
 

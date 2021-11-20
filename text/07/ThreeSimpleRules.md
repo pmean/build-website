@@ -11,7 +11,7 @@ output: html_document
 ---
 I received a recommendation to purchase a book (Process Quality Control,
 by Ellis Ott) and while searching for reviews of this book, found
-something called Ott\'s Rules. These are three simple rules advocated by
+something called Ott's Rules. These are three simple rules advocated by
 Dr. Ott in any process control problem:
 
 1.  use data,

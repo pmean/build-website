@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 > People will often ask me questions that are outside my area of
-> expertise. Yes, I know you\'re shocked to hear this, but there are
+> expertise. Yes, I know you're shocked to hear this, but there are
 > lots of areas of statistics where I only have a vague understanding.
 > One of these questions was about instrumental variables. I could only
 > offer a vague explanation, but I hope that is better than no
@@ -26,8 +26,8 @@ output: html_document
 > modify the traditional fitting method of least squares. A third
 > approach is to find and use an instrumental variable.
 >
-> I can\'t provide a formal mathematical definition of an instrumental
-> variable, and you probably wouldn\'t want to see such a definition. In
+> I can't provide a formal mathematical definition of an instrumental
+> variable, and you probably wouldn't want to see such a definition. In
 > very simple (overly simplistic?) terms, an instrumental variable is an
 > alternative variable which does not suffer from measurement error and
 > which only affects the outcome variable through its relationship with
@@ -42,7 +42,7 @@ output: html_document
 > and fitting two sets of equations simultaneously. For further details,
 > consult the Wikipedia article on [Instrumental
 > variable](../category/InterestingWebsites.html#insvar) or David
-> Kenny\'s webpage on [Instrumental Variable
+> Kenny's webpage on [Instrumental Variable
 > Estimation](../category/InterestingWebsites.html#invaes).
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

@@ -15,7 +15,7 @@ output: html_document
 we review are pilot studies with small samples. I have been trying to
 locate criteria for the scientific review of pilot studies, but have not
 found a consensus in the literature that I have seen. Is a pilot study
-merely a \"dry run\" of the procedures that will be used in a later,
+merely a "dry run" of the procedures that will be used in a later,
 larger-scale study? Or, is it reasonable for the IRB to demand that the
 investigator provide specific criteria for determining whether the pilot
 has been a success? And, should the IRB furthermore demand that specific
@@ -33,10 +33,10 @@ Short definition\--a pilot study is a study that offers no direct
 benefits of its own, but only indirect benefits through helping the
 planning of a larger scale study. Some people might quibble with that
 definition, but it is a good starting point for discussion. Sometimes
-people use the term \"pilot study\" when they should be using the term
-\"exploratory study\" instead.
+people use the term "pilot study" when they should be using the term
+"exploratory study" instead.
 
-It\'s a myth that all research must have a formal hypothesis, and this
+It's a myth that all research must have a formal hypothesis, and this
 is especially true of pilot studies. I would not encourage researchers
 to try to force fit a hypothesis driven research model onto a type of
 research where it does not fit well.
@@ -44,7 +44,7 @@ research where it does not fit well.
 If I were on an IRB, I would instead demand details about the larger
 scale study and why that larger scale study could not proceed
 effectively without information from the pilot study. An economic
-argument would not fly (we\'re running a pilot because we don\'t have
+argument would not fly (we're running a pilot because we don't have
 enough money to run a large study), because no large scale study will
 occur and no benefit will therefore accrue from the pilot study.
 
@@ -59,7 +59,7 @@ something fishy was going on.
 Another important point to remember is that if the goals of a pilot
 study are qualitative, then it is reasonable to use a qualitative
 justification of the sample size. A common application of a pilot study
-is to identify Murphy\'s Law while the stakes are still low. If
+is to identify Murphy's Law while the stakes are still low. If
 something does go wrong (especially something that would have been
 easily fixable), find out before you invest fifty thousand dollars.
 Typically, you would want a sample size large enough to insure that the

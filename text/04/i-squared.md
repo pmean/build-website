@@ -15,8 +15,8 @@ proportion of inconsistency in individual studies that cannot be
 explained by chance. It ranges between 0% and 100% with lower values
 representing less heterogeneity.
 
-This measure is preferred to the traditional test statistic, Cochran\'s
-Q. The problem with Cochran\'s Q, the authors claim, is that it tends to
+This measure is preferred to the traditional test statistic, Cochran's
+Q. The problem with Cochran's Q, the authors claim, is that it tends to
 have too little power with a collection of studies with small sample
 sizes and too much power with a collection of studies with large sample
 sizes.

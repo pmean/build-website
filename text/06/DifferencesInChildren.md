@@ -118,11 +118,11 @@ of age.
 Some informal comments I have received in conversations with some of the
 doctors here have also been eye-opening. The brain develops rapidly
 during the first year of life and anything that interferes with this
-process can cause serious developmental delays. For an adult, it\'s
+process can cause serious developmental delays. For an adult, it's
 different\--if we kill a few million brain cells by drinking a pint of
-Stout, that\'s not such a bad thing.
+Stout, that's not such a bad thing.
 
-> *Well ya see, Norm, it\'s like this\... A herd of buffalo can only
+> *Well ya see, Norm, it's like this\... A herd of buffalo can only
 > move as fast as the slowest buffalo. And when the herd is hunted, it
 > is the slowest and weakest ones at the back that are killed first.
 > This natural selection is good for the herd as a whole, because the
@@ -132,7 +132,7 @@ Stout, that\'s not such a bad thing.
 > Excessive intake of alcohol, as we know, kills brain cells. But
 > naturally it attacks the slowest and weakest brain cells first. In
 > this way, regular consumption of beer eliminates the weaker brain
-> cells, making the brain a faster and more efficient machine. That\'s
+> cells, making the brain a faster and more efficient machine. That's
 > why you always feel smarter after a few beers.*
 > [www.sotallytober.com/funnies/buffalotheory.php](http://www.sotallytober.com/funnies/buffalotheory.php)
 
@@ -146,15 +146,15 @@ are a serious concern.
 Many of the diseases in adults are caused (or at least exacerbated by)
 years of abuse and neglect (too much food, too little exercise, too many
 cigarettes). Children do not have enough years in their lives yet and
-they don\'t start many of these abusive and neglectful habits until they
+they don't start many of these abusive and neglectful habits until they
 are well on their way into adulthood. As a result, most of the
 conditions that we treat children for stem from congenital causes rather
 than from abuse and neglect.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Children in
 research](../category/ChildrenInResearch.html).
@@ -162,17 +162,17 @@ research](../category/ChildrenInResearch.html).
 research](../category/ChildrenInResearch.html).
 for pages similar to this one at [Category: Children in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Differences between children and adults
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Children in
 research](../category/ChildrenInResearch.html).

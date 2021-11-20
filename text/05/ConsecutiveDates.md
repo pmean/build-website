@@ -14,7 +14,7 @@ and so forth through 11/30/2004. She wanted to know how to get those
 particular dates in a column without having to type something into each
 individual cell.
 
-Here\'s how I did it.
+Here's how I did it.
 
 First, I defined a new column, date1, that has a date format. Then I
 used TRANSFORM \| COMPUTE to calculate the following formula:
@@ -46,7 +46,7 @@ and version 13 of SPSS has a very useful date and time wizard:
     7, 2004)](http://www.pmean.com/weblog2004/SPSSversion13.asp)
 
 but the best resource for these types of things is on Raynald
-Levesque\'s web site:
+Levesque's web site:
 
 -   **[Dates
     Tutorial](http://pages.infinit.net/rlevesqu/LearningSyntax.htm#DateTutorial%20%20)**.

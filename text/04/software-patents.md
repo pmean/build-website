@@ -25,7 +25,7 @@ issue:
 where a customer enters their credit card number just once and the can
 place multiple product orders in the future with a single click of the
 mouse. They sued and prevailed over a competitor, Barnesandnoble that
-offered an \"Express Lane\" for their customers, that also stored a
+offered an "Express Lane" for their customers, that also stored a
 credit card number once and allowed customers to place multiple orders
 under that credit card.
 

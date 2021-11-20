@@ -11,7 +11,7 @@ output: html_document
 ---
 Last year, I gave a talk for PharmaIQ about continuous monitoring of the
 number needed to harm. I want to update this talk for a second audience
-in December. Here\'s the London talk:
+in December. Here's the London talk:
 
 -   [Stats \#71: Control charts for continuous monitoring of the number
     needed to harm](../12a/hand71.asp)

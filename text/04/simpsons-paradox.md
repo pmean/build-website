@@ -1,5 +1,5 @@
 ---
-title: Simpson\'s Paradox
+title: Simpson's Paradox
 author: Steve Simon
 date: 2004-12-22
 categories:
@@ -22,7 +22,7 @@ output: html_document
 > is possible for someone with a, b, c, and d to have a lower risk even
 > though a study looking at d showed a doubling of risk.
 >
-> You have to watch out for Simpson\'s Paradox. A good example that I
+> You have to watch out for Simpson's Paradox. A good example that I
 > saw published involved (if my memory serves me correctly) the
 > mortality rates of two countries: Costa Rica and Sweden. There was a
 > strong country effect, in that the number of deaths per 100,000 was
@@ -41,12 +41,12 @@ output: html_document
 > the overall average mortality is higher because the Swedish sample is
 > weighted towards more older people.
 >
-> There are lots of references to Simpson\'s paradox on the web. The
+> There are lots of references to Simpson's paradox on the web. The
 > Wikipedia provides a good starting point:
 >
 > <http://en.wikipedia.org/wiki/Simpson's_paradox>
 >
-> That\'s just one explanation as to why you can\'t combine the
+> That's just one explanation as to why you can't combine the
 > estimates of the two studies. You also need to make sure that the
 > studies were conducted under exactly the same conditions. That never
 > happens, of course, which is why meta-analysis is so hard to do. A

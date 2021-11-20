@@ -14,9 +14,9 @@ output: html_document
 is wide or narrow?\
 *\
 I tell a story about a researcher who gets a six year, ten million
-dollar NIH grant and writes up in the final report \"This is a new and
+dollar NIH grant and writes up in the final report "This is a new and
 innovative surgical procedure and we are 95% confident that the cure
-rate is somewhere between 3% and 96%.\" That\'s an example of a
+rate is somewhere between 3% and 96%." That's an example of a
 confidence interval that is too wide.
 
 In order to define whether a confidence interval is sufficiently narrow,
@@ -58,7 +58,7 @@ approach unless you were sure it would help a significant fraction of
 your patients.
 
 You should factor in the individual patient values into this equation.
-Suppose a new therapy reduced a patient\'s sperm count to the point
+Suppose a new therapy reduced a patient's sperm count to the point
 where that patient would have difficulty getting his partner pregnant.
 Some people would be aghast at this and would not want to sacrifice
 their ability to produce children for anything in the world. Others
@@ -72,7 +72,7 @@ did run a power calculation, I hope!
 Actually, the people publishing the paper should tell you what they
 consider to be clinically important. You might disagree with their
 choice, but at least it opens up the issue for discussion.
-Unfortunately, most papers don\'t even mention clinical importance.
+Unfortunately, most papers don't even mention clinical importance.
 
 **How well is the clinical importance of study results reported? An
 assessment of randomized controlled trials**. K. B. Chan, M.

@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 > The large amount of data is a typical DNA microarray assays makes for
-> a lot of challenges for us statisticians. I\'ve wanted to write a
+> a lot of challenges for us statisticians. I've wanted to write a
 > simple introductory web page on this topic for a while, but have never
 > found the time to do it well. There are a couple of recent articles on
 > microarrays published on BioMed Central with full text available on
@@ -21,8 +21,8 @@ output: html_document
 > Reference RNA as a standard for microarray experiments by
 > Novoradovskaya et
 > al](http://www.biomedcentral.com/1471-2164/5/20/abstract), develops a
-> reference standard useful \"for monitoring and controlling intra- and
-> inter-experimental variation.\" These articles are too recent to have
+> reference standard useful "for monitoring and controlling intra- and
+> inter-experimental variation." These articles are too recent to have
 > appeared in Medline yet. An earlier article about universal reference
 > RNA samples is also worth mentioning.
 >

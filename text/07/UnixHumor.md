@@ -10,12 +10,12 @@ tags:
 output: html_document
 ---
 The website [www.netfunny.com](http://www.netfunny.com) has a lot of
-computer humor. Here\'s one that caught my eye because I am taking a
+computer humor. Here's one that caught my eye because I am taking a
 class in Bioinformatics and am learning a lot about UNIX.
 
 `MERRY CHRISTMAS      better !pout    !cry   better watchout   lpr why   santa claus <north pole   >town      cat /etc/passwd   >list   ncheck list   ncheck list   cat list   |   grep naughty    >nogiftlist   cat list   |   grep nice    >giftlist   santa claus <north pole   >town      who   |   grep sleeping   who   |   grep awake   who   |   grep bad ||      good   for (goodness sake) { be good }`
 
-I\'ve included links to some Wikpedia entries that document the
+I've included links to some Wikpedia entries that document the
 particular Unix features that this joke highlights. Wikipedia also has a
 [list of common Unix
 commands](http://en.wikipedia.org/wiki/List_of_Unix_programs). Note that

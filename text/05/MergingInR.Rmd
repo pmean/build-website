@@ -11,7 +11,7 @@ output: html_document
 Merging is tricky in any program, and you have to be sure that you know
 what you are doing. I have found that keeping an index variable will
 allow me to backtrack and find information in the original files if
-needed. Here\'s a simple example of how this would work.
+needed. Here's a simple example of how this would work.
 
 
 ```{r}

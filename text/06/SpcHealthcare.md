@@ -13,11 +13,11 @@ output: html_document
 Process Control in Healthcare (created 2006-09-15)**.
 
 > Someone on the [MedStats](http://groups.google.com/group/MedStats)
-> email discussion group asked for resources that \"explain the use of
+> email discussion group asked for resources that "explain the use of
 > SPC (statistical process control) to analyze quality indicators in a
-> healthcare organization.\"
+> healthcare organization."
 >
-> I\'m working on some research grants to use control charts to provide
+> I'm working on some research grants to use control charts to provide
 > guidance to continuing review and monitoring of clinical trials. The
 > most recent page that discusses this is at:
 >
@@ -34,9 +34,9 @@ Process Control in Healthcare (created 2006-09-15)**.
 > IQ](http://www.iqpc.com/cgi-bin/templates/fivecell.html?topic=483&newTop=482)
 > section actually looks to be quite interesting.
 >
-> There\'s a lot out there, and this is only a partial list. I tried to
+> There's a lot out there, and this is only a partial list. I tried to
 > include only those resources that had a direct link to health care,
-> with the exception of Donald Wheeler\'s book, which is a worthwhile
+> with the exception of Donald Wheeler's book, which is a worthwhile
 > read for anyone in any discipline.
 >
 > **Books:**
@@ -100,7 +100,7 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     Hawkins, K. Otsuka, W. Henke. J Med Eng Technol 1997: 21(3-4);
 >     111-20.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9222952&dopt=Abstract)
-> -   **It\'s the quality that counts.** G. Dunea. British Medical
+> -   **It's the quality that counts.** G. Dunea. British Medical
 >     Journal 1998: 317(7156); 480.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9703552&dopt=Abstract)
 >     [\[Full
@@ -160,7 +160,7 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     text\]](http://intqhc.oupjournals.org/cgi/content/full/15/1/3)
 >     [\[PDF\]](http://intqhc.oupjournals.org/cgi/reprint/15/1/3.pdf)
 >     **(Medicine, Quality)**
-> -   **Relationship Between Low Quality-of-Care Scores and HMOs\'
+> -   **Relationship Between Low Quality-of-Care Scores and HMOs'
 >     Subsequent Public Disclosure of Quality-of-Care Scores.** D.
 >     McCormick, D. U. Himmelstein, S. Woolhandler, S. M. Wolfe, D. H.
 >     Bor. Jama 2002: 288(12); 1484-90.
@@ -204,7 +204,7 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     [\[Abstract\]](http://www.annals.org/cgi/content/abstract/140/11/897)
 >     [\[PDF\]](http://www.annals.org/cgi/reprint/140/11/897.pdf)
 >     **(Medicine, Quality)**
-> -   **Bristol, Shipman, and clinical governance: Shewhart\'s forgotten
+> -   **Bristol, Shipman, and clinical governance: Shewhart's forgotten
 >     lessons.** M. A. Mohammed, K. K. Cheng, A. Rouse, T. Marshall.
 >     Lancet 2001: 357(9254); 463-7.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11273083&dopt=Abstract)
@@ -303,7 +303,7 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     Shore, D. Quade. Stat Med 1989: 8(3); 311-22; discussion 331-2.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2711063&dopt=Abstract)
 >     **(Model, Quality)**
-> -   **Why TQM can\'t stand for top quality medicine.** Gerard
+> -   **Why TQM can't stand for top quality medicine.** Gerard
 >     Smedinghoff. Contingencies 1996: (48); 49-51. **(Model, Quality)**
 > -   **Risk-adjusted sequential probability ratio tests: applications
 >     to Bristol, Shipman and adult cardiac surgery.** DJ Spiegelhalter,
@@ -363,23 +363,23 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     2004 in the The CPA Journal Online. Accessed on 2006-03-24.
 >     **(Model, Quality control)**<U+FFFD>
 >     www.nysscpa.org/cpajournal/2004/604/essentials/p32.htm
-> -   **[Preventing Hospital Falls: The quality profession\'s major
+> -   **[Preventing Hospital Falls: The quality profession's major
 >     contribution to the world is the ability to scientifically
 >     investigate process
 >     variation.](http://www.qualitydigest.com/may99/html/spcguide.html)**.
 >     Thomas Pyzdek, Published in the May 1999 issue of Quality Digest.
 >     . Accessed on 2004-03-11. **(Model, Quality, Example)**
 >     www.qualitydigest.com/may99/html/spcguide.html
-> -   **[Minnesota hospitals\' report on \"never events\"
+> -   **[Minnesota hospitals' report on "never events"
 >     released](http://www.ama-assn.org/amednews/2005/02/21/prsc0221.htm%20)**.
 >     Andis Robeznieks, Published in Amercian Medical News on February
 >     21, 2005. Accessed on 2005-02-16. **(Medicine, Quality)**
 >     www.ama-assn.org/amednews/2005/02/21/prsc0221.htm
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Quality
 control](../category/QualityControl.html).
@@ -387,17 +387,17 @@ control](../category/QualityControl.html).
 control](../category/QualityControl.html).
 for pages similar to this one at [Category: Quality
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Resources for the use of Statistical
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Quality
 control](../category/QualityControl.html).

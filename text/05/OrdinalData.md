@@ -20,7 +20,7 @@ It depends on who you talk to. There is no real consensus in the
 research community. That means that you are free to use whatever
 approach you want, but prepare yourself for the possibility that your
 supervisor/your dissertation committee/the journal peer reviewer will
-force you to switch to the \"other\" way.
+force you to switch to the "other" way.
 
 Basically, when you assign numbers like 1, 2, 3, 4, and 5 to the
 categories strongly disagree, disagree, neutral, agree, strongly agree,
@@ -42,9 +42,9 @@ same answer no matter what values you decide to assign.
 This is not unlike the process of assigning grades. When you calculate a
 grade point average, you assign the numbers 0, 1, 2, 3, and 4 to the
 grades F, D, C, B, and A. Is this a reasonable thing to do? It is if you
-believe that a student with two B\'s is comparable to a student with an
+believe that a student with two B's is comparable to a student with an
 A and a C. Or more extremely, you would believe that a student with two
-C\'s is comparable to a student with an A and an F.
+C's is comparable to a student with an A and an F.
 
 Perhaps you could assign alternate numbers: A=100, B=90, C=80, D=70,
 F=0. That would penalize someone quite strongly for a single F, much
@@ -80,10 +80,10 @@ A much better approach for this type of data is to assign the midpoint
 to each interval and assign a reasonably large value (say 150 thousand
 or 200 thousand) to the last interval.
 
-There isn\'t any real consensus, so you can probably find a
+There isn't any real consensus, so you can probably find a
 justification for just about any type of approach in the list of
 readings offered below. I have no problem with averaging ordinal data,
-because I haven\'t seen that many situations where using something more
+because I haven't seen that many situations where using something more
 complex has resulted in a substantively different conclusion.
 
 **Further reading**
@@ -91,7 +91,7 @@ complex has resulted in a substantively different conclusion.
 -   **Regression models for ordinal responses: a review of methods and
     applications.** Ananth CV, Kleinbaum DG. International Journal of
     Epidemiology 1997: 26(6); 1323-33.
--   **Pearson\'s R and Coarsely Categorized Measures.** Bollen KA, Barb
+-   **Pearson's R and Coarsely Categorized Measures.** Bollen KA, Barb
     K. American Sociological Review 1981: 46; 232-39.
 -   **Tutorial in Biostatistics: A review of tests for detecting a
     monotone dose-response relationship with ordinal response data.**
@@ -127,7 +127,7 @@ complex has resulted in a substantively different conclusion.
     American Journal of Sociology 1978: 84; 448-56.
 -   **The Assignment of Numbers to Rank Order Categories.** Labovitz S.
     American Sociological Review 1970: 35; 515-24.
--   **The Use of Pearson\'s R with Ordinal Data.** O\'Brien R. American
+-   **The Use of Pearson's R with Ordinal Data.** O'Brien R. American
     Sociological Review 1979: 44; 851-57.
 -   **Likelihood ratios with confidence: sample size estimation for
     diagnostic test studies.** Simel DL, Samsa GP, Matchar DB. J Clin
@@ -145,10 +145,10 @@ complex has resulted in a substantively different conclusion.
     Garson GD, North Carolina State University. Accessed on 2003-11-19.
     www2.chass.ncsu.edu/garson/pa765/datalevl.htm
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).
@@ -156,17 +156,17 @@ statistics](../category/DescriptiveStatistics.html).
 statistics](../category/DescriptiveStatistics.html).
 for pages similar to this one at [Category: Descriptive
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Summing ordinal data (April 5, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).

@@ -30,7 +30,7 @@ complete archives of STAT-L at
 -   [lists.mcgill.ca/archives/stat-l.html](http://lists.mcgill.ca/archives/stat-l.html)
 
 Someone wrote in with a very basic question, but one which I never gave
-a straight answer to in the FAQ. I\'ll have to fix that.
+a straight answer to in the FAQ. I'll have to fix that.
 
 The question was: how do I send a message to STAT-L? There are several
 ways you can do this.
@@ -44,9 +44,9 @@ ways you can do this.
     message and subject line. For most email systems, this will send a
     message to STAT-L, but be sure that your email system does not end
     up sending the message instead (or in addition) to the author of the
-    message you replied to. If that doesn\'t work, try to REPLY TO ALL
+    message you replied to. If that doesn't work, try to REPLY TO ALL
     button and be sure to delete anything other than the STAT-L address.
-3.  The archive page mentioned above has a link \"Post to the list\".
+3.  The archive page mentioned above has a link "Post to the list".
     Click on this link and follow the directions. You may need to create
     a password for your account before you do this.
 

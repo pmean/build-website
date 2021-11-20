@@ -15,7 +15,7 @@ output: html_document
 A recent query on the IRB Forum
 
 -   **[The Institutional Review Board - Discussion and News
-    Forum](http://www.irbforum.org)**. Nelson RM, The Children\'s
+    Forum](http://www.irbforum.org)**. Nelson RM, The Children's
     Hospital of Philadelphia. Accessed on 2005-11-28. www.irbforum.org
 
 asked about a pilot study. The goal of the pilot study was to see if
@@ -61,7 +61,7 @@ guidelines of the American Psychology Association discuss this issue:
 
 > *8.07 Deception in Research (a) Psychologists do not conduct a study
 > involving deception unless they have determined that the use of
-> deceptive techniques is justified by the study\'s significant
+> deceptive techniques is justified by the study's significant
 > prospective scientific, educational, or applied value and that
 > effective nondeceptive alternative procedures are not feasible. (b)
 > Psychologists do not deceive prospective participants about research
@@ -74,10 +74,10 @@ guidelines of the American Psychology Association discuss this issue:
 > Standard 8.08, Debriefing.)*
 > [www.apa.org/ethics/code2002.html](http://www.apa.org/ethics/code2002.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Blinding in
 research](../category/BlindingInResearch.html).
@@ -85,17 +85,17 @@ research](../category/BlindingInResearch.html).
 research](../category/BlindingInResearch.html).
 for pages similar to this one at [Category: Blinding in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Withholding information (November 28,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Blinding in
 research](../category/BlindingInResearch.html).

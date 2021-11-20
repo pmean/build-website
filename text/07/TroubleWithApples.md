@@ -15,20 +15,20 @@ City University of Medicine and Biosciences](http://www.kcumb.edu/).
 They want me to talk at lunch during the [2007 Homecoming CME and
 Reunion
 weekend](http://alumni.kcumb.edu/s/68/index.aspx?sid=68&pgid=13&cid=97&gid=1&event_id=105350).
-The new title is \"Medical Journals - The Trouble with Apples and
-Oranges.\"
+The new title is "Medical Journals - The Trouble with Apples and
+Oranges."
 
-Here\'s a tentative abstract:
+Here's a tentative abstract:
 
-> \"Finding a good control group is an underappreciated art in research.
-> We often don\'t notice this until someone makes a stunningly bad
+> "Finding a good control group is an underappreciated art in research.
+> We often don't notice this until someone makes a stunningly bad
 > choice, leading to the classic difficulty of comparing apples and
 > oranges. In this talk, you will learn what to look for in a control
 > group. You will also see the knots that researchers tie themselves in
 > when they insist on a placebo arm in a birth control study and when
 > they try to evaluate the prognosis of patients who are already dead.
 > You will also see an example where two bad control groups can add up
-> to a good comparison.\"
+> to a good comparison."
 
 Most of the material for this talk will come from the first chapter of
 my book, [Statistical Evidence in Medical Trials](../evidence.asp).

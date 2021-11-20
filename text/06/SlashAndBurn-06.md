@@ -18,31 +18,31 @@ statistically significant but one or both of the main effects associated
 with the interaction was not.<U+FFFD> So is it okay, I was asked to include the
 interaction in the final model but not the non-significant main effects?
 
-First, I need to comment on the \"slash and burn\"<U+FFFD> model building
+First, I need to comment on the "slash and burn"<U+FFFD> model building
 practice that this person is using. A recent posting to the
 [MedStats](../category/InterestingWebsites.html#MeStXx) email discussion
 group outlines problems with this approach (although it does not use the
-term \"slash and burn\"). The person who adopts a \"slash and burn\"
+term "slash and burn"). The person who adopts a "slash and burn"
 approach to models has a parsimonious intent. He/she wants to use as few
 degrees of freedom as possible in the final statistical model and one
 way to do this is to strip out anything that has an insignificant
-p-value. The ideal in the \"slash and burn\" world is a model where
+p-value. The ideal in the "slash and burn" world is a model where
 every single p-value is smaller than 0.05.
 
-I\'ve done my share of \"slash and burn\" in the past, but as more
+I've done my share of "slash and burn" in the past, but as more
 research is being done, there is increasing evidence that these
-parsimonious models do not perform as well as expected. The \"slash and
-burn\" model is not too dissimilar from automated approaches like
+parsimonious models do not perform as well as expected. The "slash and
+burn" model is not too dissimilar from automated approaches like
 stepwise regression and appear to have many of the same flaws. I want to
 summarize these criticisms (Frank Harrell has some very interesting
 research in this arena), but I have not had the time to do this well.
 One reason I wanted to write up a description of the propensity score
 model (see my other weblog entry for June 26, 2006) is that it offers a
-different approach to \"slash and burn.\"
+different approach to "slash and burn."
 
 Other ideas worth considering are setting up models based on your
 initial understanding of the problem and if something that you expected
-to be highly significant turns out not so, maybe it isn\'t so terrible
+to be highly significant turns out not so, maybe it isn't so terrible
 to still include it in the final model. You should also consider
 including or excluding terms from the model based on considerations
 other than the p-value. If a covariate has a very limited range, for
@@ -54,7 +54,7 @@ your p-value might say.
 
 There are entirely new methods for model fitting, such as the lasso,
 Bayesian Model Averaging, and smoothing splines that offer intriguing
-alternatives to \"slash and burn.\" These new approaches are rather
+alternatives to "slash and burn." These new approaches are rather
 technical but appear to work well in practice. A revolutionary book that
 describes how these approaches are changing how we practice statistics
 is
@@ -66,8 +66,8 @@ is
     **(Model, Regression)**
 
 But while Frank Harrell and others are making intelligent challenges and
-offering intriguing alternatives, it is worth noting that \"slash and
-burn\" is still quite popular and there are generally accepted protocols
+offering intriguing alternatives, it is worth noting that "slash and
+burn" is still quite popular and there are generally accepted protocols
 that you follow.
 
 First, it is very important to remove terms one at a time. Two terms in
@@ -97,7 +97,7 @@ Different software has different internal workings so something that
 produces one set of results in one program might have radically
 different results in another program.
 
-So how do you investigate an interaction in the \"slash and burn\"
+So how do you investigate an interaction in the "slash and burn"
 world? There are several choices that are worth looking at, but a lot
 depends on the context of your problem.
 
@@ -123,7 +123,7 @@ casting your net too widely.
 There are lots of other things you might do, and it depends a lot on the
 context of your problem. Many of the choices you take will be
 controversial and there is no generally accepted process that everyone
-agrees with for building a good statistical model. I\'m sure that some
+agrees with for building a good statistical model. I'm sure that some
 of the stuff I have described here will be found to be totally appalling
 by some.
 
@@ -145,10 +145,10 @@ by some.
     Logistic
     regression)](http://www.pmean.com/weblog2004/interactions.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).
@@ -156,17 +156,17 @@ issues](../category/ModelingIssues.html).
 issues](../category/ModelingIssues.html).
 for pages similar to this one at [Category: Modeling
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Slash and burn models (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).

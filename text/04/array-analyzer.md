@@ -9,7 +9,7 @@ tags:
 - Statistical computing
 output: html_document
 ---
-> Michael O\'Connell and Richard Park gave a nice web seminar on the
+> Michael O'Connell and Richard Park gave a nice web seminar on the
 > [S+ArrayAnalyzer](http://www.insightful.com/news_events/release.asp?RID=195),
 > a software program for analysis of microarray data that is marketed by
 > [Insightful Corporation](http://www.insightful.com/). This company
@@ -54,10 +54,10 @@ output: html_document
 > Initial exploratory methods include MvA plots (Bland-Altman plots),
 > box plots, image plots of spatial expression, and RNA degradation
 > plots. I had not heard about the RNA degradation plot before. This
-> plot aligns all the Affymetrix probes from the 5\' end of the gene to
-> the 3\' end. Since RNA degradation starts at the 5\' end, any
+> plot aligns all the Affymetrix probes from the 5' end of the gene to
+> the 3' end. Since RNA degradation starts at the 5' end, any
 > degradation would appear as a trend in the plot with lower expression
-> values on the 5\' end. A brief description of this plot appears on
+> values on the 5' end. A brief description of this plot appears on
 > page 17 of the [pdf handout, Introduction to Affymetrix GeneChip Data
 > Analysis](http://www.sinica.edu.tw/~hmwu/Talks/Hank_AnalysisofOligoArrayData-I.pdf),
 > by Han-Ming Wu and the AffyRNAdeg function in Bioconductor will
@@ -155,7 +155,7 @@ output: html_document
 >     types in which the gene has been expressed and map location.
 > -   Pubmed <http://www.ncbi.nlm.nih.gov/PubMed/> PubMed, a service of
 >     the National Library of Medicine, includes over 14 million
->     citations for biomedical articles back to the 1950\'s. These
+>     citations for biomedical articles back to the 1950's. These
 >     citations are from MEDLINE and additional life science journals.
 >     PubMed includes links to many sites providing full text articles
 >     and other related resources.

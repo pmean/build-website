@@ -137,11 +137,11 @@ cluttered to be useful.
 
 The computations for the actual meta-analysis are shown below. The
 code is a bit cryptic perhaps
-- but I am using \"te\" as an
-abbreviation for \"treatment effect\" and \"se\" as an abbreviation
-for \"standard error.\" The metagen() function has similar notation.
+- but I am using "te" as an
+abbreviation for "treatment effect" and "se" as an abbreviation
+for "standard error." The metagen() function has similar notation.
 The only thing that is a bit confusing perhaps is the sm= portion. The
-letters \"sm\" stand for \"summary measure. This is a label that
+letters "sm" stand for "summary measure. This is a label that
 metagen uses to make the output look nicer.
 
 `te1 <- sens   se1 <- sqrt(sens.overall * (1 - sens.overall) / (tp + fn))   deeks1.ma <- metagen(TE=te1
@@ -207,7 +207,7 @@ would be to use the more complex formula listed above
 - but substitute
 the overall sensitivity for the individual sensitivity.
 
-Example: Let\'s use the example in Deeks 2001 again. Here is the R
+Example: Let's use the example in Deeks 2001 again. Here is the R
 code to compute log odds and analyze the data in a meta-analysis
 model. Note that the pmax function replaces the zeros in fn with 0.5.
 

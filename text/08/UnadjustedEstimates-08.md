@@ -27,7 +27,7 @@ paper just to get comfortable with the results.
 
 Finally, the simplicity of the unadjusted estimate (if it is not
 seriously biased) further reinforces the credibility of the research.
-There\'s a general perception among some cynics that if you used a
+There's a general perception among some cynics that if you used a
 complicated statistical model, it was only because the simple model did
 not produce results you liked. When you show that the simple model
 produces the same results, it takes that argument away from your

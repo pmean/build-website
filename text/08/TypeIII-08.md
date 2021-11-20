@@ -14,7 +14,7 @@ output: html_document
 > the world. There are only two of course, so if you believe otherwise,
 > you are making\...no wait, there really are three types of errors
 > after all, so a Type III error is not really an error\...no wait, now
-> there are only two types of errors after all. I\'m confused.
+> there are only two types of errors after all. I'm confused.
 >
 > There is no official definition of a Type III error. It generally is
 > used in a humorous context to point out that statisticians are capable

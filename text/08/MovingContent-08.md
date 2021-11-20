@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 > I may be setting up a private website to complement the material on
-> this website that Children\'s Mercy Hospital has been so grateful to
+> this website that Children's Mercy Hospital has been so grateful to
 > provide for me. This would include content that is inappropriate for a
 > hospital site (such as personal news and updates), but I might move
 > some of the other material to that site as well.
@@ -19,7 +19,7 @@ output: html_document
 > registrar](http://en.wikipedia.org/wiki/Domain_name_registrar). Then
 > you contact an [Internet hosting
 > service](http://en.wikipedia.org/wiki/Internet_hosting_services) to
-> place your site. There\'s a lot of controversy about the process of
+> place your site. There's a lot of controversy about the process of
 > registering domain names, but it would be difficult to summarize that
 > here. There are companies that bundle both services together. For
 > example, Microsoft has a product, [Office

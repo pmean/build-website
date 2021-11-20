@@ -16,8 +16,8 @@ There is a strong need for educational materials about research ethics
 and research fraud. Many researchers just starting out their careers are
 only vaguely aware of the situations that they are likely to confront.
 The saying has been used too much, but it still applies very well
-\"Those who don\'t read history are condemned to repeat the mistakes of
-the past.\"
+"Those who don't read history are condemned to repeat the mistakes of
+the past."
 
 I want to develop a series of case studies. These studies would be
 available as PowerPoint presentations that teachers could use in their
@@ -30,11 +30,11 @@ format. The graphic novel format is unfamiliar to many, and the common
 tendency is to treat them as if they are comic books for children.
 Graphic novels, however, are targetted at adults. While this is
 predominantly a format for fiction writing, there are notable
-exceptions. \"Maus: A Survivor\'s Tale\--My Father Bleeds History\" by
+exceptions. "Maus: A Survivor's Tale\--My Father Bleeds History" by
 Art Spiegelman recounted the story of a survivor of the Holocaust. This
 book won the Pulitzer Prize in 1992. Another prominent non-fiction
 writer using the graphic novel format is Larry Gonnick, who has written
-\"The Cartoon Guide to\...\" in various scientific and historical areas,
+"The Cartoon Guide to\..." in various scientific and historical areas,
 including chemistry, genetics, physics, and statistics.
 
 The graphic novel format is ideally suited for case studies in research
@@ -62,10 +62,10 @@ offer.
 More importantly, having a single well-illustrated case study would
 allow me to seek funding to support work on additional case studies.
 Having a particular case study in graphic novel format will make it
-easier to \"sell\" the idea for additional funding.
+easier to "sell" the idea for additional funding.
 
 If I were able to attract funding for this project, this would be a high
-visibility example that would enhance Childrens Mercy\'s reputation in
+visibility example that would enhance Childrens Mercy's reputation in
 the research community. The potential audience for this type of work
 would be huge.
 

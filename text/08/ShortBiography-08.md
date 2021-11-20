@@ -8,7 +8,7 @@ tags:
 - Professional details
 output: html_document
 ---
-I\'m giving a talk today, and I was asked to provide some material that
+I'm giving a talk today, and I was asked to provide some material that
 could be used to introduce me. Please use any or all of this or to
 substitute anything that you feel is appropriate.
 
@@ -29,7 +29,7 @@ short course at the American Society of Andrology and courses on
 Evidence-Based Medicine for the Midwest Society for Pediatric Research
 for the past four years. He has also taught a short course at London and
 Amersterdam on the special issues for research involving children
-(aren\'t you jealous!).
+(aren't you jealous!).
 
 Throughout his career, Steve has been an active researcher. He has
 co-authored over 60 publications in a variety of Medical and Statistical
@@ -38,12 +38,12 @@ of invited editorials for the Lab Corner of the Journal of Andrology and
 recently published a book, **Statistical Evidence in Medical Trials**,
 through Oxford University Press.
 
-He is the author of the StATS web pages (Steve\'s Attempt to Teach
+He is the author of the StATS web pages (Steve's Attempt to Teach
 Statistics) which includes the advice column, Ask Professor Mean and is
 a regular contributor to the Chance website.
 
 In 2002, Steve and his wife, Cathy, adopted a two year old boy,
-Nicholas, from Russia. When he\'s not playing with Nicholas, Steve
+Nicholas, from Russia. When he's not playing with Nicholas, Steve
 dances with the Back Porch Cloggers, an Appalachian Clogging group.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

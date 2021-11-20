@@ -9,34 +9,34 @@ tags:
 output: html_document
 ---
 Someone posed a question on the IRB Discussion forum wondering if there
-was a source of free materials \"that we can email or distribute as
+was a source of free materials "that we can email or distribute as
 hardcopy to our study coordinators and other research staff to help them
-keep up to date on issues relevant to human subjects research.\"
+keep up to date on issues relevant to human subjects research."
 
-There\' a lot of good stuff on the web, I wrote back, but you have to
+There' a lot of good stuff on the web, I wrote back, but you have to
 live with uneven quality, partisan viewpoints, and there is no one to
 collate and synthesize the results. But then I thought that maybe I
-could do this. So as I have time, I\'ll highlight some of the
+could do this. So as I have time, I'll highlight some of the
 interesting developments and controversies in research and provide links
 to free sources of information on the web. Here are some examples of
 sources that I will draw on.
 
 -   **STATS ([www.stats.org](http://www.stats.org))**. This page is
-    published by the Statistical Assessment Service. I\'m worried that
+    published by the Statistical Assessment Service. I'm worried that
     they will come after me because I use the same acronym STATS that
     they do, but as far as I know you cannot copyright an acronym. If
-    they complain, I\'ll change my web page to \"A fair and balanced
-    look at Statistics.\" The STATS web site \"*monitors the media to
+    they complain, I'll change my web page to "A fair and balanced
+    look at Statistics." The STATS web site "*monitors the media to
     expose the abuse of science and statistics before people are misled
-    and public policy is distorted*\" and they do a pretty good job.
+    and public policy is distorted*" and they do a pretty good job.
     Sometimes they come across as partisan to me, but that may reflect
     my biases rather than theirs. As an example of an interesting recent
     article, see their December 15, 2003 discussion about [hormone
     replacement therapy and the perils of observational
     research](http://www.stats.org/record.jsp?type=news&ID=460). My
     favorite take on this controversy, by the way, was an editorial by
-    David Sackett titled \"[The arrogance of preventive
-    medicine](http://www.cmaj.ca/cgi/content/full/167/4/363).\" I hope
+    David Sackett titled "[The arrogance of preventive
+    medicine](http://www.cmaj.ca/cgi/content/full/167/4/363)." I hope
     to write a web page about this controversy myself when I have time.
 -   **Junkscience ([www.junkscience.com](http://www.junkscience.com))**.
     This page, published by Steve Milloy, is definitely partisan. He
@@ -54,7 +54,7 @@ sources that I will draw on.
     Human Research Protection sends out regular press releases about
     research abuses and provides testimony to government agencies in
     favor of greater research protections. Since AHRP is an advocacy
-    group, you won\'t find too many articles that are complimentary of
+    group, you won't find too many articles that are complimentary of
     research methodology and I disagree sharply with their criticisms
     about research with children. Perhaps I am conflicted, though,
     because my salary is paid for by a hospital that does research with
@@ -77,7 +77,7 @@ sources that I will draw on.
     Journal. They will [limit access to
     articles](http://bmj.bmjjournals.com/cgi/content/full/327/7409/241)
     starting January 2005, though, but they would still have a
-    wonderful archive going back to the mid 1990\'s and they would
+    wonderful archive going back to the mid 1990's and they would
     still re-open access to published articles six months after the
     publication date. BMJ has always done a nice job of highlighting
     research methodology and their [collected resources
@@ -107,11 +107,11 @@ web site lists recent news stories about research controversies, such as
 a February 1, 2004 report about a [lawsuit from the families of five
 patients who died in a controversial medical
 experiment](http://seattletimes.nwsource.com/html/localnews/2001848510_hutch01.html).
-The web site describes Illuminata as \"*a Seattle-based education and
+The web site describes Illuminata as "*a Seattle-based education and
 information services company, providing services and resources in the
 areas of human subjects research, ethics, and genetics. We support IRB
 professionals, research teams and others through identifying their
 information and education requirements and developing tailored products
-and services to meet their needs.*\"
+and services to meet their needs.*"
 
 You can find an [earlier version](http://www.pmean.com/04/educational.html) of this page on my [original website](http://www.pmean.com/original_site.html).

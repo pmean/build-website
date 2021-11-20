@@ -14,7 +14,7 @@ output: html_document
 
 In the quest to finish my book on Statistical Evidence, I had to leave
 some material on the cutting room floor. One of the nicer descriptions
-was about the paired availability design. Here\'s what I had written.
+was about the paired availability design. Here's what I had written.
 
 > If you have a large group of hospitals, each of which has seen a
 > change over time in the availability of a new therapy, then you can
@@ -51,16 +51,16 @@ was about the paired availability design. Here\'s what I had written.
 > fewer women per 100,000 died when mammography screening was used (95%
 > CI, 4 to 14 per 100,000).
 
-The other design that I didn\'t have room to discuss was a patient
+The other design that I didn't have room to discuss was a patient
 preference trial where patients who consent to be randomized are
-compared to patients who prefer a particular treatment. I\'ll try to
+compared to patients who prefer a particular treatment. I'll try to
 describe the patient preference trial and give an example in a future
 weblog entry.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Observational
 studies](#ObservationalStudies).
@@ -68,17 +68,17 @@ studies](#ObservationalStudies).
 studies](#ObservationalStudies).
 for pages similar to this one at [Category: Observational
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **The paired availability design (May
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Observational
 studies](#ObservationalStudies).

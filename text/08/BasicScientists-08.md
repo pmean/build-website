@@ -13,8 +13,8 @@ Association asking about what resources to use in a statistics class
 aimed at basic scientists (as opposed to public health students and
 clinical scientists). I offered a few general recommendations.
 
-Robin Penslar\'s book on Research Ethics should be incorporated
-somewhere into any researcher\'s curriculum. I would think that a class
+Robin Penslar's book on Research Ethics should be incorporated
+somewhere into any researcher's curriculum. I would think that a class
 on Statistics is as good a place as any, as many problems with ethics
 involve data fudging, violation of statistical protocols, and
 carelessness with private data. These are issues that Statisticians can
@@ -45,7 +45,7 @@ screening designs as well.
 As a general rule, basic science should place more emphasis on
 randomized designs, especially block designs and multifactorial designs.
 It should place less emphasis on Epidemiology topics, such as
-case-control designs and risk adjustment models. Of course, you can\'t
+case-control designs and risk adjustment models. Of course, you can't
 totally ignore Epi.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

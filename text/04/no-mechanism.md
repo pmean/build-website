@@ -31,7 +31,7 @@ output: html_document
 > they should not endure in a research setting something that they
 > routinely seek out for their daily care?
 >
-> **Paternalism or partnership? Patients have grown up-and there\'s no
+> **Paternalism or partnership? Patients have grown up-and there's no
 > going back.** Coulter A. Bmj 1999: 319(7212); 719-20.
 > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10487980&dopt=Abstract)
 > [\[Full
@@ -54,8 +54,8 @@ output: html_document
 > dimensional construct that we can measure validly.
 >
 > Third, some therapies have been adopted prior to the identification of
-> a mechanism of action. Only later was a mechanism discovered. I don\'t
-> have any specific examples, but I\'m sure that some readers will
+> a mechanism of action. Only later was a mechanism discovered. I don't
+> have any specific examples, but I'm sure that some readers will
 > provide me with good examples.
 >
 > Fourth, presence of a mechanism should be only one of several

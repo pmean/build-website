@@ -17,7 +17,7 @@ research involves children. The issues that you need to consider are
 physiologic, ethical, and statistical.
 
 The physiologic issues can be summarized in the well known saying
-\"children are not little adults.\" You cannot scale things down because
+"children are not little adults." You cannot scale things down because
 children have physiologic issues that adults do not have to deal with.
 These issues are not always at play, but you should always think about
 these things when planning a research study.
@@ -71,10 +71,10 @@ sample size issues.
 
 **\[\[To be continued\...\]\]**
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).
@@ -82,17 +82,17 @@ research](../category/EthicsInResearch.html).
 research](../category/EthicsInResearch.html).
 for pages similar to this one at [Category: Ethics in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Special issues for research involving
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).

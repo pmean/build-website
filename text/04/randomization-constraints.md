@@ -12,8 +12,8 @@ I received an inquiry from our Institutional Review Board about a study
 they were doing a continuing review for. This was a non-randomized
 comparison of two surgical techniques.
 
-The first question you might ask is: \"Why didn\'t they randomize the
-treatments?\" In general, it is difficult to randomize in a surgery
+The first question you might ask is: "Why didn't they randomize the
+treatments?" In general, it is difficult to randomize in a surgery
 trial. In a 2002 BMJ article
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12065273&dopt=Abstract),
 McCulloch offers a wide range of reasons.

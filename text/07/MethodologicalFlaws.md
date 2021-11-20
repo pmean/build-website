@@ -15,7 +15,7 @@ everything else is in order (e.g., appropriate consent forms), is the
 IRB still justified in asking that the flaw be fixed prior to approval
 of the research.
 
-You don\'t have to look too hard for justifying a review of a study\'s
+You don't have to look too hard for justifying a review of a study's
 methodology. Point \#18 of the Declaration of Helsinki reads:
 
 > *Medical research involving human subjects should only be conducted if
@@ -42,7 +42,7 @@ help out other people who have the same disease that they have.
 
 If you ask someone to be part of a research study, and the study has
 such a serious flaw that it produces **data that are effectively
-unusable**, then you\'ve broken an **implicit contract** with that
+unusable**, then you've broken an **implicit contract** with that
 subject and abused their good will.
 
 That being said, **all research studies have flaws**. The perfect
@@ -58,13 +58,13 @@ methodological flaws because your review process might itself introduce
 even more serious methodological flaws.
 
 Please **get this idea out of your head that your job is to fix flaws in
-research studies**. You can\'t do it and you shouldn\'t do it. If you
+research studies**. You can't do it and you shouldn't do it. If you
 desire to only approve research without methodological flaws, you will
 be forced to reject pretty much any study that comes before your
 committee.
 
-So the question that IRBs should ask is not \"Is this study flawed?\"
-but rather \"**Does this study have a fatal flaw?**\"
+So the question that IRBs should ask is not "Is this study flawed?"
+but rather "**Does this study have a fatal flaw?**"
 
 Other people will argue that the question is **whether the benefits of
 the study outweigh the risks and burdens**. This might be true in
@@ -74,13 +74,13 @@ burdens that are minimal to the extent that if the study produces
 **anything of reasonable value**, it will outweigh the risks and
 burdens.
 
-I\'m sure that people will argue this point, but I believe that **the
+I'm sure that people will argue this point, but I believe that **the
 IRB should hold up a study only if it finds a fatal flaw**. That
-doesn\'t mean that you can\'t offer a suggestion (e.g., we approve this
-study as it currently stands, but we\'d like you to consider using a
+doesn't mean that you can't offer a suggestion (e.g., we approve this
+study as it currently stands, but we'd like you to consider using a
 concealed allocation scheme as part of the research).
 
-So what\'s a fatal flaw? There are two good standards. First, is a flaw
+So what's a fatal flaw? There are two good standards. First, is a flaw
 so serious that the research is **unlikely to be published in any peer
 reviewed journal?** Alternately, you could ask whether a flaw is so
 serious that it would **fail to meet the quality screen typically used

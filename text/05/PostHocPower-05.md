@@ -35,8 +35,8 @@ and not every exposure being studied is going to be harmful.
 If a referee asks you to include a post hoc power calculation, just say
 no. Include a sentence in your paper along the lines of
 
--   \"We did not compute any post hoc power calculations because these
-    computations are irrelevant and misleading\"
+-   "We did not compute any post hoc power calculations because these
+    computations are irrelevant and misleading"
 
 and then cite 2 or 3 of these references.
 
@@ -45,15 +45,15 @@ was quoted on the following web page:
 
 -   <http://core.ecu.edu/psyc/wuenschk/StatHelp/PowerAPosteriori.htm>
 
-as saying \"*The best thing to present in the paper is an a priori
+as saying "*The best thing to present in the paper is an a priori
 sample size calculation. If this was not done, rely on the width of the
 confidence intervals to demonstrate whether the sample size was
 adequate. A post hoc power computed at a biologically relevant effect
 size is a poor third choice, and a post hoc power at the observed effect
-size is pathetic.*\"
+size is pathetic.*"
 
 Someone interpreted this to mean that post hoc power at a biologically
-relevant difference is still okay, because it is not pathetic. But it\'s
+relevant difference is still okay, because it is not pathetic. But it's
 hardly a ringing endorsement to say that a paper used an approach which
 could not be characterized as pathetic.
 
@@ -75,10 +75,10 @@ hoc power can lead you to.
 -   [Stats: Negative results](../size/negative.asp)
 -   [Stats: Post hoc power](../size/posthoc.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Post hoc
 power](../category/PostHocPower.html)
@@ -86,17 +86,17 @@ power](../category/PostHocPower.html)
 power](../category/PostHocPower.html)
 for pages similar to this one at [Category: Post hoc
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Post hoc power is never justified
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Post hoc
 power](../category/PostHocPower.html)

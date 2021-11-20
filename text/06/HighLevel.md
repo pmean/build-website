@@ -47,7 +47,7 @@ Dean Giustini has some nice summaries at
     and
 -   [weblogs.elearning.ubc.ca/googlescholar/EBMJan20\_06.pdf](http://weblogs.elearning.ubc.ca/googlescholar/EBMJan20_06.pdf)
 
-It\'s not a high level source, but someone pointed out a natural
+It's not a high level source, but someone pointed out a natural
 language query system for Medline
 
 -   Ask Medline
@@ -55,10 +55,10 @@ language query system for Medline
 
 **Note:** some additional resources added on May 30, 2006.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).
@@ -66,17 +66,17 @@ searching](../category/InformationSearching.html).
 searching](../category/InformationSearching.html).
 for pages similar to this one at [Category: Information
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Searching high level sources first
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).

@@ -11,7 +11,7 @@ output: html_document
 **[StATS]:** **A totally negative microarray
 experiment (October 14, 2005)**.
 
-I\'ve been cleaning out my old emails and am finding some real gems of
+I've been cleaning out my old emails and am finding some real gems of
 good advice. Someone wrote into the Bioconductor email list wondering
 what to do when the lowest adjusted p-value in the entire experiment was
 still very large (0.66). A nice response outlined three strategies:
@@ -30,26 +30,26 @@ still very large (0.66). A nice response outlined three strategies:
     outside the microarray experiment that these genes are indeed
     differentially expressed.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **A totally negative microarray
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

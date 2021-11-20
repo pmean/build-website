@@ -72,7 +72,7 @@ www.consort-statement.org/stardstatement.htm
     follicle-stimulating hormone levels.** Barnhart K, Osheroff J.
     Fertil Steril 1999: 72(1); 8-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10428140&dopt=Abstract)
--   **\"Smart asses\"\--and spectrum bias.** Corson SL. Fertil Steril
+-   **"Smart asses"\--and spectrum bias.** Corson SL. Fertil Steril
     1999: 72(6); 1146-7.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10593399&dopt=Abstract)
 -   **Body mass index compared to dual-energy x-ray absorptiometry:
@@ -112,12 +112,12 @@ www.consort-statement.org/stardstatement.htm
     Nachamkin I, Edelstein PH, Goldman J, Feinstein AR, Schwartz JS. Ann
     Intern Med 1992: 117(2); 135-40.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1605428&dopt=Abstract)
--   **Prevalence of cognitive impairment amongst Singapore\'s elderly
+-   **Prevalence of cognitive impairment amongst Singapore's elderly
     Chinese: a community-based study using the ECAQ and the IQCODE.**
     Lim HJ, Lim JP, Anthony P, Yeo DH, Sahadevan S. Int J Geriatr
     Psychiatry 2003: 18(2); 142-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12571823&dopt=Abstract)
--   **\"Smart asses\"\--and spectrum bias.** McDonough PG. Fertil Steril
+-   **"Smart asses"\--and spectrum bias.** McDonough PG. Fertil Steril
     1999: 72(6); 1147-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10593400&dopt=Abstract)
 -   **Disease based spectrum bias in referred samples and the
@@ -137,7 +137,7 @@ www.consort-statement.org/stardstatement.htm
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2297289&dopt=Abstract)
 -   **The effect of spectrum bias on the utility of magnetic resonance
     imaging and evoked potentials in the diagnosis of suspected multiple
-    sclerosis.** O\'Connor PW, Tansay CM, Detsky AS, Mushlin AI,
+    sclerosis.** O'Connor PW, Tansay CM, Detsky AS, Mushlin AI,
     Kucharczyk W. Neurology 1996: 47(1); 140-4.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8710067&dopt=Abstract)
 -   **Integrating stratum-specific likelihood ratios with the analysis

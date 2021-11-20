@@ -33,7 +33,7 @@ Unfortunately, a single dimension of risk remains in a retrospective
 chart review, a confidentiality risk. This is not a trivial risk either.
 Some research subjects have lost insurance coverage or been fired from a
 job when information about their illnesses fell into the wrong hands.
-There\'s also a risk of personal embarrassment if certain medical
+There's also a risk of personal embarrassment if certain medical
 conditions become public knowledge. The recently passed [HIPAA
 regulations](http://www.hhs.gov/ocr/hipaa/) offer very harsh penalties
 to medical professionals who divulge private health information.
@@ -71,7 +71,7 @@ network folder, which requires password access. Keeping part or all of
 the data within your institution provides further assurance.
 
 **Scientific merit**. Some of your patients will not relish the idea
-that someone is rummaging around in their medical records, so don\'t do
+that someone is rummaging around in their medical records, so don't do
 this unless you have a good scientific reason. This retrospective chart
 review has to provide meaningful information that can help guide your
 clinical practice or that can help you better plan a prospective
@@ -83,7 +83,7 @@ almost never use randomization (see my comments on [temporality of
 causes](temporality.html) for one notable exception). These studies also
 cannot be blinded and will often have incomplete information.
 
-Acknowledge the weaknesses of retrospective reviews openly. You don\'t
+Acknowledge the weaknesses of retrospective reviews openly. You don't
 want to leave the impression that you are naive. But do stress that even
 with these limitations, the information will be valuable.
 
@@ -108,7 +108,7 @@ care hospitals in Canada. The study noted that
 > discharge.*
 > [www.cmaj.ca/cgi/content/full/168/2/155](http://www.cmaj.ca/cgi/content/full/168/2/155)
 
-How do you justify the sample size in study like this? You can\'t
+How do you justify the sample size in study like this? You can't
 perform a power calculation because this requires a formal hypothesis.
 What you can do instead is to show that the various estimates in your
 study have reasonable precision.
@@ -117,7 +117,7 @@ For example, using the
 [SingleProportionCI.xls](../00files/ConfidenceIntervalForSingleProportion.xls)
 spreadsheet, you can show that the 95% confidence interval for a
 proportion will have a width of no more than plus or minus 5%. You have
-to know that the \"worst case\" scenario for these confidence intervals
+to know that the "worst case" scenario for these confidence intervals
 is when the estimated proportion is 50%. For smaller or larger
 proportions the confidence interval will be a bit narrower. For example,
 if the proportion were actually around 80% then the width of the
@@ -128,12 +128,12 @@ intervention. For prospective interventions, you have to worry about
 recruiting too many patients, because that will increase the number of
 patients who will be exposed to the pains and risks of the intervention
 and it will increase the number who have to endure the inferior
-treatment. You don\'t know which of the treatments will end up being
+treatment. You don't know which of the treatments will end up being
 inferior, but you want to wrap up the study as soon as you can so that
 everyone after that can have the benefit of the therapy which ends up
 working better.
 
-In contrast, it\'s hard to imagine a retrospective study being too
+In contrast, it's hard to imagine a retrospective study being too
 large. The confidentiality risk does not increase with sample size,
 since a data file with 20,000 patients is stored just as securely as a
 data file with 200 patients. If your budget allows it, there is no
@@ -144,9 +144,9 @@ The only ethical problem occurs when your sample size is so small as to
 produce a confidence interval that is so wide as to be essentially
 non-informative. The example, I always cite is that of a doctor who runs
 a ten thousand dollar battery of tests on a patient to give him an idea
-of his prognosis. After all the test, the doctor announces \"*we\'re 95%
+of his prognosis. After all the test, the doctor announces "*we're 95%
 confident that your probability of surviving this operation is somewhere
-between 3% and 98%.*\"
+between 3% and 98%.*"
 
 **Further reading**
 

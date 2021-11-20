@@ -34,7 +34,7 @@ events being compared are relatively rare.
 
 **Further reading**
 
--   **Completeness of reporting trial results: effect on physicians\'
+-   **Completeness of reporting trial results: effect on physicians'
     willingness to prescribe.** Bobbio M, Demichelis B, Giustetto G.
     Lancet 1994: 343(8907); 1209-11.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7909875&dopt=Abstract)
@@ -63,7 +63,7 @@ events being compared are relatively rare.
     affect treatment decisions.** Forrow L, Taylor W, Arnold R. The
     American Journal of Medicine 1992: 92(2); 121-24.
 -   **Communicating the benefits of chronic preventive therapy: does the
-    format of efficacy data determine patients\' acceptance of
+    format of efficacy data determine patients' acceptance of
     treatment?** Hux J, Naylor C. Medical Decision Making 1995: 15(2);
     152-7.
 -   **Absolute and relative truth in clinical trials.** Julian D. Lancet
@@ -92,7 +92,7 @@ events being compared are relatively rare.
     1994: 308(6921); 72-4.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8298415&dopt=Abstract)
     [\[Full text\]](http://bmj.com/cgi/content/full/308/6921/72)
--   **\"Absolute\" is inappropriate for quantitative risk estimation.**
+-   **"Absolute" is inappropriate for quantitative risk estimation.**
     Tunstall-Pedoe H. BMJ 2000: 320(7236); 723-. [\[Full
     text\]](http://bmj.com/cgi/content/full/320/7236/723)
 

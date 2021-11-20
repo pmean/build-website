@@ -13,10 +13,10 @@ interesting puzzle every week and often these puzzles involve
 mathematics. These puzzles can sometimes help you understand complex
 mathematical concepts that are important in Statistics. In the summer,
 they re-use puzzlers from earlier years, and just last week, they
-re-used one of my favorites. A \"nameless mathematician\" during World
+re-used one of my favorites. A "nameless mathematician" during World
 War II was asked to help with a military problem. A lot of bombers were
 not returning from their missions, so the Royal Air Force wanted to put
-armor on the bombers. But where to put it? They couldn\'t put it
+armor on the bombers. But where to put it? They couldn't put it
 everywhere because it would be too heavy. So this mathematician looked
 at the planes that returned and noted where they had holes from enemy
 fire. These holes were distributed more or less randomly throughout the
@@ -37,7 +37,7 @@ magazine (see below). That article gives the name of the mathematician
 It has several other amusing examples of selection bias, such as the
 average age of death among various professions. The profession that had
 the worst result, with an average age at death of only 20.7 years was
-\"student\".
+"student".
 
 An excellent book by Freedman, Pisani, and Purves also has a delightful
 story about selection bias.

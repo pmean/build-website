@@ -50,7 +50,7 @@ EBM. The articles that this person suggested are quite good.
     text\]](http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&pubmedid=10753130)
     [\[PDF\]](http://www.pubmedcentral.nih.gov/picrender.fcgi?artid=1117895&blobtype=pdf)
 6.  **Of studies, syntheses, synopses, summaries, and systems: the
-    \"5S\" evolution of information services for evidence-based
+    "5S" evolution of information services for evidence-based
     healthcare decisions.** R. B. Haynes. Evid Based Med 2006: 11(6);
     162-4.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=17213159&dopt=Abstract)
@@ -78,7 +78,7 @@ EBM. The articles that this person suggested are quite good.
     text\]](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=518974)
     [\[PDF\]](http://www.pubmedcentral.nih.gov/picrender.fcgi?artid=518974&blobtype=pdf)
 10. **Finding and applying evidence during clinical rounds: the
-    \"evidence cart\".** D. L. Sackett, S. E. Straus. Jama 1998:
+    "evidence cart".** D. L. Sackett, S. E. Straus. Jama 1998:
     280(15); 1336-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9794314&dopt=Abstract)
     [\[Abstract\]](http://jama.ama-assn.org/cgi/content/abstract/280/15/1336)
@@ -110,7 +110,7 @@ organized in a variety of topics.
 
 **Blinding**
 
-1.  **\"Double blind, you are the weakest link- good-bye!\"** Devereaux
+1.  **"Double blind, you are the weakest link- good-bye!"** Devereaux
     PJ, Bhandari M, Montori VM, Manns BJ, Ghali WA, Guyatt GH. ACP
     Journal Club 2002: 136; A11-A12.
 2.  **Blinding in randomised trials: hiding who got what.** Schulz KF,
@@ -130,7 +130,7 @@ organized in a variety of topics.
     trials.** K. Benson, A. J. Hartz. New England Journal of Medicine
     2000: 342(25); 1878-86.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10861324&dopt=Abstract)
-2.  **Observational Versus Experimental Studies: What\'s the Evidence
+2.  **Observational Versus Experimental Studies: What's the Evidence
     for a Hierarchy?** J. Concato. NeuroRx 2004: 1(3); 341-347.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15717036&dopt=Abstract)
     [\[Abstract\]](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=534936&rendertype=abstract)
@@ -195,14 +195,14 @@ organized in a variety of topics.
     [\[Full
     text\]](http://www.blackwell-synergy.com/doi/full/10.1111/j.1479-6988.2006.00041.x?cookieSet=1)
     [\[PDF\]](http://www.ucl.ac.uk/Pharmacology/dc-bits/holmes-deconstruction-ebhc-06.pdf)
-3.  **Problems in the \"evidence\" of \"evidence-based medicine\".** A.
+3.  **Problems in the "evidence" of "evidence-based medicine".** A.
     R. Feinstein, R. I. Horwitz. Am J Med 1997: 103(6); 529-35.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9428837&dopt=Abstract)
 4.  **The double-blind, randomized, placebo-controlled trial: gold
     standard or golden calf?** T. J. Kaptchuk. J Clin Epidemiol 2001:
     54(6); 541-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11377113&dopt=Abstract)
-5.  **The growth of a lie and the end of \"conventional\" medicine.**
+5.  **The growth of a lie and the end of "conventional" medicine.**
     Mastrangelo D, Lore C. Med Sci Monit 2005: 11(12); SR27-31.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16319808&dopt=Abstract)
     [\[Abstract\]](http://www.medscimonit.com/medscimonit/modules.php?name=Current_Issue&d_op=summary&id=8209)
@@ -259,7 +259,7 @@ organized in a variety of topics.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11703888&dopt=Abstract)
     [\[Abstract\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11703888&dopt=Abstract)
 12. **The fallacy of enrolling only high-risk subjects in cancer
-    prevention trials: is there a \"free lunch\"?** S. G. Baker, B. S.
+    prevention trials: is there a "free lunch"?** S. G. Baker, B. S.
     Kramer, D. Corle. BMC Med Res Methodol 2004: 4(1); 24.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15461821&dopt=Abstract)
     [\[Abstract\]](http://www.biomedcentral.com/1471-2288/4/24/abstract)
@@ -360,7 +360,7 @@ organized in a variety of topics.
     [\[Full
     text\]](http://jama.ama-assn.org/cgi/content/full/282/15/1453)
     [\[PDF\]](http://jama.ama-assn.org/cgi/reprint/282/15/1453.pdf)
-5.  **Association between competing interests and authors\' conclusions:
+5.  **Association between competing interests and authors' conclusions:
     epidemiological study of randomised clinical trials published in the
     BMJ.** LL Kjaergard, B Als-Nieslen. BMJ 2002: 325; 249 - 252.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12153921&dopt=Abstract)
@@ -462,7 +462,7 @@ organized in a variety of topics.
     text\]](http://bmj.bmjjournals.com/cgi/content/full/325/7376/1338)
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/325/7376/1338.pdf)
 2.  **From best evidence to best practice: effective implementation of
-    change in patients\' care.** R. Grol, J. Grimshaw. Lancet 2003:
+    change in patients' care.** R. Grol, J. Grimshaw. Lancet 2003:
     362(9391); 1225-30.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=14568747&dopt=Abstract)
 3.  **Implementing evidence based medicine in general practice: audit
@@ -497,7 +497,7 @@ organized in a variety of topics.
     really need to know about statistics?** Reed JF, 3rd, Salen P,
     Bagher P. J Med Syst 2003: 27(3); 233-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12705455&dopt=Abstract)
-8.  **Alternative medicine: a \"mirror image\" for scientific reasoning
+8.  **Alternative medicine: a "mirror image" for scientific reasoning
     in conventional medicine.** Vandenbroucke J, de Craen A. Ann Intern
     Med 2001: 135(7); 507-13.
     [\[Abstract\]](http://www.annals.org/cgi/content/abstract/135/7/507)

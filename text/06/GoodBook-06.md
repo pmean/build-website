@@ -33,15 +33,15 @@ books](../category/InterestingBooks.html)
 > with their privacy guarded by red maple leaf. In their first chapter,
 > they point out that
 >
-> > *Statistics wouldn\'t be needed if everybody in the world were
+> > *Statistics wouldn't be needed if everybody in the world were
 > > exactly like everyone else.*
 >
 > but add the following footnote.
 >
-> > *We also wouldn\'t need dating services because it would be futile
+> > *We also wouldn't need dating services because it would be futile
 > > to look for the perfect mate; he or she would be just like the
 > > person sitting next to you. By the same token, it would mean the end
-> > of extramarital affairs, because what\'s the use? But that\'s
+> > of extramarital affairs, because what's the use? But that's
 > > another story.*
 >
 > This sort of commentary continues throughout the entire book. At the
@@ -69,7 +69,7 @@ books](../category/InterestingBooks.html)
 > but the cartoon below has the statistician explaining to his date as
 > they eat,
 >
-> > *Good choice! I\'m 95% confident that tonight\'s soup has
+> > *Good choice! I'm 95% confident that tonight's soup has
 > > probability between 73% and 77% of being really delicious.*
 >
 > This is cute, although it does reinforce a stereotype of statisticians
@@ -80,19 +80,19 @@ books](../category/InterestingBooks.html)
 >
 > Later in that chapter, the authors point out that
 >
-> > *\... in disucssing statistics, it\'s hard to avoid mentioning one
+> > *\... in disucssing statistics, it's hard to avoid mentioning one
 > > other thing: the widespread mistrust of Statistics in the world
-> > today. Everyone knows about \"lying with Statistics,\" while good
+> > today. Everyone knows about "lying with Statistics," while good
 > > Statistical analysis is nearly impossible to find in daily life.*
 >
 > Again this is well written but bland. The cartoon to the right,
 > however, shows a man watching TV as the announcer says
 >
 > > *3 out of 4 doctors recommend not believing any statement beginning
-> > with \"3 out of 4 doctors\...\"*
+> > with "3 out of 4 doctors\..."*
 >
 > When done well, humor can make difficult concepts much more memorable.
-> I\'d like to think that [my book (coming soon!)](../evidence.asp) will
+> I'd like to think that [my book (coming soon!)](../evidence.asp) will
 > have some good and memorable humor in it.
 >
 > **Further reading:**
@@ -117,26 +117,26 @@ written by Steve Simon and was last modified on 04/01/2010.
 
 <U+FFFD>
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **What makes a good book? A sense of
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

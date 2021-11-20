@@ -8,15 +8,15 @@ tags:
 - Descriptive statistics
 output: html_document
 ---
-I got another question, this one from Brooklyn, New York. It\'s a
+I got another question, this one from Brooklyn, New York. It's a
 commonly asked question, so I should write something about this. The
 question is whether you can get a correlation coefficient between two
 variables when one (or both) are categorical.
 
 It turns out that you can do this, as long as the categorical variable
-is binary (has only two levels). It\'s easiest to follow this if you
+is binary (has only two levels). It's easiest to follow this if you
 code the variable as 0-1, but it turns out that how you code the
-variable doesn\'t really matter much. I\'ll show the math when I have
+variable doesn't really matter much. I'll show the math when I have
 time, but you can also see this on a variety of web sites:
 
 -   <http://www.utexas.edu/cc/faqs/stat/general/gen5.html>

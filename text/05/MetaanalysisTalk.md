@@ -17,7 +17,7 @@ output: html_document
 > were talking about how to respond to a bad referee report for a paper
 > you are trying to get published. I mentioned how it is difficult to
 > argue with a referee although a few times I have had to resort to a
-> \"my referee is an idiot\" defense. Most of the time, I just try to go
+> "my referee is an idiot" defense. Most of the time, I just try to go
 > along with what the referee says unless their suggestions do violence
 > to the statistics.
 >
@@ -37,7 +37,7 @@ output: html_document
 > protocol. I may have to try this the next time I have to respond to a
 > referee report. Actually, it is usually not my paper. Most of the
 > time, someone comes to me with a referee report on a paper I have
-> never seen before and asks for help in responding to the referee\'s
+> never seen before and asks for help in responding to the referee's
 > critical comments.
 >
 > Dr. Moye has also written an excellent book:

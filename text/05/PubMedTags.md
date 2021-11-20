@@ -11,16 +11,16 @@ output: html_document
 ---
 **[StATS]:** **PubMed tags (April 28, 2005)**
 
-Searching in PubMed can be tricky. If you don\'t find what you want the
+Searching in PubMed can be tricky. If you don't find what you want the
 first time, it may help to specify exactly what part of the PubMed
 record you want to search for.
 
 For example, I was searching on Schiavo to see if there were any
 interesting commentaries about this case in PubMed Central. But when I
-searched simply on \"Schiavo,\" PubMed gave me 10 articles where one of
+searched simply on "Schiavo," PubMed gave me 10 articles where one of
 the authors had a last name of Schiavo. I could search instead for
-\"Schiavo \[ti\]\" which would limit my search to those articles where
-the word \"Schiavo\" appeared in the title of the publication.
+"Schiavo \[ti\]" which would limit my search to those articles where
+the word "Schiavo" appeared in the title of the publication.
 
 Other useful tags in PubMed are:
 
@@ -31,19 +31,19 @@ Other useful tags in PubMed are:
 
 The \[ta\] tag is very useful when the name of the journal (e.g.,
 Circulation) is also a commonly used medical term. You can also search
-by the journal\'s ISSN number if you know it.
+by the journal's ISSN number if you know it.
 
 The \[dp\] tag uses the YYYY/MM/DD format and you can specify only the
 year or only the year/month. You can also specify a range using a colon
 between the two dates. Finally, you can search the last X days by
-specifying \"last X days \[dp\]\" in your search. This also works for
+specifying "last X days \[dp\]" in your search. This also works for
 the last X months and the last X years. The \[tiab\] tag allows you to
 search for words in either the title or the abstract.
 
-The \"free full text \[sb\]\" tag will retrieve only those articles with
-free full text on the web. For example, searching on \"L\'Abbe plot\"
-yielded seven references, but when I searched on \"free full text \[sb\]
-L\'Abbe plot\" I got the two articles which had free full text on the
+The "free full text \[sb\]" tag will retrieve only those articles with
+free full text on the web. For example, searching on "L'Abbe plot"
+yielded seven references, but when I searched on "free full text \[sb\]
+L'Abbe plot" I got the two articles which had free full text on the
 web. When you are looking for good teaching examples, it is wonderful to
 search for publications that you can link to directly, knowing that
 everyone who reads your pages will be able to view the full article if
@@ -55,7 +55,7 @@ Clinical Trial, or Editorial using the \[pt\] tag.
 The \[tw\] tag searches for words in the title, abstract, and MeSH
 terms.
 
-MeSH, by the way, stands for \"Medical Subject Headings\" and is an
+MeSH, by the way, stands for "Medical Subject Headings" and is an
 attempt by PubMed to create a hierarchy of medical terms to help make
 searches more efficient. You can learn all about MeSH at
 
@@ -72,10 +72,10 @@ searches more efficient. You can learn all about MeSH at
     Libraries UoFHSC. Accessed on 2005-04-28.
     www.library.health.ufl.edu/pubmed/pubmed2/
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).
@@ -83,17 +83,17 @@ searching](../category/InformationSearching.html).
 searching](../category/InformationSearching.html).
 for pages similar to this one at [Category: Information
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **PubMed tags (April 28, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).

@@ -16,7 +16,7 @@ value or should I round it?*
 
 There are some commonly cited jokes about this. The first is that if the
 average family has 2.2 children, what does the 0.2 child look like?
-There\'s also the joke about how the average person has one testicle and
+There's also the joke about how the average person has one testicle and
 one ovary and less than 2 legs.
 
 In spite of these jokes, it is standard operating procedure to carry an

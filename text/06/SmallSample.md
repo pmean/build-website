@@ -20,7 +20,7 @@ sample size.*
 
 I get this sort of question a lot. Is there a test that will get
 statistical significance when you have only nine patients in your
-sample? Yes, it\'s called the \"Blood From a Turnip\" test.
+sample? Yes, it's called the "Blood From a Turnip" test.
 
 Your question is a very important one and one that needs a bit more
 elaboration. There is no test that allows you to make statistically
@@ -39,7 +39,7 @@ test is valid under certain assumptions. The set of assumptions is a bit
 smaller and less restrictive for the nonparametric test. In particular,
 the nonparametric test never requires that the underlying distribution
 is normal and this assumption is very important for small sample sizes.
-By the way, the word \"valid\" here deserves a definition. A statistical
+By the way, the word "valid" here deserves a definition. A statistical
 test is valid if the overall alpha level of the test does not deviate
 significantly from the specified alpha level.
 
@@ -68,20 +68,20 @@ almost impossible to achieve. It only takes one or two patients who have
 an unexpectedly low or high response to totally destroy your
 all-or-nothing response. And ask yourself an honest question. If the
 treatment I am considering is so powerful that it is likely to produce
-an all-or-nothing response, wouldn\'t you already know that? Typically
+an all-or-nothing response, wouldn't you already know that? Typically
 we research problems where the effects are subtle rather than
 pronounced. Most treatments that produce an all-or-nothing response have
 probably already been discovered by someone else.
 
-But let\'s be a bit more pragmatic. I assume that the data has already
+But let's be a bit more pragmatic. I assume that the data has already
 been collected. If so, go ahead and analyze the data. It costs you
 nothing to perform the analysis. Be sure to report the confidence
 interval rather than the p-value, because you need to alert your readers
 that a sample of 9 has very poor precision. Your conclusions will be
 ambiguous and generally uninformative and you will end up saying
-something like \"Although we did not reject the null hypothesis, we are
+something like "Although we did not reject the null hypothesis, we are
 unsure if this is because there truly is no difference between the two
-groups or if it is just a reflection of the inadequate sample size.\"
+groups or if it is just a reflection of the inadequate sample size."
 What an awful thing to have to admit.
 
 If the data has not been collected yet, ask yourself if it is worth your
@@ -93,7 +93,7 @@ you can reasonably expect approval any group that has oversight or
 approval authority (an Institutional Review Board or an Animal Care and
 Use Committee, for example).\
 \
-For what it\'s worth, certain research settings have so much precision
+For what it's worth, certain research settings have so much precision
 that it is not too difficult to show an all-or-nothing response. Certain
 in vitro experiments are very carefully controlled so that the results
 are almost perfectly reproducible. Not all in vitro experiments are so
@@ -102,10 +102,10 @@ see an all-or nothing response. Another research setting where you might
 get by with a very small sample size is a cross-over trial, because in
 that trial, each subject serves as their own control.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Small sample size
 issues](../category/SmallSampleSizeIssues.html).
@@ -113,17 +113,17 @@ issues](../category/SmallSampleSizeIssues.html).
 issues](../category/SmallSampleSizeIssues.html).
 for pages similar to this one at [Category: Small sample size
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Small sample size, yet again (March
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Small sample size
 issues](../category/SmallSampleSizeIssues.html).

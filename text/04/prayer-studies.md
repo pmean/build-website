@@ -8,7 +8,7 @@ tags:
 - Corroborating evidence
 output: html_document
 ---
-> I\'ve been meaning to write a web page about the series of studies
+> I've been meaning to write a web page about the series of studies
 > that seem to indicate that groups of patients receiving prayer get
 > better health outcomes than the control group. It is an interesting
 > series of studies because it illustrates some of the difficulties,
@@ -18,7 +18,7 @@ output: html_document
 > am not an expert on theology, I find those arguments interesting also.
 >
 > But there is a third line of thought which argues that research in
-> this area is logically flawed. Bob Carroll, author of the Skeptic\'s
+> this area is logically flawed. Bob Carroll, author of the Skeptic's
 > Dictionary [\[BookFinder4U
 > link\]](http://www.bookfinder4u.com/detail/0471272426.html), says that
 > research should be confined only to processes which obey the natural

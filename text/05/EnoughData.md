@@ -19,7 +19,7 @@ concluding that no relation has been or likely will be established.
 First compute a confidence interval for the correlation coefficient. If
 that interval is so narrow that you can rule out the possibility of a
 clinically important shift, then your sample size is large enough. How
-large a correlation is clinically significant? That\'s very hard to say.
+large a correlation is clinically significant? That's very hard to say.
 The correlation is a unitless quantity, and usually you need some
 measure in physical units (meters, kilograms, etc.) before you can talk
 about clinical importance.
@@ -28,11 +28,11 @@ You might want to look instead at the regression coefficient which does
 have units of measure in it. I assume that turnover is your independent
 variable and falls is your dependent variable. Think, then, about how
 much of an increase in falls per unit change in turnover is important
-from a clinical perspective. If that value is (I\'m just making up a
+from a clinical perspective. If that value is (I'm just making up a
 number) 0.5, then your sample size is adequate as long as the confidence
 interval for the slope is entirely inside plus/minus 0.5.
 
-Please realize that an outsider like me can\'t tell you what\'s
+Please realize that an outsider like me can't tell you what's
 clinically important, because that requires clinical judgment, something
 I lack. A good general overview about clinical importance is on my web
 pages at
@@ -49,7 +49,7 @@ care? I have a brief outline of control charts at
 
 Another issue is that it is dangerous to look at 12 months worth of
 data, then 13, then 14, etc. because you are testing multiple times on a
-single hypothesis. It\'s sort of like being dealt three poker hands and
+single hypothesis. It's sort of like being dealt three poker hands and
 choosing which one you like best. It would be better to select a sample
 size (time interval) prior to data collection and then test only once.
 If you do test multiple times, you need to adjust your alpha level. See

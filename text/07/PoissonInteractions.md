@@ -22,7 +22,7 @@ output: html_document
 > category. The coefficient for temperature is 0.08, the coefficient for
 > the two dummy variables are 0.38 and 0.01. This model has a separate
 > interaction term for each dummy variable and temperature. These
-> coefficients are both -0.03. He did not specify an intercept. Let\'s
+> coefficients are both -0.03. He did not specify an intercept. Let's
 > pretend it is 3.52.
 >
 > The temperature coefficient is positive and it shows that in the
@@ -106,7 +106,7 @@ output: html_document
 > 8.2 (= 0.9 / 0.11). So when rain is at 8.2, the average count does not
 > change as wind changes.
 >
-> So what\'s the general conclusion. A dry wind increases count compared
+> So what's the general conclusion. A dry wind increases count compared
 > to a dry calm, but a wet wind compared to a wet calm does so to a much
 > lesser degree. Too much wetness cancel out or even reverse this
 > relationship. Rain has a slightly negative impact when it is calm, but

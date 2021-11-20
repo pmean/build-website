@@ -17,7 +17,7 @@ run across an excellent article in the September 2004 issue of JASA.
 > [\[Abstract\]](http://lysander.asa.catchword.org/vl=7292716/cl=78/nw=1/rpsv/cw/asa/01621459/v99n467/s40/p890)
 
 This article refers to another article by Rupert Miller published in
-1983 with the provocative title \"What Price Kaplan-Meier?\".
+1983 with the provocative title "What Price Kaplan-Meier?".
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=6671119).
 
 You can find an [earlier version](http://www.pmean.com/04/PriceKaplanMeier.html) of this page on my [original website](http://www.pmean.com/original_site.html).

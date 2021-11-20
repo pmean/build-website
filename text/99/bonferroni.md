@@ -19,10 +19,10 @@ and why we want to keep scientists from fishing? \-- Judicious John*
 > example is a study of the effect of a certain environmental chemical
 > on cancer. A researcher could look for an association with bladder
 > cancer, brain cancer, colon cancer, liver cancer, lung cancer, ovarian
-> cancer, prostate cancer, skin cancer, and \"that funny little thing
-> hanging in the back of your throat\" cancer. With so many different
+> cancer, prostate cancer, skin cancer, and "that funny little thing
+> hanging in the back of your throat" cancer. With so many different
 > cancers to look at, the scientist is bound to find something worth
-> publishing, even if the chemical is as harmless as table salt. It\'s
+> publishing, even if the chemical is as harmless as table salt. It's
 > like placing a single bet at a casino, but getting to spin the
 > roulette wheel a couple dozen times.
 
@@ -142,7 +142,7 @@ and why we want to keep scientists from fishing? \-- Judicious John*
 > problems as testing multiple outcome measures.
 >
 > There are other approaches that work more efficiently than Bonferroni.
-> Tukey\'s Honestly Significant Difference is the approach I prefer. But
+> Tukey's Honestly Significant Difference is the approach I prefer. But
 > you also need to be sure that you are truly interested in ALL possible
 > pairwise comparisons.
 
@@ -162,22 +162,22 @@ and why we want to keep scientists from fishing? \-- Judicious John*
 > Bonferroni correction with a data set that is already too small, you
 > are implicitly stating that it is important only to control the
 > probability of a Type I error (rejecting the null hypothesis when the
-> null hypothesis is true), and that you don\'t care about limiting the
+> null hypothesis is true), and that you don't care about limiting the
 > probability of a Type II error (accepting the null hypothesis when the
 > null hypothesis is false).
 
 **Examples**
 
-> In a study of Parkinson\'s disease ([Kaasinen
+> In a study of Parkinson's disease ([Kaasinen
 > 2001](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11687621&dopt=Abstract)),<U+FFFD>
-> a group of 61 unmedicated Parkinson\'s disease patients and 45 healthy
+> a group of 61 unmedicated Parkinson's disease patients and 45 healthy
 > controls were compared on 22 separate personality scales. The was
 > prior data to suggest that novelty seeking would be lower in patients
-> with Parkinson\'s, so this comparison was made without any Bonferroni
+> with Parkinson's, so this comparison was made without any Bonferroni
 > adjustments. The remaining personality scores, however, had no such
 > prior information and a Bonferroni adjustment was used for these
 > remaining scales. An additional analysis looked PET scans for a subset
-> of 47 Parkinson\'s patients. The 18F-dopa uptake in 10 regions of the
+> of 47 Parkinson's patients. The 18F-dopa uptake in 10 regions of the
 > brain were correlated with the 22 personality traits. The correlations
 > involving novelty seeking were not adjusted, but the remaining
 > correlations were adjusted to account for the fact that 220 (10x22)

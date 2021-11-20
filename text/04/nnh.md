@@ -69,7 +69,7 @@ output: html_document
 > decline with placebo. The symptom score, developed by the American
 > Urological Association ranges between 0 and 35.
 >
-> I\'m not a urologist, but other than prostate volume, these changes
+> I'm not a urologist, but other than prostate volume, these changes
 > look small and of questionable clinical relevance.
 >
 > The authors did show an NNT of 49 and 26 for avoiding acute urinary
@@ -82,15 +82,15 @@ output: html_document
 > risk for various side effects. The NNHs were 14 (sexual dysfunction),
 > 47 (decrease libido), 24 (impotence), and 55 (ejaculation disorder).
 >
-> Here\'s where some value judgments come into play. How important is it
+> Here's where some value judgments come into play. How important is it
 > to decrease prostate volume and to avoid acute urinary retention and
 > surgery? Is the risk of various types of sexual dysfunction worth the
 > benefits? The benefits do seem to outweigh the risks to me, but
 > different people may come to different conclusions.
 >
 > As a side note, this study avoided heterogeneity tests and funnel
-> plots because \"they lack the power to reliably detect statistical
-> heterogeneity or publication bias\" and use sensitivity analyses
+> plots because "they lack the power to reliably detect statistical
+> heterogeneity or publication bias" and use sensitivity analyses
 > instead. I will try to write up something about this issue soon.
 >
 > **Sildenafil (Viagra) for male erectile dysfunction: a meta-analysis

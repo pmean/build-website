@@ -15,7 +15,7 @@ output: html_document
 > talk.
 >
 > This was by far the largest audience I had ever given a talk for. I
-> don\'t have an official count, but the talk was in one of those large
+> don't have an official count, but the talk was in one of those large
 > ballrooms (the Texas Ballroom, both A and B!) and more than half of
 > the seats looked to be filled. It was easily more than five hundred
 > people. No doubt many of the attendees were there for the other two
@@ -23,7 +23,7 @@ output: html_document
 > talk to.
 >
 > In reviewing my notes prior to the talk, I found out to my dismay that
-> I don\'t have a good web page outlining the five phases of testing to
+> I don't have a good web page outlining the five phases of testing to
 > establish the validity of a diagnostic test. These five phases were
 > developed by Margaret Pepe and are outlined in her book. I allude
 > briefly to these five phases in a [June 15, 2007 weblog
@@ -37,7 +37,7 @@ output: html_document
 > weblog entry. I did mention prominently in my a talk a fourth source
 > of bias, failure to blind knowledge of the diagnostic test from the
 > person conducting the gold standard and vice versa. This point came up
-> in the second speaker\'s talk.
+> in the second speaker's talk.
 >
 > There were several good references given by the other speakers, which
 > I need to review.
@@ -45,7 +45,7 @@ output: html_document
 > I was asked about how prevalence can influence a diagnostic test, and
 > although I covered this well on my webpages, I did not include an
 > appropriate discussion of this on my PowerPoint slides. If I give this
-> talk again, I\'ll be sure to add this to the slides.
+> talk again, I'll be sure to add this to the slides.
 >
 > (Update: November 14, 2007) At the beginning of my talk, I briefly
 > discussed my concerns with the conflict of interest requirements that

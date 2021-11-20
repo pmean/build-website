@@ -22,13 +22,13 @@ arranges its odds ratios so that a value greater than 1 favors the
 control group. That always seemed backwards to me, but who am I to argue
 with the Cochrane Collaboration.
 
-You really don\'t know how to interpret an odds ratio of 2 (or any other
+You really don't know how to interpret an odds ratio of 2 (or any other
 odds ratio) without some additional context. Is it the odds in favor of
 a particular outcome or the odds against that outcome? Is the control
 group in the numerator of the ratio or is it in the denominator?
 
-Since I can\'t tell you what an odds ratio of 2 represents without more
-context, I can\'t tell you what an odds ratio of 0.5 represents either.
+Since I can't tell you what an odds ratio of 2 represents without more
+context, I can't tell you what an odds ratio of 0.5 represents either.
 But clearly it is saying that one group has half the odds of the other
 group. In a Cochrane Review, you would know that an odds ratio of 0.5
 (or any odds ratio less than 1) favors the treatment group.
@@ -52,10 +52,10 @@ Statisticians will often graph odds ratios on a log scale to reflect the
 fact that increases in a ratio are not directly comparable to decreases
 of the same size for that ratio.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 benefit/risk](../category/MeasuringBenefitRisk.html).
@@ -63,17 +63,17 @@ benefit/risk](../category/MeasuringBenefitRisk.html).
 benefit/risk](../category/MeasuringBenefitRisk.html).
 for pages similar to this one at [Category: Measuring
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Odds ratios less than one (January 6,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 benefit/risk](../category/MeasuringBenefitRisk.html).

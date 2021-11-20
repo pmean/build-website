@@ -18,9 +18,9 @@ the submitted letter here.
 >
 > *A recent letter to the editor (1) highlights a problem with the peer
 > review policy of the American Journal of Psychiatry. The article
-> disputed the claims of a paper (2) that \"citalopram produces
+> disputed the claims of a paper (2) that "citalopram produces
 > statistically and clinically significant reduction in depressive
-> symptoms.\"*
+> symptoms."*
 >
 > *The only effective way to assess clinical significance is through the
 > use of confidence intervals, but there is not a single confidence
@@ -154,7 +154,7 @@ Here is the text of that letter:
 > the risk.\
 > \
 > These are extreme and artificial examples, but they illustrate an
-> important point: you can\'t judge clinical relevance by looking at the
+> important point: you can't judge clinical relevance by looking at the
 > p- value. The study with a small p-value gives you more evidence of no
 > practical effect than the study with a large p-value.\
 > \
@@ -173,7 +173,7 @@ Here is the text of that letter:
 > uses confidence intervals can you also assess the practical
 > significance of these findings.\
 > \
-> Steve Simon, Research Biostatistician Children\'s Mercy Hospital,
+> Steve Simon, Research Biostatistician Children's Mercy Hospital,
 > Kansas City MO, USA\
 > \
 > Competing interests: none declared.\
@@ -186,8 +186,8 @@ Here is the text of that letter:
 > vaccination and wheezing illnesses in young children: prospective
 > cohort study. BMJ 1999; 318: 1173-1176.\
 > \
-> (3) Tarnow-Mordi WO, Healy MJR. Distinguishing between \"no evidence
-> of effect\" and \"evidence of no effect\" in randomised controlled
+> (3) Tarnow-Mordi WO, Healy MJR. Distinguishing between "no evidence
+> of effect" and "evidence of no effect" in randomised controlled
 > trials and other comparisons. Arch. Dis. Child. 1999; 80: 210-211.\
 > \
 > (4) Confidence intervals rather than P values: estimation rather than

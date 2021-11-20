@@ -31,5 +31,5 @@ output: html_document
 > bias or incomplete ascertainment with the gold standard. Then I would
 > ask what the limitations of the research study are.
 >
-> When I get the questions written, I\'ll ask if I can publish them on
+> When I get the questions written, I'll ask if I can publish them on
 > this weblog.

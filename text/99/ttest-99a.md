@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 *Dear Professor Mean, How do you analyze a t-test. I have a t-test
-value, and I know that I have to compare it to a t-distribution. I\'m
+value, and I know that I have to compare it to a t-distribution. I'm
 not sure how to do that.*
 
 A t-test covers a wide range of tests. It appears when you are **testing
@@ -47,7 +47,7 @@ We can quantify how good our standard error is by the **degrees of
 freedom**. The degrees of freedom is related to **how much data we
 have** and **how many things we are trying to estimate** with that data.
 
-Here\'s an example of how a t-test would behave if it had 25 degrees of
+Here's an example of how a t-test would behave if it had 25 degrees of
 freedom. Notice that it looks quite a bit like a standard normal
 distribution.
 
@@ -55,13 +55,13 @@ distribution.
 height="366"}
 
 It looks and behaves quite a bit like a standard normal distibution.
-Here\'s a t-distribution with 2 degrees of freedom.
+Here's a t-distribution with 2 degrees of freedom.
 
 ![wpe20.gif (2295 bytes)](../03/images/ttest22.gif){width="480"
 height="366"}
 
 It has the same bell-hspaed curve, but notice that the tails of the
-distribution don\'t touch the axis, even at plus or minus 4. That means
+distribution don't touch the axis, even at plus or minus 4. That means
 that extreme values are more likely with this t-distribution than the
 previous one.
 
@@ -111,7 +111,7 @@ to be more spread out, especially if the degrees of freedom are small.
 **Further reading**
 
 Just about any introductory Statistics book will talk about the
-t-distribution. See, for example, chapter 7 of Rosner\'s book. There are
+t-distribution. See, for example, chapter 7 of Rosner's book. There are
 web pages that will calculate probabilities and percentiles of the t
 distribution, such as SurfSTAT (click on the TABLES button on the main
 page).

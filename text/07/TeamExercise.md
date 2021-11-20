@@ -104,7 +104,7 @@ these charts can be found at
 -   [www.jcrinc.com/1436/](http://www.jcrinc.com/1436/)
 -   [syque.com/quality\_tools/tools/Tools71.htm](http://syque.com/quality_tools/tools/Tools71.htm)
 
-I\'ll be putting all of this material together in the next couple of
+I'll be putting all of this material together in the next couple of
 days.
 
 A table of constants for the XBAR-S charts

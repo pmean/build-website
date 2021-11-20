@@ -8,8 +8,8 @@ tags:
 - Teaching resources
 output: html_document
 ---
-Donald Lollar presented a seminar: \"The International Classification of
-Functioning, Disability, and Health (ICF).\" The ICF is a framework for
+Donald Lollar presented a seminar: "The International Classification of
+Functioning, Disability, and Health (ICF)." The ICF is a framework for
 classifying health status that complements ICD codes. The ICF focuses on
 body functions and structures, activities and participation, and
 environmental factors. Dr. Lollar highlighted how the ICF might be used

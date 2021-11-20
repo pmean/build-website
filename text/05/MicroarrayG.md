@@ -66,8 +66,8 @@ output: html_document
 > involve an implicit subtraction of the MM probe values. The
 > subtraction can lead to a lot of noise at low signal values. Instead,
 > RMA looks at the distribution of the PM probe values and fits a
-> combination of two distributions, a \"noise\" distribution that is
-> normally distributed, and a \"signal\" distribution that is
+> combination of two distributions, a "noise" distribution that is
+> normally distributed, and a "signal" distribution that is
 > distributed like an exponential distribution. The normalized values
 > are estimated through the expected value of the signal distribution.
 

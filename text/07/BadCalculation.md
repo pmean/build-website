@@ -11,18 +11,18 @@ output: html_document
 ---
 > The [Chance
 > Wiki](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page) has
-> a section called \"Forsooths.\" This section presents quantitative
+> a section called "Forsooths." This section presents quantitative
 > errors in the popular press that are self-evident under careful
 > examination. I found an interesting example which I added to [issue
 > \#24](http://chance.dartmouth.edu/chancewiki/index.php/Chance_News_24).
 >
 > > *Mr. Romney started Bain Capital in 1984 with an initial fund of
 > > about \$40 million. During the fourteen years he ran it, Bain
-> > Capital\'s investments reportedly earned an annual rate of return of
+> > Capital's investments reportedly earned an annual rate of return of
 > > over 100 percent, potentially turning an initial investment of \$1
 > > million dollars into more than \$14 million by the time he left in
-> > 1998.* The New York Times. \"In Romney\'s 2008 Bid, Wallet Opens to
-> > the Right.\" 11 March 2007.
+> > 1998.* The New York Times. "In Romney's 2008 Bid, Wallet Opens to
+> > the Right." 11 March 2007.
 >
 > A 100% increase, of course, means a doubling of value. If you doubled
 > in value every year for 14 consecutive years, that would correspond to

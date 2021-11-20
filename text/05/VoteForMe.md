@@ -36,16 +36,16 @@ ASA chapters:
 -   SW Michigan,
 -   Twin Cities
 
-I had to prepare a brief biography of myself, so I thought I\'d present
+I had to prepare a brief biography of myself, so I thought I'd present
 the first draft here in case anyone was curious what I have been doing
-with my career in Statistics. I\'m also doing this because the web page
+with my career in Statistics. I'm also doing this because the web page
 where I submitted this information crashed on me and I wanted to place
 my biography in an accessible location for the appropriate people at the
 American Statistical Association.
 
 > **Present Position**
 >
-> Research Biostatistician, Office of Medical Research, The Children\'s
+> Research Biostatistician, Office of Medical Research, The Children's
 > Mercy Hospital, May 1996 to present, with a joint appointment as
 > Associate Professor in the School of Medicine at the University of
 > Missouri, Kansas City.
@@ -95,7 +95,7 @@ American Statistical Association.
 >
 > Evaluating the Benefit of Speech Recoding Hearing Aids in Children.
 > Miller D, Nelson P, Widen J, Simon S. American Journal of Audiology
-> 2003: 12; 106-113. This article received the Editor\'s Award for the
+> 2003: 12; 106-113. This article received the Editor's Award for the
 > American Journal of Audiology for the most outstanding publication in
 > the calendar year 2003.
 >
@@ -132,12 +132,12 @@ American Statistical Association.
 >
 > **Related Activities**
 >
-> I am the author of StATS (Steve\'s Attempt to Teach Statistics), a web
+> I am the author of StATS (Steve's Attempt to Teach Statistics), a web
 > page at www.pmean.com which provides information on a
 > wide range of statistical topics.
 >
-> In 1997, my presentation \"Medical Statistics Case Studies on the
-> Web\" was voted as the best presentation in the area of Teaching
+> In 1997, my presentation "Medical Statistics Case Studies on the
+> Web" was voted as the best presentation in the area of Teaching
 > Statistics in the Health Sciences at the Joint Statistical Meetings.
 >
 > I have served as a member of the Quality Management Advisory Board for
@@ -147,10 +147,10 @@ American Statistical Association.
 > I was co-chair of the Statistics, Data Analysis and Modeling Section
 > of the 1995 Midwest SAS Users Group conference in Cleveland OH.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).
@@ -158,17 +158,17 @@ details](../category/ProfessionalDetails.html).
 details](../category/ProfessionalDetails.html).
 for pages similar to this one at [Category: Professional
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Vote for me (December 21, 2005)**.
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).

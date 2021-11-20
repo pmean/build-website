@@ -17,12 +17,12 @@ odds ratio and the control risk.
 
 It is based on a simple formula in the publication
 
--   **What\'s the relative risk? A method of correcting the odds ratio
+-   **What's the relative risk? A method of correcting the odds ratio
     in cohort studies of common outcomes.** Zhang J, Yu KF. Jama 1998:
     280(19); 1690-1.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9832001&dopt=Abstract)
 
-Someone asked me to derive a nomogram that does this conversion. I\'m
+Someone asked me to derive a nomogram that does this conversion. I'm
 not sure if I can, but I will work on it.
 
 I also have a spreadsheet that will compute the confidence interval for

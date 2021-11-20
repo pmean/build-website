@@ -59,7 +59,7 @@ common sense. If a particular covariate is known to be important (e.g.,
 cigarette smoking in a cancer study) then exclusion of this covariate on
 the basis of a stepwise regression approach is a mistake. I like to
 think of stepwise regression as an intelligent assistant. It offers some
-help and guidance, but don\'t let it dictate the form of your final
+help and guidance, but don't let it dictate the form of your final
 statistical model.
 
 Third, never let stepwise regression bypass your primary research
@@ -81,10 +81,10 @@ reading.
     FE (2001) New York, NY: Springer. ISBN: 0387952322. [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0387952322.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).
@@ -92,17 +92,17 @@ adjustment](../category/CovariateAdjustment.html).
 adjustment](../category/CovariateAdjustment.html).
 for pages similar to this one at [Category: Covariate
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Stepwise regression to screen for
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).

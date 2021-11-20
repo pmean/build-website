@@ -19,16 +19,16 @@ output: html_document
 >
 > Centering a variable is simply transforming the data by subtracting
 > the mean from each value. If you had a column of data representing
-> each subject\'s age and the average age was 8 years, then the centered
+> each subject's age and the average age was 8 years, then the centered
 > data would be the actual age minus.
 >
 > There is no specific requirement that you center your data before
 > analysis. In certain complex regression models, especially models
 > involving polynomials and/or interactions, the results are often
 > easier to interpret if you use centered data. Back in the old days of
-> computing (the 1970\'s and 80\'s), many computers were limited and
+> computing (the 1970's and 80's), many computers were limited and
 > used single precision storage for more efficient storage and better
 > computational speed. For these systems, centering the data would often
 > minimize problems with rounding errors. This is rarely a concern with
-> today\'s computers unless you have very extreme and unusual patterns
+> today's computers unless you have very extreme and unusual patterns
 > in your data.

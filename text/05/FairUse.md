@@ -10,14 +10,14 @@ output: html_document
 ---
 > I get many requests to link to my web pages, and I always grant these
 > requests. Other people ask if they can use portions of my material on
-> their web pages or in their publications. If these people don\'t
+> their web pages or in their publications. If these people don't
 > charge others for this material, I usually agree, but I like to know a
 > few more details. If there is money involved, I tend to be more
 > cautious.
 >
 > Of course, the copyright law allows you some rights to reproduce
 > materials on my web site (or any other copyrighted source) under the
-> \"Fair Use\" provisions of the copyright law.
+> "Fair Use" provisions of the copyright law.
 >
 > Fair use is a rather gray area in copyright law, but typically looks
 > at the purpose and character of the use, the nature of the copyrighted
@@ -25,8 +25,8 @@ output: html_document
 > the effect of the use on potential market value for the original
 > author.
 >
-> If your use of my materials qualifies under the \"Fair Use\"
-> provisions, you don\'t need to seek my permission. It would be nice,
+> If your use of my materials qualifies under the "Fair Use"
+> provisions, you don't need to seek my permission. It would be nice,
 > of course, if you let me know that you are using my material, as it
 > gives me something to show my boss as evidence of the value of the web
 > pages that I have written.

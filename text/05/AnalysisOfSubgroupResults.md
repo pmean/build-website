@@ -18,7 +18,7 @@ output: html_document
 > effects that are, in reality, simply due to the play of chance. When
 > clinicians believe such subgroup analyses, there is a real danger of
 > harm to the individual patient.* Peter Sleight, **Debate: Subgroup
-> analyses in clinical trials: fun to look at - but don\'t believe
+> analyses in clinical trials: fun to look at - but don't believe
 > them!** Curr Control Trials Cardiovasc Med 2000: 1(1); 25-27.
 > [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11714402&dopt=Abstract)
 > [\[Abstract\]](http://cvm.controlled-trials.com/content/1/1/25/abstract)

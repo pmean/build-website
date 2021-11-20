@@ -21,14 +21,14 @@ think it is the Seventh Amendment. It says, the government shall not
 infringe on the right of its citizens to analyze their data anyway that
 they darn well please.
 
-Well, no the Seventh Amendment doesn\'t say that. But my point is that
+Well, no the Seventh Amendment doesn't say that. But my point is that
 there is no mandate written somewhere that dictates what types of
-analyses are legitimate. So when you ask, \"can I use a parametric
-test?\" what you really mean to ask is \"can I use a parametric test and
-still get my research published?\"
+analyses are legitimate. So when you ask, "can I use a parametric
+test?" what you really mean to ask is "can I use a parametric test and
+still get my research published?"
 
 If I am the one fortunate enough to be the referee on your paper, you
-will get it published (or if it doesn\'t get published it will be for a
+will get it published (or if it doesn't get published it will be for a
 reason other than the fact that you used a parametric test on a ratio).
 
 If someone else reviews your paper, I cannot say what will happen. Some
@@ -37,7 +37,7 @@ flexible.
 
 The concern that a picky reviewer will raise is that a ratio of two
 variables is not likely to be normally distributed, and will probably be
-highly skewed. There\'s no empirical evidence that I know of that ratios
+highly skewed. There's no empirical evidence that I know of that ratios
 are likely to follow any distributional pattern.
 
 What we do know is that if your numerator is normal and your denominator
@@ -75,10 +75,10 @@ So if a referee tries to get picky, just show them the normal
 probability plot and remind them of the value of the central limit
 theorem.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
@@ -86,17 +86,17 @@ data](../category/UnusualData.html).
 data](../category/UnusualData.html).
 for pages similar to this one at [Category: Unusual
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Parametric tests for a ratio (October 27,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).

@@ -15,7 +15,7 @@ detail.
 
 -   **Ethics and equipoise: rationale for a placebo-controlled study
     design of platelet glycoprotein IIb/IIIa inhibition in coronary
-    intervention.** Tcheng JE, Madan M, O\'Shea JC, Cohen EA, Buller CE,
+    intervention.** Tcheng JE, Madan M, O'Shea JC, Cohen EA, Buller CE,
     Lincoff AM, Popma JJ, Teirstein PS, Kitt MM, Lorenz TJ, Greenberg S,
     Fost N, Califf RM. J Interv Cardiol 2003: 16(2); 97-105.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12768912&dopt=Abstract)

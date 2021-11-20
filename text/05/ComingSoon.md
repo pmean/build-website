@@ -12,7 +12,7 @@ output: html_document
 > about future plans](../00/future.html). After months of neglect, I
 > took the time to update that page. I also need to keep better track of
 > my unfinished weblog entries, and work needed on the final draft of my
-> book on Statistical Evidence. Here\'s a running list of things that I
+> book on Statistical Evidence. Here's a running list of things that I
 > want to talk about. The newer entries are in red.
 >
 > Incomplete or upcoming pages on the [Definitions

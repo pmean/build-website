@@ -21,14 +21,14 @@ output: html_document
 > and comparing it with the same graph with a smaller aspect ratio
 > (closer to square). The slope looks so much bigger in the square
 > graph, but nothing has fundamentally changed. The statistics community
-> has developed \"beta coefficients\" that are the regression
+> has developed "beta coefficients" that are the regression
 > coefficients using a standardized variables. When you standardize, you
-> allow for a \"fair\" comparison of the predictive power of variables
+> allow for a "fair" comparison of the predictive power of variables
 > measured on disparate ranges or even expressed in noncomparable units
 > of measurement.
 >
 > > *The great value of the beta-coefficient is that it expresses the
-> > \"effect\" of one variable on another without regard to how
+> > "effect" of one variable on another without regard to how
 > > differently the variables are scaled.*
 > > [janda.org/c10/Lectures/topic10/R4-multivariate.htm](http://janda.org/c10/Lectures/topic10/R4-multivariate.htm).
 >
@@ -41,7 +41,7 @@ output: html_document
 > variable changes by one standard deviation, the estimated outcome
 > variable changes by half a standard deviation, on average.
 >
-> It\'s impossible for a beta coefficient to be greater than one, and if
+> It's impossible for a beta coefficient to be greater than one, and if
 > you think about this long enough, that is a good thing. If the outcome
 > variable increased by two standard deviations every time the
 > independent variable increased by a single standard deviation, that
@@ -50,15 +50,15 @@ output: html_document
 > In a simple linear regression model, the beta coefficient is just the
 > correlation between the independent variable and the outcome variable.
 >
-> **WARNING!** In Finance, there is an alternate use of the term \"beta
-> coefficient\" to represent the level of risk associated with an
+> **WARNING!** In Finance, there is an alternate use of the term "beta
+> coefficient" to represent the level of risk associated with an
 > individual stock or of a<U+FFFD> portfolio of stocks. This is not the same
 > thing as the beta coefficient described above.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Linear
 regression](../category/LinearRegression.html).
@@ -66,17 +66,17 @@ regression](../category/LinearRegression.html).
 regression](../category/LinearRegression.html).
 for pages similar to this one at [Category: Linear
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **What is a beta coefficient? (April 4,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Linear
 regression](../category/LinearRegression.html).

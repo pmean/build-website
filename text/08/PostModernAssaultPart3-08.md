@@ -9,11 +9,11 @@ tags:
 output: html_document
 ---
 I have volunteered to give a talk for a group of statisticians which
-discusses an article I am preparing: \"The post-modern assault on
-evidence-based medicine.\" I might give this talk on the first Monday in
+discusses an article I am preparing: "The post-modern assault on
+evidence-based medicine." I might give this talk on the first Monday in
 February or the first Monday in March. Here is a tentative abstract.
 
-\"Evidence Based Medicine (EBM) is the integration of best research
+"Evidence Based Medicine (EBM) is the integration of best research
 evidence with clinical expertise and patient values. It is thoroughly
 rooted in a tradition encourages clinicians to search for and
 incorporate empirical data in their daily practice. A recent
@@ -30,9 +30,9 @@ clients. I will also argue, though, that EBM is a transparent and
 self-correcting mechanism that is broadly democratic rather than fascist
 in its approach. Furthermore, EBM is not limited by our social,
 political, and historical perspectives, but actually can help us move
-beyond those limitations.\"
+beyond those limitations."
 
-I\'m hoping to get some feedback that will help me write a better
+I'm hoping to get some feedback that will help me write a better
 article. Previous weblog entries on this topic are
 
 -   [Stats: The post-modern assault on evidence-based medicine (December

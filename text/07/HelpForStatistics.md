@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 I get lots of questions about where to go for help with Statistics for
-someone outside of Children\'s Mercy Hospital. If you are a student or
+someone outside of Children's Mercy Hospital. If you are a student or
 work at the University of Missouri, Kansas City (UMKC) or at Kansas
 University Medical Center (KUMC), there are a lot of resources you can
 investigate.

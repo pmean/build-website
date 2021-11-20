@@ -29,7 +29,7 @@ output: html_document
 > -   Other support indicates scientific, budgetary, or commitment
 >     overlap (80% is a magic number. If you exceed,
 >
-> -   Checklist F&A that doesn\'t make sense, Most of these are
+> -   Checklist F&A that doesn't make sense, Most of these are
 >     incorrect.
 >
 > -   Out of date IRB/IACUC approvals
@@ -80,7 +80,7 @@ output: html_document
 > allocated to a specific project, it can be charged to any or all of
 > the benefiting projects on any reasonable basis.
 >
-> You can\'t have 0% commitment to a project and still be listed as a
+> You can't have 0% commitment to a project and still be listed as a
 > key personnel.
 >
 > The PHS 398 form has been revised, and the NIH is trying to harmonize

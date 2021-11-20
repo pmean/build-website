@@ -29,7 +29,7 @@ output: html_document
 > and choosing that value. In this particular case, the percentile would
 > be the second observation (10).
 >
-> Some people don\'t add 1 before multiplying by p or add a smaller
+> Some people don't add 1 before multiplying by p or add a smaller
 > constant like 1/2 or 3/8. There are at least eight different methods
 > that are commonly practiced.
 >

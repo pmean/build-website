@@ -22,7 +22,7 @@ your readers belong to a particular scientific or medical society or
 that they subscribe to a particular journal or magazine.
 
 The economics of providing free content on the web are difficult, of
-course, and I can\'t fault someone for trying to earn a dollar for their
+course, and I can't fault someone for trying to earn a dollar for their
 hard work. I just wish there was a way to help out people like me who
 have relied on these sources and suddenly have to come up with
 replacements for all these links. Perhaps these sites could keep
@@ -56,7 +56,7 @@ these excellent resources:
     questioned](http://www.ama-assn.org/amednews/2004/10/11/hll21011.htm%20%20)**.
     Elliott VS, Published in AMNews (2004, October 11). Accessed on
     2005-01-04. www.ama-assn.org/amednews/2004/10/11/hll21011.htm
--   **[Minnesota hospitals\' report on \"never events\"
+-   **[Minnesota hospitals' report on "never events"
     released](http://www.ama-assn.org/amednews/2005/02/21/prsc0221.htm%20%20)**.
     Robeznieks A, Published in Amercian Medical News on February
     21, 2005. Accessed on 2005-02-16.
@@ -69,10 +69,10 @@ I am trying my best to only use sources that are freely available, and
 sources that I expect to remain freely available in the foreseeable
 future.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Writing research
 papers](../category/WritingResearchPapers.html).
@@ -80,17 +80,17 @@ papers](../category/WritingResearchPapers.html).
 papers](../category/WritingResearchPapers.html).
 for pages similar to this one at [Category: Writing research
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Another open site closes (May 23,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Writing research
 papers](../category/WritingResearchPapers.html).

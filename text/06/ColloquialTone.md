@@ -14,7 +14,7 @@ application (July 25, 2006)**
 
 As I have mentioned many times in this weblog, I am writing a grant. [A
 rough draft of the grant is available in PDF
-format](../00files/AccrualProblems05.pdf). If you have feedback, I\'d
+format](../00files/AccrualProblems05.pdf). If you have feedback, I'd
 love to hear it by August 1, as the grant is due on August 2.
 
 One question raised was whether I was adopting too informal a tone for
@@ -48,9 +48,9 @@ In another place I write
 > would have to recruit at a rate almost 30 patients per year over the
 > remainder of the study to overcome this shortfall.*
 >
-> *Let\'s be honest\--you knew it was a bit of a stretch to get 12
+> *Let's be honest\--you knew it was a bit of a stretch to get 12
 > patients per year, and now you have to more than double that accrual
-> rate. Wouldn\'t it be nicer if you had noticed the problem two years
+> rate. Wouldn't it be nicer if you had noticed the problem two years
 > into the study rather than 7 1/2 years*?
 
 and I am told that this is also a problem.
@@ -59,10 +59,10 @@ I am of two minds about this. Half of me says play it safe and adopt a
 slightly more formal tone. The other half says that a breezy informal
 style will make my grant stand out in a good way and get more attention.
 
-I\'ll probably go with the play it safe mode, but I am curious what
+I'll probably go with the play it safe mode, but I am curious what
 readers of this weblog think.
 
-Other issues where I\'d like feedback are in how well we explain the
+Other issues where I'd like feedback are in how well we explain the
 technical details and if the scope of work is reasonable for a \$25K
 grant.
 
@@ -96,10 +96,10 @@ models to see if they produce reasonable results.
 -   [Stats: Control charts for monitoring mortality rates (February
     11, 2005)](http://www.pmean.com/weblog2005/ControlCharts.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Grant
 writing](../category/GrantWriting.html).
@@ -107,17 +107,17 @@ writing](../category/GrantWriting.html).
 writing](../category/GrantWriting.html).
 for pages similar to this one at [Category: Grant
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Using a colloquial tone in a grant
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Grant
 writing](../category/GrantWriting.html).

@@ -24,12 +24,12 @@ statisticians to use a historical control study instead of a randomized
 study. Professor Mean normally charges serious money for an endorsement,
 but he is in a generous mood and will offer an endorsement for free.
 
-I wrote a section in my book with the title \"Randomization is
-overrated\" and one of the reviewers (bless his soul) gave me a lot of
+I wrote a section in my book with the title "Randomization is
+overrated" and one of the reviewers (bless his soul) gave me a lot of
 grief over this. I still believe what I wrote. Although I would not
 agree with the sentiment (to quote from the original email) that
-randomized trials \"are often short-sighted and uninteresting and
-focused at simple instead of interesting questions.\" I would say that
+randomized trials "are often short-sighted and uninteresting and
+focused at simple instead of interesting questions." I would say that
 randomized trials are often performed in an artificial environment which
 does not reflect patient care as it is practiced in the real world.
 
@@ -47,12 +47,12 @@ Some have added a third condition
 > c\) the disease is well characterized in a highly homogenous population.
 
 This latter condition would exclude any disease defined as a
-\"syndrome\" (a disease that is defined by a constellation of symptoms
+"syndrome" (a disease that is defined by a constellation of symptoms
 rather than a positive diagnostic test and/or a disease that defined as
 effects that cannot be explained by any other cause).
 
 If patients for the most part refuse to agree to randomization, then you
-don\'t need anyone\'s endorsement for using a non-randomized approach. I
+don't need anyone's endorsement for using a non-randomized approach. I
 make a bad joke about this. Most patients will refuse to be part of
 randomized trial that involves birth control methods, because they
 already have strong opinions about the types of birth control that they
@@ -62,7 +62,7 @@ pill.
 
 If randomization is truly impossible, then I would still encourage you
 to consider alternatives to a historical control group. There are more
-rigorous designs that don\'t require randomization at the patient level.
+rigorous designs that don't require randomization at the patient level.
 
 If randomization is possible, but it just takes too much time and
 effort, then you need to make a value judgment. The reversion to a

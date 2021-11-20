@@ -9,8 +9,8 @@ tags:
 output: html_document
 ---
 *Dear Professor Mean, I want to do some research, but before the
-hospital won\'t approve anything until I have a protocol with a research
-hypothesis. I\'m not sure why a research hypothesis is important. Can
+hospital won't approve anything until I have a protocol with a research
+hypothesis. I'm not sure why a research hypothesis is important. Can
 you help? \-- Little Linda*
 
 Dear Little,
@@ -127,12 +127,12 @@ Other important issues to be considered in your protocol is
 Once you have a well defined research hypothesis, though, these details
 will fall into place. Hah, hah, did I really say that? The rest of the
 protocol is still pretty darn hard, but it would have been impossible if
-you didn\'t have that research hypothesis.
+you didn't have that research hypothesis.
 
 **To determine an appropriate sample size, you need a research
 hypothesis, an estimate of the standard deviation of your outcome
 measure, and assessment of how much change is considered clinically
-relevant**. Hey, you\'re already a third of the way there! Finding a
+relevant**. Hey, you're already a third of the way there! Finding a
 standard deviation requires either reviewing previous research on that
 outcome measure or running a pilot study. The clinically relevant
 difference is a judgement that is made solely on medical knowledge. Your
@@ -157,7 +157,7 @@ personnel and for interviewers.
 **Summary**
 
 Little Linda needs to include a research hypothesis in her grant
-proposal, but doesn\'t know what it should say. Professor Mean explains
+proposal, but doesn't know what it should say. Professor Mean explains
 that you should develop a hypothesis to giveyour research clarity. There
 are four components in most research hypotheses:
 
@@ -187,7 +187,7 @@ hypothesis:
 Massey, V.H. (1995) *Nursing Research, Second Edition*, Springhouse PA:
 Springhouse Corporation
 
-> This book provides a \"how to\" framework for conducting research in
+> This book provides a "how to" framework for conducting research in
 > any easy to skim outline format. The book includes topics on ethics,
 > literature review, sampling techniques, data analysis, and
 > presentation of research results. The sections that deal with planning

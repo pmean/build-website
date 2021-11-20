@@ -39,7 +39,7 @@ version will be included in the packet that students receive
 
 Here is a description of the handouts that I will use and the topics I
 will cover. I always start by reminding people that they can find my
-class handouts on the web and that I don\'t use PowerPoint.
+class handouts on the web and that I don't use PowerPoint.
 
 -   [Stats: About this handout](../training/extras/brief.htm)
 
@@ -55,7 +55,7 @@ be done throughout the class,:
     exercise](../training/exercises/exercises18.htm)
 
 You may be skeptical about quality control as a bunch of busy bodies and
-outsiders who don\'t understand the unique nature of your work. I want
+outsiders who don't understand the unique nature of your work. I want
 to discuss this in some detail and point out that some of the best ideas
 for innovation come from unexpected areas.
 
@@ -85,8 +85,8 @@ chart
 This handout has some work for people to do on their own, and answers
 will also be available for anyone who needs it.
 
--   [Stats: Calculating an XBAR-S control chart, answers to \"on your
-    own\" exercise (March 2, 2007)](XbarSControlChartAnswers.html)
+-   [Stats: Calculating an XBAR-S control chart, answers to "on your
+    own" exercise (March 2, 2007)](XbarSControlChartAnswers.html)
 
 The best part of this class will be the presentation of material on
 Analysis of Means (ANOM). I am still developing and refining this

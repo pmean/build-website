@@ -10,14 +10,14 @@ tags:
 - Sample size justification
 output: html_document
 ---
-*Dear Professor Mean, I\'m reviewing a paper where they did a power
+*Dear Professor Mean, I'm reviewing a paper where they did a power
 calculation based on 60 patients per group, but in the research study,
 they ended up only getting 55/58 per group. Since their sample size was
 much less than what they originally planned for, does this mean that the
 study had inadequate power?*
 
 The researchers came within 10% of their projected sample size, and
-you\'re ready to condemn the study into oblivion? I\'d hate to see your
+you're ready to condemn the study into oblivion? I'd hate to see your
 reaction when something bad actually happens.
 
 No research study is perfect, and falling below your projected sample

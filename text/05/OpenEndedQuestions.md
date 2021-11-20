@@ -14,11 +14,11 @@ output: html_document
 
 No one seems to talk about how to handle those pesky open-ended
 questions you see on a survey. I usually hold my breath and hope that
-the researcher doesn\'t think to mention it. Alicia O\'Cathain and Kate
+the researcher doesn't think to mention it. Alicia O'Cathain and Kate
 Thomas address this important issue in a recently published article,
 
--   **\"Any other comments?\" Open questions on questionnaires - a bane
-    or a bonus to research?** O\'Cathain A, Thomas KJ. BMC Med Res
+-   **"Any other comments?" Open questions on questionnaires - a bane
+    or a bonus to research?** O'Cathain A, Thomas KJ. BMC Med Res
     Methodol 2004: 4(1); 25.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15533249&dopt=Abstract)
     [\[Abstract\]](http://www.biomedcentral.com/1471-2288/4/25/abstract)
@@ -32,9 +32,9 @@ information.
 > thought to why they are doing so, simply including the question
 > because it is usual practice. Or they may be driven by a desire to
 > offer respondents an opportunity to voice their opinion. Closed
-> questions represent the researchers\' agenda, even if they have been
-> developed through listening to people\'s views in focus groups and
-> depth interviews. The use of \'any other comments\' may redress the
+> questions represent the researchers' agenda, even if they have been
+> developed through listening to people's views in focus groups and
+> depth interviews. The use of 'any other comments' may redress the
 > power balance between researchers and research participants.
 > Respondents may take this opportunity to ask for clarification or
 > information about a health issue or health service, or voice concern
@@ -62,7 +62,7 @@ What should you do with this data?
 > within a small number of the comments.*
 
 A first step is to see if those who responded to the open ended question
-differ in their demographics from those who did not. O\'Cathain and Kate
+differ in their demographics from those who did not. O'Cathain and Kate
 Thomas cite an example of a nursing survey where the proportion of open
 ended respondents increased among those who were dissatisfied with their
 jobs.
@@ -90,13 +90,13 @@ enough that you may want to consult with an expert in this area.
 
 You can and should use quote of particular comments that give your
 reader an idea of what the general tenor of the comments was like. Be
-sure, though, that you don\'t include any information that might violate
+sure, though, that you don't include any information that might violate
 patient confidentiality.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survey
 design](../category/SurveyDesign.html).
@@ -104,17 +104,17 @@ design](../category/SurveyDesign.html).
 design](../category/SurveyDesign.html).
 for pages similar to this one at [Category: Survey
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Open-ended questions on a survey (March
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survey
 design](../category/SurveyDesign.html).

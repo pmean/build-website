@@ -9,7 +9,7 @@ tags:
 - R software
 output: html_document
 ---
-I\'m working with someone who wants to do a simple cross-validation of a
+I'm working with someone who wants to do a simple cross-validation of a
 statistcal procedure. One simple way to do this is to randomly divide a
 data set into two piece. Assume that you have a matrix or data frame (x)
 that has n rows and you want to split the data set into a group that has

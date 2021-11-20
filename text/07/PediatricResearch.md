@@ -13,7 +13,7 @@ I may be asked to give a repeat performance of [Stats \#53: Signal
 Detection Strategies for Paediatric Treatments.](../training/hand53.asp)
 This is a three hour class that I gave last year in London. A different
 group is interested in pretty much the same topic. Looking at the title
-and abstract, I am a bit uncomfortable with it, so here\'s an
+and abstract, I am a bit uncomfortable with it, so here's an
 alternative.
 
 Some possible titles are
@@ -21,7 +21,7 @@ Some possible titles are
 -   What makes pediatric research different? or
 -   Assessing the safety of pediatric treatments
 
-I\'ll work with the group that is inviting me to see what they like. An
+I'll work with the group that is inviting me to see what they like. An
 abstract of the talk could be something like:
 
 **Content:** Assessing the safety of medical treatments for children

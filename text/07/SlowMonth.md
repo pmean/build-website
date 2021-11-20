@@ -18,5 +18,5 @@ output: html_document
 > 3.  I was in Maui for a full week and found that spending time at the
 >     beach was more fun than writing web pages.
 >
-> I\'m hoping that June will be back to normal. My general goal is to
+> I'm hoping that June will be back to normal. My general goal is to
 > write about 10-20 weblog entries every month.

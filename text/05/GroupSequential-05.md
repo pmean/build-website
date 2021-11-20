@@ -24,7 +24,7 @@ alpha spending functions.
 The [seqmon library created by David A.
 Schoenfeld](http://cran.r-project.org/src/contrib/Descriptions/seqmon.html)
 has a seqmon function that uses the algorithm by Amitage, McPherson and
-Rowe. An example they cite shows boundaries using the O\'Brien Fleming
+Rowe. An example they cite shows boundaries using the O'Brien Fleming
 approach.
 
 I will try to document some of the details of these algorithms and test

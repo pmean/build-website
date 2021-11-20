@@ -23,13 +23,13 @@ output: html_document
 > complicated. I need to create a foolproof system for entering weblog
 > items, but it helps to keep in mind the following quote.
 >
-> > \"*Every day, man is making bigger and better fool-proof things, and
+> > "*Every day, man is making bigger and better fool-proof things, and
 > > every day, nature is making bigger and better fools. So far, I think
-> > nature is winning.*\" - Albert Einstein, as found at
+> > nature is winning.*" - Albert Einstein, as found at
 > > [www.quotedb.com/quotes/2701](http://www.quotedb.com/quotes/2701)
 >
 > I advise people all the time on how to set up a fool proof data entry
-> system, and while you can\'t anticipate all of the possible things
+> system, and while you can't anticipate all of the possible things
 > that can go wrong, here are some things that can sometimes help avert
 > a disaster.
 >
@@ -49,9 +49,9 @@ output: html_document
 > self-documenting, but you could also just keep an extra sheet of paper
 > or a file that has this information.
 >
-> 4\. Have one person who is clearly \"in charge.\" Anyone who assists
+> 4\. Have one person who is clearly "in charge." Anyone who assists
 > needs to be sure that when they are working on the data entry, that the
-> things they are doing do not clash with person in charge. Don\'t have
+> things they are doing do not clash with person in charge. Don't have
 > two people doing data entry at the same time unless you have set up a
 > database that is formally designed for multiple users.
 >
@@ -63,7 +63,7 @@ output: html_document
 > the habit of saving your data every five minutes or so.
 >
 > I regularly counsel people who have lost data (fortunately, the loss
-> of a LARGE amount of data is fairly rare). It\'s impossible to develop
+> of a LARGE amount of data is fairly rare). It's impossible to develop
 > a system that is perfect, but if you are regularly finding yourself
 > having to retype data, it might be worthwhile to talk about improving
 > your data entry system.
@@ -97,26 +97,26 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Lost files (May 23, 2006)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

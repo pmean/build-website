@@ -19,7 +19,7 @@ line of text with a length of 46,592 characters! That meant that I
 needed to be constantly scrolling left and right.
 
 I thought to myself that it would be a whole lot easier to manipulate
-this file if there were some line breaks. XML doesn\'t care if you put
+this file if there were some line breaks. XML doesn't care if you put
 in a few line breaks or if you use indenting or a variety of other
 things that might make the file easier to read.
 
@@ -45,7 +45,7 @@ in the world of regular expressions is \\n. This is also useful in R and
 S-plus, so if you want to create a two line title for your graph, you
 would use something like
 
--   title(\"First Line\\nSecond Line\")
+-   title("First Line\\nSecond Line")
 
 Back to my original problem, to create a line break, I had to replace
 the \</field\> tag with
@@ -70,26 +70,26 @@ look more readable, but they used the same sort of trick.
 -   [Stats: The impact of XML on Statistics (June
     23, 2004)](file:///J:/weblog2004/xml.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Using regular expressions to insert
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

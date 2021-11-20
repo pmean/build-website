@@ -48,7 +48,7 @@ their annual conference.
 Independence to give a one hour seminar for their grand rounds in
 Independence, MO.
 
-**January 2007**. I received a grant of \$3,200 from Children\'s Mercy
+**January 2007**. I received a grant of \$3,200 from Children's Mercy
 Hospital to study accrual problems in clinical trials.
 
 **December 2006**. I received \$1500 in travel support from the

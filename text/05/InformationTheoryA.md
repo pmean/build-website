@@ -10,7 +10,7 @@ output: html_document
 ---
 I have been toying with the idea of using information theory in a
 microarray experiment to allow incorporation of the proportion of
-\"absent: genes in the calculation of variance reduction. An \"absent\"
+"absent: genes in the calculation of variance reduction. An "absent"
 gene in an Affymetrix array is a gene where the mismatch probes light up
 as brightly or more brightly as the perfect match probes. As I
 understand it, the signal associated with these genes is probably noted
@@ -32,7 +32,7 @@ Right now, most statistical models for microarrays (at least the ones I
 am familiar with) do not incorporate the present or absent information
 in the analysis.
 
-It\'s not quite the same thing, but an article in BMC Bioinformatics
+It's not quite the same thing, but an article in BMC Bioinformatics
 talks about using B-spline functions for estimating mutual information.
 This approach adjusts for the errors associated with binning by allowing
 a signal to be split into several adjacent bins.
@@ -46,7 +46,7 @@ a signal to be split into several adjacent bins.
     [\[Full text\]](http://www.biomedcentral.com/1471-2105/5/118)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2105-5-118.pdf)
 
-When I have time, I\'ll see if there are any similar references out
+When I have time, I'll see if there are any similar references out
 there.
 
 Another interesting microarray article I ran across is

@@ -11,7 +11,7 @@ output: html_document
 Someone asked me about running a Cox proportional hazards regression
 model when over 90% of the observations were censored. That means (if
 the outcome of interest was death), that your research subjects did not
-cooperate and die fast enough. Good news from the patients\'
+cooperate and die fast enough. Good news from the patients'
 perspective, but bad news for the statistician.
 
 90% censored observations is not a problem, though, as long as your
@@ -19,7 +19,7 @@ sample size is adequate. As a rough rule of thumb, you need to have 25
 to 50 events (uncensored observations) in each treatment group to have
 reasonable precision. Of course, if you have fewer events, the model is
 still valid, but your confidence intervals may end up being wider than
-you\'d really like.
+you'd really like.
 
 This person also asked if logistic regression would be a better option
 in this case. In logistic regression, you code the data as 0 or 1
@@ -32,12 +32,12 @@ difference in a logistic regression model. Furthermore, logistic
 regression will have the same general sample size requirements (25 to 50
 events in each group) as a Cox regression model.
 
-I got another email back asking if the Cox regression model didn\'t have
+I got another email back asking if the Cox regression model didn't have
 the underlying assumption that eventually, everyone experiences the
-event. That\'s okay for a mortality study, but what if the event is some
+event. That's okay for a mortality study, but what if the event is some
 disease, and a large number of patients never get the disease.
 
-There really isn\'t anything in the framework of the Cox regression
+There really isn't anything in the framework of the Cox regression
 model that requires 100% of the patients to experience the event. As I
 understand it, this is not the case. The Cox regression model can be
 formulated in terms of two counting processes. The two processes are,

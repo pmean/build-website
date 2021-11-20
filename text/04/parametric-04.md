@@ -11,7 +11,7 @@ output: html_document
 > One of the biggest areas of disagreement among statisticians is [when
 > to use parametric or non-parametric
 > statistics](../ask/parametric.asp). I got an inquiry about this today,
-> and quite honestly, I don\'t think it matters all that much. One
+> and quite honestly, I don't think it matters all that much. One
 > consideration is sample size\--if your sample is large, then the
 > assumption of normality is easily met because of the central limit
 > theorem. I wrote up a [brief page on the central limit

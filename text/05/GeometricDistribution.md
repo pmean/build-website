@@ -20,11 +20,11 @@ good reference for this distribution is
     Kling A. Accessed on 2005-05-16.
     arnoldkling.com/apstats/geometric.html
 
-You can also take advantage of the symmetry of the situation. We don\'t
+You can also take advantage of the symmetry of the situation. We don't
 know what the probability of winning for A, B, or C is, so set them to
-unknown values, X, Y, and Z. We can infer that if A\'s first flip of the
-coin is a tail, then B\'s probability of winning is now the same as what
-A\'s was before the coin flip. So that implies that Y=0.5X. By a similar
+unknown values, X, Y, and Z. We can infer that if A's first flip of the
+coin is a tail, then B's probability of winning is now the same as what
+A's was before the coin flip. So that implies that Y=0.5X. By a similar
 argument, Z=0.5Y=0.25X. Since X, Y, and Z have to add up to 1, that
 implies that X +0.5X+0.25X=1. Solve for X to get your answer.
 

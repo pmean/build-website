@@ -19,7 +19,7 @@ Sarah*
 Dear Sophisticated,
 
 > That reminds me of a cute joke. How many statisticians does it take to
-> light a gas stove? I don\'t know because we haven\'t run the pilot
+> light a gas stove? I don't know because we haven't run the pilot
 > study yet.
 
 **Short answer**
@@ -38,7 +38,7 @@ Dear Sophisticated,
 > These reasons can be loosely classified into two categories
 >
 > -   To obtain data to help you plan the full study
-> -   To see where \"Murphy\'s Law\" will strike
+> -   To see where "Murphy's Law" will strike
 >
 > There are other reasons to run a pilot study. A pilot study helps
 > everyone on your research team get familiar with the procedures in
@@ -84,14 +84,14 @@ Data for planning
 > do you spend per subject? Both pieces of information are critical for
 > preparing the budget for your full study.
 
-**Murphy\'s Law**
+**Murphy's Law**
 
-> Murphy\'s Law says that anything that can go wrong, will go wrong.
+> Murphy's Law says that anything that can go wrong, will go wrong.
 > **The reason you run a pilot study is to ensure that the things that
 > do go wrong, go wrong during the pilot study so you can fix them
 > before you start the full study**.
 >
-> It\'s impossible to list all ways that a study could go wrong, but
+> It's impossible to list all ways that a study could go wrong, but
 > here are some areas that you should focus on.
 >
 > **Recruitment and retention problems**
@@ -141,16 +141,16 @@ Data for planning
 > -   Does everybody gives the identical answer to a survey question?
 >
 > **Blind spots and oversights**. Something will happen during your
-> pilot study and you\'ll say \"I never thought about that!\" Better to
+> pilot study and you'll say "I never thought about that!" Better to
 > have this oversight now than during the full study. Although you can
 > and should show ask your colleagues whether there is there anything
-> you overlooked in your protocol, it\'s still a good idea to run a
+> you overlooked in your protocol, it's still a good idea to run a
 > pilot study. After all, your colleagues may have the same blind spots
 > that you do.
 
 **Other considerations for a pilot study**
 
-> **Don\'t worry about the representativeness of your pilot subjects**,
+> **Don't worry about the representativeness of your pilot subjects**,
 > unless you plan to include them in the total sample, or if the
 > sampling procedure itself is complex and innovative. Just make sure
 > that your pilot subjects cover the entire range of subjects in your
@@ -158,7 +158,7 @@ Data for planning
 > 6-14, make sure that you have some 6 year olds and some 14 year olds
 > in your pilot study as well as a bunch in between.
 
-> Also, **don\'t confuse a pilot study with an exploratory study**. An
+> Also, **don't confuse a pilot study with an exploratory study**. An
 > exploratory study will typically try to generate hypotheses for
 > further research. Unlike a pilot study, **an exploratory study can
 > stand on its own**. Furthermore, you should look for some
@@ -169,7 +169,7 @@ Data for planning
 
 > There is **no explicit justification of the sample size for a pilot
 > study**. It depends a lot on the complexity of the study. Be sure
-> though, that you aren\'t just calling their research a pilot study
+> though, that you aren't just calling their research a pilot study
 > just to get out of having to justify the sample size.
 
 > If you are **presenting a pilot study to the IRB**, I encourage you to
@@ -183,7 +183,7 @@ Data for planning
 
 > A pilot study is a model of your full research study but on a smaller
 > scale. The pilot study helps by **providing data needed to plan the
-> larger study** and by **identifying areas where Murphy\'s Law will
+> larger study** and by **identifying areas where Murphy's Law will
 > strike**.
 
 **Further reading**

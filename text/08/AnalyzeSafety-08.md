@@ -52,7 +52,7 @@ thoughts.
     the size of the effect, previous research, biological mechanisms,
     etc.
 
-All of the above are just my opinions, of course, and I don\'t want to
+All of the above are just my opinions, of course, and I don't want to
 pretend that they are drawn from any consensus opinion among
 researchers.
 

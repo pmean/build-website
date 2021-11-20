@@ -42,27 +42,27 @@ interesting links if you want to explore this further are listed below.
 -   **[Special Issue: Statistical Significance
     Testing](http://roberts.ed.psu.edu/users/droberts/sigtest.htm)**.
     Dennis Roberts, Penn State University. Accessed on 2003-03-20.
-    *\"The Fall 1998 Issue of Research in the Schools, was a special
+    *"The Fall 1998 Issue of Research in the Schools, was a special
     full issue on Statistical Significance Testing. This issue contained
     6 primary papers and 3 follow up comments. The Editors and
     Publishers of Research in the Schools agreed to have this issue put
-    in a web format.\"* roberts.ed.psu.edu/users/droberts/sigtest.htm
+    in a web format."* roberts.ed.psu.edu/users/droberts/sigtest.htm
 -   **[326 Articles/Books Questioning the Indiscriminate Use of
     Statistical Hypothesis Tests in Observational
     Studies](http://www.cnr.colostate.edu/~anderson/thompson1.html)**.
-    William L. Thompson. Accessed on 2003-03-19. *\"The following list
+    William L. Thompson. Accessed on 2003-03-19. *"The following list
     of citations is the result of an extensive, but by no means
     complete, search for articles/book chapters that address the
     problems associated with applying statistical hypothesis tests
     (a.k.a. null hypothesis tests, null hypothesis statistical tests,
     hypothesis tests, statistical significance tests, significance
-    tests, etc.) to observational studies.\"*
+    tests, etc.) to observational studies."*
     www.cnr.colostate.edu/\~anderson/thompson1.html
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
@@ -70,17 +70,17 @@ computing](../category/StatisticalComputing.html).
 computing](../category/StatisticalComputing.html).
 for pages similar to this one at [Category: Statistical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Likelihood software for clinical
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).

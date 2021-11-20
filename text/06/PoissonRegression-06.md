@@ -20,10 +20,10 @@ been wanting to expand my material in this area for quite some time, but
 just have not had the time.
 
 Anyway, someone asked me today if they could use Poisson regression when
-their outcome variables was the answer to the question \"How many
-children would you like to have?\"
+their outcome variables was the answer to the question "How many
+children would you like to have?"
 
-That\'s an interesting question. One clue that often points me in the
+That's an interesting question. One clue that often points me in the
 direction of the Poisson distribution is a count variable with no
 obvious upper bound. If there is an obvious upper bound, then a model
 using a binomial distribution may make more sense. But here, I just have
@@ -37,7 +37,7 @@ variable. A Poisson random variable would have a variance that is equal
 to the mean. This is a very crude test, of course.
 
 A good alternative approach might be to use ordinal logistic regression,
-another model that I\'d like to spend some time describing on these web
+another model that I'd like to spend some time describing on these web
 pages.
 
 **Related pages:**
@@ -49,10 +49,10 @@ pages.
 -   [Stats: Sample size for an ordinal outcome (September
     22, 2004)](http://www.pmean.com/weblog2004/OrdinalLogistic.asp)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html).
@@ -60,17 +60,17 @@ regression](../category/PoissonRegression.html).
 regression](../category/PoissonRegression.html).
 for pages similar to this one at [Category: Poisson
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Poisson regression? Maybe not!
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html).

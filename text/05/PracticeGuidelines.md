@@ -24,9 +24,9 @@ practice guidelines.<U+FFFD>
 
 According to the article, practice guidelines are
 
-> *\"systematically developed statements to assist practitioner and
+> *"systematically developed statements to assist practitioner and
 > patient decisions about appropriate health care for specific clinical
-> circumstances.\"*
+> circumstances."*
 
 The article evaluated 279 guidelines published between 1985 and 1997 on
 a list of 25 items:
@@ -87,17 +87,17 @@ of guidelines in my files:
 -   **Rating the quality of evidence for clinical practice guidelines.**
     Hadorn DC, Baker D, Hodges JS, Hicks N. J Clin Epidemiol 1996:
     49(7); 749-54.
--   **Users\' guides to the medical literature: XVII. How to use
+-   **Users' guides to the medical literature: XVII. How to use
     guidelines and recommendations about screening. Evidence-Based
     Medicine Working Group.** Barratt A, Irwig L, Glasziou P, Cumming
     RG, Raffle A, Hicks N, Gray JA, Guyatt GH. Jama 1999: 281(21);
     2029-34.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=10359392&dopt=Abstract)
--   **Users\' guides to the medical literature. VIII. How to use
+-   **Users' guides to the medical literature. VIII. How to use
     clinical practice guidelines. A. Are the recommendations valid?**
     Hayward R, Wilson M, Tunis S, Bass E, Guyatt G. JAMA 1995: 274(7);
     570-4.
--   **Users\' guides to the medical literature. VIII. How to use
+-   **Users' guides to the medical literature. VIII. How to use
     clinical practice guidelines. B. What are the recommendations, and
     will they help you in caring for your patients?** Hayward R, Tunis
     S, Wilson M, Bass E, Guyatt G. JAMA 1995: 274(20); 1630-2.
@@ -120,10 +120,10 @@ of guidelines in my files:
 -   **Guidelines for clinical guidelines \[editorial\].** Jackson R,
     Feder G. British Medical Journal 1998: 317(7156); 427-8.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 Resources](../category/TeachingResources.html).
@@ -131,17 +131,17 @@ Resources](../category/TeachingResources.html).
 Resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Developing good practice guidelines
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 Resources](../category/TeachingResources.html).

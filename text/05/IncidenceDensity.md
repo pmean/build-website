@@ -24,7 +24,7 @@ and that makes sense here. You have a number of readmissions per
 week/month, or whatever. A rate ratio compares the rates of two
 different groups. Again that makes sense.
 
-There\'s something a bit tricky about this data in that they used a
+There's something a bit tricky about this data in that they used a
 proportional hazards regression, and the output is actually a hazard
 ratio. That is actually just a technical distinction, though, because a
 hazard ratio can again be thought of as a rate ratio. I need to write a

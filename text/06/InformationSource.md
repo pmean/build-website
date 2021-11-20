@@ -13,9 +13,9 @@ output: html_document
 liberal information source (and vice versa)<U+FFFD> **
 
 I have a brother-in-law who loves to debate politics and religion. He
-always takes an aggressively conservative stand (I\'m a flaming liberal,
+always takes an aggressively conservative stand (I'm a flaming liberal,
 but try not to mention politics too much on this weblog). Often he will
-cite a \"liberal\" source, such as the New York Times to support his
+cite a "liberal" source, such as the New York Times to support his
 arguments, and although he does not trust most of what is published in
 these liberal sources, he will still cite them when they make a point in
 favor of a conservative viewpoint. His rationale is when a liberal
@@ -46,8 +46,8 @@ research methodology, but I think the same thing applies in scientific
 circles. Critics of evolution, for example, will frequently take quotes
 out of context that seems to sow doubt about the theory of evolution.
 For example, a researcher might start out a paper with a statement like
-\"The Cambrian explosion presents the most challenging problem for the
-theory of evolution\"
+"The Cambrian explosion presents the most challenging problem for the
+theory of evolution"
 
 The goal of this statement is to point out why research on the Cambrian
 explosion is especially valuable, but a quote like this is paraded
@@ -83,7 +83,7 @@ Some additional discussion of this is on the web at
 
 **Confirmation bias**
 
-There\'s a closely related concept called confirmation bias, which is
+There's a closely related concept called confirmation bias, which is
 the tendency to selectively remember evidence that supports your
 hypothesis, but to ignore or forget or disregard evidence that refutes
 your hypothesis.
@@ -104,13 +104,13 @@ statistics,
 
 commented in the second book about this problem
 
-> *People like examples of an opponent\'s bad statistics, but they
-> don\'t care to have their own numbers criticized because, they worry,
+> *People like examples of an opponent's bad statistics, but they
+> don't care to have their own numbers criticized because, they worry,
 > people might get the wrong idea: criticizing my statistics might lead
-> someone to question my larger argument, so let\'s focus on the other
-> guy\'s errors and downplay mine.*
+> someone to question my larger argument, so let's focus on the other
+> guy's errors and downplay mine.*
 
-This is not to say that you shouldn\'t consider the source as you
+This is not to say that you shouldn't consider the source as you
 evaluate a fact. There is empirical evidence that conflicts of interest,
 especially financial conflicts of interest, tend to lead to distortions
 of the facts. I discuss conflict of interest in several places on my
@@ -125,15 +125,15 @@ weblog:
 -   [Stats: Conflict of Interest (February
     25, 2004)](http://www.pmean.com/weblog2004/conflict.asp)
 
-<U+FFFD>Just be careful that you don\'t overreact.
+<U+FFFD>Just be careful that you don't overreact.
 
 -   [Stats: Taking charges of conflicting interest too far (June
     4, 2005)](http://www.pmean.com/weblog2005/ConflictInterestA.asp)
 
 **Intellectual conflict of interest**
 
-Of special interest, is the so-called \"intellectual conflict of
-interest.\" A researcher was barred from an FDA review panel because he
+Of special interest, is the so-called "intellectual conflict of
+interest." A researcher was barred from an FDA review panel because he
 had made some public comments that were critical of a certain drug and
 manufacturer.
 
@@ -141,8 +141,8 @@ manufacturer.
 -   [bmj.bmjjournals.com/cgi/content/full/329/7476/1203](http://bmj.bmjjournals.com/cgi/content/full/329/7476/1203)
 -   [www.ahrp.org/infomail/04/11/15.php](http://www.ahrp.org/infomail/04/11/15.php)
 
-Their rationale, I suspect, was to eliminate anyone who had \"already
-made up their minds about the problem\" but researchers who had made
+Their rationale, I suspect, was to eliminate anyone who had "already
+made up their minds about the problem" but researchers who had made
 public comments defending the drug company were not similarly barred.
 There were also researchers with financial conflicts of interest on the
 same review panel, but these researchers received waivers.
@@ -159,7 +159,7 @@ empirical evidence to support this allegation.
 So how should a conservative approach a liberal resource, and vice
 versa? Here are some general guidelines.
 
--   **Read the whole article.** Don\'t stop when you\'ve found the fact
+-   **Read the whole article.** Don't stop when you've found the fact
     that supports your viewpoint. Are there any data, statistics, or
     facts in the same article that might contradict the fact that you
     are trying to use? Are you taking the facts out of context. Were the
@@ -171,37 +171,37 @@ versa? Here are some general guidelines.
     critiquing viewpoints that you disagree with. Note the critiques
     that you use regularly in this exercise and apply them with equal
     vigor to the viewpoints that you agree with.
--   **Don\'t pretend that you understand the motivations of the
-    writer**. You don\'t. No one is able to look into the soul of
+-   **Don't pretend that you understand the motivations of the
+    writer**. You don't. No one is able to look into the soul of
     another person and discern their true intent. If you criticize a
     piece of data, do so based on overt and objective standards.
 
-**But don\'t be too open-minded**
+**But don't be too open-minded**
 
-Most people who are avid liberals or conservatives don\'t fall into this
+Most people who are avid liberals or conservatives don't fall into this
 trap, but it is worth noting that you can sometimes be too lax and
 uncritical of competing ideas. While you should pay serious attention to
-ideas that disagree with your world view, you don\'t want to pretend
+ideas that disagree with your world view, you don't want to pretend
 that all arguments for varying perspectives are equally valid. In most
 situations, one side can marshal far stronger arguments for their
-position than the other side can. It\'s not that they are better
+position than the other side can. It's not that they are better
 debaters, but merely a recognition that there is more evidence and
 supporting facts on one side.
 
 It is a mistake to pretend that there is always a symmetry to the two
 sides of an argument. The facts supporting a causal link between
 vaccines and autism are very weak, and most of the data supports the
-opposite view. So don\'t be too open-minded about opposing arguments.
+opposite view. So don't be too open-minded about opposing arguments.
 
 > *As the Baptist minister Carlyle Marney wisely noted, A window stuck
-> open is as useless as a window stuck closed. In either case, you\'ve
+> open is as useless as a window stuck closed. In either case, you've
 > lost the use of the window.*
 > [www.brucewoolley.com/TherapeuticsReport/1998/Oct98.html](http://www.brucewoolley.com/TherapeuticsReport/1998/Oct98.html)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Conflict of
 interest](../category/ConflictOfInterest.html).
@@ -209,17 +209,17 @@ interest](../category/ConflictOfInterest.html).
 interest](../category/ConflictOfInterest.html).
 for pages similar to this one at [Category: Conflict of
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:**(2006-07-10) **When can a conservative trust a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Conflict of
 interest](../category/ConflictOfInterest.html).

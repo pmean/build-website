@@ -26,7 +26,7 @@ Data mining is used to
 -   predict category membership or a numeric value,
 -   group or cluster things together than have similar characteristics,
 -   associate events that occur together or in a sequence,
--   find outliers that don\'t fit ordinary patterns or expected
+-   find outliers that don't fit ordinary patterns or expected
     behavior.
 
 The first two bullets represent [supervised
@@ -59,7 +59,7 @@ understanding is involved in a feedback loop with business
 understanding. Modeling is involved with a feedback loop with data
 preparation. Evaluation, of course feeds back to business understanding.
 
-Children\'s Memorial Hospital used Clementine and SPSS recognized by
+Children's Memorial Hospital used Clementine and SPSS recognized by
 Computerworld Honors Foundation for research for treatments of pediatric
 brain tumors
 ([www.spss.com/press/template\_view.cfm?PR\_ID=636](http://www.spss.com/press/template_view.cfm?PR_ID=636)).
@@ -74,7 +74,7 @@ The speaker mentioned a new model (CARMA \-- Continuous Association Rule
 Mining Algorithm) which allows interactive pruning of rules in a
 decision tree (<http://control.cs.berkeley.edu/carma.html>).
 
-In a one hour presentation, you can\'t get a good feel for how the
+In a one hour presentation, you can't get a good feel for how the
 software works. It looks like a good comprehensive package that is easy
 to use. There are a lot of competing products out there, of course. One
 of the more intriguing competitors is Weka, an open source system for
@@ -83,7 +83,7 @@ Weka](http://www.cs.waikato.ac.nz/ml/weka/) is at the [University of
 Waikato](http://www.waikato.ac.nz/) in Hamilton, New Zealand.
 
 Since Weka is open source, it is popular with data mining classes at
-universities where you can\'t ask the students to go out and buy a
+universities where you can't ask the students to go out and buy a
 thousand dollar software program (the price of college textbooks is
 already bad enough).
 

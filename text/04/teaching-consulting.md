@@ -17,11 +17,11 @@ Association and they maintain a nice web site at
 [www.amstat.org/sections/cnsl](http://www.amstat.org/sections/cnsl).
 
 Many Universities offer a Statistical Consulting Center. The [University
-of Iowa\'s site](http://www.stat.uiowa.edu/scc/) is a good model.
+of Iowa's site](http://www.stat.uiowa.edu/scc/) is a good model.
 Graduate students in Statistics consult under the guidance of a
 Statistics faculty member with graduate students in other areas who need
 help with the statistical aspects of their thesis or dissertation work.
-It\'s great experience for the Statistics students and provides a
+It's great experience for the Statistics students and provides a
 valuable service to the other programs at the University.
 
 Here are some books on Statistical Consulting. I have not read any of

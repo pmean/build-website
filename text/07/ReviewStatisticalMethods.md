@@ -27,6 +27,6 @@ output: html_document
 > own and they need to consult more often with statisticians.
 >
 > If someone comes to you are and presents an approach that you know is
-> flawed, you don\'t have to acquiesce just because other people have
+> flawed, you don't have to acquiesce just because other people have
 > done it this way and got it published. Just show them this article and
 > point out that

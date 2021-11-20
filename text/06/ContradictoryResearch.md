@@ -30,20 +30,20 @@ hard to argue with:
 
 > *The public is bombarded with messages about diet and cancer
 > prevention. Unfortunately, the advice is pretty inconsistent. One day
-> a diet prevents cancer, the next day it doesn\'t. In the early \'90s,
+> a diet prevents cancer, the next day it doesn't. In the early '90s,
 > beta carotene (a vitamin A precursor present in fruits and vegetables)
 > was said to prevent lung cancer. But several years later, headlines
-> read, \"Beta carotene pills yield no benefit\" (The Post, 1996). And
+> read, "Beta carotene pills yield no benefit" (The Post, 1996). And
 > while people have been told for years to eat a high-fiber diet to
-> reduce the risk of colon cancer, recently we were told \"High-fiber
-> diets are not anti-cancer miracle\" (Montreal Gazette, 2005).*
+> reduce the risk of colon cancer, recently we were told "High-fiber
+> diets are not anti-cancer miracle" (Montreal Gazette, 2005).*
 
 The most recent contradictory research studied the whether a low fat
 diet could be linked with a decrease in the risk of breast cancer. One
 study examined 48,835 post menopausal women without prior breast cancer.
 
 -   **Low-fat dietary pattern and risk of invasive breast cancer: the
-    Women\'s Health Initiative Randomized Controlled Dietary
+    Women's Health Initiative Randomized Controlled Dietary
     Modification Trial.** Prentice RL et al. Jama 2006: 295(6); 629-42.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16467232&dopt=Abstract)
     [\[Abstract\]](http://jama.ama-assn.org/cgi/content/abstract/295/6/629)
@@ -78,7 +78,7 @@ The authors draw the following conclusion
 > a low-fat dietary pattern indicate that longer, planned,
 > nonintervention follow-up may yield a more definitive comparison.*
 
-This contradicts finding of another study, the Women\'s Intervention
+This contradicts finding of another study, the Women's Intervention
 Nutrition Study. These findings were presented at the 2005 meeting of
 the American Society of Clinical Oncology. Although I could not find the
 original presentation, there are many summaries on the web:
@@ -115,10 +115,10 @@ overstate the impact of a positive finding. Why is it that a p-value
 that is just barely below the threshold of 0.05 is not also called a
 borderline finding?
 
-age was written by Steve Simon while working at Children\'s Mercy
+age was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Critical
 appraisal](../category/CriticalAppraisal.html).
@@ -126,17 +126,17 @@ appraisal](../category/CriticalAppraisal.html).
 appraisal](../category/CriticalAppraisal.html).
 for pages similar to this one at [Category: Critical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-age was written by Steve Simon while working at Children\'s Mercy
+age was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Contradictory research (created
-age was written by Steve Simon while working at Children\'s Mercy
+age was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Critical
 appraisal](../category/CriticalAppraisal.html).

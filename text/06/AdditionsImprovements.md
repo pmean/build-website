@@ -10,7 +10,7 @@ tags:
 - Sample size justification
 output: html_document
 ---
-> I\'ve been busy adding new pages and improving old pages. Here\'s a
+> I've been busy adding new pages and improving old pages. Here's a
 > summary of my activity.
 >
 > **New pages**. I have added two new courses to my training page:
@@ -23,7 +23,7 @@ output: html_document
 > These courses are incomplete, but I hope to finish them quickly, as I
 > will be talking about both topics in London at the PharmaIQ conference
 >
-> I\'ve also added some definitions to my definitions page:
+> I've also added some definitions to my definitions page:
 >
 > -   [Stats: What is a control
 >     chart?](www.childrensmercy.org/definitions/ControlChart.htm)
@@ -32,11 +32,11 @@ output: html_document
 > -   [Stats: What is a common cause of
 >     variation?](www.childrensmercy.org/definitions/CommonCause.htm)
 >
-> I\'ve also added some more items about my book. I started an
-> \"Answer\" page for the \"On Your Own\" exercises that appear at the
+> I've also added some more items about my book. I started an
+> "Answer" page for the "On Your Own" exercises that appear at the
 > end of each chapter.
 >
-> -   [Statistical Evidence: Answers to \"Own Your Own\"
+> -   [Statistical Evidence: Answers to "Own Your Own"
 >     exercises.](../evidence/answers.asp)
 >
 > This page is just getting started and I only have answers to two of
@@ -62,8 +62,8 @@ output: html_document
 > maybe two) categories on my topic list page.
 >
 > As a second improvement, I decided it would be more friendly and
-> useful if I titled each definition in the form of a question (\"What
-> is an alpha level?\" as opposed to just \"Alpha level\" for example)
+> useful if I titled each definition in the form of a question ("What
+> is an alpha level?" as opposed to just "Alpha level" for example)
 > and I want to start linking these entries to the appropriate
 > categories in the topic list.
 

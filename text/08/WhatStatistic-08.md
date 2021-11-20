@@ -23,7 +23,7 @@ use in analyzing the data:
 This is one of the more vexing things that people face\--what statistic
 should I use when.
 
-I don\'t like answering questions with as little context as this, but I
+I don't like answering questions with as little context as this, but I
 made the assumption that level of diabetic control is a continuous
 variable (HbA1c levels would be an example of a continuous variable).
 When you are trying to predict a continuous outcome on the basis of one

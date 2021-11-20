@@ -17,7 +17,7 @@ second group, the proportion is also 19% (3/16). I computed a p-value of
 1.0 for this data, but a referee tells me that a p-value of 1.0 is
 impossible. How can I convince the referee that he/she is wrong.*
 
-I\'ve mentioned the PMSS defense before (because Professor Mean Said
+I've mentioned the PMSS defense before (because Professor Mean Said
 So), but that never really works.
 
 Seriously, what you have hear is not a peer-reviewer, but a professional
@@ -34,8 +34,8 @@ are 19.23% and 18.75%. So your p-value is not equal to 1.0, but rather
 
 A good reviewer, however, would have recognized that this problem does
 not use normal distributions directly, but only as an approximation. You
-can indeed get a p-value of 1.0 from this data if you use the Fisher\'s
-Exact Test. Fisher\'s Exact test looks at all possible two by two tables
+can indeed get a p-value of 1.0 from this data if you use the Fisher's
+Exact Test. Fisher's Exact test looks at all possible two by two tables
 that have the same marginal totals and computes the probability of the
 existing table and any table more extreme.
 
@@ -124,11 +124,11 @@ Now the classic definition of a p-value is the probability of observing
 the sample results or a result more extreme. With this data set, every
 other possible table with the same fixed marginals is more extreme than
 the table that you observed. So it would be very logical and very proper
-to state that the two-sided p-value for Fisher\'s Exact Test is 1.0 in
+to state that the two-sided p-value for Fisher's Exact Test is 1.0 in
 this situation.
 
 Would it help to point out that this reviewer is wrong in stating that
-the p-value can never equal 1.0? Not really. You don\'t want to pick a
+the p-value can never equal 1.0? Not really. You don't want to pick a
 fight with a peer reviewer unless one of their suggestions does serious
 violence to the data. So the polite response is to thank the reviewer
 for his/her comment and save your ammunition for another battle.
@@ -137,10 +137,10 @@ In the future, when you get a p-value of 1.0, round it down to 0.9999
 and when you get a p-value of 0, round it up to 0.0001. That will give
 the nit pickers of the world one less nit to pick with you.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).
@@ -148,17 +148,17 @@ Pvalues](../category/Pvalues.html).
 Pvalues](../category/Pvalues.html).
 for pages similar to this one at [Category:
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Can the p-value actually equal 1.0? (May 23, 2006)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).

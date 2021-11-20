@@ -13,7 +13,7 @@ output: html_document
 nonparametric test (March 8, 2005)**
 
 I got an email inquiry about how to calculate power for a Wilcoxon
-signed ranks test. I don\'t have a perfect reference for this, but I do
+signed ranks test. I don't have a perfect reference for this, but I do
 have a [brief discussion on sample size calculations for the Mann
 Whitney U](../size/mann.asp) test as part of my pages on [selecting an
 appropriate sample size](../size.asp). The same considerations would
@@ -34,7 +34,7 @@ This assumes a reasonably high number of subjects (at least a few dozen)
 and a distribution which is not really unusual. I had not heard this
 rule; the author cites pages 76-81 of Lehmann, Nonparametrics:
 Statistical Methods Based on Ranks [\[BookFinder4U
-link\]](http://www.bookfinder4u.com/detail/013997735X.html). I don\'t
+link\]](http://www.bookfinder4u.com/detail/013997735X.html). I don't
 have this book, so I can only guess as to the basis for this formula.
 
 This rule could be based, I suppose, on the lower bound for the
@@ -47,10 +47,10 @@ Inverting that gives you an increase in the sample size by a factor of
 test, which can never have an ARE less than 0.864 compared to the paired
 t-test.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
@@ -58,17 +58,17 @@ justification](../category/SampleSizeJustification.html).
 justification](../category/SampleSizeJustification.html).
 for pages similar to this one at [Category: Sample size
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Sample size calculation for a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).

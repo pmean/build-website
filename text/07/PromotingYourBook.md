@@ -12,7 +12,7 @@ output: html_document
 > I give lots of talks and I usually put in a plug for my book,
 > [Statistical Evidence in Medical Trials](../evidence.asp). I even
 > promote my book in the signature file that I put at the bottom of all
-> my emails. My philosophy is that if you don\'t promote yourself, who
+> my emails. My philosophy is that if you don't promote yourself, who
 > will?
 >
 > I got an interesting email from someone associated with the Continuing
@@ -52,7 +52,7 @@ output: html_document
 >     2004, Indianapolis in 2005 and 2006) and a \$500 honoraria from
 >     the Midwest Society for Pediatric Research for three separate
 >     seminars that I gave them. The honoraria were donated by a
->     pharmaceutical company. I honestly don\'t remember which company
+>     pharmaceutical company. I honestly don't remember which company
 >     it was, but it was a big company. I will try to find out who this
 >     was.
 > -   From 1996 through about 2004, I have received numerous free
@@ -65,7 +65,7 @@ output: html_document
 >     \$20) from a pharmaceutical representative who was trying to
 >     encourage some collaborative research studies.
 > -   On or around 1999, I received consulting income from an animal
->     veterinary products company ( I can\'t remember the name anymore)
+>     veterinary products company ( I can't remember the name anymore)
 >     to help with . I received about two thousand dollars total for my
 >     efforts (one hundred dollars per hour).
 > -   On or around 1989, I received consulting income from Ross
@@ -75,7 +75,7 @@ output: html_document
 > -   I have a Viagra pen that my wife (a doctor) picked up at one of
 >     her conferences.
 >
-> I\'ve consulted with other groups for money, the National Institute
+> I've consulted with other groups for money, the National Institute
 > for Occupational Safety and Health, the Cleveland Chiropractic
 > College, and the University of Missouri-Kansas City. These
 > consultations are (in theory) not a potential conflict of interest
@@ -93,11 +93,11 @@ output: html_document
 > represented in the bulleted list above represent a conflict of
 > interest that is reportable in any CME event that I might participate
 > in. The reason is that none of my talks promotes a particular drug,
-> medical device, or other commercial product. But I don\'t mind
+> medical device, or other commercial product. But I don't mind
 > reporting this sort of thing if the group that sponsors the talk feels
 > that such reporting is necessary.
 >
-> There apparently is a \"statute of limitations\" for these potential
+> There apparently is a "statute of limitations" for these potential
 > conflicts. You do not have to report any financial considerations that
 > occurred more than twelve months prior to your talk. This is
 > apparently based on an ACCME recommendation. Why twelve months is a
@@ -109,18 +109,18 @@ output: html_document
 > conflict of interest because almost all of our recommendations concern
 > issues where there is no commercial advantage to any party. I would
 > have more difficulty if I owned stock in a company like SPSS, Inc.,
-> that sells statistical software, but thankfully I don\'t. I do have
+> that sells statistical software, but thankfully I don't. I do have
 > several tote bags that I received at the Joint Statistical Meetings,
 > and these bags typically display the logo of various statistical
 > software companies that have sponsored these meetings.
 >
 > There is one big potential conflict of interest. I am co-inventor on a
 > patent that is currently being reviewed by the U.S. Patent Office. The
-> patent is actually held by Children\'s Mercy Hospital, but through our
+> patent is actually held by Children's Mercy Hospital, but through our
 > intellectual property policy, I end up getting a share of any
 > royalties that come from this patent. When I talk about some of the
 > methodology that was incorporated in this grant, I should be careful
-> to specify this. I haven\'t gotten a dime yet on this patent, but the
+> to specify this. I haven't gotten a dime yet on this patent, but the
 > potential is there. I have not been as careful with this as I should
 > be, mostly because the work on the patent has been seven years of
 > agony with the promise of a payoff always hovering off somewhere in
@@ -135,7 +135,7 @@ output: html_document
 > brag about my book the way some people brag about their children.
 >
 > Does promoting a book produce a commercial bias in the talk? Does it
-> constitute a conflict of interest that needs to be disclosed? I don\'t
+> constitute a conflict of interest that needs to be disclosed? I don't
 > pretend to have the answers to this question, but it is worth
 > investigating further, if only to highlight some of the issues and
 > controversies associated with conflict of interest policies.

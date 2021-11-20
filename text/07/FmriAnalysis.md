@@ -17,7 +17,7 @@ output: html_document
 > dimension of time. The technology today can produce images localized
 > to a cube with dimensions of approximately 2-4 mm, and these can be
 > measured every 1-4 seconds. Each individual cubic region is called a
-> voxel, a contraction of the words \"volume\" and \"pixel.\"
+> voxel, a contraction of the words "volume" and "pixel."
 >
 > The general goal of fMRI in research is to contrast brain activity in
 > certain regions of the brain (such as the prefrontal cortex) between
@@ -27,7 +27,7 @@ output: html_document
 > The data produced in an fMRI study is especially challenging from a
 > statistical perspective. A quick Medline search yielded a whole host
 > of papers listing exotic statistical methods. Here are some examples
-> (I\'m just reproducing the titles):
+> (I'm just reproducing the titles):
 >
 > -   Treatment of ill-balanced datasets of fMRI with Modified Fuzzy
 >     c-means Method.

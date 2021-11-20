@@ -13,11 +13,11 @@ output: html_document
 (March 22, 2005)**
 
 Someone sent me an email asking about a Cox regression model that
-included a strata for clinics. What\'s the best way to handle strata?
-That\'s a tricky question to answer. The first question you might want
+included a strata for clinics. What's the best way to handle strata?
+That's a tricky question to answer. The first question you might want
 to ask is whether it makes sense to include the clinic factor as a
 strata at all. When you include strata, you allow the Cox model to
-estimate an entirely separate hazard function for each clinic. That\'s
+estimate an entirely separate hazard function for each clinic. That's
 quite different from including clinic as a fixed effect in the Cox
 regression model, where you would be assuming that the clinics differ
 only in that the hazard function for one clinic is a multiple of the
@@ -51,23 +51,23 @@ Also, take a look at the Kaplan-Meier curves for each clinic. Do they
 show unusual patterns, such as one clinic having very high early
 mortality, but the second clinic eventually catching up?
 
-There\'s no easy answer to this question, but remember that just because
+There's no easy answer to this question, but remember that just because
 you used a stratified sample, that does not mean that your strata have
 to be accounted for in a particular way. Think hard about including
 clinics as a fixed effect or as a random effect as an alternative.
 
 The other thing to keep in mind is that there are probably several
 approaches to your data set that would be easy to defend in a
-peer-reviewed publication. Choose a reasonable approach, and don\'t
-worry so much about the choices you didn\'t make. If a peer-reviewer
-tells you to use a different model, that\'s actually good news. When the
-reviewers start nitpicking your model and don\'t mention bigger issues,
+peer-reviewed publication. Choose a reasonable approach, and don't
+worry so much about the choices you didn't make. If a peer-reviewer
+tells you to use a different model, that's actually good news. When the
+reviewers start nitpicking your model and don't mention bigger issues,
 you are probably only one step away from publishing.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survival
 analysis](../category/SurvivalAnalysis.html).
@@ -75,17 +75,17 @@ analysis](../category/SurvivalAnalysis.html).
 analysis](../category/SurvivalAnalysis.html).
 for pages similar to this one at [Category: Survival
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Stratified Cox regression models
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survival
 analysis](../category/SurvivalAnalysis.html).

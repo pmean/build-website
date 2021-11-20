@@ -45,7 +45,7 @@ of the expected value of that statistic). Thus the standard error is
 biased also. Not badly biased, but it is indeed biased. Now I suspect
 that using n-1 allows the standard error to behave reasonably, in that
 you can use known distributions like the t-distribution for the
-resulting test statistic. But for the record, we don\'t divide by n-1 to
+resulting test statistic. But for the record, we don't divide by n-1 to
 make the standard error unbiased.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

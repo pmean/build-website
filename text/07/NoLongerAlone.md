@@ -9,8 +9,8 @@ tags:
 - Professional details
 output: html_document
 ---
-Children\'s Mercy Hospital is hiring a second statistician. Hooray!
-It\'s a great place to work and I\'m hoping we can hire someone quickly.
+Children's Mercy Hospital is hiring a second statistician. Hooray!
+It's a great place to work and I'm hoping we can hire someone quickly.
 I describe the position at
 [www.pmean.com/JobOpening.asp](http://www.pmean.com/JobOpening.asp)
 or you can apply directly at

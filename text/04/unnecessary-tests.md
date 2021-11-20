@@ -56,7 +56,7 @@ laundry list of tests that she wanted.
 > emerged. She left with just a few tests, including blood pressure and
 > cholesterol. Dr. Min was proud of himself until about a week later,
 > when the local paper published a letter from his patient - about him.
-> \"Socialized medicine has arrived,\" she wrote. Admitting defeat, he
+> "Socialized medicine has arrived," she wrote. Admitting defeat, he
 > called her and offered her the tests she had wanted, on the house. She
 > accepted, Dr. Min said, but after having the full physical exam, she
 > never returned.*

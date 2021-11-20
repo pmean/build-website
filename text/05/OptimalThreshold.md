@@ -42,10 +42,10 @@ diagnostic test (April 27, 2005)**
 > sense or not. Will clinicians need a Black/White response or will they
 > tolerate shades of gray? Will they accept a test that provides a
 > continuum of values or will that be perceived as too complicated or
-> too messy? If they won\'t tolerate a continuum, maybe they will still
+> too messy? If they won't tolerate a continuum, maybe they will still
 > tolerate a test that has three or four levels rather than two.
 >
-> Let\'s assume that the clinicians need a black/white response. A lot
+> Let's assume that the clinicians need a black/white response. A lot
 > of writing on the ROC curve suggests a rather simple choice: pick the
 > value where the ROC curve is closest to the upper left hand corner.
 > This approach is perhaps a bit too simplistic. You need to do a
@@ -78,26 +78,26 @@ diagnostic test (April 27, 2005)**
 > to produce an honest assessment of the costs involved with both types
 > of errors.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Determining the optimal threshold for a
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

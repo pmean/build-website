@@ -30,7 +30,7 @@ There are two other distributions used to model extreme values (not
 surprisingly they are called the Type II and Type III extreme value
 distributions). Which distribution you use depends on factors like
 whether the individual component distribution has finite moments and/or
-a bounded tail. I\'m not an expert on extreme value problems or
+a bounded tail. I'm not an expert on extreme value problems or
 reliability statistics, so I looked up a few good resources.
 
 **[Extreme Value
@@ -96,15 +96,15 @@ Accessed on 2006-01-09.
 
 > *\[Excerpt\] Forget Euclidean geometry with its smooth lines and
 > planes. Now comes Benoit Mandelbrot, the inventor of fractal geometry,
-> who recently wrote an entertaining and challenging book, \"The
-> (mis)Behavior of Markets,\" in which he argues that his study of
+> who recently wrote an entertaining and challenging book, "The
+> (mis)Behavior of Markets," in which he argues that his study of
 > roughness, already applied to topography, meteorology, the compression
 > of computer files, and many other fields, will rewrite the canon on
 > finance. Portfolio asked the Yale University mathematics professor,
 > among other things, how real estate prices look under the fractal
 > microscope.* www.nareit.com/portfoliomag/05mayjun/capital.shtml
 
-**[Mandelbrot\'s Extremism
+**[Mandelbrot's Extremism
 \[PDF\]](http://www.kuleuven.ac.be/ucs/research/reports/2004/report2004_08.pdf)**.
 Beirlant J, Schoutens W, Segers J, Published December 6, 2004. Accessed
 on 2006-01-09.
@@ -125,10 +125,10 @@ The work by Mandelbrot may not be useful in the context of the original
 question, but it is still a fascinating and very active area of
 research.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Probability
 concepts](../category/ProbabilityConcepts.html).

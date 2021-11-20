@@ -34,7 +34,7 @@ comparisons:
 -   Hispanic versus Other, and
 -   Asian versus Other.
 
-It doesn\'t happen too often but sometimes the single degree of freedom
+It doesn't happen too often but sometimes the single degree of freedom
 comparisons are not consistent with the multiple degree of freedom test.
 What should you do in this situation?
 
@@ -48,7 +48,7 @@ using Other as your reference category is probably the worst possible
 choice.
 
 You should also apply a Bonferroni correction to the single degree of
-freedom components. A p-value of 0.03 doesn\'t look quite as impressive
+freedom components. A p-value of 0.03 doesn't look quite as impressive
 if it is just one of five degrees of freedom.\
 \
 If you still get significance after applying Bonferroni, then I think

@@ -9,9 +9,9 @@ tags:
 output: html_document
 ---
 
-I\'ve worked on a brief explanation of how to [fit an S-shaped curve][sim1] using SPSS and someone wanted to know how to do this in R.
+I've worked on a brief explanation of how to [fit an S-shaped curve][sim1] using SPSS and someone wanted to know how to do this in R.
 
-Here\'s a simple example.
+Here's a simple example.
 
 ```{r}
 xc <- c(0.8,0.5,0.2,-0.2,-0.5,-0.8)

@@ -8,11 +8,11 @@ tags:
 - Statistical computing
 output: html_document
 ---
-Keith Joho from Surromed, Michael O\'Connell from Insightful and Ed
+Keith Joho from Surromed, Michael O'Connell from Insightful and Ed
 Tobin from Spotfire presented a web seminar on Suromed and the
 DecisionSite S-Plus Server Solution.
 
-Spotfire\'s DecisionSite software provides interactive visualization and
+Spotfire's DecisionSite software provides interactive visualization and
 guided data analysis useful for the average scientist. S-plus provides
 ihhg qulaity well tested statistical and graphical functions. Using the
 S-plus server to link to DecisionSite, you can get the best of both

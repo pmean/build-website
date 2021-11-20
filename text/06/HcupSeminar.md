@@ -15,7 +15,7 @@ Project (April 11, 2006)**.
 > Healthcare Research and Quality (AHRQ) on a large data set they
 > collected, the Healthcare Cost and Utilization Project. The acronym
 > for this data set is HCUP, which I always pronounced HICCUP, but
-> apparently, you are supposed to pronounce it H-CUP. That\'s not the
+> apparently, you are supposed to pronounce it H-CUP. That's not the
 > first time I mispronounced an important acronym. I use a program
 > called STATA, and I used to use a soft A (STAH-TA). But it is actually
 > a hard A (STAY-TA).
@@ -27,7 +27,7 @@ Project (April 11, 2006)**.
 > > encounter-level information for all payers compiled in a uniform
 > > format with privacy protections in place. HCUP databases include:
 > > The Nationwide Inpatient Sample (NIS) with inpatient data from a
-> > national sample of over 1,000 hospitals. The Kids\' Inpatient
+> > national sample of over 1,000 hospitals. The Kids' Inpatient
 > > Database (KID) is a nationwide sample of pediatric inpatient
 > > discharges. The State Inpatient Databases (SID) contain the universe
 > > of inpatient discharge abstracts from participating states. The
@@ -48,26 +48,26 @@ This work is licensed under a [Creative Commons Attribution 3.0 United
 States License](http://creativecommons.org/licenses/by/3.0/us/). It was
 written by Steve Simon and was last modified on 04/01/2010.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **The Healthcare Cost and Utilization
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

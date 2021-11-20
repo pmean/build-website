@@ -21,9 +21,9 @@ of a population where every individual in the population has an equal
 probability of being in the subset. This is an ideal that is almost
 never achieved, even with the most careful research.
 
-If your sample is not random, you have to ask yourself \"What type of
+If your sample is not random, you have to ask yourself "What type of
 women would be left out, or would have a much lower probability of being
-in my sample?\" It could be that women who work at remote sites, work at
+in my sample?" It could be that women who work at remote sites, work at
 home, or who work odd hours, would be the ones that you would have no
 chance, or a lower chance of selecting in your sample.
 
@@ -60,10 +60,10 @@ I have some definitions of various types of samples on my web pages:
 -   [Random sample](www.childrensmercy.org/definitions/random.htm)
 -   [Quota sample](www.childrensmercy.org/definitions/quota.htm)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Observational
 studies](#ObservationalStudies).
@@ -71,17 +71,17 @@ studies](#ObservationalStudies).
 studies](#ObservationalStudies).
 for pages similar to this one at [Category: Observational
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Non-random samples (March 25, 2005)**
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Observational
 studies](#ObservationalStudies).

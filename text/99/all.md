@@ -35,16 +35,16 @@ problem is different.
 
 **More details**
 
-Let\'s conceptualize an experiment where we measure thyroid hormone in
+Let's conceptualize an experiment where we measure thyroid hormone in
 eight mice, four with the thyroid gland removed and four with a sham
 surgery. **We get measurable thyroid hormones in four sham surgery mice
 and nothing in the thyroidectomy mice**.
 
-That\'s a pretty extreme result. If the thyroid gland had nothing to do
+That's a pretty extreme result. If the thyroid gland had nothing to do
 with thyroid hormones, then it would quite a rare event for the four
 zeros associated with the thyroidectomy. This is quite a relief, because
-we didn\'t want to have to rename the thyroid gland to the \"it doesn\'t
-produce thyroid hormone\" gland.
+we didn't want to have to rename the thyroid gland to the "it doesn't
+produce thyroid hormone" gland.
 
 **There are seventy possible ways that we can associate four zero values
 among 8 mice, and only one other way leads to results as extreme as we
@@ -52,7 +52,7 @@ have seen**: the result where the four zeros all occur in the sham
 surgery group. **So a two-sided p-value for this data would be 2/70 =
 0.029**.
 
-Let\'s consider a different experiment, where we measured thyroid levels
+Let's consider a different experiment, where we measured thyroid levels
 in six mice, before and after removing the thyroid gland. **All six mice
 had lower levels of thyroid hormone after surgery**.
 
@@ -69,7 +69,7 @@ response. Maybe one of our mice recently returned from a vacation at
 Chernobyl. So I suspect that a cautious researcher would plan for a few
 extra mice.
 
-Now don\'t go telling all your friends that 6 or 8 is a magic sample
+Now don't go telling all your friends that 6 or 8 is a magic sample
 size. **Every research problem is different, and a careful sample size
 justification requires a face-to-face consultation with a professional
 statistician**.
@@ -79,7 +79,7 @@ statistician**.
 Hesitant Harrison wants to know **the minimum number of patients that
 you would need under a perfect research situation** where all of the
 treated patients survive and none of the controls do. Professor Mean
-explains that some research situations can lead to an \"all or nothing\"
+explains that some research situations can lead to an "all or nothing"
 response. **With an all or nothing response, you need about six to eight
 subjects total to achieve statistical significance**. Such a small
 sample size, however, leaves you with no room for error if one of your

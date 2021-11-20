@@ -13,10 +13,10 @@ Sir Roy Meadow is an expert on child abuse, having published a landmark
 paper in 1977 on a condition known as Munchausen Syndrome by Proxy. An
 observation of his
 
-> \"one sudden infant death in a family is a tragedy, two is suspicious
-> and three is murder, unless proven otherwise.\"
+> "one sudden infant death in a family is a tragedy, two is suspicious
+> and three is murder, unless proven otherwise."
 
-became knows as \"Meadow\'s Law\".
+became knows as "Meadow's Law".
 
 In testimony at the trial of a woman, Sally Clark, who had two children
 who died from SIDS, Sir Meadow tried to quantify this statement by
@@ -25,11 +25,11 @@ million to one. He arrived at this figure by squaring the probability of
 one SIDS death (8.5 thousand to one). Sally Clark was convicted of
 murder, but her conviction was overturned on appeal.
 
-Dr. Meadow\'s testimony came under criticism, because squaring the
+Dr. Meadow's testimony came under criticism, because squaring the
 probability only makes sense under independence. If there are genetic or
 environmental risk factors that influence SIDS deaths, then the
 probability estimate could be wrong. Not just wrong, but spectacularly
-wrong. It\'s an error that (hopefully) no statistician would make, but
+wrong. It's an error that (hopefully) no statistician would make, but
 Dr. Meadow is not a statistician.
 
 The General Medical Council reviewed this case and found Dr. Meadow to

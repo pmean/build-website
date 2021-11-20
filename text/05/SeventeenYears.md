@@ -24,7 +24,7 @@ to an article by Balas and Boren:
     Patient-Centered Systems. Stuttgart, Germany: Schattauer;
     2000:65-70.
 
-I don\'t have access to this article, but one publication that I do have
+I don't have access to this article, but one publication that I do have
 provides a bit more detail about this statistic.
 
 > *There has been increasing concern in the last few years about the
@@ -52,10 +52,10 @@ particular statistic. I would be very curious to find out if there is
 any additional research that would provide empirical support for this
 statistic.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 Resources](../category/TeachingResources.html).
@@ -63,17 +63,17 @@ Resources](../category/TeachingResources.html).
 Resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Seventeen years between research and
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 Resources](../category/TeachingResources.html).

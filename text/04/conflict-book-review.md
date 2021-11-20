@@ -79,7 +79,7 @@ showed no association between funding source and either quality or the
 conclusions drawn.
 
 All of us will admit that conflicts of interest can influence other
-people\'s judgments, but as Boyd points out in a 2003 article in Acad
+people's judgments, but as Boyd points out in a 2003 article in Acad
 Med
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12915362&dopt=Abstract),
 we as individuals stubbornly cling to the belief that we can rise above
@@ -109,7 +109,7 @@ suspicious that most authors with a conflict fail to report it.
 The general conclusion I would draw is that a conflict of interest is
 not an automatic disqualification, but that you should instead demand a
 higher level of evidence. Is the data laid out in such a way to allow
-you to make a complete assessment of the quality of the author\'s
+you to make a complete assessment of the quality of the author's
 conclusions?
 
 Keep in mind that sometimes the conflict is not in the author of the
@@ -119,21 +119,21 @@ highlights the controversy over breast self exam. Because the use of
 this exam is empowering, because it promotes self care, and because of a
 general belief in individual testimonials, many readers have reacted
 angrily to reports that use of a breast self-exam has no detectable
-impact on mortality. I\'ve already commented on David Sackett\'s
-editorial, \"[The arrogance of preventive
-medicine](http://www.cmaj.ca/cgi/content/full/167/4/363)\" but there is
+impact on mortality. I've already commented on David Sackett's
+editorial, "[The arrogance of preventive
+medicine](http://www.cmaj.ca/cgi/content/full/167/4/363)" but there is
 also a very informative review article by MacCoun in the Annual Review
 of Psychology 1998 49:259-287 (available in html format
 [here](http://socrates.berkeley.edu/~maccoun/ar_bias.html) or pdf format
 [here](http://ist-socrates.berkeley.edu/~maccoun/MacCoun_AnnualReview98.pdf)).
-Read MacCoun\'s article and it will change the way you interpret
+Read MacCoun's article and it will change the way you interpret
 research.
 
-There\'s so much more to talk about: academic-industry partnerships
+There's so much more to talk about: academic-industry partnerships
 raise serious issues about the objectivity of academic research. There
 are also non-financial conflicts of interest (note Hammerschimdt 1995 J
 Lab Clin Med article, When commitments and interests conflict.
-\"There\'s probably no greater conflict of interest than an NIH grant\".
+"There's probably no greater conflict of interest than an NIH grant".
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7602234&dopt=Abstract)).
 Also, when emotions on an issue run high, claims of conflict of interest
 are often wielded as weapons of war. There is also serious bias in the
@@ -150,7 +150,7 @@ Jama 1999: 282(15); 1474-5.
 [\[PDF\]](http://www.tufts.edu/~skrimsky/PDF/psychotherapy.PDF)
 
 **Journal Policies on Conflict of Interest: If this Is the Therapy,
-What\'s the Disease?** Sheldon Krimsky. Psychotherapy and Psychosomatics
+What's the Disease?** Sheldon Krimsky. Psychotherapy and Psychosomatics
 2001: 70155-117.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11340412&dopt=Abstract)
 [\[PDF\]](http://www.tufts.edu/~skrimsky/PDF/psychotherapy.PDF)
@@ -161,7 +161,7 @@ Sci Eng Ethics 1996: 2(4); 395-410.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11657729&dopt=Abstract)
 [\[PDF\]](http://www.tufts.edu/~skrimsky/PDF/pilot14.PDF)
 
-**Scientific journals and their authors\' financial interests: a pilot
+**Scientific journals and their authors' financial interests: a pilot
 study.** S. Krimsky, L. S. Rothenberg, P. Stott, G. Kyle. Psychother
 Psychosom 1998: 67(4-5); 194-201.
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9693346&dopt=Abstract)

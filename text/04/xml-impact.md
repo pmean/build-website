@@ -47,7 +47,7 @@ experiment in a single self-documenting package.
     Graphics](http://www.xml.com/pub/a/2001/03/21/svg.html)
 -   [MathML Central - A Wolfram Web
     Resource](http://www.mathmlcentral.com/)
--   [MathML - What\'s in it for
+-   [MathML - What's in it for
     us?](http://tech.irt.org/articles/js081/)
 -   [Major MAGE-ML
     Packages](http://franklin.imgen.bcm.tmc.edu/downloads/mage/mageML.descript.html)

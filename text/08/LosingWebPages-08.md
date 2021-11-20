@@ -14,11 +14,11 @@ output: html_document
 > may lose track of it. One of those things that I had lost track of
 > was
 >
-> -   [Stats: Frank Harrell\'s Philosophy of Biostatistics (October
+> -   [Stats: Frank Harrell's Philosophy of Biostatistics (October
 >     10, 2006)](http://www.pmean.com/weblog2006/HarrellPhilosophy.html)
 >
-> which never got assigned a category. I\'ve fixed that and hope that
-> there aren\'t any other webpages like that.
+> which never got assigned a category. I've fixed that and hope that
+> there aren't any other webpages like that.
 >
 > The philosophy of biostatistics was of interest to me because a recent
 > journal club had discussed a paper that also promoted a particular
@@ -44,7 +44,7 @@ output: html_document
 > each entry, so that I can remember what the relevancy was for this
 > particular entry. This is taking a lot of time and my resulting work
 > on the weblog has slowed considerably. But when I am done revising my
-> bibliographic entries, I\'m hoping that the assigning of categories
+> bibliographic entries, I'm hoping that the assigning of categories
 > and inclusion of annotations will make my bibliographic entries more
 > useful.
 

@@ -18,12 +18,12 @@ output: html_document
 > in a public registry before enrollment of the first patient. This
 > includes
 >
-> > \"*trials that test a clinical hypothesis about health outcomes*\"
+> > "*trials that test a clinical hypothesis about health outcomes*"
 >
 > but not phase 1 trials that only assess toxicity and/or
 > pharmacokinetics. There is a gray area.
 >
-> > \"*Between these two extremes are some clinical trials whose
+> > "*Between these two extremes are some clinical trials whose
 > > prespecified goal is to investigate the biology of disease or to
 > > provide preliminary data that may lead to larger, clinically
 > > directive trials. We recognise that requiring public registration of
@@ -34,7 +34,7 @@ output: html_document
 > > category. Authors whose trial is unregistered will have to convince
 > > the editor that they had a sound rationale when they decided not to
 > > register their trial. The ICMJE will maintain this policy for the
-> > next two years. We will then review our experience.*\"
+> > next two years. We will then review our experience.*"
 >
 > There are twenty elements that should be part of the registration.
 >
@@ -85,10 +85,10 @@ output: html_document
 > and JAMA, although JAMA does not allow you to view the full free text
 > on the web.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Publication
 bias](../category/PublicationBias.html).
@@ -96,17 +96,17 @@ bias](../category/PublicationBias.html).
 bias](../category/PublicationBias.html).
 for pages similar to this one at [Category: Publication
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Registration of clinical trials (July
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Publication
 bias](../category/PublicationBias.html).

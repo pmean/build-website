@@ -15,7 +15,7 @@ that there is only a 6% probability that the null hypothesis is true.
 While the p-value is indeed a probability, it represents effectively a
 probability about the data, given that the null hypothesis is true. The
 statement above is effective a statement about the probability that the
-null hypothesis is true, given the data. It\'s a rather subtle reversal
+null hypothesis is true, given the data. It's a rather subtle reversal
 of a conditional probability, but one with important ramifications.
 
 The only way that you can compute a probability for the null hypothesis

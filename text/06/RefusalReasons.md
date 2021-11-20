@@ -14,15 +14,15 @@ output: html_document
 
 A participant in the IRB Forum raised a question about a research study
 where people were asked to participate, and when some of them said
-\"no\" they were then asked why they did not want to participate. The<U+FFFD>
+"no" they were then asked why they did not want to participate. The<U+FFFD>
 reasons were tallied across all of the refusals, and percentages were
 published as part of the full research study. Since the people had
-already said \"no\" to participating in the research study, did that
+already said "no" to participating in the research study, did that
 also imply that they did not want to share information about their
 reasons for not participating?
 
 This is a difficult area, and most of the other comments in the IRB
-Forum have been very critical. In contrast to those comments, I\'d like
+Forum have been very critical. In contrast to those comments, I'd like
 to defend this practice. The authors are trying to examine the extent to
 which volunteer bias might influence the results of the research. This
 is an important, but often neglected, issue in research. Almost every
@@ -36,7 +36,7 @@ from those who refuse. One example that I recall from my earlier work at
 the National Institute for Occupational Safety and Health involved
 workplace studies of reproductive toxicants. When you go into a
 workplace where there is exposure to a chemical that might make men
-sterile, you usually don\'t have trouble recruiting volunteers. Even
+sterile, you usually don't have trouble recruiting volunteers. Even
 with those people who are unconcerned about their ability to reproduce,
 they usually end up volunteering to help out their co-workers.
 
@@ -46,9 +46,9 @@ the place where you work. So you have to worry about volunteer bias.
 
 It turns out that one of the benefits for participation is getting a
 complete reproductive health assessment. Now the sort of person who
-views this as an incentive might be someone who was wondering \"Hmm, my
+views this as an incentive might be someone who was wondering "Hmm, my
 wife and I have been trying to have children for the past six months and
-it just isn\'t working.\" If those are the sorts of people who volunteer
+it just isn't working." If those are the sorts of people who volunteer
 in greater numbers in the control group,<U+FFFD> you will end up with a very
 bad bias in your research. Not all of the couples who have been trying
 for six months will have problems, of course, but enough might to
@@ -73,19 +73,19 @@ reproductive assessment might not object to answering three questions on
 a survey.
 
 So if someone refused to participate in a research study, I do not see a
-problem with asking them \"why\" as long as the researcher is not rude
-or pushy. They always have the option of saying \"none of your
-business\" but the ones who do agree to offer reasons help us to better
+problem with asking them "why" as long as the researcher is not rude
+or pushy. They always have the option of saying "none of your
+business" but the ones who do agree to offer reasons help us to better
 assess the scientific validity of the study.
 
 Now, it is unclear if the research situation cited above showed adequate
-respect for the patients\' right to be left alone, but I know that if
+respect for the patients' right to be left alone, but I know that if
 you are careful, you can query refusals without violating their rights.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Exclusions in
 research](../category/ExclusionsInResearch.html).

@@ -16,7 +16,7 @@ The New York Times had an excellent article on newborn screening tests.
 Unfortunately, this article is no longer available online. But it
 discusses a recent push to standardize and expand the screening tests
 for newborns to include 29 different diseases. It seems like such an
-obvious thing to do: let\'s screen for these conditions, because the
+obvious thing to do: let's screen for these conditions, because the
 more we know, the better we are able to care for these children.
 
 > *Proponents say that the diseases are terrible and that an early
@@ -90,7 +90,7 @@ An additional article about Universal Newborn Hearing Screening (UNHS),
 This article ultimately concludes that with a reduction in the false
 positive rate, that the benefits of UNHS outweigh the costs.
 
-I\'m trying to develop a good [set of web pages on diagnostic
+I'm trying to develop a good [set of web pages on diagnostic
 testing](../category/DiagnosticTesting.html), but there is a lot of work
 that I need to do. I also offer a couple of training classes that
 discuss diagnostic tests:

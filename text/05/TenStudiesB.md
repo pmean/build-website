@@ -23,7 +23,7 @@ lists research studies that have changed how we practice medicine.
 The latter page lists several criteria by which you can judge when a
 randomized trial would not be needed.
 
-1.  **The Oxford/Sackett \"All or none\" criterion**. When a disease has
+1.  **The Oxford/Sackett "All or none" criterion**. When a disease has
     **100% morbidity/mortality prior to the use of an intervention** and
     the intervention now allows some fraction of patients to survive,
     then a randomized trial is not necessary. Alternately, when the
@@ -35,7 +35,7 @@ randomized trial would not be needed.
     effects**, a convincing **biological mechanism**, and **no
     alternative treatment** is available, then randomized trials are
     unnecessary.
-3.  **Nick Black\'s criteria**: These can be summarized in four words:
+3.  **Nick Black's criteria**: These can be summarized in four words:
     **unnecessary, inappropriate, impossible, or inadequate**. When the
     effect is so dramatic that you can rule out any confounding
     variables, so that a randomized trial to balance out these
@@ -47,7 +47,7 @@ randomized trial would not be needed.
     external validity of randomized trials makes their use
     **inadequate**.
 
-I\'m not sure of the proper source for the first set of conditions, but
+I'm not sure of the proper source for the first set of conditions, but
 it is similar advice I had heard in [an article by Sir Michale Rawlins
 in
 Pharamfocus](http://www.pharmafocus.com/cda/focusH/1,2109,22-0-0-0-focus_feature_detail-0-75778,00.html),
@@ -87,7 +87,7 @@ randomized trials:
 
 -   **Controlled trials: the 1948 watershed.** Doll R. British Medical
     Journal 1998: 317(7167); 1217-20.
--   **Use of randomisation in the Medical Research Council\'s clinical
+-   **Use of randomisation in the Medical Research Council's clinical
     trial of streptomycin in pulmonary tuberculosis in the 1940s.**
     Yoshioka A. British Medical Journal 1998: 317(7167); 1220-1223.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9794865&dopt=Abstract)
@@ -180,17 +180,17 @@ and blinding. See, for example,
 
 Some additional placebo surgery trials include
 
--   **Placebo effect in surgery for Meniere\'s disease: three-year
+-   **Placebo effect in surgery for Meniere's disease: three-year
     follow-up.** Thomsen J, Bretlau P, Tos M, Johnsen NJ. Otolaryngol
     Head Neck Surg 1983: 91(2); 183-6.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=6408576&dopt=Abstract)
 -   **Transplantation of embryonic dopamine neurons for severe
-    Parkinson\'s disease.** Freed CR, Greene PE, Breeze RE, Tsai WY,
+    Parkinson's disease.** Freed CR, Greene PE, Breeze RE, Tsai WY,
     DuMouchel W, Kao R, Dillon S, Winfield H, Culver S, Trojanowski JQ,
     Eidelberg D, Fahn S. N Engl J Med 2001: 344(10); 710-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11236774&dopt=Abstract)
 -   **A controlled trial of arthroscopic surgery for osteoarthritis of
-    the knee.** Moseley JB, O\'Malley K, Petersen NJ, Menke TJ, Brody
+    the knee.** Moseley JB, O'Malley K, Petersen NJ, Menke TJ, Brody
     BA, Kuykendall DH, Hollingsworth JC, Ashton CM, Wray NP. N Engl J
     Med 2002: 347(2); 81-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12110735&dopt=Abstract)
@@ -249,10 +249,10 @@ translate into a reduction in mortality.
     Henthorn RW. J Am Coll Cardiol 1992: 19(5); 894-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1552108&dopt=Abstract)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).
@@ -260,17 +260,17 @@ resources](../category/TeachingResources.html).
 resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **More on the top ten studies in EBM
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).

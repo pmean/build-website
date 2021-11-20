@@ -15,14 +15,14 @@ output: html_document
 Stephen Dubner and Steven D. Levitt, authors of the hot selling book,
 **Freakonomics: A Rogue Economist Explores the Hidden Side of
 Everything**, have a regular column in the New York Times Magazine. In
-the September 11, 2005 issue, the article \"Does the Truth Lie Within\"
+the September 11, 2005 issue, the article "Does the Truth Lie Within"
 discusses self-experimentation.<U+FFFD> The authors highlight Seth Roberts:
 
 > *Seth Roberts is a 52-year-old psychology professor at the University
 > of California at Berkeley. If you knew Roberts 25 years ago, you might
 > remember him as a man with problems. He had acne, and most days he
-> woke up too early, which left him exhausted. He wasn\'t depressed, but
-> he wasn\'t always in the best of moods. Most troubling to Roberts, he
+> woke up too early, which left him exhausted. He wasn't depressed, but
+> he wasn't always in the best of moods. Most troubling to Roberts, he
 > was overweight: at 5-foot-11, he weighed 200 pounds.*
 >
 > *When you encounter Seth Roberts today, he is a clear-skinned,
@@ -43,7 +43,7 @@ set-point theory which says that your weight is determined by what you
 needed to survive during stone age times because
 
 > *when food is scarcer, you become less hungry; and you get hungrier
-> when there\'s a lot of food around.*
+> when there's a lot of food around.*
 
 This encouraged us to store food when it was plentiful as fat so as to
 help us survive when food becomes scarce. It worked well long ago, but
@@ -71,19 +71,19 @@ Nobel prize winner in Entomology:
 > *Robert A. Lopez of Westport, NY, valiant veterinarian and friend of
 > all creatures great and small, for his series of experiments in
 > obtaining ear mites from cats, inserting them into his own ear, and
-> carefully observing and analyzing the results. \[Published as \"Of
-> Mites and Man,\" The Journal of the American Veterinary Medical
+> carefully observing and analyzing the results. \[Published as "Of
+> Mites and Man," The Journal of the American Veterinary Medical
 > Association, vol. 203, no. 5, Sept. 1, 1993, pp. 606-7.\]*
 > [www.improb.com/ig/ig-pastwinners.html](http://www.improb.com/ig/ig-pastwinners.html)
 
 The IRBForum also has an amusing tale of self-experimentation
 
-> *With respect to PI\'s being a part of their own studies, I am
+> *With respect to PI's being a part of their own studies, I am
 > reminded of the interesting story of Dr. William Castle studying
 > pernicious anemia in 1926, a uniformly fatal disease until about that
 > time.*
 >
-> *\[I had the great privilege of knowing \"Big Bill\" when I was a
+> *\[I had the great privilege of knowing "Big Bill" when I was a
 > child, spending 2 weeks each summer with his family on Cape Cod, not
 > knowing that he was a demi-god in the medical research world. He
 > taught me how to swim, sail, and fish!\]*
@@ -121,10 +121,10 @@ opposing self-experimentation in a 03-16-04 email:
 > (2003) Self-experimentation. Accountability in Research: Policies and
 > Quality Assurance, 10(3),175-187.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).
@@ -132,17 +132,17 @@ research](../category/EthicsInResearch.html).
 research](../category/EthicsInResearch.html).
 for pages similar to this one at [Category: Ethics in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Self experimentation (created
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).

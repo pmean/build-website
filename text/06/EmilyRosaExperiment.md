@@ -31,8 +31,8 @@ medical journal. With the assistance of several adults, the publication,
     [\[PDF\]](http://jama.ama-assn.org/cgi/reprint/279/13/1005.pdf)
 
 appeared, giving Emily Rosa something nice to put on her resume when she
-applies to college. I\'m still waiting for my first publication in an
-\"A journal\" like JAMA, so I am quite jealous.
+applies to college. I'm still waiting for my first publication in an
+"A journal" like JAMA, so I am quite jealous.
 
 Here are a few excerpts from the publication:
 
@@ -68,17 +68,17 @@ Here are a few excerpts from the publication:
 >
 > *During each test, the practitioners rested their hands, palms up, on
 > a flat surface, approximately 25 to 30 cm apart. To prevent the
-> experimenter\'s hands from being seen, a tall, opaque screen with
-> cutouts at its base was placed over the subject\'s arms, and a cloth
+> experimenter's hands from being seen, a tall, opaque screen with
+> cutouts at its base was placed over the subject's arms, and a cloth
 > towel was attached to the screen and draped over them (Figure 1).*
 >
 > *Each subject underwent a set of 10 trials. Before each set, the
-> subject was permitted to \"center\" or make any other mental
+> subject was permitted to "center" or make any other mental
 > preparations deemed necessary. The experimenter flipped a coin to
-> determine which of the subject\'s hands would be the target. The
+> determine which of the subject's hands would be the target. The
 > experimenter then hovered her right hand, palm down, 8 to 10 cm above
-> the target and said, \"Okay.\" The subject then stated which of his or
-> her hands was nearer to the experimenter\'s hand. Each subject was
+> the target and said, "Okay." The subject then stated which of his or
+> her hands was nearer to the experimenter's hand. Each subject was
 > permitted to take as much or as little time as necessary to make each
 > determination. The time spent ranged from 7 to 19 minutes per set of
 > trials.*
@@ -91,7 +91,7 @@ Here are a few excerpts from the publication:
 >
 > *The odds of getting 8 of 10 trials correct by chance alone is 45 of
 > 1024 (P=.04), a level considered significant in many clinical trials.
-> We decided in advance that an individual would \"pass\" by making 8 or
+> We decided in advance that an individual would "pass" by making 8 or
 > more correct selections and that those passing the test would be
 > retested, although the retest results would not be included in the
 > group analysis. Results for the group as a whole would not be
@@ -140,7 +140,7 @@ poor, was it possible that some of the participants performed very well?
 After all, you only need one person who can reliably detect energy
 fields to prove that there is something interesting going on.
 
-This is sometimes called the \"White Crow\" argument, which was based on
+This is sometimes called the "White Crow" argument, which was based on
 the quote
 
 > *To upset the conclusion that all crows are black, there is no need to
@@ -187,10 +187,10 @@ discredited his fervently held beliefs:
 > never works!* as quoted on
 > [www.quackwatch.org/01QuackeryRelatedTopics/ideomotor.html](http://www.quackwatch.org/01QuackeryRelatedTopics/ideomotor.html).
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Critical
 appraisal](../category/CriticalAppraisal.html).
@@ -198,17 +198,17 @@ appraisal](../category/CriticalAppraisal.html).
 appraisal](../category/CriticalAppraisal.html).
 for pages similar to this one at [Category: Critical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **More on the Emily Rosa experiment
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Critical
 appraisal](../category/CriticalAppraisal.html).

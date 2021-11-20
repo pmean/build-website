@@ -29,8 +29,8 @@ back to a 1968 study by Dr. Kerr White. Apparently, this was an armchair
 estimate and was not based on any hard data. Anoter consideration, as
 outlined in an Office of Technology Assessment report is that many
 medical decisions are based on reasonable, but not rigorous evidence,
-such as \"*the use of vitamin B12 to treat pernicious anemia and cast
-application for forearm fracture.*\" Not cited by Dr. Carroll is the
+such as "*the use of vitamin B12 to treat pernicious anemia and cast
+application for forearm fracture.*" Not cited by Dr. Carroll is the
 humorous report in BMJ, Parachute use to prevent death and major trauma
 related to gravitational challenge: systematic review of randomised
 controlled trials. Smith GCS and Pell JP. BMJ 2003;327:1459-1461 (20
@@ -72,7 +72,7 @@ trials.
 Another resource that discusses the proportion of medical practices that
 are evidence based is
 
--   **\"Is my practice evidence-based?\"** T. Greenhalgh. British
+-   **"Is my practice evidence-based?"** T. Greenhalgh. British
     Medical Journal 1996: 313(7063); 957-8.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8892405&dopt=Abstract)
     [\[Full
@@ -81,10 +81,10 @@ are evidence based is
 and the results presented in this paper are comparable to the previous
 paper.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).
@@ -92,17 +92,17 @@ resources](../category/TeachingResources.html).
 resources](../category/TeachingResources.html).
 for pages similar to this one at [Category: Teaching
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **What percentage of medical decisions
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).

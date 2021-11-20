@@ -58,17 +58,17 @@ diagnostic tests are:
     [\[Abstract\]](http://www.biomedcentral.com/1471-2288/2/2/abstract)
     [\[Full text\]](http://www.biomedcentral.com/1471-2288/2/2)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2288-2-2.pdf)
--   **Simpson\'s paradox and calculation of number needed to treat from
+-   **Simpson's paradox and calculation of number needed to treat from
     meta-analysis.** Cates CJ. BMC Med Res Methodol 2002: 2(1); 1.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11860604&dopt=Abstract)
     [\[Abstract\]](http://www.biomedcentral.com/1471-2288/2/1/abstract)
     [\[Full text\]](http://www.biomedcentral.com/1471-2288/2/1)
     [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2288-2-1.pdf)
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).
@@ -76,17 +76,17 @@ overviews](../category/SystematicOverviews.html).
 overviews](../category/SystematicOverviews.html).
 for pages similar to this one at [Category: Systematic
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Summary Receiver Operating Characteristic
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Systematic
 overviews](../category/SystematicOverviews.html).

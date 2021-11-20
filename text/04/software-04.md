@@ -26,8 +26,8 @@ output: html_document
 > > data.* \--
 > > [www.statmodel.com/index2.html](http://www.statmodel.com/index2.html)
 >
-> I have not used this software, so I can\'t endorse it. Even for the
-> software I do use, I wouldn\'t want to endorse any of it. Statistical
+> I have not used this software, so I can't endorse it. Even for the
+> software I do use, I wouldn't want to endorse any of it. Statistical
 > software is such an individual thing that it is impossible for a
 > stranger like me to recommend any particular program to you. For the
 > record, though, here is the software that I do use, in alphabetical

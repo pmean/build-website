@@ -19,16 +19,16 @@ resource for evaluating any medical controversy is
     Haynes (1998) Edinburgh: Churchill Livingstone. [\[BookFinder4U
     link\]](http://www.bookfinder4u.com/detail/0443056862.html)
 
-There\'s a newer edition, published in 2005, but I don\'t think the
+There's a newer edition, published in 2005, but I don't think the
 material I am quoting has changed all that much. The material in Sackett
 et al was published earlier as
 
--   **Users\' guides to the medical literature. III. How to use an
+-   **Users' guides to the medical literature. III. How to use an
     article about a diagnostic test. A. Are the results of the study
     valid? Evidence-Based Medicine Working Group.** R. Jaeschke, G.
     Guyatt, D. L. Sackett. Jama 1994: 271(5); 389-91.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8283589&dopt=Abstract)
--   **Users\' guides to the medical literature. III. How to use an
+-   **Users' guides to the medical literature. III. How to use an
     article about a diagnostic test. B. What are the results and will
     they help me in caring for my patients? Evidence-Based Medicine
     Working Group.** R. Jaeschke, G. Guyatt, D. L. Sackett. Jama 1994:
@@ -68,18 +68,18 @@ more questions.
 
 1.  Is the diagnostic test available, affordable, accurate, and precise
     in your setting?
-2.  Can you generate a clinically sensible estimate of your patient\'s
+2.  Can you generate a clinically sensible estimate of your patient's
     pre-test probability?
 3.  Will the resulting post-test probabilities affect your management
     and help your patient?
 
-Let\'s consider this advice in detail.
+Let's consider this advice in detail.
 
 **Was there an independent, blind comparison?** Any research study
 evaluating a diagnostic test is going to compare it to a more expensive
 or invasive test that produces a definitive diagnosis of disease. The
-test that provides a definitive diagnosis is referred to as the \"gold
-standard.\" Blinding is important in any research study, but it is
+test that provides a definitive diagnosis is referred to as the "gold
+standard." Blinding is important in any research study, but it is
 especially important when there is subjectivity in the interpretation of
 results. Most diagnostic tests require some level of judgment and if the
 person applying the diagnostic test is aware of the results of the gold
@@ -132,28 +132,28 @@ mix of patients that you see raise special issues? For example, do your
 patients experience developmental problems that make communication
 difficult?
 
-**Can you generate a clinically sensible estimate of your patient\'s
+**Can you generate a clinically sensible estimate of your patient's
 pre-test probability?** To apply a diagnostic test, you first need an
 estimate of the pre-test probability. Do you have records in your
 practice regarding how often patients who come to you complaining of a
 particular problem actually have the disease that you are testing for?
 Are there regional or national surveys that estimate prevalence of the
-disease? You\'d have to adjust this estimate, of course, because the
+disease? You'd have to adjust this estimate, of course, because the
 patients who come to see you are more likely to have the disease than
-the typical probability you\'d get by an \"on the street\" survey. If
+the typical probability you'd get by an "on the street" survey. If
 your patients are similar to the research studies, then the prevalence
 of disease in that study might be a reasonable estimate. If your
 patients are dissimilar, but in a way that leads to a predictable
 increase or decrease in the pre-test probability, make the appropriate
 adjustment. If you have personal experience through many years of
-practice, you might be able to provide a \"seat of the pants\" estimate.
+practice, you might be able to provide a "seat of the pants" estimate.
 Just be sure that your estimate is not colored by your most recent case
 or your most embarrassing case.
 
 **Will the resulting post-test probabilities affect your management and
 help your patient?** A diagnostic test is useless if the likelihood
 ratio does not shift the probability by a sufficient amount to cause you
-to cross a treatment threshold. You don\'t have to do a formal
+to cross a treatment threshold. You don't have to do a formal
 likelihood ratio calculation for every patient that you see, however.
 Just run a few examples that are typical for a reasonable range of
 patients (e.g., calculate the results using pre-test probabilities from

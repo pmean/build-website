@@ -20,7 +20,7 @@ output: html_document
 > anthropological observations. I have an [amusing example of the
 > contrast between qualitative and quantitative
 > data](www.childrensmercy.org/definitions/qual.htm) that I found in
-> Denise Polit\'s book, **Data Analysis and Statistics for Nursing
+> Denise Polit's book, **Data Analysis and Statistics for Nursing
 > Research** [\[BookFinder4U
 > link\]](http://www.bookfinder4u.com/detail/0838563295.html).
 >

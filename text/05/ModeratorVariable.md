@@ -12,11 +12,11 @@ output: html_document
 **[StATS]:** **Moderator variables (February 15,
 2005)**.
 
-I\'ve always disliked the excessive use of detailed terminology, but
+I've always disliked the excessive use of detailed terminology, but
 when someone asked me about moderator variables, I had to look up the
 details. Basically, a moderator variable is one that interacts with the
 exposure or treatment variable. It effectively forces you to qualify
-your findings. Here\'s a published example with abstract (I have not
+your findings. Here's a published example with abstract (I have not
 read the full article):
 
 -   **The relation between locus of control and coping in two contexts:
@@ -26,9 +26,9 @@ read the full article):
     *We examined the relation between locus of control and coping as
     moderated by age and context. A total of 96 adolescents, young
     adults, middle-aged adults, and older adults were administered
-    Lazarus\'s Ways of Coping questionnaire, a situation-specific
+    Lazarus's Ways of Coping questionnaire, a situation-specific
     controllability measure, a defensive coping questionnaire, and
-    Levenson\'s Internality, Powerfulness of Others, and Chance global
+    Levenson's Internality, Powerfulness of Others, and Chance global
     locus of control scales for challenging and threatening contexts.
     Age moderated the relation between locus of control and coping.
     Internality was positively related to escape-avoidance, hostile
@@ -55,12 +55,12 @@ Some web resources that offer definitions of moderator variables are:
 There are additional terms used in the research literature such as
 mediator variable and intervening variable. I generally try to avoid
 using these terms, and even shy away from the commonly used term
-\"confounding variable.\"
+"confounding variable."
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).
@@ -68,17 +68,17 @@ adjustment](../category/CovariateAdjustment.html).
 adjustment](../category/CovariateAdjustment.html).
 for pages similar to this one at [Category: Covariate
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Moderator variables (February 15,
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).

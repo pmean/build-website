@@ -69,17 +69,17 @@ There are seven broad areas for this PA. The fifth one, Research
 Oversight: IRBs, DSMBs, and COI Committees, is perhaps the most relevant
 to my work. These PAs want to
 
-> \"*Identify and evaluate strategies to improve the oversight of
-> protections for human subjects by IRBs*\"
+> "*Identify and evaluate strategies to improve the oversight of
+> protections for human subjects by IRBs*"
 
 and mention as one example
 
-> \"*Development of appropriate outcomes measures and quality indicators
+> "*Development of appropriate outcomes measures and quality indicators
 > for the IRB review process for measurement of adequate protection of
 > human subjects. Development and testing of a framework for assessing
 > IRB review quality; determination of when variability in IRB outcomes
 > would be acceptable and when such variation would indicate
-> inconsistent quality.*\"
+> inconsistent quality.*"
 
 Any grant that I submit to NIH should acknowledge the priorities that
 NIH has set for itself. In particular, I should cite the NIH Roadmap.
@@ -94,7 +94,7 @@ NIH has set for itself. In particular, I should cite the NIH Roadmap.
 > Institutes or Centers other entity can do, but are the responsibility
 > of the NIH as a whole. Three broad initiatives will be stimulated with
 > these funds: 1) New Pathways to Discovery, which includes a
-> comprehensive understanding of building blocks of the body\'s cells
+> comprehensive understanding of building blocks of the body's cells
 > and tissues and how complex biological systems operate; structural
 > biology; molecular libraries and imaging; nanotechnology;
 > bioinformatics and computational biology; 2) Research Teams of the
@@ -126,20 +126,20 @@ is available in Microsoft Word format. The research grant
 > target research areas or three crosscutting enabling technologies as
 > noted in the BACKGROUND section herein.*
 
-The critical research question we hope to address is \"How can an IRB
+The critical research question we hope to address is "How can an IRB
 properly monitor the accrual rate in a clinical trial and decide when
 the rate is so slow as to jeopardizes the scientific integrity of the
-research?\" and that this fits in well among the crosscutting enabling
+research?" and that this fits in well among the crosscutting enabling
 technologies, in particular, the development of information
 technology/bioinformatics tools.
 
-(Note: the original title of this weblog entry was \"Research on
-research integrity.\")
+(Note: the original title of this weblog entry was "Research on
+research integrity.")
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
@@ -147,17 +147,17 @@ trials](../category/AccrualProblems.html).
 trials](../category/AccrualProblems.html).
 for pages similar to this one at [Category: Accrual problems in clinical
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: Possible sources of funding for my grant
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).

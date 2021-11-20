@@ -21,11 +21,11 @@ output: html_document
 > The basic things I do are:
 >
 > > **1. Avoid a lot of navigation links on the left hand side of the
-> > screen.** I feel like I\'m swimming against the tide here, but I
+> > screen.** I feel like I'm swimming against the tide here, but I
 > > have never liked cluttering up the screen or the page with a bunch
 > > of navigation links. I especially dislike the almost universal
 > > tendency to put those links on the left hand side of the page. It
-> > doesn\'t look good and it interferes with the ability to print
+> > doesn't look good and it interferes with the ability to print
 > > well. In my mind, navigation links belong at the top of the page
 > > (with possibly a repetition at the bottom of the page).
 > >
@@ -42,7 +42,7 @@ output: html_document
 > > to keep all my graphic images around 400 pixels or so. When I am
 > > showing screen dumps of dialog boxes in SPSS, this is not always
 > > possible. I saw a web page a while back that did the math and showed
-> > that images more than 525 pixels (don\'t quote me on that number)
+> > that images more than 525 pixels (don't quote me on that number)
 > > would not be guaranteed to print well. I also avoid more than 300
 > > pixels in height because that will often cause an awkward page
 > > breaks. Sometimes I break a graphic image into several pieces so
@@ -59,11 +59,11 @@ output: html_document
 > > why take the chance that some mood setting combination makes it
 > > difficult to print your web pages?
 >
-> I\'m part of a larger web site
+> I'm part of a larger web site
 > ([www.childrensmercy.org](http://www.childrensmercy.org)) and I have
 > to maintain some level of consistency with their pages. That leads to
 > a navigation bar at the top that does not fit in well with the rest of
-> my site and which does not print well either. I\'ll try to work with
+> my site and which does not print well either. I'll try to work with
 > the webmaster to reconcile these problems when I have time.
 >
 > The two web sites that have most influenced how I design my own pages
@@ -78,8 +78,8 @@ output: html_document
 > Association sections on Statistical Computing and Statistical Graphics
 > ([pdf
 > format](http://www-stat.stanford.edu/~susan/scgn/issues/v82/v82.pdf)).
-> This is a big file, and the article itself doesn\'t start until page
-> 23, but it is well worth looking at. Here\'s one of my favorite quotes
+> This is a big file, and the article itself doesn't start until page
+> 23, but it is well worth looking at. Here's one of my favorite quotes
 > from that article.
 >
 > > *A Shaker chair is useful. It is well suited for sitting. Its clean,

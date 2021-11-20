@@ -31,18 +31,18 @@ output: html_document
 > > approximation of the truth in the face of purposeful manipulation of
 > > the evidence by vested interests*
 >
-> There\'s no easy answer to this. One positive thing is that one of the
+> There's no easy answer to this. One positive thing is that one of the
 > most powerful tools in the arsenal of EBM, the systematic review, is
 > the tool that has been used to uncover much of the dishonesty in
 > research. So you could argue that we would be a lot worse off if we
-> didn\'t have EBM, because we wouldn\'t even know we were being
+> didn't have EBM, because we wouldn't even know we were being
 > deceived.
 >
 > Another thing to remember is that a lot of research being done has no
 > vested commercial interests. The big drug trials get all the
 > attention, but there is a lot more to the practice of medicine than
-> just prescribing drugs. I\'m not a doctor, but I suspect that most of
-> the things that you do to help your patients get better don\'t involve
+> just prescribing drugs. I'm not a doctor, but I suspect that most of
+> the things that you do to help your patients get better don't involve
 > a pill. Do we disregard all of the non-pharmaceutical research just
 > because the research on drugs is possibly tainted?
 >
@@ -61,7 +61,7 @@ output: html_document
 > which.
 >
 > In spite of all this, I do share some of the pessimism of Dr. Poses.
-> There\'s a lot of funny stuff going on behind the scenes and it is
+> There's a lot of funny stuff going on behind the scenes and it is
 > almost impossible for us outsiders to uncover the truth.
 
 [![Creative Commons

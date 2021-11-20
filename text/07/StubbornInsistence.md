@@ -37,7 +37,7 @@ incision.
 
 But perhaps the greatest effort to keep a surgical procedure blinded
 occurred in a study of fetal cell implants as a treatment for patients
-with Parkinson\'s disease. In that study, patients in the control group
+with Parkinson's disease. In that study, patients in the control group
 underwent a surgery where holes were drilled in the skull, but no fetal
 cells were inserted. There was a fury of criticisms of this trial. My
 favorite critique has a wonderful title.
@@ -56,7 +56,7 @@ undergo the following:
 -   intravenous antibiotics, and
 -   low-dose cyclosporin.
 
-I\'m not a doctor, but I suspect that each of these steps carries a
+I'm not a doctor, but I suspect that each of these steps carries a
 non-trivial risk of harm. Can we ethically ask patients to suffer the
 risk of harm in order to provide information with a greater degree of
 scientific credibility? The answer is yes is some circumstances, but you
@@ -66,7 +66,7 @@ do this, of course, you have to proceed cautiously and make them
 understand what the risks of the surgery are and what the risks are of
 living the rest of your life with only one kidney.
 
-But there\'s an equally important consideration. Patients will not
+But there's an equally important consideration. Patients will not
 volunteer for a study where one or more of the options are perceived by
 them to be inferior. In the era before AZT became available (prior to
 1987), AIDS was considered a death sentence. So when researchers wanted
@@ -80,7 +80,7 @@ an ineffective placebo. Other patients would take their first batch of
 pills to a chemist for analysis. If they found out that they were taking
 sugar pills, they would drop out and re-enroll under a different name.
 
-You can\'t blame the patients for this behavior. They are acting in
+You can't blame the patients for this behavior. They are acting in
 their best interests. In fact, it was largely because of the AIDS crisis
 that researchers have recognized that the placebo controlled trial is
 not an absolute requirement in all research studies. There is now
@@ -89,10 +89,10 @@ mortality, there is no need for a control group at all. Any treatment
 that is helps even a small fraction of patients to survive will stand
 out clearly against a background rate of 0% survival.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Placebos in
 research](../category/PlaceboControlledTrials.html).
@@ -100,17 +100,17 @@ research](../category/PlaceboControlledTrials.html).
 research](../category/PlaceboControlledTrials.html).
 for pages similar to this one at [Category: Placebos in
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **The stubborn insistence on placebos
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Placebos in
 research](../category/PlaceboControlledTrials.html).

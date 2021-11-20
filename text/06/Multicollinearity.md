@@ -29,12 +29,12 @@ of assumptions (created 2006-01-20)**
 >
 > Multicollinearity does lead to a loss of precision and power, so you
 > have to look at the overall findings. If they are positive, then say
-> \"In spite of severe multicollinearity, we were able to establish an
-> association between our exposure variable and our outcome.\" If the
-> results are negative, then say \"Although these results are negative,
+> "In spite of severe multicollinearity, we were able to establish an
+> association between our exposure variable and our outcome." If the
+> results are negative, then say "Although these results are negative,
 > we need to be cautious about our findings, since the presence of
 > multicollinearity may have led to a serious loss in precision for our
-> estimate of the exposure effect.\"
+> estimate of the exposure effect."
 >
 > Another thing to keep in mind is that the multicollinearity is often
 > just a factor among your covariates and it may not directly involve
@@ -47,13 +47,13 @@ of assumptions (created 2006-01-20)**
 > multicollinearity, and this is a defensible course of action. The
 > latest word, as I understand it, though, is that you are still better
 > off keeping all your covariates in. There are a lot of opportunities
-> for mischief if you start tinkering with the covariate list. I\'ll try
+> for mischief if you start tinkering with the covariate list. I'll try
 > to write more about this when I have time.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).
@@ -61,17 +61,17 @@ issues](../category/ModelingIssues.html).
 issues](../category/ModelingIssues.html).
 for pages similar to this one at [Category: Modeling
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Multicollinearity is not a violation
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).

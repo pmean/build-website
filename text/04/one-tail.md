@@ -36,8 +36,8 @@ Medicine. The Intuitive P-Value Primer**, argues forcefully against
 one-sided tests. Researchers should be open to the possibility that
 their proposed treatments could do more harm than good. Moye offers a
 compromise where the alpha level is allocated asymmetrically. For
-example, the \"benefit\" tail could be allocated .03 of the total alpha
-level and the remaining .02 would be allocated to the \"harm\" tail.
+example, the "benefit" tail could be allocated .03 of the total alpha
+level and the remaining .02 would be allocated to the "harm" tail.
 
 Another example of where a one-sided test is called for is when the
 possibility of a change in the opposite direction would be immediately
@@ -58,7 +58,7 @@ Judge Osteen ruled that
 > record or in the Assessment: its inability to demonstrate a
 > statistically significant relationship under normal methodology; the
 > reasoning behind adopting a one-tailed test, or that only after
-> adjusting the Agency\'s methodology could a weak relative risk be
+> adjusting the Agency's methodology could a weak relative risk be
 > demonstrated. Instead of disclosing information, the Agency withheld
 > significant portions of its findings and reasoning in striving to
 > confirm its a priori hypothesis.*
@@ -68,14 +68,14 @@ agency to examine the potential that some of the hazardous substances it
 evaluates might actually be helpful. In my opinion, it would be absurd
 for any scientist who claimed that exposure to passive smoke might have
 a protective effect against lung cancer. You can find the [full text of
-Judge Osteen\'s ruling](http://www.junkscience.com/news2/osteen.htm) at
+Judge Osteen's ruling](http://www.junkscience.com/news2/osteen.htm) at
 the Junk Science web site. The EPA has a [response to the general
 criticisms of its report on passive
 smoking](http://epa.gov/iaq/pubs/strsfs.html) (though not a direct
-response to Judge Osteen\'s ruling) on its web page.
+response to Judge Osteen's ruling) on its web page.
 
-Finally, there\'s a lot of controversy about whether p-values should be
-used at all. I\'d like to write a web page about this sometime, but for
+Finally, there's a lot of controversy about whether p-values should be
+used at all. I'd like to write a web page about this sometime, but for
 now, here are some references and web pages.
 
 -   **The Case Against Statistical Significance Testing.** Carver RP.
@@ -92,7 +92,7 @@ now, here are some references and web pages.
 -   **Is statistical significance testing useful in interpreting data?**
     Savitz DA. Reprod Toxicol 1993: 7(2); 95-100.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=8499671)
--   **Sifting the evidence- what\'s wrong with significance tests?**
+-   **Sifting the evidence- what's wrong with significance tests?**
     Sterne JAC, Smith GD. BMJ 2001: 322; 226-231.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11159626&dopt=Abstract)
     [\[Full text\]](http://bmj.com/cgi/content/full/322/7280/226)

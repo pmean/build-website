@@ -17,7 +17,7 @@ output: html_document
 > -   0.97 to 1.00 = excellent.
 >
 > I cannot find where I got these numbers. It must be a sign of senility
-> on my part. I\'ll keep looking, but if anyone else knows of
+> on my part. I'll keep looking, but if anyone else knows of
 > justification for this or any other rule, let me know.
 >
 > I did find a web page
@@ -31,7 +31,7 @@ output: html_document
 > -   .50-.60 = fail (F)
 >
 > but the evenness of the intervals strikes me as rather arbitrary.
-> I\'ll keep looking.
+> I'll keep looking.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

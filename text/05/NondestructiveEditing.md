@@ -30,7 +30,7 @@ management](../category/DataManagement.html)
 > operation and two of the patients after a certain date who seemed to
 > have a positive number of collar sutures actually had zero. There were
 > several other changes along these lines, and I realized that I
-> couldn\'t very easily backtrack from one version of the data set to
+> couldn't very easily backtrack from one version of the data set to
 > another or to document exactly what changes had been made.
 >
 > So I decided that from then on, I was going to edit the data in a
@@ -38,37 +38,37 @@ management](../category/DataManagement.html)
 > data, I would create a new column that would be 0 for the rows that I
 > wanted to keep and 1 for the rows I needed to delete. Then I would use
 > a programming statement to remove the rows. That way, I would know
-> exactly which rows were deleted and I could \"undelete\" them just by
+> exactly which rows were deleted and I could "undelete" them just by
 > changing the code. For a column of data like number of collar sutures,
 > I would add a column next to it with the revised values. I would first
 > copy the original columns and then make changes in the copy. That way,
 > I could read off exactly which values changed and I could go back to
 > the original data if necessary.
 >
-> It\'s a bit more work and uses a bit of extra storage space, but in
+> It's a bit more work and uses a bit of extra storage space, but in
 > data sets with a large number of possibly conflicting changes, this
 > gives you a bit of security.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 <!---More--->
 for pages similar to this one at
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]:** **Non-destructive data editing
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
 --->

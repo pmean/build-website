@@ -27,14 +27,14 @@ can find several examples in the Practice Exercises at
 
 <http://www.pmean.com/training/hand21.asp>
 
-I also relied heavily on BMC journals for my book. Almost all of my \"On
-Your Own\" exercises come from BMC journals.
+I also relied heavily on BMC journals for my book. Almost all of my "On
+Your Own" exercises come from BMC journals.
 
 You need good search skills, and even then you have to filter through a
-lot of papers which use the statistic you are interested in but don\'t
+lot of papers which use the statistic you are interested in but don't
 provide enough detail for you to use it as a teaching example. I was
 recently looking for some real data with which I could illustrate
-computation of Cohen\'s Kappa. It was a long tough slog through dozens
+computation of Cohen's Kappa. It was a long tough slog through dozens
 of articles before I found a good example
 ([www.biomedcentral.com/1472-6963/6/115](http://www.biomedcentral.com/1472-6963/6/115)),
 which I plan to use when I next update my page defining kappa and
@@ -48,7 +48,7 @@ I still use bmj.com a lot, but not as much as recently because they have
 changed their access policy from where everything was fully available on
 the web to one where a few things are freely available from the get-go,
 but others you have to wait until the article has sufficiently aged.
-It\'s still probably your best choice if you want to look at just a
+It's still probably your best choice if you want to look at just a
 single journal, because they have so many articles on research
 methodology. A close second would be the Canadian Medical Association
 Journal ([www.cmaj.ca](http://www.cmaj.ca)), which still offers full

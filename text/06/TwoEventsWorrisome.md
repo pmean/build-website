@@ -22,7 +22,7 @@ adverse events. Should you stop the trial?
 The group discussion started with questions about statistical
 significance. *What is the confidence interval?* one participant asked.
 The speaker showed some statistics. With two events versus zero in a
-sample of 25 in each group, Fisher\'s Exact Test is not statistically
+sample of 25 in each group, Fisher's Exact Test is not statistically
 significant. The Chi-square test is not statistically significant.
 
 Discussion then moved to the type of disease being treated and the
@@ -50,17 +50,17 @@ that you can define precise estimates even for very rare events. The
 historical comparison should not replace the comparison to the
 concurrent control group, but should supplement it.
 
-This is a very important message. The audience (including me, I\'m
+This is a very important message. The audience (including me, I'm
 afraid to admit) was focusing on the severity of the event. That is
 indeed important, but of greater importance is that certain severe
 events are also (thankfully) rare events. If an event is rare enough in
 the background population, then that rarity may make two events by
 themselves to be a very worrisome problem.
 
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).
@@ -68,17 +68,17 @@ stopping](../category/EarlyStopping.html).
 stopping](../category/EarlyStopping.html).
 for pages similar to this one at [Category: Early
 with [general help resources](../GeneralHelp.html). You can also browse
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 reproducing it here as a service, as it is no longer available on the
 Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 
 <!---Do not use
 **[StATS]: When are two events worrisome? (December
-This page was written by Steve Simon while working at Children\'s Mercy
+This page was written by Steve Simon while working at Children's Mercy
 Hospital. Although I do not hold the copyright for this material, I am
 reproducing it here as a service, as it is no longer available on the
-Children\'s Mercy Hospital website. Need more information? I have a page
+Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Early
 stopping](../category/EarlyStopping.html).

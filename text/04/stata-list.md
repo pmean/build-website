@@ -21,7 +21,7 @@ Sometimes a lively debate will ensue.
 Listservs are very educational as long as you have the tolearance for
 the large amount of email that they generate. I belong to several
 listservs and to help keep my sanity, I place all of this email in a
-special folder so it doesn\'t get mixed in with more important stuff.
+special folder so it doesn't get mixed in with more important stuff.
 
 There is a nice [FAQ (Frequently Asked Questions) about
 Statalist](http://www.stata.com/support/faqs/res/statalist.html). This
@@ -35,7 +35,7 @@ people who provide answers on a listserv do this without any financial
 compensation. They do this because they want to pay something back to
 the community that helped them get started and they appreciate the
 technical challenge of the questions being asked. Ask politely, be
-specific, and don\'t ask a question that has an answer you can easily
+specific, and don't ask a question that has an answer you can easily
 find on your own.
 
 Most email programs now offer fancy formatted versions for their email.

@@ -28,7 +28,7 @@ output: html_document
 > but both GNU and Open Source, but from a practical perspective both
 > provide good alternatives to proprietary software.
 >
-> I\'ll investigate AutoIt when I have time and report back on the
+> I'll investigate AutoIt when I have time and report back on the
 > results.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

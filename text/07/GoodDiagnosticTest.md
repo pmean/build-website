@@ -9,13 +9,13 @@ tags:
 - Diagnostic testing
 output: html_document
 ---
-I\'ve been invited to give a talk at the annual meeting of the [American
+I've been invited to give a talk at the annual meeting of the [American
 College of Allergy, Asthma &
 Immunology](../weblog2007/%20http:/www.acaai.org/). The tentative title
-of the talk is \"What makes a good diagnostic test?\" It will be part of
-a plenary session and I\'ll be followed by two speakers debating the
-merits of two particular diagnostic tests. I don\'t have a lot of
-details at this time, but as I develop my talk, I\'ll put details here
+of the talk is "What makes a good diagnostic test?" It will be part of
+a plenary session and I'll be followed by two speakers debating the
+merits of two particular diagnostic tests. I don't have a lot of
+details at this time, but as I develop my talk, I'll put details here
 on this weblog.
 
 Some of the points I want to highlight:

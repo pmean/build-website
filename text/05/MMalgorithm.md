@@ -14,7 +14,7 @@ complex and messy function. In some situations, the optimal point is the
 largest value for this function and in other situation, the optimal
 point is the smallest value. The simplest and best known example of this
 is regression. This approach tries to estimate a line (or sometimes a
-more complex curve) that is \"close\" to most of the data. The approach,
+more complex curve) that is "close" to most of the data. The approach,
 least squares, tries to minimize the sum of squared deviations between
 the line and the data. Even simple problems such as estimating a median
 can be recast in terms of minimizing distance.

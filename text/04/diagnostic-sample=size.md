@@ -62,8 +62,8 @@ problem and other possible sources of bias. Here are a few references:
 -   **Estimating the error rates of diagnostic tests.** Hui SL, Walter
     SD. Biometrics 1980: 36(1); 167-71.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=7370371&dopt=Abstract)
--   **Inferences for likelihood ratios in the absence of a \"gold
-    standard\".** Joseph L, Gyorkos T. Medical Decision Making 1996:
+-   **Inferences for likelihood ratios in the absence of a "gold
+    standard".** Joseph L, Gyorkos T. Medical Decision Making 1996:
     16(4); 412-17.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8912303&dopt=Abstract)
 -   **Evaluating Medical Tests: Objective and Quantitative Guidelines.**
@@ -83,7 +83,7 @@ problem and other possible sources of bias. Here are a few references:
 Here are some guidelines for critically evaluating research on
 diagnostic tests.
 
--   **User\'s guide to the surgical literature: how to use an article
+-   **User's guide to the surgical literature: how to use an article
     about a diagnostic test.** Bhandari M, Montori VM, Swiontkowski MF,
     Guyatt GH. J Bone Joint Surg Am 2003: 85-A(6); 1133-40.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12784015&dopt=Abstract)
@@ -110,12 +110,12 @@ diagnostic tests.
     tests.** Greenhalgh T. Bmj 1997: 315(7107); 540-3.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9329312&dopt=Abstract)
     [\[Full text\]](http://bmj.com/cgi/content/full/315/7107/540)
--   **Users\' guides to the medical literature. III. How to use an
+-   **Users' guides to the medical literature. III. How to use an
     article about a diagnostic test. A. Are the results of the study
     valid? Evidence-Based Medicine Working Group.** Jaeschke R, Guyatt
     G, Sackett DL. Jama 1994: 271(5); 389-91.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8283589&dopt=Abstract)
--   **Users\' guides to the medical literature. III. How to use an
+-   **Users' guides to the medical literature. III. How to use an
     article about a diagnostic test. B. What are the results and will
     they help me in caring for my patients? The Evidence-Based Medicine
     Working Group.** Jaeschke R, Guyatt GH, Sackett DL. Jama 1994:

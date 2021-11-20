@@ -8,7 +8,7 @@ tags:
 - Gene expression
 output: html_document
 ---
-> I\'ll be taking a short course at the Joint Statistical Meetings next
+> I'll be taking a short course at the Joint Statistical Meetings next
 > month. It will be taught be Terry Speed, Jean Yang, Ben Bolstad, and
 > James Wettenhall. The materials for this class are on the web at
 >
