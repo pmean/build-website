@@ -60,7 +60,7 @@ mammography, as an example, leaving a tumor undetected may not be a bad
 thing. If the tumor develops slowly, then it will eventually be detected
 by other means before it has had a chance to spread. If a tumor develops
 rapidly, then by the time it is detected by mammography, it may be too
-late. It is, perhaps, only the \"Goldilocks\" tumors, those that grow
+late. It is, perhaps, only the "Goldilocks" tumors, those that grow
 not too fast and not too slow, that are worth detecting early.
 
 The prevalence of disease is also very important. In a population of
@@ -104,7 +104,7 @@ www.fda.gov/cdrh/ct/ctscansbro.html
 
 **Other references**
 
--   **Antenatal screening and its possible meaning from unborn baby\'s
+-   **Antenatal screening and its possible meaning from unborn baby's
     perspective.** Aksoy S. BMC Med Ethics 2001: 2(1); 3.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11389776&dopt=Abstract)
     [\[Abstract\]](http://www.biomedcentral.com/1472-6939/2/3/abstract)

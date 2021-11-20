@@ -11,9 +11,9 @@ output: html_document
 I got an email from Japan recently with an interesting question. By the
 way, one of the fun things about my web pages is that I get emails from
 all over the world. I can only offer a bit of help by email, and it
-can\'t really replace a face-to-face meeting. Still, I\'m glad to spend
+can't really replace a face-to-face meeting. Still, I'm glad to spend
 a few minutes trying discussing general principles and offering a
-reference or two. People are very grateful for the time, and I\'ve had
+reference or two. People are very grateful for the time, and I've had
 an offer for free room and board should I ever visit Rome. I also am
 getting a copy of Opera News on CD in thanks for a bit of advice I
 provided. **\[Conflict of interest alert: should I ever publish any
@@ -36,7 +36,7 @@ Sample size is a tricky problem, and it is especially tricky for
 survival data models. As a rough rule, it is the number of deaths rather
 than the number of patients being studied that is most important. But
 patients who do not die will still contribute to precision, up to the
-point at which they drop out of the study. The words \"drop out\" imply
+point at which they drop out of the study. The words "drop out" imply
 that the person left the study, but it could also be someone who
 switches to a different therapy that makes them ineligible for
 continuing follow-up. Early dropouts are of very little use, then, and a
@@ -87,10 +87,10 @@ are some references.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8720017&dopt=Abstract)
 
 You could also use the rule of 50 as a rough guide to whether the sample
-size is adequate. It\'s a concept that I first learned about from the
+size is adequate. It's a concept that I first learned about from the
 Statistical Rules of Thumb web site <http://www.vanbelle.org/>.
 
-Unfortunately, I can\'t find the details of the rule of 50 anymore. The
+Unfortunately, I can't find the details of the rule of 50 anymore. The
 derivation is quite simple, and I have all the details at
 
 -   [Stats: Quick sample size calculations (October
@@ -100,7 +100,7 @@ Would the rule of fifty apply to survival data? I think so, but I would
 have to do the math.
 
 Another rule to consider is that you want to have 10 to 15 observations
-per independent variable. There\'s a couple of provisos to this
+per independent variable. There's a couple of provisos to this
 statement. For survival analysis or logistic regression it is probably
 10 to 15 events (deaths). Also it is not the number of independent
 variables in your final model, but the number that you examined along

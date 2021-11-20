@@ -8,7 +8,7 @@ tags:
 - Measuring agreement
 output: html_document
 ---
-Someone reviewing a paper asked me about all the \"weird statistics\"
+Someone reviewing a paper asked me about all the "weird statistics"
 being used in the paper, such as the Bland-Altman plot and Deming
 regression.
 
@@ -21,7 +21,7 @@ between two measures of the clinical outcome.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=2868172&dopt=Abstract)
     [\[Full text\]](http://www-users.york.ac.uk/~mb55/meas/ba.htm)
 
-Here\'s an example of a Bland-Altman plot
+Here's an example of a Bland-Altman plot
 
 ![](../weblog/05images/weblog1.gif){width="300" height="184"}
 
@@ -74,7 +74,7 @@ assay can only account for 2/3 of the variation in the other assay.
     [\[Full text\]](http://www.clinchem.org/cgi/content/full/49/4/601)
     [\[PDF\]](http://www.clinchem.org/cgi/reprint/49/4/601.pdf)
 
-The authors may have also used something called Lin\'s Concordance
+The authors may have also used something called Lin's Concordance
 Coefficient.
 
 -   **[Validating Mathematical Models of Biological Systems: Application
@@ -83,7 +83,7 @@ Coefficient.
     St-Pierre NR. Accessed on 2005-04-19.
     library.lanl.gov/cgi-bin/getdoc?event=SAMO2004&document=samo04-41.pdf
 
-An example of Lin\'s concordance coefficient appears in a study of joint
+An example of Lin's concordance coefficient appears in a study of joint
 space narrowing and erosion scores in plain versus digitized x-rays. The
 erosion concordance score is 0.89 and the graph below shows good
 agreement between the regression line (solid) and the line of perfect
