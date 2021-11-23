@@ -12,7 +12,10 @@ output: html_document
 ```{r setup}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(splines)))
+suppressMessages(suppressWarnings(library(tidyr)))
 ```
 
 ### Artificial data
@@ -21,11 +24,11 @@ Suppose you have some data where you suspect the behavior differs for x=1 to 5, 
 
 ```{r}
 library(ggplot2)
-x <- 1:20
-y <- rep(40, 20)
-y[6:20] <- y[6:20]-3*(1:15)
-y[11:20] <- y[11:20]+7*(1:10)
-y[16:20] <- y[16:20]-(1:5)^2
+x <- 0:20
+y <- rep(40, 21)
+y[6:21] <- y[6:21]-3*(1:15)
+y[11:21] <- y[11:21]+7*(1:10)
+y[16:21] <- y[16:21]-(1:5)^2
 y <- y+round(rnorm(10), 1)
 simulated_example <- data.frame(x, y)
 simulated_example
@@ -33,105 +36,161 @@ ggplot(simulated_example, aes(x, y)) +
   geom_point()
 ```
 
-A single cubic function for all the data doesn't quite capture what is happening here.
+To make the graphs look nice, you need to include some intermediate values.
 
 ```{r}
-extra_values <- data.frame(x=seq(0, 21, length=2200))
-simulated_example %<>% full_join(extra_values, by="x")
+x <- c(0:20, setdiff(seq(0, 20, by=1/64), 0:20))
+xm <- data.frame(
+  c1 =rep(1, length(x)),
+  c2 =x,
+  c3 =x^2,
+  c4 =x^3,
+  c5 =(x> 5)*rep(1, length(x)),
+  c6 =(x> 5)*(x- 5),
+  c7 =(x> 5)*(x- 5)^2,
+  c8 =(x> 5)*(x- 5)^3,
+  c9 =(x>10)*rep(1, length(x)),
+  c10=(x>10)*(x-10),
+  c11=(x>10)*(x-10)^2,
+  c12=(x>10)*(x-10)^3,
+  c13 =(x>15)*rep(1, length(x)),
+  c14=(x>15)*(x-15),
+  c15=(x>15)*(x-15)^2,
+  c16=(x>15)*(x-15)^3,
+  y=NA
+)
+xm$y[1:21] <- y
 ```
 
 ```{r}
-single_cubic_model <- lm(y~poly(x, 3), data=simulated_example)
-single_cubic_prediction <- augment(single_cubic_model)
-ggplot(single_cubic_prediction, aes(x, y)) + 
-  geom_point() +
-  geom_line(aes(y=.fitted))
+kable(xm[1:21, 1:4])
+single_cubic_model <- lm(y~c2+c3+c4, data=xm)
+single_cubic_model %>% 
+  augment(newdata=xm) %>%
+  ggplot(aes(x, y)) + 
+    geom_point() +
+    geom_line(aes(y=.fitted)) +
+    ggtitle("Single cubic fit to the data")
 ```
 
 So, we could fit a cubic model for the first five data points, for the second five, the third five, and the fourth five. This is a bit much: a cubic model has four parameters, so fitting four of them would use up 16 degrees of freedom in a data set with only 20 observations. But bear with me a bit on this.
 
-```{r}
-sb1 <- (simulated_example$x<=5)
-sb2 <- (simulated_example$x>5)&(simulated_example$x<=10)
-sb3 <- (simulated_example$x>10)&(simulated_example$x<=15)
-sb4 <- (simulated_example$x>15)
-
-simulated_example %>%
-  filter(sb1) %>%
-  lm(y~poly(x, 3), data=.) %>%
-  augment(newdata=simulated_example[sb1, ]) -> first_cubic_prediction
-lm(y~poly(x, 3), subset=sb2, data=simulated_example) %>% 
-  augment(newdata=simulated_example[sb2, ]) %>%
-  select(x, .fitted) -> second_cubic_prediction
-lm(y~poly(x, 3), subset=sb3, data=simulated_example) %>%
-  augment(newdata=simulated_example[sb3, ]) %>% 
-  select(x, .fitted) -> third_cubic_prediction
-lm(y~poly(x, 3), subset=sb4, data=simulated_example) %>%
-  augment(newdata=simulated_example[sb4, ]) %>%
-  select(x, .fitted) -> fourth_cubic_prediction
-
-first_cubic_prediction %>%
-  bind_rows(second_cubic_prediction) %>%
-  bind_rows(third_cubic_prediction) %>%
-  bind_rows(fourth_cubic_prediction) %>%
-  full_join(simulated_example, by="x") -> combined_prediction
-ggplot(combined_prediction, aes(x, y.y)) +
-  geom_point() +
-  geom_line(aes(y=.fitted))
-```
-
-This function is not continuous or smooth. To make a single smooth continuous function you need to define
+The trick to fitting four separate cubic polynomials is to "restart" the cubic terms after x=5, x=10, and x=15.
 
 ```{r}
-simulated_example %>%
-  mutate(x1=x) %>%
-  mutate(x4=(x>5)*(x-5)) %>%
-  mutate(x5=(x>10)*(x-10)) %>%
-  mutate(x6=(x>15)*(x-15)) -> linear_spline_basis
+kable(xm[1:20, ])
+xm$y <- NA
+xm$y[1:20] <- y
+four_independent_cubics <- 
+  lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)
+augment(four_independent_cubics, newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) + 
+    ggtitle("Discontinous cubic splines")
+```
+
+
+This function is not continuous or smooth. To make the function continuous, drop the extra intercept terms.
+
+```{r}
+kable(xm[1:20, c(1:4, 6:8, 10:12, 14:16)])
+four_continuous_cubics <- 
+  lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)
+augment(four_continuous_cubics, newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) +
+    ggtitle("Continous but not smooth cubic splines")
+
+```
+
+Smoothness is measured in terms of the continuity of derivatives. Here is a function that has a continuous first derivative.
+
+```{r}
+kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
+four_smooth_cubics <- 
+  lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm)
+augment(four_smooth_cubics, newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) + 
+    ggtitle("Continous and Smooth (1st derivative) splines")
+
+```
+
+Here is a function that has continuous first and second derivatives.
+
+```{r}
+kable(xm[1:20, c(1:4, 8, 12, 16)])
+spline_model <- 
+  lm(y~c2+c3+c4+c8+c12+c16, data=xm)
+augment(spline_model, newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) +
+    ggtitle("Continous and smooth (1st and 2nd derivatives) cubic splines")
+```
+
+While this approach is simple, there is an issue with multicollinearity.
+
+```{r}
+round(cor(xm[c(2:4, 8, 12, 16)]), 2)
+```
+
+This approach is simple and easy to follow, but there is one catch. The correlations are quite high and this can lead to computational problems, including rounding errors. So most spline models implemented on a computer use a different approach.
+
+B-splines provide a solution with less issues of multi-collinearity.
+
+```{r}
+linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
+kable(linear_spline[1:21, ])
+plot(x[1:21], linear_spline[1:21 , 1])
+plot(x[1:21], linear_spline[1:21 , 2])
+plot(x[1:21], linear_spline[1:21 , 3])
+plot(x[1:21], linear_spline[1:21 , 4])
+plot(x[1:21], linear_spline[1:21 , 5])
+
+lm(xm$y~linear_spline) %>%
+  augment(newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) + 
+    ggtitle("Linear splines")
 ```
 
 ```{r}
-lm(y~x1+x4+x5+x6, data=linear_spline_basis) %>%
-  augment(newdata=linear_spline_basis) %>%
-  ggplot(aes(x, y)) +
-    geom_point() +
-  geom_line(aes(y=.fitted))
+quadratic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=2, intercept=TRUE)
+kable(quadratic_spline[1:21, ])
+plot(x[1:21], quadratic_spline[1:21 , 1])
+plot(x[1:21], quadratic_spline[1:21 , 2])
+plot(x[1:21], quadratic_spline[1:21 , 3])
+plot(x[1:21], quadratic_spline[1:21 , 4])
+plot(x[1:21], quadratic_spline[1:21 , 5])
+
+lm(xm$y~quadratic_spline) %>%
+  augment(newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) + 
+    ggtitle("quadratic splines")
 ```
 
 ```{r}
-simulated_example %>%
-  mutate(x1=x) %>%
-  mutate(x2=x^2) %>%
-  mutate(x4=(x>5)*(x-5)^2) %>%
-  mutate(x5=(x>10)*(x-10)^2) %>%
-  mutate(x6=(x>15)*(x-15)^2) -> quadratic_spline_basis
+cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
+kable(cubic_spline[1:21, ])
+plot(x[1:21], cubic_spline[1:21 , 1])
+plot(x[1:21], cubic_spline[1:21 , 2])
+plot(x[1:21], cubic_spline[1:21 , 3])
+plot(x[1:21], cubic_spline[1:21 , 4])
+plot(x[1:21], cubic_spline[1:21 , 5])
+
+lm(xm$y~cubic_spline) %>%
+  augment(newdata=xm) %>%
+  ggplot(aes(c2, .fitted)) +
+    geom_line() +
+    geom_point(aes(c2, y)) + 
+    ggtitle("cubic splines")
 ```
 
-```{r}
-lm(y~x1+x4+x5+x6, data=quadratic_spline_basis) %>%
-  augment(newdata=quadratic_spline_basis) %>%
-  ggplot(aes(x, y)) +
-    geom_point() +
-  geom_line(aes(y=.fitted))
-```
-
-This function is not continuous or smooth. To make a single smooth continuous function you need to define
-
-```{r}
-simulated_example %>%
-  mutate(x1=x) %>%
-  mutate(x2=x^2) %>%
-  mutate(x3=x^3) %>%
-  mutate(x4=(x>5)*(x-5)^3) %>%
-  mutate(x5=(x>10)*(x-10)^3) %>%
-  mutate(x6=(x>15)*(x-15)^3) -> spline_basis
-```
-
-```{r}
-lm(y~x1+x2+x3+x4+x5+x6, data=spline_basis) %>%
-  augment(newdata=spline_basis) %>%
-  ggplot(aes(x, y)) +
-    geom_point() +
-  geom_line(aes(y=.fitted))
-```
 
