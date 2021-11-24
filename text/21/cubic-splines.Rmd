@@ -26,10 +26,10 @@ Suppose you have some data where you suspect the behavior differs for x=1 to 5, 
 library(ggplot2)
 x <- 0:20
 y <- rep(40, 21)
-y[6:21] <- y[6:21]-3*(1:15)
-y[11:21] <- y[11:21]+7*(1:10)
-y[16:21] <- y[16:21]-(1:5)^2
-y <- y+round(rnorm(10), 1)
+y[6:21] <- y[6:21]-3*(0:15)
+y[11:21] <- y[11:21]+7*(0:10)
+y[16:21] <- y[16:21]-(0:5)^2
+y <- y+round(rnorm(21), 1)
 simulated_example <- data.frame(x, y)
 simulated_example
 ggplot(simulated_example, aes(x, y)) +
@@ -42,7 +42,7 @@ To make the graphs look nice, you need to include some intermediate values.
 x <- c(0:20, setdiff(seq(0, 20, by=1/64), 0:20))
 ```
 
-You can get a variety of splines by defining constant, linear, quadratic, and cubic terms and then shift those functions to the right with zeros to the left.
+You can get a variety of splines by defining constant, linear, quadratic, and cubic terms and then shift those functions to the right. After shifting, fill in the hole to the left with zeros.
 
 ```{r}
 xm <- data.frame(
@@ -58,7 +58,7 @@ xm <- data.frame(
   c10=(x>10)*(x-10),
   c11=(x>10)*(x-10)^2,
   c12=(x>10)*(x-10)^3,
-  c13 =(x>15)*rep(1, length(x)),
+  c13=(x>15)*rep(1, length(x)),
   c14=(x>15)*(x-15),
   c15=(x>15)*(x-15)^2,
   c16=(x>15)*(x-15)^3,
@@ -69,15 +69,22 @@ xm$y[1:21] <- y
 
 
 ```{r}
-lb1 <- rep(c("intercept", "linear term", "quadratic term", "cubic term"), 4)
-lb2 <- rep(c("for the full range", "restarted at x=5", "restarted at x=10", "restarted at x=15"), each=4)
-for (j in 1:16) {
-  xm[1:21, ] %>%
-    ggplot(aes(c2, .data[[paste0("c", j)]])) +
-      ggtitle(paste(lb1[j], lb2[j])) +
-      geom_point() +
+display_terms <- function(df, x, y, lb, z=y) {
+  full_data <- data.frame(x=df[ , x], y=df[ , y], z=df[ , z])
+  integer_data <- full_data[1:21, ]
+  ggplot(full_data, aes(x, y)) +
+      ggtitle(lb) +
+      geom_line() +
+      geom_point(aes(x, z), na.rm=TRUE) +
       xlab(" ") +
-      ylab(" ") -> cplot
+      ylab(" ")
+}
+
+lb1 <- rep(c("Intercept", "Linear term", "Quadratic term", "Cubic term"), 4)
+lb2 <- rep(c("for the full range", "restarted at x=5", "restarted at x=10", "restarted at x=15"), each=4)
+lb <- paste(lb1, lb2)
+for (j in 1:16) {
+  xm %>% display_terms("c2", paste0("c", j), lb[j]) -> cplot
   plot(cplot)
 }
 ```
@@ -93,13 +100,10 @@ kable(xm[1:21, 1:4])
 The graph shown below represents the best fitting single cubic polynomial.
 
 ```{r}
-single_cubic_model <- lm(y~c2+c3+c4, data=xm)
-single_cubic_model %>% 
+lm(y~c2+c3+c4, data=xm) %>%
   augment(newdata=xm) %>%
-  ggplot(aes(x, y)) + 
-    geom_point() +
-    geom_line(aes(y=.fitted)) +
-    ggtitle("Single cubic fit to the data")
+  data.frame %>%
+  display_terms("c2", ".fitted", "Single cubic fit", "y")
 ```
 
 ### Separate cubic polynomials
@@ -110,14 +114,15 @@ The trick to fitting four separate cubic polynomials is to "restart" the cubic t
 
 ```{r}
 kable(xm[1:20, ])
-xm$y <- NA
-xm$y[1:20] <- y
+```
+
+```{r}
 four_independent_cubics <- 
   lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)
 augment(four_independent_cubics, newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) + 
+    # geom_point(xm[1:21, ], aes(c2, y)) +
     ggtitle("Discontinous cubic splines")
 ```
 
@@ -131,9 +136,8 @@ four_continuous_cubics <-
 augment(four_continuous_cubics, newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) +
+    # geom_point(xm[1:21, ], aes(c2, y)) +
     ggtitle("Continous but not smooth cubic splines")
-
 ```
 
 Smoothness is measured in terms of the continuity of derivatives. Here is a function that has a continuous first derivative.
@@ -145,7 +149,7 @@ four_smooth_cubics <-
 augment(four_smooth_cubics, newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) + 
+    geom_point(aes(c2, y), na.rm=TRUE) +
     ggtitle("Continous and Smooth (1st derivative) splines")
 
 ```
@@ -159,7 +163,7 @@ spline_model <-
 augment(spline_model, newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) +
+    # geom_point(xm[1:21, ], aes(c2, y)) +
     ggtitle("Continous and smooth (1st and 2nd derivatives) cubic splines")
 ```
 
@@ -176,6 +180,9 @@ B-splines provide a solution with less issues of multi-collinearity.
 ```{r}
 linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
 kable(linear_spline[1:21, ])
+```
+
+```{r}
 plot(x[1:21], linear_spline[1:21 , 1])
 plot(x[1:21], linear_spline[1:21 , 2])
 plot(x[1:21], linear_spline[1:21 , 3])
@@ -186,7 +193,7 @@ lm(xm$y~linear_spline) %>%
   augment(newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) + 
+    # geom_point(xm[1:21, ], aes(c2, y)) +
     ggtitle("Linear splines")
 ```
 
@@ -203,7 +210,7 @@ lm(xm$y~quadratic_spline) %>%
   augment(newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) + 
+    geom_point(aes(c2, y), na.rm=TRUE) + 
     ggtitle("quadratic splines")
 ```
 
@@ -220,7 +227,7 @@ lm(xm$y~cubic_spline) %>%
   augment(newdata=xm) %>%
   ggplot(aes(c2, .fitted)) +
     geom_line() +
-    geom_point(aes(c2, y)) + 
+    geom_point(aes(c2, y), na.rm=TRUE) + 
     ggtitle("cubic splines")
 ```
 
