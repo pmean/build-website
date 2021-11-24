@@ -62,6 +62,7 @@ xm <- data.frame(
   c14=(x>15)*(x-15),
   c15=(x>15)*(x-15)^2,
   c16=(x>15)*(x-15)^3,
+  x=x,
   y=NA
 )
 xm$y[1:21] <- y
@@ -69,13 +70,13 @@ xm$y[1:21] <- y
 
 
 ```{r}
-display_terms <- function(df, x, y, lb, z=y) {
-  full_data <- data.frame(x=df[ , x], y=df[ , y], z=df[ , z])
-  integer_data <- full_data[1:21, ]
-  ggplot(full_data, aes(x, y)) +
+display_terms <- function(df, lb) {
+  names(df) <- c("x", "y")
+  integer_data <- df[1:21, ]
+  ggplot(df, aes(x, y)) +
       ggtitle(lb) +
       geom_line() +
-      geom_point(aes(x, z), na.rm=TRUE) +
+      geom_point(data=integer_data, aes(x, y)) +
       xlab(" ") +
       ylab(" ")
 }
@@ -83,10 +84,14 @@ display_terms <- function(df, x, y, lb, z=y) {
 lb1 <- rep(c("Intercept", "Linear term", "Quadratic term", "Cubic term"), 4)
 lb2 <- rep(c("for the full range", "restarted at x=5", "restarted at x=10", "restarted at x=15"), each=4)
 lb <- paste(lb1, lb2)
+
 for (j in 1:16) {
-  xm %>% display_terms("c2", paste0("c", j), lb[j]) -> cplot
+  xm %>% 
+    select(c(17, j)) %>%
+    display_terms(lb[j]) -> cplot
   plot(cplot)
 }
+
 ```
 
 ### Single cubic polynomial
@@ -100,10 +105,19 @@ kable(xm[1:21, 1:4])
 The graph shown below represents the best fitting single cubic polynomial.
 
 ```{r}
+display_fit <- function(model_fit, lb) {
+  model_fit %>%
+    augment(newdata=xm) %>%
+      ggplot(aes(c2, .fitted)) +
+        ggtitle(lb) +
+        geom_line() +
+        geom_point(aes(c2, y), na.rm=TRUE) +
+      xlab(" ") +
+      ylab(" ")
+}
+
 lm(y~c2+c3+c4, data=xm) %>%
-  augment(newdata=xm) %>%
-  data.frame %>%
-  display_terms("c2", ".fitted", "Single cubic fit", "y")
+  display_fit("Single cubic fit")
 ```
 
 ### Separate cubic polynomials
@@ -117,13 +131,9 @@ kable(xm[1:20, ])
 ```
 
 ```{r}
-four_independent_cubics <- 
-  lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)
-augment(four_independent_cubics, newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    # geom_point(xm[1:21, ], aes(c2, y)) +
-    ggtitle("Discontinous cubic splines")
+
+lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)  %>%
+  display_fit("Discontinous cubic splines")
 ```
 
 
@@ -131,26 +141,16 @@ This function is not continuous or smooth. To make the function continuous, drop
 
 ```{r}
 kable(xm[1:20, c(1:4, 6:8, 10:12, 14:16)])
-four_continuous_cubics <- 
-  lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)
-augment(four_continuous_cubics, newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    # geom_point(xm[1:21, ], aes(c2, y)) +
-    ggtitle("Continous but not smooth cubic splines")
+lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
+  display_fit("Continous but not smooth cubic splines")
 ```
 
 Smoothness is measured in terms of the continuity of derivatives. Here is a function that has a continuous first derivative.
 
 ```{r}
 kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
-four_smooth_cubics <- 
-  lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm)
-augment(four_smooth_cubics, newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    geom_point(aes(c2, y), na.rm=TRUE) +
-    ggtitle("Continous and Smooth (1st derivative) splines")
+lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
+  display_fit("Continous and Smooth (1st derivative) splines")
 
 ```
 
@@ -158,13 +158,8 @@ Here is a function that has continuous first and second derivatives.
 
 ```{r}
 kable(xm[1:20, c(1:4, 8, 12, 16)])
-spline_model <- 
-  lm(y~c2+c3+c4+c8+c12+c16, data=xm)
-augment(spline_model, newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    # geom_point(xm[1:21, ], aes(c2, y)) +
-    ggtitle("Continous and smooth (1st and 2nd derivatives) cubic splines")
+lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
+  display_fit("Continous and smooth (1st and 2nd derivatives) cubic splines")
 ```
 
 While this approach is simple, there is an issue with multicollinearity.
@@ -183,52 +178,85 @@ kable(linear_spline[1:21, ])
 ```
 
 ```{r}
-plot(x[1:21], linear_spline[1:21 , 1])
-plot(x[1:21], linear_spline[1:21 , 2])
-plot(x[1:21], linear_spline[1:21 , 3])
-plot(x[1:21], linear_spline[1:21 , 4])
-plot(x[1:21], linear_spline[1:21 , 5])
+display_matrix <- function(df, lb) {
+  names(df) <- c("x", "y")
+  integer_data <- df[1:21, ]
+  ggplot(df, aes(x, y)) +
+      ggtitle(lb) +
+      geom_line() +
+      geom_point(data=integer_data, aes(x, y)) +
+      xlab(" ") +
+      ylab(" ")
+}
+for (j in 1:dim(linear_spline)[2]) {
+  cbind(xm$c2, linear_spline[ , j]) %>% 
+    data.frame %>%
+    display_matrix("Linear spline terms") %>%
+    plot
+}
+```
 
+
+```{r}
 lm(xm$y~linear_spline) %>%
-  augment(newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    # geom_point(xm[1:21, ], aes(c2, y)) +
-    ggtitle("Linear splines")
+  display_fit("Linear splines")
 ```
 
 ```{r}
 quadratic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=2, intercept=TRUE)
 kable(quadratic_spline[1:21, ])
-plot(x[1:21], quadratic_spline[1:21 , 1])
-plot(x[1:21], quadratic_spline[1:21 , 2])
-plot(x[1:21], quadratic_spline[1:21 , 3])
-plot(x[1:21], quadratic_spline[1:21 , 4])
-plot(x[1:21], quadratic_spline[1:21 , 5])
 
+for (j in 1:dim(quadratic_spline)[2]) {
+  cbind(xm$c2, quadratic_spline[ , j]) %>% 
+    data.frame %>%
+    display_matrix("Quadratic spline terms") %>%
+    plot
+}
+```
+
+```{r}
 lm(xm$y~quadratic_spline) %>%
-  augment(newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    geom_point(aes(c2, y), na.rm=TRUE) + 
-    ggtitle("quadratic splines")
+  display_fit("Quadratic splines")
 ```
 
 ```{r}
 cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
 kable(cubic_spline[1:21, ])
-plot(x[1:21], cubic_spline[1:21 , 1])
-plot(x[1:21], cubic_spline[1:21 , 2])
-plot(x[1:21], cubic_spline[1:21 , 3])
-plot(x[1:21], cubic_spline[1:21 , 4])
-plot(x[1:21], cubic_spline[1:21 , 5])
-
-lm(xm$y~cubic_spline) %>%
-  augment(newdata=xm) %>%
-  ggplot(aes(c2, .fitted)) +
-    geom_line() +
-    geom_point(aes(c2, y), na.rm=TRUE) + 
-    ggtitle("cubic splines")
 ```
 
+
+```{r}
+for (j in 1:dim(cubic_spline)[2]) {
+  cbind(xm$c2, cubic_spline[ , j]) %>% 
+    data.frame %>%
+    display_matrix("Cubic spline terms") %>%
+    plot
+}
+```
+
+```{r}
+lm(xm$y~cubic_spline) %>%
+  display_fit("Cubic splines")
+```
+
+
+```{r}
+natural_spline <- ns(xm$c2, knots=c(5, 10, 15), intercept=TRUE)
+kable(natural_spline[1:21, ])
+```
+
+
+```{r}
+for (j in 1:dim(natural_spline)[2]) {
+  cbind(xm$c2, natural_spline[ , j]) %>% 
+    data.frame %>%
+    display_matrix("Natural spline terms") %>%
+    plot
+}
+```
+
+```{r}
+lm(xm$y~natural_spline) %>%
+  display_fit("Natural splines")
+```
 
