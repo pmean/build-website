@@ -40,6 +40,11 @@ To make the graphs look nice, you need to include some intermediate values.
 
 ```{r}
 x <- c(0:20, setdiff(seq(0, 20, by=1/64), 0:20))
+```
+
+You can get a variety of splines by defining constant, linear, quadratic, and cubic terms and then shift those functions to the right with zeros to the left.
+
+```{r}
 xm <- data.frame(
   c1 =rep(1, length(x)),
   c2 =x,
@@ -62,8 +67,32 @@ xm <- data.frame(
 xm$y[1:21] <- y
 ```
 
+
+```{r}
+lb1 <- rep(c("intercept", "linear term", "quadratic term", "cubic term"), 4)
+lb2 <- rep(c("for the full range", "restarted at x=5", "restarted at x=10", "restarted at x=15"), each=4)
+for (j in 1:16) {
+  xm[1:21, ] %>%
+    ggplot(aes(c2, .data[[paste0("c", j)]])) +
+      ggtitle(paste(lb1[j], lb2[j])) +
+      geom_point() +
+      xlab(" ") +
+      ylab(" ") -> cplot
+  plot(cplot)
+}
+```
+
+### Single cubic polynomial
+
+This is the matrix of independent variables for a single cubic polynomial.
+
 ```{r}
 kable(xm[1:21, 1:4])
+```
+
+The graph shown below represents the best fitting single cubic polynomial.
+
+```{r}
 single_cubic_model <- lm(y~c2+c3+c4, data=xm)
 single_cubic_model %>% 
   augment(newdata=xm) %>%
@@ -72,6 +101,8 @@ single_cubic_model %>%
     geom_line(aes(y=.fitted)) +
     ggtitle("Single cubic fit to the data")
 ```
+
+### Separate cubic polynomials
 
 So, we could fit a cubic model for the first five data points, for the second five, the third five, and the fourth five. This is a bit much: a cubic model has four parameters, so fitting four of them would use up 16 degrees of freedom in a data set with only 20 observations. But bear with me a bit on this.
 
