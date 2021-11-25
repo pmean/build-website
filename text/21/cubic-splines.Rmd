@@ -70,15 +70,29 @@ xm$y[1:21] <- y
 
 
 ```{r}
-display_terms <- function(df, lb) {
-  names(df) <- c("x", "y")
-  integer_data <- df[1:21, ]
-  ggplot(df, aes(x, y)) +
+display_curve <- function(dat, lb) {
+  # Plot a line connecting the points in dat
+  # Assume that column 1 is x and column 2 is y
+  # Work with either a data frame or matrix
+  dat %>%
+    data.frame %>%
+    select(1:2) %>%
+    set_names(c("x", "y")) %>%
+    ggplot(aes(x, y)) +
       ggtitle(lb) +
       geom_line() +
-      geom_point(data=integer_data, aes(x, y)) +
       xlab(" ") +
       ylab(" ")
+}
+
+display_dots <- function(cplot, dat) {
+  # Add dots in dat to an existing graph
+  # Assume that column 1 is x and column 2 is y
+  # Work with either a data frame or matrix
+  dat %>%
+    data.frame %>%
+    set_names(c("x", "y")) -> df
+  cplot + geom_point(data=df, aes(x, y))
 }
 
 lb1 <- rep(c("Intercept", "Linear term", "Quadratic term", "Cubic term"), 4)
@@ -86,10 +100,10 @@ lb2 <- rep(c("for the full range", "restarted at x=5", "restarted at x=10", "res
 lb <- paste(lb1, lb2)
 
 for (j in 1:16) {
-  xm %>% 
-    select(c(17, j)) %>%
-    display_terms(lb[j]) -> cplot
-  plot(cplot)
+  dat <- xm[ , c("x",  paste0("c", j))]
+  display_curve(dat, lb[j]) %>%
+    display_dots(dat[1:21, ]) %>%
+    plot
 }
 
 ```
@@ -105,19 +119,12 @@ kable(xm[1:21, 1:4])
 The graph shown below represents the best fitting single cubic polynomial.
 
 ```{r}
-display_fit <- function(model_fit, lb) {
-  model_fit %>%
-    augment(newdata=xm) %>%
-      ggplot(aes(c2, .fitted)) +
-        ggtitle(lb) +
-        geom_line() +
-        geom_point(aes(c2, y), na.rm=TRUE) +
-      xlab(" ") +
-      ylab(" ")
-}
 
 lm(y~c2+c3+c4, data=xm) %>%
-  display_fit("Single cubic fit")
+  augment %>%
+  select(c2, .fitted) %>%
+    display_curve("Single cubic fit") %>%
+    display_dots(simulated_example)
 ```
 
 ### Separate cubic polynomials
@@ -131,27 +138,39 @@ kable(xm[1:20, ])
 ```
 
 ```{r}
-
 lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)  %>%
-  display_fit("Discontinous cubic splines")
+  augment %>%
+  select(c2, .fitted) %>%
+    display_curve("Discontinous cubic splines") %>%
+    display_dots(simulated_example)
 ```
 
-
 This function is not continuous or smooth. To make the function continuous, drop the extra intercept terms.
+
+### Continuous splines
 
 ```{r}
 kable(xm[1:20, c(1:4, 6:8, 10:12, 14:16)])
 lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
-  display_fit("Continous but not smooth cubic splines")
+  augment %>%
+  select(c2, .fitted) %>%
+    display_curve("Continuous but not smooth cubic splines") %>%
+    display_dots(simulated_example)
 ```
 
-Smoothness is measured in terms of the continuity of derivatives. Here is a function that has a continuous first derivative.
+While this graph is continuos, it still takes some abrupt term. The mathemSmoothness is measured in terms of the continuity of derivatives. 
+
+### Smooth splines
+
+Here is a function that has a continuous first derivative.
 
 ```{r}
 kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
 lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
-  display_fit("Continous and Smooth (1st derivative) splines")
-
+  augment %>%
+  select(c2, .fitted) %>%
+    display_curve("Continuous and smooth (1st derivative) cubic splines") %>%
+    display_dots(simulated_example)
 ```
 
 Here is a function that has continuous first and second derivatives.
@@ -159,64 +178,77 @@ Here is a function that has continuous first and second derivatives.
 ```{r}
 kable(xm[1:20, c(1:4, 8, 12, 16)])
 lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
-  display_fit("Continous and smooth (1st and 2nd derivatives) cubic splines")
+  augment %>%
+  select(c2, .fitted) %>%
+    display_curve("Continous and smooth (1st and 2nd derivatives) cubic splines") %>%
+    display_dots(simulated_example)
 ```
 
-While this approach is simple, there is an issue with multicollinearity.
+This approach is simple and easy to follow, but there is one catch. There is an issue with multicollinearity.
 
 ```{r}
 round(cor(xm[c(2:4, 8, 12, 16)]), 2)
 ```
 
-This approach is simple and easy to follow, but there is one catch. The correlations are quite high and this can lead to computational problems, including rounding errors. So most spline models implemented on a computer use a different approach.
+The correlations are quite high and this can lead to computational problems, including rounding errors. So most spline models implemented on a computer use a different approach.
 
-B-splines provide a solution with less issues of multi-collinearity.
+### B-splines
+
+B-splines provide a solution with less issues of multi-collinearity. You use the bs function in the splines package to compute B-splines. 
+
+#### Linear B-splines
+
+Although most applications use cubic B-splines, they are available in other forms. Here is the linear spline.
 
 ```{r}
 linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
 kable(linear_spline[1:21, ])
 ```
 
+The terms in the linear B-splines are mostly piecewise linear functions. Notice how they are zero outside certain ranges.
+
 ```{r}
-display_matrix <- function(df, lb) {
-  names(df) <- c("x", "y")
-  integer_data <- df[1:21, ]
-  ggplot(df, aes(x, y)) +
-      ggtitle(lb) +
-      geom_line() +
-      geom_point(data=integer_data, aes(x, y)) +
-      xlab(" ") +
-      ylab(" ")
-}
 for (j in 1:dim(linear_spline)[2]) {
-  cbind(xm$c2, linear_spline[ , j]) %>% 
-    data.frame %>%
-    display_matrix("Linear spline terms") %>%
+  dat <- cbind(xm$c2, linear_spline[ , j])
+  display_curve(dat, "Linear B-spline terms") %>%
+    display_dots(dat[1:21, ]) %>%
     plot
 }
 ```
 
+```{r}
+round(cor(linear_spline), 1))
+```
 
 ```{r}
 lm(xm$y~linear_spline) %>%
-  display_fit("Linear splines")
+  augment %>%
+  bind_cols(xm$c2) %>%
+  select(c2, .fitted) %>%
+    display_curve("Linear spline fit to the data") %>%
+    display_dots(simulated_example)
 ```
 
 ```{r}
 quadratic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=2, intercept=TRUE)
 kable(quadratic_spline[1:21, ])
+```
 
+```{r}
 for (j in 1:dim(quadratic_spline)[2]) {
-  cbind(xm$c2, quadratic_spline[ , j]) %>% 
-    data.frame %>%
-    display_matrix("Quadratic spline terms") %>%
+  dat <- cbind(xm$c2, quadratic_spline[ , j])
+  display_curve(dat, "Quadratic B-spline terms") %>%
+    display_dots(dat[1:21, ]) %>%
     plot
 }
 ```
 
 ```{r}
 lm(xm$y~quadratic_spline) %>%
-  display_fit("Quadratic splines")
+  bind_cols(xm$c2) %>%
+  select(c2, .fitted) %>%
+    display_curve("Quadratic spline fit to the data") %>%
+    display_dots(simulated_example)
 ```
 
 ```{r}
@@ -227,16 +259,19 @@ kable(cubic_spline[1:21, ])
 
 ```{r}
 for (j in 1:dim(cubic_spline)[2]) {
-  cbind(xm$c2, cubic_spline[ , j]) %>% 
-    data.frame %>%
-    display_matrix("Cubic spline terms") %>%
+  dat <- cbind(xm$c2, cubic_spline[ , j])
+  display_curve(dat, "Cubic B-spline terms") %>%
+    display_dots(dat[1:21, ]) %>%
     plot
 }
 ```
 
 ```{r}
 lm(xm$y~cubic_spline) %>%
-  display_fit("Cubic splines")
+  bind_cols(xm$c2) %>%
+  select(c2, .fitted) %>%
+    display_curve("Cubic spline fit to the data") %>%
+    display_dots(simulated_example)
 ```
 
 
@@ -247,8 +282,10 @@ kable(natural_spline[1:21, ])
 
 
 ```{r}
+extended_x <- seq(-5, 25, by=1/64)
+extended_spline <- predict(natural_spline, extended_x)
 for (j in 1:dim(natural_spline)[2]) {
-  cbind(xm$c2, natural_spline[ , j]) %>% 
+  cbind(extended_x, extended_spline[ , j]) %>% 
     data.frame %>%
     display_matrix("Natural spline terms") %>%
     plot
@@ -260,3 +297,14 @@ lm(xm$y~natural_spline) %>%
   display_fit("Natural splines")
 ```
 
+
+References
+
+Donald H. House. Chapter 14. Spline Curves. Available in [pdf format][hou1].
+
+Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A review of spline function procedures in R. BMC Medical Research Methodology 19, 46 (2019). DOI: 10.1186/s12874-019-0666-3. Available in [html format][per1] or [pdf format][per2]. 
+
+[hou1]: https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf
+
+[per1]: https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0666-3
+[per2]: https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0666-3.pdf
