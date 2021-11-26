@@ -12,8 +12,10 @@ output: html_document
 ```{r setup}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(Hmisc)))
 suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(rms)))
 suppressMessages(suppressWarnings(library(splines)))
 suppressMessages(suppressWarnings(library(tidyr)))
 ```
@@ -121,7 +123,7 @@ The graph shown below represents the best fitting single cubic polynomial.
 ```{r}
 
 lm(y~c2+c3+c4, data=xm) %>%
-  augment %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Single cubic fit") %>%
     display_dots(simulated_example)
@@ -139,7 +141,7 @@ kable(xm[1:20, ])
 
 ```{r}
 lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)  %>%
-  augment %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Discontinous cubic splines") %>%
     display_dots(simulated_example)
@@ -152,13 +154,13 @@ This function is not continuous or smooth. To make the function continuous, drop
 ```{r}
 kable(xm[1:20, c(1:4, 6:8, 10:12, 14:16)])
 lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
-  augment %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Continuous but not smooth cubic splines") %>%
     display_dots(simulated_example)
 ```
 
-While this graph is continuos, it still takes some abrupt term. The mathemSmoothness is measured in terms of the continuity of derivatives. 
+While this graph is continuos, it still takes some abrupt term. The mathematical concept of smoothness is measured in terms of the continuity of derivatives. 
 
 ### Smooth splines
 
@@ -167,7 +169,7 @@ Here is a function that has a continuous first derivative.
 ```{r}
 kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
 lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
-  augment %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Continuous and smooth (1st derivative) cubic splines") %>%
     display_dots(simulated_example)
@@ -178,7 +180,7 @@ Here is a function that has continuous first and second derivatives.
 ```{r}
 kable(xm[1:20, c(1:4, 8, 12, 16)])
 lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
-  augment %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Continous and smooth (1st and 2nd derivatives) cubic splines") %>%
     display_dots(simulated_example)
@@ -222,7 +224,7 @@ Although there is some correlation, this not nearly as bad as the piecewise appr
 
 ```{r}
 lm(xm$y~cubic_spline) %>%
-  bind_cols(xm$c2) %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Cubic spline fit to the data") %>%
     display_dots(simulated_example)
@@ -250,8 +252,7 @@ for (j in 1:dim(linear_spline)[2]) {
 
 ```{r}
 lm(xm$y~linear_spline) %>%
-  augment %>%
-  bind_cols(xm$c2) %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Linear spline fit to the data") %>%
     display_dots(simulated_example)
@@ -273,35 +274,13 @@ for (j in 1:dim(quadratic_spline)[2]) {
 
 ```{r}
 lm(xm$y~quadratic_spline) %>%
-  bind_cols(xm$c2) %>%
+  augment(newdata=xm) %>%
   select(c2, .fitted) %>%
     display_curve("Quadratic spline fit to the data") %>%
     display_dots(simulated_example)
 ```
 
-```{r}
-cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
-kable(cubic_spline[1:21, ])
-```
-
-
-```{r}
-for (j in 1:dim(cubic_spline)[2]) {
-  dat <- cbind(xm$c2, cubic_spline[ , j])
-  display_curve(dat, "Cubic B-spline terms") %>%
-    display_dots(dat[1:21, ]) %>%
-    plot
-}
-```
-
-```{r}
-lm(xm$y~cubic_spline) %>%
-  bind_cols(xm$c2) %>%
-  select(c2, .fitted) %>%
-    display_curve("Cubic spline fit to the data") %>%
-    display_dots(simulated_example)
-```
-
+### Natural splines
 
 ```{r}
 natural_spline <- ns(xm$c2, knots=c(5, 10, 15), intercept=TRUE)
@@ -312,25 +291,81 @@ kable(natural_spline[1:21, ])
 ```{r}
 extended_x <- seq(-5, 25, by=1/64)
 extended_spline <- predict(natural_spline, extended_x)
-for (j in 1:dim(natural_spline)[2]) {
-  cbind(extended_x, extended_spline[ , j]) %>% 
-    data.frame %>%
-    display_matrix("Natural spline terms") %>%
+for (j in 1:dim(extended_spline)[2]) {
+  dat <- cbind(extended_x, extended_spline[ , j])
+  spline_dots <- cbind(0:20, extended_spline[extended_x %in% 0:20, j])
+  display_curve(dat, "Natural spline terms") %>%
+    display_dots(spline_dots) %>%
     plot
 }
 ```
 
 ```{r}
 lm(xm$y~natural_spline) %>%
-  display_fit("Natural splines")
+  augment(newdata=xm) %>%
+  select(c2, .fitted) %>%
+    display_curve("Natural spline fit to the data") %>%
+    display_dots(simulated_example)
 ```
 
+### How many knots?
 
-References
+#### Use AIC or BIC
+
+```{r}
+for (k in 3:7) {
+  knots <- 20*((1:k)-0.5)/k
+  lm(y~bs(c2, knots=knots), data=xm) -> rcs_fit
+  # lm(y~rcs(c2, k), data=xm) -> rcs_fit
+  ti <- paste0(k, " knots, AIC = ", round(AIC(rcs_fit), 1), ", BIC = ", round(BIC(rcs_fit), 1))
+  rcs_fit %>%
+    augment(newdata=xm) %>%
+    select(c2, .fitted) %>%
+      display_curve(ti) %>%
+      display_dots(simulated_example) -> cplot
+    plot(cplot + geom_vline(xintercept=knots, color="black", linetype="dotted"))
+}
+```
+
+#### Eyeball the data
+
+Look at the number of bends in the data. If the data increases to a single maximum and then decreases after that, a simpler spline with 2 or 3 knots may be sufficient. This also applies if the data decreases to a single minimum and then increases after that. If there are more bends (e.g., increase to a maximum, decrease to a minimum, and then increase again), then a larger number of knots may be needed.
+
+#### Frank Harrell's suggestions
+
+Use 4 knots if the total sample size is less than 100 and use 5 knots if it is more than 100.
+
+### Where to place the knots?
+
+#### Use inside knowledge
+
+Sometimes you have knowledge of the specific application that will help you to figure out where to put your knots. 
+
+I am not an expert on cars, but I have been told that many newer cars with automatic transmission change how the transmission behaves around 40 miles per hour. This transition helps with highway mileage. So if you are fitting a spline curve to data where how the transmission behaves, make sure that you place one or two of your knots near 40 miles per hour.
+
+I am also not an expert on kidneys, but I have been told that the Glomerural Filtration Rate is not too critical if the value is above 90, but becomes very serious when it is less than 30. So a model looking at health effects using GFR should probably have knots around 30 and 90.
+
+Similarly, CD4 cell counts above 500 are a good sign, but things turn rapidly worse if they dip below 200.
+
+#### Frank Harrell's suggestion
+
+Frank Harrell suggests that you place the knots not evenly across the range of X but at equally spaced quantiles of the X distribution. This makes sense when the distribution of the X values is not uniform. If, for example, X is skewed to the right (has a tendency to produce most of the data on the left with a few scattered outliers on the right), the knots will tend to favor the data-rich left side of the distribution. He also suggests placing the leftmost and rightmost knots near, but not at the extremes of the X values, such as at the 10th or 90th percentiles or at the fifth smallest and the fifth largest values in the data. The actual percentiles are a bit tricky to explain.
+
+*"For 3 knots, the outer quantiles used are 0.10 and 0.90. For 4-6 knots, the outer quantiles used are 0.05 and 0.95. For more than 6 knots, the outer quantiles are 0.025 and 0.975. The knots are equally spaced between these on the quantile scale. For fewer than 100 non-missing values of x, the outer knots are the 5th smallest and the 5th largest x."* as quoted [here][har1],
+
+If you pick this apart, you will find the 4 knots for a large dataset would be placed at the 5th, 35th, 65th and 95th percentiles.
+
+#### It doesn't matter
+
+Most references I have looked at state that it is the number of knots rather than the placement of the knots that is critical. 
+
+### References
 
 Donald H. House. Chapter 14. Spline Curves. Available in [pdf format][hou1].
 
 Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A review of spline function procedures in R. BMC Medical Research Methodology 19, 46 (2019). DOI: 10.1186/s12874-019-0666-3. Available in [html format][per1] or [pdf format][per2]. 
+
+[har1]: https://search.r-project.org/CRAN/refmans/Hmisc/html/rcspline.eval.html
 
 [hou1]: https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf
 
