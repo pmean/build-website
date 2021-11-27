@@ -160,11 +160,11 @@ lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
     display_dots(simulated_example)
 ```
 
-While this graph is continuos, it still takes some abrupt term. The mathematical concept of smoothness is measured in terms of the continuity of derivatives. 
+While this graph is continuous, it still takes some abrupt turns. What this curve lacks is smoothness. The mathematical concept of smoothness is measured in terms of the continuity of derivatives. 
 
 ### Smooth splines
 
-Here is a function that has a continuous first derivative.
+Here is a function that has a continuous first derivative. You fit this model by dropping the extra linear terms beyond the first one. Notice a pattern here. As you place additional restrictions on the spline (continuity, smoothness), you need fewer parameters. The four cubic models with no restrictions used up 16 degrees of freedom. When you added a continuity restriction, you only needed 13 degrees of freedom for the model. Add a smoothness restriction and you only need 10 degrees of freedom.
 
 ```{r}
 kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
@@ -175,7 +175,7 @@ lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
     display_dots(simulated_example)
 ```
 
-Here is a function that has continuous first and second derivatives.
+Here is a function that has continuous first and second derivatives. This is a greater degree of smoothness than above and it requires only 7 degrees of freedom.
 
 ```{r}
 kable(xm[1:20, c(1:4, 8, 12, 16)])
@@ -185,6 +185,12 @@ lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
     display_curve("Continous and smooth (1st and 2nd derivatives) cubic splines") %>%
     display_dots(simulated_example)
 ```
+
+This is what most people refer to when they talk about splines: a piecewise cubic model with continuity and continuous first and second derivatives. It is a fairly simple model (not that many degrees of freedom), but it produces a curve that has the flexibility to fit a variety of curves that have the aesthetically pleasing features of continuity and smoothness.
+
+Continuity and smoothness are more than just aesthetics, though. There are many scientific settings where we expect no jumps (discontinuities) and no abrupt turns (lack of smoothness). If you are measuring the onset of symptoms from a disease, you know that the viruses or bacteria that are causing the disease are increasing in a continuous and smooth pattern. So any problems that they cause should also increase in a continuous and smooth pattern.
+
+Other settings, however, should not necessarily be expected to produce continuous and smooth outcomes. If a particular metabolic pathway becomes saturated or an anotomical barrier is breached, the suddenness transition could result in an abrupt turn or a discontinuity. So do think about the particular context of your problem when deciding what type of spline model to use.
 
 This approach is simple and easy to follow, but there is one catch. There is an issue with multicollinearity.
 
@@ -203,7 +209,7 @@ cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
 kable(cubic_spline[1:21, ])
 ```
 
-The individual columns represent piecwise cubic polynomials. Notice how they are concentrated in certain intervals.
+The individual columns represent piecwise cubic polynomials. Notice how they are concentrated in certain intervals and there is only a partial overlap between these intervals. Notice also how they transition smoothly to zero outside those intervals.
 
 ```{r}
 for (j in 1:dim(cubic_spline)[2]) {
@@ -239,7 +245,7 @@ linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
 kable(linear_spline[1:21, ])
 ```
 
-The terms in the linear B-splines are mostly piecewise linear functions. Notice how they are zero outside certain ranges.
+The terms in the linear B-splines are mostly piecewise linear functions. Notice how they are zero outside certain ranges, with only a small amount of overlap between adjacent terms.
 
 ```{r}
 for (j in 1:dim(linear_spline)[2]) {
@@ -250,6 +256,8 @@ for (j in 1:dim(linear_spline)[2]) {
 }
 ```
 
+This is a linear spline fit to the data you have been using.
+
 ```{r}
 lm(xm$y~linear_spline) %>%
   augment(newdata=xm) %>%
@@ -258,10 +266,16 @@ lm(xm$y~linear_spline) %>%
     display_dots(simulated_example)
 ```
 
+A linear spline has continuity, but the nature of linear function makes it impossible to get smoothness.
+
+You can also compute quadratic splines.
+
 ```{r}
 quadratic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=2, intercept=TRUE)
 kable(quadratic_spline[1:21, ])
 ```
+
+Notice how the quadratic spline terms transition smoothly to zero outside certain intervals.
 
 ```{r}
 for (j in 1:dim(quadratic_spline)[2]) {
@@ -272,6 +286,8 @@ for (j in 1:dim(quadratic_spline)[2]) {
 }
 ```
 
+This is the fit of the quadratic spline. It can only produce smoothness up to a continuous first derivative, but the difference between this and smoothness with continuous first and second derivatives is subtle.
+
 ```{r}
 lm(xm$y~quadratic_spline) %>%
   augment(newdata=xm) %>%
@@ -280,13 +296,22 @@ lm(xm$y~quadratic_spline) %>%
     display_dots(simulated_example)
 ```
 
+The quadratic spline seems to do fairly well here and there is often little difference between it and the cubic spline. Nevertheless, cubic splines are far more common.
+
+You could also look at quartic splines (using fourth order polynomials) or even higher. Sometimes these are used when you need to examine not just the function itself, but its derivatives. These applications, however, are rare.
+
 ### Natural splines
+
+A variant on B splines are natural splines (also called restricted cubic splines). These splines place an additional restriction to the left of the first knot and to the right of the last knot. The spline is constrained to be linear at both extremes. This makes practical sense, as there is less data at the extremes, making estimation of a complex cubic function here worrisome. This also makes extrapolation outside of the range of data less problematic. Cubic polynomials have the potential of extreme shifts and if these occur outside the range of the data, they could lead to some awful extrapolations.
+
+You should always be very careful, of course, as any effort to extrapolate beyond the range of data is [dangerous][sim3]. Nevertheless, restricting the extrapolation to a linear function is probably safer than letting the cubic polynomial wiggle around.
 
 ```{r}
 natural_spline <- ns(xm$c2, knots=c(5, 10, 15), intercept=TRUE)
 kable(natural_spline[1:21, ])
 ```
 
+It is a bit tricky to show the extrapolation of nte natural splines. This approach uses the predict function.
 
 ```{r}
 extended_x <- seq(-5, 25, by=1/64)
@@ -300,17 +325,30 @@ for (j in 1:dim(extended_spline)[2]) {
 }
 ```
 
+Here is the natural spline fit to your simulated dataset.
+
 ```{r}
-lm(xm$y~natural_spline) %>%
-  augment(newdata=xm) %>%
+extended_y <- rep(NA, length(extended_x))
+extended_y[extended_x %in% 0:20] <- simulated_example$y
+lm(extended_y~extended_spline) %>%
+  augment(newdata=extended_spline) %>%
+  data.frame(c2=extended_x) %>%
   select(c2, .fitted) %>%
     display_curve("Natural spline fit to the data") %>%
     display_dots(simulated_example)
 ```
 
+You can probably see the linearity below 5 and above 15.
+
 ### How many knots?
 
+A difficult question is how many knots to use. Too many knots and you might end up overfitting. Too few and you might end up with not enough flexibility to fit your data well.
+
 #### Use AIC or BIC
+
+The AIC (Akaike Information Criterion) and the BIC (Bayesian Information Criterion) are useful measures for comparing different statistical models. In linear regression both AIC and BIC look at how close the fitted curve is to the data, but adds a penalty for model complexity. This helps avoid the situation where an excessively complex model with only marginally better predictive power is selected over a simpler model that predicts almost as well.
+
+NOte that a p-value will not work here except in some special cases where all of the knots but one coincide. The p-value fails because (with a few rare exceptions) one spline model is not nested inside another.
 
 ```{r}
 for (k in 3:7) {
@@ -335,6 +373,14 @@ Look at the number of bends in the data. If the data increases to a single maxim
 
 Use 4 knots if the total sample size is less than 100 and use 5 knots if it is more than 100.
 
+#### Pick a number based on your a priori beliefs
+
+You may have a feel for how much complexity is appropriate based on your years of experience as a data analyst and your scientific knowledge of the process at hand. After you work with enough splines, you do get an appreciation on how wiggly they can get. If you also have a rough idea of how the nonlinear relationship is going to be, perhaps based on seeing other similar problems in the area, you can match the degrees of freedom of the spline to your expectation, prior to looking at the data.
+
+#### Pick a number after looking at some preliminary graphs
+
+This is a bit controversial. Selecting a statistical model post hoc (after viewing the data) leaves you open to a charge of data dredging or going on a fishing expedition. To be fair, it is not as bad as some approaches (such as running ten tests and then choosing the one with the smallest p-value).
+
 ### Where to place the knots?
 
 #### Use inside knowledge
@@ -353,11 +399,30 @@ Frank Harrell suggests that you place the knots not evenly across the range of X
 
 *"For 3 knots, the outer quantiles used are 0.10 and 0.90. For 4-6 knots, the outer quantiles used are 0.05 and 0.95. For more than 6 knots, the outer quantiles are 0.025 and 0.975. The knots are equally spaced between these on the quantile scale. For fewer than 100 non-missing values of x, the outer knots are the 5th smallest and the 5th largest x."* as quoted [here][har1],
 
-If you pick this apart, you will find the 4 knots for a large dataset would be placed at the 5th, 35th, 65th and 95th percentiles.
+If you pick this apart, you can deduce that 4 knots for a large dataset would be placed at the 5th, 35th, 65th and 95th percentiles.
 
 #### It doesn't matter
 
 Most references I have looked at state that it is the number of knots rather than the placement of the knots that is critical. 
+
+Here are B-spline models with knots sliding from 3, 8, 13 to 7, 12, 17.
+
+```{r}
+for (k in 3:7) {
+  knots <- k + c(0, 5, 10)
+  lm(y~bs(c2, knots=knots), data=xm) -> rcs_fit
+  # lm(y~rcs(c2, k), data=xm) -> rcs_fit
+  ti <- paste0("Knots at ", paste(knots, collapse=", "))
+  rcs_fit %>%
+    augment(newdata=xm) %>%
+    select(c2, .fitted) %>%
+      display_curve(ti) %>%
+      display_dots(simulated_example) -> cplot
+    plot(cplot + geom_vline(xintercept=knots, color="black", linetype="dotted"))
+}
+```
+
+There are a few change in the spline functions as the knots move, but the changes are not very large in magnitude.
 
 ### References
 
@@ -371,3 +436,5 @@ Aris Perperoglou, Willi Sauerbrei, Michal Abrahamowicz, Matthias Schmid. A revie
 
 [per1]: https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0666-3
 [per2]: https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0666-3.pdf
+
+[sim3]: http://new.pmean.com/extrapolation-joke/
