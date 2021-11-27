@@ -70,6 +70,13 @@ xm <- data.frame(
 xm$y[1:21] <- y
 ```
 
+This is what the various pieces look like numerically ...
+
+```{r}
+kable(xm[1:21, 1:16])
+```
+
+... and graphically.
 
 ```{r}
 display_curve <- function(dat, lb) {
@@ -112,12 +119,6 @@ for (j in 1:16) {
 
 ### Single cubic polynomial
 
-This is the matrix of independent variables for a single cubic polynomial.
-
-```{r}
-kable(xm[1:21, 1:4])
-```
-
 The graph shown below represents the best fitting single cubic polynomial.
 
 ```{r}
@@ -133,11 +134,7 @@ lm(y~c2+c3+c4, data=xm) %>%
 
 So, we could fit a cubic model for the first five data points, for the second five, the third five, and the fourth five. This is a bit much: a cubic model has four parameters, so fitting four of them would use up 16 degrees of freedom in a data set with only 20 observations. But bear with me a bit on this.
 
-The trick to fitting four separate cubic polynomials is to "restart" the cubic terms after x=5, x=10, and x=15.
-
-```{r}
-kable(xm[1:20, ])
-```
+The trick to fitting four separate cubic polynomials is to "restart" the intercept, linear, quadratic, and cubic terms after x=5, x=10, and x=15, as shown above. This leads to a model with 16 degrees of freedom. This is way too many degrees of freedom for only 20 data points, but it helps anchor a series of more reasonable models.
 
 ```{r}
 lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)  %>%
@@ -152,7 +149,6 @@ This function is not continuous or smooth. To make the function continuous, drop
 ### Continuous splines
 
 ```{r}
-kable(xm[1:20, c(1:4, 6:8, 10:12, 14:16)])
 lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -167,7 +163,6 @@ While this graph is continuous, it still takes some abrupt turns. What this curv
 Here is a function that has a continuous first derivative. You fit this model by dropping the extra linear terms beyond the first one. Notice a pattern here. As you place additional restrictions on the spline (continuity, smoothness), you need fewer parameters. The four cubic models with no restrictions used up 16 degrees of freedom. When you added a continuity restriction, you only needed 13 degrees of freedom for the model. Add a smoothness restriction and you only need 10 degrees of freedom.
 
 ```{r}
-kable(xm[1:20, c(1:4, 7:8, 11:12, 15:16)])
 lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -178,7 +173,6 @@ lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
 Here is a function that has continuous first and second derivatives. This is a greater degree of smoothness than above and it requires only 7 degrees of freedom.
 
 ```{r}
-kable(xm[1:20, c(1:4, 8, 12, 16)])
 lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -206,7 +200,6 @@ B-splines provide a solution with less issues of multi-collinearity. You use the
 
 ```{r}
 cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
-kable(cubic_spline[1:21, ])
 ```
 
 The individual columns represent piecwise cubic polynomials. Notice how they are concentrated in certain intervals and there is only a partial overlap between these intervals. Notice also how they transition smoothly to zero outside those intervals.
@@ -242,7 +235,6 @@ Although most applications use cubic B-splines, they are available in other form
 
 ```{r}
 linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
-kable(linear_spline[1:21, ])
 ```
 
 The terms in the linear B-splines are mostly piecewise linear functions. Notice how they are zero outside certain ranges, with only a small amount of overlap between adjacent terms.
@@ -338,7 +330,7 @@ lm(extended_y~extended_spline) %>%
     display_dots(simulated_example)
 ```
 
-You can probably see the linearity below 5 and above 15.
+You can probably see the linearity at the extremes of the data.
 
 ### How many knots?
 
