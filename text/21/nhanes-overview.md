@@ -33,7 +33,7 @@ These PSUs are assigned to different strata. These strata represent PSUs in a sp
 
 PSU's are sampled relative to their population size, with larger PSUs having a greater probability of selection. Some PSUs are so large that the probability of sampling them becomes 1. Others have sampling probabilities less than 1. The PSUs with sampling probabilities less than one are upweighted. 
 
-An overly simplistic explanation of why this is important is that PSUs with sampling probabilities less than 1 have to represent their peers that weren't selected along with themselves. So, hypothetically, if you selected 2 PSUs out of a strata that had 20, you would have to upweight any estimates of those PSUs by 10 because each selected PSUs represents 10 PSUs (itself plus 9 unselected PSUs). This differential probability of sampling PSUs is the first reason you need to account for weights in NHANES.
+An overly simplistic explanation of why this is important is that PSUs with sampling probabilities less than 1 have to represent their peers that weren't selected along with themselves. So, hypothetically, if you selected 2 PSUs out of a strata that had 20, you would have to upweight any estimates of those PSUs by 10 because each selected PSUs represents 10 PSUs (itself plus 9 unselected PSUs). **This differential probability of sampling PSUs is the first reason you need to account for weights in NHANES.**
 
 The second stage of sampling occurs at the census block level. A census block is a small geographic region, sometimes as small as a single city block in big densely populated cities, but larger in less densely populated areas. Census blocks (or sometimes a collection of several census blocks) are randomly sampled within each selected PSU.
 
@@ -41,7 +41,7 @@ These census blocks are also selected relative to their population size and weig
 
 A third stage of sampling occurs at the dwelling unit (DU). A DU could be a single family house, a duplex, or a multi-family apartment building. A random sample of DUs are selected within each selected city block.
 
-The fourth and final stage of sampling occurs at the invididual person level as a limited number of residents are selected randomly from each DU.
+The fourth and final stage of sampling occurs at the individual person level as a limited number of residents are selected randomly from each DU.
 
 ### Oversampling
 
@@ -50,16 +50,26 @@ In order to insure accurate estimation, certain demographic groups are oversampl
 + Hispanic persons;
 + Non-Hispanic black persons;
 + Non-Hispanic, non-black Asian persons;
-+ Non-Hispanic white persons and persons of other racesand ethnicities at or below 185% of the federal povertylevel; and
-+ Non-Hispanic white persons and persons of other races andracesand ethnicities aged 0–11 years or 80 years and over.
++ Non-Hispanic white persons and persons of other racesand ethnicities at or below 185% of the federal poverty level; and
++ Non-Hispanic white persons and persons of other races and ethnicities aged 0–11 years or 80 years and over.
 
-When these oversampled groups are included in national averages, you need to downweight them so that they don't skew the results. Oversampling is the second reason why you need to account for weights in NHANES.
+When these oversampled groups are included in national averages, you need to downweight them so that they don't skew the results. **Oversampling is the second reason why you need to account for weights in NHANES.**
 
 ### Timing
 
-Continuous NHANES runs in four year cycles. 60 PSUs are selected for each cycle and divided carefully into groups of 15 PSUs for each year. The selection insures that the 15 PSUs can produce nationally representative samples. The publicly available NHANES data, however, is aggregated into two year intervals. The aggregation is done to help preserve privacy. Researchers who need to see year by year results must work at special Research Data Centers (RDCs) where access to the data is restricted to special computers to avoid disclosure of sensitive information.
+Continuous NHANES runs in four year cycles. 60 PSUs are selected for each cycle and divided carefully into groups of 15 PSUs for each year. The selection insures that the 15 PSUs can produce nationally representative samples. 
+
+The publicly available NHANES data, however, is aggregated into two year intervals. The aggregation is done to help preserve privacy. Researchers who need to see year by year results must work at special Research Data Centers (RDCs) where access to the data is restricted to special computers to avoid disclosure of sensitive information.
+
+If you are working with smaller demographic groups, you may need to aggregate across four years in order to get adequate precision.
 
 ### Non-response
+
+Participation in the NHANES survey is optional, so nonresponse is a problem. Nonresponse, at a minimum, reduces your precision. If different demographic groups have different nonresponse rates, you run the risk of losing the nationally representativeness of the survey. 
+
+The weights for individual patients are adjusted upwards in those demographic groups with high nonresponse rates to prevent these groups from being underrepresented in the overall sample.
+
+**Nonresponse is the third reason why you need to account for weights in NHANES.**
 
 ### Components
 
