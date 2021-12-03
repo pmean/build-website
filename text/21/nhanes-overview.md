@@ -71,22 +71,57 @@ The weights for individual patients are adjusted upwards in those demographic gr
 
 **Nonresponse is the third reason why you need to account for weights in NHANES.**
 
+### Subsamples
+
+NHANES includes multiple components (see below) and to save time and money, some of these components were administered to a subsample rather than the entire sample. As an example, only some of the participants aged 12 years and older were asked to provide blood samples for testing. There is an additional weight that you should incorporate to account for these subsamples.
+
+This makes it a bit tricky, as you need to use different weights depending on whether you are using certain components of NHANES. If you are just using the interview data, the weighting variable is WTINT2YR. If, however, you use the tests of various metals in the blood sample, you need to use WTSH2YR as the weights.
+
+**Subsamples for certain components of NHANES are the fourth reason wy you need to account for weights.**
+
+### Impact of the pandemic
+
+Because of the COVID-19 pandemic, all data collection for NHANES was [suspended in March 2020][cdc04]. This was a bit more than halfway through the planned 2019-2020 cycle. Although data collection was completed in 18 out of 30 Primary Sampling Units, these were not nationally representative. The partial data from this incomplete cycle was reweighted and combined with the previous two year cycle (2017-2018) to create the 2017-March 2020 pre-pandemic files.
+
 ### Components
 
 #### Questionnaire
 
-#### Dietary assessment
+Everyone in the NHANES sample gets a detailed questionnaire that asks about demographics and medical history of the participant and the participant's family. Depending on a variety of factors, one, some, all, or none of the residents were selected to participate in the interview.
 
 #### Medical Examination
 
-#### Laboratory measures
+Some participants were asked to submit to a medical exam at a Mobile Exam Center (MEC), a series of mobile home trailers with various examination rooms. The physical exam takes about four hours.
 
+A detailed dietary interview was also conducted at the MEC.
 
-[cdc01]: https://www.cdc.gov/nchs/nhanes/history.htm
-[cdc02]: https://www.cdc.gov/nchs/nhanes/index.htm
-[cdc03]: https://www.cdc.gov/nchs/data/series/sr_02/sr02-184-508.pdf
+A subsample of those invited to the MEC were asked to provide biological specimens (blood, hair, nasal swab, oral rinse, urine, and vaginal swab).
 
+A subsample of patients received an addtional post-examination assessment. 
 
+### Data analysis
+
+CDC provides some [general cautions][cdc05] about data analysis. More specific guidance is available in a [web tutorial][cdc06]. The importance of using proper software to account for the complex survey design was repeatedly stressed. 
+
+#### Sample size issues
+
+Group means and proportions between 0.25 and 0.75 should have a minimum sample size of 30. In addition, the effective sample size (sample size divided by the design effect) should also be at least 30. Any estimate with a relative standard error of 30% or greater should be explicitly identified as unreliable.
+
+The criteria for proportions smaller than 0.25 or larger than 0.75 should require larger sample sizes, though the document does not explain this in any more detail. Alternative confidence intervals such as the Clopper-Pearson interval are also recommended for these proportions.
+
+#### Population restrictions
+
+If you wish to look at restrictions to your population (e.g., only children), you need to keep all of the data including adults and specify your restriction using a domain (subdomain, subpopulation) command.
+
+In SAS, the domain is specified using the TABLES statement in PROC SURVEYFREQ and the DOMAIN statement in all other survey procedures.
+
+#### Taylor series linearization
+
+There are several approximations that are available in most data analysis software for estimating variances. The CDC recommends an approach, Taylor series linearization, for variance estimation. In SAS, you specify this using VARMETHOD=TAYLOR
+
+#### Survey design variables
+
+Information about the clustering and stratification also needs to be specified. In SAS, you need to account for these using the STRATA, CLUSTER, AND WEIGHT statements.
 
 Beilfuss, J., Camargo Jr, C.A., Kamycheva E. (2017). Serum 25-Hydroxyvitamin D Has a Modest Positive Association with Leukocyte Telomere Length in Middle-Aged US Adults. Journal of Nutrition. doi:10.3945/jn.116.244137.
 
@@ -97,3 +132,9 @@ Chang, T., Ravi, N., Plegue, M.A., Sonneville, K.R., Davis, M.M. (2016). Inadequ
 Gabriel, A., Cohen, C.C., Sun, C. (2014). Consent to specimen storage and continuing studies by race and ethnicity: a large dataset analysis using the 2011-2012 National Health and Nutrition Examination Survey. Scientific World Journal. doi:10.1155/2014/120891.
 
 Johnson, C.L., Dohrmann, S.M., Burt, V.L., Mohadjer, L.K. (2014). National Health and Nutrition Examination Survey: Sample design, 2011–2014. Vital and Health Statistics.
+[cdc01]: https://www.cdc.gov/nchs/nhanes/history.htm
+[cdc02]: https://www.cdc.gov/nchs/nhanes/index.htm
+[cdc03]: https://www.cdc.gov/nchs/data/series/sr_02/sr02-184-508.pdf
+[cdc04]: https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overviewbrief.aspx?cycle=2017-2020
+[cdc05]: https://wwwn.cdc.gov/nchs/data/nhanes/analyticguidelines/11-16-analytic-guidelines.pdf
+[cdc06]: https://wwwn.cdc.gov/nchs/nhanes/tutorials/module4.aspx
