@@ -13,9 +13,9 @@ output: html_document
 An email on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 group outlines a new treatment that is:
 
-> 1\. without any significant competing treatments,\
-> 2. utilized in a heterogenous patient population,\
-> 3. difficult to study in a randomized trial.
+1. without any significant competing treatments,
+2. utilized in a heterogenous patient population,
+3. difficult to study in a randomized trial.
 
 There are a variety of alternatives to a randomized study, but I suspect
 that this person wants to use a historical control study. It sounds like
@@ -39,12 +39,13 @@ this may not pay off in terms of convincing others to adopt this new
 therapy that you seem to like. The only time that historical controls
 are found to be acceptable is when:
 
-> a\) there is no competing therapy available; and\
-> b) the disease causes close to 100% mortality or morbidity.
+a) there is no competing therapy available; and\
+
+b) the disease causes close to 100% mortality or morbidity.
 
 Some have added a third condition
 
-> c\) the disease is well characterized in a highly homogenous population.
+c) the disease is well characterized in a highly homogenous population.
 
 This latter condition would exclude any disease defined as a
 "syndrome" (a disease that is defined by a constellation of symptoms

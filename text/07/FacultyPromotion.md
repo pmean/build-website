@@ -27,13 +27,7 @@ The guidelines for promotion are on the web at
 -   <http://www.med.umkc.edu/facultyguidelines/NontenureGuidelines.pdf>
 
 My credentials are reviewed by a committee of
-
-> *five Professors and Associate Professors who themselves are
-> non-regular (non-tenure), non-MD and nonclinical MD faculty, plus the
-> Chairman of the UMKC SOM Appointment and Promotion Committee for MD
-> Faculty who shall serve ex officio and the school's faculty
-> representative to the UMKC Promotion and Continuous Appointment
-> Advisory Committee.*
+*five Professors and Associate Professors who themselves arenon-regular (non-tenure), non-MD and nonclinical MD faculty, plus theChairman of the UMKC SOM Appointment and Promotion Committee for MDFaculty who shall serve ex officio and the school's facultyrepresentative to the UMKC Promotion and Continuous AppointmentAdvisory Committee.*
 
 If they like me, my application is reviewed by the Dean of the School of
 Medicine. If I pass that hurdle, then I am reviewed by a university wide
@@ -84,9 +78,7 @@ Specific markers of excellence in research include
 3.  *funding for investigative projects.*
 
 The guidelines also remind you that
-
-> *they are neither a rigid requirement nor an all inclusive list of
-> acceptable scholarly activities*
+*they are neither a rigid requirement nor an all inclusive list ofacceptable scholarly activities*
 
 The application form for promotion includes
 
@@ -102,9 +94,7 @@ letters.
 
 The guidelines suggest that candidates for promotion maintain a journal
 or portfolio
-
-> *which identify scholarly activities in sufficient detail to be
-> recognized and evaluated by their peers.*
+*which identify scholarly activities in sufficient detail to berecognized and evaluated by their peers.*
 
 This portfolio is something, perhaps, that I can develop on these web
 pages.

@@ -28,44 +28,4 @@ changes that have broad financial implications.
 I'm hoping that a letter to Amstat News would be a good way to kick off
 this campaign. Here's what I found about submitting letters to Amstat
 News:
-
-> *Amstat News* *welcomes news items and letters from readers on matters
-> of interest to the Association and the profession. E-mail
-> correspondence to amstat (at) amstat.org. Items must be received by
-> the first of the preceding month to ensure appearance in the next
-> issue (e.g., June 1 for the July issue).* *Amstat News* *accepts
-> material in a Word document, a text file, or .pdf document, or as text
-> within an email. (WordPerfect and LaTex documents cannot be opened.) A
-> full page is approximately 1,200 words. Please note that the articles
-> may be edited for space. If you would like to see a pdf proof of your
-> article please make the request at submission time. Artwork should be
-> sent at 300 dpi and as a .jpg, .tif, or .pdf format.*
-> [www.amstat.org/publications/amsn/index.cfm?fuseaction=contact](http://www.amstat.org/publications/amsn/index.cfm?fuseaction=contact)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Need for a conflict of interest
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
---->
-
+*Amstat News* *welcomes news items and letters from readers on mattersof interest to the Association and the profession. E-mailcorrespondence to amstat (at) amstat.org. Items must be received bythe first of the preceding month to ensure appearance in the nextissue (e.g., June 1 for the July issue).* *Amstat News* *acceptsmaterial in a Word document, a text file, or .pdf document, or as textwithin an email. (WordPerfect and LaTex documents cannot be opened.) Afull page is approximately 1,200 words. Please note that the articlesmay be edited for space. If you would like to see a pdf proof of yourarticle please make the request at submission time. Artwork should besent at 300 dpi and as a .jpg, .tif, or .pdf format.*[www.amstat.org/publications/amsn/index.cfm?fuseaction=contact](http://www.amstat.org/publications/amsn/index.cfm?fuseaction=contact)

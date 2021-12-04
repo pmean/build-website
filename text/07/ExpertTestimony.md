@@ -13,8 +13,8 @@ Sir Roy Meadow is an expert on child abuse, having published a landmark
 paper in 1977 on a condition known as Munchausen Syndrome by Proxy. An
 observation of his
 
-> "one sudden infant death in a family is a tragedy, two is suspicious
-> and three is murder, unless proven otherwise."
+"one sudden infant death in a family is a tragedy, two is suspicious
+and three is murder, unless proven otherwise."
 
 became knows as "Meadow's Law".
 

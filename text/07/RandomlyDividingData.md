@@ -16,7 +16,12 @@ that has n rows and you want to split the data set into a group that has
 proportion p of the rows and a group that has the remaining proportion
 (1-p). You want to do this randomly. Here is the code in R to do this.
 
-`m <- trunc(n*p)   a <- sample(1:n,m)   b <- x[a,]   c <- x[-a,]`
+```{}
+m <- trunc(n*p)
+a <- sample(1:n,m)
+b <- x[a,]
+c <- x[-a,]
+```
 
 The sample function randomly selects m values from the vector 1:n. The
 use of the negative sign in the last line tells R that you wish to

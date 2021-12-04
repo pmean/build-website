@@ -17,17 +17,10 @@ of the research.
 
 You don't have to look too hard for justifying a review of a study's
 methodology. Point \#18 of the Declaration of Helsinki reads:
-
-> *Medical research involving human subjects should only be conducted if
-> the importance of the objective outweighs the inherent risks and
-> burdens to the subject. This is especially important when the human
-> subjects are healthy volunteers.*
+*Medical research involving human subjects should only be conducted ifthe importance of the objective outweighs the inherent risks andburdens to the subject. This is especially important when the humansubjects are healthy volunteers.*
 
 Point \#2 of the Nuremberg code reads:
-
-> *The experiment should be such as to yield fruitful results for the
-> good of society, unprocurable by other methods or means of study, and
-> not random and unnecessary in nature.*
+*The experiment should be such as to yield fruitful results for thegood of society, unprocurable by other methods or means of study, andnot random and unnecessary in nature.*
 
 When someone volunteers for a medical experiment, they are, at a
 minimum, **sacrificing some level of convenience**. They may endure
