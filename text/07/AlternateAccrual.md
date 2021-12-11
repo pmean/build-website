@@ -16,12 +16,30 @@ You can actually monitor accrual in this case, and it requires that the date and
 Here's an example of what this type of data might look like (this is simulated data).
 
 ```{}
-01-OCT-2007 03:36:00 0    01-OCT-2007 17:02:24 1    02-OCT-2007 15:50:24 1    03-OCT-2007 00:00:00 1
-03-OCT-2007 04:04:48 1    04-OCT-2007 08:52:48 1    04-OCT-2007 19:12:00 1    05-OCT-2007 09:21:36 1
-05-OCT-2007 10:33:36 1    05-OCT-2007 13:12:00 1    05-OCT-2007 16:48:00 1    05-OCT-2007 17:45:36 0
-06-OCT-2007 17:02:24 1    06-OCT-2007 21:07:12 1    08-OCT-2007 03:21:36 1    10-OCT-2007 18:43:12 1
-11-OCT-2007 15:21:36 1    11-OCT-2007 22:33:36 1    13-OCT-2007 05:31:12 1    13-OCT-2007 06:28:48 1
-13-OCT-2007 09:07:12 0    14-OCT-2007 16:48:00 1    14-OCT-2007 23:02:24 1    15-OCT-2007 05:02:24 1
+01-OCT-2007 03:36:00 0
+01-OCT-2007 17:02:24 1
+02-OCT-2007 15:50:24 1
+03-OCT-2007 00:00:00 1
+03-OCT-2007 04:04:48 1
+04-OCT-2007 08:52:48 1
+04-OCT-2007 19:12:00 1
+05-OCT-2007 09:21:36 1
+05-OCT-2007 10:33:36 1
+05-OCT-2007 13:12:00 1
+05-OCT-2007 16:48:00 1
+05-OCT-2007 17:45:36 0
+06-OCT-2007 17:02:24 1
+06-OCT-2007 21:07:12 1
+08-OCT-2007 03:21:36 1
+10-OCT-2007 18:43:12 1
+11-OCT-2007 15:21:36 1
+11-OCT-2007 22:33:36 1
+13-OCT-2007 05:31:12 1
+13-OCT-2007 06:28:48 1
+13-OCT-2007 09:07:12 0
+14-OCT-2007 16:48:00 1
+14-OCT-2007 23:02:24 1
+15-OCT-2007 05:02:24 1
 16-OCT-2007 03:36:00 1`
 
 There are several ways to approach this data, but a very simple method would be to count the number of EKGs between successive failures to complete the proper paperwork. The values would be

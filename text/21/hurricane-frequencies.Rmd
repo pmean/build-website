@@ -1,0 +1,378 @@
+---
+title: "Overfitting example using hurricane frequencies"
+author: "Steve Simon"
+source: "New"
+date: "2021-12-11"
+categories:
+- Blog post
+tags:
+- Generalized linear model
+output: html_document
+---
+
+```{r notes}
+# Note: this code can produce a reasonable PowerPoint
+# presentation. The system has an annoying tendency
+# to put the graphs and the speaker notes on separate
+# slides.
+```
+
+### Overfitting
+
+Overfitting occurs when a statistical model is too complex for the amount of data that it is based on. The summary statistics on the data itself appear to be quite good, but the model will almost always produce poor predictions for new data. Here is an example of overfitting using [data on hurricane frequencies][dasl1] from the [Data and Story Library site][dasl2].
+
+```{r setup, echo=FALSE}
+suppressMessages(suppressWarnings(library(broom)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(magrittr)))
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+### The data used in this example (1/2)
+
+```{r read1}
+fn <- "https://dasl.datadescription.com/download/data/3279"
+raw_data <- read.delim(file=fn, header=TRUE, sep="\t")
+raw_data[1:8, ]
+```
+
+<div class="notes">
+
+This [dataset on hurricane frequency][dasl1] is found at the [Data and Story Library website][dasl2]. 
+
+Here are the first eight rows of data. 
+
+</div>
+
+### The data used in this example (2/2)
+
+```{r read2}
+raw_data[9:16, ]
+```
+
+<div class="notes">
+
+Here is the rest of the data.
+
+</div>
+
+### Plot the data
+
+```{r plot}
+df <- data.frame(x=seq(1855, 1995, by=10), y=raw_data$Count[1:15])
+ggplot(df, aes(x, y)) + 
+  geom_point() -> point_plot
+plot(point_plot)
+```
+
+<div class="notes">
+
+Here's what the data looks like in a graph. Nothing too unusual about the data. Now let's try to forecast the number of hurricanes for the next decade.
+
+</div>
+
+### Plot the data with a linear prediction
+
+```{r poly1}
+add_trend <- function(point_plot, df, degree) {
+  x_grid <- data.frame(x=seq(1850, 2010, by=0.1))
+  lm(y~poly(x, degree), data=df) %>%
+    augment(newdata=x_grid) -> yhat
+  yhat_2005 <- filter(yhat, x==2005)
+  prediction <<- yhat_2005$.fitted
+  point_plot +
+    geom_line(data=yhat, aes(x, .fitted), color="red") +
+    geom_label(
+      data=yhat_2005, 
+      aes(x, .fitted, label=round(.fitted, 1)))
+}
+add_trend(point_plot, df, 1)
+```
+
+<div class="notes">
+
+Here's a linear trend. The prediction is `r prediction` for the next decade.
+
+</div>
+
+### Plot the data with a quadratic prediction
+
+```{r poly2}
+add_trend(point_plot, df, 2)
+```
+
+<div class="notes">
+
+Here's a quadratic trend. The prediction is `r prediction`. It's quite a bit different.
+
+</div>
+
+### Plot the data with a cubic prediction
+
+```{r poly3}
+add_trend(point_plot, df, 3)
+```
+
+<div class="notes">
+
+Here's a cubic (third order polynomial trend. The prediction is now `r prediction`.
+
+</div>
+
+### Plot the data with a 4th order polynomial
+
+```{r poly4}
+add_trend(point_plot, df, 4)
+```
+
+<div class="notes">
+
+Here's a quartic (fourth order polynomial) trend. The prediction is `r prediction`.
+
+</div>
+
+### Plot the data with a 5th order polynomial
+
+```{r poly5}
+add_trend(point_plot, df, 5)
+```
+
+<div class="notes">
+
+Here's a fifth order polynomial trend. The prediction is `r prediction`.
+
+</div>
+
+### Plot the data with a 6th order polynomial
+
+```{r poly6}
+add_trend(point_plot, df, 6)
+```
+
+<div class="notes">
+
+Here's where things get very weird. The sixth order polynomial produces a prediction of `r prediction`, which is more than twice as large as any previous value.
+
+</div>
+
+### Plot the data with a 7th order polynomial
+
+```{r poly7}
+add_trend(point_plot, df, 7)
+```
+
+<div class="notes">
+
+The weirdness continues with the seventh order polynomial trend, which produces a negative prediction (`r prediction`.
+
+</div>
+
+### Plot the data with a 8th order polynomial
+
+```{r poly8}
+add_trend(point_plot, df, 8)
+```
+
+<div class="notes">
+
+The eigth order polynomial trend also produces a negative prediction (`r prediction`).
+
+</div>
+
+### Plot the data with a 9th order polynomial
+
+```{r poly9}
+add_trend(point_plot, df, 9)
+```
+
+<div class="notes">
+
+Here's a ninth order polynomial trend. The prediction is so extreme (`r prediction`) as to be ridiculous.
+
+</div>
+
+### Plot the data with a 10th order polynomial
+
+```{r poly10}
+add_trend(point_plot, df, 10)
+```
+
+<div class="notes">
+
+For the record, here are the tenth...
+
+</div>
+
+
+
+### Plot the data with a 11th order polynomial
+
+```{r poly11}
+add_trend(point_plot, df, 11)
+```
+
+<div class="notes">
+
+... eleventh ... 
+
+</div>
+
+### Plot the data with a 12th order polynomial
+
+```{r poly12}
+add_trend(point_plot, df, 12)
+```
+
+<div class="notes">
+
+... twelfth ...
+
+</div>
+
+### Plot the data with a 13th order polynomial
+
+```{r poly13}
+add_trend(point_plot, df, 13)
+```
+
+<div class="notes">
+
+... thirteenth ...
+
+</div>
+
+### Plot the data with a 14th order polynomial
+
+```{r poly14}
+add_trend(point_plot, df, 14)
+```
+
+<div class="notes">
+
+... and fourteenth order polynomials.
+
+</div>
+
+
+
+### Code that I used
+
+```{r reset}
+knitr::opts_chunk$set(echo=TRUE)
+knitr::opts_chunk$set(eval=FALSE)
+```
+
+```{r setup}
+```
+
+<div class="notes">
+
+Here are the libraries that I needed for this work.
+
+</div>
+
+### Code that I used
+
+```{r read1}
+```
+
+<div class="notes">
+
+This code reads data directly from the website and prints out the first eight rows.
+
+</div>
+
+### Code that I used
+
+```{r read2}
+```
+
+<div class="notes">
+
+This code is for printing the rest of the data.
+
+</div>
+
+### Code that I used
+
+```{r plot}
+```
+
+<div class="notes">
+
+Here's the code for plotting the data points. I save the graph in an object so I can add trend lines later on.
+
+</div>
+
+### Code that I used
+
+```{r poly1}
+```
+
+<div class="notes">
+
+Here's the code for adding a trend line to the graph. I am setting up a flexible function that can print the trend from any polynomial.
+
+</div>
+
+### Code that I used
+
+```{r poly2}
+```
+
+<div class="notes">
+
+It took a bit of work to put everything in a function, but now you can produce a quadratic rather than a linear trend with just a single line of code.
+
+</div>
+
+### Code that I used
+
+```{r poly3}
+```
+
+```{r poly4}
+```
+
+```{r poly5}
+```
+
+```{r poly6}
+```
+
+```{r poly7}
+```
+
+```{r poly8}
+```
+
+```{r poly9}
+```
+
+```{r poly10}
+```
+
+```{r poly11}
+```
+
+```{r poly12}
+```
+
+```{r poly13}
+```
+
+```{r poly14}
+```
+
+<div class="notes">
+
+Here's code for fitting the remaining trend lines.
+
+</div>
+
+
+
+[dasl2]: https://dasl.datadescription.com/datafile/hurricane-frequencies/
+[dasl1]: https://dasl.datadescription.com/

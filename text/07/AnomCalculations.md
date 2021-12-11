@@ -26,9 +26,9 @@ where
 
 As a classroom exercise, a group of three volunteers (labeled A, R, and V to protect their anonymity) were asked to take turns hitting a target with a hand launched foam rocket.
 
-### The equipment
-
 ### Shooting at the target
+
+![](http://www.pmean.com/new-images/07/AnomCalculations04.jpg)
 
 ### Measuring the result
 
@@ -68,3 +68,7 @@ Here is a graph of the results:
 
 ![](http://www.pmean.com/new-images/07/AnomCalculations06.gif)
 
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/AnomCalculation.html
+[sim2]: http://www.pmean.com
