@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 
-```{r notes}
+```{r notes, echo=FALSE}
 # Note: this code can produce a reasonable PowerPoint
 # presentation. The system has an annoying tendency
 # to put the graphs and the speaker notes on separate
@@ -39,8 +39,6 @@ raw_data[1:8, ]
 ```
 
 <div class="notes">
-
-This [dataset on hurricane frequency][dasl1] is found at the [Data and Story Library website][dasl2]. 
 
 Here are the first eight rows of data. 
 
@@ -77,13 +75,13 @@ Here's what the data looks like in a graph. Nothing too unusual about the data. 
 
 ```{r poly1}
 add_trend <- function(point_plot, df, degree) {
-  x_grid <- data.frame(x=seq(1850, 2010, by=0.1))
+  x_grid <- data.frame(x=seq(1855, 2005, by=0.1))
   lm(y~poly(x, degree), data=df) %>%
     augment(newdata=x_grid) -> yhat
   yhat_2005 <- filter(yhat, x==2005)
   prediction <<- yhat_2005$.fitted
   point_plot +
-    geom_line(data=yhat, aes(x, .fitted), color="red") +
+    geom_line(data=yhat, aes(x, .fitted)) +
     geom_label(
       data=yhat_2005, 
       aes(x, .fitted, label=round(.fitted, 1)))
@@ -257,7 +255,7 @@ add_trend(point_plot, df, 14)
 
 
 
-### Code that I used
+### Code (load libraries)
 
 ```{r reset}
 knitr::opts_chunk$set(echo=TRUE)
@@ -273,29 +271,21 @@ Here are the libraries that I needed for this work.
 
 </div>
 
-### Code that I used
+### Code (read and print)
 
 ```{r read1}
 ```
-
-<div class="notes">
-
-This code reads data directly from the website and prints out the first eight rows.
-
-</div>
-
-### Code that I used
 
 ```{r read2}
 ```
 
 <div class="notes">
 
-This code is for printing the rest of the data.
+This code reads data directly from the website and prints out the data in two pieces.
 
 </div>
 
-### Code that I used
+### Code (plot data points)
 
 ```{r plot}
 ```
@@ -321,14 +311,6 @@ Here's the code for adding a trend line to the graph. I am setting up a flexible
 
 ```{r poly2}
 ```
-
-<div class="notes">
-
-It took a bit of work to put everything in a function, but now you can produce a quadratic rather than a linear trend with just a single line of code.
-
-</div>
-
-### Code that I used
 
 ```{r poly3}
 ```
@@ -368,11 +350,9 @@ It took a bit of work to put everything in a function, but now you can produce a
 
 <div class="notes">
 
-Here's code for fitting the remaining trend lines.
+It took a bit of work to put everything in a function, but now you can produce a quadratic or higher level trend rather than a linear trend with just a single line of code.
 
 </div>
-
-
 
 [dasl2]: https://dasl.datadescription.com/datafile/hurricane-frequencies/
 [dasl1]: https://dasl.datadescription.com/
