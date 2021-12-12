@@ -203,6 +203,40 @@ run;
 
 Now merge the two datasets together by SEQN.
 
+```{}
+proc sort
+   data=mydata.demo_i;
+  by seqn;
+run;
+
+proc sort
+   data=mydata.pbcd_i;
+  by seqn;
+run;
+
+data mydata.merge2015;
+  merge mydata.demo_i(in=a) mydata.pbcd_i(in=b);
+  if (a) then in_demo=1; else in_demo=0;
+  if (b) then in_pbcd=1; else in_pbcd=0;
+run;
+```
+
+The in_demo and in_pbcd variables will tell you how the two datasets match up. Every record in pbcd must also be found in demo, but the reverse will not be true. Here is the code to calculate how many records there are in each dataset and how they match up.
+
+```{}
+proc freq
+    data=mydata.merge2015;
+  tables in_demo in_pbcd;
+  title1 "Table of matches/mismatches";
+run;
+```
+
+Let's also get unweighted statistics on age and blood lead levels
+
+
+
+
+
 
 ### References
 
