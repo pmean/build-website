@@ -128,9 +128,6 @@ Information about the clustering and stratification also needs to be specified. 
 There are well over a thousand variables in the NHANES survey, so a good data dictionary is a must. There are several data dictionaries, actually, corresponding to multiple datasets. I list them here with a few key variables of interest to me.
 
 + [Demographics][demo]: DEMO_I
-  + RIDAGEMN, the age at screening in months (for participants less than 24 months old)
-  + RIDAGEYR, the age at screening in years with 80+ year old coded as 80
-  + RIDEXAGM, the age at exam in months for participants less than 19 years old
   + SDMVPSU, masked variance unit pseudo-PSU (used to designate clusters)
   + SDMVSTRA, masked variance unit psuedo-stratum (used to designate strata)
   + WTINT2YR, weight used for interview data
@@ -152,12 +149,11 @@ There are well over a thousand variables in the NHANES survey, so a good data di
 + [Questionnaire data][ques]: ACQ_I, ALQ_I, and others
   + Use one of the weights in the demographics file.
 
-
 Note: these data are from the 2015-2016 survey. There are different data dictionaries for different times. Although many of the variables are the same, some are added or removed in different years. Some have different names or different number codes. So use caution when you combined data from multiple years.
 
 Here's an example of a cautionary statement about combining different 
 
-**"Prior to 2011, one single question was used to collect information on language spoken at home for all non-Hispanic participants and the responses were released as variables ACD010A, ACD010B, and ACD010C. Starting 2011, to accommodate the Asian oversample, information on language spoken at home was collected separately for non-Hisspanic Asians and other non-Hispanics using two different questions (i.e., ACQ110 and ACQ011). Analysts who wish to include “language spoken at home” data in analyses that use multiple 2-year NHANES cycles, may recode variables ACD011A, ACD011B, ACD011C, and ACD110 to create variables compatible with those released with the NHANES 1999-2010 data (i.e., ACD010A, ACD010B, and ACD010C) using the following SAS programming code:"**
+**"Prior to 2011, one single question was used to collect information on language spoken at home for all non-Hispanic participants and the responses were released as variables ACD010A, ACD010B, and ACD010C. Starting 2011, to accommodate the Asian oversample, information on language spoken at home was collected separately for non-Hispanic Asians and other non-Hispanics using two different questions (i.e., ACQ110 and ACQ011). Analysts who wish to include “language spoken at home” data in analyses that use multiple 2-year NHANES cycles, may recode variables ACD011A, ACD011B, ACD011C, and ACD110 to create variables compatible with those released with the NHANES 1999-2010 data (i.e., ACD010A, ACD010B, and ACD010C) using the following SAS programming code:"**
 
 ```{}
 If SDDSRVYR in (7, 8, 9) then do;
@@ -169,9 +165,24 @@ If SDDSRVYR in (7, 8, 9) then do;
     End;
 ```
 
+### Key demographic groups
+
+Often with a survey like NHANES, you want to examine one or more subgroups rather than the entire population. Key demographic variables that you might want to use to create subgroups are found in DEMO_I and inclue
+
++ RIAGENDR: Gender of the participant
++ RIDAGEMN, the age at screening in months (for participants less than 24 months old)
++ RIDAGEYR, the age at screening in years with 80+ year old coded as 80
++ RIDEXAGM, the age at exam in months for participants less than 19 years old
++ RIDRETH3: Race-ethnicity variable based on questions asked in 2011 and later. This differed from earlier surveys in the handling of Asian-American and Mexican-American responses.
++ RIDRETH1: Race-ethnicity grouped using criteria before 2011
++ DMDEDUC3: Highest level of education (participants ages 6-19 years)
++ DEMDEDUC2 Highest level of education (participlants agess 20 years and above)
+
 ### Example: blood lead levels in children in the 2015-2016 cycle
 
 Here's an example of the SAS code needed to estimate the average blood lead level in children under the age of six in the 2015-2016 cycle of NHANES.
+
+#### Read the data
 
 You will need to download two datasets:
 
@@ -201,7 +212,9 @@ data mydata.pbcd_i;
 run;
 ```
 
-Now merge the two datasets together by SEQN.
+#### Merge the data
+
+Now merge the two datasets together by SEQN. At the same time, create a log transformed measure of lead and a variable to delineate subgroups for children 1-5 years of age. A common threshold used in lead studies is 5 ug/dl, so let's also create an indicator variable for participants with blood lead levels above this threshold.
 
 ```{}
 proc sort
@@ -216,8 +229,15 @@ run;
 
 data mydata.merge2015;
   merge mydata.demo_i(in=a) mydata.pbcd_i(in=b);
+  by seqn;
+
   if (a) then in_demo=1; else in_demo=0;
   if (b) then in_pbcd=1; else in_pbcd=0;
+
+  log_lead=log2(LBXBPB);
+  child1to5 =(RIDAGEYR>=1)&(RIDAGEYR<=5);
+  lead_ge_5=(LBXBPB>=5);
+
 run;
 ```
 
@@ -231,12 +251,108 @@ proc freq
 run;
 ```
 
-Let's also get unweighted statistics on age and blood lead levels
+#### Calculate unweighted statistics
 
+Don't report the unweighted statistics, but it is a good idea to compute them just to get a feel for your data.
 
+This is code to get unweighted statistics on the continuous variables of age and blood lead levels, and counts for the demographic subgroup variable.
 
+```{}
+proc means
+    n nmiss mean std min max
+    data=mydata.merge2015;
+  var RIDAGEYR LBXBPB;
+  title1 "Unweighted descriptive statistics";
+run;
+```
 
+and unweighted counts on the demographic subgroup.
 
+```{}
+proc freq
+    data=mydata.merge2015;
+  tables child1to5;
+  title1 "Table of unweighted counts on demographic subgroups";
+run;
+```
+
+It would be a good idea to do a few plots as well. You might draw histograms or look at boxplots, for example.
+
+#### Get weighted counts and proportions
+
+if you are interested in counts and proportions that are properly weighted, use proc surveyfreq,
+
+```{}
+proc surveyfreq
+    data=mydata.merge2015;
+  cluster sdmvpsu;
+  stratum sdmvstra;
+  table child1to5*lead_ge_5 / row nocellpercent;
+  weight wtsh2yr;
+  title1 "Weighted counts";
+run;
+```
+
+You need to be sure to use the proper weights as noted above. For blood lead levels, the proper weights are in the variable wtsh2yr.
+
+You also need to specify variables that identify the clustered nature of the survey (cluster sdmvpsu) and the stratified nature of the survey (stratum sdmvstra).
+
+If you want to get statistics on a demographic subgroup, include that in the table statement. you do not want to create a smaller dataset with just that subgroup, because the smaller dataset will no longer have the information you need to process the data properly.
+
+Here is the first part of the output.
+
+![Figure 1. Data summary from proc surveyfreq](http://www.pmean.com/new-images/21/nhanes-overview-01.png)
+
+The data summary table confirms some of the frequency counts that we computed earlier. There are 9,971 unweighted observations in the dataset, but we can only use 5,597 of them because 4,374 have nonpositive (actually zero) weights. This is not surprising, because not every participant in the NHANES survey provided a blood draw.
+
+The sum of the weights, 312,695,437 is the estimated population of the United States (excluding institutionalized people). The really important stuff comes in the second half of the output.
+
+![Figure 2. Table of weighted frequencies and proportions from proc surveyfreq](http://www.pmean.com/new-images/21/nhanes-overview-02.png)
+
+Focus your attention on row of the table where child1to5=1 and lead_ge_5=1. The frequency (unweighted count) is 7. This is a very small number, which is both disappointing and encouraging. If you look at the row beneath (child1to5=1, lead_ge_5=Total), you will see a frequency of 690. 
+
+So the survey got a blood tests done on a lot of children in the age range of 1 to 5, but only 7 of the actual tests run produced a blood lead value above 5 ug/dl. That bad news from a statistical perspective. Our estimate of the prevalence of elevated blood lead levels will be very imprecise. But from a public health perspective that's good news.
+
+Now the unweighted count is going to need adjustments for all the reasons noted above. The weighted frequency is 271,985. This means that there are roughly 300,000 children in the United States who had elevated blood lead levels in 2015-2016. Note that this is non-institutionalized children. 
+
+Also note how aggressively I rounded. The standard error (130,349) is very large relative to the mean. Any ration of the standard error to the weighted frequency of 0.3 or higher is troublesome. You could have guessed it from the small unweighted count but this is an additional confirmation that your estimate of this number is very imprecise. Put lots of warnings in your paper when you report this number. The number directly beneath 271,985 is the estimated total number of children with or without elevated blood lead levels in the United States. That number (40,536,617) is actually estimated with good precision. The unweighted count (690) is large and the standard error of the weighted count (3,730,049) is more than an order of magnitude smaller.
+
+If there are 271.985 children 1 to 5 with elevated blood lead levels out of 40,536,617 total, the ratio is 0.6710 percent. During the time frame of 2015-2016, the probability that a 1-5 year old child in the United States has elevated blood lead levels is a bit less than 1%.
+
+Note again the aggressive rounding. The standard error of this percentage, 0.3328 is large relative to the weighted percentage itself.
+
+#### Get weighted means and standard errors
+
+To get means and standard errors, use proc surveymeans.
+
+```{}
+proc surveymeans
+    data=mydata.merge2015
+    nobs mean stderr; 
+  cluster sdmvpsu;
+  stratum sdmvstra;
+  var log_lead;
+  weight wtsh2yr;
+  domain child1to5;
+  title1 "Weighted means";
+run;
+```
+
+The cluster, stratum, and weight statements use the same format as above. If you are interested in the means and standard errors for a particular demographic subgroup, include an indicator variable for that subgroup in the domain statement.
+
+Here is a small but important part of the output from this procedure.
+
+![Figure 3. Weighted mean and standard error from proc surveymean](http://www.pmean.com/new-images/21/nhanes-overview-03.png)
+
+The second row of this table (child1to5=1) gives the average blood lead level on a log scale (-0.314237) and since this is on a base 2 log scale, you would calculate 2 raised to the -0.314237 power or 0.8042762. The average child in the United States aged 1 to 5 years has a blood lead level of 0.8 ug/dl. Since there are 624 unweighted participants who provided a measurable blood lead level, you can safely calculate a confidence interval.
+
+On the log scale the confidence interval would be 
+
+$-0.314237 +/- 1.96 \times 0.061364$
+
+or -0.4345104 to -0.1939636. Transform this back to the original scale to get 0.7399448 to 0.8742007.
+
+We are 95% confident that the average blood lead level of all chidren aged 1 to 5 years in the United States is between 0.74 and 0.87.
 
 ### References
 
