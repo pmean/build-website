@@ -200,6 +200,11 @@ Review of randomised controlled trials of traditional chinese medicine. Jin-Ling
 
 <!---50 references--->
 
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/ClassicReferencesForEbm.html
+[sim2]: http://www.pmean.com
+
 [ali1]: http://bmj.bmjjournals.com/cgi/content/full/318/7194/1324
 [ali2]: http://bmj.bmjjournals.com/cgi/reprint/318/7194/1324.pdf
 [alp1]: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=521514
