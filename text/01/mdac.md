@@ -51,7 +51,6 @@ You can also download the Microsoft Data Access Pack directly from Microsoft's w
 #### Third message
 
 I also found a copy on the Access 97 CD. I knew it had to be somewhere on the SPSS CD but after searching the SPSS web site to no avail I then tried Microsoft's site (no luck) and then the Access disc. I told it to reload Access using the Add/Remove feature and found the driver that way. The trick seems to be know what to call something (like "data access pack") when roaming around discs & web sites.
-```
 
 #### Fourth message
 

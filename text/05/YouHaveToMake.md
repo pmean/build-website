@@ -32,3 +32,8 @@ output: html_document
 > it.*"* quoted in the Washington Post article, "Inventing Our
 > Evolution" published Monday, May 16, 2005 at
 > [www.washingtonpost.com/wp-dyn/content/article/2005/05/15/AR2005051501092\_pf.html](http://www.washingtonpost.com/wp-dyn/content/article/2005/05/15/AR2005051501092_pf.html).
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/YouHavetoMake.html
+[sim2]: http://www.pmean.com

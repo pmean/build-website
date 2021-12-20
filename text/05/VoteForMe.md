@@ -147,30 +147,12 @@ American Statistical Association.
 > I was co-chair of the Statistics, Data Analysis and Modeling Section
 > of the 1995 Midwest SAS Users Group conference in Cleveland OH.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **Vote for me (December 21, 2005)**.
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/VoteForme.html
+[sim2]: http://www.pmean.com
 

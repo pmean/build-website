@@ -71,30 +71,12 @@ human counterparts, I will probably have to retire.
 There wasn't a lot on the graphics programming language but this looks
 like something I would enjoy working with.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+You can also browse
 for pages similar to this one at [Category: SPSS
 software](../category/SpssSoftware.html).
-<!---More--->
-software](../category/SpssSoftware.html).
-for pages similar to this one at [Category: SPSS
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **What's New in SPSS version 14.0
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: SPSS
-software](../category/SpssSoftware.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/SPSSVersion14.html
+[sim2]: http://www.pmean.com
 

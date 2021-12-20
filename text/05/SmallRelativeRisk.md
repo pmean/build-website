@@ -99,30 +99,7 @@ and he published it on his web site at
     [\[Full text\]](http://www.epi-perspectives.com/content/1/1/3)
     [\[PDF\]](http://www.epi-perspectives.com/content/pdf/1742-5573-1-3.pdf)
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
-<!---More--->
-risk](../category/MeasuringBenefitRisk.html).
-for pages similar to this one at [Category: Measuring benefit and
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-<!---Do not use
-**[StATS]: Small relative risks (January 13, 2005)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring benefit and
-risk](../category/MeasuringBenefitRisk.html).
---->
-
+[sim1]: http://www.pmean.com/05/SmallRelativeRisk.html
+[sim2]: http://www.pmean.com

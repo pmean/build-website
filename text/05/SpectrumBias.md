@@ -153,3 +153,8 @@ www.consort-statement.org/stardstatement.htm
     screening.** Schmitz N, Kruse J, Tress W. Soc Psychiatry Psychiatr
     Epidemiol 2000: 35(8); 375-9.
     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11037307&dopt=Abstract)
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/SpectrumBias.html
+[sim2]: http://www.pmean.com

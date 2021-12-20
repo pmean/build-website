@@ -113,3 +113,7 @@ Joel Best has a nice book on how statistics can get mangled.
     University of California Press. ISBN: 0520219783. [BookFinder4U
     link]](http://www.bookfinder4u.com/detail/0520219783.html)
 
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/SixtyPercentDrop.html
+[sim2]: http://www.pmean.com

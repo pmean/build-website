@@ -16,3 +16,7 @@ output: html_document
 > April),
 > doi:10.1136/bmj.330.7494.783](http://bmj.bmjjournals.com/cgi/content/full/330/7494/783)
 
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/TheTest.html
+[sim2]: http://www.pmean.com

@@ -52,30 +52,12 @@ that were posted on edstat-l.
     J.,"Taguchi's Fixed-element Arrays are Fractional Factorials," J.
     of Quality Technology V. 23 (2), pg. 107-116,1991
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+ You can also browse
 for pages similar to this one at [Category: Quality
 control](../category/QualityControl.html).
-<!---More--->
-control](../category/QualityControl.html).
-for pages similar to this one at [Category: Quality
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **Taguchi methods (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/TaguchiMethods.html
+[sim2]: http://www.pmean.com
 

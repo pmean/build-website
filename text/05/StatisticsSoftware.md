@@ -50,30 +50,11 @@ Accessed on 2005-09-15.
 > may be performed subject to linear and nonlinear equality or boundary
 > constraints.* www.vcu.edu/mx
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **Free statistics software (September
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
+[sim1]: http://www.pmean.com/05/StatisticsSoftware.html
+[sim2]: http://www.pmean.com

@@ -51,3 +51,8 @@ package, including
     ends of duplicate strings to give each one a unique name.
 -   trimWhiteSpace() is found in the limma package and removes leading
     and trailing blanks from a string.
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/StringsR.html
+[sim2]: http://www.pmean.com
