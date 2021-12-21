@@ -9,28 +9,21 @@ tags:
 - Teaching resources
 output: html_document
 ---
-There are three groups that offer seminars, training classes and
-informal networking opportunities for statisticians in the Kansas City
-area.
 
-The Kansas University Medical Center has a Center for Biostatistics &
-Advanced Informatics that offers a monthly journal club and semi-regular
-research seminars about Statistics. The main page describing these
-activities is
+There are three groups that offer seminars, training classes and informal networking opportunities for statisticians in the Kansas City area.
 
--   [biostatistics.kumc.edu/education.aspx](http://biostatistics.kumc.edu/education.aspx)
+The Kansas University Medical Center has a [Center for Biostatistics & Advanced Informatics][kum1] that offers a monthly journal club and semi-regular research seminars about Statistics.
 
-The UMKC Department of Mathematics and Statistics also has a regular
-seminar series, though some of these talks are mathematical rather than
-statistical. The current web page is out of date, but you can look at
-the titles of some of the past seminars to get a feel for the topics
-covered.
+The University of Missour-Kansas City [Department of Mathematics and Statistics][umk1] also has a regular seminar series, though some of these talks are mathematical rather than statistical. 
 
--   [cas.umkc.edu/math/MathGradSeries.htm](http://cas.umkc.edu/math/MathGradSeries.htm)
+The [Kansas/Western Missouri chapter][asa1] of the American Statistical Association holds 2-3 meetings per year, typically in the evening. Here is a [list of officers][asa1] and a [Facebook page][asa2].
 
-The Kansas/Western Missouri chapter of the American Statistical
-Association holds 2-3 meetings per year, typically in the evening.
-Again, the web page for this group is out of date, but offers some ideas
-about the general topics.
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
--   [www.amstat-online.org/chapters/kwestern/](http://www.amstat-online.org/chapters/kwestern/)
+[sim1]: http://www.pmean.com/07/EducationalOpportunities.html
+[sim2]: http://www.pmean.com
+
+[asa1]: https://ww2.amstat.org/chapters/officers.cfm?txtComm=C016
+[asa2]: https://www.facebook.com/KWMCHASA/
+[kum1]: http://biostatistics.kumc.edu/education.aspx
+[umk1]: https://cas.umkc.edu/areas-of-study/mathematics-and-statistics/index.html
