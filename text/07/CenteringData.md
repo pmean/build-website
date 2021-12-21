@@ -9,6 +9,7 @@ tags:
 - Data transformations 
 output: html_document
 ---
+
 ### Dear Professor Mean,
 
 Why do we have to center the data before analyzing it? What would happen if we failed to center the data?*

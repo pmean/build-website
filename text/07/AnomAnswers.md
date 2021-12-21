@@ -12,7 +12,7 @@ output: html_document
 ---
 On the web page
 
-[Stats: Calculation of Analysis of Means limits][sim3]
+[Stats: Calculation of Analysis of Means limits][sim4]
 
 you were asked to calculate ANOM charts for two different data sets.
 

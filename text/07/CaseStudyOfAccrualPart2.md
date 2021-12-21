@@ -43,3 +43,8 @@ In fifth week, three patients entered the study, but the predicted sample size s
 ![Figure 6. Graph of accrual six weeks into study](http://www.pmean.com/new-images/07/CaseStudyOfAccrualPart207.gif)
 
 In week 6, with only one additional patient, the median predicted sample size declines again. If you compare this graph to the graph showing the uncertainty in predicted sample size prior to the start of the study, there is an important feature beyond the downward shift in the median predicted sample size. Notice that the 95% probability limits had a total width of 52 at the start of the study and only 32 after 6 weeks. As more time elapses and you gain more experience with understanding exactly how fast or slow patients accrue, you get more precision in your prediction about the final sample size.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/CaseStudyOfAccrualPart2.html
+[sim2]: http://www.pmean.com

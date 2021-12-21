@@ -13,7 +13,7 @@ output: html_document
 
 ### Dear Professor Mean,
 
-How do you calculate a confidence interval for a rate?*
+How do you calculate a confidence interval for a rate?
 
 <!---More--->
 

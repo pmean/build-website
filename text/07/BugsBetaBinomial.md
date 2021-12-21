@@ -16,9 +16,7 @@ I've spent a bit of time trying to learn how to run a program called BUGS. The a
 
 There are several web pages about this program, most notably [The BUGS Project Welcome Page][bug1]. That page had links to several resources about BUGS, including a recently published book by George G. Woodworth, Biostatistics: A Bayesian Introduction. The author placed a [PDF version of the Appendix][woo1] describing how to use WinBUGS, the Windows version of BUGS on the web. 
 
-There is also a version of BUGS that works under R, called BRugs. A nice description of BRugs appears at the website devoted to the [book][gel1] by Andrew Gelman, John B. Carlin, Hal S. Stern, and Donald B. Rubin, Bayesian Data Analysis." In particular, the [page][gel2]
-
-offers some very useful advice.
+There is also a version of BUGS that works under R, called BRugs. A nice description of BRugs appears at the website devoted to the [book][gel1] by Andrew Gelman, John B. Carlin, Hal S. Stern, and Donald B. Rubin, Bayesian Data Analysis." In particular, the [page][gel2] offers some very useful advice.
 
 Dr. Woodworth starts with the simplest of possible examples, the beta-binomial model. To fit this, you need to prepare a model statement
 

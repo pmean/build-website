@@ -1,7 +1,7 @@
 ---
 title: Tests of hypothesis and confidence intervals involving a correlation coefficient
 author: Steve Simon
-source: http://www.pmean.com/07/CorrelationCoefficient-07.html
+source: http://www.pmean.com/07/CorrelationCoefficient.html
 date: 2007-01-18
 categories:
 - Blog post
@@ -28,7 +28,7 @@ If you want to compute a confidence interval for the correlation coefficient, yo
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/CorrelationCoefficient-07.html
+[sim1]: http://www.pmean.com/07/CorrelationCoefficient.html
 [sim2]: http://www.pmean.com
 
 [sim3]: http://www.pmean.com/00files/CriticalValuesForCorrelationTest.xls

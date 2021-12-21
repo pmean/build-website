@@ -35,3 +35,8 @@ The 19 patient shortfall (65-46) is a combination therefore of the existing 8 pa
 We are still not too far off from our conservative estimate of 2 patients per week, but the goal of 3 patients per week seems a bit overly optimistic.
 
 I will try to update this model as the trial progresses.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/CaseStudyOfAccrual.html
+[sim2]: http://www.pmean.com
