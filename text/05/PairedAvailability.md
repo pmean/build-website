@@ -20,7 +20,7 @@ was about the paired availability design. Here's what I had written.
 > change over time in the availability of a new therapy, then you can
 > pool the effects in these hospitals in a way that avoids some of the
 > biases in a simpler historical controls study. The trick is that your
-> *before* <U+FFFD>group were all patients when availability was low,
+> *before* group were all patients when availability was low,
 > recognizing that some of these patients will still be lucky enough to
 > get the new therapy. The *after* group were all patients when
 > availability was high, again recognizing that some of these patients
@@ -57,30 +57,7 @@ compared to patients who prefer a particular treatment. I'll try to
 describe the patient preference trial and give an example in a future
 weblog entry.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies).
-<!---More--->
-studies](#ObservationalStudies).
-for pages similar to this one at [Category: Observational
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-<!---Do not use
-**[StATS]:** **The paired availability design (May
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Observational
-studies](#ObservationalStudies).
---->
-
+[sim1]: http://www.pmean.com/05/PairedAvailability.html
+[sim2]: http://www.pmean.com

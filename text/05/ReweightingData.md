@@ -41,7 +41,7 @@ differing demographic mix that causes the paradox.
 The average score for each state is a weighted average. For Nebraska,
 the calculation is
 
-> 281\*0.87 +<U+FFFD> 236\*0.05 + 259\*0.08 = 277
+> 281\*0.87 + 236\*0.05 + 259\*0.08 = 277
 
 and for New Jersey, the calculation is
 
@@ -75,30 +75,11 @@ Here are a few additional references about Simpson's paradox.
     longitudinal study in South Africa. Journal of Statistics Education,
     7, 7-7.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).
-<!---More--->
-adjustment](../category/CovariateAdjustment.html).
-for pages similar to this one at [Category: Covariate
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **Re-weighting the data (January 25,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
+[sim1]: http://www.pmean.com/05/ReweightingData.html
+[sim2]: http://www.pmean.com

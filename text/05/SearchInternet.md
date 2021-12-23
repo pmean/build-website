@@ -30,30 +30,11 @@ Each result in Google Scholar also includes a cited by link. The Agresti
 book was cited by 228 other sources. Click on that link to find a wealth
 of resources related to ordinal data.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
+You can also browse
 for pages similar to this one at [Category: Information
 searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
 
-<!---Do not use
-**[StATS]:** **Searching the Internet (April 26,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
---->
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
+[sim1]: http://www.pmean.com/05/SearchInternet/
+[sim2]: http://www.pmean.com

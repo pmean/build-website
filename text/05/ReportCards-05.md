@@ -221,3 +221,8 @@ has the following quote:
     [\[Full
     text\]](http://bmj.bmjjournals.com/cgi/content/full/316/7146/1685)
     [\[PDF\]](http://bmj.bmjjournals.com/cgi/reprint/316/7146/1685.pdf)
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/ReportCards.html
+[sim2]: http://www.pmean.com

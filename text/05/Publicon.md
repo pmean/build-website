@@ -36,30 +36,9 @@ will offer faster and more accurate translation to their XML format.
 BioMed Central will also will offer authors a discount on the article
 processing charge if they use this product.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
-<!---More--->
-computing](../category/StatisticalComputing.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-<!---Do not use
-**[StATS]:** **Publicon software (March 14, 2005)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-computing](../category/StatisticalComputing.html).
---->
+[sim1]: http://www.pmean.com/05/Publicon.html
+[sim2]: http://www.pmean.com
+
 

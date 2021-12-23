@@ -69,30 +69,7 @@ I am trying my best to only use sources that are freely available, and
 sources that I expect to remain freely available in the foreseeable
 future.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Writing research
-papers](../category/WritingResearchPapers.html).
-<!---More--->
-papers](../category/WritingResearchPapers.html).
-for pages similar to this one at [Category: Writing research
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-<!---Do not use
-**[StATS]:** **Another open site closes (May 23,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Writing research
-papers](../category/WritingResearchPapers.html).
---->
-
+[sim1]: http://www.pmean.com/05/OpenSite.html
+[sim2]: http://www.pmean.com

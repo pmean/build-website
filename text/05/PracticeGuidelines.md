@@ -120,30 +120,7 @@ of guidelines in my files:
 -   **Guidelines for clinical guidelines \[editorial\].** Jackson R,
     Feder G. British Medical Journal 1998: 317(7156); 427-8.
 
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-Resources](../category/TeachingResources.html).
-<!---More--->
-Resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
+You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-<!---Do not use
-**[StATS]: Developing good practice guidelines
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-Resources](../category/TeachingResources.html).
---->
-
+[sim1]: http://www.pmean.com/05/PracticeGuidelines.html
+[sim2]: http://www.pmean.com
