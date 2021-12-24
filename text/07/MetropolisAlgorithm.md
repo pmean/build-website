@@ -9,6 +9,7 @@ tags:
 - Bayesian statistics
 output: html_document
 ---
+
 In many situations, you need to generate a random sample from a
 distribution that is rather complex.   When simpler methods for
 generating a random sample don't work, there are a series of

@@ -9,6 +9,7 @@ tags:
 - Adverse events in clinical trials
 output: html_document
 ---
+
 This is a major revision of the [March 14, 2007](TrackingAdverseEvents.html) and [April 5, 2007](TrackingAdverseEventsPart2.html) weblog entries. I have been helping a colleague who is interested in monitoring the safety of kidney biopsy events. He was kind enough to let me use his data set on my web pages in order to illustrate some new methods for monitoring adverse events. This data set allows you to see some examples of the use of control charts to track adverse events. Here is the raw data.
 
 ```{}
@@ -278,3 +279,8 @@ Approximately every tenth biopsy required the use of pain control medication. Th
 ![](http://www.pmean.com/new-images/07/KidneyBiopsy05.gif)
 
 Other adverse events occur in one out of every 20 biopsies on average. We are currently experiencing a large gap in other adverse events, and if this continues for 9 or 10 more patients, we will have evidence that this rate has recently slowed.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/KidneyBiopsy.html
+[sim2]: http://www.pmean.com
