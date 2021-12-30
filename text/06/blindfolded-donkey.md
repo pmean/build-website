@@ -6,7 +6,7 @@ date: 2006-04-17
 categories:
 - Blog post
 tags:
-_ Outliers
+- Outliers
 - Statistical koans
 output: html_document
 ---

@@ -6,7 +6,7 @@ date: 2006-04-17
 categories:
 - Blog post
 tags:
-_ Confidence intervals
+- Confidence intervals
 - Statistical koans
 output: html_document
 ---

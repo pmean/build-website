@@ -6,7 +6,7 @@ date: 2006-04-17
 categories:
 - Blog post
 tags:
-_ Quality improvement
+- Quality improvement
 - Statistical koans
 output: html_document
 ---
