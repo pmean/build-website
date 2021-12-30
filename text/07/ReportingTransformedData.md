@@ -6,7 +6,7 @@ date: 2007-03-28
 categories:
 - Blog post
 tags:
-- Statistical modeling 
+- Statistical models 
 output: html_document
 ---
 *Dear Professor Mean, I'm confused by the use of transformations in

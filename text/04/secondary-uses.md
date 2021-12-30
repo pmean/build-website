@@ -5,7 +5,7 @@ date: 2004-08-02
 categories:
 - Blog post
 tags:
-- Privacy concerns
+- Privacy in research
 output: html_document
 ---
 > Mark Barnes gave a seminar on August 2, 2004 on Secondary Uses of

@@ -5,7 +5,7 @@ date: 2011-10-19
 categories:
 - Blog post
 tags:
-- Early stopping in clinical trials
+- Early stopping
 output: html_document
 ---
 

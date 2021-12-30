@@ -5,7 +5,7 @@ date: "2021-05-07"
 categories:
 - Blog post
 tags:
-- Bayesian analysis
+- Bayesian statistics
 output: html_document
 ---
 

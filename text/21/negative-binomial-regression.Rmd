@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Probability distributions
-- Generalized linear models
+- Generalized linear model
 output: html_document
 ---
 

@@ -5,7 +5,7 @@ date: "2021-01-09"
 categories:
 - Recommendation
 tags:
-- Statistical modeling
+- Statistical models
 output: html_document
 ---
 

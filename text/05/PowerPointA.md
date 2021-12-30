@@ -6,7 +6,7 @@ date: 2005-03-02
 categories:
 - Blog post
 tags:
-- Presenting research data
+- Presenting research
 output: html_document
 ---
 **[StATS]: PowerPoint Counterpoint (March 2, 2005)**

@@ -5,7 +5,7 @@ date: "2021-01-21"
 categories:
 - Recommendation
 tags:
-- SQL databases
+- SQL
 output: html_document
 ---
 

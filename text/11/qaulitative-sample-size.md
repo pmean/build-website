@@ -5,7 +5,7 @@ date: 2011-11-22
 categories:
 - Blog post
 tags:
-- Qualitative data analysis
+- Qualitative research
 - Sample size justification
 output: html_document
 ---

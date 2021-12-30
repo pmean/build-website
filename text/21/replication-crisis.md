@@ -5,7 +5,7 @@ date: "2021-04-28"
 categories:
 - Recommendation
 tags:
-- Crticial appraisal
+- Critical appraisal
 output: html_document
 ---
 

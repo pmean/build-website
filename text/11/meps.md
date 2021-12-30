@@ -5,7 +5,7 @@ date: 2011-09-02
 categories:
 - Blog post
 tags:
-- Complex survey design
+- Complex surveys
 output: html_document
 ---
 

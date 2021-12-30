@@ -5,7 +5,7 @@ date: 2011-06-15
 categories:
 - Blog post
 tags:
-- Crtical appraisal
+- Critical appraisal
 output: html_document
 ---
 
