@@ -6,7 +6,7 @@ date: 2007-02-28
 categories:
 - Blog post
 tags:
-= Broken link
+- Broken link
 - Analysis of means
 output: html_document
 ---

@@ -48,3 +48,8 @@ I wanted to get a rough count of the number of web pages that I have written. I 
 There are 1,252 pages by this count. In other counts, I have gotten over 1,400 pages, but this includes some bookkeeping pages that should not count in the overall total.
 
 There are some obsolete pages and pages that I plan to fold into other pages. As I add new pages, I will try to place them in the weblog directories or in the article, book, category, definitions, or website directories. The other directories are being kept around so links won't get broken.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/HowManyWebpages.html
+[sim2]: http://www.pmean.com

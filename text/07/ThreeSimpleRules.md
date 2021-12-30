@@ -6,7 +6,7 @@ date: 2007-02-15
 categories:
 - Blog post
 tags:
-= Broken link
+- Broken link
 - Quality control
 output: html_document
 ---

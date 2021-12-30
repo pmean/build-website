@@ -16,7 +16,7 @@ When you plot your data in a histogram (or a stem and leaf diagram), you should 
 
 ![Figure 2. Histogran showing a right skewed distribution](http://www.pmean.com/new-images/07/HistogramPatterns02.gif)
 
-![Figure 3. Histogram showing a bimodal distribution](http://www.pmean.com/new-images/07/HistogramPatterns03.png)
+![Figure 3. Histogram showing a bimodal distribution](http://www.pmean.com/new-images/07/HistogramPatterns03.gif)
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 

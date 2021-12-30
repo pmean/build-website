@@ -111,3 +111,8 @@ probability increases. The difference is quite substantial, of course,
 when the probability is larger than 50%, because this corresponds to
 odds greater than 1, which is outside the range of possible values for a
 probability.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/IncreasingTrend.html
+[sim2]: http://www.pmean.com

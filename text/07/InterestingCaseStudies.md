@@ -64,3 +64,8 @@ Australasian counterpart (OZ DASL) at
 Also worth noting is that the open source statistics textbook project
 ([www.massey.ac.nz/\~mbjones/Book](http://www.massey.ac.nz/~mbjones/Book/))
 is looking for people to contribute examples and exercises.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/InterestingCaseStudies.html
+[sim2]: http://www.pmean.com
