@@ -37,5 +37,5 @@ There are additional sources of outside support prior to July 2006, which I will
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/ConflictOfInterest.html
+[sim1]: http://www.pmean.com/07/ConflictOfInterestList.html
 [sim2]: http://www.pmean.com

@@ -6,62 +6,49 @@ date: 2007-10-01
 categories:
 - Blog post
 tags:
+- Obsolete page
 - Professional details
 output: html_document
 ---
-I get lots of questions about where to go for help with Statistics for
-someone outside of Children's Mercy Hospital. If you are a student or
-work at the University of Missouri, Kansas City (UMKC) or at Kansas
-University Medical Center (KUMC), there are a lot of resources you can
-investigate.
 
-The UMKC [Department of Mathematics and
-Statistics](http://cas.umkc.edu/math/) has five PhD level statisticians:
+{Note: a large number of people listed here have moved on.]
 
--   Jie Chen,
-    [cas.umkc.edu/math/Faculty/Chen.htm](http://cas.umkc.edu/math/Faculty/Chen.htm)
--   Mark Gamalo,
-    [cas.umkc.edu/math/Faculty/Gamalo.htm](http://cas.umkc.edu/math/Faculty/Gamalo.htm)
--   Kamel Rekab,
-    [cas.umkc.edu/math/Faculty/Rekab.htm](http://cas.umkc.edu/math/Faculty/Rekab.htm)
--   Xin Yan,
-    [cas.umkc.edu/math/Faculty/Yan.htm](http://cas.umkc.edu/math/Faculty/Yan.htm)
--   Yong Zeng,
-    [cas.umkc.edu/math/Faculty/Zeng.htm](http://cas.umkc.edu/math/Faculty/Zeng.htm)
+I get lots of questions about where to go for help with Statistics for someone outside of Children's Mercy Hospital. If you are a student or work at the University of Missouri, Kansas City (UMKC) or at Kansas University Medical Center (KUMC), there are a lot of resources you can investigate.
 
-The UMKC School of Medicine has a new department, Informatic Medicine &
-Personalized Health. There is no web site available yet for this
-department, but this group has a PhD level statistician, Jian Li, and a
-Masters level statistician, Aaron Bonham. The primary contact for
-someone looking for consulting help is Aaron Bonham (816-235-6688).
+The UMKC [Department of Mathematics and Statistics][mat1] has five PhD level statisticians:
+
++ Jie Chen,
++ Mark Gamalo,
++ Kamel Rekab,
++ Xin Yan,
++ Yong Zeng,
+
+The UMKC School of Medicine has a new department, Informatic Medicine & Personalized Health. There is no web site available yet for this department, but this group has a PhD level statistician, Jian Li, and a Masters level statistician, Aaron Bonham. The primary contact for someone looking for consulting help is Aaron Bonham (816-235-6688).
 
 The UMKC School of Nursing also has a PhD level statistician:
 
--   An-Lin Cheng,
-    [nursing.umkc.edu/facultydetail.cfm?Faculty\_ID=77](http://nursing.umkc.edu/facultydetail.cfm?Faculty_ID=77)
++ An-Lin Cheng,
 
-The UMKC [School of Computing and Engineering](http://www.sce.umkc.edu/)
-has several PhD level computer scientists who are familiar with
-bioinformatics, data mining, machine learning, and/or signal processing.
+The UMKC [School of Computing and Engineering][sce1] has several PhD level computer scientists who are familiar with bioinformatics, data mining, machine learning, and/or signal processing.
 
-At KUMC, you should contact the [KU Center for Biostatistics & Advanced
-Informatics](http://biostatistics.kumc.edu/default.aspx). The group
-consolidates the work of statisticians at the various departments at
-KUMC. Key staff members are listed at
+At KUMC, you should contact the [KU Center for Biostatistics & Advanced Informatics][kum1]. The group consolidates the work of statisticians at the various departments at KUMC. THere is a [nice page][kum2] that list key faculty and staff members.
 
--   [biostatistics.kumc.edu/adminCore.aspx](http://biostatistics.kumc.edu/adminCore.aspx)
+Currently, there are 7/8 PhD level and 7/8 Bachelors/Masters level staff members in this group. Most have a background in Statistics or in a closely related area. This website also has a nice page
 
-Currently, there are 7/8 PhD level and 7/8 Bachelors/Masters level staff
-members in this group. Most have a background in Statistics or in a
-closely related area.
++ [When You Collaborate/Consult A Biostatistician . . . What To Expect][kum3]
 
-The website also has a nice page
+Additional support for research at KUMC is provided by the [General Clinical Research Center][gcr1].
 
--   [When You Collaborate/Consult A Biostatistician . . . What To
-    Expect](http://biostatistics.kumc.edu/consulting.aspx)
+I am familiar with many of the statisticians at UMKC and KUMC. They are all excellent people to work with.
 
-Additional support for research at KUMC is provided by the [General
-Clinical Research Center](http://gcrc.kumc.edu/index.aspx).
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-I am familiar with many of the statisticians at UMKC and KUMC. They are
-all excellent people to work with.
+[sim1]: http://www.pmean.com/07/HelpForStatistics.html
+[sim2]: http://www.pmean.com
+
+[gcr1]: http://gcrc.kumc.edu/index.aspx
+[kum1]: http://biostatistics.kumc.edu/default.aspx
+[kum2]: http://biostatistics.kumc.edu/adminCore.aspx
+[kum3]: http://biostatistics.kumc.edu/consulting.aspx
+[mat1]: http://cas.umkc.edu/math/
+[sce1]: http://www.sce.umkc.edu/

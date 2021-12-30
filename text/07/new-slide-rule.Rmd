@@ -8,7 +8,13 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
----I have made some minor changes to my likelihood ratio slide. Theoriginal code was lost somewhere, so I wrote some new code and addeddocumentation. I also changed the orientation of the slide rule so itcan be held horizontally and shaded the regions that need to be cutout or away. This program runs in R. I've inserted images of the newslide rule on my tutorial page-   [Stats: Likelihood ratio slide rule (October    24, 2002)](../sliderule.asp)The new version of the slide rule in PDF format has been placed on theweb ([SlideRule.pdf](../SlideRule.pdf)), and I am keepting the oldversion as well([SlideRuleOldVersion.pdf](../SlideRuleOldVersion.pdf)).Here is the code.
+---
+
+I have made some minor changes to my likelihood ratio slide. The original code was lost somewhere, so I wrote some new code and added documentation. I also changed the orientation of the slide rule so it can be held horizontally and shaded the regions that need to be cut out or away. This program runs in R. I've inserted images of the new slide rule on my website:
+
++ [Likelihood ratio slide rule](http://www.pmean.com/sliderule.asp)
+
+Here is the code.
 
 ```{r}
 #####################
@@ -399,3 +405,8 @@ draw.frame()
 draw.ticks()
 dev.off()
 ```
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/CodeForNewSlideRule.html
+[sim2]: http://www.pmean.com
