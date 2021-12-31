@@ -32,7 +32,7 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 [sim2]: http://www.pmean.com
 
 [sim3]: http://www.pmean.com/00files/PromotionFormsCoversheet.pdf
-[sim4]: http://www.pmean.com/00files/PromotionFormsPersonalInformation.pdf)
+[sim4]: http://www.pmean.com/00files/PromotionFormsPersonalInformation.pdf
 [sim5]: http://www.pmean.com/00files/PromotionFormsSelfAssessment.pdf
 [sim6]: http://www.pmean.com/00files/PromotionFormsTeaching.pdf
 [sim7]: http://www.pmean.com/00files/PromotionFormsService.pdf

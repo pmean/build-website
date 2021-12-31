@@ -14,7 +14,7 @@ output: html_document
 
 I'm fitting an ANOVA model to a sample of 25 observations, and the data is quite skewed. I'm quite worried about this, but my husband reassures me that this is not a problem. He says that the assumption is that the population is normal, not the sample. Should I listen to him?*
 
-### Dear Rearder,
+### Dear Reader,
 
 As a husband myself, my every fiber wants to scream out YES, ALWAYS LISTEN TO THE HUSBAND!! THE HUSBAND IS ALWAYS RIGHT!! But unfortunately, I can't say this.
 

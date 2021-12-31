@@ -80,3 +80,8 @@ property of this simulation introduces a positive correlation to
 successive values. This makes the set of values somewhat patchy unless
 the number of simulations is quite large. You would only use this
 approach if the more direct simulation methods were too difficult.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/MetropolisAlgorithm.html
+[sim2]: http://www.pmean.com
