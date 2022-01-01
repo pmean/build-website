@@ -19,3 +19,8 @@ is quite old, but the book is still worth reading. More recent books include
 
 +  J.K. Lindsey. Modelling Frequency and Count Data. (1995) Oxford: Claredon Press, and
 +  Scott J. Long. Regression Models for Categorical and Limited Dependent Variables. (1997) Thousand Oaks, CA: Sage Publications.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/07/PoissonRegressionBooks.html
+[sim2]: http://www.pmean.com
