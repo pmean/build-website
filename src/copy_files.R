@@ -16,7 +16,7 @@ v <- TRUE
 
 copy_files <- function(
   old_root="text", new_root="c:/Users/simons/Documents/b04/content",
-  subdir_list=c("99", zpad(0:21), "no"),
+  subdir_list=c("99", zpad(0:22), "no"),
   file_pattern="md$", v=TRUE) {
   k <- 0
   for (subdir in subdir_list) {
