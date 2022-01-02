@@ -23,5 +23,5 @@ The sample function randomly selects m values from the vector 1:n. The use of th
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/RandomlyDividing.html
+[sim1]: http://www.pmean.com/07/RandomlyDividingData.html
 [sim2]: http://www.pmean.com

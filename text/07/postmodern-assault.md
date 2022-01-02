@@ -357,6 +357,8 @@ Ole Olsen, Philippa Middleton, Jeanette Ezzo, et al. Quality of Cochrane reviews
 
 Amélie Perron, Carol Fluet, Dave Holmes. Agents of care and agents of the state: bio-power and nursing practice. J Adv Nurs. 2005;50(5):536-544. Article is [behind a paywall][pe05]
 
+G. Rolfe. Judgements without rules: towards a postmodern ironist concept of research validity. Nurs Inq 2006: 13(1); 7-15. Artilce is [behind a paywall][ro06]
+
 Sackett DL. Pronouncements about the need for "generalizability" of randomized controlled trial results are humbug. Control. Clinical Trials 2000: 21; 82S.
 
 Gordon C S Smith, Jill P Pell. Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials. BMJ. 2003;327(7429):1459 -1461. Article is [behind a paywall][go03]
@@ -396,6 +398,7 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 [ol01]: https://www.bmj.com/content/323/7317/829.full
 [oxf1]: https://www.oxfordreference.com/view/10.1093/acref/9780191866692.001.0001/q-oro-ed6-00019739
 [pe05]: https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2648.2005.03432.x
+[ro06]: https://onlinelibrary.wiley.com/doi/10.1111/j.1440-1800.2006.00298.x
 [ske1]: http://skepdic.com/russell.html
 [si06]: https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2753.2006.00728.x
 [st00]: https://www.cmaj.ca/content/163/7/837.full

@@ -36,7 +36,7 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 [hwa1]: http://bioinformatics.oxfordjournals.org/cgi/reprint/18/9/1184.pdf
 [jun1]: http://bioinformatics.oxfordjournals.org/cgi/content/full/21/14/3097
 [jun2]: http://bioinformatics.oxfordjournals.org/cgi/reprint/21/14/3097.pdf
-[lee1]: http://files.myweb.med.ucalgary.ca/files/78/files/unprotected/DNAmicroarrayPower.pdf)
+[lee1]: http://files.myweb.med.ucalgary.ca/files/78/files/unprotected/DNAmicroarrayPower.pdf
 [paw1]: http://bioinformatics.oxfordjournals.org/cgi/content/full/21/13/3017
 [paw2]: http://bioinformatics.oxfordjournals.org/cgi/reprint/21/13/3017.pdf
 [wei1]: http://www.biomedcentral.com/1471-2164/5/87
