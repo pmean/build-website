@@ -72,7 +72,8 @@ I have been helping a colleague who is interested in monitoring the safety of ki
 2006-04-14 ---- 2006-04-17 ---- 2006-04-30 ---- 2006-05-01 ----
 2006-05-07 ---- 2006-05-09 ---- 2006-05-12 ---- 2006-05-12 ----
 2006-05-13 ---- 2006-05-14 ---- 2006-05-19 ---- 2006-05-21 --N-
-2006-05-22 --N- 2006-05-26 ---- 2006-05-29 ----`
+2006-05-22 --N- 2006-05-26 ---- 2006-05-29 ----
+```
 
 The dates represent dates of the kidney biopsies for 239 consecutive biopsies. I have shifted these dates by an arbitrary constant to protect confidentiality. Those dates with an H represent biopsies where gross hematuria was noted (n=21). An I represents a biopsy where an inadequate amount of tissue was obtained (n=17). An N represents a biopsy where narcotics were required to control the pain (n=22). An O represents any other adverse event (perforation, hematoma, fistula, transfusion needed, prolonged hospitalization, re-admission, or graft loss, n=11). Some of these events (perforation, graft loss) never occurred in this particular data set.
 
