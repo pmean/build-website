@@ -6,7 +6,7 @@
 # that I use across multiple projects.
 
 if (!exists("verbose")) verbose <- TRUE
-verbose <- TRUE
+verbose <- FALSE
 
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(magrittr)))

@@ -40,12 +40,16 @@ Here's an example of what this type of data might look like (this is simulated d
 14-OCT-2007 16:48:00 1
 14-OCT-2007 23:02:24 1
 15-OCT-2007 05:02:24 1
-16-OCT-2007 03:36:00 1`
+16-OCT-2007 03:36:00 1
+```
 
 There are several ways to approach this data, but a very simple method would be to count the number of EKGs between successive failures to complete the proper paperwork. The values would be
 
 ```{}
-1    11    9    4+
+  1
+ 11
+  9
+  4+
 ```
 
 The goal then becomes to model these waiting times. This relates closely to some other work I am thinking about, the tracking of adverse events in a clinical trial. You could envision a failure to fill out the extra paperwork as an adverse event of sorts, and these data then provide you with a way to estimate the number needed to harm (NNH).
