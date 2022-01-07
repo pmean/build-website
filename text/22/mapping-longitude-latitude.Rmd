@@ -1,0 +1,43 @@
+---
+title: "Mapping latitude and longitude"
+author: "Steve Simon"
+source: new
+date: "2022-01-06"
+category: 
+- Blog post
+tags:
+- Geocoding
+output: html_document
+---
+
+I'm trying to understand some of the basics of mapping and found an interesting example on [this website]
+
+```{r usa-map}
+library(maps); library(ggplot2); library(mapproj)
+states <- map_data("state")
+usamap <- ggplot(states, aes(x=long, y=lat, group=group)) +
+  geom_polygon(fill="white", colour="black")
+usamap + coord_map("mercator")
+usamap + coord_map("azequalarea") 
+```
+
+It helps to peek at the first few rows of data.
+
+```{r peek}
+head(states)
+```
+
+The plot is based on longitude/latitude pairs. The first thing to realize is that a direct plot without the coor_map function fails spectacularly.
+
+```{r epic-fail}
+usamap <- ggplot(states, aes(x=long, y=lat, group=group)) +
+  geom_polygon(fill="white", colour="black")
+```
+
+Additional references are [here][ucs1], [here][ear1], [here][mgi1], and [here][tid1].
+
+[ucs1]: https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf
+[ear1]: https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/understand-epsg-wkt-and-other-crs-definition-file-types/
+[mgi1]: https://mgimond.github.io/Spatial/coordinate-systems-in-r.html
+[tid1]: https://ggplot2.tidyverse.org/reference/coord_map.html
+[rpu1]: https://rpubs.com/Augusto86/697809
