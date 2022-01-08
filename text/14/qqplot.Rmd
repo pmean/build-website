@@ -1,0 +1,65 @@
+---
+title: "The qqplot"
+author: "Steve Simon"
+source: "http://www.pmean.com/qqplot.html"
+date: "2014-01-01"
+category: 
+- Blog post
+tags:
+- Checking assumptions  
+- Linear regression
+- R software
+output: html_document
+---
+
+This program was written by Steve Simon, http://www.pmean.com, and is available at http://www.pmean.com/14/qqplot.html.
+
+See a list of my other R programs at http://www.pmean.com/category/Rsoftware.html
+
+Many statistical procedures are based on the assumption that your data has a normal distribution. The normal probability plot is a useful graphical tool for asessing this assumption. This plot is also called the qqplot (quantile-quantile plot).
+
+You can use the housing data set to illustrate the use of the normal probability prlot.
+```{r read-and-display-data}
+fn <- "http://www.pmean.com/00files/housing.txt"
+al <- read.table(file=fn,header=TRUE)
+head(al)
+tail(al)
+```
+
+```{r descriptive-statistics}
+al$age <- as.numeric(al$AgeYears)
+summary(al$Price)
+summary(al$SquareFeet)
+summary(al$age)
+summary(al$NumberFeatures)
+summary(al$Northeast)
+summary(al$CustomBuild)
+summary(al$CornerLot)
+```
+
+The qqplot compares the data values to evenly spaced percentiles of the normal distribution. A straight line indicates that the normality assumption is reasonable. You should not over interpret minor deviations from linearity. A large deviation from linearity is an indication that the normality assumption may be questionable.
+
+You can read more about this on my 2009 blog entry about normal probability plots.
+
+```{r normal-probability-plot}
+qqnorm(al$Price)
+```
+
+Figure 1. Normal probabilty plot for house prices.
+
+In a linear model, the critical assumption is NOT that the predictor (independent) variables are normally distributed. It is NOT that the outcome (dependent) variable is normally distributed. It is that the residuals are normally distributed.
+
+```{r regression model}
+al.model <- lm(Price~SquareFeet+CustomBuild,data=al)
+summary(al.model)
+qqnorm(resid(al.model))
+```
+
+Figure 2. Normal probability plot of residuals
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/14/qqplot.html
+[sim2]: http://www.pmean.com
+
+[sim3]: http://www.pmean.com/09/NormalPlot.html
