@@ -28,9 +28,38 @@ head(ecg)
 tail(ecg)
 ```
 
+Here are some graphing functions I will need.
+
+```{r graphing-functions}
+graph_with_axis <- function(x, lab, limits=c(-1.5, 1.5)) {
+  par(mar=c(2.6, 0, 0, 0))
+  plot((1:2048)/2048, x, 
+       xlim=c(0, 1.2), 
+       ylim=limits, 
+       type="l",
+       axes=FALSE)
+  axis(side=1, at=(0:4)/4, labels=c(1, 512, 1024, 1536, 2048))
+  text(1.1, x[2048], lab, adj=0.5)
+}
+graph_without_axis <- function(x, lab, limits=c(-1.5, 1.5)) {
+  par(mar=c(0, 0, 0, 0))
+  plot((1:2048)/2048, x, 
+       xlim=c(0, 1.2), 
+       ylim=limits, 
+       type="l",
+       axes=FALSE)
+  text(1.1, x[2048], lab, adj=0.5)
+}
+```
+
+
 The head and tail function show the first few and the last few values for the signal. The graph looks like
 
-![Figure 1. Graph of ecg signal](http://pmean.com/news/images/201312/wave01.png)
+```{r graph-ecg, fig.height=2}
+graph_with_axis(ecg, "ecg\nsignal")
+```
+
+Figure 1. Graph of ecg signal
 
 You can ignore the units of the signal itself, as they are arbitrary (at least for this application), but the minimum value is -1.48 and the maximum is 1.44. 
 
@@ -45,6 +74,13 @@ tail(ft.ecg)
 ift.ecg <- fft(ft.ecg,inverse=TRUE)
 head(ift.ecg)
 tail(ift.ecg)
+```
+
+```{r needle-plot, eval=FALSE}
+par(mar=c(0,0,0,0))
+plot(1:2048, Mod(ft.ecg), axes=FALSE)
+plot(Re(ft.ecg), Im(ft.ecg), axes=FALSE, type="n")
+text(Re(ft.ecg), Im(ft.ecg), 1:2048)
 ```
 
 The object ft.ecg contains the Fourier decomposition, and ift.ecg is the inverse of the decomposition. You need to scale the Fourier decomposition by the number of data points (2,048). The inverse gets the original signal (-0.104773, -0.081500, -0.116409,...) except that there is a "+0i" or "-0i" tacked on to the end.
@@ -69,70 +105,68 @@ and
 
 The following code shows the graph of the cosine function, the sine function and the sum.
 
-```{r graph-cosine-1, fig.height=1}
-par(mar=c(2.6, 0, 0, 0))
+```{r graph-cosine-1, fig.height=1.33}
 t.unit <- (1:2048)/2048
 cos1 <- +Re(ft.ecg[2])*cos(2*pi*t.unit)
-plot(t.unit, cos1, type="l", axes=FALSE)
-axis(side=1, pos=0, at=(0:4)/4, labels=(0:4)*512)
+sin1 <- -Im(ft.ecg[2])*sin(2*pi*t.unit)
+add1 <- cos1+sin1
+
+{
+  graph_without_axis(cos1, "Cosine\ncomponent", limits=range(add1))
+  graph_without_axis(sin1, "Sine\ncomponent", limits=range(add1))
+  graph_without_axis(add1, "Combined\ncomponent", limits=range(add1))
+}
 ```
 
-> graph.single("wave02.png",cos1,"cosine\nfunction",c(-0.35,0.35))
-null device
-1
-> sin1 <- -Im(ft.ecg[2])*sin(2*pi*t.unit)
-> graph.single("wave03.png",sin1,"sine\nfunction",c(-0.35,0.35))
-null device
-1
-> sum1 <- cos1+sin1
-> graph.single("wave04.png",sum1,"Sum of\nsine and\ncosine",c(-0.35,0.35))
-null device
-1
+The cosine function is a wave with a peak in the middle and a trough at the beginning (or equivalently, the end). This is actually the reverse of a cosine function, but only because the coefficient is negative. 
 
-Here's the first graph.
+The sine function is a wave with a peak a quarter of the way through and trough three quarters of the way through. A weighted sum of sine and cosine fuctions produces a trough at a different location. Here is about a third of the way through.
 
-ecg signal
-Axis
+If you look at the original signal, the peak and trough roughly match the shape of the ecg curve, if you ignore the sudden spikes.
 
-The graph of the cosine function shows a peak halfway through (1024) and a trough at the end (or equivalently at the beginning). This is actually flipped around from the normal cosine function, but recall that the multiplier front of the cosine function is negative.
-
- 
-
-ecg signal
-Axis
-
-The graph of the sine function shows a peak at 1/4 of the the way through (512) and a trough 3/4 of the way through (1536).
-
- 
-
-ecg signal
-Axis
+```{r compare-to-original-curve, fig.height=1.33}
+{
+  graph_without_axis(add1, "Combined\ncomponent")
+  graph_without_axis(ecg, "Original\nsignal")
+}
+graph_without_axis(add1, "Combined\ncomponent", limits=range(add1))
+peak <- (3*pi/2+Arg(ft.ecg[2]))/(2*pi)
+amplitude <- Mod(ft.ecg[2])
+segments(peak, 0, peak, amplitude)
+segments(0, 0, 1, 0)
+peak
+atan2(Im(ft.ecg[2]), Re(ft.ecg[2]))
+atan2(Im(ft.ecg[2]), Re(ft.ecg[2]))+pi
+Arg(ft.ecg[2])
+(which.max(add1)-1)/2047
+amplitude
+max(add1)
+```
 
 The sum shows the peak for the sum that is somewhere between the peaks of the sine and cosine functions. It's actually slightly closer to the peak of the cosine function, but not by much. The trough is also between the two troughs. The relative weights given to the sine and cosine functions and the positive or negative values associated with these weights will control where the peak and trough occur for the sum. In other words, you can control the phase of the curve.
 
 If you are familiar with the arctangent function, you can compute the location of peak/trough. The Mod function will tell you the amplitude.
 
-> ft.ratio <- -Im(ft.ecg[2])/Re(ft.ecg[2])
-> comp(round(2048*(atan(ft.ratio)+pi)/(2*pi)),which(sum1==max(sum1)),"Peak")
-Peak
-By hand 786
-Using R 786
-> comp(Mod(ft.ecg[2]),max(sum1),"Amplitude")
-Amplitude
-By hand 0.1931891
-Using R 0.1931890
+```{r}
+ft.ratio <- -Im(ft.ecg[2])/Re(ft.ecg[2])
+round(2048*(atan(ft.ratio)+pi)/(2*pi))
+which(add1==max(add1))
+```
 
 Now this was a lot of work to decode the second component of the Fourier decomposition. You might forget to scale by the length of the signal. You could reverse the sines and cosines. Yu might compute the sines and cosines on a range from -pi to pi instead of from 0 to 2pi. You might leave out an important minus sign. Trust me, I did all these things.
 
 There's a faster and more convenient way. Let the computer do the work for you. Take the Fourier decomposition, zero out everything except the second component, and then invert the decomposition. This allows you to graph the second component directly.
 
-> ft.comp2 <- rep(0,length(ft.ecg))
-> ft.comp2[2] <- ft.ecg[2]
-> comp2 <- Re(fft(ft.comp2,inverse=TRUE))
-> mx.2 <- max(comp2)
-> graph.single("wave05.png",comp2,"Second\nFourier\ncomponent",c(-0.35,0.35))
-null device
-1
+```{r, fig.height=1.33}
+ft.comp2 <- rep(0,length(ft.ecg))
+ft.comp2[2] <- ft.ecg[2]
+comp2 <- Re(fft(ft.comp2,inverse=TRUE))
+{
+  graph_without_axis(comp2, "Fourier\ncomponent", limits=range(add1))
+  lines((1:2048)/2048, add1, col="red", lty="dotted")
+}
+```
+
 
 This is the graph
 
