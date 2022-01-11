@@ -55,11 +55,12 @@ graph_without_axis <- function(x, lab, limits=range(x)) {
        axes=FALSE)
   text(1.1, x[2048], lab, adj=0.5)
 }
-needle_plot <- function(y, lab, x=seq(0, 1, along.with=y)) {
+needle_plot <- function(y, lab, x=seq(0, 1, along.with=y), limits=range(y)) {
   par(mar=c(0, 0, 0, 0))
   plot(
     x, y, 
     xlim=c(0, 1.2), 
+    ylim=limits,
     type="n",
     axes=FALSE)
   segments(x, 0, x, y)
@@ -384,9 +385,9 @@ wt.1 <- mdwt(ecg, g, L=1)
 V1 <- wt.1$y[   1:1024]
 W1 <- wt.1$y[1025:2048]
 {
-  needle_plot(V1, "V1")
-  needle_plot(W1, "W1")
-  graph_without_axis(ecg, "Original\nsignal")
+  needle_plot(V1, "V1", limits=range(ecg))
+  needle_plot(W1, "W1", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
 }
 ```
 
@@ -419,10 +420,10 @@ W2 <- wt.2$y[513:1024]
 quality_check_W1 <- wt.2$y[1025:2048]
 all(quality_check_W1==W1)
 {
-  needle_plot(V2, "V2")
-  needle_plot(W2, "W2")
-  needle_plot(W1, "W1")
-  graph_without_axis(ecg, "Original\nsignal")
+  needle_plot(V2, "V2", limits=range(ecg))
+  needle_plot(W2, "W2", limits=range(ecg))
+  needle_plot(W1, "W1", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
 }
 ```
 
@@ -463,11 +464,11 @@ W1_check3 <- wt.3$y[1025:2048]
 all(W2_check3==W2)
 all(W1_check3==W1)
 {
-  needle_plot(V3, "V3")
-  needle_plot(W3, "W3")
-  needle_plot(W2, "W2")
-  needle_plot(W1, "W1")
-  graph_without_axis(ecg, "Original\nsignal")
+  needle_plot(V3, "V3", limits=range(ecg))
+  needle_plot(W3, "W3", limits=range(ecg))
+  needle_plot(W2, "W2", limits=range(ecg))
+  needle_plot(W1, "W1", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
 }
 ```
 
@@ -504,25 +505,17 @@ W3 <- wt.9$y[ 257: 512]
 W2 <- wt.9$y[ 513:1024]
 W1 <- wt.9$y[1025:2048]
 {
-  needle_plot(V9, "V9")
-  needle_plot(W9, "W9")
-  needle_plot(W8, "W8")
-  needle_plot(W7, "W7")
-  needle_plot(W6, "W6")
-  needle_plot(W5, "W5")
-  needle_plot(W4, "W4")
-  needle_plot(W3, "W3")
-  needle_plot(W2, "W2")
-  needle_plot(W1, "W1")
-  graph_without_axis(ecg, "Original\nsignal")
-}
-```
-
-```{r}
-level_wavelet <- function(wt.rwt, i) {
-  v <-wt.rwt$y
-  v[(2^(i-1)):(2^i)] <- 0
-  as.vector(midwt(v, d4.rwt$h.0, L=9)$x)
+  needle_plot(V9, "V9", limits=range(ecg))
+  needle_plot(W9, "W9", limits=range(ecg))
+  needle_plot(W8, "W8", limits=range(ecg))
+  needle_plot(W7, "W7", limits=range(ecg))
+  needle_plot(W6, "W6", limits=range(ecg))
+  needle_plot(W5, "W5", limits=range(ecg))
+  needle_plot(W4, "W4", limits=range(ecg))
+  needle_plot(W3, "W3", limits=range(ecg))
+  needle_plot(W2, "W2", limits=range(ecg))
+  needle_plot(W1, "W1", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
 }
 ```
 
@@ -541,6 +534,13 @@ V8 <- wt.8$y[1:8]
 
 c(V8[1], rev(h) %*% V9_diluted[1:4] + rev(g) %*% W9_diluted[1:4])
 c(V8[2], rev(h) %*% V9_diluted[2:5] + rev(g) %*% W9_diluted[2:5])
+V9_coefficients <- rep(0, 2048)
+V9_coefficients[1:8] <- wt.9$y[1:8]
+V9_signal <- as.vector(midwt(V9_coefficients, d4.rwt$h.0, L=9)$x)
+{
+  graph_without_axis(V9_signal, "V9", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
+}
 ```
 
 W8d <- dilute(W8)
