@@ -55,6 +55,16 @@ graph_without_axis <- function(x, lab, limits=range(x)) {
        axes=FALSE)
   text(1.1, x[2048], lab, adj=0.5)
 }
+needle_plot <- function(y, lab, x=seq(0, 1, along.with=y)) {
+  par(mar=c(0, 0, 0, 0))
+  plot(
+    x, y, 
+    xlim=c(0, 1.2), 
+    type="n",
+    axes=FALSE)
+  segments(x, 0, x, y)
+  text(1.1, 0, lab)
+}
 ```
 
 
@@ -80,7 +90,7 @@ tail(ft.ecg)
 
 This function produces complex numbers, which have an interpretation in terms of sine and cosine functions.
 
-```{r needle-plot, fig.height=5}
+```{r complex-plot, fig.height=5}
 par(mar=c(0,0,0,0))
 plot(Re(ft.ecg), Im(ft.ecg), axes=FALSE, type="n")
 text(Re(ft.ecg), Im(ft.ecg), 1:2048)
@@ -338,27 +348,25 @@ h
 These two filter pairs are known as a quadrature mirror filter because of the reflection. These two filters are orthonormal.
 
 ```{r orthonormal}
-dot.prod <- function(x, y, offset) {
-  sum(x*y)
-}
-dot.prod(g,g)
-dot.prod(h,h)
-dot.prod(g,h)
+# The inline function %*% calculates a dot product of two vectors.
+g %*% g
+h %*% h
+g %*% h
 ```
 
 The wavelet decomposition has an overlap, and (thankfully) the first half and the second half pieces are also orthogonal. Remember, orthogonality allows you to derive the mathematical properties of the wavelet decomposition easily and it preserves independence under certain settings.
 
 ```{r overlap}
-dot.prod(g[1:2],g[3:4])
-dot.prod(h[1:2],h[3:4])
-dot.prod(g[1:2],h[3:4])
-dot.prod(h[1:2],g[3:4])
+g[1:2] %*% g[3:4]
+h[1:2] %*% h[3:4]
+g[1:2] %*% h[3:4]
+h[1:2] %*% g[3:4]
 ```
 
 The d4 filter also has one more nice property. The second filter is orthogonal to any linear signal
 
 ```{r orthogonal-to-linear}
-dot.prod(h,1:4)
+h %*% (1:4)
 ```
 
 This means that the linear portion of any signal is not filtered out, but is passed up the ladder of the decomposition. The d6 filter has six coefficients rather than four, and it does not filter out any linear or quadratic signal. The d8 filter has eight coefficients and it does not filter out any linear, quadratic, or cubic signal. In fact, it is this property involving polynomial signals that forms the basis of the Daubechies wavelets.
@@ -367,31 +375,150 @@ There's one more property that is not immediately apparent from looking at the d
 
 Let's look at the first level of the wavelet decomposition.
 
+For conveniece, split the decomposition into the left half (1:1024) and the right half (1025:2048).
+
+Information about the highest frequency events are captured in W1 and information aobut the remainder of the signal are captured in V1. Notice how the largest absolute values in W1 are aligned with some of the very sharp spikes in the signal. The large absolute values in V1 correspond to some of the spikes in the signal that are not quite at the highest frequency as well as low frequency oscillations.
+
 ```{r first-level-wavelet}
-wt.1 <- mdwt(ecg,g,L=1)
-V1 <- wt.1$y[ 1:1024]
+wt.1 <- mdwt(ecg, g, L=1)
+V1 <- wt.1$y[   1:1024]
 W1 <- wt.1$y[1025:2048]
-V1[1]
-dot.prod(ecg[1:4], g)
-V1[2]
-dot.prod(ecg[3:6], g)
-W1[1]
-dot.prod(ecg[1:4], h)
-W1[2]
-dot.prod(ecg[3:6], h)
-wt.2 <- mdwt(ecg,g,L=2)
+{
+  needle_plot(V1, "V1")
+  needle_plot(W1, "W1")
+  graph_without_axis(ecg, "Original\nsignal")
+}
+```
+
+The V1 coefficients represent the running dot product of the signal with the g vector. You skip every other data point in the running dot product, and you rotate the dot product around to the end when reach the right hand side to avoid edge effects. The skipping past the second, fourth, sixth, etc. observation in the running dot product is described in some sources as down-sampling.
+
+The W1 coefficients represent the running dot product of the signal with the h vector, again with downsampling.
+
+```{r first-level-dot-products}
+c(V1[   1], g %*% ecg[1:4])
+c(V1[   2], g %*% ecg[3:6])
+c(V1[   3], g %*% ecg[5:8])
+c(V1[1023], g %*% ecg[2045:2048])
+c(V1[1024], g %*% ecg[c(2047:2048, 1:2)])
+
+c(W1[   1], -h %*% ecg[1:4])
+c(W1[   2], -h %*% ecg[3:6])
+c(W1[   3], -h %*% ecg[5:8])
+c(W1[1023], -h %*% ecg[2045:2048])
+c(W1[1024], -h %*% ecg[c(2047:2048, 1:2)])
+```
+
+Notice that you need to negate the h function to get the proper values for W. This is one of those scaling details in wavelets that will drive you nuts.
+
+A second pass applies the same pair of filters to V1. This creates 512 coefficients at the second highest frequency (W2) and 512 coefficients containing everything but W1 and W2 (V2). The last 1,024 coefficients are the same highest frequency values (W1) that were computed in the first pass.
+
+```{r second-level-wavelet}
+wt.2 <- mdwt(ecg, g, L=2)
 V2 <- wt.2$y[1:512]
 W2 <- wt.2$y[513:1024]
-W1_check2 <- wt.2$y[1025:2048]
-V2[1]
-dot.prod(V1[1:4], g)
-V2[2]
-dot.prod(V1[3:6], g)
-W2[1]
-dot.prod(V1[1:4], h)
-W2[2]
-dot.prod(V1[3:6], h)
+quality_check_W1 <- wt.2$y[1025:2048]
+all(quality_check_W1==W1)
+{
+  needle_plot(V2, "V2")
+  needle_plot(W2, "W2")
+  needle_plot(W1, "W1")
+  graph_without_axis(ecg, "Original\nsignal")
+}
+```
 
+```{r second-level-dot-products}
+c(V2[  1], g %*% V1[1:4])
+c(V2[  2], g %*% V1[3:6])
+c(V2[  3], g %*% V1[5:8])
+c(V2[511], g %*% V1[1021:1024])
+c(V2[512], g %*% V1[c(1023:1024, 1:2)])
+
+c(W2[  1], -h %*% V1[1:4])
+c(W2[  2], -h %*% V1[3:6])
+c(W2[  3], -h %*% V1[5:8])
+c(W2[511], -h %*% V1[1021:1024])
+c(W2[512], -h %*% V1[c(1023:1024, 1:2)])
+```
+
+You could get the same results as a level 2 wavelet transform by applying a level 1 wavelet transform to V1.
+
+```{r transform-V1}
+quality_check <- mdwt(V1, g, L=1)
+quality_check_V2 <- quality_check$y[  1: 512]
+quality_check_W2 <- quality_check$y[513:1024]
+all(quality_check_V2==V2)
+all(quality_check_W2==W2)
+```
+
+Note the order in which these are stored: 512 V2's at the front, followed by 512 W2's, and 1,024 W1's bring up the rear. You don't need to hang onto V1, because (as we will see in a minute), you can reconstruct the 1.024 V1's from 512 V2's and the 512 W2's. Now, run the wavelet decomposition all the way up to level 3. This creates 256 V3's, 256 W3's, 512 W2's, and 1,024 W1's.
+
+A third pass applies the same pair of filters to V2. This creates 256 coefficients at the third highest frequency (W3) and 256 coefficients containing information about all the lower frequency events (V3). These 512 values are followed by the 512 W2 coefficients and the 1,024 W3 coefficients.
+
+```{r third-level-wavelet}
+wt.3 <- mdwt(ecg, g, L=3)
+V3 <- wt.3$y[1:256]
+W3 <- wt.3$y[257:512]
+W2_check3 <- wt.3$y[513:1024]
+W1_check3 <- wt.3$y[1025:2048]
+all(W2_check3==W2)
+all(W1_check3==W1)
+{
+  needle_plot(V3, "V3")
+  needle_plot(W3, "W3")
+  needle_plot(W2, "W2")
+  needle_plot(W1, "W1")
+  graph_without_axis(ecg, "Original\nsignal")
+}
+```
+
+Again, large coefficients in W3 are associated with more of the spikes in the original signal--spikes that are not quite as abrupt, perhaps, as the spikes captured in W1 and W2.
+
+The values of W3 and V3 are computed as before, but using V2 instead of V1 or the original signal.
+
+```{r third-level-dot-products}
+c(V3[  1], g %*% V2[1:4])
+c(V3[  2], g %*% V2[3:6])
+c(V3[  3], g %*% V2[5:8])
+c(V3[255], g %*% V2[509:512])
+c(V3[256], g %*% V2[c(511:512, 1:2)])
+
+c(W3[  1], -h %*% V2[1:4])
+c(W3[  2], -h %*% V2[3:6])
+c(W3[  3], -h %*% V2[5:8])
+c(W3[255], -h %*% V2[509:512])
+c(W3[256], -h %*% V2[c(511:512, 1:2)])
+```
+
+Here's an outline of how the wavelet transform works, level by level. Take the original 2,048 signal values and transform them into 1.024 very high frequency values (W1) and what's left over (V1). Take the 1,024 V1 values and split them into 512 high frequency values (W2) and what's left over (V2). Take those V2 values and split them. Keep on spliting until there are only a handful of V values left. I won't show the details of further calculation, but here is what the graph looks like.
+
+```{r ninth-level-wavelet}
+wt.9 <- mdwt(ecg, g, L=9)
+V9 <- wt.9$y[   1:   4]
+W9 <- wt.9$y[   5:   8]
+W8 <- wt.9$y[   9:  16]
+W7 <- wt.9$y[  17:  32]
+W6 <- wt.9$y[  33:  64]
+W5 <- wt.9$y[  65: 128]
+W4 <- wt.9$y[ 129: 256]
+W3 <- wt.9$y[ 257: 512]
+W2 <- wt.9$y[ 513:1024]
+W1 <- wt.9$y[1025:2048]
+{
+  needle_plot(V9, "V9")
+  needle_plot(W9, "W9")
+  needle_plot(W8, "W8")
+  needle_plot(W7, "W7")
+  needle_plot(W6, "W6")
+  needle_plot(W5, "W5")
+  needle_plot(W4, "W4")
+  needle_plot(W3, "W3")
+  needle_plot(W2, "W2")
+  needle_plot(W1, "W1")
+  graph_without_axis(ecg, "Original\nsignal")
+}
+```
+
+```{r}
 level_wavelet <- function(wt.rwt, i) {
   v <-wt.rwt$y
   v[(2^(i-1)):(2^i)] <- 0
@@ -399,169 +526,46 @@ level_wavelet <- function(wt.rwt, i) {
 }
 ```
 
-For conveniece, split the decomposition into the left half (1:1024) and the right half (1025:2048).
-
-The V1 coefficients represent the running dot product of the signal with the g vector. You skip every other data point in the running dot product, and you rotate the dot product around to the end when reach the right hand side to avoid edge effects. The skipping past the second, fourth, sixth, etc. observation in the running dot product is described in some sources as down-sampling.
-
-```{r down-sampling}
-dot.prod(ecg, g,1)
-V1[1]
-dot.prod(ecg, g,3)
-V1[2]
-dot.prod(ecg, g,5)
-V1[3]
-```
-
-The W1 coefficients represent the running dot product of the signal with the h vector, again with downsampling.
-
-```{r W1-coefficients}
-dot.prod(ecg,-h,1)
-W1[1]
-dot.prod(ecg,-h,3)
-W1[2]
-dot.prod(ecg,-h,5)
-W1[3]
-```
-
-Notice that you need to negate the h function to get the proper values for W. This is one of those scaling details in wavelets that will drive you nuts.
-
-A second pass applies the same pair of filters to V1. This creates 512 coefficients at the second highest frequency (W2) and 512 coefficients containing everything but W1 and W2 (V2).
-
-```{r W2-coefficients}
-wt.2 <- mdwt(ecg,g,L=2)
-V2 <- wt.2$y[ 1: 512]
-W2 <- wt.2$y[513:1024]
-dot.prod(V1, g,1)
-V2[1]
-dot.prod(V1, g,3)
-V2[2]
-dot.prod(V1, g,5)
-V2[3]
-```
-
-The V2 coefficients represent the running dot product (with downsampling) of V1 and g.
-
-```{r V2-coefficients}
-dot.prod(V1,-h,1)
-W2[1]
-dot.prod(V1,-h,3)
-W2[2]
-dot.prod(V1,-h,5)
-W2[3]
-```
-
-The W2 coefficients represent the running dot product (with downsampling) of V1 and h.
-
-```{r}
-all(wt.2$y[1025:2048]==wt.1$y[1025:2048])
-```
-
-The second level of the wavelet decomposition preserves all the W1 coefficients in the back half of the wavelet decomposition.
-
-wt.2a <- mdwt(V1,g,L=1)
-length(wt.2a$y)
-[1] 1024
-all(wt.2a$y==wt.2$y[1:1024])
-[1] TRUE
-
-You get the exact same wavelet decomposition if you apply a level 1 decomposition on V1.
-
-Note the order in which these are stored: 512 V2's at the front, followed by 512 W2's, and 1,024 W1's bring up the rear. You don't need to hang onto V1, because (as we will see in a minute), you can reconstruct the 1.024 V1's from 512 V2's and the 512 W2's. Now, run the wavelet decomposition all the way up to level 3. This creates 256 V3's, 256 W3's, 512 W2's, and 1,024 W1's.
-
-wt.3 <- mdwt(ecg,g,L=3)
-W3 <- wt.3$y[257:512]
-V3 <- wt.3$y[ 1:256]
-
-Again for convenience, split apart the decomposition. At this level split into the first eight (1:256) and the second eighth (257:512).
-
-dot.prod(V2, g,1),V3[1],"V3[1]")
-V3[1]
-By hand -0.28061
-Using R -0.28061
-dot.prod(V2, g,3),V3[2],"V3[2]")
-V3[2]
-By hand -0.2404948
-Using R -0.2404948
-dot.prod(V2, g,5),V3[3],"V3[3]")
-V3[3]
-By hand -0.2919882
-Using R -0.2919882
-
-Are you starting to see the pattern? The V3 coefficients represent the running dot product (with downsampling) of V2 and g.
-
-dot.prod(V2,-h,1),W3[1],"W3[1]")
-W3[1]
-By hand -0.002777659
-Using R -0.002777659
-dot.prod(V2,-h,3),W3[2],"W3[2]")
-W3[2]
-By hand 0.03857375
-Using R 0.03857375
-dot.prod(V2,-h,5),W2[3],"W3[3]")
-W3[3]
-By hand 0.0963032950
-Using R -0.0003374554
-
-Ditto for the W3 coefficients.
-
-all(wt.3$y[ 513:1024]==wt.2$y[ 513:1024])
-[1] TRUE
-
-The W2 coefficients are stored in the same spot for the level 2 and the level 3 decomposition.
-
-wt.3a <- mdwt(V2,g,L=1)
-length(wt.3a)
-[1] 2
-all(wt.3a$y==wt.3$y[1:512])
-[1] TRUE
-
-Finally, you get the exact same values by applying a level 1 decomposition to V2.
-
-You keep on going until you get just about run out of V's.
-
-wt.4 <- mdwt(ecg,g,L=4)
-W4 <- wt.4$y[129:256]
-V4 <- wt.4$y[ 1:128]
-wt.5 <- mdwt(ecg,g,L=5)
-W5 <- wt.5$y[ 65:128]
-V5 <- wt.5$y[ 1: 64]
-wt.6 <- mdwt(ecg,g,L=6)
-W6 <- wt.6$y[ 33: 64]
-V6 <- wt.6$y[ 1: 32]
-wt.7 <- mdwt(ecg,g,L=7)
-W7 <- wt.7$y[ 17: 32]
-V7 <- wt.7$y[ 1: 16]
-wt.8 <- mdwt(ecg,g,L=8)
-W8 <- wt.8$y[ 9: 16]
-V8 <- wt.8$y[ 1: 8]
-
-A level 8 decomposition works pretty well. It has 8 V8's, 8 W8's, 16 W7's, 32 W6's, 64 W5's, 128 W4's, 256 W3's, 512 W2's and 1,024 W1's. The W's store all the information at 8 decreasing frequency levels, and as the frequency decreases from the highest frequency (W1) to lower frequencies, the number of coefficients decreases also. We could take this a couple of steps further, but there is no appreciable benefit to running the wavelet decomoposition all the way to the top, and the edge effects loom very large at the top.
+### Reconstruction of the original signal
 
 Reconstruction of the original signal works in a similar fashion.
 
+First you dilute the W and V values at the top of the pyramid.
+
+```{r reconstuct V8}
+V9_diluted <- c(V9[1], 0, V9[2], 0, V9[3], 0, V9[4], 0)
+W9_diluted <- c(W9[1], 0, W9[2], 0, W9[3], 0, W9[4], 0)
+
+wt.8 <- mdwt(ecg, g, L=8)
+V8 <- wt.8$y[1:8] 
+
+c(V8[1], rev(h) %*% V9_diluted[1:4] + rev(g) %*% W9_diluted[1:4])
+c(V8[2], rev(h) %*% V9_diluted[2:5] + rev(g) %*% W9_diluted[2:5])
+```
+
 W8d <- dilute(W8)
 V8d <- dilute(V8)
- dot.prod(W8d,g,14)+dot.prod(V8d,h,14),V7[1],"V7[1]")
+ W8d, g, 14)+V8d,h,14),V7[1],"V7[1]")
 V7[1]
 By hand -3.315508
 Using R -3.315508
--dot.prod(W8d,g,15)-dot.prod(V8d,h,15),V7[2],"V7[2]")
+-W8d, g, 15)-V8d,h,15),V7[2],"V7[2]")
 V7[2]
 By hand -2.398146
 Using R -2.398146
- dot.prod(W8d,g,16)+dot.prod(V8d,h,16),V7[3],"V7[3]")
+ W8d, g, 16)+V8d,h,16),V7[3],"V7[3]")
 V7[3]
 By hand -0.2769286
 Using R -0.2769286
--dot.prod(W8d,g, 1)-dot.prod(V8d,h, 1),V7[4],"V7[4]")
+-W8d, g,  1)-V8d,h, 1),V7[4],"V7[4]")
 V7[4]
 By hand 1.782748
 Using R 1.782748
- dot.prod(W8d,g, 2)+dot.prod(V8d,h, 2),V7[5],"V7[5]")
+ W8d, g,  2)+V8d,h, 2),V7[5],"V7[5]")
 V7[5]
 By hand 5.25007
 Using R 5.25007
--dot.prod(W8d,g, 3)-dot.prod(V8d,h, 3),V7[6],"V7[6]")
+-W8d, g,  3)-V8d,h, 3),V7[6],"V7[6]")
 V7[6]
 By hand 4.7496
 Using R 4.7496
@@ -572,27 +576,27 @@ Once you have V7, repeat the process on the diluted V7 and W7 vectors to get V6.
 
 W7d <- dilute(W7)
 V7d <- dilute(V7)
- dot.prod(W7d,g,30)+dot.prod(V7d,h,30),V6[1],"V6[1]")
+ W7d, g, 30)+V7d,h,30),V6[1],"V6[1]")
 V6[1]
 By hand -2.096562
 Using R -2.096562
--dot.prod(W7d,g,31)-dot.prod(V7d,h,31),V6[2],"V6[2]")
+-W7d, g, 31)-V7d,h,31),V6[2],"V6[2]")
 V6[2]
 By hand -2.294492
 Using R -2.294492
- dot.prod(W7d,g,32)+dot.prod(V7d,h,32),V6[3],"V6[3]")
+ W7d, g, 32)+V7d,h,32),V6[3],"V6[3]")
 V6[3]
 By hand -2.441797
 Using R -2.441797
--dot.prod(W7d,g, 1)-dot.prod(V7d,h, 1),V6[4],"V6[4]")
+-W7d, g,  1)-V7d,h, 1),V6[4],"V6[4]")
 V6[4]
 By hand -1.265345
 Using R -1.265345
- dot.prod(W7d,g, 2)+dot.prod(V7d,h, 2),V6[5],"V6[5]")
+ W7d, g,  2)+V7d,h, 2),V6[5],"V6[5]")
 V6[5]
 By hand -0.6650157
 Using R -0.6650157
--dot.prod(W7d,g, 3)-dot.prod(V7d,h, 3),V6[6],"V6[6]")
+-W7d, g,  3)-V7d,h, 3),V6[6],"V6[6]")
 V6[6]
 By hand 0.08738041
 Using R 0.08738041
@@ -601,27 +605,27 @@ And so forth.
 
 W1d <- dilute(W1)
 V1d <- dilute(V1)
- dot.prod(W1d,g,2046)+dot.prod(V1d,h,2046),ecg[1],"ecg[1]")
+ W1d, g, 2046)+V1d,h,2046),ecg[1],"ecg[1]")
 ecg[1]
 By hand -0.104773
 Using R -0.104773
--dot.prod(W1d,g,2047)-dot.prod(V1d,h,2047),ecg[2],"ecg[2]")
+-W1d, g, 2047)-V1d,h,2047),ecg[2],"ecg[2]")
 ecg[2]
 By hand -0.093136
 Using R -0.093136
- dot.prod(W1d,g,2048)+dot.prod(V1d,h,2048),ecg[3],"ecg[3]")
+ W1d, g, 2048)+V1d,h,2048),ecg[3],"ecg[3]")
 ecg[3]
 By hand -0.0815
 Using R -0.0815
--dot.prod(W1d,g, 1)-dot.prod(V1d,h, 1),ecg[4],"ecg[4]")
+-W1d, g,  1)-V1d,h, 1),ecg[4],"ecg[4]")
 ecg[4]
 By hand -0.116409
 Using R -0.116409
- dot.prod(W1d,g, 2)+dot.prod(V1d,h, 2),ecg[5],"ecg[5]")
+ W1d, g,  2)+V1d,h, 2),ecg[5],"ecg[5]")
 ecg[5]
 By hand -0.0815
 Using R -0.0815
--dot.prod(W1d,g, 3)-dot.prod(V1d,h, 3),ecg[6],"ecg[6]")
+-W1d, g,  3)-V1d,h, 3),ecg[6],"ecg[6]")
 ecg[6]
 By hand -0.116409
 Using R -0.116409
@@ -685,7 +689,7 @@ Axis
 
 For a two dimensional image, you take the outer product of g with itself to get an 8 by 8 matrix. This matrix is then slid around on the image to get the V1 coefficients. The W1 coefficents are produced by a similar set of three outer products: the outer product of h with g, the outer product of g with h and the outer product of h with h.
 
-wt.img.1 <- mdwt(img,g,L=1)
+wt.img.1 <- mdwt(img, g, L=1)
 sum(img[1:8,1:8]*outer(g,g)),wt.img.1$y[ 1, 1],"V1")
 V1
 By hand -1.580973
