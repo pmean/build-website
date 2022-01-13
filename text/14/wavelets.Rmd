@@ -521,6 +521,8 @@ W1 <- wt.9$y[1025:2048]
 
 ### Reconstruction of the original signal
 
+The best explanation of the inverse wavelet transformation is a [page][kap1] buried deep in Ian Kaplan's website, bearcave.
+
 Reconstruction of the original signal works in a similar fashion.
 
 First you dilute the W and V values at the top of the pyramid.
@@ -837,3 +839,5 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
 [sim1]: http://www.pmean.com/14/wavelets.html
 [sim2]: http://www.pmean.com
+
+[kap1]: http://bearcave.com/software/java/wavelets/daubechies/index.html
