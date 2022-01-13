@@ -521,7 +521,7 @@ W1 <- wt.9$y[1025:2048]
 
 ### Reconstruction of the original signal
 
-The best explanation of the inverse wavelet transformation is a [page][kap1] buried deep in Ian Kaplan's website, bearcave.
+The best explanation of the inverse wavelet transformation is a [page][kap1] buried deep in Ian Kaplan's website, bearcave. Also helpful is this [pdf file][nar1] of Chapter 2 of a book on wavelets.
 
 Reconstruction of the original signal works in a similar fashion.
 
@@ -684,7 +684,7 @@ h
 
 The d8 wavelet is a bit smoother than d4. It passes linear, quadratic, and cubic functions through to the top of the pyramid, unlike the d4 wavelet which only passes linear functions through. There is slightly greater computational complexity and edge effects can be a bit more pronounced, but these are minor issues.
 
-In one dimention, the d8 wavelet looks like this.
+In one dimension, the d8 wavelet looks like this.
 
 ecg
 Axis
@@ -841,3 +841,4 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 [sim2]: http://www.pmean.com
 
 [kap1]: http://bearcave.com/software/java/wavelets/daubechies/index.html
+[nar1]: http://dsp-book.narod.ru/PWSA/8276_02.pdf
