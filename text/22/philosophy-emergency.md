@@ -1,5 +1,5 @@
 ---
-title: "Philosopy emergency"
+title: "Philosophy emergency"
 source: "New"
 date: "2022-01-03"
 categories:
