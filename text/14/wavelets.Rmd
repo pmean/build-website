@@ -21,7 +21,7 @@ To understand wavelets well, you need to refresh yourself on how the Fourier dec
 There is data set with the wavelets package in R called "ecg" that represents 2048 evenly spaced values from a typical electrocardiogram. Here's the code to get and graph that signal
 
 ```{r setup}
-knitr::opts_chunk$set(fig.height=1.33)
+knitr::opts_chunk$set(fig.height=1)
 ```
 
 
@@ -50,7 +50,7 @@ graph_without_axis <- function(x, lab, limits=range(x)) {
   par(mar=c(0, 0, 0, 0))
   plot((1:2048)/2048, x, 
        xlim=c(0, 1.2), 
-       ylim=limits, 
+       ylim=c(limits[1]*1.1, limits[2]), # adjust lower limit
        type="l",
        axes=FALSE)
   text(1.1, x[2048], lab, adj=0.5)
@@ -269,70 +269,86 @@ I will use the rwt package for the rest of my examples. The S4 objects in wavele
 
 I will also use the d4 or Daubechies 4 wavelet for these examples. Ingird Daubechies is one of the pioneers in wavelet theory and she developed a series of wavelets, d2, d4, d6, .. with certain optimal properties. The d2 wavelet, or the Haar wavelet, is the simplest, but I wanted to look at something just slightly more complex. So what does a d4 wavelet look like?
 
+Actually, wavelets come in pairs, a "father wavelet" and a "mother wavelet."
+
 ```{r graph-d4}
 wt.comp <- function(x, y) {
   single_wavelet <- as.numeric((1:2048)==y)
-  as.vector(midwt(single_wavelet, d4.rwt$h.0, L=9)$x)
+  as.vector(midwt(single_wavelet, d4.rwt$h.0, L=8)$x)
 }
-graph_without_axis(wt.comp(wt.rwt,5),"d4 wavelet")
+```
+
+```{r calculate-functions}
+calculate_mother <- function(i, L) {
+  yl <- rep(0, 2048)
+  yh <- matrix(0, nrow=2048, ncol=L)
+  yh[i, L] <- 1
+  as.vector(mirdwt(yl, yh, d4.rwt$h.0, L)$x)
+}
+calculate_father <- function(i, L) {
+  yl <- rep(0, 2048)
+  yh <- matrix(0, nrow=2048, ncol=L)
+  yl[i] <- 1
+  as.vector(mirdwt(yl, yh, d4.rwt$h.0, L)$x)
+}
+```
+
+```{r mother-and-father}
+{
+  graph_without_axis(calculate_father(2^9+1, 7),"d4 father")
+  graph_without_axis(calculate_mother(2^9+1, 7),"d4 mother")
+}
+```
+
+You can shift the wavelets left and right.
+
+```{r shifted}
+{
+  graph_without_axis(calculate_father(2^9-2^7+1, 7),"d4 father")
+  graph_without_axis(calculate_father(2^9+1, 7),"d4 father")
+  graph_without_axis(calculate_father(2^9+2^7+1, 7),"d4 father")
+  graph_without_axis(calculate_mother(2^9-2^7+1, 7),"d4 mother")
+  graph_without_axis(calculate_mother(2^9+1, 7),"d4 mother")
+  graph_without_axis(calculate_mother(2^9+2^7+1, 7),"d4 mother")
+}
+```
+
+When a wavelet crosses the boundary, there are several choices. The most common one is to wrap the wavelet around to the other side.
+
+```{r wrapped}
+{
+  graph_without_axis(calculate_father(2^10+2^9+1+2^8+1, 7),"d4 father")
+  graph_without_axis(calculate_mother(2^10+2^9+1+2^8+1, 7),"d4 mother")
+}
+
+```
+
+You can stretch or squeeze the wavelets.
+
+```{r stretch-and-squeeze}
+{  
+  graph_without_axis(calculate_father(2^9+1, 8),"d4 father")
+  graph_without_axis(calculate_father(2^9+1, 7),"d4 father")
+  graph_without_axis(calculate_father(2^9+1, 6),"d4 father")
+  graph_without_axis(calculate_mother(2^9+1, 8),"d4 mother")
+  graph_without_axis(calculate_mother(2^9+1, 7),"d4 mother")
+  graph_without_axis(calculate_mother(2^9+1, 6),"d4 mother")
+}
+```
+
+Here are the father and mother wavelets at the most extreme.
+
+```{r most-extreme}
+{
+  graph_without_axis(calculate_father(2^9+1, 1),"d4 father")
+  graph_without_axis(calculate_mother(2^9+1, 1),"d4 mother")
+}
 ```
 
 Now, why the weird appearance? The d4 wavelet optimizes three properties simultaneously. The d4 wavelet chosen to have compact support, both for the wavelet decomposition and the inverse function that reconstructs the wavelet. The d4 wavelet is orthogonal both within a frequency band and across frequency bands. Finally, the d4 wavelet is orthogonal to any linear function, which simplifies the ability of the wavelet transform to isolate linear signals.
 
-There are four wavelets at this frequency.
 
-```{r w9}
-{
-  graph_without_axis(wt.comp(wt.rwt,5),"W9[1]")
-  graph_without_axis(wt.comp(wt.rwt,6),"W9[2]")
-  graph_without_axis(wt.comp(wt.rwt,7),"W9[3]")
-  graph_without_axis(wt.comp(wt.rwt,8),"W9[4]")
-}
-```
-
-You'll find out more details about where these wavelet coefficients fit in the wavelet decomposition in little bit. Notice how the last two wavelets wrap around. This is a complication of the edge effects of a signal, and there are several alternative ways to handle these effects: repeat the signal (assuming it is periodic), reflect the signal back, or pad with zeros. The last option is not recommended, and repeating the signal leads to a simple wrap-around effect that is easy to follow.
-
-Here are the wavelets at the next higher frequency.
-
-```{r w8}
-{
-  graph_without_axis(wt.comp(wt.rwt, 9),"W8[1]")
-  graph_without_axis(wt.comp(wt.rwt,10),"W8[2]")
-  graph_without_axis(wt.comp(wt.rwt,11),"W8[3]")
-  graph_without_axis(wt.comp(wt.rwt,12),"W8[4]")
-  graph_without_axis(wt.comp(wt.rwt,13),"W8[5]")
-  graph_without_axis(wt.comp(wt.rwt,14),"W8[6]")
-  graph_without_axis(wt.comp(wt.rwt,15),"W8[7]")
-  graph_without_axis(wt.comp(wt.rwt,16),"W8[8]")
-}
-```
-
-and at the next highest frequency
-
-```{r s7}
-{
-  graph_without_axis(wt.comp(wt.rwt,17),"W7[1]")
-  graph_without_axis(wt.comp(wt.rwt,18),"W7[2]")
-  graph_without_axis(wt.comp(wt.rwt,19),"W7[3]")
-  graph_without_axis(wt.comp(wt.rwt,20),"W7[4]")
-  graph_without_axis(wt.comp(wt.rwt,21),"W7[5]")
-  graph_without_axis(wt.comp(wt.rwt,22),"W7[6]")
-  graph_without_axis(wt.comp(wt.rwt,23),"W7[7]")
-  graph_without_axis(wt.comp(wt.rwt,24),"W7[8]")
-  graph_without_axis(wt.comp(wt.rwt,25),"W7[9]")
-  graph_without_axis(wt.comp(wt.rwt,26),"W7[10]")
-  graph_without_axis(wt.comp(wt.rwt,27),"W7[11]")
-  graph_without_axis(wt.comp(wt.rwt,28),"W7[12]")
-  graph_without_axis(wt.comp(wt.rwt,29),"W7[13]")
-  graph_without_axis(wt.comp(wt.rwt,30),"W7[14]")
-  graph_without_axis(wt.comp(wt.rwt,31),"W7[15]")
-  graph_without_axis(wt.comp(wt.rwt,32),"W7[16]")
-}
-```
-
-Notice that each time the frequency doubles, the number of wavelets also doubles. This creates a pyrimidal cascade of wavelet coefficients.
-
-The calculation of the wavelet decomposition is an interative process. First, you need the coefficients underlying the d4 wavelet. At the highest possible frequency, there are four coefficients.
+The calculation of the wavelet decomposition is an iterative process. First, you need the coefficients underlying the d4 wavelet. At the highest possible frequency, there are four coefficients.
 
 ```{r high-pass}
 g <- d4.rwt$h.0
@@ -394,6 +410,8 @@ W1 <- wt.1$y[1025:2048]
 The V1 coefficients represent the running dot product of the signal with the g vector. You skip every other data point in the running dot product, and you rotate the dot product around to the end when reach the right hand side to avoid edge effects. The skipping past the second, fourth, sixth, etc. observation in the running dot product is described in some sources as down-sampling.
 
 The W1 coefficients represent the running dot product of the signal with the h vector, again with downsampling.
+
+$\begin{bmatrix} h_1 & h_2 & h_3 & h_4 &     &     & ... \\ &     & h_1 & h_2 & h_3 & h_4 & ... \\  . \\ . \\ . \\    &     &     &     &     &     & ... & h_1 & h_2 & h_3 & h_4 \\ h_3 & h_4 &     &     &     &     & ... &     &     & h_1 & h_2 \end{bmatrix}$
 
 ```{r first-level-dot-products}
 c(V1[   1], g %*% ecg[1:4])

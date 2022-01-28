@@ -17,6 +17,7 @@ The negative binomial distribution is similar to the Poisson distribution, but i
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(foreign)))
 suppressMessages(suppressWarnings(library(magrittr)))
 ```
 
@@ -132,13 +133,27 @@ This means that you can't use the glm function in R to fit a negative binomial r
 
 ### Comparing a Poisson regression to a negative binomial regression.
 
-Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model, the negative binomial model and several others. The first data set is available for anyone to download.
+Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download. The link I originally used no longer works.
 
-```{r}
+```{r, eval=FALSE}
 fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
 articles <- read.csv(fn)
 head(articles)
 ```
+
+Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
+
+```{r}
+fn <- "http://www.stata-press.com/data/lf2/couart2.dta"
+articles <- read.dta(fn)
+head(articles)
+```
+
+[hua1]: https://francish.netlify.app/post/poisson-and-negative-binomial-regression-using-r/
+[rod2]: https://data.princeton.edu/wws509/r/overdispersion
+[rod3]: http://www.stata-press.com/data/lf2/couart2.dta
+[sim3]: http://www.pmean.com/00files/couart2.dta
+[zei1]: https://cran.r-project.org/web/packages/pscl/vignettes/countreg.pdf
 
 The variables are
 + gender (fem),
