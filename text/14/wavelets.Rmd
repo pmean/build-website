@@ -347,6 +347,8 @@ Here are the father and mother wavelets at the most extreme.
 
 Now, why the weird appearance? The d4 wavelet optimizes three properties simultaneously. The d4 wavelet chosen to have compact support, both for the wavelet decomposition and the inverse function that reconstructs the wavelet. The d4 wavelet is orthogonal both within a frequency band and across frequency bands. Finally, the d4 wavelet is orthogonal to any linear function, which simplifies the ability of the wavelet transform to isolate linear signals.
 
+You don't actually use the larger wavelets shown above. Instead you apply the most extreme wavelets in an iterative method that reduces the amount of data by half at each iteration. This makes the 
+
 
 The calculation of the wavelet decomposition is an iterative process. First, you need the coefficients underlying the d4 wavelet. At the highest possible frequency, there are four coefficients.
 
