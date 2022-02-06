@@ -347,10 +347,7 @@ Here are the father and mother wavelets at the most extreme.
 
 Now, why the weird appearance? The d4 wavelet optimizes three properties simultaneously. The d4 wavelet chosen to have compact support, both for the wavelet decomposition and the inverse function that reconstructs the wavelet. The d4 wavelet is orthogonal both within a frequency band and across frequency bands. Finally, the d4 wavelet is orthogonal to any linear function, which simplifies the ability of the wavelet transform to isolate linear signals.
 
-You don't actually use the larger wavelets shown above. Instead you apply the most extreme wavelets in an iterative method that reduces the amount of data by half at each iteration. This makes the 
-
-
-The calculation of the wavelet decomposition is an iterative process. First, you need the coefficients underlying the d4 wavelet. At the highest possible frequency, there are four coefficients.
+You don't actually use the larger wavelets shown above. Instead you apply the most extreme wavelets in an iterative method that reduces the amount of data by half at each iteration. This makes the processing fast and easy. The most extreme D4 wavelets have only four coefficients.
 
 ```{r high-pass}
 g <- d4.rwt$h.0
@@ -359,8 +356,10 @@ g
 
 These coefficients represent the "high pass" filter. There is a complementary "low pass" filter that you get by reversing the coefficients and changing the sign of every other value.
 
+Note: To get the math to work on my end, tThe low pass filter provided by the rwt package needs to be negated. 
+
 ```{r low-pass}
-h <- d4.rwt$h.1
+h <- -d4.rwt$h.1
 h
 ```
 
@@ -409,11 +408,13 @@ W1 <- wt.1$y[1025:2048]
 }
 ```
 
-The V1 coefficients represent the running dot product of the signal with the g vector. You skip every other data point in the running dot product, and you rotate the dot product around to the end when reach the right hand side to avoid edge effects. The skipping past the second, fourth, sixth, etc. observation in the running dot product is described in some sources as down-sampling.
+The V1 coefficients represent the running dot product of the signal with the g vector. You skip every other data point in the running dot product (ignore the gray rows), and you rotate the dot product around to the end when reach the right hand side to avoid edge effects. The skipping past the second, fourth, sixth, etc. observation in the running dot product is described in some sources as down-sampling.
+
+![Figure 1. G matrix](http://www.pmean.com/new-images/14/wavelets-01.png)
 
 The W1 coefficients represent the running dot product of the signal with the h vector, again with downsampling.
 
-$\begin{bmatrix} h_1 & h_2 & h_3 & h_4 &     &     & ... \\ &     & h_1 & h_2 & h_3 & h_4 & ... \\  . \\ . \\ . \\    &     &     &     &     &     & ... & h_1 & h_2 & h_3 & h_4 \\ h_3 & h_4 &     &     &     &     & ... &     &     & h_1 & h_2 \end{bmatrix}$
+![Figure 2. H matrix](http://www.pmean.com/new-images/14/wavelets-02.png)
 
 ```{r first-level-dot-products}
 c(V1[   1], g %*% ecg[1:4])
@@ -422,11 +423,11 @@ c(V1[   3], g %*% ecg[5:8])
 c(V1[1023], g %*% ecg[2045:2048])
 c(V1[1024], g %*% ecg[c(2047:2048, 1:2)])
 
-c(W1[   1], -h %*% ecg[1:4])
-c(W1[   2], -h %*% ecg[3:6])
-c(W1[   3], -h %*% ecg[5:8])
-c(W1[1023], -h %*% ecg[2045:2048])
-c(W1[1024], -h %*% ecg[c(2047:2048, 1:2)])
+c(W1[   1], h %*% ecg[1:4])
+c(W1[   2], h %*% ecg[3:6])
+c(W1[   3], h %*% ecg[5:8])
+c(W1[1023], h %*% ecg[2045:2048])
+c(W1[1024], h %*% ecg[c(2047:2048, 1:2)])
 ```
 
 Notice that you need to negate the h function to get the proper values for W. This is one of those scaling details in wavelets that will drive you nuts.
@@ -454,11 +455,11 @@ c(V2[  3], g %*% V1[5:8])
 c(V2[511], g %*% V1[1021:1024])
 c(V2[512], g %*% V1[c(1023:1024, 1:2)])
 
-c(W2[  1], -h %*% V1[1:4])
-c(W2[  2], -h %*% V1[3:6])
-c(W2[  3], -h %*% V1[5:8])
-c(W2[511], -h %*% V1[1021:1024])
-c(W2[512], -h %*% V1[c(1023:1024, 1:2)])
+c(W2[  1], h %*% V1[1:4])
+c(W2[  2], h %*% V1[3:6])
+c(W2[  3], h %*% V1[5:8])
+c(W2[511], h %*% V1[1021:1024])
+c(W2[512], h %*% V1[c(1023:1024, 1:2)])
 ```
 
 You could get the same results as a level 2 wavelet transform by applying a level 1 wavelet transform to V1.
@@ -503,11 +504,11 @@ c(V3[  3], g %*% V2[5:8])
 c(V3[255], g %*% V2[509:512])
 c(V3[256], g %*% V2[c(511:512, 1:2)])
 
-c(W3[  1], -h %*% V2[1:4])
-c(W3[  2], -h %*% V2[3:6])
-c(W3[  3], -h %*% V2[5:8])
-c(W3[255], -h %*% V2[509:512])
-c(W3[256], -h %*% V2[c(511:512, 1:2)])
+c(W3[  1], h %*% V2[1:4])
+c(W3[  2], h %*% V2[3:6])
+c(W3[  3], h %*% V2[5:8])
+c(W3[255], h %*% V2[509:512])
+c(W3[256], h %*% V2[c(511:512, 1:2)])
 ```
 
 Here's an outline of how the wavelet transform works, level by level. Take the original 2,048 signal values and transform them into 1.024 very high frequency values (W1) and what's left over (V1). Take the 1,024 V1 values and split them into 512 high frequency values (W2) and what's left over (V2). Take those V2 values and split them. Keep on spliting until there are only a handful of V values left. I won't show the details of further calculation, but here is what the graph looks like.
@@ -545,129 +546,184 @@ The best explanation of the inverse wavelet transformation is a [page][kap1] bur
 
 Reconstruction of the original signal works in a similar fashion.
 
-First you dilute the W and V values at the top of the pyramid.
+First you dilute the W and V values at the top of the pyramid. Then you compute a running dot product of the reversed g vector with the diluted V9 values plus a running dot product of the reversed h vector with the diluted W9 values.
 
-```{r reconstuct V8}
-V9_diluted <- c(V9[1], 0, V9[2], 0, V9[3], 0, V9[4], 0)
-W9_diluted <- c(W9[1], 0, W9[2], 0, W9[3], 0, W9[4], 0)
+```{r reconstuct-V8}
+V9_diluted <- rep(0, 8)
+V9_diluted[(1:4)*2-1] <- V9
+W9_diluted <- rep(0, 8)
+W9_diluted[(1:4)*2-1] <- W9
 
 wt.8 <- mdwt(ecg, g, L=8)
 V8 <- wt.8$y[1:8] 
 
-c(V8[1], rev(h) %*% V9_diluted[1:4] + rev(g) %*% W9_diluted[1:4])
-c(V8[2], rev(h) %*% V9_diluted[2:5] + rev(g) %*% W9_diluted[2:5])
+c(V8[1], rev(g) %*% V9_diluted[c(6, 7, 8, 1)] + rev(h) %*% W9_diluted[c(6, 7, 8, 1)])
+c(V8[2], rev(g) %*% V9_diluted[c(7, 8, 1, 2)] + rev(h) %*% W9_diluted[c(7, 8, 1, 2)])
+c(V8[3], rev(g) %*% V9_diluted[c(8, 1, 2, 3)] + rev(h) %*% W9_diluted[c(8, 1, 2, 3)])
+c(V8[4], rev(g) %*% V9_diluted[c(1, 2, 3, 4)] + rev(h) %*% W9_diluted[c(1, 2, 3, 4)])
+c(V8[5], rev(g) %*% V9_diluted[c(2, 3, 4, 5)] + rev(h) %*% W9_diluted[c(2, 3, 4, 5)])
+c(V8[6], rev(g) %*% V9_diluted[c(3, 4, 5, 6)] + rev(h) %*% W9_diluted[c(3, 4, 5, 6)])
+c(V8[7], rev(g) %*% V9_diluted[c(4, 5, 6, 7)] + rev(h) %*% W9_diluted[c(4, 5, 6, 7)])
+c(V8[8], rev(g) %*% V9_diluted[c(5, 6, 7, 8)] + rev(h) %*% W9_diluted[c(5, 6, 7, 8)])
+```
+
+To move from V8 to V7, dilute the V8 and W8 vectors and apply a running dot product again.
+
+```{r reconstuct-V7}
+V8_diluted <- rep(0, 16)
+V8_diluted[(1:8)*2-1] <- V8
+W8_diluted <- rep(0, 16)
+W8_diluted[(1:8)*2-1] <- W8
+
+wt.7 <- mdwt(ecg, g, L=7)
+V7 <- wt.7$y[1:16] 
+
+c(V7[ 1], rev(g) %*% V8_diluted[c(14, 15, 16,  1)] + rev(h) %*% W8_diluted[c(14, 15, 16,  1)])
+c(V7[ 2], rev(g) %*% V8_diluted[c(15, 16,  1,  2)] + rev(h) %*% W8_diluted[c(15, 16,  1,  2)])
+c(V7[ 3], rev(g) %*% V8_diluted[c(16,  1,  2,  3)] + rev(h) %*% W8_diluted[c(16,  1,  2,  3)])
+c(V7[ 4], rev(g) %*% V8_diluted[c( 1,  2,  3,  4)] + rev(h) %*% W8_diluted[c( 1,  2,  3,  4)])
+c(V7[16], rev(g) %*% V8_diluted[c(13, 14, 15, 16)] + rev(h) %*% W8_diluted[c(12, 13, 14, 15)])
+```
+
+Here is the reconstruction of V6
+
+```{r reconstuct-V6}
+V7_diluted <- rep(0, 32)
+V7_diluted[(1:16)*2-1] <- V7
+W7_diluted <- rep(0, 32)
+W7_diluted[(1:16)*2-1] <- W7
+
+wt.6 <- mdwt(ecg, g, L=6)
+V6 <- wt.6$y[1:32] 
+
+c(V6[ 1], rev(g) %*% V7_diluted[c(30, 31, 32,  1)] + rev(h) %*% W7_diluted[c(30, 31, 32,  1)])
+c(V6[ 2], rev(g) %*% V7_diluted[c(31, 32,  1,  2)] + rev(h) %*% W7_diluted[c(31, 32,  1,  2)])
+c(V6[ 3], rev(g) %*% V7_diluted[c(32,  1,  2,  3)] + rev(h) %*% W7_diluted[c(32,  1,  2,  3)])
+c(V6[ 4], rev(g) %*% V7_diluted[c( 1,  2,  3,  4)] + rev(h) %*% W7_diluted[c( 1,  2,  3,  4)])
+c(V6[32], rev(g) %*% V7_diluted[c(29, 30, 31, 32)] + rev(h) %*% W7_diluted[c(29, 30, 31, 32)])
+```
+
+The process for reconstructing V5, V4, etc. is similar. At the final step, dilute V1 and W1. The running dot product will recreate the original signal.
+
+What exactly do V9, V8, V6, etc. measure? They are coefficients associated with the mother wavelet and reconstruct a signal with high frequency events removed.
+
+```{r graph-v}
+
 V9_coefficients <- rep(0, 2048)
-V9_coefficients[1:8] <- wt.9$y[1:8]
+V9_coefficients[1:4] <- V9
 V9_signal <- as.vector(midwt(V9_coefficients, d4.rwt$h.0, L=9)$x)
+
+V8_coefficients <- rep(0, 2048)
+V8_coefficients[1:8] <- V8
+V8_signal <- as.vector(midwt(V8_coefficients, d4.rwt$h.0, L=8)$x)
+
+V7_coefficients <- rep(0, 2048)
+V7_coefficients[1:16] <- V7
+V7_signal <- as.vector(midwt(V7_coefficients, d4.rwt$h.0, L=7)$x)
+
+V6_coefficients <- rep(0, 2048)
+V6_coefficients[1:32] <- V6
+V6_signal <- as.vector(midwt(V6_coefficients, d4.rwt$h.0, L=6)$x)
+
+wt.5 <- mdwt(ecg, g, L=5)
+V5 <- wt.5$y[1:64] 
+V5_coefficients <- rep(0, 2048)
+V5_coefficients[1:64] <- V5
+V5_signal <- as.vector(midwt(V5_coefficients, d4.rwt$h.0, L=5)$x)
+
+wt.4 <- mdwt(ecg, g, L=4)
+V4 <- wt.4$y[1:128] 
+V4_coefficients <- rep(0, 2048)
+V4_coefficients[1:128] <- V4
+V4_signal <- as.vector(midwt(V4_coefficients, d4.rwt$h.0, L=4)$x)
+
+wt.3 <- mdwt(ecg, g, L=3)
+V3 <- wt.3$y[1:256] 
+V3_coefficients <- rep(0, 2048)
+V3_coefficients[1:256] <- V3
+V3_signal <- as.vector(midwt(V3_coefficients, d4.rwt$h.0, L=3)$x)
+
+wt.2 <- mdwt(ecg, g, L=2)
+V2 <- wt.2$y[1:512] 
+V2_coefficients <- rep(0, 2048)
+V2_coefficients[1:512] <- V2
+V2_signal <- as.vector(midwt(V2_coefficients, d4.rwt$h.0, L=2)$x)
+
+wt.1 <- mdwt(ecg, g, L=1)
+V1 <- wt.1$y[1:1024] 
+V1_coefficients <- rep(0, 2048)
+V1_coefficients[1:1024] <- V1
+V1_signal <- as.vector(midwt(V1_coefficients, d4.rwt$h.0, L=1)$x)
+
 {
   graph_without_axis(V9_signal, "V9", limits=range(ecg))
+  graph_without_axis(V8_signal, "V8", limits=range(ecg))
+  graph_without_axis(V7_signal, "V7", limits=range(ecg))
+  graph_without_axis(V6_signal, "V6", limits=range(ecg))
+  graph_without_axis(V5_signal, "V5", limits=range(ecg))
+  graph_without_axis(V4_signal, "V4", limits=range(ecg))
+  graph_without_axis(V3_signal, "V3", limits=range(ecg))
+  graph_without_axis(V2_signal, "V2", limits=range(ecg))
+  graph_without_axis(V1_signal, "V1", limits=range(ecg))
   graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
 }
 ```
 
-W8d <- dilute(W8)
-V8d <- dilute(V8)
- W8d, g, 14)+V8d,h,14),V7[1],"V7[1]")
-V7[1]
-By hand -3.315508
-Using R -3.315508
--W8d, g, 15)-V8d,h,15),V7[2],"V7[2]")
-V7[2]
-By hand -2.398146
-Using R -2.398146
- W8d, g, 16)+V8d,h,16),V7[3],"V7[3]")
-V7[3]
-By hand -0.2769286
-Using R -0.2769286
--W8d, g,  1)-V8d,h, 1),V7[4],"V7[4]")
-V7[4]
-By hand 1.782748
-Using R 1.782748
- W8d, g,  2)+V8d,h, 2),V7[5],"V7[5]")
-V7[5]
-By hand 5.25007
-Using R 5.25007
--W8d, g,  3)-V8d,h, 3),V7[6],"V7[6]")
-V7[6]
-By hand 4.7496
-Using R 4.7496
+What exactly do W9, W8, W7, etc. measure? They are coefficients associated with the father wavelet and reconstruct a signal with at each frequency level.
 
-You dilute the V8 and W8 coefficients by inserting zeros between every element, compute a running dot product of both the g and the h vectors, and add the results together. For some reason, you have to multiply every other value by -1. I don't know why. It's one of those scaling things. Also notice that you start at almost the very end of V8. This is caused by edge effects.
+```{r graph-w}
 
-Once you have V7, repeat the process on the diluted V7 and W7 vectors to get V6.
+W9_coefficients <- rep(0, 2048)
+W9_coefficients[5:8] <- W9
+W9_signal <- as.vector(midwt(W9_coefficients, d4.rwt$h.0, L=9)$x)
 
-W7d <- dilute(W7)
-V7d <- dilute(V7)
- W7d, g, 30)+V7d,h,30),V6[1],"V6[1]")
-V6[1]
-By hand -2.096562
-Using R -2.096562
--W7d, g, 31)-V7d,h,31),V6[2],"V6[2]")
-V6[2]
-By hand -2.294492
-Using R -2.294492
- W7d, g, 32)+V7d,h,32),V6[3],"V6[3]")
-V6[3]
-By hand -2.441797
-Using R -2.441797
--W7d, g,  1)-V7d,h, 1),V6[4],"V6[4]")
-V6[4]
-By hand -1.265345
-Using R -1.265345
- W7d, g,  2)+V7d,h, 2),V6[5],"V6[5]")
-V6[5]
-By hand -0.6650157
-Using R -0.6650157
--W7d, g,  3)-V7d,h, 3),V6[6],"V6[6]")
-V6[6]
-By hand 0.08738041
-Using R 0.08738041
+W8_coefficients <- rep(0, 2048)
+W8_coefficients[9:16] <- W8
+W8_signal <- as.vector(midwt(W8_coefficients, d4.rwt$h.0, L=9)$x)
 
-And so forth.
+W7_coefficients <- rep(0, 2048)
+W7_coefficients[17:32] <- W7
+W7_signal <- as.vector(midwt(W7_coefficients, d4.rwt$h.0, L=9)$x)
 
-W1d <- dilute(W1)
-V1d <- dilute(V1)
- W1d, g, 2046)+V1d,h,2046),ecg[1],"ecg[1]")
-ecg[1]
-By hand -0.104773
-Using R -0.104773
--W1d, g, 2047)-V1d,h,2047),ecg[2],"ecg[2]")
-ecg[2]
-By hand -0.093136
-Using R -0.093136
- W1d, g, 2048)+V1d,h,2048),ecg[3],"ecg[3]")
-ecg[3]
-By hand -0.0815
-Using R -0.0815
--W1d, g,  1)-V1d,h, 1),ecg[4],"ecg[4]")
-ecg[4]
-By hand -0.116409
-Using R -0.116409
- W1d, g,  2)+V1d,h, 2),ecg[5],"ecg[5]")
-ecg[5]
-By hand -0.0815
-Using R -0.0815
--W1d, g,  3)-V1d,h, 3),ecg[6],"ecg[6]")
-ecg[6]
-By hand -0.116409
-Using R -0.116409
+W6_coefficients <- rep(0, 2048)
+W6_coefficients[33:64] <- W6
+W6_signal <- as.vector(midwt(W6_coefficients, d4.rwt$h.0, L=9)$x)
 
-At the very end, the calculations on the diluted V1 and W1 values give you the original signal.
+W5_coefficients <- rep(0, 2048)
+W5_coefficients[65:128] <- W5
+W5_signal <- as.vector(midwt(W5_coefficients, d4.rwt$h.0, L=9)$x)
 
-You can see what the wavelet coefficients at each level contribute by zeroing out some of the components and then inverting it.
+W4_coefficients <- rep(0, 2048)
+W4_coefficients[129:256] <- W4
+W4_signal <- as.vector(midwt(W4_coefficients, d4.rwt$h.0, L=9)$x)
 
-V8 and W8
-W7
-W6
-W5
-W4
-W3
-W2
-W1
-ecg
-Axis
+W3_coefficients <- rep(0, 2048)
+W3_coefficients[257:512] <- W3
+W3_signal <- as.vector(midwt(W3_coefficients, d4.rwt$h.0, L=9)$x)
 
-Notice that the sharp spikes are captured in W1, W2, and W3. The slower overall undulation is captured by V8 and W8. Some of the intermediate squiggles between the sharp spikes are captured in the remaining wavelets.
+W2_coefficients <- rep(0, 2048)
+W2_coefficients[513:1024] <- W2
+W2_signal <- as.vector(midwt(W2_coefficients, d4.rwt$h.0, L=9)$x)
+
+W1_coefficients <- rep(0, 2048)
+W1_coefficients[1025:2048] <- W1
+W1_signal <- as.vector(midwt(W1_coefficients, d4.rwt$h.0, L=9)$x)
+
+
+{
+  graph_without_axis(W9_signal, "W9", limits=range(ecg))
+  graph_without_axis(W8_signal, "W8", limits=range(ecg))
+  graph_without_axis(W7_signal, "W7", limits=range(ecg))
+  graph_without_axis(W6_signal, "W6", limits=range(ecg))
+  graph_without_axis(W5_signal, "W5", limits=range(ecg))
+  graph_without_axis(W4_signal, "W4", limits=range(ecg))
+  graph_without_axis(W3_signal, "W3", limits=range(ecg))
+  graph_without_axis(W2_signal, "W2", limits=range(ecg))
+  graph_without_axis(W1_signal, "W1", limits=range(ecg))
+  graph_without_axis(ecg, "Original\nsignal", limits=range(ecg))
+}
+```
+
 
 There are simple generalizations of wavelets for two dimensional images. Here's a simple image, which represents a 256 by 256 bit grayscale image of a dog.
 
