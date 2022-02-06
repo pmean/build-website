@@ -44,16 +44,16 @@ graph_with_axis <- function(x, lab, limits=range(x)) {
        type="l",
        axes=FALSE)
   axis(side=1, at=(0:4)/4, labels=c(1, 512, 1024, 1536, 2048))
-  text(1.1, x[2048], lab, adj=0.5)
+  text(1.1, x[2048], lab, adj=0.5, cex=0.67)
 }
 graph_without_axis <- function(x, lab, limits=range(x)) {
   par(mar=c(0, 0, 0, 0))
   plot((1:2048)/2048, x, 
        xlim=c(0, 1.2), 
-       ylim=c(limits[1]*1.1, limits[2]), # adjust lower limit
+       ylim=c(limits[1], limits[2]),
        type="l",
        axes=FALSE)
-  text(1.1, x[2048], lab, adj=0.5)
+  text(1.1, x[2048], lab, adj=0.5, cex=0.67)
 }
 needle_plot <- function(y, lab, x=seq(0, 1, along.with=y), limits=range(y)) {
   par(mar=c(0, 0, 0, 0))
@@ -64,12 +64,13 @@ needle_plot <- function(y, lab, x=seq(0, 1, along.with=y), limits=range(y)) {
     type="n",
     axes=FALSE)
   segments(x, 0, x, y)
-  text(1.1, 0, lab)
+  text(1.1, 0, lab, cex=0.67)
 }
 ```
 
+### The ecg signal
 
-The head and tail function show the first few and the last few values for the signal. The graph looks like
+Here's a graph of data representing an electrocardiogram (ecg) signal that will help illustrate the use of Fourier transforms and wavelets.
 
 ```{r graph-ecg, fig.height=2}
 graph_with_axis(ecg, "ecg\nsignal")
@@ -109,9 +110,11 @@ tail(ift.ecg)
 
 You convert from the Fourier coefficients back to the original signal using the same fft function, but this time with an inverse=TRUE argument.
 
+### Components of the Fourier transform
+
 The object ft.ecg contains the Fourier decomposition, and ift.ecg is the inverse of the decomposition. You need to scale the Fourier decomposition by the number of data points (2,048). The inverse gets the original signal (`r paste0(ift.ecg[1:3], colapse=", ")`, ...) except that there is a "+0i" or "-0i" tacked on to the end.
 
-The complex numbers in the Fourier decomposition are a short-hand for the mix of sines and cosines. The first number has only a real component and no imaginary component. The real component represent the mean of the entire signal.
+The complex numbers in the Fourier decomposition are a short-hand for the mix of sines and cosines. The first number has only a real component and no imaginary component. This component represent the mean of the entire signal.
 
 ```{r compute-mean}
 mean(ecg)
@@ -163,6 +166,8 @@ If you are familiar with the Mod and Arg functions, they can help you compute th
 
 Now this was a lot of work to decode the second component of the Fourier decomposition. You might forget to scale by the length of the signal. You could reverse the sines and cosines. Yu might compute the sines and cosines on a range from -pi to pi instead of from 0 to 2pi. You might leave out an important minus sign. Trust me, I did all these things.
 
+### Zeroing out components
+
 There's a faster and more convenient way. Let the computer do the work for you. Take the Fourier decomposition, zero out everything except the second component, and then invert the decomposition. This allows you to graph the second component directly.
 
 ```{r second-component}
@@ -171,7 +176,7 @@ ft.comp2[-2] <- 0
 comp2 <- Re(fft(ft.comp2,inverse=TRUE))
 graph_without_axis(sum1, "Using\nInverse fft")
 {
-  lines((1:2048)/2048, sum1, col="red", lty="dashed")
+  lines((1:2048)/2048, sum1, col="red", lty="dashed", lwd=3)
 }
 ```
 
@@ -192,7 +197,7 @@ and
 ft.comp3 <- ft.ecg
 ft.comp3[-3] <- 0
 comp3 <- Re(fft(ft.comp3,inverse=TRUE))
-graph_without_axis(comp3, "Fourier\ncomponent")
+graph_without_axis(comp3, "Third\ncomponent")
 ```
 
 
@@ -202,10 +207,14 @@ This component has a higher frequency, with two peaks rather than one. Do the sa
 ft.comp4 <- ft.ecg
 ft.comp4[-4] <- 0
 comp4 <- Re(fft(ft.comp4,inverse=TRUE))
-graph_without_axis(comp4, "Fourier\ncomponent")
+graph_without_axis(comp4, "Fourth\ncomponent")
 ```
 
-The fourth Fourier component has three peaks. The interesting thing is that the second and third and fourth Fourier components are orthogonal to one another. Actually, every Fourier component is orthogonal to every other Fourier component. Mathematical folks like "orthogonal" because it allows you to derive the mathematical properties of the decomposition with greater ease. For a practical person, what "orthogonal" means is that the information contained in one Fourier component does not "overlap" with that in any other Fourier component. It also means you can run the decomposition in any order (low frequency to high frequency, high frequency to low frequency, or even a haphazard frequency). Finally, orthogonality also preserves independence properties in certain settings.
+The fourth Fourier component has three peaks.
+
+### Orthogonality
+
+The interesting thing is that the second and third and fourth Fourier components are orthogonal to one another. Actually, every Fourier component is orthogonal to every other Fourier component. Mathematical folks like "orthogonal" because it allows you to derive the mathematical properties of the decomposition with greater ease. For a practical person, what "orthogonal" means is that the information contained in one Fourier component does not "overlap" with that in any other Fourier component. It also means you can run the decomposition in any order (low frequency to high frequency, high frequency to low frequency, or even a haphazard frequency). Finally, orthogonality also preserves independence properties in certain settings.
 
 The Fourier decomposition continues with components of higher and higher frequency. The following code computes the 32nd component of the Fourier transform.
 
@@ -213,15 +222,15 @@ The Fourier decomposition continues with components of higher and higher frequen
 ft.comp32 <- ft.ecg
 ft.comp32[-32] <- 0
 comp32 <- Re(fft(ft.comp32,inverse=TRUE))
-graph_without_axis(comp32, "Fourier\ncomponent")
+graph_without_axis(comp32, "32nd\ncomponent")
 ```
 
 Here's the 32nd Fourier component, and if you count carefully, you will get 31 peaks. Count them carefully. No, don't bother, I'll do it for you. Because that are packed so closely together, I will only show you every third peak.
 
 ```{r count}
 m <- max(comp32)
-graph_without_axis(comp32, "Fourier\ncomponent", limits=c(-m, 1.2*m))
-text((seq(1, 31, by=3)-0.5)/31, 1.2*m, seq(1, 31, by=3), col="red") 
+graph_without_axis(comp32, "32nd\ncomponent", limits=c(-m, 1.2*m))
+text((seq(1, 31, by=3)-0.5)/31, 1.2*m, seq(1, 31, by=3), col="red", cex=0.67) 
 ```
 
 If you continue down the list, you get a higher and higher frequency or equivalently more and more peaks.
@@ -237,12 +246,12 @@ Perhaps the most famous of the wavelets is the Daubechies 4 wavelet.
 ```{r rwt-package}
 d4.rwt <- daubcqf(4)
 d4.rwt
-wt.rwt <- mdwt(ecg,d4.rwt$h.0,L=9)
+wt.rwt <- mdwt(ecg,daubcqf(4)$h.0,L=9)
 names(wt.rwt)
 head(wt.rwt$y)
 tail(wt.rwt$y)
 wt.rwt$L
-iwt.rwt <- midwt(wt.rwt$y,d4.rwt$h.0,L=9)
+iwt.rwt <- midwt(wt.rwt$y,daubcqf(4)$h.0,L=9)
 names(iwt.rwt)
 head(iwt.rwt$x)
 tail(iwt.rwt$x)
@@ -250,6 +259,8 @@ iwt.rwt$L
 ```
 
 With the rwt package, you choose the particular wavelet decomposition using the daubcqf function. The wavelet decomposition uses the mdwt function and the inverse of the wavelet decomposition uses the midwt decomposition. The rwt package is fairly minimal with a family of Duabechies wavelets, but no alternatives (such as coiflets). Don't ask me what a coiflet is.
+
+### wavelets package
 
 The wavelets package is more comprehensive, but also more complex.
 
@@ -274,7 +285,7 @@ Actually, wavelets come in pairs, a "father wavelet" and a "mother wavelet."
 ```{r graph-d4}
 wt.comp <- function(x, y) {
   single_wavelet <- as.numeric((1:2048)==y)
-  as.vector(midwt(single_wavelet, d4.rwt$h.0, L=8)$x)
+  as.vector(midwt(single_wavelet, daubcqf(4)$h.0, L=8)$x)
 }
 ```
 
@@ -283,13 +294,13 @@ calculate_mother <- function(i, L) {
   yl <- rep(0, 2048)
   yh <- matrix(0, nrow=2048, ncol=L)
   yh[i, L] <- 1
-  as.vector(mirdwt(yl, yh, d4.rwt$h.0, L)$x)
+  as.vector(mirdwt(yl, yh, daubcqf(4)$h.0, L)$x)
 }
 calculate_father <- function(i, L) {
   yl <- rep(0, 2048)
   yh <- matrix(0, nrow=2048, ncol=L)
   yl[i] <- 1
-  as.vector(mirdwt(yl, yh, d4.rwt$h.0, L)$x)
+  as.vector(mirdwt(yl, yh, daubcqf(4)$h.0, L)$x)
 }
 ```
 
@@ -304,12 +315,10 @@ You can shift the wavelets left and right.
 
 ```{r shifted}
 {
-  graph_without_axis(calculate_father(2^9-2^7+1, 7),"d4 father")
-  graph_without_axis(calculate_father(2^9+1, 7),"d4 father")
-  graph_without_axis(calculate_father(2^9+2^7+1, 7),"d4 father")
-  graph_without_axis(calculate_mother(2^9-2^7+1, 7),"d4 mother")
-  graph_without_axis(calculate_mother(2^9+1, 7),"d4 mother")
-  graph_without_axis(calculate_mother(2^9+2^7+1, 7),"d4 mother")
+  graph_without_axis(calculate_father(2^9-2^7+1, 7),"d4 father\nshifted left")
+  graph_without_axis(calculate_father(2^9+2^7+1, 7),"d4 father\nshifted right")
+  graph_without_axis(calculate_mother(2^9-2^7+1, 7),"d4 mother\nshifted left")
+  graph_without_axis(calculate_mother(2^9+2^7+1, 7),"d4 mother\nshifted right")
 }
 ```
 
@@ -317,8 +326,8 @@ When a wavelet crosses the boundary, there are several choices. The most common 
 
 ```{r wrapped}
 {
-  graph_without_axis(calculate_father(2^10+2^9+1+2^8+1, 7),"d4 father")
-  graph_without_axis(calculate_mother(2^10+2^9+1+2^8+1, 7),"d4 mother")
+  graph_without_axis(calculate_father(2^10+2^9+1+2^8+1, 7),"d4 father, wrapped")
+  graph_without_axis(calculate_mother(2^10+2^9+1+2^8+1, 7),"d4 mother, wrapped")
 }
 
 ```
@@ -327,12 +336,10 @@ You can stretch or squeeze the wavelets.
 
 ```{r stretch-and-squeeze}
 {  
-  graph_without_axis(calculate_father(2^9+1, 8),"d4 father")
-  graph_without_axis(calculate_father(2^9+1, 7),"d4 father")
-  graph_without_axis(calculate_father(2^9+1, 6),"d4 father")
-  graph_without_axis(calculate_mother(2^9+1, 8),"d4 mother")
-  graph_without_axis(calculate_mother(2^9+1, 7),"d4 mother")
-  graph_without_axis(calculate_mother(2^9+1, 6),"d4 mother")
+  graph_without_axis(calculate_father(2^9+1, 8),"d4 father\nstretched")
+  graph_without_axis(calculate_father(2^9+1, 6),"d4 father\nsqueezed")
+  graph_without_axis(calculate_mother(2^9+1, 8),"d4 mother\nstretched")
+  graph_without_axis(calculate_mother(2^9+1, 6),"d4 mother\nsqueezed")
 }
 ```
 
@@ -340,8 +347,8 @@ Here are the father and mother wavelets at the most extreme.
 
 ```{r most-extreme}
 {
-  graph_without_axis(calculate_father(2^9+1, 1),"d4 father")
-  graph_without_axis(calculate_mother(2^9+1, 1),"d4 mother")
+  graph_without_axis(calculate_father(2^9+1, 1),"d4 father\nmost extreme")
+  graph_without_axis(calculate_mother(2^9+1, 1),"d4 mother\nmost extreme")
 }
 ```
 
@@ -350,7 +357,7 @@ Now, why the weird appearance? The d4 wavelet optimizes three properties simulta
 You don't actually use the larger wavelets shown above. Instead you apply the most extreme wavelets in an iterative method that reduces the amount of data by half at each iteration. This makes the processing fast and easy. The most extreme D4 wavelets have only four coefficients.
 
 ```{r high-pass}
-g <- d4.rwt$h.0
+g <- daubcqf(4)$h.0
 g
 ```
 
@@ -359,7 +366,7 @@ These coefficients represent the "high pass" filter. There is a complementary "l
 Note: To get the math to work on my end, tThe low pass filter provided by the rwt package needs to be negated. 
 
 ```{r low-pass}
-h <- -d4.rwt$h.1
+h <- -daubcqf(4)$h.1
 h
 ```
 
@@ -398,7 +405,7 @@ For conveniece, split the decomposition into the left half (1:1024) and the righ
 Information about the highest frequency events are captured in W1 and information aobut the remainder of the signal are captured in V1. Notice how the largest absolute values in W1 are aligned with some of the very sharp spikes in the signal. The large absolute values in V1 correspond to some of the spikes in the signal that are not quite at the highest frequency as well as low frequency oscillations.
 
 ```{r first-level-wavelet}
-wt.1 <- mdwt(ecg, g, L=1)
+wt.1 <- mdwt(ecg, daubcqf(4)$h.0, L=1)
 V1 <- wt.1$y[   1:1024]
 W1 <- wt.1$y[1025:2048]
 {
@@ -435,7 +442,7 @@ Notice that you need to negate the h function to get the proper values for W. Th
 A second pass applies the same pair of filters to V1. This creates 512 coefficients at the second highest frequency (W2) and 512 coefficients containing everything but W1 and W2 (V2). The last 1,024 coefficients are the same highest frequency values (W1) that were computed in the first pass.
 
 ```{r second-level-wavelet}
-wt.2 <- mdwt(ecg, g, L=2)
+wt.2 <- mdwt(ecg, daubcqf(4)$h.0, L=2)
 V2 <- wt.2$y[1:512]
 W2 <- wt.2$y[513:1024]
 quality_check_W1 <- wt.2$y[1025:2048]
@@ -465,7 +472,7 @@ c(W2[512], h %*% V1[c(1023:1024, 1:2)])
 You could get the same results as a level 2 wavelet transform by applying a level 1 wavelet transform to V1.
 
 ```{r transform-V1}
-quality_check <- mdwt(V1, g, L=1)
+quality_check <- mdwt(V1, daubcqf(4)$h.0, L=1)
 quality_check_V2 <- quality_check$y[  1: 512]
 quality_check_W2 <- quality_check$y[513:1024]
 all(quality_check_V2==V2)
@@ -477,7 +484,7 @@ Note the order in which these are stored: 512 V2's at the front, followed by 512
 A third pass applies the same pair of filters to V2. This creates 256 coefficients at the third highest frequency (W3) and 256 coefficients containing information about all the lower frequency events (V3). These 512 values are followed by the 512 W2 coefficients and the 1,024 W3 coefficients.
 
 ```{r third-level-wavelet}
-wt.3 <- mdwt(ecg, g, L=3)
+wt.3 <- mdwt(ecg, daubcqf(4)$h.0, L=3)
 V3 <- wt.3$y[1:256]
 W3 <- wt.3$y[257:512]
 W2_check3 <- wt.3$y[513:1024]
@@ -514,7 +521,7 @@ c(W3[256], h %*% V2[c(511:512, 1:2)])
 Here's an outline of how the wavelet transform works, level by level. Take the original 2,048 signal values and transform them into 1.024 very high frequency values (W1) and what's left over (V1). Take the 1,024 V1 values and split them into 512 high frequency values (W2) and what's left over (V2). Take those V2 values and split them. Keep on spliting until there are only a handful of V values left. I won't show the details of further calculation, but here is what the graph looks like.
 
 ```{r ninth-level-wavelet}
-wt.9 <- mdwt(ecg, g, L=9)
+wt.9 <- mdwt(ecg, daubcqf(4)$h.0, L=9)
 V9 <- wt.9$y[   1:   4]
 W9 <- wt.9$y[   5:   8]
 W8 <- wt.9$y[   9:  16]
@@ -546,7 +553,9 @@ The best explanation of the inverse wavelet transformation is a [page][kap1] bur
 
 Reconstruction of the original signal works in a similar fashion.
 
-First you dilute the W and V values at the top of the pyramid. Then you compute a running dot product of the reversed g vector with the diluted V9 values plus a running dot product of the reversed h vector with the diluted W9 values.
+First you dilute the W and V values at the top of the pyramid. Then you compute a running dot product of the reversed g vector with the diluted V9 values plus a running dot product of the reversed h vector with the diluted W9 values. Please note that using the reversed order for the g and h vectors is unique to the Daubechies family of wavelets. Other wavelets will use an entirely different set of vectors in the rolling dot product.
+
+![Figure 3. Matrix representation of reconstruction](http://www.pmean.com/new-images/14/wavelets-03.png)
 
 ```{r reconstuct-V8}
 V9_diluted <- rep(0, 8)
@@ -554,7 +563,7 @@ V9_diluted[(1:4)*2-1] <- V9
 W9_diluted <- rep(0, 8)
 W9_diluted[(1:4)*2-1] <- W9
 
-wt.8 <- mdwt(ecg, g, L=8)
+wt.8 <- mdwt(ecg, daubcqf(4)$h.0, L=8)
 V8 <- wt.8$y[1:8] 
 
 c(V8[1], rev(g) %*% V9_diluted[c(6, 7, 8, 1)] + rev(h) %*% W9_diluted[c(6, 7, 8, 1)])
@@ -575,7 +584,7 @@ V8_diluted[(1:8)*2-1] <- V8
 W8_diluted <- rep(0, 16)
 W8_diluted[(1:8)*2-1] <- W8
 
-wt.7 <- mdwt(ecg, g, L=7)
+wt.7 <- mdwt(ecg, daubcqf(4)$h.0, L=7)
 V7 <- wt.7$y[1:16] 
 
 c(V7[ 1], rev(g) %*% V8_diluted[c(14, 15, 16,  1)] + rev(h) %*% W8_diluted[c(14, 15, 16,  1)])
@@ -593,7 +602,7 @@ V7_diluted[(1:16)*2-1] <- V7
 W7_diluted <- rep(0, 32)
 W7_diluted[(1:16)*2-1] <- W7
 
-wt.6 <- mdwt(ecg, g, L=6)
+wt.6 <- mdwt(ecg, daubcqf(4)$h.0, L=6)
 V6 <- wt.6$y[1:32] 
 
 c(V6[ 1], rev(g) %*% V7_diluted[c(30, 31, 32,  1)] + rev(h) %*% W7_diluted[c(30, 31, 32,  1)])
@@ -611,49 +620,49 @@ What exactly do V9, V8, V6, etc. measure? They are coefficients associated with 
 
 V9_coefficients <- rep(0, 2048)
 V9_coefficients[1:4] <- V9
-V9_signal <- as.vector(midwt(V9_coefficients, d4.rwt$h.0, L=9)$x)
+V9_signal <- as.vector(midwt(V9_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 V8_coefficients <- rep(0, 2048)
 V8_coefficients[1:8] <- V8
-V8_signal <- as.vector(midwt(V8_coefficients, d4.rwt$h.0, L=8)$x)
+V8_signal <- as.vector(midwt(V8_coefficients, daubcqf(4)$h.0, L=8)$x)
 
 V7_coefficients <- rep(0, 2048)
 V7_coefficients[1:16] <- V7
-V7_signal <- as.vector(midwt(V7_coefficients, d4.rwt$h.0, L=7)$x)
+V7_signal <- as.vector(midwt(V7_coefficients, daubcqf(4)$h.0, L=7)$x)
 
 V6_coefficients <- rep(0, 2048)
 V6_coefficients[1:32] <- V6
-V6_signal <- as.vector(midwt(V6_coefficients, d4.rwt$h.0, L=6)$x)
+V6_signal <- as.vector(midwt(V6_coefficients, daubcqf(4)$h.0, L=6)$x)
 
-wt.5 <- mdwt(ecg, g, L=5)
+wt.5 <- mdwt(ecg, daubcqf(4)$h.0, L=5)
 V5 <- wt.5$y[1:64] 
 V5_coefficients <- rep(0, 2048)
 V5_coefficients[1:64] <- V5
-V5_signal <- as.vector(midwt(V5_coefficients, d4.rwt$h.0, L=5)$x)
+V5_signal <- as.vector(midwt(V5_coefficients, daubcqf(4)$h.0, L=5)$x)
 
-wt.4 <- mdwt(ecg, g, L=4)
+wt.4 <- mdwt(ecg, daubcqf(4)$h.0, L=4)
 V4 <- wt.4$y[1:128] 
 V4_coefficients <- rep(0, 2048)
 V4_coefficients[1:128] <- V4
-V4_signal <- as.vector(midwt(V4_coefficients, d4.rwt$h.0, L=4)$x)
+V4_signal <- as.vector(midwt(V4_coefficients, daubcqf(4)$h.0, L=4)$x)
 
-wt.3 <- mdwt(ecg, g, L=3)
+wt.3 <- mdwt(ecg, daubcqf(4)$h.0, L=3)
 V3 <- wt.3$y[1:256] 
 V3_coefficients <- rep(0, 2048)
 V3_coefficients[1:256] <- V3
-V3_signal <- as.vector(midwt(V3_coefficients, d4.rwt$h.0, L=3)$x)
+V3_signal <- as.vector(midwt(V3_coefficients, daubcqf(4)$h.0, L=3)$x)
 
-wt.2 <- mdwt(ecg, g, L=2)
+wt.2 <- mdwt(ecg, daubcqf(4)$h.0, L=2)
 V2 <- wt.2$y[1:512] 
 V2_coefficients <- rep(0, 2048)
 V2_coefficients[1:512] <- V2
-V2_signal <- as.vector(midwt(V2_coefficients, d4.rwt$h.0, L=2)$x)
+V2_signal <- as.vector(midwt(V2_coefficients, daubcqf(4)$h.0, L=2)$x)
 
-wt.1 <- mdwt(ecg, g, L=1)
+wt.1 <- mdwt(ecg, daubcqf(4)$h.0, L=1)
 V1 <- wt.1$y[1:1024] 
 V1_coefficients <- rep(0, 2048)
 V1_coefficients[1:1024] <- V1
-V1_signal <- as.vector(midwt(V1_coefficients, d4.rwt$h.0, L=1)$x)
+V1_signal <- as.vector(midwt(V1_coefficients, daubcqf(4)$h.0, L=1)$x)
 
 {
   graph_without_axis(V9_signal, "V9", limits=range(ecg))
@@ -675,39 +684,39 @@ What exactly do W9, W8, W7, etc. measure? They are coefficients associated with 
 
 W9_coefficients <- rep(0, 2048)
 W9_coefficients[5:8] <- W9
-W9_signal <- as.vector(midwt(W9_coefficients, d4.rwt$h.0, L=9)$x)
+W9_signal <- as.vector(midwt(W9_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W8_coefficients <- rep(0, 2048)
 W8_coefficients[9:16] <- W8
-W8_signal <- as.vector(midwt(W8_coefficients, d4.rwt$h.0, L=9)$x)
+W8_signal <- as.vector(midwt(W8_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W7_coefficients <- rep(0, 2048)
 W7_coefficients[17:32] <- W7
-W7_signal <- as.vector(midwt(W7_coefficients, d4.rwt$h.0, L=9)$x)
+W7_signal <- as.vector(midwt(W7_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W6_coefficients <- rep(0, 2048)
 W6_coefficients[33:64] <- W6
-W6_signal <- as.vector(midwt(W6_coefficients, d4.rwt$h.0, L=9)$x)
+W6_signal <- as.vector(midwt(W6_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W5_coefficients <- rep(0, 2048)
 W5_coefficients[65:128] <- W5
-W5_signal <- as.vector(midwt(W5_coefficients, d4.rwt$h.0, L=9)$x)
+W5_signal <- as.vector(midwt(W5_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W4_coefficients <- rep(0, 2048)
 W4_coefficients[129:256] <- W4
-W4_signal <- as.vector(midwt(W4_coefficients, d4.rwt$h.0, L=9)$x)
+W4_signal <- as.vector(midwt(W4_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W3_coefficients <- rep(0, 2048)
 W3_coefficients[257:512] <- W3
-W3_signal <- as.vector(midwt(W3_coefficients, d4.rwt$h.0, L=9)$x)
+W3_signal <- as.vector(midwt(W3_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W2_coefficients <- rep(0, 2048)
 W2_coefficients[513:1024] <- W2
-W2_signal <- as.vector(midwt(W2_coefficients, d4.rwt$h.0, L=9)$x)
+W2_signal <- as.vector(midwt(W2_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 W1_coefficients <- rep(0, 2048)
 W1_coefficients[1025:2048] <- W1
-W1_signal <- as.vector(midwt(W1_coefficients, d4.rwt$h.0, L=9)$x)
+W1_signal <- as.vector(midwt(W1_coefficients, daubcqf(4)$h.0, L=9)$x)
 
 
 {
@@ -724,77 +733,185 @@ W1_signal <- as.vector(midwt(W1_coefficients, d4.rwt$h.0, L=9)$x)
 }
 ```
 
+### Applications of wavelets
+
+### Two dimensional wavelets
 
 There are simple generalizations of wavelets for two dimensional images. Here's a simple image, which represents a 256 by 256 bit grayscale image of a dog.
 
-img <- read.table("klaus256.txt")
+```{r read-dog-image}
+knitr::opts_chunk$set(fig.width=5, fig.height=5)
+fn <- "https://www2.isye.gatech.edu/isyebayes/data/klaus256.asc"
+img <- read.table(fn)
 img <- 2*img-1
+```
 
+```{r display-dog-image}
 img.plot <- function(imat,n=256) {
-xsq <- c(0,0,1,1)
-ysq <- c(0,1,1,0)
-par(mar=rep(0,4),xaxs="i",yaxs="i")
-plot(c(1,n+1),c(1,n+1),type="n",axes=FALSE)
-for (i in 1:n) {
-for (j in 1:n){
-d <- 0.5*imat[n+1-j,i]+0.5
-d <- min(1,max(0,d))
-polygon(xsq+i,ysq+j,density=-1,border=NA,col=rgb(d,d,d))
+  xsq <- c(0,0,1,1)
+  ysq <- c(0,1,1,0)
+  par(mar=rep(0,4),xaxs="i",yaxs="i")
+  plot(c(1,n+1),c(1,n+1),type="n",axes=FALSE)
+  # imat <- imat/max(abs(imat))
+  for (i in 1:n) {
+    for (j in 1:n){
+      d <- 0.5*imat[n+1-j,i]+0.5
+      d <- min(1,max(0,d))
+      polygon(xsq+i,ysq+j,density=-1,border=NA,col=rgb(d,d,d))
+    }
+  }
 }
-}
-}
-img.plot(img)
 
-Dog image
+img.plot(img)
+```
+
 
 Let's also move to a slightly lengthier wavelet, the d8 wavelet.
 
+```{r d8-wavelet-g}
 g <- daubcqf(8)$h.0
 g
-[1] 0.23037781 0.71484657 0.63088077 -0.02798377 -0.18703481 0.03084138
-[7] 0.03288301 -0.01059740
+```
+
+```{r d8-wavelet-h}
 h <- -daubcqf(8)$h.1
 h
-[1] -0.01059740 -0.03288301 0.03084138 0.18703481 -0.02798377 -0.63088077
-[7] 0.71484657 -0.23037781
+```
 
 The d8 wavelet is a bit smoother than d4. It passes linear, quadratic, and cubic functions through to the top of the pyramid, unlike the d4 wavelet which only passes linear functions through. There is slightly greater computational complexity and edge effects can be a bit more pronounced, but these are minor issues.
 
 In one dimension, the d8 wavelet looks like this.
 
-ecg
-Axis
+```{r d8-in-1d, fig.height=1}
+d8_father_coefficients <- rep(0, 2048)
+d8_father_coefficients[3] <- 1
+d8_father <- as.vector(midwt(d8_father_coefficients, daubcqf(8)$h.0, L=8)$x)
+d8_mother_coefficients <- rep(0, 2048)
+d8_mother_coefficients[10] <- 1
+d8_mother <- as.vector(midwt(d8_mother_coefficients, daubcqf(8)$h.0, L=8)$x)
+{
+  graph_without_axis(d8_father, "D8 father")
+  graph_without_axis(d8_mother, "D8 mother")
+}
+```
 
 For a two dimensional image, you take the outer product of g with itself to get an 8 by 8 matrix. This matrix is then slid around on the image to get the V1 coefficients. The W1 coefficents are produced by a similar set of three outer products: the outer product of h with g, the outer product of g with h and the outer product of h with h.
 
-wt.img.1 <- mdwt(img, g, L=1)
-sum(img[1:8,1:8]*outer(g,g)),wt.img.1$y[ 1, 1],"V1")
-V1
-By hand -1.580973
-Using R -1.580973
-sum(img[1:8,1:8]*outer(h,h)),wt.img.1$y[129,129],"W1")
-W1
-By hand -0.002825861
-Using R -0.002825861
-sum(img[1:8,1:8]*outer(h,g)),wt.img.1$y[129, 1],"W1")
-W1
-By hand -0.01225749
-Using R -0.01225749
-sum(img[1:8,1:8]*outer(g,h)),wt.img.1$y[ 1,129],"W1")
-W1
-By hand -0.005042734
-Using R -0.005042734
+```{r decompose-and-restructure}
+wt.img.4 <- mdwt(img, daubcqf(8)$h.0, L=4)
+reconstructed.img <- midwt(wt.img.4$y, daubcqf(8)$h.0, L=4)
+img.plot(reconstructed.img$x)
+```
+
+```{r check-2d-calculations}
+wt.img.1 <- mdwt(img, daubcqf(8)$h.0, L=1)
+c(sum(img[1:8,1:8]*outer(g,g)), wt.img.1$y[ 1,   1])
+c(sum(img[1:8,1:8]*outer(g,h)),wt.img.1$y[  1, 129])
+c(sum(img[1:8,1:8]*outer(h,g)),wt.img.1$y[129,   1])
+c(sum(img[1:8,1:8]*outer(h,h)),wt.img.1$y[129, 129])
+```
 
 The first level of the 2D wavelet decomposition for a 256*256 image produces 128*128 V1 coefficients and 3*128*128 W1 coefficients. The second level produces 64*64 V2 coefficients and 3*64*64 W2 coefficients. If you continue this to the sixth level, you get 4*4 V6 coefficients and 3*4*4 W6 coefficients. This continues until the number of V coefficients becomes small. This is a pyrimidal cascade again, but this time a cascade in two dimensions.
 
-Wavelet coefficients arrangement
+### Wavelet coefficients arrangement
 
 Now there are three different sets of W's, one associated with outer(h,g), one with outer(g,h), and one with outer(h,h). The first represents high frequency changes in the horizontal direction and the second represents high frequency changes in the vertical direction. The third represents high frequency changes in a diagonal direction. In an image, a high frequency event represents a sharp transition between light to dark or dark to light. These transitions frequently represent boundaries or edges in an image.
+
+```{r level-1-image-g-g}
+gg1 <- matrix(0, nrow=256, ncol=256)
+gg1[1:128, 1:128] <- wt.img.1$y[1:128, 1:128]
+gg1_signal <- midwt(gg1, daubcqf(8)$h.0, L=1)  
+img.plot(gg1_signal$x)
+```
+
+```{r level-1-image-g-h}
+gh1 <- matrix(0, nrow=256, ncol=256)
+gh1[1:128, 129:256] <- wt.img.1$y[1:128, 129:256]
+gh1_signal <- midwt(gh1, daubcqf(8)$h.0, L=1)  
+img.plot(gh1_signal$x)
+```
+
+```{r level-1-image-h-g}
+hg1 <- matrix(0, nrow=256, ncol=256)
+hg1[1:128, 129:256] <- wt.img.1$y[129:256, 1:128]
+hg1_signal <- midwt(hg1, daubcqf(8)$h.0, L=1)  
+img.plot(hg1_signal$x)
+```
+
+```{r level-1-image-h-h}
+hh1 <- matrix(0, nrow=256, ncol=256)
+hh1[129:256, 129:256] <- wt.img.1$y[129:256, 129:256]
+hh1_signal <- midwt(hh1, daubcqf(8)$h.1, L=1)  
+img.plot(hh1_signal$x)
+```
+
+```{r level-4-image-g-g}
+gg4 <- matrix(0, nrow=256, ncol=256)
+gg4[1:16, 1:16] <- wt.img.4$y[1:16, 1:16]
+gg4_signal <- midwt(gg4, daubcqf(8)$h.0, L=4)  
+img.plot(gg4_signal$x)
+```
+
+```{r level-4-image-g-h}
+gh4 <- matrix(0, nrow=256, ncol=256)
+gh4[1:16, 17:32] <- wt.img.4$y[1:16, 17:32]
+gh4[1:32, 33:64] <- wt.img.4$y[1:32, 33:64]
+gh4[1:64, 65:128] <- wt.img.4$y[1:64, 65:128]
+gh4[1:128,129:256] <- wt.img.4$y[1:128, 129:256]
+gh4_signal <- midwt(gh4, daubcqf(8)$h.0, L=4)  
+img.plot(gh4_signal$x)
+```
+
+```{r level-4-image-h-g}
+hg4 <- matrix(0, nrow=256, ncol=256)
+hg4[17:32, 1:16] <- wt.img.4$y[17:32, 1:16]
+hg4[33:64, 1:32] <- wt.img.4$y[33:64, 1:32]
+hg4[65:128, 1:64] <- wt.img.4$y[65:128, 1:64]
+hg4[129:256, 1:128] <- wt.img.4$y[129:256, 1:128]
+hg4_signal <- midwt(hg4, daubcqf(8)$h.0, L=4)  
+img.plot(hg4_signal$x)
+```
+
+```{r level-4-image-h-h}
+hh4 <- matrix(0, nrow=256, ncol=256)
+hh4[17:32, 17:32] <- wt.img.4$y[17:32, 17:32]
+hh4[33:64, 33:64] <- wt.img.4$y[33:64, 33:64]
+hh4[65:128, 65:128] <- wt.img.4$y[65:128, 65:128]
+hh4[129:256, 129:256] <- wt.img.4$y[129:256, 129:256]
+hh4_signal <- midwt(hh4, daubcqf(8)$h.0, L=4)  
+img.plot(hh4_signal$x)
+```
+
+```{r level-4-detail}
+detail4 <- gh4 + hg4 + hh4
+detail4_signal <- midwt(detail4, daubcqf(8)$h.0, L=4)  
+img.plot(detail4_signal$x)
+```
+
+```{r compress}
+pctl_99 <- quantile(abs(wt.img.4$y), probs=0.99)
+top_01 <- matrix(0, nrow=256, ncol=256)
+top_01[abs(wt.img.4$y)>pctl_99] <- wt.img.4$y[abs(wt.img.4$y)>pctl_99]
+top_01_image <- midwt(top_01, daubcqf(8)$h.0, L=4)
+img.plot(top_01_image$x)
+
+pctl_95 <- quantile(abs(wt.img.4$y), probs=0.95)
+top_05 <- matrix(0, nrow=256, ncol=256)
+top_05[abs(wt.img.4$y)>pctl_95] <- wt.img.4$y[abs(wt.img.4$y)>pctl_95]
+top_05_image <- midwt(top_05, daubcqf(8)$h.0, L=4)
+img.plot(top_05_image$x)
+
+pctl_90 <- quantile(abs(wt.img.4$y), probs=0.90)
+top_10 <- matrix(0, nrow=256, ncol=256)
+top_10[abs(wt.img.4$y)>pctl_90] <- wt.img.4$y[abs(wt.img.4$y)>pctl_90]
+top_10_image <- midwt(top_10, daubcqf(8)$h.0, L=4)
+img.plot(top_10_image$x)
+
+```
 
 Although there is some arbitrariness here, you can assign the outer(h,g) wavelets along the top.
 
 Layout of horizontal wavelets
-
 the outer(g,h) wavelets along the side
 
 Wavelet layout
@@ -803,7 +920,7 @@ and the outer(h,h) wavelets along the diagonal.
 
 Wavelet layout
 
-If you examine the contribution of each wavelet frequency to the image, you will see a distinct patter.
+If you examine the contribution of each wavelet frequency to the image, you will see a distinct pattern.
 
 W1
 
