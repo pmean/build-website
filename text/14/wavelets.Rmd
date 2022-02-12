@@ -26,6 +26,8 @@ knitr::opts_chunk$set(fig.height=1)
 
 
 ```{r read-ecg-data}
+library("ggplot2")
+library("magrittr")
 library("rwt")
 library("wavelets")
 data(ecg)
@@ -361,16 +363,16 @@ g <- daubcqf(4)$h.0
 g
 ```
 
-These coefficients represent the "high pass" filter. There is a complementary "low pass" filter that you get by reversing the coefficients and changing the sign of every other value.
+These coefficients represent the "high pass" filter. There is a complementary "low pass" filter that you get by reversing the coefficients and changing the sign of every other value. The term "high pass" means that it passes high frequencies above a certain cutoff and attenuates low frequencies. The term "low pass" means the opposite. 
 
-Note: To get the math to work on my end, tThe low pass filter provided by the rwt package needs to be negated. 
+Note that not all wavelets develop the low pass filter in the way described above. The construction is known as a quadrature mirror filter. There is an attractive simplicity to this approach.
 
 ```{r low-pass}
 h <- -daubcqf(4)$h.1
 h
 ```
 
-These two filter pairs are known as a quadrature mirror filter because of the reflection. These two filters are orthonormal.
+These two filters are orthonormal.
 
 ```{r orthonormal}
 # The inline function %*% calculates a dot product of two vectors.
@@ -816,6 +818,45 @@ The first level of the 2D wavelet decomposition for a 256*256 image produces 128
 ### Wavelet coefficients arrangement
 
 Now there are three different sets of W's, one associated with outer(h,g), one with outer(g,h), and one with outer(h,h). The first represents high frequency changes in the horizontal direction and the second represents high frequency changes in the vertical direction. The third represents high frequency changes in a diagonal direction. In an image, a high frequency event represents a sharp transition between light to dark or dark to light. These transitions frequently represent boundaries or edges in an image.
+
+```{r layout}
+x <- c(700, 300, 700)
+y <- c(700, 300, 300)
+m <- c(
+  "W1\nh %*% g", 
+  "W1\ng %*% h", 
+  "W1\nh %*% h"
+)
+data.frame(x, y, m) %>%
+  ggplot(aes(x, y, label=m)) +
+  expand_limits(x=c(100, 900), y=c(100, 900)) + 
+  geom_segment(x=100, y=100, xend=900, yend=100) +
+  geom_segment(x=900, y=100, xend=900, yend=900) +
+  geom_segment(x=900, y=900, xend=100, yend=900) +
+  geom_segment(x=100, y=900, xend=100, yend=100) +
+  geom_segment(x=500, y=100, xend=500, yend=900) +
+  geom_segment(x=100, y=500, xend=900, yend=500) +
+  theme_void() + 
+  geom_text() -> layout_1
+layout_1 +
+    geom_text(x=300, y=700, label="V1\ng %*% g")
+layout_1+
+  geom_segment(x=300, y=500, xend=300, yend=900) +
+  geom_segment(x=100, y=700, xend=500, yend=700) +
+  geom_text(x=400, y=800, label="W2\nh %*% g") + 
+  geom_text(x=200, y=600, label="W2\ng %*% h") + 
+  geom_text(x=400, y=600, label="W2\nh %*% h") -> layout_2
+layout_2 +
+  geom_text(x=200, y=800, label="V2\ng %*% g")
+layout_2 +
+  geom_segment(x=200, y=700, xend=200, yend=900) +
+  geom_segment(x=100, y=800, xend=300, yend=800) +
+  geom_text(x=250, y=850, label="W3") + 
+  geom_text(x=150, y=750, label="W3") + 
+  geom_text(x=250, y=750, label="W3") + 
+  geom_text(x=150, y=850, label="etc.")
+  
+```
 
 ```{r level-1-image-g-g}
 gg1 <- matrix(0, nrow=256, ncol=256)
