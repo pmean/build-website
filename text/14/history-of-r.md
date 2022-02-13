@@ -7,7 +7,7 @@ category:
 - Blog post
 tags:
 - R software
-output: html_document
+output: powerpoint_presentation
 ---
 
 I'm helping to put together three separate classes, Basic data management and analysis with R, SAS, SPSS. As part of these classes, I need to discuss the history of these programs, because understanding that history will help you better understand the strengths and weaknesses of each statistical package. Here's a brief history of R.
@@ -16,7 +16,7 @@ I'm helping to put together three separate classes, Basic data management and an
 
 ### R sprouted from S
 
-![Figure 1. Book cover](http://www.pmean.com/new-images/14/history-of-r-book-1984.jpg)
+![Figure 1. Book cover](http://www.pmean.com/new-images/14/history-of-r-book-cover-1988.jpg)
 
 <div class="notes">
 
@@ -28,7 +28,7 @@ Image source: Amazon
 
 ### John Chambers
 
-![Figure 2. Image of John Chambers](http://www.pmean.com/new-image/14/history-of-r-chambers-pic.jpg)
+![Figure 2. Photo of John Chambers](http://www.pmean.com/new-image/14/history-of-r-chambers-pic.jpg)
 
 <div class="notes">
 
@@ -40,7 +40,7 @@ Image source: [AT&T][att1]
 
 ### Richard Becker
 
-![Figure 3. Image of Richard Becker](http://www.pmean.com/new-images/14/history-of-r-becker-pic.jpg)
+![Figure 3. Photo of Richard Becker](http://www.pmean.com/new-images/14/history-of-r-becker-pic.jpg)
 
 <div class="notes">
 
@@ -52,7 +52,7 @@ Image source: [AT&T][att1]
 
 ### Allan Wilks
 
-![Figure 4. Image of Allan Wilks](http://www.pmean.com/new-images/14/history-of-r-wilks-pic.jpg)
+![Figure 4. Photo of Allan Wilks](http://www.pmean.com/new-images/14/history-of-r-wilks-pic.jpg)
 
 <div class="notes">
 
@@ -185,7 +185,7 @@ One of the most popular features of R is the ease with which outside developers 
 
 ### Bioconductor
 
-Figure 13. Excerpt from website
+![Figure 13. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-bioconductor)
 
 <div class="notes">
 
@@ -197,7 +197,7 @@ You can also find a major effort to develop freely available libraries for stati
 
 ### Menu driven version of R
 
-Figure 14. Excerpt from website
+![Figure 14. Excerpt from website](http://www.pmean.com/14/history-of-r-rcommander.png)
 
 R is an interactive programming language, but menu driven versions of R are available. The most notable of these is [R Commander][rco1]
 
@@ -205,27 +205,33 @@ R is an interactive programming language, but menu driven versions of R are avai
 
 ### RStudio
 
-Figure 15.
+!{Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
 
 ### Recent major contributions: Frank Harrell
 
-Figure 16.
-
-### Recent major contributions: Hadley Wickham
-
-Figure 17.
-
-### Recent major contributions: Yihui Xie
-
-Figure 18.
-
-### If you want to learn more: Rickert 2014
-
-Figure 19.
+![Figure 16. Title slide from Frank Harrell talk](http://www.pmean.com/new-images/14/history-of-r-harrell.png)
 
 <div class="notes">
 
-Update (August 19, 2014). The Revolutions Analytic blog posted a [nice summary of a [John Chambers talk][cha2] on the history of S at the Use R! 2014 conference
+Image source: [R-bloggers][rbl1]
+
+[rbl1]: https://www.r-bloggers.com/2020/11/frank-harrell-controversies-in-predictive-modeling-and-machine-learning-2/
+
+### Recent major contributions: Hadley Wickham
+
+![Figure 17. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
+
+### Recent major contributions: Yihui Xie
+
+![Figure 18. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
+
+### If you want to learn more: Rickert 2014
+
+![Figure 19. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-rickert-blog.png)
+
+<div class="notes">
+
+The Revolutions Analytic blog posted a [nice summary of a [John Chambers talk][cha2] on the history of S at the Use R! 2014 conference
 
 [cha2]: http://blog.revolutionanalytics.com/2014/07/reflections-on-john-chambers-userr-2014-keynote-address.html
 
@@ -233,7 +239,7 @@ Update (August 19, 2014). The Revolutions Analytic blog posted a [nice summary o
 
 ### If you want to learn more: Chambers 2006
 
-Figure 20.
+![Figure 20. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-chambers-2006.png)
 
 <div class="notes">
 
@@ -245,8 +251,7 @@ That article has links to the [slides (PDF format)][cha3] of a 2006 talk (again 
 
 ### If you want to learn more: Hastie 2014
 
-Figure 21.
-
+![Figure 21. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-hastie-interview.png)
 
 <div class="notes">
 
@@ -258,7 +263,7 @@ as well as a [video interview of John Chambers by Trevor Hastie][has1].
 
 ### If you want to learn more: Ihaka 1998
 
-Figure 22. 
+![Figure 22. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1998.png)
 
 <div class="notes">
 
@@ -268,7 +273,7 @@ and a [1998 paper (PDF format)][iha2] by Ross Ihaka on the past (!) and future o
 
 </div>
 
-### If you want to learn more: Beckman (no date)
+### If you want to learn more: Becker (no date)
 
 ![Figure 23. Excerpt from paper](http://www.pmean.com/new-images/14/history-of-r-becker.png)
 
