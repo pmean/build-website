@@ -10,21 +10,21 @@ tags:
 output: powerpoint_presentation
 ---
 
-I'm helping to put together three separate classes, Basic data management and analysis with R, SAS, SPSS. As part of these classes, I need to discuss the history of these programs, because understanding that history will help you better understand the strengths and weaknesses of each statistical package. Here's a brief history of R.
-
-<!---More--->
-
 ### R sprouted from S
 
 ![Figure 1. Book cover](http://www.pmean.com/new-images/14/history-of-r-book-cover-1988.jpg)
 
 <div class="notes">
 
+I'm helping to put together three separate classes, Basic data management and analysis with R, SAS, SPSS. As part of these classes, I need to discuss the history of these programs, because understanding that history will help you better understand the strengths and weaknesses of each statistical package. Here's a brief history of R.
+
 R has its roots in a program called S. S was developed in a time when single letters were in vogue (as in the C programming language).
 
 Image source: Amazon
 
 </div>
+
+<!---More--->
 
 ### John Chambers
 
@@ -94,6 +94,8 @@ The author of S, John Chambers, was a statistician at Bell Laboratories wrote se
 S was an interactive programming language, which made it quite different from other statistical software systems of the times, like SAS and SPSS.
 
 Two unique features of the S programming language were the use of functions rather than macros for extending the language and the introduction of object oriented features (classes, objects, and methods).
+
+</div>
 
 ### S-plus
 
@@ -197,15 +199,19 @@ You can also find a major effort to develop freely available libraries for stati
 
 ### Menu driven version of R
 
-![Figure 14. Excerpt from website](http://www.pmean.com/14/history-of-r-rcommander.png)
+![Figure 14. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rcommander.png)
+
+<div class="notes">
 
 R is an interactive programming language, but menu driven versions of R are available. The most notable of these is [R Commander][rco1]
 
 [rco1]: http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/
 
+</div>
+
 ### RStudio
 
-!{Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
+![Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
 
 ### Recent major contributions: Frank Harrell
 
@@ -217,13 +223,27 @@ Image source: [R-bloggers][rbl1]
 
 [rbl1]: https://www.r-bloggers.com/2020/11/frank-harrell-controversies-in-predictive-modeling-and-machine-learning-2/
 
+</div>
+
 ### Recent major contributions: Hadley Wickham
 
 ![Figure 17. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ### Recent major contributions: Yihui Xie
 
 ![Figure 18. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ### If you want to learn more: Rickert 2014
 
@@ -285,7 +305,7 @@ Richard Beckman. A Brief History of S. Available in [pdf format][bec1]
 
 </div>
 
-### Twenty years of R
+### If you want to learn more: Smith 2020
 
 ![Figure 24. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
 
