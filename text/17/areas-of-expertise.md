@@ -1,5 +1,5 @@
 ---
-title: "PMean: My areas of expertise"
+title: "My areas of expertise"
 author: "Steve Simon"
 source: "http://blog.pmean.com/areas-of-expertise/"
 date: "2017-03-30"
@@ -55,4 +55,7 @@ are, perhaps, a bit peripheral to Statistics.
 5.  Research ethics
 6.  Software engineering
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/areas-of-expertise/
+[sim2]: http://blog.pmean.com

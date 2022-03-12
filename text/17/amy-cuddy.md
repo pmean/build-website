@@ -35,6 +35,10 @@ One of the noble warriors/shameless bullies is Andrew Gelman, a popular statisti
 
 Susan Dominus. When the Revolution Came for Amy Cuddy. The New York Times Magazine (2017-10-18). Available in [html format][dom1]. Approximately 9,000 words.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/amy-cuddy/
+[sim2]: http://blog.pmean.com
 
 [asc1]: https://fivethirtyeight.com/features/science-isnt-broken/
 [dom1]: https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html

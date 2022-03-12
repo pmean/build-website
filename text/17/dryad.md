@@ -11,18 +11,19 @@ tags:
 output: html_document
 ---
 
-I've been looking for something like this for a while. It is a
-repository for data sets associated with peer-reveiwed publicattions. I
-have only glanced at it briefly
-- but it looks fairly easy to use with a
-fair number of interesting data sets/publications.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/dryad01.png)
 
-<!---More--->
+<div class="notes">
 
-Dryad Digital Respository. Available at <http://datadryad.org/>.
+I've been looking for something like this for a while. It is a repository for data sets associated with peer-reveiwed publicattions. I have only glanced at it briefly, but it looks fairly easy to use with a fair number of interesting data sets/publications.
 
-![](http://www.pmean.com/new-images/17/dryad01.png)
+Dryad Digital Respository. Available in [html format][dry1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/dryad/
+[sim2]: http://blog.pmean.com
 
+[dry1]: http://datadryad.org/
 
+</div>

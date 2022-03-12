@@ -11,16 +11,19 @@ tags:
 output: html_document
 ---
 
-This is a page outlining several related efforts at RStudio to make it
-seaier for you to work with data stored in various relational
-databases.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/databases-using-r01.png)
 
-<!---More--->
+<div class="notes">
 
-RStudio. Databases using R. Available at <http://db.rstudio.com/>.
+This is a page outlining several related efforts at RStudio to make it easier for you to work with data stored in various relational databases.
 
-![](http://www.pmean.com/new-images/17/databases-using-r01.png)
+RStudio. Databases using R. Available in [html format][rst1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/databases-using-r/
+[sim2]: http://blog.pmean.com
 
+[rst1]: http://db.rstudio.com/
 
+</div>

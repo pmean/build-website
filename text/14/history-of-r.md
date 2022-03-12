@@ -197,9 +197,19 @@ You can also find a major effort to develop freely available libraries for stati
 
 </div>
 
+### BUGS
+
+![Figure 14. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-bugs)
+
+<div class="notes">
+
+A lot of stand-along programs have leaned heavily on R to provide an interface to run their programs and process their outputs. Notable among these are a series of programs for Bayesian analysis, starting with BUGS. BUGS is an acronym for Bayes Using Gibbs Sampling. While it can be run by itself, it is a lot easier and more convenient to run it from inside R, and most applications of BUGS appear to use R. Other packages, jags (Just Another Gibbls Sampler), and Stan (named after the famous mathematician, Stan Ulam), also rely on R. It is worth noting that these programs are also easily run from Python.
+
+</div>
+
 ### Menu driven version of R
 
-![Figure 14. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rcommander.png)
+![Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rcommander.png)
 
 <div class="notes">
 
@@ -211,13 +221,21 @@ R is an interactive programming language, but menu driven versions of R are avai
 
 ### RStudio
 
-![Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
+![Figure 16. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
+
+<div class="notes">
+
+RStudio is an integrated development environment for R. The company that produces RStudio offers both free and commercial versions. They also employ many of the people listed below who have made major contributions to R.
+
+</div>
 
 ### Recent major contributions: Frank Harrell
 
-![Figure 16. Title slide from Frank Harrell talk](http://www.pmean.com/new-images/14/history-of-r-harrell.png)
+![Figure 17. Title slide from Frank Harrell talk](http://www.pmean.com/new-images/14/history-of-r-harrell.png)
 
 <div class="notes">
+
+Frank Harrell has produced a lot of advanced statistical models for R. This includes some extremely useful spline tools. His book, Regression Modeling Strategies, a classic text, uses R code throughout.
 
 Image source: [R-bloggers][rbl1]
 
@@ -227,27 +245,172 @@ Image source: [R-bloggers][rbl1]
 
 ### Recent major contributions: Hadley Wickham
 
-![Figure 17. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
+![Figure 18. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
 
 <div class="notes">
 
-
+Hadley Wickham has written or co-written a large number of libraries in R that have refashioned R into almost a completely new programming language.
 
 </div>
+
+### The tidyverse library
+
+![Figure 19. Hex sticker for tidyverse](https://github.com/rstudio/hex-stickers/raw/master/PNG/tidyverse.png)
+
+<div class="notes">
+
+Originally, these packages were referred to collectively as the "Hadleyverse." But Hadley Wickham discouraged that in favor of the name "tidyverse."
+
+The tidyverse package is a collection of several different packages which provide enhancements to the R programming language. These libraries share a common programming philosophy. There are several dozen libraries in  total, but only a core set of libraries are loaded with the library(tidyverse) function. Other tidyverse packages must be loaded separately.
+
+Here are some of the libraries in core set of libraries.
+
+</div>
+
+### dplyr
+
+![Figure 20. Hex sticker for dplyr](https://github.com/rstudio/hex-stickers/raw/master/PNG/dplyr.png)
+
+
+<div class="notes">
+
+dplyr provides a set of functions for data manipulation.
+
+</div>
+
+### ggplot2
+
+![Figure 21. Hex sticker for ggplot2](https://github.com/rstudio/hex-stickers/raw/master/PNG/ggplot2.png)
+
+<div class="notes">
+
+While R has some excellent graphics capabilities built in, they are somewhat difficult to use. The ggplot2 library simplifies the process of graphing by separating the parts of a graph into different layers. It is based on a conceptual framework developed by Leland Wilkinson in his book, The Grammar of Graphics.
+
+</div>
+
+### magrittr
+
+![Figure 22. Hex sticker for magrittr](https://github.com/rstudio/hex-stickers/raw/master/PNG/pipe.png)
+
+<div class="notes">
+
+magrittr provides a pipe operator. The concept of the pipe was developed first in Unix systems almost 50 years ago. The pipe operator (percent-greater than-percent) takes input from the left side of the operator and feeds it to a function listed on the right side of the operator. Pipes can be chained together. They make your code simpler and more readable.
+
+We may or may not cover pipes in this class.
+
+</div>
+
+### readr
+
+![Figure 23. Hex sticker for readr](https://github.com/rstudio/hex-stickers/raw/master/PNG/readr.png)
+
+<div class="notes">
+
+While R has many functions for reading text data, they are slow for very large files. The readr library reads text files much faster, offers some enhancements, and provides a simpler syntax.
+
+</div>
+
+### stringr
+
+![Figure 24. Hex sticker for stingr](https://github.com/rstudio/hex-stickers/raw/master/PNG/stringr.png)
+
+<div class="notes">
+
+stringr simplifies the manipulation of string or text data.
+
+</div>
+
+
+### tibble
+
+![Figure 25. Hex sticker for tibble](https://github.com/rstudio/hex-stickers/raw/master/PNG/tibble.png)
+
+<div class="notes">
+
+R has a variety of internal storage formats: arrays, lists, matrices, and data frames. We will focus mostly on data frames in this class. The tibble package offers an internal storage format, a tibble, that is very similar to a data frame, but it offers some extra features for convenience and simplicity.
+
+</div>
+
+### tidyr
+
+![Figure 26. Hex sticker for tidyr](https://github.com/rstudio/hex-stickers/raw/master/PNG/tidyr.png)
+
+<div class="notes">
+
+tidyr provides a series of functions that help with data manipulation, especially for longitudinal data.
+
+</div>
+
+### Other packages in the tidyverse
+
++ In the core package
+  + forcats
+  + purr
++ Outside the core package
+  + broom
+  + lubridate
+  + readxl
+  + many others
+  
+<div class="notes">
+
+Two other packages in the tidyverse core, forcats and purr, are for advanced applications.
+
+Outside of the core package, some of the packages that I like are broom (which simplifies and standardizes the output from different data analysis functions)  lubridate (which simplifies the manipulaton of dates), and readxl (which reads Microsoft Excel files). There are quite a few others.
+
+</div>
+
 
 ### Recent major contributions: Yihui Xie
 
-![Figure 18. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
+![Figure 27. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
 
 <div class="notes">
 
-
+Another prolific contributor to R is Yihui Xie.
 
 </div>
 
+### knitr
+
+![Figure 28. Hex sticker for knitr](https://github.com/rstudio/hex-stickers/raw/master/PNG/knitr.png)
+
+<div class="notes">
+
+He wrote the package knitr back in 2012 that has revolutionized the field of reproducible research. knitr is an improvement on the package sweave. It takes R code, runs it and creates documents in a variety of formats using Pandoc.
+
+</div>
+
+### bookdown
+
+![Figure 29. Hex sticker for bookdown](https://github.com/rstudio/hex-stickers/raw/master/PNG/bookdown.png)
+
+<div class="notes">
+
+He wrote also wrote a package, bookdown, that has revolutionized the book publishing world. You can now write an entire book in R with the help of this package. It has publication ready graphics, tables, and formulas. It produces the table of contents, and an index. Over a thousand books have been produced using bookdown, including the definitive guide to bookdown itself, bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie.
+
+</div>
+
+### Other works by Yihui Xie
+
++ blogdown
++ tinytex
++ xaringan
+
+<div class="notes">
+
+There are a lot more works by Yihui Xie that are worth discussing. blogdown uses R Markdown code to create a blog site. It is based on an open source web development system called Hugo. I am currently trying to convert my website (over 1,800 pages) to blogdown.
+
+tinytex is an attempt to develop a minimal package for producing LaTex documents. It has all the features that you need to work with R Markdown, but does not include some of the extra features found in other versions of LaTex, that needlessly (in his opinion) add to the complexity of using LaTeX as part of R Markdown.
+
+xaringan is a presentation format using html that offers an alternative to beamer and slidy.
+
+</div>
+
+
 ### If you want to learn more: Rickert 2014
 
-![Figure 19. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-rickert-blog.png)
+![Figure 30. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-rickert-blog.png)
 
 <div class="notes">
 
@@ -259,7 +422,7 @@ The Revolutions Analytic blog posted a [nice summary of a [John Chambers talk][c
 
 ### If you want to learn more: Chambers 2006
 
-![Figure 20. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-chambers-2006.png)
+![Figure 31. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-chambers-2006.png)
 
 <div class="notes">
 
@@ -271,7 +434,7 @@ That article has links to the [slides (PDF format)][cha3] of a 2006 talk (again 
 
 ### If you want to learn more: Hastie 2014
 
-![Figure 21. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-hastie-interview.png)
+![Figure 32. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-hastie-interview.png)
 
 <div class="notes">
 
@@ -283,7 +446,7 @@ as well as a [video interview of John Chambers by Trevor Hastie][has1].
 
 ### If you want to learn more: Ihaka 1998
 
-![Figure 22. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1998.png)
+![Figure 33. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1998.png)
 
 <div class="notes">
 
@@ -295,7 +458,7 @@ and a [1998 paper (PDF format)][iha2] by Ross Ihaka on the past (!) and future o
 
 ### If you want to learn more: Becker (no date)
 
-![Figure 23. Excerpt from paper](http://www.pmean.com/new-images/14/history-of-r-becker.png)
+![Figure 34. Excerpt from paper](http://www.pmean.com/new-images/14/history-of-r-becker.png)
 
 <div class="notes">
 
@@ -307,7 +470,7 @@ Richard Beckman. A Brief History of S. Available in [pdf format][bec1]
 
 ### If you want to learn more: Smith 2020
 
-![Figure 24. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
+![Figure 35. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
 
 <div class="notes">
 

@@ -1,5 +1,5 @@
 ---
-title: "Mapping latitude and longitude"
+title: "Using change scores"
 author: "Steve Simon"
 source: new
 date: "2022-02-01"

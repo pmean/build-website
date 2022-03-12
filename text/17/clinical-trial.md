@@ -10,26 +10,27 @@ tags:
 output: html_document
 ---
 
-The NIH recently updated their definition of what a clinical trial is.
-Here is the link to the new definition. Also worth reviewing are an [FAQ
-list](https://grants.nih.gov/grants/policy/faq_clinical_trial_definition.htm),
-[some case
-studies](https://grants.nih.gov/policy/clinical-trials/case-studies.htm),
-[some additional training
-resources](https://grants.nih.gov/policy/clinical-trials/training-resources.htm),
-and blog posts on [September 8,
-2017](https://nexus.od.nih.gov/all/2017/09/08/continuing-to-clarify-the-nih-definition-of-a-clinical-trial/)
-and [September 11,
-2017](https://nexus.od.nih.gov/all/2017/09/11/spreading-the-word-about-policies-impacting-human-subjects-research-and-clinical-trials/).
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/clinical-trial01.png)
 
-<!---More--->
+<div class="notes">
 
-National Institutes of Health. Notice of Revised NIH Definition of
-"Clinical Trial". Notice Number: NOT-OD-15-015. Available at
-<https://grants.nih.gov/grants/guide/notice-files/NOT-OD-15-015.html>.
+The NIH recently updated their definition of what a clinical trial is. Here is the link to the new definition. Also worth reviewing are an [FAQ list][nih2],  [some case studies][nih3], [some additional training resources][nih4], and blog posts on [September 8, 2017][nih5] and [September 11, 2017][nih6].
 
-![](http://www.pmean.com/new-images/17/clinical-trial01.png)
+National Institutes of Health. Notice of Revised NIH Definition of "Clinical Trial". Notice Number: NOT-OD-15-015. Available in [html format][nih1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/clinical-trial/
+[sim2]: http://blog.pmean.com
+
+[nih1]: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-15-015.html
+[nih2]: https://grants.nih.gov/grants/policy/faq_clinical_trial_definition.htm
+[nih3]: https://grants.nih.gov/policy/clinical-trials/case-studies.htm
+[nih4]: https://grants.nih.gov/policy/clinical-trials/training-resources.htm
+[nih5]: https://nexus.od.nih.gov/all/2017/09/08/continuing-to-clarify-the-nih-definition-of-a-clinical-trial/
+[nih6]: https://nexus.od.nih.gov/all/2017/09/11/spreading-the-word-about-policies-impacting-human-subjects-research-and-clinical-trials/
+
+</div>
 
 
 
