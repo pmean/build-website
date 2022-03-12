@@ -472,6 +472,18 @@ Richard Beckman. A Brief History of S. Available in [pdf format][bec1]
 
 ![Figure 35. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
 
+### The tidyverse
+
+The tidyverse is a collection of packages for the R programming language developed by Hadley Wickham and others. I single out Hadley Wickham because he has been a major force behind the programming philosophy of the tidyverse and the lead author for many of the most important packages in the tidyverse.
+
+The tidyverse packages embrace some guiding principles described in the [tidyverse manifesto][tid1]. The packages in the tidyverse encourage the use of tidy data. Tidy data is related to the database concept of normalization, though it is described from a statistical perspective (which means that an idiot like me can still understand it). The general concepts behind tidy data are described in a [vignette][tid2] and in a [2014 publication][tid3] in the Journal of Statistical Software. The tidyverse research team has published a detailed guides on [coding practices][tid4] and [program style][tid5] that are consistent with their principles.
+
+[tid1]: https://tidyverse.tidyverse.org/articles/manifesto.html
+[tid2]: https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
+[tid3]: https://www.jstatsoft.org/article/view/v059i10
+[tid4]: https://design.tidyverse.org/
+[tid5]: https://style.tidyverse.org/
+
 <div class="notes">
 
 David Smith, 20 years of R, presented at DC satRdays. Available as a [YouTube video][smi1]
