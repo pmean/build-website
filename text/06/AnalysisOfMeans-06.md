@@ -9,9 +9,6 @@ tags:
 - Analysis of means
 output: html_document
 ---
-**[StATS]: Some resources for Analysis of Means
-(created 2006-06-30, updated 2007-02-01)**
-
 One of the techniques recommended by Davis Balestracci when he visited
 CMH in June 2006 was Analysis of Means, which often is abbreviated ANOM.
 You can use ANOM much like a control chart, but it is applied when you
@@ -87,31 +84,4 @@ Each paint type was tested four times, for a total of 16 observations.
 The overall mean is 8.8 and the lower and upper decision limits are 7.0
 and 10.5, respectively. When I get some time, I'd like to replicate
 this example using R software.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
-<!---More--->
-means](../category/AnalysisOfMeans.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Some resources for Analysis of Means
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-means](../category/AnalysisOfMeans.html).
---->
 
