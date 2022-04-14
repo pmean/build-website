@@ -132,7 +132,7 @@ unlist(shopping)
 
 Of course, you lose the ability to mix and match once you unlist.
 
-You can (and probably should) use names for each element of your list. This makes it easier to pick out pieces of list.
+You can (and probably should) use names for each element of your list. This makes it easier to pick out pieces of list. Either of the first two statements will add names to a list.
 
 ```{r}
 names(shopping) <- c("grocery_list", "clothing_list")
@@ -263,7 +263,7 @@ The last approach, using the dollar sign, is the most common way to work with a 
 
 ### Tibbles
 
-The programming team working on the tidyverse has developed an alternative to the data frame called a tibble. You use the `tibble` function to create a tibble. But first you have to load the tidyverse packages (or just the tibble package by itself)
+The programming team working on the tidyverse has developed an alternative to the data frame called a tibble. You use the `tibble` function to create a tibble. But first you have to load the tidyverse packages (or just the tidyr package by itself)
 
 ```{r}
 library(tidyr)
