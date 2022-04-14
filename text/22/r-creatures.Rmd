@@ -1,0 +1,416 @@
+---
+title: "Different creatures in the R zoo"
+author: "Steve Simon"
+source: new
+date: "2022-04-14"
+category: 
+- Blog post
+tags:
+- R programming
+output: html_document
+---
+
+R has a variety of ways of storing information. It is a hodge-podge of different things. I'll call these "things" creatures, though that is probably not the right word. Let me review some of the more important creatures in R.
+
+### Scalars
+
+A single number, string, or date is called a scalar. 
+
+```{r}
+secret_of_the_universe <- 42
+on_first <- "Who"
+y2k <- as.Date("2000-01-01")
+```
+
+### Vectors
+
+A combination of two or more scalars of the same type is a vector. Strictly speaking, you say that a scalar is actually a vector of length 1. That does work for the most part. You can use a scalar in places where R is expecting a vector. Even so, most people reserve the term "vector" for anything with a length of 2 or more.
+
+You use the `c` function to combine two or more scalars into a vector.
+
+```{r}
+buckle_my_shoe <- c(1, 2)
+vowels <- c("A", "E", "I", "O", "U")
+```
+
+You can use the colon to create a vector that is sequence of consecutive integers.
+
+```{r}
+fantastic_four <- 1:4
+fantastic_four
+not_so_fantastic_four <- 5:8
+not_so_fantastic_four
+```
+
+You can use the `length` function to calculate the length of a vector.
+
+```{r}
+length(vowels)
+```
+
+You get individual elements of a vector using square brackets.
+
+```{r}
+vowels[1]
+```
+
+You can also use square brackets to extract chunks from a vector
+
+```{r}
+vowels[1:2]
+vowels[c(2, 4)]
+```
+
+You can use `c` to make a longer vector out of two shorter vectors.
+
+```{r}
+c(buckle_my_shoe, fantastic_four)
+```
+
+### Named vectors
+
+You can assign names to some or all of the individual elements in a vector. This is not done too frequently, but it does have its uses.
+
+```{r}
+primes <- c(
+  "first"=2,
+  "second"=3,
+  "third"=5,
+  "fourth"=7)
+primes
+```
+
+You can extract individual elements of a named vector using the names instead of their numeric positions.
+
+```{r}
+primes["first"]
+primes[c("second", "fourth")]
+```
+
+You list the names of a named vector using the `names` function.
+
+```{r}
+names(primes)
+```
+
+### Lists
+
+You can't mix and match within a vector. If you try to combine a number and a string, for example, R will convert the number to a string first.
+
+```{r}
+mixed_vector <- c(1, "two")
+mixed_vector
+```
+
+You can mix numbers and strings in a list, which is created using the `list` function.
+
+```{r}
+mixed_list <- list(1, "two")
+mixed_list
+```
+
+Notice the odd collection of double and single brackets in the list. Why R uses single brackets in some places and double brackets in other locations is something that can confound even an experienced R programmer. The only important thing to remember as a beginner is that double brackets allow you to select individual items from a list.
+
+```{r}
+mixed_list[[2]]
+```
+
+You can create lists that are mix of some of the creatures shown below. You can even make lists of lists.
+
+```{r}
+groceries <- list("bread", "fruit")
+clothes <- list("socks", "underwear", "shirts")
+shopping <- list(groceries, clothes)
+shopping
+```
+
+This can get pretty messy. You can recast all the individual components into a single vector using the `unlist` function.
+
+```{r}
+unlist(shopping)
+```
+
+Of course, you lose the ability to mix and match once you unlist.
+
+You can (and probably should) use names for each element of your list. This makes it easier to pick out pieces of list.
+
+```{r}
+names(shopping) <- c("grocery_list", "clothing_list")
+shopping <- list(grocery_list=groceries, clothing_list=clothes)
+shopping
+shopping[["clothing_list"]]
+```
+
+If the list has names, you can use the dollar sign as a substitute for the double square brackets.
+
+```{r}
+shopping$clothing_list
+```
+
+### Matrices and arrays
+
+Matrices are a two dimensional arrangement of scalars of the same type.
+
+```{r}
+diagonal_matrix <- matrix(c(1, 0, 0, 0, 1, 0, 0, 0, 1), nrow=3)
+diagonal_matrix
+```
+
+You can get the number of rows and columns of a matrix using the `dim` function.
+
+```{r}
+dim(diagonal_matrix)
+```
+
+Use single square brackets to extract individual elements or chunks of a matrix.
+
+```{r}
+diagonal_matrix[1, 3]
+diagonal_matrix[1:2, 1:2]
+```
+
+To extract an entire row or column from a matrix, leave the index blank.
+
+```{r}
+diagonal_matrix[1, ]
+diagonal_matrix[ , 3]
+```
+
+You can assign names to the rows and/or columns of a matrix using the `dimnames` function.
+
+```{r}
+dimnames(diagonal_matrix) <- list(c("A", "B", "C"), c("D", "E", "F"))
+diagonal_matrix
+```
+
+Arrays are a three or higher dimensional arrangement of scalars of the same type. They work pretty much the same way that matrices work, so I won't show any examples here.
+
+You can combine vectors into a matrix using the `cbind` or `rbind` functions. Notice the difference in how the two functions work.
+
+```{r}
+cbind(fantastic_four, not_so_fantastic_four)
+rbind(fantastic_four, not_so_fantastic_four)
+```
+
+### Data frames
+
+A data frame is a list of vectors, where each vector can be a different type, but they all have to have the same length.
+
+It is a compromise between the simple but rigid matrix, and the complex but flexible list. The data frame is a very popular approach for storing datasets.
+
+The data shown here is real, and it comes from the [Data and Story Library][dasl]. I added some fictional names to illustrate how you can mix and match vectors of different types.
+
+```{r}
+chain <- c(
+  "Burger Queen",
+  "McBurger",
+  "Hardly's",
+  "Out-n-In",
+  "What? A Burger?",
+  "Burger Bell",
+  "Hedgehog")
+
+fat <- c(
+  19,
+  31,
+  34,
+  35,
+  39,
+  39,
+  43)
+
+sodium <- c(
+  920,
+  1500,
+  1310,
+  860,
+  1180,
+  940,
+  1260)
+
+calories <- c(
+  410,
+  580,
+  590,
+  570,
+  640,
+  680,
+  660)
+
+fast_food <- data.frame(chain, fat, sodium, calories)
+fast_food
+```
+
+Notice how R created names for each column. It also allows you to create names for each row. Here's what it would look like if you used `chain` as names for the rows.
+
+```{r}
+fast_food_alt <- data.frame(fat, sodium, calories)
+rownames(fast_food_alt) <- chain
+fast_food_alt
+```
+
+The current thinking among R professionals is that a variable like `chain` belongs as a direct part of the data frame rather than as a row name, but both approaches are still common.
+
+You can select individual columns of a data frame using numbers or names.
+
+```{r}
+fast_food[, 2]
+fast_food[, "fat"]
+fast_food$fat
+```
+
+The last approach, using the dollar sign, is the most common way to work with a single column of a data frame.
+
+### Tibbles
+
+The programming team working on the tidyverse has developed an alternative to the data frame called a tibble. You use the `tibble` function to create a tibble. But first you have to load the tidyverse packages (or just the tibble package by itself)
+
+```{r}
+library(tidyr)
+fast_food_tibble <- tibble(chain, fat, sodium, calories)
+```
+
+
+It works mostly like a data frame but with a few important differences.
+
+First, as you can see above, the tibble describes itself as a tibble when you print it, and it lets you know what type of data is in each column.
+
+Second, when you print a tibble, it refrains from presenting all of the data for anything except the most modest-sized of datasets.
+
+It does become important, however, when you work with data with more than just a few rows or more than just a few columns.
+
+There is a dataset in the survival package about colon cancer that has 1,848 observations (rows) and 16 variables (columns). Notice how only a portion of the data is shown.
+
+```{r}
+library(survival)
+tibble(colon)
+```
+
+You can ask a tibble to display more or all of itself.
+
+```{r}
+print(tibble(colon), n=25)
+```
+
+Another important difference is in how tibbles handle subsetting. Look carefully at these examples.
+
+```{r}
+fast_food[5, ]
+fast_food_tibble[5, ]
+fast_food[ , 2]
+fast_food_tibble[ , 2]
+fast_food[5, 2]
+fast_food_tibble[5, 2]
+```
+
+When you extract a single row from a data frame, it just becomes a smaller data frame. Same for a tibble. When extract a single row from a tibble, it just becomes a smaller tibble. 
+
+But notice how this changes when you extract a single column. With the data frame, the single column is displayed horizontally, because R has converted it to a vector. With the tibble, there is no conversion and a single column subset from a tibble is still a tibble.
+
+When you extract a single value from a data frame, it displays it as a scalar. A single value from a tibble is still a tibble, albeit a very small tibble.
+
+The point is that subsets of a data frame are sometimes implicitly converted to a vector or scalar and sometimes not. Programmers sometimes forget about the implicit conversion and treat any subset of a data frame as a smaller data frame. This is a common source of bugs in R programs. Tibbles force you to do the conversion explicitly, which may mean a bit of extra work, but the code, especially for complex operations, is more reliable.
+
+### A practical illustration
+
+The examples shown earlier are mostly just simple cute examples, but here is a practical problem that shows some of the various creatures in the R zoo.
+
+Let's use the data frame on fast food burgers. Pretend that you have discovered that the "Out-n-In" burger (in the fourth row) is actually made of tofu and should be discarded from the analysis.
+
+```{r}
+real_fast_food <- fast_food[-4, ]
+```
+
+You want to run a regression analysis and examine the various statistics from the output individually. You store the output in a new variable, fast_food_regression.
+
+```{r}
+fast_food_regression <- lm(calories~fat+sodium, data=real_fast_food)
+```
+
+Since the output is complex and a mixture of different elements, R uses a list to store everything.
+
+```{r}
+names(fast_food_regression)
+```
+
+Let's look at the first item in the list, coefficents.
+
+```{r}
+fast_food_regression$coefficients
+```
+
+This is a named vector with values for the intercept, the slope for the fat variable, and the slope for the sodium variable.
+
+Now let's look at the residuals and fitted values.
+
+```{r}
+fast_food_regression$residuals
+fast_food_regression$fitted.values
+```
+
+These are both vectors.
+
+Let's look at df.residual.
+
+```{r}
+fast_food_regression$df.residual
+```
+
+This is a scalar. There are 3 degrees of freedom for error.
+
+Let's look at qr. This will provide some rather complex details about some intermediate calculations that R used to produce this regression model.
+
+```{r}
+fast_food_regression$qr
+```
+
+This is a list inside the list. If you are not familiar with what the qr decomposition is or how it works, then this list has little value for you. For some advanced and specialized applications, knowledge of the qr decomposition is very important. Such information is very difficult to get from other statistical packages like SAS or SPSS.
+
+The summary function produces another list from the list we just examined. This provides more information, such as numbers needed to reproduce some of the important tests and measures for this regression model.
+
+```{r}
+fast_food_summary <- summary(fast_food_regression)
+names(fast_food_summary)
+```
+
+The third item in this list is coefficients, and it is different from the coeeficients item in the previous list.
+
+```{r}
+fast_food_summary$coefficients
+```
+
+This is a matrix with names for each row and for each column. If you wanted to produce a nice table summarizing the results of the regresion model, customized to your specifications, here is where you would start.
+
+You might also be interested in some post-processing of the regression results. You can, for example, extract the p-values for the two slopes.
+
+```{r}
+fast_food_summary$coefficients[c("fat", "sodium"), "Pr(>|t|)"]
+```
+
+You might need to do this if you wanted to make a Bonferroni correction to the p-values.
+
+Let's look at r.squared and adj.r.squared.
+
+```{r}
+fast_food_summary$r.squared
+fast_food_summary$adj.r.squared
+```
+
+These are scalars. These are also key numbers for your custom regression summary.
+
+Let's look at fstatistic.
+
+```{r}
+fast_food_summary$fstatistic
+```
+
+This is a named vector with the statistic itself and the numerator and denominator degrees of freedom. Yet another key piece.
+
+There's a lot more that you could explore in each of these lists. Some of it is only for advanced applications. I am showing it here, just to show you the wide range of creatures that R provides for its regression models.
+
+### Summary
+
+There are many creatures in the R zoo: scalars, vectors, named vectors, lists, matrices, arrays, data frames, and tibbles are some of the more important ones. Vectors, matrices, and arrays require you to use the same type of data (number, string, or date) for each element. Lists and data frames allow you to mix and match different types of data. You got to see the inside of a couple of real lists used by R and view the different creatures found in each list.
+
+
+[dasl]: https://dasl.datadescription.com/datafile/burgers
