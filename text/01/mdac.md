@@ -10,8 +10,9 @@ tags:
 output: html_document
 ---
 
-Here are excerpts from some emails posted to the SPSSX-L listserver on September 10-11
-- 2000. These emails describe how to load special drivers for ODBC - especially the driver for Access 97.
+This page is obsolete, but I am keeping it here for sentimental reasons.
+
+Here are excerpts from some emails posted to the SPSSX-L listserver on September 10-11, 2000. These emails describe how to load special drivers for ODBC - especially the driver for Access 97.
 
 #### First message
 
@@ -45,8 +46,7 @@ In general - ODBC can only read in 255 variables at a time.
 
 On the SPSS 9.0 CD-ROM - the Microsoft Data Access Pack (which includes the Microsoft Access ODBC Driver) is in the folder called "ODBC Drivers". Double click on the file called dataacc.exe to install.
 
-You can also download the Microsoft Data Access Pack directly from Microsoft's webpage
-- at [www.microsoft.com/data](http://www.microsoft.com/data). They call it the Microsoft Data Access Components - or MDAC.
+You can also download the Microsoft Data Access Pack directly from Microsoft's webpage at [www.microsoft.com/data](http://www.microsoft.com/data). They call it the Microsoft Data Access Components - or MDAC.
 
 #### Third message
 
