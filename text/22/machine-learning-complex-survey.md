@@ -7,7 +7,7 @@ category:
 - Recommendation
 tags:
 - Big data
-_ Complex surveys
+- Complex surveys
 output: html_document
 ---
 
