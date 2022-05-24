@@ -11,21 +11,12 @@ tags:
 output: html_document
 ---
 
-I might as well recommend something that I wrote. This is a short
-article in the Amstat News
-- a monthly newsletter of the American
-Statistical Association. I talk about all the reasons you wouldn't want
-to be an independent consultant and the one big reason why you
-would--being in control.
+![Figure 1. Excerpt from article](http://www.pmean.com/new-images/17/why-independent01.png)
 
-<!---More--->
+<div class="notes">
 
-Simon S
-- Why be an independent consultant? Amstat News 2017 (April).
-Available at <http://magazine.amstat.org/blog/2017/04/01/whyconsult/>.
+I might as well recommend something that I wrote. This is a short article in the Amstat News, a monthly newsletter of the American Statistical Association. I talk about all the reasons you wouldn't want to be an independent consultant and the one big reason why you would--being in control.
 
-![](http://www.pmean.com/new-images/17/why-independent01.png)
+Simon S, Why be an independent consultant? Amstat News 2017 (April). Available at <http://magazine.amstat.org/blog/2017/04/01/whyconsult/>.
 
-
-
-
+</div>

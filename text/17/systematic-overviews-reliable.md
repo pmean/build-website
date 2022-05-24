@@ -97,4 +97,7 @@ overviews, but I am generally positive on them, especially on the
 systematic overviews conducted by the Cochrane Collaboration. They're
 not perfect, but nothing in evidence based medicine is perfect.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/systematic-overviews-reliable/
+[sim2]: http://blog.pmean.com

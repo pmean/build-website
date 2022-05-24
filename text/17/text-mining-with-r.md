@@ -11,18 +11,15 @@ tags:
 output: html_document
 ---
 
-This is an O'Reilly book (cute animal on the cover is a rabbit) that is
-available online for free. It's a great resource for someone just
-getting started with text mining.
+This is an O'Reilly book (cute animal on the cover is a rabbit) that is available online for free. It's a great resource for someone just getting started with text mining.
 
 <!---More--->
 
-Julia Silge
-- David Robinson. Text Mining with R (online version).
-Available at <http://tidytextmining.com/>.
+Julia Silge, David Robinson. Text Mining with R (online version). Available at <http://tidytextmining.com/>.
 
 ![](http://www.pmean.com/new-images/17/text-mining-with-r01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/text-mining-with-r/
+[sim2]: http://blog.pmean.com

@@ -11,20 +11,19 @@ tags:
 output: html_document
 ---
 
-The Teaching of Statistics in the Health Sciences (TSHS) section of the
-American Statistical Association has put together a set of resources for
-teachers including several very interesting datasets. some of the
-resources are open to anyone
-- but others require a
-registration.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/tshs-resource-portal01.png)
 
-<!---More--->
+<div class="notes">
 
-American Statistical Association. TSHS Resources Portal. Available at:
-<https://www.causeweb.org/tshs/>.
+The Teaching of Statistics in the Health Sciences (TSHS) section of the American Statistical Association has put together a set of resources for teachers including several very interesting datasets. some of the resources are open to anyone, but others require a registration.
 
-![](http://www.pmean.com/new-images/17/tshs-resource-portal01.png)
+American Statistical Association. TSHS Resources Portal. Available in [html format][asa1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/tshs-resource-portal/
+[sim2]: http://blog.pmean.com
 
+[asa1]: https://www.causeweb.org/tshs/
 
+</div>
