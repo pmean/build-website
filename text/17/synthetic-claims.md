@@ -10,6 +10,10 @@ tags:
 output: html_document
 ---
 
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/synthetic-claims01.png)
+
+<div class="notes">
+
 The Centers for Medicare & Medicaid Services (CMS) provides researchers
 with access to Medicare claims data, which is a wonderful resources. But
 you have to sign a restrictive agreement before they will give you this
@@ -21,17 +25,14 @@ synthetic (read fake) data set that has the same data structure. This
 allows you to prototype your programs on the synthetic data and then
 transition easily to the real data.
 
-<!---More--->
-
 Centers for Medicare & Medicaid Services. Medicare Claims Synthetic
-Public Use Files (SynPUFs). Available at
-<https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index.html>.
-
-![](http://www.pmean.com/new-images/17/synthetic-claims01.png)
+Public Use Files (SynPUFs). Available in [html format][cms1].
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
 [sim1]: http://blog.pmean.com/synthetic-claims/
 [sim2]: http://blog.pmean.com
 
+[cms1]: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index.html
 
+</div>
