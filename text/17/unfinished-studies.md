@@ -10,21 +10,20 @@ tags:
 output: html_document
 ---
 
-This is a research summary of a study that found one out of every five
-cancer trials that "did not finish" which actually means that they
-stopped early for futility, if I am reading between the lines properly.
-Of those studies, 40% stopped early because of poor
-accrual.
+![Figure 1. First page of research article](http://www.pmean.com/new-images/17/unfinished-studies01.png)
 
-<!---More--->
+<div class="notes">
 
-Cancer.net. One in Five Clinical Trials for Adults with Cancer Never
-Finish -- New Study Examines the Reasons. Genitourinary Cancers
-Symposium. January 28, 2014. Available at
-[http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-%E2%80%93-new-study-examines-reasons](http://www.cancer.net/one-five-clinical-trials-adults-cancer-never-finish-<U+0096>-new-study-examines-reasons).
+This is a research summary of a study that found one out of every five cancer trials that "did not finish" which actually means that they stopped early for futility, if I am reading between the lines properly. Of those studies, 40% stopped early because of poor accrual.
 
-![](http://www.pmean.com/new-images/17/unfinished-studies01.png)
+Kristian D. Stensland, Russell B. McBride, Asma Latif, Juan Wisnivesky, Ryan Hendricks, Nitin Roper, Paolo Boffetta, Simon J. Hall, William K. Oh, Matthew D. Galsky, Adult Cancer Clinical Trials That Fail to Complete: An Epidemic?, JNCI: Journal of the National Cancer Institute, Volume 106, Issue 9, September 2014, dju229, doi: 10.1093/jnci/dju229. Available in [html format][ste1] or [pdf format][ste2].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/unfinished-studies/
+[sim2]: http://blog.pmean.com
 
+[ste1]: https://academic.oup.com/jnci/article/106/9/dju229/911080
+[ste2]: https://academic.oup.com/jnci/article-pdf/106/9/dju229/17313582/dju229.pdf
 
+</div>

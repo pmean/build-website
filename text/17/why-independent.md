@@ -19,4 +19,7 @@ I might as well recommend something that I wrote. This is a short article in the
 
 Simon S, Why be an independent consultant? Amstat News 2017 (April). Available at <http://magazine.amstat.org/blog/2017/04/01/whyconsult/>.
 
-</div>
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/why-independent/
+[sim2]: http://blog.pmean.com</div>

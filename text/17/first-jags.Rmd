@@ -16,7 +16,7 @@ You can find the code and some supporting text files on [my github site][sim3].
 
 I usually start with a very simple Bayesian analysis because if something is awry, I’ll notice it faster with a simple example. The code below implements a simple beta-binomial model.
 
-Make sure that you have [jags installed][jags1] on your computer as well as the [rjags package][jags2]
+Make sure that you have [jags installed][jags1] on your computer as well as the [rjags package][jags2].
 
 ### Beta-binomial example
 

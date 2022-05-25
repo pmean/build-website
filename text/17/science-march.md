@@ -11,14 +11,16 @@ tags:
 output: html_document
 ---
 
-I normally don't recommend other people's tweets
-- but these two
-- from
-Siobhan Tompson
-- were too funny to pass up.
+![Figure 1. Image of tweets](http://www.pmean.com/new-images/17/science-march-01.png)
 
-<!---More--->
+<div class="notes">
 
-![Double-blind%20Tweet.jpg%3b not found.](http://www.pmean.com/new-images/17/science-march01.png)
+I normally don't recommend other people's tweets, but these two from Siobhan Tompson were too funny to pass up.
 
+Here are the texts of the two tweets:
 
+The numbers for the Science March seem high but we won't know until we compare it to the numbers at the placebo march that is also happening.
+
+I honestly feel bad for the people on the Placebo March that thought they were at the Science March but double blind testing is important.
+
+</div>

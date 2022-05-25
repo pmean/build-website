@@ -27,6 +27,11 @@ Andrew D Oxman, David L Sackett. Clinician-trialist rounds: 14. ways to advance 
 Andrew D Oxman, David L Sackett. Clinician-trialist rounds: 15. Ways to advance your career by saying 'no'--part 3: how to say 'no', nicely. Clinical Trials,
 2013-03-28, 10(2), 340-3. doi: 10.1177/1740774513477934. Article is [behind a paywall][oxm3].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/consulting-trap/
+[sim2]: http://blog.pmean.com
+
 [oxm1]: https://www.ncbi.nlm.nih.gov/pubmed/23250947
 [oxm2]: https://www.ncbi.nlm.nih.gov/pubmed/23345309
 [xom3]: https://www.ncbi.nlm.nih.gov/pubmed/23539113
