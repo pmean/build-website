@@ -4,13 +4,19 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/p-value-of-0/"
 date: "2017-05-08"
 category: Blog post
-tags: Hypothesis testing
+tags: 
+- Ask Professor Mean
+- Hypothesis testing
 output: html_document
 ---
 
-Dear Professor Mean, I ran a statistical test in SPSS and got a p-value of .000. I re-ran the same data in Microsoft Excel and got a p-value of 3.9433E-9. I know from scientific notation that this is the same as 0.0000000039433. Why are these numbers different?
+#### Dear Professor Mean,
+
+I ran a statistical test in SPSS and got a p-value of .000. I re-ran the same data in Microsoft Excel and got a p-value of 3.9433E-9. I know from scientific notation that this is the same as 0.0000000039433. Why are these numbers different?
 
 <!---More--->
+
+#### Dear Reader,
 
 Before I say too much I have to point out that many statisticians hate, hate, hate Microsoft Excel. There are [good reasons for this][exc1]. But for your analysis, it might be okay.
 
