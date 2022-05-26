@@ -1,11 +1,11 @@
 ---
-title: I make an amateur mistake in BUGS
+title: (Being updated)
 author: Steve Simon
-date: 2012-05-22
+date: 1999-01-01
 categories:
 - Blog post
 tags:
-- Bayesian statistics
+- Being updated
 output: html_document
 ---
 
@@ -189,11 +189,9 @@ It seems simple enough. But when you run this program (or many different variati
 Error in jags.model("NewGammaAccrualModel.txt", data = ac.data, inits = ilist, : Error in node wait[1] Observed node inconsistent with unobserved parents at initialization
 ```
 
-### Why the gamma distribution causes problems
-
 If you look at the first waiting value, it is zero because two patients were recruited on the first day of the study. Strictly speaking, you can't use a gamma distribution (or an exponential distribution for that matter) for waiting times when the waiting times are discrete. But hey, it seems like a reasonable enough approximation. It works just fine for the exponential distribution. But if you look carefully at the density function of the gamma distribution,
 
-$\frac{\beta^\alpha}{\Gamma (\alpha)}x^{\alpha-1}e^{-\beta x}$
+### Gamma distribution
 
 you will see that it is undefined at x=0 when the shape parameter (alpha) is less than one. It produces a negative exponent for x and you get in trouble with your computer when you try to raise zero to a negative power. You need the density function evaluated at each waiting time to compute the likelihood function.
 
@@ -204,8 +202,6 @@ I can try to blame BUGS for crashing rather than giving a coherent error message
 ### Health Warning from the BUGS website
 
 And you can't say I wasn't warned! This is a screen shot from the main page of the BUGS website.
-
-![Figure 1. Warning message from BUGS software](http://www.pmean.com/new-images/12/amateur-01.png)
 
 I'm not thrilled about adding arbitrary constants to my data sets, so I'm going to look at some alternative formulations for this problem. I've got several ideas that I'd like to try. You could insist that the researcher collect the time down to the exact second that someone is recruited to a trial, but this is impractical.
 

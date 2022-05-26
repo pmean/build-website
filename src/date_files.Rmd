@@ -1,0 +1,76 @@
+---
+title: "Compute last modified dates"
+author: "Steve Simon"
+date: "Created 2022-05-26"
+output: html_document
+---
+
+```{r}
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+
+source(file="standard_functions.R")
+
+v <- TRUE
+```
+
+```{r}
+get_dates <- function(text_path="../text/") {
+  subdir_list <- c(99, paste0("0", 0:9), 10:22)
+  file_times <- NULL
+  for (i in subdir_list) {
+    sub_path <- paste0(text_path, i)
+    file_names <- list.files(path=sub_path, pattern="md$")
+    full_name <- paste0(sub_path, "/", file_names)
+    file.info(full_name) %>% 
+      data.frame %>%
+      bind_rows(., file_times) -> file_times
+  }
+  file_times %>%
+    data.frame %>%
+    rownames_to_column("yr") %>%
+    select(yr, mtime) %>%
+    mutate(yr=str_sub(yr, 9, 10)) %>%
+    mutate(mtime=str_sub(mtime, 1, 10)) %>%
+    mutate(mtime=ymd(mtime)) %>%
+    return
+}
+```
+
+```{r}
+all_dates <- get_dates()
+glimpse(all_dates)
+all_dates %>% count(mtime)
+```
+
+```{r}
+zero_point <- data.frame(mtime=ymd("2020-07-01"), n=0)
+all_dates %>%
+  count(mtime) %>%
+  mutate(n=cumsum(n)) %>%
+  bind_rows(zero_point, .) %>%
+  ggplot(aes(x=mtime, y=n)) +
+    geom_step()
+```
+
+```{r}
+date_range <- range(all_dates$mtime)
+for (i in c(99, paste0("0", 0:9), 10:22)) {
+  zero_point <- data.frame(yr=i, mtime=ymd("2020-07-01"), n=0)
+  end_point <- data.frame(yr=i, mtime=ymd(Sys.Date()), n=sum(all_dates$yr==i))
+  all_dates %>%
+    filter(yr==i) %>%
+    count(yr, mtime) %>%
+    mutate(n=cumsum(n)) %>%
+    bind_rows(zero_point, .) %>%
+    bind_rows(end_point) -> yr_count
+  yr_count %>%
+    ungroup %>%
+    ggplot(aes(x=mtime, y=n)) +
+      expand_limits(x=date_range) + 
+      expand_limits(y=0) + 
+      ggtitle(i) +
+      geom_step() -> progress_plot
+  print(progress_plot)
+}
+```
