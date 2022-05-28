@@ -10,12 +10,19 @@ tags:
 output: html_document
 ---
 
-This is yet another interesting source of data. This site specializes in
-databases prepared by the United States government.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/enigma-public01.png)
 
-<!---More--->
+<div class="notes">
 
-Eve Ahern. The new Enigma Public. Enigma blog (June 20, 2017). Available
-at <https://www.enigma.com/blog/the-new-enigma-public>.
+This is yet another interesting source of data. This site specializes in databases prepared by the United States government.
 
-![](http://www.pmean.com/new-images/17/enigma-public01.png)
+Eve Ahern. The new Enigma Public. Enigma blog (June 20, 2017). Available in [html format][ahe1]
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/enigma-public/
+[sim2]: http://blog.pmean.com
+
+[ahe1]: https://www.enigma.com/blog/the-new-enigma-public
+
+</div>

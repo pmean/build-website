@@ -15,7 +15,7 @@ v <- TRUE
 ```
 
 ```{r}
-get_dates <- function(text_path="../text/") {
+get_change_dates <- function(text_path="../text/") {
   subdir_list <- c(99, paste0("0", 0:9), 10:22)
   file_times <- NULL
   for (i in subdir_list) {
@@ -38,7 +38,7 @@ get_dates <- function(text_path="../text/") {
 ```
 
 ```{r}
-all_dates <- get_dates()
+all_dates <- get_change_dates()
 glimpse(all_dates)
 all_dates %>% count(mtime)
 ```

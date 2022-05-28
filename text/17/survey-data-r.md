@@ -11,18 +11,19 @@ tags:
 output: html_document
 ---
 
-I've not had a chance to test this code
-- but it looks pretty good for
-anyone who might want to analyze one of the dozens of large databases
-produced by the U.S. Government.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/survey-data-r01.png)
 
-<!---More--->
+<div class="notes">
 
-Anthony Damico. Analyze Survey Data for Free. Available at
-<http://www.asdfree.com/>.
+I've not had a chance to test this code, but it looks pretty good for anyone who might want to analyze one of the dozens of large databases produced by the U.S. Government.
 
-![](http://www.pmean.com/new-images/17/survey-data-r01.png)
+Anthony Damico. Analyze Survey Data for Free. Available in [html format][dam1]
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/survey-data-r/
+[sim2]: http://blog.pmean.com
 
+[dam1]: http://www.asdfree.com/
 
+</div>

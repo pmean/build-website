@@ -116,6 +116,10 @@ One more statistic worth noting. This page I have just written is about a thousa
 
 I am hoping that tracking statistics like those listed above will help me set reasonable goals for this website conversion.
 
+### Acknowledgments
+
+UMKC makes a strong commitment to its faculty and provides lots of resources to help us grow. This includes a strong commitment from Antonio Byrd and Jane Greer to hold this three day bootcamp. A couple dozen faculty signed up and we all worked hard during the bootcamp on our respective writing assignments. Antonio and Jane provided helpful guidance at the beginning and end of each day and also covered important tips for writers during a lunchtime session.
+
 [si03]: http://new.pmean.com/2003/
 [si07]: http://new.pmean.com/2007/
 [si11]: http://new.pmean.com/2011/
