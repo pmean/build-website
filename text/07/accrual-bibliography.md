@@ -1,0 +1,21 @@
+---
+title: Bibliography of papers relating to predicting accrual in clinical trials
+author: Steve Simon
+date: 2007-07-28
+categories:
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Being updated
+output: html_document
+---
+
+This page is being updated from a version on the original website.
+
+<!---More--->
+
+
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+[sim1]: http://www.pmean.com/08/accrual/bibliography.asp
+[sim2]: http://www.pmean.com/original_site.html

@@ -10,17 +10,24 @@ tags:
 output: html_document
 ---
 
-This is a nice summary about the prosecution of a statistician, Andreas
-Georgiu, who was only doing his job.
+![Figure 1. First page of article](http://www.pmean.com/new-images/17/greece-prosecution01.png)
 
-<!---More--->
 
-Barry D. Nussbaum and Katherine K. Wallman. Greece's troubling
-prosecution of its former chief statistician: Why Congress and State
-should speak up. The huffington Post, July 7, 2017. Available at
-<http://www.huffingtonpost.com/entry/595fe3b7e4b08f5c97d06987>
+<div class="notes">
 
-![](http://www.pmean.com/new-images/17/greece-prosecution01.png)
+This is an important summary about the prosecution of a statistician, Andreas Georgiu, who was only doing his job.
+
+Barry D. Nussbaum and Katherine K. Wallman. Greece's troubling prosecution of its former chief statistician: Why Congress and State should speak up. The huffington Post, July 7, 2017. Available in [html format][nus1].
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/greece-prosecution/
+[sim2]: http://blog.pmean.com
+
+[nus1]: http://www.huffingtonpost.com/entry/595fe3b7e4b08f5c97d06987
+
+</div>
+
 
 
 
