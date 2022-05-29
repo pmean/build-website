@@ -1,12 +1,13 @@
 ---
 title: "UMKC Faculty Researcher Award"
-output:
-  word_document: default
-  html_document: default
+source: "New"
+date: "2021-09-28"
 source: New
+categories: 
+- Blog post
 tags: 
 - Professional details
-categories: Blog post
+output: html_document
 ---
 
 The UMKC School of Medicine has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"
