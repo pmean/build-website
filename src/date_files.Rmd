@@ -15,6 +15,14 @@ v <- TRUE
 ```
 
 ```{r}
+date_ticks <- ymd(c(
+  "2020-07-22",
+  "2020-09-20",
+  "2021-10-02",
+  "2021-10-21",
+  "2021-11-20",
+  "2022-05-28"))
+
 get_change_dates <- function(text_path="../text/") {
   subdir_list <- c(99, paste0("0", 0:9), 10:22)
   file_times <- NULL
@@ -50,7 +58,12 @@ all_dates %>%
   mutate(n=cumsum(n)) %>%
   bind_rows(zero_point, .) %>%
   ggplot(aes(x=mtime, y=n)) +
-    geom_step()
+    geom_step() +
+    annotate(
+      geom = "vline",
+      x=date_ticks,
+      xintercept=date_ticks,
+      linetype="dotted")
 ```
 
 ```{r}
@@ -70,6 +83,11 @@ for (i in c(99, paste0("0", 0:9), 10:22)) {
       expand_limits(x=date_range) + 
       expand_limits(y=0) + 
       ggtitle(i) +
+      annotate(
+        geom = "vline",
+        x=date_ticks,
+        xintercept=date_ticks,
+        linetype="dotted") +
       geom_step() -> progress_plot
   print(progress_plot)
 }
