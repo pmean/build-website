@@ -1,0 +1,39 @@
+---
+title: "Testing d3"
+author: "Steve Simon"
+date: "2022-06-01"
+source: "New"
+categories: 
+- Blog post
+tags: 
+- Graphical display
+output: html_document
+---
+
+I am interested in developing some visualization applications using d3. You can run d3 from within R Markdown.
+
+This is an example that I borrowed from [Section 15.5][xie1] of [R Markdown Cookbook][xie2] by Yihui Xie, Christophe Dervieus, and Emily Riederer. 
+
+First, load the package **r2d3** to set up the `d3` engine
+for **knitr** automatically:
+
+```{r setup}
+library(r2d3)
+```
+
+Now we can generate data in R, pass it to D3, and draw
+the chart:
+
+```{d3, data=runif(30), options=list(color='steelblue')}
+svg.selectAll('rect')
+  .data(data)
+  .enter()
+    .append('rect')
+      .attr('width', function(d) { return d * 672; })
+      .attr('height', '10px')
+      .attr('y', function(d, i) { return i * 16; })
+      .attr('fill', options.color);
+```
+
+[xie1]: https://bookdown.org/yihui/rmarkdown-cookbook/d3.html
+[xie2]: https://bookdown.org/yihui/rmarkdown-cookbook/
