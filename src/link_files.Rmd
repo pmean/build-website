@@ -20,11 +20,15 @@ old_pattern <- "html$"
 new_path <- "../text/"
 new_pattern <- "md$"
 subdir_list=c("99", paste0("0", 0:9), 10:22)
+combined_list <- NULL
+missing_links <- NULL
 for (yr in subdir_list) {
   print(yr)
   file_path <- paste0(new_path, yr)
   file_path %>%
     list.files(pattern="md$") -> new_list
+  repeat_names <- intersect(combined_list, new_list)
+  if (length(repeat_names) > 0) print(repeat_names)
   new_list %>%
     str_remove_all("-") %>%
     str_remove_all(fixed(".md")) %>%
@@ -50,9 +54,16 @@ for (yr in subdir_list) {
     select(-key) %>%
     mutate(md=ifelse(is.na(md), "", md)) %>%
     mutate(html=ifelse(is.na(html), "", html)) %>%
-    print
+    bind_rows(missing_links) -> missing_links
 }
+missing_links
 ```
+
+Next step, search for 
++ [sim1]: http://www.pmean.com/??/...
++ <p>This page has moved to <a href="http://new.pmean.com/.../">a new website</a>.</p>
+
+
 
 ```{r, eval=FALSE}
 
