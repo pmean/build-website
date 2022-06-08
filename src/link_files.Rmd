@@ -1,0 +1,76 @@
+---
+title: "Compute last modified dates"
+author: "Steve Simon"
+date: "Created 2022-05-26"
+output: html_document
+---
+
+```{r}
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+
+source(file="standard_functions.R")
+
+v <- TRUE
+```
+
+```{r}
+old_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
+old_pattern <- "html$"
+new_path <- "../text/"
+new_pattern <- "md$"
+subdir_list=c("99", paste0("0", 0:9), 10:22)
+combined_list <- NULL
+missing_links <- NULL
+for (yr in subdir_list) {
+  print(yr)
+  file_path <- paste0(new_path, yr)
+  file_path %>%
+    list.files(pattern="md$") -> new_list
+  repeat_names <- intersect(combined_list, new_list)
+  if (length(repeat_names) > 0) print(repeat_names)
+  new_list %>%
+    str_remove_all("-") %>%
+    str_remove_all(fixed(".md")) %>%
+    str_remove_all(fixed(".Rmd")) %>%
+    tolower %>%
+    data.frame %>%
+    set_names("key") %>%
+    mutate(y=yr) %>%
+    bind_cols(data.frame(md=new_list)) -> new_names
+  file_path <- paste0(old_path, yr)
+  file_path %>%
+    list.files(pattern="html$") -> old_list
+  old_list %>%
+    tolower %>%
+    str_remove_all(fixed(".html")) %>%
+    data.frame %>%
+    set_names("key") %>%
+    mutate(y=yr) %>%
+    bind_cols(data.frame(html=old_list)) %>%
+    full_join(new_names, by=c("y", "key")) %>%
+    arrange(key) %>%
+    filter(is.na(md)|is.na(html)) %>%
+    select(-key) %>%
+    mutate(md=ifelse(is.na(md), "", md)) %>%
+    mutate(html=ifelse(is.na(html), "", html)) %>%
+    bind_rows(missing_links) -> missing_links
+}
+missing_links
+```
+
+Next step, search for 
++ [sim1]: http://www.pmean.com/??/...
++ <p>This page has moved to <a href="http://new.pmean.com/.../">a new website</a>.</p>
+
+
+
+```{r, eval=FALSE}
+
+subdir_list <- c(99, paste0("0", 0:9), 10:22)
+for (i in subdir_list[10]) {
+  get_names(old_path, old_pattern, i) %>% print
+  get_names(new_path, new_pattern, i) %>% print
+}
+```
+
