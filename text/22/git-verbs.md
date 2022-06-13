@@ -52,9 +52,9 @@ You may wish to try some experiments outside of the scope of the existing cloud 
 
 When multiple people work on a project, there is always the chance that some of the changes made by one person overlap with changes made by another person. This happens less often when your code is small and modular, but conflicts are still possible. The people who developed git (and other version control systems) anticipated the possibility of conflicts. 
 
-Conflicts can happen several different ways. In one example, Wilma updates her cache and working copy at 10am, works on coding for most of the day and then updates the cloud repository at 2pm. On the same day, Betty updates her cache and working copy at noon, works on coding for most of the day and tries to update the cloud repository with her work at 4pm. Git notices that the cloud repository that Wilma started with at noon is not the same repository at 4pm, thanks to wilma's update while Betty was busily coding away on her local computer.
+Conflicts can happen several different ways. In one example, Wilma updates her cache and working copy at 10am, works on coding for most of the day and then updates the cloud repository at 2pm. On the same day, Betty updates her cache and working copy at noon, works on coding for most of the day and tries to update the cloud repository with her work at 4pm. Git notices that the cloud repository that Wilma started with at noon is not the same repository at 4pm, thanks to Wilma's update while Betty was busily coding away on her local computer.
 
-If Wilma makes changes to one the Pebbles file and Betty makes changes to the BammBamm file, git will assume that these changes do not conflict. There may be some dependency between the Pebbles and BammBamm files, but a system like git would not be able to detect such a dependency. So git changes the Pebbles file at 2pm and updates the BammBamm file at 4pm. More likely than not this is okay, especially if Wilma and Betty are writing simple modular code.
+If Wilma makes changes to the Pebbles file and Betty makes changes to the BammBamm file, git will assume that these changes do not conflict. There may be some dependency between the Pebbles and BammBamm files, but a system like git would not be able to detect such a dependency. So git changes the Pebbles file at 2pm and updates the BammBamm file at 4pm. More likely than not this is okay, especially if Wilma and Betty are writing simple modular code.
 
 If Wilma and Betty make changes to the same file, say the Bedrock file, things get dicier. If Wilma's change occurs on the fifth line of Bedrock and Betty's change occurs on the tenth line, then at 4pm, the cloud repository will show a new Bedrock file with wilma's change at line five and Betty's change at line ten. Will things still work? Let's hope so.
 
@@ -90,7 +90,7 @@ You "fetch" when you want to update your local cache and working copy from the c
 
 #### fork
 
-You "fork" when you want to experiment and try new things, and you don't plan to synchronize those changes with the original cloud version. Like "clone", it creates a duplicate of the cloud version on the local cache and working copy and also like "clone" it is only done once. The major difference is that changes to a forked 
+You "fork" when you want to experiment and try new things, and you don't plan to synchronize those changes with the original cloud version. Like "clone", it creates a duplicate of the cloud version on the local cache and working copy and also like "clone" it is only done once. The major difference is that changes to a forked version are not expected to be used to update the original repository.
 
 #### merge
 
@@ -107,6 +107,16 @@ You submit a pull request when you want the owner of the cloud repository to rev
 #### push 
 
 You "push" when you want to update the cloud repository with changes made in your cache and working copy. You "push" when you are the owner of the cloud repository or when you are part of a trusted inner circle. Try to remember to push your changes when you finish your work.
+
+### Additional resources
+
+Cameron McKenzie. Got fork vs. clone: What's the difference? TheServerSide blog, 2021-07-28. Available in [html format][mck1].
+
+Sagar Khillar. Difference Between Commit and Push. Difference Between blog, 2020-01-06. Available in [html format][khil1].
+
+[khil1]: http://www.differencebetween.net/technology/difference-between-commit-and-push/
+
+[mck1]: https://www.theserverside.com/answer/Git-fork-vs-clone-Whats-the-difference
 
 [cra01]: https://cran.r-project.org/
 
