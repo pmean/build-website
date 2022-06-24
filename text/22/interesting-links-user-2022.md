@@ -179,3 +179,61 @@ The ggplot2 package hides most of the internal calculations from the user, which
 [choe2]: https://yjunechoe.github.io/ggtrace/
 [choe3]: https://yjunechoe.github.io/ggtrace-user2022/
 
+https://www.cararthompson.com/talks/user2022
+
+Cara Thompson, One thing I would like to do with annotations is to tilt the text to match the slope of a trend line. Do you know an easy way to do this?
+
+https://github.com/AllanCameron/geomtextpath
+
+Tidy Modeling with R. Max Kuhn, Julia Slige. https://tmwr.org
+
+RESTful API
+
+https://github.com/MDRCNY/PUMP
+
+Tidy Tuesday 2018-38
+
+https://alexpghayes.github.io/distributions3/
+
+
+Hayes A. Moller-Trane R, Jordan D. Northrop P. Lang MN. Zeileis A. et al. (2022). "distributions3: Probability Distributions as S3 Objects." R package version 0.2.0. https://alexpghayes.github.io/distributions3/
+Lang MN, Zeileis A, Stauffer R, et al. (2022). "topmodels: Infrastructure for Inference and Forecasting in Probabilistic Models." R package version 0.2-0. https://topmodels.R-Forge.R-project.org/
+
+Twitter: QAchimZeileis Web: https://uwu.zeileis.org/
+
+https://www.zeileis.org/papers/useR-2022.pdf
+
+cirls
+
+Development version in GitHub
+
+https://github.com/PierreMasselotycirls
+
+Manuscript currently being written
+
+Contact
+Email: pierre.Masselot(a)lshtm.ac.uk
+
+Twitter: @MasselotPierre
+
+### Mine Dogucu - Teaching accessibly and teaching accessibility
+
+https://mdogucu.github.io/user2022/#1
+
+"As you read the book and put Bayesian methodology into practice will make mistakes. Many mistakes. Making and learning from mistakes is simply part of learning. We hope that you persist through the struggle of learning so that you can contribute your unique insights, perspectives, and experiences to the Bayesian community."
+
+United Nations Covenant on the Rights of Persons with Disabilities.
+
+Okabe-Ito palette for color-blind viewers.
+
+https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81
+
+mdQgmLgithuiMQ/iiser2Q22
+ft minedogueu.com
+* MineDogucu
+O mdogucu
+
+
+
+
+
