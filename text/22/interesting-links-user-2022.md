@@ -193,6 +193,10 @@ She suggested the geom_textpath function, which looks like it is exactly what I 
 [geom1]: https://cran.r-project.org/web/packages/geomtextpath/vignettes/geomtextpath.html
 [thom1]: https://www.cararthompson.com/talks/user2022
 
+### Yihui Xie
+
+https://slides.yihui.org/2022-useR-blogdown.html
+
 ### Julia Silge - Applied machine learning with tidymodels
 
 Julia Silge is co-author of a book, Tidy Modeling with R, with a [free version][silg1] on the web.
@@ -292,3 +296,7 @@ An example of [R release notes][rnot1].
 The [scoringRules package][scor1].
 
 [scor1]: https://github.com/FK83/scoringRules
+
+An overview of [knitr engines][cder1]
+
+[cder1]: https://github.com/cderv/user2022-knitr-engines
