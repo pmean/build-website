@@ -179,61 +179,116 @@ The ggplot2 package hides most of the internal calculations from the user, which
 [choe2]: https://yjunechoe.github.io/ggtrace/
 [choe3]: https://yjunechoe.github.io/ggtrace-user2022/
 
-https://www.cararthompson.com/talks/user2022
+### Cara Thompson - Level up your labels: Tips and tricks for annotating plots
+
+Cara Thompson illustrates some simple annotation methods that can greatly improve your talk. Her slides are [here][thom1].
+
+I asked a question: 
 
 Cara Thompson, One thing I would like to do with annotations is to tilt the text to match the slope of a trend line. Do you know an easy way to do this?
 
-https://github.com/AllanCameron/geomtextpath
+She suggested the geom_textpath function, which looks like it is exactly what I want. There is a [vignette][geom1] and a [github repository][came1].
 
-Tidy Modeling with R. Max Kuhn, Julia Slige. https://tmwr.org
+[came1]: https://github.com/AllanCameron/geomtextpath
+[geom1]: https://cran.r-project.org/web/packages/geomtextpath/vignettes/geomtextpath.html
+[thom1]: https://www.cararthompson.com/talks/user2022
 
-RESTful API
+### Julia Silge - Applied machine learning with tidymodels
 
-https://github.com/MDRCNY/PUMP
+Julia Silge is co-author of a book, Tidy Modeling with R, with a [free version][silg1] on the web.
 
-Tidy Tuesday 2018-38
+She stressed the need for a "data budget" where you allocate data into various parts of the analysis, most notably testing and training.
 
-https://alexpghayes.github.io/distributions3/
+She also talked about deployment of models, which uses something I have heard a little bit about, the RESTful API. Here is a [technical description][rest1], but there are probably resources out there that are more accessible to a beginner like me.
+
+[rest1]: https://restfulapi.net/
+[silg1]: https://tmwr.org
+
+### Kristen Hunter - Power Under Multiplicity Project (PUMP): Estimating power, minimum detectable effect size, and sample size when adjusting for multiple outcomes
+
+I missed this talk but it is something I am very interested in. The software is available on the [author's github site][hunt1] and you can find the slides for this talk in [PDF format][hunt2].
+
+[hunt1]: https://github.com/MDRCNY/PUMP
+[hunt2]: https://github.com/MDRCNY/PUMP/blob/main/useR2022.pdf
+
+### Achim Zeileis - `distributions3`: From basic probability to probabilistic regression
+
+The author prepared some wrappers that make it more convenient to use various probability functions in R. Here are a couple of references.
+
+Hayes A. Moller-Trane R, Jordan D. Northrop P. Lang MN. Zeileis A. et al. (2022). "distributions3: Probability Distributions as S3 Objects." R package version 0.2.0. Available in [html format][haye1].
+
+[haye1]: https://alexpghayes.github.io/distributions3/
+
+Lang MN, Zeileis A, Stauffer R, et al. (2022). "topmodels: Infrastructure for Inference and Forecasting in Probabilistic Models." R package version 0.2-0. Available on [R-Forge][haye2].
+
+[haye2]: https://topmodels.R-Forge.R-project.org/
+
+The author used a data example from something called [Tidy Tuesday][tues1], which is a repository updated weekly with interesting datasets useful to learning more about R and the tidyverse.
+
+[tues1]: https://github.com/rfordatascience/tidytuesday
 
 
-Hayes A. Moller-Trane R, Jordan D. Northrop P. Lang MN. Zeileis A. et al. (2022). "distributions3: Probability Distributions as S3 Objects." R package version 0.2.0. https://alexpghayes.github.io/distributions3/
-Lang MN, Zeileis A, Stauffer R, et al. (2022). "topmodels: Infrastructure for Inference and Forecasting in Probabilistic Models." R package version 0.2-0. https://topmodels.R-Forge.R-project.org/
+### Pierre Masselot - The R package `cirls`: Constrained estimation in generalized linear models
 
-Twitter: QAchimZeileis Web: https://uwu.zeileis.org/
+A useful tool for putting constraints on a wide range of models. More information is at the [author's github site][mass1].
 
-https://www.zeileis.org/papers/useR-2022.pdf
+[mass1]: https://github.com/PierreMasselot
 
-cirls
+### Hannah Frick - `censored`: A tidymodels package for survival analysis
 
-Development version in GitHub
+The functions to do survival analysis in R have an unusual syntax that differs from most other statistical models. This paper shows a new package, [censored][cens1], that makes accessing survival models much simpler and consistent with a general framework, tidymodels. It relies heavily on the [parsnip package][pars1].
 
-https://github.com/PierreMasselotycirls
+[cens1]: https://censored.tidymodels.org/
+[pars1]: https://parsnip.tidymodels.org/
 
-Manuscript currently being written
+The authors deserve an award for the most interesting hex sticker. Here is the hex sticker for parsnip
 
-Contact
-Email: pierre.Masselot(a)lshtm.ac.uk
+![Hex sticker for parsnip](https://parsnip.tidymodels.org/logo.png)
 
-Twitter: @MasselotPierre
+and here is the hex sticker for censored.
+
+![Hex sticker for censored](https://censored.tidymodels.org/logo.png)
+
+This appears to be a parsnip that has been nibbled on in several places.
 
 ### Mine Dogucu - Teaching accessibly and teaching accessibility
 
-https://mdogucu.github.io/user2022/#1
+The final keynote talk. The slides are available [here][dogu1]. The author developed a book for Bayesian methodology and used it as an example of how to address a variety of accessibility issues.
 
-"As you read the book and put Bayesian methodology into practice will make mistakes. Many mistakes. Making and learning from mistakes is simply part of learning. We hope that you persist through the struggle of learning so that you can contribute your unique insights, perspectives, and experiences to the Bayesian community."
+[dogu1]: https://mdogucu.github.io/user2022/#1
 
-United Nations Covenant on the Rights of Persons with Disabilities.
+The slides used a tone each time a slide changed, with the tone increasing in pitch. This makes it easier to follow which slide the speaker is on. It uses a function, xaringanExtra::use_slide_tone().
 
-Okabe-Ito palette for color-blind viewers.
+There was a great quote on one of the slides.
 
-https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81
+"As you read the book and put Bayesian methodology into practice you will make mistakes. Many mistakes. Making and learning from mistakes is simply part of learning. We hope that you persist through the struggle of learning so that you can contribute your unique insights, perspectives, and experiences to the Bayesian community."
 
-mdQgmLgithuiMQ/iiser2Q22
-ft minedogueu.com
-* MineDogucu
-O mdogucu
+She cited the Americans With Disabilities Act, of course, but also provided an international perspective with a reference to the United Nations Covenant on the Rights of Persons with Disabilities. She mentioned the Okabe-Ito palette for color-blind viewers. She also stressed the importance of using alt text for images and relied on some suggestions in an [article by Amy Cesal][cesa1]. She mentioned the [SAS site on accessibility][sas1] as an excellent resource.
 
+[cesa1]: https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81
 
+[sas1]: https://support.sas.com/accessibility/
 
+### Other odds and ends
 
+I don't know which talks mentioned these, but want to list some more links here so I don't lose them.
 
+There are a variety of regular expression libraries out there. One of them is [tre][tre1].
+
+[tre1]: https://laurikari.net/tre/
+
+A simple function for coding numbers into symbols, [symnum][symn1].
+
+[symn1]: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/symnum.html
+
+A special article on research into [software engineering][rjou1].
+
+[rjou1]: https://journal.r-project.org/archive/2021/RJ-2021-108/index.html
+
+An example of [R release notes][rnot1].
+
+[rnot1]: https://stat.ethz.ch/pipermail/r-announce/2022/000685.html
+
+The [scoringRules package][scor1].
+
+[scor1]: https://github.com/FK83/scoringRules
