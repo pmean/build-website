@@ -1,0 +1,150 @@
+---
+title: "Different parameterizations for one factor ANOVA"
+author: "Steve Simon"
+source: new
+date: "2022-07-06"
+category: 
+- Blog post
+tags:
+- Analysis of variance
+output: html_document
+---
+
+I'm trying to understand some of the basics of contrasts in analysis of variance. In particular, I want to figure out some alternative parameterizations of the coefficients that are estimated as part of the ANOVA model.
+
+```{r setup}
+library(MASS)
+library(matlib)
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+First, let's set up an artificial dataset that is nice and easy to work with.
+
+```{r}
+means <- c(50, 52, 60, 70)
+mean(means)
+y <- 
+  rep(means, each=3) +
+  rep(c(0, 1, -1), 4)
+g <- rep(1:4, each=3)
+df <- cbind(g, y)
+```
+
+Notice the pattern in the group means.
+
+```{r}
+data.frame(g, y) %>%
+  group_by(g) %>%
+  summarize(mean_y=mean(y))
+```
+
+I want to use the lm function to fit the data, because it is easier to peek at the underlying coefficients.
+
+### The simplest parameterization
+
+The simplest parameterization is to let each beta coefficient represent a different mean. We have to drop the intercept term for this model to work properly.
+
+```{r}
+x1 <- as.numeric(g==1)
+x2 <- as.numeric(g==2)
+x3 <- as.numeric(g==3)
+x4 <- as.numeric(g==4)
+```
+
+This is what the X matrix looks like.
+
+```{r}
+x <- cbind(x1, x2, x3, x4) 
+x
+```
+
+This is what the regression results look like.
+
+```{r}
+lm(y~x1+x2+x3+x4-1)
+```
+
+It may help to view the underlying matrix calculations. Recall that
+
+$\hat{\beta}=(X'X)^{-1}X'Y$
+
+So the matrix
+
+$\hat{\beta}=(X'X)^{-1}X'$
+
+will tell you how each parameter in the regression model is a linear combination of the Y's.
+
+```{r}
+inv(t(x)%*%x)%*%t(x) %>% fractions
+```
+
+So the first coefficient is an average of the first three y values, the second is an average of the next three y values, etc.
+
+### Indicator variables
+
+A common way to parameterize the ANOVA model is to use an intercept term and indicator variables for all but one of the groups.
+
+```{r}
+x0 <- rep(1, 12)
+x1 <- as.numeric(g==2)
+x2 <- as.numeric(g==3)
+x3 <- as.numeric(g==4)
+
+```
+
+This is what the X matrix looks like.
+
+```{r}
+x <- cbind(x0, x1, x2, x3) 
+x
+```
+
+This is what the regression results look like.
+
+```{r}
+lm(y~x0+x1+x2+x3-1)
+```
+
+```{r}
+inv(t(x)%*%x)%*%t(x) %>% fractions
+```
+
+So the first coefficient is an average of the first three y values (Y1, Y2, Y3), the second is the difference between the average of the second three y values (Y4, Y5, Y6) and the average of the first three y values (Y1, Y2, Y3), etc.
+
+This seems counter intuitive. The slope coefficient for $\beta_2$ involves a column with zeros everywhere except for some ones for Y4, Y5, and Y6. How could that coefficient end up involving Y1, Y2, and Y3?
+
+The point to remember is that the slope coefficient in a linear regression with multiple independent variables has a slightly more complex interpretation than the slope coefficient in a linear regression with a single independent variable. In the later case, the interpretation would be
+
++ the estimated average change in $Y$ when $X$ increases by one unit.
+
+In the former case, the interpretation would be
+
++ the estimated average change in $Y$ when $X_i$ increases by one unit **while holding all the other** $X$**'s constant**.
+  
+So the slope associated with X1 requires you to hold X2 and X3 constant. You can hold them constant at 0 or hold them constant at 1, but the former is simpler to understand. THink of it as moving from one of the first three rows of your X matrix.
+
+```{r}
+x[1:3, ]
+```
+
+to one of the next three rows of your X matrix
+
+```{r}
+x[4:6, ]
+```
+
+This is effectively a change from the mean of the first three observations (Y1, Y2, Y3) subtracted from the mean of the next three observations (Y4, Y5, Y6).
+
+In writing this webpage, I relied on a very helpful tutorial paper:
+
+Daniel J. Schad, Shravan Vasishth, Sven Hohenstein, Reinhold Kliegl. How to capitalize on a priori contrasts in linear (mixed) models: A tutorial. Journal of Memory and Language, 2020, 110. Available in [html format][sch1] or [pdf format][sch2].
+
+as well as a page on the UCLA Statistics site
+
+R Library Contrast Coding Systems for Categorical Variables. Available in [html format][ucla1]
+
+[ucla1]: https://stats.oarc.ucla.edu/r/library/r-library-contrast-coding-systems-for-categorical-variables/
+
+[sch1]: https://doi.org/10.1016/j.jml.2019.104038
+[sch2]: https://www.sciencedirect.com/science/article/pii/S0749596X19300695/pdfft?md5=05f53f6c3386f0e0c6ae203178b33e33&pid=1-s2.0-S0749596X19300695-main.pdf
