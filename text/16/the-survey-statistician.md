@@ -10,20 +10,14 @@ tags:
 output: html_document
 ---
 
-The International Association of Survey Statisticians (IASS) has a
-twice-yearly newsletter that talks about meetings and events sponsored
-by the association, informal overview articles about new methodologies,
-and book reviews. This is the archive page for the current and all
-previous issues of this newsletter.
+![Figure 1. Excerpt from article](http://www.pmean.com/new-images/16/the-survey-statistician01.png)
 
-<!---More--->
+<div class="notes">
 
-International Association of Survey Statisticians. The Survey
-Statistician. Available at:
-<http://isi-iass.org/home/services/the-survey-statistician/>.
+The International Association of Survey Statisticians (IASS) has a twice-yearly newsletter that talks about meetings and events sponsored by the association, informal overview articles about new methodologies, and book reviews. This is the archive page for the current and all previous issues of this newsletter.
 
-![](http://www.pmean.com/new-images/16/the-survey-statistician01.png)
+International Association of Survey Statisticians. The Survey Statistician. Available in [html format][iass1].
 
+[iass1]: http://isi-iass.org/home/services/the-survey-statistician/
 
-
-
+</div>

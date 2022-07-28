@@ -3,15 +3,17 @@ title: "PMean: Simple string substitutions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/string-substitutions/"
 date: "2016-07-15"
-category: Blog post
-tags: R software
+category:
+- Blog post
+- Incomplete pages
+tags:
+- R software
 output: html_document
 ---
 
-I had to make a rather complex string substitution for a project and I
-thought it would help to briefly review some simpler string substitution
-examples in R. You can find the R code at [my github
-site](https://github.com/pmean/string-substitution).
+I had to make a rather complex string substitution for a project and I thought it would help to briefly review some simpler string substitution examples in R. You can find the R code at [my github site][sim3].
+
+[sim3]: https://github.com/pmean/string-substitution
 
 <!---More--->
 

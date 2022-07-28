@@ -1,5 +1,5 @@
 ---
-title: "PMean: Some simple examples of single imputation"
+title: "Some simple examples of single imputation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/single-imputation/"
 date: "2016-04-17"
@@ -8,16 +8,13 @@ tags: Missing data
 output: html_document
 ---
 
-I wanted to use R to show some simple approaches to imputing missing
-values. These approaches are difficult to support because they require
-that you make some questionable and unverifiable assumptions about your
-data.  They still may prove useful as a sensitivity check or as a
-springboard into more complex approaches for imputing missing values. I
-have a link to the [code that generated most of these
-results](https://github.com/pmean/single-imputation).
+I wanted to use R to show some simple approaches to imputing missing values. These approaches are difficult to support because they require that you make some questionable and unverifiable assumptions about your data.? They still may prove useful as a sensitivity check or as a springboard into more complex approaches for imputing missing values. I have a link to the [code that generated most of these results][sim3].
 
 <!---More--->
 
+Note that you need to change the double backtick to a triple backtick throughout.
+
+```{}
 Impute.Rmd
 ==========
 
@@ -30,19 +27,18 @@ requires
 It shows some simple examples of single imputation on an artificial data
 set and on the Titanic data set.
 
-``` {.r}
+``{r}
 # start without any extraneous variables
 save.image("backup.RData")
 rm(list=ls())
-```
-
+``
 First, you need to generate some simple binary data values.
 
-``` {.r}
+`` {r}
 set.seed(14814)
 zeros_and_ones <- rbinom(100,1,0.5)
 print(zeros_and_ones)
-```
+``
 
     ##   [1] 1 1 1 0 1 0 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1 1 0 1 0 1 1 1 0 1 1 0 1 0 1
     ##  [36] 1 0 0 0 1 1 0 0 0 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 1 1 1 1 1 1 1 0 1 0
@@ -51,11 +47,11 @@ print(zeros_and_ones)
 Arrange the data in a matrix with 20 rows and then convert it to a data
 frame. Give names to each column.
 
-``` {.r}
+``{r}
 da <- as.data.frame(matrix(zeros_and_ones, nrow=20))
 names(da) <- paste("t", 1:5, sep="")
 print(da)
-```
+``
 
     ##    t1 t2 t3 t4 t5
     ## 1   1  1  1  1  1
@@ -81,44 +77,44 @@ print(da)
 
 Find ten random rows and convert the fifth value to NA.
 
-``` {.r}
+``{r}
 delete_fifth_value <- sample(1:20,10)
 print(sort(delete_fifth_value))
-```
+``
 
     ##  [1]  1  2  3  4  5  8  9 11 12 16
 
-``` {.r}
+``{r}
 da[delete_fifth_value,5] <- NA
-```
+``
 
 Find five random rows among these rows and convert the fourth value to
 NA.
 
-``` {.r}
+``{r}
 delete_fourth_value <- sample(delete_fifth_value,5)
 print(sort(delete_fourth_value))
-```
+``
 
     ## [1]  2  3  9 12 16
 
-``` {.r}
+``{r}
 da[delete_fourth_value,4] <- NA
-```
+``
 
 Find two random rows among these rows and convert the third value to NA.
 
-``` {.r}
+`` {.r}
 delete_third_value <- sample(delete_fourth_value,2)
 print(sort(delete_third_value))
-```
+``
 
     ## [1] 2 3
 
-``` {.r}
+``{r}
 da[delete_third_value,3] <- NA
 print(da)
-```
+``
 
     ##    t1 t2 t3 t4 t5
     ## 1   1  1  1  1 NA
@@ -148,18 +144,18 @@ For a data set this small, you can see the missing data pattern. This is
 an example of monotone missing data. If data is missing for one column,
 it is missing for any subsequent column.
 
-``` {.r}
+``{r}
 library("mice")
-```
+``
 
     ## Loading required package: Rcpp
     ## Loading required package: lattice
     ## mice 2.22 2014-06-10
 
-``` {.r}
+``{r}
 mp <- md.pattern(da)
 print(mp)
-```
+``
 
     ##    t1 t2 t3 t4 t5   
     ## 10  1  1  1  1  1  0
@@ -202,4 +198,6 @@ wheh you have lots of variables, because it is easy to miscount a long
 string of 0s and 1s.
 
  {#simple-imputation .section .level2}
+```
 
+[sim3]: https://github.com/pmean/single-imputation

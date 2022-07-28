@@ -1,30 +1,23 @@
 ---
-title: "PMean: Examining the storage format for sparse matrices in R"
+title: "Examining the storage format for sparse matrices in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sparse-matrices/"
 date: "2016-05-16"
 category:
 - Blog post
+- Incomplete pages
 tags:
 - Data science
 - R software
 output: html_document
 ---
 
-I've been working with sparse matrices a bit for my work with the
-Greater Plains Collaborative. They are a very useful way of storing
-matrices where most of the entries are zero. This occurs quite often in
-medical data. There are thousands of medical procedures that you can
-torture your patients with, so any matrix that has indicator variables
-for every medical procedure will be quite big. Fortunately, both for us
-and for the patients, the number of procedures that a particular patient
-has to endure is quite a bit smaller. So for each row of the matrix, the
-number of non-zero entries will be very small, probably in the single
-digits. A sparse matrix will be much smaller because it stores only the
-location of the non-zero entries. Here's some R code that shows how this
-works. I have the [code](https://github.com/pmean/sparse-matrices)
+I've been working with sparse matrices a bit for my work with the Greater Plains Collaborative. They are a very useful way of storing matrices where most of the entries are zero. This occurs quite often in medical data. There are thousands of medical procedures that you can torture your patients with, so any matrix that has indicator variables for every medical procedure will be quite big. Fortunately, both for us and for the patients, the number of procedures that a particular patient has to endure is quite a bit smaller. So for each row of the matrix, the number of non-zero entries will be very small, probably in the single digits. A sparse matrix will be much smaller because it stores only the location of the non-zero entries. Here's some R code that shows how this works. I have the [code][sim3]
 available at my [new github
-site](https://github.com/pmean).
+site][sim4].
+
+[sim3]: https://github.com/pmean/sparse-matrices
+[sim4]: https://github.com/pmean
 
 <!---More--->
 

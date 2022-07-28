@@ -13,22 +13,14 @@ tags:
 output: html_document
 ---
 
-This page promotes a new approach to a broad class of models
-(spatio-temporal models
-- latent variable models
-- mixed models) using a
-fast approximation to the Bayesian solution. It runs under R and appears
-to handle very large datasets. I have not had a chance to try this
-- but
-it looks very interesting.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/inla01.png)
 
-<!---More--->
+<div class="notes">
 
-Havard Rue. Bayesian computing with INLA. Available at
-<http://www.r-inla.org/home>.
+This page promotes a new approach to a broad class of models (spatio-temporal models, latent variable models, mixed models) using a fast approximation to the Bayesian solution. It runs under R and appears to handle very large datasets. I have not had a chance to try this, but it looks very interesting.
 
-![](http://www.pmean.com/new-images/16/inla01.png)
+Havard Rue. Bayesian computing with INLA. Available in [html format][rue1].
 
+[rue1]: http://www.r-inla.org/home
 
-
-
+</div>

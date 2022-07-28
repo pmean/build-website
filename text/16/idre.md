@@ -10,25 +10,14 @@ tags:
 output: html_document
 ---
 
-This is a wonderful site, but for some reason, it is difficult to find.
-The Institute for Digital Research and Education (IDRE) at UCLA has put
-together some wonderful resources on how to do simple data analyses in
-R, SAS, SPSS, and Stata. The examples cover just about everything you'd
-ever want to do in any of these statistical packages. If you are making
-a transition from one statistical package to another, this site offers
-you the opportunity to see how things are done in the package you know
-well and compare it to how things are done in the package you are
-learning. Of special note are the worked textbook examples from many
-classic statistics textbooks.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/idre01.png)
 
-<!---More--->
+<div class="notes">
 
-University of California-Los Angeles. Institute for Digital Research and
-Education --- Statistical Computing. Available at
-<http://www.ats.ucla.edu/stat/>.
+This is a wonderful site, but for some reason, it is difficult to find. The Institute for Digital Research and Education (IDRE) at UCLA has put together some wonderful resources on how to do simple data analyses in R, SAS, SPSS, and Stata. The examples cover just about everything you'd ever want to do in any of these statistical packages. If you are making a transition from one statistical package to another, this site offers you the opportunity to see how things are done in the package you know well and compare it to how things are done in the package you are learning. Of special note are the worked textbook examples from many classic statistics textbooks.
 
-![](http://www.pmean.com/new-images/16/idre01.png)
+University of California-Los Angeles. Institute for Digital Research and Education, Statistical Computing. Available in [html format][ucla1]
 
+[ucla1]: http://www.ats.ucla.edu/stat/
 
-
-
+</div>
