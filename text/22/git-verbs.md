@@ -90,7 +90,7 @@ You "fetch" when you want to update your local cache and working copy from the c
 
 #### fork
 
-You "fork" when you want to experiment and try new things, and you don't plan to synchronize those changes with the original cloud version. Like "clone", it creates a duplicate of the cloud version on the local cache and working copy and also like "clone" it is only done once. The major difference is that changes to a forked version are not expected to be used to update the original repository.
+You "fork" when you want to experiment and try new things, and you don't plan to synchronize those changes with the original cloud version. Like "clone", it creates a duplicate of the cloud version on the local cache and working copy and also like "clone" it is only done once. The major difference is that changes to a forked version are not expected to be used to synchonize with the original repository. Think of it as starting on the same road but then taking a different path that diverges from the main road and goes off in a fresh direction.
 
 #### merge
 
@@ -107,6 +107,36 @@ You submit a pull request when you want the owner of the cloud repository to rev
 #### push 
 
 You "push" when you want to update the cloud repository with changes made in your cache and working copy. You "push" when you are the owner of the cloud repository or when you are part of a trusted inner circle. Try to remember to push your changes when you finish your work.
+
+#### stage
+
+You "stage" when you identify which files are associated with a particular commit. Why not commit everything all at once? Well, sometimes you want to separate out and document changes to a group of files. I generally do not use that level of detail, but it can help when some of the changes fall into one category (such as general maintenance such as catching spelling errors) and others fall into a different category (adding new features). This allows you to develop a better historical record.
+
+### Command line interface
+
+Many git users will rely on a command line interface to interact with git, especially for advanced applications. Others (like me) will prefer to interact with git solely through a graphical user interface. This might be github desktop or the git interface built into RStudio. If you do need to use the command line interface, here are examples of some of the git commands.
+
+### add
+
+`git add <filename>`
+
+will stage a file, making it ready for a later commit.
+
+### commit
+
+`git commit -m "<your commit message>"`
+
+will commit your changes to the local cache.
+
+### init
+
+`git init` will take files in a local directory and create a local cache for them. Nothing will be staged or committed just yet, but this command prepares your computer for those actions.
+
+### status
+
+`git status`
+
+will tell you information about where you are in the various version control steps. For example, it will tell you if any files have been staged and are waiting to be committed.
 
 ### Additional resources
 

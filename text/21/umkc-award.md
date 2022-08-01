@@ -1,18 +1,19 @@
 ---
 title: "UMKC Faculty Researcher Award"
-source: "New"
-date: "2021-09-28"
 source: New
-categories: 
-- Blog post
-tags: 
-- Professional details
-output: html_document
+date: '2021-09-28'
+output:
+  word_document: default
+  html_document: default
+tags: Professional details
+categories: Blog post
 ---
 
 The UMKC School of Medicine has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"
 
 Here is a review of the criteria for the award and an early draft of my application. Wish me luck.
+
+Update (2022-08-01). I did not receive the award, and the person who did receive the award was far more deserving. I was encouraged to submit again in 2022, so I have updated the application below mostly because the window of "the last five years" has changed.
 
 <!--more-->
 
@@ -46,13 +47,13 @@ I need to submit
 
 I wish to submit this self-nomination for the Faculty Researcher Award. I am enclosing this nomination letter, three letters of support, and a current CV.
 
-As a consulting statistician, my research efforts are largely in support of other researchers. In the past five years, I do have one grant where I am the principal investigator, but on the remaining grants, I am typically playing a small but still important role, typically supported at 10% effort or less. Likewise, in most of my publications, I am more often a co-author rather than the lead author. I don't mind playing second fiddle in these settings; my best work is often that done in the service of others.
+As a consulting statistician, my research efforts are largely in support of other researchers. In the past five years (January 2017 through December 2021), I do have one grant where I am the principal investigator, but on the remaining grants, I am typically playing a small but still important role, typically supported at 10% effort or less. Likewise, in most of my publications, I am more often a co-author rather than the lead author. I don't mind playing second fiddle in these settings; my best work is often that done in the service of others.
 
 I assist with details like data management, sample size justification, and documentation of research methods. These make no direct contribution to the practice of medicine, but are still vital components of any grant or publication. As such, my efforts are largely behind the scenes. My job, I tell people, is to make smart people smarter.
 
 #### Research grants
 
-My greatest contribution to the research reputation of the UMKC School of Medicine has been through research grants. Since I started work at UMKC in 2009, I have received formal support on 13 research grants (7 in the past five years, see the list below). These numbers (and those cited below for publications and presentations) are even more impressive because they were done while working as a **part-time** faculty member (25% effort from July 2016 through December 2017 and 75% effort from January 2018 to June 2021).
+My greatest contribution to the research reputation of the UMKC School of Medicine has been through research grants. Since I started work at UMKC in 2009, I have received formal support on 13 research grants (7 in the past five years, see the list below). These numbers (and those cited below for publications and presentations) are even more impressive because they were done while working as a **part-time** faculty member (25% effort from January 2017 through December 2017 and 75% effort from January 2018 to June 2021).
 
 This does not include, however, the large number of grants that I have provided informal assistance on. In particular, I have helped write many Sarah Morrison research awards as part of my work for the Research and Statistical Consult Service. I have given talks on grant writing both locally (2018) and at the International Research Conference on Complementary and Alternative Medicine (2012 and 2014).
 
@@ -60,15 +61,15 @@ My grant work focuses on aspects of the grant that are not difficult, such as cr
 
 #### Research publications
 
-I have an extensive publication record, with 31 publications since I started work at UMKC (14 in the past five years). Some of this represents my own effort. Dr. Shui Ye invited me to write a chapter on the R programming language in his book, Big Data Analysis for Bioinformatics, published in 2015. I also contributed two articles to The Encyclopedia of Big Data, published in 2018. These articles describe the U.S. Bureau of the Census and the Centers for Disease Control and Prevention, the two most important government agencies for providing big data that our researchers use.
+I have an extensive publication record, with 31 publications since I started work at UMKC (8 in the past five years). Some of this represents my own effort. Dr. Shui Ye invited me to write a chapter on the R programming language in his book, Big Data Analysis for Bioinformatics, published in 2015. I also contributed two articles to The Encyclopedia of Big Data, published in 2018. These articles describe the U.S. Bureau of the Census and the Centers for Disease Control and Prevention, the two most important government agencies for providing big data that our researchers use.
 
-My best work, however, is on those publications where I am not the lead author. For example, I co-authored three publications (two in the past five years) with a research team that used a network of African-American churches to deliver health care interventions to underserved communities in Kansas City. Two more publications (one in the past five years) were with a quality improvement team at Children's Mercy Hospital and Boston Children's Hospital that examined the consistency of echocardiogram readings at both institutions. These teams were already capable of writing about their outstanding research. My contribution in the documentation of methods and reporting of results served to make these papers even more rigorous. It's another example of making smart people smarter.
+My best work, however, is on those publications where I am not the lead author. For example, I co-authored three publications (one in the past five years) with a research team that used a network of African-American churches to deliver health care interventions to underserved communities in Kansas City. Two more publications were with a quality improvement team at Children's Mercy Hospital and Boston Children's Hospital that examined the consistency of echocardiogram readings at both institutions. These teams were already capable of writing about their outstanding research. My contribution in the documentation of methods and reporting of results served to make these papers even more rigorous. It's another example of making smart people smarter.
 
 #### Research presentations
 
 My role in research presentations is difficult to quantify. I stopped tracking most presentations over 20 years ago. There were just too many of them and it was impossible to independently verify the details of many of these presentations. I also stopped tracking local presentations.
 
-I only track presentations where I am the first author and only those at regional, national, or international conferences. Counting just those, I have 42 first author presentations since I started work at UMKC (23 in the past five years). If you include local talks (talks given for the Kansas City R Users Group and the Kansas City Informatics Meetup (see below), as well as talks at Children's Mercy Hospital, Kansas University Medical Center, the University of Central Missouri, and the University of Kansas), and talks where I am not the first author, these numbers would easily triple. 
+I only track presentations where I am the first author and only those at regional, national, or international conferences. Counting just those, I have 43 first author presentations since I started work at UMKC (20 in the past five years). If you include local talks (talks given for the Kansas City R Users Group and the Kansas City Informatics Meetup (see below), as well as talks at Children's Mercy Hospital, Kansas University Medical Center, the University of Central Missouri, and the University of Kansas), and talks where I am not the first author, these numbers would easily triple. 
 
 Two local presentations still deserve special mention as they are relevant to this award application. I gave a talk For the Atterbury Student Success Center on writing the methods section of a research grant. As noted above, this is an area that is not difficult but which most grant writers feel most insecure about.
 
@@ -86,7 +87,7 @@ My collaboration with the Center for Economic Information (CEI) started in 2018 
 
 Funding for KC HEalth CORE was lost due to the pandemic, threatening the very existence of CEI. I worked with CEI to win a grant in 2019 from the Department of Housing and Urban Development for seven hundred thousand dollars. This grant supported cost effective lead remediation efforts and represented cross-institutional collaborations. I also helped facilitate a collaboration between Jannette Berkley-Patton and CEI to develop a dashboard to map the progress of her $5 million dollar COVID vaccination grant. These grants are a lifeline of support for CEI and we aren't done yet. 
 
-A second grant sent to HUD in 2019 missed funding by one point on a hundred point scale. We plan to resubmit this grant in August 2020. It is a collaboration with the National Center for Healthy Housing and the Rochester Institue of Technology that uses an exterior housing condition survey developed by CEI to identify homes in need of remediation.
+A second grant sent to HUD in 2020 just barely missed funding. We hope to resubmit this work to another federal agency. This grant is a collaboration with the National Center for Healthy Housing and the Rochester Institute of Technology that uses an exterior housing condition survey developed by CEI to identify homes in need of remediation.
 
 CEI has employed many Ph.D. students and helped direct their dissertation work. I provided informal guidance on Bayesian statistical models and hierarchical regression models for two recent graduates, Natalie Kane and Neal Wilson. The methods used by both students was very advanced and specialized, and well beyond the knowledge and expertise of most statisticians. Both students successfully defended their disserations and went on to apply their research skills in new positions. Natalie is currently working in a post-doctoral position at Children's Mercy Hospital and Neal has parlayed his research expertise into major support on two large research grants.
 
@@ -100,7 +101,7 @@ Since I have worked with Mark, he has developed a broad range of research skills
 
 ##### The Analysis Factor
 
-My collaboriations do not stop at the edge of campus. I have many collaborations in the Kansas City area and beyond.
+My collaborations do not stop at the edge of campus. I have many collaborations in the Kansas City area and beyond.
 
 One very profitable collaboration has been with The Analysis Factor. The Analysis Factor, founded by Karen Grace-Martin, is a training and consulting group providing support to researchers deeply involved in quantitative methods, either working on their own research or serving as a statistical consultant to other researchers. 
 
@@ -108,7 +109,7 @@ There's a special place in my heart for brand new statistical consultants. I've 
 
 I have been collaborating with The Analysis Factor since 2015, presenting webinars and short courses on topics like Bayesian statistics, meta-analysis, and survival analysis. Through innovative marketing methods, Karen is able to bring large audiences to my talks and they always ask such interesting questions. I also help answer questions on the discussion boards that are outside the areas of expertise of others working with The Analysis Factor.
 
-One of my most important presentations for The Analysis Factor was a talk on Reproducible Research, based on the ground-breaking article "Good Enough Practices in Scientific Computing" by Wilson et al published in PLOS Computational Biology in 2017. The talk emphasized the importance for research teams to incorporate many of the tools developed for software programming units, such as version control and repositories. I have expaded this work into three of the classes I teach, Introduction to R, Introduction to SAS, and Introduction to SQL. I want my students to develop good programming habits in these classes that will help them in their careers as they work on large research teams.
+One of my most important presentations for The Analysis Factor was a talk on Reproducible Research, based on the ground-breaking article "Good Enough Practices in Scientific Computing" by Wilson et al published in PLOS Computational Biology in 2017. The talk emphasized the importance for research teams to incorporate many of the tools developed for software programming units, such as version control and repositories. I have expanded this work into three of the classes I teach, Introduction to R, Introduction to SAS, and Introduction to SQL. I want my students to develop good programming habits in these classes that will help them in their careers as they work on large research teams.
 
 Karen and I have also participated in workshops and panel discussions sponsored by the American Statistical Association aimed at consultants just beginning their careers. Helping other consultants get started has always been a passion of mine. I started an independent consulting business in 2008, and there was not a lot of guidance out there targeted towards statistical consulting. I documented my efforts in getting started and presented them on my blog and in a series of articles for the Amstat News, a newsletter for the American Statistical Association.
 
@@ -118,7 +119,7 @@ I have also built successful research collaborations in Informatics through a se
 
 Additional research collaborators occur through the Kansas City R Users Group, which I took over the management of in 2014. This group meets monthly to discuss all aspects of the R programming language. It attracts faculty and students at Kansas University, UMKC, and Northwest Missouri State University as well as researchers at Childrens Mercy and Cerner Corporation.
 
-I helped organize a bi-weekly Zoom meeting of independent statistical consultants who first met in April 2020 to talk about how they have had to adapt their consulting practices because of the COVID-19 pandemic. The meetings allow us consultants to announce success stories, offer advice to solve problems (both related and unrelated to the pandemic), and to share resources that we have found helpful. Independent consultants are largely isolated compared to consultants at large organizations, so these meetings are especially valuable.
+I helped organize a monthly Zoom meeting of independent statistical consultants who first met in April 2020 to talk about how they have had to adapt their consulting practices because of the COVID-19 pandemic. The meetings allow us consultants to announce success stories, offer advice to solve problems (both related and unrelated to the pandemic), and to share resources that we have found helpful. Independent consultants are largely isolated compared to consultants at large organizations, so these meetings are especially valuable.
 
 ##### Conclusion
 
@@ -128,47 +129,39 @@ It has been a lot of fun recollecting the work I've done for research at UMKC. I
 
 ### Research activities during the past five years
 
-#### 14 publications from July 2016 through June 2021. Note that 4 of these are not peer-reviewed or indexed in PubMed.
+#### 8 publications from January 2017 through December 2021. Note that 4 of these are not peer-reviewed.
 
 1. Dubin JR, Simon SD, Norrell K, Perera J, Gowen J, Cil A. Risk of Recall Among Medical Devices Undergoing US Food and Drug Administration 510(k) Clearance and Premarket Approval, 2008-2017. JAMA Network Open. 2021-05-06; 4(5): e217274. doi:10.1001/jamanetworkopen.2021.7274
 2. Younis M, Elkaryoni A, Williams GW, Jakhar I, Suman S, Simon S, Salzman G. The Use of Direct Oral Anticoagulants in the Management of Venous Thromboembolism in Patients With Obesity. Cureus 2020-08-25, 12(8): e10006. doi:10.7759/cureus.10006.
 3. Berkley-Patton J, Bowe Thompson C, Goggin K, Catley D, Berman M, Bradley-Ewing A, Derose K, Resnicow K, Allsworth J, & Simon S. A religiously-tailored, multilevel intervention in African American churches to increase HIV testing rates: rationale and design of the Taking It to the Pews cluster randomized trial. Contemporary Clinical Trials 2019; 86: 105848.
-4. Simon SD. Centers for Disease Control and Prevention. In Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Springer Link: New York, NY. Published online 2018-03-01. https://doi.org/10.1007/978-3-319-32001-4_258-1. Note: not peer-reviewed and does not appear in PubMed.
-5. Simon SD. Census Bureau (U.S.). In Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Springer Link: New York, NY. Published online 2018-03-01. https://doi.org/10.1007/978-3-319-32001-4_257-1. Note: not peer-reviewed and does not appear in PubMed.
+4. Simon SD. Centers for Disease Control and Prevention. In Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Springer Link: New York, NY. Published online 2018-03-01. https://doi.org/10.1007/978-3-319-32001-4_258-1. Note: not peer-reviewed.
+5. Simon SD. Census Bureau (U.S.). In Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Springer Link: New York, NY. Published online 2018-03-01. https://doi.org/10.1007/978-3-319-32001-4_257-1. Note: not peer-reviewed.
 6. Simon SD. Getting Paid: How to Determine Your Fee. Amstat News. 2017 (August 1).  Note: not peer-reviewed and does not appear in PubMed.
-7. Simon SD. Why Be an Independent Consultant? Amstat News. 2017 (April 1).  Note: not peer-reviewed and does not appear in PubMed.
+7. Simon SD. Why Be an Independent Consultant? Amstat News. 2017 (April 1).  Note: not peer-reviewed.
 8. Barker JP, Simon SD, Dubin J. The Methodology of Clinical Studies Used by the FDA for Approval of High-Risk Orthopaedic Devices. The Journal of Bone and Joint Surgery. American Volume. 2017; 99(9):711-719. PMID: 28463914
-9. Parthiban A, Levine JC, Nathan M, Marshall JA, Shirali GS, Simon SD, Colan SD, Newburger JW, Raghuveer G. Implementation of a Quality Improvement Bundle Improves Echocardiographic Imaging after Congenital Heart Surgery in Children. Journal of the American Society of Echocardiography : official publication of the American Society of Echocardiography. 2016; 29(12):1163-1170.e3. PMID: 27742240
-10. Jiang Y, Guarino P, Ma S, Simon S, Mayo MS, Raghavan R, Gajewski BJ. Bayesian accrual prediction for interim review of clinical studies: open source R package and smartphone application. Trials. 2016; 17(1):336. PMID: 27449769, PMCID: PMC4957321
-11. Prindaville B, Simon SD, Horii KA. Dermatology-related outpatient visits by children: Implications for workforce and pediatric education. Journal of the American Academy of Dermatology. 2016; 75(1):228-9. PMID: 27317526
-12. Berkley-Patton J, Thompson CB, Moore E, Hawes S, Simon S, Goggin K, Martinez D, Berman M, Booker A. An HIV Testing Intervention in African American Churches: Pilot Study Findings. Annals of Behavioral Medicine : a publication of the Society of Behavioral Medicine. 2016; 50(3):480-5. NIHMSID: NIHMS752446 PMID: 26821712, PMCID: PMC5026504
-13. Baker JM, Pace HA, Ladesich JB, Simon SD. Evaluation of the Impact of Corticosteroid Dose on the Incidence of Hyperglycemia in Hospitalized Patients with an Acute Exacerbation of Chronic Obstructive Pulmonary Disease. Hospital Pharmacy. 2016; 51(4):296-304. PMID: 27303077, PMCID: PMC4896332
-14. Parthiban A, Levine JC, Nathan M, Marshall JA, Shirali GS, Simon SD, Colan SD, Newburger JW, Raghuveer G. Impact of Variability in Echocardiographic Interpretation on Assessment of Adequacy of Repair Following Congenital Heart Surgery: A Pilot Study. Pediatric Cardiology. 2016; 37(1):144-50. PMID: 26358473
 
-#### 22 presentations from July 2016 through June 2021. This does not include presentations where I am not the lead author.
+#### 20 presentations from January 2017 through December 2021. This does not include presentations where I am not the lead author.
 
-1. Simon SD. "Survival analysis," 24 hours of webinar presentations spread across eight weeks presented for The Analysis Factor, Virtual format, April-June 2018. This was repeated September-November 2018 and September-November 2020.
-2. Simon SD. "Business Side of Setting Up an Independent Statistical Consulting Practice," a 15 minute presentation for the Joint Statistical Meetings, Virtual format, August 2020.
-3. Simon SD. "Improving Your Scatterplots," a 90 minute webinar presented for The Analysis Factor, Virtual format, April 2020.
-4. Simon SD. "Validity and Reliability," a 90 minute webinar presented for The Analysis Factor, Virtual format, November 2019.
-5. Simon SD. "Good Enough Practices for Statistical Computing," a 90 minute webinar presented for The Analysis Factor, Virtual format, August 2019.
-6. Simon SD. "Ebenezer Scrooge, Data Scientist," a poster presentation for the UMKC Faculty Research Symposium, Kansas City, MO, April 2019.
-7. Simon SD. "Survival analysis," 24 hours of webinar presentations spread across eight weeks presented for The Analysis Factor, April-June 2018. This was repeated in September-November 2018.
-8. Simon SD. "Mining the Electronic Health Record," a 10 minute presentation for the Midwest Bioinformatics Symposium, Kansas City, MO, April 2019.
-9. Simon SD. "What's the best statistical package," a 90 minute webinar presented for The Analysis Factor, Virtual format, February 2018.
-10. Simon SD. "Design and analysis of a meta-analysis," a 90 minute webinar presented for The Analysis Factor, Virtual format, November 2018.
-11. Simon SD. "Finding customers for your independent consulting practice," a 90 minute webinar presented for the Statistical Consulting Section of the American Statistical Association, Virtual format, November 2018.
-12. Simon SD. "Business essentials for starting an independent consulting practice," a 90 minute webinar presented for the Statistical Consulting Section of the American Statistical Association, August 2018.
-13. Simon SD. "Tests of equivalence and non-inferiority," a 90 minute webinar presented for The Analysis Factor, Virtual format, April 2018.
-14. Simon SD. "Mining the electronic health record. Why and how," a 30 minute presentation for the regional Frontiers in Biostatistics conference, Kansas City, MO, April 2018.
-15. Simon SD. "How to Write a Data Analysis Plan for a Grant Proposal," a 60 presentation for the Atterbury Student Success Center, Kansas City, MO, April 2018.
-16. Simon SD. "Using transformations to improve your linear regression model," a 90 minute webinar presented for The Analysis Factor, Virtual format, March 2018.
-17. Simon SD. "Setting up your independent consulting practice," a 90 minute talk for the Center for Research Methods and Data Analysis, Lawrence, KS, February 2018.
-18. Simon SD. "Good Computing Practices for Researchers," a 90 minute webinar presented for The Analysis Factor, November 2017, also presented for the KUMC Biostatistics Journal Club, November 2017.
-19. Simon SD. "Simulating clinical trials," an invited 20 minute presentation for the Applied Stochastic Modeling and Data Analysis conference, London, England, June 2017.
-20. Simon SD. "LASSO Regression," a 90 minute webinar presented for The Analysis Factor, Virtual format, November 2016.
-21. Simon SD. "Cox Regression," a 90 minute webinar presented for The Analysis Factor, Virtual format, September 2016.
-22. Simon SD. "Formal Programs Teaching Critical Appraisal in Evidence-Based Medicine," an invited 20 minute presentation for the Joint Statistical Meeting, Chicago, IL, August 2016.
+1. Simon SD. "Working with Difficult Clients," a 15 minute presentation for the Conference on Statistical Practice, virtual format, February 2021.
+2. Simon SD. "Survival analysis," 24 hours of webinar presentations spread across eight weeks presented for The Analysis Factor, Virtual format, April-June 2018. This was repeated September-November 2018 and September-November 2020.
+3. Simon SD. "Business Side of Setting Up an Independent Statistical Consulting Practice," a 15 minute presentation for the Joint Statistical Meetings, Virtual format, August 2020.
+4. Simon SD. "Improving Your Scatterplots," a 90 minute webinar presented for The Analysis Factor, Virtual format, April 2020.
+5. Simon SD. "Validity and Reliability," a 90 minute webinar presented for The Analysis Factor, Virtual format, November 2019.
+6. Simon SD. "Good Enough Practices for Statistical Computing," a 90 minute webinar presented for The Analysis Factor, Virtual format, August 2019.
+7. Simon SD. "Ebenezer Scrooge, Data Scientist," a poster presentation for the UMKC Faculty Research Symposium, Kansas City, MO, April 2019.
+8. Simon SD. "Survival analysis," 24 hours of webinar presentations spread across eight weeks presented for The Analysis Factor, April-June 2018. This was repeated in September-November 2018.
+9. Simon SD. "Mining the Electronic Health Record," a 10 minute presentation for the Midwest Bioinformatics Symposium, Kansas City, MO, April 2019.
+10. Simon SD. "What's the best statistical package," a 90 minute webinar presented for The Analysis Factor, Virtual format, February 2018.
+11. Simon SD. "Design and analysis of a meta-analysis," a 90 minute webinar presented for The Analysis Factor, Virtual format, November 2018.
+12. Simon SD. "Finding customers for your independent consulting practice," a 90 minute webinar presented for the Statistical Consulting Section of the American Statistical Association, Virtual format, November 2018.
+13. Simon SD. "Business essentials for starting an independent consulting practice," a 90 minute webinar presented for the Statistical Consulting Section of the American Statistical Association, August 2018.
+14. Simon SD. "Tests of equivalence and non-inferiority," a 90 minute webinar presented for The Analysis Factor, Virtual format, April 2018.
+15. Simon SD. "Mining the electronic health record. Why and how," a 30 minute presentation for the regional Frontiers in Biostatistics conference, Kansas City, MO, April 2018.
+16. Simon SD. "How to Write a Data Analysis Plan for a Grant Proposal," a 60 presentation for the Atterbury Student Success Center, Kansas City, MO, April 2018.
+17. Simon SD. "Using transformations to improve your linear regression model," a 90 minute webinar presented for The Analysis Factor, Virtual format, March 2018.
+18. Simon SD. "Setting up your independent consulting practice," a 90 minute talk for the Center for Research Methods and Data Analysis, Lawrence, KS, February 2018.
+19. Simon SD. "Good Computing Practices for Researchers," a 90 minute webinar presented for The Analysis Factor, November 2017, also presented for the KUMC Biostatistics Journal Club, November 2017.
+20. Simon SD. "Simulating clinical trials," an invited 20 minute presentation for the Applied Stochastic Modeling and Data Analysis conference, London, England, June 2017.
 
 #### 7 grants funded from July 2016 through June 2021.
 
