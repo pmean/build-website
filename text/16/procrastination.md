@@ -10,21 +10,14 @@ tags:
 output: html_document
 ---
 
-Michael Lauer, the Deputy Director for Extramural Research at the United
-States National Institutes for Health shows some interesting statistics
-on when people submit grants and shows that grants submitted earlier
-than the day of the deadline tend to fare slightly better in the review
-process. There's one gross miscalculation on this page, but the message
-is still interesting.
+![Exceprt from blog post](http://www.pmean.com/new-images/16/procrastination01.png)
 
-<!---More--->
+<div class="notes">
 
-Michael Lauer. "A Grant Submission New Year's Resolution" published
-December 20, 2015 on the Open Mike blog. Available at
-<http://nexus.od.nih.gov/all/2015/12/30/grant-submission-new-years-resolution/>.
+Michael Lauer, the Deputy Director for Extramural Research at the United States National Institutes for Health shows some interesting statistics on when people submit grants and shows that grants submitted earlier than the day of the deadline tend to fare slightly better in the review process. There's one gross miscalculation on this page, but the message is still interesting.
 
-![](http://www.pmean.com/new-images/16/procrastination01.png)
+Michael Lauer. "A Grant Submission New Year's Resolution" published December 20, 2015 on the Open Mike blog. Available in [html format][lau1]
 
+[lau1]: http://nexus.od.nih.gov/all/2015/12/30/grant-submission-new-years-resolution/
 
-
-
+</div>

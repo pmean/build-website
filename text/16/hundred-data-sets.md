@@ -10,18 +10,12 @@ tags:
 output: html_document
 ---
 
-This list starts out with a data set of 216,930 previous Jeopardy
-questions and goes from there. Not everything<U+00A0> suggested is easily
-amenable for statistical analysis, but the list is extremely interesting
-and diverse. In particular, this list is very helpful for anyone
-interested in text data.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/hundred-data-sets01.png)
 
-<!---More--->
+<div class="notes">
+
+This list starts out with a data set of 216,930 previous Jeopardy questions and goes from there. Not everything suggested is easily amenable for statistical analysis, but the list is extremely interesting and diverse. In particular, this list is very helpful for anyone interested in text data.
 
 Robb Seaton. 100+ Interesting Data Sets for Statistics.
 
-![](http://www.pmean.com/new-images/16/hundred-data-sets01.png)
-
-
-
-
+</div>

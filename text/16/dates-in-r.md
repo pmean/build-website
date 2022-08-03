@@ -11,18 +11,12 @@ tags:
 output: html_document
 ---
 
-Dates in R
-- like dates in any other software package
-- are tricky to work
-with. Here's a nice guide that will help you get started.
-
-<!---More--->
-
-Cole Beck. Handling date-times in R. 2012 (August 30). Available at
-<http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ColeBeck/datestimes.pdf>.
-
 ![](http://www.pmean.com/new-images/16/dates-in-r01.png)
 
+<div class="notes">
 
+Dates in R, like dates in any other software package, are tricky to work with. Here's a nice guide that will help you get started.
 
+Cole Beck. Handling date-times in R. 2012 (August 30). Available at in [pdf format][beck1].
 
+[beck1]: http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ColeBeck/datestimes.pdf

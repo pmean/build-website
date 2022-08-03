@@ -10,30 +10,16 @@ tags:
 output: html_document
 ---
 
-I was asked by a colleague to write a chapter for a book he was editing,
-Big Data Analysis for Bioinformatics and Biomedical Discoveries. My
-chapter was "R for Big Data Analysis." It just about killed me to write
-that chapter, but I got it done about nine months ago, and now the book
-is out officially.
+![Figure 1. Book cover](http://www.pmean.com/new-images/16/chapter-on-r01.png)
 
-<!---More--->
+<div class="notes">
 
-You can [find out more about the
-book](https://www.crcpress.com/Big-Data-Analysis-for-Bioinformatics-and-Biomedical-Discoveries/Ye/9781498724524)
-at the CRC Press website. It costs 120 which seems like a lot, but
-when you average across the 16 chapters, my contribution is well worth
-the 7.50 that you would pay for it.
+I was asked by a colleague to write a chapter for a book he was editing, Big Data Analysis for Bioinformatics and Biomedical Discoveries. My chapter was "R for Big Data Analysis." It just about killed me to write that chapter, but I got it done about nine months ago, and now the book is out officially.
 
-It's also available on Amazon, where you can save three dollars off the
-list price. Currently the book is ranked #1,125,290 in sales. The
-Amazon page does have a nice biography of the editor, Shui Qing Ye.
+You can [find out more about the book][crc1] at the CRC Press website. It costs 120 dollars which seems like a lot, but when you average across the 16 chapters, my contribution is well worth the 7.50 that you would pay for it.
 
-I've got a picture of the cover.
+It's also available on Amazon, where you can save three dollars off the list price. Currently the book is ranked #1,125,290 in sales. The Amazon page does have a nice biography of the editor, Shui Qing Ye.
 
-![](http://www.pmean.com/new-images/16/chapter-on-r01.png)
+[crc1]: https://www.crcpress.com/Big-Data-Analysis-for-Bioinformatics-and-Biomedical-Discoveries/Ye/9781498724524
 
-
-
-<U+00A0>
-
-
+</div>

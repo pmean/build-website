@@ -10,22 +10,14 @@ tags:
 output: html_document
 ---
 
-I have [some guidance](http://www.pmean.com/99/entry.html) on how to
-organize data (written back in 1999), but these guidelines are far
-superior. To be honest, you should use a database for anything more than
-half complicated, but for those simple data sets where you can use a
-text file or a spreadsheet, Dr. Broman's comments are very
-helpful.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/organizing-data01.png)
 
-<!---More--->
+<div class="notes">
 
-Karl Broman. Organizing data in spreadsheets. Available at
-<http://kbroman.org/dataorg/>
+I have [some guidance](http://www.pmean.com/99/entry.html) on how to organize data (written back in 1999), but these guidelines are far superior. To be honest, you should use a database for anything more than half complicated, but for those simple data sets where you can use a text file or a spreadsheet, Dr. Broman's comments are very helpful.
 
-![](http://www.pmean.com/new-images/16/organizing-data01.png)
+Karl Broman. Organizing data in spreadsheets. Available in [html format][brom1].
 
+[brom1]: http://kbroman.org/dataorg/
 
-
-<U+00A0>
-
-
+</div>

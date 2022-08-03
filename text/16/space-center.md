@@ -10,26 +10,16 @@ tags:
 output: html_document
 ---
 
-I get a lot of emails mentioning job openings and I normally delete them
-unread. This one caught my eye, not because I wanted to apply for it,
-but because it illustrates how statisticians get to work on very
-interesting jobs. This is a Senior Statistician job at the Lyndon B.
-Johnson Space Center in Houston. If you got this job, you'd be providing
-assistance on "a wide range of biomedical and technical areas in support
-of space exploration." How cool is that!
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/space-center01.png)
 
-The other interesting thing is that they say that "accreditation by the
-American Statistical Association is highly desired." I'm not accredited
-by the ASA and don't plan on it anytime soon, but if you want to be the
-Buck Rogers of Statistics, maybe you should.
+<div class="notes">
 
-<!---More--->
+I get a lot of emails mentioning job openings and I normally delete them unread. This one caught my eye, not because I wanted to apply for it, but because it illustrates how statisticians get to work on very interesting jobs. This is a Senior Statistician job at the Lyndon B. Johnson Space Center in Houston. If you got this job, you'd be providing assistance on "a wide range of biomedical and technical areas in support of space exploration." How cool is that!
 
-USA Jobs. "Lyndon B. Johnson Space Center." accessed on 1-13-2016.
-Available at <https://www.usajobs.gov/GetJob/ViewDetails/425199400>.
+The other interesting thing is that they say that "accreditation by the American Statistical Association is highly desired." I'm not accredited by the ASA and don't plan on it anytime soon, but if you want to be the Buck Rogers of Statistics, maybe you should.
 
-![](http://www.pmean.com/new-images/16/space-center01.png)
+USA Jobs. "Lyndon B. Johnson Space Center." Accessed on 1-13-2016. Available in [html format][usa1].
 
+[usa1]: https://www.usajobs.gov/GetJob/ViewDetails/425199400
 
-
-
+</div>

@@ -4,28 +4,22 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/loops-in-r/"
 date: "2016-10-20"
 categories:
-- Blog post
+- Recommendation
 tags:
 - R software
 - Teaching resources
 output: html_document
 ---
 
-This is a very clear
-- but also very detailed explanation of the for,
-while
-- and repeat loops along with the concept of vectorization. A great
-resource for beginners.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/loops-in-r01.png)
 
-<!---More--->
+<div class="notes">
 
-Carlo Fanara. A Tutorial on Loops in R. DataCamp blog
-- September 26,
-2016. Available at
-<https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r>.
+This is a very clear, but also very detailed explanation of the for, while, and repeat loops along with the concept of vectorization. A great resource for beginners.
 
-![](http://www.pmean.com/new-images/16/loops-in-r01.png)
+Carlo Fanara. A Tutorial on Loops in R. DataCamp blog, September 26,
+2016. Available in [html format][fan1]
 
+[fan1]: https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r
 
-
-
+</div>

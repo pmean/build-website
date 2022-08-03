@@ -10,23 +10,14 @@ tags:
 output: html_document
 ---
 
-The genetics research community should be lauded for the openness with
-which they share research data. You can find numerous data sources that
-are free and without ANY restrictions. One very good example is ENCODE,
-the Encyclopedia of DNA Elements. This repository, mostly of human data,
-but some mouse, fruit fly, and round worm data as well. It has data from
-many different assays including ChIP-seq, RNA-seq, and DNase-seq. It
-looks like a great teaching resource, though it does require a fairly
-hefty understanding of genetics to browse through the data.
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/encode01.png)
 
-<!---More--->
+<div class="notes">
 
-National Human Genore Research Institute. The ENCODE Project:
-ENCyclopedia Of DNA Elements. Available at
-<http://www.genome.gov/ENCODE/>.
+The genetics research community should be lauded for the openness with which they share research data. You can find numerous data sources that are free and without ANY restrictions. One very good example is ENCODE, the Encyclopedia of DNA Elements. This repository, mostly of human data, but some mouse, fruit fly, and round worm data as well. It has data from many different assays including ChIP-seq, RNA-seq, and DNase-seq. It looks like a great teaching resource, though it does require a fairly hefty understanding of genetics to browse through the data.
 
-![](http://www.pmean.com/new-images/16/encode01.png)
+National Human Genome Research Institute. The ENCODE Project: ENCyclopedia Of DNA Elements. Available  in [html format][ency1].
 
+[ency1]: http://www.genome.gov/ENCODE/
 
-
-
+</div>
