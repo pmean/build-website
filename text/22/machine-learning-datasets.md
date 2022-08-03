@@ -1,5 +1,5 @@
 ---
-title: "Scientific American article on the bootstrap"
+title: "List of datasets for machine-learning research"
 source: "New"
 date: "2022-07-13"
 categories:
