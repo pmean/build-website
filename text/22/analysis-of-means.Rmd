@@ -1,5 +1,5 @@
 ---
-title: "Three different approaches to multi-group comparisons"
+title: "A second alternative to the pairwise testing approach"
 author: "Steve Simon"
 date: '2022-07-04'
 output:
@@ -10,7 +10,11 @@ tags: Analysis of means
 source: new
 ---
 
-I'm a big fan of Analysis of Variance (ANOVA). I use it all the time. I learn a lot from it. But sometimes I want something a bit different. And the difference comes down to how you specify the hypothesis.
+In an earlier blog post, I mentioned Dunnett's test, a comparison of multiple treatments to a control group as an alternative to the pairwise approach to testing that is commonly used in analysis of variance. Here's a second interesting alternative.
+
+You are in a setting where you are expecting to see a degree of uniformity among several groups. For example, you have a group of clinics who all treat the same type of patients. The patients themselves may differ markedly from one to another, but they are assigned in a more or less random way to each clinic. So, although one patient may differ markedly from another, the average result should be the same for across all the clinics. 
+
+The time spent with each patient, the total cost of the medications prescribed, the length of the notes written in the medical record--these can differ from patient to patient. But because of how the patients are assigned to a particular clinic, these should balance out on average. If there is one clinic that has different average results, it has to be because that the physicians at that clinic have a different approach to treatment. If you can identify a clinic (it could be more than one clinic, of course) that differs from the norm, then investigate. Perhaps that clinic is doing something "wrong" that causes the discrepancy, or maybe that clinic is the only one doing things right. In any case understanding why you see unexpected deviations in a process that should be uniform across clinics provides you with an opportunity to learn something.
 
 ### The traditional hypothesis
 
@@ -27,36 +31,9 @@ text(0.1, 0.3, h1, adj=0)
 
 This is a very common approach in a comparison of k independent groups. Test for any deviation from the null hypothesis using an F test. If this is statistically significant, then use a Tukey follow-up test to see which pairs of means differ from one another.
 
-This hypothesis specifies equality by specifying that every pair of means is equal. For four groups, this implies six equalities: 1=2, 1=3, 1=4, 2=3, 2=4, and 3=4. For six groups, you would have fifteen equalities; for ten you'd have forty five.
-
-It gets messy very fast. That's okay. If you have a lot of groups that you are comparing, you have to make it has to involve a lot of comparisons. Or do you?
-
-### The placebo hypothesis
-
-If one of the groups is a control or placebo, then you might consider an alternative formulation. Here's what the hypothesis looks like, assuming that the control is group #1.
-
-```{r, fig.width=5, fig.height=1, echo=FALSE}
-h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[1] ~ " for all i=2,...,k")
-h1 <- bquote(H[1] ~ ": " ~ mu[i] != mu[1] ~ " for at least one i")
-par(mar=rep(0.1, 4))
-plot(0:1, 0:1, axes=FALSE, type="n")
-text(0.1, 0.7, h0, adj=0)
-text(0.1, 0.3, h1, adj=0)
-```
-
-There's a procedure for this, Dunnett's test. It involves only three comparisons if you have four groups total, and only nine comparisons if you have ten groups total. You can quickly identify who is better than the control. This also gives you simplicity and a bit of extra power and precision.
-
-Dunnett's test is available in most ANOVA programs, and is easy to implement. Test for any deviation from the null hypothesis using an F test. If this is statistically significant, then use Dunnett's test which mean(s) differ from the control mean.
-
-Now you lose something when you simplify the hypothesis. Suppose you have six groups, a control and five different treatments. Now imagine that all of the treatments are significantly better than the control group. Jackpot! Every treatment is worth further study. But Dunnett's test won't allow you to see if some of the treatments are better than the others. There is no option for finding the best of the best.
-
-Let's consider as a reminder that there is no such thing as a free lunch. There are always trade-offs. No approach is superior in all settings.
-
-Let's consider a third option.
-
 ### Comparison to an overall mean
 
-Suppose your goal is to establish whether any groups differ from the overall mean, Then you would write your hypothesis as 
+Suppose you are in a setting like the one described above, where there is an expectation of similarity from one r goal is to establish whether any groups differ from the overall mean, Then you would write your hypothesis as 
 
 ```{r, fig.width=5, fig.height=1, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu ~ " for all i=1,...,k")
@@ -70,5 +47,9 @@ text(0.1, 0.3, h1, adj=0)
 This approach is not that common, but you can find it in most statistical software programs under the name "Analysis of Means." It fits in well with a setting where you hope that all the groups produce consistent results. If any do not, then you want to identify the group or groups that deviate from the norm and study them further.
 
 It's important to editorialize a bit here. Deviating from the norm could be a good thing or a bad thing or it could be an indifferent thing. Your goal is not to use statistics to hunt out different groups to reward or punish them. You are using statistics to help in understanding why deviations from the norm occur.
+
+### A simple example
+
+
 
 https://www.frontiersin.org/articles/10.3389/fchem.2022.894547/full
