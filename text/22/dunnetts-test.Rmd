@@ -48,7 +48,7 @@ There's a procedure for this, Dunnett's test. It involves only three comparisons
 
 Dunnett's test is easy to implement. Calculate the traditional measures in analysis of variance, including mean squared error (MSE). You can skip the traditional F Test that you see in most ANOVA tables. It won't hurt your overall alpha level, as long as you only look at each treatment versus the control. Simply compare each treatment mean minus the control mean to a cutoff value
 
-Reject $H_0$ if $|\bar X_i-\bar X_1| \geq d(\alpha, g, n) \sqrt{2MSE/n}$
+Reject $H_0$ if $\bar X_i \leq \bar X_1 - d(\alpha, g, n) \sqrt{2MSE/n}$ or $\bar X_i \geq \bar X_1 + d(\alpha, g, n) \sqrt{2MSE/n}$
 
 where d is obtained from a table such as [this one][bobb1] on the [Statology blog][bobb0]. The value of d depends on alpha (the desired Type I error rate for a two-sided test), g (the number of groups including the control group) and n (the number of data points in each group). Note that some tables define g as the number of groups excluding the control group.
 
@@ -57,6 +57,63 @@ Most statistical software packages will include Dunnett's test as an option for 
 [bobb1]: https://www.statology.org/dunnetts-table/
 
 [bobb0]: https://www.statology.org/about/
+
+### Example-seed viability
+
+In an experiment examining the effect of different disinfection protocols on orthodontic elastormeric ligatures, 120 ligatures were divided into 6 groups of 20. Each group received a different disinfection protocol, with the exception of the first group, which received no disinfection. This group served as a control group.
+
+![](http://www.pmean.com/new-images/22/dunnetts-test-01.jpg)
+
+Leandro Berni Osorio, Luiz Makito Osawa Gutierrez, Eduardo Martinelli de Lima, Eduardo Gonçalves Mota, and Luciane Macedo de Menezes. Disinfection of Orthodontic Elastomers and Its Effects on Tensile Strength. Turkish Journal of Orthodontics, 2021, 35(1): 22-26.
+
+The researchers were interested in whether any of the disinfection protocols reduced the tensile strength of the ligatures. Here are the summary statistics for the maximum strength measurement.
+
+```{r, echo=FALSE, comment=""}
+mn1 <- c(21.39, 22.58, 16.94, 21.93, 19.93, 22.00)
+sd1 <- c( 3.35,  2.88,  3.50,  3.05,  1.86, 3.71)
+data.frame(mean=mn1, standard_deviation=sd1)
+```
+
+```{r, echo=FALSE, comment=""}
+suppressMessages(suppressWarnings(library(tidyverse)))
+mse <- mean(sd1^2)
+d <- 2.73
+n <- 20
+lo <- mn1[1] - d*sqrt(2*mse/20)
+hi <- mn1[1] + d*sqrt(2*mse/20)
+```
+
+lower limit = $\bar X_1$ - d(0.05, 6, 20) $\sqrt{2MSE/n}$
+
+= `r mn1[1]` - `r d` $\sqrt{2 (`r round(mse, 2)`)/ `r n`}$
+
+= `r round(lo, 2)`
+
+upper limit = $\bar X_1$ + d(0.05, 6, 20) $\sqrt{2MSE/n}$
+
+= `r mn1[1]` + `r d` $\sqrt{2 (`r round(mse, 2)`)/ `r n`}$
+
+= `r round(hi, 2)`
+
+You can create a simple graph from these limits.
+
+```{r, echo=FALSE, comment=""}
+data.frame(g=2:6, mn=mn1[-1]) %>%
+  ggplot(aes(g, mn)) +
+    geom_point() +
+    geom_segment(
+      x=2:6, 
+      xend=2:6, 
+      y=mn1[-1], 
+      yend=mn1[1]) +
+    geom_segment(x=1.9, y=lo, xend=6.1, yend=lo) +
+    geom_segment(x=1.9, y=hi, xend=6.1, yend=hi) +
+    geom_segment(x=1.9, y=mn1[1], xend=6.1, yend=mn1[1], lty="dotted") +
+    expand_limits(y=c(lo, hi)) +
+    expand_limits(x=c(1.5, 6.5))
+```
+
+Only the third disinfection protocol has significantly less strength compared to the control group with no disinfection.
 
 ### Caveats
 
