@@ -10,47 +10,37 @@ tags: Analysis of means
 source: new
 ---
 
-I'm a big fan of Analysis of Variance (ANOVA). I use it all the time. I learn a lot from it. But sometimes I want something a bit different. And the difference comes down to how you specify the hypothesis.
+I'm a big fan of Analysis of Variance (ANOVA). I use it all the time. I learn a lot from it. But sometimes it doesn't test the hypothesis I need.
 
 ### The traditional hypothesis
 
-Recall the way in which the hypothesis test is commonly set up when you are comparing three of more groups using analysis of variable.
+Recall the hypothesis test for analysis of variance.
 
-```{r, fig.width=5, fig.height=1, echo=FALSE}
+```{r, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[j] ~ " for all i,j")
-h1 <- bquote(H[1] ~ ": " ~ mu[i] != mu[j] ~ " for at least one i,j")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
-text(0.1, 0.7, h0, adj=0)
-text(0.1, 0.3, h1, adj=0)
+text(0.1, 0.5, h0, adj=0)
 ```
 
-This is a very common approach in a comparison of k independent groups. Test for any deviation from the null hypothesis using an F test. If this is statistically significant, then use a Tukey follow-up test to see which pairs of means differ from one another.
+The null hypothesis specifies that every pair of means is equal. For four groups, this implies six equalities: 1=2, 1=3, 1=4, 2=3, 2=4, and 3=4. For six groups, you would have fifteen equalities; for ten you'd have forty five.
 
-This hypothesis specifies equality by specifying that every pair of means is equal. For four groups, this implies six equalities: 1=2, 1=3, 1=4, 2=3, 2=4, and 3=4. For six groups, you would have fifteen equalities; for ten you'd have forty five.
-
-It gets messy very fast. That's okay. If you have a lot of groups that you are comparing, you have to make it has to involve a lot of comparisons. Or do you?
+It gets messy very fast. That's okay. If you have a lot of groups that you are comparing, you have to make a lot of comparisons. Or do you?
 
 ### The placebo hypothesis
 
-If one of the groups is a control or placebo, then you might consider an alternative formulation. Here's what the hypothesis looks like, assuming that the control is group #1.
+If one of your groups is a control or placebo, AND you want only to compare each treatment to the control, this is  what the hypothesis looks like, assuming that the control is group #1.
 
-```{r, fig.width=5, fig.height=1, echo=FALSE}
+```{r, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[1] ~ " for all i=2,...,k")
-h1 <- bquote(H[1] ~ ": " ~ mu[i] != mu[1] ~ " for at least one i")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
-text(0.1, 0.7, h0, adj=0)
-text(0.1, 0.3, h1, adj=0)
+text(0.1, 0.5, h0, adj=0)
 ```
 
-There's a procedure for this, Dunnett's test. It involves only three comparisons if you have four groups total, and only nine comparisons if you have ten groups total. You can quickly identify who is better than the control. This also gives you simplicity and a bit of extra power and precision.
+There's a procedure for this, Dunnett's test. It involves only three comparisons if you have four groups total, and only nine comparisons if you have ten groups total. You can quickly identify which treatment or treatments is different than the control. This also gives you simplicity and a bit of extra power and precision.
 
-Dunnett's test is easy to implement. Calculate the traditional measures in analysis of variance, including mean squared error (MSE). You can skip the traditional F Test that you see in most ANOVA tables. It won't hurt your overall alpha level, as long as you only look at each treatment versus the control. Simply compare each treatment mean minus the control mean to a cutoff value
-
-Reject $H_0$ if $\bar X_i \leq \bar X_1 - d(\alpha, g, n) \sqrt{2MSE/n}$ or $\bar X_i \geq \bar X_1 + d(\alpha, g, n) \sqrt{2MSE/n}$
-
-where d is obtained from a table such as [this one][bobb1] on the [Statology blog][bobb0]. The value of d depends on alpha (the desired Type I error rate for a two-sided test), g (the number of groups including the control group) and n (the number of data points in each group). Note that some tables define g as the number of groups excluding the control group.
+Dunnett's test is easy to implement. Calculate the traditional measures in analysis of variance, including mean squared error (MSE). You can skip the traditional F Test that you see in most ANOVA tables. It won't hurt your overall alpha level, as long as you only look at each treatment versus the control. Simply compare each treatment mean minus the control mean to a cutoff value using percentiles from a special table for Dunnett's test. The value of d depends on alpha (the desired Type I error rate for a two-sided test), g (the number of groups including the control group) and n (the number of data points in each group). Note that some tables define g as the number of groups excluding the control group.
 
 Most statistical software packages will include Dunnett's test as an option for ANOVA. Just remember that you don't need to use the initial F test as a screen before jumping into the Dunnett's test.
 
@@ -60,19 +50,21 @@ Most statistical software packages will include Dunnett's test as an option for 
 
 ### Example-seed viability
 
-In an experiment examining the effect of different disinfection protocols on orthodontic elastormeric ligatures, 120 ligatures were divided into 6 groups of 20. Each group received a different disinfection protocol, with the exception of the first group, which received no disinfection. This group served as a control group.
+Let's look at an example in an experiment examining the effect of different disinfection protocols on a piece of dental equipment, orthodontic elastormeric ligatures (think braces). In this experiment, 120 ligatures were divided into 6 groups of 20. Each group received a different disinfection protocol, with the exception of the first group, which received no disinfection. This group served as a control group.
 
 ![](http://www.pmean.com/new-images/22/dunnetts-test-01.jpg)
 
-Leandro Berni Osorio, Luiz Makito Osawa Gutierrez, Eduardo Martinelli de Lima, Eduardo Gonçalves Mota, and Luciane Macedo de Menezes. Disinfection of Orthodontic Elastomers and Its Effects on Tensile Strength. Turkish Journal of Orthodontics, 2021, 35(1): 22-26.
+Osorio LB et al. Disinfection of Orthodontic Elastomers and Its Effects on Tensile Strength. Turkish Journal of Orthodontics, 2021, 35(1): 22-26.
 
-The researchers were interested in whether any of the disinfection protocols reduced the tensile strength of the ligatures. Here are the summary statistics for the maximum strength measurement.
+Disinfection is important, but does it reduce the tensile strength of the ligatures. Here are the summary statistics for the maximum strength measurement.
 
 ```{r, echo=FALSE, comment=""}
 mn1 <- c(21.39, 22.58, 16.94, 21.93, 19.93, 22.00)
 sd1 <- c( 3.35,  2.88,  3.50,  3.05,  1.86, 3.71)
 data.frame(mean=mn1, standard_deviation=sd1)
 ```
+
+
 
 ```{r, echo=FALSE, comment=""}
 suppressMessages(suppressWarnings(library(tidyverse)))
@@ -83,19 +75,7 @@ lo <- mn1[1] - d*sqrt(2*mse/20)
 hi <- mn1[1] + d*sqrt(2*mse/20)
 ```
 
-lower limit = $\bar X_1$ - d(0.05, 6, 20) $\sqrt{2MSE/n}$
-
-= `r mn1[1]` - `r d` $\sqrt{2 (`r round(mse, 2)`)/ `r n`}$
-
-= `r round(lo, 2)`
-
-upper limit = $\bar X_1$ + d(0.05, 6, 20) $\sqrt{2MSE/n}$
-
-= `r mn1[1]` + `r d` $\sqrt{2 (`r round(mse, 2)`)/ `r n`}$
-
-= `r round(hi, 2)`
-
-You can create a simple graph from these limits.
+The paper does not include the raw data, but you can still calculate all the key statistics needed to run Dunnett's test. You can create a simple graph that identifies if any of the disinfection protocols shows significantly less strength than the control.
 
 ```{r, echo=FALSE, comment=""}
 data.frame(g=2:6, mn=mn1[-1]) %>%
@@ -109,16 +89,20 @@ data.frame(g=2:6, mn=mn1[-1]) %>%
     geom_segment(x=1.9, y=lo, xend=6.1, yend=lo) +
     geom_segment(x=1.9, y=hi, xend=6.1, yend=hi) +
     geom_segment(x=1.9, y=mn1[1], xend=6.1, yend=mn1[1], lty="dotted") +
-    expand_limits(y=c(lo, hi)) +
-    expand_limits(x=c(1.5, 6.5))
+    expand_limits(y=c(16, 26)) +
+    expand_limits(x=c(0.9, 6.1)) +
+    xlab("Disinfection protocol") +
+    ylab("Tensile strength") +
+    scale_x_continuous(breaks=1:6, minor_breaks=NULL) +
+    scale_y_continuous(breaks=2*(8:13))
 ```
 
-Only the third disinfection protocol has significantly less strength compared to the control group with no disinfection.
+Only the third disinfection protocol has significantly less strength compared to the control group with no disinfection. This graph shows a two-sided comparison, but you may prefer a one-sided comparison. This is a very easy modification.
 
 ### Caveats
 
-Modifications of Dunnett's test are tricky when the group sizes are unequal.
+Things get a bit dicey when the group sizes are unequal. The formulas get a bit messier and the intervals are approximate. This is generally true for most approaches to handling multi-group data.
 
-Now you lose something when you simplify the hypothesis. Suppose you have six groups, a control and five different treatments. Now imagine that all of the treatments are significantly better than the control group. Jackpot! Every treatment is worth further study. But Dunnett's test won't allow you to see if some of the treatments are better than the others. There is no option for finding the best of the best.
+Keep in mind that you lose something when you simplify the hypothesis. Suppose you have six groups, a control and five different treatments. Now imagine that all of the treatments are significantly better than the control group. Jackpot! Every treatment is worth further study. But Dunnett's test won't allow you to see if some of the treatments are better than the others. There is no option for finding the best of the best.
 
-Let's consider as a reminder that there is no such thing as a free lunch. There are always trade-offs. No approach is superior in all settings.
+Let's consider this as a reminder that there is no such thing as a free lunch. There are always trade-offs. No approach is superior in all settings.
