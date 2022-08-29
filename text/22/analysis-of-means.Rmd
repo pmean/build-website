@@ -29,10 +29,9 @@ text(0.1, 0.5, h0, adj=0)
 
 This is a very common approach in a comparison of k independent groups. Test for any deviation from the null hypothesis using an F test. If this is statistically significant, then use a Tukey follow-up test to see which pairs of means differ from one another.
 
-### Comparison to an overall mean
+### The comparison to the overall mean hypothesis
 
-Suppose you are in a setting like the one described above, where there is an expectation of similarity from one r goal is to establish whether any groups differ from the overall mean, Then you would write your hypothesis as 
-
+Suppose you are in a setting like the one described above, where there is an expectation of similarity between each group mean and the overall mean. Then you would write your hypothesis as 
 ```{r, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu ~ " for all i=1,...,k")
 par(mar=rep(0.1, 4))
@@ -40,51 +39,65 @@ plot(0:1, 0:1, axes=FALSE, type="n")
 text(0.1, 0.5, h0, adj=0)
 ```
 
-This approach is not that common, but you can find it in most statistical software programs under the name "Analysis of Means." It fits in well with a setting where you hope that all the groups produce consistent results. If any do not, then you want to identify the group or groups that deviate from the norm and study them further.
+This approach is not that common, but you can find it in most statistical software programs under the name "Analysis of Means." It fits in well with a setting where you hope that all the groups produce consistent results. If any do not, then you want to identify the group or groups that deviate from the norm and study factors that may account for the deviation.
+
+The analysis of means approach that compares each group mean to the overall mean is easy to implement and it lends itself to a simple graphical display.
+
+You don't need to compute the traditional F statistic for Analysis of Variance first, because the Analysis of Means approach controls the overall Type I error rate. This protects you from the accusation of p-hacking, even if the number of groups is very large.
 
 It's important to editorialize a bit here. Deviating from the norm could be a good thing or a bad thing or it could be an indifferent thing. Your goal is not to use statistics to hunt out different groups to reward or punish them. You are using statistics to help in understanding why deviations from the norm occur.
 
 ### A simple example
 
+Five genetically modified strains of eggplant were tested for presence of a natural insecticide, CryA1c, in the leaves of the plant. Four plants were assessed for each strain. Here are the descriptive statistics. The research question is whether all strains have a comparable amount of CryA1c in their leaves.
+
+![](http://www.pmean.com/new-images/22/analysis-of-means-00.png) 
+
+(Image taken from Wikipedia)
 
 Desiree M. Hautea DM et al. Field Performance of Bt Eggplants (Solanum melongena L.) in the Philippines: Cry1Ac Expression and Control of the Eggplant Fruit and Shoot Borer (Leucinodes orbonalis Guenée). PLoS One. 2016; 11(6): e0157498.
 
-
-Five genetically modified strains of eggplant were tested for presence of a natural insecticide, CryA1c, in the leaves of the plant. Four plants were assessed for each strain. Here are the descriptive statistics. The research question is whether all strains have a comparable amount of CryA1c in their leaves.
-
-The raw data was not available, but you can calculate the analysis of means limits using the group means and standard deviations.
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157498
 
 
+Here are the summary statistics.
 
-```{r}
+```{r, echo=FALSE}
 mn <- c(
-  24.87,
-  24.54,
-  23.61,
-  18.32,
-  22.72,
-  22.81)
+  21.83,
+  20.40,
+  21.62,
+  21.06,
+  20.57)
 
 sd <- c(
-  0.56,
-  1.14,
-  1.33,
-  2.45,
-  0.19,
-  1.18)
+  1.17,
+  1.09,
+  1.32,
+  1.11,
+  0.99)
+
 mse <- mean(sd^2)
-mse
 ybarbar <- mean(mn)
 t <- 5
 N <- 20
 h <- 2.88
 hi <- ybarbar+h*sqrt((t-1)*mse/N)
 lo <- ybarbar-h*sqrt((t-1)*mse/N)
-lo
-hi
 ```  
-  
 
+![](http://www.pmean.com/new-images/22/analysis-of-means-01.png)  
 
+The raw data was not available, but you can calculate the analysis of means limits using the group means and standard deviations. You can plot the individual means versus the limits provided by analysis of means calculations.
 
-https://www.frontiersin.org/articles/10.3389/fchem.2022.894547/full
+![](http://www.pmean.com/new-images/22/analysis-of-means-02.png)  
+
+Notice that all five means lie inside the limits. None of the five strains shows a  statisticially significant difference from the overall mean.
+
+### Caveats
+
+The formulas get a bit more complex and the graph gets a bit messier if the sample size differs from one group to another.
+
+More importantly, the only comparisons that you can make with the analysis of means approach is a comparison to the overall mean. If two groups are both statistically significantly higher than the overall mean, you cannnot make a comparison between those two groups without losing control over the overall Type I error rate.
+
+The Analysis of Means, just like the Dunnett's test described in an earlier blog post, provides a simple approach to testing a different type of hypothesis. Because it reduces the number of comparisons from all possible pairwise differences to a comparison of each group to the overall mean, you gain some precision and can summarize your results in a simple easily understood graph.
