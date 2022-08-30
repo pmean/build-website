@@ -54,6 +54,8 @@ Let's look at an example in an experiment examining the effect of different disi
 
 ![](http://www.pmean.com/new-images/22/dunnetts-test-01.jpg)
 
+(Image taken from G&H Orthodontics)
+
 Osorio LB et al. Disinfection of Orthodontic Elastomers and Its Effects on Tensile Strength. Turkish Journal of Orthodontics, 2021, 35(1): 22-26.
 
 Disinfection is important, but does it reduce the tensile strength of the ligatures. Here are the summary statistics for the maximum strength measurement.
@@ -96,6 +98,8 @@ data.frame(g=2:6, mn=mn1[-1]) %>%
     scale_x_continuous(breaks=1:6, minor_breaks=NULL) +
     scale_y_continuous(breaks=2*(8:13))
 ```
+
+Notice that there is no comparison at 1 because you don't compare the control group to itself.
 
 Only the third disinfection protocol has significantly less strength compared to the control group with no disinfection. This graph shows a two-sided comparison, but you may prefer a one-sided comparison. This is a very easy modification.
 
