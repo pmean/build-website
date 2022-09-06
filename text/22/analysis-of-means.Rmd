@@ -3,7 +3,6 @@ title: "A second alternative to the pairwise testing approach"
 author: "Steve Simon"
 date: '2022-07-04'
 output:
-  word_document: default
   html_document: default
 category: Blog post
 tags: Analysis of means
@@ -12,9 +11,11 @@ source: new
 
 In an earlier blog post, I mentioned Dunnett's test, a comparison of multiple treatments to a control group as an alternative to the pairwise approach to testing that is commonly used in analysis of variance. Here's a second interesting alternative.
 
-You are in a setting where you are expecting to see a degree of uniformity among several groups. For example, you have a group of clinics who all treat the same type of patients. The patients themselves may differ markedly from one to another, but they are assigned in a more or less random way to each clinic. So, although one patient may differ markedly from another, the average result should be the same for across all the clinics. 
+### Comparison to an overall mean
 
-The time spent with each patient, the total cost of the medications prescribed, the length of the notes written in the medical record--these can differ from patient to patient. But because of how the patients are assigned to a particular clinic, these should balance out on average. If there is one clinic that has different average results, it has to be because that the physicians at that clinic have a different approach to treatment. If you can identify a clinic (it could be more than one clinic, of course) that differs from the norm, then investigate. Perhaps that clinic is doing something "wrong" that causes the discrepancy, or maybe that clinic is the only one doing things right. In any case understanding why you see unexpected deviations in a process that should be uniform across clinics provides you with an opportunity to learn something.
+You are in a setting where you are expecting to see a degree of uniformity among several groups. For example, you have a group of clinics who all treat the same type of patients. The time spent with each patient, the total cost of the medications prescribed, the length of the notes written in the medical record--these can differ from patient to patient. But because of how the patients are assigned to a particular clinic (more or less randomly), these should balance out on average.
+
+If there is one clinic that has different average results, it has to be because that the physicians at that clinic have a different approach to treatment. If you can identify a clinic (it could be more than one clinic, of course) that differs from the norm, then investigate. Perhaps that clinic is doing something "wrong" that causes the discrepancy, or maybe that clinic is the only one doing things right. In any case understanding why you see unexpected deviations in a process that should be uniform across clinics provides you with an opportunity to learn something.
 
 ### The traditional hypothesis
 
@@ -32,6 +33,7 @@ This is a very common approach in a comparison of k independent groups. Test for
 ### The comparison to the overall mean hypothesis
 
 Suppose you are in a setting like the one described above, where there is an expectation of similarity between each group mean and the overall mean. Then you would write your hypothesis as 
+
 ```{r, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu ~ " for all i=1,...,k")
 par(mar=rep(0.1, 4))
@@ -41,15 +43,15 @@ text(0.1, 0.5, h0, adj=0)
 
 This approach is not that common, but you can find it in most statistical software programs under the name "Analysis of Means." It fits in well with a setting where you hope that all the groups produce consistent results. If any do not, then you want to identify the group or groups that deviate from the norm and study factors that may account for the deviation.
 
-The analysis of means approach that compares each group mean to the overall mean is easy to implement and it lends itself to a simple graphical display.
+The analysis of means approach compares each group mean to the overall mean. It is easy to implement and it lends itself to a simple graphical display. You need a table of critical values, which depend on alpha (the overall Type I error rate), t (the number of groups), and n (the number of observations within each group). Some tables use the degrees of freedom for error in place of n.
 
 You don't need to compute the traditional F statistic for Analysis of Variance first, because the Analysis of Means approach controls the overall Type I error rate. This protects you from the accusation of p-hacking, even if the number of groups is very large.
 
-It's important to editorialize a bit here. Deviating from the norm could be a good thing or a bad thing or it could be an indifferent thing. Your goal is not to use statistics to hunt out different groups to reward or punish them. You are using statistics to help in understanding why deviations from the norm occur.
+It's important to editorialize a bit here. Deviating from the norm could be a good thing or a bad thing or it could be an indifferent thing. Your goal is not to use statistics to hunt out different groups to reward or punish them. You are using statistics to help in understanding if deviations from the norm occur and then study those deviating groups to understand why they deviate.
 
 ### A simple example
 
-Five genetically modified strains of eggplant were tested for presence of a natural insecticide, CryA1c, in the leaves of the plant. Four plants were assessed for each strain. Here are the descriptive statistics. The research question is whether all strains have a comparable amount of CryA1c in their leaves.
+Five genetically modified strains of eggplant were tested for presence of a natural insecticide, CryA1c, in the leaves of the plant. Four plants were assessed for each strain. Here are the descriptive statistics. The research question is whether any strain differs from the overall mean level of CryA1c.
 
 ![](http://www.pmean.com/new-images/22/analysis-of-means-00.png) 
 
@@ -94,10 +96,44 @@ The raw data was not available, but you can calculate the analysis of means limi
 
 Notice that all five means lie inside the limits. None of the five strains shows a  statisticially significant difference from the overall mean.
 
+You may prefer a one-sided test in this setting, such as testing whether any strain is deficient in the CryA1c levels. You can make a very easy modification to get one-sided tests.
+
 ### Caveats
 
 The formulas get a bit more complex and the graph gets a bit messier if the sample size differs from one group to another.
 
 More importantly, the only comparisons that you can make with the analysis of means approach is a comparison to the overall mean. If two groups are both statistically significantly higher than the overall mean, you cannnot make a comparison between those two groups without losing control over the overall Type I error rate.
 
+You also need to specify the Analysis of Means hypothesis prior to looking at your data. Peeking at the data and then choosing your hypothesis is cheating.
+
 The Analysis of Means, just like the Dunnett's test described in an earlier blog post, provides a simple approach to testing a different type of hypothesis. Because it reduces the number of comparisons from all possible pairwise differences to a comparison of each group to the overall mean, you gain some precision and can summarize your results in a simple easily understood graph.
+
+### Details about the calculations
+
+To get the limits for the graph shown above, you need the Analysis of Means table of critical values plus an estimate of Mean Squared Error. The general formula (as shown in [this article][jay1]) is
+
+$\ $ $\bar Y_{..} \pm h(\alpha, t, N) \sqrt{(t-1)MSE/N}$
+
+where $\bar Y_{..}$ is the overall mean and $h(\alpha, t, N)$ comes from a table such as [this one][lev1] (see page 3) or [this one][sim3].
+
+In our example alpha=0.05, t=5, and N=20. The original article does not provide MSE, but you can calculate it as the pooled variance using the descriptive statistics shown above. The limits are
+
+```{r, echo=FALSE}
+# Make the numbers look nice
+ybarbar <- round(ybarbar, 2)
+mse <- round(mse, 2)
+lo <- round(lo, 2)
+hi <- round(hi, 2)
+```
+
+$\ $ $`r ybarbar` \pm 2.88 \sqrt{(`r t`-1)`r mse`/`r N`}$
+
+or
+
+$\ $ $`r lo`$ and $`r hi`$
+
+[jay1]: https://digitalcommons.pvamu.edu/cgi/viewcontent.cgi?article=1122&context=aam
+
+[lev1]: https://wps.prenhall.com/wps/media/objects/9431/9657451/Ch_11/levine-smume6_topic_ANOM.pdf
+
+[sim3]: http://www.pmean.com/07/AnomTable05Part1.html
