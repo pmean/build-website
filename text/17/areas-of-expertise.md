@@ -8,8 +8,7 @@ tags: Professional details
 output: html_document
 ---
 
-I was asked to list my areas of expertise for an upcoming Q&A webinar
-that I am helping with. Here's the list I shared.
+I was asked to list my areas of expertise for an upcoming Q&A webinar that I am helping with. Here's the list I shared.
 
 <!---More--->
 
@@ -45,8 +44,7 @@ Data analysis:
 16. Sample size justification
 17. Smoothing splines
 
-There are several other areas that are worth mentioning, though they
-are, perhaps, a bit peripheral to Statistics.
+There are several other areas that are worth mentioning, though they are, perhaps, a bit peripheral to Statistics.
 
 1.  Clinical trials
 2.  Critical appraisal

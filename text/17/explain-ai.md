@@ -14,13 +14,7 @@ output: html_document
 
 <div class="notes">
 
-This is a nice article in the popular press that talks about some of the
-problems with "black box" models (in particular deep neural nets) used
-extensively in many big data projects. It is a bit shy on technical
-details, which is understandable for a paper like the New York Times.
-Even so, the stories are quite intriguing. This is a wake up call for
-those people who fail to recognize the serious problems with many big
-data models.
+This is a nice article in the popular press that talks about some of the problems with "black box" models (in particular deep neural nets) used extensively in many big data projects. It is a bit shy on technical details, which is understandable for a paper like the New York Times. Even so, the stories are quite intriguing. This is a wake up call for those people who fail to recognize the serious problems with many big data models.
 
 Cliff Kuang. Can A.I. Be Taught to Explain Itself. The New York Times
 Magazine. November 26, 2017. Available in [html format][kua1]. Approximately 5,000 words.

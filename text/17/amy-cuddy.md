@@ -31,7 +31,7 @@ If p-hacking is a problem, then how do you fix it? It turns out that there is a 
 
 I vote for "noble warriors" but read the article and decide for yourself what you think. It's a complicated area and every perspective has more than one side to it.
 
-One of the noble warriors/shameless bullies is Andrew Gelman, a popular statistician and social scientist. He [comments extensively][gel1] about the New York Times article on his blog, which is also worth reading as well as many comments that others have made on his blog post. It's also worth digging up some of his [earlier commentary][gel2] about Dr. Cuddy.
+One of the noble warriors/shameless bullies is Andrew Gelman, a popular statistician and social scientist. He [comments extensively][gel1] about the New York Times article on his blog, which is also worth reading, as well as many comments that others have made on his blog post. It's also worth digging up some of his [earlier commentary][gel2] about Dr. Cuddy.
 
 Susan Dominus. When the Revolution Came for Amy Cuddy. The New York Times Magazine (2017-10-18). Available in [html format][dom1]. Approximately 9,000 words.
 
