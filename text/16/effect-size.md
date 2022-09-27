@@ -19,4 +19,9 @@ these measures was radically different, the minimally important difference was a
 
 Norman GR, Sloan JA, Wyrwich KW. Point/Counterpoint. Interpretation of Changes in Health-related Quality of Life: The Remarkable Universality of Half a Standard Deviation. Medical Care: May 2003, 41(5): 582-592.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/effect-size/
+[sim2]: http://blog.pmean.com
+
 </div>

@@ -22,7 +22,12 @@ The common theme of the paper is that the flipped classroom has been successfull
 
 Todd A. Schwartz, Rebecca R. Andridge, Kirstin L. Sainani, Dalene K. Stangle, and Megan L. Neely. "Diverse Perspectives on a Flipped Biostatistics Classroom"
 
-Journal of Statistics Education Vol. 24 , Iss. 2, 2016. Available in [html format][sch1]
+Journal of Statistics Education Vol. 24 , Iss. 2, 2016. Available in [html format][sch1].
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/flipped-classroom/
+[sim2]: http://blog.pmean.com
 
 [sch1]: http://www.tandfonline.com/doi/full/10.1080/10691898.2016.1192362
 

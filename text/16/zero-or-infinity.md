@@ -54,3 +54,8 @@ BUT, if you are looking at the odds of survival instead then your odds ratio has
 If you have an infinite odds in the denominator, then your odds ratio is zero. Finally, if you have a zero odds in the denominator, then your odds ratio is infinite.
 
 The only case you can't handle is when both groups have 100% survival or 0% survival. This forces you to divide infinity by infinity or zero by zero. Either way, your result is indeterminate.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/zero-or-infinity/
+[sim2]: http://blog.pmean.com

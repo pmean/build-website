@@ -26,3 +26,8 @@ Seriously, this happens all the time. Any positive number divided by zero is inf
 **There was a strong association between gene activation and cancer (OR=Infinity, P\<0.0001).**
 
 There are also ways that you can place a confidence limit around this odds ratio, but it typically requires specialized software. Some people recommend that you add a small value to each cell (usually 0.5) before calculating the odds ratio. I can't recommend that approach (too ad hoc), but will note that some people think it is a good solution.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/zero-in-table/
+[sim2]: http://blog.pmean.com

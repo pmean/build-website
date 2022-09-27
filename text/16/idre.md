@@ -18,6 +18,11 @@ This is a wonderful site, but for some reason, it is difficult to find. The Inst
 
 University of California-Los Angeles. Institute for Digital Research and Education, Statistical Computing. Available in [html format][ucla1]
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/idre/
+[sim2]: http://blog.pmean.com
+
 [ucla1]: http://www.ats.ucla.edu/stat/
 
 </div>

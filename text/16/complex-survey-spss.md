@@ -84,8 +84,7 @@ and the output.
 
 ![Figure 14. SPSS output](http://www.pmean.com/new-images/16/complex14.jpg)
 
-You can find an [earlier version][sim1] of this page on my [old website][sim2].
+There was an earlier version of this page on my [blog][sim2] but I can't locate it anymore.
 
-[sim1]: http://www.pmean.com/16/complex.html
-[sim2]: http://www.pmean.com
+[sim2]: http://blog.pmean.com
 

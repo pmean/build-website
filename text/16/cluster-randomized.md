@@ -19,6 +19,11 @@ The sample size justification for a cluster randomized trial is messy. It requir
 
 Rutterforda C, Taljaard M, Dixon S, Copas A, Eldridge S. Reporting and methodological quality of sample size calculations in cluster randomized trials could be improved: a review. Journal of Clinical Epidemiology 68 (2015) 716e723. Available in [html format][rutt1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/cluster-randomized/
+[sim2]: http://blog.pmean.com
+
 [rutt1]: http://www.ncbi.nlm.nih.gov/pubmed/25523375
 
 </div>

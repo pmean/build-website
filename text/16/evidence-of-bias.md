@@ -33,6 +33,11 @@ The general finding was that failure to use these bias reduction approaches tend
 
 Nancy D Berkman, P Lina Santaguida, Meera Viswanathan, and Sally C Morton. The Empirical Evidence of Bias in Trials Measuring Treatment Differences. Available in [pdf format][berk1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/evidence-of-bias/
+[sim2]: http://blog.pmean.com
+
 [berk1]: http://www.ncbi.nlm.nih.gov/books/NBK253181/
 
 </div>

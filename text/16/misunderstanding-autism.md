@@ -38,4 +38,9 @@ It made me realize that parents and caregivers of patients with autism are a vul
 
 So we need to be very careful with stories like this. It may be a miracle, an inspiring story that helps us look at nonverbal patients with a new and different perspective. But sadly, the far more likely answer is that this story something worse, one more abuse in a long chain of misguided research that has plagued these parents for decades.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/misunderstanding-autism/
+[sim2]: http://blog.pmean.com
+
 [wapo1]: https://www.washingtonpost.com/news/inspired-life/wp/2016/05/19/this-non-speaking-teen-wrote-an-incredibly-profound-letter-to-police-about-autism/

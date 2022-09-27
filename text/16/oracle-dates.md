@@ -19,6 +19,11 @@ I'm working with R and SQL. Some of the work uses SQLite, and some of the work u
 
 Kristian Widjaja, Jun Yang, Jeff Ullman. Oracle Dates and Times. Available in [html format][widj1]. 
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/oracle-dates/
+[sim2]: http://blog.pmean.com
+
 [widj1]: http://infolab.stanford.edu/~ullman/fcdb/oracle/or-time.html
 [wik1]: https://en.wikipedia.org/wiki/SQL#Interoperability_and_standardization
 [xkcd1]: https://xkcd.com/1179/

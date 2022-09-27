@@ -18,6 +18,11 @@ The genetics research community should be lauded for the openness with which the
 
 National Human Genome Research Institute. The ENCODE Project: ENCyclopedia Of DNA Elements. Available  in [html format][ency1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/encode/
+[sim2]: http://blog.pmean.com
+
 [ency1]: http://www.genome.gov/ENCODE/
 
 </div>

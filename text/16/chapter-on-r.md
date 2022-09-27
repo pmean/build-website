@@ -22,4 +22,9 @@ It's also available on Amazon, where you can save three dollars off the list pri
 
 [crc1]: https://www.crcpress.com/Big-Data-Analysis-for-Bioinformatics-and-Biomedical-Discoveries/Ye/9781498724524
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/chapter-on-r/
+[sim2]: http://blog.pmean.com
+
 </div>

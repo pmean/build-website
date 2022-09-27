@@ -92,4 +92,7 @@ This is the third in a series of blog entries: So you're thinking about research
 
 [sim4]: http://new.pmean.com/chart-review/index.html
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/systematic-overview/
+[sim2]: http://blog.pmean.com

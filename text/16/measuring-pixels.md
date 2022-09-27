@@ -55,4 +55,7 @@ Note: I need to recreate the image
 
 www.pmean.com/0000images/pixel01.jpg
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/measuring-pixels/
+[sim2]: http://blog.pmean.com

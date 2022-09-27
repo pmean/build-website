@@ -20,6 +20,11 @@ I have not viewed this video yet, but have attended a similar talk and read a si
 
 Keith Baggerly (2010) The Importance of Reproducible Research in High-Throughput Biology. Case Studies in Forensic Bioinformatics. Available in [video format][bagg1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/forensic-bioinformatics/
+[sim2]: http://blog.pmean.com
+
 [bagg1]: http://videolectures.net/cancerbioinformatics2010_baggerly_irrh/
 
 </div>

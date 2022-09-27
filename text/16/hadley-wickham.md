@@ -20,6 +20,11 @@ Hadley Wickham has written many popular R packages, so many that they are someti
 Dan Kopf. Hadley Wickham, the Man Who Revolutionized R. Published July
 24, 2015. Available in [html format][kopf1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/hadley-wickham/
+[sim2]: http://blog.pmean.com
+
 [kopf1]: http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/
 
 </div>

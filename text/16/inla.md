@@ -21,6 +21,11 @@ This page promotes a new approach to a broad class of models (spatio-temporal mo
 
 Havard Rue. Bayesian computing with INLA. Available in [html format][rue1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/inla/
+[sim2]: http://blog.pmean.com
+
 [rue1]: http://www.r-inla.org/home
 
 </div>

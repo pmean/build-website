@@ -18,6 +18,11 @@ I've always been supportive of efforts to share data. For me, it's a bit selfish
 
 Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: 10.1038/sdata.2016.18 (2016). Available in [html format][wilk1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/fair-principles/
+[sim2]: http://blog.pmean.com
+
 [wilk1]: http://www.nature.com/articles/sdata201618
 
 </div>

@@ -22,6 +22,11 @@ is.
 Doug Steigerwald. The Coin Flip: A Fundamentally Unfair Proposition.
 Available in [html format][ste1]
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/coin-flip/
+[sim2]: http://blog.pmean.com
+
 [ste1]: http://econ.ucsb.edu/~doug/240a/Coin%20Flip.htm
 
 </div>

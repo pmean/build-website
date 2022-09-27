@@ -35,4 +35,9 @@ FONT and you will see the following dialog box.
 Increase the font size to 18 or 24 and everyone will see what you are
 doing much better.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/font-size-in-r/
+[sim2]: http://blog.pmean.com
+
 [kcrug1]: http://www.meetup.com/Kansas-City-R-Users-Group/

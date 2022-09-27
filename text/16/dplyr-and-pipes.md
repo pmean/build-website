@@ -19,6 +19,11 @@ One of the recent developments in R that I was unaware of until I attended some 
 Sean C. Anderson. dplyr and pipes: the basics. Published on September
 13, 2014. Available in [html format][and1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/dplyr-and-pipes/
+[sim2]: http://blog.pmean.com
+
 [and1]: http://seananderson.ca/2014/09/13/dplyr-intro.html
 
 </div>
