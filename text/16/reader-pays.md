@@ -1,5 +1,5 @@
 ---
-title: "PMean: A rant about the reader pays model of publication"
+title: "A rant about the reader pays model of publication"
 author: "Steve Simon"
 source: "http://blog.pmean.com/reader-pays/"
 date: "2016-02-04"

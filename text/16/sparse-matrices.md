@@ -12,9 +12,7 @@ tags:
 output: html_document
 ---
 
-I've been working with sparse matrices a bit for my work with the Greater Plains Collaborative. They are a very useful way of storing matrices where most of the entries are zero. This occurs quite often in medical data. There are thousands of medical procedures that you can torture your patients with, so any matrix that has indicator variables for every medical procedure will be quite big. Fortunately, both for us and for the patients, the number of procedures that a particular patient has to endure is quite a bit smaller. So for each row of the matrix, the number of non-zero entries will be very small, probably in the single digits. A sparse matrix will be much smaller because it stores only the location of the non-zero entries. Here's some R code that shows how this works. I have the [code][sim3]
-available at my [new github
-site][sim4].
+I've been working with sparse matrices a bit for my work with the Greater Plains Collaborative. They are a very useful way of storing matrices where most of the entries are zero. This occurs quite often in medical data. There are thousands of medical procedures that you can torture your patients with, so any matrix that has indicator variables for every medical procedure will be quite big. Fortunately, both for us and for the patients, the number of procedures that a particular patient has to endure is quite a bit smaller. So for each row of the matrix, the number of non-zero entries will be very small, probably in the single digits. A sparse matrix will be much smaller because it stores only the location of the non-zero entries. Here's some R code that shows how this works. I have the [code][sim3] available at my [new github site][sim4].
 
 [sim3]: https://github.com/pmean/sparse-matrices
 [sim4]: https://github.com/pmean
@@ -39,8 +37,7 @@ library("Matrix")
 library("knitr")
 ```
 
-Set up a matrix where all the entries are zero, except for every power
-of 2.
+Set up a matrix where all the entries are zero, except for every power of 2.
 
 ``` {.r}
 nt <- 7
@@ -75,20 +72,13 @@ str(m)
 
     ##  num [1:16, 1:8] 1 1 0 1 0 0 0 1 0 0 ...
 
-This is a regular matrix with 128 entries arranged in 16 rows and 8
-columns. Exactly 8 values are non-zero.
+This is a regular matrix with 128 entries arranged in 16 rows and 8 columns. Exactly 8 values are non-zero.
 
-A sparse matrix is a matrix that only stores the non-zero values and
-their locations. If the matrix is very large and most of the values are
-zero, then you can represent even a very very large matrix as a sparse
-matrix without exceeding the memory limits of R.
+A sparse matrix is a matrix that only stores the non-zero values and their locations. If the matrix is very large and most of the values are zero, then you can represent even a very very large matrix as a sparse matrix without exceeding the memory limits of R.
 
-To create a sparse matrix, you need a special library. The one you see
-here, Matrix, is a popular one that is supported by (among other things)
-the glmnet package.
+To create a sparse matrix, you need a special library. The one you see here, Matrix, is a popular one that is supported by (among other things) the glmnet package.
 
-To create a sparse matrix, use the Matrix function instead of the matrix
-function.
+To create a sparse matrix, use the Matrix function instead of the matrix function.
 
 ``` {.r}
 message("Test 2")
@@ -129,21 +119,11 @@ str(s)
     ##   ..@ x       : num [1:8] 1 1 1 1 1 1 1 1
     ##   ..@ factors : list()
 
-The sparse matrix is stored as an S4 object. The pieces of the S4 object
-are a bit tricky to interpret. The values stored in i: 0, 1, 3, 7, 15,
-15, 15, 15 tell you which rows the non-zero values are stored in. The
-trick here is that Matrix adopts the convention of C++ and many other
-languages that the first row (and the first column) of a matrix start at
-zero. In R, the first row (and the first column) of a matrix starts at
-one.
+The sparse matrix is stored as an S4 object. The pieces of the S4 object are a bit tricky to interpret. The values stored in i: 0, 1, 3, 7, 15, 15, 15, 15 tell you which rows the non-zero values are stored in. The trick here is that Matrix adopts the convention of C++ and many other languages that the first row (and the first column) of a matrix start at zero. In R, the first row (and the first column) of a matrix starts at one.
 
-There are some good reasons why you might prefer the C++ numbering
-convention and some good reasons why you might prefer the R numbering
-convention. If it helps, you can list the rows in R format by adding
-one: 1, 2, 4, 8, 16, 16, 16, 16.
+There are some good reasons why you might prefer the C++ numbering convention and some good reasons why you might prefer the R numbering convention. If it helps, you can list the rows in R format by adding one: 1, 2, 4, 8, 16, 16, 16, 16.
 
-You can use the dimnames funtion to label the rows and columns of s in
-the C++ numbering convention.
+You can use the dimnames funtion to label the rows and columns of s in the C++ numbering convention.
 
 ``` {.r}
 dimnames(s) <- list(0:(2^(nt-nc)-1), 0:(2^nc-1))
@@ -169,30 +149,15 @@ s
     ## 14 . . . . . . . .
     ## 15 1 1 . 1 . . . 1
 
-Now knowing which row is only half the battle. You also need to know
-which column. The columns are designated by a pointer stored in p: 0, 5,
-6, 6, 7, 7, 7, 7, 8. Pointers are commonly used in C++, but are an alien
-concept to most R programmers (or maybe just this R programmer).
+Now knowing which row is only half the battle. You also need to know which column. The columns are designated by a pointer stored in p: 0, 5, 6, 6, 7, 7, 7, 7, 8. Pointers are commonly used in C++, but are an alien concept to most R programmers (or maybe just this R programmer).
 
-The first two pointers: 0, 5 tell you that the rows listed in i,
-starting at the 0 location and going up to but not including the 5
-position are rows in the first column. Remember that Matrix, like C++,
-starts counting at 0, not 1. So the first column has entries in the
-following rows: 0, 1, 3, 7, 15.
+The first two pointers: 0, 5 tell you that the rows listed in i, starting at the 0 location and going up to but not including the 5 position are rows in the first column. Remember that Matrix, like C++, starts counting at 0, not 1. So the first column has entries in the following rows: 0, 1, 3, 7, 15.
 
-The second and third pointers: 5, 6 tell you that the fifth row
-position: 15 is in the second column. Since the third and the third
-pointers: 6, 6 are the same, there are no non-zero entries in the third
-row.
+The second and third pointers: 5, 6 tell you that the fifth row position: 15 is in the second column. Since the third and the third pointers: 6, 6 are the same, there are no non-zero entries in the third row.
 
-Are you confused by all this? I know I am. The help file, though, has a
-nice hint. Calculate the difference between successive pointer values:
-5, 1, 0, 1, 0, 0, 0, 1. This will tell you that the first column has 5
-entries, the second column has 1 entry, the third column has 0 entries
-and so forth.
+Are you confused by all this? I know I am. The help file, though, has a nice hint. Calculate the difference between successive pointer values: 5, 1, 0, 1, 0, 0, 0, 1. This will tell you that the first column has 5 entries, the second column has 1 entry, the third column has 0 entries and so forth.
 
-You can use the rep function to compute the column indices that go with
-the row indices.
+You can use the rep function to compute the column indices that go with the row indices.
 
 ``` {.r}
 j <- rep(0:(2^nc-1), diff(s@p))
@@ -209,8 +174,7 @@ print(data.frame(i=s@i, j))
     ## 7 15 3
     ## 8 15 7
 
-You can create a sparse matrix by specifying the non-zero rows and
-columns.
+You can create a sparse matrix by specifying the non-zero rows and columns.
 
 ``` {.r}
 row.indices <- s@i+1
@@ -237,16 +201,9 @@ sparseMatrix(i=row.indices, j=col.indices, dims=c(2^(nt-nc), 2^nc), x=1)
     ## [15,] . . . . . . . .
     ## [16,] 1 1 . 1 . . . 1
 
-The values stored in x: 1, 1, 1, 1, 1, 1, 1, 1 are all ones because in
-this example, all the non-zero entries are one. That's not always the
-case, which is why the sparse matrix stores the individual non-zero
-values. This is a pattern matrix, a sparse matrix where all the values
-are either zero or one (mostly zeros, of course, or the matrix isn't
-sparse). You might be able to improve slightly on
+The values stored in x: 1, 1, 1, 1, 1, 1, 1, 1 are all ones because in this example, all the non-zero entries are one. That's not always the case, which is why the sparse matrix stores the individual non-zero values. This is a pattern matrix, a sparse matrix where all the values are either zero or one (mostly zeros, of course, or the matrix isn't sparse). You might be able to improve slightly on
 
-The regular matrix takes up 1224 bytes. The sparse matrix takes up 2984
-bytes. That seems odd, but the sparse matrix format only makes sense
-when the matrices get really really large.
+The regular matrix takes up 1224 bytes. The sparse matrix takes up 2984 bytes. That seems odd, but the sparse matrix format only makes sense when the matrices get really really large.
 
 ``` {.r}
 for (i in 1:5) {
@@ -283,34 +240,17 @@ for (i in 1:5) {
 
 Some additional observations (December 18, 2018).
 
-The pointer format is usually quite efficient, but there are other
-alternatives. You can store the row and column locations for every
-non-zero element. This is the T format. With pointers, I showed the
-format with row locations and column pointers, but you could just as
-easily have listed the column location and row pointers. These are the?
-(C and R formats), respectively.
+The pointer format is usually quite efficient, but there are other alternatives. You can store the row and column locations for every non-zero element. This is the T format. With pointers, I showed the format with row locations and column pointers, but you could just as easily have listed the column location and row pointers. These are the? (C and R formats), respectively.
 
-If you matrix contains only zeros and ones, you can save a bit more
-storage by using a binary or logical format, which is designated by the
-letter n (versus d for a non-binary format).
+If you matrix contains only zeros and ones, you can save a bit more storage by using a binary or logical format, which is designated by the letter n (versus d for a non-binary format).
 
-Matrices with particular structures can also save space. You can
-designate a symmetric (s) or triangular (t) structure. Use g to
-designate no structure.
+Matrices with particular structures can also save space. You can designate a symmetric (s) or triangular (t) structure. Use g to designate no structure.
 
-You can also store matrices in a non-sparse or dense format, and these
-come in packed and nonpacked formats. A packed format dispenses with the
-redundant portions of the symmetric or triangular matrices.
+You can also store matrices in a non-sparse or dense format, and these come in packed and nonpacked formats. A packed format dispenses with the redundant portions of the symmetric or triangular matrices.
 
-Finally, if you know that your matrix has to be positive definite, or
-positive semi-definite, then you can save a bit of space as well thanks
-to the Cholesky decomposition. These matrices are designated by the
-letters "pp" for the packed version and "po" for the unpacked version.
+Finally, if you know that your matrix has to be positive definite, or positive semi-definite, then you can save a bit of space as well thanks to the Cholesky decomposition. These matrices are designated by the letters "pp" for the packed version and "po" for the unpacked version.
 
-You can combine these in various ways, leading to a dizzying number of
-formats, but once you understand the code, it gets a bit easier. So the
-nsCMatrix class represents a binary (n) symmetric (s) matrix stored in a
-sparse format with column pointers (C).
+You can combine these in various ways, leading to a dizzying number of formats, but once you understand the code, it gets a bit easier. So the nsCMatrix class represents a binary (n) symmetric (s) matrix stored in a sparse format with column pointers (C).
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

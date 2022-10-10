@@ -29,7 +29,7 @@ draw.circle(5, 25, 5, lty="dotted")
 text(5, 80, "r=5 (usr)")
 ```
 
-![Circle in user coordinates](circle01.jpg){width="448" height="320"}
+![Circle in user coordinates](http://www.pmean.com/new-images/16/circle01.jpg){width="448" height="320"}
 
 ``` {.r}
 dv <- dev.size()
@@ -94,7 +94,7 @@ draw.circle(15, 25, 0.5, convert_to_inches, col="red")
 text(15, 25, "r=0.5 (in)")
 ```
 
-![Circle in user coordinates](circle02.jpg){width="448" height="320"}
+![Circle in user coordinates](http://www.pmean.com/new-images/16/circle02.jpg){width="448" height="320"}
 
 The concept of inches in a graph is a loose one at best. The half inch radius shown above might appears slightly bigger or slightly smaller than a half inch and it will probably change when you move from one computer monitor to another. The size will probably change when you print this graph.
 
@@ -112,7 +112,7 @@ points(rep(10, 4), 10*(1:4), pch="o", cex=1:4, col=co)
 points(rep(15, 4), 10*(1:4), pch="O", cex=1:4, col=co)
 ```
 
-![Circle in user coordinates](circle03.jpg){width="448" height="320"}
+![Circle in user coordinates](http://www.pmean.com/new-images/16/circle03.jpg){width="448" height="320"}
 
 Notice the subtle differences in shape and thickness.
 

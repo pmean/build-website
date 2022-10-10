@@ -1,5 +1,5 @@
 ---
-title: "PMean: Calculating 90 day readmission rates"
+title: "Calculating 90 day readmission rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/readmission-rates/"
 date: "2016-04-27"

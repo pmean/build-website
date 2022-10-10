@@ -14,5 +14,8 @@ I have not seen this book, but it comes highly recommended by Frank Harrell, whi
 
 Michael C. Whitlock, Dolph Shluter. The Analysis of Biological Data. W.H. Freeman, ISBN: 978-1936221486.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/analysis-biological-data/
+[sim2]: http://blog.pmean.com
 
