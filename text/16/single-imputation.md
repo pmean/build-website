@@ -200,4 +200,9 @@ string of 0s and 1s.
  {#simple-imputation .section .level2}
 ```
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/single-imputation/
+[sim2]: http://blog.pmean.com
+
 [sim3]: https://github.com/pmean/single-imputation

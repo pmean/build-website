@@ -19,6 +19,11 @@ I'm an experienced R programmer trying to learn a little about SQL. One of my go
 
 Steve Jones. Where Do You Run Your R Scripts? SQL Server Central Blog. 2016-10-20. Available in [html format][jon1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/r-and-sqlserver/
+[sim2]: http://blog.pmean.com
+
 [jon1]: http://www.sqlservercentral.com/articles/Editorial/147834/
 
 </div>

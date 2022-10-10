@@ -51,3 +51,8 @@ Still, you have to use some criteria for picking a package, so I thought I'd sha
 Addendum (2018-03-27): If you don't know ANY package that will do what you want, you might want to consult the [CRAN Task Views page][p7] which lists packages in broad categories like Finance, Genetics, or Time Series. These lists are VERY detailed, and it is unlikely to leave out any package that even remotely fits into the category.
 
 [p7]: https://cran.r-project.org/web/views/
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/which-r-package/
+[sim2]: http://blog.pmean.com

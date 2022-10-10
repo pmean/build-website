@@ -37,3 +37,8 @@ Change the double backticks to triple backticks.
 I normally give names to my chunks, but not here. If you turn off and on and off again, then you have to worry about duplicate chunk labels, which gets tedious. It's simpler to leave these small chunks unnamed.
 
 Historical note: I originally included dummy functions: turn\_off\_evaluation in the first chunk and turn\_on\_evaluation in the second chunk. It had made it easier to navigate through R Studio. But recent changes to RStudio include any double pound (\#\#) comments in the navigation. Hooray, because life is simpler with those comments instead of the dummy functions.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/turning-off-large-blocks/
+[sim2]: http://blog.pmean.com

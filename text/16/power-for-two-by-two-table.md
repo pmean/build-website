@@ -59,3 +59,8 @@ Eeeek! It does simplify a bit. The left hand side is a now a standard normal. An
 ![](http://www.pmean.com/new-images/16/power-for-two-by-two-table08.gif)
 
 It's still a bit messy but manageable. If you wanted to get a sample size that provides you with a specific amount of power, you set that messy thing on the right side of the inequality equal to the 1-beta percentile of a standard normal distribution and solve for the sample size. There are actually two sample sizes here, so you need to assume that the sample sizes of the two groups are equal or perhaps that they vary in a certain ratio (2 to 1 in the example above). I won't show all the details, but like everything else here, it is more tedious than difficult.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/power-for-two-by-two-table/
+[sim2]: http://blog.pmean.com

@@ -43,3 +43,8 @@ Nicky Best, Alexina Mason and Philip Li, Bayesian Hierarchical Modelling using W
 Are you confused yet? The good news is that you have some latitude in making choices that fit your individual needs. The bad news is that when you try to publish, the peer reviewers are going to make you change your prior choice to the one they like best, and there's no way of predicting what their choice will be.
 
 I should read some of the books in my library and check out some peer-reviewed references.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/too-many-priors/
+[sim2]: http://blog.pmean.com

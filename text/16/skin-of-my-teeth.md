@@ -35,3 +35,8 @@ I've always been a last minute sort of person, but this is a personal best (or w
 Now it's time to start on income taxes. I got a six month extension, but that expires on October 15.
 
 ![](http://www.pmean.com/new-images/16/skin-of-my-teeth01.png)
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/skin-of-my-teeth/
+[sim2]: http://blog.pmean.com

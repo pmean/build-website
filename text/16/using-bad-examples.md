@@ -48,3 +48,8 @@ Then tally the strengths and weaknesses of the study. If your students are able 
 Now you probably won't heed my advice. It's too much fun to trash other people's research. But here's an alternative. Find a study that is fatally flawed and pair it with a study of the same topic that is fairly persuasive. These studies could both make the same claim or they could make contradictory claims. It doesn't matter. Contrast what one researcher team did well to what the other team did not (or could not).
 
 If you don't take the time to pair your bad example with a good example, don't be surprised when your students revert to black-and-white thinking, or if they become cynical or fearful.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/using-bad-examples/
+[sim2]: http://blog.pmean.com

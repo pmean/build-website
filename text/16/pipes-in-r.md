@@ -65,4 +65,9 @@ level1 %>%
 
 If you want to learn more, check out the [magrittr vignette][mag2].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/pipes-in-r/
+[sim2]: http://blog.pmean.com
+
 [mag2]: https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html

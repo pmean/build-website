@@ -18,6 +18,11 @@ I'm working on a project where the researchers need a case-control study, though
 
 Wacholder S et al. Selection of Controls in Case-Control Studies. I. Principles. American Journal of Epidemiology 1992: 135(9); 1019-1028. Available in [html format][wach1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/selection-of-controls/
+[sim2]: http://blog.pmean.com
+
 [wach1]: http://aje.oxfordjournals.org/content/135/9/1019.abstract
 
 </div>

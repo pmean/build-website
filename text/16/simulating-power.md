@@ -44,3 +44,8 @@ Here's what the first few rows of your simulation look like.
 Now tally your results.
 
 Hey look at that. You rejected the null hypothesis exactly 50% of the time. That means that your power is 50%. Re run this simulation with twice as many subjects in each group. What do you get? 
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/simulating-power/
+[sim2]: http://blog.pmean.com

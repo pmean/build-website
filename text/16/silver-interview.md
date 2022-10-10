@@ -23,6 +23,11 @@ If Nate Silver can say something this controversial, then maybe I shouldn't be s
 Anonymous. "Nate Silver: What I need from statisticians. Statistics
 Views 2013 (August 23). Available in [html format][silv1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/silver-interview/
+[sim2]: http://blog.pmean.com
+
 [silv1]: http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html
 
 </div>

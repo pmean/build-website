@@ -19,6 +19,11 @@ There are several rules of thumb out there about how many subjects that you need
 
 Austin PC, Steyerberg EW. The number of subjects per variable required in linear regression analyses. Journal of Clinical Epidemiology 2015, 68(6):627-636. Available in [html format][aus1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/subjects-per-variable/
+[sim2]: http://blog.pmean.com
+
 [aus1]: http://europepmc.org/abstract/med/25704724
 
 </div>

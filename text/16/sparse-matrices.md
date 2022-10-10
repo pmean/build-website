@@ -312,4 +312,7 @@ formats, but once you understand the code, it gets a bit easier. So the
 nsCMatrix class represents a binary (n) symmetric (s) matrix stored in a
 sparse format with column pointers (C).
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/sparse-matrices/
+[sim2]: http://blog.pmean.com

@@ -18,6 +18,11 @@ Michael Lauer, the Deputy Director for Extramural Research at the United States 
 
 Michael Lauer. "A Grant Submission New Year's Resolution" published December 20, 2015 on the Open Mike blog. Available in [html format][lau1]
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/procrastination/
+[sim2]: http://blog.pmean.com
+
 [lau1]: http://nexus.od.nih.gov/all/2015/12/30/grant-submission-new-years-resolution/
 
 </div>

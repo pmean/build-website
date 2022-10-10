@@ -24,5 +24,11 @@ doi:10.1371/journal.pone.0150341. Available in [html format][plos1].
 
 ![](http://www.pmean.com/new-images/16/plos-one-201502.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/plos-one-2015/
+[sim2]: http://blog.pmean.com
+
+
 [sim1]: http://new.pmean.com/plos-one-reviewer/index.html
 

@@ -79,3 +79,7 @@ Wikipedia. Entity-attribute-value model. Wikipedia, n.d. Available in [html form
 
 [wik1]: https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value\_model
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/structure-i2b2/
+[sim2]: http://blog.pmean.com

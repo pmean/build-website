@@ -18,6 +18,11 @@ I'm an old dog R programmer who tends to rely on features of R that were availab
 
 Annoynmous. Tibbles. Created 2016-07-04. Available in [html format][tibb1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/tibbles/
+[sim2]: http://blog.pmean.com
+
 [tibb1]: https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html
 
 </div>

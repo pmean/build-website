@@ -18,6 +18,11 @@ This is a nice compilation of issues that you should be concerned. The examples 
 
 Patric Riley. Practical advice for analysis of large, complex data sets. The Unofficial Google Data Science Blog. Published October 31, 2016. Available in [html format][rile1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/practical-advice/
+[sim2]: http://blog.pmean.com
+
 [rile1]: http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
 
 <div>

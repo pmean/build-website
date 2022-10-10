@@ -33,4 +33,9 @@ This is the change you'd make using pipes.
 
 Much less chance of making an error.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/pipes-in-r-2/
+[sim2]: http://blog.pmean.com
+
 [sim1]: http://new.pmean.com/pipes-in-r/index.html

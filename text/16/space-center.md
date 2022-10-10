@@ -20,6 +20,11 @@ The other interesting thing is that they say that "accreditation by the American
 
 USA Jobs. "Lyndon B. Johnson Space Center." Accessed on 1-13-2016. Available in [html format][usa1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/space-center/
+[sim2]: http://blog.pmean.com
+
 [usa1]: https://www.usajobs.gov/GetJob/ViewDetails/425199400
 
 </div>

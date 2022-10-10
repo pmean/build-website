@@ -197,4 +197,7 @@ regular expressions. In particular, I have found the ability to match
 only at the beginning (\^) or only at the end (\$) of a string to be
 very useful.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/string-substitions/
+[sim2]: http://blog.pmean.com

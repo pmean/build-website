@@ -65,3 +65,8 @@ We decided in 2004 to adopt a child from Russia, who we named Nicholas. Nicholas
 I decided in 2011 to take up running, partly as a way to build up endurance for the many games of tag, kickball, soccer, etc. that Nicholas wanted to play. I tracked all my runs on a GPS app on my smart phone and started running in organized 5 kilometer and 4 mile races. I've also run in an occasional 8 or 10 kilometer race, but am not anywhere close to the longer distances like the half marathon. I set a pretty slow pace on my runs. My best 5K time is 34 minutes, but these days, my 5K times are closer to 40 minutes. Even though I am one of the last runners to finish these races, I do take pride in being able to run for 40 minutes without stopping and resting.
 
 I want to add a few more details, but that's the big picture.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/personal-biography/
+[sim2]: http://blog.pmean.com
