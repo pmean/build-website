@@ -2,6 +2,7 @@
 
 suppressMessages(suppressWarnings(library(base64enc)))
 suppressMessages(suppressWarnings(library(curl     )))
+suppressMessages(suppressWarnings(library(glue     )))
 suppressMessages(suppressWarnings(library(knitr    )))
 suppressMessages(suppressWarnings(library(lubridate)))
 suppressMessages(suppressWarnings(library(magrittr )))
@@ -12,47 +13,49 @@ suppressMessages(suppressWarnings(library(tidyverse)))
 
 source(file="src/standard_functions.R")
 
-v <- TRUE
-
 clean_files <- function(
-    search_string, 
-    replace_string="Not yet", 
+    old, 
+    new="Not yet", 
     dir_root="text", 
-    subdir_list=c("99", zpad(0:21), "no"),
-    file_pattern="*\\.md$", 
-    original_string=search_string,
-    v=TRUE) {
+    subdir_list=c("99", zpad(0:22)),
+    file_pattern="*\\.md$") {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
   k <- 0
   for (subdir in subdir_list) {
-    list.files(dir_root %s% subdir) %>%
+    print(subdir)
+    glue("{dir_root}/{subdir}") %>%
+      list.files %>%
       str_subset(file_pattern) -> file_list
-    "\nSearching through" %b% 
-      length(file_list) %b% 
-      "files in" %b%
-      dir_root %s% 
-      subdir %>%
-      br -> message
+    glue{
+      "\nSearching through ",
+      "{length(file_list)} ",
+      "files in {dir_root}/",
+      "{subdir}\n\n" -> message
     if (verbose) cat(message)
     for (i_file in file_list) {
-      dir_root %s% subdir %s% i_file -> fn
+      fn <- glue("{dir_root}/{subdir}/{i_file}")
       tx <- read_lines(fn)
-      found_lines <- str_which(tx, search_string)
+      tf <- str_subset(tx, old)
       if (length(found_lines)==0) next
       k <- k+1
-      "\n\n" %0% fn %>% br %>% cat
-      str_c(tx[found_lines], collapse="\n") %>% cat
-      if (replace_string!="Not yet") {
-        tx %<>% str_replace_all(original_string, replace_string)
-        "\n" %0% str_c(tx[found_lines], collapse="\n") %>% cat
+      cat(glue("\n\n{fn}\n\n"))
+      if (new != "Not yet") {
+        ty <- str_replace_all(tf, old, new)
+        tf <- paste(tf, ty, sep="\n")
+      }
+      cat(paste0(tf, collapse="\n\n"))
       if (ok_to_replace) {
-        writeLines(tx, con=fn)}
+        tx %>%
+          str_replace_all(old, new) %>%
+          write_lines(fn)
+      }
       }
     }
   }
-  "\n\nTotal files" %b% 
-    ifelse(ok_to_replace, "replaced", "to be replaced") %b%
-    k %>% cat
+  glue(
+    "\n\nTotal files ",
+    "{ifelse(ok_to_replace, "", "to be ")}",
+    "replaced = {k}"}) %>% cat
 }
 
 verbose <- TRUE
@@ -60,10 +63,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'title: "PMean: ',
-  'title: "',
+  'xcvgit',
+  'dissertation defense',
   dir_root="text", 
-  file_pattern="md$",
-  subdir_list=zpad(c(99, 0:22))
-)
-
+  file_pattern="md$")
