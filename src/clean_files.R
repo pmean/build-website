@@ -60,10 +60,10 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'zzz',
-  'yyy',
+  'title: "PMean: ',
+  'title: "',
   dir_root="text", 
   file_pattern="md$",
-  subdir_list=zpad(c(99, 0:8))
+  subdir_list=zpad(c(99, 0:22))
 )
 

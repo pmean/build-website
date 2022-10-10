@@ -1,5 +1,5 @@
 ---
-title: "PMean: UMKC is now offering Qualtrics software to researchers"
+title: "UMKC is now offering Qualtrics software to researchers"
 author: "Steve Simon"
 source: "http://blog.pmean.com/qualtrics/"
 date: "2016-01-19"

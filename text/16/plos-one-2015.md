@@ -11,7 +11,7 @@ tags:
 output: html_document
 ---
 
-I reviewed a paper for PLOS One in 2014 and got a [nice acknowledgment][sim1], but I also reviewed a paper for the same journal in 2015. Here's the acknowledgment for that contribution. They're still having a bit of trouble with alphabetization (Steve Simon should be the last "Simon" on the list, but it's not). Still, it's nice to have a public record of my small contribution.
+I reviewed a paper for PLOS One in 2014 and got a [nice acknowledgment][sim3], but I also reviewed a paper for the same journal in 2015. Here's the acknowledgment for that contribution. They're still having a bit of trouble with alphabetization (Steve Simon should be the last "Simon" on the list, but it's not). Still, it's nice to have a public record of my small contribution.
 
 <!---More--->
 
@@ -29,6 +29,5 @@ You can find an [earlier version][sim1] of this page on my [blog][sim2].
 [sim1]: http://blog.pmean.com/plos-one-2015/
 [sim2]: http://blog.pmean.com
 
-
-[sim1]: http://new.pmean.com/plos-one-reviewer/index.html
+[sim3]: http://new.pmean.com/plos-one-reviewer/index.html
 
