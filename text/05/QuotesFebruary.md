@@ -6,13 +6,15 @@ categories:
 - Blog post
 tags:
 - Interesting quotes
+- Obsolete pages
 output: html_document
 ---
-> Note: any quotations on this page have been moved to [Category:
-> Interesting quotes](../quote/InterestingQuotes.asp).
 
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png)](http://creativecommons.org/licenses/by/3.0/us/)
-This work is licensed under a [Creative Commons Attribution 3.0 United
-States License](http://creativecommons.org/licenses/by/3.0/us/). It was
-written by Steve Simon.
+This page is obsolete. You can find links to all my quotes [here][sim3].
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/05/QuotesFebruary.html
+[sim2]: http://www.pmean.com
+
+[sim3]: http://new.pmean.com/categories/quotations/
