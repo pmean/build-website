@@ -1,8 +1,6 @@
 # clean_files.R. This program was written by Steve Simon on 2020-05-24.
 
 suppressMessages(suppressWarnings(library(glue     )))
-# suppressMessages(suppressWarnings(library(knitr    )))
-# suppressMessages(suppressWarnings(library(readr    )))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
 summarize_years <- function(path, site) {
@@ -11,8 +9,10 @@ summarize_years <- function(path, site) {
     str_replace("\\.md", "") -> f
   glue("+ [{f}](http://{site}/{f})")
 }
-yr <- "16"
+
+yr <- "05"
 old <- "blog.pmean.com"
+old <- "www.pmean.com/05"
 
 glue("text/{yr}") %>%
   list.files(pattern="md$") %>%
@@ -36,6 +36,7 @@ glue('
   [2007 (161 pages)](http://new.pmean.com/2007/) |
   [2011 (58 pages)](http://new.pmean.com/2011/) |
   [2015 (55 pages)](http://new.pmean.com/2015/) | 
+  [2016 (99 pages)](http://new.pmean.com/2016/) | 
   [2019 (65 pages)](http://new.pmean.com/2019/)
 
   New website ({k} files)
@@ -44,8 +45,8 @@ glue('
 ')
 
 header %>%
-  append(summarize_years("text/16", "new.pmean.com")) %>%
+  append(summarize_years(glue("text/{yr}"), "new.pmean.com")) %>%
   append("\nOld website\n") %>%
-  append(summarize_years("text/16", old)) -> tx
+  append(summarize_years(glue("text/{yr}"), old)) -> tx
 
-write_lines(tx, "text/16/2016.md")
+write_lines(tx, glue("text/{yr}/20{yr}.md"))
