@@ -11,7 +11,7 @@ suppressMessages(suppressWarnings(library(rmarkdown)))
 suppressMessages(suppressWarnings(library(stringr  )))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
-source(file="src/standard_functions.R")
+# source(file="src/standard_functions.R")
 
 clean_files <- function(
     old, 
@@ -20,24 +20,26 @@ clean_files <- function(
     subdir_list=c("99", zpad(0:22)),
     file_pattern="*\\.md$") {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
-  k <- 0
+  k1 <- 0
+  k2 <- 0
   for (subdir in subdir_list) {
     print(subdir)
     glue("{dir_root}/{subdir}") %>%
       list.files %>%
       str_subset(file_pattern) -> file_list
-    glue{
+    glue(
       "\nSearching through ",
       "{length(file_list)} ",
       "files in {dir_root}/",
-      "{subdir}\n\n" -> message
+      "{subdir}\n\n") -> message
     if (verbose) cat(message)
     for (i_file in file_list) {
+      k1 <- k1+1
       fn <- glue("{dir_root}/{subdir}/{i_file}")
       tx <- read_lines(fn)
       tf <- str_subset(tx, old)
-      if (length(found_lines)==0) next
-      k <- k+1
+      if (length(tf)==0) next
+      k2 <- k2+1
       cat(glue("\n\n{fn}\n\n"))
       if (new != "Not yet") {
         ty <- str_replace_all(tf, old, new)
@@ -49,13 +51,13 @@ clean_files <- function(
           str_replace_all(old, new) %>%
           write_lines(fn)
       }
-      }
     }
   }
   glue(
     "\n\nTotal files ",
-    "{ifelse(ok_to_replace, "", "to be ")}",
-    "replaced = {k}"}) %>% cat
+    "{ifelse(ok_to_replace, '', 'to be ')}",
+    "replaced = {k2} out of ",
+    "{k1} files searched.") %>% cat
 }
 
 verbose <- TRUE
@@ -63,7 +65,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'xcvgit',
-  'dissertation defense',
+  '\\[sim1\\]:',
   dir_root="text", 
+  subdir_list="05",
   file_pattern="md$")
