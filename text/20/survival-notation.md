@@ -5,7 +5,7 @@ date: "2020-10-12"
 categories:
 - Blog post
 tags:
-- Survival models
+- Survival analysis
 output: html_document
 ---
 
