@@ -5,7 +5,7 @@ date: 2005-03-07
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 **[StATS]:** **Review articles on microarrays (March

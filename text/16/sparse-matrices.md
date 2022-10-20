@@ -5,7 +5,7 @@ source: "http://blog.pmean.com/sparse-matrices/"
 date: "2016-05-16"
 category:
 - Blog post
-- Incomplete pages
+- Incomplete page
 tags:
 - Data science
 - R software

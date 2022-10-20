@@ -4,9 +4,9 @@ author: Steve Simon
 date: 2003-11-27
 categories:
 - Blog post
-- Incomplete page
 tags:
 - Hypothesis testing 
+- Incomplete page
 output: html_document
 ---
 There are three approaches that are used to demonstrate equivalence, each with its advantages and disadvantages.

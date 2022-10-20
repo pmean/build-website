@@ -6,7 +6,7 @@ date: 2005-10-24
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 > If you ask most statisticians if they want raw data or processed data,

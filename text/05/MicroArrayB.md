@@ -6,7 +6,7 @@ date: 2005-03-10
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 It's impossible to keep up with the flood of research on microarrays,

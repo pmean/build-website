@@ -6,7 +6,7 @@ date: 2005-07-28
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 > I am looking into a variety of ways to normalize a set of microarrays

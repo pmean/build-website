@@ -5,8 +5,8 @@ source: "http://blog.pmean.com/open-source-km/"
 date: "2016-04-10"
 categories:
 - Blog post
-- Incomplete pages
 tags:
+- Incomplete page
 - Survival analysis
 output: html_document
 ---

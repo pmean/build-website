@@ -5,7 +5,7 @@ source: "http://blog.pmean.com/string-substitutions/"
 date: "2016-07-15"
 category:
 - Blog post
-- Incomplete pages
+- Incomplete page
 tags:
 - R software
 output: html_document

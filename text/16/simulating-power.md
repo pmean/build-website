@@ -5,8 +5,8 @@ source: "http://blog.pmean.com/simulating-power/"
 date: "2016-02-05"
 categories:
 - Blog post
-- Incomplete pages
 tags:
+- Incomplete page
 - Sample size
 output: html_document
 ---

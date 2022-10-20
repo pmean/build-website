@@ -5,7 +5,7 @@ date: 2005-07-26
 categories:
 - Blog post
 tags:
-- Gene expression
+- Genomics analysis
 output: html_document
 ---
 > I'll be taking a short course at the Joint Statistical Meetings next

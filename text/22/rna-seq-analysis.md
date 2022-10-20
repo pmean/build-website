@@ -5,7 +5,7 @@ date: "2022-01-12"
 categories:
 - Recommendation
 tags:
-- Genetics
+- Genomics analysis
 output: html_document
 ---
 

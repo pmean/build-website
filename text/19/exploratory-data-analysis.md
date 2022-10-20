@@ -6,7 +6,7 @@ date: "2019-01-20"
 categories:
 - Quotations
 tags:
-- Exploratory data analysis
+- Human side of statistics
 output: html_document
 ---
 
