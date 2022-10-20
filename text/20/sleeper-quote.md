@@ -3,7 +3,7 @@ title: "Precisely the opposite of what we now know to be true"
 source: "New"
 date: "2020-12-21"
 categories:
-- Quotations
+- Quotation
 tags:
 - Reproducible research
 output: html_document

@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: new
 date: "2020-02-21"
 categories:
-- Quotations
+- Quotation
 tags:
 - Research design
 output: html_document

@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: 2020-08-11
 categories:
-- Quotations
+- Quotation
 tags:
 - Data science
 output: html_document

@@ -3,7 +3,7 @@ title: What do you call the removal of
 author: Steve Simon
 date: 2005-01-24
 categories:
-- Quotations
+- Quotation
 tags:
 - Privacy in research
 output: html_document

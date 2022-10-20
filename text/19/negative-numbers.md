@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/negative-numers/"
 date: "2019-03-08"
 categories:
-- Quotations
+- Quotation
 tags:
 - 
 output: html_document

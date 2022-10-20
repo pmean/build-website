@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/scientific-work/"
 date: "2019-02-26"
 categories:
-- Quotations
+- Quotation
 tags:
 - Critical appraisal
 - Observational studies

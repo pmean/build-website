@@ -4,7 +4,7 @@ author: Steve Simon
 source: http://www.pmean.com/07/WhenITalk.html
 date: 2007-04-11
 categories:
-- Quotations
+- Quotation
 tags:
 - Critical appraisal
 output: html_document

@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/fancy-technologies/"
 date: "2019-02-01"
 categories:
-- Quotations
+- Quotation
 tags:
 - Human side of statistics
 output: html_document
