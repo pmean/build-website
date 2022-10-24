@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: "2020-05-05"
 categories:
-- Quotations
+- Quotation
 tags:
 - Critical appraisal
 output: html_document

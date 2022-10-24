@@ -6,7 +6,7 @@ date: 2005-04-22
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 > One of these days, I will have a coherent set of pages talking about

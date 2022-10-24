@@ -5,7 +5,7 @@ source: "http://blog.pmean.com/ten-simple-rules/"
 date: "2016-06-10"
 category: 
 - Recommendation
-- Incomplete pages
+- Incomplete page
 tags:
 - Human side of statistics
 output: html_document

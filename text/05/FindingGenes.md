@@ -5,7 +5,7 @@ date: 2005-09-06
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 

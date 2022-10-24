@@ -217,77 +217,53 @@ There are several important business details that you need to address when you s
 Introduction
 
 - Simon SD. How independent consulting is different.  Available in [html format][sim6].
-
-[sim6]: http://www.pmean.com/11/ConsultingDifferences.html
-
 - Simon SD. Promoting your consulting career in the era of web 2.0. Available in [html format][sim5].
-
-[sim5]: http://www.pmean.com/12/promoting.html
-
 - Simon SD. Topic page: The human side of statistics. Available in [html format][sim4].
-
-[sim4]: http://www.pmean.com/category/HumanSideStatistics.html
 - Simon SD. Blog tag: The human side of statistics. Available in [html format][sim3].
-
-[sim3]: http://blog.pmean.com/tag/human-side-of-statistics/
 
 Business models
 
 - New York Times. Advantages and disadvantages of sole proprietorship  (June 5, 2007). Available in [html format][nyt1].
-
-[nyt1]: https://www.nytimes.com/allbusiness/AB4113314_primary.html
-
 - U.S. Small Business Administration. Limited Liability Company. Available in [html format][sba2].
-
-[sba2]: https://www.sba.gov/content/limited-liability-company-llc
-
 - Wikipedia. Limited Liability Company. Available in [html format][wik1].
-
-[wik1]: https://en.wikipedia.org/wiki/Limited_liability_company
-
 - U.S. Small Business Administration. Partnership. Available in [html format][sba1].
-
-[sba1]: https://www.sba.gov/content/partnership
-
 - U.S. Internal Revenue Service. S corporations. Available in [html format][irs2].
-
-[irs2]: https://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/S-Corporations
 
 Billing
 
 - Copeland K, Max TA, Devlin S. Going Rates for Statistical Consulting. Newsletter of the Statistical Consulting Section of the American Statistical Association (Spring 2006). Available in [pdf format][cop1].
 
-[cop1]: https://www.amstat.org/sections/cnsl/newsletter/pdf/archive/vol23no1.pdf
-
 Accounting
 
 - U.S. Internal Review Service. Deducting Business Expenses. Available in [html format][irs1].
-
-[irs1]: https://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Deducting-Business-Expenses
-
 - Rankin B. Seven alternatives to Quickbooks. The Rankin File blog (2014, March 17). Available in [html format][ran1].
-
-[ran1]: https://rankinfile.com/seven-alternatives-to-quickbooks.html
 
 Insurance
 
 - U.S. Small Business Administration. Types of business insurance. Available in [html format][sba3].
-
-[sba3]: https://www.sba.gov/content/types-business-insurance
-
 - Hannon K. The Best Ways To Find Health Insurance if You Are Self-Employed In 2012. Forbes (2012, January 4). Available in [html format][han1].
-
-[han1]: https://www.forbes.com/sites/kerryhannon/2012/01/04/the-best-ways-to-find-health-insurance-if-you-are-self-employed-in-2012/
 
 - Little M. When should consultants buy professional liability insurance. Tech Republic (2002, February 19).  Available in [html format][lit1].
 
-[lit1]: https://www.techrepublic.com/article/when-should-consultants-buy-professional-liability-insurance/
-
 - CNN Money. I'm self-employed. What are my saving options? Available in [html format][cnn1].
-
-[cnn1]: https://money.cnn.com/retirement/guide/selfemployment/basics.moneymag/
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
 [sim1]: http://blog.pmean.com/business-essentials/
 [sim2]: http://blog.pmean.com
+
+[cnn1]: https://money.cnn.com/retirement/guide/selfemployment/basics.moneymag/
+[lit1]: https://www.techrepublic.com/article/when-should-consultants-buy-professional-liability-insurance/
+[cop1]: https://www.amstat.org/sections/cnsl/newsletter/pdf/archive/vol23no1.pdf
+[sba1]: https://www.sba.gov/content/partnership[nyt1]: https://www.nytimes.com/allbusiness/AB4113314_primary.html
+[sim3]: http://blog.pmean.com/tag/human-side-of-statistics/
+[sim4]: http://www.pmean.com/category/HumanSideStatistics.html
+[sim5]: http://www.pmean.com/12/promoting.html
+[sim6]: http://www.pmean.com/11/ConsultingDifferences.html
+[sba2]: https://www.sba.gov/content/limited-liability-company-llc
+[wik1]: https://en.wikipedia.org/wiki/Limited_liability_company
+[irs2]: https://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/S-Corporations
+[irs1]: https://www.irs.gov/Businesses/Small-Businesses-&-Self-Employed/Deducting-Business-Expenses
+[ran1]: https://rankinfile.com/seven-alternatives-to-quickbooks.html
+[sba3]: https://www.sba.gov/content/types-business-insurance
+[han1]: https://www.forbes.com/sites/kerryhannon/2012/01/04/the-best-ways-to-find-health-insurance-if-you-are-self-employed-in-2012/

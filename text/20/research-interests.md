@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Professional details
-output: html_document
+output: powerpoint_presentation
 ---
 
 ### Goal of this talk

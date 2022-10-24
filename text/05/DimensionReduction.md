@@ -5,7 +5,7 @@ date: 2005-05-25
 categories:
 - Blog post
 tags:
-- Gene expression 
+- Genomics analysis 
 output: html_document
 ---
 > Given the large number of genes in a microarray experiment, you need

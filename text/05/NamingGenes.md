@@ -6,7 +6,7 @@ date: 2005-09-08
 categories:
 - Blog post
 tags:
-- Genomics
+- Genomics analysis
 output: html_document
 ---
 **[StATS]:** **Naming conventions for genes,

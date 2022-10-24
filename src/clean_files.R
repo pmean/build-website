@@ -65,7 +65,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '\\[sim1\\]:',
+  '- Quotations',
+  '- Quotation',
   dir_root="text", 
-  subdir_list="05",
   file_pattern="md$")

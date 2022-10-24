@@ -6,7 +6,7 @@ date: 2005-10-14
 categories:
 - Blog post
 tags:
-- Genomics
+- Genomics analysis
 output: html_document
 ---
 **[StATS]:** **A totally negative microarray

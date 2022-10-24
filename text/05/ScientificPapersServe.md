@@ -3,7 +3,7 @@ title: Scientific papers serve the needs of their authors
 author: Steve Simon
 date: 2005-02-21
 categories:
-- Quotations
+- Quotation
 tags:
 - Writing research papers
 output: html_document

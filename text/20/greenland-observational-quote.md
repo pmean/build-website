@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "New"
 date: "2020-05-23"
 categories:
-- Quotations
+- Quotation
 tags:
 - Observational studies
 output: html_document

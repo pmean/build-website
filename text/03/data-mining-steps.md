@@ -4,10 +4,10 @@ author: Steve Simon
 date: 2003-09-22
 categories:
 - Blog post
-- Broken link
-- Incomplete page
 tags:
+- Broken link
 - Data mining
+- Incomplete page
 output: html_document
 ---
 

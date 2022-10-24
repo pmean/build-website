@@ -3,7 +3,7 @@ title: You have to make a distinction between the science and the technological 
 author: Steve Simon
 date: 2005-05-16
 categories:
-- Quotations
+- Quotation
 tags:
 - Theory versus practice
 output: html_document

@@ -3,7 +3,7 @@ title: No human investigation can be called real science
 author: Steve Simon
 date: 2005-01-24
 categories:
-- Quotations
+- Quotation
 tags:
 - Mathematics
 output: html_document

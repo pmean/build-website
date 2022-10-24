@@ -3,7 +3,7 @@ title: One of the naturalists had argued that
 author: Steve Simon
 date: 2007-04-09
 categories:
-- Quotations
+- Quotation
 tags:
 - Theory versus practice
 output: html_document

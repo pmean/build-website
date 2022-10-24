@@ -4,13 +4,13 @@ author: Steve Simon
 source: http://www.pmean.com/05/AllModelsAre.html
 date: 2005-09-15
 categories:
-- Quotations
+- Quotation
 tags:
 - Statistical models
 output: html_document
 ---
 
-*All models are wrong, but some are useful* George Box, as quoted in [wikiquote][wik1],
+*All models are wrong, but some are useful* George Box, as quoted in [wikiquote][wik1].
 
 <!---More--->
 

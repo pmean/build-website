@@ -8,7 +8,7 @@ categories:
 tags:
 - Obsolete page
 - Website details
-- Quotations
+- Quotation
 output: html_document
 ---
 

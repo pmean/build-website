@@ -5,7 +5,7 @@ source: "http://blog.pmean.com/measuring-pixels/"
 date: "2016-11-01"
 category: 
 - Blog post
-- Incomplete pages
+- Incomplete page
 tags:
 - Cheat sheet
 - R software
