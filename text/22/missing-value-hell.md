@@ -32,32 +32,19 @@ and everything goes to hell.
 
 A while back I was browsing through the geekier parts of Office Max and noticed the following tag.
 
-![Figure 2. Printer pricing tage](http://www.pmean.com/new-images/22/missing-value-hell-02.png)
+![Figure 2. Printer pricing tag](http://www.pmean.com/new-images/22/missing-value-hell-02.jpg)
 
-The computer database used the common practice of using all 9's to denote a missing value. That's fine, but then whoever programmed the calculation of how much saving you would get by buying the printer at \$299.99 dollars instead of the actual price, figured through a simple subtraction that you would save a whopping \$9,700!
-
-### How to avoid missing value problems
-
-Whenever I see stories like this, I think of the quote from John Bradford, a sixteenth century preacher--"There but for the grace of God go I."
-
-How easy it is to forget to account for missing values. To avoid this, you must develop an obsession about missing values. You must track their number through every version of every dataset. This number can grow, if you are not careful, so monitor it with a religious fervor.
-
-If you recode any variable, always account for missing values first and last. So start off any recodes with the case where the original variable is missing and end with a catch-all code. Consider a variable for gender with 1 for male, 2 for female, and 9 for unknown. Then a recode in SAS might look like
-
-```{}
-if gender=9 then gender_label="Unknown";
-  else if gender=1 then gender_label="Male";
-  else if gender=2 then gender_label="Female";
-  else gender_label="Coding error";
-```
-
-The syntax changes slightly with other statistical packages, but the general concept applies. Account for missing value codes first and then catch anything that fails to match at the end.
+The computer database used the common practice of using all 9's to denote a missing value. That's fine, but then whoever programmed the calculation of how much saving you would get blew it. They calculated the savings a simple subtraction that ended up ignoring the obvious missing value code. So you can sue Office Max for false advertising, because there's no way that you would end up saving \$9,700!
 
 ### Hunting for missing values 
 
-Every statistical package has a different internal code used for missing values, and this can cause problems if you are not aware of them.
+Whenever I see stories like this, I think of the quote from John Bradford, a sixteenth century preacher--"There but for the grace of God go I."
 
-SAS stores the missing value as the most extremely negative number that could be stored in floating point precision. You are not likely to have extremely negative values in a real application, so this protects you from a legitimate data value being mistaken for a missing value.
+How easy it is to forget to account for missing values. To avoid this, you must develop an obsession about missing values.
+
+Unfortunately, every statistical package has a different internal code used for missing values. All approaches lead to problems and the only way to protect yourself is to be aware of the approach your favorite package uses to designate missingness.
+
+SAS stores the missing value as the most extremely negative number that could be stored in floating point precision. It is usually -3.4E38. It might be different on different hardware platforms, but it will still be a really extreme value. You are not likely to have something as weird as -3.4E38 in a real application, so this protects you from a legitimate data value being mistaken for a missing value.
 
 But there's a trap waiting for you. Consider the following statement:
 
@@ -66,22 +53,24 @@ if age<=18 then child="Yes";
   else child="No";
 ```
 
-The child variable would be "Yes" for any 18 or younger or anyone with a missing age. That's probably not what you wanted.
+The child variable would be "Yes" for any 18 or younger. But -3.4E38 is also less than or equal to 18. So a child value of "Yes" would also include those missing values. That may or may not be what you wanted.
 
-In Stata, the missing value is coded as the largest possible floating point number. Again, a reasonable choice, but now the child variable would be "No" for all adults and all missing values.
+In Stata, the missing value is coded as the largest possible floating point number (3.4E38). Again, a reasonable choice, but now the child variable would be "No" for all adults and all missing values.
 
-In R, comparisons involving missing values are handled quite differently. If you test whether a missing age is less than or equal to 18, it won't tell you it is true, like SAS does. It won't tell you false, like Stata does. It returms missing, which you can interpret as "I don't know if this statement is true or false." This seems fair enough, but it does cause problems with equality checks.
+SPSS has two different codes for missing values. There is an internal code, known as system missing that occurs when you read in data with an empty place where data should be. You can also designate missing value codes for particular values, like the \$9,999.99 list price at Office Max. So which side does SPSS put the missing value on? It effectively appears on both sides. In SPSS, the missing values go along for the ride with either age<=18 or age>18. It's more than that. If you wanted age=15, you'd not only get the subjects preparing for their quinceanera, but also any missing values. SPSS thinks its better to be on the inclusive side, and that means that a senior citizen who forgot to write down her age on the survey gets 50+ years removed from her life. 
+
+In R, comparisons involving missing values are handled quite differently than any of these other packages. If you test whether a missing age is less than or equal to 18, it won't tell you it is true, like SAS and SPSS do. It won't tell you false, like Stata does. It returns missing, which you can interpret as "I don't know if this statement is true or false." This seems fair enough, but it does cause problems with equality checks.
 
 The statement
 
 ```{}
-10==NA
+15==NA
 ```
 
-returns a missing logic value. If the right hand side of the comparison is unknown, it might equal 10 if it were known, but it might not. So a missing logic value seems reasonable. Likewise
+returns a missing logic value. If the right hand side of the comparison is unknown, it might equal 15 if it were known, but it might not. So a missing logic value seems reasonable here. Likewise
 
 ```{}
-NA==10
+NA==15
 ```
 
 returns a missing logic value because the left hand side of the comparison is unknown. What's totally surprising is that
@@ -90,9 +79,28 @@ returns a missing logic value because the left hand side of the comparison is un
 NA==NA
 ```
 
-also returns a missing logic value. The left hand side could be anything 10, 82, 53. The right hand side could be anything, 23, 10, 92. So maybe the two unknown values are equal and maybe they are unequal. You can't be sure, so you get a missing logic value.
+also returns a missing logic value. The left hand side could be anything 15, 82, 53, etc. The right hand side could be anything, 23, 15, 92, etc. So maybe the two unknown values are equal and maybe they are unequal. You can't be sure, so you get a missing logic value.
 
-The solution in all of these cases is to hunt for the missing values explicitly. SAS and Stata have a missing function. In R, you check for missing with the is.na function. Use these functions aggressively in any code that might have missing values.
+The solution in all of these cases is to hunt for the missing values explicitly. SAS, Stata, and SPSS have a missing function. In R, you check for missing with the is.na function. Use these functions aggressively in any code that might have missing values.
+
+### Recodes with missing values
+
+If you recode any variable, always account for missing values first and last. So start off any recodes with the case where the original variable is missing and end with a catch-all code. Consider a variable for gender with 1 for male, 2 for female, and 9 for unknown. Then a recode in SAS might look like
+
+```{}
+if missing(gender) then gender_label="Unknown";
+  else if gender=1 then gender_label="Male";
+  else if gender=2 then gender_label="Female";
+  else gender_label="Error";
+```
+
+The syntax changes slightly with other statistical packages, but the general concept applies. Account for missing value codes first and then catch anything that fails to match at the end.
+
+Here's how you would do this with the SPSS dialog box for recoding.
+
+![Figure 3. SPSS recode dialog box](http://www.pmean.com/new-images/22/missing-value-hell-04.png)
+
+SPSS gets a bonus star for explicitly listing missing value options on the left and right hand side of this dialog box. This makes is harder for you to overlook the handling of missing values.
 
 ### Conclusions
 
