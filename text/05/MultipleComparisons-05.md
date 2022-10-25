@@ -195,8 +195,8 @@ say the number of genes that are statistically significant). Let V
 represent the number of false positives among those R genes. I'm using
 the notation which appears in the book
 
--   Amaratunga and Cabrerea, **Exploration and Analysis of DNA
-    Microarray and Protein Array Data**.
+- Amaratunga and Cabrerea, **Exploration and Analysis of DNA
+Microarray and Protein Array Data**.
 
 The Bonferroni approach (and the Holm adjustment) control the familywise
 error rate, which is defined as

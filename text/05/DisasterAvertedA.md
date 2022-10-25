@@ -23,7 +23,7 @@ this data into R, it is easiest to save the Excel file in a Comma
 Separated Value (.csv) format. When you do this, you get   a few stray
 commas in the file.
 
-`NAME,DATE EPISODE,MICROBE,INFECTION                        1,6/25/1996,yeast,1        80,10/30/1996,no growth,1        80,4/10/1997,s.warnerii,1        80,4/25/1997,s.epi,1        3,9/29/1997,e.coli,1        8,12/23/1997,Staph epi,1        8,12/16/1996,s.warneri,1        8,7/11/1996,s.auricularis,1,        8,12/24/1996,s.aureus,0,        8,5/6/1998,s.aureus,0,        11,11/21/1999,E coli,1,        11,5/22/1996,E coli,0,         7,7/9/1996,unknown,1,        7,8/7/1996,P. aeruginosa,1,        7,5/2/1996,P. aeruginosa,0,`
+`NAME,DATE EPISODE,MICROBE,INFECTION1,6/25/1996,yeast,180,10/30/1996,no growth,180,4/10/1997,s.warnerii,180,4/25/1997,s.epi,13,9/29/1997,e.coli,18,12/23/1997,Staph epi,18,12/16/1996,s.warneri,18,7/11/1996,s.auricularis,1,8,12/24/1996,s.aureus,0,8,5/6/1998,s.aureus,0,11,11/21/1999,E coli,1,11,5/22/1996,E coli,0, 7,7/9/1996,unknown,1,7,8/7/1996,P. aeruginosa,1,7,5/2/1996,P. aeruginosa,0,`
 
 Notice that partway down the file, an extra comma appears at the end
 of the line. There are a variety of reasons this might occur, but I
@@ -32,7 +32,7 @@ of the data. I did clean up the extra two blank lines at the
 beginning, and imported the data in R using the read.csv() function.
 Here's what I got
 
-`     NAME DATE.EPISODE             MICROBE INFECTION        1         1       6/25/1996                         yeast                 1        2       80       10/30/1996       no growth                         1        3       80       4/10/1997       s.warnerii                         1        4       80       4/25/1997                         s.epi                 1        5         3       9/29/1997                       e.coli                 1        6         8     12/23/1997         Staph epi                         1        7         8     12/16/1996         s.warneri                         1        8         8       7/11/1996 s.auricularis                         1        9         8     12/24/1996           s.aureus                         0        10       8         5/6/1998                   s.aureus                 0        11     11     11/21/1999               E coli                         1        12     11       5/22/1996               E         coli                 0        13     NA                                                                             NA        14       7         7/9/1996                     unknown                 1        15       7         8/7/1996 P. aeruginosa                         1        16       7         5/2/1996 P. aeruginosa                         0`
+` NAME DATE.EPISODE MICROBE INFECTION1 1   6/25/1996 yeast 12   80   10/30/1996   no growth 13   80   4/10/1997   s.warnerii 14   80   4/25/1997 s.epi 15 3   9/29/1997   e.coli 16 8 12/23/1997 Staph epi 17 8 12/16/1996 s.warneri 18 8   7/11/1996 s.auricularis 19 8 12/24/1996   s.aureus 010   8 5/6/1998   s.aureus 011 11 11/21/1999   E coli 112 11   5/22/1996   E coli 013 NA NA14   7 7/9/1996 unknown 115   7 8/7/1996 P. aeruginosa 116   7 5/2/1996 P. aeruginosa 0`
 
 What caused the NA's to appear in row 13? Well, I first thought it
 was the stray commas, but they were dozens of them and the NA row

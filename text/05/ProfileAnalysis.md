@@ -13,23 +13,23 @@ output: html_document
 **[StATS]:** **Profile analysis and MANOVA (April
 18, 2005)**
 
-> Someone asked me about profile analysis as alternative analysis to
-> MANOVA (Multivariate Analysis of Variance). Typically you would use
-> profile analysis when the outcome variables are measuring (more or
-> less) the same thing, but possibly at different times or in different
-> ways. You start by examining a profile of these measures, a graph that
-> looks very similar to an interaction plot. You first test for
-> parallelism by looking at a set of contrasts. If you accept the null
-> hypothesis here, then you look to see if the profiles are flat, again
-> using a contrast. Finally, if you accept that null hypothesis, you
-> test whether the profiles are coincident (lie one on top of the
-> other).
->
-> Both MANOVA and profile analysis have been replaced by better and more
-> flexible approaches using a mixed model analysis of variance and/or a
-> random effects regression model. I want to write a web page about
-> mixed models and random effects models, but have not had the time to
-> do this.
+Someone asked me about profile analysis as alternative analysis to
+MANOVA (Multivariate Analysis of Variance). Typically you would use
+profile analysis when the outcome variables are measuring (more or
+less) the same thing, but possibly at different times or in different
+ways. You start by examining a profile of these measures, a graph that
+looks very similar to an interaction plot. You first test for
+parallelism by looking at a set of contrasts. If you accept the null
+hypothesis here, then you look to see if the profiles are flat, again
+using a contrast. Finally, if you accept that null hypothesis, you
+test whether the profiles are coincident (lie one on top of the
+other).
+
+Both MANOVA and profile analysis have been replaced by better and more
+flexible approaches using a mixed model analysis of variance and/or a
+random effects regression model. I want to write a web page about
+mixed models and random effects models, but have not had the time to
+do this.
 
 **Further reading:**
 

@@ -13,13 +13,13 @@ Many meta-analyses use a graph known as a forest plot. I was always
 confused by the funny squares in a forest plot, so I looked for a
 description. An example of a forest plot appears in
 
--   **Acetylcysteine for prevention of contrast-induced nephropathy
-    after intravascular angiography: a systematic review and
-    meta-analysis.** Bagshaw SM, Ghali WA. BMC Med 2004: 2(1); 38.
-    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
-    [Abstract]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
-    [Full text]](http://www.biomedcentral.com/1741-7015/2/38)
-    [PDF]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
+- **Acetylcysteine for prevention of contrast-induced nephropathy
+after intravascular angiography: a systematic review and
+meta-analysis.** Bagshaw SM, Ghali WA. BMC Med 2004: 2(1); 38.
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15500690&dopt=Abstract)
+[Abstract]](http://www.biomedcentral.com/1741-7015/2/38/abstract)
+[Full text]](http://www.biomedcentral.com/1741-7015/2/38)
+[PDF]](http://www.biomedcentral.com/content/pdf/1741-7015-2-38.pdf)
 
 and because this is an open-access article, I can reproduce the graph
 here.

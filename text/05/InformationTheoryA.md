@@ -38,28 +38,28 @@ talks about using B-spline functions for estimating mutual information.
 This approach adjusts for the errors associated with binning by allowing
 a signal to be split into several adjacent bins.
 
--   **Estimating mutual information using B-spline functions\--an
-    improved similarity measure for analysing gene expression data.**
-    Daub CO, Steuer R, Selbig J, Kloska S. BMC Bioinformatics 2004:
-    5(1); 118.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15339346&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2105/5/118/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2105/5/118)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2105-5-118.pdf)
+- **Estimating mutual information using B-spline functions\--an
+improved similarity measure for analysing gene expression data.**
+Daub CO, Steuer R, Selbig J, Kloska S. BMC Bioinformatics 2004:
+5(1); 118.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15339346&dopt=Abstract)
+[\[Abstract\]](http://www.biomedcentral.com/1471-2105/5/118/abstract)
+[\[Full text\]](http://www.biomedcentral.com/1471-2105/5/118)
+[\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2105-5-118.pdf)
 
 When I have time, I'll see if there are any similar references out
 there.
 
 Another interesting microarray article I ran across is
 
--   **Improving the statistical detection of regulated genes from
-    microarray data using intensity-based variance estimation.**
-    Comander J, Natarajan S, Gimbrone MA, Jr., Garcia-Cardena G. BMC
-    Genomics 2004: 5(1); 17.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15113402&dopt=Abstract)
-    [\[Abstract\]](http://www.biomedcentral.com/1471-2164/5/17/abstract)
-    [\[Full text\]](http://www.biomedcentral.com/1471-2164/5/17)
-    [\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2164-5-17.pdf)
+- **Improving the statistical detection of regulated genes from
+microarray data using intensity-based variance estimation.**
+Comander J, Natarajan S, Gimbrone MA, Jr., Garcia-Cardena G. BMC
+Genomics 2004: 5(1); 17.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15113402&dopt=Abstract)
+[\[Abstract\]](http://www.biomedcentral.com/1471-2164/5/17/abstract)
+[\[Full text\]](http://www.biomedcentral.com/1471-2164/5/17)
+[\[PDF\]](http://www.biomedcentral.com/content/pdf/1471-2164-5-17.pdf)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

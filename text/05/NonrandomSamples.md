@@ -56,10 +56,10 @@ is impossible, your choice is made for you.
 
 I have some definitions of various types of samples on my web pages:
 
--   [Convenience
-    sample](www.childrensmercy.org/definitions/convenience.htm)
--   [Random sample](www.childrensmercy.org/definitions/random.htm)
--   [Quota sample](www.childrensmercy.org/definitions/quota.htm)
+- [Convenience
+sample](www.childrensmercy.org/definitions/convenience.htm)
+- [Random sample](www.childrensmercy.org/definitions/random.htm)
+- [Quota sample](www.childrensmercy.org/definitions/quota.htm)
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

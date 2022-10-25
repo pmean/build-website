@@ -128,7 +128,7 @@ of my favorite books that has a lot of these expected value calculations
 for a wide range of statistical distributions is:
 
 Evans M, Hastings N,
-    Peacock B. Statistical Distributions Second Edition (1993) New York: John Wiley & Sons. ISBN: 0471559512.
+Peacock B. Statistical Distributions Second Edition (1993) New York: John Wiley & Sons. ISBN: 0471559512.
 
 **Moments**
 

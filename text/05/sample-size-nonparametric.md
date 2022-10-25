@@ -21,15 +21,15 @@ appropriate sample size](../size.asp). The same considerations would
 apply for the Wilcoxon test. In response, the email author sent me a
 link to
 
--   **[Computing sample size for data to be analyzed with nonparametric
-    tests.](http://www.graphpad.com/library/BiostatsSpecial/article_154.htm%20)**.
-    GraphPad Software. Accessed on 2005-03-08.
-    www.graphpad.com/library/BiostatsSpecial/article\_154.htm
+- **[Computing sample size for data to be analyzed with nonparametric
+tests.](http://www.graphpad.com/library/BiostatsSpecial/article_154.htm%20)**.
+GraphPad Software. Accessed on 2005-03-08.
+www.graphpad.com/library/BiostatsSpecial/article\_154.htm
 
 which offers the following advice:
 
-> *If you plan to use a nonparametric test, compute the sample size
-> required for a t test and add 15%.*
+*If you plan to use a nonparametric test, compute the sample size
+required for a t test and add 15%.*
 
 This assumes a reasonably high number of subjects (at least a few dozen)
 and a distribution which is not really unusual. I had not heard this

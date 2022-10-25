@@ -63,7 +63,7 @@ imperfect and expensive. It costs 5,000 per site to sample and the
 standard deviation for any individual site measurement would be 200
 units. You can use the spreadsheet
 
--   [SingleMeanCI.xls](../01/images/SingleMeanCI.xls)
+- [SingleMeanCI.xls](../01/images/SingleMeanCI.xls)
 
 to calculate 90% confidence intervals. Let's suppose first that we
 wanted to do a minimal job of sampling and only selected 8 sites to

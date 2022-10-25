@@ -17,7 +17,7 @@ prevent death and major trauma related to gravitational challenge:
 systematic review of randomised controlled trials," appears on their
 web site as
 
--   <http://bmj.bmjjournals.com/cgi/content/full/327/7429/1459>
+- <http://bmj.bmjjournals.com/cgi/content/full/327/7429/1459>
 
 but this might change in a few years or a few decades. The web site
 might re-organize their files or change to a different provider of
@@ -46,7 +46,7 @@ Foundation, as a stable way to identify digital files that might move
 over time. If you know the DOI, you should always be able to find the
 file. The DOI for the article mentioned above is
 
--   10.1136/bmj.327.7429.1459
+- 10.1136/bmj.327.7429.1459
 
 and it is displayed prominently at the top of the web page. You can
 search for this DOI on the web site [www.doi.org](http://www.doi.org) or
@@ -54,13 +54,13 @@ search for this DOI on the web site [www.doi.org](http://www.doi.org) or
 redirect you to the appropriate BMJ page. Actually, it goes to the
 abstract page
 
--   <http://bmj.bmjjournals.com/cgi/content/abstract/327/7429/1459?view=abstract>
+- <http://bmj.bmjjournals.com/cgi/content/abstract/327/7429/1459?view=abstract>
 
 but from there you can find the full text and/or the pdf format of the
 file if it is available. You can also put the DOI behind the web site
 dx.doi.org to make a link. So you could put a link to
 
--   <http://dx.doi.org/10.1136/bmj.327.7429.1459>
+- <http://dx.doi.org/10.1136/bmj.327.7429.1459>
 
 on your web page and you are guaranteed that this link will work. Well
 nothing is perfectly guaranteed, but this link is good as long as the
@@ -79,12 +79,12 @@ so when I can find an easy way to import DOIs into my EndNote database.
 
 **Additional reading**
 
--   **[Linking to Full Text in Scholarly Journals: Here a Link, There a
-    Link, Everywhere a
-    Link](http://www.infotoday.com/searcher/nov00/grogg&tenopir.htm)**.
-    Grogg JE, Tenopir C, Published in Searcher, Vol. 8, No. 10 (Nov/Dec
-    2000). Accessed on 2005-01-19.
-    www.infotoday.com/searcher/nov00/grogg&tenopir.htm
+- **[Linking to Full Text in Scholarly Journals: Here a Link, There a
+Link, Everywhere a
+Link](http://www.infotoday.com/searcher/nov00/grogg&tenopir.htm)**.
+Grogg JE, Tenopir C, Published in Searcher, Vol. 8, No. 10 (Nov/Dec
+2000). Accessed on 2005-01-19.
+www.infotoday.com/searcher/nov00/grogg&tenopir.htm
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

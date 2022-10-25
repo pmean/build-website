@@ -19,11 +19,11 @@ what the formula was for this. It turns out there are a variety of
 formulas. StatLib has the Applied Statistics AS 66 algorithm, along with
 some competing algorithms at
 
--   [lib.stat.cmu.edu/apstat/66](http://lib.stat.cmu.edu/apstat/66)
+- [lib.stat.cmu.edu/apstat/66](http://lib.stat.cmu.edu/apstat/66)
 
 Microsoft documents the NORMSDIST function on its web pages at
 
--   [support.microsoft.com/?kbid=214111](http://support.microsoft.com/?kbid=214111)
+- [support.microsoft.com/?kbid=214111](http://support.microsoft.com/?kbid=214111)
 
 which references an Abramowitz and Stegun formula from the "Handbook of
 Mathematical Functions." [BookFinder4U

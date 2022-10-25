@@ -35,15 +35,15 @@ possibly derived by ad hockery).
 
 **Further reading**
 
--   **[Tolerance intervals for a normal
-    distribution.](http://www.itl.nist.gov/div898/handbook/prc/section2/prc263.htm%20)**.
-    Prins J, National Institute for Standards and Technology. Accessed
-    on 2005-04-15.
-    www.itl.nist.gov/div898/handbook/prc/section2/prc263.htm
--   **Understanding Variation: The Key to Managing Chaos.** Wheeler
-    DJ (1993) Knoxville, TN: SPC Press Inc. ISBN: 0945320353.
-    [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0945320353.html)
+- **[Tolerance intervals for a normal
+distribution.](http://www.itl.nist.gov/div898/handbook/prc/section2/prc263.htm%20)**.
+Prins J, National Institute for Standards and Technology. Accessed
+on 2005-04-15.
+www.itl.nist.gov/div898/handbook/prc/section2/prc263.htm
+- **Understanding Variation: The Key to Managing Chaos.** Wheeler
+DJ (1993) Knoxville, TN: SPC Press Inc. ISBN: 0945320353.
+[\[BookFinder4U
+link\]](http://www.bookfinder4u.com/detail/0945320353.html)
 
  You can also browse
 for pages similar to this one at [Category: Quality

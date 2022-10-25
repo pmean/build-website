@@ -13,7 +13,7 @@ Here's a graph I want to insert in my book. It illustrates how to
 adjust for covariate imbalance. The data comes from the Data and Story
 Library
 
--   [lib.stat.cmu.edu/DASL/DataArchive.html](http://lib.stat.cmu.edu/DASL/DataArchive.html)
+- [lib.stat.cmu.edu/DASL/DataArchive.html](http://lib.stat.cmu.edu/DASL/DataArchive.html)
 
 and shows the housing prices of 117 homes in Albuquerque, New Mexico in
 1993. The data set also includes variables that might influence the

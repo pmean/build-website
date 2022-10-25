@@ -57,19 +57,19 @@ reasonable approach, but it can sometimes give nonsensical results.
 Consider a salary survey that asks for your yearly salary using the
 following categories:
 
--   0 to 10 thousand dollars
--   10 to 20 thousand dollars
--   20 to 50 thousand dollars
--   50 to 100 thousand dollars
--   more than 100 thousand dollars
+- 0 to 10 thousand dollars
+- 10 to 20 thousand dollars
+- 20 to 50 thousand dollars
+- 50 to 100 thousand dollars
+- more than 100 thousand dollars
 
 Suppose that the number of people responding in each category is
 
--   49 people select 0 to 10 thousand dollars
--   21 people select 10 to 20 thousand dollars
--   9 people select 20 to 50 thousand dollars
--   3 people select 50 to 100 thousand dollars
--   3 people select more than 100 thousand dollars
+- 49 people select 0 to 10 thousand dollars
+- 21 people select 10 to 20 thousand dollars
+- 9 people select 20 to 50 thousand dollars
+- 3 people select 50 to 100 thousand dollars
+- 3 people select more than 100 thousand dollars
 
 Then the average ranks are 25, 60, 75, 81, and 84. This says that the
 difference between 0 to 10<U+FFFD> and 10 to 20 (45 units) is three times more
@@ -89,62 +89,62 @@ complex has resulted in a substantively different conclusion.
 
 **Further reading**
 
--   **Regression models for ordinal responses: a review of methods and
-    applications.** Ananth CV, Kleinbaum DG. International Journal of
-    Epidemiology 1997: 26(6); 1323-33.
--   **Pearson's R and Coarsely Categorized Measures.** Bollen KA, Barb
-    K. American Sociological Review 1981: 46; 232-39.
--   **Tutorial in Biostatistics: A review of tests for detecting a
-    monotone dose-response relationship with ordinal response data.**
-    Chuang-Stein C, Agresti A. Statistics in Medicine 1997: 16(22);
-    2599-618.
--   **[Logistic
-    Regression](http://www2.chass.ncsu.edu/garson/pa765/logistic.htm%20)**.
-    Garson GD, College of Humanities and Social Sciences, North Carolina
-    State University. Accessed on 2003-08-28.
-    www2.chass.ncsu.edu/garson/pa765/logistic.htm
--   **Alternative models for ordinal logistic regression.** Greenland S.
-    Stat Med 1994: 13(16); 1665-77.
--   **Multivariable prognostic models: issues in developing models,
-    evaluating assumptions and adequacy, and measuring and reducing
-    errors.** Harrell FE, Jr., Lee KL, Mark DB. Stat Med 1996: 15(4);
-    361-87.
--   **Development of a clinical prediction model for an ordinal outcome:
-    the World Health Organization Multicentre Study of Clinical Signs
-    and Etiological agents of Pneumonia, Sepsis and Meningitis in Young
-    Infants. WHO/ARI Young Infant Multicentre Study Group.** Harrell FE,
-    Jr., Margolis PA, Gove S, Mason KE, Mulholland EK, Lehmann D, Muhe
-    L, Gatchalian S, Eichenwald HF. Statistical Medicine 1998: 17(8);
-    909-44.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9595619&dopt=Abstract)
--   **Multivariate Analysis and Ordinal Data.** Henry F. American
-    Sociological Review 1982: 47; 299-307.
--   **Ordinal Measures in Multiple Indicator Models: A Simulation of
-    Categorization Error.** Johnson D, Creech J. American Sociological
-    Review 1983: 48; 398-407.
--   **Multivariate Analysis of Ordinal Variables.** Kim J. American
-    Journal of Sociology 1975: 81; 261-98.
--   **Multivariate Analysis of Ordinal Variables Revisited.** Kim J.
-    American Journal of Sociology 1978: 84; 448-56.
--   **The Assignment of Numbers to Rank Order Categories.** Labovitz S.
-    American Sociological Review 1970: 35; 515-24.
--   **The Use of Pearson's R with Ordinal Data.** O'Brien R. American
-    Sociological Review 1979: 44; 851-57.
--   **Likelihood ratios with confidence: sample size estimation for
-    diagnostic test studies.** Simel DL, Samsa GP, Matchar DB. J Clin
-    Epidemiol 1991: 44(8); 763-70.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1941027&dopt=Abstract)
--   **Sample size and power estimation for studies with health related
-    quality of life outcomes: a comparison of four methods using the
-    SF-36.** Walters SJ. Health Qual Life Outcomes 2004: 2(1); 26.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15161494&dopt=Abstract)
-    [\[Abstract\]](http://www.hqlo.com/content/2/1/26/abstract) [\[Full
-    text\]](http://www.hqlo.com/content/2/1/26)
-    [\[PDF\]](http://www.hqlo.com/content/pdf/1477-7525-2-26.pdf)
--   **[Data Levels and
-    Measurement](http://www2.chass.ncsu.edu/garson/pa765/datalevl.htm%20)**.
-    Garson GD, North Carolina State University. Accessed on 2003-11-19.
-    www2.chass.ncsu.edu/garson/pa765/datalevl.htm
+- **Regression models for ordinal responses: a review of methods and
+applications.** Ananth CV, Kleinbaum DG. International Journal of
+Epidemiology 1997: 26(6); 1323-33.
+- **Pearson's R and Coarsely Categorized Measures.** Bollen KA, Barb
+K. American Sociological Review 1981: 46; 232-39.
+- **Tutorial in Biostatistics: A review of tests for detecting a
+monotone dose-response relationship with ordinal response data.**
+Chuang-Stein C, Agresti A. Statistics in Medicine 1997: 16(22);
+2599-618.
+- **[Logistic
+Regression](http://www2.chass.ncsu.edu/garson/pa765/logistic.htm%20)**.
+Garson GD, College of Humanities and Social Sciences, North Carolina
+State University. Accessed on 2003-08-28.
+www2.chass.ncsu.edu/garson/pa765/logistic.htm
+- **Alternative models for ordinal logistic regression.** Greenland S.
+Stat Med 1994: 13(16); 1665-77.
+- **Multivariable prognostic models: issues in developing models,
+evaluating assumptions and adequacy, and measuring and reducing
+errors.** Harrell FE, Jr., Lee KL, Mark DB. Stat Med 1996: 15(4);
+361-87.
+- **Development of a clinical prediction model for an ordinal outcome:
+the World Health Organization Multicentre Study of Clinical Signs
+and Etiological agents of Pneumonia, Sepsis and Meningitis in Young
+Infants. WHO/ARI Young Infant Multicentre Study Group.** Harrell FE,
+Jr., Margolis PA, Gove S, Mason KE, Mulholland EK, Lehmann D, Muhe
+L, Gatchalian S, Eichenwald HF. Statistical Medicine 1998: 17(8);
+909-44.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9595619&dopt=Abstract)
+- **Multivariate Analysis and Ordinal Data.** Henry F. American
+Sociological Review 1982: 47; 299-307.
+- **Ordinal Measures in Multiple Indicator Models: A Simulation of
+Categorization Error.** Johnson D, Creech J. American Sociological
+Review 1983: 48; 398-407.
+- **Multivariate Analysis of Ordinal Variables.** Kim J. American
+Journal of Sociology 1975: 81; 261-98.
+- **Multivariate Analysis of Ordinal Variables Revisited.** Kim J.
+American Journal of Sociology 1978: 84; 448-56.
+- **The Assignment of Numbers to Rank Order Categories.** Labovitz S.
+American Sociological Review 1970: 35; 515-24.
+- **The Use of Pearson's R with Ordinal Data.** O'Brien R. American
+Sociological Review 1979: 44; 851-57.
+- **Likelihood ratios with confidence: sample size estimation for
+diagnostic test studies.** Simel DL, Samsa GP, Matchar DB. J Clin
+Epidemiol 1991: 44(8); 763-70.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=1941027&dopt=Abstract)
+- **Sample size and power estimation for studies with health related
+quality of life outcomes: a comparison of four methods using the
+SF-36.** Walters SJ. Health Qual Life Outcomes 2004: 2(1); 26.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15161494&dopt=Abstract)
+[\[Abstract\]](http://www.hqlo.com/content/2/1/26/abstract) [\[Full
+text\]](http://www.hqlo.com/content/2/1/26)
+[\[PDF\]](http://www.hqlo.com/content/pdf/1477-7525-2-26.pdf)
+- **[Data Levels and
+Measurement](http://www2.chass.ncsu.edu/garson/pa765/datalevl.htm%20)**.
+Garson GD, North Carolina State University. Accessed on 2003-11-19.
+www2.chass.ncsu.edu/garson/pa765/datalevl.htm
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

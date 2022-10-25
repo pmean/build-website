@@ -19,14 +19,14 @@ of odds ratios and confidence intervals, for example, and very simple
 code to produce a mosaic plot. A more thorough description of vcd is
 available at
 
--   [cran.r-project.org/src/contrib/Descriptions/vcd.html](http://cran.r-project.org/src/contrib/Descriptions/vcd.html)
+- [cran.r-project.org/src/contrib/Descriptions/vcd.html](http://cran.r-project.org/src/contrib/Descriptions/vcd.html)
 
 According to the description, the functions in vcd were inspired by the
 book
 
--   **Visualizing Categorical Data**. Michael Friendly, Cary, NC: SAS
-    Publishing. [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/1580256600.html)
+- **Visualizing Categorical Data**. Michael Friendly, Cary, NC: SAS
+Publishing. [\[BookFinder4U
+link\]](http://www.bookfinder4u.com/detail/1580256600.html)
 
 which I do not have in my library, but which sounds like a very
 interesting book.
@@ -38,12 +38,12 @@ perform age standardization, draw epidemic curves, and has a variety of
 useful utility functions and interesting data sets. The description of
 epitools is available at
 
--   [cran.r-project.org/src/contrib/Descriptions/epitools.html](http://cran.r-project.org/src/contrib/Descriptions/epitools.html)
+- [cran.r-project.org/src/contrib/Descriptions/epitools.html](http://cran.r-project.org/src/contrib/Descriptions/epitools.html)
 
 and the authors maintain a site for this library and other free software
 at
 
--   [www.epitools.net/](http://www.epitools.net/)
+- [www.epitools.net/](http://www.epitools.net/)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

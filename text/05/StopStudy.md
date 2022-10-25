@@ -52,7 +52,7 @@ big a sample size you would need.
 
 **Further reading:**
 
--   [Stats: Rule of three](../size/zeroevents.asp)
+- [Stats: Rule of three](../size/zeroevents.asp)
 
  You can also browse
 for pages similar to this one at [Category: Early

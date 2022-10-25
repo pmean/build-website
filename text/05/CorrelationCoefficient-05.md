@@ -26,7 +26,7 @@ for a correlation.
 
 Stan Brown has a nice description of the Fisher's z transformation at
 
--   [www.tc3.edu/instruct/sbrown/stat/correl.htm](http://www.tc3.edu/instruct/sbrown/stat/correl.htm)
+- [www.tc3.edu/instruct/sbrown/stat/correl.htm](http://www.tc3.edu/instruct/sbrown/stat/correl.htm)
 
 Here's an example of how it might work. In a study of various
 biomarkers for bone damage, several measures that are considered

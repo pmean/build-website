@@ -23,7 +23,7 @@ and data management. If you are in the Kansas City area, this might be
 an interesting thing to work on. More details about "Meet the Science
 Mentor Day" is on the web at
 
--   [www.spioneers.org/documents/mtm.htm](http://www.spioneers.org/documents/mtm.htm)
+- [www.spioneers.org/documents/mtm.htm](http://www.spioneers.org/documents/mtm.htm)
 
 You can also browse
 for pages similar to this one at [Category: Teaching

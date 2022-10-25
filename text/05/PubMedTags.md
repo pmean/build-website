@@ -25,10 +25,10 @@ the word "Schiavo" appeared in the title of the publication.
 
 Other useful tags in PubMed are:
 
--   [au] author name
--   [la] language
--   [ta] journal title
--   [dp] date of publication
+- [au] author name
+- [la] language
+- [ta] journal title
+- [dp] date of publication
 
 The [ta] tag is very useful when the name of the journal (e.g.,
 Circulation) is also a commonly used medical term. You can also search
@@ -60,18 +60,18 @@ MeSH, by the way, stands for "Medical Subject Headings" and is an
 attempt by PubMed to create a hierarchy of medical terms to help make
 searches more efficient. You can learn all about MeSH at
 
--   <http://www.nlm.nih.gov/mesh/>
+- <http://www.nlm.nih.gov/mesh/>
 
 **Further reading**
 
--   **[Developing PubMed Search
-    Skills](http://www.library.dal.ca/kellogg/guides/pubmed/INTROFRM.HTM%20)**.
-    Dalhousie University Libraries. Accessed on 2005-04-28.
-    www.library.dal.ca/kellogg/guides/pubmed/INTROFRM.HTM
--   **[UF HSCL - PubMed
-    Tutorial](http://www.library.health.ufl.edu/pubmed/pubmed2/%20)**.
-    Libraries UoFHSC. Accessed on 2005-04-28.
-    www.library.health.ufl.edu/pubmed/pubmed2/
+- **[Developing PubMed Search
+Skills](http://www.library.dal.ca/kellogg/guides/pubmed/INTROFRM.HTM%20)**.
+Dalhousie University Libraries. Accessed on 2005-04-28.
+www.library.dal.ca/kellogg/guides/pubmed/INTROFRM.HTM
+- **[UF HSCL - PubMed
+Tutorial](http://www.library.health.ufl.edu/pubmed/pubmed2/%20)**.
+Libraries UoFHSC. Accessed on 2005-04-28.
+www.library.health.ufl.edu/pubmed/pubmed2/
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

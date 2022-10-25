@@ -17,21 +17,21 @@ I attended a web seminar, What's New in SPSS version 14.0, taught by
 Meta Brown, a Senior Systems Engineer with SPSS, Inc. Version 14 will
 ship in October 2005. The major improvements in version 14.0 include
 
--   more powerful data management (multiple data sets open in a single
-    SPSS session) and
--   enhanced reporting (a new chart builder interface, and a graphics
-    production language, GPL).
+- more powerful data management (multiple data sets open in a single
+SPSS session) and
+- enhanced reporting (a new chart builder interface, and a graphics
+production language, GPL).
 
 in the SPSS base product, and
 
--   easy data validation (validate across multiple variables),
--   easier more powerful forecasting (an expert modeler offers
-    sophisticated fitting of time series models that can now incorporate
-    independent variables and forecast many series at once),
--   extended programmability (more complex functions like flow control
-    and extensibility), and
--   expanded structural equation modeling options (bayesian estimation
-    and data imputation).
+- easy data validation (validate across multiple variables),
+- easier more powerful forecasting (an expert modeler offers
+sophisticated fitting of time series models that can now incorporate
+independent variables and forecast many series at once),
+- extended programmability (more complex functions like flow control
+and extensibility), and
+- expanded structural equation modeling options (bayesian estimation
+and data imputation).
 
 in the SPSS product family.
 
@@ -51,12 +51,12 @@ Here are my thoughts and opinions on these improvements. I was impressed
 by the data validation modules which includes a lot of common sense
 checks you can apply such as
 
--   dichotomy (0-1),
--   dichotomy (1-2),
--   likert scale (1-5),
--   non-negative number,
--   non-negative integer,
--   range (0 to 100),
+- dichotomy (0-1),
+- dichotomy (1-2),
+- likert scale (1-5),
+- non-negative number,
+- non-negative integer,
+- range (0 to 100),
 
 and you can add additional rules. Simply tell SPSS what rules apply to
 which variables and then SPSS will highlight how many violations occur

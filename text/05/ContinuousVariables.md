@@ -16,8 +16,8 @@ logistic regression model. It turns out that the odds ratio represents a
 change in the estimated odds of the outcome when the continuous variable
 increases by one unit. See
 
--   [Stats: The concepts behind the logistic regression model (July
-    23, 2002)](../model/logist_concepts.asp)
+- [Stats: The concepts behind the logistic regression model (July
+23, 2002)](../model/logist_concepts.asp)
 
 for a more detailed discussion of this interpretation.
 

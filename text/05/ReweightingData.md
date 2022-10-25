@@ -15,16 +15,16 @@ output: html_document
 
 A recent article
 
--   **Two Statistical Paradoxes in the Interpretation of Group
-    Differences: Illustrated with Medical School Admission and Licensing
-    Data.** Wainer H, Brown LM. The American Statistician 2004: 58(2);
-    117-23.
+- **Two Statistical Paradoxes in the Interpretation of Group
+Differences: Illustrated with Medical School Admission and Licensing
+Data.** Wainer H, Brown LM. The American Statistician 2004: 58(2);
+117-23.
 
 shows how a simple re-weighting of the data can lead to a fairer
 comparison between two groups. An expanded version of this paper is
 available on the Statistical Literacy website.
 
--   <http://www.statlit.org/PDF/2004Wainer_ThreeParadoxes.pdf>
+- <http://www.statlit.org/PDF/2004Wainer_ThreeParadoxes.pdf>
 
 Wainer and Brown show data on a state by state basis for the National
 Assessment of Educational Progress (NAEP). Two states, Nebraska and New
@@ -42,11 +42,11 @@ differing demographic mix that causes the paradox.
 The average score for each state is a weighted average. For Nebraska,
 the calculation is
 
-> 281\*0.87 + 236\*0.05 + 259\*0.08 = 277
+281\*0.87 + 236\*0.05 + 259\*0.08 = 277
 
 and for New Jersey, the calculation is
 
-> 283\*0.66 + 242\*0.15 + 260\*0.19 = 272
+283\*0.66 + 242\*0.15 + 260\*0.19 = 272
 
 Nebraska benefits because a higher weight (0.87) is placed on the race
 that scored highest in both states. What would happen to Nebraska's and
@@ -55,11 +55,11 @@ percentages in the U.S. (69% white, 16% black, and 15% other non-white)?
 
 Here are the re-weighted calculations for Nebraska
 
-> 281\*0.69 + 236\*0.16 + 259\*0.15 = 271
+281\*0.69 + 236\*0.16 + 259\*0.15 = 271
 
 and New Jersey
 
-> 283\*0.69 + 242\*0.16 + 260\*0.15 = 273
+283\*0.69 + 242\*0.16 + 260\*0.15 = 273
 
 This re-weighting to a common demographic risk is often used to make
 adjustments between two groups that have sharply differing mixes of age,
@@ -67,14 +67,14 @@ gender, and/or racial characteristics.
 
 Here are a few additional references about Simpson's paradox.
 
--   Appleton, David R., French, Joyce M. and Vanderpump, Mark P. J.
-    (1996) Ignoring a covariate: An example of Simpson's paradox. The
-    American Statistician, 50, 340-341.
--   Wagner, Clifford H. (1982) Simpson's paradox in real life. The
-    American Statistician, 36, 46-48.
--   Morrell, Christopher H. (1999) Simpson's paradox: An example from a
-    longitudinal study in South Africa. Journal of Statistics Education,
-    7, 7-7.
+- Appleton, David R., French, Joyce M. and Vanderpump, Mark P. J.
+(1996) Ignoring a covariate: An example of Simpson's paradox. The
+American Statistician, 50, 340-341.
+- Wagner, Clifford H. (1982) Simpson's paradox in real life. The
+American Statistician, 36, 46-48.
+- Morrell, Christopher H. (1999) Simpson's paradox: An example from a
+longitudinal study in South Africa. Journal of Statistics Education,
+7, 7-7.
 
 You can also browse
 for pages similar to this one at [Category: Covariate

@@ -34,8 +34,8 @@ The person who wrote in was well aware of the weaknesses of stepwise
 regression, but for those of you who are not familiar with those
 weaknesses, please read
 
--   [What are some of the problems with stepwise
-    regression?](../faq/faq12.asp)
+- [What are some of the problems with stepwise
+regression?](../faq/faq12.asp)
 
 which is a summary I made of comments about stepwise regression by Ira
 Bernstein, Ronan Conroy and Frank Harrell that were published on the
@@ -77,10 +77,10 @@ possible covariates and none of the disadvantages. There is also a book
 by Frank Harrell on regression modeling approaches that is well worth
 reading.
 
--   **Regression Modeling Strategies: With Applications to Linear
-    Models, Logistic Regression, and Survival Analysis.** Harrell
-    FE (2001) New York, NY: Springer. ISBN: 0387952322. [\[BookFinder4U
-    link\]](http://www.bookfinder4u.com/detail/0387952322.html)
+- **Regression Modeling Strategies: With Applications to Linear
+Models, Logistic Regression, and Survival Analysis.** Harrell
+FE (2001) New York, NY: Springer. ISBN: 0387952322. [\[BookFinder4U
+link\]](http://www.bookfinder4u.com/detail/0387952322.html)
 
 You can also browse
 for pages similar to this one at [Category: Covariate

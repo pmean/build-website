@@ -54,25 +54,25 @@ Excel spreadsheet.
 There is software out there that will do this sort of thing
 automatically.
 
--   <http://www.uniphiz.com/findgraph.htm>
--   <http://www.digitizeit.de/>
--   <http://www.huvard.com/feb/digimatic.html>
--   <http://www.nikhef.nl/~keeshu/datathief/index.html>
--   <http://www.skillcrest.com/>
--   <http://www.acdsystems.com/English/Products/CanvasSI/index?LAN=englishX90>
--   <http://getdata.com.ru/>
--   <http://www.datatrendsoftware.com/>
--   <http://home.xnet.com/~ronjones/#TECHDIG>
--   <http://www.arizona-software.ch/applications/graphclick/en/>
--   <http://www.ezl.com/~ilh2o/tracer.html>
--   <http://www.silkscientific.com/>
--   <http://www.vniief.ru/konv/linetable/linetable_e.html>
+- <http://www.uniphiz.com/findgraph.htm>
+- <http://www.digitizeit.de/>
+- <http://www.huvard.com/feb/digimatic.html>
+- <http://www.nikhef.nl/~keeshu/datathief/index.html>
+- <http://www.skillcrest.com/>
+- <http://www.acdsystems.com/English/Products/CanvasSI/index?LAN=englishX90>
+- <http://getdata.com.ru/>
+- <http://www.datatrendsoftware.com/>
+- <http://home.xnet.com/~ronjones/#TECHDIG>
+- <http://www.arizona-software.ch/applications/graphclick/en/>
+- <http://www.ezl.com/~ilh2o/tracer.html>
+- <http://www.silkscientific.com/>
+- <http://www.vniief.ru/konv/linetable/linetable_e.html>
 
 The prices run from free to hundreds of dollars. Most of the web sites
 let you download a trial version. You can find a page listing these
 and additional digitizing resources at
 
--   <http://www.geocities.com/graphdigitizer/reference2.htm>
+- <http://www.geocities.com/graphdigitizer/reference2.htm>
 
 Another interesting product worth mentioning is [Cool
 Ruler](http://www.fabsoft.com/products/ruler/ruler.html). This is a
@@ -89,24 +89,24 @@ width.
 **[Update: May 30, 2006]** This graph appears in the following
 publication:
 
--   **Diagnosis, treatment, and long-term management of Kawasaki
-    disease: a statement for health professionals from the Committee
-    on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council on
-    Cardiovascular Disease in the Young, American Heart Association.**
-    J. W. Newburger, M. Takahashi, M. A. Gerber, M. H. Gewitz, L. Y.
-    Tani, J. C. Burns, S. T. Shulman, A. F. Bolger, P. Ferrieri, R. S.
-    Baltimore, W. R. Wilson, L. M. Baddour, M. E. Levison, T. J.
-    Pallasch, D. A. Falace, K. A. Taubert. Circulation 2004: 110(17);
-    2747-71.
-    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15505111&dopt=Abstract)
-    [Abstract]](http://circ.ahajournals.org/cgi/content/abstract/110/17/2747)
-    [Full
-    text]](http://circ.ahajournals.org/cgi/content/full/110/17/2747)
-    [PDF]](http://circ.ahajournals.org/cgi/reprint/110/17/2747.pdf)
+- **Diagnosis, treatment, and long-term management of Kawasaki
+disease: a statement for health professionals from the Committee
+on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council on
+Cardiovascular Disease in the Young, American Heart Association.**
+J. W. Newburger, M. Takahashi, M. A. Gerber, M. H. Gewitz, L. Y.
+Tani, J. C. Burns, S. T. Shulman, A. F. Bolger, P. Ferrieri, R. S.
+Baltimore, W. R. Wilson, L. M. Baddour, M. E. Levison, T. J.
+Pallasch, D. A. Falace, K. A. Taubert. Circulation 2004: 110(17);
+2747-71.
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15505111&dopt=Abstract)
+[Abstract]](http://circ.ahajournals.org/cgi/content/abstract/110/17/2747)
+[Full
+text]](http://circ.ahajournals.org/cgi/content/full/110/17/2747)
+[PDF]](http://circ.ahajournals.org/cgi/reprint/110/17/2747.pdf)
 
 and the figure itself is on the web at
 
--   [circ.ahajournals.org/cgi/content/full/110/17/2747/FIG3](http://circ.ahajournals.org/cgi/content/full/110/17/2747/FIG3)
+- [circ.ahajournals.org/cgi/content/full/110/17/2747/FIG3](http://circ.ahajournals.org/cgi/content/full/110/17/2747/FIG3)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
