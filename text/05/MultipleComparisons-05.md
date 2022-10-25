@@ -5,7 +5,8 @@ date: 2005-06-16
 categories:
 - Blog post
 tags:
-- 
+- Being updated
+- Hypothesis testing
 output: html_document
 ---
 

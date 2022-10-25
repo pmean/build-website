@@ -6,6 +6,7 @@ date: 2005-10-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Sample size justification
 output: html_document
 ---

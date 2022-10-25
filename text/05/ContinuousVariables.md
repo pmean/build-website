@@ -6,6 +6,7 @@ date: 2005-02-09
 categories:
 - Blog post
 tags:
+- Being updated
 - Logistic regression
 output: html_document
 ---

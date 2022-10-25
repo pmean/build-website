@@ -6,6 +6,9 @@ date: 2005-05-26
 categories:
 - Blog post
 tags:
+- Being updated
+- Diagnostic testing
+- Genomic analysis
 output: html_document
 ---
 **[StATS]:** **Application of the ROC curve to

@@ -6,6 +6,7 @@ date: 2005-05-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Post hoc power
 output: html_document
 ---

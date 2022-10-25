@@ -5,6 +5,7 @@ date: 2005-08-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Information searching
 output: html_document
 ---

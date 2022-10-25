@@ -6,6 +6,7 @@ date: 2005-06-06
 categories:
 - Blog post
 tags:
+- Being updated
 - Early stopping
 output: html_document
 ---

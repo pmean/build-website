@@ -6,6 +6,7 @@ date: 2005-04-15
 categories:
 - Blog post
 tags:
+- Being updated
 - Quality control
 output: html_document
 ---

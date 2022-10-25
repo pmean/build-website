@@ -5,6 +5,7 @@ date: 2005-05-16
 categories:
 - Blog post
 tags:
+- Being updated
 - Probability concepts
 output: html_document
 ---

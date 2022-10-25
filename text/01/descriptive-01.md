@@ -5,6 +5,7 @@ date: 2001-10-11
 categories:
 - Blog post
 tags:
+- Being updated
 - Descriptive statistics
 output: html_document
 ---

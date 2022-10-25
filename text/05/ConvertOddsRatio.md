@@ -5,6 +5,7 @@ date: 2005-08-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Measuring benefit and risk
 output: html_document
 ---

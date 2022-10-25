@@ -5,6 +5,7 @@ date: 2005-03-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Diagnostic testing
 output: html_document
 ---

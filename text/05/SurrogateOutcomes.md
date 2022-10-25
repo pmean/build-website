@@ -6,6 +6,7 @@ date: 2005-03-23
 categories:
 - Blog post
 tags:
+- Being updated
 output: html_document
 ---
 **[StATS]:** **Surrogate outcomes (March 23, 2005,

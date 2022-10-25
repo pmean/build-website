@@ -5,6 +5,7 @@ date: 2005-09-09
 categories:
 - Blog post
 tags:
+- Being updated
 - Equipoise in research
 output: html_document
 ---

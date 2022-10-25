@@ -6,6 +6,7 @@ date: 2005-01-25
 categories:
 - Blog post
 tags:
+- Being updated
 - Covariate adjustment
 output: html_document
 ---

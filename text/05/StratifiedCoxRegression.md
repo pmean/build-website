@@ -6,6 +6,7 @@ date: 2005-03-22
 categories:
 - Blog post
 tags:
+- Being updated
 - Survival analysis
 output: html_document
 ---

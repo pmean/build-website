@@ -6,6 +6,7 @@ date: 2005-10-11
 categories:
 - Blog post
 tags:
+- Being updated
 - R software
 output: html_document
 ---

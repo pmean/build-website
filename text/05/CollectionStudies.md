@@ -5,6 +5,7 @@ date: 2005-03-22
 categories:
 - Blog post
 tags:
+- Being updated
 - Observational studies
 - Randomization
 output: html_document

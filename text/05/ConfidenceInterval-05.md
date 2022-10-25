@@ -5,6 +5,7 @@ date: 2005-03-31
 categories:
 - Blog post
 tags:
+- Being updated
 - Clinical importance
 - Confidence intervals
 output: html_document

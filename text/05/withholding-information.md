@@ -6,6 +6,7 @@ date: 2005-11-28
 categories:
 - Blog post
 tags:
+- Being updated
 - Blinding in research
 output: html_document
 ---

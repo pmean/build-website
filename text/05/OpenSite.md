@@ -6,6 +6,7 @@ date: 2005-05-23
 categories:
 - Blog post
 tags:
+- Being updated
 - Writing research papers
 output: html_document
 ---

@@ -6,6 +6,7 @@ date: 2005-05-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Small sample size issues
 output: html_document
 ---

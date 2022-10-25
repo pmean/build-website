@@ -5,6 +5,7 @@ date: 2005-02-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical theory
 output: html_document
 ---

@@ -5,6 +5,7 @@ date: 2005-07-11
 categories:
 - Blog post
 tags:
+- Being updated
 - Confidence intervals
 - Sample size justification
 output: html_document

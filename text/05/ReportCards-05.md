@@ -6,6 +6,7 @@ date: 2005-02-16
 categories:
 - Blog post
 tags:
+- Being updated
 - Evidence Based Medicine
 - Teaching resources
 output: html_document

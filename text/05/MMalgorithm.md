@@ -5,6 +5,7 @@ date: 2005-02-14
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical computing
 output: html_document
 ---

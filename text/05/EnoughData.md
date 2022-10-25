@@ -5,6 +5,7 @@ date: 2005-04-05
 categories:
 - Blog post
 tags:
+- Being updated
 - Clinical importance
 - Early stopping
 output: html_document

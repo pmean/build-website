@@ -6,6 +6,7 @@ date: 2005-08-17
 categories:
 - Blog post
 tags:
+- Being updated
 - SPSS software
 output: html_document
 ---

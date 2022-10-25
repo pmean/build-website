@@ -5,6 +5,7 @@ date: 2005-12-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Early stopping
 - R software
 output: html_document

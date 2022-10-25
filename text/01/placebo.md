@@ -5,6 +5,7 @@ date: 2001-01-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Website details
 output: html_document
 ---

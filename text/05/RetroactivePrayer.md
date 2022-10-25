@@ -6,6 +6,7 @@ date: 2005-06-10
 categories:
 - Blog post
 tags:
+- Being updated
 - Corroborating evidence
 output: html_document
 ---

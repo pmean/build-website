@@ -6,7 +6,8 @@ date: 2001-10-11
 categories:
 - Blog post
 tags:
-- 
+- Being updated
+- Randomization in research
 output: html_document
 ---
 Here's a letter I submitted to the web letters to the editor for the

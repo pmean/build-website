@@ -5,6 +5,7 @@ date: 2001-11-02
 categories:
 - Blog post
 tags:
+- Being updated
 - Analysis of variance
 output: html_document
 ---

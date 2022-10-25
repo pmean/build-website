@@ -6,6 +6,7 @@ date: 2005-09-12
 categories:
 - Blog post
 tags:
+- Being updated
 - Teaching resources
 output: html_document
 ---

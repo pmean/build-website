@@ -6,6 +6,7 @@ date: 2005-05-11
 categories:
 - Blog post
 tags:
+- Being updated
 - Confidence intervals
 output: html_document
 ---
