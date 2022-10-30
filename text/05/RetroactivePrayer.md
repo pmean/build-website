@@ -6,6 +6,7 @@ date: 2005-06-10
 categories:
 - Blog post
 tags:
+- Being updated
 - Corroborating evidence
 output: html_document
 ---
@@ -32,11 +33,11 @@ study, but I cannot access these articles easily because BMJ now limits
 access to some of their content for 12 months. When the 12 month window
 has expired, I may comment on these articles further.
 
--   J. P Bishop and V. J Stenger Retroactive prayer: lots of history,
-    not much mystery, and no science BMJ, December 18, 2004; 329(7480):
-    1444 - 1446
--   M G M. Hunink Does evidence based medicine do more good than harm?
-    BMJ, October 30, 2004; 329(7473): 1051 - 1051.
+- J. P Bishop and V. J Stenger Retroactive prayer: lots of history,
+not much mystery, and no science BMJ, December 18, 2004; 329(7480):
+1444 - 1446
+- M G M. Hunink Does evidence based medicine do more good than harm?
+BMJ, October 30, 2004; 329(7473): 1051 - 1051.
 
 You can also browse
 for pages similar to this one at [Category: Corroborating

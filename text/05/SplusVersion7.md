@@ -6,6 +6,7 @@ date: 2005-04-19
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical computing
 output: html_document
 ---
@@ -79,18 +80,18 @@ blocks using the bd.by.group() function.
 Dr. Smith ended with a case study using US 2000 Census data. To read the
 data in as a bdFrame, the code looks like
 
--   census \<-
-    importData("/projects/census/census.csv",stignasAsFactors=F,,bigdata=T)
+- census \<-
+importData("/projects/census/census.csv",stignasAsFactors=F,,bigdata=T)
 
 You can remove rows with zero population totals using standard S
 subscripting techniques
 
--   census \<- census\[census\[,"poptotal"\]\>0,\]
+- census \<- census\[census\[,"poptotal"\]\>0,\]
 
 but this requires two passes through the data. A new and faster
 alternative is
 
--   census \<- bd.filter.rows(census,"popTotal\>0")
+- census \<- bd.filter.rows(census,"popTotal\>0")
 
 You can also use [regular
 expressions](http://en.wikipedia.org/wiki/Regular_expression) to filter
@@ -102,9 +103,9 @@ efficiency advantages of the bdFrame.
 
 There are two white papers:
 
--   Delivering the Power of Predictive Analytics Across the Enterprise,
-    and
--   Analyzing Large Data Sets with S-plus 7 Enterprise Developer.
+- Delivering the Power of Predictive Analytics Across the Enterprise,
+and
+- Analyzing Large Data Sets with S-plus 7 Enterprise Developer.
 
 A new course, S-plus 7 - Working With Big Data, is also available.
 

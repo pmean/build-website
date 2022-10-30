@@ -6,6 +6,7 @@ date: 2005-06-20
 categories:
 - Blog post
 tags:
+- Being updated
 - Measuring benefit and risk
 output: html_document
 ---
@@ -81,7 +82,7 @@ Hole DJ, Wilson V, Deary IJ.
 which was mentioned on a website called CiteULike. The address for this
 particular article is
 
--   <http://www.citeulike.org/user/shankar/article/120052>
+- <http://www.citeulike.org/user/shankar/article/120052>
 
 I could not find this paper anywhere else, such as on PubMed. The
 abstract has the following sentence:
@@ -108,10 +109,10 @@ this and knows of a good source, please let me know.
 
 Joel Best has a nice book on how statistics can get mangled.
 
--   **Damned Lies and Statistics: Untangling Numbers from the Media,
-    Politicians, and Activists.** Best J (2001) Berkeley, California:
-    University of California Press. ISBN: 0520219783. [BookFinder4U
-    link]](http://www.bookfinder4u.com/detail/0520219783.html)
+- **Damned Lies and Statistics: Untangling Numbers from the Media,
+Politicians, and Activists.** Best J (2001) Berkeley, California:
+University of California Press. ISBN: 0520219783. [BookFinder4U
+link]](http://www.bookfinder4u.com/detail/0520219783.html)
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

@@ -6,6 +6,7 @@ date: 2005-03-22
 categories:
 - Blog post
 tags:
+- Being updated
 - Survival analysis
 output: html_document
 ---
@@ -26,13 +27,13 @@ hazard function for the other clinic.
 Thernau and Grambsch describe it well in their book on survival
 analysis.
 
-> *Analysis of multicenter clinical trials frequently uses
-> stratification. Because of varying patient populations and referral
-> patterns, the different clinical centers in the trial are likely to
-> have difference baseline survival curves, ones that do not have simple
-> parallel relationships. Strata play a role similar to blocks in
-> randomized block designs analyzed by two-factor analysis of variance.*
-> (page 44).
+*Analysis of multicenter clinical trials frequently uses
+stratification. Because of varying patient populations and referral
+patterns, the different clinical centers in the trial are likely to
+have difference baseline survival curves, ones that do not have simple
+parallel relationships. Strata play a role similar to blocks in
+randomized block designs analyzed by two-factor analysis of variance.*
+(page 44).
 
 Using a stratified Cox model could lead to a loss of power or precision,
 because you are using more of the data to estimate separate hazard

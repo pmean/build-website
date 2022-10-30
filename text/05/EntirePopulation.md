@@ -5,6 +5,7 @@ date: 2005-02-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Descriptive statistics
 output: html_document
 ---
@@ -13,11 +14,11 @@ population that you are sampling and your sample effectively constitutes
 all or almost all of the population. For example, I got the following
 email today.
 
-> *I conduct pro bono surveys for schools in my area. For my real job we
-> use some form of sampling but with the schools we often survey the
-> entire population (i.e. all/nearly all the 50 to 100 teachers,
-> all/nearly all the 200 to 1000 students). How does one test for
-> differences in this case?*
+*I conduct pro bono surveys for schools in my area. For my real job we
+use some form of sampling but with the schools we often survey the
+entire population (i.e. all/nearly all the 50 to 100 teachers,
+all/nearly all the 200 to 1000 students). How does one test for
+differences in this case?*
 
 There are two schools of thought on this. The first school argues that
 confidence intervals and p-values are irrelevant. You have the entire

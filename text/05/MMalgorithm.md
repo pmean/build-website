@@ -5,6 +5,7 @@ date: 2005-02-14
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical computing
 output: html_document
 ---
@@ -24,8 +25,8 @@ because an approach that works well for one set of problems may perform
 poorly for another set. A nice tutorial on the state of the art for
 optimization is:
 
--   **A Tutorial on MM Algorithms.** Hunter DR, Lange K. The American
-    Statistician 2004: 54(1); 30-37.
+- **A Tutorial on MM Algorithms.** Hunter DR, Lange K. The American
+Statistician 2004: 54(1); 30-37.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

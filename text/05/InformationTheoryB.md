@@ -5,15 +5,16 @@ date: 2005-08-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Information searching
 output: html_document
 ---
 I was browsing through the book
 
--   **Statistical Distributions Second Edition.** Evans M, Hastings N,
-    Peacock B (1993) New York: John Wiley & Sons. ISBN: 0471559512.
-    [BookFinder4U
-    link]](http://www.bookfinder4u.com/detail/0471559512.html)
+- **Statistical Distributions Second Edition.** Evans M, Hastings N,
+Peacock B (1993) New York: John Wiley & Sons. ISBN: 0471559512.
+[BookFinder4U
+link]](http://www.bookfinder4u.com/detail/0471559512.html)
 
 when I noticed that they defined the information content of the
 exponential distribution as
@@ -83,8 +84,8 @@ distribution in half, you have one less bit of uncertainty.
 
 **Further reading**
 
--   <http://www.ia.hiof.no/prosjekter/hoit/html/nr1_99/im.html>
--   <http://planetmath.org/encyclopedia/Entropy.html>
+- <http://www.ia.hiof.no/prosjekter/hoit/html/nr1_99/im.html>
+- <http://planetmath.org/encyclopedia/Entropy.html>
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

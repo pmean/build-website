@@ -6,6 +6,7 @@ date: 2005-01-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Measuring benefit and risk
 output: html_document
 ---
@@ -18,10 +19,10 @@ who are now aggressively recruiting people for a lawsuit against Merck,
 the manufacturer of Vioxx. In it, he repeats a common misconception
 about relative risk (RR):
 
-> *According to mathematician John Brignell, "In observational studies,
-> \[scientists\] will not normally accept an RR of less than 3 as
-> significant and never an RR of less than 2." \--*
-> [skepdic.com/refuge/funk43.html](http://skepdic.com/refuge/funk43.html)
+*According to mathematician John Brignell, "In observational studies,
+\[scientists\] will not normally accept an RR of less than 3 as
+significant and never an RR of less than 2." \--*
+[skepdic.com/refuge/funk43.html](http://skepdic.com/refuge/funk43.html)
 
 This is a widely quoted rule, but it vastly oversimplifies the issue. A
 small RR is a weaker form of evidence, because it is possible to be
@@ -88,16 +89,16 @@ which mentions Vioxx and other COX-2 inhibitors.
 I sent an email along the same lines as this weblog entry to Dr. Carroll
 and he published it on his web site at
 
-> [www.skepdic.com/refuge/funk43.html\#comment](http://www.skepdic.com/refuge/funk43.html#comment)
+[www.skepdic.com/refuge/funk43.html\#comment](http://www.skepdic.com/refuge/funk43.html#comment)
 
 **References**
 
--   **The missed lessons of Sir Austin Bradford Hill.** Phillips CV,
-    Goodman KJ. Epidemiol Perspect Innov 2004: 1(1); 3.
-    [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15507128&dopt=Abstract)
-    [\[Abstract\]](http://www.epi-perspectives.com/content/1/1/3/abstract)
-    [\[Full text\]](http://www.epi-perspectives.com/content/1/1/3)
-    [\[PDF\]](http://www.epi-perspectives.com/content/pdf/1742-5573-1-3.pdf)
+- **The missed lessons of Sir Austin Bradford Hill.** Phillips CV,
+Goodman KJ. Epidemiol Perspect Innov 2004: 1(1); 3.
+[\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15507128&dopt=Abstract)
+[\[Abstract\]](http://www.epi-perspectives.com/content/1/1/3/abstract)
+[\[Full text\]](http://www.epi-perspectives.com/content/1/1/3)
+[\[PDF\]](http://www.epi-perspectives.com/content/pdf/1742-5573-1-3.pdf)
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

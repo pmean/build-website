@@ -6,6 +6,7 @@ date: 2005-03-14
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical computing
 output: html_document
 ---
@@ -18,12 +19,12 @@ released a new product for technical publications,
 [Publicon](http://www.wolfram.com/products/publicon/index.html).
 According to their website,
 
-> *Publicon provides an easy-to-use graphical interface for creating
-> publication-quality technical documents that integrate text,
-> searchable typeset equations, graphics, hyperlinks, endnotes, and
-> references. Built-in palettes, templates, and style sheets simplify
-> the creation of documents that conform to established formats but also
-> allow for complete customization.*
+*Publicon provides an easy-to-use graphical interface for creating
+publication-quality technical documents that integrate text,
+searchable typeset equations, graphics, hyperlinks, endnotes, and
+references. Built-in palettes, templates, and style sheets simplify
+the creation of documents that conform to established formats but also
+allow for complete customization.*
 
 This software will produce nice looking output in
 [html](http://en.wikipedia.org/wiki/Html),

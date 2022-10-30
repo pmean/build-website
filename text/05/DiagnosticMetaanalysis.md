@@ -5,21 +5,22 @@ date: 2005-03-22
 categories:
 - Blog post
 tags:
+- Being updated
 - Systematic overviews
 output: html_document
 ---
-> What I originally wrote for this page has been replaced by
->
-> -   [Stats: Guidelines for meta-analysis
->     models](../model/metaanalysis.asp)
->
-> which gives general guidance about meta-analysis, and
->
-> -   [Stats: Meta-analysis for a diagnostic
->     test](../model/diagnostic.asp)
->
-> which talks about the particular issues associated with diagnostic
-> tests. Both pages still need a bit of work.
+What I originally wrote for this page has been replaced by
+
+- [Stats: Guidelines for meta-analysis
+models](../model/metaanalysis.asp)
+
+which gives general guidance about meta-analysis, and
+
+- [Stats: Meta-analysis for a diagnostic
+test](../model/diagnostic.asp)
+
+which talks about the particular issues associated with diagnostic
+tests. Both pages still need a bit of work.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

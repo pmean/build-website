@@ -5,6 +5,7 @@ date: 2005-05-16
 categories:
 - Blog post
 tags:
+- Being updated
 - Probability concepts
 output: html_document
 ---
@@ -15,10 +16,10 @@ probabilities that A will win? B will win? C will win?
 This is a simple application of the geometric distribution with P=1/2. A
 good reference for this distribution is
 
--   **[Geometric
-    Distribution](http://arnoldkling.com/apstats/geometric.html%20)**.
-    Kling A. Accessed on 2005-05-16.
-    arnoldkling.com/apstats/geometric.html
+- **[Geometric
+Distribution](http://arnoldkling.com/apstats/geometric.html%20)**.
+Kling A. Accessed on 2005-05-16.
+arnoldkling.com/apstats/geometric.html
 
 You can also take advantage of the symmetry of the situation. We don't
 know what the probability of winning for A, B, or C is, so set them to

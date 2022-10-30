@@ -6,6 +6,7 @@ date: 2005-05-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Data management
 output: html_document
 ---

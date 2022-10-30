@@ -5,18 +5,19 @@ date: 2005-03-11
 categories:
 - Blog post
 tags:
+- Being updated
 - Systematic overviews
 output: html_document
 ---
 This figure below, published in
 
--   **Erythropoietin, uncertainty principle and cancer related
-    anaemia.** Clark O, Adams JR, Bennett CL, Djulbegovic B. BMC Cancer
-    2002: 2(1); 23.
-    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
-    [Abstract]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
-    [Full text]](http://www.biomedcentral.com/1471-2407/2/23)
-    [PDF]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
+- **Erythropoietin, uncertainty principle and cancer related
+anaemia.** Clark O, Adams JR, Bennett CL, Djulbegovic B. BMC Cancer
+2002: 2(1); 23.
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12270068&dopt=Abstract)
+[Abstract]](http://www.biomedcentral.com/1471-2407/2/23/abstract)
+[Full text]](http://www.biomedcentral.com/1471-2407/2/23)
+[PDF]](http://www.biomedcentral.com/content/pdf/1471-2407-2-23.pdf)
 
 shows cumulative meta-analysis, which is the cumulated effects over time
 of studies in the use of erythropoietin (EPO) to treat cancer related
@@ -49,10 +50,10 @@ easy to include their content on my web pages and in my teaching.
 
 **Further reading**
 
--   **Changes in clinical trials mandated by the advent of
-    meta-analysis.** Chalmers TC, Lau J. Stat Med 1996: 15(12); 1263-8;
-    discussion 1269-72.
-    [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
+- **Changes in clinical trials mandated by the advent of
+meta-analysis.** Chalmers TC, Lau J. Stat Med 1996: 15(12); 1263-8;
+discussion 1269-72.
+[Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8817800&dopt=Abstract)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

@@ -6,6 +6,7 @@ date: 2005-02-15
 categories:
 - Blog post
 tags:
+- Being updated
 - Writing research papers
 output: html_document
 ---
@@ -31,8 +32,8 @@ research.
 
 Further reading:
 
--   [grants1.nih.gov/grants/guide/notice-files/NOT-OD-05-022.html](http://grants1.nih.gov/grants/guide/notice-files/NOT-OD-05-022.html)
--   [www.nih.gov/about/publicaccess/index.htm](http://www.nih.gov/about/publicaccess/index.htm)
+- [grants1.nih.gov/grants/guide/notice-files/NOT-OD-05-022.html](http://grants1.nih.gov/grants/guide/notice-files/NOT-OD-05-022.html)
+- [www.nih.gov/about/publicaccess/index.htm](http://www.nih.gov/about/publicaccess/index.htm)
 
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].

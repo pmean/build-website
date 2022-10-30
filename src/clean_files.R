@@ -47,6 +47,7 @@ clean_files <- function(
       }
       cat(paste0(tf, collapse="\n\n"))
       if (ok_to_replace) {
+        print(fn)
         tx %>%
           str_replace_all(old, new) %>%
           write_lines(fn)
@@ -65,7 +66,8 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '- Quotations',
-  '- Quotation',
+  'tags:',
+  'tags:\n- Being updated',
   dir_root="text", 
+  subdir_list="01",
   file_pattern="md$")

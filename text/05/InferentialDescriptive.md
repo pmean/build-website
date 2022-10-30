@@ -5,6 +5,7 @@ date: 2005-03-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Descriptive statistics
 output: html_document
 ---
@@ -18,10 +19,10 @@ After I responded to her, I realized that I didn't have a decent
 definition of inferential or descriptive statistics, so I add them and
 found a few examples on the BioMed Central website.
 
--   [Definition: Descriptive
-    statistics](www.childrensmercy.org/definitions/descriptive.statistics.htm)
--   [Definition: Inferential
-    statistics](www.childrensmercy.org/definitions/inferential.statistics.htm)
+- [Definition: Descriptive
+statistics](www.childrensmercy.org/definitions/descriptive.statistics.htm)
+- [Definition: Inferential
+statistics](www.childrensmercy.org/definitions/inferential.statistics.htm)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

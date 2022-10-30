@@ -5,6 +5,7 @@ date: 2005-12-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Early stopping
 - R software
 output: html_document
@@ -32,13 +33,13 @@ them against some well known examples when I have time.
 
 **Further reading:**
 
--   [Stats: Controversy over stopping a study early (November
-    24, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingControversy.html)
--   [Stats: Early stopping in an animal experiment (July
-    1, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingAnimal.html)
--   [Stats: Early Stopping Bibliography (July
-    1, 2004)](../library/EarlyStopping1.asp)
--   [Stats: Interim analysis](../plan/interim.asp)
+- [Stats: Controversy over stopping a study early (November
+24, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingControversy.html)
+- [Stats: Early stopping in an animal experiment (July
+1, 2004)](http://www.pmean.com/weblog2004/EarlyStoppingAnimal.html)
+- [Stats: Early Stopping Bibliography (July
+1, 2004)](../library/EarlyStopping1.asp)
+- [Stats: Interim analysis](../plan/interim.asp)
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

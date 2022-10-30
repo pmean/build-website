@@ -5,6 +5,7 @@ date: 2005-09-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Quality control
 output: html_document
 ---
@@ -31,17 +32,17 @@ Here is a picture showing how to prepare the helicopter from page 260 of their b
 
 Another approach would use a catapult and try to optimize the distance that the object is thrown. You can buy a very nice catapult that was designed for this sort of experiment at
 
--   <http://www.airacad.com/TrainingAidStatapult.aspx>
+- <http://www.airacad.com/TrainingAidStatapult.aspx>
 
 but something at a toy store might work reasonably well on a limited budget.
 
--   <http://www.americantoy.com/catapult.htm>
+- <http://www.americantoy.com/catapult.htm>
 
--   <http://www.zooscape.com/cgi-bin/maitred/YellowLoop/questp408441>
+- <http://www.zooscape.com/cgi-bin/maitred/YellowLoop/questp408441>
 
--   <http://www.ehobbies.com/tyvmp023.html>
+- <http://www.ehobbies.com/tyvmp023.html>
 
--   <http://www.handsontoys.com/things/cat-a-pult.php>
+- <http://www.handsontoys.com/things/cat-a-pult.php>
 
 The cat-a-pult product described in the last link formed the basis of a team building exercise as described in
 
@@ -50,11 +51,11 @@ The cat-a-pult product described in the last link formed the basis of a team bui
 Some other possible ideas for quality control exercises might come from
 
 - Easterling, Robert G. (2004) Teaching experimental design. The   American Statistician, 58, 244-252.
-    
--   Sparks, Ross S. and Field, John B. F. (2000) Using Deming's funnel experiment to demonstrate effects of violating assumptions   underlying Shewhart's control charts. The American Statistician, 54, 291-302.
-    
+
+- Sparks, Ross S. and Field, John B. F. (2000) Using Deming's funnel experiment to demonstrate effects of violating assumptions   underlying Shewhart's control charts. The American Statistician, 54, 291-302.
+
 - Brady, James E. and Allen, Theodore T. (2002) Case study based instruction of DOE and SPC. The American Statistician, 56, 312-315.
-    
+
 - Lawrance, A. J. (1996) A design of experiments workshop as an introduction to statistics. The American Statistician, 50, 156-158.
 
 I have not had a chance to look at these four papers in detail, yet.

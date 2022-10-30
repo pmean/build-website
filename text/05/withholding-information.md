@@ -6,6 +6,7 @@ date: 2005-11-28
 categories:
 - Blog post
 tags:
+- Being updated
 - Blinding in research
 output: html_document
 ---
@@ -14,9 +15,9 @@ output: html_document
 
 A recent query on the IRB Forum
 
--   **[The Institutional Review Board - Discussion and News
-    Forum](http://www.irbforum.org)**. Nelson RM, The Children's
-    Hospital of Philadelphia. Accessed on 2005-11-28. www.irbforum.org
+- **[The Institutional Review Board - Discussion and News
+Forum](http://www.irbforum.org)**. Nelson RM, The Children's
+Hospital of Philadelphia. Accessed on 2005-11-28. www.irbforum.org
 
 asked about a pilot study. The goal of the pilot study was to see if
 different ways of presenting the materials would lead to an improvement
@@ -31,10 +32,10 @@ Withholding information is commonly done and accepted in research. For
 example, in a blinded study, you withhold information about which
 treatment a patient is getting until after the study is completed.
 
--   **[Issues Regarding Blinded Randomized Studies in the NIH Intramural
-    Research Program](http://ohsr.od.nih.gov/info/minfo_13.php3)**.
-    Office of Human Subjects Research, National Institutes of Health.
-    Accessed on 2004-02-06. ohsr.od.nih.gov/info/minfo\_13.php3
+- **[Issues Regarding Blinded Randomized Studies in the NIH Intramural
+Research Program](http://ohsr.od.nih.gov/info/minfo_13.php3)**.
+Office of Human Subjects Research, National Institutes of Health.
+Accessed on 2004-02-06. ohsr.od.nih.gov/info/minfo\_13.php3
 
 You should never withhold information about the risks of participation,
 of course, and the subjects need to understand the general purpose of
@@ -59,20 +60,20 @@ produce results that are not representative of their true reactions.
 Studies involving deception require very careful scrutiny. The
 guidelines of the American Psychology Association discuss this issue:
 
-> *8.07 Deception in Research (a) Psychologists do not conduct a study
-> involving deception unless they have determined that the use of
-> deceptive techniques is justified by the study's significant
-> prospective scientific, educational, or applied value and that
-> effective nondeceptive alternative procedures are not feasible. (b)
-> Psychologists do not deceive prospective participants about research
-> that is reasonably expected to cause physical pain or severe emotional
-> distress. (c) Psychologists explain any deception that is an integral
-> feature of the design and conduct of an experiment to participants as
-> early as is feasible, preferably at the conclusion of their
-> participation, but no later than at the conclusion of the data
-> collection, and permit participants to withdraw their data. (See also
-> Standard 8.08, Debriefing.)*
-> [www.apa.org/ethics/code2002.html](http://www.apa.org/ethics/code2002.html)
+*8.07 Deception in Research (a) Psychologists do not conduct a study
+involving deception unless they have determined that the use of
+deceptive techniques is justified by the study's significant
+prospective scientific, educational, or applied value and that
+effective nondeceptive alternative procedures are not feasible. (b)
+Psychologists do not deceive prospective participants about research
+that is reasonably expected to cause physical pain or severe emotional
+distress. (c) Psychologists explain any deception that is an integral
+feature of the design and conduct of an experiment to participants as
+early as is feasible, preferably at the conclusion of their
+participation, but no later than at the conclusion of the data
+collection, and permit participants to withdraw their data. (See also
+Standard 8.08, Debriefing.)*
+[www.apa.org/ethics/code2002.html](http://www.apa.org/ethics/code2002.html)
 
 You can also browse
 for pages similar to this one at [Category: Blinding in

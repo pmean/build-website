@@ -5,6 +5,7 @@ date: 2005-12-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Measuring benefit and risk
 output: html_document
 ---
@@ -14,15 +15,15 @@ fractions behave in a counter intuitive fashion. One of the examples I
 cite is a Car Talk Puzzler problem about a 100 pound sack of potatoes.
 I cited the puzzler book that Tom and Ray Magliozzi had published:
 
--   **A Haircut in Horse Town: And Other Great Car Talk
-    Puzzlers.** (1999) Tom Magliozzi, Ray Magliozzi, Douglas Berman. New
-    York NY: Berkley Publishing Group.
+- **A Haircut in Horse Town: And Other Great Car Talk
+Puzzlers.** (1999) Tom Magliozzi, Ray Magliozzi, Douglas Berman. New
+York NY: Berkley Publishing Group.
 
 but you can also find this question and answer on the web at
 
--   <http://www.cartalk.com/content/puzzler/transcripts/199625/index.html>
-    and
--   <http://www.cartalk.com/content/puzzler/transcripts/199626/answer.html>
+- <http://www.cartalk.com/content/puzzler/transcripts/199625/index.html>
+and
+- <http://www.cartalk.com/content/puzzler/transcripts/199626/answer.html>
 
 Just recently, the Car Talk guys published another examples of how
 fractions are funny. It is a simpler example, but it is still
@@ -36,9 +37,9 @@ both of them are making less money after two years, even though they
 seemed to get offsetting pay raises and pay cuts. The full details of
 this puzzler question and answer are at
 
--   <http://www.cartalk.com/content/puzzler/transcripts/200549/index.html>
-    and
--   <http://www.cartalk.com/content/puzzler/transcripts/200549/answer.html>
+- <http://www.cartalk.com/content/puzzler/transcripts/200549/index.html>
+and
+- <http://www.cartalk.com/content/puzzler/transcripts/200549/answer.html>
 
 The fact that a 10% raise and 10% pay cut do not offset one another may
 not be immediately apparent, but when you consider a more extreme case,

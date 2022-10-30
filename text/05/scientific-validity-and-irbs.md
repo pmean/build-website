@@ -6,6 +6,7 @@ date: 2005-08-12
 categories:
 - Blog post
 tags:
+- Being updated
 - Ethics in research
 output: html_document
 ---
@@ -15,11 +16,11 @@ output: html_document
 One of the regular posters on the edstat-l mailing list shared a comment
 that is commonly held among many of the people I have talked to.
 
-> *IRB's should NOT be in the business of trying to make studies good.
-> IRBs are not sufficiently experts in all the different kinds of
-> proposals that come across their desks. They are there to make sure
-> that the principles of informed consent and lack of coercion \... have
-> been faithfully taken care of.*
+*IRB's should NOT be in the business of trying to make studies good.
+IRBs are not sufficiently experts in all the different kinds of
+proposals that come across their desks. They are there to make sure
+that the principles of informed consent and lack of coercion \... have
+been faithfully taken care of.*
 
 This comment is a reaction to the tendency of some IRBs to nitpick.
 While I am somewhat sympathetic to overly intrusive reviews that we all

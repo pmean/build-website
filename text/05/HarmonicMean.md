@@ -5,6 +5,7 @@ date: 2005-02-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical theory
 output: html_document
 ---
@@ -13,7 +14,7 @@ show. Usually, it is some unusual or unexpected problems with
 automobiles, but Ray and Tom Magliozzi also will toss in a mathematical
 puzzle from time to time. A recent car talk puzzler:
 
--   [www.cartalk.com/content/puzzler/transcripts/200505/index.html](http://www.cartalk.com/content/puzzler/transcripts/200505/index.html)
+- [www.cartalk.com/content/puzzler/transcripts/200505/index.html](http://www.cartalk.com/content/puzzler/transcripts/200505/index.html)
 
 discusses a family that has two cars, one which gets 10 miles per gallon
 and the other gets 100 mpg. Both cars are driven the same number of
@@ -53,12 +54,12 @@ sample size of 40, the harmonic mean of 25 and 100.
 
 **Related pages in Stats:**
 
--   [Definition: Geometric
-    mean](www.childrensmercy.org/definitions/geometric.htm)
+- [Definition: Geometric
+mean](www.childrensmercy.org/definitions/geometric.htm)
 
 **Further reading**
 
--   <http://en.wikipedia.org/wiki/Mean>
+- <http://en.wikipedia.org/wiki/Mean>
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

@@ -5,6 +5,7 @@ date: 2005-10-10
 categories:
 - Blog post
 tags:
+- Being updated
 - Systematic overviews
 output: html_document
 ---
@@ -12,20 +13,20 @@ A contributor to the Evidence-Based Medicine list offered a possible
 criticism of meta-analysis. The criticism was along the lines of (I am
 paraphrasing and summarizing):
 
-> Suppose we have two randomized trials coming up with exactly the
-> opposite conclusion. Assume that bias and confounding are not an issue
-> here. Then one study may be wrong. When meta-analysis takes an average
-> of a correct value and an incorrect value, you will get a meaningless
-> result.
->
-> Now assume that the two results differ because they were studying two
-> very different patient populations. An average here is also
-> misleading, unless you weight by the proportion of the true overall
-> population that these two patient populations come from.
->
-> As an aside this reminds me of the old joke that a statistician is the
-> only person who could stick his head in an oven and his feet in a
-> bucket of ice and say that he feels fine on average.
+Suppose we have two randomized trials coming up with exactly the
+opposite conclusion. Assume that bias and confounding are not an issue
+here. Then one study may be wrong. When meta-analysis takes an average
+of a correct value and an incorrect value, you will get a meaningless
+result.
+
+Now assume that the two results differ because they were studying two
+very different patient populations. An average here is also
+misleading, unless you weight by the proportion of the true overall
+population that these two patient populations come from.
+
+As an aside this reminds me of the old joke that a statistician is the
+only person who could stick his head in an oven and his feet in a
+bucket of ice and say that he feels fine on average.
 
 Here's the gist of my response.
 

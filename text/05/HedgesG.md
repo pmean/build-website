@@ -5,13 +5,14 @@ date: 2005-05-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Systematic overviews
 output: html_document
 ---
 Someone asked me today about Hedge's G. I had never heard of it before,
 but if you do a web search, you will find
 
--   <http://econwpa.wustl.edu/eps/prog/papers/0411/0411124.pdf>
+- <http://econwpa.wustl.edu/eps/prog/papers/0411/0411124.pdf>
 
 which defines it as a variation on Cohen's D that corrects for biases
 due to small sample sizes. The formula for Cohen's D is well known:

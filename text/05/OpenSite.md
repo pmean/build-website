@@ -6,6 +6,7 @@ date: 2005-05-23
 categories:
 - Blog post
 tags:
+- Being updated
 - Writing research papers
 output: html_document
 ---
@@ -36,31 +37,31 @@ American Medical News that I had cited (or planned to cite) on various
 parts of these web pages. You and I will have to learn to live without
 these excellent resources:
 
--   **[Going to the source: nonproprietary medical
-    software](http://www.ama-assn.org/amednews/2005/04/11/bisa0411.htm%20%20)**.
-    Chin T, published in AMNews on April 11, 2005. Accessed on
-    2005-04-04. www.ama-assn.org/amednews/2005/04/11/bisa0411.htm
--   **[Pursuing the placebo effect: What exactly is
-    it?](http://www.ama-assn.org/amednews/2004/12/20/hlsa1220.htm%20)**.
-    Elliott VS, Published in AMNews, December 20, 2004. Accessed on
-    2004-12-13. www.ama-assn.org/amednews/2004/12/20/hlsa1220.htm
--   **[Color-blind? The value of racial data in medical
-    research](http://www.ama-assn.org/amednews/2004/01/05/hlsa0105.htm%20)**.
-    Elliott VS, AMNews. Accessed on 2004-01-02.
-    www.ama-assn.org/amednews/2004/01/05/hlsa0105.htm
--   **[AIDS vaccine trial called disappointing, but not
-    futile](http://www.ama-assn.org/amednews/2003/03/17/hlsb0317.htm%20)**.
-    Elliott VS, AMNews. Accessed on 2004-01-02.
-    www.ama-assn.org/amednews/2003/03/17/hlsb0317.htm
--   **[Value of PSA screening test
-    questioned](http://www.ama-assn.org/amednews/2004/10/11/hll21011.htm%20%20)**.
-    Elliott VS, Published in AMNews (2004, October 11). Accessed on
-    2005-01-04. www.ama-assn.org/amednews/2004/10/11/hll21011.htm
--   **[Minnesota hospitals' report on "never events"
-    released](http://www.ama-assn.org/amednews/2005/02/21/prsc0221.htm%20%20)**.
-    Robeznieks A, Published in Amercian Medical News on February
-    21, 2005. Accessed on 2005-02-16.
-    www.ama-assn.org/amednews/2005/02/21/prsc0221.htm
+- **[Going to the source: nonproprietary medical
+software](http://www.ama-assn.org/amednews/2005/04/11/bisa0411.htm%20%20)**.
+Chin T, published in AMNews on April 11, 2005. Accessed on
+2005-04-04. www.ama-assn.org/amednews/2005/04/11/bisa0411.htm
+- **[Pursuing the placebo effect: What exactly is
+it?](http://www.ama-assn.org/amednews/2004/12/20/hlsa1220.htm%20)**.
+Elliott VS, Published in AMNews, December 20, 2004. Accessed on
+2004-12-13. www.ama-assn.org/amednews/2004/12/20/hlsa1220.htm
+- **[Color-blind? The value of racial data in medical
+research](http://www.ama-assn.org/amednews/2004/01/05/hlsa0105.htm%20)**.
+Elliott VS, AMNews. Accessed on 2004-01-02.
+www.ama-assn.org/amednews/2004/01/05/hlsa0105.htm
+- **[AIDS vaccine trial called disappointing, but not
+futile](http://www.ama-assn.org/amednews/2003/03/17/hlsb0317.htm%20)**.
+Elliott VS, AMNews. Accessed on 2004-01-02.
+www.ama-assn.org/amednews/2003/03/17/hlsb0317.htm
+- **[Value of PSA screening test
+questioned](http://www.ama-assn.org/amednews/2004/10/11/hll21011.htm%20%20)**.
+Elliott VS, Published in AMNews (2004, October 11). Accessed on
+2005-01-04. www.ama-assn.org/amednews/2004/10/11/hll21011.htm
+- **[Minnesota hospitals' report on "never events"
+released](http://www.ama-assn.org/amednews/2005/02/21/prsc0221.htm%20%20)**.
+Robeznieks A, Published in Amercian Medical News on February
+21, 2005. Accessed on 2005-02-16.
+www.ama-assn.org/amednews/2005/02/21/prsc0221.htm
 
 Take a look at these links now, because they will disappear sometime in
 June.
