@@ -1,12 +1,12 @@
 ---
 title: "Missing value hell"
 author: "Steve Simon"
-date: "2022-07-04"
+date: "2022-10-22"
 output:
   word_document: default
   html_document: default
 category: Blog post
-tags: Analysis of means
+tags: Data management
 source: new
 ---
 
@@ -32,7 +32,7 @@ and everything goes to hell.
 
 A while back I was browsing through the geekier parts of Office Max and noticed the following tag.
 
-![Figure 2. Printer pricing tage](http://www.pmean.com/new-images/22/missing-value-hell-02.png)
+![Figure 2. Printer pricing tage](http://www.pmean.com/new-images/22/missing-value-hell-02.jpg)
 
 The computer database used the common practice of using all 9's to denote a missing value. That's fine, but then whoever programmed the calculation of how much saving you would get by buying the printer at \$299.99 dollars instead of the actual price, figured through a simple subtraction that you would save a whopping \$9,700!
 
@@ -42,10 +42,14 @@ Whenever I see stories like this, I think of the quote from John Bradford, a six
 
 How easy it is to forget to account for missing values. To avoid this, you must develop an obsession about missing values. You must track their number through every version of every dataset. This number can grow, if you are not careful, so monitor it with a religious fervor.
 
-If you recode any variable, always account for missing values first and last. So start off any recodes with the case where the original variable is missing and end with a catch-all code. Consider a variable for gender with 1 for male, 2 for female, and 9 for unknown. Then a recode in SAS might look like
+Direct comparisons though can lead to trouble, so it is always best to use an explicit function that detects missing value. This is "missing" in SAS, SPSS, and Stata. In R, use the "is.na" function.
+
+Best practice is to account for missing values first and last. So start off any recodes with the case where the original variable is missing and end with a catch-all code.
+
+Consider a variable for gender with 1 for male, 2 for female that might or might not have missing values. You want to recode from number codes to a string. Then a recode in SAS might look like
 
 ```{}
-if gender=9 then gender_label="Unknown";
+if missing(gender) then gender_label="Unknown";
   else if gender=1 then gender_label="Male";
   else if gender=2 then gender_label="Female";
   else gender_label="Coding error";
@@ -53,47 +57,8 @@ if gender=9 then gender_label="Unknown";
 
 The syntax changes slightly with other statistical packages, but the general concept applies. Account for missing value codes first and then catch anything that fails to match at the end.
 
-### Hunting for missing values 
-
-Every statistical package has a different internal code used for missing values, and this can cause problems if you are not aware of them.
-
-SAS stores the missing value as the most extremely negative number that could be stored in floating point precision. You are not likely to have extremely negative values in a real application, so this protects you from a legitimate data value being mistaken for a missing value.
-
-But there's a trap waiting for you. Consider the following statement:
-
-```{}
-if age<=18 then child="Yes";
-  else child="No";
-```
-
-The child variable would be "Yes" for any 18 or younger or anyone with a missing age. That's probably not what you wanted.
-
-In Stata, the missing value is coded as the largest possible floating point number. Again, a reasonable choice, but now the child variable would be "No" for all adults and all missing values.
-
-In R, comparisons involving missing values are handled quite differently. If you test whether a missing age is less than or equal to 18, it won't tell you it is true, like SAS does. It won't tell you false, like Stata does. It returms missing, which you can interpret as "I don't know if this statement is true or false." This seems fair enough, but it does cause problems with equality checks.
-
-The statement
-
-```{}
-10==NA
-```
-
-returns a missing logic value. If the right hand side of the comparison is unknown, it might equal 10 if it were known, but it might not. So a missing logic value seems reasonable. Likewise
-
-```{}
-NA==10
-```
-
-returns a missing logic value because the left hand side of the comparison is unknown. What's totally surprising is that
-
-```{}
-NA==NA
-```
-
-also returns a missing logic value. The left hand side could be anything 10, 82, 53. The right hand side could be anything, 23, 10, 92. So maybe the two unknown values are equal and maybe they are unequal. You can't be sure, so you get a missing logic value.
-
-The solution in all of these cases is to hunt for the missing values explicitly. SAS and Stata have a missing function. In R, you check for missing with the is.na function. Use these functions aggressively in any code that might have missing values.
+Use this approach even if you know it is not needed for a particular data set. You might end up using the same code on an updated dataset that isn't as well behaved.
 
 ### Conclusions
 
-Missing values are one of the most troublesome aspects of data management. Every statistical package stores missing values differently. Be aware of how your package treats missing values, use the correct functions detecting missing value codes, and account for missing values at the start and at the end of any recodes.
+Missing values are one of the most troublesome aspects of data management. Every statistical package stores missing values differently, so be sure to use the function that they provide for detecting missingness. Account for missing values at the start and at the end of any recodes.
