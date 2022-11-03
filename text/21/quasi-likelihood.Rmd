@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 
-With the generalized linear model, you have the option of choosing a model that works well with a variety of different distributions (normal, Poisson, Gamma, etc.). But you also have the option of working outside of these distributions. You can fit models that do not specify the distribtution, but which fit a particular transformation of the linear effect and particular mean-variance relationship.
+With the generalized linear model, you have the option of choosing a model that works well with a variety of different distributions (normal, Poisson, Gamma, etc.). But you also have the option of working outside of these distributions. You can fit models that do not specify the distribution, but which fit a particular transformation of the linear effect and particular mean-variance relationship.
 
 
 ```{r setup}

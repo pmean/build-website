@@ -1,9 +1,8 @@
 ---
-title: "The best way to store dates"
+title: "Internal storage format for dates"
 author: "Steve Simon"
 date: "2022-10-30"
 output:
-  word_document: default
   html_document: default
 category: Blog post
 tags: Data management

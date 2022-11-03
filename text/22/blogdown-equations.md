@@ -1,13 +1,24 @@
 ---
-title: "Consusion caused by multiple date formats"
+title: "Blogdown equations"
 author: "Steve Simon"
-date: "2022-10-30"
+date: "2022-11-03"
 output:
   html_document: default
 category: Blog post
 tags: Data management
 source: new
 ---
+
+I write my updated blog using a mix of Markdown (\*.md) and R Markdown (\*.Rmd) files. If the blog post has R code in it, I use R Markdown. But I am finding that equations can cause problems with Markdown.
+
+Normally, you enter equations using a syntax originally developed for TeX. While this seems to work with R Markdown, it works inconsistently with Markdown. It looks fine when you click on the preview button, but when you create the full site using bookdown, it doesn't always look fine.
+
+I'll have to experiment with this, but the easiest solution is to use R Markdown not only for those pages with R code, but also those pages with equations.
+
+There is [some commentary][xie1] about this in [Creating Webisites with R Markdown][xie2], but note that some recent changes to Hugo may have impact some of the discussion here.
+
+[xie1]: https://bookdown.org/yihui/blogdown/output-format.html
+[xie2]: https://bookdown.org/yihui/blogdown/
 
 If you are given data that includes dates, expect confusion. Dates can be represented in many different ways.
 
