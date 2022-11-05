@@ -11,7 +11,16 @@ suppressMessages(suppressWarnings(library(rmarkdown)))
 suppressMessages(suppressWarnings(library(stringr  )))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
-# source(file="src/standard_functions.R")
+source(file="src/standard_functions.R")
+
+# I had some trouble with write_lines until
+# I used the option "lazy=FALSE" in the
+# previous read_lines function. See
+# https://community.rstudio.com/t/error-cannot-
+#   open-file-for-writing-write-csv/111125
+# Also note readr 2.1.0 comments at
+# https://cran.r-project.org/web/packages/
+#    readr/news/news.html
 
 clean_files <- function(
     old, 
@@ -23,7 +32,7 @@ clean_files <- function(
   k1 <- 0
   k2 <- 0
   for (subdir in subdir_list) {
-    print(subdir)
+    cat(glue("\n\n{subdir}"))
     glue("{dir_root}/{subdir}") %>%
       list.files %>%
       str_subset(file_pattern) -> file_list
@@ -36,7 +45,7 @@ clean_files <- function(
     for (i_file in file_list) {
       k1 <- k1+1
       fn <- glue("{dir_root}/{subdir}/{i_file}")
-      tx <- read_lines(fn)
+      tx <- read_lines(fn, lazy=FALSE)
       tf <- str_subset(tx, old)
       if (length(tf)==0) next
       k2 <- k2+1
@@ -47,7 +56,6 @@ clean_files <- function(
       }
       cat(paste0(tf, collapse="\n\n"))
       if (ok_to_replace) {
-        print(fn)
         tx %>%
           str_replace_all(old, new) %>%
           write_lines(fn)
@@ -66,8 +74,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  'tags:',
-  'tags:\n- Being updated',
+  '- Research designs',
+  '- Research design',
   dir_root="text", 
-  subdir_list="01",
   file_pattern="md$")

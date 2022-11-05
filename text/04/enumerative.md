@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Descriptive statistics
-- Research designs
+- Research design
 output: html_document
 ---
 > I received a question today via email about what statistics you can

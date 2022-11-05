@@ -5,7 +5,7 @@ date: 2000-08-23
 categories:
 - Blog post
 tags:
-- Research designs
+- Research design
 output: html_document
 ---
 *Dear Professor Mean, What is a stratified random sample and why would I

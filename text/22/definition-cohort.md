@@ -5,7 +5,7 @@ date: 2022-05-28
 categories:
 - Definitions
 tags:
-- Research designs 
+- Research design 
 output: html_document
 ---
 

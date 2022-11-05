@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- Research designs
+- Research design
 output: html_document
 ---
 *Dear Professor Mean, I'm conducting a number of web-based polls and

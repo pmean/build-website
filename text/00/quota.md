@@ -5,7 +5,7 @@ date: 2000-01-28
 categories:
 - Blog post
 tags:
-- Research designs
+- Research design
 output: html_document
 ---
 *Dear Professor Mean, I'm doing my thesis right now and I have to use
