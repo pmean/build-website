@@ -12,8 +12,6 @@ output: html_document
 
 The Journal of Statistics Education (now called the Journal of Statistics and Data Science Education) maintains an [archive of interesting datasets][jse01]. The data documentation is mostly good, and you can find out more about these data sets in the journal articles themselves. Here are a few datasets that look interesting (I am skipping datasets from this archive that I have already used in class).
 
-A very old resource on the Internet with interesting datasets is statlib. The quality of the documentation is a bit uneven and some of the datasets are too simple to be used in my classes. Other files use oddball or obscure formats. But here are a few datasets that look interesting. I raise a question that might be worth exploring for each of these datasets.
-
 <!--more-->
 
 ### 2004 cars and trucks [data][jse02] and [documentation][jse03]
