@@ -1,0 +1,139 @@
+---
+title: "The POSIX time standard"
+author: "Steve Simon"
+date: "2022-11-12"
+output:
+  html_document: default
+category: Blog post
+tags: Data science
+source: new
+---
+
+I thought I understood everything about how computers represent time, but apparently not. There is an important time standard, POSIX time, that I was not all that aware of. Here's what I found out after a few Google searches.
+
+### POSIX time, Unix time, and UTC
+
+Wikipedia has a nice article about [Unix time][wik1], and there are apparently some subtle differences between the POSIX standard for time and Unix time, the standard approach for time used in Unix systems. As I understand it, the differences are fairly minor. Both differ slightly from another standard, [Coordinated Universal Time (UTC)][wik2].
+
+[wik1]: https://en.wikipedia.org/wiki/Unix_time
+[wik2]: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
+
+There are some issues about how these standards handle [leap seconds][wik3]. Leap seconds have been added to various years since 1972 to account for irregularities and the gradual slowing in the earth's rotation. This may be important in certain sciences like Astronomy, but most statisticians do not track time values to that level of precision.
+
+[wik3]: https://en.wikipedia.org/wiki/Leap_second
+
+### Internal storage of POSIX time values
+
+The POSIX standard stores date time values internally as the number of seconds since midnight on January 1, 1970 (1970-01-01 00:00:00). Midnight is considered the start of a day rather than the end of it, so the date-time values transition from
+
++ -1 = 1969-12-31 11:59:59 to 
++ 0 = 1970-01-01 00:00:00
+
+For Unix systems, the POSIX time value is stored as either a 32 bit signed integer or a 64 bit signed integer. If you do the math, the 32 bit signed integer will reach its upper limit sometime in 2038, which could lead to a miniature revival of the Y2K crisis.
+
+The POSIX standard allows you to specify a time zone, which helps if you are coordinating data collection across multiple time zones and if synchronizing these values at levels of time less than a day are important to you.
+
+### Functions in R for handling POSIX times
+
+R uses its own standard for storing date/time values. It counts the number of days rather than the number of seconds since 1970-01-01 and this means that intervals of time less than one day are stored behind the decimal place. So noon on January 1, 1970 (1970-01-01 12:00:00) would be stored as 0.5, exactly half a day since midnight.
+
+There are several functions that allow you to convert among these standards.
+
+The function as.Date (part of base R) will convert either a string or a POSIX formatted date. You can also convert a numeric value to a date, but you need to specify the origin or index date.
+
+The functions as.POSIXct and as.POSIXlt (also part of base R) will convert strings or an R formatted date into the POSIX standard. There are important differences in these functions, but only from the perspective of internal storage. 
+
+### Some examples in R
+
+When you print dates in R, the way the R displays them hides the internal format. So dates stored as strings, dates stored in the R internal format and dates stored in the POSIX standard all look the same from the outside.
+
+```{r}
+date_string <- "1970-01-01"
+date_internal_r_format <- as.Date(date_string)
+date_posix_ct <- as.POSIXct(date_string)
+date_posix_lt <- as.POSIXlt(date_string)
+
+date_string
+date_internal_r_format
+date_posix_ct
+date_posix_lt
+```
+
+The only apparent difference is that the POSIX values include a time zone. On my system and on the date this post was first written, the time zone is CST, but it might be different when you run this code on your system.
+
+Use the print.default function to show how these files are stored internally. 
+
+Strings have no special features.
+
+```{r}
+print.default(date_string)
+```
+
+The R internal format is a number with a class attribute of Date.
+
+```{r}
+print.default(date_internal_r_format)
+```
+
+The POSIX ct format is a number with a class attribute of POSIXt and POSIXct and an additional attribute of time zone.
+
+```{r}
+print.default(date_posix_ct)
+```
+
+Note that the numeric value here is not zero, even I specified only the date and not the time. On the date this post was first run and in the time zone that my computer lives in, the value is 21600. There are 86,400 seconds in a day, so 21,600 is one quarter of this. So when I only specify the date, it adjusts for the time zone (CST) which is 6 hours behind Greenwich Mean Time (GMT).
+
+The POSIX lt format is list with class attributes of POSIXt and POSIXlt. It is a list and not a number. The list has the individual components of a date/time starting at the second unit and continuing through to the year.
+
+```{r}
+print.default(date_posix_lt)
+```
+
+Notice that the as.POSIXlt function does not adjust for the difference in time zones.
+
+If you care about this level of detail, both the as.POSIXct and as.POSIXlt functions include a time zone argument (tz).
+
+If you want to convert numbers to date formats, you need to specify an origin argument in your code. Note that 1 day equals 86,400 seconds.
+
+```{r}
+date_internal_r_format <- as.Date(1, origin="1970-01-01")
+date_posix_ct <- as.POSIXct(86400, origin="1970-01-01")
+date_posix_lt <- as.POSIXlt(86400, origin="1970-01-01")
+
+date_internal_r_format
+date_posix_ct
+date_posix_lt
+```
+
+Notice the adjustment (for me 6 hours) made by as.POSIXct and as.POSIXlt for the differential in time zone between CST and GMT. Also notice that this time the adjustment is in the opposite direction.
+
+If you think about these adjustments, they are logical, but you should probably specify the timezone argument if you want to control these adjustments.
+
+```{r}
+as.POSIXct(86400, origin="1970-01-01", tz="GMT")
+as.POSIXlt(86400, origin="1970-01-01", tz="America/Chicago")
+```
+
+### Choosing between POSIX and the R internal standard
+
+So how should you store time values? Should you use the internal R standard or the POSIX standard?
+
+Most of the time, I would recommend using the R internal standard. It is simple and is less likely to cause problems with libraries that might be unaware of the POSIX standard and end up misinterpreting dates stored in that format.
+
+You should use the POSIX standard for certain situations
+
++ If your data arrives in POSIX format and it comes in several waves,
++ If you need to export data to a system that uses the POSIX format, or
++ If you need to track different time zones.
+
+### But wait, there's more!
+
+There are many nice functions in the lubridate package that does as good a job if not better than the functions available in base R. That is a topic for another blog post. The lubridate [vignette][lub1] or [cheat sheet][lub2] or the [tidyverse overview][lub3] are nice introductions to many of the helpful features of this package.
+
+There is another package in R that is commonly cited, [chron][chr1]. I have not used chron and cannot comment intelligently on its features.
+
+[chr1]: https://cran.r-project.org/package=chron
+
+[lub1]: https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html
+[lub2]: https://github.com/rstudio/cheatsheets/blob/main/lubridate.pdf
+[lub3]: https://lubridate.tidyverse.org/
