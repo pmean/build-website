@@ -13,7 +13,9 @@ The New York Times has a nice article about Dr. James Tanner, an expert
 on childhood growth.
 
 - **With His Bells and Curves, Human Growth Science Grew Up.** Hall
-SS. The New York Times, March 1, 2005.
+SS. The New York Times, March 1, 2005. Available in [html format][hall1].
+
+[hall1]: https://www.nytimes.com/2005/03/01/science/with-his-bells-and-curves-human-growth-science-grew-up.html
 
 This article contrasts the growth charts developed by Dr. Tanner with
 [growth charts developed by the U.S. Centers for Disease Control and
