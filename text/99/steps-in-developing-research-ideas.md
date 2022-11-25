@@ -547,7 +547,8 @@ a little rusty.**
 
 The copyright for this page belongs to Ronan Conroy.
 
-You can find an [earlier version][sim1] of this page on my [original website][sim2].
+You can find an [earlier version][sim1] of this page and a [second version][sim3] on my [original website][sim2].
 
 [sim1]: http://www.pmean.com/99/ideas.html
 [sim2]: http://www.pmean.com/original_site.html
+[sim3]: http://www.pmean.com/99/ideas1.html

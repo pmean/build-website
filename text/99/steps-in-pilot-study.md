@@ -215,7 +215,9 @@ Data for planning
 >     1990:9(1-2);65-71; discussion 71-2.
 >     [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=2345839)
 
-You can find an [earlier version][sim1] of this page on my [original website][sim2].
+You can find an [earlier version][sim1] and a [second earlier version][sim3] of this page on my [original website][sim2].
 
 [sim1]: http://www.pmean.com/99/pilot.html
 [sim2]: http://www.pmean.com/original_site.html
+[sim3]: http://www.pmean.com/99/pilot1html
+
