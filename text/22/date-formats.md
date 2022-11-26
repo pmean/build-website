@@ -1,5 +1,5 @@
 ---
-title: "Consusion caused by multiple date formats"
+title: "Confusion caused by multiple date formats"
 author: "Steve Simon"
 date: "2022-10-30"
 output:
