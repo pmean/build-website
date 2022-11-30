@@ -1,5 +1,5 @@
 ---
-title: "Compute last modified dates"
+title: "Check links between old and new pages"
 author: "Steve Simon"
 date: "Created 2022-05-26"
 output: html_document
@@ -18,24 +18,24 @@ suppressMessages(suppressWarnings(library(tidyverse)))
 ### Read html files
 
 ```{r read_old}
-old_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
-old_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website/"
-old_pattern <- "html$"
-new_path <- "../text/"
-new_pattern <- "md$"
+html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
+html_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website/"
+html_pattern <- "html$"
+md_path <- "../text/"
+md_pattern <- "md$"
 subdir_list=c("99", paste0("0", 0:9), 10:22)
 md_files <- NULL
 html_files <- NULL
 for (yr in rev(subdir_list)) {
   print(yr)
 
-  file_path <- paste0(new_path, yr)
+  file_path <- paste0(md_path, yr)
   file_path %>%
     list.files(pattern="md$") %>%
     data.frame(yr=yr, fn=.) %>%
     bind_rows(md_files) -> md_files
 
-  file_path <- paste0(old_path, yr)
+  file_path <- paste0(html_path, yr)
   list.files(file_path, pattern="html$") -> yr_files
   if (length(yr_files)==0) next
   html_files <- bind_rows(
@@ -47,11 +47,11 @@ for (yr in rev(subdir_list)) {
 ### Read html files
 
 ```{r read_html}
-html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
 html_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website/"
+html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
 subdir_list=c("99", paste0("0", 0:9), 10:22)
 html_files <- NULL
-for (yr in rev(subdir_list)) {
+for (yr in subdir_list) {
   file_path <- paste0(html_path, yr)
   list.files(file_path, pattern="html$") -> yr_files
   if (length(yr_files)==0) next
@@ -99,14 +99,14 @@ Next step, search for
 
 ```{r md_links}
 sim1 <- "[sim1]: http://www.pmean.com/"
-full_file_name <- paste0(new_path, md_files$yr, "/", md_files$fn)
+full_file_name <- paste0(md_path, md_files$yr, "/", md_files$fn)
 md_links <- NULL
 for (i_fn in full_file_name) {
   read_lines(i_fn) %>%
     str_subset(fixed(sim1)) %>%
     str_replace(fixed(sim1), "") -> md_link
   md_link <- ifelse(length(md_link>0), md_link[1], "No link")
-  md_file <- str_replace(i_fn, new_path, "")
+  md_file <- str_replace(i_fn, md_path, "")
   md_year <- str_sub(md_file, 1, 2)
   md_file <- str_sub(md_file, 4)
   md_links <- bind_rows(md_links, data.frame(md_year, md_file, md_link))
@@ -142,7 +142,7 @@ moved1 <- '<p>This page has moved to <a href="http://new.pmean.com/'
 moved3 <- '<p>This page is moving to a <a href="http://new.pmean.com/'
 moved4 <- '/">new website</a>.</p>'
 moved2 <- '/">a new website</a>.</p>'
-full_file_name <- paste0(old_path, html_files$yr, "/", html_files$fn)
+full_file_name <- paste0(html_path, html_files$yr, "/", html_files$fn)
 html_links <- NULL
 for (i_fn in full_file_name) {
   read_lines(i_fn) %>%
@@ -152,7 +152,7 @@ for (i_fn in full_file_name) {
     str_replace(fixed(moved3), "") %>%
     str_replace(fixed(moved4), "") -> html_link
   html_link <- ifelse(length(html_link>0), html_link[1], "No link")
-  html_file <- str_replace(i_fn, old_path, "")
+  html_file <- str_replace(i_fn, html_path, "")
   html_year <- str_sub(html_file, 1, 2)
   html_file <- str_sub(html_file, 4)
   html_links <- bind_rows(html_links, data.frame(html_year, html_file, html_link))
