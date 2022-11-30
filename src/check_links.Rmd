@@ -111,7 +111,6 @@ for (i_fn in full_file_name) {
   md_file <- str_sub(md_file, 4)
   md_links <- bind_rows(md_links, data.frame(md_year, md_file, md_link))
 }
-kable(md_links[1:10, ])
 md_links %>%
   mutate(link=(md_link!="No link")) %>%
   count(md_year, link) %>%
@@ -140,11 +139,20 @@ for (i_fn in full_file_name) {
   html_file <- str_sub(html_file, 4)
   html_links <- bind_rows(html_links, data.frame(html_year, html_file, html_link))
 }
-kable(html_links[1:10, ])
 html_links %>%
   mutate(link=(html_link!="No link")) %>%
   count(html_year, link) %>%
   data.frame
+```
+
+### List all linkages
+
+```{r md-linkages}
+kable(md_links)
+```
+
+```{r html-linkages}
+kable(html_links)
 ```
 
 ```{r save_everything}

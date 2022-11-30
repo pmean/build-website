@@ -20,5 +20,5 @@ There are some downsides. First, it is not a very "green" solution. Second, you 
 I do use Powerpoint and a computer projection device when I have to, and I am pretty much committed to it for a webinar, since distance prevents me from easily passing out paper. Still, I am much more comfortable using a paper handout.
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/xx/.html
+[sim1]: http://www.pmean.com/10/UseForTalks.html
 [sim2]: http://www.pmean.com

@@ -14,12 +14,17 @@ output: html_document
 
 <div class="notes">
 
-I had originally cited this resources on my [survey design category page][sim1], but the link was broken, so here is the correct link. It's a nice guide. A bit too firm in its opinions, perhaps, but still well worth reading.
+I had originally cited this resources on my [survey design category page][sim3], but the link was broken, so here is the correct link. It's a nice guide. A bit too firm in its opinions, perhaps, but still well worth reading.
 
-Robery Frary. Hints for Designing Effective Questionnaires. Practical Assessment, Research & Evaluation; 5(3): November 1996. Available in [PDF format][fra1].
+Robert Frary. Hints for Designing Effective Questionnaires. Practical Assessment, Research & Evaluation; 5(3): November 1996. Available in [PDF format][fra1].
 
-[fra1]: http://www.pmean.com/category/SurveyDesign.html
-[sim1]: http://www.pmean.com/category/SurveyDesign.html
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/effective-quesitonnaires/
+[sim2]: http://blog.pmean.com
+
+[fra1]: https://scholarworks.umass.edu/pare/vol5/iss1/3/
+[sim3]: http://www.pmean.com/category/SurveyDesign.html
 
 </div>
 
