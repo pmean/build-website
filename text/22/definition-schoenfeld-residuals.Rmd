@@ -15,6 +15,65 @@ There are several different types of residuals in a Cox proportional hazards mod
 
 To understand the Schoenfeld residuals, you need to first recall the partial likelihood that is used to estimate hazard ratios in Cox regression model.
 
+The likelihood function is the foundation for most statistical methods. You are trying to estimate some unknown parameters $\theta$ and each subject has a density function that is related to data measured on that subject and the unknown parameters.
+
+Here's a simple example. Assume that there is no censoring and that the event time is exponential with a scale parameter $\lambda_0$ for the control group and a mean parameter that is $\lambda_0+\lambda_1$ for the exposed or treatment group. The data in this case is the actual event time Y_i and an indicator variable X_i that is equal to zero for the control group and 1 for the exposed group.
+
+To simplify things, I will let
+
+$\lambda=(\lambda_0, \lambda_1)$
+
+$Y=(Y_1, Y_2, ..., Y_n)$
+
+and define X similarly.
+
+The density function,evaluated at the observed survival time is
+
+$f_i(Y_i, X_i, \lambda)=(\lambda_0+\lambda_1X_i)exp(-Y_i(\lambda_0+\lambda_1X_i))$
+
+We want to find "good values" of $\lambda$, ones that are associated with large (and therefore more likely) values of the density. The maximum likelihood estimate is the value of $lambda$ that maximizes the products of all these densities. For the exponential case, this would be 
+
+$L(\lambda, Y, X)=\prod_i (\lambda_0+\lambda_1X_i) exp(-Y_i/(\lambda_0+\lambda_1X_i))$
+
+Let's make up some simple data for this example. Let Y=(1, 5, 2) and X=(0, 0, 1). The likelihood function in this simple case is
+
+$L(\lambda, Y, X)=\lambda_0 exp(-1 \lambda_0) \lambda_0 exp(-5 \lambda_0) (\lambda_0+\lambda_1) exp(-5(\lambda_0+\lambda_1))$
+
+It is often simpler to maximize the log of the likelihood. There are several reasons for this. First, a product of densities turns into a sum of log densities and sums are easier to work with than products. Second, many densities have an exponential function built into them and that function "disappears" after taking logs. I will use lower case for the log likelihood.
+
+$l(\lambda, Y, X)=log\lambda_0 - \lambda_0 + log\lambda_0 - 5 \lambda_0 + log(\lambda_0 + \lambda_1) -2 (\lambda_0+\lambda_1))$
+
+or 
+
+$l(\lambda, Y, X) = 2 log\lambda_0 -9 \lambda_0 + log(\lambda_0+\lambda_1) -2 \lambda_1$
+
+Let's graph this function.
+
+```{r}
+n0 <- 20
+n1 <- 21
+
+u0 <- seq(1/n0, 0.7, length=n0)
+u1 <- seq(0, 1.4, length=n1)
+
+l <- function(u0, u1) {
+  2*log(u0)-9*u0+log(u0+u1)-2*u1
+}
+
+l_matrix <- matrix(nrow=n0, ncol=n1)  
+
+for (i0 in 1:n0) {
+  for (i1 in 1:n1) {
+    l_matrix[i0, i1] <- l(u0[i0], u1[i1])
+  }
+}
+
+plot(u0, l_matrix[1:n0, 1])
+plot(u1, l_matrix[1, 1:n1])
+persp(u0, u1, l_matrix, theta=15, phi=30)
+```
+
+
 $L_i(\beta)  
  =\frac{\lambda(Y_i\mid X_i)}{\sum_{j:Y_j\ge Y_i}\lambda(Y_i\mid X_j)} 
  =\frac{\lambda_0(Y_i)\theta_i}{\sum_{j:Y_j\ge Y_i}\lambda_0(Y_i)\theta_j}
