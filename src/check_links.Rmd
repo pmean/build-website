@@ -111,10 +111,25 @@ for (i_fn in full_file_name) {
   md_file <- str_sub(md_file, 4)
   md_links <- bind_rows(md_links, data.frame(md_year, md_file, md_link))
 }
+
 md_links %>%
   mutate(link=(md_link!="No link")) %>%
   count(md_year, link) %>%
-  data.frame
+  pivot_wider(
+    id_cols=md_year, 
+    names_from=link, 
+    names_prefix="linked_", 
+    values_from=n,
+    values_fill=0) %>%
+  mutate(total=linked_FALSE+linked_TRUE) %>%
+  data.frame -> yr_count
+yr_count %>%
+  summarize(
+    linked_FALSE=sum(linked_FALSE),
+    linked_TRUE=sum(linked_TRUE),
+    total=sum(total)) %>%
+  mutate(md_year="All") %>%
+  bind_rows(yr_count, .)
 ```
 
 ### Links found in html files
@@ -142,7 +157,21 @@ for (i_fn in full_file_name) {
 html_links %>%
   mutate(link=(html_link!="No link")) %>%
   count(html_year, link) %>%
-  data.frame
+  pivot_wider(
+    id_cols=html_year, 
+    names_from=link, 
+    names_prefix="linked_", 
+    values_from=n,
+    values_fill=0) %>%
+  mutate(total=linked_FALSE+linked_TRUE) %>%
+  data.frame -> yr_count
+yr_count %>%
+  summarize(
+    linked_FALSE=sum(linked_FALSE),
+    linked_TRUE=sum(linked_TRUE),
+    total=sum(total)) %>%
+  mutate(html_year="All") %>%
+  bind_rows(yr_count, .)
 ```
 
 ### List all linkages

@@ -1,0 +1,25 @@
+---
+title: "Schoenfeld residuals"
+author: "Steve Simon"
+date: '2022-11-30'
+output:
+  html_document: default
+category: Blog post
+tags: Survival analysis
+source: new
+---
+
+There are several different types of residuals in a Cox proportional hazards model. One of them is the Schoenfeld residuals. They are used to test the proportional hazards assumption.
+
+<!---more--->
+
+To understand the Schoenfeld residuals, you need to first recall the partial likelihood that is used to estimate hazard ratios in Cox regression model.
+
+$L_i(\beta)  
+ =\frac{\lambda(Y_i\mid X_i)}{\sum_{j:Y_j\ge Y_i}\lambda(Y_i\mid X_j)} 
+ =\frac{\lambda_0(Y_i)\theta_i}{\sum_{j:Y_j\ge Y_i}\lambda_0(Y_i)\theta_j}
+ =\frac{\theta_i}{\sum_{j:Y_j\ge Y_i}\theta_j},$
+
+where
+
+$\theta_j = exp(X_j \beta)$
