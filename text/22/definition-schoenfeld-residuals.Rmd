@@ -31,47 +31,94 @@ The density function,evaluated at the observed survival time is
 
 $f_i(Y_i, X_i, \lambda)=(\lambda_0+\lambda_1X_i)exp(-Y_i(\lambda_0+\lambda_1X_i))$
 
-We want to find "good values" of $\lambda$, ones that are associated with large (and therefore more likely) values of the density. The maximum likelihood estimate is the value of $lambda$ that maximizes the products of all these densities. For the exponential case, this would be 
+We want to find "good values" of $\lambda$, ones that are associated with large (and therefore more likely) values of the density. The maximum likelihood estimate is the value of $\lambda$ that maximizes the products of all these densities.
 
-$L(\lambda, Y, X)=\prod_i (\lambda_0+\lambda_1X_i) exp(-Y_i/(\lambda_0+\lambda_1X_i))$
+Let's make up some simple data for this example. Let Y=(3, 5, 1) and X=(0, 0, 1). The likelihood function in this simple case is
 
-Let's make up some simple data for this example. Let Y=(1, 5, 2) and X=(0, 0, 1). The likelihood function in this simple case is
-
-$L(\lambda, Y, X)=\lambda_0 exp(-1 \lambda_0) \lambda_0 exp(-5 \lambda_0) (\lambda_0+\lambda_1) exp(-5(\lambda_0+\lambda_1))$
+$L(\lambda, Y, X)=\lambda_0 exp(-3 \lambda_0) \lambda_0 exp(-5 \lambda_0) (\lambda_0+\lambda_1) exp(-(\lambda_0+\lambda_1))$
 
 It is often simpler to maximize the log of the likelihood. There are several reasons for this. First, a product of densities turns into a sum of log densities and sums are easier to work with than products. Second, many densities have an exponential function built into them and that function "disappears" after taking logs. I will use lower case for the log likelihood.
 
-$l(\lambda, Y, X)=log\lambda_0 - \lambda_0 + log\lambda_0 - 5 \lambda_0 + log(\lambda_0 + \lambda_1) -2 (\lambda_0+\lambda_1))$
+$l(\lambda, Y, X)=log\lambda_0 - 3 \lambda_0 + log\lambda_0 - 5 \lambda_0 + log(\lambda_0 + \lambda_1) - (\lambda_0+\lambda_1)$
 
 or 
 
-$l(\lambda, Y, X) = 2 log\lambda_0 -9 \lambda_0 + log(\lambda_0+\lambda_1) -2 \lambda_1$
+$l(\lambda, Y, X) = 2 log\lambda_0 - 9 \lambda_0 + log(\lambda_0+\lambda_1) -\lambda_1$
 
 Let's graph this function.
 
 ```{r}
-n0 <- 20
-n1 <- 21
+library(plot3D)
 
-u0 <- seq(1/n0, 0.7, length=n0)
-u1 <- seq(0, 1.4, length=n1)
-
-l <- function(u0, u1) {
-  2*log(u0)-9*u0+log(u0+u1)-2*u1
+l <- function(lambda0, lambda1) {
+  2*log(lambda0)-9*lambda0+log(lambda0+lambda1)-lambda1
 }
 
-l_matrix <- matrix(nrow=n0, ncol=n1)  
+n0 <- 200
+n1 <- 200
+
+lambda0 <- seq(1/n0, 1, length=n0)
+lambda1 <- seq(0, 1, length=n1)
+
+fine_mesh <- matrix(nrow=n0, ncol=n1)  
 
 for (i0 in 1:n0) {
   for (i1 in 1:n1) {
-    l_matrix[i0, i1] <- l(u0[i0], u1[i1])
+    fine_mesh[i0, i1] <- l(lambda0[i0], lambda1[i1])
   }
 }
-
-plot(u0, l_matrix[1:n0, 1])
-plot(u1, l_matrix[1, 1:n1])
-persp(u0, u1, l_matrix, theta=15, phi=30)
 ```
+
+
+
+persp3D(
+  x=lambda0, 
+  y=lambda1, 
+  z=fine_mesh, 
+  theta=15,
+  phi=30, 
+  xlab="lambda0",
+  ylab="lambda1",
+  zlab="log likelihood")
+segments3D(
+  x0=0.25,
+  y0=0.75, 
+  z0=min(fine_mesh),
+  x1=0.25,
+  y1=0.75,
+  z1=max(fine_mesh),
+  add=TRUE)
+points3D(
+  x=0.25,
+  y=0.75, 
+  z=min(fine_mesh),
+  add=TRUE)
+points3D(
+  x=0.25,
+  y=0, 
+  z=min(fine_mesh),
+  add=TRUE)
+```
+
+```
+
+To find out where the maximum occurs, take the first two partial derivatives and set them equal to zero.
+
+$\frac{\partial /l}{\partial \lambda0} = 2/\lambda_0 -9 + 1/(\lambda_0+\lambda_1) = 0$
+
+$\frac{\partial /l}{\partial \lambda1} = 1/(\lambda_0+\lambda_1) - 1 = 0$
+
+The second equation tells you that 
+
+$\lambda_0+\lambda_1=1$
+
+Substituting that into the second equation gives you
+
+$\lambda_0=0.25$
+
+and then you can show that
+
+$\lambda_1=0.75$
 
 
 $L_i(\beta)  
