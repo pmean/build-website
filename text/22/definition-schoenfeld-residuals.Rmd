@@ -33,21 +33,19 @@ The density function,evaluated at the observed survival time is
 
 $f_i(Y_i, X_i, \lambda)=(\lambda_0+\lambda_1X_i)exp(-Y_i(\lambda_0+\lambda_1X_i))$
 
-We want to find "good values" of $\lambda$, ones that are associated with large (and therefore more likely) values of the density. The maximum likelihood estimate is the value of $\lambda$ that maximizes the products of all these densities. For the exponential case, this would be 
+We want to find "good values" of $\lambda$, ones that are associated with large (and therefore more likely) values of the density. The maximum likelihood estimate is the value of $\lambda$ that maximizes the products of all these densities.
 
-$L(\lambda, Y, X)=\prod_i (\lambda_0+\lambda_1X_i) exp(-Y_i/(\lambda_0+\lambda_1X_i))$
+Let's make up some simple data for this example. Let Y=(3, 5, 1) and X=(0, 0, 1). The likelihood function in this simple case is
 
-Let's make up some simple data for this example. Let Y=(1, 5, 2) and X=(0, 0, 1). The likelihood function in this simple case is
-
-$L(\lambda, Y, X)=\lambda_0 exp(-1 \lambda_0) \lambda_0 exp(-5 \lambda_0) (\lambda_0+\lambda_1) exp(-5(\lambda_0+\lambda_1))$
+$L(\lambda, Y, X)=\lambda_0 exp(-3 \lambda_0) \lambda_0 exp(-5 \lambda_0) (\lambda_0+\lambda_1) exp(-(\lambda_0+\lambda_1))$
 
 It is often simpler to maximize the log of the likelihood. There are several reasons for this. First, a product of densities turns into a sum of log densities and sums are easier to work with than products. Second, many densities have an exponential function built into them and that function "disappears" after taking logs. I will use lower case for the log likelihood.
 
-$l(\lambda, Y, X)=log\lambda_0 - \lambda_0 + log\lambda_0 - 5 \lambda_0 + log(\lambda_0 + \lambda_1) -2 (\lambda_0+\lambda_1))$
+$l(\lambda, Y, X)=log\lambda_0 - 3 \lambda_0 + log\lambda_0 - 5 \lambda_0 + log(\lambda_0 + \lambda_1) - (\lambda_0+\lambda_1)$
 
 or 
 
-$l(\lambda, Y, X) = 2 log\lambda_0 -9 \lambda_0 + log(\lambda_0+\lambda_1) -2 \lambda_1$
+$l(\lambda, Y, X) = 2 log\lambda_0 - 9 \lambda_0 + log(\lambda_0+\lambda_1) -\lambda_1$
 
 Let's graph this function.
 
@@ -57,44 +55,67 @@ suppressMessages(suppressWarnings(library(plot3D)))
 ```
 
 ```{r}
-n0 <- 20
-n1 <- 21
+library(plot3D)
 
-u0 <- seq(1/n0, 0.7, length=n0)
-u1 <- seq(0, 1.4, length=n1)
-
-l <- function(u0, u1) {
-  2*log(u0)-9*u0+log(u0+u1)-2*u1
+l <- function(lambda0, lambda1) {
+  2*log(lambda0)-9*lambda0+log(lambda0+lambda1)-lambda1
 }
 
-l_matrix <- matrix(nrow=n0, ncol=n1)  
+n0 <- 50
+n1 <- 50
+
+lambda0 <- seq(1/n0, 1, length=n0)
+lambda1 <- seq(0, 1, length=n1)
+
+fine_mesh <- matrix(nrow=n0, ncol=n1)  
 
 for (i0 in 1:n0) {
   for (i1 in 1:n1) {
-    l_matrix[i0, i1] <- l(u0[i0], u1[i1])
+    fine_mesh[i0, i1] <- l(lambda0[i0], lambda1[i1])
   }
 }
 
-plot(u0, l_matrix[1:n0, 1])
-plot(u1, l_matrix[1, 1:n1])
-persp(u0, u1, l_matrix, theta=15, phi=30)
-
-cycle_fast <- function(g=1001, cmin=0, cmax=1, rep=g) {
-  cyc <- seq(cmin, cmax, length=g)
-  return(rep(cyc, times=rep))
-}
-
-cycle_slow <- function(g=1001, cmin=0, cmax=1, rep=g) {
-  cyc <- seq(cmin, cmax, length=g)
-  return(rep(cyc, each=rep))
-}
-cycle_fast(3)
-cycle_slow(3)
-
-#  persp3D(z=d, xlab="lambda1", ylab="lambda2",zlab="Density", zlim=c(0, zmax),
-#          theta=th, phi=ph, colvar=NULL, col="white", border="black",
-#          bty="u", col.axis="gray90")
-
+persp3D(
+  x=lambda0, 
+  y=lambda1, 
+  z=fine_mesh, 
+  zlim=c(min(fine_mesh), -5),
+  contour=TRUE,
+  theta=15,
+  phi=30, 
+  xlab="lambda0",
+  ylab="lambda1",
+  zlab="log likelihood")
+segments3D(
+  x0=0.25,
+  y0=0.75, 
+  z0=min(fine_mesh),
+  x1=0.25,
+  y1=0.75,
+  z1=max(fine_mesh),
+  add=TRUE)
+text3D(
+  x=0.25,
+  y=0.75, 
+  z=min(fine_mesh),
+  labels=round(max(fine_mesh), 1),
+  col="red",
+  add=TRUE)
+segments3D(
+  x0=0.3333,
+  y0=0, 
+  z0=min(fine_mesh),
+  x1=0.3333,
+  y1=0,
+  z1=max(fine_mesh[ , 1]),
+  add=TRUE)
+text3D(
+  x=0.3333,
+  y=0., 
+  z=min(fine_mesh),
+  labels=round(max(fine_mesh[ , 1]), 1),
+  col="red",
+  add=TRUE)
 ```
 
 This is a bit lopsided, but not too far off from a three dimensional equivalent of a parabola. There are several interesting things you can do with the log likelihood.
@@ -107,13 +128,33 @@ Second, you can compare the log likelihood at the maximum to an alternative hypo
 
 For example, you can hypothesize that $\lambda_2$ is zero. You let the value of $\lambda_1$ be unconstrained. This is effectively calling the two groups identical.
 
-The maximum value for the log likelihood is `r max(l_matrix)`. If you set $\lambda_2=0$, the log_likelihood is `r max(l_matrix[ , 1])`. Since these values are close, you can consider the hypothesis to be reasonable.
+The maximum value for the log likelihood is `r max(fine_mesh)`. If you set $\lambda_2=0$, the log_likelihood is `r max(fine_mesh[ , 1])`. Since these values are close, you can consider the hypothesis to be reasonable.
 
 You can also look at the partial derivative of the log likelihood at the hypothesized values. If the partial derivative is close to zero, that means that you are pretty close in log likelihood terms to the maximum likelihood, since the partial derivatives at the maximum have to be zero. In such a case, you can accept your hypothesized value as reasonable. If the partial derivative is large, you have a steep uphill climb until you reach the maximum likelihood. You are nowhere near the maximum and should reject the hypothesized value as unreasonable.
 
 In this example, the slope is approximately 0.05. Since this value is small, you can accept the hypothesized values as reasonable.
 
 Finally, you can compute the matrix of second partial derivatives at the maximum likelihood estimate. If this matrix is large, that means that the log likelihoods fall off rapidly once you move away from the peak. You can conclude that your maximum likelihood estimate has a lot of precision. Conversely, if the matrix of second derivatives is small, that means that the likelihood goes away from the maximum quite slowly for a large distance. In this case, your maximum likelihood estimate has poor precision.
+
+To find out where the maximum occurs, take the first two partial derivatives and set them equal to zero.
+
+$\frac{\partial /l}{\partial \lambda0} = 2/\lambda_0 -9 + 1/(\lambda_0+\lambda_1) = 0$
+
+$\frac{\partial /l}{\partial \lambda1} = 1/(\lambda_0+\lambda_1) - 1 = 0$
+
+The second equation tells you that 
+
+$\lambda_0+\lambda_1=1$
+
+Substituting that into the second equation gives you
+
+$\lambda_0=0.25$
+
+and then you can show that
+
+$\lambda_1=0.75$
+
+>>>>>>> 17772f400cc3acd5b2c61623fc3cf2c98df50124
 
 $L_i(\beta)  
  =\frac{\lambda(Y_i\mid X_i)}{\sum_{j:Y_j\ge Y_i}\lambda(Y_i\mid X_j)} 
