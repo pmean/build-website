@@ -1,5 +1,5 @@
 ---
-title: "Statement order in SAS programs"
+title: "What it means when your variable names are numbers"
 author: "Steve Simon"
 date: "2022-12-12"
 output:
@@ -9,7 +9,7 @@ tags: SAS software
 source: new
 ---
 
-More than one of my students had trouble importing a text file and ended up with numbers as variable names. Her's what went wrong.
+More than one of my students had trouble importing a text file and ended up with numbers as variable names. Here's what went wrong.
 
 <!---more--->
 
