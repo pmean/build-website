@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Website details
+- Being updated
 output: html_document
 ---
 
