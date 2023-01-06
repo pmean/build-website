@@ -51,4 +51,4 @@ archive_old <- function(yr) {
 yrs <- c("2003", "2007", "2011", "2015", "2019", "2021")
 paste0(brack(yrs), paren("http://new.pmean.com/" %0% yrs %0% "/"), collapse=" |\n") %>% cat
 cat("\n\n")
-archive_new("21")
+archive_new("22")
