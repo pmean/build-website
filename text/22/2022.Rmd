@@ -10,14 +10,45 @@ output: html_document
 ---
 
 ```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
 library(glue)
 library(magrittr)
+library(readr)
 library(stringr)
 yr <- 2023:1999
 glue("[{yr}](http://new.pmean.com/{yr}/)") %>%
   paste(collapse=" | ") -> yr_list
 list.files() %>%
-  str_subset("md$") %>%
+  str_subset("md$") -> f
+```
+
+```{r}
+problem_files <- NULL
+for (fn in f) {
+  file_text <- read_lines(fn)
+  file_text %>%
+    str_subset("^source\\: ") %>%
+    str_remove(fixed("source: ")) %>%
+    str_remove_all(fixed('"')) %>%
+    tolower -> file_source
+  if (length(file_source)>1) {
+    problem_files %<>% append(glue("{fn} has multiple sources\n"))
+  }
+  if (length(file_source)>0 & file_source[1]!="new") {
+    problem_files %<>% append(glue("{fn} has source={file_source}\n"))
+  }
+  file_text %>%
+    str_subset(fixed("date: ")) %>%
+    str_remove(fixed("date: ")) -> file_date
+  if (length(file_date)==0) {
+    problem_files %<>% append(glue("{fn} has no date"))
+  }
+}
+```
+
+
+```{r}
+f %>%
   str_replace(fixed(".Rmd"), "") %>%
   str_replace(fixed(".md"), "") -> f
 n <- length(f):1
@@ -31,3 +62,10 @@ glue("+ [{f}](http://new.pmean.com/{f}/)  ") %>%
 `r header`
 
 `r file_list`
+
+```{r}
+if (length(problem_files)==0) {
+  problem_files <- "All files passed date and source quality checks"
+}
+print(problem_files)
+```
