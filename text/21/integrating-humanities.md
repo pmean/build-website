@@ -1,6 +1,6 @@
 ---
 title: "The Integration of the Humanities and Arts with Sciences, Engineering, and Medicine in Higher Education"
-source: "New"
+source: new
 date: "2021-10-29"
 categories:
 - Recommendation

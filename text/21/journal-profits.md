@@ -1,6 +1,6 @@
 ---
 title: "Journals Must Stop Exploiting Research for Profits"
-source: "New"
+source: new
 date: "2021-10-18"
 categories:
 - Recommendation

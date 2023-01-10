@@ -1,6 +1,6 @@
 ---
 title: "Scientific American article on the bootstrap"
-source: "New"
+source: new
 date: "2022-06-29"
 categories:
 - Recommendation

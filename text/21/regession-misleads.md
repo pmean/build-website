@@ -1,6 +1,6 @@
 ---
 title: "The illusion of predictability. How regression statistics mislead experts"
-source: "New"
+source: new
 date: "2021-05-18"
 categories:
 - Recommendation

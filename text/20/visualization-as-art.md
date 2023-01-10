@@ -1,7 +1,7 @@
 ---
 title: "Data visualizaiton as art"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-02-04"
 categories:
 - Blog post

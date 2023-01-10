@@ -1,6 +1,6 @@
 ---
 title: "UMKC Faculty Researcher Award"
-source: New
+source: new
 date: '2021-09-28'
 output:
   word_document: default

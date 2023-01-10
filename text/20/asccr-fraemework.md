@@ -1,7 +1,7 @@
 ---
 title: "The ASCCR Frame for Learning Essential Collaboration Skills"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-06
 categories:
 - Recommendation

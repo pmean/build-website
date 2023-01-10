@@ -1,6 +1,6 @@
 ---
 title: "Progress in evidence-based medicine"
-source: "New"
+source: new
 date: "2021-10-07"
 categories:
 - Recommendation

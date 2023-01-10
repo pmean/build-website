@@ -1,6 +1,6 @@
 ---
 title: "How to Choose the Journal That's Right for Your Study"
-source: "New"
+source: new
 date: "2021-07-27"
 categories:
 - Recommendation

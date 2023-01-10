@@ -1,6 +1,6 @@
 ---
 title: "Real-world String Comparison"
-source: "New"
+source: new
 date: "2021-08-25"
 categories:
 - Recommendation

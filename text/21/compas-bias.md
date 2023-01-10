@@ -1,6 +1,6 @@
 ---
 title: "COMPAS Recidivism Risk Score Data and Analysis"
-source: "New"
+source: new
 date: "2021-04-29"
 categories:
 - Recommendation

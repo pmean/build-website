@@ -1,6 +1,6 @@
 ---
 title: "How Big of a Sample Size do you need for Factor Analysis"
-source: "New"
+source: new
 date: "2022-01-17"
 categories:
 - Recommendation

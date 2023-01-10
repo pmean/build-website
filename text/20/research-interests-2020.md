@@ -1,7 +1,7 @@
 ---
 title: "Research interests"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-09-01
 categories:
 - Blog post

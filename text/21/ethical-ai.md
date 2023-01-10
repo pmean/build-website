@@ -1,6 +1,6 @@
 ---
 title: "Ethical AI:  A Framework for Justice"
-source: "New"
+source: new
 date: "2021-04-16"
 categories:
 - Recommendation

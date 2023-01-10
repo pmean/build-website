@@ -1,7 +1,7 @@
 ---
 title: "First steps with blogdown"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2021-10-09"
 categories:
 - Blog post

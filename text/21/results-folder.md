@@ -1,6 +1,6 @@
 ---
 title: "How to save RMarkdown output in the results folder"
-source: "New"
+source: new
 date: "2021-01-23"
 categories:
 - Blog post

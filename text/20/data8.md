@@ -1,7 +1,7 @@
 ---
 title: "Data 8: The Foundations of Data Science"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-11
 categories:
 - Recommendation

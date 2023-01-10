@@ -1,6 +1,6 @@
 ---
 title: "Learning more about SAS"
-source: "New"
+source: new
 date: "2021-08-01"
 categories:
 - Blog post

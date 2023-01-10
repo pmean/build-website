@@ -1,6 +1,6 @@
 ---
 title: "Complementary Log-Log Model for Interval-censored Survival Times"
-source: "New"
+source: new
 date: "2020-11-19"
 categories:
 - Recommendation

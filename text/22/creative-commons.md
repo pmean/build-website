@@ -1,6 +1,6 @@
 ---
 title: "Creative Commons"
-source: "New"
+source: new
 date: "2022-05-08"
 categories:
 - Recommendation

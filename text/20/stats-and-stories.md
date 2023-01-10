@@ -1,6 +1,6 @@
 ---
 title: "Stats + Stories"
-source: "New"
+source: new
 date: "2020-09-26"
 categories:
 - Recommendation

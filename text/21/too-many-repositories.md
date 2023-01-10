@@ -1,6 +1,6 @@
 ---
 title: "I have too many github repositories"
-source: "New"
+source: new
 date: "2021-01-06"
 categories:
 - Blog post

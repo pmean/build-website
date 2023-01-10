@@ -1,7 +1,7 @@
 ---
 title: "Biopharmaceutical Section Offers Advice for ASA Fellow Nomination"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-31
 categories:
 - Recommendation

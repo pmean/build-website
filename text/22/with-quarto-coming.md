@@ -1,6 +1,6 @@
 ---
 title: "With Quarto Coming, is R Markdown Going Away? No."
-source: "New"
+source: new
 date: "2022-06-13"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "RNA-Seq Analysis. Methods, Applications and Challenges"
-source: "New"
+source: new
 date: "2022-01-12"
 categories:
 - Recommendation

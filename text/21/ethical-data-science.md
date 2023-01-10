@@ -1,6 +1,6 @@
 ---
 title: "Ethical data science"
-source: "New"
+source: new
 date: "2021-10-21"
 categories:
 - Recommendation

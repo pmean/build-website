@@ -1,7 +1,7 @@
 ---
 title: "Nursing Research, Step by Step"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2021-09-22"
 categories:
 - Recommendation

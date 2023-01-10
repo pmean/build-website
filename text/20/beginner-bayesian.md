@@ -1,6 +1,6 @@
 ---
 title: "Advice for a beginner Bayesian"
-source: "New"
+source: new
 date: "2020-11-20"
 categories:
 - Blog post

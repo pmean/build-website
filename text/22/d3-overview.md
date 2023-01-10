@@ -1,6 +1,6 @@
 ---
 title: "D3, Data-Driven Documents"
-source: "New"
+source: new
 date: "2022-11-30"
 categories:
 - Recommendation

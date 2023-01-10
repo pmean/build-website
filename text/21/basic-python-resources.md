@@ -1,6 +1,6 @@
 ---
 title: "Basic Python Resources"
-source: "New"
+source: new
 date: "2021-06-12"
 categories:
 - Blog post

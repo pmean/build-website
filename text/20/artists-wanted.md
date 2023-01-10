@@ -1,7 +1,7 @@
 ---
 title: "Artist wanted, here are the details"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-01-26"
 categories:
 - Blog post

@@ -1,6 +1,6 @@
 ---
 title: "Making the CECPfuns package: my own usable package"
-source: "New"
+source: new
 date: "2021-02-12"
 categories:
 - Recommendation

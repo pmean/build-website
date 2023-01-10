@@ -1,6 +1,6 @@
 ---
 title: "What’s all this reading about then"
-source: "New"
+source: new
 date: "2021-10-26"
 categories:
 - Recommendation

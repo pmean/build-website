@@ -1,6 +1,6 @@
 ---
 title: "What Influences Saturation? Estimating Sample Sizes in Focus Group Research"
-source: "New"
+source: new
 date: "2022-05-08"
 categories:
 - Recommendation

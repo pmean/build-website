@@ -1,6 +1,6 @@
 ---
 title: "Generalized Linear Models"
-source: "New"
+source: new
 date: "2020-11-19"
 categories:
 - Recommendation

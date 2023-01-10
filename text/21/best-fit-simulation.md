@@ -1,6 +1,6 @@
 ---
 title: "Survival of the best fit"
-source: "New"
+source: new
 date: "2021-10-22"
 categories:
 - Recommendation

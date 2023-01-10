@@ -1,6 +1,6 @@
 ---
 title: "Federated Learning and Privacy"
-source: "New"
+source: new
 date: "2021-12-30"
 categories:
 - Recommendation

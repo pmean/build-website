@@ -1,7 +1,7 @@
 ---
 title: "Printing R Markdown output to png files"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-01-29"
 categories:
 - Blog post

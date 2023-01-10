@@ -1,7 +1,7 @@
 ---
 title: "In medicine, there is automatic"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-05-23"
 categories:
 - Quotation

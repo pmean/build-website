@@ -1,6 +1,6 @@
 ---
 title: "A roadmap to using historical controls in clinical trials"
-source: "New"
+source: new
 date: "2021-04-28"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "Choosing a good chart"
-source: "New"
+source: new
 date: "2021-05-18"
 categories:
 - Recommendation

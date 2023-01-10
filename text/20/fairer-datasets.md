@@ -1,7 +1,7 @@
 ---
 title: "Simple Demographics Often Identify People Uniquely"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-11
 categories:
 - Recommendation

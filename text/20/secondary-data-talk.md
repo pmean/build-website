@@ -1,7 +1,7 @@
 ---
 title: "Proposed talk on secondary data analysis"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-02-27"
 categories:
 - Blog post

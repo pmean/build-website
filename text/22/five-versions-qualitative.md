@@ -1,6 +1,6 @@
 ---
 title: "Recommendations for qualitative research in five categories"
-source: "New"
+source: new
 date: "2022-08-23"
 categories:
 - Recommendation

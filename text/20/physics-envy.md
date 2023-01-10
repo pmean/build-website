@@ -1,7 +1,7 @@
 ---
 title: "Warning: Physics Envy May be Hazardous to Your Wealth"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-09-04
 categories:
 - Recommendation

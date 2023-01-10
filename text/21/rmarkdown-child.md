@@ -1,6 +1,6 @@
 ---
 title: "Child documents. Input child document into the main document"
-source: "New"
+source: new
 date: "2021-01-11"
 categories:
 - Recommendation

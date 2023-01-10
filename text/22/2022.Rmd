@@ -1,6 +1,6 @@
 ---
 title: "Pages written in 2022"
-source: "New"
+source: new
 date: "2022-12-31"
 categories:
 - Blog post
@@ -11,10 +11,10 @@ output: html_document
 
 ```{r setup, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
-library(glue)
-library(magrittr)
-library(readr)
-library(stringr)
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(stringr)))
 yr <- 2023:1999
 glue("[{yr}](http://new.pmean.com/{yr}/)") %>%
   paste(collapse=" | ") -> yr_list
@@ -24,36 +24,41 @@ list.files() %>%
 
 ```{r}
 problem_files <- NULL
+date_list <- NULL
 for (fn in f) {
   file_text <- read_lines(fn)
   file_text %>%
     str_subset("^source\\: ") %>%
     str_remove(fixed("source: ")) %>%
-    str_remove_all(fixed('"')) %>%
-    tolower -> file_source
+    str_remove_all('"')  %>%
+    str_remove_all("'") -> file_source
   if (length(file_source)>1) {
     problem_files %<>% append(glue("{fn} has multiple sources\n"))
   }
   if (length(file_source)>0 & file_source[1]!="new") {
-    problem_files %<>% append(glue("{fn} has source={file_source}\n"))
+    problem_files %<>% 
+      append(glue("{fn} has source={file_source}\n"))
   }
   file_text %>%
     str_subset(fixed("date: ")) %>%
-    str_remove(fixed("date: ")) -> file_date
+    str_remove(fixed("date: ")) %>%
+    str_remove_all('"') %>%
+    str_remove_all("'")  -> file_date
   if (length(file_date)==0) {
     problem_files %<>% append(glue("{fn} has no date"))
   }
+  date_list <- append(date_list, file_date[1])
 }
 ```
-
 
 ```{r}
 f %>%
   str_replace(fixed(".Rmd"), "") %>%
   str_replace(fixed(".md"), "") -> f
-n <- length(f):1
-header <- glue("New website ({n[1]} files)")
-glue("+ [{f}](http://new.pmean.com/{f}/)  ") %>%
+n <- length(f)
+o <- order(date_list, f)
+header <- glue("New website ({n} files)")
+glue("+ {date_list[o]} [{f[o]}](http://new.pmean.com/{f[o]}/)  ") %>%
   paste(collapse="  \n") -> file_list
 ```
 
@@ -67,5 +72,6 @@ glue("+ [{f}](http://new.pmean.com/{f}/)  ") %>%
 if (length(problem_files)==0) {
   problem_files <- "All files passed date and source quality checks"
 }
-print(problem_files)
 ```
+
+`r paste(problem_files, collapse="\n")`

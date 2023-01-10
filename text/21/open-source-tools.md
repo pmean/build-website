@@ -1,6 +1,6 @@
 ---
 title: "Developing and Maintaining Open Source Resources for Statistics and Data Science Education"
-source: "New"
+source: new
 date: "2021-08-09"
 categories:
 - Recommendation

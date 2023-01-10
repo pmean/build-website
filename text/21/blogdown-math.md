@@ -1,6 +1,6 @@
 ---
 title: "Resources for AI Fairness"
-source: "New"
+source: new
 date: "2021-09-28"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "OpenIntro datasets"
-source: "New"
+source: new
 date: "2022-08-26"
 categories:
 - Recommendation

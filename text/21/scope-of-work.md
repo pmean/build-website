@@ -1,6 +1,6 @@
 ---
 title: "How to write a scope of work"
-source: "New"
+source: new
 date: "2021-02-18"
 categories:
 - Recommendation

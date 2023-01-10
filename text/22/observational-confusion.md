@@ -1,6 +1,6 @@
 ---
 title: "Confusion about observational designs"
-source: "New"
+source: new
 date: "2022-02-26"
 categories:
 - Blog post

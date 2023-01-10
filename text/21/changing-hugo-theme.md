@@ -1,6 +1,6 @@
 ---
 title: "Changing and modifying a Hugo theme on your R Blogdown site"
-source: "New"
+source: new
 date: "2021-04-28"
 categories:
 - Recommendation

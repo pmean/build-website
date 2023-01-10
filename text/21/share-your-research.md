@@ -1,6 +1,6 @@
 ---
 title: "How to Share Your Research"
-source: "New"
+source: new
 date: "2021-10-26"
 categories:
 - Recommendation

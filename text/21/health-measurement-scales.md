@@ -1,6 +1,6 @@
 ---
 title: "Health Measurement Scales: A Practical Guide to Their Development and Use"
-source: "New"
+source: new
 date: "2021-12-14"
 categories:
 - Recommendation

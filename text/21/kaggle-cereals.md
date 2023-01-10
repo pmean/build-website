@@ -1,6 +1,6 @@
 ---
 title: "Kaggle, 80 cereals"
-source: "New"
+source: new
 date: "2021-07-27"
 categories:
 - Recommendation

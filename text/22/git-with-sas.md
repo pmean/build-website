@@ -1,6 +1,6 @@
 ---
 title: "SAS Tutorial | How to use Git with SAS"
-source: "New"
+source: new
 date: "2022-06-10"
 categories:
 - Recommendation

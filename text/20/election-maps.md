@@ -1,6 +1,6 @@
 ---
 title: "Election Maps Are Everywhere. Don't Let Them Fool You."
-source: "New"
+source: new
 date: "2020-10-30"
 categories:
 - Recommendation

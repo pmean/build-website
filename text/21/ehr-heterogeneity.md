@@ -1,6 +1,6 @@
 ---
 title: "Heterogeneity introduced by EHR system implementation in a de-identified data resource from 100 non-affiliated organizations"
-source: "New"
+source: new
 date: "2021-04-28"
 categories:
 - Recommendation

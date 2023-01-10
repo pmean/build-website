@@ -1,6 +1,6 @@
 ---
 title: "Envisioning a Transformed Clinical Trials Enterprise in the United States"
-source: "New"
+source: new
 date: "2020-08-21"
 categories:
 - Recommendation

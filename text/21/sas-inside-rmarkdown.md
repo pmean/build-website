@@ -1,6 +1,6 @@
 ---
 title: "How to run SAS inside an RMarkdown file"
-source: "New"
+source: new
 date: "2021-01-23"
 categories:
 - Blog post

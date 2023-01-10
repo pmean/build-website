@@ -1,7 +1,7 @@
 ---
 title: "UMKC big data and data science initiatives"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-03-10"
 categories:
 - Blog post

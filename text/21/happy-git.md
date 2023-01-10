@@ -1,7 +1,7 @@
 ---
 title: "Happy Git and GitHub for the useR"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2021-09-21"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "An Undergraduate Bayesian Statistics Course"
-source: "New"
+source: new
 date: "2021-01-26"
 categories:
 - Blog post

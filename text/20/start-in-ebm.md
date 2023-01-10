@@ -1,6 +1,6 @@
 ---
 title: "How I got started in Evidence-Based Medicine"
-source: "New"
+source: new
 date: "2020-10-01"
 categories:
 - Blog post

@@ -1,6 +1,6 @@
 ---
 title: "Using regular expressions in SAS"
-source: "New"
+source: new
 date: "2022-11-06"
 categories:
 - Recommendation

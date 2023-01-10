@@ -1,6 +1,6 @@
 ---
 title: "The tidy tools manifesto"
-source: "New"
+source: new
 date: "2020-11-24"
 categories:
 - Recommendation

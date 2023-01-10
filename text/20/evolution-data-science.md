@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of Data Science ... As I Remember It"
-source: "New"
+source: new
 date: "2020-10-22"
 categories:
 - Recommendation

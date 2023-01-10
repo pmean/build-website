@@ -1,6 +1,6 @@
 ---
 title: "AI Fairness 360 Open Source Toolkit"
-source: "New"
+source: new
 date: "2020-08-21"
 categories:
 - Recommendation

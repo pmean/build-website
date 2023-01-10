@@ -1,6 +1,6 @@
 ---
 title: "How to Call B.S. on Big Data."
-source: "New"
+source: new
 date: "2020-06-11"
 categories:
 - Blog post

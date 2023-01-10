@@ -1,6 +1,6 @@
 ---
 title: "List of datasets for machine-learning research"
-source: "New"
+source: new
 date: "2022-07-13"
 categories:
 - Recommendation

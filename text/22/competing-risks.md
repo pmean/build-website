@@ -1,6 +1,6 @@
 ---
 title: "The Use and Interpretation of Competing Risks Regression Models"
-source: "New"
+source: new
 date: "2022-04-22"
 categories:
 - Recommendation
