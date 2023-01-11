@@ -1,6 +1,6 @@
 ---
 title: "Philosophy of Data Science | Welcome to the Series!"
-source: "New"
+source: new
 date: "2020-09-26"
 categories:
 - Recommendation

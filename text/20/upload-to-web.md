@@ -1,7 +1,7 @@
 ---
 title: "Upload data from R to an HTML page with rmarkdown and ftpUpload"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-16
 categories:
 - Recommendation

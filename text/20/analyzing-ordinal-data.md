@@ -1,6 +1,6 @@
 ---
 title: "Analyzing ordinal data with metric models: What could possibly go wrong?"
-source: "New"
+source: new
 date: "2020-04-13"
 categories:
 - Recommendation

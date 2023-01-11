@@ -1,6 +1,6 @@
 ---
 title: "Data for Black Lives"
-source: "New"
+source: new
 date: "2020-07-30"
 categories:
 - Recommendation

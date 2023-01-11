@@ -1,6 +1,6 @@
 ---
 title: "COVID-19 open source data sets"
-source: "New"
+source: new
 date: "2020-12-11"
 categories:
 - Recommendation

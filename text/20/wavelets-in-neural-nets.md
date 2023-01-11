@@ -1,7 +1,7 @@
 ---
 title: "Wavelet Pooling for Convolutional Neurual Networks"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-31
 categories:
 - Recommendation

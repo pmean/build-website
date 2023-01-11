@@ -1,7 +1,7 @@
 ---
 title: "Codes for COVID-19 in the electronic health record"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-04-15"
 categories:
 - Blog post

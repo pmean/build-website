@@ -1,6 +1,6 @@
 ---
 title: "Dataset recommendations from the Journal of Statistics Education"
-source: "New"
+source: new
 date: "2021-12-01"
 categories:
 - Blog post

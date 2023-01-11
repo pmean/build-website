@@ -1,6 +1,6 @@
 ---
 title: "Aleatory and epistemic uncertainties can completely derail medical research results"
-source: "New"
+source: new
 date: "2020-07-12"
 categories:
 - Recommendation

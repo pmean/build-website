@@ -1,7 +1,7 @@
 ---
 title: "Setting the Stage: Statistical Collaboration Training Videos"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-20
 categories:
 - Recommendation

@@ -1,7 +1,7 @@
 ---
 title: "Attack on statistical significance: A balanced approach for medical research"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-06-24
 categories:
 - Recommendation

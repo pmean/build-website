@@ -1,6 +1,6 @@
 ---
 title: "The dark side of big data"
-source: "New"
+source: new
 date: "2021-10-28"
 categories:
 - Blog post

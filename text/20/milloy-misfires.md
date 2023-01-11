@@ -1,6 +1,6 @@
 ---
 title: "Steve Milloy misfires"
-source: "New"
+source: new
 date: "2020-05-24"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "An introduction to the Poisson bootstrap"
-source: "New"
+source: new
 date: "2021-05-10"
 categories:
 - Recommendation

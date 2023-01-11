@@ -1,6 +1,6 @@
 ---
 title: "Show me the data"
-source: "New"
+source: new
 date: "2021-08-27"
 categories:
 - Recommendation

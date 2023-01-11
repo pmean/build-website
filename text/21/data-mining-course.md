@@ -1,7 +1,7 @@
 ---
 title: "Data Mining, Discovery and Exploration"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2021-09-22"
 categories:
 - Recommendation

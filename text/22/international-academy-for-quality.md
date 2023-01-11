@@ -1,6 +1,6 @@
 ---
 title: "International Academy for Quality"
-source: "New"
+source: new
 date: "2022-01-12"
 categories:
 - Recommendation

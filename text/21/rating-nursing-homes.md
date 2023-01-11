@@ -1,6 +1,6 @@
 ---
 title: "Uncovering Truths With Missing Data"
-source: "New"
+source: new
 date: "2021-12-30"
 categories:
 - Recommendation

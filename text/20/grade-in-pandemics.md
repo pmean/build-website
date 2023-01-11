@@ -1,6 +1,6 @@
 ---
 title: "A New Standard For Publishing On Racial Health Inequities"
-source: "New"
+source: new
 date: "2020-09-26"
 categories:
 - Recommendation

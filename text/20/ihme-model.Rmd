@@ -1,7 +1,7 @@
 ---
 title: "Criticisms of the IHME COVID-19 model"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-04-23
 categories:
 - Blog post

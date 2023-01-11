@@ -1,6 +1,6 @@
 ---
 title: "R Package for Adaptive Clinical Trials"
-source: "New"
+source: new
 date: "2021-07-08"
 categories:
 - Recommendation

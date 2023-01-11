@@ -1,7 +1,7 @@
 ---
 title: "Florida fired its coronavirus data scientist. Now she's publishing the statistics on her own."
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-06-13"
 categories:
 - Recommendation

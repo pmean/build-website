@@ -1,6 +1,6 @@
 ---
 title: "Excel: Why using Microsoft's tool caused Covid-19 results to be lost"
-source: "New"
+source: new
 date: "2020-10-08"
 categories:
 - Recommendation

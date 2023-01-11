@@ -1,6 +1,6 @@
 ---
 title: "Finally, a proven method to show just how funny I am"
-source: "New"
+source: new
 date: "2021-05-31"
 categories:
 - Recommendation

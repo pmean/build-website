@@ -1,6 +1,6 @@
 ---
 title: "Making genome data come alive with circos plots"
-source: "New"
+source: new
 date: "2020-10-20"
 categories:
 - Recommendation

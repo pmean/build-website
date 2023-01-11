@@ -1,6 +1,6 @@
 ---
 title: "Why p-values are not measures of evidence"
-source: "New"
+source: new
 date: "2021-12-18"
 categories:
 - Recommendation

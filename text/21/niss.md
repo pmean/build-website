@@ -1,6 +1,6 @@
 ---
 title: "National Institute of Statistical Sciences"
-source: "New"
+source: new
 date: "2021-01-21"
 categories:
 - Recommendation

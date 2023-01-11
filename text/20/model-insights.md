@@ -1,7 +1,7 @@
 ---
 title: "The tendency of some modelers"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-05-05"
 categories:
 - Quotation

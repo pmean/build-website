@@ -1,6 +1,6 @@
 ---
 title: "The Scientist's Guide to Poster Design"
-source: "New"
+source: new
 date: "2020-07-31"
 categories:
 - Recommendation

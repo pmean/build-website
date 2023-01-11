@@ -1,7 +1,7 @@
 ---
 title: "Celebrating the failures of medical research using a graphic novel format"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2020-01-23"
 categories:
 - Blog post

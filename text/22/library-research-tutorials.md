@@ -1,6 +1,6 @@
 ---
 title: "Library Research Tutorials"
-source: "New"
+source: new
 date: "2022-06-01"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "How I use R Markdown to write research papers"
-source: "New"
+source: new
 date: "2020-11-21"
 categories:
 - Blog post

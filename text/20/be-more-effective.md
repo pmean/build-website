@@ -1,6 +1,6 @@
 ---
 title: "How to be more effective in your professional life"
-source: "New"
+source: new
 date: "2020-08-06"
 categories:
 - Recommendation

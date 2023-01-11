@@ -74,7 +74,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  '- Research designs',
-  '- Research design',
+  'source: New',
+  'source: new',
   dir_root="text", 
   file_pattern="md$")

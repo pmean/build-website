@@ -1,6 +1,6 @@
 ---
 title: "Songs by Tom Lehrer (1953), Lobachevsky"
-source: "New"
+source: new
 date: "2021-05-27"
 categories:
 - Recommendation

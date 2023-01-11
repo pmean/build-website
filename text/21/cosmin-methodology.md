@@ -1,6 +1,6 @@
 ---
 title: "COSMIN methodology for evaluating the content validity of patient-reported outcome measures: a Delphi study"
-source: "New"
+source: new
 date: "2021-12-14"
 categories:
 - Recommendation

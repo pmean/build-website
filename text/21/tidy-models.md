@@ -1,6 +1,6 @@
 ---
 title: "Tidy Modeling with R"
-source: "New"
+source: new
 date: "2021-01-09"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "Deploy Now"
-source: "New"
+source: new
 date: "2022-06-07"
 categories:
 - Recommendation

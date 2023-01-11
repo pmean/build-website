@@ -1,6 +1,6 @@
 ---
 title: "Relationship Between Total and Bioaccessible Lead on Children's Blood Lead Levels in Urban Residential Philadelphia Soils"
-source: "New"
+source: new
 date: "2020-08-21"
 categories:
 - Recommendation

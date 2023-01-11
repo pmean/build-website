@@ -1,6 +1,6 @@
 ---
 title: "Statistical Thinking"
-source: "New"
+source: new
 date: "2021-06-07"
 categories:
 - Recommendation

@@ -1,6 +1,6 @@
 ---
 title: "Enabling Reproducible Research: Open Licensing for Scientific Innovation"
-source: "New"
+source: new
 date: "2021-02-15"
 categories:
 - Recommendation

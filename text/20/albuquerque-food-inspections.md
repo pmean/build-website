@@ -1,6 +1,6 @@
 ---
 title: "Food inspections"
-source: "New"
+source: new
 date: "2020-03-04"
 categories:
 - Recommendation

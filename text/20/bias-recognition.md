@@ -1,6 +1,6 @@
 ---
 title: "Bias in Bias Recognition"
-source: "New"
+source: new
 date: "2020-10-08"
 categories:
 - Recommendation

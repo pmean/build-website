@@ -1,6 +1,6 @@
 ---
 title: "How can you learn R?"
-source: "New"
+source: new
 date: "2020-12-12"
 categories:
 - Blog post

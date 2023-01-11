@@ -1,6 +1,6 @@
 ---
 title: "Preparing raw clinical data for publication"
-source: "New"
+source: new
 date: "2022-05-15"
 categories:
 - Recommendation

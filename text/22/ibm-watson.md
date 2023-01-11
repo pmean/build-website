@@ -1,6 +1,6 @@
 ---
 title: "IBM Watson: Why Is Healthcare AI So Tough?"
-source: "New"
+source: new
 date: "2022-03-08"
 categories:
 - Recommendation

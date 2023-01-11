@@ -1,6 +1,6 @@
 ---
 title: "Census Data Processing 101"
-source: "New"
+source: new
 date: "2021-02-12"
 categories:
 - Recommendation

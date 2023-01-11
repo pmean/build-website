@@ -1,6 +1,6 @@
 ---
 title: "Special Issue on Statistical Practice"
-source: "New"
+source: new
 date: "2021-08-08"
 categories:
 - Recommendation

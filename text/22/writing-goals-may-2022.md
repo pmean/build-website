@@ -1,6 +1,6 @@
 ---
 title: "My writing goals for Summer 2022"
-source: "New"
+source: new
 date: "2022-05-24"
 categories:
 - Blog post

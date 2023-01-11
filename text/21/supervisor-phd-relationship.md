@@ -1,6 +1,6 @@
 ---
 title: "10 ingredients for a successful supervisor/PhD student relationship"
-source: "New"
+source: new
 date: "2021-10-23"
 categories:
 - Recommendation

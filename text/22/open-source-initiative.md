@@ -1,6 +1,6 @@
 ---
 title: "Open Source Initiative, Licenses and Standards"
-source: "New"
+source: new
 date: "2022-05-08"
 categories:
 - Recommendation

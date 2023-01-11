@@ -1,6 +1,6 @@
 ---
 title: "And finally I would like to thank my cat"
-source: "New"
+source: new
 date: "2022-11-19"
 categories:
 - Quotation

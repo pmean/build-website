@@ -1,6 +1,6 @@
 ---
 title: "Journal of Clinical and Translational Science"
-source: "New"
+source: new
 date: "2021-03-04"
 categories:
 - Recommendation

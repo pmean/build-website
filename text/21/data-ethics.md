@@ -1,6 +1,6 @@
 ---
 title: "We Are in Need of Data Ethics Now"
-source: "New"
+source: new
 date: "2021-11-02"
 categories:
 - Recommendation

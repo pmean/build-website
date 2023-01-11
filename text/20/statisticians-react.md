@@ -1,7 +1,7 @@
 ---
 title: "Statisticians React to the News"
 author: "Steve Simon"
-source: "New"
+source: new
 date: 2020-08-28
 categories:
 - Recommendation

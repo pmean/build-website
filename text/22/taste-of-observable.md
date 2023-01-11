@@ -1,6 +1,6 @@
 ---
 title: "A Taste of Observable"
-source: "New"
+source: new
 date: "2022-06-13"
 categories:
 - Recommendation

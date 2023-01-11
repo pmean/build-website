@@ -1,6 +1,6 @@
 ---
 title: "Git cartoon from xkcd"
-source: "New"
+source: new
 date: "2022-06-29"
 categories:
 - Recommendation

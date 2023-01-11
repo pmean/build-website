@@ -1,6 +1,6 @@
 ---
 title: "Behind GitHub’s new authentication token formats"
-source: "New"
+source: new
 date: "2022-06-10"
 categories:
 - Recommendation

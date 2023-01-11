@@ -1,6 +1,6 @@
 ---
 title: "RCT-DUPLICATE"
-source: "New"
+source: new
 date: "2020-12-21"
 categories:
 - Recommendation

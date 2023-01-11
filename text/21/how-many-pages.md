@@ -1,6 +1,6 @@
 ---
 title: "How many pages do I have in my website?"
-source: "New"
+source: new
 date: "2021-11-16"
 categories:
 - Blog post

@@ -1,7 +1,7 @@
 ---
 title: "Overfitting example using hurricane frequencies"
 author: "Steve Simon"
-source: "New"
+source: new
 date: "2021-12-11"
 categories:
 - Blog post

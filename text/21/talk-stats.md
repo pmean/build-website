@@ -1,6 +1,6 @@
 ---
 title: "Talk Stats"
-source: "New"
+source: new
 date: "2021-11-11"
 categories:
 - Recommendation

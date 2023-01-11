@@ -1,6 +1,6 @@
 ---
 title: "The obesity wars and the education of a researcher"
-source: "New"
+source: new
 date: "2021-07-08"
 categories:
 - Recommendation

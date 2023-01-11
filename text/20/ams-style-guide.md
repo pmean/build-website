@@ -1,6 +1,6 @@
 ---
 title: "AMS Style Guide"
-source: "New"
+source: new
 date: "2020-07-15"
 categories:
 - Recommendation

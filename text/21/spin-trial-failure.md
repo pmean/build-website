@@ -1,6 +1,6 @@
 ---
 title: "Cel-Sci CEO tries to spin cancer trial failure into a win"
-source: "New"
+source: new
 date: "2021-07-19"
 categories:
 - Recommendation

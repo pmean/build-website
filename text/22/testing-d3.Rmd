@@ -2,7 +2,7 @@
 title: "Testing d3"
 author: "Steve Simon"
 date: "2022-06-01"
-source: "New"
+source: new
 categories: 
 - Blog post
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: "Constructing sound science and good epidemiology: tobacco, lawyers, and public relations firms"
-source: "New"
+source: new
 date: "2020-05-24"
 categories:
 - Recommendation

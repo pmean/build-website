@@ -1,6 +1,6 @@
 ---
 title: "Getting science published"
-source: "New"
+source: new
 date: "2020-07-31"
 categories:
 - Recommendation
