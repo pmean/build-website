@@ -18,7 +18,31 @@ suppressMessages(suppressWarnings(library(stringr)))
 ```
 
 ```{r}
+write_yaml <- function(page_year) {
+  date_line <- paste0("date", ": 20", page_year, "-12-31")
+  output_text <- glue('
+  ---
+  title: "Pages written in 20{page_year}"
+  source: new
+  {date_line}
+  categories:
+  - Blog post
+  tags:
+  - Website details
+  output: html_document
+  ---')
+  return(output_text)
+}
+```
 
+```{r}
+write_links <- function(yr_list) {
+  glue("[{yr}](http://new.pmean.com/{yr}/)") %>%
+    paste(collapse=" | ")
+}
+```
+
+```{r}
 check_source <- function(file_text) {
   file_text %>%
     str_subset("^source\\: ") %>%
@@ -26,79 +50,67 @@ check_source <- function(file_text) {
     str_remove_all('"')  %>%
     str_remove_all("'") -> file_source
   
-  if (length(file_source)==0) return(
-    glue("{fn} has no source\n"))
+  if (length(file_source)==0) return("Error: no source")
 
-  if (length(file_source)>1) return(
-    glue("{fn} has multiple sources\n")) 
+  if (length(file_source)>1) return("Error: multiple sources")
 
-  if (file_source!="new") return(
-    glue("{fn} has source={file_source}\n"))
-  return(NULL)
+  return(file_source)
 }
+```
 
+```{r}
 check_dates <- function(file_text) {
   file_text %>%
     str_subset(fixed("date: ")) %>%
     str_remove(fixed("date: ")) %>%
     str_remove_all('"') %>%
     str_remove_all("'")  -> file_date
-    if (length(file_date)==0) file_date <-"No date"
-    return(file_date)
+  if (length(file_date)==0) return("Error: no date")
+  if (length(file_date)==0) return("Error: multiple dates")
+  return(file_date)
 }
+```
 
-list_pages <- function(page_year) {
-  # get yr_list
-  yr <- 2023:1999
-  glue("[{yr}](http://new.pmean.com/{yr}/)") %>%
-    paste(collapse=" | ") -> yr_list
-  
+```{r}
+write_list <- function(page_year) {
+  # get file list
+  list.files(path=glue("../text/{page_year}", pattern="*.md")) %>%
+    str_subset("md$") -> f
   # open files and find information
-  problem_files <- NULL
+  file_source <- NULL
   date_list <- NULL
   for (fn in f) {
-    file_text <- read_lines(glue("../text/21/{fn}"))
-    problem_files <- append(
-      problem_files,
+    file_text <- read_lines(glue("../text/{page_year}/{fn}"))
+    # get source
+    file_source <- append(
+      file_source,
       check_source(file_text))
+    #get dates
     date_list <- append(
       date_list,
       check_dates(file_text))
   }
+  # strip extensions
   f %>%
     str_replace(fixed(".Rmd"), "") %>%
     str_replace(fixed(".md"), "") -> f
   n <- length(f)
   o <- order(date_list, f)
+  # create RMarkdown text
   header <- glue("New website ({n} files)")
-  glue(
+  file_list <- glue(
     "+ {date_list[o]} ",
     "[{f[o]}]",
     "(http://new.pmean.com/{f[o]}/)  ") %>%
-    paste(collapse="  \n") -> file_list
-  return(
-    paste0(
-      yr_list,
-      header,
-      file_list, 
-      problem_files))
+    paste(collapse="  \n")
+  # search for problem files
+  
+  return(paste0(header, file_list))
 }
 ```
 
 ```{r}
-
+write_yaml(21)
 ```
 
-`r yr_list`
-
-`r header`
-
-`r file_list`
-
-```{r}
-if (length(problem_files)==0) {
-  problem_files <- "All files passed date and source quality checks"
-}
-```
-
-`r paste(problem_files, collapse="\n")`
+`r write_list(21)`

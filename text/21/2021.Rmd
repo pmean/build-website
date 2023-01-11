@@ -14,5 +14,3 @@ f <- list.files(pattern="md$")
 page_year <- "21"
 ```
 
-```{r, child="../../src/pages.Rmd"}
-```
