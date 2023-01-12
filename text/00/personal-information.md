@@ -1,5 +1,6 @@
 ---
 title: Information about myself
+source: http://www.pmean.com/00/simon.html
 author: Steve Simon
 date: 2000-01-01
 categories:

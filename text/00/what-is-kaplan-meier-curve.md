@@ -1,5 +1,6 @@
 ---
 title: Kaplan Meier
+source: http://www.pmean.com/00/kaplan.html
 author: Steve Simon
 date: 2000-06-27
 categories:

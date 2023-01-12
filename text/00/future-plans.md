@@ -1,5 +1,6 @@
 ---
 title: Future work on this website
+source: http://www.pmean.com/00/future.html
 author: Steve Simon
 date: 2000-01-01
 categories:

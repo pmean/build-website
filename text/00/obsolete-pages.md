@@ -1,5 +1,6 @@
 ---
 title: Obsolete webpages
+source: http://www.pmean.com/00/ObsoletePages.html
 author: Steve Simon
 date: 2000-01-01
 categories:

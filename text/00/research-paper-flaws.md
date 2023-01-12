@@ -1,5 +1,6 @@
 ---
 title: Flaws in a research paper
+source: http://www.pmean.com/00/flaws.html
 author: Steve Simon
 date: 2000-01-27
 categories:

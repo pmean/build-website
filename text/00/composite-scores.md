@@ -1,5 +1,6 @@
 ---
 title: Composite scores
+source: http://www.pmean.com/00/composite.html
 author: Steve Simon
 date: 2000-01-27
 categories:

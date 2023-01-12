@@ -1,5 +1,6 @@
 ---
 title: Best fitting curve
+source: http://www.pmean.com/00/bestfit.html
 author: Steve Simon
 date: 2000-01-26
 categories:

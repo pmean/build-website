@@ -1,5 +1,6 @@
 ---
 title: Binary outcome sample size calculations
+source: http://www.pmean.com/00/binary.html
 author: Steve Simon
 date: 2000-08-23
 categories:

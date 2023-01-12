@@ -1,5 +1,6 @@
 ---
 title: Stratified random sample.
+source: http://www.pmean.com/00/strata.html
 author: Steve Simon
 date: 2000-08-23
 categories:

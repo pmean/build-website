@@ -15,4 +15,3 @@ You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
 [sim1]: http://www.pmean.com/07/hand18condensed.htm
 [sim2]: http://www.pmean.com
-

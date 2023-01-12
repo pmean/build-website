@@ -1,5 +1,6 @@
 ---
 title: Acknowledgements
+source: http://www.pmean.com/00/ack.html
 author: Steve Simon
 date: 2000-01-28
 categories:
@@ -21,4 +22,3 @@ You can find an [earlier version][sim1] of this page on my [original website][si
 
 [sim1]: http://www.pmean.com/00/ack.html
 [sim2]: http://www.pmean.com/original_site.html
-

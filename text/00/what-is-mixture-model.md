@@ -1,5 +1,6 @@
 ---
 title: Mixture models
+source: http://www.pmean.com/00/mixture.html
 author: Steve Simon
 date: 2000-01-27
 categories:

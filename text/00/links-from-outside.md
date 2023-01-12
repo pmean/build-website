@@ -1,5 +1,6 @@
 ---
 title: Links from other sites
+source: http://www.pmean.com/00/links.html
 author: Steve Simon
 date: 2000-02-02
 categories:

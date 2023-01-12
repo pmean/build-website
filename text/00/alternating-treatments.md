@@ -1,5 +1,6 @@
 ---
 title: Alternating treatments
+source: http://www.pmean.com/00/alternate.html
 author: Steve Simon
 date: 2000-08-22
 categories:

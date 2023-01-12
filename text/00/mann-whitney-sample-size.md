@@ -1,5 +1,6 @@
 ---
 title: Sample size for the Mann-Whitney U test
+source: http://www.pmean.com/00/mann.html
 author: Steve Simon
 date: 2000-09-28
 categories:

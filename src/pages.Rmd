@@ -19,12 +19,12 @@ suppressMessages(suppressWarnings(library(stringr)))
 
 ```{r}
 write_yaml <- function(page_year) {
-  date_line <- paste0("date", ": 20", page_year, "-12-31")
+  century <- ifelse(page_year==99, 19, 20)
   output_text <- glue('
   ---
-  title: "Pages written in 20{page_year}"
+  title: "Pages written in {century}{page_year}"
   source: new
-  date: 20{page_year}-12-31
+  date: {century}{page_year}-12-31
   categories:
   - Blog post
   tags:

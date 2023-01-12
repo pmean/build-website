@@ -1,5 +1,6 @@
 ---
 title: Sample size for a confidence interval
+source: http://www.pmean.com/00/confid.html
 author: Steve Simon
 date: 2000-01-26
 categories:

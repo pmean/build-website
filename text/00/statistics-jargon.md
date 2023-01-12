@@ -1,5 +1,6 @@
 ---
 title: Jargon in Statistics
+source: http://www.pmean.com/00/jargon.html
 author: Steve Simon
 date: 2000-01-27
 categories:

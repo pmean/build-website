@@ -1,5 +1,6 @@
 ---
 title: Protocol changes.
+source: http://www.pmean.com/00/protocol.html
 author: Steve Simon
 date: 2000-12-22
 categories:

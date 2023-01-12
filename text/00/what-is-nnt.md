@@ -1,5 +1,6 @@
 ---
 title: Number Needed to Treat
+source: http://www.pmean.com/00/nnt.html
 author: Steve Simon
 date: 2000-01-27
 categories:

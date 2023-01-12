@@ -1,5 +1,6 @@
 ---
 title: Fisher's Exact Test
+source: http://www.pmean.com/00/fishers.html
 author: Steve Simon
 date: 2000-08-23
 categories:

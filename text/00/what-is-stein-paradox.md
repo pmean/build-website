@@ -1,5 +1,6 @@
 ---
 title: Stein's paradox
+source: http://www.pmean.com/00/stein.html
 author: Steve Simon
 date: 2000-01-27
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Important disclaimer.
+source: http://www.pmean.com/00/disclaimer.html
 author: Steve Simon
 date: 2000-01-28
 categories:

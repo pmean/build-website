@@ -1,5 +1,6 @@
 ---
 title: Regression to the mean
+source: http://www.pmean.com/00/regression.html
 author: Steve Simon
 date: 2000-01-27
 categories:

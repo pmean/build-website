@@ -1,5 +1,6 @@
 ---
 title: Sigma in the control chart.
+source: http://www.pmean.com/00/sigma.html
 author: Steve Simon
 date: 2000-01-27
 categories:

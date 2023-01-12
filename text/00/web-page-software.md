@@ -1,5 +1,6 @@
 ---
 title: Software used to create these web pages.
+source: http://www.pmean.com/00/software.html
 author: Steve Simon
 date: 2000-08-24
 categories:
