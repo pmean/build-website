@@ -1,7 +1,8 @@
 ---
 title: (Being updated)
+source: http://blog.pmean.com/combination-of-some-data/
 author: Steve Simon
-date: 1999-01-01
+date: 2019-01-20
 categories:
 - Blog post
 tags:

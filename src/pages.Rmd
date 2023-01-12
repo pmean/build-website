@@ -98,11 +98,14 @@ write_list <- function(page_year) {
   # search for problem files
   bad_date <- str_detect(date_list, "Error")
   bad_source <- str_detect(source_list, "Error")
+  old_source <- (!str_detect(source_list, "new")) & (!bad_source)
+  old_link <- glue("Link to earlier page [here]({source_list}).")
+  old_link[!old_source] <- ""
   # create RMarkdown text
   links <- glue(
     "+ {date_list} ",
     "[{f}]",
-    "(http://new.pmean.com/{f}/)  ")
+    "(http://new.pmean.com/{f}/). {old_link}  ")
   # store in a sorted data frame
   o <- order(date_list, f)
   return(
@@ -117,7 +120,7 @@ write_list <- function(page_year) {
 ```
 
 ```{r}
-for (four_digit_year in c("2022")) {
+for (four_digit_year in c("2018")) {
   two_digit_year <- str_sub(four_digit_year, 3, 4)
   yaml_text <- write_yaml(two_digit_year)
   l <- write_list(two_digit_year)
