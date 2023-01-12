@@ -1,5 +1,6 @@
 ---
 title: Definition, Interquartile range
+source: http://www.pmean.com/definitions/interval.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

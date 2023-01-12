@@ -1,5 +1,6 @@
 ---
 title: Definition, Odds
+source: http://www.pmean.com/definitions/odds.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

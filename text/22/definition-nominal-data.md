@@ -1,5 +1,6 @@
 ---
 title: Definition, Nominal data
+source: http://www.pmean.com/definitions/nominal.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

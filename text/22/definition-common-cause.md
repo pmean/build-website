@@ -1,5 +1,6 @@
 ---
 title: Definition, Common cause variation
+source: http://www.pmean.com/definitions/CommonCause.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

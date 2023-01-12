@@ -1,5 +1,6 @@
 ---
 title: Definition, Poisson distribution
+source: http://www.pmean.com/definitions/poisson.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

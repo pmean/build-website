@@ -1,5 +1,6 @@
 ---
 title: Definition, Mode
+source: http://www.pmean.com/definitions/mode.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

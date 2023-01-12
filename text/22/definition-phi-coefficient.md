@@ -1,5 +1,6 @@
 ---
 title: Definition, Phi coefficient
+source: http://www.pmean.com/definitions/phi.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, P-value
+source: http://www.pmean.com/definitions/pvalue.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

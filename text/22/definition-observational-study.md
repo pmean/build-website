@@ -1,5 +1,6 @@
 ---
 title: Definition, Observational study
+source: http://www.pmean.com/definitions/observ.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

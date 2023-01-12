@@ -1,5 +1,6 @@
 ---
 title: Definition, Ratio data
+source: http://www.pmean.com/definitions/ratio.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, Dependent variable
+source: http://www.pmean.com/definitions/dv.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

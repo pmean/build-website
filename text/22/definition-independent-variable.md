@@ -1,5 +1,6 @@
 ---
 title: Definition, Independent variable
+source: http://www.pmean.com/definitions/iv.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

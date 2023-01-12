@@ -1,5 +1,6 @@
 ---
 title: Definition, Control chart
+source: http://www.pmean.com/definitions/ControlChart.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

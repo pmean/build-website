@@ -1,5 +1,6 @@
 ---
 title: Definition, Random sample
+source: http://www.pmean.com/definitions/random.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, Specificity
+source: http://www.pmean.com/definitions/specificity.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

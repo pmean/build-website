@@ -1,5 +1,6 @@
 ---
 title: Definition, Type I error
+source: http://www.pmean.com/definitions/typei.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, t-statistic
+source: http://www.pmean.com/definitions/tstat.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

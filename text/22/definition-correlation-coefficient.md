@@ -1,5 +1,6 @@
 ---
 title: Definition, Correlation coefficient
+source: http://www.pmean.com/definitions/correlation.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

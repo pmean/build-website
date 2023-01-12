@@ -1,5 +1,6 @@
 ---
 title: Definition, Diagnostic test
+source: http://www.pmean.com/definitions/diagnostic.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

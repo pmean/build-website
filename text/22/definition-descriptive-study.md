@@ -1,5 +1,6 @@
 ---
 title: Definition, Descriptive study
+source: http://www.pmean.com/definitions/descriptive.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

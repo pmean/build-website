@@ -1,5 +1,6 @@
 ---
 title: Definition, Ordinal data
+source: http://www.pmean.com/definitions/ordinal.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, Mosaic plot
+source: http://www.pmean.com/definitions/mosaic.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, Boxplot
+source: http://www.pmean.com/definitions/boxplot.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

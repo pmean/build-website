@@ -1,5 +1,6 @@
 ---
 title: Definition, Median
+source: http://www.pmean.com/definitions/median.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

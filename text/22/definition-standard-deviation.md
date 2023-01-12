@@ -1,5 +1,6 @@
 ---
 title: Definition, Standard deviation
+source: http://www.pmean.com/definitions/stdev.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

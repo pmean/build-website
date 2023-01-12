@@ -1,5 +1,6 @@
 ---
 title: Definition, Geometric mean
+source: http://www.pmean.com/definitions/geometric.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

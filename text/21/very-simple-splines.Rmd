@@ -1,5 +1,6 @@
 ---
 title: "Very simple spline models"
+source: new
 author: "Steve Simon"
 date: "2021-10-29"
 categories:

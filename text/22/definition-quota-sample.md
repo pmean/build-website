@@ -1,5 +1,6 @@
 ---
 title: Definition, Quota sample
+source: http://www.pmean.com/definitions/quota.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

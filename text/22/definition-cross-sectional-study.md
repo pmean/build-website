@@ -1,5 +1,6 @@
 ---
 title: Definition, Cross sectional study
+source: http://www.pmean.com/definitions/cross_sectional.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

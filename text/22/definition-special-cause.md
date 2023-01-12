@@ -1,5 +1,6 @@
 ---
 title: Definition, Special cause variation
+source: http://www.pmean.com/definitions/SpecialCause.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

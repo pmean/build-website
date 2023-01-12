@@ -1,5 +1,6 @@
 ---
 title: Definition, Mann-Whitney-Wilcoxon test
+source: http://www.pmean.com/definitions/MannWhitney.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

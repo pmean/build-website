@@ -1,5 +1,6 @@
 ---
 title: Definition, Fagan nomogram
+source: http://www.pmean.com/definitions/fagan.htm
 author: Steve Simon
 date: 2022-05-28
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Definition, Decision rule
+source: http://www.pmean.com/definitions/decision.htm
 author: Steve Simon
 date: 2022-05-28
 categories:
