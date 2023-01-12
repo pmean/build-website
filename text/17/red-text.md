@@ -22,6 +22,5 @@ I see no reason why any of the red text deserves such a harsh highlight. When ev
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-[sim1]: http://blog.pmean.com/red-txt/
+[sim1]: http://blog.pmean.com/red-text/
 [sim2]: http://blog.pmean.com
-

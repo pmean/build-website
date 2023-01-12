@@ -120,7 +120,7 @@ write_list <- function(page_year) {
 ```
 
 ```{r}
-for (four_digit_year in c("2018")) {
+for (four_digit_year in c("2014")) {
   two_digit_year <- str_sub(four_digit_year, 3, 4)
   yaml_text <- write_yaml(two_digit_year)
   l <- write_list(two_digit_year)
@@ -141,7 +141,7 @@ for (four_digit_year in c("2018")) {
   problem_files <- c(
     paste(l$f, l$date_list)[l$bad_date],
     paste(l$f, l$source_list)[l$bad_source])
-  all_good <- "All files passed data and source quality checks"
+  all_good <- "All files passed date and source quality checks"
   if (length(problem_files)==0) problem_files <- all_good
   write_lines(
     c("\n", problem_files),
