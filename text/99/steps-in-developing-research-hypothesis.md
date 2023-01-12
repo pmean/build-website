@@ -1,5 +1,6 @@
 ---
 title: Developing a research hypothesis
+source: http://www.pmean.com/99/hypo.html
 author: Steve Simon
 date: 1999-08-18
 categories:

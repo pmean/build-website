@@ -1,5 +1,6 @@
 ---
 title: Type II error
+source: http://www.pmean.com/99/typetwo.html
 author: Steve Simon
 date: 1999-09-13
 categories:

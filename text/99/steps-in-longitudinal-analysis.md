@@ -1,5 +1,6 @@
 ---
 title: Longitudinal data analysis
+source: http://www.pmean.com/99/longitudinal.html
 author: Steve Simon
 date: 1999-10-15
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Guidelines for logistic regression models
+source: http://www.pmean.com/99/logistic.html
 author: Steve Simon
 date: 1999-09-27
 categories:

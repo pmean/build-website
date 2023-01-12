@@ -1,5 +1,6 @@
 ---
 title: R-squared
+source: http://www.pmean.com/99/rsquared.html
 author: Steve Simon
 date: 1999-08-18
 categories:

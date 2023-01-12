@@ -1,5 +1,6 @@
 ---
 title: General guide to data entry
+source: http://www.pmean.com/99/entry.html
 author: Steve Simon
 date: 1999-09-03
 categories:

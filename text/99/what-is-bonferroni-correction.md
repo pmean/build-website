@@ -1,5 +1,6 @@
 ---
 title: Bonferroni correction
+source: http://www.pmean.com/99/bonferroni.html
 author: Steve Simon
 date: 1999-09-03
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Lost page
+source: http://www.pmean.com/99/nonlinear.html
 author: Steve Simon
 date: 2004-06-24
 categories:

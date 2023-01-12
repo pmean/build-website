@@ -1,5 +1,6 @@
 ---
 title: All or nothing
+source: http://www.pmean.com/99/all.html
 author: Steve Simon
 date: 1999-08-18
 categories:

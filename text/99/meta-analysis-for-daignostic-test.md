@@ -1,5 +1,6 @@
 ---
 title: Meta-analysis for a diagnostic
+source: http://www.pmean.com/99/diagnostic.html
 author: Steve Simon
 date: 1999-11-15
 categories:

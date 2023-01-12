@@ -1,5 +1,6 @@
 ---
 title: Inputting a two-by-two table into SPSS
+source: http://www.pmean.com/99/table.html
 author: Steve Simon
 date: 1999-09-18
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Importing spreadsheet data into SPSS
+source: http://www.pmean.com/99/excel.html
 author: Steve Simon
 date: 1999-09-20
 categories:

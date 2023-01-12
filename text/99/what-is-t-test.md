@@ -1,7 +1,7 @@
 ---
 title: T-test
+source: http://www.pmean.com/99/ttest.html
 author: Steve Simon
-source: http://www.pmean.com/99/ttest-99.html
 date: 1999-04-18
 categories:
 - Blog post

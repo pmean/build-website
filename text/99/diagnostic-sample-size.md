@@ -1,5 +1,6 @@
 ---
 title: Sample size for a diagnostic study
+source: http://www.pmean.com/99/diag.html
 author: Steve Simon
 date: 1999-09-03
 categories:

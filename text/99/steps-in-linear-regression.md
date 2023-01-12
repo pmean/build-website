@@ -1,5 +1,6 @@
 ---
 title: Steps in a typical linear regression analysis
+source: http://www.pmean.com/99/linear.html
 author: Steve Simon
 date: 1999-09-21
 categories:

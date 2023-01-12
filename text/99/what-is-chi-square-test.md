@@ -1,5 +1,6 @@
 ---
 title: Chi-squared test
+source: http://www.pmean.com/99/chisquared.html
 author: Steve Simon
 date: 1999-09-03
 categories:

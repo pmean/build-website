@@ -1,5 +1,6 @@
 ---
 title: Poisson regression model
+source: http://www.pmean.com/99/poisson.html
 author: Steve Simon
 date: 1999-09-21
 categories:

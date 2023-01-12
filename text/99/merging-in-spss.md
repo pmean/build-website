@@ -1,5 +1,6 @@
 ---
 title: Merging files in SPSS
+source: http://www.pmean.com/99/merging.html
 author: Steve Simon
 date: 1999-01-15
 categories:

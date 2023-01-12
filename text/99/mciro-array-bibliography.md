@@ -1,5 +1,6 @@
 ---
 title: Array bibliography (Being updated)
+source: http://www.pmean.com/99/arrayBibliography.htm
 author: Steve Simon
 date: 1999-01-01
 categories:

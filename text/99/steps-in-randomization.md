@@ -1,5 +1,6 @@
 ---
 title: How to randomize
+source: http://www.pmean.com/99/random.html
 author: Steve Simon
 date: 1999-08-18
 categories:

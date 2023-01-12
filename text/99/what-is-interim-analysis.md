@@ -1,5 +1,6 @@
 ---
 title: Interim analysis
+source: http://www.pmean.com/99/interim.html
 author: Steve Simon
 date: 1999-09-13
 categories:

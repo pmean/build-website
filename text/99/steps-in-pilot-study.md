@@ -1,5 +1,6 @@
 ---
 title: Pilot study
+source: http://www.pmean.com/99/pilot.html
 author: Steve Simon
 date: 1999-09-03
 categories:

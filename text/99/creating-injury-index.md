@@ -1,5 +1,6 @@
 ---
 title: Injury index creation
+source: http://www.pmean.com/99/injury.html
 author: Steve Simon
 date: 1999-09-23
 categories:

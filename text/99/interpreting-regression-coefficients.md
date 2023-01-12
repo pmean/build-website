@@ -1,5 +1,6 @@
 ---
 title: Lost page
+source: http://www.pmean.com/99/lin_coef.html
 author: Steve Simon
 date: 2002-06-24
 categories:

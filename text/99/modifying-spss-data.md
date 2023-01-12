@@ -1,5 +1,6 @@
 ---
 title: Modifying SPSS data
+source: http://www.pmean.com/99/modify.html
 author: Steve Simon
 date: 1999-09-18
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Where do research ideas come from? by Ronan Conroy
+source: http://www.pmean.com/99/ideas.html
 author: Steve Simon
 date: 1999-09-20
 categories:

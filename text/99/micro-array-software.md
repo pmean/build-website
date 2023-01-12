@@ -1,5 +1,6 @@
 ---
 title: (Being updated)
+source: http://www.pmean.com/99/arraySoftware.htm
 author: Steve Simon
 date: 1999-01-01
 categories:

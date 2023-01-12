@@ -1,5 +1,6 @@
 ---
 title: ROC curve
+source: http://www.pmean.com/99/roc.html
 author: Steve Simon
 date: 1999-08-19
 categories:

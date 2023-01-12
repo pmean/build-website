@@ -1,5 +1,6 @@
 ---
 title: Asymmetric confidence intervals
+source: http://www.pmean.com/99/asymmetric.html
 author: Steve Simon
 date: 1999-09-03
 categories:

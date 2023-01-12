@@ -1,5 +1,6 @@
 ---
 title: Degrees of Freedom
+source: http://www.pmean.com/99/df.html
 author: Steve Simon
 date: 1999-09-03
 categories:

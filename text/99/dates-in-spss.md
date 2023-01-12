@@ -1,5 +1,6 @@
 ---
 title: Date calculations in SPSS
+source: http://www.pmean.com/99/dates.html
 author: Steve Simon
 date: 1999-08-18
 categories:

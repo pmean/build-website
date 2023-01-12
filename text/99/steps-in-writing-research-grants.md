@@ -1,5 +1,6 @@
 ---
 title: Writing a research grant
+source: http://www.pmean.com/99/grants.html
 author: Steve Simon
 date: 1999-09-13
 categories:
