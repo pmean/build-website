@@ -1,5 +1,6 @@
 ---
 title: Calculating predicted probabilities from a logistic regression model 
+source: http://www.pmean.com/13/predicted.html
 author: Steve Simon
 date: 2013-07-31
 categories:

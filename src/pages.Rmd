@@ -120,7 +120,7 @@ write_list <- function(page_year) {
 ```
 
 ```{r}
-for (four_digit_year in c("2014")) {
+for (four_digit_year in c("2012")) {
   two_digit_year <- str_sub(four_digit_year, 3, 4)
   yaml_text <- write_yaml(two_digit_year)
   l <- write_list(two_digit_year)
@@ -152,6 +152,6 @@ for (four_digit_year in c("2014")) {
 
 Links created for `r dim(l)[1]` pages in `r four_digit_year`.
 
-`r paste(problem_files, collapse="\n")`
+`r paste(paste("+", problem_files), collapse="\n")`
 
 `r l$source_list`

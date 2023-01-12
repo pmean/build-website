@@ -1,5 +1,6 @@
 ---
 title: Data sources for a proposed course on secondary data analysis
+source: http://www.pmean.com/13/secondary.html
 author: Steve Simon
 date: 2013-08-07
 categories:

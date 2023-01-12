@@ -1,5 +1,6 @@
 ---
 title: I get a letter published in the Kansas City Star
+source: http://www.pmean.com/13/letter.html
 author: Steve Simon
 date: 2013-08-26
 categories:

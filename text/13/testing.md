@@ -1,5 +1,6 @@
 ---
 title: Testing an R function
+source: http://www.pmean.com/13/testing.html
 author: Steve Simon
 date: 2013-11-02
 categories:

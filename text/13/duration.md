@@ -1,5 +1,6 @@
 ---
 title: R code for estimating the duration of a clinical trial with a fixed sample size
+source: http://www.pmean.com/13/duration.html
 author: Steve Simon
 date: 2013-07-29
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Resource for statisticians called as legal experts in a trial
+source: http://www.pmean.com/13/legal.html
 author: Steve Simon
 date: 2013-08-14
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Counting squares
+source: http://www.pmean.com/13/counting.html
 author: Steve Simon
 date: 2013-04-02
 categories:

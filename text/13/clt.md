@@ -1,5 +1,6 @@
 ---
 title: What does it really mean to say that a mean of a large number of variables is approximately normal
+source: http://www.pmean.com/13/clt.html
 author: Steve Simon
 date: 2013-01-14
 categories:

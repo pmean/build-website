@@ -1,5 +1,6 @@
 ---
 title: A complex subgroup definition
+source: http://www.pmean.com/13/subgroup.html
 author: Steve Simon
 date: 2013-03-25
 categories:

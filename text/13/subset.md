@@ -1,5 +1,6 @@
 ---
 title: Can I focus on a subset of conditions in my experiment
+source: http://www.pmean.com/13/subset.html
 author: Steve Simon
 date: 2013-09-10
 categories:

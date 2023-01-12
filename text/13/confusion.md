@@ -1,5 +1,6 @@
 ---
 title: Confusion about BUGS
+source: http://www.pmean.com/13/confusion.html
 author: Steve Simon
 date: 2013-09-03
 categories:

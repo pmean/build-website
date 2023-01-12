@@ -1,5 +1,6 @@
 ---
 title: Placing the mind of a statistician into software
+source: http://www.pmean.com/13/mind.html
 author: Steve Simon
 date: 2013-02-19
 categories:
