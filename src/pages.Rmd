@@ -120,7 +120,7 @@ write_list <- function(page_year) {
 ```
 
 ```{r}
-for (four_digit_year in c("2012")) {
+for (four_digit_year in c("1999")) {
   two_digit_year <- str_sub(four_digit_year, 3, 4)
   yaml_text <- write_yaml(two_digit_year)
   l <- write_list(two_digit_year)
@@ -144,7 +144,11 @@ for (four_digit_year in c("2012")) {
   all_good <- "All files passed date and source quality checks"
   if (length(problem_files)==0) problem_files <- all_good
   write_lines(
-    c("\n", problem_files),
+    "\n\n### Quality check\n",
+    file=fn,
+    append=TRUE)
+  write_lines(
+    paste0("+ ", problem_files),
     file=fn,
     append=TRUE)
 }
@@ -152,6 +156,6 @@ for (four_digit_year in c("2012")) {
 
 Links created for `r dim(l)[1]` pages in `r four_digit_year`.
 
-`r paste(paste("+", problem_files), collapse="\n")`
+`r paste(paste("1.", problem_files), collapse="\n")`
 
 `r l$source_list`
