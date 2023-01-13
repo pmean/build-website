@@ -120,7 +120,7 @@ write_list <- function(page_year) {
 ```
 
 ```{r}
-for (four_digit_year in c("1999")) {
+for (four_digit_year in c("2000")) {
   two_digit_year <- str_sub(four_digit_year, 3, 4)
   yaml_text <- write_yaml(two_digit_year)
   l <- write_list(two_digit_year)
