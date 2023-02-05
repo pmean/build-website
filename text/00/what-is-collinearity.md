@@ -1,5 +1,6 @@
 ---
 title: What is collinearity?
+source: http://www.pmean.com/00/collinearity.html
 author: Steve Simon
 date: 2000-01-27
 categories:
