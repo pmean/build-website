@@ -1,10 +1,11 @@
 ---
-title: Getting IRB approval for&nbsp;your research
+title: Getting IRB approval for your research
 author: Steve Simon
 date: 2002-01-01
 categories:
 - Blog post
-tags:
+tags: 
+- Incomplete pages
 - Website details
 output: html_document
 ---
@@ -12,7 +13,6 @@ output: html_document
 (To be added)
 
 <!---More--->
-
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
