@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Ask Professor Mean
+- Incomplete page
 - Measuring agreement
 output: html_document
 ---
