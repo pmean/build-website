@@ -4,7 +4,9 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/rotating-text/"
 date: "2016-10-31"
 category: Blog post
-tags: Cheat sheet, R software
+tags: 
+- Cheat sheet
+- R software
 output: html_document
 ---
 

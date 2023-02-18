@@ -4,7 +4,9 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/readmission-rates/"
 date: "2016-04-27"
 category: Blog post
-tags: Longitudinal data, Secondary data analysis
+tags: 
+- Longitudinal data
+- Secondary data analysis
 output: html_document
 ---
 
@@ -54,7 +56,7 @@ You might want to take some time here and filter out from the index visits from 
 
 Before you go any further, though, get a count of the number of patients in your readmission visit data set. This might be less than the number of rows in your readmission visit data set because you have multiple visits that might qualify as a readmission. Now compare this to the number of patients that you calculated earlier. The ratio of these two numbers is an upper bound on your 90 day readmission rate.
 
-Now you need to merge your index visit data set with your readmission visit data set. This is a tricky merge for two reasons. First, some of the patients in the index visit data set will not have a corresponding row in the readmission visit data set.  Second, some of the patients in the index visit data set will have more than one corresponding row in the readmission visit data set.
+Now you need to merge your index visit data set with your readmission visit data set. This is a tricky merge for two reasons. First, some of the patients in the index visit data set will not have a corresponding row in the readmission visit data set.? Second, some of the patients in the index visit data set will have more than one corresponding row in the readmission visit data set.
 
 As a side note, if there are multiple index visits per patient, the merge here becomes extremely messy. If you really wanted to have multiple index visits per patient, rethink things here one more time because what you are doing now is, in database parlance, a many-to-many merge. It causes even the bravest computer geeks to run away shrieking in terror.
 

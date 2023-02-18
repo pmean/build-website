@@ -4,7 +4,9 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/pilot-study/"
 date: "2016-06-14"
 category: Blog post
-tags: Pilot studies, Research design
+tags: 
+- Pilot studies
+- Research design
 output: html_document
 ---
 
@@ -12,7 +14,7 @@ If you are designing a retrospective chart review, you should talk to a statisti
 
 <!---More--->
 
-First things first. Some of you who are reading this page were originally going to do a "regular" research study, but then you realized that your budget was too small to get the sample size that you really needed.  It's not just the sample size that you can afford is just a little bit small. Your sample size is so small that your chances of finding something interesting are next to impossible. But you really, really, really want to do this study.
+First things first. Some of you who are reading this page were originally going to do a "regular" research study, but then you realized that your budget was too small to get the sample size that you really needed.? It's not just the sample size that you can afford is just a little bit small. Your sample size is so small that your chances of finding something interesting are next to impossible. But you really, really, really want to do this study.
 
 So you put the label "pilot study" on your research and hope that somehow you can get the research approved by your boss and the regulatory review boards and anyone else who might otherwise try to talk sense into you.
 
@@ -42,7 +44,7 @@ What sort of quantitative data might a pilot study provide? One of the most comm
 
 There's a technical qualifier here. If your outcome is binary (only two possible values), then you might run the pilot study to get an idea of how common or how rare the particular outcome is. In general, a very rare outcome, such as mortality in a group of patients that is not seriously ill, requires much larger sample sizes than a more common outcome.
 
-Now, how many subjects do you need in your pilot study to get a good estimate of the standard deviation? That's a tricky question. I've seen a couple of sources that say you need 20, 30, 40 or 80 subjects,  but it's hard to understand the justification for any of these numbers. [One other recommendation][pub1] is that you don't use the standard deviation directly in your power calculation, but instead rely on the upper 80% confidence limit for the standard deviation if you're shooting for 80% power.
+Now, how many subjects do you need in your pilot study to get a good estimate of the standard deviation? That's a tricky question. I've seen a couple of sources that say you need 20, 30, 40 or 80 subjects,? but it's hard to understand the justification for any of these numbers. [One other recommendation][pub1] is that you don't use the standard deviation directly in your power calculation, but instead rely on the upper 80% confidence limit for the standard deviation if you're shooting for 80% power.
 
 Now that standard deviation isn't the only valuable piece of quantitative information from a pilot study. Some other things that might be worth estimating:
 

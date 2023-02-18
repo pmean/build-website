@@ -4,7 +4,9 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/lasso/"
 date: "2016-05-25"
 category: Blog post
-tags: Linear regression, R software
+tags: 
+- Linear regression
+- R software
 output: html_document
 ---
 
