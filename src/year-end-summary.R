@@ -1,0 +1,128 @@
+# This program produces Markdown files summarizing
+# every webpage written in a given year
+
+# Preliminaries
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(stringr)))
+
+# pad single digits with leading zero
+zpad <- function(x) {
+  ifelse(nchar(x)==1, paste0("0", x), x)
+}
+
+# Create yaml header
+create_yaml <- function(yyyy) {
+  glue(
+    '---
+     title: "Pages written in 2022"
+     source: new
+     date: {yyyy}-12-31
+     categories:
+     - Blog post
+     tags:
+     - Website details
+     output: html_document
+     ---')
+}
+
+# Create links to other years
+create_links <- function(yyyy_range) {
+  yy_range <- str_sub(yyyy_range, 3)
+  glue("[{yyyy_range}](http://new.pmean.com/{yyyy_range}/)") %>%
+    paste(collapse=" | ")
+}
+
+# Check for problems
+
+# Check source
+check_source <- function(file_text) {
+  message <- NULL
+  file_text %>%
+    str_subset("^source\\: ") %>%
+    str_remove(fixed("source: ")) %>%
+    str_remove_all('"')  %>%
+    str_remove_all("'") -> file_source
+  if (length(file_source)==0) {
+    message <- glue("{fn} has no sources\n")
+  }
+  if (length(file_source)>1) {
+    message <- glue("{fn} has multiple sources\n")
+  }
+  return(message)
+}
+
+# Check date
+check_date <- function(file_text) {
+  message <- NULL
+  file_text %>%
+    str_subset("^date\\: ") %>%
+    str_remove(fixed("date: ")) %>%
+    str_remove_all('"') %>%
+    str_remove_all("'")  -> message
+  if (length(file_date)==0) {message <- glue("No date for {fn}")}
+  if (length(file_date)>1) {message <- glue("Multiple dates for {fn}")}
+  return(message)
+}
+
+# Check title
+
+# Update if no problems found
+date_list %>% 
+  str_subset(" for ") %>%
+  append(problem_files) -> problem_files
+  
+if (length(problem_files)==0) {
+  problem_files <- "All files passed date and source quality checks"
+}
+
+# Create links for each file
+create_file_list <- function(f, date_list) {
+  f %>%
+    str_replace(fixed(".Rmd"), "") %>%
+    str_replace(fixed(".md"), "") -> short_name
+  o <- order(date_list, f)
+  glue("+ {date_list[o]} [{short_name[o]}](http://new.pmean.com/{short_name[o]}/)  ") %>%
+    paste(collapse="  \n")
+}
+
+# Put it all together
+yyyy_list <- c(1999:2023)
+for (yyyy in yyyy_list[-(6:7)]) {
+  yy <- str_sub(yyyy, 3, 4)
+  output_file <- glue("text/{yy}/{yyyy}.md")
+  glue("text/{yy}") %>%
+    list.files %>%
+    str_subset("md$") -> f
+  problem_files <- NULL
+  date_list <- NULL
+  for (fn in f) {
+    file_text <- read_lines(glue("text/{yy}/{fn}"))
+    problem_files %<>% append(check_source(file_text))
+    date_list %<>% append(check_date(file_text))
+  }
+  
+  if (length(problem_files)==0) {
+    problem_files <- "All files passed date and source quality checks"
+  }
+
+  print(problem_files)
+
+  create_yaml(yyyy) %>% write_lines(output_file)
+  write_lines(" ", output_file, append=TRUE)
+  
+  create_links(yyyy_list) %>% write_lines(output_file, append=TRUE)
+  write_lines(" ", output_file, append=TRUE)
+  
+  glue("New website ({length(f)} files)") %>% write_lines(output_file, append=TRUE)
+  write_lines(" ", output_file, append=TRUE)
+  
+  create_file_list(f, date_list) %>% write_lines(output_file, append=TRUE)
+  write_lines(" ", output_file, append=TRUE)
+  
+  problem_files %>% write_lines(output_file, append=TRUE)
+  # write_lines(" ", output_file, append=TRUE)
+
+  glue("{yyyy}.md created, ({length(f)} files)") %>% print
+}

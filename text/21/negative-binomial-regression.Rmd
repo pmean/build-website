@@ -144,14 +144,14 @@ head(articles)
 Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
 
 ```{r}
-fn <- "http://www.stata-press.com/data/lf2/couart2.dta"
+fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
 ```
 
 [hua1]: https://francish.netlify.app/post/poisson-and-negative-binomial-regression-using-r/
 [rod2]: https://data.princeton.edu/wws509/r/overdispersion
-[rod3]: http://www.stata-press.com/data/lf2/couart2.dta
+[rod3]: http://www.pmean.com/00files/couart2.dta
 [sim3]: http://www.pmean.com/00files/couart2.dta
 [zei1]: https://cran.r-project.org/web/packages/pscl/vignettes/countreg.pdf
 

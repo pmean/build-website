@@ -1,6 +1,7 @@
 ---
 title: Documenting negative results in a research paper
 author: Steve Simon
+source: http://www.pmean.com/01/negative.html
 date: 2001-01-01
 categories:
 - Blog post
