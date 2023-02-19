@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Whiskers in a boxplot"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/whiskers.html
+date: 2012-07-27
 categories:
 - Blog post
 tags:

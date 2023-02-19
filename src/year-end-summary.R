@@ -61,21 +61,12 @@ check_date <- function(file_text) {
     str_remove(fixed("date: ")) %>%
     str_remove_all('"') %>%
     str_remove_all("'")  -> message
-  if (length(file_date)==0) {message <- glue("No date for {fn}")}
-  if (length(file_date)>1) {message <- glue("Multiple dates for {fn}")}
+  if (length(message)==0) {message <- glue("No date for {fn}")}
+  if (length(message)>1) {message <- glue("Multiple dates for {fn}")}
   return(message)
 }
 
 # Check title
-
-# Update if no problems found
-date_list %>% 
-  str_subset(" for ") %>%
-  append(problem_files) -> problem_files
-  
-if (length(problem_files)==0) {
-  problem_files <- "All files passed date and source quality checks"
-}
 
 # Create links for each file
 create_file_list <- function(f, date_list) {
@@ -89,7 +80,9 @@ create_file_list <- function(f, date_list) {
 
 # Put it all together
 yyyy_list <- c(1999:2023)
-for (yyyy in yyyy_list[-(6:7)]) {
+n_problems <- 0
+n_files <- 0
+for (yyyy in yyyy_list) {
   yy <- str_sub(yyyy, 3, 4)
   output_file <- glue("text/{yy}/{yyyy}.md")
   glue("text/{yy}") %>%
@@ -103,11 +96,19 @@ for (yyyy in yyyy_list[-(6:7)]) {
     date_list %<>% append(check_date(file_text))
   }
   
-  if (length(problem_files)==0) {
+  # Update if no problems found
+  date_list %>% 
+    str_subset(" for ") %>%
+    append(problem_files) -> problem_files
+
+  n_year <- length(problem_files)  
+  n_problems <- n_problems + n_year
+  n_files <- n_files + length(f)
+  if (n_year==0) {
     problem_files <- "All files passed date and source quality checks"
   }
 
-  print(problem_files)
+  if (n_year > 0) {print(problem_files)}
 
   create_yaml(yyyy) %>% write_lines(output_file)
   write_lines(" ", output_file, append=TRUE)
@@ -124,5 +125,7 @@ for (yyyy in yyyy_list[-(6:7)]) {
   problem_files %>% write_lines(output_file, append=TRUE)
   # write_lines(" ", output_file, append=TRUE)
 
-  glue("{yyyy}.md created, ({length(f)} files)") %>% print
+  glue("{yyyy}.md created, {length(f)} files, {n_year} problems detected") %>% print
 }
+
+print(glue("All years: {n_problems} problems identified in {n_files} files"))

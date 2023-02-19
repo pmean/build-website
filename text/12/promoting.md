@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: Promoting your consulting career in the era of web 2.0
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/promoting.html
+date: 2012-01-27
 categories:
 - Blog post
 tags:

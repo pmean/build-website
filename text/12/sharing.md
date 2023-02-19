@@ -1,7 +1,7 @@
 ---
-title: (Being updated)
+title: "Data sharing"
 author: Steve Simon
-date: 1999-01-01
+date: 2012-11-21
 categories:
 - Blog post
 tags:

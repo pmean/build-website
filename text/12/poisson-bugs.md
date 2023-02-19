@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: BUGS model for the simple Poisson accrual model
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/PoissonBugs.html
+date: 2012-04-18
 categories:
 - Blog post
 tags:

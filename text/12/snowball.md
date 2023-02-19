@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Debating the validity of snowball sampling"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/snowball.html
+date: 2012-10-01
 categories:
 - Blog post
 tags:

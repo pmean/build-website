@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "A very silly graph"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/SillyGraph.html
+date: 2012-01-01
 categories:
 - Blog post
 tags:
@@ -15,5 +16,5 @@ This page is being updated from a version on the original website.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
-[sim1]: http://www.pmean.com/13/SillyGraph.html
+[sim1]: http://www.pmean.com/12/SillyGraph.html
 [sim2]: http://www.pmean.com/original_site.html

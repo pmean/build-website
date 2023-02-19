@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: What to report when SPSS says the p-value is zero
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/zero.html
+date: 2012-01-09
 categories:
 - Blog post
 tags:

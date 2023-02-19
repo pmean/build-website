@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "How sample size calculations are reported in the literature"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/PowerStatements.html
+date: 2012-02-23
 categories:
 - Blog post
 tags:

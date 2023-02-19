@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Post hoc power persists because peer-reviewers demand it"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/PeerReview.html
+date: 2012-01-04
 categories:
 - Blog post
 tags:

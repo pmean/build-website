@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Those pesky tab characters"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/pesky.html
+date: 2012-03-21
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "The simple accrual model, redefined"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/redefined.html
+date: 2012-04-19
 categories:
 - Blog post
 tags:

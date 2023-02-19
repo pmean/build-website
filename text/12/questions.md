@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Questions for a panel on statistical consulting"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/questions.html
+date: 2012-02-08
 categories:
 - Blog post
 tags:

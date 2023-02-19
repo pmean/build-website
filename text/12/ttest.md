@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: A single wildly large value makes you less confident that the mean of your data is large
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/ttest.html
+date: 2012-12-12
 categories:
 - Blog post
 tags:

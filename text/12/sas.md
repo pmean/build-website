@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Data management in R versus SAS"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/sas.html
+date: 2012-08-27
 categories:
 - Blog post
 tags:
