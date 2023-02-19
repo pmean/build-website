@@ -45,7 +45,7 @@ check_source <- function(file_text) {
     str_remove_all('"')  %>%
     str_remove_all("'") -> file_source
   if (length(file_source)==0) {
-    message <- glue("{fn} has no sources\n")
+    message <- glue("{fn} has no source\n")
   }
   if (length(file_source)>1) {
     message <- glue("{fn} has multiple sources\n")
