@@ -1,5 +1,5 @@
 ---
-title: "Tests of trend between disease outcomes and ordinal covariates discretized from underlying continuous variables"
+title: "The Human Experience Will Not Be Quantified"
 source: new
 date: "2020-06-13"
 categories:
