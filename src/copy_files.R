@@ -15,7 +15,7 @@ source(file="src/standard_functions.R")
 copy_files <- function(
   old_path="text", 
   new_path="c:/Users/simons/Documents/b04/content",
-  old_dir_list=c("99", zpad(0:22)),
+  old_dir_list=c("99", zpad(0:23)),
   file_pattern="md$",
   qc=FALSE) {
 
