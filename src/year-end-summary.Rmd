@@ -1,7 +1,13 @@
-# This program produces Markdown files summarizing
-# every webpage written in a given year
+---
+title: "Create year end summaries"
+author: "Steve Simon"
+date: "Created 2022-05-26"
+output: html_document
+---
+  
+This program produces Markdown files summarizing every webpage written in a given year
 
-# Preliminaries
+```{r Preliminaries}
 suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(magrittr)))
 suppressMessages(suppressWarnings(library(readr)))
@@ -11,7 +17,9 @@ suppressMessages(suppressWarnings(library(stringr)))
 zpad <- function(x) {
   ifelse(nchar(x)==1, paste0("0", x), x)
 }
+```
 
+```{r}
 # Create yaml header
 create_yaml <- function(yyyy) {
   glue(
@@ -26,14 +34,18 @@ create_yaml <- function(yyyy) {
      output: html_document
      ---')
 }
+```
 
+```{r}
 # Create links to other years
 create_links <- function(yyyy_range) {
   yy_range <- str_sub(yyyy_range, 3)
   glue("[{yyyy_range}](http://new.pmean.com/{yyyy_range}/)") %>%
     paste(collapse=" | ")
 }
+```
 
+```{r}
 # Check for problems
 
 # Check source
@@ -77,7 +89,9 @@ create_file_list <- function(f, date_list) {
   glue("+ {date_list[o]} [{short_name[o]}](http://new.pmean.com/{short_name[o]}/)  ") %>%
     paste(collapse="  \n")
 }
+```
 
+```{r}
 # Put it all together
 yyyy_list <- c(1999:2023)
 n_problems <- 0
@@ -134,3 +148,4 @@ for (yyyy in yyyy_list) {
 }
 
 print(glue("All years: {n_problems} problems identified in {n_files} files"))
+```
