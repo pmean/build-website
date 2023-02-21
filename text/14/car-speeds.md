@@ -1,10 +1,11 @@
 ---
-title: "PMean: A biased sample of car speeds"
+title: "A biased sample of car speeds"
 author: "Steve Simon"
 source: "http://blog.pmean.com/car-speeds/"
 date: "2014-06-18"
 category: Blog post
-tags: Survey design
+tags:
+- Survey design
 output: html_document
 ---
 
@@ -20,7 +21,7 @@ data.
 
 Your worries are on target. To assess the appropriateness of any
 sampling procedure, you need to ask yourself "Who was left out?" In this
-sampling procedure,  the cars left out are the cars that neither passed
+sampling procedure,ï¿½ the cars left out are the cars that neither passed
 you nor were passed by you, because they were travelling at exactly the
 same speed as you.
 

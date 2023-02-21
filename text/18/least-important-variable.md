@@ -1,5 +1,5 @@
 ---
-title: "PMean: And the least important variable is"
+title: "And the least important variable is"
 author: "Steve Simon"
 source: "http://blog.pmean.com/least-important-variable/"
 date: "2018-03-28"

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Can I replace missing values with zero?"
+title: "Can I replace missing values with zero?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-equals-zero/"
 date: "2015-05-18"

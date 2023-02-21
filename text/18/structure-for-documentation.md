@@ -1,5 +1,5 @@
 ---
-title: "PMean: A simple structure for documentation"
+title: "A simple structure for documentation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/structure-for-documentation/"
 date: "2018-07-24"

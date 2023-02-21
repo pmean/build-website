@@ -1,5 +1,5 @@
 ---
-title: "PMean: What day is it in my R program?"
+title: "What day is it in my R program?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/what-day-is-it/"
 date: "2018-08-27"

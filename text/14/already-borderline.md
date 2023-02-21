@@ -1,10 +1,11 @@
 ---
-title: "PMean: Stretching an already borderline sample size"
+title: "Stretching an already borderline sample size"
 author: "Steve Simon"
 source: "http://blog.pmean.com/already-borderline/"
 date: "2014-04-16"
 category: Blog post
-tags: Sample size
+tags:
+- Sample size justification
 output: html_document
 ---
 
@@ -14,7 +15,7 @@ them. The primary outcome was binary: whether a certain medical
 procedure was run properly in a test setting. The intervention was
 special training on a model; the control was normal training without the
 model. I got a phone call back that said, what would the power be if I
-used three groups rather than two?  I thought to myself "Good grief!"
+used three groups rather than two?ï¿½ I thought to myself "Good grief!"
 You can't say that to a client, of course, so here's what I
 said.
 

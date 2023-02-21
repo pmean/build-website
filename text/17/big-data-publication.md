@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/big-data-publication/"
 date: "2017-12-29"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 

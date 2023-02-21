@@ -1,10 +1,11 @@
 ---
-title: "PMean: Do we really need to teach all this math stuff?"
+title: "Do we really need to teach all this math stuff?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/all-this-math-stuff/"
 date: "2016-03-09"
 category: Blog post
-tags: Teaching resources
+tags:
+- Teaching resources
 output: html_document
 ---
 

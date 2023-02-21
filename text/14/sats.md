@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/sats/"
 date: "2014-01-17"
 category: Recommendation
-tags: Survey design
+tags:
+- Survey design
 output: html_document
 ---
 

@@ -1,10 +1,11 @@
 ---
-title: "PMean: Pretty good work for a part-timer"
+title: "Pretty good work for a part-timer"
 author: "Steve Simon"
 source: "http://blog.pmean.com/part-timer/"
 date: "2016-05-23"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 

@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Multilevel models
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

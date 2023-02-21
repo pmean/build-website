@@ -1,5 +1,5 @@
 ---
-title: "PMean: Several Python resources"
+title: "Several Python resources"
 author: "Steve Simon"
 source: "http://blog.pmean.com/python-resources/"
 date: "2019-05-02"

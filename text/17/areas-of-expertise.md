@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/areas-of-expertise/"
 date: "2017-03-30"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 

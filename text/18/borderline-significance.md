@@ -1,5 +1,5 @@
 ---
-title: "PMean: What to do about claims of borderline statistical significance"
+title: "What to do about claims of borderline statistical significance"
 author: "Steve Simon"
 source: "http://blog.pmean.com/borderline-significance/"
 date: "2018-09-21"

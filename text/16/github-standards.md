@@ -1,10 +1,11 @@
 ---
-title: "PMean: Minimum standards for a github repository"
+title: "Minimum standards for a github repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/github-standards/"
 date: "2016-05-31"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 
@@ -22,7 +23,7 @@ If you use github, they will tell you that every repository should have three fi
 
 I'm not thrilled about including the third file because it has no extension, but it's a mistake for a beginner like me to deviate from well established standards.
 
-The .gitignore file tells git that there are certain types of files that might exist on your local computer but which are not needed or wanted in the repository. This is important, because you don't want a repository that is excessively cluttered. Here are the files that I put in .gitignore.
+The .gitignore file tells git that there are certain types of files that might exist on your local computer but which are not needed or wanted in the repository. This is important, because youï¿½don't want a repository that is excessively cluttered. Here are the files that I put in .gitignore.
 
 - .Rproj.user. This is a subdirectory associated with RStudio. The files in it are set up by RStudio itself. Any outsider using RStudio will have these files, so they don't need (or want) your copy.
 

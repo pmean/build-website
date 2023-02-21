@@ -1,5 +1,5 @@
 ---
-title: "PMean: You can now register for an account on my blog."
+title: "You can now register for an account on my blog."
 author: "Steve Simon"
 source: "http://blog.pmean.com/you-can-now-register/"
 date: "2013-11-30"

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Sample size for comparing two diagnostic tests"
+title: "Sample size for comparing two diagnostic tests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/comparing-diagnostic-tests/"
 date: "2013-12-18"

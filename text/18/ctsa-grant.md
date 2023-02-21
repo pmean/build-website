@@ -1,5 +1,5 @@
 ---
-title: "PMean: My work on a CTSA grant"
+title: "My work on a CTSA grant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ctsa-grant/"
 date: "2018-01-26"

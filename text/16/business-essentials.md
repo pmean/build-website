@@ -1,10 +1,11 @@
 ---
-title: "PMean: Business essentials that you need to know before starting your career as an independent statistical consultant"
+title: "Business essentials that you need to know before starting your career as an independent statistical consultant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/business-essentials/"
 date: "2016-02-14"
 category: Blog post
-tags: Human side of statistics
+tags:
+- Human side of statistics
 output: html_document
 ---
 

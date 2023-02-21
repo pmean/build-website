@@ -1,5 +1,5 @@
 ---
-title: "PMean: Python, Raspberry Pi, and cluster computing"
+title: "Python, Raspberry Pi, and cluster computing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/python-raspberry-pi/"
 date: "2018-09-04"

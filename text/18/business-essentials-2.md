@@ -1,5 +1,5 @@
 ---
-title: "PMean: Business essentials for starting an independent consulting practice"
+title: "Business essentials for starting an independent consulting practice"
 author: "Steve Simon"
 source: "http://blog.pmean.com/business-essentials-2/"
 date: "2018-08-17"

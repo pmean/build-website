@@ -1,10 +1,11 @@
 ---
-title: "PMean: Independent consulting and the cold call"
+title: "Independent consulting and the cold call"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cold-call/"
 date: "2016-10-26"
 category: Blog post
-tags: Human side of statistics
+tags:
+- Human side of statistics
 output: html_document
 ---
 

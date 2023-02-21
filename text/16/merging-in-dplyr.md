@@ -1,10 +1,10 @@
 ---
-title: "PMean: Merging in dplyr is a lot faster"
+title: "Merging in dplyr is a lot faster"
 author: "Steve Simon"
 source: "http://blog.pmean.com/merging-in-dplyr/"
 date: "2016-09-06"
 category: Blog post
-tags: 
+tags:
 - Data management
 - R software
 output: html_document

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Fighting SASism"
+title: "Fighting SASism"
 author: "Steve Simon"
 source: "http://blog.pmean.com/fighting-sasism/"
 date: "2018-10-30"

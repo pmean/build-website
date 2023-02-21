@@ -1,10 +1,11 @@
 ---
-title: "PMean: Who is your authorized official?"
+title: "Who is your authorized official?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/authorized-official/"
 date: "2014-06-27"
 category: Blog post
-tags: Grant writing
+tags:
+- Grant writing
 output: html_document
 ---
 
@@ -27,7 +28,7 @@ If you are [key
 personnel](http://grants.nih.gov/grants/policy/senior_key_personnel_faqs.htm),
 you need to fill out a [biographical
 sketch](http://grants.nih.gov/grants/funding/phs398/biosketchsample.pdf).
-You are also required to fill out  a financial conflict of interest
+You are also required to fill outï¿½ a financial conflict of interest
 disclosure form to document that you have taken and passed appropriate
 training on the ethical conduct of research. These last two requirements
 vary from organization to organization.

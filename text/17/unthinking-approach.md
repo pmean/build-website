@@ -1,5 +1,5 @@
 ---
-title: "PMean: The unthinking approach to borderline p-values"
+title: "The unthinking approach to borderline p-values"
 author: "Steve Simon"
 source: "http://blog.pmean.com/unthinking-approach/"
 date: "2017-10-19"

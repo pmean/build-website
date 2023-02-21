@@ -1,10 +1,11 @@
 ---
-title: "PMean: Searching through a mess of files"
+title: "Searching through a mess of files"
 author: "Steve Simon"
 source: "http://blog.pmean.com/searching-files/"
 date: "2016-02-16"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 

@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/qualtrics/"
 date: "2016-01-19"
 category: Blog post
-tags: Survey design
+tags:
+- Survey design
 output: html_document
 ---
 

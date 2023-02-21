@@ -1,5 +1,5 @@
 ---
-title: "PMean: Validating a test of diabetes"
+title: "Validating a test of diabetes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/validating-diabetes/"
 date: "2015-05-11"
@@ -7,7 +7,7 @@ category:
 - Blog post
 tags:
 - Diagnostic testing
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

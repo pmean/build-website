@@ -1,10 +1,10 @@
 ---
-title: "PMean: Two grumpy editorials at NEJM"
+title: "Two grumpy editorials at NEJM"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grumpy-editorials/"
 date: "2016-01-22"
 category: Blog post
-tags: 
+tags:
 - Data sharing
 - Quality improvement
 output: html_document

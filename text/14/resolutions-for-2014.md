@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/resolutions-for-2014/"
 date: "2014-01-07"
 category: Administrative
-tags: 
+tags:
 output: html_document
 ---
 

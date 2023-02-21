@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/documentation-standards/"
 date: "2016-02-25"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 
@@ -54,7 +55,7 @@ It almost reads like an English sentence.
 
 Some programmers use all upper case for constants, but I dislike this approach. It especially bad to have upper case and lower case versions of the same name. R is case sensitive, but if you start relying on this, then you will get in trouble when you switch to coding in a program like SAS which is not case sensitive.
 
-Finally, avoid acronyms and abbreviations. A few acronyms like bmi for body mass index might be okay, but try to spell out anything that is not instantly recognizable. You should also avoid abbreviations. They can sometimes be misread. So, does "temp" refer to temperature or a temporary variable? There's also more than one way to abbreviate. Your temperature variable could easily by "temp" or "tmp" or even "t".  This can lead to the same sort of problems that you might have with "event.counter" and "event_counter".
+Finally, avoid acronyms and abbreviations. A few acronyms like bmi for body mass index might be okay, but try to spell out anything that is not instantly recognizable. You should also avoid abbreviations. They can sometimes be misread. So, does "temp" refer to temperature or a temporary variable? There's also more than one way to abbreviate. Your temperature variable could easily by "temp" or "tmp" or even "t".ï¿½ This can lead to the same sort of problems that you might have with "event.counter" and "event_counter".
 
 One last word. If you decide to adopt a naming convention, don't settle for 90% consistency or 95% consistency or even 99% consistency. The closer you get to 100% consistency, the more the exceptions will bother you. There's a quote from one of the earlier Star Wars movies where Yoda says "Do or do not. There is no try." A partial attempt at enforcing a naming convention is worse than not having a naming convention at all.
 

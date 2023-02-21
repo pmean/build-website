@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Incomplete page
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

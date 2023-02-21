@@ -1,10 +1,11 @@
 ---
-title: "PMean: Those darn commas in SQL"
+title: "Those darn commas in SQL"
 author: "Steve Simon"
 source: "http://blog.pmean.com/commas-in-sql/"
 date: "2016-10-25"
 category: Blog post
-tags: SQL
+tags:
+- SQL
 output: html_document
 ---
 

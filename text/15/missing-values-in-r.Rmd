@@ -1,5 +1,5 @@
 ---
-title: "PMean: Missing values in R talk"
+title: "Missing values in R talk"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-values-in-r/"
 date: "2015-02-07"

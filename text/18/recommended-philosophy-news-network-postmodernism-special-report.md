@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/"
 date: "2018-01-02"
 category: Recommendation
-tags: Critical appraisal
+tags:
+- Critical appraisal
 output: html_document
 ---
 

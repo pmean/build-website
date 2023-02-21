@@ -1,5 +1,5 @@
 ---
-title: "PMean: Analyzing ordinal salary categories"
+title: "Analyzing ordinal salary categories"
 author: "Steve Simon"
 source: "http://blog.pmean.com/analyzing-ordinal/"
 date: "2015-01-08"

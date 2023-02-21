@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/first-jags/"
 date: "2017-01-28"
 category: Blog post
-tags: 
+tags:
 - Bayesian statistics
 - Incomplete page
 output: html_document

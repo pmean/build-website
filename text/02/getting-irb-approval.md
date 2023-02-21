@@ -4,7 +4,7 @@ author: Steve Simon
 date: 2002-01-01
 categories:
 - Blog post
-tags: 
+tags:
 - Incomplete pages
 - Website details
 output: html_document

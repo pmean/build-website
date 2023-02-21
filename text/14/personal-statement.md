@@ -1,10 +1,11 @@
 ---
-title: "PMean: Adapt the personal statement on your biosketch to the specific grant"
+title: "Adapt the personal statement on your biosketch to the specific grant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/personal-statement/"
 date: "2014-06-28"
 category: Blog post
-tags: Grant writing
+tags:
+- Grant writing
 output: html_document
 ---
 

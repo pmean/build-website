@@ -1,5 +1,5 @@
 ---
-title: "PMean: Grading rubric for computer assignments"
+title: "Grading rubric for computer assignments"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grading-rubric/"
 date: "2018-07-20"

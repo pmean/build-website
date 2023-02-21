@@ -17,6 +17,9 @@ suppressMessages(suppressWarnings(library(stringr)))
 zpad <- function(x) {
   ifelse(nchar(x)==1, paste0("0", x), x)
 }
+
+update <- FALSE
+print("Check 1")
 ```
 
 ```{r}
@@ -97,15 +100,18 @@ yyyy_list <- c(1999:2023)
 n_problems <- 0
 n_files <- 0
 for (yyyy in yyyy_list) {
+  cat("\n")
+  cat(yyyy)
+  cat("\n\n")
   yy <- str_sub(yyyy, 3, 4)
-  output_file <- glue("text/{yy}/{yyyy}.md")
-  glue("text/{yy}") %>%
+  output_file <- glue("../text/{yy}/{yyyy}.md")
+  glue("../text/{yy}") %>%
     list.files %>%
     str_subset("md$") -> f
   problem_files <- NULL
   date_list <- NULL
   for (fn in f) {
-    file_text <- read_lines(glue("text/{yy}/{fn}"))
+    file_text <- read_lines(glue("../text/{yy}/{fn}"))
     problem_files %<>% append(check_source(file_text))
     date_list %<>% append(check_date(file_text))
   }
@@ -123,13 +129,11 @@ for (yyyy in yyyy_list) {
   }
 
   if (n_year > 0) {print(problem_files)}
+  print(problem_files)
+  
+  if (update==FALSE) {next}
 
-  print("Check 1")
-  unlink(output_file)
-  # file.remove(output_file)
-  print("Check 2")
   create_yaml(yyyy) %>% write_lines(output_file)
-  print("Check 3")
   write_lines(" ", output_file, append=TRUE)
   
   create_links(yyyy_list) %>% write_lines(output_file, append=TRUE)
@@ -142,7 +146,6 @@ for (yyyy in yyyy_list) {
   write_lines(" ", output_file, append=TRUE)
   
   problem_files %>% write_lines(output_file, append=TRUE)
-  # write_lines(" ", output_file, append=TRUE)
 
   glue("{yyyy}.md created, {length(f)} files, {n_year} problems detected") %>% print
 }

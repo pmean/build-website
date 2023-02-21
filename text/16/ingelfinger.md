@@ -1,10 +1,10 @@
 ---
-title: "PMean: Preprints and the Ingelfinger rule"
+title: "Preprints and the Ingelfinger rule"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ingelfinger/"
 date: "2016-01-06"
 category: Blog post
-tags: 
+tags:
 - Open source
 - Writing research papers
 output: html_document

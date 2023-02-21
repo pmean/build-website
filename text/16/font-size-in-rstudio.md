@@ -1,5 +1,5 @@
 ---
-title: "PMean: Changing the font size in RStudio"
+title: "Changing the font size in RStudio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/font-size-in-rstudio/"
 date: "2016-08-08"

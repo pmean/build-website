@@ -1,5 +1,5 @@
 ---
-title: "PMean: Two questions you should always ask at the end of a consulting session"
+title: "Two questions you should always ask at the end of a consulting session"
 author: "Steve Simon"
 source: "http://blog.pmean.com/two-questions/"
 date: "2013-11-29"

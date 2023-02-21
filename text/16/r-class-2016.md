@@ -1,10 +1,11 @@
 ---
-title: "PMean: Introduction to R, Monday, August 8 through Friday, August 12, 2016"
+title: "Introduction to R, Monday, August 8 through Friday, August 12, 2016"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-class-2016/"
 date: "2016-06-01"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 

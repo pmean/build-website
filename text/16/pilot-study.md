@@ -1,10 +1,10 @@
 ---
-title: "PMean: So you're thinking about a pilot study"
+title: "So you're thinking about a pilot study"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pilot-study/"
 date: "2016-06-14"
 category: Blog post
-tags: 
+tags:
 - Pilot studies
 - Research design
 output: html_document
@@ -74,7 +74,7 @@ Finally, a pilot study is quite useful for identifying the unexpected. Recall th
 
 This is the second in a series of blog entries: So you're thinking about research. The first entry is:
 
-[PMean: So you're thinking about a retrospective chart review][sim3].
+[So you're thinking about a retrospective chart review][sim3].
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

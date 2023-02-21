@@ -1,5 +1,5 @@
 ---
-title: "PMean: Peer grading in Introduction to R
+title: "Peer grading in Introduction to R
 - SPSS
 - SAS"
 author: "Steve Simon"

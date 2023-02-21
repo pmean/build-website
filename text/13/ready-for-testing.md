@@ -1,5 +1,5 @@
 ---
-title: "PMean: Blog is up and ready for testing"
+title: "Blog is up and ready for testing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ready-for-testing/"
 date: "2013-11-27"

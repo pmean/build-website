@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/zero-or-infinity/"
 date: "2016-03-30"
 category: Blog post
-tags: Measuring benefit and risk
+tags:
+- Measuring benefit and risk
 output: html_document
 ---
 

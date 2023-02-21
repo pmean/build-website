@@ -1,5 +1,5 @@
 ---
-title: "PMean: My teaching interests, one page limit"
+title: "My teaching interests, one page limit"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-teaching-interests-one-page/"
 date: "2018-04-02"

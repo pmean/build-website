@@ -6,7 +6,7 @@ date: "2015-09-24"
 categories:
 - Recommendation
 tags:
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

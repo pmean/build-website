@@ -1,5 +1,5 @@
 ---
-title: "PMean: Think positively
+title: "Think positively
 - what has research done for us"
 author: "Steve Simon"
 source: "http://blog.pmean.com/think-positively/"

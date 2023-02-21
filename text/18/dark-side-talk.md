@@ -1,5 +1,5 @@
 ---
-title: "PMean: The Dark Side of Data Science"
+title: "The Dark Side of Data Science"
 author: "Steve Simon"
 source: "http://blog.pmean.com/dark-side/"
 date: "2018-08-13"

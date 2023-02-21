@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/reader-pays/"
 date: "2016-02-04"
 category: Blog post
-tags: Writing research papers
+tags:
+- Writing research papers
 output: html_document
 ---
 

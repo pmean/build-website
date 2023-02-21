@@ -1,5 +1,5 @@
 ---
-title: "PMean: Claims lacking specificity are meaningless"
+title: "Claims lacking specificity are meaningless"
 author: "Steve Simon"
 source: "http://blog.pmean.com/claims-lacking-specificity/"
 date: "2013-12-10"

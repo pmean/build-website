@@ -1,5 +1,5 @@
 ---
-title: "PMean: Obnoxious use of red text in RStudio"
+title: "Obnoxious use of red text in RStudio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/red-text/"
 date: "2017-04-07"

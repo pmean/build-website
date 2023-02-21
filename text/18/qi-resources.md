@@ -1,5 +1,5 @@
 ---
-title: "PMean: Some interesting quality improvement resources"
+title: "Some interesting quality improvement resources"
 author: "Steve Simon"
 source: "http://blog.pmean.com/qi-resources/"
 date: "2018-05-13"

@@ -1,10 +1,11 @@
 ---
-title: "PMean: Misunderstanding autism"
+title: "Misunderstanding autism"
 author: "Steve Simon"
 source: "http://blog.pmean.com/misunderstanding-autism/"
 date: "2016-11-03"
 category: Blog post
-tags: Ethics in research
+tags:
+- Ethics in research
 output: html_document
 ---
 

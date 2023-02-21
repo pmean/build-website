@@ -1,10 +1,11 @@
 ---
-title: "PMean: The problem with incentivizing"
+title: "The problem with incentivizing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/incentivizing/"
 date: "2016-02-23"
 category: Blog post
-tags: Grant writing
+tags:
+- Grant writing
 output: html_document
 ---
 

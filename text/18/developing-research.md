@@ -1,5 +1,5 @@
 ---
-title: "PMean: Developing an interdisciplinary research program"
+title: "Developing an interdisciplinary research program"
 author: "Steve Simon"
 source: "http://blog.pmean.com/developing-research/"
 date: "2018-04-02"

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Citing one of my web pages"
+title: "Citing one of my web pages"
 author: "Steve Simon"
 source: "http://blog.pmean.com/citing-my-web-pages/"
 date: "2019-01-15"
@@ -20,11 +20,11 @@ Web pages are always a bit tricky, but you do know the author. I normally go by 
 
 So a web citation of this particular blog post would be
 
-Simon, Stephen D. "PMean: Citing one of my web pages." *PMean: A blog about statistics, evidence-based medicine, and research ethics*.15 Jan. 2019, blog.pmean.com/citing-my-web-ages/.
+Simon, Stephen D. "Citing one of my web pages." *A blog about statistics, evidence-based medicine, and research ethics*.15 Jan. 2019, blog.pmean.com/citing-my-web-ages/.
 
 in MLA format (A Listserv, Discussion Group, or Blog Posting), and
 
-Simon, S. D. (2019, January 15). PMean: Citing one of my web pages [Blog post]. Retrieved from https://blog.pmean.com/citing-my-web-ages/
+Simon, S. D. (2019, January 15). Citing one of my web pages [Blog post]. Retrieved from https://blog.pmean.com/citing-my-web-ages/
 
 in APA format (Blog (Weblog) Post).
 

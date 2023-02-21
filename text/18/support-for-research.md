@@ -1,5 +1,5 @@
 ---
-title: "PMean: Draft policy on statistical support for research"
+title: "Draft policy on statistical support for research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/support-for-research/"
 date: "2018-05-10"

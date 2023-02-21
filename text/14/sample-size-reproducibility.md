@@ -1,13 +1,13 @@
 ---
-title: "PMean: Sample size for a study of reproducibility"
+title: "Sample size for a study of reproducibility"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sample-size-reproducibility/"
 date: "2014-06-16"
 category: 
 - Blog post
-tags: 
+tags:
 - Measuring agreement
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

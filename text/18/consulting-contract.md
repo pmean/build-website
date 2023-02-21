@@ -1,5 +1,5 @@
 ---
-title: "PMean: What goes into a contract for a consultation"
+title: "What goes into a contract for a consultation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/consulting-contract/"
 date: "2018-06-24"

@@ -1,10 +1,11 @@
 ---
-title: "PMean: My research interests"
+title: "My research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/faculty-profile/"
 date: "2016-01-22"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 

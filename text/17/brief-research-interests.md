@@ -1,10 +1,11 @@
 ---
-title: "PMean: My research interests in 450 characters or less."
+title: "My research interests in 450 characters or less."
 author: "Steve Simon"
 source: "http://blog.pmean.com/brief-research-interests/"
 date: "2017-12-28"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 

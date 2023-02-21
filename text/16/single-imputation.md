@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/single-imputation/"
 date: "2016-04-17"
 category: Blog post
-tags: Missing data
+tags:
+- Missing data
 output: html_document
 ---
 

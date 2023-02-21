@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/analysis-biological-data/"
 date: "2016-08-03"
 category: Blog post
-tags: Teaching resources
+tags:
+- Teaching resources
 output: html_document
 ---
 

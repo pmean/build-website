@@ -1,10 +1,11 @@
 ---
-title: "PMean: No power calculation for a Phase II trial"
+title: "No power calculation for a Phase II trial"
 author: "Steve Simon"
 source: "http://blog.pmean.com/phase-ii/"
 date: "2014-01-22"
 category: Blog post
-tags: Sample size
+tags:
+- Sample size justification
 output: html_document
 ---
 
@@ -71,7 +72,7 @@ Since there is often not a research hypothesis, you may not be able to
 make a power calculation. Even if there is a research hypothesis, it may
 be a mistake to conduct a power calculation. The sample size might be
 fine for your research hypothesis, but it could still be woefully
-inadequate for finding an optimal dose, which you might feel is  far
+inadequate for finding an optimal dose, which you might feel isï¿½ far
 more important for your Phase II trial.
 
 Now you and I will often rely on power calculations to justify our

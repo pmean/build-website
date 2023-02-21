@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/irb-questions/"
 date: "2014-04-30"
 category: Blog post
-tags: Sample size
+tags:
+- Sample size justification
 output: html_document
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "PMean: Drawing the perfect circle"
+title: "Drawing the perfect circle"
 author: "Steve Simon"
 source: "http://blog.pmean.com/circle/"
 date: "2016-10-31"
 category: Blog post
-tags: 
+tags:
 - Cheat sheet
 - R software
 output: html_document

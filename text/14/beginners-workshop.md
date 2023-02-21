@@ -1,5 +1,5 @@
 ---
-title: "PMean: Resources for a workshop in R"
+title: "Resources for a workshop in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/beginners-workshop/"
 date: "2014-01-15"

@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/optimistic-graphs/"
 date: "2014-01-28"
 category: Recommendation
-tags: Graphical display
+tags:
+- Graphical display
 output: html_document
 ---
 

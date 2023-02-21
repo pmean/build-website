@@ -1,5 +1,5 @@
 ---
-title: "PMean: Changes to the Introduction to R
+title: "Changes to the Introduction to R
 - SAS
 - and SPSS classes"
 author: "Steve Simon"

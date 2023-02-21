@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/baby-walk/"
 date: "2017-03-25"
 category: Blog post
-tags: Probability concepts
+tags:
+- Probability concepts
 output: html_document
 ---
 

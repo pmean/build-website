@@ -1,10 +1,11 @@
 ---
-title: "PMean: The perils of shortening a survey"
+title: "The perils of shortening a survey"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shortening-survey/"
 date: "2016-03-22"
 category: Blog post
-tags: Survey design
+tags:
+- Survey design
 output: html_document
 ---
 
@@ -16,7 +17,7 @@ Let's be honest here. Your choice of which three questions to use was arbitrary.
 
 So just say in the methods section that you needed to shorten the survey and the choices as to what items to remove was made based on the subjective opinion of a subject matter expert (yourself).
 
-Then when the excessively picky reviewer (in my opinion) rejects your paper, send it to a different journal.  In general, it's a bad idea to change scales because a reviewer is likely to raise concerns. But I think that the practicalities of research sometimes require you to shorten a survey, because a shorter survey with uncertain psychometric properties might still be preferred to a longer survey that half of your volunteers refuse to complete.
+Then when the excessively picky reviewer (in my opinion) rejects your paper, send it to a different journal.ï¿½ In general, it's a bad idea to change scales because a reviewer is likely to raise concerns. But I think that the practicalities of research sometimes require you to shorten a survey, because a shorter survey with uncertain psychometric properties might still be preferred to a longer survey that half of your volunteers refuse to complete.
 
 Research is often a series of difficult compromises between theoretical ideals and practical realities. Shortening your scale is limitation that you do need to acknowledge, but having a limitation like this should not disqualify you from publishing your results. If we only published research with no limitations, the research journals would be a lot thinner.
 

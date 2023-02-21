@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Grant writing
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

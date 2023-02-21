@@ -1,5 +1,5 @@
 ---
-title: "PMean: My research interests"
+title: "My research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-research/"
 date: "2018-04-02"

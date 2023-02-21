@@ -1,5 +1,5 @@
 ---
-title: "PMean: Finding interesting peer-reviewed articles that illustrate statistical tests"
+title: "Finding interesting peer-reviewed articles that illustrate statistical tests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/finding-interesting-articles/"
 date: "2015-09-16"

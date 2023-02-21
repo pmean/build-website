@@ -1,5 +1,5 @@
 ---
-title: "PMean: Learning more about SAS"
+title: "Learning more about SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/learning-sas/"
 date: "2018-05-01"

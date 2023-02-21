@@ -1,5 +1,5 @@
 ---
-title: "PMean: Using BUGS within the R programming environment"
+title: "Using BUGS within the R programming environment"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-bugs/"
 date: "2014-05-03"

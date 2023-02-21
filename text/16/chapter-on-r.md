@@ -1,5 +1,5 @@
 ---
-title: "PMean: My book chapter on R"
+title: "My book chapter on R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/chapter-on-r/"
 date: "2016-01-13"

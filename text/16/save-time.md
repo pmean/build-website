@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/save-time/"
 date: "2016-05-18"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 
@@ -14,7 +15,7 @@ Sometimes you end up trying to be so clever that you out-clever yourself. This h
 
 I use knitr R markdown a lot within R Studio, and it has a lot of advantages. One disadvantage, though is that it tends to encourage you to run the whole program every time even though you've only made a change in one spot. I know that there are workarounds for this, and I often take advantage of them, But the path of least resistance is to just run everything. This is different, as I understand it, for Jupyter, but I have not tried Jupyter yet to know for sure.
 
-One nice option (so I thought)  was CACHE. If you set CACHE equal to TRUE, it only runs a chunk if it has changed since the last run or if it is preceded by a chunk that has changed. That can save you big time for some programs, but you have to be careful.
+One nice option (so I thought)ï¿½ was CACHE. If you set CACHE equal to TRUE, it only runs a chunk if it has changed since the last run or if it is preceded by a chunk that has changed. That can save you big time for some programs, but you have to be careful.
 
 One of the chunks in one of my programs (extract_case_control.Rmd) used the source function to run some R code (create_utility_functions.R) that creates (you guessed it) some utility functions. I got an error message that was clearly indicating a problem with create_utiliity_functions.R rather than the main program. I had misspelled the exists function as exisists.
 

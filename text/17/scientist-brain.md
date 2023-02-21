@@ -1,10 +1,11 @@
 ---
-title: "PMean: Looking inside the brains of scientists"
+title: "Looking inside the brains of scientists"
 author: "Steve Simon"
 source: "http://blog.pmean.com/scientist-brain/"
 date: "2017-01-28"
 category: Blog post
-tags: Hypothesis testing
+tags:
+- Hypothesis testing
 output: html_document
 ---
 

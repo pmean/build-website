@@ -1,5 +1,5 @@
 ---
-title: "PMean: Informed consent in a study without human subjects"
+title: "Informed consent in a study without human subjects"
 author: "Steve Simon"
 source: "http://blog.pmean.com/informed-consent/"
 date: "2015-06-01"

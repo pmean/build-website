@@ -1,5 +1,5 @@
 ---
-title: "PMean: My teaching approach"
+title: "My teaching approach"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-teaching-approach/"
 date: "2018-04-02"

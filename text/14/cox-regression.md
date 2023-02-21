@@ -1,5 +1,5 @@
 ---
-title: "PMean: Cox regression in R"
+title: "Cox regression in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cox-regression/"
 date: "2014-11-01"

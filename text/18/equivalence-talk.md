@@ -1,5 +1,5 @@
 ---
-title: "PMean: Tests of equivalence and non-inferiority"
+title: "Tests of equivalence and non-inferiority"
 author: "Steve Simon"
 source: "http://blog.pmean.com/equivalence-talk/"
 date: "2018-03-23"

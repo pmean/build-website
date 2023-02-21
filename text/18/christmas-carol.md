@@ -1,10 +1,11 @@
 ---
-title: "PMean: Sentiment analysis of A Christmas Carol"
+title: "Sentiment analysis of A Christmas Carol"
 author: "Steve Simon"
 source: "http://blog.pmean.com/christmas-carol/"
 date: "2018-02-13"
 category: Blog post
-tags: Text mining
+tags:
+- Text mining
 output: html_document
 ---
 

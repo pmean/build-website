@@ -1,10 +1,11 @@
 ---
-title: "PMean: January talk at KU"
+title: "January talk at KU"
 author: "Steve Simon"
 source: "http://blog.pmean.com/talk-at-ku/"
 date: "2017-11-28"
 category: Blog post
-tags: Professional details
+tags:
+- Professional details
 output: html_document
 ---
 
@@ -14,7 +15,7 @@ Networking is important, and until recently I have failed to build bridges with 
 
 Title: Setting up your independent consulting practice.
 
-Abstract: If you wish to become an independent statistical consultant, you will find that the work is challenging, but also rewarding. In this talk, I will contrast working as an independent consultant to working within a large organization. I will then review the issues that you face with an independent consulting practice: business models, billing, contracts, taxes, and most importantly, how to find clients.
+Abstract: If you wish to become an independent statistical consultant, you will find that the work is challenging, but also rewarding. In this talk, I will contrast working as an independent consultant to working within a large organization. I will then review the issues that you face withï¿½an independent consulting practice: business models, billing, contracts, taxes, and most importantly, how to find clients.
 
 In December, I'll be talking to the Kansas City R Users Group about Stan, a program to run Bayesian data analyses. I'll also talk about Stan at the February meeting of the KUMC Biostatistics Journal Club.
 

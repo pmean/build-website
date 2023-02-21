@@ -1,5 +1,5 @@
 ---
-title: "PMean: Extremely imbalanced multi-center trials"
+title: "Extremely imbalanced multi-center trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/imbalanced-multi-center-trials/"
 date: "2017-05-05"

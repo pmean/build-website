@@ -1,10 +1,10 @@
 ---
-title: "PMean: Understanding the lasso regression model"
+title: "Understanding the lasso regression model"
 author: "Steve Simon"
 source: "http://blog.pmean.com/lasso/"
 date: "2016-05-25"
 category: Blog post
-tags: 
+tags:
 - Linear regression
 - R software
 output: html_document

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Starting a heron-i2b2-analytics repository"
+title: "Starting a heron-i2b2-analytics repository"
 author: "Steve Simon"
 source: "http://blog.pmean.com/heron-i2b2-analytics/"
 date: "2018-03-29"

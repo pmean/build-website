@@ -1,10 +1,11 @@
 ---
-title: "PMean: How many months should you wait before re-testing?"
+title: "How many months should you wait before re-testing?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/how-many-months/"
 date: "2014-02-21"
 category: Blog post
-tags: Research design
+tags:
+- Research design
 output: html_document
 ---
 

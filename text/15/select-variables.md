@@ -1,5 +1,5 @@
 ---
-title: "PMean: How do you select variables for a risk adjusted model?"
+title: "How do you select variables for a risk adjusted model?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/select-variables/"
 date: "2015-07-16"

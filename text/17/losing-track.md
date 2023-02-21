@@ -1,10 +1,11 @@
 ---
-title: "PMean: Losing track of your transformed variables in R"
+title: "Losing track of your transformed variables in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/losing-track/"
 date: "2017-11-22"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 

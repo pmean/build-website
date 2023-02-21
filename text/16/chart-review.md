@@ -1,10 +1,11 @@
 ---
-title: "PMean: So you're thinking about a retrospective chart review"
+title: "So you're thinking about a retrospective chart review"
 author: "Steve Simon"
 source: "http://blog.pmean.com/chart-review/"
 date: "2016-05-02"
 category: Blog post
-tags: Research design
+tags:
+- Research design
 output: html_document
 ---
 
@@ -24,7 +25,7 @@ There are several important restrictions. Although you can (and should) do this 
 
 Also varying from institution to institution is how much you can do under the umbrella of reviews preparatory to research. The rules are pretty explicit that you can't take any Protected Health Information (PHI) with you, but if you are employed by the "covered entity" that has these medical records, you might have a fair amount of latitude.
 
-Some institutions have developed anonymized data repositories that you can also use  for preparatory to research activities and sometimes even for the research itself. Typically, you need to get some sort of authorization first. They want you to promise not to do  bad things with the data. If you have such a repository, please take the time to work with it before you write your protocol.
+Some institutions have developed anonymized data repositories that you can also useï¿½ for preparatory to research activities and sometimes even for the research itself. Typically, you need to get some sort of authorization first. They want you to promise not to doï¿½ bad things with the data. If you have such a repository, please take the time to work with it before you write your protocol.
 
 Take some time now to define and refine your **research hypothesis**. I need to be careful here, because not all research requires a research hypothesis, and this occurs more often with retrospective chart reviews than with other types of research. One reason you may not have a research hypothesis is that your goal is not to try to prove or disprove a particular hypothesis, but rather to characterize your patients in some way.
 
@@ -46,7 +47,7 @@ There are two types of outcomes: those that are of direct interest to your patie
 
 Finally, think about your C, your comparison group.Sometimes the I defined the C. If you are studying a surgical intervention for a particular medical condition, your comparison group is often those patients with the medical condition who get a pharmaceutical intervention instead of getting cut open. Sometimes you split the P in half, so that some of the patient population becomes the comparison group. So you are interested in pregnant women, and your desire is to compare pre-term births among these women with full-term births.
 
-Also keep in mind that not every research study has a comparison group, and sometimes the comparison is internal (e.g., comparison of medication usage before and after a particular intervention). If you have an explicit comparison group, though, make sure that the comparison group is different than your patient population, but different in only one dimension. If your patient population is kids with asthma who visit the emergency room during a weekday between 9am and 5pm, then your comparison group might be ADULTS with asthma  who visit the emergency room on a weekday between 9am and 5pm, or it might be kids with BRONCHITIS who visit the emergency room on a weekday between 9am and 5pm, or it might be kids with asthma who have an OUTPATIENT visit on a weekday between 9am and 5pm, or it might be kids with asthma who visit the emergency room on an EVENING/WEEKEND.
+Also keep in mind that not every research study has a comparison group, and sometimes the comparison is internal (e.g., comparison of medication usage before and after a particular intervention). If you have an explicit comparison group, though, make sure that the comparison group is different than your patient population, but different in only one dimension. If your patient population is kids with asthma who visit the emergency room during a weekday between 9am and 5pm, then your comparison group might be ADULTS with asthmaï¿½ who visit the emergency room on a weekday between 9am and 5pm, or it might be kids with BRONCHITIS who visit the emergency room on a weekday between 9am and 5pm, or it might be kids with asthma who have an OUTPATIENT visit on a weekday between 9am and 5pm, or it might be kids with asthma who visit the emergency room on an EVENING/WEEKEND.
 
 Once you've specified your P, I, C, and O, take a look at them for any ambiguities. Do your terms have objective definitions that are easily identified. You want research that is reproducible. You asking for a lot of trouble if your definitions for P, I, C, or O are subjective or if they are difficult to identify in the patient's chart.
 

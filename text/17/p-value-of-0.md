@@ -1,10 +1,10 @@
 ---
-title: "PMean: A p-value of .000"
+title: "A p-value of .000"
 author: "Steve Simon"
 source: "http://blog.pmean.com/p-value-of-0/"
 date: "2017-05-08"
 category: Blog post
-tags: 
+tags:
 - Ask Professor Mean
 - Hypothesis testing
 output: html_document

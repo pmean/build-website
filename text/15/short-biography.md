@@ -1,5 +1,5 @@
 ---
-title: "PMean: A short biography for the person introducing me"
+title: "A short biography for the person introducing me"
 author: "Steve Simon"
 source: "http://blog.pmean.com/short-biography/"
 date: "2015-06-01"

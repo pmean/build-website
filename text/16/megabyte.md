@@ -1,10 +1,10 @@
 ---
-title: "PMean: A megabyte is not a million bytes"
+title: "A megabyte is not a million bytes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/megabyte/"
 date: "2016-05-12"
 category: Blog post
-tags: 
+tags:
 - R software
 - Statistical computing
 output: html_document

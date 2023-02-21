@@ -3,9 +3,9 @@ title: "Testing d3"
 author: "Steve Simon"
 date: "2022-06-01"
 source: new
-categories: 
+categories:
 - Blog post
-tags: 
+tags:
 - Graphical display
 output: html_document
 ---

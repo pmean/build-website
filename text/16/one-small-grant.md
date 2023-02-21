@@ -1,10 +1,10 @@
 ---
-title: "PMean: One small grant for me, one giant leap for Biostatisticians"
+title: "One small grant for me, one giant leap for Biostatisticians"
 author: "Steve Simon"
 source: "http://blog.pmean.com/one-small-grant/"
 date: "2016-10-03"
 category: Blog post
-tags: 
+tags:
 - Professional details
 - Teaching resources
 output: html_document

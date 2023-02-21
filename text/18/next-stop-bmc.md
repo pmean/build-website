@@ -1,5 +1,5 @@
 ---
-title: "PMean: Next stop
+title: "Next stop
 - BMC Medical Informatics and Decision Making"
 author: "Steve Simon"
 source: "http://blog.pmean.com/next-stop-bmc/"

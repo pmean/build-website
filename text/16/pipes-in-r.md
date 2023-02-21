@@ -1,10 +1,11 @@
 ---
-title: "PMean: A simple example of pipes in R"
+title: "A simple example of pipes in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pipes-in-r/"
 date: "2016-11-08"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 

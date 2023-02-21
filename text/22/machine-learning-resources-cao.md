@@ -6,7 +6,8 @@ output:
   word_document: default
   html_document: default
 category: Blog post
-tags: Data science
+tags:
+- Data science
 source: new
 ---
 

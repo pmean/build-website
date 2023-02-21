@@ -5,7 +5,8 @@ date: "2022-11-03"
 output:
   html_document: default
 category: Blog post
-tags: Data management
+tags:
+- Data management
 source: new
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Writing the introduction section of a research thesis or dissertation"
+title: "Writing the introduction section of a research thesis or dissertation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/introduction-section/"
 date: "2019-03-29"

@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/quote-excel/"
 date: "2014-04-03"
 category: Quote
-tags: Graphical display
+tags:
+- Graphical display
 output: html_document
 ---
 

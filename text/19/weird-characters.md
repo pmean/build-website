@@ -1,5 +1,5 @@
 ---
-title: "PMean: Finding those weird characters"
+title: "Finding those weird characters"
 author: "Steve Simon"
 source: "http://blog.pmean.com/weird-characters/"
 date: "2019-02-11"

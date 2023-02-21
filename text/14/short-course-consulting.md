@@ -1,10 +1,11 @@
 ---
-title: "PMean: Proposed outline for How to Start and Run an Independent Statistical Consulting Business"
+title: "Proposed outline for How to Start and Run an Independent Statistical Consulting Business"
 author: "Steve Simon"
 source: "http://blog.pmean.com/short-course-consulting/"
 date: "2014-05-01"
 category: Blog post
-tags: Human side of statistics
+tags:
+- Human side of statistics
 output: html_document
 ---
 

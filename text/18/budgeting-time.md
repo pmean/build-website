@@ -1,5 +1,5 @@
 ---
-title: "PMean: What are we doing to justify all that time we're budgeting?"
+title: "What are we doing to justify all that time we're budgeting?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/budgeting-time/"
 date: "2018-05-17"

@@ -1,10 +1,11 @@
 ---
-title: "PMean: Mixed up variable names in SAS"
+title: "Mixed up variable names in SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/mixed-up-names/"
 date: "2018-02-26"
 category: Blog post
-tags: SAS software
+tags:
+- SAS software
 output: html_document
 ---
 

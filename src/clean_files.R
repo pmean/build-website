@@ -74,7 +74,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  fixed('http://www.stata-press.com/data/lf2/couart2.dta'),
-  'http://www.pmean.com/00files/couart2.dta',
+  'tags: ',
+  'tags:\n- ',
   dir_root="text", 
   file_pattern="md$")

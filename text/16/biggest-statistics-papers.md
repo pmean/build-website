@@ -1,10 +1,11 @@
 ---
-title: "PMean: The biggest statistics papers of all time"
+title: "The biggest statistics papers of all time"
 author: "Steve Simon"
 source: "http://blog.pmean.com/biggest-statistics-papers/"
 date: "2016-03-26"
 category: Blog post
-tags: Writing research papers
+tags:
+- Writing research papers
 output: html_document
 ---
 

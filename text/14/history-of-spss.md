@@ -1,10 +1,11 @@
 ---
-title: "PMean: History of SPSS"
+title: "History of SPSS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-of-spss/"
 date: "2014-05-31"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 

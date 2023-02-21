@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/too-many-priors/"
 date: "2016-05-31"
 category: Blog post
-tags: Bayesian statistics
+tags:
+- Bayesian statistics
 output: html_document
 ---
 

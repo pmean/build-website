@@ -1,10 +1,10 @@
 ---
-title: "PMean: History of SAS"
+title: "History of SAS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-of-sas/"
 date: "2014-05-30"
 category: Blog post
-tags: 
+tags:
 - SAS software
 - Statistical computing
 output: html_document

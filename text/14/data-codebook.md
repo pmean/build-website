@@ -1,5 +1,5 @@
 ---
-title: "PMean: What should go into a data codebook"
+title: "What should go into a data codebook"
 author: "Steve Simon"
 source: "http://blog.pmean.com/data-codebook/"
 date: "2014-05-31"

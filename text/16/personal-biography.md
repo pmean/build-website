@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/personal-biography/"
 date: "2016-12-26"
 category: Administrative
-tags: Personal details
+tags:
+- Personal details
 output: html_document
 ---
 

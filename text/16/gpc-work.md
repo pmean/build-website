@@ -1,10 +1,11 @@
 ---
-title: "PMean: My current work at the Greater Plains Collaborative"
+title: "My current work at the Greater Plains Collaborative"
 author: "Steve Simon"
 source: "http://blog.pmean.com/gpc-work/"
 date: "2016-03-09"
 category: Blog post
-tags: Human side of statistics
+tags:
+- Human side of statistics
 output: html_document
 ---
 

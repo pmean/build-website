@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Linear regression
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

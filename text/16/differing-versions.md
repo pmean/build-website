@@ -1,10 +1,11 @@
 ---
-title: "PMean: When differing versions of R packages matter"
+title: "When differing versions of R packages matter"
 author: "Steve Simon"
 source: "http://blog.pmean.com/differing-versions/"
 date: "2016-12-19"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 

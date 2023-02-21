@@ -1,10 +1,11 @@
 ---
-title: "PMean: Conferences for learning R"
+title: "Conferences for learning R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/conferences-for-learning-r/"
 date: "2017-08-13"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 

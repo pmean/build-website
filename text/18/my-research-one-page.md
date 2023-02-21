@@ -1,5 +1,5 @@
 ---
-title: "PMean: My research interests, one page limit"
+title: "My research interests, one page limit"
 author: "Steve Simon"
 source: "http://blog.pmean.com/my-research-one-page/"
 date: "2018-04-02"

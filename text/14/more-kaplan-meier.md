@@ -1,5 +1,5 @@
 ---
-title: "PMean: More Kaplan-Meier curves in R"
+title: "More Kaplan-Meier curves in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/more-kaplan-meier/"
 date: "2014-11-01"

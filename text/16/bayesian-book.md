@@ -1,10 +1,10 @@
 ---
-title: "PMean: Can you recommend an introductory book on Bayesian Statistics"
+title: "Can you recommend an introductory book on Bayesian Statistics"
 author: "Steve Simon"
 source: "http://blog.pmean.com/bayesian-book/"
 date: "2016-06-13"
 category: Blog post
-tags: 
+tags:
 - Bayesian statistics
 - Teaching resources
 output: html_document

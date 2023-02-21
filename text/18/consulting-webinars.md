@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/consulting-webinars/"
 date: "2018-01-29"
 category: Blog post
-tags: 
+tags:
 - Human side of statistics
 - Professional details
 output: html_document

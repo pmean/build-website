@@ -1,10 +1,10 @@
 ---
-title: "PMean: I need a clinical research coordinator"
+title: "I need a clinical research coordinator"
 author: "Steve Simon"
 source: "http://blog.pmean.com/crc/"
 date: "2014-11-18"
 category: Blog post
-tags: 
+tags:
 output: html_document
 ---
 

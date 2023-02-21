@@ -1,5 +1,5 @@
 ---
-title: "PMean: Getting R to shut the heck up"
+title: "Getting R to shut the heck up"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shut-the-heck-up/"
 date: "2018-11-11"

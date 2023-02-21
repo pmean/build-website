@@ -1,10 +1,11 @@
 ---
-title: "PMean: Syllabus for Introduction to SPSS, Fall semester 2017"
+title: "Syllabus for Introduction to SPSS, Fall semester 2017"
 author: "Steve Simon"
 source: "http://blog.pmean.com/spss-syllabus/"
 date: "2017-08-30"
 category: Blog post
-tags: SPSS software
+tags:
+- SPSS software
 output: html_document
 ---
 

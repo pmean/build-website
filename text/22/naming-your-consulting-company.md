@@ -5,7 +5,8 @@ date: "2022-12-12"
 output:
   html_document: default
 category: Blog post
-tags: Human side of statistics
+tags:
+- Human side of statistics
 source: new
 ---
 

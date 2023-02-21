@@ -1,5 +1,5 @@
 ---
-title: "PMean: Nonparametric tests for multifactor designs"
+title: "Nonparametric tests for multifactor designs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nonparametric-multifactor/"
 date: "2015-03-30"

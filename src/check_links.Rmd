@@ -18,8 +18,8 @@ suppressMessages(suppressWarnings(library(tidyverse)))
 ### Read html files
 
 ```{r read_old}
-html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
 html_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website/"
+html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
 html_pattern <- "html$"
 md_path <- "../text/"
 md_pattern <- "md$"

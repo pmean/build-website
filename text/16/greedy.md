@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/greedy/"
 date: "2016-10-16"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 
@@ -62,7 +63,7 @@ but there's a potential problem. In regular expressions like this, there may be 
     "[274.0] Carcinoma in situ [47,232 facts]"
 ```
 
-The regular expression could match the  "[274.0]" or the "[47,232 facts]" but it could also match the entire string. The string starts with a left square bracket, has one or more characters, and ends with a right square bracket.
+The regular expression could match theï¿½ "[274.0]" or the "[47,232 facts]" but it could also match the entire string. The string starts with a left square bracket, has one or more characters, and ends with a right square bracket.
 
 The default match in regular expressions is a greedy match. You try to match as big a piece of the string as possible. So the sub command would not change the above string to something just a little bit shorter. It would change it to an empty string! For this particular problem, that's not what we want.
 
@@ -74,7 +75,7 @@ There's a simple change you can make, though. If you follow the dot with a quest
 
 and it would change "[274.0]Carcinoma in situ [47,232 facts]" to "Carcinoma in situ ". Note that you now have a trailing blank, but a second gsub command
 
-    gsub(" $", "",  string_vector)
+    gsub(" $", "",ï¿½ string_vector)
 
 will remove that trailing blank.
 

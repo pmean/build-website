@@ -5,7 +5,8 @@ date: '2022-12-15'
 output:
   html_document: default
 category: Blog post
-tags: Graphical display
+tags:
+- Graphical display
 source: new
 ---
 

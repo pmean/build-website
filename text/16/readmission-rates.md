@@ -4,7 +4,7 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/readmission-rates/"
 date: "2016-04-27"
 category: Blog post
-tags: 
+tags:
 - Longitudinal data
 - Secondary data analysis
 output: html_document

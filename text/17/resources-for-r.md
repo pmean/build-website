@@ -1,5 +1,5 @@
 ---
-title: "PMean: Resources for R"
+title: "Resources for R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/resources-for-r/"
 date: "2017-11-22"

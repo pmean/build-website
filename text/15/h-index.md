@@ -1,5 +1,5 @@
 ---
-title: "PMean: My H-index"
+title: "My H-index"
 author: "Steve Simon"
 source: "http://blog.pmean.com/h-index/"
 date: "2015-08-20"

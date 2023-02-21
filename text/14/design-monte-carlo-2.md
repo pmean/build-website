@@ -1,5 +1,5 @@
 ---
-title: "PMean: Using statistical design principles to plan a Monte Carlo analysis -- part 2"
+title: "Using statistical design principles to plan a Monte Carlo analysis -- part 2"
 author: "Steve Simon"
 source: "http://blog.pmean.com/design-monte-carlo-2/"
 date: "2014-04-14"

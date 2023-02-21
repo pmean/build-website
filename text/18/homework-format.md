@@ -1,5 +1,5 @@
 ---
-title: "PMean: Recommended format for homework assignments"
+title: "Recommended format for homework assignments"
 author: "Steve Simon"
 source: "http://blog.pmean.com/homework-format/"
 date: "2018-03-28"

@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Pilot studies
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

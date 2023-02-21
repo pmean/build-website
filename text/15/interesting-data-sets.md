@@ -1,10 +1,11 @@
 ---
-title: "PMean: Some interesting publicly available data sets"
+title: "Some interesting publicly available data sets"
 author: "Steve Simon"
 source: "http://blog.pmean.com/interesting-data-sets/"
 date: "2015-07-15"
 category: Blog post
-tags: Datasets
+tags:
+- Datasets
 output: html_document
 ---
 

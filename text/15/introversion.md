@@ -1,5 +1,5 @@
 ---
-title: "PMean: What problems does introversion cause for a statistical consultant?"
+title: "What problems does introversion cause for a statistical consultant?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/introversion/"
 date: "2015-09-08"

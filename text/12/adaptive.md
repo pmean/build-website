@@ -1,6 +1,7 @@
 ---
 title: Why use a Bayesian adaptive trial?
 author: Steve Simon
+source: http://www.pmean.com/12/adaptive.html
 date: 2012-03-07
 categories:
 - Blog post

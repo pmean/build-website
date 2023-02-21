@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/structure-i2b2/"
 date: "2016-03-03"
 category: Blog post
-tags: Statistical computing
+tags:
+- Statistical computing
 output: html_document
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "PMean: What is the probability of a probability of one"
+title: "What is the probability of a probability of one"
 author: "Steve Simon"
 source: "http://blog.pmean.com/probability-of-a-probability-of-one/"
 date: "2014-07-24"

@@ -1,10 +1,11 @@
 ---
-title: "PMean: What I like about R"
+title: "What I like about R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/what-i-like/"
 date: "2014-01-10"
 category: Blog post
-tags: R software
+tags:
+- R software
 output: html_document
 ---
 
@@ -22,7 +23,7 @@ your data set.
 Second, you have a lot of control over graphics output in R. You can
 control the size of the graph and the size of the margins of the graph,
 the values that you place on the axes and where you place the axes
-themselves, the size and colors of  symbols on your graph, and many many
+themselves, the size and colors ofï¿½ symbols on your graph, and many many
 more details.
 
 Third, you get access to some of the most current statistical methods

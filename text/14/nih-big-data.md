@@ -1,5 +1,5 @@
 ---
-title: "PMean: NIH is interested in big data"
+title: "NIH is interested in big data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/nih-big-data/"
 date: "2014-02-24"

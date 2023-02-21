@@ -1,5 +1,5 @@
 ---
-title: "PMean: Simple longitudinal data sets to illustrate data management"
+title: "Simple longitudinal data sets to illustrate data management"
 author: "Steve Simon"
 source: "http://blog.pmean.com/simple-longitudinal-data-sets/"
 date: "2014-07-07"

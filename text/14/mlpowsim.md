@@ -7,7 +7,7 @@ categories:
 - Recommendation
 tags:
 - Longitudinal data
-- Sample size
+- Sample size justification
 output: html_document
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "PMean: Examining relationships in R"
+title: "Examining relationships in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/relationships-in-r/"
 date: "2015-04-03"

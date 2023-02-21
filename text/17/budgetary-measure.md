@@ -1,5 +1,5 @@
 ---
-title: "PMean: Open source as a budgetary measure"
+title: "Open source as a budgetary measure"
 author: "Steve Simon"
 source: "http://blog.pmean.com/budgetary-measure/"
 date: "2017-08-30"

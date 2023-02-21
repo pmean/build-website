@@ -1,10 +1,11 @@
 ---
-title: "PMean: Calculating statistics that have limitations"
+title: "Calculating statistics that have limitations"
 author: "Steve Simon"
 source: "http://blog.pmean.com/limitations/"
 date: "2014-01-27"
 category: Blog post
-tags: Hypothesis testing
+tags:
+- Hypothesis testing
 output: html_document
 ---
 

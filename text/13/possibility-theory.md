@@ -1,5 +1,5 @@
 ---
-title: "PMean: Is Possibility Theory better than Probability Theory?"
+title: "Is Possibility Theory better than Probability Theory?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/possibility-theory/"
 date: "2013-12-09"

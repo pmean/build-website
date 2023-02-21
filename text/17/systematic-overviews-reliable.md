@@ -1,10 +1,11 @@
 ---
-title: "PMean: Are systematic overviews reliable?"
+title: "Are systematic overviews reliable?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/systematic-overviews-reliable/"
 date: "2017-02-25"
 category: Blog post
-tags: Systematic overviews
+tags:
+- Systematic overviews
 output: html_document
 ---
 
