@@ -110,7 +110,12 @@ for (yyyy in yyyy_list) {
 
   if (n_year > 0) {print(problem_files)}
 
+  print("Check 1")
+  unlink(output_file)
+  file.remove(output_file)
+  print("Check 2")
   create_yaml(yyyy) %>% write_lines(output_file)
+  print("Check 3")
   write_lines(" ", output_file, append=TRUE)
   
   create_links(yyyy_list) %>% write_lines(output_file, append=TRUE)
