@@ -1,7 +1,8 @@
 ---
-title: What to say when any data
+title: "What to say when any data analysis is pointless"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/PointlessAnalysis.html
+date: 2010-03-25
 categories:
 - Blog post
 tags:

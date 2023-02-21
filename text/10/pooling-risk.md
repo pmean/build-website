@@ -1,7 +1,8 @@
 ---
-title: Pooling different measures of risk in a
+title: "Pooling different measures of risk in a meta-analysis"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/PoolingRisk.html
+date: 2010-07-26
 categories:
 - Blog post
 tags:

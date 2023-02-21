@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Accrual with refusals, exclusions, or dropouts"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/exclusions.html
+date: 2012-04-22
 categories:
 - Blog post
 tags:

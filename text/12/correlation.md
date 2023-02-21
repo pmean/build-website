@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Making predictions based on just the correlation"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/correlation.html
+date: 2012-03-07
 categories:
 - Blog post
 tags:

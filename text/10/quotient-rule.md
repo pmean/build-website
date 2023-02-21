@@ -1,7 +1,8 @@
 ---
-title: Poem to help you remember the quotient rule
+title: "Poem to help you remember the quotient rule"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/QuotientRule.html
+date: 2010-11-26
 categories:
 - Blog post
 tags:

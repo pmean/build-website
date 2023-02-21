@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Animations in R"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/animations.html
+date: 2012-12-08
 categories:
 - Blog post
 tags:

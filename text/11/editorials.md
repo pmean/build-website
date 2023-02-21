@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Banning editorials and clinical reviews from authors with industry ties"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/11/Editorials.html
+date: 2011-08-13
 categories:
 - Blog post
 tags:

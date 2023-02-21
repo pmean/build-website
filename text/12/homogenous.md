@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Fitting the homogenous accrual model in BUGS"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/homogenous.html
+date: 2012-04-13
 categories:
 - Blog post
 tags:

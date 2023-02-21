@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Free consultation means no co-authorship?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/free.html
+date: 2012-03-19
 categories:
 - Blog post
 tags:

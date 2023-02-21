@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Arguing with the material in an ethics training program"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/arguing.html
+date: 2012-01-12
 categories:
 - Blog post
 tags:

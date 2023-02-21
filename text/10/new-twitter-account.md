@@ -1,7 +1,8 @@
 ---
-title: My new twitter account
+title: "My new twitter account"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/Twitter.html
+date: 2010-09-15
 categories:
 - Blog post
 tags:

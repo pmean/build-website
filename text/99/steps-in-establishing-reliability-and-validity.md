@@ -1,5 +1,5 @@
 ---
-title: (Being updated)
+title: "Steps in establishing validity/reliability"
 source: http://www.pmean.com/99/reliability.html
 author: Steve Simon
 date: 1999-01-01

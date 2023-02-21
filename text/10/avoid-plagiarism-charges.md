@@ -1,7 +1,8 @@
 ---
 title: How to avoid charges of plagiarism
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/Plagiarism.html
+date: 2010-05-15
 categories:
 - Blog post
 tags:

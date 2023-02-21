@@ -1,7 +1,8 @@
 ---
-title: Location of my UMKC office
+title: "Location of my UMKC office"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/UmkcOffice.html
+date: 2010-12-09
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: Would you hire someone who knew theory
+title: "Would you hire someone who knew theory"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/TheoryOrPractice.html
+date: 2010-11-03
 categories:
 - Blog post
 tags:

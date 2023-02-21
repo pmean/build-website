@@ -1,7 +1,8 @@
 ---
-title: Jumpstart Statistics, a proposal for my
+title: "Jumpstart Statistics, a proposal for my second book"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SecondBook.html
+date: 2010-07-23
 categories:
 - Blog post
 tags:

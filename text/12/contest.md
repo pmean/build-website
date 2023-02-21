@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Honorable mention for my R code on accrual"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/contest.html
+date: 2012-01-25
 categories:
 - Blog post
 tags:

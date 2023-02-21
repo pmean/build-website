@@ -1,7 +1,8 @@
 ---
-title: Putting variable names into a model
+title: "Putting variable names into a model automatically"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/NamesIntoModel.html
+date: 2010-09-20
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Bad scaling choices for the SPSS ROC curve"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/badroc.html
+date: 2012-04-09
 categories:
 - Blog post
 tags:

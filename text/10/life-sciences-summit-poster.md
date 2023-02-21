@@ -1,7 +1,8 @@
 ---
-title: Proposed poster for the Missouri
+title: "Proposed poster for the Missouri Regional Life Sciences Summit"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/ProposedPoster.html
+date: 2010-02-03
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: Transforming the parameter
+title: "Transforming the parameter also transforms the prior distribution"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/TransformingThePrior.html
+date: 2010-11-25
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: What is principal components analysis?
+title: "What is principal components analysis?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/pca.html
+date: 2010-07-19
 categories:
 - Blog post
 tags:

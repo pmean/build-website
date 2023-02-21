@@ -1,7 +1,8 @@
 ---
-title: Interpreting p-values in a
+title: "Interpreting p-values in a published abstract, part 1"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/InterpretingPart1.html
+date: 2010-04-14
 categories:
 - Blog post
 tags:

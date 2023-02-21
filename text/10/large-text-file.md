@@ -1,7 +1,8 @@
 ---
-title: Dealing with a large text file that
+title: "Dealing with a large text file that crashes your computer"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/LargeFile.html
+date: 2010-04-02
 categories:
 - Blog post
 tags:

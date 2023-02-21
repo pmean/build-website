@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "What's the name of the test for comparing two proportions?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/name.html
+date: 2012-09-12
 categories:
 - Blog post
 tags:

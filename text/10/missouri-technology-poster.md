@@ -1,7 +1,8 @@
 ---
-title: Poster presentation at the
+title: "Poster presentation at the Missouri Technology conference"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/MissouriTechnology.html
+date: 2010-10-04
 categories:
 - Blog post
 tags:

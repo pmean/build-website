@@ -1,7 +1,8 @@
 ---
-title: What I use for talks instead of
+title: "What I use for talks instead of Powerpoint"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/UseForTalks.html
+date: 2010-06-28
 categories:
 - Blog post
 tags:

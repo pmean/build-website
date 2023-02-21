@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Mapping my runs in R"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/maps.html
+date: 2012-10-10
 categories:
 - Blog post
 tags:

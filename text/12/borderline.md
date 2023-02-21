@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Borderline p-values"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/borderline.html
+date: 2012-09-19
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "My entry into the Applications of R in Business Competition"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/11/contest.html
+date: 2011-10-20
 categories:
 - Blog post
 tags:

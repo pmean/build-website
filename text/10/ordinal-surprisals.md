@@ -1,7 +1,8 @@
 ---
-title: Ordinal surprisals
+title: "Ordinal surprisals"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/OrdinalSurprisals.html
+date: 2010-03-20
 categories:
 - Blog post
 tags:

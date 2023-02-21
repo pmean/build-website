@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "A simple example of change of variable"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/change.html
+date: 2012-05-15
 categories:
 - Blog post
 tags:

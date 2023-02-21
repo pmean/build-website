@@ -1,7 +1,8 @@
 ---
-title: What is residual confounding?
+title: "What is residual confounding?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/ResidualConfounding.html
+date: 2010-01-06
 categories:
 - Blog post
 tags:

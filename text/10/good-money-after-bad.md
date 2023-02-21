@@ -1,7 +1,8 @@
 ---
-title: Lessons learned the hard way. Don't throw
+title: "Lessons learned the hard way: don't throw good money after bad"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/Lessons.html
+date: 2010-05-14
 categories:
 - Blog post
 tags:

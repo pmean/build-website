@@ -1,7 +1,8 @@
 ---
-title: Withdrawing from a study and taking
+title: "Withdrawing from a study and taking your data with you"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/Withdawing.html
+date: 2010-05-15
 categories:
 - Blog post
 tags:

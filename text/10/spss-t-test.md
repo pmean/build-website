@@ -1,7 +1,8 @@
 ---
-title: The SPSS t-test is confusing
+title: 'The SPSS t-test is confusing'
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SpssTtest.html
+date: 2010-06-29
 categories:
 - Blog post
 tags:

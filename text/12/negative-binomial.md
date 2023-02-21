@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Reviewing how the binomial and negative binomial distributions work"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/negbin.html
+date: 2012-05-17
 categories:
 - Blog post
 tags:

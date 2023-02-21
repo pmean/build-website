@@ -1,5 +1,5 @@
 ---
-title: (Being updated)
+title: Steps in a typical Bayesian model
 source: http://www.pmean.com/99/bayesian.html
 author: Steve Simon
 date: 1999-01-01

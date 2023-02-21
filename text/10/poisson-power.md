@@ -1,7 +1,8 @@
 ---
-title: Power calculations for comparison of
+title: "Power calculations for comparison of Poisson counts across two groups"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/PoissonPower.html
+date: 2010-01-11
 categories:
 - Blog post
 tags:

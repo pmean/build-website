@@ -1,7 +1,8 @@
 ---
-title: Ordinal entropy
+title: "Ordinal entropy"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/OrdinalEntropy.html
+date: 2010-03-11
 categories:
 - Blog post
 tags:

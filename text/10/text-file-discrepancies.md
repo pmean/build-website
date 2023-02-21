@@ -1,7 +1,8 @@
 ---
-title: Using information theory to identify
+title: "Using information theory to identify discrepancies within and between text files"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/TextFiles.html
+date: 2010-09-02
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: What's a fair price for SPSS?
+title: "What's a fair price for SPSS?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SpssPrice.html
+date: 2010-08-06
 categories:
 - Blog post
 tags:

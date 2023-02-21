@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Iowa talk on accrual"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/IowaTalk.html
+date: 2012-04-03
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Draft grant submission on patient accrual"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/11/DraftGrant.html
+date: 2011-09-13
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: Are certain CAM therapies
+title: "Are certain CAM therapies undeserving of further study"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/UndeservingOfFurtherStudy.html
+date: 2010-12-01
 categories:
 - Blog post
 tags:

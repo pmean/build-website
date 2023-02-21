@@ -1,7 +1,8 @@
 ---
-title: The Science-Based Medicine blog defends itself (created 2010-11-09).
+title: "The Science-Based Medicine blog defends itself"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/ScienceBasedMedicinePt2.html
+date: 2010-11-09
 categories:
 - Blog post
 tags:
@@ -17,7 +18,7 @@ I get a few fan letters from people, which are greatly appreciated, but when I g
 
 <!---More--->
 
-One of my webpages, [Is there something better than Evidence Based Medicine out there][sim3], was [highlighted and criticized] on the [Science Based Medicine blog][sbm1] by [David Gorski][gor2], and here are some of the things I learned from that criticism. This is an expansion of comments I left on their blog entry.
+One of my webpages, [Is there something better than Evidence Based Medicine out there][sim3], was highlighted and criticized on the [Science Based Medicine blog][sbm1] by [David Gorski][gor2], and here are some of the things I learned from that criticism. This is an expansion of comments I left on their blog entry.
 
 [sim3]: http://new.pmean.com/science-based-medicine/
 

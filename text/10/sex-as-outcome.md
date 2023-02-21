@@ -1,7 +1,8 @@
 ---
-title: Can sex be an outcome variable?
+title: "Can sex be an outcome variable?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SexAsOutcome.html
+date: 2010-03-16
 categories:
 - Blog post
 tags:

@@ -1,7 +1,8 @@
 ---
-title: Abstracts for a possible upcoming
+title: "Abstracts for a possible upcoming talk"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/UpcomingTalks.html
+date: 2010-01-20
 categories:
 - Blog post
 tags:

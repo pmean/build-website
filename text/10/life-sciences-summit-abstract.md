@@ -1,7 +1,8 @@
 ---
-title: Abstract submitted to Missouri
+title: "Abstract submitted to Missouri Regional Life Sciences Summit"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SummitAbstract.html
+date: 2010-02-13
 categories:
 - Blog post
 tags:

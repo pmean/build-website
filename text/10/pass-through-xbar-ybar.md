@@ -1,7 +1,8 @@
 ---
-title: Why the least squares regression line
+title: "Why the least squares regression line has to pass through XBAR, YBAR"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/LeastSquares.html
+date: 2010-10-01
 categories:
 - Blog post
 tags:

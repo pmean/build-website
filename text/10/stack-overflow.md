@@ -1,7 +1,8 @@
 ---
-title: Resources using Stack Overflow
+title: "Resources using Stack Overflow"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/StackOverflow.html
+date: 2010-06-30
 categories:
 - Blog post
 tags:

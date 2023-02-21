@@ -1,5 +1,5 @@
 ---
-title: (Being updated)
+title: Data management in a microarray experiment
 source: http://www.pmean.com/99/arrayDataManagement.htm
 author: Steve Simon
 date: 1999-01-01

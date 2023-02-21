@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "When should I use the Fisher's Exact Test and when should I use the Chi-Square Test"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/12/fishers.html
+date: 2012-09-19
 categories:
 - Blog post
 tags:

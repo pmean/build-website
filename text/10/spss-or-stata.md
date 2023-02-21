@@ -1,7 +1,8 @@
 ---
-title: SPSS or Stata?
+title: "SPSS or Stata?"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SPSSorSTATA.html
+date: 2010-01-19
 categories:
 - Blog post
 tags:

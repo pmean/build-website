@@ -1,7 +1,8 @@
 ---
 title: Creating LaTex formulas on the fly
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/LaTeX.html
+date: 2010-12-20
 categories:
 - Blog post
 tags:

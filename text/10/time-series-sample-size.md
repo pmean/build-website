@@ -1,7 +1,8 @@
 ---
-title: Minimum sample size needed for a time
+title: "Minimum sample size needed for a time series prediction"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/TimeSeries.html
+date: 2010-06-08
 categories:
 - Blog post
 tags:

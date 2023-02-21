@@ -1,7 +1,8 @@
 ---
-title: Quiz about p-values
+title: "Quiz about p-values"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/PvalueQuiz.html
+date: 2010-04-14
 categories:
 - Blog post
 tags:

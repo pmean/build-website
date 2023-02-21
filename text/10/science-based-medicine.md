@@ -1,7 +1,8 @@
 ---
-title: Is there something better than
+title: "Is there something better than Evidence Based Medicine out there"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/ScienceBasedMedicine.html
+date: 2010-09-20
 categories:
 - Blog post
 tags:

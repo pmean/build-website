@@ -1,7 +1,8 @@
 ---
-title: (Being updated)
+title: "Sample chapter: The first three steps in selecting an appropriate sample size"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/SampleSize.html
+date: 2010-07-24
 categories:
 - Blog post
 tags:
@@ -16,4 +17,4 @@ This page is being updated from a version on the original website.
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
 [sim1]: http://www.pmean.com/10/SampleSize.html
-[sim2]: http://www.pmean.com/original_site.html P.Mean: Sample chapter: The first three steps 
+[sim2]: http://www.pmean.com/original_site.html 

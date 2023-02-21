@@ -1,5 +1,5 @@
 ---
-title: (Being updated)
+title: Steps for establishing a quality control program
 source: http://www.pmean.com/99/quality.html
 author: Steve Simon
 date: 1999-01-01

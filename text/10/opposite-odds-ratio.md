@@ -1,7 +1,8 @@
 ---
-title: The odds ratio in logistic regression
+title: "The odds ratio in logistic regression is the opposite of what it should be"
 author: Steve Simon
-date: 1999-01-01
+source: http://www.pmean.com/10/OppositeOddsRatio.html
+date: 2010-11-22
 categories:
 - Blog post
 tags:

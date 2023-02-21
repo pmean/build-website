@@ -1,6 +1,7 @@
 ---
 title: "Data sharing"
 author: Steve Simon
+source: http://www.pmean.com/12/sharing.html
 date: 2012-11-21
 categories:
 - Blog post

@@ -2,7 +2,7 @@
 title: (Being updated)
 author: Steve Simon
 source: http://www.pmean.com/12/amateur.html
-date: 1999-01-01
+date: 2012-05-22
 categories:
 - Blog post
 tags:
