@@ -27,7 +27,7 @@ print("Check 1")
 create_yaml <- function(yyyy) {
   glue(
     '---
-     title: "Pages written in 2022"
+     title: "Pages written in {yyyy}"
      source: new
      date: {yyyy}-12-31
      categories:
@@ -129,8 +129,7 @@ for (yyyy in yyyy_list) {
   }
 
   if (n_year > 0) {print(problem_files)}
-  print(problem_files)
-  
+
   if (update==FALSE) {next}
 
   create_yaml(yyyy) %>% write_lines(output_file)
