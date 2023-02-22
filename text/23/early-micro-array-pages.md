@@ -13,6 +13,8 @@ Back around 1998 through about 2004, I tried my best to understand how to manage
 
 <!---more--->
 
+Here are some files that provide a general overview of the steps involved with micro-array data analysis.
+
 + [Bibliography][gen01]
 + [Data management][gen02]
 + [Design][gen03]
@@ -25,40 +27,35 @@ Back around 1998 through about 2004, I tried my best to understand how to manage
 + [Unsupervised learning][gen09]
 + [What is a microarray][gen10]
 
+Here are some files that provide information on a specific topic.
+
 Add links to these files (see [this page][gen11] for links)
 
-+ RMA normalization of microarrays (October 24, 2005)
-+ More on discovering gene information (October 12, 2005)
++ [RMA normalization][gen12] (October 24, 2005)
++ [Gene information 2][gen13] (October 12, 2005)
++ [Naming conventions][gen14] (September 8, 2005)
++ [Gene information 1][gen15] (September 6, 2005)
++ [Public data][gen16] (August 18, 2005)
++ [Normalization 2][gen17] (July 28, 2005)
++ [Permutation tests][gen18] (July 27, 2005)
++ [Short course][gen19] (July 26, 2005)
++ [Dumping data][gen20] from R to a text file (June 27, 2005)
++ [Information theory][gen21] (June 1, 2005)
++ [ROC curve][gen22] (May 26, 2005)
++ [Dimension reduction][gen23] (May 25, 2005)
++ [Disaster averted][gen24] (May 16, 2005)
++ [General overview][gen25] (April 22, 2005)
++ [Articles 2][gen26] (March 10, 2005)
++ [Articles 1][gen27] (March 7, 2005)
++ [S-Plus Server][gen28] (December 8, 2004)
++ [S+ArrayAnalyzer][gen29] (June 22, 2004)
++ [Articles 1][gen30] (March 18, 2004)
+
+Pages that I am still looking for
+
 + A simple trick in R (October 11, 2005)
-+ Naming conventions for genes, proteins, etc. (September 8, 2005)
-+ Finding more information about a gene (September 6, 2005)
 + Statistical Analysis of Microarrays by Insightful (August 31, 2005)
-+ Publicly available microarray data (August 18, 2005)
-+ Dates in Excel and R (August 10, 2005)
-+ More on normalization (July 28, 2005)
-+ Moving R objects (July 28, 2005)
-+ Permutation tests for microarrays (July 27, 2005)
-+ Analysis of Gene Expression Data Short Course (July 26, 2005)
-+ Merging in R (July 26, 2005)
-+ More on regular expressions (July 21, 2005)
-+ Dumping data from R to a text file (June 27, 2005)
-+ Information theory and microarrays (June 1, 2005)
-+ Application of the ROC curve to microarray data (May 26, 2005)
-+ Dimension reduction in a microarray experiment (May 25, 2005)
-+ A disaster averted (May 16, 2005)
-+ String manipulations in R (May 10, 2005)
-+ Microarray data analysis, again (April 22, 2005)
-+ More on information theory models (March 24, 2005)
-+ More articles on microarrays (March 10, 2005)
-+ Review articles on microarrays (March 7, 2005)
-+ Two cautionary tales about data mining (January 6, 2005)
-+ Surromed and the DecisionSite S-Plus Server Solution (December 8, 2004)
-+ Automating statistical analyses (October 25, 2004)
-+ More on information theory models (August 31, 2004)
-+ The impact of XML on Statistics (June 23, 2004)
-+ S+ArrayAnalyzer web seminar (June 22, 2004)
 + Acuity microarray analysis software (May 6, 2004)
-+ Microarray data analysis (March 18, 2004)
 
 [gen01]: http://www.pmean.com/99/arrayBibliography.htm
 [gen02]: http://www.pmean.com/99/arrayDataManagement.htm
@@ -71,3 +68,22 @@ Add links to these files (see [this page][gen11] for links)
 [gen09]: http://www.pmean.com/99/arrayUnsupervisedLearning.htm
 [gen10]: http://www.pmean.com/99/arrayWhatIs.htm
 [gen11]: http://www.pmean.com/99/array.html
+[gen12]: http://pmean.com/05/MicroarrayG.html
+[gen13]: http://www.pmean.com/05/FindingGenesB.html
+[gen14]: http://www.pmean.com/05/NamingGenes.html
+[gen15]: http://www.pmean.com/05/FindingGenes.html
+[gen16]: http://www.pmean.com/05/MicroArrayE.html
+[gen17]: http://www.pmean.com/05/MicroArrayD.html
+[gen18]: http://www.pmean.com/05/PermutationTests.html
+[gen19]: http://www.pmean.com/05/GeneExpression.html
+[gen20]: http://www.pmean.com/05/DumpingData.html
+[gen21]: http://www.pmean.com/05/InformationTheoryA.html
+[gen22]: http://www.pmean.com/05/ROCcurve.html
+[gen23]: http://www.pmean.com/05/DimensionReduction.html
+[gen24]: http://www.pmean.com/05/DisasterAverted.html
+[gen25]: http://www.pmean.com/05/MicroarrayC.html
+[gen26]: http://www.pmean.com/05/MicroArrayB.html
+[gen27]: http://www.pmean.com/05/MicroArrayA.html
+[gen28]: http://www.pmean.com/04/SurromedDecisionSite.html
+[gen29]: http://www.pmean.com/04/ArrayAnalyzer.html
+[gen30]: http://www.pmean.com/04/microarray.html
