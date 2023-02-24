@@ -60,10 +60,10 @@ check_source <- function(file_text) {
     str_remove_all('"')  %>%
     str_remove_all("'") -> file_source
   if (length(file_source)==0) {
-    message <- glue("{fn} has no source\n")
+    message <- glue("{yy}/{fn} has no source\n")
   }
   if (length(file_source)>1) {
-    message <- glue("{fn} has multiple sources\n")
+    message <- glue("{yy}/{fn} has multiple sources\n")
   }
   return(message)
 }
@@ -76,8 +76,8 @@ check_date <- function(file_text) {
     str_remove(fixed("date: ")) %>%
     str_remove_all('"') %>%
     str_remove_all("'")  -> message
-  if (length(message)==0) {message <- glue("No date for {fn}")}
-  if (length(message)>1) {message <- glue("Multiple dates for {fn}")}
+  if (length(message)==0) {message <- glue("{yy}/{fn} has no date")}
+  if (length(message)>1) {message <- glue("{yy}/{fn} has multiple dates")}
   return(message)
 }
 
@@ -100,9 +100,6 @@ yyyy_list <- c(1999:2023)
 n_problems <- 0
 n_files <- 0
 for (yyyy in yyyy_list) {
-  cat("\n")
-  cat(yyyy)
-  cat("\n\n")
   yy <- str_sub(yyyy, 3, 4)
   output_file <- glue("../text/{yy}/{yyyy}.md")
   glue("../text/{yy}") %>%
@@ -129,6 +126,10 @@ for (yyyy in yyyy_list) {
   }
 
   if (n_year > 0) {print(problem_files)}
+
+  cat("\n")
+  cat(glue("{yyyy} has a total of {length(f)} files."))
+  cat("\n\n")
 
   if (update==FALSE) {next}
 
