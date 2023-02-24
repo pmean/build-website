@@ -1,7 +1,7 @@
 ---
 title: "Check links on old pages"
 author: "Steve Simon"
-date: "Created 2022-02-20"
+date: "Created 2023-02-20"
 output: html_document
 ---
   
@@ -22,7 +22,7 @@ zpad <- function(x) {
 ```{r find-files}
 sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
 
-path <- "c:/Users/Steve/Dropbox/professional/fun stuff/update-website"
+# path <- "c:/Users/Steve/Dropbox/professional/fun stuff/update-website"
 path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website"
 ```
 
