@@ -43,3 +43,8 @@ I'll try to find the original research article and produce a summary
 here. It is an interesting example of how defining a control group
 without the benefit of randomization can sometimes lead to faulty
 conclusions.
+
+You can find an [earlier version][sim1] of this page on my [website][sim2].
+
+[sim1]: http://www.pmean.com/06/AbstainerErrprs.html
+[sim2]: http://www.pmean.com

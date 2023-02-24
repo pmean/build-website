@@ -1,6 +1,13 @@
-# This program looks for key links in the old webpages
+---
+title: "Check links on old pages"
+author: "Steve Simon"
+date: "Created 2022-02-20"
+output: html_document
+---
+  
+This program looks for key links in the old webpages
 
-# Preliminaries
+```{r setup}
 suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(magrittr)))
 suppressMessages(suppressWarnings(library(readr)))
@@ -10,13 +17,17 @@ suppressMessages(suppressWarnings(library(stringr)))
 zpad <- function(x) {
   ifelse(nchar(x)==1, paste0("0", x), x)
 }
+```
 
+```{r find-files}
 sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
 
 path <- "c:/Users/Steve/Dropbox/professional/fun stuff/update-website"
+path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website"
+```
 
-key_text <- "<p>This page is moving to a <a href="
-alt_text <- "<p>This page is being phased out."
+```{r search-files}
+key_text <- "<p>This page"
 n_files <- 0
 n_unlinked <- 0
 for (sub_dir in sub_dir_list) {
@@ -31,17 +42,17 @@ for (sub_dir in sub_dir_list) {
     # Read text from html files
     file_text <- read_lines(glue("{full_path}/{fn}"))
     # Search for key phrase
-    alt_line <- str_subset(file_text, alt_text)
-    if (length(alt_line) > 0) {next}
     key_line <- str_subset(file_text, key_text)
     if (length(key_line) > 0) {next}
     # List files without key phrase
     i_unlinked <- i_unlinked + 1
     print(glue("{sub_dir}/{fn} has no link to new page"))
   }
+  cat("\n")
   print(glue("{sub_dir} has {i_files} files. {i_unlinked} are unlinked."))
+  cat("\n")
   n_files <- n_files + i_files
   n_unlinked <- n_unlinked + i_unlinked
 }
 print(glue("All directories have a total of  {n_files} files. {n_unlinked} are unlinked."))
-      
+```
