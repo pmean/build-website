@@ -22,8 +22,17 @@ zpad <- function(x) {
 ```{r find-files}
 sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
 
-# path <- "c:/Users/Steve/Dropbox/professional/fun stuff/update-website"
-path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website"
+path1 <- "c:/Users"
+path2 <- "dropbox/professional/fun stuff/update-website"
+
+list.files(path1) %>%
+  str_subset("(Simons)|(steve)") -> me
+
+path3 <- glue("{path1}/{me}/{path2}")
+
+print(glue("Searching in {path3}"))
+
+list.files(path3)
 ```
 
 ```{r search-files}
@@ -32,7 +41,7 @@ n_files <- 0
 n_unlinked <- 0
 for (sub_dir in sub_dir_list) {
   # List all html files in a specific folder
-  full_path <- glue("{path}/{sub_dir}/") 
+  full_path <- glue("{path3}/{sub_dir}/") 
   full_path %>%
     list.files %>%
     str_subset("html$") -> html_list
