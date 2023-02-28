@@ -1,0 +1,46 @@
+---
+title: "The hedging hyperprior for the exponential distribution"
+source: "New"
+date: "2023-02-28"
+categories:
+- Blog post
+tags:
+- Bayesian statistics
+output: html_document
+---
+
+I want to write a paper about the hedging hyperprior. I need to work out some simple examples first. Here is an example involving the gamma distribution.
+
+<!---more--->
+
+Consider a Bayesian analysis of an outcome variable that has an exponential distribution. The density of the gamma distribution is
+
+$f(x) = \theta^{-1} e^{-x / \theta}$
+
+You have an informative prior on $\theta$ that has an inverse gamma distribution
+
+$g(\theta; \alpha, \beta)=\frac{\beta^\alpha}{\Gamma(\alpha)}\theta^{-\alpha-1}e^{-\beta / \theta}$
+
+and you collect a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
+
+$\prod_{i=1}^n f(X_i)=\theta^{-n} e^{-n \bar X / \theta}$
+
+and a posterior distribution of 
+
+$h(\theta | \mathbf{X}) \propto \frac{\beta^\alpha}{\Gamma(\alpha)}\theta^{-\alpha-1}e^{-\beta / \theta}\theta^{-n} e^{-n \bar X / \theta}$
+
+which simplifies to
+
+$h(\theta | \mathbf{X}) \propto \theta^{-\alpha-1-n}e^{-(\beta + n\bar X) / \theta}$
+
+which, thanks to the miracle of conjugancy, is an inverse gamma distribution. The posterior mean
+
+$\frac{\beta + n\bar X}{\alpha-1+n}$
+
+can be written as a weighted average of the prior mean and the mean of the observed data.
+
+$\Big(\frac{\alpha-1}{\alpha-1+n}\Big)\frac{\beta}{\alpha-1}+\Big(\frac{n}{\alpha-1+n}\Big)\bar X$
+
+Let's illustrate this with an informative prior with $\alpha$ = 10 and $\beta$ = 27.
+
+This corresponds to a fairly informative prior distribution. This distribution places $\theta$ within `r sprintf("%.2f", 1/qgamma(0.95, 10, 27))` and `r sprintf("%.2f", 1/qgamma(0.05, 10, 27))` with 95% probability. If you observe 30 values of x with a mean of 7.7.
