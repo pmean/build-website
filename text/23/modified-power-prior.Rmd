@@ -1,0 +1,46 @@
+---
+title: "The modified power prior"
+source: "New"
+date: "2023-03-04"
+categories:
+- Blog post
+tags:
+- Bayesian statistics
+output: html_document
+---
+
+```{r setup}
+suppressMessages(suppressWarnings(library(tidyverse)))
+knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
+```
+
+I want to write a paper about the hedging hyperprior. Here is a brief description of an approach it is comparable to, the modified power prior.
+
+<!---more--->
+
+### Informative prior distributions
+
+*Justify the use of informative priors.*
+
+### The power prior
+
+The power prior was developed to combat the excessive influence of an informative prior when the data conflicts with that prior.
+
+Instead of the standard Bayesian approach where you multiply the Likelihood (L) by the prior (g), you use
+
+$h(\theta|\mathbf{X}) \propto L(\mathbf{X}|\theta)g(\theta)^\tau g_0(theta)$
+
+where $g_0$ is a non-informative prior and $\tau$ is between 0 and 1.
+
+For $\tau$=1, the prior is used at full strength. When $\tau$=0, the informative prior effectively disappears, leaving you with just the non-informative prior. For values of $\tau$ between 0 and 1, the informative prior is weakened, but still exerts some pull on the posterior distribution.
+
+For intermediate values of $\tau$, the formulation is not consistent with Bayes rule and you need to include a "fudge factor" of
+
+$\int g(\theta)^{\tau}g_0(\theta)d\theta$
+
+A simpler approach is to include $\tau$ in the prior distribution and then place a hyperprior on $\tau$.
+
+The parameter $\alpha$ in an inverse gamma distribution can be thought of as a prior sample size. Large values of $\alpha$ produce informative priors that are equivalent to adding $\alpha$ pseudo-data values. If you multiply $\alpha$ by $\tau$, you can reduce the amount of pseudo data being added.
+
+### The hedging hyperprior
+
