@@ -47,12 +47,23 @@ for (yr in rev(subdir_list)) {
 ### Read html files
 
 ```{r read_html}
-html_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website/"
-html_path <- "c:/Users/simons/Dropbox/professional/fun stuff/update-website/"
+path_prefix <- "c:/Users"
+path_suffix <- "dropbox/professional/fun stuff/update-website"
+
+list.files(path_prefix) %>%
+  str_subset("(Simons)|(steve)") -> me
+
+full_path <- glue("{path_prefix}/{me}/{path_suffix}")
+
+print(glue("Searching in {full_path}"))
+
+list.files(full_path)
+
+
 subdir_list=c("99", paste0("0", 0:9), 10:22)
 html_files <- NULL
 for (yr in subdir_list) {
-  file_path <- paste0(html_path, yr)
+  file_path <- glue("{full_path}/{yr}")
   list.files(file_path, pattern="html$") -> yr_files
   if (length(yr_files)==0) next
   html_files <- bind_rows(
@@ -99,7 +110,7 @@ Next step, search for
 
 ```{r md_links}
 sim1 <- "[sim1]: http://www.pmean.com/"
-full_file_name <- paste0(md_path, md_files$yr, "/", md_files$fn)
+full_file_name <- glue("{full_path}/{md_files$yr}/{md_files$fn}")
 md_links <- NULL
 for (i_fn in full_file_name) {
   read_lines(i_fn) %>%

@@ -22,17 +22,17 @@ zpad <- function(x) {
 ```{r find-files}
 sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
 
-path1 <- "c:/Users"
-path2 <- "dropbox/professional/fun stuff/update-website"
+path_prefix <- "c:/Users"
+path_suffix <- "dropbox/professional/fun stuff/update-website"
 
-list.files(path1) %>%
+list.files(path_prefix) %>%
   str_subset("(Simons)|(steve)") -> me
 
-path3 <- glue("{path1}/{me}/{path2}")
+full_path <- glue("{path_prefix}/{me}/{path_suffix}")
 
-print(glue("Searching in {path3}"))
+print(glue("Searching in {full_path}"))
 
-list.files(path3)
+list.files(full_path)
 ```
 
 ```{r search-files}
@@ -41,15 +41,15 @@ n_files <- 0
 n_unlinked <- 0
 for (sub_dir in sub_dir_list) {
   # List all html files in a specific folder
-  full_path <- glue("{path3}/{sub_dir}/") 
-  full_path %>%
+  subd_path <- glue("{full_path}/{sub_dir}/") 
+  subd_path %>% 
     list.files %>%
     str_subset("html$") -> html_list
   i_files <- length(html_list)
   i_unlinked <- 0
   for (fn in html_list) {
     # Read text from html files
-    file_text <- read_lines(glue("{full_path}/{fn}"))
+    file_text <- read_lines(glue("{subd_path}/{fn}"))
     # Search for key phrase
     key_line <- str_subset(file_text, key_text)
     if (length(key_line) > 0) {next}
