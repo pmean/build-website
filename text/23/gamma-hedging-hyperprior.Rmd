@@ -10,6 +10,7 @@ output: html_document
 ---
 
 ```{r setup}
+suppressMessages(suppressWarnings(library(MASS)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
 ```
@@ -49,12 +50,13 @@ can be written as a weighted average of the prior mean and the mean of the obser
 $\Big(\frac{\alpha-1}{\alpha-1+n}\Big)\frac{\beta}{\alpha-1}+\Big(\frac{n}{\alpha-1+n}\Big)\bar X$
 
 ```{r}
+x_max <- 3
 
-a0 <- 10
-b0 <- 30
+a0 <- 41
+b0 <- 44
 
-n <- 30
-xbar <- 0.7
+n <- 60
+xbar <- 2.1
 
 a1 <- a0 + n
 b1 <- b0 + n*xbar
@@ -62,7 +64,7 @@ b1 <- b0 + n*xbar
 posterior_alpha <- a0+n
 posterior_beta <- b0+n*xbar
 
-x_grid <- seq(0.01, 8, by=0.01)
+x_grid <- seq(0.01, x_max, length=1000)
 
 f <- function(x, theta) {
   theta^(-1) * 
@@ -75,11 +77,11 @@ g <- function(theta, alpha, beta) {
     exp(-beta/theta)
 }
 
-prior05 <- 1/qgamma(c(0.95), a0, b0) 
-prior95 <- 1/qgamma(c(0.05), a0, b0) 
+prior05 <- 1/qgamma(c(0.975), a0, b0) 
+prior95 <- 1/qgamma(c(0.025), a0, b0) 
 
-post05 <- 1/qgamma(c(0.95), a1, b1) 
-post95 <- 1/qgamma(c(0.05), a1, b1) 
+post05 <- 1/qgamma(c(0.975), a1, b1) 
+post95 <- 1/qgamma(c(0.025), a1, b1) 
 
 ```
 
@@ -102,7 +104,7 @@ This corresponds to a fairly informative prior distribution. This distribution p
 Let's see what happens with this informative prior if you observe `r n` values of x with a mean of `r xbar`. The likelihood is
 
 ```{r}
-f_grid <- f(xbar, x_grid)^10
+f_grid <- f(xbar, x_grid)^n
 x_color <- "white"
 data.frame(x=x_grid, y=f_grid) %>%
   ggplot(aes(x, y)) +
@@ -124,25 +126,125 @@ data.frame(x=x_grid, y=h_grid) %>%
 
 The posterior distribution is not close to either the prior distribution or the likelihood. It places $\theta$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r sprintf("%.2f", b0/(a0-1))` and it excludes `r xbar`, the mean of the data.
 
-### The power prior
-
-The power prior was developed to combat the excessive influence of an informative prior when the data conflicts with that prior.
-
-Instead of the standard Bayesian approach where you multiply the Likelihood (L) by the prior (g), you use
-
-$h(\theta|\mathbf{X}) \propto L(\mathbf{X}|\theta)g(\theta)^\tau g_0(theta)$
-
-where $g_0$ is a non-informative prior and $\tau$ is between 0 and 1.
-
-For $\tau$=1, the prior is used at full strength. When $\tau$=0, the informative prior effectively disappears, leaving you with just the non-informative prior. For values of $\tau$ between 0 and 1, the informative prior is weakened, but still exerts some pull on the posterior distribution.
-
-For intermediate values of $\tau$, the formulation is not consistent with Bayes rule and you need to include a "fudge factor" of
-
-$\int g(\theta)^{\tau}g_0(\theta)d\theta$
-
-A simpler approach is to include $\tau$ in the prior distribution and then place a hyperprior on $\tau$.
-
-The parameter $\alpha$ in an inverse gamma distribution can be thought of as a prior sample size. Large values of $\alpha$ produce informative priors that are equivalent to adding $\alpha$ pseudo-data values. If you multiply $\alpha$ by $\tau$, you can reduce the amount of pseudo data being added.
-
 ### The hedging hyperprior
 
+When the likelihood of your data and your informative prior are in conflict, you may wish to downweight the informative prior. You can do this by including a hedging hyperprior.
+
+Define your prior distribution as an inverse gamma distributions with parameters $1+\lambda (\alpha-1)$ and $\lambda \beta$ where $\lambda$ ranges between 0 and 1. Then place a hyperprior on the parameter $\lambda$. The uniform(0,1) distribution is a reasonable choice for the hyperprior, but others are possible.
+
+```{r}
+knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
+```
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+gstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)}
+density <- outer(theta_grid, tau_grid, gstar)
+op <- par(bg = "white")
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+It is hard to see at this scale, but the prior distribution is higher for small values of $\tau$ when $\theta4 is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
+
+```{r}
+density <- outer(theta_grid, tau_grid, gstar)
+density[11:40, ] <- NA
+op <- par(bg = "white")
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+The likelihood function is constant across all values of $\tau$, so its surface looks like the following.
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+fstar <- function(theta, tau) {f(xbar, theta)^n}
+likelihood <- outer(theta_grid, tau_grid, fstar)
+z_max <- max(likelihood, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  likelihood, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+The product of the prior and the likelihood is proportional to the posterior distribution.
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+hstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)*f(xbar, theta)^n}
+density <- outer(theta_grid, tau_grid, hstar)
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+A contour plot shows where the probability is concentrated. The labels on the contour lines represent how much probabilty is found inside the contour line.
+
+```{r}
+density <- density / sum(density, na.rm=TRUE)
+density %>%
+  as.vector %>%
+  sort %>%
+  rev -> sorted_density
+cumulative_p <- 0
+for (p in sorted_density) {
+  cumulative_p <- p + cumulative_p
+  density[density==p] <- cumulative_p
+}
+contour(
+  theta_grid, 
+  tau_grid, 
+  density,
+  labcex=1,
+  levels=c(10, 25, 50, 75, 90)/100,
+  xlab="theta",
+  ylab="tau")
+```
+
+You can see that the hedging hyperprior did its job. The most probable values of $\tau$ are small and the prior mean (`r b0/(a0-1)`) is largely ignored in favor of the mean of the data (`r xbar`).
