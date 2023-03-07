@@ -1,0 +1,277 @@
+---
+title: "The hedging hyperprior for the normal distribution"
+source: "New"
+date: "2023-02-28"
+categories:
+- Blog post
+tags:
+- Bayesian statistics
+output: html_document
+---
+
+```{r setup}
+suppressMessages(suppressWarnings(library(MASS)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
+```
+
+To do:
+
++ Rewrite normals using a precision parameter
++ Change the hyperparameter from lambda to delta, kappa, tau, psi, or omega.
+
+I want to write a paper about the hedging hyperprior. I need to work out some simple examples first. Here is an example involving the normal distribution.
+
+<!---more--->
+
+### A simple Baysian analysis with an informative prior.
+
+There are lots of guides on the Internet on using a normal prior for data that is normally distributed with the population standard deviation $\sigma$ known or unknown. I used papers written by [Kevin P. Murphy][mur1] and [Michael I. Jordan][jor1] to get these formulas.
+
+[jor1]: https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture5.pdf
+[mur1]: https://www.cs.ubc.ca/~murphyk/Papers/bayesGauss.pdf
+
+For simplicity, all sums and products are assumed to go from i=1 to n.
+
+Consider a Bayesian analysis of an outcome variable that has a normal distribution. The density of the normal distribution is
+
+$f(X) = \frac{1}{\sigma \sqrt{2 \pi}}e^{-(X-\mu)^2 / 2\sigma^2}$
+
+Assume for simplicity that $\sigma$ is known. A more general case, with $\sigma$ unknown is described on a separate web page.
+
+You have an informative prior on $\mu$ that also has a normal distribution
+
+$g(\mu; \mu_0, \sigma_0)=\frac{1}{\sigma_0 \sqrt{2 \pi}}e^{-(\mu-\mu_0)^2 / 2\sigma_0^2}$
+
+Simplify this by removing any constants not involving $\mu$.
+
+$g(\mu; \mu_0, \sigma_0) \propto e^{-(\mu-\mu_0)^2 / 2\sigma_0^2}$
+
+and you collect a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
+
+$L(\mathbf{X} | \mu) = \frac{1}{(\sigma \sqrt{2 \pi})^n}e^{-\sum(X_i-\mu)^2 / 2\sigma^2}$
+
+Rewrite this by incorporating $\bar{X}$ into the squared term
+
+$L(\mathbf{X} | \mu)= \frac{1}{(\sigma \sqrt{2 \pi})^n}e^{-\sum(X_i-\bar{X}+\bar{X}-\mu)^2 / 2\sigma^2}$
+
+$L(\mathbf{X} | \mu) = \frac{1}{(\sigma \sqrt{2 \pi})^n}e^{-((n-1)S^2 / 2\sigma^2}e^{-\sum(\bar{X}-\mu)^2) / 2\sigma^2}$
+
+Pull out anything that is constant with respect to $X_i$ or $\mu$.
+
+$L(\mathbf{X}| \mu) \propto e^{-\sum(\bar{X}-\mu)^2) / 2\sigma^2}$
+
+The posterior distribution is proportional to the product of the prior and the likelihood.
+
+$h(\mu | \mathbf{X}) \propto e^{-(\mu-\mu_0)^2 / 2\sigma_0^2}e^{-n(\bar{X}-\mu)^2) / 2\sigma^2}$
+
+which simplifies to
+
+$h(\mu | \mathbf{X}) \propto e^{-((\frac{\sigma}{\sigma_0}(\mu_0-\mu))^2 + n (\bar{X}-\mu)^2) / 2\sigma^2}$
+
+which, thanks to the miracle of conjugancy, is an inverse gamma distribution. The posterior mean
+
+$\frac{\beta + n\bar X}{\alpha-1+n}$
+
+can be written as a weighted average of the prior mean and the mean of the observed data.
+
+$\Big(\frac{\alpha-1}{\alpha-1+n}\Big)\frac{\beta}{\alpha-1}+\Big(\frac{n}{\alpha-1+n}\Big)\bar X$
+
+```{r}
+x_max <- 3
+
+a0 <- 41
+b0 <- 44
+
+n <- 60
+xbar <- 2.1
+
+a1 <- a0 + n
+b1 <- b0 + n*xbar
+
+posterior_alpha <- a0+n
+posterior_beta <- b0+n*xbar
+
+x_grid <- seq(0.01, x_max, length=1000)
+
+f <- function(x, theta) {
+  theta^(-1) * 
+    exp(-x/theta)
+}
+
+g <- function(theta, alpha, beta) {
+  beta^alpha/gamma(alpha) *
+    theta^(-alpha-1) * 
+    exp(-beta/theta)
+}
+
+prior05 <- 1/qgamma(c(0.975), a0, b0) 
+prior95 <- 1/qgamma(c(0.025), a0, b0) 
+
+post05 <- 1/qgamma(c(0.975), a1, b1) 
+post95 <- 1/qgamma(c(0.025), a1, b1) 
+
+```
+
+Let's illustrate this with an informative prior with $\alpha$ = `r a0` and $\beta$ = `r b0`.
+
+```{r}
+g_grid <- g(x_grid, a0, b0)
+outside <- x_grid < prior05 | x_grid > prior95
+x_color <- 
+  ifelse(outside, "white", "gray")
+data.frame(x=x_grid, y=g_grid) %>%
+  ggplot(aes(x, y)) +
+    geom_segment(aes(xend=x, yend=0), color=x_color) +
+    geom_line() + xlab(" ") + ylab(" ")
+```
+
+This corresponds to a fairly informative prior distribution. This distribution places $\theta$ within `r sprintf("%.2f", prior05)` and `r sprintf("%.2f", prior95)` with 95% probability.
+
+Let's see what happens with this informative prior if you observe `r n` values of x with a mean of `r xbar`. The likelihood is
+
+```{r}
+f_grid <- f(xbar, x_grid)^n
+x_color <- "white"
+data.frame(x=x_grid, y=f_grid) %>%
+  ggplot(aes(x, y)) +
+    geom_line() + xlab(" ") + ylab(" ")
+```
+
+Multiply these two together to get the posterior distribution.
+
+```{r}
+h_grid <- g(x_grid, a1, b1)
+outside <- x_grid < post05 | x_grid > post95
+x_color <- 
+  ifelse(outside, "white", "gray")
+data.frame(x=x_grid, y=h_grid) %>%
+  ggplot(aes(x, y)) +
+    geom_segment(aes(xend=x_grid, yend=0), color=x_color) +
+    geom_line() + xlab(" ") + ylab(" ")
+```
+
+The posterior distribution is not close to either the prior distribution or the likelihood. It places $\theta$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r sprintf("%.2f", b0/(a0-1))` and it excludes `r xbar`, the mean of the data.
+
+### The hedging hyperprior
+
+When the likelihood of your data and your informative prior are in conflict, you may wish to downweight the informative prior. You can do this by including a hedging hyperprior.
+
+Define your prior distribution as an inverse gamma distributions with parameters $1+\lambda (\alpha-1)$ and $\lambda \beta$ where $\lambda$ ranges between 0 and 1. Then place a hyperprior on the parameter $\lambda$. The uniform(0,1) distribution is a reasonable choice for the hyperprior, but others are possible.
+
+```{r}
+knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
+```
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+gstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)}
+density <- outer(theta_grid, tau_grid, gstar)
+op <- par(bg = "white")
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+It is hard to see at this scale, but the prior distribution is higher for small values of $\tau$ when $\theta4 is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
+
+```{r}
+density <- outer(theta_grid, tau_grid, gstar)
+density[11:40, ] <- NA
+op <- par(bg = "white")
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+The likelihood function is constant across all values of $\tau$, so its surface looks like the following.
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+fstar <- function(theta, tau) {f(xbar, theta)^n}
+likelihood <- outer(theta_grid, tau_grid, fstar)
+z_max <- max(likelihood, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  likelihood, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+The product of the prior and the likelihood is proportional to the posterior distribution.
+
+```{r}
+tau_grid <- seq(0, 1, length=60)
+theta_grid <- seq(0, x_max, length=60)
+
+
+hstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)*f(xbar, theta)^n}
+density <- outer(theta_grid, tau_grid, hstar)
+z_max <- max(density, na.rm=TRUE)
+persp(
+  theta_grid, 
+  tau_grid, 
+  density, 
+  zlim=c(0, 1.1*z_max),
+  xlab="theta",
+  ylab="tau",
+  theta = 135, 
+  phi = 30, 
+  expand=0.5,
+  ticktype="detailed")
+```
+
+A contour plot shows where the probability is concentrated. The labels on the contour lines represent how much probabilty is found inside the contour line.
+
+```{r}
+density <- density / sum(density, na.rm=TRUE)
+density %>%
+  as.vector %>%
+  sort %>%
+  rev -> sorted_density
+cumulative_p <- 0
+for (p in sorted_density) {
+  cumulative_p <- p + cumulative_p
+  density[density==p] <- cumulative_p
+}
+contour(
+  theta_grid, 
+  tau_grid, 
+  density,
+  labcex=1,
+  levels=c(10, 25, 50, 75, 90)/100,
+  xlab="theta",
+  ylab="tau")
+```
+
+You can see that the hedging hyperprior did its job. The most probable values of $\tau$ are small and the prior mean (`r b0/(a0-1)`) is largely ignored in favor of the mean of the data (`r xbar`).
