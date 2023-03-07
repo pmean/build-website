@@ -15,13 +15,13 @@ suppressMessages(suppressWarnings(library(tidyverse)))
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
 ```
 
-I want to write a paper about the hedging hyperprior. I need to work out some simple examples first. Here is an example involving the gamma distribution.
+I want to write a paper about the hedging hyperprior. I need to work out some simple examples first. Here is an example involving the exponential distribution.
 
 <!---more--->
 
 ### A simple Baysian analysis with an informative prior.
 
-Consider a Bayesian analysis of an outcome variable that has an exponential distribution. The density of the gamma distribution is
+Consider a Bayesian analysis of an outcome variable that has an exponential distribution. The density of the exponential distribution is
 
 $f(x) = \theta^{-1} e^{-x / \theta}$
 
@@ -89,7 +89,6 @@ Let's illustrate this with an informative prior with $\alpha$ = `r a0` and $\bet
 
 ```{r}
 g_grid <- g(x_grid, a0, b0)
-sum(g_grid)*0.01 # Check the g is a density.
 outside <- x_grid < prior05 | x_grid > prior95
 x_color <- 
   ifelse(outside, "white", "gray")
