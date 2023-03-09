@@ -136,64 +136,68 @@ knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
 ```
 
 ```{r}
-tau_grid <- seq(0, 1, length=60)
+lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
 
-gstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)}
-density <- outer(theta_grid, tau_grid, gstar)
+gstar <- function(theta, lambda) {g(theta, lambda*(a0-1)+1, lambda*(b0-1)+1)}
+density <- outer(theta_grid, lambda_grid, gstar)
 op <- par(bg = "white")
 z_max <- max(density, na.rm=TRUE)
 persp(
   theta_grid, 
-  tau_grid, 
+  lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
   xlab="theta",
-  ylab="tau",
+  ylab="lambda",
   theta = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
 ```
 
-It is hard to see at this scale, but the prior distribution is higher for small values of $\tau$ when $\theta4 is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
+It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\theta$ is very large. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis. There is a similar pattern on the far side of the graph. The prior trends towards a higher prior for small values of $\lambda$ when $\theta$ is very small.
+
+This illustrates how the hedging hyperprior does its magic. It puts more probability on large values of $\lambda$ (gives closer to full weight for the informative prior) when you observe data values close to the prior mean. It puts more probability on small values of $\lambda$ (gives much less weight to the informative prior) when the data values are much larger or much smaller than the prior mean.
 
 ```{r}
-density <- outer(theta_grid, tau_grid, gstar)
-density[11:40, ] <- NA
+density <- outer(theta_grid, lambda_grid, gstar)
+# density[12:32, ] <- NA
+# density[11:40, ] <- NA
+density[density>0.3] <- 0.3
 op <- par(bg = "white")
 z_max <- max(density, na.rm=TRUE)
 persp(
   theta_grid, 
-  tau_grid, 
+  lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
   xlab="theta",
-  ylab="tau",
+  ylab="lambda",
   theta = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
 ```
 
-The likelihood function is constant across all values of $\tau$, so its surface looks like the following.
+The likelihood function is constant across all values of $\lambda$, so its surface looks like the following.
 
 ```{r}
-tau_grid <- seq(0, 1, length=60)
+lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
 
-fstar <- function(theta, tau) {f(xbar, theta)^n}
-likelihood <- outer(theta_grid, tau_grid, fstar)
+fstar <- function(theta, lambda) {f(xbar, theta)^n}
+likelihood <- outer(theta_grid, lambda_grid, fstar)
 z_max <- max(likelihood, na.rm=TRUE)
 persp(
   theta_grid, 
-  tau_grid, 
+  lambda_grid, 
   likelihood, 
   zlim=c(0, 1.1*z_max),
   xlab="theta",
-  ylab="tau",
+  ylab="lambda",
   theta = 135, 
   phi = 30, 
   expand=0.5,
@@ -203,20 +207,20 @@ persp(
 The product of the prior and the likelihood is proportional to the posterior distribution.
 
 ```{r}
-tau_grid <- seq(0, 1, length=60)
+lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
 
-hstar <- function(theta, tau) {g(theta, tau*(a0-1)+1, tau*(b0-1)+1)*f(xbar, theta)^n}
-density <- outer(theta_grid, tau_grid, hstar)
+hstar <- function(theta, lambda) {g(theta, lambda*(a0-1)+1, lambda*(b0-1)+1)*f(xbar, theta)^n}
+density <- outer(theta_grid, lambda_grid, hstar)
 z_max <- max(density, na.rm=TRUE)
 persp(
   theta_grid, 
-  tau_grid, 
+  lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
   xlab="theta",
-  ylab="tau",
+  ylab="lambda",
   theta = 135, 
   phi = 30, 
   expand=0.5,
@@ -238,12 +242,12 @@ for (p in sorted_density) {
 }
 contour(
   theta_grid, 
-  tau_grid, 
+  lambda_grid, 
   density,
   labcex=1,
   levels=c(10, 25, 50, 75, 90)/100,
   xlab="theta",
-  ylab="tau")
+  ylab="lambda")
 ```
 
-You can see that the hedging hyperprior did its job. The most probable values of $\tau$ are small and the prior mean (`r b0/(a0-1)`) is largely ignored in favor of the mean of the data (`r xbar`).
+You can see that the hedging hyperprior did its job. The most probable values of $\lambda$ are small and the prior mean (`r b0/(a0-1)`) is largely ignored in favor of the mean of the data (`r xbar`).
