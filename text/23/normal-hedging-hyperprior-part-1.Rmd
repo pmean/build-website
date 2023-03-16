@@ -27,9 +27,11 @@ For simplicity, all sums and products are assumed to go from i=1 to n.
 
 Consider a Bayesian analysis of an outcome variable that has a normal distribution. The density of the normal distribution is
 
+$f(X; \mu, \sigma) = \frac{\tau}{\sigma sqrt{2 \pi}}e^{-(X-\mu)^2 / 2\sigma^2}$
+
 For this derivation, it is easier to write the density in terms of
 
-$f(X; \mu, \tau) = \sqrt{\frac{\tau}{2 \pi}}e^{-(X-\mu)^2 / 2\sigma^2}$
+$f(X; \mu, \tau) = \sqrt{\frac{\tau}{2 \pi}}e^{-\frac{1}{2}\tau (X-\mu)^2}$
 
 where
 
