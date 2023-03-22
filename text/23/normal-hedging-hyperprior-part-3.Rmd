@@ -68,17 +68,48 @@ $g(\mu) = \int
   e^{-\frac{1}{2}\tau (\mu-\mu_0)^2}
   \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}
   \tau^{n_0-1}
-  e^{-\beta_0 \tau}d\tau$
+  e^{-\frac{n_0 \tau}{\tau0}}d\tau$
 
-Pull out any multiplicative constants not involve $\tau$.
+Pull out any multiplicative constants not involving $\tau$.
 
 $g(\mu) = 
   \frac{1}{\sqrt{2 \pi}}
-  \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}
+  \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}$
   \int\tau^{n_0-\frac{1}{2}}
-  e^{-\tau(\frac{1}{2} (\mu-\mu_0)^2-\beta_0)}
-  d\tau$
+  e^{-\tau(
+    \frac{1}{2}(\mu-\mu_0)^2 - 
+    \frac{n_0}{\tau0}}d\tau)$
 
+What remains inside the integral could be a gamma distribution with
+
+$\alpha=n_0 + \frac{1}{2}$
+
+$\beta = 
+  \frac{1}{2}(\mu-\mu_0)^2 - 
+  \frac{n_0}{\tau0}$
+
+if there were the correct normalizing constants. Multiply inside the integral by the normalizing constant
+
+$\frac{(\frac{1}{2} (\mu-\mu_0)^2-\frac{n0}{\tau_0})^{n_0 + \frac{1}{2}}}{\Gamma(n_0+ \frac{1}{2})}$
+
+When you divide outside by the normalizing constant, you get
+
+$\frac{1}{\sqrt{2 \pi}}$
+$\frac
+  {(n_0 \tau_0)^{n_0}}
+  {\Gamma(n_0)}$
+$\frac
+  {\Gamma(n_0 + \frac{1}{2})}
+  {(\frac{1}{2} (\mu-\mu_0)^2 - 
+     \frac{n0}{\tau_0})^
+       {n_0 + \frac{1}{2}}}$
+  
+This can also be shown to relate to a t-distribution
+
+$\frac
+    {\Gamma \left(\frac{\nu+1}{2} \right)}
+    {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)}
+  \left(1+\frac{x^2}{\nu} \right)^{-\frac{\nu+1}{2}}$
 
 You have collected a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
 
