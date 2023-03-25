@@ -9,11 +9,10 @@ tags:
 output: html_document
 ---
 
-There is a simple theoretical result involving a mixture of normal distributions. If you select a normal distribution with a mean of zero and let the precision of that normal distribution vary according to a gamma distribution, you end up with a t-distribution. In particular, if you let the precision of a normal distribution vary according to an exponential distribution (exponential is a special case of the gamma distribution), you get a Cauchy distribution (Cauchy is a special case of the t-distribution).
+There is a simple theoretical result involving a mixture of normal distributions. If you select a normal distribution with a mean of zero and let the precision of that normal distribution vary according to a gamma distribution, you end up with a t-distribution.
 
 <!--more-->
 
-Let's start with the special case. 
 
 Let X have a conditional distribution
 
@@ -21,68 +20,72 @@ $f(X|\tau) =
   \sqrt{\frac{\tau}{2 \pi}}
   e^{-\frac{1}{2}\tau X^2}$
 
-and let \tau have an unconditional distribution
+and let $\tau$ have an unconditional distribution gamma distribution with any positive value for $\alpha$ and $\beta$ = $\sqrt{\alpha}$ 
 
-$g(\tau) = e^{-tau}$
+$g(\tau) = 
+  \frac
+    {(\sqrt\alpha)^{\alpha}}
+    {\Gamma(\alpha)}
+  \tau^{\alpha-1}
+  e^{-\sqrt\alpha\tau}$
 
-Then the joint distribution is
+To get the unconditional distribution of X, you need to multiply the two distributions to get a joint distribution and integrate out the $\tau$ parameter.
 
-$f(X|\tau)g(\tau) =
+$f(X)= \int 
   \sqrt{\frac{\tau}{2 \pi}}
   e^{-\frac{1}{2}\tau X^2}
-  e^{-tau}$
-  
+  \frac{(\sqrt\alpha)^{\alpha}}{\Gamma(\alpha)}
+  \tau^{\alpha-1}
+  e^{-\sqrt\alpha\tau}
+d\tau$
 
+Pull out any multiplicative terms not involving $\tau$.
 
-
-
-$k(\tau) = 
-  \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}
-  \tau^{n_0-1}
-  e^{-\beta_0 \tau}$
-
-which is a gamma distribution with
-
-$\alpha=n_0$ and $\beta=n_0\tau_0$
-
-Use a conditional prior for $\mu$ given $\tau$.
-
-$g(\mu | \tau) =
-  \sqrt{\frac{\tau}{2 \pi}}
-  e^{-\frac{1}{2}\tau (\mu-\mu_0)^2}$
-
-You can get an unconditional prior for $\mu$ by integrating out the prior on $\tau$
-
-$g(\mu) = \int
-  \sqrt{\frac{\tau}{2 \pi}}
-  e^{-\frac{1}{2}\tau (\mu-\mu_0)^2}
-  \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}
-  \tau^{n_0-1}
-  e^{-\beta_0 \tau}d\tau$
-
-Pull out any multiplicative constants not involve $\tau$.
-
-$g(\mu) = 
-  \frac{1}{\sqrt{2 \pi}}
-  \frac{(n_0 \tau_0)^{n_0}}{\Gamma(n_0)}
-  \int\tau^{n_0-\frac{1}{2}}
-  e^{-\tau(\frac{1}{2} (\mu-\mu_0)^2-\beta_0)}
+$f(X)=
+  \frac
+    {(\sqrt\alpha)^{\alpha}}
+    {\sqrt{2 \pi}\Gamma(\alpha)}
+  \int 
+    \tau^{\alpha-\frac{1}{2}}
+    e^{-\tau\sqrt{\alpha}(1+\frac{X^2}{2\alpha})}
   d\tau$
 
+Recall that the gamma distribution with parameters $\alpha$ and $\beta$ has the form
 
-$h(\theta | \mathbf{X}) \propto \theta^{n_0-1} e^{-n_0 \theta / \theta0} \theta^{n/2} e^{- \frac{1}{2} \theta\sum(X_i-\mu_0)^2}$
+$h(y) = 
+  \frac{\beta^\alpha}{\Gamma(\alpha)}
+  y^{\alpha-1}
+  e^{-\beta y}$
 
-which can be rewritten as
+What is inside the integral looks like a gamma distribution with
 
-$h(\theta | \mathbf{X}) \propto \theta^{n/2 + n_0-1} e^{-(n_0 \theta0 + \frac{1}{2}\sum(X_i-\mu_0)^2)}$
+$\alpha^* = \alpha+\frac{1}{2}$,
 
-which is a gamma distribution with posterior parameters
+$\beta^* = (1 + \frac{1}{2}X^2)$
 
-$\alpha_1 = n/2+n_0$ and
+Multiply inside by the normalizing constant
 
-$\beta_1 = n_0 theta_0 + \frac{1}{2}\sum(X_i-\mu_0)^2)$
+$\frac
+  {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}
+  {\Gamma(\alpha+\frac{1}{2})}$
 
+and outside by the reciprocal. With the normalizing constant in place the integral equals 1 and you are left with
+
+$f(X) = 
+  \frac{1}{\sqrt{2 \pi}2^{\alpha}\Gamma(\alpha)}
+  \frac
+    {\Gamma(\alpha+\frac{1}{2})}
+    {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}$
+    
+$f(X) = 
+  \frac{1}{\sqrt{2 \pi}2^{\alpha}\Gamma(\alpha)}
+  \frac
+    {\Gamma(\alpha+\frac{1}{2})}
+    {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}$
+    
 This can also be shown to relate to a t-distribution
 
-$\frac{\Gamma \left(\frac{\nu+1}{2} \right)} {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)} \left(1+\frac{x^2}{\nu} \right)^{-\frac{\nu+1}{2}}$
+$\frac{\Gamma \left(\frac{\nu+1}{2} \right)}
+  {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)}
+  \left(1+\frac{x^2}{\nu} \right)^{-\frac{\nu+1}{2}}$
 
