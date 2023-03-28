@@ -27,11 +27,11 @@ For simplicity, all sums and products are assumed to go from i=1 to n.
 
 Consider a Bayesian analysis of an outcome variable that has a normal distribution. The density of the normal distribution is
 
-$f(X; \theta, \sigma) = \frac{\tau}{\sigma \sqrt{2 \pi}}e^{-(X-\theta)^2 / 2\sigma^2}$
+$f(X; \mu, \sigma) = \frac{1}{\sigma \sqrt{2 \pi}}e^{-(X-\mu)^2 / 2\sigma^2}$
 
 For this derivation, it is easier to write the density in terms of
 
-$f(X; \theta, \tau) = \sqrt{\frac{\tau}{2 \pi}}e^{-\frac{1}{2}\tau (X-\theta)^2}$
+$f(X; \mu, \tau) = \sqrt{\frac{\tau}{2 \pi}}e^{-\frac{1}{2}\tau (X-\mu)^2}$
 
 where
 
@@ -39,48 +39,48 @@ $\tau=\frac{1}{\sigma^2}$
 
 The parameter $\tau$ is called the precision. Note that some define the precision differently as the inverse of the standard deviation rather than the inverse of the variance.
 
-Assume that $\tau$ is known and equal to $\tau_F$. Other cases with [mean known and precision unknown][sim2] and with [both mean and precision unknown][sim3] appear on a different web pages.
+Assume that $\tau$ is known and equal to $\tau_F$. Other cases with [mean known and precision unknown][sim2] and with [both mean and precision unknown][sim3] appear on different web pages.
 
 [sim2]: http://new.pmean.com/normal-hedging-hyperprior-part2
 [sim3]: http://new.pmean.com/normal-hedging-hyperprior-part3
 
-For simplicity, we will drop any multiplicative constants not involving X or $\theta$
+For simplicity, we will drop any multiplicative constants not involving X or $\mu$
 
-$f(X; \theta) \propto e^{-\frac{1}{2}\tau_F(X-\theta)^2}$
+$f(X; \mu) \propto e^{-\frac{1}{2}\tau_F(X-\mu)^2}$
 
 The conjugate prior for a normal distribution is also a normal distribution.
 
-$g(\theta; \theta_0, \tau_0) \propto e^{- \frac{1}{2}\tau_0(\theta-\theta_0)^2}$
+$g(\mu; \mu_0, \tau_0) \propto e^{- \frac{1}{2}\tau_0(\mu-\mu_0)^2}$
 
-where the prior mean is $\theta_0$ and the prior precision is $\tau_0$.
+where the prior mean is $\mu_0$ and the prior precision is $\tau_0$.
 
-For an informative prior distribution, $\tau_0$ is usually much smaller than $\tau_F$. The ratio $n_0=\tau_F/\tau_0$ is the effective prior sample size and is equivalent to adding $n_0$ pseudo data values of $\theta_0$ to the observed data.
+For an informative prior distribution, $\tau_0$ is usually much smaller than $\tau_F$. The ratio $n_0=\tau_F/\tau_0$ is the effective prior sample size and is equivalent to adding $n_0$ pseudo data values of $\mu_0$ to the observed data.
 
 You have collected a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
 
-$L(\mathbf{X} | \theta) \propto e^{- \frac{1}{2} \tau_F\sum(X_i-\theta)^2}$
+$L(\mathbf{X} | \mu) \propto e^{- \frac{1}{2} \tau_F\sum(X_i-\mu)^2}$
 
 Rewrite this by incorporating $\bar{X}$ into the squared term
 
-$L(\mathbf{X} | \theta) \propto e^{-\frac{1}{2} \tau_F \sum (X_i-\bar{X}+\bar{X}-\theta)^2}$
+$L(\mathbf{X} | \mu) \propto e^{-\frac{1}{2} \tau_F \sum (X_i-\bar{X}+\bar{X}-\mu)^2}$
 
 When you square the term inside the sum, the cross-product cancels out, leaving you with
 
-$L(\mathbf{X} | \theta) \propto e^{- \frac{1}{2} \tau_F (\sum(X_i-\bar{X})^2} e^{- \frac{n}{2} \tau_F (\bar{X}-\theta)^2}$
+$L(\mathbf{X} | \mu) \propto e^{- \frac{1}{2} \tau_F (\sum(X_i-\bar{X})^2} e^{- \frac{n}{2} \tau_F (\bar{X}-\mu)^2}$
 
-$L(\mathbf{X} | \theta) \propto e^{-\frac{n-1}{2}\tau_F S^2} e^{-\frac{n}{2} \tau_F (\theta-\bar{X})^2}$
+$L(\mathbf{X} | \mu) \propto e^{-\frac{n-1}{2}\tau_F S^2} e^{-\frac{n}{2} \tau_F (\mu-\bar{X})^2}$
 
 The posterior distribution is proportional to the product of the prior and the likelihood.
 
-$h(\theta | \mathbf{X}) \propto e^{- \frac{1}{2} \tau_0 (\theta-\theta_0)^2} e^{- \frac{n-1}{2} \tau_F S^2} e^{-\frac{n}{2} \tau_F(\theta-\bar{X})^2)}$
+$h(\mu | \mathbf{X}) \propto e^{- \frac{1}{2} \tau_0 (\mu-\mu_0)^2} e^{- \frac{n-1}{2} \tau_F S^2} e^{-\frac{n}{2} \tau_F(\mu-\bar{X})^2)}$
 
-Drop the middle exponential term, which is constant with respect to $\theta$ and use high school algebra ([completing the square][wik1]) to get
+Drop the middle exponential term, which is constant with respect to $\mu$ and use high school algebra ([completing the square][wik1]) to get
 
-$h(\theta | \mathbf{X}) \propto e^{-(n\tau_F+\tau_0)(\theta-\frac{n \tau_F \bar{X} + \tau_0 \theta_0}{n\tau_F+\tau_0})^2}$
+$h(\mu | \mathbf{X}) \propto e^{-(n\tau_F+\tau_0)(\mu-\frac{n \tau_F \bar{X} + \tau_0 \mu_0}{n\tau_F+\tau_0})^2}$
 
 which is a normal distribution. The posterior mean
 
-$\frac{n \tau_F \bar{X} + \tau_0 \theta_0}{n\tau_F+\tau_0}$
+$\frac{n \tau_F \bar{X} + \tau_0 \mu_0}{n\tau_F+\tau_0}$
 
 and the posterior precision is
 
@@ -88,41 +88,41 @@ $n \tau_F + \tau_0$
 
 The posterior mean can be written as a weighted average of the prior mean and the mean of the observed data.
 
-$\frac{n \tau_F}{n\tau_F+\tau_0}\bar{X} + \frac{\tau_0}{n\tau_F+\tau_0}\theta_0$
+$\frac{n \tau_F}{n\tau_F+\tau_0}\bar{X} + \frac{\tau_0}{n\tau_F+\tau_0}\mu_0$
 
 ```{r}
 x_max <- 8
 
-theta0 <- 4
+mu0 <- 4
 tau0 <- 8
 
 tauF <- 0.6
 n <- 10
 xbar <- 2
 
-theta1 <- (tau0*theta0+n*tauF*xbar)/(tau0+n*tauF)
+mu1 <- (tau0*mu0+n*tauF*xbar)/(tau0+n*tauF)
 tau1 <- tau0+n*tauF
 
 x_grid <- seq(0.01, x_max, length=1000)
 
-f <- function(x, theta, tau) {
-  sqrt(tau/2*pi)*exp(-0.5*tau*(x-theta)^2)
+f <- function(x, mu, tau) {
+  sqrt(tau/2*pi)*exp(-0.5*tau*(x-mu)^2)
 }
 
 g <- f
 
-prior05 <- qnorm(0.025, theta0, 1/sqrt(tau0)) 
-prior95 <- qnorm(0.975, theta0, 1/sqrt(tau0)) 
+prior05 <- qnorm(0.025, mu0, 1/sqrt(tau0)) 
+prior95 <- qnorm(0.975, mu0, 1/sqrt(tau0)) 
 
-post05 <- qnorm(0.025, theta1, 1/sqrt(tau1)) 
-post95 <- qnorm(0.975, theta1, 1/sqrt(tau1)) 
+post05 <- qnorm(0.025, mu1, 1/sqrt(tau1)) 
+post95 <- qnorm(0.975, mu1, 1/sqrt(tau1)) 
 
 ```
 
-Let's illustrate this with an informative prior with $\theta_0$ = `r theta0` and $\tau_0$ = `r tau0`.
+Let's illustrate this with an informative prior with $\mu_0$ = `r mu0` and $\tau_0$ = `r tau0`.
 
 ```{r}
-g_grid <- g(x_grid, theta0, tau0)
+g_grid <- g(x_grid, mu0, tau0)
 outside <- x_grid < prior05 | x_grid > prior95
 x_color <- 
   ifelse(outside, "white", "gray")
@@ -132,7 +132,7 @@ data.frame(x=x_grid, y=g_grid) %>%
     geom_line() + xlab(" ") + ylab(" ")
 ```
 
-This corresponds to a fairly informative prior distribution. This distribution places $\theta$ within `r sprintf("%.2f", prior05)` and `r sprintf("%.2f", prior95)` with 95% probability.
+This corresponds to a fairly informative prior distribution. This distribution places $\mu$ within `r sprintf("%.2f", prior05)` and `r sprintf("%.2f", prior95)` with 95% probability.
 
 Let's see what happens with this informative prior if you observe `r n` values of x with a mean of `r xbar`. The likelihood is
 
@@ -147,7 +147,7 @@ data.frame(x=x_grid, y=f_grid) %>%
 Multiply these two together to get the posterior distribution.
 
 ```{r}
-h_grid <- g(x_grid, theta1, tau1)
+h_grid <- g(x_grid, mu1, tau1)
 outside <- x_grid < post05 | x_grid > post95
 x_color <- 
   ifelse(outside, "white", "gray")
@@ -157,13 +157,13 @@ data.frame(x=x_grid, y=h_grid) %>%
     geom_line() + xlab(" ") + ylab(" ")
 ```
 
-The posterior distribution is not close to either the prior distribution or the likelihood. It places $\theta$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r theta0` and it excludes `r xbar`, the mean of the data.
+The posterior distribution is not close to either the prior distribution or the likelihood. It places $\mu$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r mu0` and it excludes `r xbar`, the mean of the data.
 
 ### The hedging hyperprior
 
 When the likelihood of your data and your informative prior are in conflict, you may wish to downweight the informative prior. You can do this by including a hedging hyperprior.
 
-Define your prior distribution as a normal distributions with prior mean $\theta0$ and prior precision
+Define your prior distribution as a normal distributions with prior mean $\mu0$ and prior precision
 
 $\tau_F+\lambda (\tau_0-\tau_F)$ 
 
@@ -177,43 +177,43 @@ knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
 
 ```{r}
 lambda_grid <- seq(0, 1, length=60)
-theta_grid <- seq(0, x_max, length=60)
+mu_grid <- seq(0, x_max, length=60)
 
 
-gstar <- function(theta, lambda) {g(theta, theta0, lambda*(tau0-tauF)+tauF)}
-density <- outer(theta_grid, lambda_grid, gstar)
+gstar <- function(mu, lambda) {g(mu, mu0, lambda*(tau0-tauF)+tauF)}
+density <- outer(mu_grid, lambda_grid, gstar)
 op <- par(bg = "white") 
 z_max <- max(density, na.rm=TRUE)
 persp(
-  theta_grid, 
+  mu_grid, 
   lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="mu",
   ylab="lambda",
-  theta = 135, 
+  mu = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
 ```
 
-This is the joint prior distribution of $\theta_0$ and $\lambda$. 
+This is the joint prior distribution of $\mu_0$ and $\lambda$. 
 
-It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\theta$ is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
+It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\mu$ is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
 
 ```{r}
-density <- outer(theta_grid, lambda_grid, gstar)
+density <- outer(mu_grid, lambda_grid, gstar)
 density[16:44, ] <- NA
 op <- par(bg = "white")
 z_max <- max(density, na.rm=TRUE)
 persp(
-  theta_grid, 
+  mu_grid, 
   lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="mu",
   ylab="lambda",
-  theta = 135, 
+  mu = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
@@ -223,20 +223,20 @@ The likelihood function is constant across all values of $\tau$, so its surface 
 
 ```{r}
 lambda_grid <- seq(0, 1, length=60)
-theta_grid <- seq(0, x_max, length=60)
+mu_grid <- seq(0, x_max, length=60)
 
 
-fstar <- function(theta, lambda) {f(xbar, theta, tau0)^n}
-likelihood <- outer(theta_grid, lambda_grid, fstar)
+fstar <- function(mu, lambda) {f(xbar, mu, tau0)^n}
+likelihood <- outer(mu_grid, lambda_grid, fstar)
 z_max <- max(likelihood, na.rm=TRUE)
 persp(
-  theta_grid, 
+  mu_grid, 
   lambda_grid, 
   likelihood, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="mu",
   ylab="lambda",
-  theta = 135, 
+  mu = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
@@ -246,20 +246,20 @@ The product of the prior and the likelihood is proportional to the posterior dis
 
 ```{r}
 lambda_grid <- seq(0, 1, length=60)
-theta_grid <- seq(0, x_max, length=60)
+mu_grid <- seq(0, x_max, length=60)
 
 
-hstar <- function(theta, lambda) {g(theta, theta0, lambda*(tau0-tauF) + tauF)*f(xbar, theta, tauF)^n}
-density <- outer(theta_grid, lambda_grid, hstar)
+hstar <- function(mu, lambda) {g(mu, mu0, lambda*(tau0-tauF) + tauF)*f(xbar, mu, tauF)^n}
+density <- outer(mu_grid, lambda_grid, hstar)
 z_max <- max(density, na.rm=TRUE)
 persp(
-  theta_grid, 
+  mu_grid, 
   lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="mu",
   ylab="lambda",
-  theta = 135, 
+  mu = 135, 
   phi = 30, 
   expand=0.5,
   ticktype="detailed")
@@ -279,16 +279,16 @@ for (p in sorted_density) {
   density[density==p] <- cumulative_p
 }
 contour(
-  theta_grid, 
+  mu_grid, 
   lambda_grid, 
   density,
   labcex=1,
   levels=c(50, 75, 90)/100,
-  xlab="theta",
+  xlab="mu",
   ylab="lambda")
 ```
 
-You can see that the hedging hyperprior did its job. The most probable values of $\lambda$ are small and the prior mean (`r theta0`) is largely ignored in favor of the mean of the data (`r xbar`).
+You can see that the hedging hyperprior did its job. The most probable values of $\lambda$ are small and the prior mean (`r mu0`) is largely ignored in favor of the mean of the data (`r xbar`).
 
 [jor1]: https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture5.pdf
 [mur1]: https://www.cs.ubc.ca/~murphyk/Papers/bayesGauss.pdf

@@ -14,40 +14,40 @@ There is a simple theoretical result involving a mixture of normal distributions
 <!--more-->
 
 
-Let X have a conditional distribution
+Let x have a conditional distribution
 
-$f(X|\tau) =
+$f(x|\tau) =
   \sqrt{\frac{\tau}{2 \pi}}
-  e^{-\frac{1}{2}\tau X^2}$
+  e^{-0.5\tau x^2}$
 
-and let $\tau$ have an unconditional distribution gamma distribution with any positive value for $\alpha$ and $\beta$ = $\sqrt{\alpha}$ 
+and let $\tau$ have an unconditional distribution gamma distribution with any positive value for $\alpha$ and $\beta$. 
 
 $g(\tau) = 
   \frac
-    {(\sqrt\alpha)^{\alpha}}
+    {\beta^\alpha}
     {\Gamma(\alpha)}
   \tau^{\alpha-1}
-  e^{-\sqrt\alpha\tau}$
+  e^{-\beta\tau}$
 
-To get the unconditional distribution of X, you need to multiply the two distributions to get a joint distribution and integrate out the $\tau$ parameter.
+To get the unconditional distribution of x, you need to multiply the two distributions to get a joint distribution and integrate out the $\tau$ parameter.
 
-$f(X)= \int 
+$f(x)= \int 
   \sqrt{\frac{\tau}{2 \pi}}
-  e^{-\frac{1}{2}\tau X^2}
-  \frac{(\sqrt\alpha)^{\alpha}}{\Gamma(\alpha)}
+  e^{-0.5\tau x^2}
+  \frac{\beta^{\alpha}}{\Gamma(\alpha)}
   \tau^{\alpha-1}
-  e^{-\sqrt\alpha\tau}
+  e^{-\beta\tau}
 d\tau$
 
 Pull out any multiplicative terms not involving $\tau$.
 
-$f(X)=
+$f(x)=
   \frac
-    {(\sqrt\alpha)^{\alpha}}
+    {\beta^{\alpha}}
     {\sqrt{2 \pi}\Gamma(\alpha)}
   \int 
-    \tau^{\alpha-\frac{1}{2}}
-    e^{-\tau\sqrt{\alpha}(1+\frac{X^2}{2\alpha})}
+    \tau^{\alpha-0.5}
+    e^{-\tau\left(\beta+\frac{x^2}{2}\right)}
   d\tau$
 
 Recall that the gamma distribution with parameters $\alpha$ and $\beta$ has the form
@@ -59,33 +59,42 @@ $h(y) =
 
 What is inside the integral looks like a gamma distribution with
 
-$\alpha^* = \alpha+\frac{1}{2}$,
+$\alpha^* = \alpha+0.5$,
 
-$\beta^* = (1 + \frac{1}{2}X^2)$
+$\beta^* = \beta+\frac{x^2}{2}$
 
 Multiply inside by the normalizing constant
 
 $\frac
-  {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}
-  {\Gamma(\alpha+\frac{1}{2})}$
+  {\left(\beta+\frac{x^2}{2}\right)^{\alpha+0.5}}
+  {\Gamma(\alpha+0.5)}$
 
-and outside by the reciprocal. With the normalizing constant in place the integral equals 1 and you are left with
+and outside by the reciprocal. With the normalizing constant in place, the integral equals 1 and you are left with
 
-$f(X) = 
-  \frac{1}{\sqrt{2 \pi}2^{\alpha}\Gamma(\alpha)}
+$f(x) = 
   \frac
-    {\Gamma(\alpha+\frac{1}{2})}
-    {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}$
+    {\beta^{\alpha}}
+    {\sqrt{2\pi}\Gamma(\alpha)}
+  \frac
+    {\Gamma(\alpha+0.5)}
+    {\left(\beta+\frac{x^2}{2}\right)^{\alpha+0.5}}$
+
+which simplifies to
     
-$f(X) = 
-  \frac{1}{\sqrt{2 \pi}2^{\alpha}\Gamma(\alpha)}
+$f(x) = 
   \frac
-    {\Gamma(\alpha+\frac{1}{2})}
-    {(\frac{1}{2} (X^2+1))^{\alpha+\frac{1}{2}}}$
+    {\Gamma(\alpha+0.5)}
+    {\sqrt{2\beta\pi}\Gamma(\alpha)}
+  \left(1+\frac{x^2}{2\beta}\right)^{-(\alpha+0.5)}$
     
 This can also be shown to relate to a t-distribution
 
-$\frac{\Gamma \left(\frac{\nu+1}{2} \right)}
-  {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)}
+$\frac
+    {\Gamma\left(\frac{\nu+1}{2}\right)}
+    {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)}
   \left(1+\frac{x^2}{\nu} \right)^{-\frac{\nu+1}{2}}$
+
+if you let
+
+$\alpha=\beta=\frac{\nu}{2}$.
 

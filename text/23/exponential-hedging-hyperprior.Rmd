@@ -25,29 +25,68 @@ Consider a Bayesian analysis of an outcome variable that has an exponential dist
 
 $f(x) = \theta^{-1} e^{-x / \theta}$
 
-You have an informative prior on $\theta$ that has an inverse gamma distribution
+You have an informative prior on $\theta$ that has an inverse gamma distribution with prior parameters $\alpha_0$ and $\beta_0$.
 
-$g(\theta; \alpha, \beta)=\frac{\beta^\alpha}{\Gamma(\alpha)}\theta^{-\alpha-1}e^{-\beta / \theta}$
+$g(\theta; \alpha_0, \beta_0) = 
+  \frac
+    {\beta^\alpha_0}
+    {\Gamma(\alpha_0)}
+  \theta^{-\alpha_0-1}
+  e^{-\beta_0 / \theta}$
+  
+The mean of this prior distribution is
 
-and you collect a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
+$\frac{\beta}{\alpha_0-1}$
 
-$L(\mathbf{X})=\prod_{i=1}^n f(X_i)=\theta^{-n} e^{-n \bar X / \theta}$
+You collect a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
+
+$L(\mathbf{X})
+  = \prod_{i=1}^n f(X_i)
+  = \theta^{-n} e^{-n \bar X / \theta}$
 
 and a posterior distribution of 
 
-$h(\theta | \mathbf{X}) \propto \frac{\beta^\alpha}{\Gamma(\alpha)}\theta^{-\alpha-1}e^{-\beta / \theta}\theta^{-n} e^{-n \bar X / \theta}$
+$h(\theta|\mathbf{X}) \propto 
+  \frac
+    {\beta_0^{\alpha_0-1}}
+    {\Gamma(\alpha_0)}
+  \theta^{-\alpha_0-1}
+  e^{-\beta_0 / \theta}
+  \theta^{-n}
+  e^{-n \bar X / \theta}$
 
 which simplifies to
 
-$h(\theta | \mathbf{X}) \propto \theta^{-\alpha-1-n}e^{-(\beta + n\bar X) / \theta}$
+$h(\theta | \mathbf{X}) \propto 
+  \theta^{-\alpha_0-1-n}
+  e^{-(\beta_0 + n\bar X) / \theta}$
 
-which, thanks to the miracle of conjugancy, is an inverse gamma distribution. The posterior mean
+which, thanks to the miracle of conjugancy, is an inverse gamma distribution. With posterior paramaters
 
-$\frac{\beta + n\bar X}{\alpha-1+n}$
+$\alpha_1 = \alpha_0 + n$
+
+$\beta_1 = \beta_0 + n\bar X$
+
+The posterior mean
+
+$\frac{\beta_0 + n\bar X}{\alpha_0-1+n}$
 
 can be written as a weighted average of the prior mean and the mean of the observed data.
 
-$\Big(\frac{\alpha-1}{\alpha-1+n}\Big)\frac{\beta}{\alpha-1}+\Big(\frac{n}{\alpha-1+n}\Big)\bar X$
+$\Big(
+  \frac
+    {\alpha_0-1}
+    {\alpha_0-1+n}\Big)
+  \frac
+    {\beta_0}
+    {\alpha-1} + 
+  \Big(
+    \frac
+      {n}
+      {\alpha-1+n}\Big)
+  \bar X$
+  
+### A simple numerical example
 
 ```{r}
 x_max <- 3
