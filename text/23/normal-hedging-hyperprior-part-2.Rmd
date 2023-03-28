@@ -30,71 +30,74 @@ Consider a Bayesian analysis of an outcome variable that has a normal distributi
 [sim1]: http://new.pmean.com/normal-hedging-hyperprior-part1
 [sim3]: http://new.pmean.com/normal-hedging-hyperprior-part3
 
- For simplicity, we will drop any multiplicative constants not involving X, $\theta$, or $\tau$.
+Assume that the mean of the normal distribution, $\mu$, is known and equal to $\mu_F$. An earlier case with precision known and the mean  unknown appears on a different web page. A more general case, with both the mean and the precision of the normal distribution unknown is also described on a separate web page. For simplicity, we will drop any multiplicative constants not involving X or $\tau$
 
-
-$f(X; \mu, \theta) = \sqrt{\frac{\theta}{2 \pi}}e^{-\frac{1}{2}\theta (X-\mu)^2}$
-
-where
-
-$\theta=\frac{1}{\sigma*2}$
-
-Assume that the mean of the normal distribution, $\mu$, is known and equal to $\mu_F$. An earlier case with precision known and the mean  unknown appears on a different web page. A more general case, with both the mean and the precision of the normal distribution unknown is also described on a separate web page. For simplicity, we will drop any multiplicative constants not involving X or $\theta$
-
-$f(X; \theta) \propto \sqrt{\theta}e^{-\frac{1}{2}\theta(X-\mu_F)^2}$
+$f(X; \tau) \propto
+  \sqrt{\tau}
+  e^{-\frac{1}{2}\tau(X-\mu_F)^2}$
 
 The conjugate prior for a normal distribution is a gamma distribution.
 
-$g(\theta; \alpha_0, \beta_0) = \frac{\beta_0^{\alpha_0}}{\Gamma(\alpha_0)} \theta^{\alpha_0-1} e^{-\beta_0 \theta}$
+$g(\tau; \alpha_0, \beta_0) =
+  \frac
+    {\beta_0^{\alpha_0}}
+    {\Gamma(\alpha_0)}
+  \tau^{\alpha_0-1}
+  e^{-\beta_0 \tau}$
 
 Set the prior parameters to
 
 $\alpha_0=n_0$ 
 
-$\beta_0 = n_0 \theta_0$
+$\beta_0=n_0\tau_0$
 
-and remove any multiplicative constants with respect to $\theta$ to get
+and remove any multiplicative constants with respect to $\tau$ to get
 
-$g(\theta; n_0, \theta_0) \propto \theta^{n_0-1} e^{-n_0 \theta_0 \theta}$
+$g(\tau; n_0, \tau_0) \propto \tau^{n_0-1} e^{-n_0 \tau_0 \tau}$
 
 In this parameterization, $n_0$ is the prior sample size. 
 
 You have collected a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
 
-$L(\mathbf{X} | \mu) \propto \theta^{n/2}e^{- \frac{1}{2} \theta\sum(X_i-\mu_0)^2}$
+$L(\mathbf{X} | \mu) \propto
+  \tau^{n/2}
+  e^{- \frac{1}{2} \tau\sum(X_i-\mu_0)^2}$
 
 The posterior distribution is proportional to the product of the prior and the likelihood.
 
-$h(\theta | \mathbf{X}) \propto \theta^{n_0-1} e^{-n_0 \theta / \theta0} \theta^{n/2} e^{- \frac{1}{2} \theta\sum(X_i-\mu_0)^2}$
+$h(\tau | \mathbf{X}) \propto
+  \tau^{n_0-1}
+  e^{-n_0 \tau / \tau0}
+  \tau^{n/2}
+  e^{- \frac{1}{2} \tau\sum(X_i-\mu_0)^2}$
 
 which can be rewritten as
 
-$h(\theta | \mathbf{X}) \propto \theta^{n/2 + n_0-1} e^{-(n_0 \theta0 + \frac{1}{2}\sum(X_i-\mu_0)^2)}$
+$h(\tau | \mathbf{X}) \propto
+  \tau^{n/2 + n_0-1}
+  e^{-(n_0 \tau0 + \frac{1}{2}\sum(X_i-\mu_0)^2)}$
 
 which is a gamma distribution with posterior parameters
 
 $\alpha_1 = n/2+n_0$ and
 
-$\beta_1 = n_0 theta_0 + \frac{1}{2}\sum(X_i-\mu_0)^2)$
+$\beta_1 = n_0 \tau_0 + \frac{1}{2}\sum(X_i-\mu_0)^2)$
 
-This can also be shown to relate to a t-distribution
-
-$\frac{\Gamma \left(\frac{\nu+1}{2} \right)} {\sqrt{\nu\pi}\,\Gamma \left(\frac{\nu}{2} \right)} \left(1+\frac{x^2}{\nu} \right)^{-\frac{\nu+1}{2}}$
-
+### A simple numerical example
 
 ```{r}
 x_max <- 8
 
 n0 <- 4
-theta0 <- 0.5
+tau0 <- 0.5
 
 alpha0 <- n0
-beta0 <- n0*theta0
+beta0 <- n0*tau0
 
 muF <- 2
 n <- 10
 
-x <- muF+ round(rnorm(n), 1)/theta0
+x <- muF+ round(rnorm(n), 1)/tau0
 
 ss <- sum((x-muF)^2)
 
@@ -103,8 +106,8 @@ beta1 <- beta0 + 0.5*ss
 
 x_grid <- seq(0.01, x_max, length=1000)
 
-f <- function(x, mu, theta) {
-  sqrt(theta/2*pi)*exp(-0.5*theta*(x-mu)^2)
+f <- function(x, mu, tau) {
+  sqrt(tau/2*pi)*exp(-0.5*tau*(x-mu)^2)
 }
 
 g <- function(x, alpha, beta) {
@@ -119,7 +122,7 @@ post95 <- qgamma(0.975, alpha1, beta1)
 
 ```
 
-Let's illustrate this with an informative prior with $n_0$ = `r n0` and $\theta_0$ = `r theta0`.
+Let's illustrate this with an informative prior with $n_0$ = `r n0` and $\tau_0$ = `r tau0`.
 
 ```{r}
 g_grid <- g(x_grid, alpha0, beta0)
@@ -132,7 +135,7 @@ data.frame(x=x_grid, y=g_grid) %>%
     geom_line() + xlab(" ") + ylab(" ")
 ```
 
-This corresponds to a fairly informative prior distribution. This distribution places $\theta$ within `r sprintf("%.2f", prior05)` and `r sprintf("%.2f", prior95)` with 95% probability.
+This corresponds to a fairly informative prior distribution. This distribution places $\tau$ within `r sprintf("%.2f", prior05)` and `r sprintf("%.2f", prior95)` with 95% probability.
 
 Let's see what happens with this informative prior if you observe `r n` values of x: `r paste0(x, collapse=", ")`. The likelihood is
 
@@ -160,7 +163,7 @@ data.frame(x=x_grid, y=h_grid) %>%
     geom_line() + xlab(" ") + ylab(" ")
 ```
 
-The posterior distribution is not close to either the prior distribution or the likelihood. It places $\theta$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r theta0` and it excludes `r ss/(n-1)`, the mean of the data.
+The posterior distribution is not close to either the prior distribution or the likelihood. It places $\tau$ within `r sprintf("%.2f", post05)` and `r sprintf("%.2f", post95)` with 95% probability. It excludes the prior mean of `r tau0` and it excludes `r ss/(n-1)`, the mean of the data.
 
 ### The hedging hyperprior
 
@@ -168,11 +171,11 @@ When the likelihood of your data and your informative prior are in conflict, you
 
 Define your prior distribution as a gamma distributions with prior 
 
-mean $\theta_0$ and prior precision
+mean $\tau_0$ and prior precision
 
 $\alpha = 1 + \lambda(n0-1)$ 
 
-$\beta = \alpha \theta_0 $
+$\beta = \alpha \tau_0 $
 
 where $\lambda$ ranges between 0 and 1. When $\lambda=0$, the prior precision reduces to $alpha=1$ which is equivalent to a very diffuse prior. When $lambda=1$, the prior precision is $\alpha=\alpha_0$ or the full strength prior.
 
@@ -184,19 +187,19 @@ knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
 
 ```{r}
 lambda_grid <- seq(0, 1, length=60)
-theta_grid <- seq(0, x_max, length=60)
+tau_grid <- seq(0, x_max, length=60)
 
 
-gstar <- function(theta, lambda) {g(theta, 1+lambda*(alpha0-1), (1+lambda*(alpha0-1))*beta0)}
-density <- outer(theta_grid, lambda_grid, gstar)
+gstar <- function(tau, lambda) {g(tau, 1+lambda*(alpha0-1), (1+lambda*(alpha0-1))*beta0)}
+density <- outer(tau_grid, lambda_grid, gstar)
 op <- par(bg = "white") 
 z_max <- max(density, na.rm=TRUE)
 persp(
-  theta_grid, 
+  tau_grid, 
   lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="tau",
   ylab="lambda",
   theta = 135, 
   phi = 30, 
@@ -204,12 +207,12 @@ persp(
   ticktype="detailed")
 ```
 
-This is the joint prior distribution of $\theta$ and $\lambda$. 
+This is the joint prior distribution of $\tau$ and $\lambda$. 
 
-It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\theta$ is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
+It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\tau$ is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
 
 ```{r, eval=FALSE}
-density <- outer(theta_grid, lambda_grid, gstar)
+density <- outer(tau_grid, lambda_grid, gstar)
 density[16:44, ] <- NA
 op <- par(bg = "white")
 z_max <- max(density, na.rm=TRUE)
@@ -218,7 +221,7 @@ persp(
   lambda_grid, 
   density, 
   zlim=c(0, 1.1*z_max),
-  xlab="theta",
+  xlab="tau",
   ylab="lambda",
   theta = 135, 
   phi = 30, 
@@ -226,14 +229,14 @@ persp(
   ticktype="detailed")
 ```
 
-The likelihood function is constant across all values of $\theta$, so its surface looks like the following.
+The likelihood function is constant across all values of $\tau$, so its surface looks like the following.
 
 ```{r, eval=FALSE}
 lambda_grid <- seq(0, 1, length=60)
-theta_grid <- seq(0, x_max, length=60)
+tau_grid <- seq(0, x_max, length=60)
 
 
-fstar <- function(mu, lambda) {f(xbar, mu, theta0)^n}
+fstar <- function(mu, lambda) {f(xbar, mu, tau0)^n}
 likelihood <- outer(mu_grid, lambda_grid, fstar)
 z_max <- max(likelihood, na.rm=TRUE)
 persp(
@@ -256,7 +259,7 @@ lambda_grid <- seq(0, 1, length=60)
 mu_grid <- seq(0, x_max, length=60)
 
 
-hstar <- function(mu, lambda) {g(mu, mu0, lambda*(theta0-thetaF) + thetaF)*f(xbar, mu, thetaF)^n}
+hstar <- function(mu, lambda) {g(mu, mu0, lambda*(tau0-tauF) + tauF)*f(xbar, mu, tauF)^n}
 density <- outer(mu_grid, lambda_grid, hstar)
 z_max <- max(density, na.rm=TRUE)
 persp(
@@ -291,11 +294,11 @@ contour(
   density,
   labcex=1,
   levels=c(50, 75, 90)/100,
-  xlab="theta",
+  xlab="tau",
   ylab="lambda")
 ```
 
-You can see that the hedging hyperprior did its job. The most probable values of $\lambda$ are small and the prior mean (`r theta0`) is largely ignored in favor of the mean of the data (`r "??"`).
+You can see that the hedging hyperprior did its job. The most probable values of $\lambda$ are small and the prior mean (`r tau0`) is largely ignored in favor of the mean of the data (`r "??"`).
 
 [jor1]: https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/lectures/lecture5.pdf
 [mur1]: https://www.cs.ubc.ca/~murphyk/Papers/bayesGauss.pdf

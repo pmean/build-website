@@ -50,7 +50,8 @@ $f(X; \mu) \propto e^{-\frac{1}{2}\tau_F(X-\mu)^2}$
 
 The conjugate prior for a normal distribution is also a normal distribution.
 
-$g(\mu; \mu_0, \tau_0) \propto e^{- \frac{1}{2}\tau_0(\mu-\mu_0)^2}$
+$g(\mu; \mu_0, \tau_0) \propto
+  e^{- \frac{1}{2}\tau_0(\mu-\mu_0)^2}$
 
 where the prior mean is $\mu_0$ and the prior precision is $\tau_0$.
 
@@ -58,25 +59,40 @@ For an informative prior distribution, $\tau_0$ is usually much smaller than $\t
 
 You have collected a sample of n data points, $\mathbf{X} = X_1, X_2, ..., X_n$. This gives you a likelihood of 
 
-$L(\mathbf{X} | \mu) \propto e^{- \frac{1}{2} \tau_F\sum(X_i-\mu)^2}$
+$L(\mathbf{X} | \mu) \propto 
+  e^{- \frac{1}{2} \tau_F\sum(X_i-\mu)^2}$
 
 Rewrite this by incorporating $\bar{X}$ into the squared term
 
-$L(\mathbf{X} | \mu) \propto e^{-\frac{1}{2} \tau_F \sum (X_i-\bar{X}+\bar{X}-\mu)^2}$
+$L(\mathbf{X} | \mu) \propto
+  e^{-\frac{1}{2} \tau_F \sum (X_i-\bar{X}+\bar{X}-\mu)^2}$
 
 When you square the term inside the sum, the cross-product cancels out, leaving you with
 
-$L(\mathbf{X} | \mu) \propto e^{- \frac{1}{2} \tau_F (\sum(X_i-\bar{X})^2} e^{- \frac{n}{2} \tau_F (\bar{X}-\mu)^2}$
+$L(\mathbf{X} | \mu) \propto
+  e^{- \frac{1}{2} \tau_F (\sum(X_i-\bar{X})^2}
+  e^{- \frac{n}{2} \tau_F (\bar{X}-\mu)^2}$
 
-$L(\mathbf{X} | \mu) \propto e^{-\frac{n-1}{2}\tau_F S^2} e^{-\frac{n}{2} \tau_F (\mu-\bar{X})^2}$
+$L(\mathbf{X} | \mu) \propto
+  e^{-\frac{n-1}{2}\tau_F S^2}
+  e^{-\frac{n}{2} \tau_F (\mu-\bar{X})^2}$
 
 The posterior distribution is proportional to the product of the prior and the likelihood.
 
-$h(\mu | \mathbf{X}) \propto e^{- \frac{1}{2} \tau_0 (\mu-\mu_0)^2} e^{- \frac{n-1}{2} \tau_F S^2} e^{-\frac{n}{2} \tau_F(\mu-\bar{X})^2)}$
+$h(\mu | \mathbf{X}) \propto
+  e^{- \frac{1}{2} \tau_0 (\mu-\mu_0)^2}
+  e^{- \frac{n-1}{2} \tau_F S^2}
+  e^{-\frac{n}{2} \tau_F(\mu-\bar{X})^2)}$
 
 Drop the middle exponential term, which is constant with respect to $\mu$ and use high school algebra ([completing the square][wik1]) to get
 
-$h(\mu | \mathbf{X}) \propto e^{-(n\tau_F+\tau_0)(\mu-\frac{n \tau_F \bar{X} + \tau_0 \mu_0}{n\tau_F+\tau_0})^2}$
+$h(\mu | \mathbf{X}) \propto
+  e^{
+    -(n\tau_F+\tau_0)
+    (\mu-
+      \frac
+        {n\tau_F\bar{X}+\tau_0\mu_0}
+        {n\tau_F+\tau_0})^2}$
 
 which is a normal distribution. The posterior mean
 
@@ -89,6 +105,8 @@ $n \tau_F + \tau_0$
 The posterior mean can be written as a weighted average of the prior mean and the mean of the observed data.
 
 $\frac{n \tau_F}{n\tau_F+\tau_0}\bar{X} + \frac{\tau_0}{n\tau_F+\tau_0}\mu_0$
+
+### A simple numerical example
 
 ```{r}
 x_max <- 8
