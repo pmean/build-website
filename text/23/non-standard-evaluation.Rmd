@@ -20,6 +20,10 @@ I want to briefly describe how NSE allows you to write shorter and cleaner code 
 
 <!---more--->
 
+### A brief warning
+
+The example I show below are simple. It helps me to understand things better by working out simple examples. But the examples are so simple that you might ask yourself why bother with this, or why not try something even simpler. Bear with me, though, because the simple examples illustrate some general principles that will help you in more complex settings.
+
 ### Dispensing with quote marks
 
 Suppose you have a data frame with columns labelled w, x, y, and z. If you wanted to create a smaller data frame with just w and x, you could use the following code.
@@ -34,7 +38,7 @@ new_data <- old_data[ , c("w", "x")]
 new_data
 ```
 
-But `select`, a function in dplyr can do the same work without the quote marks.
+But `select`, a function in dplyr, can do the same work without the quote marks.
 
 ```{r}
 new_data <- select(old_data, w, x)
