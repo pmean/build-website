@@ -1,0 +1,197 @@
+---
+title: "Non-standard evaluation inside functions and loops"
+source: "New"
+date: "2023-04-04"
+categories:
+- Blog post
+tags:
+- R programming
+output: html_document
+---
+
+```{r setup, echo=FALSE}
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+```
+
+One of the big changes that the tidyverse made to the R programming language is the use of non-standard evaluation (NSE). This is sometimes described more explicitly as tidy evaluation. What NSE gives you is shorter and cleaner code by dispensing with quote marks and data frame prefixes in many situations. Unfortunately, NSE requires a bit of extra work when you are using it inside a loop or a function.
+
+I want to briefly describe how NSE allows you to write shorter and cleaner code and then explain the adaptations that you need when using it inside functions and loops.
+
+<!---more--->
+
+### Dispensing with quote marks
+
+Suppose you have a data frame with columns labelled w, x, y, and z. If you wanted to create a smaller data frame with just w and x, you could use the following code.
+
+```{r}
+old_data <- data.frame(
+  w=0:3,
+  x=1:4,
+  y=2:5,
+  z=3:6)
+new_data <- old_data[ , c("w", "x")]
+new_data
+```
+
+But `select`, a function in dplyr can do the same work without the quote marks.
+
+```{r}
+new_data <- select(old_data, w, x)
+new_data
+```
+
+There are other nice features in select, such as the ability to select columns that meet certain criteria (such as `is.numeric`) or column names that start or end with a certain string.
+
+### Dispensing with data frame prefixes
+
+In a talk I attended many years ago, a really smart R programmer said that you should always keep the names of data frames very short. The reason, he explained, is that you end up typing the name of that data frame over and over and over. 
+
+Here's an example. Suppose you wanted to select just those rows in a data frame where the variable w is less than two. The r code to do this is
+
+```{r}
+new_data <- old_data[old_data$w < 2, ]
+new_data
+```
+
+Notice how you had to type `old_data` twice? It is not unusual in R to maybe have to type that data frame name three or even four times in a single statement.
+
+The `filter` function in dplyr simplifies the code.
+
+```{r}
+new_data <- filter(old_data, w < 2)
+new_data
+```
+
+### What, exactly, is non-standard evaluation?
+
+I wish I could explain NSE better. In particular, I cannot explain the mechanics behind NSE. There are some excellent references, but these are very abstract and difficult to read.
+
+Brodie Gaslam. Standard and non-standard evaluation in R. Blog post, 2022-05-05. Available in [html format][gas1].
+
+Chapters 17 to 21 of Hadley Wickham. Advanced R, Second edition. Available in [html format][wic1]
+
+Hadley Wickham. Non-standard evaluation. Vignette for lazyeval, 2019-03-15. Available in [html format][wic2].
+
+[gas1]: https://www.brodieg.com/2020/05/05/on-nse/
+[wic1]: https://adv-r.hadley.nz/index.html
+[wic2]: https://cran.r-project.org/web/packages/lazyeval/vignettes/lazyeval.html
+
+### What is lazy evaluation?
+
+Another feature of NSE in R is called lazy evaluation. Lazy evaluation can sometimes greatly improve the efficiency of a program by deferring evaluation of an argument inside a function until it is really needed. It is unclear to me why lazy evaluation is lumped in with NSE, but the reference listed below tries to explain this.
+
+Chapter 6 in Greg Wilson. R for Data Engineers, 2021-01-11. Available in [html format][wil1].
+
+[wil1]: https://tidynomicon.github.io/tidynomicon/nse.html
+
+### Non-standard evaluation inside a loop.
+
+Sometimes you want to do a repetitive task by using the `for` loop in R. Suppose, for example, that you wanted to calculate the median of each column in a data frame. The standard approach in R works easily.
+
+```{r}
+for (v in c("w", "x")) {
+  print(table(old_data[ , v]))
+}
+```
+
+But this does not work for `count`, the dplyr equivalent to table
+
+```{r, error=TRUE}
+for (v in c("w", "x")) {
+  count(old_data, v)
+}
+```
+
+The dplyr functions create a hidden data frame (`.data`) and you need to reference this hidden data.
+
+```{r, error=TRUE}
+for (v in c("w", "x")) {
+  print(count(old_data, .data[[v]]))
+}
+```
+
+### Using NSE inside a function
+
+It gets tricky when you want to write a function that includes something like `select` or `filter`. Consider building a function to reduce the number of columns in a data frame. 
+
+It's pretty easy with standard R code.
+
+```{r}
+reduce <- function(old_data, variable_name) {
+  old_data[ , variable_name]
+}
+reduce(old_data, "w")
+```
+
+But the following code won't work.
+
+```{r, error=TRUE}
+reduce <- function(old_data, variable_name) {
+  select(old_data, variable_name)
+}
+reduce(old_data, w)
+```
+
+Putting the variable_name in quotes does work, but produces a warning.
+
+```{r, error=TRUE}
+reduce(old_data, "w")
+```
+
+If you want to use non-standard evaluation into a function, then you have to "embrace" the one or more of the function arguments. Embracing sounds like something romantic, but it actually just means putting a pair of curly braces around the variable.
+
+```{r, error=TRUE}
+reduce <- function(old_data, variable_name) {
+  select(old_data, {{variable_name}})
+}
+reduce(old_data, w)
+```
+
+If you want to reduce to two or more columns, use the `...` function argument.
+
+```{r, error=TRUE}
+reduce <- function(old_data, ...) {
+  select(old_data, ...)
+}
+reduce(old_data, w, x)
+```
+
+If you need to send strings to a function, use `.data[[ ]]`.
+
+```{r, error=TRUE}
+reduce <- function(old_data, variable_string) {
+  select(old_data, .data[[variable_string]])
+}
+reduce(old_data, "w")
+```
+
+This only works for a single string. If you try to pass a vector of strings, you get an error.
+
+```{r, error=TRUE}
+reduce <- function(old_data, variable_string) {
+  select(old_data, .data[[variable_string]])
+}
+reduce(old_data, c("w", "x"))
+```
+
+In this case, the dplyr library offer two functions, `any_of` and `all_of`.
+
+```{r, error=TRUE}
+reduce <- function(old_data, variable_string) {
+  select(old_data, any_of(variable_string))
+}
+reduce(old_data, c("w", "x"))
+```
+
+The two functions work similarly, but differ in how they handle cases where strings in the vector do not match up with the column names.
+
+### Some final thoughts
+
+The complexities caused by NSE when used inside loops and functions does tend to defeat the purpose of NSE. You might be tempted to ditch the dplyr package (and other tidyverse packages like ggplot2) because they require confusing code hacks when used inside loops and functions.
+
+This is an over-reaction, in my opinion. There are so many benefits to using dplyr in regular r code, that the added complexity when you need to incorporate it inside loops and functions is a small price to pay.
+
+You always have the option of using the power and simplicity dplyr for most of your code and only falling back on earlier code when you need to do something inside a loop or function.
+
+As for me, I plan to "embrace" the complexities associated with NSE. I like dplyr, ggplot2, and so many other of the tidyverse packages so much that I will find a way to remember things like `.data`, the `...` argument, and the `any_of / all_of` functions
