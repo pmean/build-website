@@ -196,6 +196,6 @@ The complexities caused by NSE when used inside loops and functions does tend to
 
 This is an over-reaction, in my opinion. There are so many benefits to using dplyr in regular r code, that the added complexity when you need to incorporate it inside loops and functions is a small price to pay.
 
-You always have the option of using the power and simplicity dplyr for most of your code and only falling back on earlier code when you need to do something inside a loop or function.
+You always have the option of using the power and simplicity of dplyr for most of your code and only falling back on earlier code when you need to do something inside a loop or function.
 
-As for me, I plan to "embrace" the complexities associated with NSE. I like dplyr, ggplot2, and so many other of the tidyverse packages so much that I will find a way to remember things like `.data`, the `...` argument, and the `any_of / all_of` functions
+As for me, I like dplyr, ggplot2, and so many other of the tidyverse packages so much that I will plan to "embrace" coding hacks like `.data`, the `...` argument, and the `any_of / all_of` functions
