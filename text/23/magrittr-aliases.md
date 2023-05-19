@@ -17,6 +17,6 @@ When you are using pipes in R, sometimes you need access to a function that does
 
 Stefan Milton Bache, Hadley Wickham, Lionel Henry. Aliases. Available in [html format][bac1].
 
-[bac1]:https://magrittr.tidyverse.org/reference/aliases.html
+[bac1]: https://magrittr.tidyverse.org/reference/aliases.html
 
 </div>
