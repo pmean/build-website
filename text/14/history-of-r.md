@@ -488,4 +488,9 @@ David Smith, 20 years of R, presented at DC satRdays. Available as a [YouTube vi
 
 [smi1]: https://www.youtube.com/watch?v=iq_biXEIx-U
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/history-of-r/
+[sim2]: http://blog.pmean.com
+
 </div>

@@ -93,4 +93,7 @@ Answer to pop quiz: when you have a logic statement with OR, and one of
 the two components is TRUE, then it doesn't matter whether the second
 component is TRUE or FALSE. So R evaluates TRUE \| NA as TRUE.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/comparing-two-vectors/
+[sim2]: http://blog.pmean.com

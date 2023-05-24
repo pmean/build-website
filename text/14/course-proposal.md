@@ -99,4 +99,7 @@ participants need to advance their careers. This course will emphasize
 communication with clients and customers, both to attract new clients
 and to keep existing clients happy.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/course-proposal/
+[sim2]: http://blog.pmean.com

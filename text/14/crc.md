@@ -92,4 +92,7 @@ work done by an undertrained or unqualified CRC could leave you and your
 clinic liable to civil and criminal penalties (e.g., through violations
 of patient privacy). This is not an area you want to skimp in.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/crc/
+[sim2]: http://blog.pmean.com

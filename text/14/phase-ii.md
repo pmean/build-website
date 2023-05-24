@@ -109,4 +109,7 @@ of a sample size. You might have to work a bit harder (well, maybe a lot
 harder) than running a stock power calculation, but you should make this
 effort.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/phase-ii/
+[sim2]: http://blog.pmean.com

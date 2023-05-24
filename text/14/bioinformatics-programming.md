@@ -23,7 +23,10 @@ Bioinformatics Programming Skills. PLoS Comput Biol.
 2009;5(12):e1000589. doi:10.1371/journal.pcbi.1000589. Available at:
 <http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000589>
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/bioinformatics-programming/
+[sim2]: http://blog.pmean.com
 
 
 

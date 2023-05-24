@@ -358,6 +358,7 @@ text(end.x,end.y,end.nm,cex=1.5,col="darkred",adj=0)
 
 ![](http://www.pmean.com/new-images/14/cox-regression02.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/cox-regression/
+[sim2]: http://blog.pmean.com

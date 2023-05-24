@@ -33,4 +33,7 @@ Carlo methods and the R programming language. His current research
 focuses on the use of Bayesian models to predict patient accrual in
 prospective clinical trials.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/research-interests-2014/
+[sim2]: http://blog.pmean.com

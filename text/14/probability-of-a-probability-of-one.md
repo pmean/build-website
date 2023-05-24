@@ -72,4 +72,7 @@ all Gs. The posterior distribution would look something like this.
 The probability that pi equals one is roughly 10%. When I get a chance,
 I will show the math for this example, and maybe the R code.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/probability-of-a-probability-of-one/
+[sim2]: http://blog.pmean.com

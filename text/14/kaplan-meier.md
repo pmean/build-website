@@ -113,4 +113,7 @@ displays a "+" at any censored value.
 There's a lot more on survival models which I hope to cover in another
 blog entry.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/kaplan-meier/
+[sim2]: http://blog.pmean.clom

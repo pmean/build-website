@@ -56,6 +56,7 @@ the<U+00A0> Google project to digitize a whole bunch of books and make them
 accessible through their search engine. But I have to admit that I'm
 glad to have access to all those books for finding a formula like this.
 
-<U+00A0>
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
+[sim1]: http://blog.pmean.com/efficiency-of-block-design/
+[sim2]: http://blog.pmean.com

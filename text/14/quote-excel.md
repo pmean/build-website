@@ -18,5 +18,7 @@ and 15 minutes making the graphs." Andrew Gelman, quoted at
 
 <!---more--->
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
+[sim1]: http://blog.pmean.com/quote-excel/
+[sim2]: http://blog.pmean.com

@@ -45,4 +45,7 @@ I'll read them back using load instead of dget. I won't be able to peek
 at the files with a text editor, but the time savings will more than
 offset this inconvenience.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/slow-dget/
+[sim2]: http://blog.pmean.com

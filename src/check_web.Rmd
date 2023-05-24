@@ -1,0 +1,49 @@
+---
+title: "Check web files for links to new pages"
+author: "Steve Simon"
+date: "Created 2022-05-26"
+output: html_document
+---
+
+### Setup
+
+```{r setup, echo=TRUE}
+knitr::opts_chunk$set(echo=TRUE)
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+```
+
+### Read html files
+
+```{r read_old}
+path_prefix <- "c:/Users"
+path_suffix <- "dropbox/professional/fun stuff/update-website"
+
+list.files(path_prefix) %>%
+  str_subset("(Simons)|(steve)") -> me
+
+full_path <- glue("{path_prefix}/{me}/{path_suffix}")
+
+subdir_list=c("99", paste0("0", 0:9), 10:22)
+html_files <- NULL
+for (yr in rev(subdir_list)) {
+  file_path <- paste0(full_path, "/", yr)
+  yr_files <- list.files(file_path, pattern="html")
+  if (length(yr_files)==0) next
+  for (fn in yr_files) {
+    read_lines(paste0(file_path, "/", fn)) %>%
+      str_subset('<p>This page (is moving)|(has moved)') %>%
+      str_remove('.*<a href="http://new.pmean.com/') %>%
+      str_remove('/">.*') %>%
+      str_remove('<p>This page is being ') %>%
+      str_remove('.</p>') %>%
+      str_trim -> link_file
+    if (length(link_file)==0) link_file <- "NOTHING"
+    cat(glue("\n\n{yr}/{fn}"))
+    cat(glue(" links to {link_file}."))
+  }
+}
+```

@@ -189,4 +189,7 @@ I haven't presented these results yet, so I don't have a report on what
 the reaction will be. If I'm way off on my assumptions, I may write a
 new blog entry or add to this blog entry.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/simple-sample-size/
+[sim2]: http://blog.pmean.com

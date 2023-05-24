@@ -44,4 +44,7 @@ At the same time, be sure to present the confidence interval, as the
 very large width (plus/minus 17) is an even better indicator of the
 inadequacy of the sample size.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/post-hoc-sample-size/
+[sim2]: http://blog.pmean.com

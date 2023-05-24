@@ -53,4 +53,7 @@ relationship between the speed at which you drive and the frequency and
 duration of your trips. But if there are biases, they would be a lot
 less than the biases inherent in the reporter's sampling method.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/car-speeds/
+[sim2]: http://blog.pmean.com

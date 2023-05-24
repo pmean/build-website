@@ -24,6 +24,7 @@ Review. April 29
 
 ![](http://www.pmean.com/new-images/14/data-doesnt-speak01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/data-doesnt-speak/
+[sim2]: http://blog.pmean.com

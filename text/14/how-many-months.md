@@ -63,4 +63,7 @@ peers is important. They're the ones who are most in tune with the
 standards of research in your field, and they should be able to tell you
 how long a time frame you need to make your research persuasive.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/how-many-months/
+[sim2]: http://blog.pmean.com

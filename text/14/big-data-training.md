@@ -24,6 +24,9 @@ Available at:
 
 ![](http://www.pmean.com/new-images/14/big-data-training01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/big-data-training/
+[sim2]: http://blog.pmean.com
 
 

@@ -51,4 +51,7 @@ but it turns out that 120 replications would do just fine here as well.
 
 \[To be continued.\]
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/design-monte-carlo/
+[sim2]: http://blog.pmean.com

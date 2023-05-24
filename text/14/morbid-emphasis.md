@@ -16,4 +16,7 @@ instruments of torture \[rather\] than as diagnostic aids in the art and
 science of data analysis. --- George W. Cobb, as cited at
 <http://www.cmaj.ca/content/165/9/1226.long>
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/morbid-emphasis/
+[sim2]: http://blog.pmean.com

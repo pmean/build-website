@@ -43,6 +43,7 @@ doi:10.1186/1745-6215-15-73. Available at:
 
 ![](http://www.pmean.com/new-images/14/predicting-trial-results01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/predicting-trial-results/
+[sim2]: http://blog.pmean.com

@@ -51,8 +51,7 @@ statistics](http://www.edge.org/response-detail/25349).
 
 ![](http://www.pmean.com/new-images/14/large-rcts01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-<U+00A0>
-
-
+[sim1]: http://blog.pmean.com/large-rcts/
+[sim2]: http://blog.pmean.com

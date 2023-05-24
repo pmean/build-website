@@ -438,6 +438,7 @@ for (v in v.con) {
 
 ![](http://www.pmean.com/new-images/14/more-kaplan-meier18.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/more-kaplan-meier/
+[sim2]: http://blog.pmean.com

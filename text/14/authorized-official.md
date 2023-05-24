@@ -67,4 +67,7 @@ Now I know that this is rather boring, but I write this stuff down for
 my own future reference, as I will not remember any of this the next
 time I write a grant.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/authorized-official/
+[sim2]: http://blog.pmean.com

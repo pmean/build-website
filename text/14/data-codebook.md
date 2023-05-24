@@ -81,4 +81,7 @@ though the recommendations vary widely.
 <http://dss.princeton.edu/online_help/analysis/codebook.htm>
 * <http://www.sscnet.ucla.edu/issr/da/tutor/tutcode.htm>
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/data-codebook/
+[sim2]: http://blog.pmean.com

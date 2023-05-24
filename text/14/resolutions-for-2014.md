@@ -27,4 +27,7 @@ but might still put some longer items there or items that require
 regular updates. I plan to eventually (it may take several years) move
 all my content to this blog.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/resolutions-for-2014/
+[sim2]: http://blog.pmean.com

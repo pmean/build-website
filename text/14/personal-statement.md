@@ -88,4 +88,7 @@ Google, and gained valuable experience with software development
 methodologies (e.g., version control, unit testing), that are vital for
 production of software by a research team.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/personal-statement/
+[sim2]: http://blog.pmean.com

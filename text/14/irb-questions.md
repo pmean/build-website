@@ -142,6 +142,7 @@ Portnoy JM, Simon SD. Is 3-mm less drowsiness important?. Ann Allergy
 Asthma Immunol. 2003 Oct;91(4):324-5. Available at:
 <http://www.ncbi.nlm.nih.gov/pubmed/14582809>
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/irb-questions/
+[sim2]: http://blog.pmean.com

@@ -17,13 +17,12 @@ methods for handling missing values.
 
 Pigott TD. A Review of Methods for Missing Data. Educational Research
 and Evaluation. 2001;7(4):353-383. doi:10.1076/edre.7.4.353.8937.
-Available at<U+00A0>
+Available at
 <http://www.stat.uchicago.edu/~eichler/stat24600/Admin/MissingDataReview.pdf>
 
 ![](http://www.pmean.com/new-images/14/review-missing-data01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-<U+00A0>
-
-
+[sim1]: http://blog.pmean.com/review-missing-data/
+[sim2]: http://blog.pmean.com

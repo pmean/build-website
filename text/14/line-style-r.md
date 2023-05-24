@@ -23,6 +23,7 @@ Melissa Clarkson "A guide to the line style arguments for R graphics"
 
 ![](http://www.pmean.com/new-images/14/line-style-r01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/line-style-r/
+[sim2]: http://blog.pmean.com

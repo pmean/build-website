@@ -45,4 +45,7 @@ Both files can be read in as delimited files (with spaces and/or tabs as
 delimiters). The latter data set could also be read in using a fixed
 column format.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/analysis-of-continuous-variables/
+[sim2]: http://blog.pmean.com

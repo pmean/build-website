@@ -113,4 +113,7 @@ simple power calculations like this. The reason to show this example is
 to demonstrate how the logit transformation simplifies the graphical
 presentation of Monte Carlo results.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/design-monte-carlo-2/
+[sim2]: http://blog.pmean.com

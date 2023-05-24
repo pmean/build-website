@@ -73,8 +73,7 @@ http://en.wikipedia.org/w/index.php?title=SAS\_(software)&oldid=610196791.
 SAS Institute. About SAS. Available at:
 http://www.sas.com/en\_us/company-information.html\#history.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
-
-
+[sim1]: http://blog.pmean.com/history-of-sas/
+[sim2]: http://blog.pmean.com

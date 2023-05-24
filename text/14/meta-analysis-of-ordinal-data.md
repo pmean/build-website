@@ -43,4 +43,7 @@ Of course, with no consensus among researchers, you will probably have
 at least one study choosing each of the different analysis strategies,
 making it next to impossible to pool the results.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/meta-analysis-of-ordinal-data/
+[sim2]: http://blog.pmean.com

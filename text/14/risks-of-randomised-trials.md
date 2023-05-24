@@ -23,8 +23,7 @@ Accessed April 28, 2014.
 
 ![](http://www.pmean.com/new-images/14/risks-of-randomised-trials01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-<U+00A0>
-
-
+[sim1]: http://blog.pmean.com/risks-of-randomised-trials/
+[sim2]: http://blog.pmean.com

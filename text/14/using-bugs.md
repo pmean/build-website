@@ -187,14 +187,13 @@ data analysis is moderately complex
 - but it turns out that this level of
 complexity does not get worse as the problems themselves get more
 complex. This is in contrast to classical methods that are easy for easy
-problems
-- but which escalate rapidly into the incomprehensible.
+problems, but which escalate rapidly into the incomprehensible.
 
 Bayesian methods are especially useful for multi-level models (also
-known as mixed models)
-- which are difficult to the point of being almost
+known as mixed models), which are difficult to the point of being almost
 intractactable using classical methods.
 
-<U+00A0>
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
+[sim1]: http://blog.pmean.com/using-bugs/
+[sim2]: http://blog.pmean.com

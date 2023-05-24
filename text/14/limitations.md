@@ -47,4 +47,7 @@ the process. Most people are comfortable with reasonable requests to
 review things. Most people will also respect your request to leave your
 name out if you can't agree on appropriate language in the report.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/limitations/
+[sim2]: http://blog.pmean.com

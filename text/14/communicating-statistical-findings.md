@@ -24,6 +24,7 @@ Available at <http://www.ghement.ca/jsm2014.html>
 
 ![](http://www.pmean.com/new-images/14/communicating-statistical-findings01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/communicating-statistical-findings/
+[sim2]: http://blog.pmean.com

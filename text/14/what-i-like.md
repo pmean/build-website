@@ -32,4 +32,7 @@ methods used, and they do this by writing user contributed libraries in
 R as part of their dissertation. It takes a while for programs like SAS
 to get someone internally to program these methods.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/what-i-like/
+[sim2]: http://blog.pmean.com

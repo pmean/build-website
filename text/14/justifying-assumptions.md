@@ -36,6 +36,7 @@ blog. October 17
 
 ![](http://www.pmean.com/new-images/14/justifying-assumptions01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/justifying-assumptions/
+[sim2]: http://blog.pmean.com

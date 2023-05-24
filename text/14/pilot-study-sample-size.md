@@ -31,6 +31,7 @@ Julious. Pharmaceut. Statist. 2005; 4: 287--291. Abstract available at
 
 ![](http://www.pmean.com/new-images/14/pilot-study-sample-size01.png)
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
-
-
+[sim1]: http://blog.pmean.com/pilot-study-sample-size/
+[sim2]: http://blog.pmean.com
