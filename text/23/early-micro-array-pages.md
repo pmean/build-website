@@ -1,5 +1,5 @@
 ---
-title: "Early pages on micro-arrrays"
+title: "Early pages on micro-arrays"
 source: "New"
 date: "2023-02-21"
 categories:
