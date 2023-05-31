@@ -1,7 +1,7 @@
 ---
-title: "Version control basics, updating a local project using git"
+title: "Version control basics, creating a personal repository"
 author: Steve Simon
-date: 2023-05-28
+date: 2023-05-30
 categories:
 - Blog post
 tags:
@@ -11,7 +11,7 @@ output: html_document
 
 This is part of series of articles on how to set up and use version control on your computer. There are many systems for version control. In these articles, you will use a program, git, and a repository, github.
 
-This article explains how to make and track changes to a local project download git. 
+This article explains how to create a personal repository. 
 
 <!---more--->
 

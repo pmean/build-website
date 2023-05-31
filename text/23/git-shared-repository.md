@@ -11,7 +11,7 @@ output: html_document
 
 This is part of series of articles on how to set up and use version control on your computer. There are many systems for version control. In these articles, you will use a program, git, and a repository, github.
 
-This article explains how to make and track changes to a local project download git. 
+This article explains how to work with a shared repository. 
 
 <!---more--->
 

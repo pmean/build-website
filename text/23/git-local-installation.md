@@ -139,9 +139,9 @@ So, type
 git add README.md
 ```
 
-on the CLI. Now if you check in with `git status`, you will see that this file is in the list of changes to be committed.
+on the CLI. Now if you check in with `git status`, you will see that this file is in the list of changes to be committed. This is sometimes called staging a file.
 
-You tell git to update the folder using the `commit` command. Every commit command requires at least a brief message. When you do this regularly, you create a historical record of how your porject has changed over time.
+You tell git to update the project using the `commit` command. Every commit command requires at least a brief message. When you do this regularly, you create a historical record of how your porject has changed over time.
 
 Scott Munro, author of the [XKCD comic strip][xkc1], has a humorous take on these messages.
 
