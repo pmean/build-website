@@ -15,7 +15,7 @@ output: html_document
 
 Brief description.
 
-Citation. Available in [html format][xxx1].
+[Author][xxx1]. Title.
 
 [xxx1]: 
 
