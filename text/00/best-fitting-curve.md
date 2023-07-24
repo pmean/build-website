@@ -6,9 +6,13 @@ date: 2000-01-26
 categories:
 - Blog post
 tags:
+- Being updated
 - Modeling issues
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I have a graph of the trend for the mean frequency
 of injuries among children from 1 to 11 years of age. The shape of the
 curve suggests a nonlinear relationship between the age and the

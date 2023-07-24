@@ -1,14 +1,18 @@
 ---
-title: 
+title: Association versus causation
 source: http://www.pmean.com/00/causation.html
 author: Steve Simon
 date: 2000-01-27
 categories:
 - Blog post
 tags:
+- Being updated
 - Corroborating evidence
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, Everyone says that smoking causes cancer, but we
 can't really say that, can we? There is an association between smoking
 and cancer, but we know that association does not imply causation,

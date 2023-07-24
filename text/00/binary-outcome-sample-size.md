@@ -6,9 +6,13 @@ date: 2000-08-23
 categories:
 - Blog post
 tags:
+- Being updated
 - Sample size justification
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I have to calculate a sample size for a binary
 outcome variable. The research study is on breast feeding failures
 within 7 to 10 days of birth for mothers who intended to breast feed.

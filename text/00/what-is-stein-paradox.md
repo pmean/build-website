@@ -1,14 +1,18 @@
 ---
-title: Stein's paradox
+title: "Stein's paradox"
 source: http://www.pmean.com/00/stein.html
 author: Steve Simon
 date: 2000-01-27
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical theory
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, What is "Stein's Paradox"?*
 
 > Stein's paradox is rather technical and I'm not sure I can do it
