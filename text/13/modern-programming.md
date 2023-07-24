@@ -1,5 +1,6 @@
 ---
 title: "Developing a computer program using modern methods"
+source: http://www.pmean.com/13/program.html
 author: Steve Simon
 date: 2013-09-03
 categories:

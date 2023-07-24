@@ -1,5 +1,6 @@
 ---
 title: New post
+source: "New"
 author: Steve Simon
 date: 20xx-xx-xx
 categories:

@@ -1,5 +1,6 @@
 ---
 title: "Simple example of Fourier transform"
+source: http://www.pmean.com/13/wavelet.html
 author: Steve Simon
 date: 2013-12-07
 categories:

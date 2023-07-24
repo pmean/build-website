@@ -1,5 +1,6 @@
 ---
 title: Another pitch for my graphic novel project
+source: "New"
 author: Steve Simon
 date: 2023-07-06
 categories:

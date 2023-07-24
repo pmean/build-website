@@ -1,5 +1,6 @@
 ---
 title: An introduction to diagnostic testing 
+source: http://www.pmean.com/03/diagnostic.html
 author: Steve Simon
 date: 2003-09-08
 categories:

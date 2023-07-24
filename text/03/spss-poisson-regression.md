@@ -1,5 +1,6 @@
 ---
 title: SPSS syntax for Poisson Regression, Marta Garcia-Granero, PhD
+source: http://www.pmean.com/03/poiss_syntax.html
 author: Steve Simon
 date: 2003-07-29
 categories:

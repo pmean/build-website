@@ -1,5 +1,6 @@
 ---
 title: Steps in a typical equivalence data analysis
+source: http://www.pmean.com/03/equivalence.html
 author: Steve Simon
 date: 2003-11-27
 categories:

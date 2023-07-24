@@ -1,5 +1,6 @@
 ---
 title: "Hedging your bets on an informative prior"
+source: http://www.pmean.com/13/hedge.html
 author: Steve Simon
 date: 2013-09-26
 categories:

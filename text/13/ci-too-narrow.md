@@ -1,5 +1,6 @@
 ---
 title: "The confidence interval for my odds ratio is too narrow!"
+source: http://www.pmean.com/13/narrow.html
 author: Steve Simon
 date: 2013-04-23
 categories:

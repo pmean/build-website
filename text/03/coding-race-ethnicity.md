@@ -1,5 +1,6 @@
 ---
 title: Coding race/ethnicity
+source: http://www.pmean.com/05/RaceEthnicity.html
 author: Steve Simon
 date: 2003-02-03
 categories:

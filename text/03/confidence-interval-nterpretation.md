@@ -1,5 +1,6 @@
 ---
 title: Confidence intervals
+source: http://www.pmean.com/04/confidence.html
 author: Steve Simon
 date: 2004-11-29
 categories:

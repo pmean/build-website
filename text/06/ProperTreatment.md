@@ -1,5 +1,6 @@
 ---
 title: Proper treatment will cure a cold in seven days, but
+source: Lost page
 author: Steve Simon
 date: 2006-03-29
 categories:
