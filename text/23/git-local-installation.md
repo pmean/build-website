@@ -1,5 +1,6 @@
 ---
 title: "Version control basics, installing a local version of git"
+source: "New"
 author: Steve Simon
 date: 2023-05-28
 categories:

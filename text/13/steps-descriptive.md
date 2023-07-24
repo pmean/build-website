@@ -1,5 +1,6 @@
 ---
 title: "Sample chapter: The first three steps in a descriptive data analysis"
+source: http://www.pmean.com/13/descriptive.html
 author: Steve Simon
 date: 2013-08-01
 categories:

@@ -1,5 +1,6 @@
 ---
 title: "Running JAGS from R, a simple example"
+source: http://www.pmean.com/13/jags.html
 author: Steve Simon
 date: 2013-09-04
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Diagnostic
+source: http://www.pmean.com/03/diagnostic.html
 author: Steve Simon
 date: 2003-01-01
 categories:

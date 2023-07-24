@@ -1,5 +1,6 @@
 ---
 title: Data is/are
+source: http://www.pmean.com/03/data_is.html
 author: Steve Simon
 date: 2003-11-26
 categories:

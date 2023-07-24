@@ -1,5 +1,6 @@
 ---
 title: A simple model of nonlinear growth
+source: http://www.pmean.com/03/nonlinear_growth.html
 author: Steve Simon
 date: 2003-10-01
 categories:

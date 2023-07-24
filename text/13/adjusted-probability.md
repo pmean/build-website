@@ -1,5 +1,6 @@
 ---
 title: "How do you compute an adjusted probability?"
+source: http://www.pmean.com/13/adjusted.html
 author: Steve Simon
 date: 2013-04-26
 categories:

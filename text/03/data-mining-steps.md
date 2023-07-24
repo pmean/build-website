@@ -1,5 +1,6 @@
 ---
 title: Steps in a typical data mining model
+source: http://www.pmean.com/03/datamining.html
 author: Steve Simon
 date: 2003-09-22
 categories:

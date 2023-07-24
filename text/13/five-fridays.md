@@ -1,5 +1,6 @@
 ---
 title: "Five Fridays in a month"
+source: http://www.pmean.com/13/calendar.html
 author: Steve Simon
 date: 2013-12-01
 categories:

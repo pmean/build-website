@@ -18,7 +18,7 @@ zpad <- function(x) {
   ifelse(nchar(x)==1, paste0("0", x), x)
 }
 
-update <- FALSE
+update <- TRUE
 print("Check 1")
 ```
 
@@ -67,7 +67,9 @@ check_source <- function(file_text) {
   }
   return(message)
 }
+```
 
+```{r}
 # Check date
 check_date <- function(file_text) {
   message <- NULL
@@ -82,7 +84,9 @@ check_date <- function(file_text) {
 }
 
 # Check title
+```
 
+```{r}
 # Create links for each file
 create_file_list <- function(f, date_list) {
   f %>%

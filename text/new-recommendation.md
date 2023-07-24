@@ -1,6 +1,7 @@
 ---
 title: "New recommendation"
 source: "New"
+author: Steve Simon
 date: "20xx-xx-xx"
 categories:
 - Recommendation

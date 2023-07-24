@@ -15,7 +15,7 @@ output: html_document
 
 Some of the topics are a bit abstract, but in general, a quite nice description of how Python differs from R.
 
-[Tomasz Kalinowski, Kevin Ushey, JJ Allaire, Yuan Tang]. Primer on Python for R Users[kal1].
+[Tomasz Kalinowski, Kevin Ushey, JJ Allaire, Yuan Tang][kal1]. Primer on Python for R Users.
 
 [kal1]: https://rstudio.github.io/reticulate/articles/python_primer.html
 

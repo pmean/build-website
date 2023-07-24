@@ -1,5 +1,6 @@
 ---
 title: Maximum likelihood estimation
+source: http://www.pmean.com/03/mle.html
 author: Steve Simon
 date: 2003-05-06
 categories:
