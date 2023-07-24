@@ -6,10 +6,13 @@ date: 1999-08-18
 categories:
 - Blog post
 tags:
+- Being updated
 - Data management
 - SPSS software
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 *Dear Professor Mean
 - I am trying to use dates in SPSS for certain calculations. For example

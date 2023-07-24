@@ -1,16 +1,17 @@
 ---
-title: (Being updated)
+title: What is information theory
 source: http://www.pmean.com/99/InfoModel.htm
 author: Steve Simon
-date: 1999-01-01
+date: 2004-05-26
 categories:
 - Blog post
 tags:
 - Being updated
+- Information theory
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

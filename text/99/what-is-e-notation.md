@@ -6,9 +6,13 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Writing research papers
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, In my regression output, I saw that following
 value: -2.384E-03. What does this E notation mean?*
 

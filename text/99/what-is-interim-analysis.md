@@ -6,9 +6,13 @@ date: 1999-09-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Early stopping
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I'm going on a job interview and I know one of
 the questions they will ask me is about interim analysis. What should I
 tell them? \-- Harried Howard*

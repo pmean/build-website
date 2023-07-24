@@ -2,15 +2,16 @@
 title: Steps for establishing a quality control program
 source: http://www.pmean.com/99/quality.html
 author: Steve Simon
-date: 1999-01-01
+date: 2004-03-12
 categories:
 - Blog post
 tags:
 - Being updated
+- Quality control
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

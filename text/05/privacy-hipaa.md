@@ -1,13 +1,16 @@
 ---
-title: Lost page
+title: HIPAA and research
 author: Steve Simon
-date: 1998-01-01
+date: 2005-09-22
 categories:
 - Blog post
 tags:
 - Being updated
+- Privacy in research
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

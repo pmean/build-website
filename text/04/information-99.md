@@ -5,6 +5,7 @@ date: 2004-05-10
 categories:
 - Blog post
 tags:
+- Being updated
 - Information theory
 output: html_document
 ---

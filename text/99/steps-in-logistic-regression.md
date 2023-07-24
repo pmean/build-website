@@ -6,12 +6,12 @@ date: 1999-09-27
 categories:
 - Blog post
 tags:
+- Being updated
 - Logistic regression
 output: html_document
 ---
-****[StATS]:** Guidelines for logistic regression
-models (created September 27
-- 1999)**
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 There are three steps in a typical logistic regression model.
 

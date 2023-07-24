@@ -6,9 +6,13 @@ date: 1999-09-21
 categories:
 - Blog post
 tags:
+- Being updated
 - Poisson regression
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean
 - I have just received feedback on a manuscript
 under review in which one reviewer recommended use of Poisson

@@ -1,13 +1,16 @@
 ---
-title: Lost page
+title: Object oriented features of R
 author: Steve Simon
-date: 1998-01-01
+date: 2005-12-19
 categories:
 - Blog post
 tags:
 - Being updated
+- R programming
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

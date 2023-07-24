@@ -6,9 +6,13 @@ date: 1999-09-21
 categories:
 - Blog post
 tags:
+- Being updated
 - Linear regression
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Let no man ignorant of geometry enter* - Sign over Plato's Academy in
 Athens
 

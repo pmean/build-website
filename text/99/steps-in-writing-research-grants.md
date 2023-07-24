@@ -6,9 +6,13 @@ date: 1999-09-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Grant writing
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I'm writing a research grant to look at the
 impact of managed care on the care of children with chronic epilepsy.
 How do I structure the grant so I'm guaranteed to get funding? \--

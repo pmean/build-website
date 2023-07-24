@@ -6,11 +6,15 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Confidence intervals
 - Diagnostic testing
 - Sample size justification
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean
 - How big should a study of a diagnostic test be? I
 want to estimate a sample size for the sensitivity and specifity of a

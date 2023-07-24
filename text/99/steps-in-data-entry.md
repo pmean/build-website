@@ -6,9 +6,13 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Data management
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I'm about to start typing in my research data. Do
 you have any general guidelines for data entry?*
 

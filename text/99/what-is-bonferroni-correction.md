@@ -6,9 +6,12 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Multiple comparisons
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 *Dear Professor Mean, I keep reading about something called a Bonferroni
 correction. Somehow this method keeps researchers from going on a

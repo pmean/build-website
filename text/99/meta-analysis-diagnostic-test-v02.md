@@ -6,9 +6,12 @@ date: 1999-11-15
 categories:
 - Blog post
 tags:
+- Being updated
 - Diagnostic testing
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 There is no real consensus yet on how to best combine data from several studies of a diagnostic test. I will outline a few approaches that seem to make sense. In addition to this page
 - I have a [general overview on meta-analysis](metaanalysis.html) and a non-technical introduction on the [practical interpretation of a meta-analysis](../12a/journal/meta-analysis.asp).

@@ -6,9 +6,13 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Statistical theory
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, In your Simple Descriptive Statistics class, you
 described the standard deviation as the square root of the **average**
 squared deviation. If it is an average, how come we divide by the

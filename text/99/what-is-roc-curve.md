@@ -6,9 +6,13 @@ date: 1999-08-19
 categories:
 - Blog post
 tags:
+- Being updated
 - Diagnostic testing
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean
 - I was at a meeting in Belgium and the buzz
 statistic was ROC Analysis. I think it stands for Receiver Operating

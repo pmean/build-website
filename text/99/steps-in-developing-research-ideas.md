@@ -6,9 +6,13 @@ date: 1999-09-20
 categories:
 - Blog post
 tags:
+- Being updated
 - Grant writing
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 This is an HTML format version of an email by Ronan Conroy on April 9,
 1999 to edstat-l, an Internet list and to sci.stat.edu, a USENET group.
 This email summarized a presentation he made about how to develop ideas

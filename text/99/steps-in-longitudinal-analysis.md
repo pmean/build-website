@@ -6,9 +6,13 @@ date: 1999-10-15
 categories:
 - Blog post
 tags:
+- Being updated
 - Multilevel models
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 [This is a very early draft]
 
 Longitudinal data are data where each patient is observed on multiple

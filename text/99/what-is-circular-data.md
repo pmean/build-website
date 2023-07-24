@@ -6,9 +6,12 @@ date: 1999-12-15
 categories:
 - Blog post
 tags:
+- Being updated
 - Circular data
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 When your data has a cyclic or circular component, then the use of basic trigonometry can provide a statistical model that allows for cyclic effect. Examples of cyclic components are time of the day and wind direction.
 

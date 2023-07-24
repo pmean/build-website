@@ -6,10 +6,12 @@ date: 1999-09-13
 categories:
 - Blog post
 tags:
+- Being updated
 - Hypothesis testing
 output: html_document
 ---
-****[StATS]:** Type II error (created 1999-09-13)**
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 *Dear Professor Mean, A journal reviewer criticized the small sample
 size in my research study and suggested that I mention a Type II error

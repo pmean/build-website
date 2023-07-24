@@ -6,9 +6,13 @@ date: 1999-08-18
 categories:
 - Blog post
 tags:
+- Being updated
 - Grant writing
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I want to do some research, but before the
 hospital won't approve anything until I have a protocol with a research
 hypothesis. I'm not sure why a research hypothesis is important. Can

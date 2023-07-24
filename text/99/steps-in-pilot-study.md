@@ -6,10 +6,14 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Ask Professor Mean
 - Pilot studies
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I am proposing a research study that will examine
 a complex intervention of diet, exercise, and behavioral modification
 for some of my pediatric patients who need to lose weight. I want to

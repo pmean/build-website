@@ -6,9 +6,13 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Confidence intervals
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I found a journal article with a confidence
 interval that was asymmetric. For example, the authors reported a
 mortality difference of 5% and a 95% confidence interval of -1.2% to

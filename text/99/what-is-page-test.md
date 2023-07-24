@@ -6,9 +6,13 @@ date: 1999-09-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Unusual data
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I have recently come across a statistical test
 (Page's L test),with which I am unfamiliar. Does anyone either have
 information about this test or know where I might find information about

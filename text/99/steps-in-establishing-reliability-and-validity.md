@@ -2,13 +2,16 @@
 title: "Steps in establishing validity/reliability"
 source: http://www.pmean.com/99/reliability.html
 author: Steve Simon
-date: 1999-01-01
+date: 2004-01-13
 categories:
 - Blog post
 tags:
 - Being updated
+- Measuring agreement
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 This page is being updated from a version on the original website.
 
