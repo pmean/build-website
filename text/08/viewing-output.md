@@ -1,18 +1,19 @@
 ---
-title: To be updated
+title: Viewing SPSS and SAS output without buying SPSS and SAS
 author: Steve Simon
-date: 2008-01-01
+date: 2008-12-17
 categories:
 - Blog post
 tags:
 - Being updated
+- SAS software
+- SPSS software
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
-
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
