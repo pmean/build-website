@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Venn diagrams with proportional areas
 author: Steve Simon
-date: 2008-01-01
+date: 2008-09-23
 categories:
 - Blog post
 tags:
 - Being updated
+- Graphical display
 output: html_document
 ---
 

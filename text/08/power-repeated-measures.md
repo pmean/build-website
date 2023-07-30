@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Example of power calculation for a repeated measures design
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-11
 categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
 

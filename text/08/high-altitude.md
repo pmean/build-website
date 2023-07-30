@@ -6,6 +6,8 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Poisson regression
+- Teaching resources
 output: html_document
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: Reading abstracts instead of the full paper
 author: Steve Simon
-date: 2008-01-01
+date: 2008-11-05
 categories:
 - Blog post
 tags:
 - Being updated
+- Critical appraisal
 output: html_document
 ---
 

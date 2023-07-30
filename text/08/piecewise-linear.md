@@ -1,11 +1,12 @@
 ---
-title: How do I fit a piecewise linear
+title: How do I fit a piecewise linear regression
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-07
 categories:
 - Blog post
 tags:
 - Being updated
+- Linear regression
 output: html_document
 ---
 

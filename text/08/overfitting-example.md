@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: A simple example of overfitting
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-08
 categories:
 - Blog post
 tags:
 - Being updated
+- Modeling issues
 output: html_document
 ---
 

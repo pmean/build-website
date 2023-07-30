@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Evaluating private conflicts of interest
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-01
 categories:
 - Blog post
 tags:
 - Being updated
+- Conflict of interest
 output: html_document
 ---
 

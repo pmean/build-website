@@ -1,11 +1,12 @@
 ---
 title: How to report a one-tailed Fisher's Exact Test
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-12
 categories:
 - Blog post
 tags:
 - Being updated
+- Hypothesis testing
 output: html_document
 ---
 

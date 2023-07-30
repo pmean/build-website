@@ -5,6 +5,7 @@ date: 2008-01-07
 categories:
 - Blog post
 tags:
+- Being updated
 - Critical appraisal
 output: html_document
 ---

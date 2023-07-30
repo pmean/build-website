@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Controversies with a test for ovarian cancer
 author: Steve Simon
-date: 2008-01-01
+date: 2008-08-27
 categories:
 - Blog post
 tags:
 - Being updated
+- Ethics in research
 output: html_document
 ---
 

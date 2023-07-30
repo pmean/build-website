@@ -5,6 +5,7 @@ date: 2008-05-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Accrual problems in clinical trials
 output: html_document
 ---

@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Does prevalence affect sensitivity
 author: Steve Simon
-date: 2008-01-01
+date: 2008-01-31
 categories:
 - Blog post
 tags:
 - Being updated
+- Diagnostic testing
 output: html_document
 ---
 

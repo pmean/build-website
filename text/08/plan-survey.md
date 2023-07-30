@@ -1,11 +1,12 @@
 ---
 title: To be updated
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-28
 categories:
 - Blog post
 tags:
 - Being updated
+- Survey design
 output: html_document
 ---
 

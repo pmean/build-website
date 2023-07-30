@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Statisticians are not gatekeepers
 author: Steve Simon
-date: 2008-01-01
+date: 2008-11-04
 categories:
 - Blog post
 tags:
 - Being updated
+- Human side of statisticis
 output: html_document
 ---
 

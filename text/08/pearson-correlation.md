@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Pearson correlation and ordinal data don't mix
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-11
 categories:
 - Blog post
 tags:
 - Being updated
+- Linear regression
 output: html_document
 ---
 

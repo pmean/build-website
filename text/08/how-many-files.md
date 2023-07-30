@@ -1,11 +1,12 @@
 ---
 title: How many files
 author: Steve Simon
-date: 2008-01-01
+date: 2008-06-24
 categories:
 - Blog post
 tags:
 - Being updated
+- Website details
 output: html_document
 ---
 
