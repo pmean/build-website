@@ -1,11 +1,12 @@
 ---
 title: To be updated
 author: Steve Simon
-date: 2008-01-01
+date: 2008-08-09
 categories:
 - Blog post
 tags:
 - Being updated
+- Multiple comparisons
 output: html_document
 ---
 

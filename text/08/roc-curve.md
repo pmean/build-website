@@ -1,7 +1,7 @@
 ---
-title: To be updated
+title: ROC curve for an imperfect gold standard
 author: Steve Simon
-date: 2008-01-01
+date: 2008-03-12
 categories:
 - Blog post
 tags:

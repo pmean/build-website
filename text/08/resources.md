@@ -1,5 +1,5 @@
 ---
-title: To be updated
+title: Resources for Statistical Evidence in Medical Trials
 author: Steve Simon
 date: 2008-01-01
 categories:

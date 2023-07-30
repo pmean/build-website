@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Another inquiry about slash and burn models
 author: Steve Simon
-date: 2008-01-01
+date: 2008-08-20
 categories:
 - Blog post
 tags:
 - Being updated
+- Logistic regression
 output: html_document
 ---
 

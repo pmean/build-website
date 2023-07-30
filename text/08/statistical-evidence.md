@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Statistical evidence book
 output: html_document
 ---
 

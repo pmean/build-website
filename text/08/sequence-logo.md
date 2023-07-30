@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Applying the sequence logo concept to data quality
 author: Steve Simon
-date: 2008-01-01
+date: 2008-09-04
 categories:
 - Blog post
 tags:
 - Being updated
+- Data quality
 output: html_document
 ---
 

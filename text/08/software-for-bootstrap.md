@@ -1,11 +1,12 @@
 ---
-title: Software for bootstrap and
+title: Software for bootstrap and resampling
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-18
 categories:
 - Blog post
 tags:
 - Being updated
+- Resampling methods
 output: html_document
 ---
 

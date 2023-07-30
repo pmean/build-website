@@ -1,13 +1,11 @@
 ---
-title: To be updated
+title: Upcoming topics in Poisson regression
 author: Steve Simon
 date: 2008-04-24
 categories:
 - Blog post
 tags:
 - Obsolete page
-- Poisson regression
-- Website details
 output: html_document
 ---
 

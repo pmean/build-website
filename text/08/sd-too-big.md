@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: A standard deviation that is too big for its own britches
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-22
 categories:
 - Blog post
 tags:
 - Being updated
+- Descriptive statistics
 output: html_document
 ---
 

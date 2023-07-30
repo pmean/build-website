@@ -1,5 +1,5 @@
 ---
-title: To be updated
+title: Interpretations for a two by two table
 author: Steve Simon
 date: 2008-10-18
 categories:

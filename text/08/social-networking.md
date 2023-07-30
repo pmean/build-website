@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Social networking as a business tool
 author: Steve Simon
-date: 2008-01-01
+date: 2008-08-19
 categories:
 - Blog post
 tags:
 - Being updated
+- Human side of statistics
 output: html_document
 ---
 

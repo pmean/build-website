@@ -5,9 +5,12 @@ date: 2008-03-12
 categories:
 - Blog post
 tags:
+- Being updated
 - Multilevel models
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I received an email inquiry about a project that involved four repeat
 assessments on 10 different subjects. The question started out as, is
 my sample size 10 or is it 40?

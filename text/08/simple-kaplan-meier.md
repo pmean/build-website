@@ -5,9 +5,12 @@ date: 2008-01-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Survival analysis
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 In response to a query, I wanted to write up a simple example of how to
 calculate survival probabilities when you have censored data. It is
 adapted from Chapter 6 of my book, [Statistical Evidence in Medical

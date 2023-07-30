@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Processing skip fields in SPSS
 author: Steve Simon
-date: 2008-01-01
+date: 2008-09-25
 categories:
 - Blog post
 tags:
 - Being updated
+- SPSS software
 output: html_document
 ---
 

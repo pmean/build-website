@@ -1,5 +1,5 @@
 ---
-title: To be updated
+title: 'Reviews of "Statistical Evidence."'
 author: Steve Simon
 date: 2008-01-01
 categories:

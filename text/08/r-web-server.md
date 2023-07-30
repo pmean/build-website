@@ -5,9 +5,12 @@ date: 2008-06-17
 categories:
 - Blog post
 tags:
+- Being updated
 - R software
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I'm working on a project for planning and monitoring accrual patterns
 in clinical trials. This will eventually lead, I hope, to a grant to
 support this work. I have some existing R scripts and want to examine

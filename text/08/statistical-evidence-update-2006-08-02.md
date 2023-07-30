@@ -1,11 +1,12 @@
 ---
 title: To be updated
 author: Steve Simon
-date: 2008-01-01
+date: 2006-08-02
 categories:
 - Blog post
 tags:
 - Being updated
+- Statistical evidence book
 output: html_document
 ---
 

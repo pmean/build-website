@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Where did that standard deviation come from
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-09
 categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
 

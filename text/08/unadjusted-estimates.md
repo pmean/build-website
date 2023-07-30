@@ -5,10 +5,13 @@ date: 2008-03-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Modeling issues
 - Writing research papers
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone on the [Medstats discussion
 group](../category/InterestingWebsites.html#MeStXx) asked about
 reporting the analysis of a model without adjustment for covariates

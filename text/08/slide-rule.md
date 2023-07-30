@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Likelihood ratio slide rule
 author: Steve Simon
-date: 2008-01-01
+date: 2002-10-24
 categories:
 - Blog post
 tags:
 - Being updated
+- Likelihood ratio slide rule
 output: html_document
 ---
 

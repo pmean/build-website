@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Teaching classes for a fee
 author: Steve Simon
-date: 2008-01-01
+date: 2011-07-11
 categories:
 - Blog post
 tags:
 - Being updated
+- Teaching resources
 output: html_document
 ---
 
