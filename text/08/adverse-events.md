@@ -6,8 +6,11 @@ categories:
 - Blog post
 tags:
 - Adverse events in clinical trials
+- Being updated
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Most Institutional Review Boards (IRBs) have difficulty coping with the
 volume of adverse events that study sponsors report to them. The FDA
 held a public meeting about this issue recently, and some written

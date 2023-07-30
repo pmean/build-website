@@ -9,6 +9,8 @@ tags:
 - Website details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 When you are writing a web page, you do not have much control over how
 it is displayed at a remote site. If you really wanted this level of
 control, you should use a more rigid format, such as Adobe PDF files.

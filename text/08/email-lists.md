@@ -1,11 +1,12 @@
 ---
 title: Getting on and off various email lists 
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-17
 categories:
 - Blog post
 tags:
 - Being updated
+- Teaching resources
 output: html_document
 ---
 

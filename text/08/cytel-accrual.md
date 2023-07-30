@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Accrual problems in clinical trials
 output: html_document
 ---
 
@@ -16,6 +17,8 @@ Note that the image file, CytelAccrual_files/image002.jpg, is missing.
 <!---More--->
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
+
+Note the earlier version is missing.
 
 [sim1]: http://www.pmean.com/08/CytelAccrual.html
 [sim2]: http://www.pmean.com/original_site.html

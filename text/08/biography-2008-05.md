@@ -5,9 +5,12 @@ date: 2008-05-09
 categories:
 - Blog post
 tags:
+- Being updated
 - Professional details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I'm giving a talk today, and I was asked to provide some material that
 could be used to introduce me. Please use any or all of this or to
 substitute anything that you feel is appropriate.

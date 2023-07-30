@@ -1,11 +1,12 @@
 ---
-title: Statistical Evidence in Medical Trials 
+title: Explaining CART models in simple terms 
 author: Steve Simon
-date: 2005-01-27
+date: 2008-11-05
 categories:
 - Blog post
 tags:
 - Being updated
+- Data mining
 output: html_document
 ---
 

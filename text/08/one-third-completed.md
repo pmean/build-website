@@ -8,6 +8,8 @@ tags:
 - Early stopping
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone asked me a very good question regarding interim analysis. If the
 call for an interim analysis is specified as occurring one-third (and
 two-third) of the way through a study, what does that mean. In a study

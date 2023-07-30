@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Information theory
 output: html_document
 ---
 

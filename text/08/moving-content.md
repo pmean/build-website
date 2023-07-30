@@ -5,9 +5,12 @@ date: 2008-03-12
 categories:
 - Blog post
 tags:
+- Being updated
 - Website details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > I may be setting up a private website to complement the material on
 > this website that Children's Mercy Hospital has been so grateful to
 > provide for me. This would include content that is inappropriate for a

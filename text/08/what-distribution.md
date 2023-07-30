@@ -1,11 +1,12 @@
 ---
-title: What distribution does this data
+title: What distribution does this data come from
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-23
 categories:
 - Blog post
 tags:
 - Being updated
+- Modeling issues
 output: html_document
 ---
 

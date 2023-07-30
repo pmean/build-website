@@ -8,6 +8,8 @@ tags:
 - Systematic overviews
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 There are two approaches to combining results in a meta-analysis. They
 are called the fixed effects model and the random effects model. The
 fixed effects model effectively weights each study by the sample size,

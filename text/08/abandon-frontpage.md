@@ -1,11 +1,12 @@
 ---
 title: Should I abandon FrontPage? 
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-24
 categories:
 - Blog post
 tags:
 - Being updated
+- Website details
 output: html_document
 ---
 

@@ -5,6 +5,7 @@ date: 2008-09-17
 categories:
 - Blog post
 tags:
+- Being updated
 - Information theory
 - Being updated
 output: html_document

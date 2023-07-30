@@ -8,6 +8,8 @@ tags:
 - Website details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > Part of the personal value I get from these web pages is making note
 > of something important that I may need six months down the road. But
 > there are now so many webpages that even when I write it down, I still

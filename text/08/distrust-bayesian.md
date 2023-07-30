@@ -1,10 +1,11 @@
 ---
 title: Distrust of a Bayesian
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-01
 categories:
 - Blog post
 tags:
+- Bayesian statistics
 - Being updated
 output: html_document
 ---

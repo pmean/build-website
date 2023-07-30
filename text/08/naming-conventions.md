@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Naming conventions for variables
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-30
 categories:
 - Blog post
 tags:
 - Being updated
+- Data management
 output: html_document
 ---
 

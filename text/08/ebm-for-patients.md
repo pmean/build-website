@@ -5,9 +5,12 @@ date: 2008-04-23
 categories:
 - Blog post
 tags:
+- Being updated
 - Information searching
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > There was an interesting email exchange on the email discussion group
 > [EVIDENCE-BASED-HEALTH\@JISCMAIL.AC.UK](../category/InterestingWebsites.html#EvBaHe).
 > The first correspondent (TH) described a series of workshops that are

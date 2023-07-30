@@ -1,11 +1,12 @@
 ---
 title: A misleading bar graph
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-15
 categories:
 - Blog post
 tags:
 - Being updated
+- Graphical display
 output: html_document
 ---
 

@@ -5,9 +5,12 @@ date: 2008-06-17
 categories:
 - Blog post
 tags:
+- Being updated
 - Small sample size issues
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I get lots of questions about how small a sample size can be before you
 can't perform a quantitative analysis and instead are forced to
 summarize the data in a qualitative fashion. The most recent question

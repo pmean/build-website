@@ -1,10 +1,11 @@
 ---
 title: A simple Bayesian model for 
 author: Steve Simon
-date: 2008-01-01
+date: 2008-05-26
 categories:
 - Blog post
 tags:
+- Accrual problems in clinical trials
 - Being updated
 output: html_document
 ---

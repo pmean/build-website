@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Normality assumptions for the paired t-test
 author: Steve Simon
-date: 2008-01-01
+date: 2008-10-14
 categories:
 - Blog post
 tags:
 - Being updated
+- Hypothesis testing
 output: html_document
 ---
 

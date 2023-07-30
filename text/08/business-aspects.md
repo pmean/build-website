@@ -1,11 +1,12 @@
 ---
-title: Business aspects of an independent
+title: Business aspects of an independent statistical consultant
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-28
 categories:
 - Blog post
 tags:
 - Being updated
+- Human side of statistics
 output: html_document
 ---
 

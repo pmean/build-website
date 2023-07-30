@@ -6,8 +6,10 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Bayesian statistics
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 I'm working with Byron Gajewski to develop some models for monitoring the progress of clinical trials. Too many researchers overpromise and underdeliver on the planned sample size and the planned completion date of their research. This leads to serious delays in the research and inadequate precision and power when the research is completed. We want to develop some tools that will let researchers plan the pattern of patient accrual in their studies. These tools will also let the researchers carefully monitor the progress of their studies and let them take action quickly if accrual rates are suffering.
 

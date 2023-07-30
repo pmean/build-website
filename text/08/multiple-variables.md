@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Entropy as a measure of data quality across multiple variables
 author: Steve Simon
-date: 2008-01-01
+date: 2008-08-25
 categories:
 - Blog post
 tags:
 - Being updated
+- Information theory
 output: html_document
 ---
 

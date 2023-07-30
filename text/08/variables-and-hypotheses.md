@@ -9,6 +9,7 @@ tags:
 - Hypothesis testing
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 EDF 5841 Methods of Educational Research. Guide 2: Variables and Hypotheses. Susan Carol Losh, Florida State University, September 3, 2001. Description: This webpage provides simple definitions of terms commonly used in educational research such as intervening variable, conceptual hypothesis, and operational variables. URL: edf5481-01.fa01.fsu.edu/Guide2.html
 

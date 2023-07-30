@@ -8,6 +8,8 @@ tags:
 - Critical appraisal
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I have volunteered to give a talk for a group of statisticians which
 discusses an article I am preparing: "The post-modern assault on
 evidence-based medicine." I might give this talk on the first Monday in

@@ -1,11 +1,12 @@
 ---
-title: To be updated
+title: Comparing a set of microarray experiments to a model experiment
 author: Steve Simon
-date: 2008-01-01
+date: 2008-11-01
 categories:
 - Blog post
 tags:
 - Being updated
+- Data science
 output: html_document
 ---
 

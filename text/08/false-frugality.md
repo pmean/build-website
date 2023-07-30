@@ -1,11 +1,12 @@
 ---
 title: A false sense of frugality
 author: Steve Simon
-date: 2005-01-27
+date: 2008-12=17
 categories:
 - Blog post
 tags:
 - Being updated
+- Data management
 output: html_document
 ---
 

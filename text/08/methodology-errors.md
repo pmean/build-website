@@ -1,11 +1,13 @@
 ---
-title: To be updated
+title: Errors in statistical methodology
 author: Steve Simon
-date: 2008-01-01
+source: http://www.pmean.com/08/MethodologyErrors.html 
+date: 2008-10-19
 categories:
 - Blog post
 tags:
 - Being updated
+- Critical appraisal
 output: html_document
 ---
 

@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Observational studies
 output: html_document
 ---
 

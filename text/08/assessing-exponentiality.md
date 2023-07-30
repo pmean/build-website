@@ -5,9 +5,11 @@ date: 2008-02-25
 categories:
 - Blog post
 tags:
+- Being updated
 - Modeling issues
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 The following 41 observations:
 

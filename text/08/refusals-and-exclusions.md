@@ -8,6 +8,8 @@ tags:
 - Accrual problems in clinical trials
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone sent me an email asking about the work that Byron Gajewski and
 I have done on monitoring accrual patterns in clinical trials. She had
 been doing something similar at her job and wanted to see if we could

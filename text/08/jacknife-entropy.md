@@ -1,5 +1,5 @@
 ---
-title: Should I abandon FrontPage? 
+title: Jackknife applied to entropy calculations 
 author: Steve Simon
 date: 2008-09-15
 categories:

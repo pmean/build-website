@@ -1,11 +1,12 @@
 ---
-title: What does the FDA think about Bayesian
+title: What does the FDA think about Bayesian statistics
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-28
 categories:
 - Blog post
 tags:
 - Being updated
+- Bayesian statistics
 output: html_document
 ---
 

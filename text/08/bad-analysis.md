@@ -5,10 +5,13 @@ date: 2008-03-24
 categories:
 - Blog post
 tags:
+- Being updated
 - Human side of statistics
 - Multiple comparisons
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I received an email from someone who was being asked to perform a
 subgroup analysis that is likely to produce confusing and
 counter-intuitive results. I was asked to help draft some language to

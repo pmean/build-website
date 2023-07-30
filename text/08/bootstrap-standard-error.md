@@ -5,9 +5,12 @@ date: 2008-06-20
 categories:
 - Blog post
 tags:
+- Being updated
 - Unusual data
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 A regular correspondent (JU) on the [MEDSTATS email discussion
 group](../category/InterestingWebsites.html#MeStXx) asked about using
 the bootstrap to estimate the standard error of the mean in a simple

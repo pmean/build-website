@@ -5,6 +5,7 @@ date: 2008-06-14
 categories:
 - Blog post
 tags:
+- Being updated
 - Poisson regression
 output: html_document
 ---
