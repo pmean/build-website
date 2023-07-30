@@ -31,7 +31,7 @@ If you look at the [Comprehensive R Archive network][cra1] you will find even mo
 
 You should do a PubMed search, of course, as well as Google Scholar. If these fail to yield anything, try a general search on Google. Alas, most of the high ranking links in Google point to commercial sources. As much as I believe in the web, I think you'll find that you have to supplement your net-accessible resources with a book or two and some articles that you have to pay for (if you're not affiliated with a medical library).
 
-I'm not sure that I'd spring for the price of some of these commercial packages though, unless you are running some very expensive clinical trials. The price of some of these packages is very steep. Try R first, but if R is too much to learn, then perhaps you need to spend the big money for a commercial package.This page is being updated from a version on the original website.
+I'm not sure that I'd spring for the price of some of these commercial packages though, unless you are running some very expensive clinical trials. The price of some of these packages is very steep. Try R first, but if R is too much to learn, then perhaps you need to spend the big money for a commercial package.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

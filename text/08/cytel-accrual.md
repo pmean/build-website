@@ -9,7 +9,7 @@ tags:
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 Note that the image file, CytelAccrual_files/image002.jpg, is missing.
 
