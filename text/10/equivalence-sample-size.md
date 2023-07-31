@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Justifying the sample size in an equivalence study
 author: Steve Simon
 date: 2010-11-02
 categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
 

@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Closed form solution for homogenous accrual
 author: Steve Simon
 date: 2010-12-01
 categories:
 - Blog post
 tags:
 - Being updated
+- Accrual problems in clinical trials
 output: html_document
 ---
 

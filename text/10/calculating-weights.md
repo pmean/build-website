@@ -5,7 +5,7 @@ date: 2010-03-22
 categories:
 - Blog post
 tags:
-- Being updated
+- Sampling
 output: html_document
 ---
 

@@ -2,11 +2,12 @@
 title: "What is principal components analysis?"
 author: Steve Simon
 source: http://www.pmean.com/10/pca.html
-date: 2010-07-19
+date: 2010-08-19
 categories:
 - Blog post
 tags:
 - Being updated
+- Big data
 output: html_document
 ---
 

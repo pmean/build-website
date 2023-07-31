@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Hypothesis testing
 output: html_document
 ---
 

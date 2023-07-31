@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Mixed models
 output: html_document
 ---
 

@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Time series
 output: html_document
 ---
 

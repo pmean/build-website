@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Evidence based medicine
 output: html_document
 ---
 

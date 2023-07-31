@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Modeling issues
 output: html_document
 ---
 

@@ -6,7 +6,9 @@ date: 2010-10-04
 categories:
 - Blog post
 tags:
+- Accrual problems in clinical trials
 - Being updated
+- Professional details
 output: html_document
 ---
 

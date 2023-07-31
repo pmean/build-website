@@ -1,10 +1,11 @@
 ---
-title: Lost page
+title: Using the Poisson distribution for modeling accrual
 author: Steve Simon
 date: 2010-12-01
 categories:
 - Blog post
 tags:
+- Accrual problems in clinical trials
 - Being updated
 output: html_document
 ---

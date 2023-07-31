@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Big data
 output: html_document
 ---
 

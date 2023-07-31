@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Work in pharma versus work in academia
 author: Steve Simon
 date: 2010-10-23
 categories:
 - Blog post
 tags:
 - Being updated
+- Human side of statistics
 output: html_document
 ---
 

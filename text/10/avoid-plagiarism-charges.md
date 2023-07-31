@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Writing research papers
 output: html_document
 ---
 

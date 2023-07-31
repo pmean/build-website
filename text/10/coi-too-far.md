@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Taking conflict of interest too far
 author: Steve Simon
 date: 2010-11-06
 categories:
 - Blog post
 tags:
 - Being updated
+- Conflict of interest
 output: html_document
 ---
 

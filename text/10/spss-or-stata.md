@@ -7,6 +7,8 @@ categories:
 - Blog post
 tags:
 - Being updated
+- SPSS software
+- Stata software
 output: html_document
 ---
 

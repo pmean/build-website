@@ -6,6 +6,7 @@ date: 2010-04-02
 categories:
 - Blog post
 tags:
+- Big data
 - Being updated
 output: html_document
 ---

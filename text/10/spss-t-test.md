@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- SPSS software
 output: html_document
 ---
 

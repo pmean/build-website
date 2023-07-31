@@ -1,11 +1,12 @@
 ---
-title: Lessons learned the hard way. Don't
+title: Lessons learned the hard way. Don't presume to know how your software handles missing value codes
 author: Steve Simon
-date: 2010-01-01
+date: 2010-05-28
 categories:
 - Blog post
 tags:
 - Being updated
+- Missing data
 output: html_document
 ---
 

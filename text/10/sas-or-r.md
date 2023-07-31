@@ -7,6 +7,8 @@ categories:
 - Blog post
 tags:
 - Being updated
+- R software
+- SAS software
 output: html_document
 ---
 

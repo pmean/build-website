@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Linear regression
 output: html_document
 ---
 

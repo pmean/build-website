@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Acknowledgments for my second book
 author: Steve Simon
 date: 2010-07-26
 categories:
 - Blog post
 tags:
 - Being updated
+- Professional details
 output: html_document
 ---
 

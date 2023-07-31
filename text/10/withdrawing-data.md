@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Ethics in research
 output: html_document
 ---
 

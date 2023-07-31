@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Mathematics
 output: html_document
 ---
 

@@ -7,6 +7,8 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Poisson regression
+- Sample size justification
 output: html_document
 ---
 

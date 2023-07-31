@@ -1,11 +1,12 @@
 ---
-title: Lost page
+title: Survey of librarians in the Midcontinental Chapter of the Medical Library Association
 author: Steve Simon
 date: 2010-02-10
 categories:
 - Blog post
 tags:
 - Being updated
+- Professional details
 output: html_document
 ---
 

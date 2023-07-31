@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
 P.Mean: Reconciling the various ways to calculate power for an ANOVA model (created 2010-10-16).

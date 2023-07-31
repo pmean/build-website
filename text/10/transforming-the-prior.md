@@ -6,6 +6,7 @@ date: 2010-11-25
 categories:
 - Blog post
 tags:
+- Bayesian statistics
 - Being updated
 output: html_document
 ---

@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Probability distributions
 output: html_document
 ---
 

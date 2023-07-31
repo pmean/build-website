@@ -1,11 +1,13 @@
 ---
-title: Lost page
+title: Making simple modifications to a graph in SPSS
 author: Steve Simon
 date: 2010-05-26
 categories:
 - Blog post
 tags:
 - Being updated
+- Graphical display
+- SPSS software
 output: html_document
 ---
 

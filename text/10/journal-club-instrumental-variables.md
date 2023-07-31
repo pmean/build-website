@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Instrumental variables
 output: html_document
 ---
 

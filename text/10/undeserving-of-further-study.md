@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Critical appraisal
 output: html_document
 ---
 

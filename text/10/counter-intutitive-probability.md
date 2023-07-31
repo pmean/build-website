@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Probability
 output: html_document
 ---
 

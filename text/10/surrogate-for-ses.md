@@ -1,11 +1,12 @@
 ---
-title: What is a good surrogate measure for
+title: What is a good surrogate measure for socioeconomic status
 author: Steve Simon
-date: 2010-01-01
+date: 2010-05-03
 categories:
 - Blog post
 tags:
 - Being updated
+- Evidence Based Medicine
 output: html_document
 ---
 

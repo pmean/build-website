@@ -6,7 +6,7 @@ date: 2010-01-20
 categories:
 - Blog post
 tags:
-- Being updated
+- Professional details
 output: html_document
 ---
 

@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Survey design
 output: html_document
 ---
 
