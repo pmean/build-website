@@ -1,15 +1,16 @@
 ---
-title: To be updated
+title: What is the Lan-DeMets approach to interim analysis
 author: Steve Simon
-date: 2008-01-01
+date: 2008-11-21
 categories:
 - Blog post
 tags:
 - Being updated
+- Early stopping in clinical trials
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

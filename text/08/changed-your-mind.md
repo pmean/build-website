@@ -5,9 +5,12 @@ date: 2008-01-18
 categories:
 - Blog post
 tags:
+- Being updated`
 - Teaching resources
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 A group called The Edge (www.edge.org) asks a question each year of
 prominent scientists and a few select non-scientists. This group
 represents from a broad range of backgrounds and disciplines and

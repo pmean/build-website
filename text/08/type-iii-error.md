@@ -5,9 +5,12 @@ date: 2008-01-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Hypothesis testing
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > *Dear Professor Mean, What is the definition of a Type III error?*
 >
 > A Type III error is the belief that there are three types of errors in

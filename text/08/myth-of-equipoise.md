@@ -9,6 +9,7 @@ tags:
 - Ethics in research
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 The Myth of Equipoise in Phase 1 Clinical Trials. Adil E. Shamoo, PhD. Posted 11/05/2008 at Medscape J Med. 2008;10(11):254. Note that a free registriation may be required. Excerpt: Phase 1 clinical research trials using healthy volunteers are conducted for the sole purpose of serving the public good (a utilitarian concept). The literature on equipoise analysis does not exclude phase 1 trials with controls or healthy volunteers from the claim of being in "equipoise." The continued perpetuation of this ethically and scientifically invalid concept undermines the ethics of research with human subjects. URL: www.medscape.com/viewarticle/582554
 

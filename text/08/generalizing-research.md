@@ -1,15 +1,16 @@
 ---
 title: Difficulties in generalizing
 author: Steve Simon
-date: 2008-01-01
+date: 2006-02-15
 categories:
 - Blog post
 tags:
 - Being updated
+- Extrapolations in research
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

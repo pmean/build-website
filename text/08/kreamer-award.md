@@ -1,15 +1,16 @@
 ---
-title: Nomination for the Kreamer Award
+title: Nomination for the Kreamer Award for Research Excellence
 author: Steve Simon
-date: 2008-01-01
+date: 2008-04-24
 categories:
 - Blog post
 tags:
 - Being updated
+- Professional details
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

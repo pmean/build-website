@@ -1,15 +1,16 @@
 ---
-title: Where to look for information in a controversial area
+title: Interval scale for count data
 author: Steve Simon
-date: 2008-08-20
+date: 2008-08-07
 categories:
 - Blog post
 tags:
 - Being updated
+- Descriptive statistics
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

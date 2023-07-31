@@ -26,7 +26,7 @@ clean_files <- function(
     old, 
     new="Not yet", 
     dir_root="text", 
-    subdir_list=c("99", zpad(0:22)),
+    subdir_list=c("99", zpad(0:23)),
     file_pattern="*\\.md$") {
   if (!exists("ok_to_replace")) ok_to_replace <- FALSE 
   k1 <- 0
@@ -74,6 +74,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  fixed('(Being updated)'),
+  fixed ('This page is being updated from a version on the original website.'),
+  fixed('This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.'),
   dir_root="text", 
   file_pattern="md$")

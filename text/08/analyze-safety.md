@@ -6,8 +6,11 @@ categories:
 - Blog post
 tags:
 - Adverse events in clinical trials
+- Being updated
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 email discussion group asked about how to analyze adverse event data. He
 noted that adverse event data is not one of the primary or secondary

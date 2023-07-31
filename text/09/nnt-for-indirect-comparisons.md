@@ -1,15 +1,16 @@
 ---
 title: Calculating NNT for
 author: Steve Simon
-date: 2009-01-01
+date: 2009-04-20
 categories:
 - Blog post
 tags:
 - Being updated
+- Measuring benefit and risk
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

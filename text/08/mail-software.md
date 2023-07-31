@@ -1,15 +1,17 @@
 ---
-title: To be updated
+title: Mail and calendar software I use in my new job
 author: Steve Simon
-date: 2008-01-01
+source: http://www.pmean.com/08/MailSoftware.html
+date: 2008-07-23
 categories:
 - Blog post
 tags:
 - Being updated
+- Professional details
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

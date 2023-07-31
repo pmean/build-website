@@ -1,15 +1,16 @@
 ---
-title: To be updated
+title: Using a sub-optimal approach in meta-analysis
 author: Steve Simon
-date: 2008-01-01
+date: 2008-12-16
 categories:
 - Blog post
 tags:
 - Being updated
+- Systematic overviews
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

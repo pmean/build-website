@@ -5,10 +5,13 @@ date: 2008-01-04
 categories:
 - Blog post
 tags:
+- Being updated
 - Analysis of variance
 - Linear regression
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone was asking about a multiple choice question on a test that reads
 something like this: A group of researchers investigating in patients
 with diabetes on the basis of demographic characteristics and the level

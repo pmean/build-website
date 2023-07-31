@@ -1,5 +1,5 @@
 ---
-title: "The Myth of Equipoise in Phase 1 Clinical Trials"
+title: "The statistician who supposes that..."
 author: Steve Simon
 date: 2008-11-05
 categories:

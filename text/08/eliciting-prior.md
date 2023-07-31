@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials
+- Being updated
 output: html_document
 ---
 I got a question about the [Bayesian model for rejection/refusal

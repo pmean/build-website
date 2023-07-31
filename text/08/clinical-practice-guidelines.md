@@ -9,6 +9,7 @@ tags:
 - Systematic overviews
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 Development of evidence-based clinical practice guidelines (CPGs): comparing approaches. Tari Turner, Marie Misso, Claire Harris, and Sally Green. Implementation Science 2008, 3:45doi:10.1186/1748-5908-3-45. [Abstract] [PDF] Description: This article identified publications on developing clinical practice guidelines. The review found six relevant publications. All these publications stressed the need for a multidisciplinary panel, consumer involvement, identification of clinical questions, systematic searches for evidence, consultation beyond the development group, and regular reviews and updates.
 

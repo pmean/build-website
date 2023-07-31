@@ -6,10 +6,13 @@ date: 2008-04-04
 categories:
 - Blog post
 tags:
+- Being updated
 - Descriptive statistics
 - Writing research papers
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 *Dear Professor Mean, I have some data that has a resolution of 1,
 meaning that these are whole numbers only and no decimals. When I
 calculate the mean and standard deviation, should I report the actual

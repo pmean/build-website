@@ -5,9 +5,12 @@ date: 2008-04-06
 categories:
 - Blog post
 tags:
+- Being updated
 - Website details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > People write in once in a while to correct errors on my webpages. God
 > bless them! I had an error on my [What is a
 > P-value?](../08a/www.childrensmercy.org/definitions/pvalue.htm) page.

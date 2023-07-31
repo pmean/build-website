@@ -11,7 +11,6 @@ output: html_document
 ---
 
 This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
-.
 
 <!---More--->
 

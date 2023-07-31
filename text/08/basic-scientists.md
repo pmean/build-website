@@ -5,9 +5,12 @@ date: 2008-03-29
 categories:
 - Blog post
 tags:
+- Being updated
 - Teaching resources
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Someone wrote to a mailing list sponsored by the American Statistical
 Association asking about what resources to use in a statistics class
 aimed at basic scientists (as opposed to public health students and

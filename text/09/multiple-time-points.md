@@ -1,15 +1,16 @@
 ---
-title: Do multiple time points require
+title: Do multiple time points require a Bonferroni adjustment
 author: Steve Simon
-date: 2009-01-01
+date: 2009-07-08
 categories:
 - Blog post
 tags:
 - Being updated
+- Multiple comparisons
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

@@ -1,15 +1,16 @@
 ---
 title: Formula for multiple imputation 
 author: Steve Simon
-date: 2009-01-01
+date: 2009-07-24
 categories:
 - Blog post
 tags:
 - Being updated
+- Missing data
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

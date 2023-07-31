@@ -1,5 +1,5 @@
 ---
-title: To be updated
+title: Using Google to search through my website
 author: Steve Simon
 date: 2008-07-15
 categories:

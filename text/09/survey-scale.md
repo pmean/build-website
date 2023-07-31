@@ -1,15 +1,16 @@
 ---
-title: Five points or seven points on a
+title: Five points or seven points on a survey scale
 author: Steve Simon
-date: 2009-01-01
+date: 2009-03-12
 categories:
 - Blog post
 tags:
 - Being updated
+- Survey design
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

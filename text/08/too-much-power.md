@@ -8,6 +8,8 @@ tags:
 - Sample size justification
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 There was a discussion on EDSTAT-L about studies with too much power
 and precision. [You can indeed have too much power/precision, and here
 is a pragmatic example. I was asked to do an audit of records where we

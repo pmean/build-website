@@ -1,15 +1,17 @@
 ---
-title: To be updated
+title: Example of power calculation for a repeated measures design
 author: Steve Simon
-date: 2008-01-01
+source: http://www.pmean.com/08/RepeatedMeasuresPart2.html
+date: 2008-10-19
 categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

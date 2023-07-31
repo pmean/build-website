@@ -5,11 +5,12 @@ date: 2008-07-23
 categories:
 - Blog post
 tags:
+- Accrual problems in clinical trials
 - Being updated
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

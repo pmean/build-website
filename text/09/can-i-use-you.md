@@ -1,15 +1,17 @@
 ---
 title: Can I use you as a teaching example?
 author: Steve Simon
-date: 2009-01-01
+date: 2009-04-20
 categories:
 - Blog post
 tags:
 - Being updated
+- Teaching resources
+- Website details
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

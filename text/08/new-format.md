@@ -5,9 +5,12 @@ date: 2008-01-01
 categories:
 - Blog post
 tags:
+- Being updated
 - Website details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > On my thousand plus web pages, I have included various other
 > resources: peer-reviewed articles, books, and websites. These have
 > been handled in a haphazard fashion, and my attempts to standardize

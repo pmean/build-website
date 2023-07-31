@@ -1,15 +1,16 @@
 ---
 title: Changes in the adjusted hazard 
 author: Steve Simon
-date: 2009-01-01
+date: 2009-01-19
 categories:
 - Blog post
 tags:
 - Being updated
+- Survival analysis
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

@@ -1,15 +1,16 @@
 ---
-title: Sneaking ineligible patients
+title: Sneaking ineligible patients into a clinical trial
 author: Steve Simon
-date: 2009-01-01
+date: 2009-10-30
 categories:
 - Blog post
 tags:
 - Being updated
+- Fraud in research
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

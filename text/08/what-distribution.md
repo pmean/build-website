@@ -1,15 +1,16 @@
 ---
-title: What distribution does this data
+title: What distribution does this data come from
 author: Steve Simon
-date: 2008-01-01
+date: 2008-07-23
 categories:
 - Blog post
 tags:
 - Being updated
+- Modeling issues
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

@@ -6,8 +6,10 @@ categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials
+- Being updated
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 There is a limited amount of data out there that suggests that many
 researchers overpromise on the planned sample size and completion date

@@ -5,9 +5,12 @@ date: 2008-03-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Measuring benefit and risk
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 Recent discussion at the [Evidence Based health
 list](../category/InterestingWebsites.html#EvBaHe) centered on the
 calculation of NNT in a case-control study. While it is indeed possible

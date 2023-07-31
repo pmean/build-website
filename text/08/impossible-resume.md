@@ -5,9 +5,12 @@ date: 2008-06-05
 categories:
 - Blog post
 tags:
+- Being updated
 - Professional details
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 I'm updating my resume and found an amusing coincidence. It serves as a
 cautionary statement to never make assumptions.
 

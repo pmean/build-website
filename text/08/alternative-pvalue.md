@@ -5,9 +5,12 @@ date: 2008-04-03
 categories:
 - Blog post
 tags:
+- Being updated
 - Hypothesis testing
 output: html_document
 ---
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
 > A discussion on edstat-l concerned a statistic called p-rep. I had not
 > heard of this statistic before, but at least one journal is calling
 > for its use in all papers published by that journal.
