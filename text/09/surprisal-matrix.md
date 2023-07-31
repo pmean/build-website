@@ -1,15 +1,16 @@
 ---
-title: The surprisal matrix and
+title: The surprisal matrix and applications to exploration of very large discrete data sets
 author: Steve Simon
-date: 2009-01-01
+date: 2009-05-22
 categories:
 - Blog post
 tags:
 - Being updated
+- Information theory
 output: html_document
 ---
 
-This page is being updated from a version on the original website.
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 
 <!---More--->
 

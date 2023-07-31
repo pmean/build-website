@@ -1,11 +1,12 @@
 ---
-title: The controversy over
+title: The controversy over standardized beta coefficients
 author: Steve Simon
-date: 2009-01-01
+date: 2009-09-12
 categories:
 - Blog post
 tags:
 - Being updated
+- Linear regression
 output: html_document
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: Standard error for an odds ratio 
 author: Steve Simon
-date: 2009-01-01
+date: 2009-08-12
 categories:
 - Blog post
 tags:
 - Being updated
+- Measuring benefit and risk
 output: html_document
 ---
 

@@ -6,8 +6,13 @@ categories:
 - Blog post
 tags:
 - Being updated
+- Sample size justification
 output: html_document
 ---
+
+This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+
+<!---More--->
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
