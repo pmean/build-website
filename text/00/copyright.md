@@ -1,5 +1,6 @@
 ---
 title: "Copyright notice"
+source: http://www.pmean.com/00/copyright.html
 author: Steve Simon
 date: 2000-01-28
 categories:
