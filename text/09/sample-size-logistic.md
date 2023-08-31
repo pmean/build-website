@@ -1,5 +1,6 @@
 ---
 title: "Sample size calculation for a logistic regression model"
+source: http://www.pmean.com/09/SampleSizeLogistic.html
 author: Steve Simon
 date: 2009-02-26
 categories:

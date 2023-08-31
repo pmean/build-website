@@ -53,18 +53,20 @@ create_links <- function(yyyy_range) {
 
 # Check source
 check_source <- function(file_text) {
-  message <- NULL
   file_text %>%
     str_subset("^source\\: ") %>%
     str_remove(fixed("source: ")) %>%
     str_remove_all('"')  %>%
     str_remove_all("'") -> file_source
   if (length(file_source)==0) {
-    message <- glue("{yy}/{fn} has no source\n")
+    file_source <- "not listed"
   }
   if (length(file_source)>1) {
     message <- glue("{yy}/{fn} has multiple sources\n")
+    file_source <- paste(file_source, collapse=", ")
   }
+  message <- glue(", original source is {file_source}.")
+  if (tolower(file_source)=="new") message <- "."
   return(message)
 }
 ```
@@ -88,12 +90,18 @@ check_date <- function(file_text) {
 
 ```{r}
 # Create links for each file
-create_file_list <- function(f, date_list) {
+create_file_list <- function(f, date_list, n_lines, source_files) {
   f %>%
     str_replace(fixed(".Rmd"), "") %>%
     str_replace(fixed(".md"), "") -> short_name
   o <- order(date_list, f)
-  glue("+ {date_list[o]} [{short_name[o]}](http://new.pmean.com/{short_name[o]}/)  ") %>%
+  glue(
+      "+ {date_list[o]} ",
+      "[{short_name[o]}]",
+      "(http://new.pmean.com/",
+      "{short_name[o]}/),  ",
+      "{n_lines[o]} lines",
+      "{source_files}") %>%
     paste(collapse="  \n")
 }
 ```
@@ -101,7 +109,6 @@ create_file_list <- function(f, date_list) {
 ```{r}
 # Put it all together
 yyyy_list <- c(1999:2023)
-n_problems <- 0
 n_files <- 0
 for (yyyy in yyyy_list) {
   yy <- str_sub(yyyy, 3, 4)
@@ -109,50 +116,40 @@ for (yyyy in yyyy_list) {
   glue("../text/{yy}") %>%
     list.files %>%
     str_subset("md$") -> f
-  problem_files <- NULL
+  source_files <- NULL
   date_list <- NULL
+  n_lines <- NULL
   for (fn in f) {
     file_text <- read_lines(glue("../text/{yy}/{fn}"))
-    problem_files %<>% append(check_source(file_text))
+    source_files %<>% append(check_source(file_text))
     date_list %<>% append(check_date(file_text))
+    n_lines %<>% append(length(file_text))
   }
   
-  # Update if no problems found
-  date_list %>% 
-    str_subset(" for ") %>%
-    append(problem_files) -> problem_files
-
-  n_year <- length(problem_files)  
-  n_problems <- n_problems + n_year
   n_files <- n_files + length(f)
-  if (n_year==0) {
-    problem_files <- "All files passed date and source quality checks"
-  }
-
-  if (n_year > 0) {print(problem_files)}
-
   cat("\n")
   cat(glue("{yyyy} has a total of {length(f)} files."))
   cat("\n\n")
 
   if (update==FALSE) {next}
 
-  create_yaml(yyyy) %>% write_lines(output_file)
+  create_yaml(yyyy) %>%
+    write_lines(output_file)
   write_lines(" ", output_file, append=TRUE)
   
-  create_links(yyyy_list) %>% write_lines(output_file, append=TRUE)
+  create_links(yyyy_list) %>%
+    write_lines(output_file, append=TRUE)
   write_lines(" ", output_file, append=TRUE)
   
-  glue("New website ({length(f)} files)") %>% write_lines(output_file, append=TRUE)
+  glue("New website ({length(f)} files)") %>%
+    write_lines(output_file, append=TRUE)
   write_lines(" ", output_file, append=TRUE)
   
-  create_file_list(f, date_list) %>% write_lines(output_file, append=TRUE)
+  create_file_list(f, date_list, n_lines, source_files) %>% 
+    write_lines(output_file, append=TRUE)
   write_lines(" ", output_file, append=TRUE)
   
-  problem_files %>% write_lines(output_file, append=TRUE)
-
-  glue("{yyyy}.md created, {length(f)} files, {n_year} problems detected") %>% print
+  glue("{yyyy}.md created.") %>% print
 }
 
-print(glue("All years: {n_problems} problems identified in {n_files} files"))
 ```
