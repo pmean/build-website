@@ -63,30 +63,20 @@ group to experience a certain fraction of deaths.
 **More details**
 
 To compute a survival curve, you need to note the time of occurrence
-of events (e.g., failures, deaths)
-
-![wpe48.gif (1798 bytes)](http://www.pmean.com/images/01/kaplan11.gif){width="268"
-height="56"}
-
-It is possible for two or more events to occur at the same time, in
-which case the number of distinct times is less than the number of
-deaths or failures. You need to place the t's in order from smallest
+of events (e.g., failures, deaths). It is possible for two or more events to occur at the same time, in which case the number of distinct times is less than the number of deaths or failures. You need to place the t's in order from smallest
 to largest. That is,
 
-![wpe49.gif (1048 bytes)](http://www.pmean.com/images/01/kaplan12.gif){width="123"
-height="32"}
+$t_1 < t_2 <  t_3 < ...$
 
 You also need to define the starting point of the study,
 
-![wpe4A.gif (950 bytes)](http://www.pmean.com/images/01/kaplan13.gif){width="51"
-height="32"}
+$t_0=0$
 
 The basic computations for the Kaplan-Meier survival curve rely on the
 computation of conditional survival probabilities. In particular, the
 probability
 
-![wpe4B.gif (1200 bytes)](http://www.pmean.com/images/01/kaplan14.gif){width="152"
-height="39"}
+$P[T > t_i | T > t_{i-1}]$
 
 which can be interpreted as the probability of your surviving to a
 specific time, given that you survived to the previous time. This
@@ -97,27 +87,41 @@ risk at that same time.
 A more difficult (but more important) probability is the unconditional
 probability of survival,
 
-![wpe4C.gif (1052 bytes)](http://www.pmean.com/images/01/kaplan15.gif){width="83"
-height="35"}
+$P[T > t_i]$
 
 which represents the simple probability of survival to a specific
 time. You can use a relationship between this unconditional
 probability and the conditional probability:
 
-![wpe4D.gif (1666 bytes)](http://www.pmean.com/images/01/kaplan16.gif){width="176"
-height="109"}
+$P[T > t_i]$
+
+$=P[T > t_i | T > t_{i-1}]$
+
+$\times P[T > t_{i-1}]$
 
 At first glance, this does not seem to help, because the right hand
 side of the equation still includes an unconditional probability. But
 we can apply this approach again to get
 
-![wpe4E.gif (2010 bytes)](http://www.pmean.com/images/01/kaplan17.gif){width="187"
-height="148"}
+$P[T > t_i]$
+
+$=P[T > t_i | T > t_{i-1}]$
+
+$\times P[T > t_{i-1} | T > t_{i-2}]$
+
+$\times P[T > t_{i-2}]$
 
 and we can continue along these lines to get
 
-![wpe4F.gif (2366 bytes)](http://www.pmean.com/images/01/kaplan18.gif){width="189"
-height="187"}
+$P[T > t_i]$
+
+$=P[T > t_i | T > t_{i-1}]$
+
+$\times P[T > t_{i-1} | T > t_{i-2}]$
+
+$\times P[T > t_{i-2} | T > t_{i-3}]$
+
+$\times ... \times P[T > t_0]$
 
 This last probability represents the probability of surviving at the
 start of the study. Unless we intentionally recruit dead subjects,
@@ -284,79 +288,40 @@ point. This conditional probability would be
 Then we compute the cumulative product of these probabilities. This
 represents the Kaplan-Meier estimate of the survival probability.
 
-  ----- -------------------- ------------------ ------------ -------------- -------------
-   Day   Catheters removed\   Catheters failed   Catheters\   Conditional\   Cumulative\
-             prior to\                            at risk     probability      product
-              failure                                                       
-
-    1            8                   2               34          32/34\         0.94
-                                                                 =0.94      
-
-    2            2                   2           34-8-2=24       22/24\      0.94*0.92\
-                                                                 =0.92          =0.86
-
-    3            1                   1           24-2-2=20       19/20\      0.86*0.95\
-                                                                 =0.95          =0.82
-
-    4            1                   1           20-1-1=18       17/18\      0.82*0.94\
-                                                                 =0.94          =0.77
-
-    5            5                   3           18-1-1=16       13/16\      0.77*0.81\
-                                                                 =0.81          =0.62
-
-    6            <U+00A0>                   2            16-5-3=8        6/8\       0.62*0.75\
-                                                                 =0.75          =0.46
-
-    7            <U+00A0>                   1             8-2=6          5/6\       0.46*0.83\
-                                                                 =0.83          =0.38
-
-   10            <U+00A0>                   2             6-1=5          3/5\       0.38*0.60\
-                                                                 =0.60          =0.23
-
-   12            <U+00A0>                   2             5-2=3          1/3\       0.23*0.33\
-                                                                 =0.33          =0.08
-
-   13            <U+00A0>                   1             3-2=1          0/1\       0.08*0.00\
-                                                                 =0.00          =0.00
-  ----- -------------------- ------------------ ------------ -------------- -------------
-
-Here is a graph of these survival probabilities.<U+00A0>
+```{}
+                              Conditional     Cumulative
+Day Removed Failed   At risk  probability      product  
+--- ------- ------  --------- -----------   --------------
+ 1     8      2            34  32/34=0.94             0.94
+ 2     2      2     34-8-2=24  22/24=0.92   0.94*0.92=0.86
+ 3     1      1     24-2-2=20  19/20=0.95   0.86*0.95=0.82
+ 4     1      1     20-1-1=18  17/18=0.94   0.82*0.94=0.77
+ 5     5      3     18-1-1=16  13/16=0.81   0.77*0.81=0.62
+ 6     0      2     16-5-3= 8   6/ 8=0.75   0.62*0.75=0.46
+ 7     0      1      8-0-2= 6   5/ 6=0.83   0.46*0.83=0.38
+10     0      2      6-0-1= 5   3/ 5=0.60   0.38*0.60=0.23
+12     0      2      5-0-2= 3   1/ 3=0.33   0.23*0.33=0.08
+13     0      1      3-0-2= 1   0/ 1=0.00   0.08*0.00=0.00
+```
+   
+Here is a graph of these survival probabilities.
 
 ![](http://www.pmean.com/images/01/kaplan01a.gif){width="476" height="389"}
 
-The plot has a "stair step" pattern, because we don't know the
-survival probability at fractional days (such as 2.5 days) and at
-some integer days (such as 9 days). By convention, we estimate the
-survival probability for these values as equaling the survival
-probability of the closest value that is still smaller (the 2 day
-survival probability for 2.5 days, and the 7 day survival
-probability at 9 days).
+The plot has a "stair step" pattern, because we don't know the survival probability at fractional days (such as 2.5 days) and at some integer days (such as 9 days). By convention, we estimate the survival probability for these values as equaling the survival probability of the closest value that is still smaller (the 2 day survival probability for 2.5 days, and the 7 day survival probability at 9 days).
 
-Notice that the estimated median survival time (the time at which
-50% of the catheters survived) is six days.
-
-**Tenckhoff Catheters Prove Superior to Cook Catheters in Pediatric
-Acute Peritoneal Dialysis.** Chadha V. American Journal of Kidney
-Diseases 2000:35(6);1111-1116.
+Notice that the estimated median survival time (the time at which 50% of the catheters survived) is six days.
 
 **Reference**
 
-**Tenckhoff Catheters Prove Superior to Cook Catheters in Pediatric
-Acute Peritoneal Dialysis**.\
-Chada V, Warady BA, Blowey DL, Simckes AM, Alon US.\
-*American Journal of Kidney Diseases* (2000), 35(6):1111-1116.
+Chada V, Warady BA, Blowey DL, Simckes AM, Alon US. Tenckhoff Catheters Prove Superior to Cook Catheters in Pediatric Acute Peritoneal Dialysis *American Journal of Kidney Diseases* (2000), 35(6):1111-1116.
 
 **Further reading**
 
-There are many beginning level books on biostatistics that discuss the
-Kaplan-Meier curve, such as Woolson's book. You can find a more
-advanced and detailed approach in Collett's book.
+There are many beginning level books on biostatistics that discuss the Kaplan-Meier curve, such as Woolson's book. You can find a more advanced and detailed approach in Collett's book.
 
-1.  **Modelling Survival Data in Medical Research.** Collett D. London
-    England: Chapman and Hall (1994). ISBN: 0-412-44890-4.
-2.  **Statistical Methods for the Analysis of Biomedical Data.** Woolson
-    RF. New York NY: John Wiley & Sons, Inc. (1987). ISBN:
-    0-471-80615-3.
++ Collett D. Modelling Survival Data in Medical Research. London England: Chapman and Hall (1994). ISBN: 0-412-44890-4.
++ Woolson RF. Statistical Methods for the Analysis of Biomedical Data. New York NY: John Wiley & Sons, Inc. (1987). ISBN: 0-471-80615-3.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
