@@ -1,0 +1,127 @@
+---
+title: "Using a linear Taylor series approximation to estimate rounding error"
+source: "New"
+author: Steve Simon
+date: 2023-09-02
+categories:
+- Blog post
+tags:
+- Mathematics
+output: html_document
+---
+
+When I run, I have an app that announces the distance traveled (in kilometers) at the end of every minute. But since the app rounds to one decimal place, there is a bit of uncertainty in the pace that I might compute. Here's how I would address this uncertainty using a Taylor series approximation.
+
+<!---more--->
+
+```{r, echo=FALSE}
+d0 <- 2.5
+t0 <- 20
+pace0 <- t0 / d0
+d1 <- d0 - 0.05
+d2 <- d0 + 0.05
+pace1 <- round(t0 / d1, 4)
+pace2 <- round(t0 / d2, 4)
+approx1 <- round(t0/d0-(d1-d0)*t0/(d0^2), 4)
+approx2 <- round(t0/d0-(d2-d0)*t0/(d0^2), 4)
+```
+
+Pace is the inverse of speed. You divide the time in minutes by the distance traveled. The math is usually pretty easy. It is a simple division of two numbers both of which (for my runs) are in the double digits.
+
+### Simple example of the linear Taylor series approximation
+
+For example, suppose my GPS told me that I had just finished `r d0` kilometers in `r t0` minutes. I'm actually slower than that, but I used to run at that pace. The pace is 
+
+$\frac{`r t0`}{`r d0`}=`r pace0`$ minutes per kilometer.
+
+My app rounds distance to one decimal, so that denominator of `r d0` might be as small as `r d1` or as large as `r d2`. I could compute the two ratios,
+
+$\frac{`r t0`}{`r d1`}=`r pace1`$ and
+
+$\frac{`r t0`}{`r d2`}=`r pace2`$
+
+but dividing by a three digit number is tricky. I don't carry a calculator and I don't have the opportunity to write out the calculation on a pad of paper.
+
+Taylor series approximation to the rescue! The linear Taylor series approximation is
+
+$f(x) \approx f(a)+(x-a)f'(a)$
+
+This approximation is pretty good in most cases. You have to have the value of a be not too far from the value of x. You also need the function f to be reasonably well behaved. This means no extreme fluctuations and no sudden transitions in shape.
+
+This is certainly the case for the function 
+
+$f(x)=\frac{`r t0`}{x}$
+
+The derivative is 
+
+$f'(x)=-\frac{`r t0`}{x^2}$
+
+So the linear Taylor series approximation is
+
+$f(`r d1`) \approx \frac{`r t0`}{`r d0`}-(`r d1`-`r d0`)\frac{`r t0`}{`r d0`^2}=`r approx1`$ and
+
+$f(`r d2`) \approx \frac{`r t0`}{`r d0`}-(`r d2`-`r d0`)\frac{`r t0`}{`r d0`^2}=`r approx2`$ minutes per kilometer
+
+Notice that you do divide by nice round numbers like `r d0` and $`r d0`^2$ rather than `r d1` and `r d2`.
+
+### Graphical illustation of the linear Taylor series approximation
+
+Here's a graphical illustration of the linear Taylor series approximation. The green line represents pace as it actually should be calculated and the red line represents the linear Taylor series approximation.
+
+```{r, echo=FALSE}
+library(ggplot2, quiet=TRUE)
+d <- seq(d0-1, d0+1, length=501)
+pace <- t0/d
+truth <- data.frame(d, t0/d)
+approx <- data.frame(d, pace=t0/d0 - (d-d0)*t0/d0^2)
+
+ggplot(data.frame(d, pace)) +
+  geom_line(aes(d, pace), col="darkgreen") +
+  geom_line(data=approx, aes(d, pace), color="red")
+```
+
+The approximation is good when the distance is close to `r d0` kilometers, but does poorly further away. Fortunately, we are interested in this approximation at `r d1` and `r d2`.
+
+Let's zoom in.
+
+```{r, echo=FALSE}
+library(ggplot2, quiet=TRUE)
+d <- seq(d0-0.1, d0+0.1, length=501)
+pace <- t0/d
+truth <- data.frame(d, t0/d)
+approx <- data.frame(d, pace=t0/d0 - (d-d0)*t0/d0^2)
+
+ggplot(data.frame(d, pace)) +
+  geom_line(aes(d, pace), col="darkgreen") +
+  geom_line(data=approx, aes(d, pace), color="red") +
+  geom_segment(x=d1+0.02, y=pace1+0.05, xend=d1, yend=pace1, color="darkgreen") +
+  geom_segment(x=d2+0.02, y=pace2+0.05, xend=d2, yend=pace2, color="darkgreen") +
+  geom_label(x=d1+0.02, y=pace1+0.05, label=pace1, color="darkgreen") +
+  geom_label(x=d2+0.02, y=pace2+0.05, label=pace2, color="darkgreen") +
+  geom_segment(x=d1-0.01, y=approx1-0.05, xend=d1, yend=approx1, color="red") +
+  geom_segment(x=d2-0.01, y=approx2-0.05, xend=d2, yend=approx2, color="red") +
+  geom_label(x=d1-0.01, y=approx1-0.05, label=approx1, color="red") +
+  geom_label(x=d2-0.01, y=approx2-0.05, label=approx2, color="red")
+```
+
+### General application of the linear Taylor series approximation
+
+Let's look at a more general case. You run a total of d kilometers in time t, but because of rounding, d could be a bit smaller (d-0.05) or a bit larger (d+0.05). Treating t as constant, define
+
+$f(d)=\frac{t}{d}$
+
+Then, the linear Taylor series approximation is
+
+$f(d + 0.05) \approx \frac{t}{d} - 0.05\frac{t}{d^2}$ and
+
+$f(d - 0.05) \approx \frac{t}{d} + 0.05\frac{t}{d^2}$.
+
+You can factor this to
+
+$f(d + 0.05) \approx \frac{t}{d}\Big(1 - \frac{0.05}{d}\Big)$ and
+
+$f(d - 0.05) \approx \frac{t}{d}\Big(1 + \frac{0.05}{d}\Big)$
+
+So after running `r d0` kilometers, the rounding error causes an inaccuracy in the pace calculation by about 0.05 / `r d0` or `r 100*0.05/d0`% in either direction. After running `r 2*d0` kilometers, the rounding error causes an inaccuracy of no more than 0.05 / `r 2*d0` or `r 100*0.05/(2*d0)`% in either direction. Notice that the signs flip. If you run slightly less than `r d0` kilometers, your pace is higher (slower). If you run slightly more than `r d0` kilometers, your pace is lower (faster). 
+
+You can state things in an even greater degree of generality. The rounding error in distance (as a percentage) translates directly to the rounding error in pace. This is an approximation, but it turns out to be a pretty good approximation as long as the percentage rounding error is small.
