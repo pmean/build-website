@@ -14,11 +14,11 @@ When you draw a graph, either a bar chart, a scatterplot, or even a pie chart, y
 
 <!---more--->
 
-Here's a brief exercise. It is adapted from an example of Todd Iverson and Silas Bergen in a course they teach on data visualization. Set a time and count the number of 5's in this graph. 
+Here's a brief exercise. It is adapted from an example of Todd Iverson and Silas Bergen in a course they teach on data visualization. Set a timer and count the number of 5's in this graph. 
 
 ![](http://www.pmean.com/new-images/23/too-many-02.png)
 
-It took a bit of time. I tried to help you by using a different color for each number. I hope it helped. Let's try that exercise again. Count the number of fives.one more time.
+How long did it take? I tried to help you by using a different color for each number. Let's try that exercise again. Count the number of fives in the image below.
 
 ![](http://www.pmean.com/new-images/23/too-many-03.png)
 
@@ -48,7 +48,7 @@ us +
   theme(legend.position = "right")
 ```
 
-Here's a map with a transition from a very light red to a very dark red.
+Here's a map showing poverty rates for each state in the United States. It uses a gradient from a very light red to a very dark red.
 
 ```{r, echo=FALSE, warning=FALSE}
 us +
@@ -92,11 +92,11 @@ us +
 
 There are many problems with the cycle of rainbow colors.
 
-First, the ends of the rainbow do not show enough contrast. In the above map, the low poverty rate of New Hampshire is a red that differs from high poverty rate of Mississippi shown as magenta.
+First, the ends of the rainbow do not show enough contrast. In the above map, the low poverty rate of New Hampshire (9.2%) is a red that differs only slightly from high poverty rate of Mississippi (21.9%) shown as magenta. If anything, the contrast is bigger between Mississippi (magenta) and Alabama (blue) even though the poverty rates of 19.2% for Alabama is a lot closer than New Hampshire's.
 
-Second, the transitions in the rainbow gradient are uneven. This leads to a banding effect which distorts the continuous scale.
+Second, the transitions in the rainbow gradient are uneven. Look at how broad the transitions among the greens and how narrow the transitions among the yellows. This leads to a banding effect which distorts the continuous scale.
 
-Third, the brightness of the colors varies widely across the rainbow gradient. 
+Third, the brightness of the colors varies widely across the rainbow gradient. Yellow, in particular, is a very bright color and can get lost against a white background. Green, Magenta, and Cyan are also rather bright. In contrast, blue and red are much darker than the other colors. In general, you want either to keep the brightness constant or vary it systematically. The brightness of the rainbow gradient staggers haphazardly up and down.
 
 Fourth, the colors in the rainbow gradient can sometimes come across as harsh. This is subjective, of course, but colors that are a bit lighter or a bit darker than the rainbow often are easier on the eyes.
 
