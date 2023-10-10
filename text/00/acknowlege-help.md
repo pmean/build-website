@@ -9,14 +9,9 @@ tags:
 - Website details
 output: html_document
 ---
-> These web pages have several Sherlock Holmes quotes. These quotes can
-> be found in the marvelous book *Statistically Speaking. A Dictionary
-> of Quotations*, by C.C. Gaither and A.E. Cavazos-Gaither, Institute of
-> Physics Publishing, Bristol, UK (1996).
->
-> Personal thanks to the many people who have sent comments and
-> corrections. I should especially single out Dicon Montford who caught
-> many spelling and grammar errors.
+These web pages have several Sherlock Holmes quotes. These quotes can be found in the marvelous book *Statistically Speaking. A Dictionary of Quotations*, by C.C. Gaither and A.E. Cavazos-Gaither, Institute of Physics Publishing, Bristol, UK (1996).
+
+Personal thanks to the many people who have sent comments and corrections. I should especially single out Dicon Montford who caught many spelling and grammar errors.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 

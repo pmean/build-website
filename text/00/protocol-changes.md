@@ -17,9 +17,9 @@ Changes in a research protocol are always troublesome, but don't
 overreact. There's a cute quote by Stephen Senn in *Statistical Issues
 in Drug Development* (1997).
 
-> *Medical statistician: one who will not accept that Columbus
-> discovered America \... because he said he was looking for India in
-> the trial plan.*
+*Medical statistician: one who will not accept that Columbus
+discovered America \... because he said he was looking for India in
+the trial plan.*
 
 So you don't want to be too obsessive about protocol deviations. On the
 other hand, look at all the controversy in the Florida vote recount for
