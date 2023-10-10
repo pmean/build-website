@@ -16,7 +16,7 @@ I ran across a graph in a journal article. The article itself was good, but the 
 
 The display is a series of stacked bar charts, and it showed that certain types of information were most likely to be entered by a physician. It was least likely to be entered by a case manager.
 
-![](http://www.pmean.com/images/20/misuse-of-gradient.png)
+![](http://www.pmean.com/new-images/20/poor-color-choice-01.png)
 
 Find the full article found [here](https://medinform.jmir.org/2019/3/e13802/). 
 
@@ -38,39 +38,76 @@ n <- 500
 k <- 5
 delta <- 0.9
 angle_seq <- (1:n)/n
-df0<- data.frame(x=delta*sin(2*pi*angle_seq), y=delta*cos(2*pi*angle_seq))
+df0<- data.frame(
+    x=delta*sin(2*pi*angle_seq),
+    y=delta*cos(2*pi*angle_seq))
 sb <- (n/k)*(1:k)
 df1 <- df0[sb, ]
 
 ggplot(df0, aes(x, y)) +
-  geom_point(color=hsv(angle_seq, 1, 1), size=2, shape=16) +
-  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 1, 1), size=24, shape=16) +
-  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  geom_point(
+      color=hsv(angle_seq, 1, 1), 
+      size=2, 
+      shape=16) +
+  geom_point(
+      data=df1, 
+      aes(x, y), 
+      color=hsv(sb/n, 1, 1), 
+      size=24, 
+      shape=16) +
+  expand_limits(
+      x=c(-1, 1), 
+      y=c(-1, 1)) +
   theme_void() +
   theme(
-    panel.background=element_rect(fill="#808080"))
+      panel.background =
+          element_rect(fill="#808080"))
 ```
 
 This color wheel includes the pure colors (pure yellow, pure green, pure cyan, pure red, pure magenta, pure blue) and these colors are sometimes a bit harsh on your eyes. A darker set of colors is a bit easier to view.
 
 ```{r color-circle2, echo=FALSE, fig.width=5, fig.height=5}
 ggplot(df0, aes(x, y)) +
-  geom_point(color=hsv(angle_seq, 1, 0.5), size=2, shape=16) +
-  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 1, 0.5), size=24, shape=16) +
-  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  geom_point(
+      color=hsv(angle_seq, 1, 0.5), 
+      size=2, 
+      shape=16) +
+  geom_point(
+      data=df1, 
+      aes(x, y), 
+      color=hsv(sb/n, 1, 0.5), 
+      size=24, 
+      shape=16) +
+  expand_limits(
+      x=c(-1, 1), 
+      y=c(-1, 1)) +
   theme_void() +
   theme(
-    panel.background=element_rect(fill="#808080"))
+      panel.background = 
+          element_rect(fill="#808080"))
 ```
+
+You might also consider lighter colors. These are pastel colors. Going lighter or going darker will depend on many factors, but either choice is usually better than using the pure colors.
 
 ```{r color-circle3, echo=FALSE, fig.width=5, fig.height=5}
 ggplot(df0, aes(x, y)) +
-  geom_point(color=hsv(angle_seq, 0.5, 1), size=2, shape=16) +
-  geom_point(data=df1, aes(x, y), color=hsv(sb/n, 0.5, 1), size=24, shape=16) +
-  expand_limits(x=c(-1, 1), y=c(-1, 1)) +
+  geom_point(
+      color=hsv(angle_seq, 0.5, 1), 
+      size=2, 
+      shape=16) +
+  geom_point(
+      data=df1, 
+      aes(x, y), 
+      color=hsv(sb/n, 0.5, 1), 
+      size=24, 
+      shape=16) +
+  expand_limits(
+      x=c(-1, 1), 
+      y=c(-1, 1)) +
   theme_void() +
   theme(
-    panel.background=element_rect(fill="#808080"))
+      panel.background =
+          element_rect(fill="#808080"))
 ```
 
 There are lots of choices in various graphics packages. Here is one nice set of categorical color choices in R.
@@ -78,8 +115,13 @@ There are lots of choices in various graphics packages. Here is one nice set of 
 ```{r brew1, fig.height=1}
 par(mar=rep(0, 4))
 display.brewer.pal(5, "Set1")
-brewer.pal(5, "Set1")
+pal5 <- brewer.pal(5, "Set1")
 ```
 
-These aren't taken directly from a color wheel but they are well spaced out from a visual perspective, meaning that it is easy to distinguish among these different colors.
+These aren't taken directly from a color wheel but they are well spaced out from a visual perspective, meaning that it is easy to distinguish between any two pairs of these different colors. You can find similar choices in Python, SAS and Stata. 
 
+SPSS does not have specific color palettes for nominal data, but it does organize its colors so that most of the rows are good choices for representing nominal data and most of the columns are good choices for representing ordinal data.
+
+![](http://www.pmean.com/new-images/20/poor-color-choice-02.png)
+
+Ordinal data is often well represented by a gradient of dark to light levels of a particular color, but this is a poor choice for nominal data. With nominal data, you want a good amount of separation between any two colors. You can get this by selecting evenly spaced values on a color wheel.
