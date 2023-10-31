@@ -34,16 +34,16 @@ copy_files <- function(
     
     new_dir <- "post"
     for (i_file in file_list) {
-      verb <- ifelse(ok_to_copy,"", "to be")
+      verb <- ifelse(ok_to_copy,"copied", "to be copied")
       k <- k+1
       old_file <- str_glue("{old_path}/{old_dir}/{i_file}") 
       new_file <- str_glue("{new_path}/{new_dir}/{i_file}")
       if (ok_to_copy) file.copy(old_file, new_file, overwrite=TRUE)
-      str_glue("\n{old_file} {verb} copied to {new_file}\n") -> message
+      str_glue("\n{old_file}{verb} copied to {new_file}\n") -> message
       if (qc) cat(message, "\n")
     }
   }
-  str_glue("\n\nTotal files {verb} copied: {k}") %>% cat
+  str_glue("\n\nTotal files {verb}: {k}") %>% cat
 }
 ok_to_copy <- TRUE
 ok_to_copy <- FALSE
