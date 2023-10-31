@@ -6,9 +6,11 @@ date: 2000-01-01
 categories:
 - Blog post
 tags:
+- Obsolete pages
 - Website details
 output: html_document
 ---
+This page is obsolete. My pages on the current website are placed into the public domain. I am keeping this page around mostly for nostalgic reasons.
 
 When these pages were originally developed, the lawyers suggested that I copyright these pages. In January of 2008 I asked for and got permission to place these pages under an open access license. What this means is that you can use these pages however you like, including a derivative work as long as you acknowledge the original source. A link back to the original page or a listing of the URL of the page would be sufficient acknowledgement.
 
