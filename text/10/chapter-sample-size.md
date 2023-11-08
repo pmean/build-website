@@ -1,13 +1,13 @@
-+-----------------------------------+-----------------------------------+
-| ![](../images/logo.png){width="10 | **[P.Mean](../index.html): Sample |
-| 0"                                | chapter: The first three steps in |
-| height="98"}                      | selecting an appropriate sample   |
-|                                   | size (created 2010-07-24)**.      |
-|                                   |                                   |
-|                                   | [![](../images/news.png){width="5 |
-|                                   | 11"                               |
-|                                   | height="68"}](../news.html)       |
-+-----------------------------------+-----------------------------------+
+---
+title: "Sample chapter, the first three steps in selecting an appropriate sample size"
+author: Steve Simon
+date: 2010-07-24
+categories:
+- Blog post
+tags:
+- Sample size justification
+output: html_document
+---
 
 As I mentioned in an [earlier webpage](SecondBook.html), I am talking to
 some publishers about writing a second book. The working title is
@@ -382,14 +382,3 @@ standard). If this is the case, simply calculate how wide you would
 expect your confidence interval for the correlation to be. Specify a
 sample size and a target for your correlation. Then your sample size is
 adequate if the confidence interval is sufficiently narrow.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png){width="80"
-height="15"}](http://creativecommons.org/licenses/by/3.0/us/) This work
-is licensed under a [Creative Commons Attribution 3.0 United States
-License](http://creativecommons.org/licenses/by/3.0/us/). This page was
-written by Steve Simon and was last modified on 2017-06-15. Need more
-information? I have a page with [general help
-resources](../GeneralHelp.html). You can also browse for pages similar
-to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).

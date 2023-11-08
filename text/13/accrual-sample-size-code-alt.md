@@ -1,5 +1,14 @@
-**[P.Mean](../index.html): R code for estimating the sample size of a
-clinical trial with a fixed duration (created 2013-07-29).**
+---
+title: R code for estimating the sample size of a clinical trial with a fixed duration
+author: Steve Simon
+date: 2013-07-29
+categories:
+- Blog post
+tags:
+- Accrual problems in clinical trials
+- Bayesian statistics
+output: html_document
+---
 
 Here is the R code for a simple Bayesian model for patient accrual. It
 estimates the sample size of a clinical trial for a fixed duration using
@@ -94,13 +103,3 @@ the data. The 2.5 and 97.5 percentiles are 143 and 241, respectively.
 
 When these enhancements become available, I will link to them from this
 page.
-
-[![Creative Commons
-License](http://i.creativecommons.org/l/by/3.0/us/80x15.png){width="80"
-height="15"}](http://creativecommons.org/licenses/by/3.0/us/) This page
-was written by Steve Simon and is licensed under the [Creative Commons
-Attribution 3.0 United States
-License](http://creativecommons.org/licenses/by/3.0/us/). Need more
-information? I have a page with [general help
-resources](../GeneralHelp.html). You can also browse for pages similar
-to this one at [Accrual Problems](../category/AccrualProblems.html).
