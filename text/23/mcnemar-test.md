@@ -41,9 +41,55 @@ To compute McNemar's test, you first need to calculate the two by two crosstabul
 
 $\begin{matrix} a & b \\ c & d \end{matrix}$
 
-it is arbitrary whether the rows represent the "before" measurements and the columns represent the "after" measurements or the reverse.
+it is arbitrary whether the rows represent the "before" measurements and the columns represent the "after" measurements or the reverse. The order of the rows and columns is also arbitrary, but you must be consistent. If the binary variable is yes/no, then you can have the first row and the first column being "yes" or you can have the first row and column being "no" but you shouldn't have the first row be "yes" and the first column be "no".
+
+Once you have the counts. Add in the row and column totals.
 
 $\begin{matrix} a & b & a+b \\ c & d & c+d \\ a+c & b+d & n \end{matrix}$
+
+where n = a + b + c + d is the total number of pairs.
+
+McNemar's test compares the proportion of observations in the first column to the proportion of observations in the first row.
+
+Here's a simple example from page 267 of a classic book, Alan Agresti. An Introduction to Categorical Data Analysis, Second Edition. The entire book is available for free in [pdf format][agr1].
+
+[agr1]: https://mregresion.files.wordpress.com/2012/08/agresti-introduction-to-categorical-data.pdf
+
+![](http://www.pmean.com/new-images/23/mcnemar-test-01.png).
+
+```{r}
+a <- 833; b <- 125; c <- 2; d <- 160
+n <- a + b + c + d
+r1 <- round(100*a/(a+b))
+c1 <- round(100*a/(a+c))
+```
+
+Do you believe in heaven? Do you believe in hell? Those two questions were asked in a survey of `r n` people. They responded either yes or no. Of the respondents, `r a` believed in both heaven and hell, `r b` believed only in heaven, `r c` believed in hell but not heaven, and `r d` believed in neither. If you add up the counts in the first row, there are `r a+b` respondents who believe in heaven, or `r r1`%. If you add up the counts in the first column, there are `r a+c` respondents who believe in hell of `r c1`%.
+
+If you want to enter this data into a program like SPSS, you can't type it as you see it.
+
+```{}
+833,125
+2,160
+```
+
+It would be nice if you could do this, but it doesn't work for a variety of reasons. You need to put each count on a separate row. Specify the belief in heaven (yes/no) as the first column and belief in hell (yes/no) as the second column. The count for each combination goes in the third column.
+
+```{}
+heaven,hell,count
+1,1,833
+1,2,125
+2,1,2
+2,2,160
+```
+
+If you are using SPSS, import the data and then use count as a weight. Select ```Data | Weight Cases``` from the menu to get this dialog box.
+
+![](http://www.pmean.com/new-images/23/mcnemar-test-02.png).
+
+Then 
+
+
 
 Thanks are due to Wikipedia for helping me identify the statistician behind the test and the original publication associated with the test.
 

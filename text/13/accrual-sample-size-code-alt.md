@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Accrual problems in clinical trials
+- Bayesian statistics
 output: html_document
 ---
 
