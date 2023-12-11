@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 
-You find yourself using what, to you, is a new statistical approach and you're not sure about how to approach it. You're not sure what options you should be picking and you don't want to rely on your software's default choices. You may also be insecure about using the right words to describe your approach in the methods section of your research paper.
+You find yourself using what, to you, is a new statistical approach, multiple imputation, and you're uncertain about how to approach it. You're not sure what options you should be picking and you don't want to rely on your software's default choices. You may also be insecure about using the right words to describe your approach in the methods section of your research paper.
 
 Finding examples that have already appeared in the literature is one way to start. I call it the lemming school of research (if all your friends jumped off a cliff, would you jump off too?).
 
@@ -24,7 +24,7 @@ This is contrast to the sad soul who is running a systematic overview. If you we
 
 So let's talk about how to do a good search. I am going to focus on PubMed because most of my searching that I do involves publication in the medical field. But almost all of the approaches shown here will work with other search engines.
 
-Suppose that you are running a multiple imputation model for the very first time. Admit it, you're more than a little bit nervous. You could go into PubMed and just type the words
+Suppose that you are running a multiple imputation model for the very first time. Admit it, you're more than a little bit nervous. You could go into PubMed and do a straight search on multiple imputation 
 
 ![](http://www.pmean.com/new-images/23/finding-examples-01.png)
 
