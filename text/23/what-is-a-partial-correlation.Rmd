@@ -1,0 +1,149 @@
+---
+title: "What is a partial correlation?"
+source: "New"
+author: Steve Simon
+date: 2023-12-05
+categories:
+- Blog post
+tags:
+- Correlation
+- Definitions
+output: html_document
+---
+
+The concept of controlling for a third variable is an important one to understand in Statistics. When you are looking at data without the benefit of randomization, sometimes an examination of the relationship between two variables can be distorted by a third variable. The third variable might create an false association between those two variables or it might mask a real association.
+
+There are several ways to account for that third variable when examining interfere with your analysis of a relation. A common approach is to use a partial correlation, which effectively adjusts for the third variable or holds the third variable constant when examining the relationship.
+
+<!---more--->
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(broom)
+library(tidyverse)
+fn <- "https://raw.githubusercontent.com/pmean/classes/master/biostats-1/data/data-05-fev.csv"
+read_csv(fn, col_names=FALSE) %>%
+  data.frame -> init
+names(init) <- c(
+  "age",
+  "fev",
+  "height",
+  "sex",
+  "smoker")
+```
+
+
+## Partial correlation
+
+-   $r_{XY\cdot Z}=\frac{r_{XY}-r_{XZ}\times r_{YZ}} {\sqrt{1-r_{XZ}^2}\sqrt{1-r_{YZ}^2}}$
+
+Here is the formula for partial correlation. Read $r_{XY\cdot Z}$ as the correlation between X and Y holding Z constant, or the correlation between X and Y adjusted for Z.
+
+Look at the numerator. It takes the unadjusted correlation of X and Y and subtracts a product of the correlation of each of them with Z. This tells you something important right away. The adjustment is small if the product is small, meaning either that X is not strongly associated with the third variable, Z or Y is  not strongly associated with Z. The adjustment is large when both X and Y have a strong positive or negative association with Z.
+
+The denominator will actually modify things even further. If $r_{XZ}$ is large negative or large positive, then the term $\sqrt{1-r_{XZ}^2$ will be small. A small value in the denominator makes the whole fraction big. A similar pattern occurs when $r_{XZ}$ is large negative or large positive.
+
+If the third variable correlates poorly with both X and Y, then the adjusted correlation is not too much different from the unadjusted correlation.
+
+## An example of partial correlation
+
+```{r, echo=FALSE}
+rxy <- round(cor(init$fev, init$age), 2)
+rxz <- round(cor(init$fev, init$height), 2)
+ryz <- round(cor(init$age, init$height), 2)
+```
+
+Let's look at an example. A pediatric study of lung function measured forced expiratory volume (FEV) in a sample of children ages 3 through 17. FEV is a measure of how much air you can blow out of your lungs. It is expected to increase with age. 
+
+-   The correlation of FEV with age is `r rxy`.
+
+But there is a third factor, height, which might account for this relationship. 
+
+-   The correlation of FEV with height is `r rxz`
+-   The correlation of age with height is `r ryz`
+
+## Unadjusted relationship between age and FEV
+
+If you look at all of the data, you see a strong correlation between age and FEV. This graph shows the individual heights for each child at the X, Y value corresponding to the age and FEV. Notice that the younger children have heights in the high 40s and the low 50s and the older children have heights in the high 60s and low 70s.
+
+```{r, echo=FALSE}
+ggplot(init, aes(age, fev, label=height)) +
+  geom_text() +
+  ggtitle(paste0("Correlation = ", rxy))
+h <- 48
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+When you look at the shortest kids, those with heights between `r h-2` and `r h+1.5`, you see that the correlation is weak.
+
+```{r, echo=FALSE}
+g <- 4*floor((init$height-2)/4)+4
+control_height <- function(a) {
+  rxy <- round(cor(init$age[g==h], init$fev[g==h]), 2)
+  co=ifelse(g==h, "black", "gray")
+  al=ifelse(g==h, 1, 0)
+  init %>%
+    mutate(co=ifelse(g==h, "black", "gray")) %>%
+    ggplot(aes(age, fev, label=height)) +
+      geom_text(color=co) +
+      geom_text(color=co, alpha=al) +
+      ggtitle(paste0("Correlation = ", rxy))
+}
+h <- 48
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+You see a similar weak correlation when the height is between `r h-2` and `r h+1.5`.
+
+And so forth.
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
+
+```{r, echo=FALSE}
+control_height(h)
+h <- h+4
+```
+
+## Partial correlation calculation
+
+The formal calculation of the partial correlation is shown here.
+
+-   $\frac{`r rxy`-`r rxz` \times `r ryz`}{\sqrt{1-`r rxz`^2}\sqrt{1-`r ryz`^2}} = `r round((rxy-rxz*ryz)/(sqrt(1-rxz^2)*sqrt(1-ryz^2)), 2)`$
+
+The correlation between age and FEV is very weak when you adjust for the child's height.
