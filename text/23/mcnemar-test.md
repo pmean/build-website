@@ -14,7 +14,7 @@ I mentioned McNemar's test in a [short article][sim3] for my [Monthly Mean newsl
 
 <!---more--->
 
-Everytbody who knows anything about Statistics knows about the paired t-test. You have measurements done in pairs. The most common setting with paired data is a before and after measurement on the same subject. Other pairs may arise if you take measurements on a patient treated with a new therapy along with measurements on a control patient matched on age, sex, and race. Still other pairs might result from measurements on the left arm of a patient, treated with a new topical agent, and the right arm, treated with a standard topical agent.
+Everybody who knows anything about Statistics knows about the paired t-test. You have measurements done in pairs. The most common setting with paired data is a before and after measurement on the same subject. Other pairs may arise if you take measurements on a patient treated with a new therapy along with measurements on a control patient matched on age, sex, and race. Still other pairs might result from measurements on the left arm of a patient, treated with a new topical agent, and the right arm, treated with a standard topical agent.
 
 When you have data in pairs, you calculate the difference. Then you compute the sample average of these differences as well as the standard deviation of the differences. Then you construct a test statistic, the sample average difference divided by the standard error (the standard deviation divided by the square root of the number of pairs). If this statistic is close to zero, you accept the null hypothesis, which states that the average difference in the population is equal to zero.
 
