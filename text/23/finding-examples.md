@@ -1,13 +1,13 @@
 ---
 title: "Finding good research examples"
-source: "New"
-author: Steve Simon
-date: 2023-12-07
-categories:
-- Blog post
-tags:
-- Information searching
-output: html_document
+author: "Steve Simon"
+date: "2023-12-07"
+output:
+  word_document: default
+  html_document: default
+categories: Blog post
+tags: Information searching
+source: New
 ---
 
 You find yourself using what, to you, is a new statistical approach, multiple imputation, and you're uncertain about how to approach it. You're not sure what options you should be picking and you don't want to rely on your software's default choices. You may also be insecure about using the right words to describe your approach in the methods section of your research paper.
