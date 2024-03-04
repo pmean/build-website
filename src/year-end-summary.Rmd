@@ -5,6 +5,10 @@ date: "Created 2022-05-26"
 output: html_document
 ---
   
+```{r}
+yyyy_list <- c(1999:2024)
+```
+  
 This program produces Markdown files summarizing every webpage written in a given year
 
 ```{r Preliminaries}
@@ -108,7 +112,6 @@ create_file_list <- function(f, date_list, n_lines, source_files) {
 
 ```{r}
 # Put it all together
-yyyy_list <- c(2023:2023)
 n_files <- 0
 for (yyyy in yyyy_list) {
   yy <- str_sub(yyyy, 3, 4)

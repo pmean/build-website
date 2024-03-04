@@ -1,7 +1,11 @@
 ---
 title: "Finding good research examples"
 author: "Steve Simon"
+<<<<<<< HEAD
 date: '2023-12-07'
+=======
+date: "2023-12-07"
+>>>>>>> 65a5dad44ecf9afff68cf2e3b218c8afa1f96cc6
 output:
   word_document: default
   html_document: default
