@@ -108,7 +108,7 @@ create_file_list <- function(f, date_list, n_lines, source_files) {
 
 ```{r}
 # Put it all together
-yyyy_list <- c(1999:2023)
+yyyy_list <- c(2023:2023)
 n_files <- 0
 for (yyyy in yyyy_list) {
   yy <- str_sub(yyyy, 3, 4)

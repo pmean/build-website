@@ -1,13 +1,13 @@
 ---
-title: The best reasons to run a pilot study
-source: "New"
-author: Steve Simon
-date: 2023-12-06
-categories:
-- Blog post
-tags:
-- Pilot studies
-output: word_document
+title: "The best reasons to run a pilot study"
+author: "Steve Simon"
+date: '2023-12-06'
+output:
+  word_document: default
+  html_document: default
+categories: Blog post
+tags: Pilot studies
+source: New
 ---
 
 There's a common saying among pediatricians: children are not little adults. You can't take a drug therapy that works in adults and scale it down to a kid-sized treatment. Children are actively growing, their livers metabolize drugs differently, and they have a stage of life called puberty that most of the rest of us have long forgotten.
