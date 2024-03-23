@@ -14,3 +14,10 @@ You can find an [earlier version][sim1] of this page on my [website][sim2].
 
 [sim1]: http://www.pmean.com/13/descriptive.html
 [sim2]: http://www.pmean.com
+
+buttonology (uncountable)
+
+The study of buttons (clothing fasteners and badges). 
+(derogatory) An exaggerated and pointlessly pedantic systematization, especially of something trivial. 
+(informal) The basic training required to start using a machine or piece of software: what the components of the interface are, what they do, and how to accomplish basic tasks. 
+(US, military, slang) User interface 
