@@ -35,7 +35,9 @@ is also very critical of historical controls
 
 *Problems will arise from the mixture of retrospective and prospective studies, and we can never satisfactorily eliminate possible biases due to other factors (apart from treatment) that may have changed over time.*
 
-Most experts recommend that you only use a historical control group as a last resort. It's hard to find anyone to defend historical control groups, but Sir Michael Rawlins, in a web page at Pharmafocus [broken link] argues that there is a time and a place for this type of study.
+Most experts recommend that you only use a historical control group as a last resort. It's hard to find anyone to defend historical control groups, but Sir Michael Rawlins, in a [web page at Pharmafocus][raw1] argues that there is a time and a place for this type of study.
+
+[raw1]: https://pharmafile.com/features/way-forward-clinical-research/
 
 *Historical controls can be very useful, particularly where one is investigating otherwise untreatable conditions where there is a biologically plausible basis for the treatment, and where the outcome untreated is homogenous and either very disabling or fatal. When I was at the CSM, for example, we agreed to licence valganciclovir (Roche's Valcyte) for CMV retinitis in AIDS patients. That was done entirely on the basis of historical controls.*
 
