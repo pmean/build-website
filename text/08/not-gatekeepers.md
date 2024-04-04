@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- Human side of statisticis
+- Human side of statistics
 output: html_document
 ---
 
