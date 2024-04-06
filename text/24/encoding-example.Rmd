@@ -1,0 +1,115 @@
+---
+title: Encoding example in R
+source: "New"
+author: Steve Simon
+date: 2024-03-23
+categories:
+- Blog post
+tags:
+- Data management
+output: html_document
+---
+
+Alphabets other than English require special characters. Computers have evolved many different ways to handle these special characters. 
+
+<!---more--->
+
+Here are more details.
+
+One example of a special character is ç (C-cedilla). This appears in a variety of languages and has found its way into English with words like façile. I've always been confused and confounded by special characters, but R has a function, Encoding, that might help me to understand these things better.
+
+In computers, everything is stored in bits, either 0 or 1. These bits are most easily packaged in groups of 8, called a byte. A byte can range from 00000000 to 11111111. These correspond to 0 and 255 in decimal and 00 to FF in hexadecimal. I will use the convention in R that represents a hexadecimal number with the prefix \x. The code \x63 corresponds to 01100011 in binary.
+
+Early computers had to manipulate text as well as numbers. Several encoding systems were designed to match letters, punctuation, the digits 0-9, and other special characters to numbers stored in computers. 
+
+One of the earlier systems for encoding, ASCII (American Standard Code for Information Interchange) assigned numbers from \x00 to \x7F to various printable characters, plus non-printable characters. This standard provided means for controlling teletype, a printer that could produce output from a remote system. 
+
+The teletype included various non-printing actions. The code \x07 would ring the bell on the teletype, \x08 would back up a space, \x09 would jump to the next tab stop. 
+
+Two important codes are\x0C and \x0D. The code \x0C, called a form feed (FF) or line feed (LF) would push the paper up one line. The code \x0D, called a carriage return (CR) would cause the print head to jump to the beginning of a line. The combination of the two, CR+LF, allowed the teletype to print multiple line messages. 
+
+Some computing systems, notably Unix, dropped the CR and used LF (\x0d) by itself to designate the jumping to the beginning of a a new line and other systems, notably Windows, kept the CR+LF codes. This led to some early difficulties in sharing files between the two systems, but this has largely been handled well behind the scenes.
+
+The tab and line feed characters are used so commonly in R (and other places) that a short hand code of \t and \n have been incorporated.
+
+It seems odd that the ASCII code went only from \x00 to \x7F. This only uses 7 bits and computers can quickly and conveniently work with 8 bits ranging from \x00 to \xFF. So various computer systems raced to add characters to the codes from \x80 to \xFF. The earlier system, now called 7 bit ASCII was fairly standardized. The newer systems, called 8 bit ASCII, did not have any standards.
+
+Some systems, like [Latin1][lat1], added characters needed for various European languages, currency symbols, and a few fractions and exponents. Other 8 bit ASCII systems used [Greek][gre1], [Hebrew][heb1], or [Cyrillic][cyr1] characters.
+
+Various organizations tried to catalog these 8 bit systems with affectionate names like Code Page 1251 or ISO 8859. These were eventually harmonized into a system called Unicode. Unicode can handle the thousands of characters that are part of the Chinese alphabet and includes many rare characters or characters from various ancient languages. You need more than 8 bits in Unicode, of course. Unicode uses about 20 bits and well over a million characters.
+
+Although Unicode offered a lot of flexibility, you wouldn't want to switch from 7 or 8 bits under ASCII to the 20 bits in Unicode. So those clever programmers devised a system, UTF-8, with a variable number of bits, using 8 bits for the original ASCII standard and 16, 24, or 32 bits for characters outside the ASCII standard. Any file using only 7 bit ASCII would automatically meet the UTF-8 standard without any conversion. The various 8 bit ASCII systems would require some conversion.
+
+This is where the Encoding function in R can help. Consider the string \x66\x61\x63\x69\x6C\x65. These are all smaller than \7F, so this is a 7 bit ASCII string. R has no problems with it.
+
+```{r}
+#| echo: true
+sample_string_1 <- "\x66\x61\x63\x69\x6C\x65"
+sample_string_1
+```
+
+Now look at the string \x66\x61\xE7\x69\x6C\x65. This is now 8 bit ASCII because \xE7 is larger than \x7F. R does not know how to display this, so it defers display of the 8 bit code.
+
+```{r}
+#| echo: true
+sample_string_2 <- "\x66\x61\xE7\x69\x6C\x65"
+sample_string_2
+```
+
+Using the Encoding function to illustrate this choice to defer.
+
+```{r}
+#| echo: true
+Encoding(sample_string_2)
+```
+
+You can set the encoding to Latin-1 with
+
+```{r}
+#| echo: true
+Encoding(sample_string_2) <- "latin1"
+sample_string_2
+```
+
+Now R can display the string properly because the 8 bit ASCII code known as latin-1 converts \xE7 to the c-cedilla (ç).
+
+You can also use the UTF-8 encoding.
+
+```{r}
+#| echo:true
+sample_string_3 <- 
+  iconv(
+    sample_string_2, "latin1", "UTF-8")
+sample_string_3
+```
+
+```{r}
+#| echo: true
+charToRaw(sample_string_1)
+charToRaw(sample_string_2)
+charToRaw(sample_string_3)
+```
+
+The conversion to UTF-8 requires 7 bytes to represent the third string because UFT-8 uses (\xC3\xA7) to represent the c-cedilla.
+
+If a text file using UTF-8 is mistakenly translated to an 8 bit ASCII, you will get a form of gibberish known as [mojibake][moj1].
+
+```{r}
+#| echo: false
+Encoding(sample_string_3) <- "latin1"
+sample_string_3
+```
+
+This code \xC3 is Ã in Latin-1 and \xA7 is §. So your "façile" string becomes "faÃ§ile" if you use the wrong encoding.
+
+The whole topic is still quite confusing to me. Here's an article on special issues with Microsoft Windows that tries to clarify some of the issues.
+
+Tomas Kalibera. UTF-8 Support on Windows. R developers blog, 2020-05-02. Available in [html format][kal1].
+
+[cyr1]: https://en.wikipedia.org/wiki/Windows-1251
+[enc1]: https://stat.ethz.ch/R-manual/R-devel/library/base/html/Encoding.html
+[gre1]: https://en.wikipedia.org/wiki/ISO/IEC_8859-7
+[heb1]: https://en.wikipedia.org/wiki/Code_page_1255
+[kal1]: https://blog.r-project.org/2020/05/02/utf-8-support-on-windows
+[lat1]: https://en.wikipedia.org/wiki/ISO/IEC_8859-1
+[moj1]: https://en.wikipedia.org/wiki/Mojibake
