@@ -1,0 +1,45 @@
+---
+title: Illustrating splines using the Titanic dataset
+source: "New"
+author: Steve Simon
+date: 2024-05-07
+categories:
+- Blog post
+tags:
+- Nonlinear regression
+- R programming
+output: html_document
+---
+
+Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a logistic regression model with data from survival of passengers on the Titanic.
+
+<!---more--->
+
+```{r, echo=FALSE}
+library(broom)
+library(pspline)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
+f1 <- "titanic-data-dictionary.yaml"
+dd <- read_yaml(paste0(f0, f1))
+```
+
+The Titanic was a large cruise ship, the biggest of its kind in 1912. It was thought to be unsinkable, but when it set sail from England to American in its maiden voyage, it struck an iceberg and sank, killing many of the passengers and crew. You can get fairly good data on the characteristics of passengers who died and compare them to those that survived. The data indicate a strong effect due to age and gender, representing a philosophy of "women and children first" that held during the boarding of life boats. Let's look at the effect of age on survival using a logistic regression model.
+
+Here is a brief description of the diamond pricing dataset, taken from the [data dictionary][sim3] on my github site.
+
+`r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/titanic-data-dictionary.yaml
+
+```{r}
+f2 <- "titanic_v00.txt"
+raw_data <- read.table(
+  file=paste0(f0, f2), 
+  sep="\t", 
+  header=TRUE)
+head(raw_data)
+```
