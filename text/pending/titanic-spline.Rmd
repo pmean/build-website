@@ -37,9 +37,9 @@ Here is a brief description of the diamond pricing dataset, taken from the [data
 
 ```{r}
 f2 <- "titanic_v00.txt"
-raw_data <- read.table(
-  file=paste0(f0, f2), 
-  sep="\t", 
-  header=TRUE)
+raw_data <- 
+  data.frame(
+    read_tsv(
+      file=paste0(f0, f2)))
 head(raw_data)
 ```
