@@ -15,7 +15,7 @@ I am leading a roundtable discussion of using Social Media to promote your consu
 
 I want to start with an icebreaker. When and where did you first start using the Internet? Was it email? Was it FTP? Was it the World Wide Web? Was it "Angry Birds" on your iPhone? I first started using the Internet in the early 1990s. I used email a lot, with some Gopher and FTP applications and this new fangled thing called the World Wide Web.
 
-Also, what is the most "exotic" thing you have done on the web? I've editted a few Wikipedia pages, though I'm not sure it's all that exotic.
+Also, what is the most "exotic" thing you have done on the web? I've edited a few Wikipedia pages, though I'm not sure it's all that exotic.
 
 I then want to present a few definitions, borrowed from Wikipedia. Even if the definitions are not commonly agreed upon, they open up the floor for discussion. I follow these definitions with my subjective opinions about what represents the two key defining features in these definitions.
 

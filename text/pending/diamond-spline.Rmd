@@ -1,0 +1,135 @@
+---
+title: Illustrating splines using the diamond pricing dataset
+source: "New"
+author: Steve Simon
+date: 2024-05-07
+categories:
+- Blog post
+tags:
+- Nonlinear regression
+- R programming
+output: html_document
+---
+
+Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a dataset looking at pricing for diamonds.
+
+<!---more--->
+
+```{r, echo=FALSE}
+library(broom)
+library(pspline)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
+f1 <- "diamonds-data-dictionary.yaml"
+dd <- read_yaml(paste0(f0, f1))
+```
+
+Here is a brief description of the diamond pricing dataset, taken from the [data dictionary][sim3] on my github site.
+
+`r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/diamonds-data-dictionary.yaml
+
+You can also find the [original source of the data][jse1] and a [more detailed description][jse2], both found on the [Journal of Statistics Education datasets website][jse3].
+
+[jse1]: http://jse.amstat.org/v9n2/4Cdata.txt
+[jse2]: http://jse.amstat.org/v9n2/4C.txt
+[jse3]: https://jse.amstat.org/jse_data_archive.htm
+
+```{r}
+f2 <- "diamonds.txt"
+raw_data <- read.fwf(file=paste0(f0, f2), widths=c(5,2,5,4,5))
+di <- raw_data
+names(di) <- c(
+  "carat",
+  "colour",
+  "clarity",
+  "certification",
+  "price"
+)
+```
+
+Make adjustments for exchange rate and inflation.
+
+```{r}
+exchange_rate <- 1.72
+inflation_rate <- 1.81
+di$adjusted_price <- di$price*inflation_rate/exchange_rate
+head(di)
+```
+
+Here are a few descriptive statistics
+
+```{r}
+summary(di$carat)
+summary(di$price)
+summary(di$adjusted_price)
+count(di, colour)
+count(di, clarity)
+count(di, certification)
+```
+
+Suppose that you want to build a model that predicts the adjusted price using carat, colour, and clarity. You suspect, however, that the relationship between carat and adjusted price is nonlinear.
+
+```{r}
+ggplot(data=di, aes(carat, adjusted_price)) +
+  geom_point(pch=1) -> scatter1
+scatter1
+```
+
+First, examine a linear trend.
+
+```{r}
+scatter1+geom_smooth(method="lm")
+```
+
+It looks like you could do a bit better than a simple linear fit, and a spline is a good option.
+
+There are many options for splines in R, and you might have additional options beyond splines that also work well.
+
+Choosing among the splines is tricky. To be honest, most of the choices will work out well and the choices end up being between various gradations of good to great.
+
+A type of spline that I like a lot are the restricted cubic splines developed by Frank Harrell in the rms package. You implement these splines by adding an rcs function to your model formula. You use the number of knots to control the complexity from splines that represent a gentle deviation from normality to splines that wiggle all around and are far from linear. The default option for knots in rcs usually works fairly well.
+
+There is a problem with direct interpretation, though. The coefficients for a linear fit are fairly easy to interpret.
+
+```{r}
+linear_fit <- lm(adjusted_price ~ carat, data=di)
+linear_coefficients <- tidy(linear_fit)
+linear_coefficients
+```
+
+The slope, `r round(linear_coefficients[2, 2])`,  represents the estimated average change in price when carats increase by one unit.
+
+Things don't have such a nice interpretation with your spline model.
+
+```{r}
+spline_fit <- lm(adjusted_price ~ rcs(carat), data=di)
+tidy(spline_fit)
+```
+
+The coefficients from the restricted cubic spline are pretty much uninterpretable. You have to visualize the spline graphically.
+
+```{r}
+carat_sequence <- data.frame(
+  carat = seq(min(di$carat), max(di$carat), length=100))
+carat_sequence$prediction <- 
+  predict(spline_fit, newdata=carat_sequence)
+scatter1 + geom_line(
+  data=carat_sequence,
+  aes(carat, prediction))
+```
+
+You might be interested in seeing if the spline fits better than a simple linear function. Fit both a linear term and a spline and then compare to the fit with just a linear term.
+
+```{r}
+linear_plus_spline_fit <- lm(
+  adjusted_price ~ carat + rcs(carat), 
+  data=di)
+anova(linear_fit, linear_plus_spline_fit)
+```
+
+The p-value is small, indicating that adding a spline to a linear fit significantly improves the prediction model.
