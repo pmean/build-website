@@ -16,8 +16,7 @@ Splines provide a useful way to model relationships that are more complex than a
 <!---more--->
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-library(broom)
-library(pspline)
+library(mice)
 library(readr)
 library(rms)
 library(tidyverse)
@@ -57,80 +56,88 @@ count(ti0, sex)
 count(ti0, survived)
 ```
 
-Notice the large number of missing values for age.
-
-The boxplots reveal little differences between the ages of survivors and deaths. If something is going on, it is subtle.
+Notice the large number of missing values for age. The first three passegers with missing ages are
 
 ```{r}
-ggplot(data=ti0, aes(factor(survived), age)) + 
-  geom_boxplot()
+missing_rows <- 13:15
+ti0 %>% slice(missing_rows)
 ```
 
-Fit a linear model first.
+Create mutliply imputed values for age. The default is to use every variable in the dataset other than age to impute the value of age. You don't want to use the name of the passenger, of course, so be sure to drop it before the imputation step.
 
 ```{r}
-ti1 <- filter(ti0, !is.na(age))
-linear_fit <- glm(
-  survived ~ age,
-  family=binomial,
-  data=ti1)
-tidy(linear_fit)
+ti1 <- select(ti0, -name)
+ti_mice <- mice(ti1)
 ```
 
-There may be a downward trend in the odds of survival over time, but it is not statistically significant.
-
-Plot the predicted values.
+The mice function creates a complex object. Go ahead and explore the various components, but be forewarned that this is messy. You can extract simple parts of the imputation with various functions. The complete function shows the complete datasets with the imputed values. Here are the first three rows where age was imputed the first time.
 
 ```{r}
-age_sequence <- data.frame(
-  age = seq(min(ti1$age), max(ti1$age), length=100))
-age_sequence$prediction <- 
-  predict(linear_fit, newdata=age_sequence, type="response")
-ggplot(data=ti1, aes(age, survived)) +
-  geom_point(pch=1) +
-  geom_line(
-    data=age_sequence,
-    aes(age, prediction))
+ti_mice %>%
+  complete(1) %>%
+  slice(missing_rows)
 ```
 
-The plot is linear, but you should really look at it on the log odds scale because the logistic regression model is linear in the log odds. You need to change the predict function from type="response" to type="link" to get predictions on a log odds scale.
+Look at the imputations for the second, third, etc. times. Notice that the values change with each imputation.
 
 ```{r}
-age_sequence$prediction <- 
-  predict(linear_fit, newdata=age_sequence, type="link")
-ggplot(data=age_sequence, aes(age, prediction)) +
-  geom_line()
+ti_mice %>%
+  complete(2) %>%
+  slice(missing_rows)
+ti_mice %>%
+  complete(3) %>%
+  slice(missing_rows)
+ti_mice %>%
+  complete(4) %>%
+  slice(missing_rows)
+ti_mice %>%
+  complete(5) %>%
+  slice(missing_rows)
+
 ```
 
-Now fit a spline function.
+Use the with function of the mice package to fit a model to apply a particular analysis to each of the five imputed datasets.
 
 ```{r}
-spline_fit <- glm(
-  survived ~ rcs(age),
-  family=binomial,
-  data=ti1)
-tidy(spline_fit)
+ti_with <- with(
+  ti_mice, 
+  glm(
+    survived~pclass+rcs(age)+sex, 
+    family=binomial)) 
 ```
 
-The coefficients from the restricted cubic spline are pretty much uninterpretable. You have to visualize the spline graphically. First do this on the log odds scale to see how far from linear the spline fit is.
+Again, the object created here is complex. You can extract the individual analyses fairly easily. Here is the analysis of the first imputed dataset.
 
 ```{r}
-age_sequence$prediction <- 
-  predict(spline_fit, newdata=age_sequence, type="link")
-ggplot(data=age_sequence, aes(age, prediction)) +
-  geom_line()
+ti_with$analyses[[1]]
 ```
 
-Now plot on the original scale to get a picture of what is going on.
+The key variable here is sexmale, which shows how much different the log odds of survival are between men and women. 
+
+Notice that the estimate for sexmale changes from one analysis to another, though not by much.
 
 ```{r}
-age_sequence$prediction <- 
-  predict(spline_fit, newdata=age_sequence, type="response")
-ggplot(data=ti1, aes(age, survived)) +
-  geom_point(pch=1) +
-  geom_line(
-    data=age_sequence,
-    aes(age, prediction))
+ti_with$analyses[[2]]
+ti_with$analyses[[3]]
+ti_with$analyses[[4]]
+ti_with$analyses[[5]]
 ```
 
-It looks like "women and children" first might actually be "women, children, and old people first".
+Combine all these analyses with the pool function.
+
+```{r}
+ti_pool <- pool(ti_with)
+summary(ti_pool)
+log_or <- summary(ti_pool)[8, 2]
+```
+
+To complete things, compute the odds ratio and confidence interval.
+
+```{r}
+se <- summary(ti_pool)[8, 3]
+or <- exp(log_or)
+lo <- exp(log_or-1.96*se)
+hi <- exp(log_or+1.96*se)
+paste0(round(or, 3), " (", round(lo, 3), ",", round(hi, 3), ")")
+```
+

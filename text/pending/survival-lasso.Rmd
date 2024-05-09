@@ -1,0 +1,114 @@
+---
+title: Illustrating the lasso model using the Worcester Heart Attack Study
+source: "New"
+author: Steve Simon
+date: 2024-05-07
+categories:
+- Blog post
+tags:
+- Survival analysis
+- R programming
+output: html_document
+---
+
+The lasso model allows you to effectively identify important features in a large regression model. Here is an illustration of how to use a the lasso model with survival data from the Worcester Heart Attack Study.
+
+<!---more--->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(broom)
+library(glmnet)
+library(pspline)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
+f1 <- "whas500-data-dictionary.yaml"
+dd <- read_yaml(paste0(f0, f1))
+```
+
+Here is a brief description of the whas100 dataset, taken from the [data dictionary][sim3] on my github site.
+
+`r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/whas100-data-dictionary.yaml
+
+Here are the first few rows of data and the last few rows of data. Row 101 needs to be removed.
+
+```{r}
+vnames <- names(dd$vars)
+f2 <- "whas500.dat"
+w0 <- read_table(
+  file=paste0(f0, f2), 
+  col_names=c(vnames),
+  col_types="nnnnnnnnnnnnnnncccnnnn")
+head(w0)
+```
+
+Here are a few descriptive statistics
+
+```{r}
+dd$vars[["id"]]
+summary(w0$id)
+
+dd$vars[["age"]]
+summary(w0$age)
+
+dd$vars[["gender"]]
+count(w0, gender)
+
+dd$vars[["sysbp"]]
+summary(w0$sysbp)
+
+dd$vars[["diasbp"]]
+summary(w0$diasbp)
+
+dd$vars[["bmi"]]
+summary(w0$bmi)
+
+dd$vars[["cvd"]]
+count(w0, cvd)
+
+dd$vars[["afb"]]
+count(w0, afb)
+
+dd$vars[["sho"]]
+count(w0, sho)
+
+dd$vars[["chf"]]
+count(w0, chf)
+
+dd$vars[["av3"]]
+count(w0, av3)
+
+dd$vars[["miord"]]
+count(w0, miord)
+
+dd$vars[["mitype"]]
+count(w0, mitype)
+
+dd$vars[["year"]]
+count(w0, year)
+
+dd$vars[["los"]]
+summary(w0$los)
+
+dd$vars[["dstat"]]
+count(w0, dstat)
+
+dd$vars[["lenfol"]]
+summary(w0$lenfol)
+
+dd$vars[["fstat"]]
+count(w0, fstat)
+```
+
+Here is an overall survival curve.
+
+```{r}
+plot(Surv(w0$lenfol, w0$fstat))
+```
+
+You can find the lasso regression model in the glmnet package. One important difference with glmnet is that it does not use a formula to define your model. Instead you provide matrices for your dependent variable and your independent variables.
+
