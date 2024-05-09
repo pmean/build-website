@@ -1,0 +1,99 @@
+---
+title: Illustrating splines using the Worcester Heart Attack Study
+source: "New"
+author: Steve Simon
+date: 2024-05-07
+categories:
+- Blog post
+tags:
+- Survival analysis
+- R programming
+output: html_document
+---
+
+Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a Cox regression model with data from the Worcester Heart Attack Study.
+
+<!---more--->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(broom)
+library(pspline)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
+f1 <- "whas100-data-dictionary.yaml"
+dd <- read_yaml(paste0(f0, f1))
+```
+
+Here is a brief description of the whas100 dataset, taken from the [data dictionary][sim3] on my github site.
+
+`r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/whas100-data-dictionary.yaml
+
+Here are the first few rows of data and the last few rows of data. Row 101 needs to be removed.
+
+```{r}
+f2 <- "whas100.dat"
+raw_data <- read.fwf(
+  file=paste0(f0, f2),
+  widths=c(7, 12, 12, 5, 9, 5, 7, 4, 8))
+wa <- raw_data
+names(wa) <- c(
+  "id",
+  "admitdate",
+  "foldate",
+  "los",
+  "lenfol",
+  "fstat",
+  "age",
+  "gender",
+  "bmi")
+head(wa)
+tail(wa)
+wa <- wa[-101, ]
+wa$lenfol <- wa$lenfol/365.25
+```
+
+Here are a few descriptive statistics
+
+```{r}
+summary(wa$id)
+summary(wa$los)
+summary(wa$lenfol)
+count(wa, fstat)
+summary(wa$age)
+count(wa, gender)
+summary(wa$bmi)
+```
+
+Here is an overall survival curve.
+
+```{r}
+plot(Surv(wa$lenfol, wa$fstat))
+```
+
+```{r}
+linear_fit <- coxph(
+  Surv(wa$lenfol, wa$fstat)~age,
+  data=wa)
+linear_fit
+```
+
+```{r}
+spline_fit <- coxph(
+  Surv(wa$lenfol, wa$fstat)~rcs(age),
+  data=wa)
+spline_fit
+```
+
+```{r}
+age_sequence <- data.frame(
+  age = seq(min(wa$age), max(wa$age), length=100))
+age_sequence$prediction <- 
+  predict(spline_fit, newdata=age_sequence, type="lp")
+ggplot(data=age_sequence, aes(age, prediction)) +
+  geom_line()
+```
