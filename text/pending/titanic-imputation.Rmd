@@ -1,0 +1,136 @@
+---
+title: Illustrating imputation of missing data using the Titanic dataset
+source: "New"
+author: Steve Simon
+date: 2024-05-07
+categories:
+- Blog post
+tags:
+- Missing data
+- R programming
+output: html_document
+---
+
+Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a logistic regression model with data from survival of passengers on the Titanic.
+
+<!---more--->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(broom)
+library(pspline)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
+f1 <- "titanic-data-dictionary.yaml"
+dd <- read_yaml(paste0(f0, f1))
+```
+
+The Titanic was a large cruise ship, the biggest of its kind in 1912. It was thought to be unsinkable, but when it set sail from England to American in its maiden voyage, it struck an iceberg and sank, killing many of the passengers and crew. You can get fairly good data on the characteristics of passengers who died and compare them to those that survived. The data indicate a strong effect due to age and gender, representing a philosophy of "women and children first" that held during the boarding of life boats. Let's look at the effect of age on survival using a logistic regression model.
+
+Here is a brief description of this dataset, taken from the [data dictionary][sim3] on my github site.
+
+`r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/titanic-data-dictionary.yaml
+
+Here are the first few rows of data.
+
+```{r}
+f2 <- "titanic_v00.txt"
+ti0 <- 
+  data.frame(
+    read_tsv(
+      file=paste0(f0, f2),
+      col_types="ccncn"))
+names(ti0) <- tolower(names(ti0))
+head(ti0)
+```
+
+Here are a few descriptive statistics
+
+```{r}
+summary(ti0$age)
+count(ti0, pclass)
+count(ti0, sex)
+count(ti0, survived)
+```
+
+Notice the large number of missing values for age.
+
+The boxplots reveal little differences between the ages of survivors and deaths. If something is going on, it is subtle.
+
+```{r}
+ggplot(data=ti0, aes(factor(survived), age)) + 
+  geom_boxplot()
+```
+
+Fit a linear model first.
+
+```{r}
+ti1 <- filter(ti0, !is.na(age))
+linear_fit <- glm(
+  survived ~ age,
+  family=binomial,
+  data=ti1)
+tidy(linear_fit)
+```
+
+There may be a downward trend in the odds of survival over time, but it is not statistically significant.
+
+Plot the predicted values.
+
+```{r}
+age_sequence <- data.frame(
+  age = seq(min(ti1$age), max(ti1$age), length=100))
+age_sequence$prediction <- 
+  predict(linear_fit, newdata=age_sequence, type="response")
+ggplot(data=ti1, aes(age, survived)) +
+  geom_point(pch=1) +
+  geom_line(
+    data=age_sequence,
+    aes(age, prediction))
+```
+
+The plot is linear, but you should really look at it on the log odds scale because the logistic regression model is linear in the log odds. You need to change the predict function from type="response" to type="link" to get predictions on a log odds scale.
+
+```{r}
+age_sequence$prediction <- 
+  predict(linear_fit, newdata=age_sequence, type="link")
+ggplot(data=age_sequence, aes(age, prediction)) +
+  geom_line()
+```
+
+Now fit a spline function.
+
+```{r}
+spline_fit <- glm(
+  survived ~ rcs(age),
+  family=binomial,
+  data=ti1)
+tidy(spline_fit)
+```
+
+The coefficients from the restricted cubic spline are pretty much uninterpretable. You have to visualize the spline graphically. First do this on the log odds scale to see how far from linear the spline fit is.
+
+```{r}
+age_sequence$prediction <- 
+  predict(spline_fit, newdata=age_sequence, type="link")
+ggplot(data=age_sequence, aes(age, prediction)) +
+  geom_line()
+```
+
+Now plot on the original scale to get a picture of what is going on.
+
+```{r}
+age_sequence$prediction <- 
+  predict(spline_fit, newdata=age_sequence, type="response")
+ggplot(data=ti1, aes(age, survived)) +
+  geom_point(pch=1) +
+  geom_line(
+    data=age_sequence,
+    aes(age, prediction))
+```
+
+It looks like "women and children" first might actually be "women, children, and old people first".
