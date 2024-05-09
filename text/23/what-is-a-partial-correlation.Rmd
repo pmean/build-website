@@ -21,8 +21,11 @@ There are several ways to account for that third variable when examining interfe
 library(broom)
 library(tidyverse)
 fn <- "https://raw.githubusercontent.com/pmean/classes/master/biostats-1/data/data-05-fev.csv"
-read_csv(fn, col_names=FALSE) %>%
-  data.frame -> init
+read_csv(
+    fn, 
+    col_names=FALSE, 
+    col_types="n") %>%
+    data.frame -> init
 names(init) <- c(
   "age",
   "fev",

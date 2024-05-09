@@ -1,0 +1,11 @@
+---
+title: "Produce ten random numbers"
+author: "Eager Student"
+output: html_document
+---
+
+This program produces ten random numbers from a standard normal distribution. It is placed into the public domain and you can use it any way you please.
+
+```{}
+rnorm(10)
+```
