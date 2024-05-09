@@ -2,8 +2,7 @@
 title: "Finding good research examples"
 author: "Steve Simon"
 date: "2023-12-07"
-output:
-  html_document: default
+output: html_document
 categories: Blog post
 tags: Information searching
 source: New
