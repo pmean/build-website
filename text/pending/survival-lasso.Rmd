@@ -26,6 +26,7 @@ library(glue)
 library(pspline)
 library(readr)
 library(rms)
+library(survival)
 library(tidyverse)
 library(yaml)
 g0 <- "https://raw.githubusercontent.com/pmean/"
@@ -93,6 +94,22 @@ Here is an overall survival curve.
 plot(Surv(w0$lenfol, w0$fstat))
 ```
 
+Here is the traditional Cox model
+
+```{r}
+simple_fit <- coxph(
+  Surv(w0$lenfol, w0$fstat) ~
+      cvd +
+      afb + 
+      sho + 
+      chf + 
+      av3 +
+      miord +
+      mitype,
+    data=w0)
+coef(simple_fit)
+```
+
 You can find the lasso regression model in the glmnet package. One important difference with glmnet is that it does not use a formula to define your model. Instead you provide matrices for your dependent variable and your independent variables. In a Cox regression model, the dependent matrix has a column for time and a second column with an indicator variable (1 means the event occurred and 0 means censoring).
 
 ```{r}
@@ -100,25 +117,79 @@ ymat <- cbind(w0$lenfol, w0$fstat)
 dimnames(ymat)[2] <- list(c("time", "status"))
 xmat <- as.matrix(w0[ , 8:14])
 dimnames(xmat)[2] <- list(vnames[8:14])
-lasso_fit <- glmnet(xmat, ymat, family="cox")
-plot(lasso_fit, label=TRUE)
-plot(lasso_fit, xvar="norm", label=TRUE)
+lasso_fit <- glmnet(xmat, ymat, family="cox", standardize=FALSE)
 plot(lasso_fit, xvar="lambda", label=TRUE)
-plot(lasso_fit, xvar="dev", label=TRUE)
 ```
 
+Let;s spend a bit of time looking at this graph. The left hand side of the graph represents a very small penalty.
+
 ```{r}
-cv_fit <- cv.glmnet(xmat, ymat, family = "cox", type.measure="mae")
-plot(cv_fit)
-plot(lasso_fit, xvar="lambda")
-abline(v=log(cv_fit$lambda.1se))
-cv_fit$lambda.1se
-coef(lasso_fit, cv_fit$lambda.1se)
+fit_left <- as.matrix(coef(lasso_fit, min(lasso_fit$lambda)))
+fit_left
+plot(lasso_fit, xvar="lambda", label=TRUE)
+text(
+  log(min(lasso_fit$lambda)), 
+  fit_left, 
+  unlist(dimnames(fit_left)[1]))
 ```
+
+Notice how the coefficients are very close to the Cox regression model. There is very little shrinkage and only one variable, av3, are zeroed out, meaning that it is totally removed from the model.
+
+```{r}
+fit_median <- as.matrix(coef(lasso_fit, median(lasso_fit$lambda)))
+fit_median
+plot(lasso_fit, xvar="lambda", label=TRUE)
+text(
+  log(median(lasso_fit$lambda)), 
+  fit_median, 
+  unlist(dimnames(fit_median)[1]))
+```
+
+At the middle (median) value of lambda, several of the variables are zeroed out. Most other variables are shrunk towards zero, relative to the fit with the smallest value of lambda.
+
+What happens at the largest value of lambda.
+
+```{r}
+fit_right <- as.matrix(coef(lasso_fit, max(lasso_fit$lambda)))
+fit_right
+plot(lasso_fit, xvar="lambda", label=TRUE)
+text(
+  log(max(lasso_fit$lambda)), 
+  fit_right, 
+  unlist(dimnames(fit_right)[1]))
+```
+
+Once lambda gets large enough, the penalty is so great that the algorithm zeroes out every single variable.
+
+Now you need to decide what lambda works best. You can do this through cross-validation.
+
+```{r}
+cv_fit <- cv.glmnet(xmat, ymat, family = "cox", standardize=FALSE)
+plot(cv_fit)
+```
+
+There are two choices that are commonly selected. 
+
+You could set the value of lambda to the value that minimizes the criteria. The default criteria is the partial likelihood deviance, but you can use other criteria to pick out the "best" value of lambda.
 
 ```{r}
 cv_fit$lambda.min
 plot(lasso_fit, xvar="lambda")
 abline(v=log(cv_fit$lambda.min))
-coef(lasso_fit, cv_fit$lambda.min)
+fit_min <- as.matrix(coef(lasso_fit, cv_fit$lambda.min))
+fit_min
+text(log(cv_fit$lambda.min), fit_min, unlist(dimnames(fit_min)[1]))
 ```
+
+The developers of glmnet felt that the value of lambda that minimized a fit criteria was not aggressive enough in zeroing out and shrinking coefficients. They suggested that instead of choosing the "best" value of lambda, choose the largest value of lambda that is still within one standard error of the criteria produced by the "best" lambda.
+
+```{r}
+plot(lasso_fit, xvar="lambda", label=TRUE)
+abline(v=log(cv_fit$lambda.1se))
+cv_fit$lambda.1se
+fit_1se <- as.matrix(coef(lasso_fit, cv_fit$lambda.1se))
+fit_1se
+text(log(cv_fit$lambda.1se), fit_1se, unlist(dimnames(fit_1se)[1]))
+```
+
+Using this criteria, there are only two variables which help in predicting risk of death, and one of them is very weak because its coefficient is very close to zero.
