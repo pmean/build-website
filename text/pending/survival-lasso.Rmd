@@ -13,22 +13,34 @@ output: html_document
 
 The lasso model allows you to effectively identify important features in a large regression model. Here is an illustration of how to use a the lasso model with survival data from the Worcester Heart Attack Study.
 
+I've followed the [glmnet vignette for Cox regression][tay1] closely. You might find that explanation to be clearer than what I present below.
+
+[tay1]: https://glmnet.stanford.edu/articles/Coxnet.html
+
 <!---more--->
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(broom)
 library(glmnet)
+library(glue)
 library(pspline)
 library(readr)
 library(rms)
 library(tidyverse)
 library(yaml)
-f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "whas500-data-dictionary.yaml"
-dd <- read_yaml(paste0(f0, f1))
+g0 <- "https://raw.githubusercontent.com/pmean/"
+r0 <- "datasets/master/"
+s1 <- "yaml-functions.R"
+f1 <- "whas500.yaml"
+
+source(paste0(g0, r0, s1))
+dd <- read_yaml(paste0(g0, r0, f1))
+vnames <- extract_names(dd)
+vlabels <- extract_labels(dd)
+vscales <- extract_scales(dd)
 ```
 
-Here is a brief description of the whas100 dataset, taken from the [data dictionary][sim3] on my github site.
+Here is a brief description of the whas500 dataset, taken from the [data dictionary][sim3] on my github site.
 
 `r dd$description`
 
@@ -40,7 +52,7 @@ Here are the first few rows of data and the last few rows of data. Row 101 needs
 vnames <- names(dd$vars)
 f2 <- "whas500.dat"
 w0 <- read_table(
-  file=paste0(f0, f2), 
+  file=paste0(g0, r0, f2), 
   col_names=c(vnames),
   col_types="nnnnnnnnnnnnnnncccnnnn")
 head(w0)
@@ -49,60 +61,31 @@ head(w0)
 Here are a few descriptive statistics
 
 ```{r}
-dd$vars[["id"]]
-summary(w0$id)
-
-dd$vars[["age"]]
-summary(w0$age)
-
-dd$vars[["gender"]]
-count(w0, gender)
-
-dd$vars[["sysbp"]]
-summary(w0$sysbp)
-
-dd$vars[["diasbp"]]
-summary(w0$diasbp)
-
-dd$vars[["bmi"]]
-summary(w0$bmi)
-
-dd$vars[["cvd"]]
-count(w0, cvd)
-
-dd$vars[["afb"]]
-count(w0, afb)
-
-dd$vars[["sho"]]
-count(w0, sho)
-
-dd$vars[["chf"]]
-count(w0, chf)
-
-dd$vars[["av3"]]
-count(w0, av3)
-
-dd$vars[["miord"]]
-count(w0, miord)
-
-dd$vars[["mitype"]]
-count(w0, mitype)
-
-dd$vars[["year"]]
-count(w0, year)
-
-dd$vars[["los"]]
-summary(w0$los)
-
-dd$vars[["dstat"]]
-count(w0, dstat)
-
-dd$vars[["lenfol"]]
-summary(w0$lenfol)
-
-dd$vars[["fstat"]]
-count(w0, fstat)
+categorical <- 
+  (vscales=="binary") |
+  (vscales=="nominal") |
+  (vscales=="ordinal")
+for (i_vars in which(categorical)) {
+  cat(glue("{vnames[i_vars]}: {vlabels[i_vars]}"), "\n")
+  w0 %>%
+    count(.data[[vnames[i_vars]]]) %>%
+    data.frame %>%
+    print
+  cat("\n")
+}
 ```
+
+```{r}
+continuous <- 
+  (vscales=="interval") |
+  (vscales=="ratio")
+for (i_vars in which(continuous)) {
+  cat(glue("{vnames[i_vars]}: {vlabels[i_vars]}"), "\n")
+  print(summary(w0[vnames[i_vars]]))
+  cat("\n")
+}
+```
+
 
 Here is an overall survival curve.
 
@@ -110,5 +93,32 @@ Here is an overall survival curve.
 plot(Surv(w0$lenfol, w0$fstat))
 ```
 
-You can find the lasso regression model in the glmnet package. One important difference with glmnet is that it does not use a formula to define your model. Instead you provide matrices for your dependent variable and your independent variables.
+You can find the lasso regression model in the glmnet package. One important difference with glmnet is that it does not use a formula to define your model. Instead you provide matrices for your dependent variable and your independent variables. In a Cox regression model, the dependent matrix has a column for time and a second column with an indicator variable (1 means the event occurred and 0 means censoring).
 
+```{r}
+ymat <- cbind(w0$lenfol, w0$fstat)
+dimnames(ymat)[2] <- list(c("time", "status"))
+xmat <- as.matrix(w0[ , 8:14])
+dimnames(xmat)[2] <- list(vnames[8:14])
+lasso_fit <- glmnet(xmat, ymat, family="cox")
+plot(lasso_fit, label=TRUE)
+plot(lasso_fit, xvar="norm", label=TRUE)
+plot(lasso_fit, xvar="lambda", label=TRUE)
+plot(lasso_fit, xvar="dev", label=TRUE)
+```
+
+```{r}
+cv_fit <- cv.glmnet(xmat, ymat, family = "cox", type.measure="mae")
+plot(cv_fit)
+plot(lasso_fit, xvar="lambda")
+abline(v=log(cv_fit$lambda.1se))
+cv_fit$lambda.1se
+coef(lasso_fit, cv_fit$lambda.1se)
+```
+
+```{r}
+cv_fit$lambda.min
+plot(lasso_fit, xvar="lambda")
+abline(v=log(cv_fit$lambda.min))
+coef(lasso_fit, cv_fit$lambda.min)
+```

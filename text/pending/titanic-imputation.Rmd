@@ -16,17 +16,21 @@ Splines provide a useful way to model relationships that are more complex than a
 <!---more--->
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(glue)
 library(mice)
 library(readr)
 library(rms)
 library(tidyverse)
 library(yaml)
-f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "titanic-data-dictionary.yaml"
-dd <- read_yaml(paste0(f0, f1))
+g0 <- "https://raw.githubusercontent.com/pmean/"
+r0 <- "datasets/master/"
+f1 <- "titanic.yaml"
+s1 <- "yaml-functions.R"
+source(paste0(g0, r0, s1))
+dd <- read_yaml(paste0(g0, r0, f1))
+vnames <- extract_names(dd)
+vlabels <- extract_labels(dd)
 ```
-
-The Titanic was a large cruise ship, the biggest of its kind in 1912. It was thought to be unsinkable, but when it set sail from England to American in its maiden voyage, it struck an iceberg and sank, killing many of the passengers and crew. You can get fairly good data on the characteristics of passengers who died and compare them to those that survived. The data indicate a strong effect due to age and gender, representing a philosophy of "women and children first" that held during the boarding of life boats. Let's look at the effect of age on survival using a logistic regression model.
 
 Here is a brief description of this dataset, taken from the [data dictionary][sim3] on my github site.
 
@@ -36,37 +40,49 @@ Here is a brief description of this dataset, taken from the [data dictionary][si
 
 Here are the first few rows of data.
 
-```{r}
+```{r, echo=FALSE}
 f2 <- "titanic_v00.txt"
-ti0 <- 
+raw_data <- 
   data.frame(
     read_tsv(
-      file=paste0(f0, f2),
+      file=paste0(g0, r0, f2),
       col_types="ccncn"))
-names(ti0) <- tolower(names(ti0))
+# Re-arranging columns just for convenient display
+o <-  c(1, 3, 2, 4, 5)
+ti0 <- select(raw_data, o)
+vnames <- vnames[o]
 head(ti0)
 ```
 
 Here are a few descriptive statistics
 
-```{r}
-summary(ti0$age)
-count(ti0, pclass)
-count(ti0, sex)
-count(ti0, survived)
+```{r, echo=FALSE}
+cat(vnames[1], ": ", vlabels[1], "\n")
+summary(ti0$Age)
+cat(vnames[2], ": ", vlabels[2], "\n")
+count(ti0, PClass)
+cat(vnames[3], "\n")
+count(ti0, Sex)
+cat(vnames[4], "\n")
+cat(as.yaml(dd$vars$Survived$values), "\n")
+count(ti0, Survived)
 ```
 
-Notice the large number of missing values for age. The first three passegers with missing ages are
+I have hidden the R code up to this point, as it is mundane and not of great interest. I will show the R code and output for the rest of the analysis.
+
+Notice the large number of missing values for age. The first three passengers with missing ages are
 
 ```{r}
-missing_rows <- 13:15
+missing_rows <- which(is.na(ti0$Age))[1:3]
 ti0 %>% slice(missing_rows)
 ```
 
 Create mutliply imputed values for age. The default is to use every variable in the dataset other than age to impute the value of age. You don't want to use the name of the passenger, of course, so be sure to drop it before the imputation step.
 
 ```{r}
-ti1 <- select(ti0, -name)
+ti1 <- select(ti0, -Name)
+ti1$i_female <- as.numeric(ti1$Sex=="female")
+ti1 <- select(ti1, -Sex)
 ti_mice <- mice(ti1)
 ```
 
@@ -102,7 +118,7 @@ Use the with function of the mice package to fit a model to apply a particular a
 ti_with <- with(
   ti_mice, 
   glm(
-    survived~pclass+rcs(age)+sex, 
+    Survived~PClass+rcs(Age, 3)+i_female, 
     family=binomial)) 
 ```
 
@@ -127,17 +143,19 @@ Combine all these analyses with the pool function.
 
 ```{r}
 ti_pool <- pool(ti_with)
-summary(ti_pool)
-log_or <- summary(ti_pool)[8, 2]
+ti_summary <- summary(ti_pool)
+ti_summary
 ```
 
 To complete things, compute the odds ratio and confidence interval.
 
 ```{r}
-se <- summary(ti_pool)[8, 3]
-or <- exp(log_or)
-lo <- exp(log_or-1.96*se)
-hi <- exp(log_or+1.96*se)
-paste0(round(or, 3), " (", round(lo, 3), ",", round(hi, 3), ")")
+female <- ti_summary$term=="i_female"
+log_or <- ti_summary[female, "estimate"]
+se <- ti_summary[female, "std.error"]
+or <- round(exp(log_or), 1)
+lo <- round(exp(log_or-1.96*se), 1)
+hi <- round(exp(log_or+1.96*se), 1)
+glue("Odds ratio for females is {or}, 95% CI ({lo},{hi})")
 ```
 
