@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 
-![](http://www.pmean.com/images/propensity-monte-carlo01.png)
+![](http://www.pmean.com/images/13/propensity-monte-carlo-01.png)
 
 <!---More--->
 

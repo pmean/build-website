@@ -10,7 +10,7 @@ tags:
 output: html_document
 ---
 
-![](http://www.pmean.com/images/row-over-screening01.png)
+![](http://www.pmean.com/images/13/row-over-screening-01.png)
 
 <!---More--->
 

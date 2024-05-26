@@ -6,12 +6,15 @@ date: "2013-11-27"
 categories:
 - Blog post
 tags:
+- Obsolete pages
 output: html_document
 ---
 
-I've decided for quite some time that I need to move from a website to a blog.
+This post is obsolete, but I decided to keep it around for nostalgic reasons.
 
 <!---More--->
+
+I've decided for quite some time that I need to move from a website to a blog.
 
 A blog automates many of the features that I have in my website. In particular, you can use tags to organize pages. Right now I do this manually with my "category" pages, but it is tedious.
 

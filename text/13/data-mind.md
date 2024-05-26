@@ -25,7 +25,7 @@ with the best learning experience for data science and statistics." Last
 accessed December 12, 2013. Available at:
 [www.datamind.org](http://www.datamind.org/).
 
-![](http://www.pmean.com/images/datamind01.png)
+![](http://www.pmean.com/images/13/data-mind-01.png)
 
 
 
