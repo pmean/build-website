@@ -20,12 +20,9 @@ I've followed the [glmnet vignette for Cox regression][tay1] closely. You might 
 <!---more--->
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-library(broom)
 library(glmnet)
 library(glue)
-library(pspline)
 library(readr)
-library(rms)
 library(survival)
 library(tidyverse)
 library(yaml)
@@ -51,26 +48,35 @@ Here is a brief description of the whas500 dataset, taken from the [data diction
 
 Here are the first few rows of data and the last few rows of data. Row 101 needs to be removed.
 
-```{r}
+```{r, echo=FALSE}
 vnames <- names(dd$vars)
+# for some reason, R wants to read in 23 
+# columns rather than 22. The last column 
+# is all blanks and will be tossed out.
+#
+# Dates are always a bit messy and I do
+# not need them for this analysis, so I
+# will keep things simple and read them 
+# in as strings.
 f2 <- "whas500.dat"
 w0 <- read_table(
   file=paste0(g0, r0, f2), 
-  col_names=c(vnames),
+  col_names=vnames,
   col_types="nnnnnnnnnnnnnnncccnnnn")
-head(w0)
+w1 <- data.frame(w0)
+head(w1)
 ```
 
 Here are a few descriptive statistics
 
-```{r}
+```{r, echo=FALSE}
 categorical <- 
   (vscales=="binary") |
   (vscales=="nominal") |
   (vscales=="ordinal")
 for (i_vars in which(categorical)) {
   cat(glue("{vnames[i_vars]}: {vlabels[i_vars]}"), "\n")
-  w0 %>%
+  w1 %>%
     count(.data[[vnames[i_vars]]]) %>%
     data.frame %>%
     print
@@ -78,30 +84,32 @@ for (i_vars in which(categorical)) {
 }
 ```
 
-```{r}
+```{r, echo=FALSE}
 continuous <- 
   (vscales=="interval") |
   (vscales=="ratio")
 for (i_vars in which(continuous)) {
   cat(glue("{vnames[i_vars]}: {vlabels[i_vars]}"), "\n")
-  print(summary(w0[vnames[i_vars]]))
+  print(summary(w1[vnames[i_vars]]))
   cat("\n")
 }
 ```
 
 ## Simple analysis
 
+I am going to show the R code from this point onward so you can see the actual programming required to fit a lasso model.
+
 Here is an overall survival curve.
 
 ```{r}
-plot(Surv(w0$lenfol, w0$fstat))
+plot(Surv(w1$lenfol, w1$fstat))
 ```
 
 Here is the traditional Cox model
 
 ```{r}
 simple_fit <- coxph(
-  Surv(w0$lenfol, w0$fstat) ~
+  Surv(w1$lenfol, w1$fstat) ~
       cvd +
       afb + 
       sho + 
@@ -109,7 +117,7 @@ simple_fit <- coxph(
       av3 +
       miord +
       mitype,
-    data=w0)
+    data=w1)
 coef(simple_fit)
 ```
 
@@ -118,9 +126,9 @@ coef(simple_fit)
 You can find the lasso regression model in the glmnet package. One important difference with glmnet is that it does not use a formula to define your model. Instead you provide matrices for your dependent variable and your independent variables. In a Cox regression model, the dependent matrix has a column for time and a second column with an indicator variable (1 means the event occurred and 0 means censoring).
 
 ```{r}
-ymat <- cbind(w0$lenfol, w0$fstat)
+ymat <- cbind(w1$lenfol, w1$fstat)
 dimnames(ymat)[2] <- list(c("time", "status"))
-xmat <- as.matrix(w0[ , 8:14])
+xmat <- as.matrix(w1[ , 8:14])
 dimnames(xmat)[2] <- list(vnames[8:14])
 lasso_fit <- glmnet(xmat, ymat, family="cox", standardize=FALSE)
 plot(lasso_fit, xvar="lambda", label=TRUE)
