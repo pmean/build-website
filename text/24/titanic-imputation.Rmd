@@ -11,7 +11,7 @@ tags:
 output: html_document
 ---
 
-Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a logistic regression model with data from survival of passengers on the Titanic.
+Multiple imputation is a way to properly account for missing values without causing bias. Simpler forms of imputation, such as replacing missing values with the mean of the non-missing values, can produce serious problems. You might think that ignoring the missingness and relying just on records with complete data for all key variables would be acceptable, but this also can produce serious problems. I want to illustrate a simple example of multiple imputation using data on mortality from the Titanic.
 
 <!---more--->
 
@@ -41,7 +41,7 @@ Here is a brief description of this dataset, taken from the [data dictionary][si
 Here are the first few rows of data.
 
 ```{r, echo=FALSE}
-f2 <- "titanic_v00.txt"
+f2 <- "titanic.txt"
 raw_data <- 
   data.frame(
     read_tsv(

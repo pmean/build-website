@@ -23,7 +23,7 @@ library(rms)
 library(tidyverse)
 library(yaml)
 f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "titanic-data-dictionary.yaml"
+f1 <- "titanic.yaml"
 dd <- read_yaml(paste0(f0, f1))
 ```
 
@@ -38,7 +38,7 @@ Here is a brief description of the diamond pricing dataset, taken from the [data
 Here are the first few rows of data.
 
 ```{r}
-f2 <- "titanic_v00.txt"
+f2 <- "titanic.txt"
 ti0 <- 
   data.frame(
     read_tsv(

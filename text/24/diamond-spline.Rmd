@@ -15,7 +15,7 @@ Splines provide a useful way to model relationships that are more complex than a
 
 <!---more--->
 
-```{r, echo=FALSE}
+```{r initialization, echo=FALSE}
 library(broom)
 library(pspline)
 library(readr)
@@ -23,7 +23,7 @@ library(rms)
 library(tidyverse)
 library(yaml)
 f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "diamonds-data-dictionary.yaml"
+f1 <- "diamonds.yaml"
 dd <- read_yaml(paste0(f0, f1))
 ```
 
@@ -39,7 +39,7 @@ You can also find the [original source of the data][jse1] and a [more detailed d
 [jse2]: http://jse.amstat.org/v9n2/4C.txt
 [jse3]: https://jse.amstat.org/jse_data_archive.htm
 
-```{r}
+```{r read-diamonds}
 f2 <- "diamonds.txt"
 raw_data <- read.fwf(file=paste0(f0, f2), widths=c(5,2,5,4,5))
 di <- raw_data
@@ -54,7 +54,7 @@ names(di) <- c(
 
 Make adjustments for exchange rate and inflation.
 
-```{r}
+```{r adjustments}
 exchange_rate <- 1.72
 inflation_rate <- 1.81
 di$adjusted_price <- di$price*inflation_rate/exchange_rate
@@ -63,7 +63,7 @@ head(di)
 
 Here are a few descriptive statistics
 
-```{r}
+```{r descriptives}
 summary(di$carat)
 summary(di$price)
 summary(di$adjusted_price)
@@ -74,7 +74,7 @@ count(di, certification)
 
 Suppose that you want to build a model that predicts the adjusted price using carat, colour, and clarity. You suspect, however, that the relationship between carat and adjusted price is nonlinear.
 
-```{r}
+```{r plot}
 ggplot(data=di, aes(carat, adjusted_price)) +
   geom_point(pch=1) -> scatter1
 scatter1
@@ -82,7 +82,7 @@ scatter1
 
 First, examine a linear trend.
 
-```{r}
+```{r linear-trend}
 scatter1+geom_smooth(method="lm")
 ```
 
@@ -96,7 +96,7 @@ A type of spline that I like a lot are the restricted cubic splines developed by
 
 There is a problem with direct interpretation, though. The coefficients for a linear fit are fairly easy to interpret.
 
-```{r}
+```{r linear-fit}
 linear_fit <- lm(adjusted_price ~ carat, data=di)
 linear_coefficients <- tidy(linear_fit)
 linear_coefficients
@@ -106,14 +106,14 @@ The slope, `r round(linear_coefficients[2, 2])`,  represents the estimated avera
 
 Things don't have such a nice interpretation with your spline model.
 
-```{r}
+```{r spline-fit}
 spline_fit <- lm(adjusted_price ~ rcs(carat), data=di)
 tidy(spline_fit)
 ```
 
 The coefficients from the restricted cubic spline are pretty much uninterpretable. You have to visualize the spline graphically.
 
-```{r}
+```{r spline-plot}
 carat_sequence <- data.frame(
   carat = seq(min(di$carat), max(di$carat), length=100))
 carat_sequence$prediction <- 
@@ -125,7 +125,7 @@ scatter1 + geom_line(
 
 You might be interested in seeing if the spline fits better than a simple linear function. Fit both a linear term and a spline and then compare to the fit with just a linear term.
 
-```{r}
+```{rlinear-plus-spline}
 linear_plus_spline_fit <- lm(
   adjusted_price ~ carat + rcs(carat), 
   data=di)
