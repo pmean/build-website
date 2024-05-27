@@ -8,9 +8,10 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: complete
 ---
 
-![](http://www.pmean.com/images/study-development01.png)
+![](http://www.pmean.com/new-images/13/study-development-01.png)
 
 <!---More--->
 
@@ -20,6 +21,9 @@ The Heartland Institute for Clinical and Translational Research. Study Developme
 
 [hea1]: http://frontiersresearch.org/frontiers/study-development>.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/study-development/
+[sim2]: http://blog.pmean.com
 
 

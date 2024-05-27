@@ -8,6 +8,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: complete
 ---
 
 I got a question about a complex definition of a subgroup for data in SPSS. I've changed a few details, but the gist of the question goes like this:

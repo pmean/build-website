@@ -8,6 +8,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: partial
 ---
 
 This is a classic reference that is worth re-posting. No one seems to

@@ -8,10 +8,7 @@ categories:
 tags:
 - Risk adjustment
 output: html_document
-page_text: okay
-page_pngs: okay
-page_link: okay
-page_back: okay
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/13/propensity-monte-carlo-01.png)

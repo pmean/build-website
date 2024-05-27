@@ -8,6 +8,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 Someone on a LinkedIn group posted a question about "Possibility Theory." The question itself had a lot of hype, claiming that "time has expired for Probability Theory." Still, it is an interesting question and here's how I responded.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I am giving a talk at the Joint Statistical Meetings (JSM) in Toronto. I'm still tweaking the slides just a few hours before the talk. The title is "Data sources for a proposed course on secondary data analysis." On this page, I want to provide a link to the PDF file of the slides and share a story about this talk.
@@ -18,10 +19,12 @@ You can get a PDF file of the [individual slides][sim3], or a [six up version wi
 
 Just as a philosophical point: I don't like Powerpoint slides. They are generally less informative than a web page with narrative. I will eventually turn these Powerpoint slides into a webpage, but for now, you might find them useful if only to see the links to the various data sources. For the record, the four data sets that I talk about can be found at
 
---> [NHAMCS][nha1]
---> [SEER][see1]
---> [Son et al][son1], and
+-   [NHAMCS][nha1]
+-   [SEER][see1]
+-   [Son et al][son1], and
 --> [Medicare][med1]
+
+Note 2024-05-28: The link listed in the original web page and in the talk no longer works and has been updated.
 
 This talk evolved out of a working group in the Department of Biomedical and Health Informatics. Every month, one of us would share information about an interesting secondary data set that we had worked with. Part of this was to help researchers who might be preparing a grant and wanted to include a secondary data analysis component in that grant. A second part was to develop something that might eventually turn into a course on secondary data analysis.
 
@@ -45,4 +48,4 @@ You can find an [earlier version][sim1] of this page on my [original website][si
 [nha1]: http://www.cdc.gov/nchs/ahcd.htm
 [see1]: http://seer.cancer.gov
 [son1]: http://genome.cshlp.org/content/15/3/443.long
-[med1]: http://www.cms.gov/bsapufs/
+[med1]: https://www.cms.gov/data-research/statistics-trends-and-reports/basic-stand-alone-medicare-claims-public-use-files/bsa-outpatient-procedures-puf
