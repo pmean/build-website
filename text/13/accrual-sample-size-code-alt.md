@@ -9,6 +9,7 @@ tags:
 - Accrual problems in clinical trials
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 
 Please note that I have not had a chance to test the code on this updated page.

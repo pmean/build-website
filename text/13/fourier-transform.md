@@ -8,7 +8,10 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: no
 ---
+
+This page is a bit confusing. The link to the earlier version uses the name wavelet.html, but the text shows a simple Fourier transform. Is there also a simple example of the wavelet transform that I need to link to?
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 

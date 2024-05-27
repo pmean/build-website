@@ -8,6 +8,7 @@ categories:
 tags:
 - Obsolete post
 output: html_document
+page_update: complete
 ---
 
 This post is obsolete, but I am keeping it around for nostalgic reasons.

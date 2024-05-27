@@ -8,6 +8,10 @@ categories:
 tags:
 - Obsolete pages
 output: html_document
+page_text: okay
+page_pngs: okay
+page_link: okay
+page_back: okay
 ---
 
 This post is obsolete, but I decided to keep it around for nostalgic reasons.

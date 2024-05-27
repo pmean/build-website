@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 There are a series of experiments that show that your memory of an event

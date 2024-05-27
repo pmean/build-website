@@ -8,9 +8,13 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_text: okay
+page_pngs: okay
+page_link: okay
+page_back: okay
 ---
 
-![](http://www.pmean.com/images/13/twenty-tips-01.png)
+![](http://www.pmean.com/new-images/13/twenty-tips-01.png)
 
 <!---More--->
 

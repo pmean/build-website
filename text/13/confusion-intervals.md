@@ -8,21 +8,22 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: complete
 ---
 
-The desire among researchers for a black and white dichotomy between
-"significant" and "not significant" results leads to a lot of
-unnecessary confusion. 
+![](http://www.pmean.com/new-images/13/confusion-intervals-01.png "Image from article")
 
 <!---More--->
 
-McCormack J, Vandermeer B, Allan GM. How confidence intervals become
-confusion intervals. BMC Medical Research Methodology. 2013;13(1):134.
-doi:10.1186/1471-2288-13-134. Available at:
-http://www.biomedcentral.com/1471-2288/13/134.
+The desire among researchers for a black and white dichotomy between "significant" and "not significant" results leads to a lot of unnecessary confusion. 
 
-![](http://www.pmean.com/images/confusion-intervals01.png)
+McCormack J, Vandermeer B, Allan GM. How confidence intervals become confusion intervals. BMC Medical Research Methodology. 2013;13(1):134. doi:[10.1186/1471-2288-13-134][doi1].
 
+[doi1]: https://doi.org/10.1186/1471-2288-13-134
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/confusion-intervals/
+[sim2]: http://blog.pmean.com
 
 

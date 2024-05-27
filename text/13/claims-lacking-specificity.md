@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 I recently encountered a claim about the unlimited applications for a

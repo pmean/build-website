@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 I learned R back when the only way to assign a value was with the \<-

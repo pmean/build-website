@@ -8,6 +8,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 
 Paul Krugman wrote up an interesting application of Bayes Theorem on his

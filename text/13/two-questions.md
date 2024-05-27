@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 There was a discussion in the ASA Consulting Section forum about how to avoid "failures" in consulting. Failures can mean a variety of things, missed deadlines, incorrect analysis, misunderstanding of client needs, and so forth. How can you avoid failure in a consulting environment?

@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 I had a client come in with a sample size question. It involved the
