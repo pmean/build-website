@@ -73,8 +73,6 @@ verbose <- TRUE
 verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
-clean_files(
-  fixed ('This page is being updated from a version on the original website.'),
-  fixed('This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.'),
+clean_files("page_update: complete",
   dir_root="text", 
   file_pattern="md$")
