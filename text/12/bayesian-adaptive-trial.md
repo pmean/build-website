@@ -8,6 +8,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 The Bayesian adaptive trial controls the probability of randomizing a patient to each of the proposed dose groups. As data emerges during the study, the probabilities are updated so that you are less likely to randomize a patient to a dose level that has far too much toxicity, far too little efficacy, or which does not contribute much information about the dose-response curve. The Bayesian adaptive trial also allows you to close certain arms of the trial if the dose is clearly inappropriate for further study.

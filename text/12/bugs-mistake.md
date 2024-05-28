@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I am just learning how to run BUGS software. I've used WinBUGS, which is a stand-alone program for Windows, and OpenBUGS, which is an Open Source version that runs on Windows and Linux (as well as on the Macintosh with the Windows emulation package WINE). My preference, though, is to run BUGS within R using the BRugs package. I wanted to look at a simple extension of the accrual model, and I made a rather amateurish mistake that I want to document here. BUGS is not a program for the faint-hearted, and, as this lesson reinforces, you need to understand the mathematical foundations of these models if you want to use BUGS successfully.
