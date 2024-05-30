@@ -6,9 +6,14 @@ date: "2014-01-15"
 categories:
 - Blog post
 tags:
+- broken link
+- obsolete pages
 - R software
 output: html_document
+page_update: complete
 ---
+
+This page is obsolete but I am keeping it around for nostalgic reasons.
 
 I'm helping to teach a beginner's workshop on R. Here are some resources
 that we will get from the web, but if you can download these files to
@@ -19,40 +24,31 @@ your computer ahead of time, that would be great.
 Here are the files for the latest R version (3.0.2 as of the writing of
 this blog entry):
 
--   [Windows
-    version](http://cran.r-project.org/bin/windows/base/R-3.0.2-win.exe)
--   [Mac version](http://cran.r-project.org/bin/macosx/R-3.0.2.pkg)
+-   Windows version (broken link)
+-   Mac version (broken link)
 
-Here are the files for R Studio ([what is R
-Studio?](http://www.rstudio.com/))
+Here are the files for R Studio (what is R Studio? broken link)
 
--   [Windows version](http://download1.rstudio.org/RStudio-0.98.490.exe)
--   [Mac version](http://download1.rstudio.org/RStudio-0.98.490.dmg)
+-   Windows version (broken link)
+-   Mac version (broken link)
 
-Here are the files for R Commander ([what is R
-Commander?](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/))
+Here are the files for R Commander ([what is R Commander?][rco1])
 
--   [Windows
-    version](http://cran.r-project.org/bin/windows/contrib/r-release/Rcmdr_2.0-2.zip)
--   [Mac
-    version](http://cran.r-project.org/bin/macosx/contrib/r-release/Rcmdr_2.0-2.tgz)
+-   Windows version (broken link)
+-   Mac version (broken link)
 
-I'll be using a data set on childhood respiratory diseases ([read
-documentation for this
-file](http://www.statsci.org/data/general/fev.html))
+I'll be using a data set on childhood respiratory diseases ([read documentation for this file][fev1])
 
--   [Text file](http://www.statsci.org/data/general/fev.txt) (for all
-    versions of R)
+-   [Text file][fev2] (for all versions of R)
 
 Here are the R commands and the associated output.
 
--   [R commands file](http://www.pmean.com/14/images/beginners.txt) (for
-    all versions of R)
--   [R output file](http://www.pmean.com/14/images/beginners.pdf) (for
-    all versions of R)
+-   [R commands file][sim3] (for all versions of R)
+-   [R output file][sim4] (for all versions of R)
 
 For your convenience, I am also including the R commands file below.
 
+```{}
 # For this example, I am reading data from a text file
 # located at the OzDASL (Australian Data And Story Library)
 # website. It is a tab delimited file with headers in the first row.
@@ -164,7 +160,7 @@ title(ti)
 # it actually makes your programming life a lot simpler.
 
 # end of file
-
+```
 Here are the two graphs produced by this output.
 
 ![](http://www.pmean.com/new-images/14/beginners-workshop01.png)
@@ -175,5 +171,20 @@ You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
 [sim1]: http://blog.pmean.com/beginners-workshop/
 [sim2]: http://blog.pmean.com
+
+[fev1]: http://www.statsci.org/data/general/fev.html
+[fev2]: http://www.statsci.org/data/general/fev.txt
+[rco1]: http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/
+[rco2]: http://cran.r-project.org/bin/windows/contrib/r-release/Rcmdr_2.0-2.zip
+[rco3]: http://cran.r-project.org/bin/macosx/contrib/r-release/Rcmdr_2.0-2.tgz
+[rma1]: http://cran.r-project.org/bin/macosx/R-3.0.2.pkg
+[rma1]: http://cran.r-project.org/bin/macosx/R-3.0.2.pkg
+[rst1]: http://www.rstudio.com/
+[rst2]: http://download1.rstudio.org/RStudio-0.98.490.exe
+[rst3]: http://download1.rstudio.org/RStudio-0.98.490.dmg
+[rwi1]: http://cran.r-project.org/bin/windows/base/R-3.0.2-win.exe
+
+[sim3]: http://www.pmean.com/14/images/beginners.txt
+[sim4]: http://www.pmean.com/14/images/beginners.pdf
 
 

@@ -5,10 +5,11 @@ author: Steve Simon
 date: 2003-11-26
 categories:
 - Blog post
-- Broken link
 tags:
+- Broken link
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean, 

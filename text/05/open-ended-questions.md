@@ -6,13 +6,10 @@ date: 2005-03-25
 categories:
 - Blog post
 tags:
-- Being updated
 - Survey design
 output: html_document
+page_update: partial
 ---
-**[StATS]: Open-ended questions on a survey (March
-25, 2005)**
-
 No one seems to talk about how to handle those pesky open-ended
 questions you see on a survey. I usually hold my breath and hope that
 the researcher doesn't think to mention it. Alicia O'Cathain and Kate

@@ -8,7 +8,10 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
+
+![](http://www.pmean.com/new-images/14/archiving01.png)
 
 I've always been a big fan of data sharing, mostly for selfish reasons.
 I like to see interesting data sets and use them as teaching examples
@@ -26,14 +29,11 @@ share their data.
 
 Roche DG, Lanfear R, Binning SA, et al. Troubleshooting Public Data
 Archiving: Suggestions to Increase Participation. PLoS Biol.
-2014;12(1):e1001779. doi:10.1371/journal.pbio.1001779. Available at:
-<http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001779>
-
-![](http://www.pmean.com/new-images/14/archiving01.png)
+2014;12(1):e1001779. doi:[10.1371/journal.pbio.1001779]. 
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
 [sim1]: http://blog.pmean.com/archiving/
 [sim2]: http://blog.pmean.com
 
-
+[doi1]: https://doi.org/10.1371/journal.pbio.1001779

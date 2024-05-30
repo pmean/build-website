@@ -5,10 +5,11 @@ author: Steve Simon
 date: 2003-02-03
 categories:
 - Blog post
-- Broken link
 tags:
+- Broken link
 - Data management
 output: html_document
+page_update: complete
 ---
 If you have to collect data on the race and/or ethnicity of your research subjects, you should be aware of the official U.S. government definitions that all federal agencies have to follow. You don't necessarily have to follow these guidelines, but they do offer up a way to code your data that is reasonably standardized.
 
