@@ -5,7 +5,7 @@ date: "2022-06-13"
 categories:
 - Recommendation
 tags:
-- R programming
+- R software
 output: html_document
 ---
 
