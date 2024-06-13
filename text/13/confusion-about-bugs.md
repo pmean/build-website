@@ -6,7 +6,7 @@ date: 2013-09-03
 categories:
 - Blog post
 tags:
-- Broken links
+- Broken link
 - Bayesian statistics
 - R software
 output: html_document

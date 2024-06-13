@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 I was working with a client who had a limited population of medical

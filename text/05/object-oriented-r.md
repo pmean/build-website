@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- R programming
+- R software
 output: html_document
 ---
 

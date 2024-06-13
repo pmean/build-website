@@ -10,6 +10,7 @@ tags:
 - Linear regression
 - R software
 output: html_document
+page_update: partial
 ---
 
 This program was written by Steve Simon, http://www.pmean.com, and is available at http://www.pmean.com/14/qqplot.html.
@@ -18,7 +19,8 @@ See a list of my other R programs at http://www.pmean.com/category/Rsoftware.htm
 
 Many statistical procedures are based on the assumption that your data has a normal distribution. The normal probability plot is a useful graphical tool for asessing this assumption. This plot is also called the qqplot (quantile-quantile plot).
 
-You can use the housing data set to illustrate the use of the normal probability prlot.
+You can use the housing data set to illustrate the use of the normal probability plot.
+
 ```{r read-and-display-data}
 fn <- "http://www.pmean.com/00files/housing.txt"
 al <- read.table(file=fn,header=TRUE)
@@ -45,7 +47,7 @@ You can read more about this on my 2009 blog entry about normal probability plot
 qqnorm(al$Price)
 ```
 
-Figure 1. Normal probabilty plot for house prices.
+Figure 1. Normal probability plot for house prices.
 
 In a linear model, the critical assumption is NOT that the predictor (independent) variables are normally distributed. It is NOT that the outcome (dependent) variable is normally distributed. It is that the residuals are normally distributed.
 

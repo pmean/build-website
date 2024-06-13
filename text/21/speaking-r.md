@@ -5,7 +5,7 @@ date: "2021-08-12"
 categories:
 - Recommendation
 tags:
-- R programming
+- R software
 - Teaching resources
 output: html_document
 ---

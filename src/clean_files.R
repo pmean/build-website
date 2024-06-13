@@ -73,6 +73,6 @@ verbose <- TRUE
 verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
-clean_files("page_update: complete",
+clean_files("2012-07-03",
   dir_root="text", 
   file_pattern="md$")

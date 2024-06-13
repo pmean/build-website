@@ -6,7 +6,7 @@ date: "2022-04-14"
 category: 
 - Blog post
 tags:
-- R programming
+- R software
 output: html_document
 ---
 

@@ -8,14 +8,16 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
-page_update: partial
+page_update: complete
 ---
+
+![](http://www.pmean.com/new-images/13/bad-prediction-01.png)
+
+<!---More--->
 
 Paul Krugman wrote up an interesting application of Bayes Theorem on his
 blog on the New York Times. I want to adapt his example and expand it a
 bit.
-
-<!---More--->
 
 Suppose that two experts are making a prediction about inflation. The
 first expert predicts that inflation is likely in the upcoming year
@@ -37,7 +39,7 @@ Dr. Krugman suggests Bayes theorem as a way to evaluate this setting.
 I'm changing his numbers slightly, but it does not change the general
 concept that he was trying to illustrate. Suppose that "likely" means a
 probability of 80% and "unlikely" means a probability of 10%. Place an
-uniformative prior probability on each expert of 50%. This means that
+uniform prior probability on each expert of 50%. This means that
 the probability that the first expert makes more accurate predictions
 than the second expert is equal to the probability that the second
 expert makes more accurate predictions than the first expert.
@@ -74,7 +76,7 @@ the first expert a bit less.
 
 Now this calculation depends a lot on what you assign for the
 probabilities of "likely" and "unlikely". If the first experts
-quantification of "likely"<U+00A0> meant 0.6 and not 0.8, then you get
+quantification of "likely" meant 0.6 and not 0.8, then you get
 
 P\[E1 \| not I\] = 0.333.
 
@@ -89,12 +91,11 @@ avoid assigning very high probabilities to certain events, unless you
 are really really sure of yourself. Otherwise, if your prediction is
 wrong, you take a big hit to your credibility.
 
-Here's a link to the [original
-entry](http://krugman.blogs.nytimes.com/2013/12/01/inflationistas-at-bayes/?_r=0 "original entry")
-in Dr. Krugman's blog.
+Here's a link to the [original entry][kru1] in Dr. Krugman's blog.
 
-![](http://www.pmean.com/images/bad-prediction01.png)
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/bad-prediction/
+[sim2]: http://blog.pmean.com
 
-
-
+[kru1]: http://krugman.blogs.nytimes.com/2013/12/01/inflationistas-at-bayes/

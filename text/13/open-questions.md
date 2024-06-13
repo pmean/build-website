@@ -11,42 +11,24 @@ output: html_document
 page_update: partial
 ---
 
+![](http://www.pmean.com/new-images/13/open-questions-01.png)
+
+<!---more--->
+
 This is a classic reference that is worth re-posting. No one seems to
 know what to do about those pesky open-ended questions you see on a
 survey. This article offers practical tips on how to handle this type of
 data.
 
-<!---More--->
+I [summarized this article][sim3] on my website back in 2005.
 
-"Any other comments?" Open questions on questionnaires -- a bane or a
-bonus to research? O'Cathain A, Thomas KJ. BMC Med Res Methodol 2004:
-4(1); 25. Abstract: "Background:<U+00A0> The habitual "any other comments"
-general open question at the end of structured questionnaires has the
-potential to increase response rates, elaborate responses to closed
-questions, and allow respondents to identify new issues not captured in
-the closed questions. However, we believe that many researchers have
-collected such data and failed to analyse or present it. Discussion:<U+00A0>
-General open questions at the end of structured questionnaires can
-present a problem because of their uncomfortable status of being
-strictly neither qualitative nor quantitative data, the consequent lack
-of clarity around how to analyse and report them, and the time and
-expertise needed to do so. We suggest that the value of these questions
-can be optimised if researchers start with a clear understanding of the
-type of data they wish to generate from such a question, and employ an
-appropriate strategy when designing the study. The intention can be to
-generate depth data or 'stories' from purposively defined groups of
-respondents for qualitative analysis, or to produce quantifiable data,
-representative of the population sampled, as a 'safety net' to identify
-issues which might complement the closed questions. Summary: We
-encourage researchers to consider developing a more strategic use of
-general open questions at the end of structured questionnaires. This may
-optimise the quality of the data and the analysis, reduce dilemmas
-regarding whether and how to analyse such data, and result in a more
-ethical approach to making best use of the data which respondents kindly
-provide." Available at: <http://www.biomedcentral.com/1471-2288/4/25>.
+O'Cathain, A., Thomas, K.J. "Any other comments?" Open questions on questionnaires – a bane or a bonus to research?. BMC Med Res Methodol 4, 25 (2004). DOI: [10.1186/1471-2288-4-25][doi1]
 
-I [summarized this
-article](http://www.pmean.com/05/OpenEndedQuestions.html) on my website
-back in 2005.
+[doi1]: https://doi.org/10.1186/1471-2288-4-25
 
-![](http://www.pmean.com/images/open-questions01.png)
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/open-questions/
+[sim2]: http://blog.pmean.com
+
+[sim3]: http://new.pmean.com/open-ended-questions/

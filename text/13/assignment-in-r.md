@@ -8,8 +8,12 @@ categories:
 tags:
 - R software
 output: html_document
-page_update: partial
+page_update: complete
 ---
+
+![](http://www.pmean.com/new-images/13/assignment-in-r01.png)
+
+<!---More--->
 
 I learned R back when the only way to assign a value was with the \<-
 operator. For example, if you were computing the hypotenuse of a
@@ -18,16 +22,12 @@ you to use an equals sign instead, which is the choice in many other
 programming languages. Should you do this? I say "no" emphatically, but
 this website makes an interesting counter-argument.
 
-<!---More--->
+David Smith, Use = or \<- for assignment. Revolutions Blog, December
+16, 2008. Available in [html format][smi1].
 
-David Smith, **Use = or \<- for assignment.** Revolutions Blog, December
-16, 2008. Excerpt: "A recent thread on the r-help mailing list raises a
-common question for beginning R users: should you use = (equals) or \<-
-(back arrow) for assignments? In R, both of the following statements
-have the effect of assigning the value 3 to the variable x: x = 3 or x
-\<- 3. So if they have the same effect, does it matter which you use?"
-Available at
-<http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html>.
+[smi1]: http://blog.revolutionanalytics.com/2008/12/use-equals-or-arrow-for-assignment.html
 
-![](http://www.pmean.com/images/assignment-in-r01.png)
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/assignment-in-r/
+[sim2]: http://blog.pmean.com

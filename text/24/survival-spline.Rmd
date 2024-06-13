@@ -23,7 +23,7 @@ library(rms)
 library(tidyverse)
 library(yaml)
 f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "whas100-data-dictionary.yaml"
+f1 <- "whas100.yaml"
 dd <- read_yaml(paste0(f0, f1))
 ```
 

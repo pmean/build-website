@@ -5,7 +5,7 @@ date: "2020-11-24"
 categories:
 - Recommendation
 tags:
-- R programming
+- R software
 output: html_document
 ---
 

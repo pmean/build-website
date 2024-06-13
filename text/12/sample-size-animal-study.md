@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 Dear Professor Mean, I've spent my entire career (so far) in developing statistical analysis plans for human subjects research. Recently, a neuroscientist who performs experiments on rats asked me to assist in a power analysis. My conversation with him reminded me of that YouTube video (Biostatistics vs Lab Research): "I think I only need 3 subjects..." In his case, he seemed fixated on needing only 6 rats per group---which is what he had always done in the past. Are the rules for sample size justification different for animal studies than for human studies?

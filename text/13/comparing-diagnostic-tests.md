@@ -138,3 +138,8 @@ cards, then I would run a more formal sample size justification. Still,
 it is interesting that the informal rule of thumb, the confidence
 interval calculation, and the power calculation for McNemar's test all
 indicate that a total sample size of 100 is inadequate.
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/comparing-diagnostic-tests/
+[sim2]: http://blog.pmean.com

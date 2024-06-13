@@ -6,9 +6,14 @@ date: "2014-12-23"
 categories:
 - Blog post
 tags:
-- 
+- Exclusions in research
 output: html_document
+page_update: complete
 ---
+
+![](http://www.pmean.com/new-images/14/survey-refusals01.png)
+
+<!---More--->
 
 The American Association for Public Opinion Research (AAPOR) convened a
 task force to address the increasing tendency of people to refuse to
@@ -23,14 +28,11 @@ serve as a starting point for handling the conflicting demands of
 scientific integrity and an individual's right to be left
 alone.
 
-<!---More--->
-
 AAPOR (2014). Report on Survey Participation Refusals. What constitutes
 a refusal, who refuses, refusal aversion and conversion. Discussion of
-rights of respondents. Available at
-<http://www.aapor.org/AAPORKentico/Communications/Press-Releases/Report-on-Survey-Participation-Refusals.aspx>.
+rights of respondents. Available in [html format][aap1].
 
-![](http://www.pmean.com/new-images/14/survey-refusals01.png)
+[aap1]: http://www.aapor.org/AAPORKentico/Communications/Press-Releases/Report-on-Survey-Participation-Refusals.aspx
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

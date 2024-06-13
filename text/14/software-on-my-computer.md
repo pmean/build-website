@@ -9,6 +9,7 @@ tags:
 - Obsolete page
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 This page is obsolete. I am keeping because I have fun looking back at things I did many years ago.
