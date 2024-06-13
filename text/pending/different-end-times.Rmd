@@ -1,0 +1,105 @@
+---
+title: Different end times in survival data
+source: "New"
+author: Steve Simon
+date: 2024-05-28
+categories:
+- Blog post
+tags:
+- Survival analysis
+output: html_document
+---
+
+Dear Professor Mean, I am running  a surival analysis with two groups and one group was followed for 190 days and the other for 225 days. Would that cause any bias?
+
+<!---more--->
+
+Dear Reader,
+
+Your concern, clearly is that some events might have occurred in the first group between day 191 and day 225. You are smart to be careful about this. I'd have to look at the math, but I am pretty sure that it all comes out clean.
+
+Here's a simple simulation using R. 
+
+Generate two sets of survival times.
+
+```{r}
+suppressMessages(library(survival))
+suppressMessages(library(tidyverse))
+set.seed(190225)
+raw_time1 <- rexp(100, rate=0.004)
+raw_time2 <- rexp(100, rate=0.008)
+sim <- data.frame(
+  g=rep(c("a", "b"), each=100), 
+  raw_time=c(raw_time1, raw_time2))
+head(sim)
+tail(sim)
+```
+
+How many events occur from 0 to 190 days, from 191 to 225 days, and after 225 days?
+
+```{r}
+sim %>%
+  group_by(g) %>%
+  summarize(
+    n_0_to_190=sum(raw_time <= 190),
+    n_191_to_225=sum(raw_time > 190&raw_time<=225),
+    n_above_225=sum(raw_time > 225))
+```
+
+Censor the first group at 190 days and the second group at 225.
+
+```{r}
+censor_time_v1 <- rep(c(190, 225), each=100)
+sim %>%
+  mutate(t_v1=pmin(raw_time, censor_time_v1)) %>%
+  mutate(censor_v1=as.numeric(t_v1 < censor_time_v1)) -> sim_v1
+sim_v1 %>%
+  count(g, censor_v1)
+```
+
+Run a Cox regression model
+
+```{r}
+cox_v1 <- coxph(Surv(t_v1, censor_v1)~g, data=sim_v1)
+cox_v1
+```
+
+What about those patients in the first group who might have experienced the event if they were evaluated at the full 225 days like the second group. Recreate the analysis using a common end time.
+
+```{r}
+censor_time_v2 <- rep(c(225, 225), each=100)
+sim %>%
+  mutate(t_v2=pmin(raw_time, censor_time_v2)) %>%
+  mutate(censor_v2=as.numeric(t_v2 < censor_time_v2)) -> sim_v2
+sim_v2 %>%
+  count(g, censor_v2)
+```
+
+Run a Cox regression model
+
+```{r}
+cox_v2 <- coxph(Surv(t_v2, censor_v2)~g, data=sim_v2)
+cox_v2
+```
+
+What if you ignored the events in the second group if they occurred in between 191 and 225 days?
+
+```{r}
+censor_time_v3 <- rep(c(190, 190), each=100)
+sim %>%
+  mutate(t_v3=pmin(raw_time, censor_time_v3)) %>%
+  mutate(censor_v3=as.numeric(t_v3 < censor_time_v3)) -> sim_v3
+sim_v3 %>%
+  count(g, censor_v3)
+```
+
+Run a Cox regression model
+
+```{r}
+cox_v3 <- coxph(Surv(t_v3, censor_v3)~g, data=sim_v3)
+cox_v3
+```
+
+
+
+

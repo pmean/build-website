@@ -10,18 +10,20 @@ tags:
 output: html_document
 ---
 
-This is a nice review inspired by recent controversial work of a Chinese
-scientist who claims to have created genetically engineered babies. It
-outlines approaches that we use to regulate unethical science and
-explains why these approaches can fail.
+![](http://www.pmean.com/new-images/18/rogue-scientists01.png)
 
 <!---More--->
 
-Maggie Koerth-Baker. FiveThirtyEight blog, December 10, 2018. Available
-in [html
-format](https://fivethirtyeight.com/features/we-have-ways-to-stop-rogue-scientists-they-dont-always-work/).
+This is a nice review inspired by recent controversial work of a Chinese scientist who claims to have created genetically engineered babies. It outlines approaches that we use to regulate unethical science and explains why these approaches can fail.
 
-![](http://www.pmean.com/new-images/18/rogue-scientists01.png)
+Maggie Koerth-Baker. FiveThirtyEight blog, December 10, 2018. Available in [html format][koe1].
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/rogue-scientists/
+[sim2]: http://blog.pmean.com
+
+[koe1]: https://fivethirtyeight.com/features/we-have-ways-to-stop-rogue-scientists-they-dont-always-work/
 
 
 
