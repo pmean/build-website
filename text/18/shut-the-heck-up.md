@@ -98,6 +98,11 @@ options(tidyverse.quiet = TRUE)
 
 before you load the tidyverse package, it suppresses a bunch of information messages. This is mentioned on Matt Stingl's [blog post][stin1] on his rstats-tips blog.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/shut-the-heck-up/
+[sim2]: http://blog.pmean.com
+
 [erik1]: https://www.r-bloggers.com/2009/09/r-function-of-the-day-tapply-2/
 [stac1]: https://stackoverflow.com/questions/13090838/r-markdown-avoiding-package-loading-messages
 [stac2]: https://stackoverflow.com/questions/62140483/how-to-interpret-dplyr-message-summarise-regrouping-output-by-x-override/62140681
