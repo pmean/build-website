@@ -8,23 +8,15 @@ categories:
 tags:
 - Cluster computing
 output: html_document
+page_update: complete
 ---
-
-I am working on creating a cluster computer using three Raspberry Pis.
-Once I get that working, I might see what I can do with the smaller
-model, the Raspberry Pi Zero. If I did, this interface would be a good
-start. It sits on top of a regular Pi and connects up to four Pi Zeros
-to it.
-
-<!---More--->
-
-Pimoroni. Cluster Hat 2.0. Available at
-<https://shop.pimoroni.com/products/cluster-hat>.
 
 ![](http://www.pmean.com/new-images/18/cluster-hat01.png)
 
+<!---More--->
 
+I am working on creating a cluster computer using three Raspberry Pis. Once I get that working, I might see what I can do with the smaller model, the Raspberry Pi Zero. If I did, this interface would be a good start. It sits on top of a regular Pi and connects up to four Pi Zeros to it.
 
-<U+00A0>
+Pimoroni. Cluster Hat 2.0. Available in [html format][pim1].
 
-
+[pim1]: https://shop.pimoroni.com/products/cluster-hat
