@@ -7,7 +7,7 @@ category: Blog post
 tags:
 - Sample size justification
 output: html_document
-page_update: completed
+page_update: complete
 ---
 
 There was an discussion on the message board for the Statistical Consulting Section of the American Statistical Association started by a question about a Phase II trial. The questioner was part of an Institutional Review Board and was reviewing a proposal for a Phase II clinical trial. This particular trial had a fairly small sample size with no justification of the choice of sample size. The questioner wanted to know if this was the norm for Phase II trials. Here are some of my thoughts combined with a synthesis of other comments.

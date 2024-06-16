@@ -8,7 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
-page_update: completed
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/14/archiving01.png)

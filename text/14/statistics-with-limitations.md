@@ -7,7 +7,7 @@ category: Blog post
 tags:
 - Hypothesis testing
 output: html_document
-page_update: completed
+page_update: complete
 ---
 
 Someone asked what you should do if you get a request to compute a p-value on a post hoc analysis. In general, any statistic computed on a post hoc analysis is likely to be biased, but a p-value is especially troublesome as it is much more prone to misuse or misinterpretation. Should you refuse to calculate this p-value? Here's what I said.
