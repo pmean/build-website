@@ -9,6 +9,7 @@ tags:
 - Confidence intervals
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean,

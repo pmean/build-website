@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Small sample size issues
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, Are there problems with a very small sample? Can
 the t-test be used with a sample of just three subjects? -- Anxious

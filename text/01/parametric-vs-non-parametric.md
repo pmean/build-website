@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, When should I use a parametric test versus a
 non-parametric test?*

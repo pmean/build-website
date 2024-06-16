@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean, I want to do research. Is forty subjects enough, or do I need more? 

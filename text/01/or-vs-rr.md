@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean: There is some confusion about the use of the odds ratio versus the relative risk. Can you explain the difference between these two numbers?*
