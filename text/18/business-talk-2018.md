@@ -9,11 +9,10 @@ tags:
 - Human side of statistics
 - Professional details
 output: html_document
+page_update: complete
 ---
 
-I'm giving a talk on Wednesday, August 22, titled "Business essentials
-for starting an independent consulting practice." Here are a few details
-about this talk.
+I'm giving a talk on Wednesday, August 22, titled "Business essentials for starting an independent consulting practice." Here are a few details about this talk.
 
 <!---More--->
 
@@ -23,3 +22,7 @@ It is being sponsored by the Statistical Consulting Section of the American Stat
 
 I am working on the slides for this talk and will post them here when I have completed them.
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/business-essentials-2/
+[sim2]: http://blog.pmean.com
