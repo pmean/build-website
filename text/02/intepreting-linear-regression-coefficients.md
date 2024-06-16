@@ -7,6 +7,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 When I ask most people to remember their high school algebra class, I get a mixture of reactions. Most recoil in horror. About one in every four people say they liked that class. Personally, I thought that algebra, and all the other math classes I took were great because they didn't require writing a term paper.

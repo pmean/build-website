@@ -7,7 +7,9 @@ categories:
 tags:
 - Logistic regression
 output: html_document
+page_update: partial
 ---
+
 
 This handout shows some of the dialog boxes that you are likely to encounter if you use logistic regression models in SPSS.
 

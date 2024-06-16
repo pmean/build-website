@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I have a model with two factors. When I ran the model, it showed a significant interaction between the two factors. What do I do now?*

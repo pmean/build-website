@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I have some data that I need help with analysis. One suggestion is that I use a log transformation. Why would I want to do this?*

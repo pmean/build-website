@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I've been working with small data sets for some neuroimaging research that have 5 treatment and 5 control participants. It is not unusual to have such small samples in this kind of work. My 95% confidence interval (CI) included zero; yet, the 85% confidence interval did not include zero. I know that the 95% CI is the common one, but I also know that others are used, but I don't know when to use them. Therefore, I'd like to know why we use 95% confidence limits all the time. When it is appropriate to use other CIs and the logic behind making such decisions.*

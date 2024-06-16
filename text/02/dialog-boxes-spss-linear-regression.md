@@ -7,6 +7,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 This handout will show the SPSS dialog boxes that I used to create linar regression examples. I will capitalize variable names, field names and menu picks for clarity.

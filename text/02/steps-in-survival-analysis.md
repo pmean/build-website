@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 There are three steps in a typical survival analysis.
 
