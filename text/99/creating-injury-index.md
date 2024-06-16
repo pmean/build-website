@@ -8,7 +8,9 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
+
 *Dear Professor Mean, I want to create an injury index that describes
 the severity of an injury to a child. This would include information
 about the type of injury, the location of the injury, the age of the

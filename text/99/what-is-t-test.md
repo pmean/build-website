@@ -8,6 +8,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean
