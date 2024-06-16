@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, Can you send me a basic definition of splines?*
 

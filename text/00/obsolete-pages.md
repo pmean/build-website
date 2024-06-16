@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 
 This page is being phased out. Look for the [obsolete page tag][sim3] on my new website.

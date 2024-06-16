@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 These web pages have several Sherlock Holmes quotes. These quotes can be found in the marvelous book *Statistically Speaking. A Dictionary of Quotations*, by C.C. Gaither and A.E. Cavazos-Gaither, Institute of Physics Publishing, Bristol, UK (1996).
 

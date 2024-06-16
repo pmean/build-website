@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I need to calculate the sample size for the
 Mann-Whitney U test. How do I do this? -- Bewildered Bob*

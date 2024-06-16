@@ -9,6 +9,7 @@ tags:
 - Data management
 - SPSS software
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean
 - I need to export the output from SPSS and use some

@@ -9,6 +9,7 @@ tags:
 - Obsolete pages
 - Website details
 output: html_document
+page_update: partial
 ---
 This page is obsolete. My pages on the current website are placed into the public domain. I am keeping this page around mostly for nostalgic reasons.
 

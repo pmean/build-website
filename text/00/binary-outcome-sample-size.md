@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I have to calculate a sample size for a binary outcome variable. The research study is on breast feeding failures within 7 to 10 days of birth for mothers who intended to breast feed. The rate of failure overall is expected to be about 12%. What sample size do I need?
 

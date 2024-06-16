@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Randomization
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I'm running an experiment where I randomize by alternating between the treatment and the control. I was told this is not the proper way to do this. Why not?*
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Logistic regression
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, What is Fisher's Exact Test and when should I use it?*
 

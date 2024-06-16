@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Research design
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I'm doing my thesis right now and I have to use quota stratified random sampling. I do not know the exact meaning of this term.*
 

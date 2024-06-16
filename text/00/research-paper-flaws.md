@@ -8,7 +8,9 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
+
 *Dear Professor Mean, A small group I've been teaching has gotten extremely interested in how to decide when there are too many flaws in a paper which would completely invalidate (and circular file) it.*
 
 Gee, how many bugs do you have to find in a software program before you decide to uninstall it?

@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I have to review a paper for journal club and I don't understand all the obscure statistical jargon that the authors use.*

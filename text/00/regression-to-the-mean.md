@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, In a stat course I was introduced to the term "regression to the mean". Today we administered a pretest to 4th graders. In Feb we will again test, with the same exam, to see "how much they've learned". I explained to the principal that, of course they would do better, no matter how well they were taught, that this was a classic case of regression to the mean. Am I correct, close, or way off on this?*

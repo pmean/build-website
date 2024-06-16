@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Research design
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, What is a stratified random sample and why would I want to use one?*
 

@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I have a graph of the trend for the mean frequency of injuries among children from 1 to 11 years of age. The shape of the curve suggests a nonlinear relationship between the age and the frequency of injuries. Is there some software that would provide the best fitting curve for this data from among a large family of nonlinear curves?*
 

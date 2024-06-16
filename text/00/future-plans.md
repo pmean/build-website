@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 
 This page is obsolete. I am keeping it around mostly for nostalgic reasons.
