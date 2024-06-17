@@ -7,6 +7,7 @@ categories:
 tags:
 - Pvalues
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean,* *SPSS produces two-tailed p-values, but I want a
 one-tailed p-value. How do I get this?*

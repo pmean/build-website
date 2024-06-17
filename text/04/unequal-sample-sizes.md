@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 For some reasons, it seems to unnerve people when the sample size in the
 treatment and control group are not the same. They worry about whether

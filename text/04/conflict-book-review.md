@@ -7,6 +7,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: partial
 ---
 The New York Review of Books has a [extensive
 review](http://www.nybooks.com/articles/16954) written by Richard Horton

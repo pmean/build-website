@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 > Someone asked me where I got the following guidance for Area Under the
 > Curve (AUC) for a Receiver Operating Characteristic (ROC) curve.

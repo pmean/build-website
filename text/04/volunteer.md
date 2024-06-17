@@ -7,6 +7,7 @@ categories:
 tags:
 - Exclusions in research
 output: html_document
+page_update: partial
 ---
 Here's a draft of a speech that I am planning to give on August 5, 2004
 for the Bluejacket Toastmasters humorous speech competition.

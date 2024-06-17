@@ -7,6 +7,7 @@ categories:
 tags:
 - Randomization
 output: html_document
+page_update: partial
 ---
 A writer on the [IRB Discussion Forum](http://www.irbforum.org/) asked a
 question about how to explain stratified randomization in an informed

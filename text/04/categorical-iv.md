@@ -8,6 +8,7 @@ categories:
 tags:
 - Logistic regression
 output: html_document
+page_update: partial
 ---
 On April 8, I had written a brief description of [interactions in a
 logistic regression model](interactions.html). This was a supplement to

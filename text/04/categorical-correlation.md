@@ -7,6 +7,7 @@ categories:
 tags:
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 I got another question, this one from Brooklyn, New York. It's a
 commonly asked question, so I should write something about this. The

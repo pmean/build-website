@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 When you draw lines and curves on a computer screen, most of them end up
 with a subtle staircase pattern because you are using discrete pixels to

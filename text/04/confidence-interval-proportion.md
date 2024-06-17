@@ -7,6 +7,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 One of the fellows at the hospital asked me about confidence intervals
 for proportions. I wrote a couple of simple spreadsheets to do these

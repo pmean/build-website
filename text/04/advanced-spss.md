@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: partial
 ---
 SPSS had a nice web seminar on their Regression and Advanced Statistics
 modules. Here are some notes that I took while sitting in.

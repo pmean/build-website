@@ -7,6 +7,7 @@ categories:
 tags:
 - Blinding in research
 output: html_document
+page_update: partial
 ---
 When a study a placebo controlled study is completed, patients in both
 arms of the study are often offered the active drug at the end of the

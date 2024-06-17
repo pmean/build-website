@@ -7,6 +7,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 Someone asked me how to compute one-sided p-values in SPSS. The output
 from SPSS always uses two-sided p-values. This was worth an explanation,

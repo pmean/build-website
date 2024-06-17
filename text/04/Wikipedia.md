@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 > Part of my job on these web pages is to find good resources beyond
 > what I can write about Statistics. I'm finding more and more that

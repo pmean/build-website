@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 Anecdotal information is problematic for several reasons, and I have
 highlighted some of these reasons in a [speech I gave at the 2004

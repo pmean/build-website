@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 I got an email from Japan recently with an interesting question. By the
 way, one of the fun things about my web pages is that I get emails from
