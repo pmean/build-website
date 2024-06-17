@@ -8,6 +8,7 @@ tags:
 - Data mining
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I got a request to evaluate some software by [Axon Instruments][axo1] for the analysis of microarray data. The software, [Acuity version 3.1][axo2], costs $4,000 per person and has to compete with other commercial software such as
 

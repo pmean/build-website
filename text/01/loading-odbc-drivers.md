@@ -9,6 +9,7 @@ tags:
 - Data management
 - SPSS software
 output: html_document
+page_update: partial
 ---
 
 This page is obsolete, but I am keeping it here for sentimental reasons.

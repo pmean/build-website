@@ -9,6 +9,7 @@ tags:
 - Descriptive statistics
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, My colleagues and I argue over the most appropriate way for displaying tables of percentages. Must the row or column always add to 100%? Also in cases where it is difficult to know which variable is dependent how does one decide the best way to present the results?*

@@ -8,6 +8,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I have developed a method to distinguish among
 several products that we need to buy so our company can make a good

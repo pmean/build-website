@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 XML (eXtensible Markup Language) is standard for sorting information
 that has the flexibility needed to handle complex data. It is similar to

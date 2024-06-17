@@ -7,7 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
-page_update: completed
+page_update: complete
 ---
 
 I made another rookie mistake in R. I have a program in R that needed to store a large matrix for later re-use. You can use the dput function to put a copy of the matrix out on your local hard drive, and you can retrieve it later with dget. It turns out that dput ran pretty quickly, but dget was very very slow. The matrix was large (320 rows by 320 columns) but it still seemed to be too slow. It turns out that I didn't really understand how R works.

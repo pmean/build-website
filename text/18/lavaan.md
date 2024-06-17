@@ -8,24 +8,20 @@ categories:
 tags:
 - Structural Equation Modeling
 output: html_document
+page_update: complete
 ---
-
-I have not run too many Structural Equation Modeling (SEM), so I can't
-comment too much about this resource, but anytime I see something like
-SEM features added to R, I have to rejoice. This page gives a nice
-tutorial introduction to lavaan, the R package for SEM, and the material
-is pitched at a level easy to follow even for people like me who have a
-limited appreciation for SEM terminology.
-
-<!---More--->
-
-Yves Rousseel. lavaan tutorial. Available at
-<http://lavaan.ugent.be/tutorial/index.html>.
 
 ![](http://www.pmean.com/new-images/18/lavaan01.png)
 
+<!---More--->
 
+I have not run too many Structural Equation Modeling (SEM), so I can't comment too much about this resource, but anytime I see something like SEM features added to R, I have to rejoice. This page gives a nice tutorial introduction to lavaan, the R package for SEM, and the material is pitched at a level easy to follow even for people like me who have a limited appreciation for SEM terminology.
 
-<U+00A0>
+Yves Rousseel. lavaan tutorial. Available in [html format][rou1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/lavaan/
+[sim2]: http://blog.pmean.com
+
+[rou1]: http://lavaan.ugent.be/tutorial/index.html

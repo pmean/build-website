@@ -7,7 +7,7 @@ category: Recommendation
 tags:
 - Graphical display
 output: html_document
-page_update: completed
+page_update: complete
 ---
 
 ![Business Looks

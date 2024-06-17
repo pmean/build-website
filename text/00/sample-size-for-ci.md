@@ -10,6 +10,7 @@ tags:
 - Confidence intervals
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, We have a large dataset with about 400 million records. We need to randomly select a subsample from it. However we need help in determining the sample size. What sample size do we need for the confidence interval calculations?*
 

@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, When I read my medical journals, I keep on coming across terms like Kaplan-Meier Product Limit estimate or Kaplan-Meier survival curve. What do these terms mean and when are they used?*

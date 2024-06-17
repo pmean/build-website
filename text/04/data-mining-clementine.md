@@ -8,6 +8,7 @@ tags:
 - Data mining
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I attended an SPSS web seminar about their Clementine program, which
 performs data mining. The talk was oriented to business applications,

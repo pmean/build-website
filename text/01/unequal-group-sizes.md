@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Analysis of variance
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I am comparing several groups of subjects, but the
 number of subjects in each group differ quite a bit. How does this

@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, Everyone says that smoking causes cancer, but we can't really say that, can we? There is an association between smoking and cancer, but we know that association does not imply causation, don't we?*

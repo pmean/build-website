@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Measuring agreement
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I need to establish validity and reliability of a new measurement. How do I do this?*

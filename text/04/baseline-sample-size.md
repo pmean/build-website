@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 Many research studies evaluate all patients at baseline and then
 randomly assign the patients to groups, conduct the interventions, and

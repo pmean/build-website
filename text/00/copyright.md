@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 
 This page is obsolete and is being included only for historical purposes. The proper copyright notice is included in the footer for every page.

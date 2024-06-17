@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Data management
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I am not sure whether I should use a database or a spreadsheet to enter my data?*
 

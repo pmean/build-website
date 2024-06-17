@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Privacy in research
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I want to do some research using tissue samples, but the Institutional Review Board has said that I have to get consent first, because the data are not anonymized. The also told me that I might be able to get a waiver from consent if I de-identify the data. What's up with all these privacy concerns in research.*

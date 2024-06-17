@@ -9,6 +9,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I've heard a lot about how the bootstrap is going to revolutionize Statistics.*
 

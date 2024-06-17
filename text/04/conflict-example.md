@@ -7,6 +7,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: partial
 ---
 Does having a commercial interest in the results of a drug trial cause a
 problem for the people running the trial? If it does, then much of the

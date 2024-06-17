@@ -73,6 +73,8 @@ verbose <- TRUE
 verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
-clean_files("2012-07-03",
+clean_files(
+  ": R programming",
+  ": R software",
   dir_root="text", 
   file_pattern="md$")

@@ -7,6 +7,7 @@ categories:
 tags:
 - Post hoc power
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, The results of my study were negative, and the
 journal reviewer insists that I perform a post hoc power calculation.

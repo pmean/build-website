@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I recently upgraded to version 8 of Stata, which is a nice program for
 advanced statistical analyses. During the registration of the software,

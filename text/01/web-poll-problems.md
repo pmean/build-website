@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Research design
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I'm conducting a number of web-based polls and
 would like to include a margin of error in my results. How do I do

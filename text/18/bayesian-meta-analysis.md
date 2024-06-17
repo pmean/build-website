@@ -9,24 +9,24 @@ tags:
 - Bayesian statistics
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
-I got a question about Bayesian meta-analysis and found this nice
-teaching example. I'm not sure if the graphs are from the [R package
-bayesmeta](https://arxiv.org/abs/1711.08683)
-- but it looks like
-it.
+![](http://www.pmean.com/new-images/18/bayesian-meta-analysis01.png)
 
 <!---More--->
 
-John K. Kruschke. Bayesian meta-analysis of two proportions in random
-control trials. Doing Bayesian Data Analysi blog
-- November 3
-- 2016.
-Available at
-<http://doingbayesiandataanalysis.blogspot.com/2016/11/bayesian-meta-analysis-of-two.html>.
+I got a question about Bayesian meta-analysis and found this nice teaching example. I'm not sure if the graphs are from the [R package bayesmeta][bay1], but it looks like it.
 
-![](http://www.pmean.com/new-images/18/bayesian-meta-analysis01.png)
+John K. Kruschke. Bayesian meta-analysis of two proportions in random control trials. Doing Bayesian Data Analysis blog, 2016-11-03. Available in [html format][kru1].
+
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
+
+[sim1]: http://blog.pmean.com/bayesian-meta-analysis/
+[sim2]: http://blog.pmean.com
+
+[bay1]: https://arxiv.org/abs/1711.08683
+[kru1]: http://doingbayesiandataanalysis.blogspot.com/2016/11/bayesian-meta-analysis-of-two.html
 
 
 

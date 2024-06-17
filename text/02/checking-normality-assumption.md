@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I have some data that don't seem to meet the assumption of normality. What should I do?*

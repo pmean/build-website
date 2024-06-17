@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 
 Every data analysis should **start with a descriptive or exploratory

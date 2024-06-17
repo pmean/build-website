@@ -9,6 +9,7 @@ tags:
 - Equipoise in research
 - Randomization
 output: html_document
+page_update: partial
 ---
 Someone on the IRBForum posed a theoretical question. Is running a three arm study troublesome from an ethical viewpoint because the probability that any subject in the trial receives the best possible treatment decreases from 50% to 33%?
 

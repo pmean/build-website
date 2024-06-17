@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I have longitudinal data on the growth pattern of
 patients given growth hormone. How should I store the data? --Jittery

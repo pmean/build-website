@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 One of the people I work with is always looking for hidden subgroups
 in his data. For him, this is a starting point for exploring for

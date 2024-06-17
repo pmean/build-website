@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Writing research grants
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean, I'm starting to write the methods section for a research grant, but I have no idea where to start. -- Dazed Dana

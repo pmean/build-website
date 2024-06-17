@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of Statistics
 output: html_document
+page_update: partial
 ---
 > *"Hiring a statistician after the data has been collected is like
 > hiring a physician when your patient is in the morgue. He might be

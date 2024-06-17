@@ -7,6 +7,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 > Someone asked me by email about the advantages and disadvantages of
 > various statistical models (multinomial logistic regression, ordinal

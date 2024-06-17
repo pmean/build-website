@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Control charts
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I ran a control chart in SPSS for individual values, and the control limits don't correspond with what I would expect from the descriptive procedure that I ran first. In particular, the value of sigma in the control chart appears to be an approximation of what I computed earlier. Why would SPSS use a different calculation for sigma?*
 

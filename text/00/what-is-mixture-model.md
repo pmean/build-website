@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I have read a journal article where the authors used a mixture model . What is this?*
 

@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 > Someone asked me by email about confidence intervals in complex
 > research designs. This person had rejected the use of [post hoc power

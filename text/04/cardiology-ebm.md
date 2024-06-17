@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 There was a nice series of articles in the journal Circulation that
 appeared in 2002 with free full text online. These articles offer

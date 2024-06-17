@@ -8,6 +8,7 @@ tags:
 - Incomplete pages
 - Logistic regression
 output: html_document
+page_update: partial
 ---
 
 **The logistic regression model is a model that uses a binary (two possible values) outcome variable.** Examples of a binary variable are mortality (live/dead), and morbidity (healthy/diseased). Sometimes you might take a continuous outcome and convert it into a binary outcome. For example, you might be interested in the length of stay in the hospital for mothers during an unremarkable delivery. A binary outcome might compare mothers who were discharged within 48 hours versus mothers discharged more than 48 hours.

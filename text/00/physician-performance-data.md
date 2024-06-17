@@ -8,6 +8,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, Producing statistics of physician performance or
 group performance or whatever seems to be one of the great growth

@@ -9,6 +9,7 @@ tags:
 - Website details
 - Website details
 output: html_document
+page_update: partial
 ---
 It's flattering when someone recommends my site
 - so I keep track of

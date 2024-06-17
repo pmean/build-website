@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, Could you describe the term collinearity for me? I understand that it has to do with variables which are not totally independent, but that is all I know!*
 

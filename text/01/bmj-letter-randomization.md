@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Randomization in research
 output: html_document
+page_update: partial
 ---
 Here's a letter I submitted to the web letters to the editor for the
 British Medical Journal in response to an article about randomisation

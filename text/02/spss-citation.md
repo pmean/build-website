@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - SPSS software
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I'm writing a research paper. When I talk about

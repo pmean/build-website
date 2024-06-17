@@ -7,6 +7,7 @@ categories:
 tags:
 - Clinical importance
 output: html_document
+page_update: partial
 ---
 I don't like to cite articles in the New York Times, because they are
 free on the web only for a couple of weeks. But an article by Denise

@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 Although I work in a hospital, my profession is Statistics. I help the
 doctors and nurses here plan research studies and make sense of the

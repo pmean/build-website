@@ -7,6 +7,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: partial
 ---
 ****[StATS]:** So you want to write a questionnaire
 (July 12, 2002)**

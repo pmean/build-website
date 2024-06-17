@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, How are patients and their doctors supposed to decide whether a research finding has practical significance? Why don't the medical journals make things clearer?*
 

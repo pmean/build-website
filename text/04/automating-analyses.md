@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 > Many of my projects involve writing a program in my text editor
 > ([Textpad](http://www.textpad.com/)), copying it into the clipboard,

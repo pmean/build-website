@@ -9,7 +9,9 @@ tags:
 - Ask Professor Mean
 - Unusual data
 output: html_document
+page_update: partial
 ---
+
 *Dear Professor Mean, I have recently conducted a survey of attitudes toward research from a professional group. There are some outliers (+/- 3SD) that I would eliminate , but others conducting the research with me feel that this might be a minority view, and should not be eliminated from the dataset. Any views or references that I should read to confirm my view, or theirs?*
 
 There are several things you can do here. The suggestion in Altman's book (page 130) is to **present an analysis with and without the outliers**. Think of it as a sensitivity analysis. This also allows the readers to make up their own minds about which analysis to use.

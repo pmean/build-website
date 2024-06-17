@@ -7,6 +7,7 @@ categories:
 tags:
 - Blinding in research
 output: html_document
+page_update: partial
 ---
 Someone asked an interesting question on the IRBForum today. Under what
 circumstances should the blinding for a trial be broken when an

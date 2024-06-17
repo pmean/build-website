@@ -7,6 +7,7 @@ categories:
 tags:
 - Descriptive Statistics
 output: html_document
+page_update: partial
 ---
 
 This handout will show the SPSS dialog boxes that I used to create the examples in the descriptive data analysis handout. I will capitalize variable names, field names and menu picks for clarity.

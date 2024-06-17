@@ -7,6 +7,7 @@ categories:
 tags:
 - Publication bias
 output: html_document
+page_update: partial
 ---
 I was browsing a paper by Leonard Leibovici
 [\[Medline\]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=10600974)

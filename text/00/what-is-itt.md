@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I'm confused by medical journal articles that talk about the use of "Intention to Treat" analysis. What does this term mean?*
 

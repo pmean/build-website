@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 Steve Simon earned a Ph.D. in Statistics from the University of Iowa in
 1982. He currently works as a research biostatistician at Childrens

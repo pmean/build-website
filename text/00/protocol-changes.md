@@ -8,6 +8,7 @@ categories:
 tags:
 - Early stopping
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, After I collected my data, I noticed a problem
 that I had not anticipated. I want to make some protocol changes and

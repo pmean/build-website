@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 Most training programs in Statistics do a good job in emphasizing the
 various tools that you will need, but it is much harder to teach the

@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 You would think that you can never have enough information about your
 health. Barring financial considerations, the more testing the better.

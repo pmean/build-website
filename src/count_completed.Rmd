@@ -1,0 +1,64 @@
+---
+title: "Count pages completed in each year"
+author: "Steve Simon"
+date: "Created 2024-06-16"
+output: html_document
+---
+
+### Setup
+
+```{r setup, echo=TRUE}
+knitr::opts_chunk$set(echo=TRUE)
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+```
+
+### Read md files
+
+```{r read_md}
+md_path <- "../text/"
+subdir_list=c("99", paste0("0", 0:9), 10:24)
+md_files <- NULL
+for (yr in rev(subdir_list)) {
+  file_path <- paste0(md_path, yr)
+  file_path %>%
+    list.files(pattern="md$") %>%
+    data.frame(yr=yr, fn=.) %>%
+    bind_rows(md_files) -> md_files
+}
+count(md_files, yr)
+```
+
+### List duplicates
+
+```{r list-duplicates}
+md_files %>%
+  group_by(fn) %>%
+  mutate(n=n()) %>%
+  filter(n>1) %>%
+  select(-n) %>%
+  arrange(fn, yr) %>%
+  data.frame
+```
+
+### Count page_update fields
+
+```{r md_links}
+c_text <- "page_update: "
+md_files$page_update_line <- "999"
+for (i_row in 1:nrow(md_files)) {
+  full_file_name <- glue("{md_path}/{md_files$yr[i_row]}/{md_files$fn[i_row]}")
+  read_lines(full_file_name) %>%
+    str_subset(fixed(c_text)) %>%
+    paste0("", collapse=", ") -> md_files$page_update_line[i_row]
+}
+count(md_files, page_update_line)
+count(md_files, yr, page_update_line)
+```
+
+```{r save_everything}
+save(md_files, file="../data/page_update_check.RData")
+```
+

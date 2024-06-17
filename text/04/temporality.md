@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 One of the nine criteria that Sir Austin Bradford Hill offers to
 establish a cause and effect relationship is temporality. In order for A

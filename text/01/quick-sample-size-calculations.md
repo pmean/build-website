@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean, I'm reading a research paper. I suspect that the sample size is way too small. I don't like the findings of the study anyway, so I'm hoping that you will help me discredit this study. Is there a quick sample size calculation that I can use? 

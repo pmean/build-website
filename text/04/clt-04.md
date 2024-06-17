@@ -7,6 +7,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, How does the central limit theorem affect the
 statistical tests that I might use for my data?*

@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 Steve Simon earned a PhD in Statistics from the University of Iowa in 1982. His training emphasized applied statistics and he served for two years as the student head of the University Statistical Consulting Service.
