@@ -13,7 +13,7 @@ Send, You can find an [earlier version][sim1] of this page on my [blog][sim2].{R
 Return
 
 ^4::
-Send, page_text: okay{Return}page_pngs: okay{Return}page_link: okay{Return}page_back: okay{Return}
+Send, {Home}page_update: {Return}{Up}{Right 13}partial{Left 7}{Shift down}{End}{Shift Up}
 Return
 
 ^5::

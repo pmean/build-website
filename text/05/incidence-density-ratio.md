@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 Someone asked me about a technical term, incidence density ratio, that
 was used in an article:

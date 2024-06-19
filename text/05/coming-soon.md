@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 Under the details section of these web pages, I have a [page talking
 about future plans](../00/future.html). After months of neglect, I

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 When you are importing a file from one system to another, lots of
 little things can trip you up. Here's an example, and it shows a very

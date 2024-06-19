@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of Statistics
 output: html_document
+page_update: partial
 ---
 > *The test of a first rate intelligence is the ability to hold two
 > opposed ideas in the mind at the same time and still retain the

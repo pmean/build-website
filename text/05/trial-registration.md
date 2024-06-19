@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Publication bias
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Registration of clinical trials (July
 22, 2005)**

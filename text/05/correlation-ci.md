@@ -8,6 +8,7 @@ tags:
 - Confidence intervals
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 In many exploratory research studies, the goal is to examine associations among multiple demographic variables and some outcome variables. How can you justify the sample size for such an exploratory study? There are several approaches, but one simple way that I often use is to show that any correlation coefficients estimated by this research study will have reasonable precision. It may not be the most rigorous way to select a sample size, but it is convenient and easy to understand.

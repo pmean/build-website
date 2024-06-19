@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Clinical importance
 output: html_document
+page_update: partial
 ---
 Many journal authors have the bad habit of looking just at the p-value
 of a study and ignoring the clinical importance of their findings. If

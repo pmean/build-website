@@ -7,6 +7,7 @@ categories:
 tags:
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 
 Randomization will roughly balance out the covariates between the treatment group and the control group because of the law of large numbers. Once in a while, though, an important amount of covariate imbalance will creep into a randomized study. Just as a flip of 100 coins will not always yield exactly 50 heads and 50 tails, a randomized study will not always yield perfect covariate imbalance.

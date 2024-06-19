@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 Someone asked me whether it was okay to define a correlation coefficient
 as a descriptive statistic. It depends on whether the correlation is

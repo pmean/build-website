@@ -10,6 +10,7 @@ tags:
 - Data management
 - R software
 output: html_document
+page_update: partial
 ---
 As part of my efforts to analyze microarray data, I am finding that I
 need to do simple string manipulations in R. Here is a list of functions

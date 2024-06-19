@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 Many meta-analyses use a graph known as a forest plot. I was always
 confused by the funny squares in a forest plot, so I looked for a

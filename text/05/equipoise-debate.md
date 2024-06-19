@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Equipoise in research
 output: html_document
+page_update: partial
 ---
 
 A frequent contributor to the IRBForum (HM) mentioned a couple of

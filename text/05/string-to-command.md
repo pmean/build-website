@@ -9,6 +9,7 @@ tags:
 - Being updated
 - R software
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **A simple trick in R (October 11,
 2005)**

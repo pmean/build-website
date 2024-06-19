@@ -7,6 +7,7 @@ categories:
 tags:
 - Data mining
 output: html_document
+page_update: partial
 ---
 
 I attended a 7am seminar this morning on data warehousing and data mining, which was quite good. It reminded me of a couple of stories I heard about the pitfalls of data mining.

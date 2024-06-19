@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Quality control
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Taguchi methods (created
 2005-02-22)**.

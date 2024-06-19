@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 One of the programs here at Children's Mercy Hospital is helping me
 take an Excel spreadsheet and developing a Windows program that will do

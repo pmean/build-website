@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information theory
 output: html_document
+page_update: partial
 ---
 Some of the people I work with have used information theory extensively
 in their work. A good summary of their efforts appears in

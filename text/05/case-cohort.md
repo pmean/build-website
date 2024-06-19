@@ -7,6 +7,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: partial
 ---
 
 During a consultation about an NIH research grant, the term "case cohort design" came up. The Case Cohort design is similar to a nest Case Control design, but also has some important differences.

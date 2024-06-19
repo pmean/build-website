@@ -9,6 +9,7 @@ tags:
 - Observational studies
 - Randomization
 output: html_document
+page_update: partial
 ---
 
 I'm updating some of my training classes to use examples from open

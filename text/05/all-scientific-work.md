@@ -8,6 +8,7 @@ tags:
 - Critical appraisal
 - To be updated
 output: html_document
+page_update: partial
 ---
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].

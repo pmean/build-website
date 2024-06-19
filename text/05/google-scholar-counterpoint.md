@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information searching
 output: html_document
+page_update: partial
 ---
 A recently published article:
 

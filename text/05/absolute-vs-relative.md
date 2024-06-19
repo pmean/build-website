@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 
 There are two general ways to compare a treatment and a control group, relative comparisons and absolute comparisons. For a relative comparison, the basic computation is division. When the ratio A/B is larger than one, that implies that A is superior to B. For an absolute comparison, the basic computation is subtraction. When the difference A-B is greater than zero, that implies that A is superior to B. The distinction between relative and absolute is not the only important distinction, but it does represent a fundamental property of measures of effectiveness. Relative measures represent measures where the fundamental calculation is a division and absolute measures represent measures where the fundamental calculation is a subtraction.

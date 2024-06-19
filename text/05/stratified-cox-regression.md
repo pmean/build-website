@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Stratified Cox regression models
 (March 22, 2005)**

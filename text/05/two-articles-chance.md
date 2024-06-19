@@ -8,6 +8,7 @@ categories:
 tags:
 - Wiki pages
 output: html_document
+page_update: partial
 ---
 Chance News has changed recently to a Wiki format.
 

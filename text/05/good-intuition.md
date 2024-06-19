@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 One definition of Evidence Based Medicine is
 

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information searching
 output: html_document
+page_update: partial
 ---
 Once in a while, I will get an email or find a website written in a
 foreign language. The best way to handle this is through BabelFish:

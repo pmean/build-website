@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 Someone brought me a graph with a trend line relating body surface
 area (BSA) to various cardiac measurements. This graph showed both the

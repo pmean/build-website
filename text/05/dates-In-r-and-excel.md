@@ -8,6 +8,7 @@ tags:
 - Being updated
 - R software
 output: html_document
+page_update: partial
 ---
 Every program uses a slightly different method for calculating date
 values. Excel, for example, counts the number of days since the start of

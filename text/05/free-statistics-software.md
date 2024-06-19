@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Free statistics software (September
 15, 2005)**

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 I get many requests to link to my web pages, and I always grant these
 requests. Other people ask if they can use portions of my material on

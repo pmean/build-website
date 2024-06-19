@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical models
 output: html_document
+page_update: partial
 ---
 
 *All models are wrong, but some are useful* George Box, as quoted in [wikiquote][wik1].

@@ -9,6 +9,7 @@ tags:
 - Early stopping
 - R software
 output: html_document
+page_update: partial
 ---
 It is very expensive to purchase software that performs group sequential
 monitoring of clinical trials (sometimes called interim analysis). Group

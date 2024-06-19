@@ -9,6 +9,7 @@ tags:
 - Obsolete page
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 Note: STAT-L is no longer active. I am keeping this page around for historical reasons.

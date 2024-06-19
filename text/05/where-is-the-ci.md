@@ -9,6 +9,7 @@ tags:
 - Clinical importance
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 
 A recent letter to the editor,

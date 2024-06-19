@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I get lots of simple requests like calculate Fisher's Exact test for
 this two by two table, and I am happy to help out, but there are free

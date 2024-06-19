@@ -7,6 +7,7 @@ categories:
 tags:
 - Research ethics
 output: html_document
+page_update: partial
 ---
 > *\...from my associations with doctors in controlled trials I have
 > learned that the better the statistician understands the

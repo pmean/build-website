@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **More on the top ten studies in EBM
 (February 28, 2005)**

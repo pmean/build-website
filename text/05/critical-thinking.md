@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 A lot of people use the term "critical thinking" in an offhand way. Usually the writer who uses this term is trying to imply that anyone who disagrees with the writer's theory or belief is naive. Critical thinking is also produced as an excuse to attack a particular theory or to promote "equal time" for a competing belief.

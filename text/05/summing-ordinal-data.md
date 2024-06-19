@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 **[StATS]: Summing ordinal data (April 5, 2005)**
 
