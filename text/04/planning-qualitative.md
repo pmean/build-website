@@ -7,6 +7,7 @@ categories:
 tags:
 - Qualitative research
 output: html_document
+page_update: partial
 ---
 > Someone asked me for some specific advice on how to design a
 > qualitative study. I love qualitative research. I think people should

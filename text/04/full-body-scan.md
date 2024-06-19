@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 Full body scans represent a good example of the conflicting
 considerations when you need to evaluate a screening test. A full body

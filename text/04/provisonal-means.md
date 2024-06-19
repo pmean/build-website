@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 One of the new fellows asked me about a data summary for two groups of
 patients. The ages were quite different, the mean age was 4.6 years in

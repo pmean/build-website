@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 Someone at my church wanted some advice about exploring relationships
 in a survey that he had taken. He asked a bunch of demographic

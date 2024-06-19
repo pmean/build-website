@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 > Someone wrote to the [Evidence Based Health email discussion
 > group](http://www.jiscmail.ac.uk/lists/evidence-based-health.html)

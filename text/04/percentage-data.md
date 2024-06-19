@@ -7,6 +7,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 I received one of those difficult to answer questions: how do I analyze
 my data when the outcome variable is a percentage. That depends a lot on

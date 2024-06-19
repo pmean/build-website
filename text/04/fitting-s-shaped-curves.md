@@ -7,6 +7,7 @@ categories:
 tags:
 - Nonlinear regression
 output: html_document
+page_update: partial
 ---
 Competitive binding experiments will often need a nonlinear regression
 model. This model has to level off at both extremes to represent almost

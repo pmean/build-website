@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 > In the most recent issue of JAMA is an article by Sirovich and Welch,
 > Cervical Cancer Screening Among Women Without a Cervix

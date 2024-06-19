@@ -7,6 +7,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: partial
 ---
 Someone stopped by today with a question about getting IRB approval for
 a retrospective chart review. They were interested in examining the

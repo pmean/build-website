@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 Can we ever be truly objective about ourselves? Maybe not. A recent
 article in Scientific American by Michael Shermer, [The Enchanted

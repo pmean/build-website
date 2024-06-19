@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I got a question from someone in my office who is taking a class on
 research methods. She asked me to define the term "Monte Carlo" that

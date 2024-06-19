@@ -8,6 +8,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 I received some data from a project where the outcome measure was the
 degree of improvement after a treatment, with values of -1 (slight

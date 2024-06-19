@@ -7,6 +7,7 @@ categories:
 tags:
 - Randomization
 output: html_document
+page_update: partial
 ---
 I received an inquiry from our Institutional Review Board about a study
 they were doing a continuing review for. This was a non-randomized

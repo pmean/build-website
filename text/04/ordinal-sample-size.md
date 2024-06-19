@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 Someone asked me for some help with calculating an appropriate sample
 size for a study comparing two treatments, where the outcome measure is

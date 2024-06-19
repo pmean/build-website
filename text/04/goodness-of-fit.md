@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring agreement
 output: html_document
+page_update: partial
 ---
 The chi-square test appears in a lot of different places. Some recent
 data on Astrology, published in the [May newsletter of the Skeptic

@@ -7,6 +7,7 @@ categories:
 tags:
 - Publication bias
 output: html_document
+page_update: partial
 ---
 Eliot Spitzer, New York's state attorney general has filed a lawsuit
 against GlaxoSmithKline for concealing negative trials about an

@@ -7,6 +7,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 Many people use the words "rates" and "proportions" interchangeably,
 but there is an important distinction that I draw.

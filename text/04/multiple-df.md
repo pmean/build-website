@@ -7,6 +7,7 @@ categories:
 tags:
 - Analysis of variance
 output: html_document
+page_update: partial
 ---
 Someone sent me an email describing a situation where an interaction
 effect in SPSS had a large p-value, but one of the individual components

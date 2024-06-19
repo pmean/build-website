@@ -7,6 +7,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: partial
 ---
 > Mark Barnes gave a seminar on August 2, 2004 on Secondary Uses of
 > Biologic Materials and Medical Data by Researchers and Commercial

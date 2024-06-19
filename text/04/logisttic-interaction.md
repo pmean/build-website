@@ -7,6 +7,7 @@ categories:
 tags:
 - Logistic regression
 output: html_document
+page_update: partial
 ---
 Someone asked me how to compute interactions in binary logistic
 regression. You need to be careful, since interactions are tricky to

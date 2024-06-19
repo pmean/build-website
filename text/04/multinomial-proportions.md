@@ -7,6 +7,7 @@ categories:
 tags:
 - Probability concepts
 output: html_document
+page_update: partial
 ---
 I received an email inquiry about a problem that seems simple enough,
 but which just doesn't seem to have an easy answer. This person gave

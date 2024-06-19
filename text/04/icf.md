@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 Donald Lollar presented a seminar: "The International Classification of
 Functioning, Disability, and Health (ICF)." The ICF is a framework for

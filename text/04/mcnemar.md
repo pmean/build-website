@@ -7,6 +7,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 I received an email asking how to test two correlated proportions to see
 if one proportion is significantly larger than another. This is a

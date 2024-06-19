@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 I received an email inquiry about degrees of freedom. I [explain the
 concept briefly](../ask/df.asp), but this person wanted a more detailed

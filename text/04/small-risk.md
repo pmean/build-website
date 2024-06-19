@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 > Someone asked me about small relative risk. It was only 1.12, but
 > because of the large sample size, it was still statistically

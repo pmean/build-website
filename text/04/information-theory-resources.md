@@ -7,6 +7,7 @@ categories:
 tags:
 - Information theory
 output: html_document
+page_update: partial
 ---
 I received a few suggestions for interesting web sites today. They deal
 with information theory and trying to establish causation.

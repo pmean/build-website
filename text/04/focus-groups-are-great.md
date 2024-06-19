@@ -7,6 +7,7 @@ categories:
 tags:
 - Qualitative research
 output: html_document
+page_update: partial
 ---
 > A student is giving a talk on focus groups and asked me a few
 > questions about my attitude towards them. I think focus groups are

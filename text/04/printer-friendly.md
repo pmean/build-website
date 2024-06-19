@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 > I use Microsoft FrontPage, and their newsletter listed a [resources
 > for creating printer friendly web

@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I received an email question about the EM Algorithm. This is a
 computational approach that works well for missing data problems and

@@ -7,6 +7,7 @@ categories:
 tags:
 - Equipoise in research
 output: html_document
+page_update: partial
 ---
 > Stephen Senn wrote an interesting article a couple of years ago that
 > provides an intriguing alternative to the concept of equipoise. I

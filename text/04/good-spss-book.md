@@ -8,6 +8,7 @@ tags:
 - Teaching resources
 - Being updated
 output: html_document
+page_update: no
 ---
 
 (To be added)

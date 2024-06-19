@@ -7,6 +7,7 @@ categories:
 tags:
 - Presenting research
 output: html_document
+page_update: partial
 ---
 > This is the text of a talk I gave to Bluejacket Toastmasters on July
 > 15, 2004.

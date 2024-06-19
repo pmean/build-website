@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 I have always found the concept of software patents confusing. I am
 listed as a co-inventor on a software patent, so perhaps that raises a
