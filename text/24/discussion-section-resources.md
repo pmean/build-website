@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I am bringing together resources for various chapters in my book proposal. One of the chapters (chapter 15 in [one proposed outline][sim3] and section 3.7 [a different outline][sim4]) is on how to write a discussion section.

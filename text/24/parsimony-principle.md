@@ -8,6 +8,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: complete
 ---
 
 + "The parsimony principle for a statistical model states that: a simpler model with fewer parameters is favored over more complex models with more parameters, provided the models fit the data similarly well."

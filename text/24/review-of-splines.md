@@ -8,6 +8,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/24/review-of-splines-01.png)

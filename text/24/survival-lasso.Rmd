@@ -9,6 +9,7 @@ tags:
 - Survival analysis
 - R programming
 output: html_document
+page_update: complete
 ---
 
 The lasso model allows you to effectively identify important features in a large regression model. Here is an illustration of how to use a the lasso model with survival data from the Worcester Heart Attack Study.

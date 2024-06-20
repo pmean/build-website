@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 There are several important security policies at my job that are worth noting here. They provide good general guidance for anyone working with sensitive data.

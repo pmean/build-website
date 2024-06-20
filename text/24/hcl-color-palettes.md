@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from blog post](http://www.pmean.com/new-images/24/hcl-color-palettes-01.png)

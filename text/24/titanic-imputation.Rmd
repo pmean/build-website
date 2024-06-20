@@ -9,6 +9,7 @@ tags:
 - Missing data
 - R programming
 output: html_document
+page_update: complete
 ---
 
 Multiple imputation is a way to properly account for missing values without causing bias. Simpler forms of imputation, such as replacing missing values with the mean of the non-missing values, can produce serious problems. You might think that ignoring the missingness and relying just on records with complete data for all key variables would be acceptable, but this also can produce serious problems. I want to illustrate a simple example of multiple imputation using data on mortality from the Titanic.

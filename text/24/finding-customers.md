@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I am tentatively giving a webinar for the Consulting Section of the American Statistical Association on May 2. Here is the title and abstract.

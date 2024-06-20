@@ -8,6 +8,7 @@ categories:
 tags:
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/24/jbi-evidence-synthesis-01.png)

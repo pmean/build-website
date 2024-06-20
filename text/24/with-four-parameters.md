@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 + "[W]ith four parameters I can fit an elephant, and with five I can make him wiggle his trunk."
