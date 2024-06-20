@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Front cover of book](http://www.pmean.com/new-images/23/essential-statistics-01.png)

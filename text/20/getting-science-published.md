@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 Kathryn Everson. Friends! Did you know that legitimate scientists publish their  research in academic journals? Flickr 2020-05-13. Available in [html format](https://www.flickr.com/photos/188445124@N06).

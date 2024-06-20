@@ -8,6 +8,7 @@ tags:
 - Exclusions in research
 - Placebos in research
 output: html_document
+page_update: partial
 ---
 I've always been fascinated by the [placebo
 effect](../plan/placebo.asp) and the ethical issues associated with use

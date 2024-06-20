@@ -8,6 +8,7 @@ categories:
 tags:
 - Quality improvement
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/smart-objectives01.png)

@@ -7,6 +7,7 @@ categories:
 tags:
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 
 Someone asked me today how to compute an adjusted odds ratio. He has a case control study where cases represent cancer patients. He also has various [Single Nucleotide Polymorphisms][wiki1] (SNPs). These would be coded as 0-1 depending on whether the SNP was present or absent. He also has demographic information, such as age, sex, smoking status, and so forth.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Probability concepts
 output: html_document
+page_update: no
 ---
 
 This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.

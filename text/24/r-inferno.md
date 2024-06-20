@@ -8,6 +8,7 @@ categories:
 tags:
 - R programming
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from pdf file](http://www.pmean.com/new-images/24/r-inferno-01.png)

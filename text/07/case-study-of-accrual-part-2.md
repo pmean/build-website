@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 I received additional accrual data on a clinical trial I am monitoring. To review, the trial started on August 28, 2007 and will continue until January 31, 2008, for a total of 22 weeks. The researcher thinks that he might be able to get 3 patients per week over a 22 week trial (66 total), but he is very confident that he would get at least 2 patients per week (44 total). The confidence in the estimate of 3 patients per week was rated as 5 on a 10 point scale. After one week, a single patient has entered the study. No patients enter on weeks 2, 3, or 4. On week 5, three patients enter the study. On week 6, one more patient enters for a total of 5 patients.

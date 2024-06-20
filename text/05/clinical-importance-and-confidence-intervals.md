@@ -7,6 +7,7 @@ categories:
 tags:
 - Clinical importance
 output: html_document
+page_update: partial
 ---
 
 Back in March, I sent a letter to the American Journal of Psychiatry complaining about their failure to include confidence intervals in their published reports. The journal decided not to publish this letter, but since it discusses an important general issue, I thought I would place the submitted letter here.

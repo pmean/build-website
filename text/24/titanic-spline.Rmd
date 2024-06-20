@@ -9,6 +9,7 @@ tags:
 - Nonlinear regression
 - R programming
 output: html_document
+page_update: complete
 ---
 
 Splines provide a useful way to model relationships that are more complex than a simple linear relationship. They work in a variety of regression models. Here is an illustration of how to use a spline in a logistic regression model with data from survival of passengers on the Titanic.

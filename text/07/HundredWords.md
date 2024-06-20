@@ -8,6 +8,7 @@ categories:
 tags:
 - Wiki pages
 output: html_document
+page_update: complete
 ---
 
 I added another short entry to Chance News 23 about a dubious claim that 100 words are needed for half of all reading in English.

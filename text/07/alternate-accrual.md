@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 I was talking about a project with a fellow in Emergency Medicine and during the discussion realized a different way of looking at accrual in a clinical trial. She plans to look how accurately EKGs are read by physicians in the Emergency Room. I showed her some of the work that Byron Gajewski and I had done on planning and monitoring accrual rates. She pointed at that accrual was not a problem here in that the number of EKGs that are processed in the ER is known with very high precision. The problem, of course, is that the physicians who participate in the study have to fill out a small amount of additional paperwork for the research. While this is not an intrusive amount of work and she is going to work hard to promote this research project, there will some physicians at some times who will not fill out the extra research paperwork, or will fill it out so incompletely as to make the EKG unusable in the research. The ER is a busy and hectic place and it is difficult to get complete data, even when the ER doctors are trying their best to help with the research.
 

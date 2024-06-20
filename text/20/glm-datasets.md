@@ -7,6 +7,7 @@ categories:
 tags:
 - datasets
 output: html_document
+page_update: complete
 ---
 
 German Rodriguez. Generalized Linear Models. Datasets. Available in [html format](https://data.princeton.edu/wws509/datasets).

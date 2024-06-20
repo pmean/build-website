@@ -8,6 +8,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: complete
 ---
 
 This is a condensed version of a handout

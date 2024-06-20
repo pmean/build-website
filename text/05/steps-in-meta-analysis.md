@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 
 Meta-analysis is the quantitative combination of results from multiple research studies. There are three steps in a typical meta-analysis model.

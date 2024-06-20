@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 Someone asked a hypothetical question about consulting assistance for a Ph.D. candidate. Clearly some assistance is okay and the question is when the work becomes so much that the work is no longer perceived as that of the Ph.D. candidate.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **You won't have Steve Simon to kick
 around anymore (May 24, 2006)**
@@ -49,5 +50,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).
+page_update: partial
 --->
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 As part of my talk to the American College of Allergy, Asthma & Immunology, I have been asked to present two questions related to my topic (Use of Diagnostic Tests for Making Clinical Decisions). These questions would consist of a brief clinical stem followed by four choices on how to manage the situation. These will be presented prior to my talk and then afterwards to see how effective the training is.

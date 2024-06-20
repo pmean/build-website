@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **S-plus version 7 (April 19, 2005)**
 

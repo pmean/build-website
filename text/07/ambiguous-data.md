@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 Someone brought me a data set with some interesting values. It serves as a good example about why you need to carefully review simple descriptive statistics before you plunge into a complex analysis.
 

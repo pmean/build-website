@@ -8,6 +8,7 @@ categories:
 tags:
 - Adverse events in clinical trials
 output: html_document
+page_update: complete
 ---
 
 I have been helping a colleague who is interested in monitoring the safety of kidney biopsy events. He was kind enough to let me use his data set on my web pages in order to illustrate some new methods for monitoring adverse events. This data set allows you to see some examples of the use of control charts to track adverse events. Here is the raw data.

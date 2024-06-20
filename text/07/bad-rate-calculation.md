@@ -8,6 +8,7 @@ categories:
 tags:
 - Wiki pages
 output: html_document
+page_update: complete
 ---
 
 The [Chance Wiki][cha1] has a section called "Forsooths." This section presents quantitative errors in the popular press that are self-evident under careful examination. I found an interesting example which I added to [issue #24][cha2].

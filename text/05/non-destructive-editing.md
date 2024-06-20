@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Non-destructive data editing
 (November 2, 2005)**. [Category: Data

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 In my job I get a lot of [spam](http://en.wikipedia.org/wiki/Spamming),
 partly because I listed my email address on my web site until just

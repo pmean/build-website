@@ -8,6 +8,7 @@ categories:
 tags:
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Seminar notes, Creating More
 Effective Graphics (March 24, 2006)**.
@@ -149,5 +150,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Descriptive
 statistics](../category/DescriptiveStatistics.html).
+page_update: partial
 --->
 

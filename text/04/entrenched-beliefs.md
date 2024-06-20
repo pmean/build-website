@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 A member of the [Evidence Based Health
 listserv](http://www.jiscmail.ac.uk/lists/evidence-based-health.html)

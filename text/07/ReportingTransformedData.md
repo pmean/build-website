@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Statistical modeling 
 output: html_document
+page_update: no
 ---
 
 ### Dear Professor Mean,

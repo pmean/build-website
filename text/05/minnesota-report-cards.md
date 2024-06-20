@@ -10,6 +10,7 @@ tags:
 - Evidence Based Medicine
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 The Minnesota Department of Health recently published a report over a 15
 month period that documenting 99 events occurring in Minnesota hospitals

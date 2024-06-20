@@ -9,6 +9,7 @@ tags:
 - Data science
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/data-science-curriculum01.png)

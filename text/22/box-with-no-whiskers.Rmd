@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Graphical display
 source: new
+page_update: complete
 ---
 
 One of my favorite graphs is the box plot. It is a visualization of a five number summary. Those five numbers are minimum, 25th percentile, median (aka the 50th percentile), 75th percentile, and maximum. The box in a box plot extends from the 25th to the 75th percentile and a line inside the box represents the median.

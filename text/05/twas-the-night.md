@@ -7,6 +7,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 > ***A Visit to the ER from St. Nick***
 >

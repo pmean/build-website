@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Julia Sharp, Emily Griffith, and Megan Higgs, Ann Hess. Setting the Stage: Statistical Collaboration Training Videos. Available in [html format](https://sites.google.com/view/juliasharp/other-resources/statistical-collaboration-videos).

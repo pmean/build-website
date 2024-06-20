@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 Someone posed a question on the IRB Discussion forum wondering if there
 was a source of free materials "that we can email or distribute as

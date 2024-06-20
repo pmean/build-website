@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 Alphabets other than English require special characters. Computers have evolved many different ways to handle these special characters. 

@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 I received a question in Hong Kong about how to double check a power
 calculation in a paper by Tugwell et all in the 1995 NEJM

@@ -8,6 +8,7 @@ category:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I am attending the UserR conference this week. It is a virtual format, which has its advantages and disadvantages. I want to track a variety of links that I found from the various speakers at this conference.

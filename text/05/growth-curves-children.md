@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Nonlinear regression
 output: html_document
+page_update: partial
 ---
 The New York Times has a nice article about Dr. James Tanner, an expert
 on childhood growth.

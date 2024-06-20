@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Stepwise regression to screen for
 covariates (November 25, 2005)**.

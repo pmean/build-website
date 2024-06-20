@@ -8,6 +8,7 @@ categories:
 tags:
 - Multilevel models
 output: html_document
+page_update: partial
 ---
 The keynote address at the 18th Annual Applied Statistics in Agriculture
 Conference, sponsored by Kansas State University was "Random

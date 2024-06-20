@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 "The most challenging thing in the world is not to learn fancy technologies, but control your own wild heart." Yihui Xie, as quoted in [Appendix C][xie1] of Authoring Books wtih R Markdown.

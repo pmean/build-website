@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I attended a panel discussion on data sharing practices in peer-reviewed articles. The major focus was on papers that stated "Data available upon request." This statement is placed in many journal articles as a condition for publication, but there is data to suggest that authors do not honor this pledge.

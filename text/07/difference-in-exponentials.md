@@ -8,6 +8,7 @@ categories:
 tags:
 - Nonlinear regression
 output: html_document
+page_update: complete
 ---
 
 I was presented with a data set of sixteen subjects that showed a rise in values from zero to a maximum followed by gradual return of those values to zero for each subject. Here is the data for one of these subjects.

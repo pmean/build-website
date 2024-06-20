@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 International Statistical Institute. Statisticians React to the News. Available in [html format](https://blog.isi-web.org/react/).

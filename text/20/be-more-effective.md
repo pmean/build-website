@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Doug Zahn, How to be more effective in your professional life. Amstat News, 2009 09 01. Available in [html format](https://magazine.amstat.org/blog/2009/09/01/heartofastatcareersept09/) 

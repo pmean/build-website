@@ -8,6 +8,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: complete
 ---
 
 *Dear Professor Mean, We are conducting a study in which mice receive one of four different injections (various combinations of hormones and receptor antagonists)receive a bolus injection of a hormone (or vehicle, or hormone plus receptor antagonist, or receptor antagonist alone) and then we document whether an arrhythmias has occurred. Each of these treatment groups has a different number of animals (as few as six or as many as twelve). My understanding is that you cannot use Chi square with this low of sample size and you can<U+FFFD>t use Fisher<U+FFFD>s Exact Test when the groups have unequal sample size. What statistical test do we need to see if there are differences in responses between these groups.*

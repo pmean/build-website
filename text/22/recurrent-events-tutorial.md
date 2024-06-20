@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/22/recurrent-events-tutorial-01.png)

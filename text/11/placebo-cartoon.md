@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I drew a small cartoon about placebos. I know you think that this is drawn by a professional artist, but I did this. Really!

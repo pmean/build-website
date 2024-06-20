@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - SAS software
 source: new
+page_update: complete
 ---
 
 More than one of my students had trouble importing a text file and ended up with numbers as variable names. Here's what went wrong.

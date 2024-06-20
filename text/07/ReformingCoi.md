@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 In a recent talk, I was asked to disclose any conflicts of interest. I did so, but I also commented that the organization I was speaking to, as well as most other organizations have a poorly thought out conflict of interest policy. The problem with most of these policies is that they make it hard to disclose conflicts and easy to pretend that no conflicts exist. I believe that rather than having an easy box to check, make the statement of no conflict a more detailed one.

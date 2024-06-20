@@ -8,6 +8,7 @@ category:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from research publication](http://www.pmean.com/new-images/22/foreach-vignette-01.png)

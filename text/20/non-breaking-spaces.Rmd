@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 Non-breaking spaces are one of those weird little things in the computer that you have to keep your eye on. They can cause a lot of problems if they are assumed to be normal spaces. I found a non-breaking space "out in the wild" and decided to use it as an opportunity to explore what it was and better prepare myself for when I encounter more of these beasts.

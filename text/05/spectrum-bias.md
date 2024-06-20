@@ -10,6 +10,7 @@ tags:
 - Diagnostic testing
 - Observational studies
 output: html_document
+page_update: partial
 ---
 I tried to start a page on [diagnostic
 tests](../category/DiagnosticTesting.html) a while back, but have not

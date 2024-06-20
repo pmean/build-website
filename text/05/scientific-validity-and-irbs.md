@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]: IRBs and scientific validity (August 12,
 2005)**

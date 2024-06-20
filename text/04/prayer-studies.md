@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 > I've been meaning to write a web page about the series of studies
 > that seem to indicate that groups of patients receiving prayer get

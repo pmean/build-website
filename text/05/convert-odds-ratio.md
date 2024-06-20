@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 
 The odds ratio and the relative risk do not always agree, especially when the baseline risk level in the control group is large. I have a simple Excel spreadsheet that will calculate the relative risk from the odds ratio and the control risk.

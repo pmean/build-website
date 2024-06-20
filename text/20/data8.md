@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 University of California/Berkeley. Data 8: The Foundations of Data Science. Available in [html format](http://data8.org/).

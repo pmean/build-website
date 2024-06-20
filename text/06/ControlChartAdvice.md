@@ -8,6 +8,7 @@ categories:
 tags:
 - Control charts
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Unusual advice about control charts
 (December 18, 2006)**
@@ -92,5 +93,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Control
 charts](../category/ControlCharts.html).
+page_update: partial
 --->
 

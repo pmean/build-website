@@ -8,6 +8,7 @@ categories:
 tags:
 - Descriptive statistics
 output: html_document
+page_update: complete
 ---
 
 Most of the time, I let a computer program like SPSS compute quantities for me, but every now and then, I want to calculate a few simple statistics without the benefit of SPSS. This might involve using paper and pencil or using a pocket calculator. You should do this also, as it greatly increases your confidence level in what SPSS produces. Let me illustrate how you would calculate a standard deviation using a pocket calculator.

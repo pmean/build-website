@@ -9,6 +9,7 @@ tags:
 - R software
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 There are a lot of good commercial and free sources for sample size
 justification. Note that most people use the term power calculation, but

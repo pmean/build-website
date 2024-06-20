@@ -8,6 +8,7 @@ categories:
 tags:
 - Adverse events in clinical trials
 output: html_document
+page_update: complete
 ---
 
 One of the doctors I was working with had an interesting data set examining adverse events in patients with peritoneal dialysis. These patients start treatment with peritoneal dialysis on a specific day and are followed until they stop this treatment. Reasons for stopping peritoneal dialysis might be that the patient got better and no longer needed any treatment, the patient got worse and needed to switch to hemodialysis, or the patient died. Patients who moved out of town presumably continued their dialysis, but they were lost to follow-up in this particular study. There were two adverse events examined: exit site infections, and peritonitis. Although I ran several complex analyses on this data set, I thought it might be useful to look at a simpler approach to monitoring the frequency of adverse events using control charts.

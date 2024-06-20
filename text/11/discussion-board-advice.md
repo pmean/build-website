@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I participate on several email discussion lists, and someone complained a bit about the advice he was getting. "So my question is if this forum is open for people like me? Can I ask questions and get advice without being patronised?" Here's what I wrote in response.

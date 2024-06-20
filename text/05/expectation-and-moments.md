@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Probability concepts
 output: html_document
+page_update: partial
 ---
 Someone asked me what a statistical moment is. That's a rather
 technical term and is not needed except in rather theoretical and

@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - R software
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Colors for R graphs (June 28
 - 2006)**
@@ -129,5 +130,6 @@ with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Graphical
 display](../category/GraphicalDisplay.html) or [Category: R
 software](../category/RSoftware.html).
+page_update: partial
 --->
 

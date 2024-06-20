@@ -7,6 +7,7 @@ categories:
 tags:
 - Data mining
 output: html_document
+page_update: partial
 ---
 > Someone just gave me some data with a small microarray. There are four
 > exposed animals (Exp.1 through Exp.4) and four control animals (Exp.5

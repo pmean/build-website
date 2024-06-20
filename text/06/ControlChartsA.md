@@ -8,6 +8,7 @@ categories:
 tags:
 - Adverse events in clinical trials
 output: html_document
+page_update: partial
 ---
 **[StATS]: Upcoming talks about control charts
 (created 2006-05-25)**.
@@ -84,5 +85,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Adverse events in clinical
 trials](../category/AdverseEvents.html).
+page_update: partial
 --->
 

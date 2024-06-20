@@ -8,6 +8,7 @@ category:
 tags:
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 I am a beginner in using version control, even though I have relied on it for several years now. I'm beginning to encourage others to use version control with joint projects and I realized that I need to explain various concepts in version control to them.

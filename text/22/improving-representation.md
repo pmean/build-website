@@ -8,6 +8,7 @@ category:
 tags:
 - Health disparities
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from research publication](http://www.pmean.com/new-images/22/improving-representation-01.png)

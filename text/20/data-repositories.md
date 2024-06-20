@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 This is a partial list of data repositories where you can store the datasets associated with your peer-reviewed publications. I am interested in assistance with this webpage. In particular, some of the articles and website have annotations, but others still need them. Please see the "How can I help" section.

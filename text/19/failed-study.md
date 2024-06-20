@@ -9,6 +9,7 @@ tags:
 - Early stopping
 - Pilot studies
 output: html_document
+page_update: complete
 ---
 
 Someone was asking on the MedStats listserv about a study that had gone off the rails. They had recruited only about a third of the patients that they had wanted. Things were going pretty well in the first arm of the study but the second arm had a dropout rate of 50%.

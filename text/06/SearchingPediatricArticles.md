@@ -9,6 +9,7 @@ tags:
 - Children in research
 - Information searching
 output: html_document
+page_update: partial
 ---
 A recent publication
 

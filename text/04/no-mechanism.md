@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 > Several people on the IRBForum have made comments along the lines that
 > research on certain alternative medicines (such as homeopathy) has no

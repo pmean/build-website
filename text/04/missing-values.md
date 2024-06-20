@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 Someone here at the hospital asked me how to do a reliability analysis
 on a 20 item measure where a large number of participants left a single

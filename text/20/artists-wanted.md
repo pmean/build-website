@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 I have gotten several nibbles on a [posting](celebrating-failures.html) that I made last week. Here is some more information.

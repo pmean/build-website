@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 Here's a graph I want to insert in my book. It illustrates how to
 adjust for covariate imbalance. The data comes from the Data and Story

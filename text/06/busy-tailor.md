@@ -9,6 +9,7 @@ tags:
 - Quality improvement
 - Statistical koans
 output: html_document
+page_update: no
 ---
 
 

@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Phil Klay. The Human Experience Will Not Be Quantified. Why do we keep mistaking data for knowledge? The New York Times, 2020-11-07. Available in [html format](https://www.nytimes.com/2020/11/07/opinion/sunday/data-science-limits.html).

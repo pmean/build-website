@@ -8,6 +8,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 I came across a new type of plot yesterday, a swarm plot. It looks like an interesting alternative to jittering. You can create these graphs using the seaborn library of python, written by [Michael Waskom][was1] and the beeswarm library of R, written by [Aron Eklund][ekl1]. The actual algorithm is not quite obvious, but here are some examples.

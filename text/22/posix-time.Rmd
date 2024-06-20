@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Data science
 source: new
+page_update: complete
 ---
 
 I thought I understood everything about how computers represent time, but apparently not. There is an important time standard, POSIX time, that I was not all that aware of. Here's what I found out after a few Google searches.

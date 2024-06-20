@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/23/standardized-survival-01.png)

@@ -8,6 +8,7 @@ categories:
 tags:
 - Early stopping
 output: html_document
+page_update: partial
 ---
 If a research study requires a DSMP (Data Safety Monitoring Plan), that
 plan should outline conditions that would cause a study to end early. It

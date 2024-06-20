@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 Someone on the Evidence Based Medicine email discussion group asked about how to appraise a "before and after" design. This is effectively the same as using a historical control group. Historical control groups have a bad reputation.

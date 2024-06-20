@@ -8,6 +8,7 @@ categories:
 tags:
 - Mathematics
 output: html_document
+page_update: complete
 ---
 
 When I run, I have an app that announces the distance traveled (in kilometers) at the end of every minute. But since the app rounds to one decimal place, there is a bit of uncertainty in the pace that I might compute. Here's how I would address this uncertainty using a Taylor series approximation.

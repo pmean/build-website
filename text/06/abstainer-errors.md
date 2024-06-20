@@ -9,6 +9,7 @@ tags:
 - Diagnostic testing
 - Observational studies
 output: html_document
+page_update: partial
 ---
 A correspondent in the
 [MedStats](../category/InterestingWebsites.html#MeStXx) email discussion

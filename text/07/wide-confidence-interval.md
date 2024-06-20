@@ -8,6 +8,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

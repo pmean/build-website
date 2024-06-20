@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/images/19/bending-the-rules01.png)

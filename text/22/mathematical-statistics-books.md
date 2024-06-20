@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Teaching resources
 source: new
+page_update: complete
 ---
 
 Someone asked for some recommendations for books on mathematical statistics that take a more modern and applied approach. I am not at all familiar with this, so I appreciated hearing recommendations of others.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 I gave a talk this morning to the American College of Allergy, Asthma & Immunology (ACAAI). I documented my preparations for this talk on my webpages and wanted to share some thoughts I had during and after the talk.

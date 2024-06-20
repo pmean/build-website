@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 In some research studies, you have a large and difficult to manage set

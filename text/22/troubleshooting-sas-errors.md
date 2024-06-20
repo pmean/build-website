@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - SAS software
 source: new
+page_update: complete
 ---
 
 One of my SAS students wanted advice about how to troubleshoot. It's not an easy question to answer and depends a lot on the type of problem you encounter. Here are a few general guidelines, though, that might help.

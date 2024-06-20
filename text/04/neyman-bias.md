@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 Selection of controls in a case-control study is difficult enough, but
 you also have to worry about the selection of the cases. Do you select

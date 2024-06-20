@@ -7,6 +7,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/23/sas-webinars-01.png)

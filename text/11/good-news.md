@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I got an email three days ago from my contact at Cambridge University Press. It looks like they want to publish my book!

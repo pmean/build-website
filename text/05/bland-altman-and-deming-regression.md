@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Measuring agreement
 output: html_document
+page_update: partial
 ---
 Someone reviewing a paper asked me about all the "weird statistics"
 being used in the paper, such as the Bland-Altman plot and Deming

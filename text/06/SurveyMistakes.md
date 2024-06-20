@@ -8,6 +8,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Real-life examples of survey mistakes
 (January 31, 2006)**
@@ -101,5 +102,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Survey
 design](../category/SurveyDesign.html).
+page_update: partial
 --->
 

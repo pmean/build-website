@@ -8,6 +8,7 @@ tags:
 - Descriptive statistics
 - Research design
 output: html_document
+page_update: partial
 ---
 > I received a question today via email about what statistics you can
 > use when your sample equals the entire population. This issue also

@@ -7,6 +7,7 @@ categories:
 tags:
 - Randomization
 output: html_document
+page_update: partial
 ---
 Someone asked me today for a set of random numbers. The purpose was to
 create an ID code that could be used to track back to the original

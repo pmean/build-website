@@ -7,6 +7,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: complete
 ---
 
 Suppose that you had a sample of 80 observations and you computed a standard deviation of those 80 observations. Like any other statistic, the standard deviation will have some sampling error associated with it. But how much sampling error. This is an important question, because I needed to establish that 80 was a reasonable sample size in a study where there was no formal research hypothesis. You do this by showing that key statistics that you will estimate have good precision. In this study, the standard deviation was especially important, so I wanted to show that a standard deviation based on 80 observations had a good level of precision.

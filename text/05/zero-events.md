@@ -7,6 +7,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean, I was working with a colleague on some confidence intervals for the probability of an adverse event during several different types of operations. One of the proportions was zero, since the event never occurred. My friend computed a confidence interval and it went from zero to zero. I told him that this couldn't be right and computing a confidence interval with zero events is impossible. Isn't that right? -Killjoy Karlina

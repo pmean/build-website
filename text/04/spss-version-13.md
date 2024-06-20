@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: partial
 ---
 I attended a web seminar on the new enhancements in version 13.0 of SPSS
 software. The most notable change is in date calculations.

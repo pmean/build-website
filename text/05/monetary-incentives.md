@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Monetary incentives (created
 2005-01-03)**

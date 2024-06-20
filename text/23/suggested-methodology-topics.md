@@ -8,6 +8,7 @@ categories:
 tags:
 - Research methodology
 output: html_document
+page_update: complete
 ---
 
 A colleague of mine is guest editor for journal that is preparing special issue on research methodology. He wanted to know if I was interested in contributing a paer, and of course I said yes. I'm not quite sure what he is looking for, so I mentioned several ideas that might be worth pursuing. We'll see if he likes any of these ideas, but I thought it wouldn't hurt to post those ideas here to give you a sense of some of the important issues in research methodology that I might want to write about.

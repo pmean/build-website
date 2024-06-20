@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Sample size for a binomial confidence
 interval (October 3, 2005)**

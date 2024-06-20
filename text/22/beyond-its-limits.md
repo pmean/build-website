@@ -7,6 +7,7 @@ categories:
 tags:
 - Epidemiology
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/22/beyond-its-limits-01.png)

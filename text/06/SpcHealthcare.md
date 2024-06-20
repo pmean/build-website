@@ -8,6 +8,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Resources for the use of Statistical
 Process Control in Healthcare (created 2006-09-15)**.
@@ -401,5 +402,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Quality
 control](../category/QualityControl.html).
+page_update: partial
 --->
 

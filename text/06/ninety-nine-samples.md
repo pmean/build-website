@@ -9,6 +9,7 @@ tags:
 - Confidence intervals
 - Statistical koans
 output: html_document
+page_update: no
 ---
 
 

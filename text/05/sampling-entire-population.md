@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 A commonly occurring question is what to do when you have a small
 population that you are sampling and your sample effectively constitutes

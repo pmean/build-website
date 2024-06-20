@@ -8,6 +8,7 @@ categories:
 tags:
 - Good books
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **What makes a good book? A sense of
 humor. (February 13, 2006)**. [Category: Good
@@ -139,5 +140,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

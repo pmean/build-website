@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 I was asked to review a commentary about studies involving remote healing (which includes prayer studies as a subgroup). It is not available yet on the web, but I'll try to link to it when it becomes available. One of the documents that this commentary did refer to, however, is available on the web.

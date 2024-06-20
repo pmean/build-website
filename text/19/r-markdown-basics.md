@@ -9,6 +9,7 @@ tags:
 - R software
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/r-markdown-basics01.png)

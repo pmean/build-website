@@ -8,6 +8,7 @@ categories:
 tags:
 - Placebos in research
 output: html_document
+page_update: complete
 ---
 
 The patients who volunteer for a randomized trial are sacrificing a great deal of autonomy. They giving up the right to determine which drug they get and they are ceding this authority not to an expert but to a random device. You should not abuse that gift by asking them to participate in a trial where they have a 50% chance of getting a treatment that is known to be inferior. This is especially difficult when one of the choices is a placebo. There is a hot debate about when a placebo arm is ethically acceptable.

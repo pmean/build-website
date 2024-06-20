@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Analysis of means
 output: html_document
+page_update: complete
 ---
 
 I am in charge of a workshop for the [American Society for Andrology][asa1] for their [32nd Annual Conference][asa2] in Tampa Florida. This society holds a laboratory workshop every year, and this year, it is being split into two workshops:

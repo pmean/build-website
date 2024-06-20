@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 Note that this page is obsolete (I am writing this note on 2020-10-26). I am currently transitioning to using Markdown and RMarkdown for my website.
 

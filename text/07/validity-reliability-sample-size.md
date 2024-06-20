@@ -9,6 +9,7 @@ tags:
 - Measuring agreement
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 Someone from Mumbai, India wrote in asking whether a sample of 163 was sufficiently large for a study of reliability and validity. This was for a project that was already done, and this person was worried that someone would complain that 163 is too small.

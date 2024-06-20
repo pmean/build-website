@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from pdf file](http://www.pmean.com/new-images/24/art-of-latex-01.png)

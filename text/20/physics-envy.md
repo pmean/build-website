@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 Lo AW, Mueller MT. Warning: Physics Envy May be Hazardous to Your Wealth! SSRN 2019-03-12. Available in [PDF format](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID1569842_code17399.pdf?abstractid=1563882&mirid=1).

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 The New York Times had an excellent article on newborn screening tests.
 

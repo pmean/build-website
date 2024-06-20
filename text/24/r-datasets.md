@@ -9,6 +9,7 @@ tags:
 - Datasets
 - R programming
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from github site](http://www.pmean.com/new-images/24/r-datasets-01.png)

@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Using a colloquial tone in a grant
 application (July 25, 2006)**
@@ -121,5 +122,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Grant
 writing](../category/GrantWriting.html).
+page_update: partial
 --->
 

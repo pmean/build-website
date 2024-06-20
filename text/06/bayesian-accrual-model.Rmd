@@ -9,6 +9,7 @@ tags:
 - Accrual problems in clinical trials
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 
 Suppose you are a researcher in charge of a long term study. You plan to collect data on 120 patients. The goal is to finish your study in ten years, which means getting 12 patients per year or one every thirty days on average. Recruiting patients though appears to be harder than you had expected. You recruited your first patient on day 56, 26 days behind schedule. The second patient is not recruited until day 93. About two years into the study (day 768), you have just recruited your 10th patient. It looks like recruitment might be behind schedule. Is it time to take action?

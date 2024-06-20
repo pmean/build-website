@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I'm asked often to provide a short biography that can be used as an introduction to a talk I am giving. Anything that I pass along to an introducer I also post on my website. I have versions written in 2009, 2008, 2004, and 2002. I also have a resume on the web (head hunters, please note that I am not looking for a job) and a PHS 398 biosketch in the new format. Here's the latest biography. Feel free to use or not use anything listed here or elsewhere. I am very open minded about what or what is not included in an introduction about me (flattery is indeed appreciated, though). I include this information because I know how hard it is to find the right thing to say when I am doing the introducing, so I want to make your job easier if you are introducing me.

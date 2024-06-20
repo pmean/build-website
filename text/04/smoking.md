@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 A recent [Surgeon's General report on
 smoking](http://www.surgeongeneral.gov/library/smokingconsequences/)

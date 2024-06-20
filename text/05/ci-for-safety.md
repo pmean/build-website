@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 Someone asked me about an environmental clean up. The government told
 them that the location was cleaned up to a 90% confidence level of the

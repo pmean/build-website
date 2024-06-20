@@ -7,6 +7,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: partial
 ---
 I'm behind in my reading of the British Medical Journal, and the first
 issue I looked at today has a gem of an article.

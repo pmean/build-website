@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 Someone asked me for some power calculations and the problem was stated very tersely and completely.

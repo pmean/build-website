@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Mathematical and statistical
 challenges (December 13, 2006)**
@@ -49,5 +50,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 theory](../category/StatisticalTheory.html).
+page_update: partial
 --->
 

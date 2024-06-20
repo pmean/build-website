@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Equipoise in research
 output: html_document
+page_update: partial
 ---
 Vital to the ethical conduct of a clinical trial is the concept of
 equipoise, that a researcher is clinically indifferent or genuinely

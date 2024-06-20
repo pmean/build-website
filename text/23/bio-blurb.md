@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I was asked to provide a few details about myself (a bio blurb) to be used at the first graduate research seminar for Fall semester 2023.

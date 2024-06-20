@@ -8,6 +8,7 @@ tags:
 - Broken link
 - Conflict of interest
 output: html_document
+page_update: partial
 ---
 
 You should always be aware of potential conflicts of interest. Sometimes researchers allow a financial incentive to influence their research and end up skewing the data to achieve a particular outcome.

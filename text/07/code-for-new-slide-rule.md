@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 I have made some minor changes to my likelihood ratio slide. The original code was lost somewhere, so I wrote some new code and added documentation. I also changed the orientation of the slide rule so it can be held horizontally and shaded the regions that need to be cut out or away. This program runs in R.

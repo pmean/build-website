@@ -8,6 +8,7 @@ tags:
 - Being updated
 - R software
 output: html_document
+page_update: partial
 ---
 Merging is tricky in any program, and you have to be sure that you know
 what you are doing. I have found that keeping an index variable will

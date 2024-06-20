@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 A recent email on the
 [Medstats](http://groups.google.com/group/MedStats) discussion group

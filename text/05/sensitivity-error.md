@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 
 A group of residents wanted me to look at an article because they were

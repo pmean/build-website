@@ -8,6 +8,7 @@ categories:
 tags:
 - Fraud in research
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/24/scientific-fakery-01.png)

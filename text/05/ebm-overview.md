@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 The Archives of Disease in Childhood has a series of articles on
 evidence-based Medicine.

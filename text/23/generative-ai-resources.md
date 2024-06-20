@@ -8,6 +8,7 @@ categories:
 tags:
 - Artificial intelligence
 output: html_document
+page_update: complete
 ---
 
 I attended a webinar sponsored by Missouri Online on the use of generative AI in education. The author referred to two resources that they provide.

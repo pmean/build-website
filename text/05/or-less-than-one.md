@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Odds ratios less than one (January 6,
 2005)**

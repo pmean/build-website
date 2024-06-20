@@ -8,6 +8,7 @@ categories:
 tags:
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **An exact confidence interval for a
 binomial proportion (created 2006-08-18)**.
@@ -79,5 +80,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Confidence
 intervals](../category/ConfidenceIntervals.html).
+page_update: partial
 --->
 

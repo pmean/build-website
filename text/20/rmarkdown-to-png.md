@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I have been using a tedious process to convert parts of the output of an R Markdown file to png files. I want to use png files because they can be inserted easily into a PowerPoint presentation. There's a trick to make this work.

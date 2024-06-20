@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 > Bill Caskey talked about some of the nitty gritty details of the NIH
 > Grant process. His talk focused mostly on what happens after a grant

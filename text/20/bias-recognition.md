@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 Qi Wang, Hee J. Jeon. "Bias in Bias Recognition: People View Others but Not Themselves as Biased by Preexisting Beliefs and Social Stigmas." PsyArXiv, 2020-02-27. Available in [pdf format](https://psyarxiv.com/d38rt/).

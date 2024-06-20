@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Public access to publications from
 NIH-funded research (February 15, 2005)**

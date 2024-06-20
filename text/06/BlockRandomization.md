@@ -9,6 +9,7 @@ tags:
 - Definitions
 - Randomization
 output: html_document
+page_update: partial
 ---
 Several people have asked me about block randomization, and while I
 discuss it briefly on one of my web pages,

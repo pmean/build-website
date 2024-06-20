@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 I rarely find time to read the Statistics journals anymore, but I did
 run across an excellent article in the September 2004 issue of JASA.

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Quality of published research (March
 14, 2005)** [Category: Systematic

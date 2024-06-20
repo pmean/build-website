@@ -7,6 +7,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 I had offered to help out our local IRB but was not careful to clarify how I could help. This resulted in me being appointed as an alternate member of the IRB. That's not a good role for me because of my conflict of interest. I work with a large number of clients through the Research and Statistical Consult Service (RSCS), and would have a hard time providing an impartial review of an IRB application that I had some role in developing. Also, for researchers who have not worked with the RSCS, if there protocols had major statistical flaws, I would be uncomfortable asking them to consult with the RSCS, as it might appear that I'm trying to artificially build demand for the RSCS. So I'll have to turn down this role. But there is another way I could help.

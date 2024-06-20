@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Interesting quote: Scientific papers
 serve\... (February 21, 2005)** [Category:

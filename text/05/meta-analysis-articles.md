@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 I found a couple of interesting articles on meta-analysis that are
 difficult to classify:

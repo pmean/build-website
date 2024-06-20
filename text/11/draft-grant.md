@@ -6,8 +6,9 @@ date: 2011-09-13
 categories:
 - Blog post
 tags:
-- Being updated
+- Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 Here's an early draft of a grant submission on patient accrual. It is in response to PA-11-180, and we would submit this by February 5, 2012. I have made comments to myself in double brackets.

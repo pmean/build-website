@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 I give lots of talks and I usually put in a plug for my book, Statistical Evidence in Medical Trials. I even promote my book in the signature file that I put at the bottom of all my emails. My philosophy is that if you don't promote yourself, who will?

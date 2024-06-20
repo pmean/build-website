@@ -7,6 +7,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: partial
 ---
 > *Q. What do you call the the removal of individually identifiable
 > health information from health records? A. HIPAAectomy*. Found at

@@ -7,6 +7,7 @@ categories:
 tags:
 - Reproducible research
 output: html_document
+page_update: complete
 ---
 
 Dr. Melik: This morning for breakfast he requested something called "wheat germ, organic honey, and tiger's milk."

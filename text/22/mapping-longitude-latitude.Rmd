@@ -8,6 +8,7 @@ category:
 tags:
 - Geocoding
 output: html_document
+page_update: complete
 ---
 
 I'm trying to understand some of the basics of mapping and found an interesting example on [this website]

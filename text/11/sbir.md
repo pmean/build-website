@@ -7,6 +7,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 I want to document on this webpage, a general idea of where we might want to submit a grant to continue our work on accrual models. In particular, I was originally leaning towards an SBIR (Small Business Innovation Research) grant, but now I am not so sure. The impetus was attendance at a webinar on how to write a grant for SBIR.

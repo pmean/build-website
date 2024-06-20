@@ -7,6 +7,7 @@ categories:
 tags:
 - Qualitative research
 output: html_document
+page_update: partial
 ---
 
 *Not everything that can be counted counts, and not everything that counts can be counted.* - Albert Einstein (1879-1955). Quote found in the January 31, 2006 issue of [WXPnews][wxp1].

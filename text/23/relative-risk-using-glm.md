@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/23/relative-risk-using-glm-01.png)

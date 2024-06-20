@@ -8,6 +8,7 @@ categories:
 tags:
 - Measuring agreement
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **What is construct validity? (March 8,
 2006)**
@@ -607,5 +608,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring
 agreement](../category/MeasuringAgreement.html).
+page_update: partial
 --->
 

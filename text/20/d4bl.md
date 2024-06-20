@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Yeshimabeit Milner, Lucas Mason-Brown, Jamelle Watson-Daniels, Stacy Jebett Bullard, Nicole Triplett. Data for Black Lives. Available in [html format](http://d4bl.org/).

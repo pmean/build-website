@@ -9,6 +9,7 @@ category: Blog post
 tags:
 - Data management
 source: new
+page_update: complete
 ---
 
 There's no mincing words here. Missing values are hell for every statistician. Here are a few examples.

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 [Mathematica](http://www.wolfram.com/products/mathematica/introduction.html),
 produced by [Wolfram Research](http://www.wolfram.com/), is a program

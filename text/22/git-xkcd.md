@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. xkcd cartoon](https://imgs.xkcd.com/comics/git.png)

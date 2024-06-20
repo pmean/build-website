@@ -10,6 +10,7 @@ tags:
 - Website details
 - Quotation
 output: html_document
+page_update: complete
 ---
 
 [Note: the organizational details of the current website differ from that described here.]

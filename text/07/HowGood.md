@@ -8,6 +8,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 As I mention at the top of the weblog, I preferentially try to cite
 medical literature where there is free full text available on the web.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Descriptive statistics
 output: html_document
+page_update: complete
 ---
 
 I am helping someone with a projec that involves (among other things), computing averages of many Likert scale items. A Likert scale has different interpretations, but I use the term to mean a scale that has five items with a logical ordering. So the scale 1=Strongly disagree, 2=Disagree, 3=Neutral, 4=Agree, and 5=Strongly agree is a Likert scale. This person ran some descriptive statistics on the individual items and on the mean of those items. The results are shown below with generic names for the individual items. I was asked why the average had a standard deviation that was so much smaller than the standard deviations of the individual items.

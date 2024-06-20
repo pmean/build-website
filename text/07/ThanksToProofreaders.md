@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 Someone emailed me with a suggestion that I have said "increase" when I meant to say "decrease" and "decrease" when I meant to say "increase." I looked at the page in question and she was right.

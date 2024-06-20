@@ -8,6 +8,7 @@ tags:
 - R software
 - Stata software
 output: html_document
+page_update: partial
 ---
 
 Testing for bimodality is a rather tricky thing. A recent discussion of tests of bimodality on edstat-l, though, yielded a few promising leads relating to the Dip test.

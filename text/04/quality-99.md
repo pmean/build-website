@@ -7,6 +7,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: partial
 ---
 So you've decided to implement a quality control program in your
 laboratory. What will it take to make that program successful? There

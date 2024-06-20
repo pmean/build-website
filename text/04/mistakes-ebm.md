@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching Resources
 output: html_document
+page_update: partial
 ---
 I attended a lunch roundtable session on the role of statisticians in
 teaching Evidence-Based practice to future clinicians. I didn't get a

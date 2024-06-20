@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: partial
 ---
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].

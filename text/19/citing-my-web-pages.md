@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I got an inquiry by email asking if it was okay to cite one of my web pages. Here's what I said, more or less.

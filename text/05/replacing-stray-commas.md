@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **More on regular expressions (July 21,
 2005)** [Category: Data management](../category/DataManagement.html)

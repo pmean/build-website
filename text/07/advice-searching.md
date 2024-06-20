@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Information searching
 output: html_document
+page_update: no
 ---
 Trish Greenhalgh wrote a [nice article][gre1] about searching for medical information using PubMed.
 

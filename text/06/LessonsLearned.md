@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **More lessons learned the hard way
 (January 31, 2006)**.
@@ -73,5 +74,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

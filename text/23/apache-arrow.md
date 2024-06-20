@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/23/apache-arrow-01.png)

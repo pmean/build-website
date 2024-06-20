@@ -8,6 +8,7 @@ tags:
 - Critical appraisal
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I am giving a webinar to a group that is interested in applications of statistics to Alzheimer's disease and schizophrenia. I wanted to show some real world uses of p-values and confidence intervals, and did a few quick searches for open source articles. I also am including the abstracts of several articles that they sent me. The font size on the handout is a bit small, so I am including the abstracts here as well so you can view them with a reasonable font size.

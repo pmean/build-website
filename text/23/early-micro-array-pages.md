@@ -7,6 +7,7 @@ categories:
 tags:
 - Genomic analysis
 output: html_document
+page_update: complete
 ---
 
 Back around 1998 through about 2004, I tried my best to understand how to manage data from a micro-array experiment and how to analyze it properly. I started some web pages to describe what I was learning, but I never quite got them completed. I want to include links to those pages here. If I ever get the time and energy, I will update those pages and place them on my new website.

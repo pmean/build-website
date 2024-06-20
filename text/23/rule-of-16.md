@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 The rule of 16 is a convenient rule to give quick estimate of the sample size that you might need in a study. It states that if you want to conduct a study with enough power to compare two groups, the number of patients you would need in each group is around 16 divided by the effect size squared.

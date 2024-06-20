@@ -9,6 +9,7 @@ tags:
 - Being updated
 - R software
 output: html_document
+page_update: partial
 ---
 I found a couple of nice libraries in R available from [CRAN
 (Comprehensive R Achive Network)](http://cran.r-project.org/). The

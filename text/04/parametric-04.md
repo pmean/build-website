@@ -7,6 +7,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 > One of the biggest areas of disagreement among statisticians is [when
 > to use parametric or non-parametric

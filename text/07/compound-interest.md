@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: complete
 ---
 
 In some of my mathematical calculations, I end up computing an expression that involves a number very close to one raised to a very large power. This term can often be approximated by an exponential function, but I can never quite remember the relationship. An example involving compound interest may help me remember better in the future.

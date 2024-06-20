@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Where to go, where to go (January 11,
 2006)**
@@ -115,5 +116,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Professional
 details](../category/ProfessionalDetails.html).
+page_update: partial
 --->
 

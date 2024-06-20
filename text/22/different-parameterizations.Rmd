@@ -8,6 +8,7 @@ category:
 tags:
 - Analysis of variance
 output: html_document
+page_update: complete
 ---
 
 I'm trying to understand some of the basics of contrasts in analysis of variance. In particular, I want to figure out some alternative parameterizations of the coefficients that are estimated as part of the ANOVA model.

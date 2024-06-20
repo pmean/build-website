@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 In certain programming situations, you need to perform calculations involving division that produce whole numbers as a result. For example, if you divided 27 by 4, you would get 6.75, but if you were using whole numbers only, then your result would be 6 with a remainder of 3.

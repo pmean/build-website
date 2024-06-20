@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 I attended a very interesting session at the Joint Statistical Meetings last week on conflict of interest. I asked a question during the session that seemed quite obvious to me at the time, but which was apparently not thought of by any of the speakers. Why did no one in that session formally declare whether they had a conflict of interest? They were advocating policy changes that had serious financial implications for both pharmaceutical and academic statisticians.

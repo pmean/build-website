@@ -8,6 +8,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/framingham-contribution01.png)

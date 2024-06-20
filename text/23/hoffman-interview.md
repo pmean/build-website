@@ -7,6 +7,7 @@ categories:
 tags:
 - Improtant statisticians
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/23/hoffman-interview-01.png)

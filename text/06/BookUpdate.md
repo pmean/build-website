@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical evidence
 output: html_document
+page_update: partial
 ---
 **[StATS]: Update on my book, Statistical Evidence
 in Medical Trials (February 28, 2006)**
@@ -47,5 +48,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 evidence](../category/StatisticalEvidence.html).
+page_update: partial
 --->
 

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 **[StATS]: Importing value labels from Access into
 SPSS (May 24, 2005)**.

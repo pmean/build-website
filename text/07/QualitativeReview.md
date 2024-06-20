@@ -8,6 +8,7 @@ categories:
 tags:
 - Qualitative research
 output: html_document
+page_update: complete
 ---
 
 I was asked by BMJ to review a paper that involved a qualitative data analysis. These reviews are confidential, so I don't want to describe the paper in any detail. It is worthwhile, however, to note some of the standards that others have suggested for assessing the quality of a qualitative data analysis.

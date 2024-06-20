@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 > I was trying to track down a reference on the NNH (number needed to
 > harm) for antibiotic use, but noticed instead the large number of good

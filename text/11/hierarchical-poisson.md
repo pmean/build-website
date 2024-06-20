@@ -7,6 +7,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 I am interested in various extensions to the simple Bayesian model for accrual that Byron Gajewski and I derived and published in Statistics in Medicine. An important extension would be accrual in multi-center trials. A hierarchical model makes a lot of sense in this case, so I wanted to examine a simple hierarchical model that appears in the BUGS manual.

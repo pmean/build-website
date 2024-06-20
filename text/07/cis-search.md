@@ -7,6 +7,7 @@ categories:
 tags:
 - Information searching
 output: html_document
+page_update: complete
 ---
 
 I wanted to search for any recent references about teaching Bayesian statistics. The American Statistical Association has a nice resource for its members, the Current Index to Statistics (CIS). I ran a search for bayes%+teach% in the Keyword/Title field and found 61 references. Notice that CIS uses the % symbol as a wildcard rather than the * symbol.

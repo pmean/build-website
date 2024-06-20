@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I was helping someone write a grant when I got that request that I always dread, "Can you write this section of the grant." I hate those requests for a personal reason--I'd much rather tell someone else what to do than to actually do it myself. One of the great joys of consulting is being able to boss other people around. But there's a serious reason why I dislike this. I believe that a grant should be written by one person, with guidance of course by other experts. But one person needs to have at least a passing level of familiarity with each and every aspect of the grant; enough familiarity that they can write the entire grant. It also assures consistency of tone and language. But there are often reasons why this can't be done, and if you're stuck writing major sections of someone else's grant, you need to write your section of the grant so that it fits in well with the rest of the grant. There's a famous saying that a camel is a horse designed by a committee. You want to make sure that the completed protocol does not come out looking like a camel. If certain sections have abrupt transitions, use different terms for the same thing, and have radical changes in writing style, you've got problems. You won't get things perfect, and I certainly didn't with this project. But the closer you get, the better the grant will be.

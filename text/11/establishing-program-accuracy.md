@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I've been asked to establish that a particular program, OpenEpi, can accurately calculate test statistics for a two by two table. The package appears quite good, and it is written by some really smart people, which would have been good enough for me, but I do understand that others feel the need to go an extra step. So here is how you might establish accuracy.

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 Someone asked me today about Hedge's G. I had never heard of it before,
 but if you do a web search, you will find

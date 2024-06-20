@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 A comment on EDSTAT-L reminded me about this important issue. Many
 problems in Statistics involve finding an optimal point of a rather

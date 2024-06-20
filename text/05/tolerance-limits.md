@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Quality control
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Tolerance limits (created
 2005-04-15)**.

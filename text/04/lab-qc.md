@@ -7,6 +7,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: partial
 ---
 > I'll be giving a talk at the [American Society for
 > Andrology](http://www.andrologysociety.com/default.asp) in April about

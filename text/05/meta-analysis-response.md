@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 A contributor to the Evidence-Based Medicine list offered a possible
 criticism of meta-analysis. The criticism was along the lines of (I am

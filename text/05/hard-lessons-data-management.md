@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Data management
 output: html_document
+page_update: partial
 ---
 It's been a busy month, as noted below, and in a rush to complete all
 my projects, I ended up doing some things that may have caused a few

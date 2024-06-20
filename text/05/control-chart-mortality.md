@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Adverse events in clinical trials
 output: html_document
+page_update: partial
 ---
 
 One of the trickiest problems in Medicine is trying to identify whether an unusual trend in mortality rates is an indication of an incompetent physician, or worse, a physician who is actively killing patients.

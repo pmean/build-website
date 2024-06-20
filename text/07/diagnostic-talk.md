@@ -8,23 +8,11 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
-I'm giving a talk for the [American College of Allergy, Asthma, and
-Immunology](http://www.acaai.org/) with the title "Use of diagnostic
-tests for making clinical decisions." Here's an abstract of this talk:
+I'm giving a talk for the [American College of Allergy, Asthma, and Immunology](http://www.acaai.org/) with the title "Use of diagnostic tests for making clinical decisions." Here's an abstract of this talk:
 
-"Not all diagnostic tests are created equal. Some are so bad that they
-cause more harm than good. After reviewing the general formulas for
-sensitivity and specificity, I will outline the five phases of research
-for development of a diagnostic test proposed by Margaret Pepe. I will
-then explain why research in the early phases provides an insufficient
-evidence base for making clinical decisions about the utility of a
-diagnostic test. Finally, I will illustrate how to apply a diagnostic
-test in a practical setting that incorporate clinical judgment and
-accounts for individual patient variation. In this talk, you will learn
-how to: describe the limitations of diagnostic tests, summarize the five
-phase of diagnostic test development, and apply diagnostic tests in a
-practical setting."
+"Not all diagnostic tests are created equal. Some are so bad that they cause more harm than good. After reviewing the general formulas for sensitivity and specificity, I will outline the five phases of research for development of a diagnostic test proposed by Margaret Pepe. I will then explain why research in the early phases provides an insufficient evidence base for making clinical decisions about the utility of a diagnostic test. Finally, I will illustrate how to apply a diagnostic test in a practical setting that incorporate clinical judgment and accounts for individual patient variation. In this talk, you will learn how to: describe the limitations of diagnostic tests, summarize the five phase of diagnostic test development, and apply diagnostic tests in a practical setting."
 
 The five phases of development of a diagnostic test appear on page 215
 of

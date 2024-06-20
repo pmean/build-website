@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I am trying to automate some tasks that will streamline my workload. One of those tasks is uploading files to my website. I am just starting to explore how this can be done. Here is a brief summary of what I have found so far.

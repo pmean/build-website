@@ -9,6 +9,7 @@ tags:
 - Confidence intervals
 - Poisson regression
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

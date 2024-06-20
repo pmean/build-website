@@ -8,6 +8,7 @@ categories:
 tags:
 - Control charts
 output: html_document
+page_update: complete
 ---
 
 I presented a training class, Stats #18: Quality Control: A Hands-On Workshop,  for the American Society for Andrology. The major emphasis was on the computation of control charts. It's always interesting to see how this material goes over. This group was somewhat math-phobic, and felt a certain level of discomfort with the required exercises. Several points of confusion involved

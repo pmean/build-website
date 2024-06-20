@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 I never got around to submitting an article to Skeptic Magazine, but here is an update of something I wrote back in 2007 about post-modern philosophy and evidence based medicine.

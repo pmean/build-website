@@ -7,6 +7,7 @@ categories:
 tags:
 - Complex surveys
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

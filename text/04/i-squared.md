@@ -7,6 +7,7 @@ categories:
 tags:
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 While browsing through the archives of the British Medical Journal, I
 noticed an excellent article on measuring heterogeneity in

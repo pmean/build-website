@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Early stopping
 output: html_document
+page_update: partial
 ---
 **[StATS]: When can I stop my CQI study? (June 6,
 2005)**

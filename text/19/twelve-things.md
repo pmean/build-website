@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/twelve-things01.png)

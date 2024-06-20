@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 It is worth tracking the limited number of websites that mention me (and [not people who share my first and last name][sim8]). Here are a few places where I get mentioned, albeit very briefly in some cases.

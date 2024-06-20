@@ -8,6 +8,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/survey-research01.png)

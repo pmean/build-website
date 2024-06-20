@@ -8,6 +8,7 @@ categories:
 tags:
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 This is part of series of articles on how to set up and use version control on your computer. There are many systems for version control. In these articles, you will use a program, git, and a repository, github.

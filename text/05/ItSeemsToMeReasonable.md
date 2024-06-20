@@ -7,6 +7,7 @@ categories:
 tags:
 - Subgroup analysis
 output: html_document
+page_update: partial
 ---
 > *It seems to me reasonable to look for evidence of benefit or harm in
 > certain biologically plausible subgroups, even though the statistical

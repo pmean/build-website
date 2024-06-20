@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I was asked by my boss to document my scholarly activities for the past year. I used July 1, 2010 through June 30, 2011 as the time frame (I don't anticipate a lot happening in the next 30 days). Here's what I wrote.

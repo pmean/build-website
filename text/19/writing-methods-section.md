@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I'm teaching a class on Clinical Research Methodology and at least a few of the students are confused about what to put in the methods section of a research paper or a thesis. They're confused? I'm even more confused than they are. Every paper and every thesis is different, so it is impossible to offer any coherent guidance. But let me try anyway.

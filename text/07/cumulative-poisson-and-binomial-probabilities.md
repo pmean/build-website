@@ -9,6 +9,7 @@ tags:
 - Poisson regression
 - Probability concepts
 output: html_document
+page_update: complete
 ---
 
 I am updating some material about [Poisson regression][sim3] and noticed that some of the tests and confidence intervals rely on a percentile from a Chi-squared distribution or a gamma distribution. In previous work on binomial confidence intervals, I had noticed the use of a beta distribution and an F distribution. It seems odd to apply percentiles from continuous distributions for confidence intervals involving counting, but the formulas do indeed work. There are well known relationships for the cumulative distributions of the Poisson and binomial distributions that lead to these formulas.

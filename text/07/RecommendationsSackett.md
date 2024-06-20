@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 There is a lot of controversy about diagnostic testing, and I have mentioned some of these controversies in other weblog entries. I wanted to review what the experts say about diagnostic testing. The definitive resource for evaluating any medical controversy is

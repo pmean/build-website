@@ -8,6 +8,7 @@ categories:
 tags:
 - Python programming
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from blog post](http://www.pmean.com/new-images/xx/xx-01.png)

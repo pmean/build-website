@@ -8,6 +8,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 Someone came in asking about how to examine for non-linear

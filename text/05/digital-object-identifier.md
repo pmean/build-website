@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information searching
 output: html_document
+page_update: partial
 ---
 
 Many journals are now using the Digital Object Identifier (DOI) to reference their publications.

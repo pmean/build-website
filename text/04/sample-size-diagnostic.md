@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 Someone asked me how to determine the sample size for a study involving
 a diagnostic test. It seems like a tricky thing, because most studies of

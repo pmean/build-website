@@ -9,6 +9,7 @@ tags:
 - Clinical importance
 - Early stopping
 output: html_document
+page_update: partial
 ---
 Someone asked me about a correlation coefficient that he computed on a
 data set that represented 24 months of data collection. A particular

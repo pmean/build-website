@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information theory
 output: html_document
+page_update: partial
 ---
 One of the research projects I am involved with may make use of the
 HapMap project (www.hapmap.org). This project is an ambitious effort to

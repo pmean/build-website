@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Logistic regression
 output: html_document
+page_update: partial
 ---
 I got a question by email that asked, in a rather indirect way, how to
 interpret the odds ratio estimate for a continuous variable in a

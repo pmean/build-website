@@ -10,6 +10,7 @@ tags:
 - Research design
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Several years ago, I was part of panel presentation at the Joint Statistical Meetings. My talk was on how to teach Statistics from an evidence-based perspective. A question came up from the audience about the quality of medical research and there's a lot of cynicism in the Statistics community about this. Each comment from the audience seemed to get more negative and I stepped in to offer a counter argument. The research process has a lot of flaws, but we have made a ton of progress in how we provide medical care thanks to the careful and rigorously designed studies that have been done. I didn't convince anyone - but it felt good to stand up for something I strongly believe in. Recently, I had to look for examples of research that has changed clinical practice for the better and found several interesting articles.

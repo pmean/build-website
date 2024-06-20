@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 Robert Todd Carroll, author of [The Skeptics Dictionary][car1] and creator of the website [Skepdic.com][car2], mentioned in a recent newsletter that he has updated his definition for [anecdotal evidence](http://www.skepdic.com/testimon.html). He points out that anecdotes are unreliable because they are

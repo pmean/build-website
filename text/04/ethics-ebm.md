@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching Resources
 output: html_document
+page_update: partial
 ---
 The Journal of Medical Ethics has a [series of articles about ethics and
 evidence based

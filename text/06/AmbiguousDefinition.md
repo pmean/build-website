@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Ambiguous nature of the word "risk"
 (created 2006-09-13)**.
@@ -46,5 +47,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Critical
 appraisal](../category/CriticalAppraisal.html).
+page_update: partial
 --->
 

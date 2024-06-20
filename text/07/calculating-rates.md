@@ -8,6 +8,7 @@ categories:
 tags:
 - Poisson regression
 output: html_document
+page_update: complete
 ---
 
 Someone on the MedStats discussion group asked how to calculate a rate of needlestick incidents. The answer is quite simple, but there are a variety of possible responses.

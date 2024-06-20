@@ -7,6 +7,7 @@ categories:
 tags:
 - Evidence Based Medicine
 output: html_document
+page_update: partial
 ---
 
 Paul Glasziou compiled a list for the best EBM papers in 2004. These papers had to deal with either methods for EBM or teaching of EBM. Here is the list:

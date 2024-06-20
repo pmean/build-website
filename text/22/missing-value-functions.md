@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Data management
 source: new
+page_update: complete
 ---
 
 Comparisons involving missing values are tricky. 

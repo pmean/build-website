@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of Statistics 
 output: html_document
+page_update: complete
 ---
 
 The Kansas University Medical Center has a statistics journal club and this month, they reviewed an article

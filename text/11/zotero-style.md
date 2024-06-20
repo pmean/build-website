@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 I use Zotero to produce html code for the "Outside Resource" section of my category pages. It requires a special style which I have adapted.

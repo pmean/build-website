@@ -7,6 +7,7 @@ categories:
 tags:
 - Data mining
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/23/feature-engineering-and-selection-01.png)

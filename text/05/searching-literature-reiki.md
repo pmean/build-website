@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Information searching
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Searching the literature (May 3,
 2005)**

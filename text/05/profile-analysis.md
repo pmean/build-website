@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Multilevel models
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Profile analysis and MANOVA (April
 18, 2005)**

@@ -9,6 +9,7 @@ tags:
 - Clinical importance
 - Confidence intervals
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, Is there a rule of the thumb to judge if a 95% CI
 is wide or narrow?\

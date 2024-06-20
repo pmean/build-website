@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Questions a volunteer should ask
 before participating in a clinical trial (created 2006-07-18)**
@@ -49,5 +50,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).
+page_update: partial
 --->
 

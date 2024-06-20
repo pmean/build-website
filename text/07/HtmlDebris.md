@@ -9,6 +9,7 @@ tags:
 - Obsolete page
 - Website details
 output: html_document
+page_update: complete
 ---
 
 [Note: These stray tags are no longer an issue since I converted to using blogdown to create webpages.]

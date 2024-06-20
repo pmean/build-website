@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: complete
 ---
 
 I was showing a client how to use their version of SPSS to a variety of different things and when I went to run a logistic regression model, it wasn't there. Apparently, there are several versions of SPSS (I knew this already) and some of the versions do not include logistic regression (that I was surprised to find out). I had to research all the options and offer a recommendation. Here's a quick guide to what I learned by browsing through the SPSS site.

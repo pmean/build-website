@@ -8,6 +8,7 @@ categories:
 tags:
 - Adverse events in clinical trials
 output: html_document
+page_update: complete
 ---
 
 Last year, I gave a talk for PharmaIQ about continuous monitoring of the number needed to harm. I want to update this talk for a second audience in December. Here's the London talk:

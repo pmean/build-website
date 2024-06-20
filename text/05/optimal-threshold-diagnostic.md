@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Diagnostic tests
 output: html_document
+page_update: partial
 ---
 **[StATS]: Determining the optimal threshold for a
 diagnostic test (April 27, 2005)**

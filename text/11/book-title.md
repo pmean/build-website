@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 As I mentioned on an earlier webpage, Cambridge University Press has agreed to publish my second book. There were some suggestions, including a change in the proposed title to "Successful Research Projects: A Practical Guide for the Health and Social Sciences." I was not thrilled with this title and I was appreciative when my contact at Cambridge described that title as bland.

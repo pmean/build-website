@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 > Back when I was writing the [FAQ (Frequently Asked Questions) for
 > stat-l/sci.stat.consult](../faq.asp), I had a question about [how to

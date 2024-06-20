@@ -7,6 +7,7 @@ categories:
 tags:
 - Government statistics
 output: html_document
+page_update: complete
 ---
 
 An account of recent events to stop the collection of data that the current administration thinks might hurt some of its efforts to roll back regulations.

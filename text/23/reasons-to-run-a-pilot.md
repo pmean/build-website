@@ -8,6 +8,7 @@ output:
 categories: Blog post
 tags: Pilot studies
 source: New
+page_update: complete
 ---
 
 There's a common saying among pediatricians: children are not little adults. You can't take a drug therapy that works in adults and scale it down to a kid-sized treatment. Children are actively growing, their livers metabolize drugs differently, and they have a stage of life called puberty that most of the rest of us have long forgotten.

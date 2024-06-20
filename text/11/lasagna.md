@@ -7,6 +7,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 I sent out a question to an email discussion group asking about documentation of sample size shortfalls in clinical research. Someone suggested that I google "Lasagna's Law." What a great suggestion. Here's what I found.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I don't do my fair share of peer-reviews, but I did do one recently and got a nice thank you note on Valentine's Day. I am reproducing the text here, so I can refer to it later, if needed.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 I sent out a flurry of small grants in December and most did not get funded, but one of them did. And I need your help with finding the right collaborator.

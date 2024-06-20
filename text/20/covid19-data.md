@@ -8,6 +8,7 @@ tags:
 - Datasets
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Shuja, J., Alanazi, E., Alasmary, W. et al. COVID-19 open source data sets: a comprehensive survey. Appl Intell (2020). DOI: 10.1007/s10489-020-01862-6. Available in [html format](10.1007/s10489-020-01862-6) or [pdf format](https://link.springer.com/content/pdf/10.1007/s10489-020-01862-6.pdf).

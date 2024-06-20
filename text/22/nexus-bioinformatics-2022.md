@@ -8,6 +8,7 @@ category:
 tags:
 - Informatics
 output: html_document
+page_update: complete
 ---
 
 During the talks at the Nexus Informatics conference of 2022, I took a peek at various website and articles. These were either ones that the speakers mentioned or ones I googled on a topic that they covered. I am placing links to these here in case I want to look at them later.

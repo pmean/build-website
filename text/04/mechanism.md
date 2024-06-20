@@ -7,6 +7,7 @@ categories:
 tags:
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 "*Extraordinary claims require extraordinary proof.*" This is the
 mantra of skeptical thinkers and it provides useful for evaluating

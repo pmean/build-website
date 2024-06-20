@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 A. Jonathan R. Godfrey and M. Theodor Loots. Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education 2015, 23(3). Available in [pdf format](http://jse.amstat.org/v23n3/godfrey.pdf).

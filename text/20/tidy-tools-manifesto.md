@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 Hadley Wickham. The tidy tools manifesto. 2019-11-19. Available in [html format](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html).

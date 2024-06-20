@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Science mentoring (September 12,
 2005)**

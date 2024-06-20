@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 Roy Poses, a regular contributor to the email discussion group
 Evidence Based Health wrote a provocative email pointing out the

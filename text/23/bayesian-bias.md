@@ -8,6 +8,7 @@ tags:
 - Bayesian statistics
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/23/bayesian-bias-01.png)

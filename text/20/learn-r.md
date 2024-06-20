@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I get this question a lot: How do I learn how to use R? I usually mumble something, and feel quite uncomfortable. In fact. It is not easy to learn R on your own. It is not easy to learn **ANYTHING** on your own, but that is especially true of R. Someon asked me again today, and I thought I should outline the many different approaches that you can take in learning R. I am listing this in order of priority, with the best and most effective approaches listed first. 

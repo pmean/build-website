@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Slow progress on my weblog (November
 25, 2005)**. [Category: Website

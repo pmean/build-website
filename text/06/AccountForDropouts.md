@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Be sure to account for dropouts in
 your sample size calculation (December 29, 2006)**
@@ -53,5 +54,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Sample size
 justification](../category/SampleSizeJustification.html).
+page_update: partial
 --->
 

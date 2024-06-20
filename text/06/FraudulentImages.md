@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Fraudulent images in research (July
 12, 2006)**
@@ -75,5 +76,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Ethics in
 research](../category/EthicsInResearch.html).
+page_update: partial
 --->
 

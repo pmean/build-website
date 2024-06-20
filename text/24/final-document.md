@@ -8,6 +8,7 @@ categories:
 tags:
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/24/final0-document-01.png)

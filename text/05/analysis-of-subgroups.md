@@ -7,6 +7,7 @@ categories:
 tags:
 - Multiple comparisons
 output: html_document
+page_update: partial
 ---
 > *Analysis of subgroup results in a clinical trial is surprisingly
 > unreliable, even in a large trial. This is the result of a combination

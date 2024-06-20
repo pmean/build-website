@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 I am working with a graphic artist to produce some illustrations to help explain what happened during the disastrous TGN1412 trial. The general structure of these illustrations are not quite set in stone, but here are my initial thoughts.

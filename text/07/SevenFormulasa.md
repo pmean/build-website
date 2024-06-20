@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Seven different formulas for the odds
 ratio (June 14, 2007)**
@@ -147,5 +148,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Writing research
 papers](../category/WritingResearchPapers.html).
+page_update: complete
 --->
 

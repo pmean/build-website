@@ -8,6 +8,7 @@ categories:
 tags:
 - Control charts
 output: html_document
+page_update: complete
 ---
 
 On the web page [Calculating a P control chart][sim3] you were asked to calculate P charts for the following two data sets:

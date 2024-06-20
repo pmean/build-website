@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/stop-saying-exponential01.png)

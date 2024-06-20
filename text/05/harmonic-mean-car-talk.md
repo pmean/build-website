@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Statistical theory
 output: html_document
+page_update: partial
 ---
 The radio show, Car Talk, has a puzzle that they read every week on the
 show. Usually, it is some unusual or unexpected problems with

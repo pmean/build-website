@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 When you help write up a research grant, you need to brag about how smart and talented you are. I am not shy about promoting myself, so this is pretty easy for me to do. Here's the text I included in a recent research grant. I put these here not just to brag about myself, but to help provide material that people can use to introduce me when I give talks. I also recycle and update these brag sheets over time.

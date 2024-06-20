@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: partial
 ---
 **[StATS]:**(2006-07-10) **When can a conservative trust a
 liberal information source (and vice versa)<U+FFFD> **
@@ -223,5 +224,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Conflict of
 interest](../category/ConflictOfInterest.html).
+page_update: partial
 --->
 

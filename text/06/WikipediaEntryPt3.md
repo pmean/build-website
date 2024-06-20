@@ -8,6 +8,7 @@ categories:
 tags:
 - Wiki pages
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Wikipedia entry on Binomial
 Confidence Interval, Part 3 (August 29, 2006)**. [Category: Wiki
@@ -64,5 +65,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

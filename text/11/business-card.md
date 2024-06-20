@@ -7,6 +7,7 @@ categories:
 tags:
 - Independent consulting
 output: html_document
+page_update: complete
 ---
 
 Someone who was about to embark on an independent consulting career asked me what you should put on your business card. My advice was to keep it simple.

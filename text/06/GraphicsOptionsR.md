@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - R software
 output: html_document
+page_update: partial
 ---
 When you are producing graphics in R, the default option does not save
 your graphs for later review. You can change this in several ways. My

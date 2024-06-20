@@ -8,6 +8,7 @@ categories:
 tags:
 - Control charts
 output: html_document
+page_update: complete
 ---
 On the web page
 

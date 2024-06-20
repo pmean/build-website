@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Evidence-based development of medical
 guidelines (December 13, 2006)**
@@ -87,5 +88,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Teaching
 resources](../category/TeachingResources.html).
+page_update: partial
 --->
 

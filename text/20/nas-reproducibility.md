@@ -7,6 +7,7 @@ categories:
 tags:
 - Reproducible research
 output: html_document
+page_update: complete
 ---
 
 This book, produced by the [National Academy of Sciences, Engineering, and Medicine](https://www.nap.edu/), is available for free as a large PDF file, or for purchas as a paperback book or ebook. The book makes a careful distinction between reproducibility and replicability, offers explanations for why both are a problem with today's research, and suggests changes to research process. This book is summarized and expanded on by a [series of articles on reproducibility and replicability](https://hdsr.mitpress.mit.edu/pub/6an6ppum/release/4) pubished in the [Harvard Data Science Review](https://hdsr.mitpress.mit.edu/).

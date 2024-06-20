@@ -10,6 +10,7 @@ tags:
 - R software
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/images/19/bibliographies-in-r-markdown01.png)

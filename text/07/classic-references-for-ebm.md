@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 A couple of weeks ago, a regular correspondent (PG) on the Evidence Based Health email discussion group asked about what were the essential readings in Evidence Based Medicine (EBM. These are articles beyond simple tutorials that are aimed at those who want more specifics about EBM. The articles that this person suggested are quite good.

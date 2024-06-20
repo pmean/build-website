@@ -8,6 +8,7 @@ categories:
 tags:
 - Small sample size issues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Perfect isn't quite good enough
 (December 12, 2006)**
@@ -55,5 +56,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Small sample size
 issues](../category/SmallSampleSizeIssues.html).
+page_update: partial
 --->
 

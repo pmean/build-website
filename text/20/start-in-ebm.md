@@ -7,6 +7,7 @@ categories:
 tags:
 - Evidence-Based Medicine
 output: html_document
+page_update: complete
 ---
 
 I am working with a new group looking at early childhood interventions, and they want my advice about a variety of issues related to Evidence-Based Medicine (EBM). Why would a Statistician provide advice about EBM? Well, I can't claim that I know everything, but it might help to elaborate on how I got interested in this topic.

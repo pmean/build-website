@@ -7,6 +7,7 @@ categories:
 tags:
 - datasets
 output: html_document
+page_update: complete
 ---
 
 City of Albuquerque. Food inspections. Available in [html format](http://data.cabq.gov/business/foodinspections/).

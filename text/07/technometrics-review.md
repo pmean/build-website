@@ -8,6 +8,7 @@ categories:
 tags:
 - Book review
 output: html_document
+page_update: complete
 ---
 
 The February 2007 issue of Technometrics has a review of my book, Statistical Evidence in Medical Trials. The review is not available on the web, unless you subscribe to Technometrics. The review, written by Richard Goldstein, was fairly critical, as you can judge by the final paragraph.

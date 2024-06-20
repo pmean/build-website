@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 Indrayan A. Aleatory and epistemic uncertainties can completely derail medical research results. J Postgrad Med. 2020;66(2):94-98. doi:10.4103/jpgm.JPGM_585_19. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239410/).

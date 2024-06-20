@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Paul Dauenhauer. Tweet, 2020-08-14. Available in [html format](https://twitter.com/pauldauenhauer/status/1294431840858705921).

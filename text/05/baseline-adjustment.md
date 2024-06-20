@@ -8,6 +8,7 @@ tags:
 - Broken link
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 
 Someone asked me today about how to analyze a two group experiment with a baseline value. This is common research design. Researchers will assess all patients at the beginning of the study. They then randomly assign half of these patients to receive an intervention and half to be in a control group. Then they take a second measurement of the same outcome. The measurement at the beginning of the study, the baseline value, helps improve the research design by removing some of the variation in the data.

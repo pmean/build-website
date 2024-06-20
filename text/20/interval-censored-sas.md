@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 SAS Institute. Example 39.11: Complementary Log-Log Model for Interval-censored Survival Times. Available in [html format](https://v8doc.sas.com/sashtml/stat/chap39/sect54.htm).

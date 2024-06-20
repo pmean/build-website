@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Information theory
 output: html_document
+page_update: partial
 ---
 The formula for uncertainty (sometimes referred to as entropy) is
 

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Professional details
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Vote for me (December 21, 2005)**.
 

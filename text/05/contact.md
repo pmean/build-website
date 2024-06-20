@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Professional details
 output: html_document
+page_update: partial
 ---
 This page is outdated, but I am keeping it because I am an electronic
 pack rat.

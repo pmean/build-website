@@ -7,6 +7,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 > Someone asked me about an analysis that showed certain factors were
 > predictive of a health outcome when considered individually. When

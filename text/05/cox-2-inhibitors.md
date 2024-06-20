@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 **[StATS]: Side effects of Cox-2 inhibitors
 (February 15, 2005)**

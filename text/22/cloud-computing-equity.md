@@ -8,6 +8,7 @@ category:
 tags:
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 I attended a webinar presented by Dartmouth University, the ninth in a series of talks in the Summer 2022 Data Science and AI Webinar Series. The speaker, Mohammad Soltanieh-Ha, spoke about using cloud computing to improve equity in the classroom. I want to include links to some of the resources mentioned in the talk.

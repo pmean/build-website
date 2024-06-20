@@ -7,6 +7,7 @@ categories:
 tags:
 - Nonlinear regression
 output: html_document
+page_update: partial
 ---
 
 I've worked on a brief explanation of how to [fit an S-shaped curve][sim1] using SPSS and someone wanted to know how to do this in R.

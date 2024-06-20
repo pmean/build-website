@@ -8,6 +8,7 @@ categories:
 tags:
 - Fraud in research
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/sins-against-science01.png)

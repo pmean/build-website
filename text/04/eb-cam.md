@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 There's a new journal out with free full text on the web. It is
 [Evidence-based Complementary and Alternative

@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 On my [web page about odds ratios](../journal/oddsratio.asp), I point
 out the fractions are funny and cite some well known examples of how

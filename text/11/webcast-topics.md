@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 I was asked to develop a list of webcast topics for a client working in the pharmaceutical industry. They are listed roughly in priority order for the first half. I have some handouts already for some of these classes and I have included links to those handouts when possible. These handouts would be updated, of course and I do want to target specific medical applications for this client, though, so I might swap out the some of the examples used in the small group exercises. Still, they give a rough idea of topic coverage.

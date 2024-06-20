@@ -8,6 +8,7 @@ categories:
 tags:
 - Multilevel models
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **A simple example of a mixed linear
 regression model (October 18, 2006)**.
@@ -185,5 +186,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Mixed linear
 model](../category/MixedModels.html).
+page_update: partial
 --->
 

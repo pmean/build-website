@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 I get a lot of questions about unbalanced sample sizes. Quite often the
 mechanics of the research protocol make it easier to find a lot of

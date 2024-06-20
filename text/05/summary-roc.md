@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 **[StATS]: Summary Receiver Operating Characteristic
 Curve (January 21, 2005)**

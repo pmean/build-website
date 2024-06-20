@@ -7,6 +7,7 @@ categories:
 tags:
 - Exclusions in research
 output: html_document
+page_update: partial
 ---
 The [CarTalk radio show](http://www.cartalk.com/index.html) has an
 interesting puzzle every week and often these puzzles involve
