@@ -7,6 +7,7 @@ categories:
 tags:
 - Independent consulting
 output: html_document
+page_update: complete
 ---
 
 I have a second invitation to talk on how independent consulting is different in 2012 (send me an email if you're curious about when and where). I was asked to submit an abstract, so here it is.

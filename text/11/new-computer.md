@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I am hardly an expert on computing, but I do try to help out when someone asks me about what sort of computer they should buy for statistical analyses. Here are some general guidelines that I offer. I'm assuming that you want a system that can run Windows and the advice here is not all that helpful if you are using the MacOS or Linux.

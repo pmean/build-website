@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research grants
 output: html_document
+page_update: complete
 ---
 
 I am working on an NIH grant looking at various Bayesian models for accrual. NIH changed the grant proposal format last year to a much shorter proposal. Good for them, I say. Here are some of the details that I'm reviewing prior to writing my grant proposal.

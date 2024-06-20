@@ -7,6 +7,7 @@ categories:
 tags:
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
 Someone asked about the process of using a second reviewer in a meta-analysis to abstract data from studies. The rationale for a second reviewer, of course, is to establish that there is no serious subjectivity involved with the recording of information from individual studies. By showing that two independent reviewers produced roughly comparable data set, you have established objectivity in the data abstraction step. The question arises, though, do you have to use the second reviewer on all studies, or can you just do this for a certain percentage of the studies. If so, is there a certain percentage that is generally accepted?

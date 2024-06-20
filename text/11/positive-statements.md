@@ -7,6 +7,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 There is a lot of confusion about when you can report "No conflict of interest." You don't know whether this means that there is no financial relationship with any pharmaceutical product, with a phamaceutical product named in the paper, or with competitors to pharmaceutical products named in the paper. You don't know if the person making the claim about no conflict has gotten money from a drug company, but believes that this does not influlence his/her perspective. I believe that the no conflict statement should be replaced with something far more specific. Here are some examples.
