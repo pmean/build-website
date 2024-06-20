@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 Please note a related weblog entry: [External scholars needed to review my promotion materials][sim3].

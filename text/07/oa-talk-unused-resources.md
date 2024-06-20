@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I am giving a talk on Open Access journals at the Grand Rounds for CMH on Thursday, October 17. See my [web summary][sim1] and my [pdf slides][sim3]. Here are some resources which (in the interest of time) I did not use. I want to keep them here for future reference.

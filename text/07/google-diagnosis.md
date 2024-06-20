@@ -7,6 +7,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 An article published in BMJ argues that Google searches can sometimes aid with developing an appropriate diagnosis of disease.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Sir Roy Meadow is an expert on child abuse, having published a landmark paper in 1977 on a condition known as Munchausen Syndrome by Proxy. An observation of his

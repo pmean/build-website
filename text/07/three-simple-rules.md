@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Quality control
 output: html_document
+page_update: complete
 ---
 
 I received a recommendation to purchase a book (Process Quality Control, by Ellis Ott) and while searching for reviews of this book, found something called Ott's Rules. These are three simple rules advocated by Dr. Ott in any process control problem:

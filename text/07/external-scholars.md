@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 Although I do all my work at Children's mercy Hospital, I have a joint appointment as Associate Professor in the School of Medicine at the University of Missouri-Kansas City. In a previous weblog entry, I described the process that I would have to follow to get a promotion from Associate Professor to Full Professor. One of the more difficult things that the promotion committee is asking for is five external scholars who would review my portfolio. Here's a description of the process from the UMKC promotion materials.

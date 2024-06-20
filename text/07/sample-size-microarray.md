@@ -9,6 +9,7 @@ tags:
 - Data mining
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 I'm helping out with a grant proposal that is using microarrays for part of the analysis. A microarray is system for quantitative measurement of circulating mRNA in human, animal, or plant tissue. A microarray will typically measure thousands or tens of thousands of different mRNA sequences. An important issue for this particular grant (and many grants involving microarray data) is how to justify the sample size. Here are a few references that I will use to develop such a justification.

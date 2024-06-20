@@ -8,6 +8,7 @@ categories:
 tags:
 - Imaging 
 output: html_document
+page_update: complete
 ---
 
 I was asked to provide feedback on a grant that will use functional magnetic resonance imaging (fMRI) as one component of the research. This technique is used to quantify brain activity by measuring changes in blood flow in various regions of the brain. It effectively produces information in the three dimensions of the brain structure, plus a dimension of time. The technology today can produce images localized to a cube with dimensions of approximately 2-4 mm, and these can be measured every 1-4 seconds. Each individual cubic region is called a voxel, a contraction of the words "volume" and "pixel."

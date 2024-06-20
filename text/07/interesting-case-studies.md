@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 Someone wrote in to the
 [MedStats](../category/InterestingWebsites.html#MeStXx) email discussion

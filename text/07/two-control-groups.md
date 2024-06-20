@@ -8,6 +8,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 Many observational studies are criticized (often deservedly) for having a bad control group. If you choose a bad control group, you create an unfair (apples to oranges) comparison. But surprisingly, two controls groups, even if both are imperfect, can lead to a strong conclusion.

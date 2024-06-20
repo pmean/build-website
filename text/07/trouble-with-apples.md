@@ -9,6 +9,7 @@ tags:
 - Observational studies
 - Placebos in research
 output: html_document
+page_update: complete
 ---
 
 I am still working on the details of a presentation for the Kansas City University of Medicine and Biosciences. They want me to talk at lunch during the 2007 Homecoming CME and Reunion weekend. The new title is "Medical Journals - The Trouble with Apples and Oranges."

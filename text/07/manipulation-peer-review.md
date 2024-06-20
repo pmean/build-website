@@ -7,6 +7,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 This weblog entry provides some discussion points that I want to share in a seminar:

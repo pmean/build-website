@@ -9,6 +9,7 @@ tags:
 - Obsolete page
 - Professional details 
 output: html_document
+page_update: complete
 ---
 
 Notice to headhunters: I am not looking for a job. I am posting this resume to help with my collaborative efforts with others outside Children's Mercy Hospital.

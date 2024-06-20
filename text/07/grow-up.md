@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I attended a talk by Dr. Martha Curley about parental presence during invasive procedures and resuscitation. Early in the talk, Dr. Curley mentioned a bell shaped curve and mentioned "the statistician in me" which was a surprising but appreciated revelation (Dr. Curley is a faculty member of the University of Pennsylvania School of Nursing).
