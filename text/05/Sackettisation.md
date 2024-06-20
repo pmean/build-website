@@ -7,6 +7,7 @@ categories:
 tags:
 - Evidence Based Medicine
 output: html_document
+page_update: partial
 ---
 > *Sackettisation \... the artificial linkage of a publication to the
 > evidence-based medicine movement in order to improve sales.*

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Presenting research
 output: html_document
+page_update: partial
 ---
 **[StATS]: PowerPoint Counterpoint (March 2, 2005)**
 

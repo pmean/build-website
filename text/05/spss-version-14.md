@@ -9,6 +9,7 @@ tags:
 - Being updated
 - SPSS software
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **What's New in SPSS version 14.0
 (August 17, 2005)**

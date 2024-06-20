@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Another open site closes (May 23,
 2005)**

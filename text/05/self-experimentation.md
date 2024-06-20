@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Self experimentation (created
 2005-09-13)**

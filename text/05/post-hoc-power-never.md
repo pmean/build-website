@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Post hoc power
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Post hoc power is never justified
 (May 13, 2005)**.

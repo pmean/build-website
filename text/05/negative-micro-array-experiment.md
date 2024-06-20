@@ -8,6 +8,7 @@ categories:
 tags:
 - Genomics analysis
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **A totally negative microarray
 experiment (October 14, 2005)**.

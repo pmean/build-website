@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Publicon software (March 14, 2005)**
 

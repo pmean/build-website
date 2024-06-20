@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 Today I gave a talk on meta-analysis. I started with a general
 [overview of meta-analysis](../model/metaanalysis.asp), and then

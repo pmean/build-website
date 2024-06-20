@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Descriptive statistics
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Presenting Numbers, Tables, and
 Charts (April 15, 2005)**

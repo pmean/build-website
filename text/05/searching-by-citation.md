@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Information searching
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Searching the Internet (April 26,
 2005)**

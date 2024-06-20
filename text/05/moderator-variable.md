@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Covariate adjustment
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Moderator variables (February 15,
 2005)**.
@@ -83,5 +84,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Covariate
 adjustment](../category/CovariateAdjustment.html).
+page_update: partial
 --->
 

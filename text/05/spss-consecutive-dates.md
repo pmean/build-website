@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: partial
 ---
 
 Someone gave me a data set with 549 rows of data. The first row corresponded to observations on 06/01/2003, the second to 06/02/2003, and so forth through 11/30/2004. She wanted to know how to get those particular dates in a column without having to type something into each individual cell.

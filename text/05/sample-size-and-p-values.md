@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Pvalues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Relationship between sample size and
 p-values (February 14, 2005)**

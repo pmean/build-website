@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Sample size calculation for a
 nonparametric test (March 8, 2005)**

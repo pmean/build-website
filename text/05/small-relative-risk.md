@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 **[StATS]: Small relative risks (January 13, 2005)**
 

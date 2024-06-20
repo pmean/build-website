@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Pvalues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **A small p-value does not mean a large
 difference (February 8, 2005)**

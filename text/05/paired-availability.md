@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Observational studies
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **The paired availability design (May
 31, 2005)**

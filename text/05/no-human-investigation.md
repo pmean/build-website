@@ -7,6 +7,7 @@ categories:
 tags:
 - Mathematics
 output: html_document
+page_update: partial
 ---
 > *No human investigation can be called real science if it cannot be
 > demonstrated mathematically.* Leonardo da Vinci

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Small sample size issues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **When one group only has a single
 observation (May 24, 2005)**

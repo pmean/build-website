@@ -7,6 +7,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: partial
 ---
 
 I tried a pilot experiment of a quality control exercise. It seemed to go fairly well. The goal of the exercise was to flip a coin from a table onto a target on the floor below.

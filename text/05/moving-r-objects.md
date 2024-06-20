@@ -10,6 +10,7 @@ tags:
 - Data management
 - R software
 output: html_document
+page_update: partial
 ---
 I regularly work from home on my laptop, and when I need to re-run
 some analyses in R, I usually just re-create the original data sets.

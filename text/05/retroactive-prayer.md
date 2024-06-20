@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Corroborating evidence
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **More on the retroactive prayer study
 (June 10, 2005)**

@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 **[StATS]: Sample size for a binary endpoint (August
 12, 2005)**

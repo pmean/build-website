@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 Someone asked me about running a Cox proportional hazards regression model when over 90% of the observations were censored. That means (if the outcome of interest was death), that your research subjects did not cooperate and die fast enough. Good news from the patients' perspective, but bad news for the statistician.

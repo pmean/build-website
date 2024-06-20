@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Teaching Resources
 output: html_document
+page_update: partial
 ---
 **[StATS]: Developing good practice guidelines
 (February 18, 2005)** [](../category/TeachingResources.html)

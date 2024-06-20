@@ -7,6 +7,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 Someone wrote to me with a statement that represents a commonly held, but false belief. He stated, in effect, that a p-value of 0.06 means that there is only a 6% probability that the null hypothesis is true.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Genomics analysis 
 output: html_document
+page_update: partial
 ---
 > If you ask most statisticians if they want raw data or processed data,
 > they will, for the most part, prefer to look at the raw data. There

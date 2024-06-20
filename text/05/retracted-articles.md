@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **The fate of retracted articles
 (October 14, 2005)**

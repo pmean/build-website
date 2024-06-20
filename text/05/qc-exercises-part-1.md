@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Quality control
 output: html_document
+page_update: partial
 ---
 
 I've taught several courses on Quality Control, and the best part is the practice exercises.

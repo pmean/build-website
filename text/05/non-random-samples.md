@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Observational studies
 output: html_document
+page_update: partial
 ---
 **[StATS]: Non-random samples (March 25, 2005)**
 

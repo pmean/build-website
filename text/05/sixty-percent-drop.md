@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 
 A friend sent me an email quoting the following statistic: "A woman's 
