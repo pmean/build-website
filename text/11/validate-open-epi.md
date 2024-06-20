@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I was asked to "validate" a software program called OpenEpi. If you want to validate software, you need to show that it produces correct answers for a variety of test cases. This webpage outlines the range of test cases and demonstrates validity for those cases by comparing them to an alternative program and to published peer-reviewed research sources.

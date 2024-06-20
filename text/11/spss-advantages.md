@@ -7,6 +7,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: complete
 ---
 
 You have a lot of choices for how to do your data analysis. I have found that the best option for most people I work with is to use IBM SPSS software. Here are the main reasons why IBM SPSS is your best choice.

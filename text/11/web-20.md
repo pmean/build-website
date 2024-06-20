@@ -7,6 +7,7 @@ categories:
 tags:
 - Independent consulting
 output: html_document
+page_update: complete
 ---
 
 I was approached by a member of the planning committee for the [American Statistical Association Conference on Statistical Practice][csp1] about giving a talk at that conference. The talk would be an extension of a roundtable discussion I am giving at the [Joint Statistical Meetings][jsm1] in 2011, [Using Email Newsletters, Webinars, Blogs, And Social Media To Promote Your Consulting Career][sim3]. After a telephone call this morning, I offered to prepare an abstract of a talk that I might give at this conference. I'm very flexible on the content of this talk, but I thought it would be a good idea to put my thoughts down in writing.

@@ -7,7 +7,9 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
+
 I'm not a doctor, so when someone presents information to me about the clinically important difference (a crucial component of any sample size justification), I should just accept their judgement. After all, I've never spent a day in a clinic in my life (at least not on the MD side) so who am I to say what's clinically important. Nevertheless, sometimes I'm presented with a scenario where the clinically important difference is so extreme that I have to raise a question. Here's a recent example.
 
 <!---More--->

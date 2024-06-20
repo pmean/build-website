@@ -7,6 +7,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 There's been a discussion among members of the Statistics in Epidemiology Section of the American Statistical Association about what topics should be covered in an introductory Statistics class. Within that discussion there has been a polite but heated debate about whether it is worthwhile to teach Bayesian methods in such a class. Some people were for it, but others thought it would be too confusing. Here's what I wrote about the topic.

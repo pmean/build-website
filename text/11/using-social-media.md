@@ -7,6 +7,7 @@ categories:
 tags:
 - Independent consulting
 output: html_document
+page_update: complete
 ---
 
 I am leading a roundtable discussion of using Social Media to promote your consulting career. Here are some things that I plan to discuss.

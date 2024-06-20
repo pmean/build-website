@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I thought it might be useful to list the software programs that I use on my various laptop computers. That way I can check to see if I have installed the programs that I used to use on my earlier laptop onto my new laptop. I also want to check (when the software license allows it) that I have installed a second copy of this software on my small laptop. I'll note whether the software is from a commercial license and whether I have a copy through my part-time job at the University of Missouri-Kansas City (UMKC). This is one of those pages that is probably more useful to me than it is to you.
