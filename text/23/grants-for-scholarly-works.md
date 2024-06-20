@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research grants
 output: html_document
+page_update: complete
 ---
 
 The National Library of Medicine just released a Notice of Funding Opportunity, NLM Grants for Scholarly Works in Biomedicine and Health, PAR-23-183. This is to help prepare major works and not just a single article.

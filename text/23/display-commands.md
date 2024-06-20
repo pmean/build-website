@@ -8,6 +8,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: complete
 ---
 
 In SPSS, you can do all of your data manipulations and data analysis using the menus and dialog boxes. You also could use program code, which SPSS calls "syntax". Most SPSS users, in my experience, use menus and dialog boxes for everything, but there are times and reasons why you might want to switch to syntax.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 If you provide justification for a proposed sample size, you should include enough information to allow others to reproduce your calculations. Here is a brief overview of what you need to include.

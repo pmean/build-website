@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from xxx](http://www.pmean.com/new-images/23/correct-paper-01.png)

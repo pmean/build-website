@@ -6,6 +6,7 @@ output: html_document
 categories: Blog post
 tags: Information searching
 source: New
+page_update: complete
 ---
 
 You find yourself using what, to you, is a new statistical approach, multiple imputation, and you're uncertain about how to approach it. You're not sure what options you should be picking and you don't want to rely on your software's default choices. You may also be insecure about using the right words to describe your approach in the methods section of your research paper.

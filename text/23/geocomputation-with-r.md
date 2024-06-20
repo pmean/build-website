@@ -7,6 +7,7 @@ categories:
 tags:
 - Geographic Information Systems
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from xxx](http://www.pmean.com/new-images/23/geocomputation-with-r-01.png)

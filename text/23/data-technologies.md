@@ -10,6 +10,7 @@ tags:
 - R software
 - SQL software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from webpage](http://www.pmean.com/new-images/23/data-technologies-01.png)

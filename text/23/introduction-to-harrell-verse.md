@@ -7,6 +7,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/23/introduction-to-harrell-verse-01.png)
