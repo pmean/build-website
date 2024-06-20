@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 Mary Letourneau, Jennifer Wright Sharp. AMS Style Guide. Journals. American Mathematical Society 2017. Available in [pdf format](https://www.ams.org/publications/authors/AMS-StyleGuide-online.pdf).

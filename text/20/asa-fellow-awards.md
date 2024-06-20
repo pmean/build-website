@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 Alex Dmitrienko, Ilya Lipkovich, and Paul Gallo. Biopharmaceutical Section Offers Advice for ASA Fellow Nomination. Amstat News 2020-06-01. Available in [html format](https://magazine.amstat.org/blog/2020/06/01/advice-for-asa-fellow-nomination/).

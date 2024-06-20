@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Michelle Nijhuis. How to Call B.S. on Big Data. A Practical Guide. The New Yorker. 2017-06-03. Approximately 1,300 words. Available in [html format][nij1]

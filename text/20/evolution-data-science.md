@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Charlie Kufs. The Evolution of Data Science ... As I Remember It. Stats with Cats blog 2020-10-22. Available in [html format](https://statswithcats.net/2020/10/22/the-evolution-of-data-science-as-i-remember-it/).

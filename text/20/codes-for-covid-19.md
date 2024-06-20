@@ -8,6 +8,7 @@ categories:
 tags:
 - Electronic health records
 output: html_document
+page_update: complete
 ---
 
 I might be helping with a research project that involves selection of medical records associated with COVID-19. Here are some of the resources and suggestions that I received from a colleague at KUMC plus additional ones I found from a web search. I include links to any resources that I drew from.

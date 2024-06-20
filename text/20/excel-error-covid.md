@@ -8,6 +8,7 @@ tags:
 - Data management
 - Covid-19
 output: html_document
+page_update: complete
 ---
 
 Leo Kelion. Excel: Why using Microsoft's tool caused Covid-19 results to be lost. BBC News 2020-10-06. Available in [html format](https://www.bbc.com/news/technology-54423988).

@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 Back in the previous decade, I spent a lot of time working on the various statistical methods required for genetics studies. It was difficult, but fun. For a variety of reasons, I did not get a chance to explore further, until just recently. It turns out that if you want to do good work in this area, you should look at a group of packages in R collectively known as Bioconductor. Here is a brief explanation of what Bioconductor is.

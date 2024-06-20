@@ -8,6 +8,7 @@ categories:
 tags:
 - datasets
 output: html_document
+page_update: complete
 ---
 
 Data Description. Barbershop Music. Available in [text format](https://dasl.datadescription.com/datafile/barbershop-music/).

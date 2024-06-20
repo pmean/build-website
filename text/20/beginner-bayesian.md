@@ -7,6 +7,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 I was asked for some advice about how to get started with Bayesian data analysis. This person had taken a course on this topic, but did not know how to use he learned on a practical problem. Here's some advice that I offered.
