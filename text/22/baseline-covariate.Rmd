@@ -9,6 +9,7 @@ tags:
 - Analysis of covariance
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 
 On the ASA Connect Digest, someone was asking about references discussing the practice of using change scores as the outcome variable with the baseline variable as a covariate.

@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Data management
 source: new
+page_update: complete
 ---
 
 I write my updated blog using a mix of Markdown (\*.md) and R Markdown (\*.Rmd) files. If the blog post has R code in it, I use R Markdown. But I am finding that equations can cause problems with Markdown.

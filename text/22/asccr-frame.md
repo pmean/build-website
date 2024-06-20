@@ -9,6 +9,7 @@ tags:
 - Human side of statistics
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from research publication](http://www.pmean.com/new-images/22/asccr-frame-01.png)

@@ -7,6 +7,7 @@ output:
 category: Blog post
 tags: Analysis of means
 source: new
+page_update: complete
 ---
 
 The classic follow-up to a significant F test in analysis of variance is examining all pairwise differences in means. It's great for many problems, but sometimes you may not want to focus on all pairwise differences. Sometimes, there are so many pairwise differences that you get lost in all the clutter. Other times, you are trying to find out if, like the Sesame Street song, one of these groups is not like the others. Perhaps, you are trying to assure that groups conform to a common standard. Analysis of Means (ANOM) helps in all these settings.
