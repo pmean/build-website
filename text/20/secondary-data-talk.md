@@ -8,6 +8,7 @@ categories:
 tags:
 - Observational data
 output: html_document
+page_update: complete
 ---
 
 I am suggesting a talk on secondary data analysis for a seminar series here at UMKC. Here is the title and abstract.

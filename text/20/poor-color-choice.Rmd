@@ -8,6 +8,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 I ran across a graph in a journal article. The article itself was good, but the graph had a rookie mistake. I shouldn't point this out, because I myself have been guilty of far worse mistakes. But this graph illustrated the point far better than anything I could have said.

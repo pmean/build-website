@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 "The tendency of some modelers to present them as scientific predictions of the future rather than models does not help. Models are widely used in government, and some models have arguably too much influence. They are generally most useful when they identify impacts of policy decisions which are not predictable by commonsense; the key is usually not that they are 'right', but that they provide an unexpected insight." (Chris Whitty, CMO England, 2015)

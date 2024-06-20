@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 I am trying to keep track of several recent initiatives at UMKC. Here are the details, as I best understand them.

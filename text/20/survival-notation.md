@@ -7,6 +7,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 I got some questions about the notation I use for various functions in survival models and the interpretation of some of these functions.

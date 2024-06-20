@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 Linus Larsson. Upload data from R to an HTML page with rmarkdown and ftpUpload, Linus Larsson's Blog - Data Science and Analytics, 2019-05-16. Available in [html format](https://lynuhs.com/upload-data-from-r-to-an-html-page-with-rmarkdown-and-ftpupload/).

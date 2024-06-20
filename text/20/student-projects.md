@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 One of the discussion boards sponsored by the American Statistical Association had a question about data collection exercises in a research methods class. The initial question was how it might be done and how you could detect if a student was cheating by just making up some numbers. Several people raised the issue of IRB approval of research and I decided to chime in with a response.

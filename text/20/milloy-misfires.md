@@ -8,6 +8,7 @@ tags:
 - Critical appraisal
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 Lambert T. Steve Milloy misfires. Science Blogs 2004-09-03. Available in [html format](https://scienceblogs.com/deltoid/2004/09/03/milloykellermann).

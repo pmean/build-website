@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: powerpoint_presentation
+page_update: complete
 ---
 
 ### Goal of this talk

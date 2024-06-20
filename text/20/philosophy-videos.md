@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Glen Wright Colopy. Philosophy of Data Science | Welcome to the Series! Youtube 2020-09-16. Available in [video format](https://www.youtube.com/watch?v=yeHEfHN39Cc).

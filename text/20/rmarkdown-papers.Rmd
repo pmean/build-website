@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I joined a writing group at UMKC and am making very good progress on a couple of research papers. The group meets once a week to talk about everyone's progress and to share ideas. One interesting suggestion was the use of [Notion](https://www.notion.so/), software that organizes all your myriad writing tasks (actually tasks in general). I shared how I use R Markdown for writing and promised that I'd provide some resources about it before the next meeting.

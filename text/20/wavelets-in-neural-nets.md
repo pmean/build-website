@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Travis Williams, Robert Li. Wavelet Pooling for Convolutional Neurual Networks. Published as a conference paper at ICLR 2018. Available in [pdf format](https://openreview.net/pdf/ca8156ee78d51d1d47cea8c49ffab3a6d818c7ea.pdf).

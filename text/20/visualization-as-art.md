@@ -8,6 +8,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 I came across an interesting article in the New York Times and two books that all have a common theme. They use the tools of data visualization to make artistic statements.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Epidemiology
 output: html_document
+page_update: complete
 ---
 
 ```{r setup, echo=FALSE}

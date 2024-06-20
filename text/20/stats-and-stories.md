@@ -7,6 +7,7 @@ categories:
 tags:
 - Podcasts
 output: html_document
+page_update: complete
 ---
 
 A. John Bailar. Stats + Stories. Available in [html format](https://statsandstories.net/).

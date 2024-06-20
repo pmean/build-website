@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 If you work with text data a lot, you will encounter some characters that are sort of close to what you need, but sort of not. These include the smart quotes, em dashes, and en dashes.

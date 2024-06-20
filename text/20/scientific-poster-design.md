@@ -7,6 +7,7 @@ categories:
 tags:
 - Presenting research
 output: html_document
+page_update: complete
 ---
 
 Kathryn Everson. The Scientist's Guide to Poster Design. Available in [html format](https://www.kmeverson.org/academic-poster-design.html).

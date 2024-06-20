@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 Many data files stored on the Internet use text format. Here is an explanation of what text format is and how you can read it into a program for data analysis.

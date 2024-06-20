@@ -7,6 +7,7 @@ categories:
 tags:
 - Racial disparities
 output: html_document
+page_update: complete
 ---
 
 Rhea W. Boyd Edwin G. Lindo Lachelle D. Weeks Monica R. McLemore. On Racism: A New Standard For Publishing On Racial Health Inequities. Health Affairs 2020-07-02. doi: 10.1377/hblog20200630.939347. Available in [html format](https://www.healthaffairs.org/do/10.1377/hblog20200630.939347/full/).

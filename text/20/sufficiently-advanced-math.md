@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 + "Any sufficiently advanced math is indistinguishable from prophecy."
