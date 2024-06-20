@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Analysis of means
 source: new
+page_update: complete
 ---
 
 I'm a big fan of Analysis of Variance (ANOVA). I use it all the time. I learn a lot from it. But sometimes it doesn't test the hypothesis I need.

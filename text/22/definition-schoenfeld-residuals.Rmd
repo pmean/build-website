@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Survival analysis
 source: new
+page_update: complete
 ---
 
 There are several different types of residuals in a Cox proportional hazards model. One of them is the Schoenfeld residuals. They are used to test the proportional hazards assumption.
