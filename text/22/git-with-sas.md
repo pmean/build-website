@@ -8,6 +8,7 @@ tags:
 - SAS software
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from video](http://www.pmean.com/new-images/22/git-with-sas-01.png)

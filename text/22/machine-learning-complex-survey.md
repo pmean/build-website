@@ -9,6 +9,7 @@ tags:
 - Big data
 - Complex surveys
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from research publication](http://www.pmean.com/new-images/22/machine-learning-complex-survey-01.png)

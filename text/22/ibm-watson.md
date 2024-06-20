@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/22/ism-watson-01.png)

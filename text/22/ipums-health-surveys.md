@@ -8,6 +8,7 @@ category:
 tags:
 - Big data
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from research publication](http://www.pmean.com/new-images/22/ipums-health-surveys-01.png)

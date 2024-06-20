@@ -8,6 +8,7 @@ category:
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 Teaching a class in SAS is tricky because some students do not have easy access to the SAS software. SAS is a commercial product and the price that you would have to pay is way beyond the budget of most students.

@@ -9,6 +9,7 @@ category: Blog post
 tags:
 - Data science
 source: new
+page_update: complete
 ---
 
 I attended an interesting seminar presented by Shuhao Cao, a new faculty member in Mathematics and Statistics at UMKC. Almost all of the talk was over my head, but I did catch a few things that I want to document here before I forget them.

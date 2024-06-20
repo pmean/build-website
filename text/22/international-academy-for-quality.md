@@ -7,6 +7,7 @@ categories:
 tags:
 - Quality improvement
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/22/international-academy-for-quality-01.png)
