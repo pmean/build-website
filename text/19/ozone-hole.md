@@ -8,6 +8,7 @@ categories:
 tags:
 - Outliers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/ozone-hole01.png)

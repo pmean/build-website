@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 The introduction section of your research thesis or dissertation is the first thing that most people will read after reading the abstract. Some people use the introduction section to provide a literature review, and I won't talk about that here. I did offer a nice recommendation on how to write a literature review in an [earlier post][sim3]. The introduction should provide present your research problem (research question, research hypothesis), but first you have to offer some context.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/excel-colors01.png)

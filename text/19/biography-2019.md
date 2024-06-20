@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I am contributing a chapter to a book (proposed title: Randomized controlled trials in medical research -- gold standard or unhealthy fixation) and the book editor wanted a brief biography that emphasized "any relevant teaching experience within Medicine or allied health sciences." So I adapted an [earlier short biography][sim3] to put in some of my teaching experience. Here it is.

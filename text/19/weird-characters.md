@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 When you take a text file from one system and use it in a different system, some of the more "exotic" characters can change on you. An example are the "smart quotes" in Microsoft Word. Here's a brief explanation of why they occur and what you can do about it.

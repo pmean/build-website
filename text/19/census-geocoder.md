@@ -8,6 +8,7 @@ categories:
 tags:
 - Geocoding
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/census-geocoder01.png)

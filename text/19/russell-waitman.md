@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/russell-waitman01.png)

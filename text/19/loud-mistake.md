@@ -10,6 +10,7 @@ tags:
 - Research design
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I dated a piano major in college and I tried - with very limited success, to learn how to play the piano myself. She told me - "If you're going to make a mistake - make a loud mistake." You don't want to play the piano nervously and hesitantly. The same is true in research. 

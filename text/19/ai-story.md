@@ -10,6 +10,7 @@ tags:
 - Ethics in research
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ## A machine learning model in Flint, MI

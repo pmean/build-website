@@ -8,6 +8,7 @@ categories:
 tags:
 - Randomization
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/randomization-techniques01.png)

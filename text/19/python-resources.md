@@ -8,6 +8,7 @@ categories:
 tags:
 - Python
 output: html_document
+page_update: complete
 ---
 
 I have not had the time to learn Python yet, but it is on my short term list of research goals. I attended a very nice talk about Python and data science and tried to get a list of interesting resources in Python from that talk. Here is my incomplete and imperfect list.

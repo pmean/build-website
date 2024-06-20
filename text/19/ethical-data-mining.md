@@ -8,6 +8,7 @@ categories:
 tags:
 - 
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/ethical-data-mining01.png)

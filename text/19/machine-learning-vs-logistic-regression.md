@@ -10,6 +10,7 @@ tags:
 - Logistic regression
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/machine-learning-vs-logistic-regression01.png)

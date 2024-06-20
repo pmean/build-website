@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/19/predictive-analytics-software01.jpeg)
