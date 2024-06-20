@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 I am writing a book review and wanted to get some opinions from participants on EDSTAT-L about the tendency that this book (and many others) has for using hypothetical rather than real examples. I generally like to see real examples, but one of my favorite books

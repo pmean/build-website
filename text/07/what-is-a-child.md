@@ -8,6 +8,7 @@ categories:
 tags:
 - Children in research
 output: html_document
+page_update: complete
 ---
 
 I'm updating a talk on research issues associated with pediatric treatments. Before I start throwing around terms like "paediatric" and "child," I should take some time to note that these terms have some ambiguity in them. A child is typically defined as a person with an age less than 18 years. This is not a hard and fast definition, though, and certainly I would not quibble if you used 16 years or 21 years as the boundary between a child and an adult. There are certain activities, such as marrying, living on one's own, becoming a father or mother, that will sometimes change the status of a child in legal or social settings.

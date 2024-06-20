@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 There's a common saying in research circles that goes something like this: "For every PhD, there is an equal and opposite PhD." That saying is certainly true in my experience. For just about any scientific controversy, you can find an expert on either side of the issue. Some examples of these controversies are:

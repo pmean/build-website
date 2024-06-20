@@ -8,6 +8,7 @@ categories:
 tags:
 - Control charts
 output: html_document
+page_update: complete
 ---
 
 The following data represents a weekly evaluation of vaccine potency.

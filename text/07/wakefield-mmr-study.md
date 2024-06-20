@@ -10,6 +10,7 @@ tags:
 - Conflict of interest
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 
 An interesting case study in conflict of interest (perhaps a bit too complex to be described fairly in this brief weblog entry) involves a controversial paper. The lead author of this paper

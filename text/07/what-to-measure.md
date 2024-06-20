@@ -8,14 +8,12 @@ categories:
 tags:
 - Clinical importance
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,
 
-I am volunteering as a data analyst in a
-post-marketing surveillance to assess the safety and efficacy of a drug.
-I'm not sure what to measure and how to measure it. Can you help me
-figure out what really needs to be done?*
+I am volunteering as a data analyst in a post-marketing surveillance to assess the safety and efficacy of a drug. I'm not sure what to measure and how to measure it. Can you help me figure out what really needs to be done?*
 
 ### Dear Reader,
 

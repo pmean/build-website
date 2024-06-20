@@ -8,6 +8,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 I got some feedback that my definitions of [Type I > errors](www.childrensmercy.org/definitions/typei.htm) and [Type II > errors](www.childrensmercy.org/definitions/typeii.htm) would be > clearer if I specified what the actual hypothesis are. I wanted to > avoid symbols like mu or pi, so here is what I wrote.

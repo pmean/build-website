@@ -8,6 +8,7 @@ categories:
 tags:
 - Wiki pages
 output: html_document
+page_update: complete
 ---
 
 I've made some minor contributions from time to time in Wikipedia, a free encyclopedia on the web edited by volunteers. My previous work was on

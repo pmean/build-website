@@ -8,6 +8,7 @@ tags:
 - Qualitative research
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 I was asked to help justify the sample size for a qualitative research study. When the goals of a study are qualitative, the sample size justification is also qualitative.
