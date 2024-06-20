@@ -1,5 +1,5 @@
 ---
-title: "A Reviewer’s Quick Guide to Assessing Open Datasets"
+title: "A Reviewer's Quick Guide to Assessing Open Datasets"
 author: "Steve Simon"
 source: new
 date: "2022-02-05"
@@ -8,6 +8,7 @@ category:
 tags:
 - Open data
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from webpage](http://www.pmean.com/new-images/22/review-open-data-01.png)

@@ -8,6 +8,7 @@ category:
 tags:
 - Statistical theory
 output: html_document
+page_update: complete
 ---
 
 Usually, you use weighting to gain efficiency in a setting where different data points have different variances. But if the variances are equal, such as in an independent and identically distributed setting, weighting might be done for other reasons. It may be needed, but you do lose some efficiency when you do this.

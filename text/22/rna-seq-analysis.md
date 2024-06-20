@@ -7,6 +7,7 @@ categories:
 tags:
 - Genomics analysis
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from research paper](http://www.pmean.com/new-images/22/rna-seq-analysis-01.png)

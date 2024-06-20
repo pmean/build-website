@@ -8,6 +8,7 @@ tags:
 - Qualitative research
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/22/focus-group-saturation-01.png)

@@ -8,6 +8,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 I am interested in developing some visualization applications using d3. You can run d3 from within R Markdown.

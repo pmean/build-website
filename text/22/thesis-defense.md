@@ -8,6 +8,7 @@ category:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I got a question about what to prepare for the presentation that a student was going to do for a thesis defense.

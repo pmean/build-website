@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 I did not make much progress on updating my website over the past few months. My teaching load was heavier than what I was used to, and I had other writing goals for various projects for others. Nevertheless, I am planning to get back into writing for myself, which I enjoy greatly.

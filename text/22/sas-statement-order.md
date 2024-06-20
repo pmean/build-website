@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - SAS software
 source: new
+page_update: complete
 ---
 
 Someone asked about deciding how to know what order to put SAS programming statements in. I answered that you just need to use a bit of common sense.

@@ -8,6 +8,7 @@ category:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 R has a variety of ways of storing information. It is a hodge-podge of different things. I'll call these "things" creatures, though that is probably not the right word. Let me review some of the more important creatures in R.

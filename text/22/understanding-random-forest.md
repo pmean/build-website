@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/22/understanding-random-forest-01.png)

@@ -7,6 +7,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 In one of my lectures on Clinical Research Methodology, I point out how easy it is to confuse various types of observational studies for one another. This is usually because of sloppy writing on the part of the authors of journal articles.

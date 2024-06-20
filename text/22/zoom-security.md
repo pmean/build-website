@@ -8,6 +8,7 @@ category:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I use Zoom for a variety of meetings, webinars, etc. Back in May 2022, I got Zoombombed. Several neo-nazis joined a Zoom meeting I was hosting and raised havoc. With help from some of the other participants in the meeting, we were able to kick out the troublemakers, but it took about 15 minutes to restore order. So I decided to review what options are available to the host of a Zoom meeting, so I could react quicker to fix things.

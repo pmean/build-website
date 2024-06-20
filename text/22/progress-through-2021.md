@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 I spent much of Christmas break updating files from the year [2007][si07]. This was one of my most productive years. I developed presentations on [children in research][sich], [open access][sioa], quality control, and [post-modernism versus EBM][sipo]. I applied for and received a [promotion][sipr]. I wrote over 160 web pages that year, and it took a long time to update these to the format for the new website.

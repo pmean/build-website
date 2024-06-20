@@ -8,6 +8,7 @@ category: Blog post
 tags:
 - Human side of statistics
 source: new
+page_update: complete
 ---
 
 Someone asked about what to name their new statistical consulting company. They were worried about choosing a name that was too similar to another company out there. This can be an issue. This is what I replied.
