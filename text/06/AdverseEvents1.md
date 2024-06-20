@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: partial
 ---
 **[StATS]: Seminar on control charts and adverse
 events (June 5, 2006)**
@@ -55,5 +56,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
+page_update: partial
 --->
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of means
 output: html_document
+page_update: partial
 ---
 One of the techniques recommended by Davis Balestracci when he visited
 CMH in June 2006 was Analysis of Means, which often is abbreviated ANOM.

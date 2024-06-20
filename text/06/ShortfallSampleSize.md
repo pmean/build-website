@@ -9,6 +9,7 @@ tags:
 - Confidence intervals
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 *Dear Professor Mean, I'm reviewing a paper where they did a power
 calculation based on 60 patients per group, but in the research study,

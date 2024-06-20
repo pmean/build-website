@@ -9,6 +9,7 @@ tags:
 - Interesting books
 - SPSS software
 output: html_document
+page_update: partial
 ---
 Crash Course in
 Spss for Windows: Updated for Versions 10, 11, 12 And 13. (2006-03-16) Andrew M.

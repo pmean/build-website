@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **American Statistical Association
 Traveling Course committee (August 15, 2006, Teaching resources,
@@ -81,5 +82,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

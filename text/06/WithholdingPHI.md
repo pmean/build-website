@@ -8,6 +8,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Withholding Personal Health
 Information from a patient (June 20, 2006)**
@@ -62,5 +63,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Privacy in
 research](../category/PrivacyInResearch.html).
+page_update: partial
 --->
 

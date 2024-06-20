@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Giving credit where credit is due
 (April 19, 2006)**. [Category: Website
@@ -62,5 +63,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

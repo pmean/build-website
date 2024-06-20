@@ -9,6 +9,7 @@ tags:
 - Accrual problems in clinical trials
 - Control charts
 output: html_document
+page_update: partial
 ---
 I am interested in investigating the use of CUSUM charts in monitoring
 accrual rates, drop out rates, and adverse event rates in a clinical

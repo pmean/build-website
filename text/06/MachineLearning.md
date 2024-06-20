@@ -9,6 +9,7 @@ tags:
 - Data science
 - R software 
 output: html_document
+page_update: partial
 ---
 
 There are a variety of different models that perform supervised learning or classification problems

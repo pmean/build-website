@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **The role of a statistician on an IRB
 (March 29, 2006)**
@@ -122,5 +123,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Human side of
 statistics](../category/HumanSideStatistics.html).
+page_update: partial
 --->
 

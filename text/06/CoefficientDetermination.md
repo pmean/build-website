@@ -8,6 +8,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Can you use the coefficient of
 determination for categorical variables? (April 4, 2006)**
@@ -91,5 +92,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Linear
 regression](../category/LinearRegression.html).
+page_update: partial
 --->
 

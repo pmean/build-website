@@ -8,6 +8,7 @@ categories:
 tags:
 - Children in research
 output: html_document
+page_update: partial
 ---
 **[StATS]: Statistical concerns in research studies
 involving children (created 2006-11-02)**.
@@ -469,5 +470,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Children in
 research](../category/ChildrenInResearch.html).
+page_update: partial
 --->
 

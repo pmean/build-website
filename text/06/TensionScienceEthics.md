@@ -8,6 +8,7 @@ categories:
 tags:
 - Placebos in research
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **The tension between scientific
 validity and ethical concerns (created 2006-11-17)**.
@@ -83,5 +84,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Placebos in
 research](../category/PlaceboControlledTrials.html).
+page_update: partial
 --->
 

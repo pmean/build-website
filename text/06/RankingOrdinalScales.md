@@ -8,6 +8,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 **[StATS]: The problem with ranking ordinal scales
 (June 29, 2006)**
@@ -98,5 +99,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Unusual
 data](../category/UnusualData.html).
+page_update: partial
 --->
 

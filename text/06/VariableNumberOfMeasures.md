@@ -8,6 +8,7 @@ categories:
 tags:
 - Multilevel models
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **The complexities of having a variable
 number of measures per patient (November 16, 2006)**
@@ -56,5 +57,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Mixed linear regression
 models](../category/MixedModels.html).
+page_update: partial
 --->
 

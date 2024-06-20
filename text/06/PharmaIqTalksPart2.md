@@ -8,6 +8,7 @@ categories:
 tags:
 - Data mining
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **PharmaIQ talks (December 6, 2006)**
 [Category: Data mining](../category/DataMining.html)
@@ -275,5 +276,6 @@ reproducing it here as a service, as it is no longer available on the
 Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at
+page_update: partial
 --->
 

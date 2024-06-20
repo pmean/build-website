@@ -8,6 +8,7 @@ categories:
 tags:
 - Exclusions in research
 output: html_document
+page_update: partial
 ---
 **[StATS]: Characterizing reasons for refusal
 (created 2006-01-17)**.
@@ -97,5 +98,6 @@ research](../category/ExclusionsInResearch.html).
 <!---Do not use
 **[StATS]: Characterizing reasons for refusal
 <U+FFFD>
+page_update: partial
 --->
 

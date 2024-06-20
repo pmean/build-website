@@ -9,6 +9,7 @@ tags:
 - Website details
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 > I've been busy adding new pages and improving old pages. Here's a
 > summary of my activity.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Modeling issues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Frank Harrell's Philosophy of
 Biostatistics (created 2006-10-10)**
@@ -84,5 +85,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Modeling
 issues](../category/ModelingIssues.html).
+page_update: partial
 --->
 

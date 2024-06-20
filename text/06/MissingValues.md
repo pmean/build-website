@@ -8,6 +8,7 @@ categories:
 tags:
 - Nonlinear regression
 output: html_document
+page_update: partial
 ---
 
 One of the talks at the 18th Annual Applied Statistics in Agriculture Conference, sponsored by Kansas State University was "Dose-Response Modeling with Marginal Information on Missing Categorical Covariate" by John R. Stevens, Utah State University. David I. Schlipalius, of The University of Queensland was a co-author.

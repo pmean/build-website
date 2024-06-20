@@ -8,6 +8,7 @@ categories:
 tags:
 - SPSS software
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Changing page breaks in SPSS (August
 31, 2006)**
@@ -52,5 +53,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: SPSS
 software](../category/SpssSoftware.html).
+page_update: partial
 --->
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: partial
 ---
 > With over a thousand web pages, I need a good way of letting people
 > find related topics on my website. I've added categories to my weblog

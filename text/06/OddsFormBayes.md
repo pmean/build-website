@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Mathematical derivation of the odds
 form of Bayes theorem (October 16, 2006)**
@@ -79,5 +80,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Diagnostic
 testing](../category/DiagnosticTesting.html).
+page_update: partial
 --->
 

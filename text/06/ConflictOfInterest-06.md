@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **What constitutes a conflict of
 interest? (May 4, 2006)**
@@ -69,5 +70,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Conflict of
 interest](../category/ConflictOfInterest.html).
+page_update: partial
 --->
 

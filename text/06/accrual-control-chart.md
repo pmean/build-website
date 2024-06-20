@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: partial
 ---
 This scenario is based on real data, but has been adapted slightly to serve as an illustration of the use of control charts in monitoring a clinical trial.
 

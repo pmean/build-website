@@ -8,6 +8,7 @@ categories:
 tags:
 - Pvalues
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Can the p-value actually equal 1.0? (May 23, 2006)**
 
@@ -162,5 +163,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category:
 Pvalues](../category/Pvalues.html).
+page_update: partial
 --->
 

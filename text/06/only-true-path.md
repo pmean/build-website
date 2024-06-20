@@ -9,6 +9,7 @@ tags:
 - Randomization in research
 - Statistical koans
 output: html_document
+page_update: no
 ---
 
 

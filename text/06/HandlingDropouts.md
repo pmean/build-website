@@ -8,6 +8,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Handling dropouts in NNT/NNH
 calculations (January 16, 2006)**
@@ -88,5 +89,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Measuring benefit and
 risk](../category/MeasuringBenefitRisk.html).
+page_update: partial
 --->
 

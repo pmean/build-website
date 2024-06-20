@@ -8,6 +8,7 @@ categories:
 tags:
 - Probability concepts
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Extreme value distribution (January
 9, 2006)**
@@ -140,5 +141,6 @@ concepts](../category/ProbabilityConcepts.html).
 <!---Do not use
 **[StATS]:** **Extreme value distribution (January
 <U+FFFD>
+page_update: partial
 --->
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Quality control
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Quality control humor (created
 2006-08-20)**.
@@ -49,5 +50,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Quality
 control](../category/QualityControl.html).
+page_update: partial
 --->
 

@@ -9,6 +9,7 @@ tags:
 - Interesting stuff
 - Interesting quotes
 output: html_document
+page_update: partial
 ---
 Note: any quotations on this page have been moved to [Category:
 Interesting quotes](../quote/InterestingQuotes.asp).

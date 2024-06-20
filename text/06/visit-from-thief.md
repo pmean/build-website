@@ -9,6 +9,7 @@ tags:
 - Hypothesis testing
 - Statistical koans
 output: html_document
+page_update: no
 ---
 
 

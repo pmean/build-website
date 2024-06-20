@@ -9,6 +9,7 @@ tags:
 - Bayesian statistics
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 The [Journal of Data Science](http://www.sinica.edu.tw/~jds/index.html)
 has a couple of interesting Bayesian papers in the [April 2006

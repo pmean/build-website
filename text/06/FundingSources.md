@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: partial
 ---
 **[StATS]: Possible sources of funding for my grant
 (created 2006-07-06)**.
@@ -161,5 +162,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Accrual problems in clinical
 trials](../category/AccrualProblems.html).
+page_update: partial
 --->
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Likelihood software for clinical
 trials (June 29, 2006)**
@@ -84,5 +85,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Statistical
 computing](../category/StatisticalComputing.html).
+page_update: partial
 --->
 

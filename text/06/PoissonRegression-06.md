@@ -8,6 +8,7 @@ categories:
 tags:
 - Poisson regression
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Poisson regression? Maybe not!
 (created 2006-03-10)**.
@@ -74,5 +75,6 @@ Children's Mercy Hospital website. Need more information? I have a page
 with [general help resources](../GeneralHelp.html). You can also browse
 for pages similar to this one at [Category: Poisson
 regression](../category/PoissonRegression.html).
+page_update: partial
 --->
 

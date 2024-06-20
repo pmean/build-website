@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 output: html_document
+page_update: no
 ---
 **[StATS]:** **Examples of a fishbone diagram
 (created 2006-03-24)**
@@ -21,5 +22,6 @@ This page is obsolete. Please see
 <!---Do not use
 **[StATS]:** **Examples of a fishbone diagram
 <U+FFFD>
+page_update: partial
 --->
 
