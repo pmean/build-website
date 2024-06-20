@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I have to write up a job description for a statistician. This includes essential functions and important functions. Here are two examples. The first is how my own job was described back in November 2004 by my former boss.

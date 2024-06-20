@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of means
 output: html_document
+page_update: complete
 ---
 Here's a table of critical values for analysis of means (ANOM) at an
 alpha level of 0.05. It is a continuation of the table

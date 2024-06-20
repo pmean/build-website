@@ -8,14 +8,10 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
-I have a section on definitions and it is an odd mix of things. I want
-to simplify these pages by separating examples of how to calculate a
-particular statistic from the formal definition of the statistic. This
-would make the definition shorter and sweeter in most cases. Here's a
-list of proposed "how to calculate" pages. Items with an asterisk
-represent entries where the definition already includes an example of
-how to calculate the statistic.
+
+I have a section on definitions and it is an odd mix of things. I want to simplify these pages by separating examples of how to calculate a particular statistic from the formal definition of the statistic. This would make the definition shorter and sweeter in most cases. Here's a list of proposed "how to calculate" pages. Items with an asterisk represent entries where the definition already includes an example of how to calculate the statistic.
 
 + How to calculate alpha.
 + How to calculate beta.

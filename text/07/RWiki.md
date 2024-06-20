@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 I use R software for a lot of my complex data analyses and have written up a few web pages about various things you can do with R. It turns out that R has a Wiki site, [R Wiki][rwi1]

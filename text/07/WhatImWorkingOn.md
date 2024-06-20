@@ -10,6 +10,7 @@ tags:
 - Bayesian statistics
 - Quality control
 output: html_document
+page_update: partial
 ---
 
 There are several research projects where I am actively looking for collaborators. I thought I'd outline these topics briefly here.

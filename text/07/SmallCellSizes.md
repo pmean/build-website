@@ -9,6 +9,7 @@ tags:
 - Measuring agreement
 - Small sample size issues
 output: html_document
+page_update: complete
 ---
 
 Someone on Edstat-L wrote in asking about using Cohen' Kappa with a small sample size in some of the cells. Here's an example:

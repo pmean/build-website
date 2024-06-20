@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 I was reading an article in written by Steven Goodwin, [The Seven Sins of Programmers][goo1], published in issue 17 of the [Free Software Magazine][fre1] and thought it would be fun to use a similar theme in research.

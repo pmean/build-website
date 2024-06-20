@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 After a burst of activity, my work on the weblog has slowed down quite

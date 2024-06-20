@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 
 Someone wrote to me about a diary they had kept for the past eight years about their dreams. About every other month or so, a dream of theirs came true. I was asked if I could quantify the likelihood of successful predictions.

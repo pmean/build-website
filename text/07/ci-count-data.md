@@ -8,6 +8,7 @@ categories:
 tags:
 - Poisson regression
 output: html_document
+page_update: complete
 ---
 
 If you have data involving counts, you have several options for computing confidence intervals. All of these approaches rely on approximations to the Poisson distribution or to relationships involving the Poisson distribution and other important distributions. I want to summarize some of these approaches.

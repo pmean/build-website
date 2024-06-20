@@ -9,6 +9,7 @@ tags:
 - Analysis of means
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 Analysis of Means (ANOM) are available for a wide range of data sets, and it is impossible to summarize all the applications of ANOM here. The goal on this web page is to illustrate a few of the calculations.
 

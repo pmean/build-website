@@ -8,6 +8,7 @@ categories:
 tags:
 - Pvalues
 output: html_document
+page_update: complete
 ---
 
 Someone wrote in and asked about an analysis where there was only a limited amount of data. The simple analysis using an odds ratio produced a significant result (p=0.048). A referee suggested that they run a logistic regression model adjusting for two covariates. These covariates were not imbalanced between the two groups. With the logistic regression model, the p-value changed from 0.048 to 0.06. The researcher wanted to know if it was appropriate to adjust for covariates in such a small data set. Here's what I suggested.

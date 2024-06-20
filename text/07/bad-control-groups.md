@@ -9,6 +9,7 @@ tags:
 - Observational studies
 - Placebos in research
 output: html_document
+page_update: complete
 ---
 The [Kansas City University of Medicine and Biosciences][kcu1] wants me to give a light humorous talk at lunch during the 2007 Homecoming CME and Reunion weekend. Somehow, they provided me with a title for my talk, "Humor, Databases and Grant Proposals: What Strange Bedfellows" which is a fine title, but not the one I would have chosen. I'll talk it over with the organizers, but here's a possible choice:
 

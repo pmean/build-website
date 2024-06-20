@@ -9,6 +9,7 @@ tags:
 - Conflict of interest
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I was asked to fill out a conflict of interest form for a talk I will be giving in December. While I have not gotten any money directly from drug companies recently, I do have some financial support outside the hospital that might be considered a conflict of interest in some contexts. These sources of support do not relate directly or indirectly to the topic I will be discussing in December (or any of the topics that I plan to discuss), but it it better to disclose too much rather than too little. I will try to update this page as new sources of support appear.

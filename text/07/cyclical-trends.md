@@ -8,6 +8,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: complete
 ---
 
 One of the doctors brought by a data set that showed the average volume of business (number of beds filled) in a month for 28 consecutive months starting in January 2005. Here is the data:

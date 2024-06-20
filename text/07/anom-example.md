@@ -10,6 +10,7 @@ tags:
 - Control charts
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 
 I found a pair of data sets on the web that represent counts and where one goal of the data collection is to see if any of the individual counts differ from the overall average. They look quite similar and you might be tempted to analyze both of them using a control chart. But the second example is different in subtle, but important ways and it is better analyzed using an approach called Analysis of Means (ANOM).

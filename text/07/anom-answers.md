@@ -9,6 +9,7 @@ tags:
 - Analysis of means
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 On the web page
 

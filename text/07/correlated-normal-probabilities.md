@@ -8,6 +8,7 @@ categories:
 tags:
 - Probability concepts
 output: html_document
+page_update: complete
 ---
 
 Someone on EDSTAT-L asked about a problem involving differences of independent normal random variables. I am simplifying the problem a bit, but it essentially asked a question that was comparable to the following:

@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 Last year, I applied for a Kansas City Area Life Sciences Institute (KCALSI) Research Development grant. It was not funded, but a subsequent grant that I submitted to the Katherine B. Richardson foundation was funded. Both grants are rather small, intended as seed money to encourage development of a larger scale project which might attract funding from the NIH or a large foundation.
 

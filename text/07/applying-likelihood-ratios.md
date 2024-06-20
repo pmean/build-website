@@ -8,6 +8,7 @@ categories:
 tags:
 - Diagnostic testing
 output: html_document
+page_update: complete
 ---
 Someone sent me a nice email complimenting my likelihood ratio slide rule.
 

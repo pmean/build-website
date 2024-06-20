@@ -8,6 +8,7 @@ categories:
 tags:
 - Categorical data 
 output: html_document
+page_update: complete
 ---
 
 I've written some code in R to present a graphical summary of a complex data set using biplots. I write most of the code myself using the singular value decomposition function (svd) in R. There are a wide range of techniques that can be loosely classified as biplots, such as principal components analysis, multidimensional scaling, correspondence analysis, and canonical variate analysis.

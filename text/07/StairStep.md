@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - R software
 output: html_document
+page_update: complete
 ---
 
 I am working on some charts that show discrete (sudden) jumps at specific time points. This requires the use of stair step interpolation, because if you just connected the lines, it would imply 1a linear transition between consecutive points. Here's an example of the plot I want.

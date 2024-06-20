@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of variance
 output: html_document
+page_update: complete
 ---
 
 A doctor brought me some data from a crossover design and asked me to help analyze it. The analysis was a bit trickier than I had expected, so I reviewed some of the material in Stephen Senn's book.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Logistic regression
 output: html_document
+page_update: complete
 ---
 
 I received an email from India (isn't the Internet wonderful?) that asked me to comment on the differences between a Chi-square test, Fisher's Exact test, and logistic regression. Let's take each of these in sequence.

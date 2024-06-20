@@ -9,6 +9,7 @@ tags:
 - Observational studies
 - Randomization
 output: html_document
+page_update: complete
 ---
 
 An email on the MedStats group outlines a new treatment that is:

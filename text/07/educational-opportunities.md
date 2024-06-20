@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 There are three groups that offer seminars, training classes and informal networking opportunities for statisticians in the Kansas City area.
