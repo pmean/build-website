@@ -7,6 +7,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: complete
 ---
 
 I often need to see how often certain variables and combinations of those variables appear in a data set. If the variable is binary, there is a trick for doing this that is illustrated by a Car Talk puzzler.

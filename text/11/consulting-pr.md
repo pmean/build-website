@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I have been talking about independent consulting a lot at the Joint Statistical Meeting, and I wanted to summarize some of my commentary about publicizing your consulting career. Publicity is important because people don't like hiring a total stranger as a consultant. Your publicity efforts work towards making your name known to potential clients and to people who might refer you to potential clients.

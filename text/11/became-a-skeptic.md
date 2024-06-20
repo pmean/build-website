@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 I'm a big fan of the skeptic movement. If you're not familiar with this, it is a group of professional and amateur scientists who critically examine claims of fringe science areas like parapsychology, UFOs, and alternative medicine. So when a blog post on the James Randi Educational Foundation website called for people to share their stories of how people became skeptics, I wrote the following story.

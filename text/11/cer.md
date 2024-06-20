@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I attended an interesting webinar on Comparative Effectiveness Research (CER). I always try to take notes during presentations like this, but my notes are often a poor amagalm of random thoughts and realizations. What I did find, though, during this webinar, were links to two important resources for CER.

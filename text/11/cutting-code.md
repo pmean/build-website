@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 Someon on LinkedIn asked how to react to a comment like "Statistics is just cutting computer code, right?" Here's how I responded.
 

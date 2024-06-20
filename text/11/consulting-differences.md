@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I am scheduled to be part of a panel discussion titled "Successful Statistical Consulting: The Practicalities." 

@@ -7,6 +7,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 I need some collaborators for a grant I am writing from people who conduct prospective clinical trials. I am working on methods to monitor patient accrual in clinical trials. Accrual means how rapidly do patients enter into a clinical trial. In my experience, researchers overpromise and underdeliver on the time frame in which they expect to recruit a certain number of patients.
