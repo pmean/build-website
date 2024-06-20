@@ -8,6 +8,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 In many situations, you need to generate a random sample from a

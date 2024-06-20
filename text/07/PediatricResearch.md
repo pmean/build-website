@@ -8,6 +8,7 @@ categories:
 tags:
 - Children in research
 output: html_document
+page_update: complete
 ---
 
 I may be asked to give a repeat performance of Stats #53: Signal Detection Strategies for Paediatric Treatments. This is a three hour class that I gave last year in London. A different group is interested in pretty much the same topic. Looking at the title and abstract, I am a bit uncomfortable with it, so here's an alternative.

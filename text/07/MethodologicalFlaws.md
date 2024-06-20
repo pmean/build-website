@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 Someone (AK) wrote into the IRBForum asking about how the IRB should do when they discover methodological flaws in the proposed research. If everything else is in order (e.g., appropriate consent forms), is the IRB still justified in asking that the flaw be fixed prior to approval of the research.

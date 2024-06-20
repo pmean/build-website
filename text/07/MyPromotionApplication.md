@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 In previous weblog entries (see below), I discussed the process for applying for a promotion to Full Professor. Yesterday, I turned in a completed a promotion application. I printed PDFs of the application in six separate files and am including them here to offer additional information for the external scholars who will be evaluating me.

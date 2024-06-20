@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Website details
 output: html_document
+page_update: complete
 ---
 I need to develop some new categories. The first will discuss report cards, league tables, and other measures of hospital and individual performance. The pages I have on this topic already are scattered among various categories.
 

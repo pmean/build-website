@@ -9,6 +9,7 @@ tags:
 - Poisson regression
 output: html_document
 
+page_update: complete
 ---
 
 Someone on the MedStats discussion group asked about books discussing Poisson regression. If you want to use Poisson regression, you need an overview of the generalized linear model. The classic reference:

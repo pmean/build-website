@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 Children's Mercy Hospital is hiring a second statistician. Hooray! It's a great place to work and I'm hoping we can hire someone quickly. The links to describe the position and how to apply are no longer active.

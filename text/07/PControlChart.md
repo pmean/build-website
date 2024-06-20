@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Control charts
 output: html_document
+page_update: complete
 ---
 
 If you are collecting data on proportions with a consistent denominator for each proportion, then you can plot this data on a control chart. This type of chart is called a P chart and it is very simple to calculate. Here is an example of some data that is appropriate for a P chart. An employee was asked to take a hearing test on 24 consecutive weeks. The hearing test consisted of listening to and trying to recognize 50 spoken words that were recorded with some background noise. The score is the percentage of words recognized correctly. This data set is loosely adapted from a larger data set at the DASL website [link is broken].

@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I was inspired by a talk by Jim Pitman, President of the IMS, at the Joint Statistical Meetings in August, "Open Access to Professional Information" so when an opportunity arose for me to give a talk at our local Grand Rounds, I suggested a similar talk with the title "Open Access Publication and its impact on research and the practice of medicine."

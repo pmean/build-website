@@ -8,6 +8,7 @@ categories:
 tags:
 - Poisson regression 
 output: html_document
+page_update: complete
 ---
 
 I got a question about how to interpret an interaction term in a Poisson regression model. The first thing to remember is that the estimates in a Poisson regression model are computed using a log link function. When you transform them back using an anti-log, you get an estimate of a ratio. Sometimes it is called an incidence density ratio.

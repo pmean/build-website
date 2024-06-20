@@ -9,6 +9,7 @@ tags:
 - Broken link
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 This talk will cover the following topics:
 
