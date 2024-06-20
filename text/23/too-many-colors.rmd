@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: word_document
+page_update: complete
 ---
 
 When you draw a graph, either a bar chart, a scatterplot, or even a pie chart, you have the choice of a broad range of colors that you can use. R, for example, has 657 different colors from aliceblue to yellowgreen. SAS has 13 shades of orange, 33 shades of blue, and 47 shades of green. They even have different shades of black. You have a wealth of colors, but you can't use all of them in the same graph. The ideal number of colors is 2. Sometimes 3 is okay, but usually 2 is better.

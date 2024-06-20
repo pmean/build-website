@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Dear Professor Mean, I am looking at a post-retirement business venture as a solo statistical consultant. I would wind down the hours at my current job while I build up my solo consulting practice. Would this get messy? What are the implications of using work resources (talking on the phone, answering an email, or writing code) for outside consulting?

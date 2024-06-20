@@ -8,6 +8,7 @@ tags:
 - Data science
 - Quality improvement
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/23/re-reading-14-points-01.png)

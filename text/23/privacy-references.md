@@ -7,6 +7,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: complete
 ---
 
 I attended a webinar on data privacy and the speakers opened with a series of seminal articles about how easy it is to re-identify data that you might have thought was properly anonymized.

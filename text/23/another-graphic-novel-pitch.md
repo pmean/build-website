@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 I sent out an email recently about a project I have been thinking about doing for quite a few years. Here is the general text of the email with a few changes to avoid disclosing some personal details.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I may be working with a consulting group, [Mountain Whisper Light][mwl1], on a grant proposal to be sent to the Department of Natural Resources in the state of Washington. I don't know too many details yet, but I was asked to send a resume and a brief description of what I do.

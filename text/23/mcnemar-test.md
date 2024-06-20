@@ -8,6 +8,7 @@ categories:
 tags:
 - Measuring benefit and risk
 output: html_document
+page_update: complete
 ---
 
 I mentioned McNemar's test in a [short article][sim3] for my [Monthly Mean newsletter][sim4]. Here are more details about this test.

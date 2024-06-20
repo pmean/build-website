@@ -8,6 +8,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 If you work with longitudinal data, you may see the data arranged in a tall and thin format or in a short and fat format. The tall and thin format is useful for some data analyses, such as mixed model analysis, and the short and fat format is useful for other data analyses, such as graphical display. You often need to convert from one format to the other. The UCLA Statistics website shows how this is done.

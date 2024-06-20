@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical theory
 output: html_document
+page_update: complete
 ---
 
 There is a simple theoretical result involving a mixture of normal distributions. If you select a normal distribution with a mean of zero and let the precision of that normal distribution vary according to a gamma distribution, you end up with a t-distribution.

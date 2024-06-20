@@ -8,6 +8,7 @@ categories:
 tags:
 - Personal details
 output: html_document
+page_update: complete
 ---
 
 I'm tentatively scheduled to give a webinar for the Consulting Section of the American Statistical Association on May 2. They wanted a short biography of me that they could use as an introduction. Here is one, updated from a [similar biography][sim3] I wrote in 2016.
