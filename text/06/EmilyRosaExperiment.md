@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **More on the Emily Rosa experiment
-(created 2006-03-10)**.
 
 One of the more interesting research studies from an Evidence-Based
 Medicine perspective started out as a simple science fair project by a
@@ -187,32 +185,3 @@ discredited his fervently held beliefs:
 > *You see, that is why we never do double-blind testing anymore. It
 > never works!* as quoted on
 > [www.quackwatch.org/01QuackeryRelatedTopics/ideomotor.html](http://www.quackwatch.org/01QuackeryRelatedTopics/ideomotor.html).
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **More on the Emily Rosa experiment
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-page_update: partial
---->
-

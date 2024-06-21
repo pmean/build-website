@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Unusual advice about control charts
-(December 18, 2006)**
 
 Someone sent me some recommended guidance on how to use a control chart
 and it included the following quote:
@@ -67,32 +65,3 @@ have quoted some of this advice at:
     variation?](../definitions/SpecialCause.htm) and
 -   [Stats: What is a common cause of
     variation?](../definitions/CommonCause.htm)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
-<!---More--->
-charts](../category/ControlCharts.html).
-for pages similar to this one at [Category: Control
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Unusual advice about control charts
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Control
-charts](../category/ControlCharts.html).
-page_update: partial
---->
-

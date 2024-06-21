@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **What constitutes a conflict of
-interest? (May 4, 2006)**
 
 > I am a member of a committee that helps researchers set up Data Safety
 > and Monitoring Boards (DSMBs) for research projects at Kansas
@@ -44,32 +42,3 @@ interest? (May 4, 2006)**
 > process is, the less you have to worry about a conflict of interest.
 > So, for example, you might accept a meta-analysis from a group that
 > has a financial stake in the outcome, but not an invited editorial.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **What constitutes a conflict of
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-page_update: partial
---->
-

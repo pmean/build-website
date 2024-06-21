@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: First peek at the cover of my new book
-(January 12, 2006)**.
 
 Oxford University Press (OUP) just sent me the first draft of the jacket
 and cover of the book I am writing, Statistical Evidence in Medical
@@ -31,32 +29,3 @@ I will revise my page
 
 in the next week or so and use that page to provide supplemental
 materials, list any corrections, and so forth.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-<!---More--->
-evidence](../category/StatisticalEvidence.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: First peek at the cover of my new book
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-page_update: partial
---->
-

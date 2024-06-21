@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **What is construct validity? (March 8,
-2006)**
 
 Someone asked me to define face validity, criterion validity, and
 construct validity. That's a tall order. In general, validity means
@@ -582,32 +580,3 @@ younger and older age groups both yielded very good agreement in the
 PACU but only moderate agreement on the ward. On the basis of data from
 this study, we recommend CHEOPS as a valid, reliable and practical
 tool.*
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
-<!---More--->
-agreement](../category/MeasuringAgreement.html).
-for pages similar to this one at [Category: Measuring
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **What is construct validity? (March 8,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Measuring
-agreement](../category/MeasuringAgreement.html).
-page_update: partial
---->
-

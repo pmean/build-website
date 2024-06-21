@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Continuous monitoring of the number
-needed to harm (created 2006-09-02)**.
 
 The continuing review of clinical trials has to address "good news"
 issues. Does one arm of the study show substantially better efficacy?
@@ -144,32 +142,3 @@ patients seen between each dropout is going to be smaller.
 The gray line in this graph is drawn at the mean. The mean of the gaps
 can be shown to be equivalent to the number needed to harm (under the
 presumption, of course, that a drop-out represents a harmful event).
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Continuous monitoring of the number
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-page_update: partial
---->
-

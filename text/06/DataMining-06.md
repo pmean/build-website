@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Data mining and drug safety (created
-2006-05-04)**.
 
 I am very interested in safety issues, especially in the continuing
 review/interim analysis of clinical trials. It turns out that S-plus is
@@ -65,32 +63,3 @@ statistician that a control chart would. Nevertheless, a control chart
 is still valuable because it will be used more often by
 non-statisticians and will allow more people to engage themselves in the
 examination of safety issues.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Data mining and drug safety (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-page_update: partial
---->
-

@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Differences between children and adults
-(October 13, 2006)**.
 
 A recently published report from the Institute of Medicine, Emergency
 Care for Children\--Growing Pains, has a very nice table in the
@@ -151,32 +149,3 @@ they don't start many of these abusive and neglectful habits until they
 are well on their way into adulthood. As a result, most of the
 conditions that we treat children for stem from congenital causes rather
 than from abuse and neglect.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-<!---More--->
-research](../category/ChildrenInResearch.html).
-for pages similar to this one at [Category: Children in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Differences between children and adults
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-page_update: partial
---->
-

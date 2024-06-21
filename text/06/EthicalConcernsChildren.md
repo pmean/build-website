@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Ethical concerns about research in
-children (October 17, 2006)**.
 
 *Pediatric research must balance two important social and ethical
 goals. First, scientific progress that includes issues important to
@@ -435,32 +433,3 @@ to worry about any compensation issues.
     [Full
     text]](http://archpedi.ama-assn.org/cgi/content/full/155/11/1197)
     [PDF]](http://archpedi.ama-assn.org/cgi/reprint/155/11/1197.pdf)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-<!---More--->
-research](../category/ChildrenInResearch.html).
-for pages similar to this one at [Category: Children in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Ethical concerns about research in
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-page_update: partial
---->
-

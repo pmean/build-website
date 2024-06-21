@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Seminar notes, Creating More
-Effective Graphics (March 24, 2006)**.
 
 I attended a web seminar, "Creating More Effective Graphs," taught
 by Michael O'Connell and Naomi Robbins and sponsored by Insightful
@@ -124,32 +122,3 @@ offered a minor correction (the title of her book is Creating More
 Effective Graphs, not Creating Effective Graphs) which I just fixed
 and confirmed that the Heiberger book "Statistical Analysis and Data
 Display" is indeed the book she was referring to.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-for pages similar to this one at [Category: Descriptive
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Seminar notes, Creating More
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-page_update: partial
---->
-

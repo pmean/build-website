@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Contradictory research (created
-2006-03-30)**.
 
 The Washington Post published an article that gets to the heart of the
 difficulty with Evidence Based Medicine. The URLs for these newspaper
@@ -115,32 +113,3 @@ Another problem is the tendency for researchers and the media to
 overstate the impact of a positive finding. Why is it that a p-value
 that is just barely below the threshold of 0.05 is not also called a
 borderline finding?
-
-age was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-<!---More--->
-appraisal](../category/CriticalAppraisal.html).
-for pages similar to this one at [Category: Critical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-age was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Contradictory research (created
-age was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Critical
-appraisal](../category/CriticalAppraisal.html).
-page_update: partial
---->
-

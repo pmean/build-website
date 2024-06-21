@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Upcoming talks about control charts
-(created 2006-05-25)**.
 
 I am working on some ideas for a grant to use control charts to track
 adverse events in clinical trials. I also envision the possibility of
@@ -59,32 +57,3 @@ Other sessions
     Spitzner and William H. Woodall (Monday 10:30am)
 
 Ironically, the two Monday talks are in different sessions.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-for pages similar to this one at [Category: Adverse events in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Upcoming talks about control charts
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-page_update: partial
---->
-

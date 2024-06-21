@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Extreme value distribution (January
-9, 2006)**
 
 I got an interesting question about an application in information theory
 of a statistical distribution called the Type I extreme value
@@ -125,22 +123,3 @@ on 2006-01-09.
 The work by Mandelbrot may not be useful in the context of the original
 question, but it is still a fascinating and very active area of
 research.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Probability
-concepts](../category/ProbabilityConcepts.html).
-
-<U+FFFD>
-<!---More--->
-<U+FFFD>
-
-<!---Do not use
-**[StATS]:** **Extreme value distribution (January
-<U+FFFD>
-page_update: partial
---->
-
