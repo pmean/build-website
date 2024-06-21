@@ -10,19 +10,17 @@ tags:
 output: html_document
 ---
 
-Anaconda provides an easy way to manage the installation of both R and
-Python. The R installation includes R Studio, if you want it. While the
-title of this blog entry mentions Biologists, the advice is useful for
-anyone.
+![](http://www.pmean.com/new-images/18/anaconda01.png)
 
 <!---More--->
 
-Chris Conlan. Installing R and Python in Anaconda for Biologists. Blog
-entry, June 24, 2017. Available in [html
-format](https://chrisconlan.com/installing-r-python-anaconda-biologists/).
+Anaconda provides an easy way to manage the installation of both R and Python. The R installation includes R Studio, if you want it. While the title of this blog entry mentions Biologists, the advice is useful for anyone.
 
-![](http://www.pmean.com/new-images/18/anaconda01.png)
+Chris Conlan. Installing R and Python in Anaconda for Biologists. Blog entry, June 24, 2017. Available in [html format][con1].
 
+You can find an [earlier version][sim1] of this page on my [blog][sim2].
 
+[sim1]: http://blog.pmean.com/anaconda/
+[sim2]: http://blog.pmean.com
 
-
+[con1]: https://chrisconlan.com/installing-r-python-anaconda-biologists/
