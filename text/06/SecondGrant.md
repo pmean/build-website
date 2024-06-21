@@ -10,7 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: My second grant (created 2006-07-26)**
 
 I'm in the final stretch of writing a grant to submit to the Kansas
 City Area Life Sciences Institute.
@@ -28,32 +27,3 @@ problems than other types of studies. Finally, I'd like to do a
 qualitative data analysis of the "excuses" that people give in their
 reports when the actual conduct of the research fails to match their
 initial projections.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: My second grant (created 2006-07-26)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-page_update: partial
---->
-

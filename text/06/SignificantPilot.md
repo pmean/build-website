@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Oops! I found statistical significance in
-my pilot study (September 18, 2006)**.
 
 *Dear Professor Mean, I ran a pilot study to help me estimate the sample
 size for a larger study. There were 15 patients in each arm of the
@@ -272,32 +270,3 @@ additional 15 patients in each arm.
     Plans](http://www.som.ucsf.edu/som/research/clinical_research/resources/dsmp.asp)**.
     UCSF School of Medicine. Accessed on 2003-01-21.
     www.som.ucsf.edu/som/research/clinical\_research/resources/dsmp.asp
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-<!---More--->
-stopping](../category/EarlyStopping.html).
-for pages similar to this one at [Category: Early
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Oops! I found statistical significance in
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-page_update: partial
---->
-

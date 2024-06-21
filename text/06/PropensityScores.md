@@ -10,7 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Propensity scores (March 10, 2006)**
 
 When I have time, I want to describe the use of propensity scores and
 show some examples. Propensity scores offer a simple and effective way
@@ -23,32 +22,3 @@ excellent reference on this technique can be found on the web at:
     Published in the Proceedings of the International Conference on
     Nonrandomized Comparative Clinical Studies in Heidelberg, April 10
     -11,1997. Accessed on 2005-01-12. www.symposion.com/nrccs/rubin.htm
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-<!---More--->
-adjustment](../category/CovariateAdjustment.html).
-for pages similar to this one at [Category: Covariate
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Propensity scores (March 10, 2006)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-page_update: partial
---->
-

@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Recent developments in searching for
-evidence (January 31, 2006)**
 
 Dean Giustini publishes a web log, the UBC Google Scholar Blog, that
 covers recent developments and improvements in searching for evidence.
@@ -39,32 +37,3 @@ actually quite varied and interesting. One entry in particular,
     weblogs.elearning.ubc.ca/googlescholar/EBMJan20\_06.pdf
 
 looks like an excellent resource.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Recent developments in searching for
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-page_update: partial
---->
-

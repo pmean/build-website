@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Using a charge of fraud to achieve a
-political end (June 23, 2006)**
 
 There was an interesting paper published recently:
 
@@ -57,32 +55,3 @@ fired if a critic gets a charge of fraud to stick. It is very important
 to make sure that any resolution of allegations of fraud follow an
 appropriate format that allows for full and fair investigation into the
 facts of the allegation.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-<!---More--->
-research](../category/EthicsInResearch.html).
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Using a charge of fraud to achieve a
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-page_update: partial
---->
-

@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **PharmaIQ talks (December 6, 2006)**
-[Category: Data mining](../category/DataMining.html)
 
 > I attended the conference "Signal Detection and Data Mining"
 > sponsored by PharmaIQ. Here are some notes I took during some of the
@@ -253,29 +251,3 @@ page_update: partial
 >
 > It's hard to take good notes, so I apologize to the speakers if I did
 > not accurately portray their messages.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-<!---More--->
-for pages similar to this one at
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **PharmaIQ talks (December 6, 2006)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at
-page_update: partial
---->
-

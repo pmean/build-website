@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Using a web site to promote your book
-(May 10, 2006)**
 
 > Someone on the [MedStats](../category/InterestingWebsites.html#MeStXx)
 > email discussion group asked about how you use a web page to provide
@@ -61,32 +59,3 @@ page_update: partial
 > will have to pay.
 >
 > 4\. Don't use pop-up windows, frames, or animation on your web pages.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-<!---More--->
-evidence](../category/StatisticalEvidence.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Using a web site to promote your book
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-page_update: partial
---->
-

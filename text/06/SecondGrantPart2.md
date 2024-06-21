@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: My second grant, part 2 (created
-2006-09-13)**
 
 > I took a three day workshop on grant writing and prepared a draft
 > grant as part of the student exercises in that class. It's not in the
@@ -179,32 +177,3 @@ page_update: partial
     6, 2006)](FundingSources.asp)
 -   [Stats: Early detection of accrual problems in clinical trials (June
     30, 2006)](AccrualProblems1.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: My second grant, part 2 (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-page_update: partial
---->
-

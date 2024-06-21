@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: My second grant, part 3 (created
-2006-10-02)**
 
 I just finished my second grant, which I gave the title "Estimating
 delays in completion of IRB approved and KBR supported research
@@ -97,32 +95,3 @@ and an earlier grant in these weblog entries
 -   [Stats: Upcoming talks about control charts (May
     25, 2006)](ControlChartsA.asp)
 -   [Stats: I want to write a grant (April 25, 2006)](WriteGrant.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-<!---More--->
-trials](../category/AccrualProblems.html).
-for pages similar to this one at [Category: Accrual problems in clinical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: My second grant, part 3 (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Accrual problems in clinical
-trials](../category/AccrualProblems.html).
-page_update: partial
---->
-

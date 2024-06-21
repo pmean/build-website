@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Poisson regression? Maybe not!
-(created 2006-03-10)**.
 
 I get a lot of questions about Poisson regression, even though I have
 very little about it on my web pages. My guess is that there is even
@@ -49,32 +47,3 @@ pages.
     distribution](www.childrensmercy.org/definitions/poisson.htm)
 -   [Stats: Sample size for an ordinal outcome (September
     22, 2004)](http://www.pmean.com/weblog2004/OrdinalLogistic.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-<!---More--->
-regression](../category/PoissonRegression.html).
-for pages similar to this one at [Category: Poisson
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Poisson regression? Maybe not!
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Poisson
-regression](../category/PoissonRegression.html).
-page_update: partial
---->
-

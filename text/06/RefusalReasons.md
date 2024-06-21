@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Characterizing reasons for refusal
-(created 2006-01-17)**.
 
 A participant in the IRB Forum raised a question about a research study
 where people were asked to participate, and when some of them said
@@ -82,22 +80,3 @@ assess the scientific validity of the study.
 Now, it is unclear if the research situation cited above showed adequate
 respect for the patients' right to be left alone, but I know that if
 you are careful, you can query refusals without violating their rights.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Exclusions in
-research](../category/ExclusionsInResearch.html).
-
-<U+FFFD>
-<!---More--->
-<U+FFFD>
-
-<!---Do not use
-**[StATS]: Characterizing reasons for refusal
-<U+FFFD>
-page_update: partial
---->
-

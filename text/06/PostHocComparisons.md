@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Post hoc comparisons (created
-2006-03-15)**
 
 Note: It's been a while since I last used the "Ask Professor Mean"
 format on these web pages, and I can't think of a good reason why I
@@ -55,32 +53,3 @@ and/or seriously unequal variation from one group to another.
     22, 2004)](../04/MultipleDF.html)
 -   [Stats: Guidelines for ANOVA models](../03/anova.asp)
 -   [Stats: Bonferroni correction](../99/bonferroni.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
-<!---More--->
-variance](../category/AnalysisOfVariance.html).
-for pages similar to this one at [Category: Analysis of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Post hoc comparisons (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Analysis of
-variance](../category/AnalysisOfVariance.html).
-page_update: partial
---->
-

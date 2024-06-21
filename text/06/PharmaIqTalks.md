@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Two talks for PharmaIQ (created
-2006-09-19)**
 
 I may be giving a couple of talks for for
 [PharmaIQ](http://www.iqpc.com/cgi-bin/templates/fivecell.html?topic=237&newTop=263),
@@ -68,32 +66,3 @@ in Medical Trials, through Oxford University Press. He is the architect
 and designer of StATS (Steve's Attempt to Teach Statistics) a widely
 cited web site with over one thousand pages and has contributed material
 to two other prominent web sites: Chance News and Wikipedia.*
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-<!---More--->
-research](../category/ChildrenInResearch.html).
-for pages similar to this one at [Category: Children in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Two talks for PharmaIQ (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Children in
-research](../category/ChildrenInResearch.html).
-page_update: partial
---->
-
