@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Multicollinearity is not a violation
-of assumptions (created 2006-01-20)**
 
 > A colleague from my days at the National Institute for Occupational
 > Safety and Health emailed me a question. Apparently, one of the
@@ -50,32 +48,3 @@ of assumptions (created 2006-01-20)**
 > off keeping all your covariates in. There are a lot of opportunities
 > for mischief if you start tinkering with the covariate list. I'll try
 > to write more about this when I have time.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-<!---More--->
-issues](../category/ModelingIssues.html).
-for pages similar to this one at [Category: Modeling
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Multicollinearity is not a violation
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-page_update: partial
---->
-

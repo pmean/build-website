@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Searching high level sources first
-(May 17, 2006)**
 
 When you have to perform a search for the evidence, it pays to look at
 high level sources first. A recent discussion on the Evidence Based
@@ -55,32 +53,3 @@ language query system for Medline
     [askmedline.nlm.nih.gov/ask/ask.php](http://askmedline.nlm.nih.gov/ask/ask.php)
 
 **Note:** some additional resources added on May 30, 2006.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-<!---More--->
-searching](../category/InformationSearching.html).
-for pages similar to this one at [Category: Information
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Searching high level sources first
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Information
-searching](../category/InformationSearching.html).
-page_update: partial
---->
-

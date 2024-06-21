@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **How many charts should I pull? (March
-30, 2006)**
 
 I got a question from someone doing a quality review. She needs to
 pull a certain number of medical records out of 892 and see whether
@@ -56,32 +54,3 @@ telling which charts will work without reviewing the entire chart. If
 you believe that only one out of every four charts meets your needs,
 then you should pull 248 charts to make sure that you will have around
 62 that qualify when you are done.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-<!---More--->
-justification](../category/SampleSizeJustification.html).
-for pages similar to this one at [Category: Sample size
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **How many charts should I pull? (March
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Sample size
-justification](../category/SampleSizeJustification.html).
-page_update: partial
---->
-

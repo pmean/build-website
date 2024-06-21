@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **The role of a statistician on an IRB
-(March 29, 2006)**
 
 Someone on the [IRBForum](http://www.irbforum.org) wrote in and asked
 what guidance their IRB could offer to a statistician who was just
@@ -97,32 +95,3 @@ She then invited the statistician in and asked "*What is one plus
 one?*" The statistician looked around very carefully, then went up and
 closed the door, lowered the window shades, and asked very quietly
 "*What do you want it to be?*"
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-<!---More--->
-statistics](../category/HumanSideStatistics.html).
-for pages similar to this one at [Category: Human side of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **The role of a statistician on an IRB
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-page_update: partial
---->
-

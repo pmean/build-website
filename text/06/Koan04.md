@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Statistical koan \#4 (March 26,
-2006)**
 
 > **A visit from a thief.**
 >
@@ -79,32 +77,3 @@ page_update: partial
 > over such a small thing. Were the jewels of great beauty and
 > incomparable value? Then do not let any small thing stand in the way
 > of possibly recovering such a great treasure.*"
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Statistical koan \#4 (March 26,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-page_update: partial
---->
-

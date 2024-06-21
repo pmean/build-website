@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Frank Harrell's Philosophy of
-Biostatistics (created 2006-10-10)**
 
 > There are a lot of people in the world who are a lot smarter than I am
 > and it is always a humbling experience when I recognize how little I
@@ -59,32 +57,3 @@ Biostatistics (created 2006-10-10)**
 >
 > which outlines the issue far better than anything I have written on
 > the topic.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-<!---More--->
-issues](../category/ModelingIssues.html).
-for pages similar to this one at [Category: Modeling
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Frank Harrell's Philosophy of
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-page_update: partial
---->
-

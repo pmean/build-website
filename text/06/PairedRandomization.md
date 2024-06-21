@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Randomization tests for paired data
-(January 24, 2006)**
 
 The randomization test offers a lot of flexibility for analyzing data in
 ways well beyond what traditional tests might offer. The concept is
@@ -176,32 +174,3 @@ would just randomly shuffle the entire block.
     a permutation within any pair of scores is as likely as the reverse.
     That simple idea forms the basis of our test.*
     www.uvm.edu/~dhowell/StatPages/Resampling/RandomMatchedSample/RandomMatchedSample.html
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-<!---More--->
-data](../category/UnusualData.html).
-for pages similar to this one at [Category: Unusual
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Randomization tests for paired data
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Unusual
-data](../category/UnusualData.html).
-page_update: partial
---->
-

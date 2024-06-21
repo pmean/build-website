@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **A simple example of a mixed linear
-regression model (October 18, 2006)**.
 
 I want to illustrate how to run a simple mixed linear regression model
 in SPSS. I will use some data on the plasma protein levels of turtles
@@ -160,32 +158,3 @@ practical consequence.
 The covariance parameters provide you with an estimate of between and
 within subject variation. These numbers are very useful for planning
 future research studies.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed linear
-model](../category/MixedModels.html).
-<!---More--->
-model](../category/MixedModels.html).
-for pages similar to this one at [Category: Mixed linear
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **A simple example of a mixed linear
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Mixed linear
-model](../category/MixedModels.html).
-page_update: partial
---->
-

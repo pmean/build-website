@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Manipulation of peer-review
-publications by pharmaceutical companies** (November 21, 2006)
 
 > I volunteered to give a talk at a local hospital, and the topic I'd
 > like to discuss is "Manipulation of peer-review publications by
@@ -30,32 +28,3 @@ publications by pharmaceutical companies** (November 21, 2006)
 >     pharmaceutical companies](../training/hand72.asp)
 >
 > <U+FFFD>but right now it is only the briefest of outlines.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-<!---More--->
-research](../category/EthicsInResearch.html).
-for pages similar to this one at [Category: Ethics in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Manipulation of peer-review
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Ethics in
-research](../category/EthicsInResearch.html).
-page_update: partial
---->
-

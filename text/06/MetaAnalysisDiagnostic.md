@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Meta-analysis and diagnostic tests
-(February 14, 2006)**
 
 I will be giving a talk at the graduate seminar series for the
 department of Mathematics and Statistics at UMKC on February 23. It will
@@ -48,32 +46,3 @@ and here is my abstract:
 > articles where the full free text is available on the web. A handout
 > for this seminar can be found at
 > [www.childrens-mercy.org/stats/training/hand67.asp](http://www.childrens-mercy.org/stats/training/hand67.asp).
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-<!---More--->
-overviews](../category/SystematicOverviews.html).
-for pages similar to this one at [Category: Systematic
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Meta-analysis and diagnostic tests
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Systematic
-overviews](../category/SystematicOverviews.html).
-page_update: partial
---->
-

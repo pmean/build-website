@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:**(2006-07-10) **When can a conservative trust a
-liberal information source (and vice versa)<U+FFFD> **
 
 I have a brother-in-law who loves to debate politics and religion. He
 always takes an aggressively conservative stand (I'm a flaming liberal,
@@ -198,32 +196,3 @@ opposite view. So don't be too open-minded about opposing arguments.
 > open is as useless as a window stuck closed. In either case, you've
 > lost the use of the window.*
 > [www.brucewoolley.com/TherapeuticsReport/1998/Oct98.html](http://www.brucewoolley.com/TherapeuticsReport/1998/Oct98.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-<!---More--->
-interest](../category/ConflictOfInterest.html).
-for pages similar to this one at [Category: Conflict of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:**(2006-07-10) **When can a conservative trust a
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Conflict of
-interest](../category/ConflictOfInterest.html).
-page_update: partial
---->
-

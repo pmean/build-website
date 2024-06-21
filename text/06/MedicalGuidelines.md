@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Evidence-based development of medical
-guidelines (December 13, 2006)**
 
 An open source journal, Health Research Policy and Systems, has a series
 of articles on how to develop guidelines in a rigorous and evidence-base
@@ -62,32 +60,3 @@ The abstract of the first article explains the genesis of this review:
 > background documentation. We describe here the background and methods
 > of these reviews, which are being published in Health Research Policy
 > and Systems together with this introduction.*
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-<!---More--->
-resources](../category/TeachingResources.html).
-for pages similar to this one at [Category: Teaching
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Evidence-based development of medical
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Teaching
-resources](../category/TeachingResources.html).
-page_update: partial
---->
-

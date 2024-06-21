@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **You won't have Steve Simon to kick
-around anymore (May 24, 2006)**
 
 The results of the election of officers for the American Statistical
 Association came out today, and sad to say, I came in second in a two
@@ -24,32 +22,3 @@ this.
 
 -   [Stats: Vote for me (December 21, 2005,
     General)](http://www.pmean.com/weblog2005/VoteForMe.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **You won't have Steve Simon to kick
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-page_update: partial
---->
-
