@@ -24,12 +24,10 @@ rnorm(10)
 So your student creates the following program.
 
 ````{}
-page_update: complete
 ---
 title: "A tricky program to debug"
 author: "Steve Simon"
 output: html_document
-page_update: complete
 ---
 
 ```{}
@@ -76,12 +74,10 @@ Well, a bare set of curly braces tells RMarkdown to display the text inside the 
 It is easy enough to forget the "r" inside the curly braces. When you put it back in (see below),
 
 ````{}
-page_update: complete
 ---
 title: "A tricky program to debug"
 author: "Steve Simon"
 output: html_document
-page_update: complete
 ---
 
 ```{r}
