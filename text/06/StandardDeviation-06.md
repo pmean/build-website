@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Relationship between the standard
-deviation and the sample size (May 26, 2006)**
 
 *Dear Professor Mean, I have a data set that is accumulating more
 information over time. When I estimate the standard deviation for one of
@@ -50,32 +48,3 @@ Here is the R code that produced this data and graph.
     error](www.childrensmercy.org/definitions/stderr.htm)
 -   [Definition: Standard
     deviation](www.childrensmercy.org/definitions/stdev.htm)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-<!---More--->
-statistics](../category/DescriptiveStatistics.html).
-for pages similar to this one at [Category: Descriptive
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Relationship between the standard
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Descriptive
-statistics](../category/DescriptiveStatistics.html).
-page_update: partial
---->
-

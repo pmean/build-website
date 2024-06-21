@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Resources for the use of Statistical
-Process Control in Healthcare (created 2006-09-15)**.
 
 > Someone on the [MedStats](http://groups.google.com/group/MedStats)
 > email discussion group asked for resources that "explain the use of
@@ -376,32 +374,3 @@ Process Control in Healthcare (created 2006-09-15)**.
 >     Andis Robeznieks, Published in Amercian Medical News on February
 >     21, 2005. Accessed on 2005-02-16. **(Medicine, Quality)**
 >     www.ama-assn.org/amednews/2005/02/21/prsc0221.htm
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
-<!---More--->
-control](../category/QualityControl.html).
-for pages similar to this one at [Category: Quality
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Resources for the use of Statistical
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Quality
-control](../category/QualityControl.html).
-page_update: partial
---->
-

@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: When are two events worrisome? (December
-4, 2006)**.
 
 I was attending a workshop on developing a risk management plan for a
 new drug. The presenter, Nawab Qizilbash from Oxon Clinical
@@ -57,32 +55,3 @@ indeed important, but of greater importance is that certain severe
 events are also (thankfully) rare events. If an event is rare enough in
 the background population, then that rarity may make two events by
 themselves to be a very worrisome problem.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-<!---More--->
-stopping](../category/EarlyStopping.html).
-for pages similar to this one at [Category: Early
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: When are two events worrisome? (December
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Early
-stopping](../category/EarlyStopping.html).
-page_update: partial
---->
-

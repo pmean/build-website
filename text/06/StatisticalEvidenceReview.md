@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Book reviews for Statistical Evidence
-(October 5, 2006)**
 
 The [International Journal of
 Epidemiology](http://ije.oxfordjournals.org/) published a review of my
@@ -123,32 +121,3 @@ are perfect partners.
 
 This page was updated on October 9, 2006 to include some details from
 the International Journal of Epidemiology review.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-<!---More--->
-evidence](../category/StatisticalEvidence.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Book reviews for Statistical Evidence
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-page_update: partial
---->
-

@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Slash and burn models (created
-2006-06-26).**
 
 I received an email question about developing a logistic regression
 model with some interaction terms. One of the interaction terms was
@@ -145,32 +143,3 @@ by some.
 -   [Stats: Interactions in logistic regression (April 8, 2004, Model,
     Logistic
     regression)](http://www.pmean.com/weblog2004/interactions.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-<!---More--->
-issues](../category/ModelingIssues.html).
-for pages similar to this one at [Category: Modeling
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Slash and burn models (created
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Modeling
-issues](../category/ModelingIssues.html).
-page_update: partial
---->
-

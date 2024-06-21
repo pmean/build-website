@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Real-life examples of survey mistakes
-(January 31, 2006)**
 
 Tzippy Shocat was nice enough to forward a link to an article that she
 wrote for the iSixSigma website
@@ -76,32 +74,3 @@ clear and measurable goals, as well as the importance of getting a
 representative sample. You can read the full article at
 
 -   [www.isixsigma.com/library/content/c040119b.asp](http://www.isixsigma.com/library/content/c040119b.asp)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survey
-design](../category/SurveyDesign.html).
-<!---More--->
-design](../category/SurveyDesign.html).
-for pages similar to this one at [Category: Survey
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Real-life examples of survey mistakes
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Survey
-design](../category/SurveyDesign.html).
-page_update: partial
---->
-

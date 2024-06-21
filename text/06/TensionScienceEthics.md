@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **The tension between scientific
-validity and ethical concerns (created 2006-11-17)**.
 
 > A question on the IRB Forum email discussion group (from RI) centered
 > on the ethical concerns about using a placebo arm in a study involving
@@ -58,32 +56,3 @@ validity and ethical concerns (created 2006-11-17)**.
 > be in conflict, you can actually justify scientific validity from an
 > ethical perspective and you can justify ethical concerns from a
 > scientific validity perspective.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Placebos in
-research](../category/PlaceboControlledTrials.html).
-<!---More--->
-research](../category/PlaceboControlledTrials.html).
-for pages similar to this one at [Category: Placebos in
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **The tension between scientific
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Placebos in
-research](../category/PlaceboControlledTrials.html).
-page_update: partial
---->
-

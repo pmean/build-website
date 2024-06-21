@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Surviving Statistical Spitting
-Matches (April 25, 2006)**
 
 I generally dislike an outline or bullet format for presenting
 information, but I came across a website
@@ -150,32 +148,3 @@ more collegial view.
 There are a lot more ideas presented in this web page. While I dislike
 the spartan format of an outline, Dr. Kritzer lists some important and
 provocative questions.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-<!---More--->
-statistics](../category/HumanSideStatistics.html).
-for pages similar to this one at [Category: Human side of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Surviving Statistical Spitting
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-page_update: partial
---->
-

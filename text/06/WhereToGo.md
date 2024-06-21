@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Where to go, where to go (January 11,
-2006)**
 
 There are several interesting research conferences this year, and I have
 to decide quickly which one(s) to attend.
@@ -90,32 +88,3 @@ recognition for excellence in computational statistics.
 
 I'm not sure which of these conferences I will end up attending, but
 they all look good.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-<!---More--->
-details](../category/ProfessionalDetails.html).
-for pages similar to this one at [Category: Professional
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Where to go, where to go (January 11,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Professional
-details](../category/ProfessionalDetails.html).
-page_update: partial
---->
-

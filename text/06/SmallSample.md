@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Small sample size, yet again (March
-29, 2006)**
 
 *Dear Professor Mean, Is there any statistical test/method that will
 allow you to make statistically significant conclusions from a sample of
@@ -102,32 +100,3 @@ blessed, but when this does happen, it is not outrageous to expect to
 see an all-or nothing response. Another research setting where you might
 get by with a very small sample size is a cross-over trial, because in
 that trial, each subject serves as their own control.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Small sample size
-issues](../category/SmallSampleSizeIssues.html).
-<!---More--->
-issues](../category/SmallSampleSizeIssues.html).
-for pages similar to this one at [Category: Small sample size
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Small sample size, yet again (March
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Small sample size
-issues](../category/SmallSampleSizeIssues.html).
-page_update: partial
---->
-
