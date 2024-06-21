@@ -10,7 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Always ask why (May 8, 2006)**
 
 > I have a three year old boy at home and he's learned that one way to
 > keep the conversation going with an adult is to simply ask the
@@ -78,32 +77,3 @@ page_update: partial
 
 This web page was written by Steve Simon, edited by Steve Simon, and was
 last modified on 04/01/2010.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-<!---More--->
-statistics](../category/HumanSideStatistics.html).
-for pages similar to this one at [Category: Human side of
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Always ask why (May 8, 2006)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Human side of
-statistics](../category/HumanSideStatistics.html).
-page_update: partial
---->
-

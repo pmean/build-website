@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Using a colloquial tone in a grant
-application (July 25, 2006)**
 
 As I have mentioned many times in this weblog, I am writing a grant. [A
 rough draft of the grant is available in PDF
@@ -96,32 +94,3 @@ models to see if they produce reasonable results.
     3, 2006)](AdverseEvents.html)
 -   [Stats: Control charts for monitoring mortality rates (February
     11, 2005)](http://www.pmean.com/weblog2005/ControlCharts.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
-<!---More--->
-writing](../category/GrantWriting.html).
-for pages similar to this one at [Category: Grant
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Using a colloquial tone in a grant
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Grant
-writing](../category/GrantWriting.html).
-page_update: partial
---->
-

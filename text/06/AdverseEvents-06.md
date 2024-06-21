@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Reporting serious adverse events (created
-2006-02-03)**.
 
 The FDA held a meeting on March 21, 2005 soliciting opinions about how
 adverse events should be reported to Institutional Review Boards (IRBs).
@@ -134,32 +132,3 @@ the longer the patient is under study.
     [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15148066&dopt=Abstract)
     [Abstract]](http://www.annals.org/cgi/content/abstract/140/10/795)
     [PDF]](http://www.annals.org/cgi/reprint/140/10/795.pdf)
-
-by Steve Simon while working at Children's Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children's Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-<!---More--->
-trials](../category/AdverseEvents.html).
-similar to this one at [Category: Adverse events in clinical
-help resources](../GeneralHelp.html). You can also browse for pages
-Hospital website. Need more information? I have a page with [general
-a service, as it is no longer available on the Children's Mercy
-do not hold the copyright for this material, I am reproducing it here as
-by Steve Simon while working at Children's Mercy Hospital. Although I
-
-<!---Do not use
-**[StATS]: Reporting serious adverse events (created
-by Steve Simon while working at Children's Mercy Hospital. Although I
-do not hold the copyright for this material, I am reproducing it here as
-a service, as it is no longer available on the Children's Mercy
-Hospital website. Need more information? I have a page with [general
-help resources](../GeneralHelp.html). You can also browse for pages
-similar to this one at [Category: Adverse events in clinical
-trials](../category/AdverseEvents.html).
-page_update: partial
---->
-

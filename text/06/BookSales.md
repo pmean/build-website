@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Sales figures for Statistical Evidence in
-Medical Trials (August 2, 2006)**
 
 I get twice yearly data on sales, and the first of these arrived today.
 I've sold 230 copies, which is not bad for a short time frame. I
@@ -24,32 +22,3 @@ can work extensively on promoting my book.
 -   [Stats: Statistical Evidence in Medical Trials](../evidence.asp)
 -   [Stats: Resources for Statistical Evidence in Medical
     Trials](Resources.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-<!---More--->
-evidence](../category/StatisticalEvidence.html).
-for pages similar to this one at [Category: Statistical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]: Sales figures for Statistical Evidence in
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Statistical
-evidence](../category/StatisticalEvidence.html).
-page_update: partial
---->
-

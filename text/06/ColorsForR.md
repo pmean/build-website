@@ -11,8 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Colors for R graphs (June 28
-- 2006)**
 
 I tend to use color sparingly in graphs because most of my graphs end up
 in black and white in the final production. Even on my web pages
@@ -94,42 +92,3 @@ provides much useful information about graphs in R.
 - FL: Chapman & Hall /
     CRC Press. [BookFinder4U
     link]](http://www.bookfinder4u.com/detail/1-58488-486-X.html)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html) or [Category: R
-software](../category/RSoftware.html).
-<!---More--->
-software](../category/RSoftware.html).
-display](../category/GraphicalDisplay.html) or [Category: R
-for pages similar to this one at [Category: Graphical
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service
-- as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material
-- I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Colors for R graphs (June 28
-- 2006)**
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material
-- I am
-reproducing it here as a service
-- as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Graphical
-display](../category/GraphicalDisplay.html) or [Category: R
-software](../category/RSoftware.html).
-page_update: partial
---->
-

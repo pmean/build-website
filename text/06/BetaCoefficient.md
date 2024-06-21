@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **What is a beta coefficient? (April 4,
-2006)**
 
 > When you are examining the relative impact of several independent
 > variables on an outcome variable, the estimated slopes may be
@@ -55,32 +53,3 @@ page_update: partial
 > coefficient" to represent the level of risk associated with an
 > individual stock or of a<U+FFFD> portfolio of stocks. This is not the same
 > thing as the beta coefficient described above.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Linear
-regression](../category/LinearRegression.html).
-<!---More--->
-regression](../category/LinearRegression.html).
-for pages similar to this one at [Category: Linear
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **What is a beta coefficient? (April 4,
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Linear
-regression](../category/LinearRegression.html).
-page_update: partial
---->
-

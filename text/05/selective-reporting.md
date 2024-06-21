@@ -11,8 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Selective reporting of research
-findings (March 14, 2005)**
 
 I have talked extensively about publication bias in my weblog
 
@@ -58,32 +56,3 @@ then choose the one that gives you the smallest p-value.
 Evaluating PBIS is difficult because you normally don't have access to
 the original research protocol to see what the researchers had
 originally intended.
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Publication
-bias](../category/PublicationBias.html).
-<!---More--->
-bias](../category/PublicationBias.html).
-for pages similar to this one at [Category: Publication
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Selective reporting of research
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Publication
-bias](../category/PublicationBias.html).
-page_update: partial
---->
-

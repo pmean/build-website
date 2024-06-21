@@ -10,8 +10,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Using APR-DRGs for risk adjustment
-(May 24, 2006)**.
 
 The 3M company, famous for Post-It notes, among other things, has a
 division for health information systems. One of their products is
@@ -58,32 +56,3 @@ that this grouping can account for about 16% of the variation in length
 of stay.
 
 -   [www.pubmedcentral.gov/articlerender.fcgi?tool=pubmed&pubmedid=8885854](http://www.pubmedcentral.gov/articlerender.fcgi?tool=pubmed&pubmedid=8885854)
-
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-<!---More--->
-adjustment](../category/CovariateAdjustment.html).
-for pages similar to this one at [Category: Covariate
-with [general help resources](../GeneralHelp.html). You can also browse
-Children's Mercy Hospital website. Need more information? I have a page
-reproducing it here as a service, as it is no longer available on the
-Hospital. Although I do not hold the copyright for this material, I am
-This page was written by Steve Simon while working at Children's Mercy
-
-<!---Do not use
-**[StATS]:** **Using APR-DRGs for risk adjustment
-This page was written by Steve Simon while working at Children's Mercy
-Hospital. Although I do not hold the copyright for this material, I am
-reproducing it here as a service, as it is no longer available on the
-Children's Mercy Hospital website. Need more information? I have a page
-with [general help resources](../GeneralHelp.html). You can also browse
-for pages similar to this one at [Category: Covariate
-adjustment](../category/CovariateAdjustment.html).
-page_update: partial
---->
-

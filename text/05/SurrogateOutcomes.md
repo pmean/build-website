@@ -7,8 +7,8 @@ categories:
 - Blog post
 tags:
 - Being updated
-page_update: partial
 output: html_document
+page_update: partial
 ---
 **[StATS]:** **Surrogate outcomes (March 23, 2005,
 Evidence, Clinical Importance)**

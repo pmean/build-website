@@ -52,6 +52,13 @@ for (i_row in 1:nrow(md_files)) {
   full_file_name <- glue("{md_path}/{md_files$yr[i_row]}/{md_files$fn[i_row]}")
   read_lines(full_file_name) %>%
     str_subset(fixed(c_text)) %>%
+    str_replace(c_text, "") -> page_update
+  n <- length(page_update)
+  if (n > 1) {
+    cat(
+      glue(
+        "\n\n{n} duplicates found in {full_file_name}.\n\n"))}
+  page_update %>%
     paste0("", collapse=", ") -> md_files$page_update_line[i_row]
 }
 count(md_files, page_update_line)
