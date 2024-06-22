@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Poisson regression
 output: html_document
+page_update: partial
 ---
 I've been working on an interesting project that requires Poisson
 regression. A company sends out a mailing and gets a certain number of

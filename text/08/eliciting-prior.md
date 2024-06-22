@@ -8,6 +8,7 @@ tags:
 - Accrual problems in clinical trials
 - Being updated
 output: html_document
+page_update: partial
 ---
 I got a question about the [Bayesian model for rejection/refusal
 rates](RefusalsAndExclusions.html). I had used three prior distributions

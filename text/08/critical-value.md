@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 Someone wrote in asking about the difference between a p-value and a
