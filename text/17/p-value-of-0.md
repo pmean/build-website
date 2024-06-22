@@ -8,6 +8,7 @@ tags:
 - Ask Professor Mean
 - Hypothesis testing
 output: html_document
+page_update: complete
 ---
 
 #### Dear Professor Mean,

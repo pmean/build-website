@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Through the effort of a team of statisticians with the American Statistical Association, the New York Times is producing a new resource for educators called "What's Going On in This Graph?". This is similar to another New York Times effort called "What's Going On in This Picture?"

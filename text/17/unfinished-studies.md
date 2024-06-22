@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/17/unfinished-studies01.png)

@@ -8,6 +8,7 @@ tags:
 - Bayesian statistics
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 
 Someone wanted to know how to run a Bayesian data analysis for a two group longitudinal study. There are several ways you can do this, but I had to confess I did not have an immediate answer. So I took some time to figure out how to do this using jags software inside of R. I’ve done a fair amount of stuff in jags, but not anything close to a longitudinal design. The general principle is to start with something easy and work your way slowly up to the final analysis.

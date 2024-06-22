@@ -8,6 +8,7 @@ categories:
 tags:
 - Research design
 output: html_document
+page_update: complete
 ---
 
 This is the first in a series of articles on reducing waste in research. It focuses on funding agencies and recommends that funders should support more work on making research replicable, be more transparent on how they set priorities, make sure that research proposals are justified through a systematic review of previous research, and encourage greater openness of research in progress to encourage collagoration. Other articles in this series cover 

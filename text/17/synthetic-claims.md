@@ -8,6 +8,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: partial
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/synthetic-claims01.png)

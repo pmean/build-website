@@ -9,6 +9,7 @@ tags:
 - Data science
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 This paper talks about how to get students to think about large databases in an introductory class that normally uses "toy" problems with a few dozen rows of data.

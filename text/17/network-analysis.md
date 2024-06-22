@@ -8,6 +8,7 @@ categories:
 tags:
 - Network analysis
 output: html_document
+page_update: complete
 ---
 
 These are the slides for a very nice webinar presented by Eiko Fried. Dr. Fried provided a wealth of resources during his webinar (some of these are behind pay walls).

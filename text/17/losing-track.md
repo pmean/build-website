@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I got an interesting question from one of my students, and it illustrates a subtle issue that may confuse beginning R programmers. The student was trying to compute a ratio of brain weight to body weight in a small data set, but then was unable to calculate any summary statistics on that ratio. Here's what caused the problem.

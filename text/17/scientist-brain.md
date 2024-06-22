@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Hypothesis testing
 output: html_document
+page_update: complete
 ---
 
 I found an interesting research study that shows what happens inside the brains of scientists as they view statistical graphs of the type commonly used in peer-reviewed research. I don't have the citation in front of me, but it was published in a very prominent research journal. Here's a brief summary of the research.

@@ -6,6 +6,7 @@ date: "2017-10-17"
 category: Blog post
 tags:
 output: html_document
+page_update: complete
 ---
 
 I shouldn't do this, because we've all made mistakes, especially me. But I took a peek at a website with the intriguing title "[100+ commonly asked data science interview questions](http://www.datasciencecentral.com/profiles/blogs/100-commonly-asked-data-science-interview-questions)" with the thought "Maybe I could be a data scientist". But the author of this list choked on the very first question. It's interesting to examining why the question is bad. 

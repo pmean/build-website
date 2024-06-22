@@ -9,6 +9,7 @@ tags:
 - Accrual problems in clinical trials
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 There was some recent discussion of issues with multi-center trials where one center dominates, contributing as much as 94% of all the patients. What does this do to the generalizability of the study. I wanted to summarize these comments here, because it relates to some of the issues I'm looking at right now in accrual models for multi-center trials.

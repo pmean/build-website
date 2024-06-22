@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - SPSS software
 output: html_document
+page_update: complete
 ---
 
 I am teaching a class, Introduction to SPSS (MEDB 5506). Here is the syllabus for Fall Semester 2017.

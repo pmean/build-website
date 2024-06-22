@@ -8,6 +8,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/kaggle-data01.png)

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 In applying for various jobs, one of them wanted to know my grade point averages from school. That was over 35 years ago, but okay. I had to calculate them by hand and I don't think I've ever known what they are other than they weren't a 4.0. 

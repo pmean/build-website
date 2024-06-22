@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: partial
 ---
 
 ![Machine Learning cartoon](https://imgs.xkcd.com/comics/machine_learning.png)

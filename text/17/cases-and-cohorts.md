@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 Some asked a question about a retrospective study where you have a control cohort matched to a case cohort so the cohorts are similar on important (potentially confounding) variables. I pointed out that the two consecutive words "case cohort" are ambiguous and tried to explain? how I define a retrospective cohort design versus a (retrospective) case-control design.

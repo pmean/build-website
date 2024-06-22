@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: complete
 ---
 
 If you are writing a research grant, there are a lot of statistical issues that you need to consider. This guide, prepared by the American Statistical Association, highlights three areas: framing the problem, designing the study, and specifying the data analysis plan. It doesn't talk enough about data management, but otherwise it is an excellent resource.

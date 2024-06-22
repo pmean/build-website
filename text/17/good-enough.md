@@ -9,6 +9,7 @@ tags:
 - Data management
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 There is more than one way to approach a data analysis and some of the ways lead to easier modifications and updates and help make your work more reproducible. This paper talks about steps that they recommend based on years of teaching software carpentry and data carpentry classes. One of the software products mentioned in this article, [OpenRefine][sim3], looks like a very interesting way to clean up messy data in a way that leaves a well documented trail.

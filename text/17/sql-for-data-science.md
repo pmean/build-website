@@ -9,6 +9,7 @@ tags:
 - SQL
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 This is a series of videos and homework exercises that you can work on at your own pace. I have only viewed the outline for this, but anything from DataCamp comes highly recommended.

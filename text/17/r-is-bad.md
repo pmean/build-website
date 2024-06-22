@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/17/r-is-bad01.png)

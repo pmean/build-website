@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/shiny-server01.png)

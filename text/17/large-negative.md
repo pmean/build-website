@@ -9,6 +9,7 @@ tags:
 - Diagnostic testing
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 *Dear Professor Mean, I saw a paper where the authors said that they

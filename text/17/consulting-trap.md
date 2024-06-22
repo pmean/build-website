@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Someone on the Statistical Consulting Section message board asked a question about how to handle a situation where a colleague was repeatedly asking for advice. How do you make a transition from offering free advice to getting paid as a consultant? There were lots of good answers, and here's the suggestion that I offered.

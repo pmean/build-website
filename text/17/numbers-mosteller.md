@@ -8,6 +8,7 @@ categories:
 tags:
 - 
 output: html_document
+page_update: complete
 ---
 
 This is a chapter in a classic book, Medical Uses of Statistics. The writer of this particular chapter was a giant in Statistics, Frederick Mosteller. This chapter talks about some of the style issues associated with the data that you would normally present in your results section of your research paper. The advice is a bit dated, perhaps, but still well worth reading.

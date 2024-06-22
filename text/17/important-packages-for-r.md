@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I got a question from one of the students in my "Introduction to R" class asking what are the important packages for R. That's a hard question to answer, but if I got only easy questions, they wouldn't be paying me the big bucks. Here's what I think.

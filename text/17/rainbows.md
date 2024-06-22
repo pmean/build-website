@@ -8,6 +8,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 This is a nice article explaining why using a rainbow (red-orange-yellow-green-blue-indigo-violet) is a bad idea. The colors produce an artefactual banding pattern, they do not follow a consistent trend from light to dark, they cause trouble for people with color blindness, and they translate poorly to black-and-white reproductions. The article also shows some nice alternatives. Thanks to @EarlGlynn for sharing this.

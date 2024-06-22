@@ -8,6 +8,7 @@ categories:
 tags:
 - Qualitative research
 output: html_document
+page_update: complete
 ---
 
 This is a very helpful guide on collecting qualitative data through a semi-structured interview. It emphasizes the need for probe questions and on behaviors that you should adopt to put your subject at ease and get the best information possible. This handout was developed for a college course on Organizational Communication, and the [syllabus for this class][zorn2] has other valuable resources.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of newpaper article](http://www.pmean.com/new-images/17/explain-ai01.png)

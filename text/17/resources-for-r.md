@@ -9,6 +9,7 @@ tags:
 - R software
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 I attended several talks about R at the Joint Statistics meetings and

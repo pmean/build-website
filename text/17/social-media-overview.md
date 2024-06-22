@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 This is a short overview of five major social media sites: LinkedIn, Twitter, Facebook, Instagram, and Snapchat and how you might use them to promote your career. The article ends with a few good overall suggestions.

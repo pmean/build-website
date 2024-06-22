@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 Networking is important, and until recently I have failed to build bridges with some of the very smart people working at the University of Kansas in Lawrence. But I will be giving a colloquium talk to a group ([Center for Research Methods and Data Analysis][crmd1]) at KU in January. It may be for a different, but closely related group, but it doesn't matter. It's an excuse to get out of the office and meet people. Here's the tentative title and abstract for my talk and a brief review of some other talks I'll be giving.

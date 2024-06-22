@@ -9,6 +9,7 @@ tags:
 - Humor
 - Placebos in research
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Image of tweets](http://www.pmean.com/new-images/17/science-march-01.png)

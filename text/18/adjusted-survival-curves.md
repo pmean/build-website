@@ -9,6 +9,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/18/adjusted-survival-curves01.png)

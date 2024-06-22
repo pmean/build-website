@@ -10,6 +10,7 @@ tags:
 - R software
 - Text mining
 output: html_document
+page_update: partial
 ---
 
 This is a nice example of using R for text mining of twitter feeds

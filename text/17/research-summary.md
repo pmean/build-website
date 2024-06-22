@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I might be giving a very brief (5 minute) overview of my research for students in the Department of Biomedical and Health Informatics. Here are some details of that work, with links if anyone wants to dig deeper.

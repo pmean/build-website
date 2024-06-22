@@ -8,6 +8,7 @@ categories:
 tags:
 - i2b2
 output: html_document
+page_update: partial
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/17/i2b2-ontology01.png)

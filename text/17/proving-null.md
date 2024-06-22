@@ -8,6 +8,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/17/proving-null01.png)

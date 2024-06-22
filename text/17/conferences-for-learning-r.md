@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I heard about a new series of conferences for learning about R. I have not attended any of them, but they look interesting.

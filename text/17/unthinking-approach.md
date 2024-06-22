@@ -9,6 +9,7 @@ tags:
 - Hypothesis testing
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 
 I ran across a nice discussion of [how to write the results section of a

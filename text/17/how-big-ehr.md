@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I have been working part-time on a project for the Great Plains Collaborative (GPC) under the direction of Russ Waitman and the gentle guidance of Dan Connolly, both at Kansas University Medical Center. I hoping to submit a paper soon on the work I've done, but if you are curious about the size and scope of the electronic health records that I've been slinging around, this [blog entry][inf1] might help.

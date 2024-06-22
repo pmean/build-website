@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I really enjoy using RStudio, but one thing about it drives me bats. It seems to use red text for some very innocuous error messages.

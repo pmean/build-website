@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 I was having trouble with trailing blanks in an R program. There were

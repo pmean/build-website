@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/18/anaconda01.png)
