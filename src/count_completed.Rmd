@@ -62,8 +62,24 @@ for (i_row in 1:nrow(md_files)) {
     paste0("", collapse=", ") -> md_files$page_update_line[i_row]
 }
 count(md_files, page_update_line)
-count(md_files, yr, page_update_line)
+# count(md_files, yr, page_update_line)
 ```
+
+```{r}
+for (y in subdir_list) {
+  md_files %>%
+    filter(yr==y) %>%
+    count(yr, page_update_line) %>%
+    print
+  cat("\n\n")
+}
+```
+
+```{r}
+test1 <- paste0("## " 1:5)
+```
+
+`r test1`
 
 ```{r save_everything}
 save(md_files, file="../data/page_update_check.RData")

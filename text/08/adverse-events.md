@@ -8,6 +8,7 @@ tags:
 - Adverse events in clinical trials
 - Being updated
 output: html_document
+page_update: partial
 ---
 This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
 

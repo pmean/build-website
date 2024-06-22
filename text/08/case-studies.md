@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 I was asked to provide some justification for a project I am working on, case studies in research ethics using a graphic novel format. Here is what I wrote.
 
