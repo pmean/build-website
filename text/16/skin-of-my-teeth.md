@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I have to brag a bit. I'm working part-time at Kansas University Medical Center (along with a couple other part-time jobs) and my boss asked me two weeks ago if I was interested in writing a paper on the data analyses I had been working on. It would be submitted to the AMIA 2017 Joint Summit on Translational Research and I'd be the first author.

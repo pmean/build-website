@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I'm giving a short talk about the Kaplan-Meier curve and found out an interesting fact about the 1958 paper by Edward Kaplan and Paul Meier that introduced this curve. It represents the 11th most cited research paper of all time. There's a nice graphic in a [Nature paper](http://www.nature.com/news/the-top-100-papers-1.16224) that allows you to review the top 100 most cited papers of all time. There are a few other statistics papers on this list as well.

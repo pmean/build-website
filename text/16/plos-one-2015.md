@@ -9,6 +9,7 @@ tags:
 - Professional details
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 I reviewed a paper for PLOS One in 2014 and got a [nice acknowledgment][sim3], but I also reviewed a paper for the same journal in 2015. Here's the acknowledgment for that contribution. They're still having a bit of trouble with alphabetization (Steve Simon should be the last "Simon" on the list, but it's not). Still, it's nice to have a public record of my small contribution.

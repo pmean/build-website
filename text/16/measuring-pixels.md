@@ -10,6 +10,7 @@ tags:
 - Cheat sheet
 - R software
 output: html_document
+page_update: complete
 ---
 
 I have an R cheat sheet, [How Big Is Your Graph](../cheatsheets/index.html), that explains how to measure the size of various features of your graph in R. This blog post illustrates unit conversions. If you want to measure the length of a diagonal line segment in an R graph, you need to calculate the size of the plotting region in pixels, compare that to the range of the plotting region in the x and y directions, and then apply the Pythagorean Theorem.

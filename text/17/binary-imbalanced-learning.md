@@ -9,6 +9,7 @@ tags:
 - Data science
 - Logistic regression
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/17/binary-imbalanced-learning01.png)

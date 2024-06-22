@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Missing data
 output: html_document
+page_update: complete
 ---
 
 I wanted to use R to show some simple approaches to imputing missing values. These approaches are difficult to support because they require that you make some questionable and unverifiable assumptions about your data.? They still may prove useful as a sensitivity check or as a springboard into more complex approaches for imputing missing values. I have a link to the [code that generated most of these results][sim3].

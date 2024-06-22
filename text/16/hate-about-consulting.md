@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Someone on the Statistical Consulting forum mentioned that she is going to become an independent consultant when she graduates and wanted to find out from people who are currently in that position what the one thing is that they hate most. This email drew a lot of responses including several people who cautioned this women about the difficulties for a young person to become an independent consultant. Here are the thoughts I shared on the thing I hate most and what the issues are with embarking out on your own as an independent consulting early in your career.

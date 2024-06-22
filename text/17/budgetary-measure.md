@@ -9,6 +9,7 @@ tags:
 - R software
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 Like a lot of public universities, UMKC is having a lot of financial difficulty. They are asking for advice from faculty members on how to address this budget shortfall. Not being the bashful type, I suggested that we stop paying commercial software vendors and commercial journal publishers and rely instead on open source. Here's the details of my letter.

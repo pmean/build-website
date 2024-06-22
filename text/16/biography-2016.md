@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I am giving yet another talk and wanted to take some time to update my

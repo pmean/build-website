@@ -9,6 +9,7 @@ tags:
 - Ask Professor Mean
 - Measuring benefit and risk
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

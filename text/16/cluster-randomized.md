@@ -9,6 +9,7 @@ tags:
 - Multilevel models
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from research article](http://www.pmean.com/new-images/16/cluster-randomized01.png)

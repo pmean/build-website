@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Survey design
 output: html_document
+page_update: complete
 ---
 
 One of the UMKC internal publications, UMatters, had a [brief article about Qualtrics][umkc1]. What is Qualtrics, and why is UMKC offering it to researchers?

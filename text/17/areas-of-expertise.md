@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I was asked to list my areas of expertise for an upcoming Q&A webinar that I am helping with. Here's the list I shared.

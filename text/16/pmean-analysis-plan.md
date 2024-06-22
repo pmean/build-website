@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Research design
 output: html_document
+page_update: complete
 ---
 Dear Professor Mean, I could use some advice on defining and following analysis plans for research proposals. I can see how in well-trodden research, where the nuances of the data are well understood, and reasonable distributional assumptions are already identified, a detailed analysis plan may be straightforward to develop. But what about cases where you collect observational data, and though you may have specific hypotheses in mind prior to collecting it, you can't really pin down the most appropriate analysis until after you've done some exploration? Is there generally an acceptable amount of leeway in cases like these, where your analysis doesn't follow the original plan to the dot, but it's still designed to address the same question? Or must one be as specific and detailed in the plan as possible, and consider every contingency (e.g., if the distribution is noisy, switch to this non-parametric test)? Or does it really vary with whoever the reviewer is?
 

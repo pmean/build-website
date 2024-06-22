@@ -8,6 +8,7 @@ tags:
 - Data management
 - R software
 output: html_document
+page_update: complete
 ---
 
 At the Joint Statistics Meetings, I found out that the advantages of some of the new libraries for data manipulation (like dplyr and tidyr) go beyond just the flexibility of the new methods of data manipulation. These libraries produce code that is easier to read and which also runs a lot faster. I did not appreciate how much faster until I tried a test today.

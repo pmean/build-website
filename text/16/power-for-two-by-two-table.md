@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 A colleague was curious to see the formulas behind the power calculations done by many statistical software programs and online calculators. In particular, she wanted to see the formula used for power of the Chi-squared test of association in a two dimensional contingency table. It gets pretty messy for anything larger than a two by two table, but even a two by two table is a bit tricky. Here ins one mathematical approach that you can choose for a power calculation.

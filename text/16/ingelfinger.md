@@ -8,6 +8,7 @@ tags:
 - Open source
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 The same blog that I [highlighted below](../procrastination/index.html) had a [commentary](http://nexus.od.nih.gov/all/2015/12/18/preprints-in-clinical-research/) about how clinicians almost never publish pre-prints of their work. This is in contrast to other fields, most notably Astronomy, where pre-prints are the norm. If clinicians are reluctant, the Ingelfinger rule may be to blame.

@@ -9,6 +9,7 @@ tags:
 - Data management
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/16/dates-in-r01.png)

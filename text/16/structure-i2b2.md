@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I'm working with the Greater Plains Collaborative on a research project and my work requires me to understand the underlying data structure of a system known as i2b2. It's not a difficult data structure, but it is uncommon, so it is worthwhile to document what is going on.

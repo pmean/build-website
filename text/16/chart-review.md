@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Research design
 output: html_document
+page_update: complete
 ---
 
 If you are designing a retrospective chart review, you should talk to a statistician early in the process. There are lots of statistical issues that you must think about during the concept development phase of your research. Here is a broad overview of these issues.

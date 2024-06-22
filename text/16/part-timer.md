@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I had to provided some documentation for my supervisor on what I had done in the past year (May 2015 through April 2016). It's a very brief summary, but it's still pretty impressive, if I may say so.

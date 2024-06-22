@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from research article](http://www.pmean.com/new-images/16/flipped-classroom01.png)

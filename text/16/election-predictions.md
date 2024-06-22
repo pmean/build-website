@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Probability concepts
 output: html_document
+page_update: complete
 ---
 
 If you were on Mars for the past few days, you may not have noticed that Donald Trump has won the election. There has been a lot of commentary lately about how badly the predictions about the U.S. election have been and someone mentioned that even Nate Silver at the fivethirtyeight website had a predicted probability of a Clinton win at 71%. I wrote a brief comment that predicting an event with 71% probability does not mean that your prediction was "wrong" if the other event occurs.

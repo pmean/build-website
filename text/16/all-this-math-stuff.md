@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I got tagged in a Facebook post about [an article criticizing the emphasis on math in high school][slat1] and that proposes replacing some of the more theory based courses like Algebra II and Calculus with "a practical course in statistics for citizenship". It's an interesting article, and although it had some points, I had to disagree with the overall premise. Here's what I said.

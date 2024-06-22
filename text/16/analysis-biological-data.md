@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I have not seen this book, but it comes highly recommended by Frank Harrell, which is good enough for me.

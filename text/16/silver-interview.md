@@ -8,6 +8,7 @@ categories:
 tags:
 - Important statisticians
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Except from article](http://www.pmean.com/new-images/16/silver-interview01.png)

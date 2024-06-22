@@ -7,9 +7,10 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
-I am using pipes in R (the magrittr package) a lot recently. It reduces the number of errors due to nested functions, among other things. I've given a [simple example before][sim1], and here's another.
+I am using pipes in R (the magrittr package) a lot recently. It reduces the number of errors due to nested functions, among other things. I've given a [simple example before][sim3], and here's another.
 
 <!---More--->
 
@@ -39,4 +40,4 @@ You can find an [earlier version][sim1] of this page on my [blog][sim2].
 [sim1]: http://blog.pmean.com/pipes-in-r-2/
 [sim2]: http://blog.pmean.com
 
-[sim1]: http://new.pmean.com/pipes-in-r/index.html
+[sim3]: http://new.pmean.com/pipes-in-r/index.html

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 I'm interested in studying how Bayesian hierarchical models work and I want to start with what seems like the simplest case, the hierarchical beta-binomial model. It's actually not that simple, it seems. There are too many choices for the hyperprior that you use in this setting.

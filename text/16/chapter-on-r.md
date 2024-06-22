@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Book cover](http://www.pmean.com/new-images/16/chapter-on-r01.png)

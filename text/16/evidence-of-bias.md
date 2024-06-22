@@ -9,14 +9,14 @@ tags:
 - Critical appraisal
 - Randomization
 output: html_document
+page_update: complete
 ---
 
 ![Figre 1. Exceprt from website](http://www.pmean.com/new-images/16/evidence-of-bias01.png)
 
 <div class="notes">
 
-When I wrote a book about Evidence Based Medicine back in 2006, I talked
-about empirical evidence to support the use of certain research methodologies like blinding and allocation concealment. Since that time, many more studies have appeared, more than you or I could easily keep track of. Thankfully, the folks at the Agency for Healthcare Research and Quality commissioned a report to look at studies that empirically evaluate the bias reduction of several popular approaches used in randomized trials. These include
+When I wrote a book about Evidence Based Medicine back in 2006, I talked about empirical evidence to support the use of certain research methodologies like blinding and allocation concealment. Since that time, many more studies have appeared, more than you or I could easily keep track of. Thankfully, the folks at the Agency for Healthcare Research and Quality commissioned a report to look at studies that empirically evaluate the bias reduction of several popular approaches used in randomized trials. These include
 
 + selection bias through randomization (sequence generation and
 allocation concealment);

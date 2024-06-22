@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I'm giving a talk to the Statistics students at the University of Central Missouri. Here's the title and abstract of my talk.

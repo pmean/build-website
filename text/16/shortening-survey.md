@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Survey design
 output: html_document
+page_update: complete
 ---
 
 Dear Professor Mean, I'm trying to publish a research study that involves some survey data, but the peer-reviewer is complaining about something I did. There was a scale that I used that had five items, but because the survey was already very long, I used only three of the five items. The peer reviewer seems to think that I arbitrarily chose these three items after looking at the data. How should I respond?

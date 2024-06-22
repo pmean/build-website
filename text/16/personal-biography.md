@@ -7,6 +7,7 @@ category: Administrative
 tags:
 - Personal details
 output: html_document
+page_update: complete
 ---
 
 I got in touch with a colleague from my days at Bowling Green State University. That was in the 1980s and my life had changed substantially since those days. While I have many professional biographies (such as [this one from 2016](../biography-2016/index.html)), none of them covered the more personal aspects of my life. So here's a brief biography for anyone who is interested in more than just where I worked.

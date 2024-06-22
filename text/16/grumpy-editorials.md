@@ -8,6 +8,7 @@ tags:
 - Data sharing
 - Quality improvement
 output: html_document
+page_update: complete
 ---
 
 I don't have time to follow the journals as closely as I should, but I was shocked to find two very nasty editorials in recent issues of the New England Journal of Medicine. They are sharply critical of open sharing of data and of quality improvement efforts.

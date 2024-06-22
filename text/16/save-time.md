@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 Sometimes you end up trying to be so clever that you out-clever yourself. This happened to me today in R. I tried something that was supposed to save me time and it ended up costing me more time instead.

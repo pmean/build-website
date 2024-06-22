@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Presenting research
 output: html_document
+page_update: complete
 ---
 
 I received a suggestion for the [Kansas City R Users Group][kcrug] to use screen sharing tools. I am going to experiment with this a bit. Here are two tools worth trying.

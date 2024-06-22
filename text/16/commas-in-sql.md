@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - SQL
 output: html_document
+page_update: complete
 ---
 
 I should know better, but I made a rookie mistake with SQL that took a long time for me to fix. It's one of those detail oriented things and if you aren't detail oriented, you can't call yourself a programmer.

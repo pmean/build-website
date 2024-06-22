@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I'm working in a team programming environment and I would have to characterize the quality of the documentation as uneven. I'm going to make the case for having detailed documentation standards at a meeting tomorrow. Here's the a general overview of what I will say.

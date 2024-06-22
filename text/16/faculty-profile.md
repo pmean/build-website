@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I got an email from someone at UMKC with the title, Director of Undergraduate Research. She was

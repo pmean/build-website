@@ -9,6 +9,7 @@ tags:
 - R software
 - SQL
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from blog post](http://www.pmean.com/new-images/16/r-and-sqlserver01.png)

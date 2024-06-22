@@ -9,6 +9,7 @@ tags:
 - Linear regression
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/16/subjects-per-variable01.png)

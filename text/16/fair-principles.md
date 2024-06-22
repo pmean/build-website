@@ -8,6 +8,7 @@ categories:
 tags:
 - Data sharing
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/16/fair-principles01.png)

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Consulting is always a back and forth process and often you will find yourself re-working things because of communication problems. That's okay, but keep in mind that communication problems are even worse when they are done solely through email. Sometimes you have to consult this way, but it greatly increases the amount of rework needed. Here's an example.

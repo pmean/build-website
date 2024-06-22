@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 At the Joint Statistical Meetings this year, I learned a lot about recent developments in R, and not so recent developments that I was totally clueless about. One of those developments was the use of pipes in R. I wanted to show a simple example of how pipes can simplify your code.

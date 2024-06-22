@@ -8,6 +8,7 @@ tags:
 - Research design
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
 If you are designing a systematic overview, you should talk to a statistician early in the process. There are lots of little things that you can do to make your research more rigorous. Here is a broad overview of these issues.

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I've run across the term "greedy" in several work related contexts, so I thought it might be worth explaining what it means.

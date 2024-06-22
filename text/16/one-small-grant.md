@@ -8,6 +8,7 @@ tags:
 - Professional details
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I'm so busy these days that it is silly to take on anything new, but I found an opportunity for a small research grant that I might want to submit a proposal for.

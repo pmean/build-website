@@ -9,6 +9,7 @@ category:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 This article has good general advice about how to run a statistical analysis, such as Rule 1: Statistical Methods Should Enable Data to Answer Scientific Questions.

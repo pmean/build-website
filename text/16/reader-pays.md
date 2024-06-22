@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 Something came up in our department about a predatory pay for access journal that was soliciting support. All the appropriate warnings were made (there's a [nice explanation of predatory open access publishing][wiki1] at Wikipedia, if you're curious). But I felt that I had to made a strong defense of the value provided by legitimate open access publishers. Here's a summary of what I wrote.

@@ -8,6 +8,7 @@ categories:
 tags:
 - SQL
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from blog post](http://www.pmean.com/new-images/16/understanding-sql01.png)

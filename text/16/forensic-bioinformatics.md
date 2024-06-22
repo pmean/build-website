@@ -10,6 +10,7 @@ tags:
 - Informatics
 - Research design
 output: html_document
+page_update: complete
 ---
 
 ![Exceprt from website](http://www.pmean.com/new-images/16/forensic-bioinformatics01.png)

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 Working with R is great in that if anything has been done in Statistics, there is an R package that will do it. The problem is that sometimes there are four packages that will do it. So when this happens what do you do? I want to outline what I did recently when I needed to find a package to calculate Cronbach's alpha.

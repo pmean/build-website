@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I'm spending a fair amount of time over the next few months working with Russ Waitman and the Greater Plains Collaborative (GPC). It's an interesting job so far, and one of the things that I find quite appealing about the job is the openness that permeates all of their work.

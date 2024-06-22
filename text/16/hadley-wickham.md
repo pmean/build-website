@@ -9,6 +9,7 @@ tags:
 - Important statisticians
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/hadley-wickham01.png)

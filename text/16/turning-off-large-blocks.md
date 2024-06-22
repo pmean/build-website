@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 When you're running a large and complicated program using R Markdown, you can use the CACHE option to save a lot of time. CACHE will notice if a program chunk has stayed the same and avoid running it again. I tend to avoid using the CACHE option, though, because sometimes it fails to execute something that you want executed, even though it looks on the surface like nothing has changed. So I created some simple program chunks that allow me to explicitly turn off parts of the R Markdown program that I don't need to evaluate at the time. Think of it as a manual cache.

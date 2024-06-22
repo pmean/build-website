@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 I'm giving a talk on the Kaplan-Meier survival curve and wanted to show and interpret a few real examples from the open source literature.

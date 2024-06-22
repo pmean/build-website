@@ -8,6 +8,7 @@ category:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I’m starting a new project as an independent consultant. Normally, I talk very little on my blog about specific projects that I work for, but this work is for a group, the [Great Plains Collaborative (GPC)][gpc1] that is open about almost every aspect of the work they do. That’s music to my ears. Anyway, the GPC is involved with several projects and one of the ones I might do some of my work on is the Great Plains Collaborative Breast Cancer Study. Here is some information about this study, culled from sources available to anyone on the Internet.

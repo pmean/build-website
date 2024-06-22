@@ -8,6 +8,7 @@ tags:
 - Cheat sheet
 - R software
 output: html_document
+page_update: complete
 ---
 
 I have an R cheat sheet, [How Big Is Your Graph][sim3], that explains how to measure the size of various features of your graph in R. This blog post illustrates how you can use some of the commands described in that cheat sheet to draw a perfect circle.

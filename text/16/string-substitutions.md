@@ -9,6 +9,7 @@ category:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I had to make a rather complex string substitution for a project and I thought it would help to briefly review some simpler string substitution examples in R. You can find the R code at [my github site][sim3].

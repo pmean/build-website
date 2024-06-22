@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I dislike the term "big data" because it implies a class of problems that are immune from normal statistical considerations. I will admit that certain concepts such as the p-value become meaningless when you have millions of observations. But other concepts, like selection bias become even more important for big data.

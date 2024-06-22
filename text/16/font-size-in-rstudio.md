@@ -9,6 +9,7 @@ tags:
 - Presenting research
 - R software
 output: html_document
+page_update: complete
 ---
 
 Suppose you're giving a talk and using R Studio. You want to make the fonts a bit larger so your audience can read them. It's easy to do, once you know where to look.

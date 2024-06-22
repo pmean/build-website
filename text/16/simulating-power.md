@@ -9,6 +9,7 @@ tags:
 - Incomplete page
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 In an earlier blog post, I slogged through the calculation of power for a test of association in a two by two table. You can also approximate power using a simulation. It is done quite easily in R, but I want to show it in SPSS. Why? Just because.

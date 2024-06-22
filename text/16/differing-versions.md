@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 When you use R, you are using a program that is constantly evolving. The user-contributed packages are also evolving as well. Normally this is not that big a deal. But sometimes it is.

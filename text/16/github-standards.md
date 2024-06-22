@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 Using a github repository is new to me, and I need to document some things that may be obvious to more experienced programmers. Here are, as far as I understand it, the minimal documentation standards for a github repository.

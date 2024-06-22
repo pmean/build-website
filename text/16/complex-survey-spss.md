@@ -8,6 +8,7 @@ category:
 tags:
 - Complex survey
 output: html_document
+page_update: complete
 ---
 
 I'm helping someone who is looking at a secondary data analysis that involves a complex sampling schemes. This means that the survey used cluster sampling, and/or stratified sampling, and/or survey weights. You need to learn specialized software if you want to analyze complex surveys data properly. Here's how you would do it in SPSS.

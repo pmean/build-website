@@ -8,6 +8,7 @@ tags:
 - Longitudinal data
 - Secondary data analysis
 output: html_document
+page_update: complete
 ---
 
 Someone asked me how to calculate a 90 day readmission rate from a large database. It's a tricky problem because for many databases, it requires you to examine the data from a longitudinal perspective. Here's some general advice.

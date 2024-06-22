@@ -8,6 +8,7 @@ tags:
 - R software
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 Sometimes you forget things. Here's an example.

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Probability concepts
 output: html_document
+page_update: complete
 ---
 
 I submitted a [cute probability problem][fiv1] to the Riddler section of [Nate Silver's Five Thirty Eight web site][fiv2]. Here's a cut-and-paste of the problem.

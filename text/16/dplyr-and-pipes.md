@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/16/dplyr-and-pipes01.png)

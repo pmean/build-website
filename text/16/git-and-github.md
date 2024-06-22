@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I'm definitely "old school" when it comes to programming, but there comes a time when even this old dog needs to learn a new trick. I decided yesterday to use version control for my own R programs. Nothing for clients, mind you, because of confidentiality concerns, but the R code that I use to develop teaching examples is certainly fair game. I'm not totally clueless on version control because of my work for the Greater Plains Collaborative, but it's a different thing to do it totally by yourself. Here's a brief outline of what I needed to do to get version control up and running.

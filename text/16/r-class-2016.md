@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I will be teaching a one semester hour class at UMKC, Introduction to R (MEDB 5505) on Monday, August 8, 2016 through Friday, August 12, 2016. It runs from 9am to noon on all five days. This is part of a series of classes that cover a basic introduction to statistical packages: data import, data management, simple graphs, and simple descriptive statistics. The other classes (MEDB 5506 and MEDB 5507) cover SPSS and SAS.

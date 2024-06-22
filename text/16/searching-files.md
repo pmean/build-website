@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 I am working on a project that has a series of files in R and R Markdown, and I need to track down where a particular function was originally defined. In Unix based systems, this is pretty easy to do.

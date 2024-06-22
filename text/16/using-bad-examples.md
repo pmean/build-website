@@ -9,6 +9,7 @@ tags:
 - Critical appraisal
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I'm on various email discussion groups and every once in a while someone sends out a request that sounds something like this.

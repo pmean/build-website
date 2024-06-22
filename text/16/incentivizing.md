@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Grant writing
 output: html_document
+page_update: complete
 ---
 
 I came across a question, "How does your institution incentivize researchers to write more grants?" that was posted a while ago. I felt it was too late to respond directly, but I did want to mention something in my blog about this. "Incentivize" is one of those awful words that used to be a noun (incentive) but has been changed to a verb to make it sound more trendy. That's something to dislike from the very start, but I have an even greater gripe about incentivizing.

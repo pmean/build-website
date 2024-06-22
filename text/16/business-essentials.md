@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I am giving a presentation on the business essentials that you need to know before you start a career in independent statistical consulting. Here is a summary of what I'll be talking about.

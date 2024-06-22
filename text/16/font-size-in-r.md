@@ -9,6 +9,7 @@ tags:
 - Presenting research
 - R software
 output: html_document
+page_update: complete
 ---
 
 This is one of those obvious things that's not obvious when you need it most. Suppose I'm doing a demo of R for a group like our wonderful [Kansas City R Users Group][kcrug1]. I want to have a readable sized font. Here's how you do it.

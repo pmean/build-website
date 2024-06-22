@@ -8,6 +8,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from article](http://www.pmean.com/new-images/16/selection-of-controls01.png)

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 A friend of mine posted an [inspiring story][wapo1] published in the Washington Post. Unfortunately, it did not inspire me, but rather made me worried about how often we misunderstand autism and how much trouble this causes. It's not statistics, per se, but rather represents an example of how research on new approaches for patients with autism can end up being abusive.

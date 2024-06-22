@@ -8,6 +8,7 @@ tags:
 - Bayesian statistics
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I got an email asking for a recommendation for an introductory book on Bayesian Statistics from someone who recently graduated from our program. It's kind of a difficult request because the mathematical demands needed to understand Bayesian statistics are not trivial. Here's what I recommended.
