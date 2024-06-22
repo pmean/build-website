@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: no
 ---
 
 Someone asked me about careers in Statistics and if you get the best career with a Masters degree or a PhD. That's a very subjective choice and individual preferences should weigh strongly in your choice.

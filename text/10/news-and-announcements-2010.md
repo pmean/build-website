@@ -8,6 +8,7 @@ categories:
 tags:
 - Obsolete pages
 output: html_document
+page_update: no
 ---
 
 This page is obsolete, but is being kept around anyway.

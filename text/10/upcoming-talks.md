@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I might be asked to give a talk in February and I wanted to offer two possible choices. Here are the titles and abstracts of those talks.

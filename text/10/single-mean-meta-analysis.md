@@ -8,6 +8,7 @@ categories:
 tags:
 - Systematic overview
 output: html_document
+page_update: partial
 ---
 
 Someone noted that the usual meta analysis is carried out for the study on two treatment groups, usually for a difference in means. What if you had several studies estimating not a difference in means, but just estimates of a single mean. Could you conduct a meta-analysis in this situation?

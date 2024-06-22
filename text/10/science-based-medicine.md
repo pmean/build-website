@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Evidence based medicine
 output: html_document
+page_update: partial
 ---
 
 Someone asked me about a claim made on an [interesting blog post][atw1] on the [Science Based Medicine blog][sbm1]. The writer of this post, Kimball Atwood, claims that Science Based Medicine (SBM), that tries to draw a distinction between that practice and Evidence Based Medicine (EBM). SBM is better because "EBM, in a nutshell, ignores prior probability (unless there is no other available evidence and falls for the p-value fallacy; SBM does not." Here's what I wrote.

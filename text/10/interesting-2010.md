@@ -8,6 +8,7 @@ tags:
 - Being updated
 - Website details
 output: html_document
+page_update: partial
 ---
 
 November 2010

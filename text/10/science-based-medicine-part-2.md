@@ -9,6 +9,7 @@ tags:
 - Being updated
 - Evidence based medicine
 output: html_document
+page_update: partial
 ---
 
 I get a few fan letters from people, which are greatly appreciated, but when I get the rare critical response, I am even more grateful. It doesn't matter if the criticism is valid or not. Someone who takes on the unpleasant task of critiquing my work offers some valuable insights on:

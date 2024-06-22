@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: partial
 ---
 
 Someone asked a question about the ethics of approaching a panhandler and sharing information about a research study. I don't know all the details, but apparently, this study was examining veterans of the Iraq war, and this panhandler was holding a sign saying something like please help a veteran of the Iraq war. There was some concern about whether the monetary incentive would be disproportionate for someone who had to beg for a living, or it might be a problem if the panhandler was given money and a flyer about the research study at the same time. I discussed some of my concerns about this study, but it was from the perspective of statistical validity rather than from an ethical perspective.

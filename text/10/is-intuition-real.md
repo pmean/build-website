@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 Someone asked if intuition is real.
