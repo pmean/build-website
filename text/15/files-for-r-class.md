@@ -9,7 +9,6 @@ tags:
 - Being updated
 output: html_document
 page_update: no
-page_update: complete
 ---
 
 Here is a brief abstract.

@@ -86,7 +86,6 @@ Back before computers, tables of logarithms simplified complex calculations. To 
   4282
  2141
 4282
-page_update: complete
 -------
 4545343
 ```
