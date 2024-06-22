@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 This page provides resources for a small booklet I have developed, "An introduction to diagnostic testing." I have printed a few of these booklets and attached a fully constructed version of the likelihood ratio slide rule. If you are teaching a class and want to incorporate this material, I am willing to offer a reasonable number of copies of this for free. In exchange, I'd like you to offer some feedback about this booklet. Eventually, I want to expand this into a larger project, possibly a book.

@@ -9,6 +9,7 @@ tags:
 - Hypothesis testing 
 - Incomplete page
 output: html_document
+page_update: complete
 ---
 There are three approaches that are used to demonstrate equivalence, each with its advantages and disadvantages.
 

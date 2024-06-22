@@ -8,6 +8,7 @@ categories:
 tags:
 - Nonlinear regression
 output: html_document
+page_update: complete
 ---
 
 Part of the challenge in nonlinear regression is to choose the correct form of the nonlinear relationship. Part of this is intuition, part of this is understanding some basic mathematics, and part of it is just trial and error.
