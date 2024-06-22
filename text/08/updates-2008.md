@@ -9,6 +9,7 @@ tags:
 - Obsolete page
 - Professional details
 output: html_document
+page_update: no
 ---
 
 This page is osolete. I am keeping it around for mostly nostalgic reasons.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 To understand why researchers today must obtain informed consent from their patients before they subject them to experiments, you need to understand some of the previous abuses of medical research.

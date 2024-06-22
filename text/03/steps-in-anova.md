@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of variance 
 output: html_document
+page_update: complete
 ---
 
 #### Dear Professor Mean,

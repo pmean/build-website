@@ -9,6 +9,7 @@ tags:
 - Poisson regression 
 - Obsolete page
 output: html_document
+page_update: complete
 ---
 
 Note: you can now run Poisson regression directly from the SPSS menus, so this syntax is no longer needed. I am keeping it here because I am an electronic packrat.

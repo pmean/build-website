@@ -8,6 +8,7 @@ categories:
 tags:
 - Descriptive statistics
 output: html_document
+page_update: complete
 ---
 ### Dear Professor Mean,
 
