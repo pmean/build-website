@@ -8,6 +8,7 @@ categories:
 tags:
 - Quality improvement
 output: html_document
+page_update: partial
 ---
 
 I attended a [conference on quality and patient

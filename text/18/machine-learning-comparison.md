@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: partial
 ---
 
 At first glance, you might think that this article looks like a

@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 When you are using R Markdown to create various documents, you are often interested in displaying any informative messages that appear along the way. This is especially true for documents you plan to use yourself. But when you are preparing a report or a presentation for someone else, you may want to suppress these messages. That's not always easy because different functions in R use different means to display messages, especially warning messages. So the option that might suppress a warning message from one function might not work for another function. Warnings when loading packages are notoriously difficult to suppress. I want to list, for my own benefit, all of the options that are available for getting R to shut the heck up.

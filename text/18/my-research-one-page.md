@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 Another place asked for my research interests and asked me to keep it to

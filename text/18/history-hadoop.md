@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 
 If you want to understand big data, you need to understand Hadoop.

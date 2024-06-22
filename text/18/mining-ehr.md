@@ -8,6 +8,7 @@ categories:
 tags:
 - Informatics
 output: html_document
+page_update: partial
 ---
 
 I'm submitting a talk to [an upcoming research

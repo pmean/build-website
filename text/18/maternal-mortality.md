@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: partial
 ---
 
 This article talks about how bad the maternal mortality rates are in the

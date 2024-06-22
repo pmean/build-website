@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 I am teaching a class, Introduction to SAS, that I helped design, but one where another faculty member did all the heavy lifting. I used to teach SAS classes, and I even helped organize a regional SAS conference, but stopped abruptly in 1998. So I'm relearning SAS and one thing that is helping a lot is a product called SAS University which allows you to use SAS for non-commercial purposes for free. Here's how SAS University works.

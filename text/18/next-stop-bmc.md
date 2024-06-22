@@ -10,6 +10,7 @@ tags:
 - Informatics
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I'm working part-time on a research grant and I want to publish some of

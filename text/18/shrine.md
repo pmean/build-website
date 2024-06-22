@@ -8,6 +8,7 @@ categories:
 tags:
 - Informatics
 output: html_document
+page_update: partial
 ---
 
 I'm ginvg a talk about i2b2 (among other things) and when browsing

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: partial
 ---
 
 There has been a lot written about data management problems with using

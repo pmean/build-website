@@ -9,6 +9,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 Michael Fay gave a short course on interval censored data at the 2010

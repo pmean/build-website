@@ -8,6 +8,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 I don't use SAS that much anymore. Not because it's a bad program.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: partial
 ---
 
 There has been a lot written about how lousy Microsoft Excel (and other

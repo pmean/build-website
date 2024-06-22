@@ -8,6 +8,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: partial
 ---
 
 If you are interested in text mining, this is a good data set to start

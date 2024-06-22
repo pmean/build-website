@@ -10,6 +10,7 @@ tags:
 - SAS software
 - SPSS software
 output: html_document
+page_update: partial
 ---
 
 I'm teaching a couple of classes

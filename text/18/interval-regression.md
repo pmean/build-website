@@ -10,6 +10,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 This page shows R code to handle the tricky data sets where the response

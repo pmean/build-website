@@ -8,6 +8,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 A couple of my students are having difficulty with restructuring data

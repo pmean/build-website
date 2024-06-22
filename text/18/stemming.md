@@ -9,10 +9,7 @@ tags:
 - R software
 - Text mining
 output: html_document
-page_text: okay
-page_pngs: okay
-page_link: okay
-page_back: okay
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/18/stemming-01.png)

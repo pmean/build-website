@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 
 I am drafting up a policy on statistical support for research at my

@@ -13,6 +13,7 @@ tags:
 - Survival analysis
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 I'm teaching an online workshop for [The Analysis

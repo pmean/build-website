@@ -8,6 +8,7 @@ categories:
 tags:
 - Informatics
 output: html_document
+page_update: partial
 ---
 
 I am working on a CTSA grant to develop [repeatable downstream pipelines

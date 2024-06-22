@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 The Joint Statistics Meetings had a great talk on Fairness in Artifical Intelligence (AI). The speaker, Sherrie Rose, documented instances where AI has had a discriminatory effect, the wide ranges of causes of this, and how to fix things. I looked up some of the references and resources that she mentioned in her talk and list them below.

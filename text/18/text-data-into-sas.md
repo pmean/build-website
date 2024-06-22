@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 Some of my students in my Introduction to SAS class are having trouble

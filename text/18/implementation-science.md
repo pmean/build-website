@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 I've done a lot of work with Evidence-Based Health, but one big and

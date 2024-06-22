@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 I am teaching a class, Introduction to SAS (MEDB 5507). Here is the

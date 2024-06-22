@@ -8,6 +8,7 @@ categories:
 tags:
 - Longitudinal data
 output: html_document
+page_update: partial
 ---
 
 A very nice resource that talks about difference scores, relative change

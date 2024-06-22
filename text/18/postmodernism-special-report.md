@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 I generally shy away from Philosophical debates, but I did discuss a

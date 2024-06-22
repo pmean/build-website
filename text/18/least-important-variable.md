@@ -9,6 +9,7 @@ tags:
 - Human side of statistics
 - Linear regression
 output: html_document
+page_update: partial
 ---
 
 I heard a story a long time ago

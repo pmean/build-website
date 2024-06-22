@@ -9,6 +9,7 @@ tags:
 - Reproducible research
 - Stata software
 output: html_document
+page_update: partial
 ---
 
 This outlines a way to produce "beautiful Beamer presentations" using

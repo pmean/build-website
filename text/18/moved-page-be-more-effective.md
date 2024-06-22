@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: no
 ---
 
 This post has been combined with a similar post written on 2020-08-06.

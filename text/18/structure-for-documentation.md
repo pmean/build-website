@@ -9,6 +9,7 @@ tags:
 - Statistical computing
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Everybody has different standards for documentation, - and if you are already using a standard you like, don't let me stop you. But if you've never used much documentation and decide that you need to do better, here's a guideline that I developed.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/all-this-reading-01.png)

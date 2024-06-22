@@ -8,6 +8,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 I had three students who successfully completed the Introduction to SAS

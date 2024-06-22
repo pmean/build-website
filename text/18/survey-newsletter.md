@@ -8,6 +8,7 @@ categories:
 tags:
 - Survey design
 output: html_document
+page_update: partial
 ---
 
 The International Association of Survey Statisticians publishes a

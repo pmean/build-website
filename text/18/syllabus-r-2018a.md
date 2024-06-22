@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 I am teaching a class, Introduction to R (MEDB 5505). Here is the

@@ -7,6 +7,7 @@ category: Quote
 tags:
 - Quality improvement
 output: html_document
+page_update: partial
 ---
 
 "Without data, you're just another person with an opinion." W. Edwards

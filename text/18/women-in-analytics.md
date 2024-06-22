@@ -8,6 +8,7 @@ categories:
 tags:
 - Important statisticians
 output: html_document
+page_update: partial
 ---
 
 This is a list (with single paragraph descriptions) of 186 women who

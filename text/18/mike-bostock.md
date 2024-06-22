@@ -10,6 +10,7 @@ tags:
 - Graphical display
 - Important statisticians
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/18/mike-bostock01.png)

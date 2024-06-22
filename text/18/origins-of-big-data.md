@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: partial
 ---
 
 I'm not a big fan of the term "big data" but I've been applying for a

@@ -13,6 +13,7 @@ tags:
 - Reproducible research
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 
 I've been using [a version of LaTeX (MikTeX)](https://miktex.org/) for a
