@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 This website provides the slides and other resources associated with a session at the 2021 Joint Statistics Meetings on open source education resources.

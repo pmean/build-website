@@ -7,6 +7,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 SAS Institute is a privately held company and the two owners are both getting old. So this report about a possible purchase of SAS by an outside group is an interesting development.

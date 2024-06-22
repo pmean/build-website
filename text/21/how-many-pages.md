@@ -8,6 +8,7 @@ tags:
 - Website details
 
 output: html_document
+page_update: complete
 ---
 
 I am updating my website to a new format, and I want to keep track of how many pages have already been updated and how many still need to be updated. It's tricky to get an accurate count, but here is an approximate count, year by year.

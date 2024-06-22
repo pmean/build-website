@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 The data behind a classic article about algorithmic bias.

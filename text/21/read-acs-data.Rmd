@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 Here is a simple example of how to read data from the American Community Survey into R.

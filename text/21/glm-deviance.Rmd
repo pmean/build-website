@@ -8,6 +8,7 @@ categories:
 tags:
 - Generalized linear model
 output: html_document
+page_update: complete
 ---
 
 Deviance is a measure computed for generalized linear models that can help you decide between two competing models. It is somewhat analagous to residual sums of squares in linear regression.

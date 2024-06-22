@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I create a lot of teaching resources using R Markdown. A question arises about how to incorporate SAS code and output into these teaching resources. I had written earlier about SASWeave, and that is one possible solution. There are other solutions as well.

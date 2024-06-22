@@ -8,6 +8,7 @@ categories:
 tags:
 - Generalized linear model
 output: html_document
+page_update: complete
 ---
 
 ```{r notes, echo=FALSE}

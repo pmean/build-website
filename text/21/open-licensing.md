@@ -7,6 +7,7 @@ categories:
 tags:
 - Data sharing
 output: html_document
+page_update: complete
 ---
 
 This paper argues that U.S. Copyright law is a barrier to the sharing of computer code and datasets. She proposes an alternative, the Reproducible Research Standard that encourages reproducibility and collaboriation of scientific research.

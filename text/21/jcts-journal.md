@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 At a Zoom meeting today, someone mentioned an interesting journal that appears to talk a lot about the research process. It is particularly targeted to medical research and research conducted at [Clinical and Translational Science Award sites](https://clic-ctsa.org/ctsa-program-hub-directory). I might want to eventually write some articles for this journal.

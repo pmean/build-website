@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Screenshot from this website](http://www.pmean.com/new-images/21/integrating-humanities-01.png)

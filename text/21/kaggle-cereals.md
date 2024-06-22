@@ -7,6 +7,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: complete
 ---
 
 I'm always on the lookout for simple but interesting datasets. This one provides nutritional informaton on 80 different cereal products.

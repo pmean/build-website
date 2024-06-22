@@ -8,6 +8,7 @@ tags:
 - Bayesian statistics
 - R software
 output: html_document
+page_update: complete
 ---
 
 A nice introduction to a package for group sequential designs using Bayesian methods.

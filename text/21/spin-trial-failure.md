@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of Statistics
 output: html_document
+page_update: complete
 ---
 
 It is unusual for issues like p-value hacking to make it into our court system. It is unpredictable how judges will react to some rather technical arguments..

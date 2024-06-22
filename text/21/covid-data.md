@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 Inadequate data on the COVID-19 pandemic has hindered our ability to make the right decisions about prevention and treatment.

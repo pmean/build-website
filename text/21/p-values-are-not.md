@@ -7,6 +7,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from pre-print](http://www.pmean.com/new-images/21/p-values-are-not-01.png)

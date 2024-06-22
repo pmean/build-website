@@ -7,6 +7,7 @@ categories:
 tags:
 - Health disparities
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/colonizing-research-01.png)

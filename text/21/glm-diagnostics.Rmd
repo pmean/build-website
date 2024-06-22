@@ -8,6 +8,7 @@ categories:
 tags:
 - Generalized linear model
 output: html_document
+page_update: complete
 ---
 
 There are a broad range of diagnostic methods (mostly graphical) that can help you decide from among a dizzying array of alternative models for count data. The most important consideration is to start at the shallow end of the pool with the simplest approaches. Don't jump in at the deep end and try something really complex before you've had the chance to look at simpler models, even if you know they are overly simplistic.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data mining
 output: html_document
+page_update: complete
 ---
 
 This girhub repository has all the PowerPoint slides, handouts, and Python notebooks for a data mining course taught by Steve Elston of Harvard University. It is oriented towards undergraduate students with a reasonable level of familiarity with computing.

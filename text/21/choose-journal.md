@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 An easy to read guide on picking the right journal to send your publication to.

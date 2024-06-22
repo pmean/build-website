@@ -7,6 +7,7 @@ categories:
 tags:
 - Bootstrap
 output: html_document
+page_update: complete
 ---
 
 An interesting approach to the Bootstrap that can handle big data in a single pass, even if you don't know the number of observations in the data set or the data is split across multiple servers.

@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 In a large R program, you might lose track of how functions that you wrote relate to one another. This program examines those relationships and produces an adjacency matrix.

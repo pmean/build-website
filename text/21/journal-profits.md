@@ -7,6 +7,7 @@ categories:
 tags:
 - writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/journal-profits-01.png){width=25%}

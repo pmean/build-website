@@ -7,6 +7,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 A student in my Introduction to SAS class (MEDB 5507) asked a question that was difficult to answer, but also important to answer. The student wanted to know "a good resource to take the SAS skill one level up once we are done with our course." The reason the question is hard to answer is that there are so many excellent resources out there already.

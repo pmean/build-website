@@ -7,6 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 I am having difficulty getting my website converted to blogdown. The latest problem is that all my math equations are not rendering properly. Yihui Xie suggests some reasons why this happens and some workarounds.

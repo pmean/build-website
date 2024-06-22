@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 There is a lot of controversy about open access publishing and the University of California system inserted itself in the middle of the controversy when it canceled subscription access to all Elsevier journals. Just recently, they have negotiated an agreement that is a clear compromise but which promotes the use of open access with their system. This article details the agreement after reviewing the earlier conflict.

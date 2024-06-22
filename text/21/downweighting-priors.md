@@ -7,6 +7,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 There are a variety of approaches to handle informative prior distributions when they disagree sharply with the data. I want to summarize a few papers that present these approaches, mostly so I can keep better track of them. You may find this summary helpful as well.

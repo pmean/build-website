@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I have a directory structure for most projects that is based on the recommendations in [Wilson et al](https://doi.org/10.1371/journal.pcbi.1005510). In particular, I store program code in the src folder and output in the results folder. R Markdown programs, however, present a bit of a challenge in that the output, by default, is stored in the same folder that the R Markdown code came from. It's possible to fix this by modifying the way the knit button works in R Studio.

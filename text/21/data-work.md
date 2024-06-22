@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/21/data-work-01.png)

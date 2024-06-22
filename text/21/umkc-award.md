@@ -9,6 +9,7 @@ tags:
 - Professional details
 categories:
 - Blog post
+page_update: complete
 ---
 
 The UMKC School of Medicine has yearly awards that it hands out to faculty including a [faculty researcher award][fac1]. The awards allow for self-nomination, so I thought "Why not?"

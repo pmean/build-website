@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 This comic shows the peril of using the word "final" in the name of a file. You will find that you have to make changes that invalidate the finalness of your filename.

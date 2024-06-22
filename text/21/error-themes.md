@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 One of my students showed me this paper. It looks at errors in research and tries to array them into a broad set of themese. This is a very ambitious effort and, at first glance, it looks like a logical organization.

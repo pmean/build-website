@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Exceprt from main page](http://www.pmean.com/new-images/21/simply-statistics-01.png)

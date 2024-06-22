@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I attended an interesting webinar on teaching statistical computing skills. The seminar touched on one key paper written in 2010 and a special issue of The Journal of Statistics and Data Science Eduction, published in 2021.

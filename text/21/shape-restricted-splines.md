@@ -7,6 +7,7 @@ categories:
 tags:
 - Linear regression
 output: html_document
+page_update: complete
 ---
 
 Splines allow you to fit an almost infinitely flexible number of nonlinear curves, but sometimes you want to place restrictions, such as monotonicity or periodicity on those curves. This article shows you how to do this.

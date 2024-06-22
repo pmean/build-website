@@ -7,6 +7,7 @@ categories:
 tags:
 - Electronic health records
 output: html_document
+page_update: complete
 ---
 
 A nice illustration of how chaotic electronic health record data can be when aggregated across a large number of hospitals.

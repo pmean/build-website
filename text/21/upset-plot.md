@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 While Venn diagrams can illustrate how much overlap there is among two or three groups, it becomes more complex when you have a lot more than three groups. The upset plot is an alternative way to examine overlap among multiple groups.

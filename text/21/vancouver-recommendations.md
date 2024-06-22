@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 This is a consensus document created by a group of journal editors who met in Vancouver in 1978. This has been updated regularly. It covers authorship guidelines on authorship, corrections and retractions, and manuscript preparation. The website also recommends an [article on authorship][nyl1] written by Magne Nylenna.

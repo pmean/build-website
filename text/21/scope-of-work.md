@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Some of your consulting clients may ask you to produce a scope of work document. This site explains how to write this and what belongs in it.

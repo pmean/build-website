@@ -8,6 +8,7 @@ categories:
 tags:
 - Research design
 output: html_document
+page_update: complete
 ---
 
 This is a collection of articles (currently only five, but I suspect more will be added over time) that were published in the American Journal of Nursing. They cover some of the basic planning that you need to do if you plan to do research in nursing. I suspect the advice would be helpful for other health care professionals as well.

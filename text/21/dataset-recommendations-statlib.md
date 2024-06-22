@@ -8,6 +8,7 @@ tags:
 - Datasets
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 A very old resource on the Internet with interesting datasets is statlib. The quality of the documentation is a bit uneven and some of the datasets are too simple to be used in my classes. Other files use oddball or obscure formats. But here are a few datasets that look interesting.

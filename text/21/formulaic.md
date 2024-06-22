@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 This R package automates an important part of model building: creating formula objects.

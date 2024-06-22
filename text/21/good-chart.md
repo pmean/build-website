@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 A simple guide for choosing among a variety of different visualization methods. These are mostly basic charts, such as pie charts, histograms, and pie charts. I don't agree with all of the choices, but this is still a good starting point.

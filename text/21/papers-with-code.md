@@ -7,6 +7,7 @@ categories:
 tags:
 - Data sharing
 output: html_document
+page_update: complete
 ---
 
 This site promotes the sharing of code and data with research publications and offers links to articles that make their code and data freely available.

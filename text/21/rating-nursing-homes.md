@@ -7,6 +7,7 @@ categories:
 tags:
 - Data quality
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from newspaper article](http://www.pmean.com/new-images/21/rating-nursing-homes-01.png)

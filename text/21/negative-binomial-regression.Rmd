@@ -9,6 +9,7 @@ tags:
 - Probability distributions
 - Generalized linear model
 output: html_document
+page_update: complete
 ---
 
 The negative binomial distribution is similar to the Poisson distribution, but it offers a bit more flexibility. This page will review some basic properties of the negative binomial distribution and show how it can be incorporated into the framework of the generalized linear model.

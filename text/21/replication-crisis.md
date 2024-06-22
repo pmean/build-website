@@ -7,6 +7,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 ![Screen shot of article lead](http://www.pmean.com/new-images/21/replication-crisis-01.png)

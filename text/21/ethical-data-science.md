@@ -8,6 +8,7 @@ tags:
 - Ethics in research
 - Data science
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/ethical-data-science-01.png)

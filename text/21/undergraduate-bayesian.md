@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I attended an interesting webinar on teaching undergraduate Bayesian STatistics courses. Here are some resources I found out about during the webinar. I am putting them here so I don't forget about them.

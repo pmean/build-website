@@ -7,6 +7,7 @@ categories:
 tags:
 - Statistical computing
 output: html_document
+page_update: complete
 ---
 
 After many presentations at the Kansas City R Users Group, I decided a couple of years ago to do most of my R programming with github as the version control system. Perhaps I was too eager in my efforts, as I now have 80 different repositories. I may need to combine and consolidate them, but the first step is to list all of them. Well, almost all of them. I am not listing any private archives.

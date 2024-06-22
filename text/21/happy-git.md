@@ -9,6 +9,7 @@ tags:
 - R software
 - Software engineering
 output: html_document
+page_update: complete
 ---
 
 I have found that version control using git to be an integral part of my workflow. This website is an introduction of how to use git with R.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Secondary data analysis
 output: html_document
+page_update: complete
 ---
 
 The National Health and Nutrition Examination Survey (NHANES) is a large scale survey conducted by the Centers for Disease Control and Prevention (CDC). It uses a complex sampling scheme to insure that the results are representative of the population of the United States, excluding institutionalized persons. It is an unusal survey because it is combined with a physical exam, a dietary evaluation and a wide range of laboratory measurements from blood and urine samples. On this web page, I want to provide a not-too-technical overview of how CDC collects data for this survey as well as their recommendations on how to analyze it.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 A cute song by famous satirist, Tom Lehrer, on the secret of success in research. Plagiarism! 

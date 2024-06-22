@@ -7,6 +7,7 @@ categories:
 tags:
 - Python
 output: html_document
+page_update: complete
 ---
 
 I'm trying to learn Python, and a recent short course (Data Scientist's Workflow: EDA and Statistical Modeling with Python in Jupyter Noteboos workshop, taght by Chris Holdgraf, David Liu, Nathan Taback and Nathaniel Stevens) has helped me to organize some of the basic resources that a statistician would need in Python. The short course materials are available on a [github repository][ssc1].

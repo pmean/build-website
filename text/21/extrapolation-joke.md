@@ -7,6 +7,7 @@ categories:
 tags:
 - Linear regressioN
 output: html_document
+page_update: complete
 ---
 
 There's a joke I stole from the Internet, which you can find all over the place ([here][jok1], [here][jok2], and [here][jok3]). It is a humorous way of warning about the dangers of extrapolating beyond the range of the data. Let me share my version.

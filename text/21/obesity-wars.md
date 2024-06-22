@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Some areas of research are quite contentious and when you publish an article that angers advocates on one side or the other of an issue, you may find yourself the talk of some bitter personal attacks. This article provides a personal account of such an event.

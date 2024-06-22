@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ![First page of article](http://www.pmean.com/new-images/21/cliodynamics-01.png)

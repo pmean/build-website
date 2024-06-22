@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 The authors argue that regression models fail to capture important levels of uncertainty needed for economic decisions.

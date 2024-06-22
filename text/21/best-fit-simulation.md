@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 ![]()http://www.pmean.com/new-images/21/best-fit-simulation-01.png)

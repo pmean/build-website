@@ -8,6 +8,7 @@ categories:
 tags:
 - Probability distributions
 output: html_document
+page_update: complete
 ---
 
 Many statistics, such as mortality statistics, are based on fundamental counting processes. If you want to understand these processes, you should start by trying to understand the Poisson distribution. Here's a brief introduction.

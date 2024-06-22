@@ -7,6 +7,7 @@ categories:
 tags:
 - Measuring agreement
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Cover of book](http://www.pmean.com/new-images/21/health-measurement-scales-01.png)

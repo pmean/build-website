@@ -8,6 +8,7 @@ tags:
 - R software
 - Reproducible research
 output: html_document
+page_update: complete
 ---
 
 This package has a collection of functions that lets you create information about a dataset in R and store that information as an attribute. This makes it easier for you to share your data with others.

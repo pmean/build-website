@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 While looking for some materials on my site, I found a couple of things that others had written about getting starting in the business of statistical consulting.

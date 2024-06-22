@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 There are some commonly used statistical methods (e.g., post hoc power, stepwise regression) which are widely criticized in the Statistics literature. If you run across one of these, this page will provide the exact citations that you need to refute the method. This is a wiki site, so you can edit or add to the page.

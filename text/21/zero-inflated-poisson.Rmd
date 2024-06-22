@@ -8,6 +8,7 @@ categories:
 tags:
 - Generalized linear model
 output: html_document
+page_update: complete
 ---
 
 In models of counts, zeros represent a special case. Often there is more than one reason why you might observe a zero count, and you might want to model this probability separately. One approach is known as a zero inflated Poisson model.

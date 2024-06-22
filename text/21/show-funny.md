@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 A satirical look at sentiment analysis--in particular, the use of sentiment analysis to identify "the funniest movies ever made."

@@ -7,6 +7,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Frank Harrell is a very opinionated statisticians, and his opinions are almost always on the mark. He's shaped the discipline of Statistics in many ways over a career that spans more than four decades. This site includes a blog by Frank Harrell with additional educational resources.

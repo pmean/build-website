@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/roadmap-historical-controls-01.png)

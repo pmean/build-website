@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 John Chambers is one of the creators of the S programming language,a pre-cursor to R. In this article, he describes how both R and S were developed with goal of advancing data science.

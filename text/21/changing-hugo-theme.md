@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from blog post](http://www.pmean.com/new-images/21/changing-hugo-theme-01.png)

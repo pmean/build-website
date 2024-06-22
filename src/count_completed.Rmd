@@ -47,7 +47,7 @@ md_files %>%
 
 ```{r md_links}
 c_text <- "page_update: "
-f_text <- "\[sim1\]\: "
+f_text <- "\\[sim1\\]\\: "
 md_files$page_update_line <- "999"
 md_files$old_link <- "999"
 for (i_row in 1:nrow(md_files)) {
@@ -83,7 +83,7 @@ for (y in subdir_list) {
 }
 ```
 
-### Pages with page_update = `r (update_text="n")`
+### Pages with page_update = `r (update_text="no")`
 
 ```{r}
 for (y in subdir_list) {

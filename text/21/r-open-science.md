@@ -7,13 +7,14 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 R OPen Science is a team effort to develop a systematic process to develop and test R packages. The team has a [web site][and1], a [book][and2], and a [software review system][and3].
 
 <!--more-->
 
-Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, Ma�lle Salmon, Melina Vidoni. Transforming science through open data, software & reproducibility. Available in [html format][and1]
+Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, Malle Salmon, Melina Vidoni. Transforming science through open data, software & reproducibility. Available in [html format][and1]
 
 Brooke Anderson, Scott Chamberlain, Laura DeCicco, Julia Gustavsen, Anna Krystalli, Mauro Lepore, Lincoln Mullen, Karthik Ram, Noam Ross, Ma�lle Salmon, Melina Vidoni. R OpenSci Packages. Development, Maintenance, and Peer Review. Available in [pdf format][and2].
 

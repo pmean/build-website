@@ -7,6 +7,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I attended a talk on recent developments in spatial statistics and while most of the talk was over my head, I did not some resources in the introduction that might be helpful for someone like me who is just learning about this approach.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Secondary data analysis
 output: html_document
+page_update: complete
 ---
 
 Here are some resources on the CDC website about NHANES, with special attention to lead assessments.

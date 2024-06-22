@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 Cutting edge research on algorithms and how they affect human biases.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 I attended a talk on the special issues facing biostatisticians in academic positions. The speaker shared three interesting documents about how to evaluate statistical efforts in the research arena. 

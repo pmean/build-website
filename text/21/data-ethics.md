@@ -7,6 +7,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 Craig S. Mullins. We Are in Need of Data Ethics Now. Database trends and applicaitons, 2018-07-02. Available in [html format][mul1]. Approximately 1,400 words.

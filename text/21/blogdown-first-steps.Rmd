@@ -8,6 +8,7 @@ categories:
 tags:
 - Website details
 output: html_document
+page_update: complete
 ---
 
 I am in the process of merging my website, written from 1999 to 2012 with my blog, which I started around 2012. I am using blogdown, an R package that creates a website from Markdown and Rmarkdown files. It's not been easy, but when it is done, it will all be worthwhile.

@@ -7,6 +7,7 @@ categories:
 tags:
 - 
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/21/supervisor-phd-relationship-01.png) 

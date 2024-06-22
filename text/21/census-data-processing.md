@@ -7,6 +7,7 @@ categories:
 tags:
 - Bureau of the Census
 output: html_document
+page_update: complete
 ---
 
 The data collected as part of the decennial U.S. Census comes from a variety of sources and it all needs to be combined. This article provides a simple and easy to follow overview of the various data processing steps.

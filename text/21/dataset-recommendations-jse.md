@@ -8,6 +8,7 @@ tags:
 - Datasets
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 The Journal of Statistics Education (now called the Journal of Statistics and Data Science Education) maintains an [archive of interesting datasets][jse01]. The data documentation is mostly good, and you can find out more about these data sets in the journal articles themselves. Here are a few datasets that look interesting (I am skipping datasets from this archive that I have already used in class).

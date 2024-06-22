@@ -7,6 +7,7 @@ categories:
 tags:
 - Research design
 output: html_document
+page_update: complete
 ---
 
 A nice guide for assessing the degree to which a clinical trial is pragmatic. It uses a nine item scale that is intuitive and easy to apply. There is also a [website][lou1] that discussed this toolkit.
