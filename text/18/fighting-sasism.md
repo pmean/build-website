@@ -9,6 +9,7 @@ tags:
 - R software
 - SAS software
 output: html_document
+page_update: complete
 ---
 
 I told a story today in a webinar workshop that I thought I should get down in writing for my blog. It involves a prejudice unique among statisticians called SASism.

@@ -7,6 +7,7 @@ categories:
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from vignette](http://www.pmean.com/new-images/21/alluvial-plots-01.png)

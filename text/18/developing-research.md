@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I've been applying for a variety of jobs, and one of them asked for a

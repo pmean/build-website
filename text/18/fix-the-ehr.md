@@ -8,6 +8,7 @@ categories:
 tags:
 - Informatics
 output: html_document
+page_update: partial
 ---
 
 This article is a nice counterbalance to all the glowing reports about

@@ -8,6 +8,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: partial
 ---
 
 I was at a meeting where I learned about some recent efforts with big

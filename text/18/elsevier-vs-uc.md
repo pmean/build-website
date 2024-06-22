@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/18/elsevier-vs-uc01.png)

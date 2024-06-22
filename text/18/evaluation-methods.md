@@ -8,6 +8,7 @@ categories:
 tags:
 - Informatics
 output: html_document
+page_update: partial
 ---
 
 When I was talking about using the electronic health record as a

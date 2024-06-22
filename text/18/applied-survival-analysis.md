@@ -8,6 +8,7 @@ categories:
 tags:
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 Although the title says "Applied", this book has a fair amount of

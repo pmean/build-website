@@ -8,6 +8,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: partial
 ---
 
 This is a classic data set for testing out image analysis. You have a

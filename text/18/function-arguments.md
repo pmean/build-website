@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 If you program anything in R, you'll end up calling a lot of functions.

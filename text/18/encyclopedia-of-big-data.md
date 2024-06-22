@@ -9,6 +9,7 @@ tags:
 - Data science
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I don't call myself a "big data" analyst

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 I was talking about pricing models for consulting in an email exchange

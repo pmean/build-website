@@ -8,6 +8,7 @@ tags:
 - Human side of statistics
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I've gotten an inquiry about teaching a couple of webinars. Nothing's official yet, but let me outline the? these webinars here on my blog. If the offer becomes official, I will update on this blog post or on a new post.

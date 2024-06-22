@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Text mining
 output: html_document
+page_update: partial
 ---
 
 I was at an interesting talk about sentiment analysis and decided to try

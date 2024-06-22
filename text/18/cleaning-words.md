@@ -10,6 +10,7 @@ tags:
 - R software
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 In many text mining or natural language processing applications, you will have problems with words that are very similar, but which are counted separately. An example might be the words win, winner, and winning. You can combine these words into a single category using stemming. This blog post gives a nice overview of stemming.

@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: partial
 ---
 
 I should have titled this page "I'm a Star!" because the School of

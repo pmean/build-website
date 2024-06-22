@@ -7,6 +7,7 @@ category: Recommendation
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 Doug Zahn has done a tremendous amount of work on what I like to call

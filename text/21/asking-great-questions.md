@@ -7,6 +7,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Eric Vance has done a lot of work about improving the process of statistical consulting. This talk was presented at the 2021 Joint Statistics Meetings and explained that great questions can make deep contributions and create strong relationships. 

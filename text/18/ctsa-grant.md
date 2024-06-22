@@ -10,6 +10,7 @@ tags:
 - R software
 - SQL
 output: html_document
+page_update: partial
 ---
 
 I'm on a [Clincal and Translational Science Award

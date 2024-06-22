@@ -9,6 +9,7 @@ tags:
 - Presenting research
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/18/convert-powerpoint01.png)

@@ -8,6 +8,7 @@ categories:
 tags:
 - Privacy in research
 output: html_document
+page_update: complete
 ---
 
 I'm working on a project that might be exempt from IRB review...if I can convert a particular ID code to an anonymous code. The ID codes are an eight digit number. Here's a simple approach that should work for this project.

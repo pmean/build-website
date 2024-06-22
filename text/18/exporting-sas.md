@@ -8,6 +8,7 @@ categories:
 tags:
 - SAS software
 output: html_document
+page_update: partial
 ---
 
 I got a question about how to export a graph in SAS to a program like

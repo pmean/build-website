@@ -8,6 +8,7 @@ categories:
 tags:
 - Data management
 output: html_document
+page_update: partial
 ---
 
 This is a nice explanation of what goes into a data dictionary, written

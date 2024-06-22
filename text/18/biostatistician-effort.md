@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 
 What percentage effort is reasonable for Biostatistics support on a

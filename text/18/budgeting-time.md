@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 An email discussion about the appropriate percentage effort on research

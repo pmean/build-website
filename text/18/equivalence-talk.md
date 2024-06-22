@@ -8,6 +8,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: partial
 ---
 
 I'm making a webinar presentation in April for [The Analysis

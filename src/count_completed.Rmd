@@ -47,7 +47,7 @@ md_files %>%
 
 ```{r md_links}
 c_text <- "page_update: "
-f_text <- "[sim1]: "
+f_text <- "\[sim1\]\: "
 md_files$page_update_line <- "999"
 md_files$old_link <- "999"
 for (i_row in 1:nrow(md_files)) {
@@ -57,10 +57,9 @@ for (i_row in 1:nrow(md_files)) {
     str_subset(fixed(c_text)) %>%
     str_replace(fixed(c_text), "") -> page_update
   file_text %>%
-    str_subset(fixed(f_text)) %>%
+    str_subset(f_text) %>%
     str_replace(f_text, "") %>%
-    paste0("") %>%
-    paste0(collapse=", ") -> old_link
+    paste0("", collapse=", ") -> old_link
   n <- length(page_update)
   if (n > 1) {
     cat(

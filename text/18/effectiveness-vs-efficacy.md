@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: partial
 ---
 
 This is a non-technical discussion of the difference between

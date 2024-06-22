@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 output: html_document
+page_update: complete
 ---
 
 This is a cautionary article about how machine learning models can lead to unintended discriminatory hiring policies.

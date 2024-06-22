@@ -9,6 +9,7 @@ tags:
 - Data science
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 I got this recommendation from a friend. IBM has a large number of free

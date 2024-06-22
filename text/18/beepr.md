@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: partial
 ---
 
 This package was mentioned at the most recent meeting of the Kansas City

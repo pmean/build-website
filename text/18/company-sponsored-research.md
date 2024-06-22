@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: partial
 ---
 
 Very little of my research fits into the category of company-sponsored

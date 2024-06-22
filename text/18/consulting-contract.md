@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 Someone asked me about what sort of contract to use with a new client.

@@ -12,6 +12,7 @@ tags:
 - SAS software
 - SPSS software
 output: html_document
+page_update: partial
 ---
 
 I have helped develop and have taught (along with other faculty in our

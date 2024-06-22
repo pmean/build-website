@@ -9,6 +9,7 @@ tags:
 - Data management
 - R software
 output: html_document
+page_update: partial
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/18/excel-users01.png)
