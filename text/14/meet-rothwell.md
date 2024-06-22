@@ -8,6 +8,7 @@ categories:
 tags:
 - Important statisticians
 output: html_document
+page_update: partial
 ---
 
 This is a brief interview with the director of the National Center for

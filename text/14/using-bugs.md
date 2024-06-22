@@ -9,6 +9,7 @@ tags:
 - Bayesian statistics
 - R software
 output: html_document
+page_update: complete
 ---
 
 I am giving a talk today for the Kansas City R Users group about BUGS

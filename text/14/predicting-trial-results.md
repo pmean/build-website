@@ -8,6 +8,7 @@ categories:
 tags:
 - Early stopping
 output: html_document
+page_update: partial
 ---
 
 If you've ever been involved with interim reviews of clinical trials on

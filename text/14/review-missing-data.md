@@ -8,6 +8,7 @@ categories:
 tags:
 - Missing data
 output: html_document
+page_update: partial
 ---
 
 This is a nice summary of the advantages and disadvantages of various

@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - Presenting research
 output: html_document
+page_update: complete
 ---
 
 This blog post explains that you can't just put a graph up on a screen

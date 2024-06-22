@@ -8,6 +8,7 @@ categories:
 tags:
 - Probability concepts
 output: html_document
+page_update: complete
 ---
 
 This is an interview with David Hand, the author of a new book, The

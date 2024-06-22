@@ -10,6 +10,7 @@ tags:
 - Longitudinal data
 - Missing data
 output: html_document
+page_update: partial
 ---
 
 I am working on a class that will teach basic data management and

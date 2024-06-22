@@ -8,6 +8,7 @@ categories:
 tags:
 - Observational studies
 output: html_document
+page_update: partial
 ---
 
 This video gives a non-technical overview of the strengths and

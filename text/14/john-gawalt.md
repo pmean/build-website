@@ -8,6 +8,7 @@ categories:
 tags:
 - Important statisticians
 output: html_document
+page_update: partial
 ---
 
 This is a brief interview with John Gawalt, the new director of the

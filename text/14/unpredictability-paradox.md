@@ -10,6 +10,7 @@ tags:
 - Randomization
 - Systematic overviews
 output: html_document
+page_update: complete
 ---
 
 This is a commentary on a 2011 Cochrane Review that found substantial

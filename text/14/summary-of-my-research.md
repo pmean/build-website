@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Accrual problems in clinical trials
 output: html_document
+page_update: partial
 ---
 
 My boss at UMKC (I'm part-time at UMKC and part-time independent

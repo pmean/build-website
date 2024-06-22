@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 ![](http://www.pmean.com/new-images/14/physiological-statistics01.png)

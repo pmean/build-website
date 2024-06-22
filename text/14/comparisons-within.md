@@ -8,6 +8,7 @@ categories:
 tags:
 - Longitudinal data
 output: html_document
+page_update: complete
 ---
 
 In studies with a baseline, examining the decline exclusively within the

@@ -9,6 +9,7 @@ tags:
 - Longitudinal data
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 This site provides description of a free software package

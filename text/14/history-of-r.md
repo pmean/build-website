@@ -8,6 +8,7 @@ category:
 tags:
 - R software
 output: powerpoint_presentation
+page_update: partial
 ---
 
 ### R sprouted from S

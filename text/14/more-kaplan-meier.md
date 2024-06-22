@@ -9,6 +9,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 I found a larger data set and wanted to show how you could use the

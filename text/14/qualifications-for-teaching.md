@@ -8,6 +8,7 @@ categories:
 tags:
 - Teaching resources
 output: html_document
+page_update: partial
 ---
 
 The American Statistical Association and the Mathematical Association of

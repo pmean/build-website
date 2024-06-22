@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 
 When you are asked to prepare a biosketch for a research grant, you

@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 I got a question today from someone submitting a research protocol to

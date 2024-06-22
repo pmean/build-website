@@ -9,6 +9,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: complete
 ---
 
 I wanted to show a couple of Cox proportional hazards regression models

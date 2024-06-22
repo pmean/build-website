@@ -9,6 +9,7 @@ tags:
 - Grant writing
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 This blog entry from the International Initiative for Impact Evaluation

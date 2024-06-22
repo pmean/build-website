@@ -8,6 +8,7 @@ categories:
 tags:
 - Analysis of variance
 output: html_document
+page_update: complete
 ---
 
 I needed to look up a formula for the estimating the relative efficiency

@@ -8,6 +8,7 @@ categories:
 tags:
 - Randomization
 output: html_document
+page_update: partial
 ---
 
 This is an overview of some of the ethical controversies associated with

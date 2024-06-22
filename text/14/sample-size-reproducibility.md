@@ -9,6 +9,7 @@ tags:
 - Measuring agreement
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 Dear Professor Mean: I am using a risk stratification tool for patients

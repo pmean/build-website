@@ -7,6 +7,7 @@ category: Recommendation
 tags:
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 This slide show includes some examples of really bad (and a few really

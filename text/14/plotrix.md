@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - R software
 output: html_document
+page_update: partial
 ---
 
 R has a lot of nice plotting features built in

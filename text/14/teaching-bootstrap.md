@@ -8,6 +8,7 @@ categories:
 tags:
 - Bootstrap
 output: html_document
+page_update: complete
 ---
 
 Tim Hesterberg has been a long time advocate of the use of the

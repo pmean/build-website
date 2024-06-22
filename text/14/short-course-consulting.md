@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Human side of statistics
 output: html_document
+page_update: partial
 ---
 
 There has been a bit of discussion on submitting a proposal to teach a

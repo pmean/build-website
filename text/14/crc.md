@@ -6,6 +6,7 @@ date: "2014-11-18"
 category: Blog post
 tags:
 output: html_document
+page_update: complete
 ---
 
 Dear Professor Mean, I run a clinic and have a company interested in

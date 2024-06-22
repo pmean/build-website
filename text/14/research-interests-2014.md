@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 
 I attended a working group meeting for researchers interested in Chem

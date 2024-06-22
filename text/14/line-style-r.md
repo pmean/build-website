@@ -9,6 +9,7 @@ tags:
 - Graphical display
 - R software
 output: html_document
+page_update: partial
 ---
 
 Melissa Clarkson created a very nice two page PDF file that shows very

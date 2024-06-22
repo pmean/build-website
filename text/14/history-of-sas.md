@@ -8,6 +8,7 @@ tags:
 - SAS software
 - Statistical computing
 output: html_document
+page_update: partial
 ---
 
 I'm helping to put together three separate classes, Basic data

@@ -9,6 +9,7 @@ tags:
 - R software
 - Survival analysis
 output: html_document
+page_update: partial
 ---
 
 I am giving a talk about using R for survival analysis and I wanted to

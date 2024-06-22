@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Survey design
 output: html_document
+page_update: complete
 ---
 
 Dear Professor Mean, I read a newspaper report about speed limits and

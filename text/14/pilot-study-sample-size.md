@@ -9,6 +9,7 @@ tags:
 - Pilot studies
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 This study is (sadly) not available for free on the Internet

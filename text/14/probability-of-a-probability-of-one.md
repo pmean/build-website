@@ -8,6 +8,7 @@ categories:
 tags:
 - Bayesian statistics
 output: html_document
+page_update: partial
 ---
 
 Someone wrote asking me about a variation of the "Rule of Three". This

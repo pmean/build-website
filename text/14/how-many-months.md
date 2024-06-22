@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Research design
 output: html_document
+page_update: partial
 ---
 
 I got a question that I had never heard before, and it sort of is a

@@ -8,6 +8,7 @@ categories:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Front page of research article](http://www.pmean.com/new-images/15/17-years01.png)

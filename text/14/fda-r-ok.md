@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 This blog post reviews a presentation by Jae Brodowsky, a statistician

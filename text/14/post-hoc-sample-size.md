@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Post hoc power
 output: html_document
+page_update: partial
 ---
 
 Someone asked about references on post hoc power calculation on the

@@ -7,6 +7,7 @@ category: Quote
 tags:
 - Graphical display
 output: html_document
+page_update: partial
 ---
 
 ...when people assume that the Excel output is enough. I think of all
