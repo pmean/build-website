@@ -76,7 +76,7 @@ for (y in subdir_list) {
 ```
 
 ```{r}
-test1 <- paste0("## " 1:5)
+test1 <- paste0("## ", 1:5)
 ```
 
 `r test1`
