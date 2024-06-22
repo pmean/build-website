@@ -7,6 +7,7 @@ categories:
 tags:
 - Information theory
 output: html_document
+page_update: partial
 ---
 
 One of the research problems that I am working on involves evaluation of a subjective rating system. I have been using information theory to try to identify objects where the evaluators agree well and objects where the evaluators do not agree well. I also am working on identifying objects that an individual rater does poorly. The method is to measure when the surprisal of the category that a rater selected is much lower than the entropy (the average surprisal across all raters).

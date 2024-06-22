@@ -7,6 +7,7 @@ categories:
 tags:
 - Sampling
 output: html_document
+page_update: partial
 ---
 
 Someone asked how to use weights to adjust for the fact that certain strata in a study were recruited more vigorously than other strata. For example, suppose you sampled at four communities and noted the age distribution as 0-14 years, 15-39 years, and  40+ years. How would you adjust for differential age distributions.

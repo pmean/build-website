@@ -7,6 +7,7 @@ categories:
 tags:
 - Systematic overviews
 output: html_document
+page_update: partial
 ---
 
 Someone asked a rather philosophical question, is there ever an end to research in a given area? Will there ever be a "last word" on a research topic. Here's what I wrote in response.

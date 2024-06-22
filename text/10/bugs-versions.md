@@ -8,6 +8,7 @@ tags:
 - Bayesian statistics
 - Being updated
 output: html_document
+page_update: partial
 ---
 
 I am working on some Bayesian models that use a program called BUGS. BUGS stands for Bayesian Inference Using Gibbs Sampling. There are several ways you can run BUGS, and it is worthwhile to note why there are multiple programs.

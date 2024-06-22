@@ -7,6 +7,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: partial
 ---
 
 As I mentioned in an [earlier webpage](SecondBook.html), I am talking to
