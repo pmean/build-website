@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 One of my favorite people to work with, Vidya Sharma, was asking me how to compute the sample size in a cluster randomized trial. I had started to write a web page about this, but never found the time to finish it.

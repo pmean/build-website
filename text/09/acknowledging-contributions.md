@@ -7,6 +7,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: no
 ---
 
 #### Dear Professor Mean,

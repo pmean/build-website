@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 This page is obsolete, but I am keeping it around because I am an electronic pack rate.
 

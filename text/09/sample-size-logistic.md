@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: complete
 ---
 
 I might need to do a sample size justification for a logistic regression model. How would this be done? Let me outline some simple cases.

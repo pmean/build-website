@@ -9,6 +9,7 @@ tags:
 - Descriptive statistics
 - Graphical display
 output: html_document
+page_update: complete
 ---
 
 *This is an outline of a speech that I gave to Bluejacket Toastmasters on June 5, 2003.*

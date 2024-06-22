@@ -7,6 +7,7 @@ categories:
 tags:
 - Randomization in research
 output: html_document
+page_update: no
 ---
 
 #### Dear Professor Mean,

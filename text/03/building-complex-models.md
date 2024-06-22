@@ -8,6 +8,7 @@ categories:
 tags:
 - Linear regression 
 output: html_document
+page_update: complete
 ---
 
 When you have a lot of variables that might possibly influence your outcome, your desire is to find some automated procedure that will select your model for you. Using an automated approach is a mistake, because you need to use your own medical and scientific intuition to build the model.
