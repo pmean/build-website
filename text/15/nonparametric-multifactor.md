@@ -9,6 +9,7 @@ tags:
 - Logistic regression
 - Nonparametric tests
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

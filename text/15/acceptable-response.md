@@ -9,6 +9,7 @@ tags:
 - Observational studies
 - Survey design
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/15/cdcfluview01.png)

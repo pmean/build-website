@@ -8,6 +8,7 @@ category:
 tags:
 - Critical appraisal
 output: html_document
+page_update: complete
 ---
 
 Referring to anecdotal data: "That's not an experiment you have there, that's an experience." Sir Ronald A. Fisher. I do not know where I found this quote. Sorry!

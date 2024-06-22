@@ -8,6 +8,7 @@ categories:
 tags:
 - 
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Graphic image of a light bulb joke](http://www.pmean.com/new-images/15/how-many-research-subjects01.png)

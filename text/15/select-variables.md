@@ -8,6 +8,7 @@ category:
 tags:
 - Risk adjustment
 output: html_document
+page_update: complete
 ---
 
 I was helping a colleague write a response to a reviewer who asked about a risk adjusted model. How did you select the variables for adjustment? He/she speculated that we had used some type of stepwise selection. I used to do this, but stopped doing it in favor of adjusting for any or all variables that were known or suspected to be important. There are serious problems with screening using stepwise approaches to select variables for risk adjustment. But the literature is quite complex and there is no apparent consensus on what is best. Here are some quotes from a few publications about this issue.

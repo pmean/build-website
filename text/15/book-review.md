@@ -9,6 +9,7 @@ tags:
 - Critical appraisal
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of book review](http://www.pmean.com/new-images/15/book-review01.png)

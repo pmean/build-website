@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 The U.S. National Institutes of Health (NIH) has a new biosketch format where they ask you to summarize "up to five of your most significant contributions to science." Here's a first draft of my research contributions to numerical accuracy.

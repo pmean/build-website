@@ -8,6 +8,7 @@ category:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 Someone posed an interesting question on the Statistics Consulting message board of the American Statistical Association. To paraphrase, her question was what sort of difficulties would an introvert have in statistical consulting and how do you teach those introverted consultants to overcome those problems. Here's what I wrote.

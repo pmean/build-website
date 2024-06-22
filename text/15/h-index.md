@@ -8,6 +8,7 @@ category:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 It's a silly number, perhaps, but I tried to calculate my H-index today. The H-index lists your publications in order from the most cited to the least cited and then finds the value where rank order equals the number of citations. My h-index is 24 which means that I have 24 papers that have been cited 24 or more times. Confused? Here's a [better explanation from Wikipedia][wik1]. Anyway, I used Research Gate to get an approximation to this (I'm not sure if Research Gate has an accurate citation count).

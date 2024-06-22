@@ -10,6 +10,7 @@ tags:
 - nonlinear regression
 - R software
 output: html_document
+page_update: complete
 ---
 
 I wanted to provide an overview of how you analyze a classic nonlinear regression model. It is a difference of two exponential functions. This nonlinear function is used commonly in pharmocokinetic models and is a simply way to model the oral administration of a drug. I want to show how the model works in a mathematical sense and then how you fit it using R.

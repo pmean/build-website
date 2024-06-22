@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of blog post](http://www.pmean.com/new-images/15/r-is-sixth01.png)

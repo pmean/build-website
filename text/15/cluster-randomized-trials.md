@@ -9,6 +9,7 @@ tags:
 - Multilevel models
 - Research design
 output: html_document
+page_update: complete
 ---
 
 I'm helping out a researcher with sample size justification for a cluster randomized trial. I may write a bit about that soon, but in the process of double checking my formulas and calculations, I ran across several articles that discussed the pros and cons of cluster randomized trials.

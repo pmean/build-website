@@ -8,6 +8,7 @@ category:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I get requests for a short biography from people asked to introduce me. I like to store these on my website so that I can refer to them and update them. Here's the latest short bio.

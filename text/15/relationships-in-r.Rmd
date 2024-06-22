@@ -8,6 +8,7 @@ categories:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I'm giving a talk for the Kansas City R Users Group on how to get a

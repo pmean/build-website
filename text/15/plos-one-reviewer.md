@@ -8,6 +8,7 @@ categories:
 tags:
 - Writing research papers
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/15/plos-one-reviewer01.png)

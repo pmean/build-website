@@ -8,6 +8,7 @@ category:
 tags:
 - Grant writing
 output: html_document
+page_update: complete
 ---
 
 I was reviewing a grant and the section on limitations and alternative strategies started off with the following sentence, "We do not anticipate any major limitations in conducting this research." I suggested in my comments that this was a bad way to start off this section. Here's why.

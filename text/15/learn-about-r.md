@@ -9,6 +9,7 @@ tags:
 - R software
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 I get a lot of questions along the lines of "I want to learn R, can you help me?" or "Where can I learn more about R?" or some other variation. These questions are usually from people who are total beginners or who have just started with R. I don't have a good answer for them, because learning anything new is hard. But let me try here to outline a few things you can do. Some of these, I have no personal experience with, but have heard recommendations.

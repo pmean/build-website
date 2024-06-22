@@ -8,6 +8,7 @@ category:
 tags:
 - Risk adjustment
 output: html_document
+page_update: complete
 ---
 
 Someone noted in a passing comment in their email that they found the term "confounding" to be difficult and confusing. I've been doing this stuff for over thirty years, but to be quite honest, I get a little nervous about this as well. But I took the time to explain a simpler concept, "covariate imbalance."

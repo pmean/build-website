@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/15/social-media-for-scientists01.png)

@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Image from website](http://www.pmean.com/new-images/15/orcid-database01.png)

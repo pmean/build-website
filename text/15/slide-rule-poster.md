@@ -9,6 +9,7 @@ tags:
 - Diagnostic testing
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 I submitted a poster to the 2015 UMKC Faculty Research Symposium (described at the [UMKC Office of Research Support website][ors1]). It's a chance to show off some of the work I did a while back and to look for collaborators among other UMKC faculty for future research projects.

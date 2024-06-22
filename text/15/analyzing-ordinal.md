@@ -9,6 +9,7 @@ tags:
 - Logistic regression
 - Ordinal data
 output: html_document
+page_update: complete
 ---
 
 ### Dear Professor Mean,

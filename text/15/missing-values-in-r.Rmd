@@ -8,6 +8,7 @@ category:
 tags:
 - R software
 output: html_document
+page_update: complete
 ---
 
 I'm talking a bit about missing values in R this afternoon for the

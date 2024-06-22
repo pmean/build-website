@@ -9,6 +9,7 @@ tags:
 - Human side of statistics
 - Observational studies
 output: html_document
+page_update: complete
 ---
 
 Someone posted a question noting that most of the statistical consulting projects that they worked on finished in a reasonable time frame, a few were outliers. They took a lot longer and required a lot more effort by the statisticians. Were there any common features to these outliers they wondered. So they asked if anyone else had identified methodological features of projects that went overtime. I only had a subjective impression, but thought it was still worth sharing.

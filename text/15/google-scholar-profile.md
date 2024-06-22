@@ -8,6 +8,7 @@ categories:
 tags:
 - Professional details
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Excerpt from website](http://www.pmean.com/new-images/15/google-scholar-profile01.png)

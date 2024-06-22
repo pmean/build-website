@@ -8,6 +8,7 @@ categories:
 tags:
 - Hypothesis testing
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Screenshot of comic strip](http://www.pmean.com/new-images/15/xkcd-p-values01.png)

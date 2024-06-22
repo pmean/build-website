@@ -7,6 +7,7 @@ category: Blog post
 tags:
 - Datasets
 output: html_document
+page_update: complete
 ---
 
 I've been looking for a few interesting data sets for use as teaching

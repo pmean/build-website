@@ -8,6 +8,7 @@ categories:
 tags:
 - Sample size justification
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/15/ps-power-calculator01.png)

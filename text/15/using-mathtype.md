@@ -9,6 +9,7 @@ tags:
 - Presenting research
 - Obsolete page
 output: html_document
+page_update: complete
 ---
 
 NOte: This page is obsolete. I am currently using Markdown, MathJax, and TeX to generate equations.

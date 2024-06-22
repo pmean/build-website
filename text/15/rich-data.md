@@ -8,6 +8,7 @@ categories:
 tags:
 - Statistical models
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of magazine article](http://www.pmean.com/new-images/15/rich-data01.png)

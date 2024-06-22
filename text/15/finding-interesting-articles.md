@@ -8,6 +8,7 @@ category:
 tags:
 - Teaching resources
 output: html_document
+page_update: complete
 ---
 
 Someone asked how do you find peer-reviewed articles that use simple statistical tests so your students can see the structure of papers that report on statistical analyses. I do this a lot for this blog and for lectures that I give, so I wrote up some suggestions.

@@ -9,6 +9,7 @@ tags:
 - Data science
 - R software
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. Image from main page of website](http://www.pmean.com/new-images/15/tessera01.png)

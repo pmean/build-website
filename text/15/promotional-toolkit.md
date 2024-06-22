@@ -8,6 +8,7 @@ categories:
 tags:
 - Human side of statistics
 output: html_document
+page_update: complete
 ---
 
 ![Figure 1. First page of website](http://www.pmean.com/new-images/15/promotional-toolkit01.png)

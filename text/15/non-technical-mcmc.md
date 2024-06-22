@@ -9,6 +9,7 @@ tags:
 - Accrual problems in clinical trials
 - Bayesian statistics
 output: html_document
+page_update: complete
 ---
 
 Someone was looking for examples of illustrative examples to help explain to people without a statistical background how MCMC methods can be applied to help solve real world problems. I offered up some general advice and some of my own research as an example.
