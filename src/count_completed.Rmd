@@ -141,7 +141,7 @@ for (y in subdir_list) {
 for (y in subdir_list) {
   md_files %>%
     filter(yr==y) %>%
-    filter(length(old_link) > 0) %>%
+    filter(nchar(old_link) > 0) %>%
     select(yr, old_link) %>%
     print
   cat("\n\n")
@@ -154,8 +154,8 @@ for (y in subdir_list) {
 for (y in subdir_list) {
   md_files %>%
     filter(yr==y) %>%
-    filter(length(old_link) == 0) %>%
-    select(yr, old_link) %>%
+    filter(nchar(old_link) == 0) %>%
+    select(yr, fn, old_link) %>%
     print
   cat("\n\n")
 }
