@@ -8,6 +8,7 @@ categories:
 tags:
 - Datasets
 output: html_document
+page_update: partial
 ---
 
 I normally don't recommend articles that are stuck behind pay walls, but

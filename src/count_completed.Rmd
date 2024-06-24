@@ -86,53 +86,34 @@ for (y in subdir_list) {
 ### Pages with page_update = `r (update_text="no")`
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(page_update_line==update_text) %>%
-    select(-old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(page_update_line==update_text) %>%
+  select(-old_link)
 ```
 
 ### Pages with page_update = `r (update_text="partial")`
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(page_update_line==update_text) %>%
-    select(-old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(page_update_line==update_text) %>%
+  select(-old_link)
 ```
 
 ### Pages with page_update = `r (update_text="complete")`
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(page_update_line==update_text) %>%
-    select(-old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(page_update_line==update_text) %>%
+  select(-old_link)
 ```
 
 ### Pages with page_update = `r (update_text="")`
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(page_update_line==update_text) %>%
-    select(-old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(page_update_line==update_text) %>%
+  select(-old_link) %>%
+  print
 ```
 
 ### Pages with links to previous site
@@ -140,7 +121,7 @@ for (y in subdir_list) {
 ```{r}
 md_files %>%
   filter(nchar(old_link) > 0) %>%
-  glue_data("-   [{fn}]({old_link})\n\n") -> linked
+  glue_data("-   [{fn}]({old_link})\n") -> linked
 ```
 
 `r paste0(linked, collapse="\n")`
@@ -148,14 +129,9 @@ md_files %>%
 ### Pages without links to previous site
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(nchar(old_link) == 0) %>%
-    select(yr, fn, old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(nchar(old_link) == 0) %>%
+  select(yr, fn, old_link)
 ```
 
 ```{r}

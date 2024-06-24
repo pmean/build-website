@@ -7,6 +7,7 @@ categories:
 tags:
 - Unusual data
 output: html_document
+page_update: partial
 ---
 I'm working on a project looking at some outcomes that might eventually
 become part of a report card or benchmarking system. This is an area

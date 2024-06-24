@@ -8,6 +8,7 @@ categories:
 tags:
 - Grant writing
 output: html_document
+page_update: partial
 ---
 
 I have to help write NIH grants from time to time, and I need to always

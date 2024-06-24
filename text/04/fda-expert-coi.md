@@ -8,6 +8,7 @@ categories:
 tags:
 - Conflict of interest
 output: html_document
+page_update: complete
 ---
 
 Jeanne Lenzer. FDA bars own expert from evaluating risks of painkillers.

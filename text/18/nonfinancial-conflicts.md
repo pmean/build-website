@@ -8,6 +8,7 @@ categories:
 tags:
 - Ethics in research
 output: html_document
+page_update: complete
 ---
 
 ![](http://www.pmean.com/new-images/18/nonfinancial-conflicts01.png)
@@ -19,8 +20,6 @@ I am recommending this article, not because I agree with it, but because it rein
 I think this article offers bad advice and bad conclusions. But please read this article and decide for yourself.
 
 Aaron E. Carroll. Congratulations on the Promotion. But Did Science Get a Demotion? The New York Times (The Upshot), December 31, 2018. Available in [html format][car1].
-
-
 
 P.S. Here's what I wrote in the comments section on this article.
 
