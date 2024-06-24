@@ -138,15 +138,12 @@ for (y in subdir_list) {
 ### Pages with links to previous site
 
 ```{r}
-for (y in subdir_list) {
-  md_files %>%
-    filter(yr==y) %>%
-    filter(nchar(old_link) > 0) %>%
-    select(yr, old_link) %>%
-    print
-  cat("\n\n")
-}
+md_files %>%
+  filter(nchar(old_link) > 0) %>%
+  glue_data("-   [{fn}]({old_link})\n\n") -> linked
 ```
+
+`r paste0(linked, collapse="\n")`
 
 ### Pages without links to previous site
 

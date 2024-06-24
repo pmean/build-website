@@ -7,8 +7,6 @@ output: html_document
   
 ```{r}
 yyyy_list <- c(1999:2024)
-yyyy_list <- c(2015:2015)
-
 ```
   
 This program produces Markdown files summarizing every webpage written in a given year
@@ -41,6 +39,7 @@ create_yaml <- function(yyyy) {
      tags:
      - Website details
      output: html_document
+     page_update: complete
      ---')
 }
 ```

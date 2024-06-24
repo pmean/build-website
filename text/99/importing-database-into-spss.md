@@ -10,45 +10,33 @@ tags:
 - Data management
 - SPSS software
 output: html_document
-page_update: partial
+page_update: complete
 ---
 
-This page is currently being updated from the earlier version of my website. Sorry that it is not yet fully available.
+Note: many of the details described here, may have changed. Every new version of SPSS and of Microsoft Windows makes small and sometimes large changes to the approach described here. The kernel of the approach (using ODBC drivers) should still be valid.
 
-*Dear Professor Mean
-- How do I import database files into SPSS? I don't want to re-type everything
-- because there are 70,000 records. The data are stored in a Microsoft Access file. -- Vexed Vidya*
+### Dear Professor Mean,
+
+How do I import database files into SPSS? I don't want to re-type everything
+because there are 70,000 records. The data are stored in a Microsoft Access file. 
 
 <!---More--->
+
+### Dear Reader,
 
 SPSS can import data from a variety of sources using a system known as ODBC (Object Data Base Connectivity). **ODBC has links to just about every database that you would ever need to use**.
 
 **Short explanation**
 
-I'll show you an example using Microsoft Access
-- but this would work just as well on other database systems
-- such as Oracle and Informix. **To import data from Access
-- select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu.**
+I'll show you an example using Microsoft Access, but this would work just as well on other database systems, such as Oracle and Informix. **To import data from Access, select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu.**
 
 **More details**
 
-**When you import data using ODBC
-- SPSS asks you what type of data source you want to import from**. On my system
-- I have the ability to import Access
-- Excel
-- and FoxPro files. Through Microsoft Windows
-- I can add the capability of importing from other sources like Oracle or Informix if I needed these formats.
+**When you import data using ODBC, SPSS asks you what type of data source you want to import from**. On my system, I have the ability to import Access, Excel, and FoxPro files. Through Microsoft Windows,- I can add the capability of importing from other sources like Oracle or Informix if I needed these formats.
 
-**I can also specify a particular location that I want to import from on a repeated basis**. In the example I show later
-- you will see that I have defined data sources labelled "ghstudy"
-- Menninger"
-- "patient complaints"
-- "Santos" and "x". Providing a pre-specified location for my import is especially useful for databases that are being updated on a regular basis. If you want to define such a source
-- you can click on the ADD DATA SOURCE button
-- but I will not provide any details about it in this handout.
+**I can also specify a particular location that I want to import from on a repeated basis**. In the example I show later, you will see that I have defined data sources labelled "ghstudy", Menninger", "patient complaints", "Santos" and "x". Providing a pre-specified location for my import is especially useful for databases that are being updated on a regular basis. If you want to define such a source, you can click on the ADD DATA SOURCE button, but I will not provide any details about it in this handout.
 
-After you specify the type of data you want to import
-- SPSS will ask you for the following details.
+After you specify the type of data you want to import, SPSS will ask you for the following details.
 
 -   Where the data are located
 -   The table or tables in your database you want to import
@@ -60,76 +48,56 @@ You also have the following options
 -   Renaming some of the variables
 -   Saving the query for re-use
 
-**Saving the query for re-use is another way of simplifying repeated imports from the same data set**. Saving the query will save not only the location of hte database you want to import from
-- but also the information about subsets
-- changes in variable names
-- etc.
+**Saving the query for re-use is another way of simplifying repeated imports from the same data set**. Saving the query will save not only the location of hte database you want to import from, but also the information about subsets, changes in variable names, etc.
 
 **Example**
 
 Here is an example of importing an Access database with data from a growth hormone study. **Select** **FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu** **FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu**.
 
-<img src="http://www.pmean.com/02/images/access01.gif">
+<img src="http://www.pmean.com/new-images/99/access01.gif">
 
 **The dialog box shown above allows you to select your data source**. Click on ACCESS 97 and then click on the NEXT button.
 
-<img src="http://www.pmean.com/02/images/access02.gif">
+<img src="http://www.pmean.com/new-images/99/access02.gif">
 
-**The dialog box shown above asks you for a location for your Access database.** Be sure that you select the correct drive and folder. Then click on the file
-- and click on the OK button.
+**The dialog box shown above asks you for a location for your Access database.** Be sure that you select the correct drive and folder. Then click on the file, and click on the OK button.
 
 **SPSS gives you a list of all available tables and queries within this database**.
 
-<img src="http://www.pmean.com/02/images/access03.gif">
+<img src="http://www.pmean.com/new-images/99/access03.gif">
 
-**The dialog box shown above gives you a list of all available tables and queries within this database**. Drag the table from the AVAILABLE TABLES field into the RETRIEVE FIELDS IN THIS ORDER field. If you want data from more than one table/query
-- repeat this process. If there are some variables you do not want to import
-- drag them out of the RETREIVE FIELDS IN THIS ORDER field.
+**The dialog box shown above gives you a list of all available tables and queries within this database**. Drag the table from the AVAILABLE TABLES field into the RETRIEVE FIELDS IN THIS ORDER field. If you want data from more than one table/query, repeat this process. If there are some variables you do not want to import, drag them out of the RETREIVE FIELDS IN THIS ORDER field.
 
-**If you have a simple import
-- you can click on the FINISH button now**. If you click on the NEXT button instead
-- SPSS will give you some options to fine tune your import. You can
+**If you have a simple import, you can click on the FINISH button now**. If you click on the NEXT button instead, SPSS will give you some options to fine tune your import. You can
 
 -   Specifying relationships between tables
 -   Selecting a subset of your data
 -   Renaming some of the variables
 -   Saving the query for re-use
 
-**Saving the query for re-use is another way of simplifying repeated imports from the same data set**. Saving the query will save not only the location of hte database you want to import from
-- but also the information about subsets
-- changes in variable names
-- etc.
+**Saving the query for re-use is another way of simplifying repeated imports from the same data set**. Saving the query will save not only the location of hte database you want to import from, but also the information about subsets, changes in variable names, etc.
 
 **What should I do if Access files are not listed as a data source?**
 
-On some computers
-- Access files are not listed as a data source in the database capture wizard dialog box. An example of this appears below.
+On some computers, Access files are not listed as a data source in the database capture wizard dialog box. An example of this appears below.
 
-<img src="http://www.pmean.com/02/images/access04.gif">
+<img src="http://www.pmean.com/new-images/99/access04.gif">
 
-In order to use these Microsoft Access files
-- you need to click on the ADD DATA SOURCE button. This calls up the following dialog box.
+In order to use these Microsoft Access files, you need to click on the ADD DATA SOURCE button. This calls up the following dialog box.
 
-<img src="http://www.pmean.com/02/images/access05.gif">
+<img src="http://www.pmean.com/new-images/99/access05.gif">
 
-In the ODBC DATA SOURCE ADMINISTRATOR dialog box
-- you want to add a new data source. Click on the ADD button. You also have the option of removing a data format you no longer need (REMOVE button)
-- or changing some of the options in a data format you already have (CONFIGURE button). When you click on the ADD button
-- you get the following dialog box.
+In the ODBC DATA SOURCE ADMINISTRATOR dialog box, you want to add a new data source. Click on the ADD button. You also have the option of removing a data format you no longer need (REMOVE button), or changing some of the options in a data format you already have (CONFIGURE button). When you click on the ADD button, you get the following dialog box.
 
-<img src="http://www.pmean.com/02/images/access06.gif">
+<img src="http://www.pmean.com/new-images/99/access06.gif">
 
-In the CREATE A NEW DATA SOURCE dialog box
-- you have a list of ODBC data sources which you can add to your system. Highlight the driver you want (in this case the Access driver) and click on the FINISH button.
+In the CREATE A NEW DATA SOURCE dialog box, you have a list of ODBC data sources which you can add to your system. Highlight the driver you want (in this case the Access driver) and click on the FINISH button.
 
-<img src="http://www.pmean.com/02/images/access07.gif">
+<img src="http://www.pmean.com/new-images/99/access07.gif">
 
-As the dialog box above shows
-- you're not quite finished yet. Tell the system a name and description for this format. A good name would be "Access files" and a good description would be "Microsoft Access 97 files (*.mdb)". If you repeatedly use the same database
-- you could even have the system select this database automatically (SELECT button). It's a good idea to set up a general driver first
-- so add a name and description and then click on the OK button.
+As the dialog box above shows, you're not quite finished yet. Tell the system a name and description for this format. A good name would be "Access files" and a good description would be "Microsoft Access 97 files (*.mdb)". If you repeatedly use the same database, you could even have the system select this database automatically (SELECT button). It's a good idea to set up a general driver first, so add a name and description and then click on the OK button.
 
-<img src="http://www.pmean.com/02/images/access08.gif">
+<img src="http://www.pmean.com/new-images/99/access08.gif">
 
 Now your dialog box has the format you need. Click on the OK button to finish up. This format will appear every time now when you run a database capture in SPSS.
 
@@ -141,23 +109,15 @@ If you are still having problems please let me know. I can suggest several optio
 
 2.  The CD ROM for SPSS has a special folder called ODBC Drivers. Find the file dataacc.exe and run it. I have this CD ROM and will be willing to help you get it running.
 
-3.  You can also go to <http://www.microsoft.com/data/>
-- the Microsoft Universal Data Access Web Site. Download the latest version of MDAC (Microsoft Data Access Components). I have not tried this
-- so I don't know how easy it is to install.
+3.  You can also go to <http://www.microsoft.com/data/>, the Microsoft Universal Data Access Web Site. Download the latest version of MDAC (Microsoft Data Access Components). I have not tried this, so I don't know how easy it is to install.
 
 4.  You might also find MDAC on the Microsoft Access or Microsoft Office CD-ROM.
 
-There are some more details in some [email messages](mdac.html) that appeared on the SPSSX-L listserver on September 10-11
-- 2000.
-
 **What if SPSS asks for a password?**
 
-On some systems
-- SPSS will ask you for a password
-- even when the database you are trying to import does not have a password. There are several ways to work around this problem.
+On some systems, SPSS will ask you for a password, even when the database you are trying to import does not have a password. There are several ways to work around this problem.
 
-1. Configure a specific data source for your particular database. In the ODBC MICROSOFT ACCESS 97 dialog box
-- there is a SELECT button. Click on this button and tell SPSS where to find the particular database you are working with.
+1. Configure a specific data source for your particular database. In the ODBC MICROSOFT ACCESS 97 dialog box, there is a SELECT button. Click on this button and tell SPSS where to find the particular database you are working with.
 
 2. You can also use SPSS syntax to open the database. Here is an example.
 
@@ -173,8 +133,7 @@ EXECUTE.
 
 **Summary**
 
-Vexed Vidya wants to **import a Microsoft Access table into SPSS**. To import Access or other database formats
-- you use a system called ODBC. **Select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu**. You will then specify where the data are located and the table or tables in your database you want to import.
+You want to **import a Microsoft Access table into SPSS**. To import Access or other database formats, you use a system called ODBC. **Select FILE | DATABASE CAPTURE | NEW QUERY from the SPSS menu**. You will then specify where the data are located and the table or tables in your database you want to import.
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
