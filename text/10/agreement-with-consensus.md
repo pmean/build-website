@@ -7,7 +7,7 @@ categories:
 tags:
 - Information theory
 output: html_document
-page_update: partial
+page_update: complete
 ---
 
 One of the research problems that I am working on involves evaluation of a subjective rating system. I have been using information theory to try to identify objects where the evaluators agree well and objects where the evaluators do not agree well. I also am working on identifying objects that an individual rater does poorly. The method is to measure when the surprisal of the category that a rater selected is much lower than the entropy (the average surprisal across all raters).
@@ -60,8 +60,7 @@ If you look at the individual rating, replace them with probabilities and then c
 
 $e = (4(1) + 2(2) + 1(3) +1(3))$
 
-
-Now notice in this example that there is no perfect consensus choice. A is the most popular choice though, and the surprisals of the four raters who chose A is 1. The two raters who selected B didn't do quite as well and their surprisal 2. The raters who selected C or D performed the worst, and their surprisals are 3.Now "worst" is a word that should be used carefully here. Perhaps the seventh rater was the only one who recognized the correct rating. But in many settings, there is no way to know what the correct rating is, and then you should consider not the correctness of the rating, but rather consider how close a rater comes to the consensus finding.
+Now notice in this example that there is no perfect consensus choice. A is the most popular choice though, and the surprisals of the four raters who chose A is 1. The two raters who selected B didn't do quite as well and their surprisal 2. The raters who selected C or D performed the worst, and their surprisals are 3. Now "worst" is a word that should be used carefully here. Perhaps the seventh rater was the only one who recognized the correct rating. But in many settings, there is no way to know what the correct rating is, and then you should consider not the correctness of the rating, but rather consider how close a rater comes to the consensus finding.
 
 The point is that entropy is an average of the four suprisals of 1, the two surprisals of 2, a single surprisal of 3, and another surprisal of 3.
 

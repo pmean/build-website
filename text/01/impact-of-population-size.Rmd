@@ -5,24 +5,23 @@ date: 2001-01-19
 categories:
 - Blog post
 tags:
-- Being updated
 - Confidence intervals
 - Sample size justification
 output: html_document
-page_update: partial
+page_update: complete
 ---
 
-Dear Professor Mean,
+### Dear Professor Mean,
 
 Can you explain why it is okay to have similar sample sizes for populations of very different sizes. For example, why is it that a sample size for a population of 10 million doesn't have to be much larger than a sample size for a population of 10 thousand?
 
-Skeptical Sam
-
 <!---More--->
 
-Dear Skeptical,
+### Dear Reader,
 
-It is surprising, but **for the most part, you disregard the size of the population when you try to estimate an appropriate sample size**. There are some exceptions. Suppose you are trying to sample from the population of all ethical lawyers. The sampling simplifies to deciding which one of the two lawyers you want to chose.
+It is surprising, but **for the most part, you disregard the size of the population when you try to estimate an appropriate sample size**. There are some exceptions. Suppose you are trying to sample from the population of all ethical lawyers. The sampling simplifies to deciding which one of the two lawyers you want to chose. 
+
+Just kidding. I know a lot of lawyers and they are all nice.
 
 The best analogy I have heard about sampling goes something like: "*Every cook knows that it only takes a single sip from a well-stirred soup to determine the taste*." It's a nice analogy because you can visualize what happens when the soup is poorly stirred.
 
@@ -40,7 +39,12 @@ where N is the size of the population and n is the size of the sample. If fpc is
 
 The following table shows what the fpc in four different situations would be.
 
-![Table 1. The finite population correction for various sample and population sizes](http://www.pmean.com/new-images/01/population02.png)
+```{r, echo=FALSE}
+df <- data.frame(sample_size=c(50, 200, 4000))
+df$fpc_pop_ten_thousand <- sqrt((10000-df$sample_size)/(9999))
+df$fpc_pop_ten_million <- sqrt((10000000-df$sample_size)/(9999999))
+df
+```
 
 When the sample size is 50, it does not matter much whether the population is 10 thousand or 10 million. When the sample size, however, is four thousand, then we have about 23% more precision with a population of ten thousand than we would for a population of ten million.
 

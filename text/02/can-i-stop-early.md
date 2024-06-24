@@ -7,7 +7,7 @@ categories:
 tags:
 - Website details
 output: html_document
-page_update: partial
+page_update: no
 ---
 
 (To be added)
