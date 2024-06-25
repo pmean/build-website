@@ -26,10 +26,10 @@ There are lots of guides on the Internet on using a normal prior for data that i
 
 For simplicity, all sums and products are assumed to go from i=1 to n.
 
-Consider a Bayesian analysis of an outcome variable that has a normal distribution with known mean and unknown precision. Assume that both the mean and the precision of the normal distribution are unknown. Other cases with [mean unknown and precision known][sim1] and with [both mean and precision unknown][sim3] appear on a different web pages.
+Consider a Bayesian analysis of an outcome variable that has a normal distribution with known mean and unknown precision. Assume that both the mean and the precision of the normal distribution are unknown. Other cases with [mean unknown and precision known][sim3] and with [both mean and precision unknown][sim5] appear on a different web pages.
 
-[sim1]: http://new.pmean.com/normal-hedging-hyperprior-part1
-[sim3]: http://new.pmean.com/normal-hedging-hyperprior-part3
+[sim3]: http://new.pmean.com/normal-hedging-hyperprior-part1
+[sim5]: http://new.pmean.com/normal-hedging-hyperprior-part3
 
 Assume that the mean of the normal distribution, $\mu$, is known and equal to $\mu_F$. An earlier case with precision known and the mean  unknown appears on a different web page. A more general case, with both the mean and the precision of the normal distribution unknown is also described on a separate web page. For simplicity, we will drop any multiplicative constants not involving X or $\tau$
 

@@ -40,10 +40,10 @@ $\tau=\frac{1}{\sigma^2}$
 
 The parameter $\tau$ is called the precision. Note that some define the precision differently as the inverse of the standard deviation rather than the inverse of the variance.
 
-Assume that $\tau$ is known and equal to $\tau_F$. Other cases with [mean known and precision unknown][sim2] and with [both mean and precision unknown][sim3] appear on different web pages.
+Assume that $\tau$ is known and equal to $\tau_F$. Other cases with [mean known and precision unknown][sim4] and with [both mean and precision unknown][sim5] appear on different web pages.
 
-[sim2]: http://new.pmean.com/normal-hedging-hyperprior-part2
-[sim3]: http://new.pmean.com/normal-hedging-hyperprior-part3
+[sim4]: http://new.pmean.com/normal-hedging-hyperprior-part2
+[sim5]: http://new.pmean.com/normal-hedging-hyperprior-part3
 
 For simplicity, we will drop any multiplicative constants not involving X or $\mu$
 

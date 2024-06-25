@@ -34,10 +34,10 @@ $f(X; \mu, \tau) =
   \sqrt{\frac{\tau}{2 \pi}}
   e^{-\frac{1}{2}\tau (X-\mu)^2}$
 
-Assume that both the mean and the precision of the normal distribution are unknown. Earlier cases with [mean unknown and precision known][sim1] and with [mean known and precision unknown][sim2] appear on a different web pages.
+Assume that both the mean and the precision of the normal distribution are unknown. Other cases with [mean unknown and precision known][sim3] and with [mean known and precision unknown][sim4] appear on a different web pages.
 
-[sim1]: http://new.pmean.com/normal-hedging-hyperprior-part1
-[sim2]: http://new.pmean.com/normal-hedging-hyperprior-part2
+[sim3]: http://new.pmean.com/normal-hedging-hyperprior-part1
+[sim4]: http://new.pmean.com/normal-hedging-hyperprior-part2
 
 For simplicity, we will drop any multiplicative constants not involving X, $\mu$, or $\tau$.
  
