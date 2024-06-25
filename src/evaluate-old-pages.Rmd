@@ -1,0 +1,144 @@
+---
+title: "Evaluate pages from my old website"
+author: "Steve Simon"
+date: "Created 2024-06-24"
+output: html_document
+---
+
+### Setup
+
+```{r setup, echo=TRUE}
+knitr::opts_chunk$set(echo=TRUE)
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(knitr)))
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+web_path <- "c:/Users/steve/Dropbox/professional/fun stuff/update-website"
+subdir_list=c(
+  "00",
+  "00files",
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "08a",
+  "09",
+  "10",
+  "11",
+  "12",
+  "12a",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "99",
+  "archive",
+  "category",
+  "definitions",
+  "weblog",
+  "08/accrual",
+  "08/definitions",
+  "08/diagnostic",
+  "08/faq",
+  "08/images",
+  "08/journal",
+  "08/koans",
+  "08/software",
+  "08/training",
+  "08/website")  
+
+save_file <- "../data/old_site_check.RData"
+```
+
+### create html file list
+
+```{r create, eval=FALSE}
+web_files <- NULL
+for (s in rev(subdir_list)) {
+  paste(web_path, s, sep="/") %>%
+    list.files(pattern="\\.html") %>%
+    str_remove("\\.html") -> piper
+  if (length(piper) == 0) {next}
+  piper %>%
+    data.frame(subdir=s, fn=.) %>%
+    bind_rows(web_files) -> web_files
+}
+prefix1 <- '<p>This page is moving to a <a href="'
+prefix2 <- '<p>This page has moved to a <a href="'
+postfix <- '">new website</a>.</p>'
+n_files <- nrow(web_files)
+web_files$lines <- -1
+web_files$check <- -1
+web_files$link  <- ""
+for (i in 1:n_files) {
+  full_file_name <- paste0(
+    web_path,"/",
+    web_files$subdir[i],"/",
+    web_files$fn[i],".html")
+  read_lines(full_file_name) -> file_text
+  web_files$lines[i] <- length(file_text)
+  web_files$check[i] <- 
+    sum(str_detect(file_text, fixed(postfix)))*100 +
+    sum(str_detect(file_text, fixed(prefix1)))*10 +
+    sum(str_detect(file_text, fixed(prefix2)))*1
+  file_text %>%
+    str_subset(fixed(postfix)) -> piper
+  if (length(piper) > 1) {
+    cat("\nDuplicate links found in ")
+    cat(web_files$subdir[i], web_files$fn[i])
+    # cat("\n")
+    next
+  }
+  if (length(piper) == 0) {next}
+  piper %>%
+    str_remove(fixed(prefix1)) %>%
+    str_remove(fixed(prefix2)) %>%
+    str_remove(fixed(postfix)) %>%
+    str_remove(fixed("http://new.pmean.com/")) %>%
+    str_remove(fixed("/")) %>%
+    paste0("") -> web_files$link[i]
+}
+save(web_files, file=save_file)
+```
+
+```{r}
+load(file=save_file)
+```
+
+## Count linked and unlinked files
+
+```{r}
+web_files %>%
+  filter(check == 0) %>%
+  group_by(subdir) %>%
+  summarize(n_unlinked=n()) -> piper
+web_files %>%
+  filter(check > 0) %>%
+  group_by(subdir) %>%
+  summarize(n_linked=n()) %>%
+  full_join(piper) %>%
+  data.frame %>%
+  arrange(subdir)
+```
+
+### Display unlinked files
+
+```{r}
+web_files %>%
+  filter(check == 0) %>%
+  select(subdir, fn, check)
+```
+
+### Display linked files
+
+```{r}
+web_files %>%
+  filter(check > 0) %>%
+  select(subdir, fn, link)
+```

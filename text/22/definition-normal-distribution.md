@@ -16,9 +16,9 @@ This page is currently being updated from the earlier version of my website. Sor
 <!---More--->
 
 
-You can find an [earlier version][sim1] of this page on my [original website][sim2].
-Also see [this page][sim3]
+You can find an [earlier version][sim3] of this page on my [original website][sim2].
+Also see [this page][sim3a]
 
-[sim1]: http://www.pmean.com/definitions/norm_dist.htm
+[sim3]: http://www.pmean.com/definitions/norm_dist.htm
 [sim2]: http://www.pmean.com/original_site.html
-[sim3]: http://www.pmean.com/definitions/normal.htm
+[sim3a]: http://www.pmean.com/definitions/normal.htm

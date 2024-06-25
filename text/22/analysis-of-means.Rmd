@@ -115,7 +115,7 @@ To get the limits for the graph shown above, you need the Analysis of Means tabl
 
 $\ $ $\bar Y_{..} \pm h(\alpha, t, N) \sqrt{(t-1)MSE/N}$
 
-where $\bar Y_{..}$ is the overall mean and $h(\alpha, t, N)$ comes from a table such as [this one][lev1] (see page 3) or [this one][sim3].
+where $\bar Y_{..}$ is the overall mean and $h(\alpha, t, N)$ comes from a table such as [this one][lev1] (see page 3) or [this one][sim3a].
 
 In our example alpha=0.05, t=5, and N=20. The original article does not provide MSE, but you can calculate it as the pooled variance using the descriptive statistics shown above. The limits are
 
@@ -137,4 +137,4 @@ $\ $ $`r lo`$ and $`r hi`$
 
 [lev1]: https://wps.prenhall.com/wps/media/objects/9431/9657451/Ch_11/levine-smume6_topic_ANOM.pdf
 
-[sim3]: http://www.pmean.com/07/AnomTable05Part1.html
+[sim3a]: http://www.pmean.com/07/AnomTable05Part1.html

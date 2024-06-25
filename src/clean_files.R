@@ -49,7 +49,8 @@ clean_files <- function(
       tf <- str_subset(tx, old)
       if (length(tf)==0) next
       k2 <- k2+1
-      cat(glue("\n\n{fn}\n\n"))
+      cat("\n\n")
+      cat(glue("===> {fn}"))
       if (new != "Not yet") {
         ty <- str_replace_all(tf, old, new)
         tf <- paste(tf, ty, sep="\n")
@@ -74,7 +75,6 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  ": R programming",
-  ": R software",
+  fixed("[sim"),
   dir_root="text", 
   file_pattern="md$")

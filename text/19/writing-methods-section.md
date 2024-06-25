@@ -93,7 +93,7 @@ You also need to justify your sample size, and this usually fits best in the ana
 
 Final thoughts. This outline might be a good starting point for many research studies, but it might not be right for you. Don't force your methods section into this organizational style. Every research study is different.
 
-I have a [web page about writing a methods section for a research grant][sim1] that you might also find helpful.
+I have a [web page about writing a methods section for a research grant][sim3] that you might also find helpful.
 
 [fry1]: https://www.uml.edu/Images/Writing%20a%20Method%20Section-Participants_tcm18-117657.pptx
 [fry2]: https://www.uml.edu/Images/Writing%20a%20Method%20Section-Procedure_tcm18-117659.pptx
@@ -102,4 +102,4 @@ I have a [web page about writing a methods section for a research grant][sim1] t
 [icm1]: http://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
 [kal1]: http://rc.rcjournal.com/content/49/10/1229
 [kal2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/
-[sim1]: http://www.pmean.com/01/methods.html
+[sim3]: http://www.pmean.com/01/methods.html
