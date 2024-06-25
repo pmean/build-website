@@ -16,7 +16,7 @@ I have a directory structure for most projects that is based on the recommendati
 
 Yihui Xie explains the general approach to modifying how this works [here](https://bookdown.org/yihui/rmarkdown-cookbook/custom-knit.html), but cautions against doing anything too complex this way, as it makes your code difficult to maintain.
 
-To achieve my goal of storing output in the results folder, you neeed to add the following lines to your yaml header.
+To achieve my goal of storing output in the results folder, you need to add the following lines to your yaml header.
 
 ```{}
 knit: (function(inputFile, encoding) {

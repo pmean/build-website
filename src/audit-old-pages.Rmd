@@ -1,0 +1,67 @@
+---
+title: "Check links on old pages"
+author: "Steve Simon"
+date: "Created 2023-02-20"
+output: html_document
+---
+  
+This program looks for key links in the old webpages
+
+```{r setup}
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(stringr)))
+
+# pad single digits with leading zero
+zpad <- function(x) {
+  ifelse(nchar(x)==1, paste0("0", x), x)
+}
+```
+
+```{r find-files}
+sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
+
+path_prefix <- "c:/Users"
+path_suffix <- "dropbox/professional/fun stuff/update-website"
+
+list.files(path_prefix) %>%
+  str_subset("(Simons)|(steve)") -> me
+
+full_path <- glue("{path_prefix}/{me}/{path_suffix}")
+
+print(glue("Searching in {full_path}"))
+
+list.files(full_path)
+```
+
+```{r search-files}
+key_text <- "<p>This page"
+n_files <- 0
+n_unlinked <- 0
+for (sub_dir in sub_dir_list) {
+  # List all html files in a specific folder
+  subd_path <- glue("{full_path}/{sub_dir}/") 
+  subd_path %>% 
+    list.files %>%
+    str_subset("html$") -> html_list
+  i_files <- length(html_list)
+  i_unlinked <- 0
+  for (fn in html_list) {
+    # Read text from html files
+    file_text <- read_lines(glue("{subd_path}/{fn}"))
+    # Search for key phrase
+    key_line <- str_subset(file_text, key_text)
+    if (length(key_line) > 0) {next}
+    # List files without key phrase
+    i_unlinked <- i_unlinked + 1
+    print(glue("{sub_dir}/{fn} has no link to new page"))
+  }
+  cat("\n")
+  print(glue("{sub_dir} has {i_files} files. {i_unlinked} are unlinked."))
+  cat("\n")
+  n_files <- n_files + i_files
+  n_unlinked <- n_unlinked + i_unlinked
+}
+print(glue("All directories have a total of  {n_files} files. {n_unlinked} are unlinked."))
+```
