@@ -11,8 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: IRBs and scientific validity (August 12,
-2005)**
 
 One of the regular posters on the edstat-l mailing list shared a comment
 that is commonly held among many of the people I have talked to.
@@ -50,5 +48,5 @@ research](../category/EthicsInResearch.html).
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/05/ScientificValidity/
+[sim1]: http://www.pmean.com/05/ScientificValidity.html
 [sim2]: http://www.pmean.com

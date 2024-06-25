@@ -11,15 +11,8 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]: Withholding information (November 28,
-2005)**
 
 A recent query on the IRB Forum
-
-- **[The Institutional Review Board - Discussion and News
-Forum](http://www.irbforum.org)**. Nelson RM, The Children's
-Hospital of Philadelphia. Accessed on 2005-11-28. www.irbforum.org
-
 asked about a pilot study. The goal of the pilot study was to see if
 different ways of presenting the materials would lead to an improvement
 in the response rate among participants. The researchers wanted to
@@ -82,5 +75,5 @@ research](../category/BlindingInResearch.html).
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/05/WithholdingInformation
+[sim1]: http://www.pmean.com/05/WithholdingInformation.html
 [sim2]: http://www.pmean.com

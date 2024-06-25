@@ -1,7 +1,7 @@
 ---
 title: "Check links on old pages"
 author: "Steve Simon"
-date: "Created 2023-02-20"
+date: "Created 2024-06-25"
 output: html_document
 ---
   
@@ -12,56 +12,140 @@ suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(magrittr)))
 suppressMessages(suppressWarnings(library(readr)))
 suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
 
-# pad single digits with leading zero
-zpad <- function(x) {
-  ifelse(nchar(x)==1, paste0("0", x), x)
+path1 <- "c:/Users"
+path2 <- str_subset(list.files(path1), "steve|simons")
+path3 <- "Dropbox/professional/fun stuff/update-website"
+
+"c:/Users/steve/Dropbox/professional/fun stuff/update-website"
+"c:/Users/simons/Dropbox/professional/fun stuff/update-website"
+
+html_path <- paste(path1, path2, path3, sep="/")
+subdir_list=c(
+  "00",
+  "00files",
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "08a",
+  "09",
+  "10",
+  "11",
+  "12",
+  "12a",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "99",
+  "archive",
+  "category",
+  "definitions",
+  "weblog",
+  "08/accrual",
+  "08/definitions",
+  "08/diagnostic",
+  "08/faq",
+  "08/images",
+  "08/journal",
+  "08/koans",
+  "08/software",
+  "08/training",
+  "08/training/abstracts",
+  "08/training/datasets",
+  "08/training/exercises",
+  "08/training/extras",
+  "08/training/images",
+  "08/website")
+save_file <- "../data/check_old.RData"
+```
+
+### create html
+
+```{r create}
+html <- NULL
+for (yr in rev(subdir_list)) {
+  file_path <- paste(html_path, yr, sep="/")
+  file_path %>%
+    list.files(pattern="asp|htm$|html$") -> piper
+  if (length(piper) == 0) next
+  piper %>%
+    str_remove("\\..*") -> fn
+  piper %>%
+    str_remove(".*\\.") -> ext
+  data.frame(yr=yr, fn=fn, ext=ext) %>%
+    bind_rows(html) -> html
+}
+n <- nrow(html)
+```
+
+
+### Search for links to old files
+
+```{r links}
+search_link <- function(tx) {
+  prefix1 <- '<p>This page is moving to a <a href="'
+  prefix2 <- '<p>This page has moved to a <a href="'
+  postfix <- '">new website</a>.</p>'
+  prepost <- paste(prefix1, prefix2, postfix, sep="|")
+  website <- "http://new.pmean.com/"
+  slash   <- "/"
+  tx %>%
+    str_subset(prepost) %>%
+    str_replace(prefix1, "") %>%
+    str_replace(prefix2, "") %>%
+    str_replace(postfix, "") %>%
+    str_replace(website, "") %>%
+    str_replace(slash,   "") %>%
+    paste0("") -> piper
+  piper %>%
+    paste0(collapse=", ")
 }
 ```
 
-```{r find-files}
-sub_dir_list <- c("99", zpad(0:12), "12a", zpad(13:18))
+### Search for size
 
-path_prefix <- "c:/Users"
-path_suffix <- "dropbox/professional/fun stuff/update-website"
-
-list.files(path_prefix) %>%
-  str_subset("(Simons)|(steve)") -> me
-
-full_path <- glue("{path_prefix}/{me}/{path_suffix}")
-
-print(glue("Searching in {full_path}"))
-
-list.files(full_path)
+```{r size}
+search_size <- function(tx) {
+  ty <- str_remove_all(tx, "\\s")
+  length(tx)-sum(ty == "")
+}
 ```
 
-```{r search-files}
-key_text <- "<p>This page"
-n_files <- 0
-n_unlinked <- 0
-for (sub_dir in sub_dir_list) {
-  # List all html files in a specific folder
-  subd_path <- glue("{full_path}/{sub_dir}/") 
-  subd_path %>% 
-    list.files %>%
-    str_subset("html$") -> html_list
-  i_files <- length(html_list)
-  i_unlinked <- 0
-  for (fn in html_list) {
-    # Read text from html files
-    file_text <- read_lines(glue("{subd_path}/{fn}"))
-    # Search for key phrase
-    key_line <- str_subset(file_text, key_text)
-    if (length(key_line) > 0) {next}
-    # List files without key phrase
-    i_unlinked <- i_unlinked + 1
-    print(glue("{sub_dir}/{fn} has no link to new page"))
-  }
-  cat("\n")
-  print(glue("{sub_dir} has {i_files} files. {i_unlinked} are unlinked."))
-  cat("\n")
-  n_files <- n_files + i_files
-  n_unlinked <- n_unlinked + i_unlinked
+### Read file text
+
+```{r read}
+full_name <-
+  paste0(
+  html_path, "/",
+  html$yr, "/",
+  html$fn, ".",
+  html$ext)
+html$size <- -1
+html$link <- "999"
+for (i in 1:n) {
+  tx <- read_lines(full_name[i])
+  html$link[i] <- search_link(tx)
+  html$size[i] <- search_size(tx)
 }
-print(glue("All directories have a total of  {n_files} files. {n_unlinked} are unlinked."))
+html$miss <- as.numeric(nchar(html$link) == 0)
+html$stub <- as.numeric(html$size <= 10)
+save(html, file=save_file)
+```
+
+### Simple statistics
+
+```{r simple}
+summary(html$size)
+count(html, ext)
+count(html, miss)
+count(html, stub)
 ```

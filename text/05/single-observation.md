@@ -11,8 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **When one group only has a single
-observation (May 24, 2005)**
 
 Someone asked me about a lab study comparing expression levels for two
 groups of patients. The first group has two copies of a gene and the
@@ -118,5 +116,5 @@ issues](../category/SmallSampleSizeIssues.html).
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/SingleObservation.html
+[sim1]: http://www.pmean.com/05/SingleObservation.html
 [sim2]: http://www.pmean.com

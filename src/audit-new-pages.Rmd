@@ -1,0 +1,116 @@
+---
+title: "Check links on new pages"
+author: "Steve Simon"
+date: "Created 2024-06-25"
+output: html_document
+---
+  
+This program looks for key information in the new webpages
+
+```{r setup}
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+
+md_path <- "../text/"
+subdir_list=c("99", paste0("0", 0:9), 10:24)
+save_file <- "../data/check_new.RData"
+```
+
+### create md
+
+```{r create}
+md <- NULL
+for (yr in rev(subdir_list)) {
+  file_path <- paste0(md_path, yr)
+  file_path %>%
+    list.files(pattern="md$") %>%
+    data.frame(yr=yr, fn=.) %>%
+    bind_rows(md) -> md
+}
+n <- nrow(md)
+full_name <-
+  paste0(
+  md_path, "/",
+  md$yr, "/",
+  md$fn)
+```
+
+### Search for links to old files
+
+```{r links}
+search_link <- function(tx) {
+  f_text <- "\\[sim1\\]\\: "
+  tx %>%
+    str_subset(f_text) %>%
+    str_replace(f_text, "") %>%
+    paste0("") -> piper
+  piper %>%
+    paste0(collapse=", ")
+}
+```
+
+### Search for page_update values
+
+```{r update}
+search_stat <- function(tx) {
+  c_text <- "page_update: "
+  tx %>%
+    str_subset(fixed(c_text)) %>%
+    str_replace(fixed(c_text), "")  %>%
+    paste0("") -> piper
+  piper %>%
+    paste0(collapse=", ")
+}
+```
+
+### Search for size
+
+```{r size}
+search_size <- function(tx) {
+  length(tx)
+}
+```
+
+### Read file text
+
+```{r read}
+md$stat <- "999"
+md$link <- "999"
+md$size <- -1
+for (i in 1:n) {
+  tx <- read_lines(full_name[i])
+  md$stat[i] <- search_stat(tx)
+  md$link[i] <- search_link(tx)
+  md$size[i] <- search_size(tx)
+}
+md$miss <- as.numeric(nchar(md$link) == 0)
+md$link %>%
+  str_remove("http://") %>%
+  str_remove("\\..*") -> md$site
+md$link %>%
+  str_remove(".*\\.") -> md$ext
+md$ext[md$site=="blog"] <- "/"
+md$link %>%
+  str_remove("http://www.pmean.com/") %>%
+  str_remove("\\..*") %>%
+  str_remove("/.*") -> md$subd
+md$subd[md$site=="blog"] <- "/"
+md$link %>%
+  str_remove(".*/") %>%
+  str_remove("\\..*") -> md$base
+save(md, file=save_file)
+```
+
+### Simple statistics
+
+```{r simple}
+count(md, stat)
+summary(md$size)
+count(md, miss)
+count(md, site)
+count(md, ext)
+count(md, subd)
+```
