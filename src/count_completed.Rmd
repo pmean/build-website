@@ -13,13 +13,14 @@ suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(lubridate)))
 suppressMessages(suppressWarnings(library(tidyverse)))
-```
-
-### Read md files
-
-```{r read_md}
 md_path <- "../text/"
 subdir_list=c("99", paste0("0", 0:9), 10:24)
+save_file <- "../data/page_update_check.RData"
+```
+
+### create md_files
+
+```{r create, eval=FALSE}
 md_files <- NULL
 for (yr in rev(subdir_list)) {
   file_path <- paste0(md_path, yr)
@@ -28,24 +29,6 @@ for (yr in rev(subdir_list)) {
     data.frame(yr=yr, fn=.) %>%
     bind_rows(md_files) -> md_files
 }
-count(md_files, yr)
-```
-
-### List duplicates
-
-```{r list-duplicates}
-md_files %>%
-  group_by(fn) %>%
-  mutate(n=n()) %>%
-  filter(n>1) %>%
-  select(-n) %>%
-  arrange(fn, yr) %>%
-  data.frame
-```
-
-### Count page_update fields
-
-```{r md_links}
 c_text <- "page_update: "
 f_text <- "\\[sim1\\]\\: "
 md_files$page_update_line <- "999"
@@ -69,8 +52,31 @@ for (i_row in 1:nrow(md_files)) {
     paste0("", collapse=", ") -> md_files$page_update_line[i_row]
   md_files$old_link[i_row] <- old_link
 }
+save(md_files, file=save_file)
+```
+
+```{r}
+load(file=save_file)
+```
+
+### List duplicates
+
+```{r list-duplicates}
+md_files %>%
+  group_by(fn) %>%
+  mutate(n=n()) %>%
+  filter(n>1) %>%
+  select(-n) %>%
+  arrange(fn, yr) %>%
+  data.frame -> piper
+if (nrow(piper) > 0) piper
+if (nrow(piper) == 0) "None found"
+```
+
+### Count page_update fields
+
+```{r md_links}
 count(md_files, page_update_line)
-# count(md_files, yr, page_update_line)
 ```
 
 ```{r}
@@ -88,7 +94,9 @@ for (y in subdir_list) {
 ```{r}
 md_files %>%
   filter(page_update_line==update_text) %>%
-  select(-old_link)
+  select(-old_link) -> piper
+if (nrow(piper) > 0) piper
+if (nrow(piper) == 0) "None found"
 ```
 
 ### Pages with page_update = `r (update_text="partial")`
@@ -96,7 +104,9 @@ md_files %>%
 ```{r}
 md_files %>%
   filter(page_update_line==update_text) %>%
-  select(-old_link)
+  select(-old_link) -> piper
+if (nrow(piper) > 0) piper
+if (nrow(piper) == 0) "None found"
 ```
 
 ### Pages with page_update = `r (update_text="complete")`
@@ -112,8 +122,9 @@ md_files %>%
 ```{r}
 md_files %>%
   filter(page_update_line==update_text) %>%
-  select(-old_link) %>%
-  print
+  select(-old_link) -> piper
+if (nrow(piper) > 0) piper
+if (nrow(piper) == 0) "None found"
 ```
 
 ### Pages with links to previous site
@@ -131,7 +142,9 @@ md_files %>%
 ```{r}
 md_files %>%
   filter(nchar(old_link) == 0) %>%
-  select(yr, fn, old_link)
+  select(yr, fn, old_link) -> piper
+if (nrow(piper) > 0) piper
+if (nrow(piper) == 0) "None found"
 ```
 
 ```{r}
@@ -152,9 +165,5 @@ Text
 ```{r}
 #| results: asis
 cat(r'(\n# Header\n\nText]\n)')
-```
-
-```{r save_everything}
-save(md_files, file="../data/page_update_check.RData")
 ```
 

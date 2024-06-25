@@ -16,8 +16,8 @@ This page is currently being updated from the earlier version of my website. Sor
 <!---More--->
 
 
-You can find an [earlier version][sim1] of this page on my [original website][sim2]. Also see some [extra information][sim3].
+You can find an [earlier version][sim3] of this page on my [original website][sim2]. Also see some [extra information][sim3a].
 
-[sim1]: http://www.pmean.com/definitions/likelihood.htm
+[sim3]: http://www.pmean.com/definitions/likelihood.htm
 [sim2]: http://www.pmean.com/original_site.html
-[sim3]: http://www.pmean.com/definitions/likelihood_extra.htm
+[sim3a]: http://www.pmean.com/definitions/likelihood_extra.htm
