@@ -372,7 +372,7 @@ Sarah Winch, Debra Creedy, And Wendy Chaboyer. Governing nursing conduct: the ri
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/PostmodernAssault.html
+[sim1]: http://www.pmean.com/07/PostModernAssault.html
 [sim2]: http://www.pmean.com
 
 [bes1]: http://www.ucpress.edu/book.php?isbn=9780520219786.

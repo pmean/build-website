@@ -45,5 +45,5 @@ Another way to assess the circumstances is to use a cut-off that is independent 
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/HeteroscedasticTest.html
+[sim1]: http://www.pmean.com/07/HeteroscedasticTtest.html
 [sim2]: http://www.pmean.com

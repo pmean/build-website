@@ -1,0 +1,175 @@
+---
+title: Nice layout for comparison of categorical outcomes
+source: "New"
+author: Steve Simon
+date: 2024-06-27
+categories:
+- Blog post
+tags:
+- Being updated
+output: html_document
+page_update: complete
+---
+
+While it is easy to get R to produce descriptive statistics for categorical outcomes in a research study, it is a bit harder to get R to produce a layout that is publication-ready. Hard, but not impossible. Here is a simple example.Here is a brief abstract.
+
+<!---more--->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(glue)
+library(mice)
+library(readr)
+library(rms)
+library(tidyverse)
+library(yaml)
+g0 <- "https://raw.githubusercontent.com/pmean/"
+r0 <- "datasets/master/"
+f1 <- "titanic.yaml"
+s1 <- "yaml-functions.R"
+source(paste0(g0, r0, s1))
+dd <- read_yaml(paste0(g0, r0, f1))
+vnames <- extract_names(dd)
+vlabels <- extract_labels(dd)
+```
+
+Here is a brief description of this dataset, taken from the [data dictionary][sim3] on my github site.
+
+> `r dd$description`
+
+[sim3]: https://raw.githubusercontent.com/pmean/datasets/master/titanic-data-dictionary.yaml
+
+Here are the first few rows of data.
+
+```{r, echo=FALSE}
+f2 <- "titanic.txt"
+raw_data <- 
+  data.frame(
+    read_tsv(
+      file=paste0(g0, r0, f2),
+      col_types="ccncn"))
+# Re-arranging columns just for convenient display
+o <-  c(1, 3, 2, 4, 5)
+ti0 <- raw_data[ , o]
+vnames <- vnames[o]
+head(ti0)
+```
+
+I have hidden the R code up to this point, as it is mundane and not of great interest. I will show the R code and output for the rest of the analysis.
+
+Using the `count` command in R shows deaths and survivors among men and women.
+
+```{r}
+ti0 %>%
+  group_by(Sex, Survived) %>%
+  summarize(n1=n(), .groups="drop") -> tab01
+tab01
+```
+
+A quick note about the code. First, it would be simpler and better to use the single function `count` instead of the two functions `group_by` and `summarize`. I prefer the two functions because you can generalize a bit more easily to other cases like using a continuous outcome.
+
+Second, the `.groups` argument is new. When you use a `group_by` statement with two or more variables, the result is a grouped tibble. The summarize function will produce either a grouped tibble with everything except the last variable or a tibble that is not grouped. Most of the time (in my experience), you want the latter, but the default is the former. To produce a straight tibble rather than a grouped tibble, use the `.groups = "drop"` argument in `summarize`. 
+
+If you examine the results, there are a lot more male deaths than female deaths, but be careful because there were also more men than women on the boat. Calculating the proportions of deaths and survivors among men and women is fairly easy.
+
+```{r}
+tab01 %>%
+  group_by(Sex) %>%
+  mutate(n2=sum(n1)) %>%
+  mutate(pct=round(100*n1/n2)) -> tab02
+tab02
+```
+
+There will be times that the `sprintf` function will layout things a bit better than `round`. If you have numbers larger than 1000, you might consider adding a comma (e.g., 1,000) using the `format(., big.mark=",")` to make the large numbers a bit easier to read.
+
+You can combine the numerator, denominator, and percentage into one nice package using the `glue` function.
+
+```{r}
+tab02 %>%
+  mutate(out=glue("{n1}/{n2} ({pct}%)")) %>%
+  select(Sex, Survived, out) -> tab03
+tab03
+```
+
+Again, the `sprintf` function might work better than `glue`. 
+
+Next, arrange things so that the data on survivors is in one column and the data on deaths is in a separate column. This is done with the `pivot_wider` function.
+
+```{r}
+tab03 %>%
+  pivot_wider(
+    names_from=Survived, 
+    values_from=out) -> tab05
+tab05
+```
+
+Use the `set_names` function to produce nicer looking variable names. The `set_names` function is one of the [useful aliases][mag1] available in the magrittr package.
+
+[mag1]: https://magrittr.tidyverse.org/reference/aliases.html
+
+```{r}
+tab05 %>%
+  set_names(c(
+    "Sex", 
+    "Deaths", 
+    "Survivors")) -> tab06
+tab06
+```
+
+
+Next, let's use the kableExtra package to make things look really nice. There are a gazillion different options in kableExtra, and you might want to review the [kableExtra vignette][kab1]. There are [lots of other packages][mad1] out there that can create publication quality tables.
+
+[kab1]: https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html
+[mad1]: https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541
+
+```{r}
+library(kableExtra)
+tab06 %>%
+  kbl %>%
+  kable_paper(
+    "striped", 
+    full_width=FALSE) -> tab07
+tab07
+```
+
+If you have multiple independent variables, the `pack_rows` function is nice. Notice that we have to set the name of the first column to blank to avoid redundancy.
+
+```{r}
+library(kableExtra)
+tab07 %>%
+  pack_rows("Sex", 1, 2) -> tab08
+tab08
+```
+
+Here is the code all in one place rather than step by step. It looks quite complex, but if you build things one step at a time, the complex code is not all that complex to generate.
+
+```{r}
+ti0 %>%
+  group_by(Sex, Survived) %>%
+  summarize(n1=n(), .groups = "drop") %>%
+  group_by(Sex) %>%
+  mutate(n2=sum(n1)) %>%
+  mutate(pct=round(100*n1/n2)) %>%
+  mutate(out=glue("{n1}/{n2} ({pct}%)")) %>%
+  select(Sex, Survived, out) %>%
+  pivot_wider(names_from=Survived, values_from=out) %>%
+  set_names(c(" ", "Deaths", "Survivors")) %>%
+  kbl %>%
+  kable_paper("striped", full_width=FALSE) %>%
+  pack_rows("Sex", 1, 2)
+```
+
+```{r}
+ti0 %>%
+  group_by(Sex, Survived) %>%
+  summarize(n1=n(), .groups = "drop") %>%
+  group_by(Sex) %>%
+  mutate(n2=sum(n1)) %>%
+  mutate(pct=100*n1/n2) %>%
+  mutate(out=sprintf("%3.0f/%3.0f (%3.0f%%)", n1, n2, pct)) %>%
+  select(Sex, Survived, out) %>%
+  pivot_wider(names_from=Survived, values_from=out) %>%
+  set_names(c(" ", "Deaths", "Survivors")) %>%
+  kbl %>%
+  kable_paper("striped", full_width=FALSE) %>%
+  pack_rows("Sex", 1, 2)
+```

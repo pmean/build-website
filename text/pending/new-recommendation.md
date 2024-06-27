@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: no
 ---
 
 ![Figure 1. Excerpt from xxx](http://www.pmean.com/new-images/xx/xx-01.png)

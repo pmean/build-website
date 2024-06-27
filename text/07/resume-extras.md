@@ -211,6 +211,6 @@ Interindividual variability in acetaminophen sulfation by human fetal liver: Imp
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/Resume_Extras.html
+[sim1]: http://www.pmean.com/07/resume_extras.html
 [sim2]: http://www.pmean.com
 

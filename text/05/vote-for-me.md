@@ -11,7 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **Vote for me (December 21, 2005)**.
 
 I am running for an elected office, the Vice-Chair of District 4, Region
 2, of the Council of Chapters for the American Statistical Association.
@@ -155,6 +154,6 @@ details](../category/ProfessionalDetails.html).
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/05/VoteForme.html
+[sim1]: http://www.pmean.com/05/VoteForMe.html
 [sim2]: http://www.pmean.com
 

@@ -8,6 +8,7 @@ categories:
 tags:
 - Being updated
 output: html_document
+page_update: no
 ---
 
 + "Full quote"

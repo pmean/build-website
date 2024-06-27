@@ -1,7 +1,7 @@
 ---
 title: Classic calculations for a diagnostic test
 author: Steve Simon
-source: http://www.pmean.com/07/CalculationsDiagnosticTest.html
+source: unknown
 date: 2007-07-20
 categories:
 - Blog post
@@ -17,7 +17,6 @@ I created a table that illustrates many of the classic calculations for a diagno
 
 ![](http://www.pmean.com/new-images/07/CalculationsDiagnosticTest01.gif)
 
-You can find an [earlier version][sim1] of this page on my [old website][sim2].
+This image appeared somewhere in my earlier website, but the actual location is lost to history. You can find a similar, but not identical image in [my pdf booklet on diagnostic testing][sim3].
 
-[sim1]: http://www.pmean.com/07/CalculationsDiagnosticTest.html
-[sim2]: http://www.pmean.com
+[sim3]: http://www.pmean.com/00files/Diagnostic.pdf

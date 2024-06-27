@@ -99,12 +99,14 @@ search_link <- function(tx) {
   website <- "http://new.pmean.com/"
   slash   <- "/"
   tx %>%
-    str_subset(prepost) %>%
+    str_subset(postfix) %>%
     str_replace(prefix1, "") %>%
     str_replace(prefix2, "") %>%
     str_replace(postfix, "") %>%
     str_replace(website, "") %>%
     str_replace(slash,   "") %>%
+    str_remove_all("\\s") %>%
+    str_trim %>%
     paste0("") -> piper
   piper %>%
     paste0(collapse=", ")
@@ -123,6 +125,17 @@ search_size <- function(tx) {
 ### Read file text
 
 ```{r read}
+# The str_trim function is not working. There
+#  may be an encoding problem. See
+#   "about_encoding" in the stringi package
+#   https://search.r-project.org/CRAN/refmans/
+#     stringi/html/about_encoding.html
+#
+# Help may come from the "stri_enc_toutf8" function 
+#   https://search.r-project.org/CRAN/refmans/
+#     stringi/html/stri_enc_toutf8.html
+# A simpler solution may be
+#   str_remove_all("\\s")
 full_name <-
   paste0(
   html_path, "/",
@@ -138,6 +151,7 @@ for (i in 1:n) {
 }
 html$miss <- as.numeric(nchar(html$link) == 0)
 html$stub <- as.numeric(html$size <= 10)
+html <- arrange(html, yr, fn)
 save(html, file=save_file)
 ```
 

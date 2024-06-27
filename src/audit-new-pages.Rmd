@@ -77,6 +77,8 @@ search_size <- function(tx) {
 ### Read file text
 
 ```{r read}
+md$ext_new <- str_remove(md$fn, ".*\\.")
+md$fn <- str_remove(md$fn, "\\..*")
 md$stat <- "999"
 md$link <- "999"
 md$size <- -1
@@ -91,8 +93,8 @@ md$link %>%
   str_remove("http://") %>%
   str_remove("\\..*") -> md$site
 md$link %>%
-  str_remove(".*\\.") -> md$ext
-md$ext[md$site=="blog"] <- "/"
+  str_remove(".*\\.") -> md$ext_old
+md$ext_old[md$site=="blog"] <- "/"
 md$link %>%
   str_remove("http://www.pmean.com/") %>%
   str_remove("\\..*") %>%
@@ -101,16 +103,18 @@ md$subd[md$site=="blog"] <- "/"
 md$link %>%
   str_remove(".*/") %>%
   str_remove("\\..*") -> md$base
+md <- arrange(md, yr, fn)
 save(md, file=save_file)
 ```
 
 ### Simple statistics
 
 ```{r simple}
+count(md, ext_new)
 count(md, stat)
 summary(md$size)
 count(md, miss)
 count(md, site)
-count(md, ext)
+count(md, ext_old)
 count(md, subd)
 ```

@@ -10,7 +10,7 @@ output: html_document
 page_update: partial
 ---
 
-I editorialized a year ago about this on the Evidence-Based-Health List. "Should proponents of EBM be concerned about understanding the Bayesian philosophy? In my opinion, no. I think we'll gradually see Bayesian philosophy creep in to the design and analysis of clinical trials. For example, there are good Bayesian solutions, I understand, to the tricky issue of early stopping of clinical trials. But I doubt that we will see a wholesale rejection of both p-values AND confidence intervals in my lifetime. Too many people like me fail to fully understand the Bayesian paradigm for this to happen. So from a practical viewpoint, most of the medical research for the foreseeable future will be analyzed using the Frequentist paradigm."
+I . "Should proponents of EBM be concerned about understanding the Bayesian philosophy? In my opinion, no. I think we'll gradually see Bayesian philosophy creep in to the design and analysis of clinical trials. For example, there are good Bayesian solutions, I understand, to the tricky issue of early stopping of clinical trials. But I doubt that we will see a wholesale rejection of both p-values AND confidence intervals in my lifetime. Too many people like me fail to fully understand the Bayesian paradigm for this to happen. So from a practical viewpoint, most of the medical research for the foreseeable future will be analyzed using the Frequentist paradigm."
 
 John Platt recently mentioned two paper on the same list. 
 
@@ -25,7 +25,7 @@ Another good source of information is an article in the Journal of Statistics Ed
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
-[sim1]: http://www.pmean.com/05/bayesian.html
+[sim1]: http://www.pmean.com/99/bayesian.html
 [sim2]: http://www.pmean.com/original_site.html
 
 [alb1]: http://www.amstat.org/publications/jse/v3n3/albert.html

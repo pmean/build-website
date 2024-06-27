@@ -15,64 +15,110 @@ suppressMessages(suppressWarnings(library(stringr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
 load(file="../data/check_new.RData")
+n_new <- nrow(md)
 load(file="../data/check_old.RData")
+n_old <- nrow(html)
+size_limit <- 99
+
+inc <- function(x) {
+  n <- length(x)
+  m <- c(FALSE, x[-1]==x[-n])
+  x[m] <- " "
+  x
+}
+test1 <- rep(letters[1:4], 1:4)
+test2 <- inc(test1)
+data.frame(test1, test2)
 ```
 
-### create subsets
+### pages with no links from new site to old or blog site
 
-```{r create}
+```{r no-link-www}
+md %>% 
+  filter(miss==1) %>%
+  select(yr, fn, stat) -> pip1 
+print(nrow(pip1))
+glue("{nrow(pip1)} / {n_new} = {round(100*nrow(pip1)/n_new)}%")
+pip1 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
+```
+
+### pages with bad links from new site to old site
+
+```{r bad-link-www}
+html %>%
+  rename(base=fn) %>%
+  rename(subd=yr) %>%
+  select(base, subd, stub) -> html1
 md %>% 
   filter(miss==0) %>%
-  select(yr, fn, stat, base) -> md1
-  
+  filter(site=="www") %>%
+  left_join(html1, by=c("subd", "base")) %>%
+  select(yr, fn, stat, subd, base, stub) -> pip1
+pip1 %>%
+  filter(is.na(stub)) %>%
+    select(-stub) -> pip2 
+glue("{nrow(pip2)} / {n_new} = {round(100*nrow(pip2)/n_new)}%")
+pip2 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
+```
+
+
+### pages with good links from new site to old site
+
+```{r good-link-www}
+pip1 %>%
+  filter(!is.na(stub))  -> pip3 
+glue("{nrow(pip3)} / {n_new} = {round(100*nrow(pip3)/n_new)}%")
+pip3 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
+```
+
+### pages with no links from old site to new site
+
+```{r no-link-new}
 html %>% 
+  filter(miss==1) %>%
+  select(yr, fn, stub) -> pip1 
+print(nrow(pip1))
+pip1 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
+```
+
+### pages with bad links from old site to new site
+
+```{r bad-link-new}
+md %>%
+  select(-link) %>%
+  rename(link=fn) %>%
+  select(link, stat) -> md1
+
+html %>%
   filter(miss==0) %>%
-  mutate(base=fn) %>%
-  mutate(html_yr=yr) %>%
-  select(base, html_yr) -> html1
-
-match1 <- full_join(md1, html1, by="base") 
-
-md %>% 
-  filter(miss==0) %>%
-  mutate(base=fn) %>%
-  mutate(md_yr=yr) %>%
-  select(base, md_yr) -> md2
-  
-html %>% 
-  filter(miss==0) %>%
-  mutate(base=link) %>%
-  select(fn, yr, base) -> html2
-
-match2 <- full_join(html2, md2, by="base") 
-
-
+  left_join(md1, by="link") %>%
+  select(yr, fn, link, stat) -> pip1
+pip1 %>%
+  filter(is.na(stat)) %>%
+  select(-stat)  -> pip4 
+print(nrow(pip4))
+pip4 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
 ```
 
-### mistmatch 1a, new pages that link to non-existent old pages
 
-```{r}
-match1 %>% 
-  filter(is.na(html_yr))
+### pages with good links from old site to new site
+
+```{r good-link-new}
+pip1 %>%
+  filter(!is.na(stat)) -> pip5 
+print(nrow(pip5))
+pip5 %>%
+  mutate(yr=inc(yr)) %>%
+  head(size_limit)
 ```
 
-### mistmatch 1b, old pages that link back without recognition
-
-```{r}
-match1 %>% 
-  filter(is.na(fn))
-```
-
-### mistmatch 2a, old pages that link to non-existent new pages
-
-```{r}
-match2 %>% 
-  filter(is.na(md_yr))
-```
-
-### mistmatch 2b, new pages that link back without recognition
-
-```{r}
-match2 %>% 
-  filter(is.na(fn))
-```

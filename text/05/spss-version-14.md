@@ -11,8 +11,6 @@ tags:
 output: html_document
 page_update: partial
 ---
-**[StATS]:** **What's New in SPSS version 14.0
-(August 17, 2005)**
 
 I attended a web seminar, What's New in SPSS version 14.0, taught by
 Meta Brown, a Senior Systems Engineer with SPSS, Inc. Version 14 will
@@ -79,6 +77,6 @@ software](../category/SpssSoftware.html).
 
 You can find an [earlier version][sim1] of this page on my [website][sim2].
 
-[sim1]: http://www.pmean.com/05/SPSSVersion14.html
+[sim1]: http://www.pmean.com/05/SPSSversion14.html
 [sim2]: http://www.pmean.com
 

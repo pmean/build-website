@@ -43,7 +43,7 @@ Now everyone falls into the black and white trap (including me). It is just so t
 
 You can find an [earlier version][sim1] of this page on my [old website][sim2].
 
-[sim1]: http://www.pmean.com/07/NotBlackAndWhite.html
+[sim1]: http://www.pmean.com/07/NotBlackAndWhilte.html
 [sim2]: http://www.pmean.com
 [sim3]: http://www.pmean.com/07/SevenSins.html
 [sim4]: http://www.pmean.com/Evidence.html

@@ -14,7 +14,7 @@ page_update: no
 
 <!---More--->
 
-You can find an [earlier version][sim1] of this page on my [original website][sim2]. </a><strong>Sepember</strong></p>
+You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
-[sim1]: http://www.pmean.com/03/EarlyStoppingControversy.html
+[sim1]: http://www.pmean.com/03/EarlyStopping1.html
 [sim2]: http://www.pmean.com/original_site.html
