@@ -14,28 +14,28 @@ suppressMessages(suppressWarnings(library(readr)))
 suppressMessages(suppressWarnings(library(stringr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
-md_path <- "../text/"
-subdir_list=c("99", paste0("0", 0:9), 10:24)
+new_path <- "../text/"
+new_list=c("99", paste0("0", 0:9), 10:24)
 save_file <- "../data/check_new.RData"
 ```
 
-### create md
+### create new
 
 ```{r create}
-md <- NULL
-for (yr in rev(subdir_list)) {
-  file_path <- paste0(md_path, yr)
+new <- NULL
+for (dir in rev(new_list)) {
+  file_path <- paste0(new_path, dir)
   file_path %>%
     list.files(pattern="md$") %>%
-    data.frame(yr=yr, fn=.) %>%
-    bind_rows(md) -> md
+    data.frame(dir=dir, page=.) %>%
+    bind_rows(new) -> new
 }
-n <- nrow(md)
-full_name <-
+rows <- nrow(new)
+new_file <-
   paste0(
-  md_path, "/",
-  md$yr, "/",
-  md$fn)
+  new_path, "/",
+  new$dir, "/",
+  new$page)
 ```
 
 ### Search for links to old files
@@ -46,8 +46,7 @@ search_link <- function(tx) {
   tx %>%
     str_subset(f_text) %>%
     str_replace(f_text, "") %>%
-    paste0("") -> piper
-  piper %>%
+    paste0("") %>%
     paste0(collapse=", ")
 }
 ```
@@ -60,8 +59,7 @@ search_stat <- function(tx) {
   tx %>%
     str_subset(fixed(c_text)) %>%
     str_replace(fixed(c_text), "")  %>%
-    paste0("") -> piper
-  piper %>%
+    paste0("") %>%
     paste0(collapse=", ")
 }
 ```
@@ -77,44 +75,58 @@ search_size <- function(tx) {
 ### Read file text
 
 ```{r read}
-md$ext_new <- str_remove(md$fn, ".*\\.")
-md$fn <- str_remove(md$fn, "\\..*")
-md$stat <- "999"
-md$link <- "999"
-md$size <- -1
-for (i in 1:n) {
-  tx <- read_lines(full_name[i])
-  md$stat[i] <- search_stat(tx)
-  md$link[i] <- search_link(tx)
-  md$size[i] <- search_size(tx)
+new$ext  <- str_remove(new$page, ".*\\.")
+new$page <- str_remove(new$page, "\\..*")
+
+new$update <- "999"
+new$link_full <- "999"
+new$size <- -1
+for (i in 1:rows) {
+  tx <- read_lines(new_file[i])
+  new$update[i] <- search_stat(tx)
+  new$link_full[i] <- search_link(tx)
+  new$size[i] <- search_size(tx)
 }
-md$miss <- as.numeric(nchar(md$link) == 0)
-md$link %>%
+new$link_miss <- as.numeric(nchar(new$link_full) == 0)
+new$link_full %>%
   str_remove("http://") %>%
-  str_remove("\\..*") -> md$site
-md$link %>%
-  str_remove(".*\\.") -> md$ext_old
-md$ext_old[md$site=="blog"] <- "/"
-md$link %>%
+  str_remove("\\..*") -> new$link_site
+new$link_full %>%
+  str_remove(".*\\.") -> new$link_ext
+new$link_ext[new$link_site=="blog"] <- "/"
+new$link_full %>%
   str_remove("http://www.pmean.com/") %>%
   str_remove("\\..*") %>%
-  str_remove("/.*") -> md$subd
-md$subd[md$site=="blog"] <- "/"
-md$link %>%
+  str_remove("/.*") -> new$link_dir
+new$link_dir[new$link_site=="blog"] <- "/"
+new$link_full %>%
   str_remove(".*/") %>%
-  str_remove("\\..*") -> md$base
-md <- arrange(md, yr, fn)
-save(md, file=save_file)
+  str_remove("\\..*") -> new$link_page
+new %>%
+  select(
+    dir, 
+    page, 
+    ext, 
+    size,
+    update,
+    link_miss,
+    link_dir,
+    link_site,
+    link_page,
+    link_ext) %>%
+  arrange(dir, page) -> new
+
+save(new, file=save_file)
 ```
 
 ### Simple statistics
 
 ```{r simple}
-count(md, ext_new)
-count(md, stat)
-summary(md$size)
-count(md, miss)
-count(md, site)
-count(md, ext_old)
-count(md, subd)
+summary(new$size)
+count(new, ext)
+count(new, update)
+count(new, link_miss)
+count(new, link_site)
+count(new, link_ext)
+count(new, link_dir)
 ```

@@ -21,8 +21,8 @@ path3 <- "Dropbox/professional/fun stuff/update-website"
 "c:/Users/steve/Dropbox/professional/fun stuff/update-website"
 "c:/Users/simons/Dropbox/professional/fun stuff/update-website"
 
-html_path <- paste(path1, path2, path3, sep="/")
-subdir_list=c(
+old_path <- paste(path1, path2, path3, sep="/")
+old_list=c(
   "00",
   "00files",
   "01",
@@ -68,23 +68,23 @@ subdir_list=c(
 save_file <- "../data/check_old.RData"
 ```
 
-### create html
+### create old
 
 ```{r create}
-html <- NULL
-for (yr in rev(subdir_list)) {
-  file_path <- paste(html_path, yr, sep="/")
+old <- NULL
+for (dir in rev(old_list)) {
+  file_path <- paste(old_path, dir, sep="/")
   file_path %>%
-    list.files(pattern="asp|htm$|html$") -> piper
+    list.files(pattern="asp$|htm$|html$") -> piper
   if (length(piper) == 0) next
   piper %>%
-    str_remove("\\..*") -> fn
+    str_remove("\\..*") -> page
   piper %>%
     str_remove(".*\\.") -> ext
-  data.frame(yr=yr, fn=fn, ext=ext) %>%
-    bind_rows(html) -> html
+  data.frame(dir=dir, page=page, ext=ext) %>%
+    bind_rows(old) -> old
 }
-n <- nrow(html)
+rows <- nrow(old)
 ```
 
 
@@ -116,15 +116,6 @@ search_link <- function(tx) {
 ### Search for size
 
 ```{r size}
-search_size <- function(tx) {
-  ty <- str_remove_all(tx, "\\s")
-  length(tx)-sum(ty == "")
-}
-```
-
-### Read file text
-
-```{r read}
 # The str_trim function is not working. There
 #  may be an encoding problem. See
 #   "about_encoding" in the stringi package
@@ -136,30 +127,59 @@ search_size <- function(tx) {
 #     stringi/html/stri_enc_toutf8.html
 # A simpler solution may be
 #   str_remove_all("\\s")
+
+search_size <- function(tx) {
+  ty <- str_remove_all(tx, "\\s")
+  length(tx)-sum(ty == "")
+}
+```
+
+### Read file text
+
+```{r read}
 full_name <-
   paste0(
-  html_path, "/",
-  html$yr, "/",
-  html$fn, ".",
-  html$ext)
-html$size <- -1
-html$link <- "999"
-for (i in 1:n) {
+  old_path, "/",
+  old$dir, "/",
+  old$page, ".",
+  old$ext)
+
+old$size <- -1
+old$link_page <- "999"
+
+for (i in 1:rows) {
   tx <- read_lines(full_name[i])
-  html$link[i] <- search_link(tx)
-  html$size[i] <- search_size(tx)
+  old$size[i] <- search_size(tx)
+  old$link_page[i] <- search_link(tx)
 }
-html$miss <- as.numeric(nchar(html$link) == 0)
-html$stub <- as.numeric(html$size <= 10)
-html <- arrange(html, yr, fn)
-save(html, file=save_file)
+```
+
+
+```{r modify-variables}
+old$stub <- as.numeric(old$size <= 10)
+old$link_miss <- as.numeric(nchar(old$link_page) == 0)
+```
+
+```{r save}
+old %>%
+  select(
+    dir, 
+    page, 
+    ext, 
+    size,
+    stub,
+    link_miss,
+    link_page) %>%
+  arrange(dir, page) -> old
+    
+save(old, file=save_file)
 ```
 
 ### Simple statistics
 
 ```{r simple}
-summary(html$size)
-count(html, ext)
-count(html, miss)
-count(html, stub)
+summary(old$size)
+count(old, ext)
+count(old, link_miss)
+count(old, stub)
 ```

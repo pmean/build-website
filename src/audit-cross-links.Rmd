@@ -8,6 +8,7 @@ output: html_document
 This program looks for key information in the new webpages
 
 ```{r setup}
+verbose <- TRUE
 suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(magrittr)))
 suppressMessages(suppressWarnings(library(readr)))
@@ -15,9 +16,9 @@ suppressMessages(suppressWarnings(library(stringr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 
 load(file="../data/check_new.RData")
-n_new <- nrow(md)
+n_new <- nrow(new)
 load(file="../data/check_old.RData")
-n_old <- nrow(html)
+n_old <- nrow(old)
 size_limit <- 99
 
 inc <- function(x) {
@@ -31,37 +32,52 @@ test2 <- inc(test1)
 data.frame(test1, test2)
 ```
 
-### pages with no links from new site to old or blog site
+## pages with no links from new site to old or blog site
 
-```{r no-link-www}
-md %>% 
-  filter(miss==1) %>%
-  select(yr, fn, stat) -> pip1 
-print(nrow(pip1))
-glue("{nrow(pip1)} / {n_new} = {round(100*nrow(pip1)/n_new)}%")
-pip1 %>%
-  mutate(yr=inc(yr)) %>%
-  head(size_limit)
+```{r no-link-www-1}
+new %>% 
+  filter(link_miss==1) %>%
+  select(dir, page) -> pip1 
+msg <- glue(
+  "{nrow(pip1)} / {n_new} = {round(100*nrow(pip1)/n_new)}%")
+```
+
+### `r msg`
+
+```{r no-lin-www-2}
+if (verbose) {
+  pip1 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
 ```
 
 ### pages with bad links from new site to old site
 
 ```{r bad-link-www}
-html %>%
-  rename(base=fn) %>%
-  rename(subd=yr) %>%
-  select(base, subd, stub) -> html1
-md %>% 
-  filter(miss==0) %>%
-  filter(site=="www") %>%
-  left_join(html1, by=c("subd", "base")) %>%
-  select(yr, fn, stat, subd, base, stub) -> pip1
+old %>%
+  rename(back_link=link_page) %>%
+  rename(link_page=page) %>%
+  rename(link_dir=dir) %>%
+  select(link_dir, link_page, back_link, stub) -> mrg
+new %>% 
+  filter(link_miss==0) %>%
+  filter(link_site=="www") %>%
+  left_join(mrg, by=c("link_dir", "link_page")) %>%
+  select(
+    dir, 
+    page, 
+    link_dir, 
+    link_page, 
+    back_link,
+    stub) -> pip1
 pip1 %>%
   filter(is.na(stub)) %>%
     select(-stub) -> pip2 
-glue("{nrow(pip2)} / {n_new} = {round(100*nrow(pip2)/n_new)}%")
+msg <- glue(
+  "{nrow(pip2)} / {n_new} = {round(100*nrow(pip2)/n_new)}%")
 pip2 %>%
-  mutate(yr=inc(yr)) %>%
+  mutate(dir=inc(dir)) %>%
   head(size_limit)
 ```
 
@@ -73,40 +89,42 @@ pip1 %>%
   filter(!is.na(stub))  -> pip3 
 glue("{nrow(pip3)} / {n_new} = {round(100*nrow(pip3)/n_new)}%")
 pip3 %>%
-  mutate(yr=inc(yr)) %>%
+  mutate(dir=inc(dir)) %>%
   head(size_limit)
 ```
 
 ### pages with no links from old site to new site
 
 ```{r no-link-new}
-html %>% 
-  filter(miss==1) %>%
-  select(yr, fn, stub) -> pip1 
+old %>% 
+  filter(link_miss==1) %>%
+  select(dir, page) -> pip1 
 print(nrow(pip1))
 pip1 %>%
-  mutate(yr=inc(yr)) %>%
+  mutate(dir=inc(dir)) %>%
   head(size_limit)
 ```
 
 ### pages with bad links from old site to new site
 
 ```{r bad-link-new}
-md %>%
-  select(-link) %>%
-  rename(link=fn) %>%
-  select(link, stat) -> md1
+new %>%
+  rename(back_link=link_page) %>%
+  rename(link_page=page) %>%
+  select(link_page, back_link, update) -> mrg
 
-html %>%
-  filter(miss==0) %>%
-  left_join(md1, by="link") %>%
-  select(yr, fn, link, stat) -> pip1
+old %>%
+  filter(link_miss==0) %>%
+  left_join(mrg, by="link_page") %>%
+  select(dir, page, link_page, update) -> pip1
+
 pip1 %>%
-  filter(is.na(stat)) %>%
-  select(-stat)  -> pip4 
+  filter(is.na(update)) %>%
+  select(-update)  -> pip4
+
 print(nrow(pip4))
 pip4 %>%
-  mutate(yr=inc(yr)) %>%
+  mutate(dir=inc(dir)) %>%
   head(size_limit)
 ```
 
@@ -115,10 +133,10 @@ pip4 %>%
 
 ```{r good-link-new}
 pip1 %>%
-  filter(!is.na(stat)) -> pip5 
+  filter(!is.na(update)) -> pip5 
 print(nrow(pip5))
 pip5 %>%
-  mutate(yr=inc(yr)) %>%
+  mutate(dir=inc(dir)) %>%
   head(size_limit)
 ```
 
