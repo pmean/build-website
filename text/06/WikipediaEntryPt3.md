@@ -33,3 +33,8 @@ page_update: partial
 > > \\theta}}{{\\sqrt{\\hat p \\left ( {1-\\hat p} \\right ) / n}}} \\le
 > > Z\_{\\alpha / 2} \\right
 > > \\}](http://upload.wikimedia.org/math/6/a/a/6aa3e40ceb9cb15573b324686291ab66.png){.tex}
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/WikipediaEntryPt3.html
+[sim2]: http://www.pmean.com

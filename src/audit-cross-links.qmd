@@ -12,7 +12,7 @@ format:
 This program compares links between the new and old websites.
 
 ```{r setup}
-size_limit <- 0
+size_limit <- 999
 verbose <- (size_limit > 0)
 suppressMessages(suppressWarnings(library(glue)))
 suppressMessages(suppressWarnings(library(magrittr)))

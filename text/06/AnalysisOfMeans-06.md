@@ -86,3 +86,7 @@ The overall mean is 8.8 and the lower and upper decision limits are 7.0
 and 10.5, respectively. When I get some time, I'd like to replicate
 this example using R software.
 
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/analysisOfMeans.html
+[sim2]: http://www.pmean.com

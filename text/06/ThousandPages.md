@@ -20,3 +20,8 @@ page_update: partial
 > started in 2004 has about a third of all of the pages. There are also
 > about 1,300 graphic images on these pages, mostly screen shots of SPSS
 > and formulas produced by MathType.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/ThousandPages.html
+[sim2]: http://www.pmean.com

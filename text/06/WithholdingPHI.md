@@ -35,3 +35,8 @@ has to undergo an emergency operation unrelated to the research study,
 then perhaps some of the PHI relating to the research study might be
 needed (e.g., was the drug being given a placebo or the active drug
 which has a known tendency to reduce clotting).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/WithholdingPHI.html
+[sim2]: http://www.pmean.com

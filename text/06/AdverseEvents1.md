@@ -28,3 +28,8 @@ pessimistic prior. If even an optimistic prior is swamped by actual data
 suggesting that accrual is slow enough that no realistic sample size
 would emerge at the of the study, then that might be the point at which
 you decide to cut your losses.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AdverseEvents1.html
+[sim2]: http://www.pmean.com

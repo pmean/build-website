@@ -175,3 +175,8 @@ the single component model. This just reminds you that allowing
 different variances for each component is essentially the same as
 forcing the variances to be equal when there is just a single
 component.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/UnivariateClustering.html
+[sim2]: http://www.pmean.com

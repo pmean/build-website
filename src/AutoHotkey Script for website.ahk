@@ -1,4 +1,4 @@
-﻿#SingleInstance Force
+#SingleInstance Force
 
 ^1::
 Send, {Home}{Backspace}{Space}{Up 2}{Down 2}{Home}
@@ -17,7 +17,7 @@ Send, {Home}page_update: {Return}{Up}{Right 13}partial{Left 7}{Shift down}{End}{
 Return
 
 ^5::
-Send, You can find an [earlier version][sim1] of this page on my [old website][sim2].{Return 2}[sim1]: http://www.pmean.com/07/.html{Return}[sim2]: http://www.pmean.com{Up}{Right 4}
+Send, You can find an [earlier version][sim1] of this page on my [old website][sim2].{Return 2}[sim1]: http://www.pmean.com/06/.html{Return}[sim2]: http://www.pmean.com{Home}{Up}{Right 32}
 Return
 
 ^6::

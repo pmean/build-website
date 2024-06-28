@@ -36,3 +36,8 @@ separate randomization list for different centers or for different
 demographic groups in order to assure good balance across these
 important factor, is actually stratified randomization and not block
 randomization.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/BlockRandomization.html
+[sim2]: http://www.pmean.com

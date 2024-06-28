@@ -45,3 +45,8 @@ an X-bar fairly easily. Alignment is still a tricky issue.
 Third, you could rewrite your paper so as to avoid the use of the
 X-bar symbol entirely. This is the coward's way out, I realize, but
 how often is it really critical to use this particular symbol?
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/XbarSymbol.html
+[sim2]: http://www.pmean.com

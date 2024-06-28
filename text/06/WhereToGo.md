@@ -88,3 +88,8 @@ recognition for excellence in computational statistics.
 
 I'm not sure which of these conferences I will end up attending, but
 they all look good.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/WhereToGo.html
+[sim2]: http://www.pmean.com

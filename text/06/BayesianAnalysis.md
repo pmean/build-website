@@ -51,3 +51,8 @@ language is quite blunt. Users of frequentist methods
 Dr. Lecoutre advocates the use of non-informative priors and offers the
 term "Fiducial Bayesian" to describe this approach. Although I dislike
 the aggressive tone of this article, it is worth reading.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/BayesianAnalysis.html
+[sim2]: http://www.pmean.com

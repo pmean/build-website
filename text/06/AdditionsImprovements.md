@@ -68,3 +68,7 @@ page_update: partial
 > and I want to start linking these entries to the appropriate
 > categories in the topic list.
 
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AdditionsImprovements.html
+[sim2]: http://www.pmean.com

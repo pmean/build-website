@@ -227,3 +227,8 @@ A good reference for CUSUM charts appears in [section 6.3.2.3 of the NIST Engine
 -   [I want to write a grant](WriteGrant.asp)
 -   [Reporting serious adverse events](AdverseEvents.asp)
 -   [Control charts for monitoring mortality rates](http://www.pmean.com/weblog2005/ControlCharts.asp)
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/accrual-control-chart.html
+[sim2]: http://www.pmean.com

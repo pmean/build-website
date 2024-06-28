@@ -29,3 +29,8 @@ page_update: partial
 > result, because women with a long cycle would never be able to report
 > more than a single cycle, while most women with normal and short
 > cycles were able to report two values.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/VariableNumberOfMeasures.html
+[sim2]: http://www.pmean.com

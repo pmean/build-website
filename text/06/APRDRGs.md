@@ -56,3 +56,8 @@ that this grouping can account for about 16% of the variation in length
 of stay.
 
 -   [www.pubmedcentral.gov/articlerender.fcgi?tool=pubmed&pubmedid=8885854](http://www.pubmedcentral.gov/articlerender.fcgi?tool=pubmed&pubmedid=8885854)
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/APRDRGs.html
+[sim2]: http://www.pmean.com

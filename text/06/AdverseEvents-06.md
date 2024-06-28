@@ -132,3 +132,8 @@ the longer the patient is under study.
     [Medline]](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=15148066&dopt=Abstract)
     [Abstract]](http://www.annals.org/cgi/content/abstract/140/10/795)
     [PDF]](http://www.annals.org/cgi/reprint/140/10/795.pdf)
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AdverseEvents.html
+[sim2]: http://www.pmean.com

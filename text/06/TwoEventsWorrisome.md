@@ -55,3 +55,8 @@ indeed important, but of greater importance is that certain severe
 events are also (thankfully) rare events. If an event is rare enough in
 the background population, then that rarity may make two events by
 themselves to be a very worrisome problem.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/TwoEventsWorrisome.html
+[sim2]: http://www.pmean.com

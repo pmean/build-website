@@ -39,3 +39,8 @@ There are other approaches\--matching, stratification, and propensity
 scores, that also work well if you need to make an internal adjustment.
 Just keep in mind that the internal adjustment is never as good as using
 a published norm.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AdjustingForAgeAndSex.html
+[sim2]: http://www.pmean.com

@@ -86,3 +86,8 @@ statistical sample
 is flagged by Wikpedia as a stub (an entry that is short and provides
 insufficient information). So it looks like there would be plenty of
 work for me if I wanted to do more with Wikipedia.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/WikipediaEntryPt2.html
+[sim2]: http://www.pmean.com

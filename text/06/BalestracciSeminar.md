@@ -30,3 +30,8 @@ He has a nice quote on one of these web pages:
 
 Mr. Balestracci may be coming to Kansas City in June to give a talk in
 June. It will be interesting to hear what he has to say.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/BalestracciSeminar.html
+[sim2]: http://www.pmean.com

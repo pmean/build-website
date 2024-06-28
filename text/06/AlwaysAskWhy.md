@@ -75,5 +75,7 @@ page_update: partial
 > > treatments, and to explain why it is that the experiment, when
 > > completed, will assist him in his research.*<U+FFFD> \-- Gertrude M. Cox.
 
-This web page was written by Steve Simon, edited by Steve Simon, and was
-last modified on 04/01/2010.
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AlwaysAskWhy.html
+[sim2]: http://www.pmean.com

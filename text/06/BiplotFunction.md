@@ -38,3 +38,8 @@ different program for its examples.
 -   **Interactive Biplot Construction.** Udina F. Journal of Statistical
     Software 2005: 13(5);
     [\[PDF\]](http://www.jstatsoft.org/counter.php?id=119&url=v13/i05/v13i05.pdf&ct=1)
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/BiplotFunction.html
+[sim2]: http://www.pmean.com

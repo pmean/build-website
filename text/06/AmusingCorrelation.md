@@ -31,3 +31,8 @@ This example shows a strong correlation between ice cream sales and
 crime rates. The "obvious" interpretation is that ice cream causes
 crime. A more logical interpretation is that both ice cream sales and
 crime rate are correlated with outdoor temperature.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AmusingCorrelation.html
+[sim2]: http://www.pmean.com

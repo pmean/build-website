@@ -50,3 +50,8 @@ page_update: partial
 > -   [www.amstat.org/education/index.cfm?fuseaction=learnstat](http://www.amstat.org/education/index.cfm?fuseaction=learnstat)
 >
 > that we could use as a model for the traveling course.
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/TravelingCourse.html
+[sim2]: http://www.pmean.com

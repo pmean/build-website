@@ -19,3 +19,8 @@ page_update: partial
 > allows you to assess the benefits and harms of a new therapy and the
 > probability of those benefits and harms. That avoids some confusion
 > over the interpretation of the word "risk".
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/06/AmbiguousDefinition.html
+[sim2]: http://www.pmean.com
