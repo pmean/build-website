@@ -2,7 +2,11 @@
 title: "Check links on old pages"
 author: "Steve Simon"
 date: "Created 2024-06-25"
-output: html_document
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
 ---
   
 This program looks for key links in the old webpages
@@ -68,7 +72,7 @@ old_list=c(
 save_file <- "../data/check_old.RData"
 ```
 
-### create old
+## Create old
 
 ```{r create}
 old <- NULL
@@ -88,7 +92,7 @@ rows <- nrow(old)
 ```
 
 
-### Search for links to old files
+## Search for links to old files
 
 ```{r links}
 search_link <- function(tx) {
@@ -113,7 +117,7 @@ search_link <- function(tx) {
 }
 ```
 
-### Search for size
+## Search for size
 
 ```{r size}
 # The str_trim function is not working. There
@@ -134,7 +138,7 @@ search_size <- function(tx) {
 }
 ```
 
-### Read file text
+## Read file text
 
 ```{r read}
 full_name <-
@@ -154,11 +158,14 @@ for (i in 1:rows) {
 }
 ```
 
+## Modify variables
 
 ```{r modify-variables}
 old$stub <- as.numeric(old$size <= 10)
 old$link_miss <- as.numeric(nchar(old$link_page) == 0)
 ```
+
+## Save results
 
 ```{r save}
 old %>%
@@ -175,7 +182,7 @@ old %>%
 save(old, file=save_file)
 ```
 
-### Simple statistics
+## Simple statistics
 
 ```{r simple}
 summary(old$size)

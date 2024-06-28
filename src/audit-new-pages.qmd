@@ -2,7 +2,11 @@
 title: "Check links on new pages"
 author: "Steve Simon"
 date: "Created 2024-06-25"
-output: html_document
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
 ---
   
 This program looks for key information in the new webpages
@@ -19,7 +23,7 @@ new_list=c("99", paste0("0", 0:9), 10:24)
 save_file <- "../data/check_new.RData"
 ```
 
-### create new
+## Create new
 
 ```{r create}
 new <- NULL
@@ -38,7 +42,7 @@ new_file <-
   new$page)
 ```
 
-### Search for links to old files
+## Search for links to old files
 
 ```{r links}
 search_link <- function(tx) {
@@ -51,7 +55,7 @@ search_link <- function(tx) {
 }
 ```
 
-### Search for page_update values
+## Search for page_update values
 
 ```{r update}
 search_stat <- function(tx) {
@@ -64,7 +68,7 @@ search_stat <- function(tx) {
 }
 ```
 
-### Search for size
+## Search for size
 
 ```{r size}
 search_size <- function(tx) {
@@ -72,7 +76,7 @@ search_size <- function(tx) {
 }
 ```
 
-### Read file text
+## Read file text
 
 ```{r read}
 new$ext  <- str_remove(new$page, ".*\\.")
@@ -87,6 +91,11 @@ for (i in 1:rows) {
   new$link_full[i] <- search_link(tx)
   new$size[i] <- search_size(tx)
 }
+```
+
+## Modify variables
+
+```{r modify}
 new$link_miss <- as.numeric(nchar(new$link_full) == 0)
 new$link_full %>%
   str_remove("http://") %>%
@@ -102,6 +111,11 @@ new$link_dir[new$link_site=="blog"] <- "/"
 new$link_full %>%
   str_remove(".*/") %>%
   str_remove("\\..*") -> new$link_page
+```
+
+## Save results
+
+```{r save}
 new %>%
   select(
     dir, 
@@ -119,7 +133,7 @@ new %>%
 save(new, file=save_file)
 ```
 
-### Simple statistics
+## Simple statistics
 
 ```{r simple}
 summary(new$size)

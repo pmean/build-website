@@ -1,0 +1,215 @@
+---
+title: "Check cross-links between new and old site"
+author: "Steve Simon"
+date: "Created 2024-06-25"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+---
+  
+This program compares links between the new and old websites.
+
+```{r setup}
+size_limit <- 0
+verbose <- (size_limit > 0)
+suppressMessages(suppressWarnings(library(glue)))
+suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+
+load(file="../data/check_new.RData")
+n_new <- nrow(new)
+load(file="../data/check_old.RData")
+n_old <- nrow(old)
+
+inc <- function(x) {
+  n <- length(x)
+  m <- c(FALSE, x[-1]==x[-n])
+  x[m] <- " "
+  x
+}
+```
+
+```{r test-inc, echo=FALSE, eval=FALSE}
+test1 <- rep(letters[1:4], 1:4)
+test2 <- inc(test1)
+data.frame(test1, test2)
+```
+
+## pages with no links from new site to old or blog site
+
+```{r no-link-www-1}
+new %>% 
+  filter(link_miss==1) %>%
+  select(dir, page) -> pip1 
+n <- nrow(pip1)
+pct <- round(100*n/n_new)
+msg <- glue("{n} / {n_new} = {pct}%")
+```
+
+### `r msg`
+
+```{r no-link-www-2}
+if (verbose) {
+  pip1 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
+## pages with bad links from new site to old site
+
+```{r bad-link-www-1}
+old %>%
+  rename(back_link=link_page) %>%
+  rename(link_page=page) %>%
+  rename(link_dir=dir) %>%
+  select(link_dir, link_page, back_link, stub) -> mrg
+new %>% 
+  filter(link_miss==0) %>%
+  filter(link_site=="www") %>%
+  left_join(mrg, by=c("link_dir", "link_page")) %>%
+  select(
+    dir, 
+    page, 
+    link_dir, 
+    link_page, 
+    back_link,
+    stub) -> pip2
+pip2 %>%
+  filter(is.na(stub)) %>%
+    select(-stub) -> pip3 
+n <- nrow(pip3)
+pct <- round(100*n/n_new)
+msg <- glue("{n} / {n_new} = {pct}%")
+```
+
+### `r msg`
+
+```{r bad-link-www-2}
+if (verbose) {
+  pip3 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
+
+## pages with good links from new site to old site
+
+```{r good-link-www-1}
+pip2 %>%
+  filter(!is.na(stub))  -> pip4 
+n <- nrow(pip4)
+pct <- round(100*n/n_new)
+msg <- glue("{n} / {n_new} = {pct}%")
+```
+
+### `r msg`
+
+```{r good-link-www-2}
+if (verbose) {
+  pip4 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
+## pages with links from new site to blog site
+
+Note: there is no easy way for a program to check whether the link to my blog site is bad or good.
+
+```{r link-blog-1}
+new %>%
+  filter(link_site=="blog") %>%
+  filter(link_miss==0) -> pip5 
+n <- nrow(pip5)
+pct <- round(100*n/n_new)
+msg <- glue("{n} / {n_new} = {pct}%")
+```
+
+### `r msg`
+
+```{r link-blog-2}
+if (verbose) {
+  pip5 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
+## pages with no links from old site to new site
+
+```{r no-link-old-1}
+old %>% 
+  filter(link_miss==1) %>%
+  select(dir, page) -> pip6 
+n <- nrow(pip6)
+pct <- round(100*n/n_old)
+msg <- glue("{n} / {n_old} = {pct}%")
+```
+
+### `r msg`
+
+```{r no-link-old-2}
+pip6 %>%
+  mutate(dir=inc(dir)) %>%
+  head(size_limit)
+```
+
+## pages with bad links from old site to new site
+
+```{r bad-link-old-1}
+new %>%
+  rename(back_link=link_page) %>%
+  rename(link_page=page) %>%
+  select(link_page, back_link, update) -> mrg
+
+old %>%
+  filter(link_miss==0) %>%
+  left_join(mrg, by="link_page") %>%
+  select(dir, page, link_page, update) -> pip7
+
+pip7 %>%
+  filter(is.na(update)) %>%
+  select(-update)  -> pip8
+
+n <- nrow(pip8)
+pct <- round(100*n/n_old)
+msg <- glue("{n} / {n_old} = {pct}%")
+```
+
+### `r msg`
+
+```{r bad-link-old-2}
+if (verbose) {
+  pip8 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
+
+## pages with good links from old site to new site
+
+```{r good-link-old-1}
+pip7 %>%
+  filter(!is.na(update)) -> pip9 
+n <- nrow(pip9)
+pct <- round(100*n/n_old)
+msg <- glue("{n} / {n_old} = {pct}%")
+```
+
+### `r msg`
+
+```{r good-link-old-2}
+if (verbose) {
+  pip9 %>%
+    mutate(dir=inc(dir)) %>%
+    head(size_limit)
+}
+```
+
