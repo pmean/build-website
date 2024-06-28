@@ -41,3 +41,8 @@ page_update: partial
 > both within the Wikipedia and externally.
 
 You can find an [earlier version](http://www.pmean.com/04/Wikipedia.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/Wikipededia.html
+[sim2]: http://www.pmean.com

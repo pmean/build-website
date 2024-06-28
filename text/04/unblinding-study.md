@@ -36,4 +36,7 @@ Wainwright P. J Med Ethics 2002: 28(6); 373-6.
 [\[Full text\]](http://jme.bmjjournals.com/cgi/content/full/28/6/373)
 [\[PDF\]](http://jme.bmjjournals.com/cgi/reprint/28/6/373.pdf)
 
-You can find an [earlier version](http://www.pmean.com/04/UnblindingStudy.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/UnblindingStudy.html
+[sim2]: http://www.pmean.com

@@ -31,3 +31,8 @@ bit of calculus you can show that the optimal degree of unbalancedness
 is related to the square root of the ratio of costs.
 
 You can find an [earlier version](http://www.pmean.com/04/UnequalSampleSizes.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/UnequalSampleSizes.html
+[sim2]: http://www.pmean.com

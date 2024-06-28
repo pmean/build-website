@@ -67,3 +67,8 @@ experiment in a single self-documenting package.
     Graphics](http://www.xml.com/pub/a/2001/03/21/svg.html)
 
 You can find an [earlier version](http://www.pmean.com/04/xml.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/xml.html
+[sim2]: http://www.pmean.com

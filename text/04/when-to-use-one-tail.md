@@ -64,3 +64,8 @@ opposite direction from what you hypothesized. In this case, the p-value
 is 1-p/2 or 0.983.
 
 You can find an [earlier version](http://www.pmean.com/04/tail.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/tail.html
+[sim2]: http://www.pmean.com

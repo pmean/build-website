@@ -66,3 +66,8 @@ more likely than not these patients dropped out because the treatment
 they were receiving in the study was not going well.
 
 You can find an [earlier version](http://www.pmean.com/04/spss.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/spss.html
+[sim2]: http://www.pmean.com

@@ -141,3 +141,8 @@ Thankfully, we did not observe an outcome in the opposite tail as that
 would have been very difficult to explain.
 
 You can find an [earlier version](http://www.pmean.com/04/temporality.html) of this page on my [original website](http://www.pmean.com/original_site.html).
+
+You can find an [earlier version][sim1] of this page on my [old website][sim2].
+
+[sim1]: http://www.pmean.com/04/temporality.html
+[sim2]: http://www.pmean.com
