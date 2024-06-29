@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Professional details
-output: powerpoint_presentation
+output: html_document
 page_update: complete
 ---
 

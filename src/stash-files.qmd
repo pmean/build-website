@@ -1,0 +1,113 @@
+---
+title: "Stash md files"
+author: "Steve Simon"
+date: "Created 2024-06-29"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+## Get files
+
+```{r prelims}
+library(dplyr)
+library(glue)
+library(knitr)
+library(magrittr)
+library(stringr)
+yrs <- c(paste0("0", 0:9), as.character(c(10:24, 99)))
+all_files <- NULL
+for (y in rev(yrs)) {
+  f0 <- "../text"
+  fn <- list.files(glue("{f0}/{y}"))
+  if (length(fn)==0) next
+  data.frame(y, fn) %>%
+    bind_rows(all_files) -> all_files
+}
+count(all_files, y)
+```
+
+
+## Split files by extension
+
+```{r split}
+all_files %>%
+  mutate(ext=str_remove(fn, ".*\\.")) %>%
+  mutate(fn=str_remove(fn, "\\..*")) -> all_files
+count(all_files, ext)
+```
+
+## Find files without md, Rmd extensions
+
+```{r find}
+all_files %>%
+  filter(ext != "md") %>%
+  filter(ext != "Rmd")
+```
+
+## Remove html files
+
+```{r remove}
+all_files %>%
+  filter(ext == "html") %>%
+  mutate(f=glue("{f0}/{y}/{fn}.{ext}")) %>%
+  pull(f) -> g
+g
+if (length(g) > 0) {
+  file.remove(g)
+  cat("Removing", length(g), "files:", paste0(g, collapse=", "))
+}
+```
+
+## Backup old files
+
+```{r backup}
+b0 <- "c:/Users/steve/Dropbox/professional/fun stuff/update-/md"
+# b0 <- "../../md"
+b1 <- glue("{b0}/{Sys.Date()}")
+run_backup <- 
+  !file.exists(b1)
+b1 <- glue("{b0}/{Sys.Date()}")
+if (run_backup) {
+  dir.create(b1)
+  f <- list.files(b0, pattern="md")
+  cat("Backing up", length(f), "files")
+  file.copy(
+    from=glue("{b0}/{f}"),
+    to=glue("{b1}/{f}"),
+    overwrite=TRUE)
+}
+```
+
+## Copy md files
+
+```{r md}
+all_files %>%
+  filter(ext == "md") %>%
+  mutate(a=glue("{f0}/{y}/{fn}.{ext}")) %>%
+  mutate(b=glue("{b0}/{fn}.{ext}")) %>%
+  select(a, b) -> md
+head(md)
+file.copy(from=md$a, to=md$b, overwrite=TRUE)
+length(list.files(b0))
+```
+
+## Knit and copy Rmd files
+
+```{r rmd}
+all_files %>%
+  filter(ext == "Rmd") %>%
+  mutate(a=glue("{f0}/{y}/{fn}.Rmd")) %>%
+  mutate(b=glue("{b0}/{fn}.md")) %>%
+  select(a, b) -> Rmd
+head(Rmd)
+n <- nrow(Rmd)
+n <- 3
+for (i in 1:nrow(Rmd)) {
+  knit(input=Rmd$a[i], output=Rmd$b[i])
+}
+length(list.files(b0))
+```

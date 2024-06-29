@@ -18,14 +18,18 @@ Splines provide a useful way to model relationships that are more complex than a
 
 ```{r initialization, echo=FALSE}
 library(broom)
+library(glue)
 library(pspline)
 library(readr)
 library(rms)
 library(tidyverse)
 library(yaml)
-f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"
-f1 <- "diamonds.yaml"
-dd <- read_yaml(paste0(f0, f1))
+
+f0 <- "https://raw.githubusercontent.com"
+f1 <- "pmean/datasets/master"
+f2 <- "singapore-diamond-prices.yaml"
+
+dd <- read_yaml(glue("{f0}/{f1}/{f2}"))
 ```
 
 Here is a brief description of the diamond pricing dataset, taken from the [data dictionary][sim3] on my github site.
@@ -41,8 +45,10 @@ You can also find the [original source of the data][jse1] and a [more detailed d
 [jse3]: https://jse.amstat.org/jse_data_archive.htm
 
 ```{r read-diamonds}
-f2 <- "diamonds.txt"
-raw_data <- read.fwf(file=paste0(f0, f2), widths=c(5,2,5,4,5))
+f2 <- "singapore-diamond-prices.txt"
+raw_data <- read.fwf(
+  file=glue("{f0}/{f1}/{f2}"), 
+  widths=c(5,2,5,4,5))
 di <- raw_data
 names(di) <- c(
   "carat",

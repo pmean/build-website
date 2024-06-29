@@ -2,9 +2,7 @@
 title: "UMKC Faculty Researcher Award"
 source: new
 date: '2021-09-28'
-output:
-  word_document: default
-  html_document: default
+output: html_document
 tags:
 - Professional details
 categories:

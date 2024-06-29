@@ -39,7 +39,7 @@ where N is the size of the population and n is the size of the sample. If fpc is
 
 The following table shows what the fpc in four different situations would be.
 
-```{r, echo=FALSE}
+```{r fpc, echo=FALSE}
 df <- data.frame(sample_size=c(50, 200, 4000))
 df$fpc_pop_ten_thousand <- sqrt((10000-df$sample_size)/(9999))
 df$fpc_pop_ten_million <- sqrt((10000000-df$sample_size)/(9999999))
