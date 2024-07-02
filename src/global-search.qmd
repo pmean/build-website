@@ -1,0 +1,35 @@
+---
+title: "Global search and replace"
+author: "Steve Simon"
+date: "Created 2024-06-30"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+## Get files
+
+```{r prelims}
+backup_flag <- TRUE
+library(dplyr)
+library(glue)
+library(knitr)
+library(magrittr)
+library(stringr)
+yrs <- c(paste0("0", 0:9), as.character(c(10:24, 99)))
+all_files <- NULL
+for (y in rev(yrs)) {
+  f0 <- "../text"
+  fn <- list.files(glue("{f0}/{y}"))
+  if (length(fn)==0) next
+  data.frame(y, fn) %>%
+    bind_rows(all_files) -> all_files
+}
+count(all_files, y)
+```
+
+## Load text
+

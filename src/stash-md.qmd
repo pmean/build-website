@@ -13,6 +13,7 @@ editor: source
 ## Get files
 
 ```{r prelims}
+backup_flag <- TRUE
 library(dplyr)
 library(glue)
 library(knitr)
@@ -62,22 +63,29 @@ if (length(g) > 0) {
 }
 ```
 
+## Define directories for copying
+
+```{r set-dir}
+b0 <- "c:/Users"
+b1 <- str_subset(list.files(b0), "steve|simons")
+b2 <- "steve/Dropbox/professional"
+b3 <- "fun stuff/update-website/md"
+b4 <- glue("{b0}/{b1}/{b2}/{b3}")
+b5 <- glue("{b4}/{Sys.Date()}")
+```
+
 ## Backup old files
 
-```{r backup}
-b0 <- "c:/Users/steve/Dropbox/professional/fun stuff/update-/md"
-# b0 <- "../../md"
-b1 <- glue("{b0}/{Sys.Date()}")
+```{r backup, eval=backup_flag}
 run_backup <- 
-  !file.exists(b1)
-b1 <- glue("{b0}/{Sys.Date()}")
+  !file.exists(b5)
 if (run_backup) {
   dir.create(b1)
-  f <- list.files(b0, pattern="md")
+  f <- list.files(b4, pattern="md")
   cat("Backing up", length(f), "files")
   file.copy(
-    from=glue("{b0}/{f}"),
-    to=glue("{b1}/{f}"),
+    from=glue("{b4}/{f}"),
+    to=glue("{b5}/{f}"),
     overwrite=TRUE)
 }
 ```
@@ -88,16 +96,20 @@ if (run_backup) {
 all_files %>%
   filter(ext == "md") %>%
   mutate(a=glue("{f0}/{y}/{fn}.{ext}")) %>%
-  mutate(b=glue("{b0}/{fn}.{ext}")) %>%
-  select(a, b) -> md
+  mutate(b=glue("{b4}/{fn}.{ext}")) %>%
+  select(a, b, fn) -> md
 head(md)
-file.copy(from=md$a, to=md$b, overwrite=TRUE)
-length(list.files(b0))
+success <- file.copy(from=md$a, to=md$b, overwrite=TRUE)
+if (success) cat("\nAll files copied without error")
+if (!success) {
+  cat("\nError in file copy: ")
+  cat(paste0(md$fn[!success], collapse=", "))
+}
 ```
 
 ## Knit and copy Rmd files
 
-```{r rmd}
+```{r rmd, eval=FALSE}
 all_files %>%
   filter(ext == "Rmd") %>%
   mutate(a=glue("{f0}/{y}/{fn}.Rmd")) %>%
