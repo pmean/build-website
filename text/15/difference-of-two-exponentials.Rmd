@@ -9,6 +9,7 @@ tags:
 - incomplete page
 - nonlinear regression
 - R software
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -19,11 +20,11 @@ I wanted to provide an overview of how you analyze a classic nonlinear regressio
 
 Here are some simple examples of nonlinear regression. We will use the built-in data set Theoph for all our examples.
 
-```{r}
+```{r difference-in-two-exponentials-01}
 head(Theoph)
 ```
 
-```{r}
+```{r difference-in-two-exponentials-02}
 tail(Theoph)
 ```
 

@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Confidence intervals
+- Rmarkdown code
 - Sample size justification
 output: html_document
 page_update: complete

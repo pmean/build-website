@@ -7,6 +7,7 @@ categories:
 tags:
 - Being updated
 - R software
+- Rmarkdown code
 output: html_document
 page_update: partial
 ---
@@ -16,7 +17,7 @@ allow me to backtrack and find information in the original files if
 needed. Here's a simple example of how this would work.
 
 
-```{r}
+```{r merging-in-r-01}
 # randomly select 20 letters without replacement.
 x0 <- sample(letters,20)
 x1 <- sample(letters,20)
@@ -26,60 +27,60 @@ x1
 
 The intersect functions lets us know which letters are in both x0 and x1.
 
-```{r}
+```{r merging-in-r-02}
 intersect(x0,x1)
 ```
 
 The setdiff function lets us know which letters are in x0 but not x1 (reverse the arguments to get letters in x1 but not in x1).
 
-```{r}
+```{r merging-in-r-03}
 setdiff(x0,x1)
 setdiff(x1,x0)
 ```
 
 By default, the merge function includes only those values in common with the two files. Note that the id1 and id2 values tells us that the first row of x2 comes from the 19th and 8th rows of x0 and x1, respectively. Notice also that the merged file is sorted by the intersection of the two files.
 
-```{r}
+```{r merging-in-r-04}
 x2 <- merge(list(x=x0,id0=1:20),list(x=x1,id1=1:20))
 x2
 ```
 
 To include all values, including mismatches, specify all=T. Notice now that the merged file is sorted by the values of x0, followed by the sorted values of x1 that are not found in x0. An NA for an index value tells you that the letter is not found in the original x0 or x1 vector.
 
-```{r}
+```{r merging-in-r-05}
 x3 <- merge(list(x=x0,id0=1:20),list(x=x1,id1=1:20),all=T)
 x3
 ```
 
 The %in% operator is also useful. The %in% operator compares each element of the first set against all the elements of the second set and returns TRUE if there is a match.
 
-```{r}
+```{r merging-in-r-06}
 x0 %in% x1
 ```
 
 This function is not symmetric, of course,
 
-```{r}
+```{r merging-in-r-07}
 x1 %in% x0
 ```
 
 Using the %in% function, you can re-create the intersect function,
 
-```{r}
+```{r merging-in-r-08}
 x0[x0 %in% x1]
 ```
 
 or the setdiff function,
-```{r}
+```{r merging-in-r-09}
 x0[!x0 %in% x1]
 ```
 
-A less intuitive version of the %in% operator is the match function. Additional information on merging can be found at
-
-- [www.ats.ucla.edu/stat/r/notes/managing.htm](http://www.ats.ucla.edu/stat/r/notes/managing.htm)
+A less intuitive version of the %in% operator is the match function. Additional information on merging can be found at the [UCLA Statistics website][ucl].
 
 You can find an [earlier version][sim1] of this page on my [original website][sim2].
 
-
 [sim1]: http://www.pmean.com/05/MergingInR.html
 [sim2]: http://www.pmean.com/original_site.html
+
+[ucl]: www.ats.ucla.edu/stat/r/notes/managing.htm
+

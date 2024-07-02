@@ -7,11 +7,12 @@ categories:
 - Blog post
 tags:
 - Epidemiology
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
 
-```{r setup, echo=FALSE}
+```{r ihme-model-01, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
 suppressMessages(suppressWarnings(library(tidyverse)))
 ```
@@ -86,7 +87,7 @@ This fixes one problem but it causes another. The large number of extra bell cur
 
 If you are in the early phase of an epidemic, everything looks like an exponential curve. Every day you see more deaths than the previous day. This is what that curve looks like.
 
-```{r g1, fig.width=4, fig.height=2}
+```{r ihme-model-02, fig.width=4, fig.height=2}
 data.frame(
   x <- seq(-2.8, -1.5, length=100),
   y <- dnorm(x)) %>%
@@ -103,7 +104,7 @@ But then the curve reaches an inflection point. The daily deaths are still incre
 
 Once you are past the inflection point, you can start to forecast further into the future. You can get an initial estimate of when the number of deaths reachs its maximum and when it will die down to zero again. But these estimates are tricky and the confidence limits are very wide.
 
-```{r g2, fig.width=4, fig.height=2}
+```{r ihme-model-03, fig.width=4, fig.height=2}
 data.frame(
   x <- seq(-2.8, -0.25, length=100),
   y <- dnorm(x)) %>%
@@ -118,7 +119,7 @@ data.frame(
 
 What you need is to predict when the epidemic might end is some data on the other side of the mountain, data where the number of daily deaths starts its decline. 
 
-```{r g3, fig.width=4, fig.height=2}
+```{r ihme-model-04, fig.width=4, fig.height=2}
 data.frame(
   x <- seq(-2.8, 0.5, length=100),
   y <- dnorm(x)) %>%
@@ -153,81 +154,81 @@ The desire for consistency can be overrated. Stephen Senn talks about a medical 
 
 ### IMHE documentation of their model
 
-Murray CJL. Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries. Preprint, 2020-04-21. Available in [pdf format](http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf).
+Murray CJL. Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries. Preprint, 2020-04-21. Available in [pdf format][mur1].
 
 + At the time of the writing of this webpage, this was the most current description of the IHME model. The appendices provide many of the technical details needed to understand the basis of this model.
 
-Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. Preprint, 2020-03-26. Available in [pdf format](https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf).
+Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. Preprint, 2020-03-26. Available in [pdf format][mur2].
 
 + This article describes an earlier model IHME model.
 
-Xu B, Gutierrez B, Mekaru S, Sewalk K, Goodwin L, Loskill A, Cohn EL, Hswen Y, Hill SC, Cobo MM, Zarebski AE, Li S, Wu C-H, Hulland E, Morgan JD, Wang L, O'Brien K, Scarpino SV, Brownstein JS, Pybus OG, Pigott DM, Kraemer MUG. Epidemiological data from the COVID-19 outbreak, real-time case information. Scientific Data, 2020-03-24. doi:10.1038/s41597-020-0448-0. Available in [html format](https://www.nature.com/articles/s41597-020-0448-0) or [pdf format](https://www.nature.com/articles/s41597-020-0448-0.pdf).
+Xu B, Gutierrez B, Mekaru S, Sewalk K, Goodwin L, Loskill A, Cohn EL, Hswen Y, Hill SC, Cobo MM, Zarebski AE, Li S, Wu C-H, Hulland E, Morgan JD, Wang L, O'Brien K, Scarpino SV, Brownstein JS, Pybus OG, Pigott DM, Kraemer MUG. Epidemiological data from the COVID-19 outbreak, real-time case information. Scientific Data, 2020-03-24. doi:10.1038/s41597-020-0448-0. Available in [html format][xub1] or [pdf format][xub2].
 
 + This article describes how the initial datasets used by the IHME model were collected. In a rapidly changing environment, some of the details may have changed, and at least one of the links in the article points to a gitrhub page that no longer exists. But most of the links are good. The breadth of the data collection is very impressive and the authors do a good job documenting everything.
 
-IHME COVID-19 model FAQs. Available in [html format](http://www.healthdata.org/covid/faqs).
+IHME COVID-19 model FAQs. Available in [html format][ihm1].
 
 + This webpage talks in non-technical terms about some of the choices that the researchers made for the IHME model.
 
 ### Articles in the popular press
 
-Aizenman N. 5 Key Facts Not Explained In White House COVID-19 Projections. National Public Radio 2020-04-01. Available in [html format](https://www.npr.org/sections/health-shots/2020/04/01/824744490/5-key-facts-the-white-house-isnt-saying-about-their-covid-19-projections).
+Aizenman N. 5 Key Facts Not Explained In White House COVID-19 Projections. National Public Radio 2020-04-01. Available in [html format][aiz1].
 
 + The focus of this article is on the White House press briefing and the uncertain source of some of the numbers used in that briefing. It provides, however, a good amount of detail about the IHME model and contrasts it with a model based on infectious disease theory, the Imperial College model.
 
-Bui Q, Katz J, Parlapiano A, and Sanger-Katz, M. What 5 Coronavirus Models Say the Next Month Will Look Like. The New York Times, 2020-04-22. Available in [html format](https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html).
+Bui Q, Katz J, Parlapiano A, and Sanger-Katz, M. What 5 Coronavirus Models Say the Next Month Will Look Like. The New York Times, 2020-04-22. Available in [html format][bui1].
 
 + This article got me interested in the differences of the various models and has links that provide more details about the IHME model and several different SEIR models in greater detail.
 
-Chow D. What we know about the coronavirus model the White House unveiled. NBC News, 2020-04-01. Available in [html format](https://www.nbcnews.com/science/science-news/what-we-know-about-coronavirus-model-white-house-unveiled-n1173601).
+Chow D. What we know about the coronavirus model the White House unveiled. NBC News, 2020-04-01. Available in [html format][cho1].
 
 + This article was also written in response to that White House press briefing. It emphasizes the many sources of uncertainty in these predictions.
 
 ### More technical articles
 
-Druke N, Silver N. How One Modeler Is Trying To Forecast The Toll Of COVID-19. FiveThirtyEight 2020-04-22. Available in [video format](https://fivethirtyeight.com/features/politics-podcast-how-one-modeler-is-trying-to-forecast-the-toll-of-covid-19/) and as a [podcast](https://podcasts.apple.com/us/podcast/model-talk-forecasting-the-toll-of-covid-19/id1077418457).
+Druke N, Silver N. How One Modeler Is Trying To Forecast The Toll Of COVID-19. FiveThirtyEight 2020-04-22. Available in [video format][dru1] and as a [podcast][dru2].
 
 + This is an interview with Dr. Chris Murray, the chair of the Institute and person in charge of the IHME model. He defends many of the controversial choices of the IHME model.
 
-Begley S. Influential Covid-19 model uses flawed methods and shouldn?t guide U.S. policies, critics say. Stat 2020-04-17. Available in [html format](https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/).
+Begley S. Influential Covid-19 model uses flawed methods and shouldn?t guide U.S. policies, critics say. Stat 2020-04-17. Available in [html format][beg1].
 
 + The Stat website provides critical reviews of a broad range of medical research approaches. The article critical of the IHME model misses the mark in one way. It suggests that the numbers will be misused, but that is an issue for any predictive model. But it points out how models based on Epidemiologic theory differ from the IHME model and notes concerns about the frequent tweaking that the IHME model has undergone.
 
-Etzioni R, COVID-19 Models: What Makes Them Tick? Timmerman Report, 2020-04-07. Available in [html format](https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/).
+Etzioni R, COVID-19 Models: What Makes Them Tick? Timmerman Report, 2020-04-07. Available in [html format][etz1].
 
 + This blog post describes how a theoretical model (the Imperial College model) works but uses a different term, mechanistic, and describes the model in greater detail. Then she discusses the atheoretical IHME model and again uses a different term than I do: empirical. The author draws a nice contrast and concludes that all models have weaknesses.
 
-Mortality Modeling FAQ. Available in [html format](https://covid-19.tacc.utexas.edu/mortality-projection-faq/).
+Mortality Modeling FAQ. Available in [html format][mor1].
 
 + This is a different group (University of Texas at Austin) that is using a similar approach for modeling. It is interesting to see a common justification from both groups for their atheoretical approach.
 
-Social Distancing: Data Models for a Model Response to an Outbreak. Available in [html format](https://sph.umich.edu/news/2020posts/data-models-for-a-model-response-to-an-outbreak.html).
+Social Distancing: Data Models for a Model Response to an Outbreak. Available in [html format][soc1].
 
 + This is a question and answer session with Dr. Peter Song of the University of Michigan Department of Public Health. Dr. Song has fit some sophisticated SEIR models that can predict the impact of social distancing on the spread of COVID-19 cases. It is a nice summary, with enough details to let you know what the work involves without getting too technical.
 
-Robinson D. David's COVID Numbers. Available in [html format](https://davidscovidnumbers.wordpress.com/).
+Robinson D. David's COVID Numbers. Available in [html format][rob1].
 
 + This blog post talks about COVID-19 in general terms with an emphasis on predictions for Minnesota and Stearns County. It tries to explain the meaning behind the many numbers that appear in various models.
 
 ### Articles in the peer-reviewed literature
 
-Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format](https://doi.org/10.7326/M20-1565).
+Jewell NP, Lewnard JA, Jewell BL. Caution Warranted: Using the Institute for Health Metrics and Evaluation Model for Predicting the Course of the COVID-19 Pandemic. Ann Intern Med. 2020. Available in [html format][jew1].
 
 + This is a criticism of the IHME model by prominent researchers published in a prominent journal. The authors seem to throw everything they can at the model and not everything sticks. They note that the IHME model fails to account for the rebound that might occur if social distancing efforts are relaxed too soon, but the IHME model clearly mentions this in a disclaimer. It criticizes the symmetry of the IHME model, which was an issue with earlier versions, but which is not a problem with the current model. It criticizes the unreliability of the data, but this unreliability is an issue with any model. It mentions that the model fails to capture all sources of uncertainty, but this is also an issue with the competing models. Where the criticism hits the mark is in how much this model relies on extrapolations from places that have data well past the peak of maximum cases/deaths (such as Italy, China, and South Korea) to places that have not yet reached their peak or are just barely past their peak.
 
-Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66?97. doi:10.1016/j.plrev.2016.07.005. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf).
+Chowell G, Sattenspiel L, Bansal S, Viboud C. Mathematical models to characterize early epidemic growth: A review. Phys Life Rev. 2016;18:66?97. doi:10.1016/j.plrev.2016.07.005. Available in [html format][cho2] or [pdf format][cho3].
 
 + This article was written before the COVID-19 pandemic. It provides a nice review of how SEIR models work and applies them to a variety of pandemics.
 
-Kissler SM, Tediganto C, Goldstein E, Grad YH, Lipsitch M. Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period. Science 2020-04-14. DOI: 10.1126/science.abb5793, Available in [html format](https://science.sciencemag.org/content/early/2020/04/24/science.abb5793).
+Kissler SM, Tediganto C, Goldstein E, Grad YH, Lipsitch M. Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period. Science 2020-04-14. DOI: 10.1126/science.abb5793, Available in [html format][kis1].
 
 + This article compares SARS-CoV-2 (the virus that causes COVID-19) to previous viruses to assess the chances that we will see future seasonal waves of COVID-19. This is an example of the type of modeling that can only be done with a theoretical model.
 
-FRED Modeling System. Available in [html format](https://fred.publichealth.pitt.edu/).
+FRED Modeling System. Available in [html format][fre1].
 
 + FRED stands for Framework for Reconstructing Epidemic Dynamics and represents a software system that uses simulation to model epidemics. It has been used to model outbreaks of measles and influenza, but not yet (as far as I can tell) for COVID-19. It is available for anyone to download and use on their own.
 
-Ayoub HH, Chemaitelly H, Mumtaz GR, Seedat S, Awad SF, Makhoul M, Abu-Raddad LJ. Characterizing key attributes of the epidemiology of COVID-19 in China: Model-based estimations. Preprint published in Medrxiv, 2020-04-11. Available in [pdf format](https://www.medrxiv.org/content/10.1101/2020.04.08.20058214v1.full.pdf).
+Ayoub HH, Chemaitelly H, Mumtaz GR, Seedat S, Awad SF, Makhoul M, Abu-Raddad LJ. Characterizing key attributes of the epidemiology of COVID-19 in China: Model-based estimations. Preprint published in Medrxiv, 2020-04-11. Available in [pdf format][aya1].
 
 + This article fits an SEIR model to the Chinese COVID outbreak. It stratifies by age and outlines the differential equations in great clarity.
 
@@ -238,13 +239,13 @@ There are many prediction models out there and each one seems to take a differen
 
 #### Imperial College of London
 
-[US Predictions](https://mrc-ide.github.io/covid19usa/#/)
+[US Predictions][usp1]
 
 #### Iowa State
 
-Wang L, Wang G, Gao L, Li X, Yu S, Kim M, Wang Y, Gu Z. Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United States. Preprint published in Arxiv, 2020-04-30. Available in [pdf format](https://arxiv.org/pdf/2004.14103.pdf).
+Wang L, Wang G, Gao L, Li X, Yu S, Kim M, Wang Y, Gu Z. Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United States. Preprint published in Arxiv, 2020-04-30. Available in [pdf format][wan1].
 
-+ This article fits an SEIR model to individual counties in the United States with a large number of county specific covariates. The model produces a [nice dashboard](https://covid19.stat.iastate.edu/).
++ This article fits an SEIR model to individual counties in the United States with a large number of county specific covariates. The model produces a [nice dashboard][ias1].
 
 
 ### Coda
@@ -264,3 +265,28 @@ Gog JR. How you can help with COVID-19 modelling. Nat Rev Phys, 2020-04-08. http
 ### Acknowledgments
 
 Thanks to Chris Barker and Ruth Etzioni for helpful suggestions.
+
+[aiz1]: https://www.npr.org/sections/health-shots/2020/04/01/824744490/5-key-facts-the-white-house-isnt-saying-about-their-covid-19-projections
+[aya1]: https://www.medrxiv.org/content/10.1101/2020.04.08.20058214v1.full.pdf
+[beg1]: https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/
+[bui1]: https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html
+[cho1]: https://www.nbcnews.com/science/science-news/what-we-know-about-coronavirus-model-white-house-unveiled-n1173601
+[cho2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/
+[cho3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5348083/pdf/nihms-802148.pdf
+[dru1]: https://fivethirtyeight.com/features/politics-podcast-how-one-modeler-is-trying-to-forecast-the-toll-of-covid-19/
+[dru2]: https://podcasts.apple.com/us/podcast/model-talk-forecasting-the-toll-of-covid-19/id1077418457
+[etz1]: https://timmermanreport.com/2020/04/covid-19-models-what-makes-them-tick/
+[fre1]: https://fred.publichealth.pitt.edu/
+[ias1]: https://covid19.stat.iastate.edu/
+[ihm1]: http://www.healthdata.org/covid/faqs
+[jew1]: https://doi.org/10.7326/M20-1565
+[kis1]: https://science.sciencemag.org/content/early/2020/04/24/science.abb5793
+[mor1]: https://covid-19.tacc.utexas.edu/mortality-projection-faq/
+[mur1]: http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf
+[mur2]: https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf
+[rob1]: https://davidscovidnumbers.wordpress.com/
+[soc1]: https://sph.umich.edu/news/2020posts/data-models-for-a-model-response-to-an-outbreak.html
+[usp1]: https://mrc-ide.github.io/covid19usa/#/
+[wan1]: https://arxiv.org/pdf/2004.14103.pdf
+[xub1]: https://www.nature.com/articles/s41597-020-0448-0
+[xub2]: https://www.nature.com/articles/s41597-020-0448-0.pdf

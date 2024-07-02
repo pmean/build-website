@@ -9,26 +9,23 @@ tags:
 - Checking assumptions  
 - Linear regression
 - R software
+- Rmarkdown graphs
 output: html_document
 page_update: partial
 ---
-
-This program was written by Steve Simon, http://www.pmean.com, and is available at http://www.pmean.com/14/qqplot.html.
-
-See a list of my other R programs at http://www.pmean.com/category/Rsoftware.html
 
 Many statistical procedures are based on the assumption that your data has a normal distribution. The normal probability plot is a useful graphical tool for asessing this assumption. This plot is also called the qqplot (quantile-quantile plot).
 
 You can use the housing data set to illustrate the use of the normal probability plot.
 
-```{r read-and-display-data}
+```{r qqplot-01}
 fn <- "http://www.pmean.com/00files/housing.txt"
 al <- read.table(file=fn,header=TRUE)
 head(al)
 tail(al)
 ```
 
-```{r descriptive-statistics}
+```{r qqplot-02}
 al$age <- as.numeric(al$AgeYears)
 summary(al$Price)
 summary(al$SquareFeet)
@@ -43,7 +40,7 @@ The qqplot compares the data values to evenly spaced percentiles of the normal d
 
 You can read more about this on my 2009 blog entry about normal probability plots.
 
-```{r normal-probability-plot}
+```{r qqplot-03}
 qqnorm(al$Price)
 ```
 
@@ -51,7 +48,7 @@ Figure 1. Normal probability plot for house prices.
 
 In a linear model, the critical assumption is NOT that the predictor (independent) variables are normally distributed. It is NOT that the outcome (dependent) variable is normally distributed. It is that the residuals are normally distributed.
 
-```{r regression model}
+```{r qqplot-04}
 al.model <- lm(Price~SquareFeet+CustomBuild,data=al)
 summary(al.model)
 qqnorm(resid(al.model))

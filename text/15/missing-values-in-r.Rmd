@@ -17,8 +17,6 @@ about.
 
 <!---More--->
 
-
-
 When you import data into R, the first thing you should do is
 
 KNOW YOUR COUNT
@@ -33,12 +31,12 @@ patterns and other statistics on various mammals. It has a handful of
 missing values and can help illustrate how you might tackle a new
 dataset. You can find a description of this data set in [html format][sta1].
 
-```{r}
+```{r missing-values-in-r-01}
 sl <- read.table(file="http://www.statsci.org/data/general/sleep.txt",header=TRUE)
 dim(sl)
 ```
 
-```{r}
+```{r missing-values-in-r-02}
 names(sl)
 ```
 
@@ -46,11 +44,11 @@ This data set has 62 rows and 11 variables. Since the data set doesn't
 have too many variables, let's print out the first few and last few
 rows.
 
-```{r}
+```{r missing-values-in-r-03}
 head(sl)
 ```
 
-```{r}
+```{r missing-values-in-r-04}
 tail(sl)
 ```
 
@@ -61,7 +59,7 @@ number of missing values.
 For factors, it will display a table of the first seven most frequently
 occuring values
 
-```{r}
+```{r missing-values-in-r-05}
 summary(sl)
 ```
 
@@ -70,11 +68,11 @@ The first variable, Species, has 62 unique values. You can tell this by
 the fact that the first seven most frequently occurring values all had
 frequency 1. There are several other ways to check for uniqueness.
 
-```{r}
+```{r missing-values-in-r-06}
 table(table(sl$Species))
 ```
 
-```{r}
+```{r missing-values-in-r-07}
 length(unique(sl$Species))
 ```
 
@@ -82,13 +80,13 @@ length(unique(sl$Species))
 
 The table function does not show NAs, at least with the default option
 
-```{r}
+```{r missing-values-in-r-08}
 table(sl$Gestation)
 ```
 
 You would notice this if you added a total to the end of the table.
 
-```{r}
+```{r missing-values-in-r-09}
 addmargins(table(sl$Gestation))
 ```
 
@@ -97,36 +95,36 @@ means that there are 4 missing values.
 
 You can also force the table to show counts for missing values.
 
-```{r}
+```{r missing-values-in-r-10}
 table(sl$Gestation,useNA="always")
 ```
 
 The default option for useNA is "never" and a third option is "ifany".
 Notice how "ifany" differs from "always"
 
-```{r}
+```{r missing-values-in-r-11}
 table(sl$Gestation,useNA="ifany")
 ```
 
-```{r}
+```{r missing-values-in-r-12}
 table(sl$Danger,useNA="ifany")
 ```
 
-```{r}
+```{r missing-values-in-r-13}
 table(sl$Danger,useNA="always")
 ```
 
 Many other functions in R offer multiple ways to handle NAs.
 
-```{r}
+```{r missing-values-in-r-14}
 mean(sl$Gestation,na.rm=FALSE)
 ```
 
-```{r}
+```{r missing-values-in-r-15}
 mean(sl$Gestation,na.rm=TRUE)
 ```
 
-```{r}
+```{r missing-values-in-r-16}
 mod1 <- lm(TotalSleep~Gestation,data=sl,na.action=na.omit)
 summary(mod1)
 ```
@@ -138,7 +136,7 @@ causes knitr to stop.
 Logic values involving NAs are a bit tricky. You cannot get at NAs
 directly using the == comparison operator.
 
-```{r}
+```{r missing-values-in-r-17}
 which(sl$Gestation==NA)
 ```
 
@@ -149,7 +147,7 @@ evaluate not to TRUE or FALSE, but rather to NA.
 
 If you want to select missing values, you must use the is.na function.
 
-```{r}
+```{r missing-values-in-r-18}
 which(is.na(sl$Gestation))
 ```
 
@@ -158,7 +156,7 @@ which(is.na(sl$Gestation))
 The is.finite function represents "opposite" function, though there are
 a few subtle differences.
 
-```{r}
+```{r missing-values-in-r-19}
 which(is.finite(sl$Gestation))
 ```
 
@@ -168,7 +166,7 @@ which(is.finite(sl$Gestation))
 
 Logic involving missing values can seem at times a bit illogical.
 
-```{r}
+```{r missing-values-in-r-20}
 sl$Gestation==NA
 ```
 
@@ -176,7 +174,7 @@ sl$Gestation==NA
     ## [24] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
     ## [47] NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
 
-```{r}
+```{r missing-values-in-r-21}
 sl$Gestation==645
 ```
 
@@ -187,7 +185,7 @@ sl$Gestation==645
     ## [45] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
     ## [56]    NA FALSE FALSE FALSE FALSE FALSE FALSE
 
-```{r}
+```{r missing-values-in-r-22}
 tst.na <- NA
 tst.na==tst.na
 ```
@@ -200,7 +198,7 @@ something else, even another missing value.
 
 This produces a three valued logic system.
 
-```{r}
+```{r missing-values-in-r-23}
 tst.tvl <- c(TRUE,FALSE,NA)
 not.table <- !tst.tvl
 names(not.table) <- tst.tvl
@@ -210,7 +208,7 @@ not.table
     ##  TRUE FALSE  <NA> 
     ## FALSE  TRUE    NA
 
-```{r}
+```{r missing-values-in-r-24}
 and.table <- outer(tst.tvl,tst.tvl,"&")
 dimnames(and.table) <- list(tst.tvl,tst.tvl)
 and.table
@@ -221,7 +219,7 @@ and.table
     ## FALSE FALSE FALSE FALSE
     ## <NA>     NA FALSE    NA
 
-```{r}
+```{r missing-values-in-r-25}
 or.table <- outer(tst.tvl,tst.tvl,"|")
 dimnames(or.table) <- list(tst.tvl,tst.tvl)
 or.table
@@ -235,7 +233,7 @@ has its own problems.
 Note how R handles the less than comparison operator with missing
 values.
 
-```{r}
+```{r missing-values-in-r-26}
 sl$Gestation<50
 ```
 
@@ -246,72 +244,72 @@ The only way to select missing values is with the is.na function.
 
 There are three more values in R that are closely related to missing.
 
-```{r}
+```{r missing-values-in-r-27}
 1/0
 ```
 
-```{r}
+```{r missing-values-in-r-28}
 -1/0
 ```
 
-```{r}
+```{r missing-values-in-r-29}
 sqrt(-1)
 ```
 
 The difference between Inf and NaN is in how comparisons are made.
 
-```{r}
+```{r missing-values-in-r-30}
 Inf>3
 ```
 
-```{r}
+```{r missing-values-in-r-31}
 NaN>3
 ```
 
-```{r}
+```{r missing-values-in-r-32}
 Inf==Inf
 ```
 
-```{r}
+```{r missing-values-in-r-33}
 NaN==NaN
 ```
 
 R allows you to make a few computations using Inf, but others are not
 allowed.
 
-```{r}
+```{r missing-values-in-r-34}
 Inf+1
 ```
 
-```{r}
+```{r missing-values-in-r-35}
 1/Inf
 ```
 
-```{r}
+```{r missing-values-in-r-36}
 0*Inf
 ```
 
-```{r}
+```{r missing-values-in-r-37}
 Inf-Inf
 ```
 
 It's also worth noting that you can force R to use complex numbers for
 the square root of -1, although this is not the default.
 
-```{r}
+```{r missing-values-in-r-38}
 sqrt(as.complex(-1))
 ```
 
 The is.na and is.finite functions are not perfect opposites.
 
-```{r}
+```{r missing-values-in-r-39}
 tst.cases <- c(3,NA,NaN,Inf,-Inf)
 is.na.table <- is.na(tst.cases)
 names(is.na.table) <- tst.cases
 is.na.table
 ```
 
-```{r}
+```{r missing-values-in-r-40}
 is.finite.table <- is.finite(tst.cases)
 names(is.finite.table) <- tst.cases
 is.finite.table

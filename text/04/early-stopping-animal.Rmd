@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Early stopping
+- Rmarkdown code
 output: html_document
 page_update: partial
 ---
@@ -57,7 +58,7 @@ Notice that the above graph shows statistical significance early, but then that 
 
 The adjustments to the p-value (and confidence interval) are rather complex. Here's some more S-plus (R) code that shows some of the complexities of the situation. This program simulates an experiment with 12 animals per group, but looks at the p-value with after 4, 8, and 12 animals have been tested.
 
-```{r, echo=TRUE}
+```{r early-stopping-animal-01, echo=TRUE}
 n <- 5000
 p4 <- rep(NA,n)
 p8 <- rep(NA,n)

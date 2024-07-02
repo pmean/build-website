@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Confidence intervals
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -46,13 +47,13 @@ Something else interesting is going on. Most confidence intervals that you have 
 
 In our example, there were 80 observations. The appropriate limits of the Chi-square distribution are
 
-```{r}
+```{r standard-deviation-ci-01}
 qchisq(0.025, 79)
 ```
 
 and
 
-```{r}
+```{r standard-deviation-ci-02}
 qchisq(0.975, 79)
 ```
 

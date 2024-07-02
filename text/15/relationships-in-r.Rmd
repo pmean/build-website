@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - R software
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -25,7 +26,7 @@ grouped into measures of relationship between two continuous variables,
 two categorical variables and measures of a relationship between a
 categorical variable and a continuous variable.
 
-```{r}
+```{r relationships-in-r-01}
 suppressMessages(suppressWarnings(library(tidyverse)))
 fn <- "https://raw.githubusercontent.com/pmean/introduction-to-SAS/master/data/housing.txt"
 home <- read_tsv(fn, na=".")
@@ -36,14 +37,14 @@ The best graphical summary of two continuous variables is a scatterplot.
 You should include a smoothing curve or spline model to the graph to
 emphasize the general trend and any departures from linearity.
 
-```{r}
+```{r relationships-in-r-02}
 plot(home$sqft,home$price)
 lines(lowess(home$price~home$sqft))
 ```
 
 
 
-```{r}
+```{r relationships-in-r-03}
 sb <- is.finite(home$age)
 plot(home$age[sb],home$price[sb])
 lines(lowess(home$price[sb]~home$age[sb]))
@@ -54,14 +55,14 @@ lines(lowess(home$price[sb]~home$age[sb]))
 The best numeric summary of two continuous variables is a correlation
 coefficient.
 
-```{r}
+```{r relationships-in-r-04}
 cor(home[,c("price","sqft","age")],use="pairwise.complete.obs")
 ```
 
 Correlations should always be rounded to two or maybe even just one
 significant digit.
 
-```{r}
+```{r relationships-in-r-05}
 round(cor(home[,c("price","sqft","age")],use="pairwise.complete.obs"),1)
 ```
 
@@ -73,23 +74,23 @@ little or no linear relationship.
 The best graphical summary between a continuous variable and a
 categorical variable is a boxplot.
 
-```{r}
+```{r relationships-in-r-06}
 boxplot(home$price~home$features)
 ```
 
 
-```{r}
+```{r relationships-in-r-07}
 boxplot(home$price~home$northeast)
 ```
 
 
 
-```{r}
+```{r relationships-in-r-08}
 boxplot(home$price~home$custom_build)
 ```
 
 
-```{r}
+```{r relationships-in-r-09}
 boxplot(home$price~home$corner_lot)
 ```
 
@@ -99,7 +100,7 @@ boxplot(home$price~home$corner_lot)
 If your categorical variable is binary, you can also use a scatterplot.
 The binary variable goes on the y axis and a trend line is critical.
 
-```{r}
+```{r relationships-in-r-10}
 plot(home$price,home$northeast)
 lines(lowess(home$northeast~home$price))
 ```
@@ -107,7 +108,7 @@ lines(lowess(home$northeast~home$price))
 
 
 
-```{r}
+```{r relationships-in-r-11}
 plot(home$price,home$custom_build)
 lines(lowess(home$custom_build~home$price))
 ```
@@ -115,7 +116,7 @@ lines(lowess(home$custom_build~home$price))
 
 
 
-```{r}
+```{r relationships-in-r-12}
 plot(home$price,home$corner_lot)
 lines(lowess(home$corner_lot~home$price))
 ```
@@ -126,7 +127,7 @@ You can also compute a correlaton between a binary variable and a
 categorical variable. It is equivalent to the point-bisearial
 correlation.
 
-```{r}
+```{r relationships-in-r-13}
 round(cor(home[,c("northeast","custom_build","corner_lot")],home$price),1)
 ```
 

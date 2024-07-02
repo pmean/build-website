@@ -8,6 +8,7 @@ categories:
 tags:
 - Accrual problems in clinical trials
 - Bayesian statistics
+- Rmarkdown code
 output: html_document
 page_update: partial
 ---
