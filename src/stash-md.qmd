@@ -10,6 +10,8 @@ format:
 editor: source
 ---
 
+Note to myself. Use the file.info function to move only recently changed files.
+
 ## Get files
 
 ```{r prelims}
