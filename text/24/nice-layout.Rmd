@@ -11,7 +11,7 @@ output: html_document
 page_update: complete
 ---
 
-While it is easy to get R to produce descriptive statistics for categorical outcomes in a research study, it is a bit harder to get R to produce a layout that is publication-ready. Hard, but not impossible. Here is a simple example.Here is a brief abstract.
+While it is easy to get R to produce descriptive statistics for categorical outcomes in a research study, it is a bit harder to get R to produce a layout that is publication-ready. Hard, but not impossible. Here is a simple example.
 
 <!---more--->
 
@@ -135,7 +135,12 @@ If you have multiple independent variables, the `pack_rows` function is nice. No
 
 ```{r}
 library(kableExtra)
-tab07 %>%
+tab06 %>%
+  set_names(c(" ", "Deaths", "Survivors")) %>%
+  kbl %>%
+  kable_paper(
+    "striped", 
+    full_width=FALSE) %>%
   pack_rows("Sex", 1, 2) -> tab08
 tab08
 ```
@@ -158,6 +163,8 @@ ti0 %>%
   pack_rows("Sex", 1, 2)
 ```
 
+Here is what the code would look like if you used sprintf instead of glue.
+
 ```{r}
 ti0 %>%
   group_by(Sex, Survived) %>%
@@ -173,3 +180,4 @@ ti0 %>%
   kable_paper("striped", full_width=FALSE) %>%
   pack_rows("Sex", 1, 2)
 ```
+

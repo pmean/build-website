@@ -1,0 +1,111 @@
+---
+title: Different end times in survival data
+source: "New"
+author: Steve Simon
+date: 2024-05-28
+categories:
+- Blog post
+tags:
+- Rmarkdown code
+- Survival analysis
+output: html_document
+---
+
+Dear Professor Mean, I am running  a survival analysis with two groups and one group was followed for 190 days and the other for 225 days. Would that cause any bias?
+
+<!---more--->
+
+Dear Reader,
+
+Your concern, clearly is that some events might have occurred in the first group between day 191 and day 225. You are smart to be careful about this. It's easiest to look at a simulation, and if you want to delve into the math, everything comes out clean. There is no bias caused by the differential follow-up times.
+
+## Some simple simulated survival times
+
+Here's a simple simulation using R. 
+
+Generate two sets of survival times. The rate is twice as large in the second group, so you should expect to see events occur earlier in the second group and events below a certain threshold should occur more often in the second group.
+
+```{r}
+suppressMessages(library(survival))
+suppressMessages(library(tidyverse))
+set.seed(190225)
+raw_time1 <- rexp(100, rate=0.004)
+raw_time2 <- rexp(100, rate=0.008)
+sim <- data.frame(
+  g=rep(c("a", "b"), each=100), 
+  raw_time=c(raw_time1, raw_time2))
+head(sim)
+tail(sim)
+```
+
+How many events occur from 0 to 190 days, from 191 to 225 days, and after 225 days?
+
+```{r}
+sim %>%
+  group_by(g) %>%
+  summarize(
+    n_0_to_190=sum(raw_time <= 190),
+    n_191_to_225=sum(raw_time > 190&raw_time<=225),
+    n_above_225=sum(raw_time > 225)) -> sim_counts
+sim_counts
+```
+
+There are indeed more events at a threshold of 190 or below in group B (`r sim_counts$n_0_to_190[2]`) than there are in group A (`r sim_counts$n_0_to_190[1]`). There are, as well, more events at a threshold of 225 and below in group B (`r 100-sim_counts$n_above_225[2]`) than there are in group A  (`r 100-sim_counts$n_above_225[1]`).
+
+There are `r sim_counts$n_191_to_225[1]+sim_counts$n_191_to_225[1]` events that are in the "Twilight Zone". This means that `r sim_counts$n_191_to_225[1]` of the Twilight Zone events in group A are censored, while `r sim_counts$n_191_to_225[2]` of the Twilight Zone events in group B are still counted as events.
+
+Does this bias things? The way to find out is to run the data with different censoring thresholds (190 for group A and 225 for group B) then run it with a common threshold of 190 for both groups.
+
+## Analysis with censoring thresholds of 190 (A) and 225 (B)
+
+```{r}
+censor_time_v1 <- rep(c(190, 225), each=100)
+sim %>%
+  mutate(t_v1=pmin(raw_time, censor_time_v1)) %>%
+  mutate(censor_v1=as.numeric(t_v1 < censor_time_v1)) -> sim_v1
+sim_v1 %>%
+  count(g, censor_v1)
+```
+
+Run a Cox regression model
+
+```{r}
+cox_v1 <- coxph(Surv(t_v1, censor_v1)~g, data=sim_v1)
+cox_v1
+```
+
+## Analysis with censoring thresholds of 190 for both A and B
+
+What if you set the censoring times to 190 days for both groups? That effectively converts `r sim_counts$n_191_to_225[2]` patients in the second group from events to observations censored at 190 days.
+
+```{r}
+censor_time_v2 <- rep(c(190, 190), each=100)
+sim %>%
+  mutate(t_v2=pmin(raw_time, censor_time_v2)) %>%
+  mutate(censor_v2=as.numeric(t_v2 < censor_time_v2)) -> sim_v2
+sim_v2 %>%
+  count(g, censor_v2)
+```
+
+Run a Cox regression model
+
+```{r}
+cox_v2 <- coxph(Surv(t_v2, censor_v2)~g, data=sim_v2)
+cox_v2
+```
+
+Wow! The results are identical. What this says is that there is no information in any events in group B that occur after the last event in group A.
+
+The moral of the story is that if you have a different censoring time for two groups and observe some events in the second group that are larger than the largest event time in the first group, it doesn't bias things because converting these from events to censored observations does not affect the hazard ratio.
+
+## Looking at the partial likelihood
+
+The Cox regression model uses a partial likelihood which looks rather ugly.
+
+$l_p(\beta)=\Pi\frac{e^{X_i \beta}}{\Sigma\ e^{X_j \beta}}$
+
+where the product is evaluated only at event times (not censored times). The sum in the denominator is the sum over the patients still at risk of the event. For events in group B that occur after the maximum event time of group A, the only patients at risk are those in the second group. So then the $e^{X_j \beta}$ terms in the denominator are all the same and all equal to the $e^{X_i \beta}$ term in the numerator. Cancel out the betas and you are left with a multiplicative constant for any Twilight Zone events in group B.
+
+So the estimate you get by maximizing the partial likelihood over all events is the same as the estimate you get by maximizing the partial likelihood ignoring the events in group B that occur after the maximum event time in group A.
+
+You can make a similar argument about the log rank test. This test can be recast as a function of observed deaths in a group minus the expected deaths in that group. After the last event in group A, the observed deaths in group B have to equal the expected deaths. So those Twilight Zone events in group B contribute exactly zero to the observed minus expected calculations.
