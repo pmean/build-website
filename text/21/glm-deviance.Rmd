@@ -14,7 +14,7 @@ page_update: complete
 
 Deviance is a measure computed for generalized linear models that can help you decide between two competing models. It is somewhat analagous to residual sums of squares in linear regression.
 
-```{r setup}
+```{r glm-deviance-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(foreign)))
@@ -64,7 +64,7 @@ $sign(y_i-\hat\theta)\sqrt{2(y_i ln(y_i / \hat\theta)- (y_i-\hat\theta))}$
 
 Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download. The link I originally used no longer works.
 
-```{r, eval=FALSE}
+```{r glm-deviance-02, eval=FALSE}
 fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
 articles <- read.csv(fn)
 head(articles)
@@ -72,7 +72,7 @@ head(articles)
 
 Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
 
-```{r}
+```{r glm-deviance-03}
 fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
@@ -84,7 +84,7 @@ head(articles)
 [sim3]: http://www.pmean.com/00files/couart2.dta
 [zei1]: https://cran.r-project.org/web/packages/pscl/vignettes/countreg.pdf
 
-```{r}
+```{r glm-deviance-04}
 fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
@@ -101,7 +101,7 @@ The variables are
 
 To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
 
-```{r}
+```{r glm-deviance-05}
 pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
 summary(pois1)
 
@@ -110,42 +110,41 @@ rd$r <- resid(pois1, type="deviance")
 rd$p <- predict(pois1, type="response")
 ```
 
-```{r}
+```{r glm-deviance-06}
 ggplot(rd, aes(r)) +
   geom_histogram(bin_width=0.2)
 ```
 
-```{r}
+```{r glm-deviance-07}
 ggplot(rd, aes(p, r)) +
   geom_point()
 ```
 
-```{r}
+```{r glm-deviance-08}
 ggplot(rd, aes(fem, r)) +
   geom_point()
 ```
 
 
-```{r}
+```{r glm-deviance-09}
 ggplot(rd, aes(ment, r)) +
   geom_point()
 ```
 
-```{r}
+```{r glm-deviance-10}
 ggplot(rd, aes(phd, r)) +
   geom_point()
 ```
 
-```{r}
+```{r glm-deviance-11}
 ggplot(rd, aes(mar, r)) +
   geom_point()
 ```
 
-```{r}
+```{r glm-deviance-12}
 ggplot(rd, aes(kid5, r)) +
   geom_point()
 ```
-
 
 ### References
 

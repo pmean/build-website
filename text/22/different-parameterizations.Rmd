@@ -7,13 +7,14 @@ category:
 - Blog post
 tags:
 - Analysis of variance
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
 
 I'm trying to understand some of the basics of contrasts in analysis of variance. In particular, I want to figure out some alternative parameterizations of the coefficients that are estimated as part of the ANOVA model.
 
-```{r setup}
+```{r different-parameterizations-01}
 library(MASS)
 library(matlib)
 library(tidyverse)
@@ -22,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 First, let's set up an artificial dataset that is nice and easy to work with.
 
-```{r}
+```{r different-parameterizations-02}
 means <- c(52, 54, 62, 72)
 mean(means)
 y <- 
@@ -34,7 +35,7 @@ df <- cbind(g, y)
 
 Notice the pattern in the group means.
 
-```{r}
+```{r different-parameterizations-03}
 data.frame(g, y) %>%
   group_by(g) %>%
   summarize(mean_y=mean(y))
@@ -46,7 +47,7 @@ I want to use the lm function to fit the data, because it is easier to peek at t
 
 The simplest parameterization is to let each beta coefficient represent a different mean. We have to drop the intercept term for this model to work properly.
 
-```{r}
+```{r different-parameterizations-04}
 x1 <- as.numeric(g==1)
 x2 <- as.numeric(g==2)
 x3 <- as.numeric(g==3)
@@ -55,14 +56,14 @@ x4 <- as.numeric(g==4)
 
 This is what the X matrix looks like.
 
-```{r}
+```{r different-parameterizations-05}
 A <- cbind(x1, x2, x3, x4) 
 A
 ```
 
 This is what the regression results look like.
 
-```{r}
+```{r different-parameterizations-06}
 beta_A <- coef(lm(y~x1+x2+x3+x4-1))
 beta_A
 ```
@@ -77,7 +78,7 @@ $(X'X)^{-1}X'$
 
 will tell you how each parameter in the regression model is a linear combination of the Y's.
 
-```{r}
+```{r different-parameterizations-07}
 inv(t(A)%*%A)%*%t(A) %>% fractions
 ```
 
@@ -87,7 +88,7 @@ So the first coefficient is an average of the first three y values, the second i
 
 A common way to parameterize the ANOVA model is to use an intercept term and indicator variables for all but one of the groups.
 
-```{r}
+```{r different-parameterizations-08}
 x0 <- rep(1, 12)
 x1 <- as.numeric(g==2)
 x2 <- as.numeric(g==3)
@@ -97,19 +98,19 @@ x3 <- as.numeric(g==4)
 
 This is what the X matrix looks like.
 
-```{r}
+```{r different-parameterizations-09}
 B <- cbind(x0, x1, x2, x3) 
 B
 ```
 
 This is what the regression results look like.
 
-```{r}
+```{r different-parameterizations-10}
 beta_B <- coef(lm(y~x0+x1+x2+x3-1))
 beta_B
 ```
 
-```{r}
+```{r different-parameterizations-11}
 inv(t(B)%*%B)%*%t(B) %>% fractions
 ```
 
@@ -137,13 +138,13 @@ In the former case, the interpretation would be
   
 So the slope associated with X1 requires you to hold X2 and X3 constant. You can hold them constant at 0 or hold them constant at 1, but the former is simpler to understand. Think of it as moving from one of the first three rows of your X matrix.
 
-```{r}
+```{r different-parameterizations-12}
 B[1:3, ]
 ```
 
 to one of the next three rows of your X matrix
 
-```{r}
+```{r different-parameterizations-13}
 B[4:6, ]
 ```
 
@@ -153,7 +154,7 @@ This is effectively a change from the mean of the first three observations (Y1, 
 
 If you tried to code the difference in means directly, you get a third result.A common way to parameterize the ANOVA model is to use an intercept term and indicator variables for all but one of the groups.
 
-```{r}
+```{r different-parameterizations-14}
 x0 <- rep(1, 12)
 x1 <- as.numeric(g==2) - as.numeric(g==1)
 x2 <- as.numeric(g==3) - as.numeric(g==1)
@@ -162,19 +163,19 @@ x3 <- as.numeric(g==4) - as.numeric(g==1)
 
 This is what the X matrix looks like.
 
-```{r}
+```{r different-parameterizations-15}
 D <- cbind(x0, x1, x2, x3) 
 D
 ```
 
 This is what the regression results look like.
 
-```{r}
+```{r different-parameterizations-16}
 beta_D <- coef(lm(y~x0+x1+x2+x3-1))
 beta_D
 ```
 
-```{r}
+```{r different-parameterizations-17}
 inv(t(D)%*%D)%*%t(D) %>% fractions
 ```
 
@@ -214,13 +215,13 @@ A
 
 into 
 
-```{r}
+```{r different-parameterizations-18}
 B
 ```
  
 you would multiply by this V
 
-```{r, echo=FALSE}
+```{r different-parameterizations-19, echo=FALSE}
 V <- matrix(c(
   1,  0,  0,  0,
   1,  1,  0,  0,
@@ -231,7 +232,7 @@ V
 
 to get
 
-```{r}
+```{r different-parameterizations-20}
 A%*%V
 ```
 
@@ -239,14 +240,14 @@ Note the V is not a symmetric matrix. Symmetry is not requirement here.
 
 You can go in the other direction using
 
-```{r}
+```{r different-parameterizations-21}
 U=inv(V)
 U
 ```
 
 which yields
 
-```{r}
+```{r different-parameterizations-22}
 B%*%U
 ```
 
@@ -268,21 +269,21 @@ $\hat{\beta}_B=V^{-1}\hat{\beta}_A$
 
 Let's check this out with the coefficients we calculated earlier.
 
-```{r}
+```{r different-parameterizations-23}
 beta_A
 ```
 
-```{r}
+```{r different-parameterizations-24}
 beta_B
 ```
 
-```{r}
+```{r different-parameterizations-25}
 inv(V)%*%beta_A
 ```
 
 You can also go in the reverse direction.
 
-```{r}
+```{r different-parameterizations-26}
 V%*%beta_B
 ```
 
@@ -290,19 +291,19 @@ V%*%beta_B
 
 The same works with any coding. The V matrix that gets you from
 
-```{r}
+```{r different-parameterizations-27}
 A
 ```
 
 to 
 
-```{r}
+```{r different-parameterizations-28}
 D
 ```
 
 is
 
-```{r, echo=FALSE}
+```{r different-parameterizations-29, echo=FALSE}
 V <- matrix(c(
   1, -1, -1, -1,
   1,  1,  0,  0,
@@ -313,42 +314,42 @@ V
 
 Let's check this in one direction
 
-```{r}
+```{r different-parameterizations-30}
 A%*%V
 ```
 
 and the opposite direction
 
-```{r}
+```{r different-parameterizations-31}
 U=inv(V)
 U
 ```
 
-```{r}
+```{r different-parameterizations-32}
 D%*%U
 ```
 
 We can establish that 
 
-```{r}
+```{r different-parameterizations-33}
 beta_A
 ```
 
 can be converted to
 
-```{r}
+```{r different-parameterizations-34}
 beta_D
 ```
 
 using
 
-```{r}
+```{r different-parameterizations-35}
 inv(V)%*%beta_A
 ```
 
 and the reverse direction works as well.
 
-```{r}
+```{r different-parameterizations-36}
 V%*%beta_D
 ```
 
@@ -380,7 +381,7 @@ $\hat{\beta}_3=\bar{Y}_4$
 
 to the new parameterization is
 
-```{r, echo=FALSE}
+```{r different-parameterizations-37, echo=FALSE}
 U <- matrix(c(
   1,  0,  0,  0,
  -1,  1,  0,  0,
@@ -391,27 +392,27 @@ U
 
 Now, you want to travel from the parameterization represented by
 
-```{r}
+```{r different-parameterizations-38}
 A
 ```
 
 to a new parameterization represented by E. This would need V, the inverse of U, which is
 
-```{r}
+```{r different-parameterizations-39}
 V <- inv(U)
 V
 ```
 
 which provides a matrix
 
-```{r}
+```{r different-parameterizations-40}
 E <- A%*%inv(U)
 E
 ```
 
 which gives the correct results.
 
-```{r}
+```{r different-parameterizations-41}
 x0 <- E[ , 1]
 x1 <- E[ , 2]
 x2 <- E[ , 3]

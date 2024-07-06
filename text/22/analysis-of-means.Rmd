@@ -5,7 +5,9 @@ date: '2022-07-04'
 output:
   html_document: default
 category: Blog post
-tags: Analysis of means
+tags: 
+- Analysis of means
+- Rmarkdown graphs
 source: new
 page_update: complete
 ---
@@ -16,7 +18,7 @@ The classic follow-up to a significant F test in analysis of variance is examini
 
 You've seen this hypothesis for the standard ANOVA setting in your introductory Statistics class
 
-```{r, fig.width=5, fig.height=0.33, echo=FALSE}
+```{r analysis-of-means-01, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[j] ~ " for all i,j")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
@@ -29,7 +31,7 @@ This is a very common approach in a comparison of k independent groups. Test for
 
 Suppose you are in a setting like the one described above, where there is an expectation of similarity between each group mean and the overall mean. Then you would write your hypothesis as 
 
-```{r, fig.width=5, fig.height=0.33, echo=FALSE}
+```{r analysis-of-means-02, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu ~ " for all i=1,...,k")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
@@ -65,7 +67,7 @@ and my description of the testing scenario is a bit simpler than the analysis do
 
 Here are the summary statistics.
 
-```{r, echo=FALSE}
+```{r analysis-of-means-03, echo=FALSE}
 mn <- c(
   21.83,
   20.40,
@@ -119,7 +121,7 @@ where $\bar Y_{..}$ is the overall mean and $h(\alpha, t, N)$ comes from a table
 
 In our example alpha=0.05, t=5, and N=20. The original article does not provide MSE, but you can calculate it as the pooled variance using the descriptive statistics shown above. The limits are
 
-```{r, echo=FALSE}
+```{r analysis-of-means-04, echo=FALSE}
 # Make the numbers look nice
 ybarbar <- round(ybarbar, 2)
 mse <- round(mse, 2)

@@ -32,7 +32,7 @@ $u_+ = u$ if $u \ge 0$, $= 0$ if $u<0$
 
 Here is some simulated data for testing this function.
 
-```{r}
+```{r very-simple-splines-01}
 library(ggplot2)
 x <- 1:20
 y <- c(rep(40, 15), 40-(1:5)^2)+round(rnorm(10), 1)
@@ -48,14 +48,14 @@ I want a function that is flat for the values x = 0 to 15, and that drops linear
 
 To fit this function, you need a special X matrix.
 
-```{r}
+```{r very-simple-splines-02}
 linear_spline_ivs <- data.frame(x0=rep(1, 20), x1=c(rep(0, 15), 1:5))
 linear_spline_ivs
 ```
 
 Surprisingly, even though the function you are trying to fit is not a linear function of x, you can still fit it with the lm function, as long as you have the correct independent variable matrix.
 
-```{r}
+```{r very-simple-splines-03}
 simple_spline_data <- 
   data.frame(
     x1=linear_spline_ivs$x1, 
@@ -67,7 +67,7 @@ tidy(linear_spline_model)
 
 To get the plot of predictions for this model and future models accurate, you need to create values between the existing values.
 
-```{r}
+```{r very-simple-splines-04}
 x_extra <- seq(0, 20, length=1000)
 data.frame(
   x=x_extra,
@@ -76,7 +76,7 @@ data.frame(
   full_join(simulated_example, by="x") -> enhanced_data
 ```
 
-```{r}
+```{r very-simple-splines-05}
 linear_spline_predictions <- augment(linear_spline_model, newdata=enhanced_data)
 ggplot(linear_spline_predictions, aes(x, y)) +
   geom_point() +
@@ -87,7 +87,7 @@ ggplot(linear_spline_predictions, aes(x, y)) +
 
 Suppose you want to fit a function which is flat up to a certain point and then declines quadratically. You could do this with the following model.
 
-```{r}
+```{r very-simple-splines-06}
 simple_spline_data %>%
   mutate(x1sq=x1*x1) -> quadratic_spline_data
 quadratic_spline_model <- lm(y~x1sq, data=quadratic_spline_data)
@@ -104,7 +104,7 @@ Notice that the quadratic model is smoother. It does not have a sharp elbow at t
 
 Here's a final example of very simple splines. There is a "magic" cubic polynomial, $3x^2-2x^3$. It rises smoothly from 0 at x=0, to 1 at x=1. It is flat (zero first derivative) at x=0 and x=1. This is what the function looks like.
 
-```{r}
+```{r very-simple-splines-07}
 x <- seq(0, 1, length=100)
 y <- 3*x^2-2*x^3
 data.frame(x=x, y=y) %>%
@@ -118,7 +118,7 @@ $0.75 - 0.5(3x^2-2x^3)$
 
 will start at 0.75 and drop 0.5 units to end at 0.25.
 
-```{r}
+```{r very-simple-splines-08}
 x <- seq(0, 1, length=100)
 y <- 3*x^2-2*x^3
 data.frame(x=x, y=y) %>%
@@ -165,7 +165,7 @@ Total           45%        55%       100%
 
 Vucinic M, Vucicevic M, Nenadovicć K. THE COVID-19 PANDEMIC AFFECTS OWNERS WALKING WITH THEIR DOGS. J Vet Behav. 2021 Oct 20. doi: 10.1016/j.jveb.2021.10.009. Epub ahead of print. PMID: 34690614; PMCID: PMC8527592. Avialble in [html format][vuc1] or [pdf format][vuc2].
 
-```{r}
+```{r very-simple-splines-09}
 par(mar=rep(0.1,4))
 plot(c(-1,2), c(0, 216), type="n", axes=FALSE, xlab="", ylab="")
 

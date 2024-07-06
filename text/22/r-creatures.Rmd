@@ -7,6 +7,7 @@ category:
 - Blog post
 tags:
 - R software
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -17,7 +18,7 @@ R has a variety of ways of storing information. It is a hodge-podge of different
 
 A single number, string, or date is called a scalar. 
 
-```{r}
+```{r r-creatures-01}
 secret_of_the_universe <- 42
 on_first <- "Who"
 y2k <- as.Date("2000-01-01")
@@ -29,14 +30,14 @@ A combination of two or more scalars of the same type is a vector. Strictly spea
 
 You use the `c` function to combine two or more scalars into a vector.
 
-```{r}
+```{r r-creatures-02}
 buckle_my_shoe <- c(1, 2)
 vowels <- c("A", "E", "I", "O", "U")
 ```
 
 You can use the colon to create a vector that is sequence of consecutive integers.
 
-```{r}
+```{r r-creatures-03}
 fantastic_four <- 1:4
 fantastic_four
 not_so_fantastic_four <- 5:8
@@ -45,26 +46,26 @@ not_so_fantastic_four
 
 You can use the `length` function to calculate the length of a vector.
 
-```{r}
+```{r r-creatures-04}
 length(vowels)
 ```
 
 You get individual elements of a vector using square brackets.
 
-```{r}
+```{r r-creatures-05}
 vowels[1]
 ```
 
 You can also use square brackets to extract chunks from a vector
 
-```{r}
+```{r r-creatures-06}
 vowels[1:2]
 vowels[c(2, 4)]
 ```
 
 You can use `c` to make a longer vector out of two shorter vectors.
 
-```{r}
+```{r r-creatures-07}
 c(buckle_my_shoe, fantastic_four)
 ```
 
@@ -72,7 +73,7 @@ c(buckle_my_shoe, fantastic_four)
 
 You can assign names to some or all of the individual elements in a vector. This is not done too frequently, but it does have its uses.
 
-```{r}
+```{r r-creatures-08}
 primes <- c(
   "first"=2,
   "second"=3,
@@ -83,14 +84,14 @@ primes
 
 You can extract individual elements of a named vector using the names instead of their numeric positions.
 
-```{r}
+```{r r-creatures-09}
 primes["first"]
 primes[c("second", "fourth")]
 ```
 
 You list the names of a named vector using the `names` function.
 
-```{r}
+```{r r-creatures-10}
 names(primes)
 ```
 
@@ -98,27 +99,27 @@ names(primes)
 
 You can't mix and match within a vector. If you try to combine a number and a string, for example, R will convert the number to a string first.
 
-```{r}
+```{r r-creatures-11}
 mixed_vector <- c(1, "two")
 mixed_vector
 ```
 
 You can mix numbers and strings in a list, which is created using the `list` function.
 
-```{r}
+```{r r-creatures-12}
 mixed_list <- list(1, "two")
 mixed_list
 ```
 
 Notice the odd collection of double and single brackets in the list. Why R uses single brackets in some places and double brackets in other locations is something that can confound even an experienced R programmer. The only important thing to remember as a beginner is that double brackets allow you to select individual items from a list.
 
-```{r}
+```{r r-creatures-13}
 mixed_list[[2]]
 ```
 
 You can create lists that are mix of some of the creatures shown below. You can even make lists of lists.
 
-```{r}
+```{r r-creatures-14}
 groceries <- list("bread", "fruit")
 clothes <- list("socks", "underwear", "shirts")
 shopping <- list(groceries, clothes)
@@ -127,7 +128,7 @@ shopping
 
 This can get pretty messy. You can recast all the individual components into a single vector using the `unlist` function.
 
-```{r}
+```{r r-creatures-15}
 unlist(shopping)
 ```
 
@@ -135,7 +136,7 @@ Of course, you lose the ability to mix and match once you unlist.
 
 You can (and probably should) use names for each element of your list. This makes it easier to pick out pieces of list. Either of the first two statements will add names to a list.
 
-```{r}
+```{r r-creatures-16}
 names(shopping) <- c("grocery_list", "clothing_list")
 shopping <- list(grocery_list=groceries, clothing_list=clothes)
 shopping
@@ -144,7 +145,7 @@ shopping[["clothing_list"]]
 
 If the list has names, you can use the dollar sign as a substitute for the double square brackets.
 
-```{r}
+```{r r-creatures-17}
 shopping$clothing_list
 ```
 
@@ -152,34 +153,34 @@ shopping$clothing_list
 
 Matrices are a two dimensional arrangement of scalars of the same type.
 
-```{r}
+```{r r-creatures-18}
 diagonal_matrix <- matrix(c(1, 0, 0, 0, 1, 0, 0, 0, 1), nrow=3)
 diagonal_matrix
 ```
 
 You can get the number of rows and columns of a matrix using the `dim` function.
 
-```{r}
+```{r r-creatures-19}
 dim(diagonal_matrix)
 ```
 
 Use single square brackets to extract individual elements or chunks of a matrix.
 
-```{r}
+```{r r-creatures-20}
 diagonal_matrix[1, 3]
 diagonal_matrix[1:2, 1:2]
 ```
 
 To extract an entire row or column from a matrix, leave the index blank.
 
-```{r}
+```{r r-creatures-21}
 diagonal_matrix[1, ]
 diagonal_matrix[ , 3]
 ```
 
 You can assign names to the rows and/or columns of a matrix using the `dimnames` function.
 
-```{r}
+```{r r-creatures-22}
 dimnames(diagonal_matrix) <- list(c("A", "B", "C"), c("D", "E", "F"))
 diagonal_matrix
 ```
@@ -188,7 +189,7 @@ Arrays are a three or higher dimensional arrangement of scalars of the same type
 
 You can combine vectors into a matrix using the `cbind` or `rbind` functions. Notice the difference in how the two functions work.
 
-```{r}
+```{r r-creatures-23}
 cbind(fantastic_four, not_so_fantastic_four)
 rbind(fantastic_four, not_so_fantastic_four)
 ```
@@ -201,7 +202,7 @@ It is a compromise between the simple but rigid matrix, and the complex but flex
 
 The data shown here is real, and it comes from the [Data and Story Library][dasl]. I added some fictional names to illustrate how you can mix and match vectors of different types.
 
-```{r}
+```{r r-creatures-24}
 chain <- c(
   "Burger Queen",
   "McBurger",
@@ -244,7 +245,7 @@ fast_food
 
 Notice how R created names for each column. It also allows you to create names for each row. Here's what it would look like if you used `chain` as names for the rows.
 
-```{r}
+```{r r-creatures-25}
 fast_food_alt <- data.frame(fat, sodium, calories)
 rownames(fast_food_alt) <- chain
 fast_food_alt
@@ -254,7 +255,7 @@ The current thinking among R professionals is that a variable like `chain` belon
 
 You can select individual columns of a data frame using numbers or names.
 
-```{r}
+```{r r-creatures-26}
 fast_food[, 2]
 fast_food[, "fat"]
 fast_food$fat
@@ -266,7 +267,7 @@ The last approach, using the dollar sign, is the most common way to work with a 
 
 The programming team working on the tidyverse has developed an alternative to the data frame called a tibble. You use the `tibble` function to create a tibble. But first you have to load the tidyverse packages (or just the tidyr package by itself)
 
-```{r}
+```{r r-creatures-27}
 library(tidyr)
 fast_food_tibble <- tibble(chain, fat, sodium, calories)
 ```
@@ -282,20 +283,20 @@ It does become important, however, when you work with data with more than just a
 
 There is a dataset in the survival package about colon cancer that has 1,848 observations (rows) and 16 variables (columns). Notice how only a portion of the data is shown.
 
-```{r}
+```{r r-creatures-28}
 library(survival)
 tibble(colon)
 ```
 
 You can ask a tibble to display more or all of itself.
 
-```{r}
+```{r r-creatures-29}
 print(tibble(colon), n=25)
 ```
 
 Another important difference is in how tibbles handle subsetting. Look carefully at these examples.
 
-```{r}
+```{r r-creatures-30}
 fast_food[5, ]
 fast_food_tibble[5, ]
 fast_food[ , 2]
@@ -318,25 +319,25 @@ The examples shown earlier are mostly just simple cute examples, but here is a p
 
 Let's use the data frame on fast food burgers. Pretend that you have discovered that the "Out-n-In" burger (in the fourth row) is actually made of tofu and should be discarded from the analysis.
 
-```{r}
+```{r r-creatures-31}
 real_fast_food <- fast_food[-4, ]
 ```
 
 You want to run a regression analysis and examine the various statistics from the output individually. You store the output in a new variable, fast_food_regression.
 
-```{r}
+```{r r-creatures-32}
 fast_food_regression <- lm(calories~fat+sodium, data=real_fast_food)
 ```
 
 Since the output is complex and a mixture of different elements, R uses a list to store everything.
 
-```{r}
+```{r r-creatures-33}
 names(fast_food_regression)
 ```
 
 Let's look at the first item in the list, coefficents.
 
-```{r}
+```{r r-creatures-34}
 fast_food_regression$coefficients
 ```
 
@@ -344,7 +345,7 @@ This is a named vector with values for the intercept, the slope for the fat vari
 
 Now let's look at the residuals and fitted values.
 
-```{r}
+```{r r-creatures-35}
 fast_food_regression$residuals
 fast_food_regression$fitted.values
 ```
@@ -353,7 +354,7 @@ These are both vectors.
 
 Let's look at df.residual.
 
-```{r}
+```{r r-creatures-36}
 fast_food_regression$df.residual
 ```
 
@@ -361,7 +362,7 @@ This is a scalar. There are 3 degrees of freedom for error.
 
 Let's look at qr. This will provide some rather complex details about some intermediate calculations that R used to produce this regression model.
 
-```{r}
+```{r r-creatures-37}
 fast_food_regression$qr
 ```
 
@@ -369,14 +370,14 @@ This is a list inside the list. If you are not familiar with what the qr decompo
 
 The summary function produces another list from the list we just examined. This provides more information, such as numbers needed to reproduce some of the important tests and measures for this regression model.
 
-```{r}
+```{r r-creatures-38}
 fast_food_summary <- summary(fast_food_regression)
 names(fast_food_summary)
 ```
 
 The third item in this list is coefficients, and it is different from the coeeficients item in the previous list.
 
-```{r}
+```{r r-creatures-39}
 fast_food_summary$coefficients
 ```
 
@@ -384,7 +385,7 @@ This is a matrix with names for each row and for each column. If you wanted to p
 
 You might also be interested in some post-processing of the regression results. You can, for example, extract the p-values for the two slopes.
 
-```{r}
+```{r r-creatures-40}
 fast_food_summary$coefficients[c("fat", "sodium"), "Pr(>|t|)"]
 ```
 
@@ -392,7 +393,7 @@ You might need to do this if you wanted to make a Bonferroni correction to the p
 
 Let's look at r.squared and adj.r.squared.
 
-```{r}
+```{r r-creatures-41}
 fast_food_summary$r.squared
 fast_food_summary$adj.r.squared
 ```
@@ -401,7 +402,7 @@ These are scalars. These are also key numbers for your custom regression summary
 
 Let's look at fstatistic.
 
-```{r}
+```{r r-creatures-42}
 fast_food_summary$fstatistic
 ```
 

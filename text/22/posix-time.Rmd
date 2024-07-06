@@ -7,6 +7,7 @@ output:
 category: Blog post
 tags:
 - Data science
+- Rmarkdown code
 source: new
 page_update: complete
 ---
@@ -49,7 +50,7 @@ The functions as.POSIXct and as.POSIXlt (also part of base R) will convert strin
 
 When you print dates in R, the way the R displays them hides the internal format. So dates stored as strings, dates stored in the R internal format and dates stored in the POSIX standard all look the same from the outside.
 
-```{r}
+```{r posix-time-01}
 date_string <- "1970-01-01"
 date_internal_r_format <- as.Date(date_string)
 date_posix_ct <- as.POSIXct(date_string)
@@ -67,19 +68,19 @@ Use the print.default function to show how these files are stored internally.
 
 Strings have no special features.
 
-```{r}
+```{r posix-time-02}
 print.default(date_string)
 ```
 
 The R internal format is a number with a class attribute of Date.
 
-```{r}
+```{r posix-time-03}
 print.default(date_internal_r_format)
 ```
 
 The POSIX ct format is a number with a class attribute of POSIXt and POSIXct and an additional attribute of time zone.
 
-```{r}
+```{r posix-time-04}
 print.default(date_posix_ct)
 ```
 
@@ -87,7 +88,7 @@ Note that the numeric value here is not zero, even I specified only the date and
 
 The POSIX lt format is list with class attributes of POSIXt and POSIXlt. It is a list and not a number. The list has the individual components of a date/time starting at the second unit and continuing through to the year.
 
-```{r}
+```{r posix-time-05}
 print.default(date_posix_lt)
 ```
 
@@ -97,7 +98,7 @@ If you care about this level of detail, both the as.POSIXct and as.POSIXlt funct
 
 If you want to convert numbers to date formats, you need to specify an origin argument in your code. Note that 1 day equals 86,400 seconds.
 
-```{r}
+```{r posix-time-06}
 date_internal_r_format <- as.Date(1, origin="1970-01-01")
 date_posix_ct <- as.POSIXct(86400, origin="1970-01-01")
 date_posix_lt <- as.POSIXlt(86400, origin="1970-01-01")
@@ -111,7 +112,7 @@ Notice the adjustment (for me 6 hours) made by as.POSIXct and as.POSIXlt for the
 
 If you think about these adjustments, they are logical, but you should probably specify the timezone argument if you want to control these adjustments.
 
-```{r}
+```{r posix-time-07}
 as.POSIXct(86400, origin="1970-01-01", tz="GMT")
 as.POSIXlt(86400, origin="1970-01-01", tz="America/Chicago")
 ```

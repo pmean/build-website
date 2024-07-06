@@ -6,6 +6,7 @@ output:
   html_document: default
 category: Blog post
 tags:
+- Rmarkdown code
 - Survival analysis
 source: new
 page_update: complete
@@ -51,12 +52,12 @@ $l(\lambda, Y, X) = 2 log\lambda_0 - 9 \lambda_0 + log(\lambda_0+\lambda_1) -\la
 
 Let's graph this function.
 
-```{r setup, echo=FALSE}
+```{r definition-schoenfeld-residuals-01, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE)
 suppressMessages(suppressWarnings(library(plot3D)))
 ```
 
-```{r}
+```{r definition-schoenfeld-residuals-02}
 library(plot3D)
 
 l <- function(lambda0, lambda1) {
@@ -155,8 +156,6 @@ $\lambda_0=0.25$
 and then you can show that
 
 $\lambda_1=0.75$
-
->>>>>>> 17772f400cc3acd5b2c61623fc3cf2c98df50124
 
 $L_i(\beta)  
  =\frac{\lambda(Y_i\mid X_i)}{\sum_{j:Y_j\ge Y_i}\lambda(Y_i\mid X_j)} 

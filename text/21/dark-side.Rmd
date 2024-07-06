@@ -455,13 +455,13 @@ That's actually good news from your perspective. You don't have to be a genius i
 
 ### What they say data science is
 
-```{r setup, echo=FALSE}
+```{r dark-side-01, echo=FALSE}
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
 suppressMessages(suppressWarnings(library(magrittr)))
 ```
 
-```{r, fig.width=5, fig.height=5, echo=FALSE}
+```{r dark-side-02, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.6
 v <- 0.85
 draw_circles <- function() {
@@ -500,7 +500,7 @@ draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=5)
 
 ### What data science really is
 
-```{r, fig.width=5, fig.height=5, echo=FALSE}
+```{r dark-side-02, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.88
 draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=10)
 ```

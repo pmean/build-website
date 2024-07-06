@@ -13,13 +13,13 @@ page_update: complete
 ---
 
 
-```{r setup, echo=FALSE}
+```{r venn-diagrams-01, echo=FALSE}
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
 suppressMessages(suppressWarnings(library(magrittr)))
 ```
 
-```{r, fig.width=5, fig.height=5, echo=FALSE}
+```{r venn-diagrams-02, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.6
 v <- 0.85
 draw_circles <- function() {
@@ -56,7 +56,7 @@ v <- 0.85
 draw_circles()
 ```
 
-```{r, fig.width=5, fig.height=5, echo=FALSE}
+```{r venn-diagrams-03, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.88
 draw_circles()
 ```

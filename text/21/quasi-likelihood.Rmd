@@ -15,7 +15,7 @@ page_update: complete
 With the generalized linear model, you have the option of choosing a model that works well with a variety of different distributions (normal, Poisson, Gamma, etc.). But you also have the option of working outside of these distributions. You can fit models that do not specify the distribution, but which fit a particular transformation of the linear effect and particular mean-variance relationship.
 
 
-```{r setup}
+```{r quasi-likelihood-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
@@ -102,7 +102,7 @@ It is easiest to understand the quasiPoisson model by comparing it to the Poisso
 
 Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download. The link I originally used no longer works.
 
-```{r, eval=FALSE}
+```{r quasi-likelihood-02, eval=FALSE}
 fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
 articles <- read.csv(fn)
 head(articles)
@@ -110,7 +110,7 @@ head(articles)
 
 Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
 
-```{r}
+```{r quasi-likelihood-03}
 fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
@@ -132,14 +132,14 @@ The variables are
 
 To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
 
-```{r}
+```{r quasi-likelihood-04}
 pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
 summary(pois1)
 ```
 
 The interpretation of the coefficients should be done after exponentiating their values.
 
-```{r}
+```{r quasi-likelihood-05}
 pois1 %>%
   tidy %>%
   mutate(lower_limit=estimate-1.96*std.error) %>%
@@ -153,14 +153,14 @@ pois1_coefficients
 
 ### Fitting a quasi-Poisson model
 
-```{r}
+```{r quasi-likelihood-06}
 quasi1 <- glm(art ~ fem + ment + phd + mar + kid5, family=quasipoisson, data = articles)
 summary(quasi1)
 ```
 
 Notice that there is no value listed for AIC.
 
-```{r}
+```{r quasi-likelihood-07}
 quasi1 %>%
   tidy %>%
   mutate(lower_limit=estimate-1.96*std.error) %>%

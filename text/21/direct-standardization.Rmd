@@ -15,7 +15,7 @@ page_update: complete
 
 Mortality rates in different regions of the United States between different countries are dependent on the demographic distributions. Differences in the age distribution can cause mortality rates that are actually equivalent to appear as if they differ. These differences could just as easily hide a difference in mortality rates between two regions or even make the difference go in the opposite direction. Direct standardization is a simple approach to adjust mortality rates 
 
-```{r setup}
+```{r direct-standardization-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))

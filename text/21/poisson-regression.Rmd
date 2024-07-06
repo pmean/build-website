@@ -14,7 +14,7 @@ page_update: complete
 
 Poisson regression is a statistical model under the large umbrella of generalized linear models. I want to explain how Poisson regression works. I also will show and interpret an example.
 
-```{r setup}
+```{r poisson-regression-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
@@ -112,7 +112,7 @@ The Poisson regression model produces estimates on a log scale. This implies tha
 
 Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download. The link I originally used no longer works.
 
-```{r, eval=FALSE}
+```{r poisson-regression-02, eval=FALSE}
 fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
 articles <- read.csv(fn)
 head(articles)
@@ -120,7 +120,7 @@ head(articles)
 
 Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
 
-```{r}
+```{r poisson-regression-03}
 fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
@@ -142,14 +142,14 @@ The variables are
 
 To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
 
-```{r}
+```{r poisson-regression-04}
 pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
 summary(pois1)
 ```
 
 The interpretation of the coefficients is tricky. The Poisson regression model is linear on the log scale. If you take the anti-log, you will convert this model to a multiplicative model. Here are the coefficents on the log scale.
 
-```{r}
+```{r poisson-regression-05}
 pois1 %>%
   tidy %>%
   mutate(lower_limit=estimate-1.96*std.error) %>%
@@ -158,7 +158,7 @@ pois1 %>%
 log_coefficients
 ```
 
-```{r}
+```{r poisson-regression-06}
 log_coefficients %>%
   mutate(estimate=exp(estimate)) %>%
   mutate(lower_limit=exp(lower_limit)) %>%
@@ -192,7 +192,7 @@ Here are the variables:
 + Claims		Number of claims
 + Payment		Total value of payments in Skr
 
-```{r}
+```{r poisson-regression-07}
 fn <- "http://www.statsci.org/data/general/motorins.txt"
 swe <- read.delim(fn, header=TRUE, sep="\t")
 head(swe)
@@ -200,7 +200,7 @@ head(swe)
 
 The number of drives and the months that they are covered by insurance varies from group to group. the measure, Insured, calculates the number of policy-years in each group. We want to estimate the effect of certain variables on the rate of claims (number of claims per policy year). You calculate the rate by including an offset variable equal to the natural log of policy years.
 
-```{r}
+```{r poisson-regression-08}
 pois2 <- 
   glm(
     Claims~offset(log(Insured)) + factor(Kilometres) + factor(Zone) + Bonus + factor(Make),
@@ -210,7 +210,7 @@ summary(pois2)
 
 The coefficients are easier to interpret after a transformation.
 
-```{r}
+```{r poisson-regression-09}
 pois2 %>%
   tidy %>%
   mutate(lower_limit=estimate-1.96*std.error) %>%
@@ -233,14 +233,14 @@ There are many alternatives. You can assume that the variance is not equal to th
 
 Notice, for example, in the first data set that
 
-```{r}
+```{r poisson-regression-10}
 mean(articles$art)
 var(articles$art)
 ```
 
 The variance looks to be about twice as large as the mean. Additional evidence of this is provided by the deviance statistic. The deviance is a quantity produced by a generalized linear model and should equal the degrees of freedom in a Poisson regression model.
 
-```{r}
+```{r poisson-regression-11}
 glance(pois1)
 ```
 

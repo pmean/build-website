@@ -7,6 +7,7 @@ output:
 category: Blog post
 tags:
 - Analysis of means
+- Rmarkdown graphs
 source: new
 page_update: complete
 ---
@@ -17,7 +18,7 @@ I'm a big fan of Analysis of Variance (ANOVA). I use it all the time. I learn a 
 
 Recall the hypothesis test for analysis of variance.
 
-```{r, fig.width=5, fig.height=0.33, echo=FALSE}
+```{r dunnetts-test-01, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[j] ~ " for all i,j")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
@@ -32,7 +33,7 @@ It gets messy very fast. That's okay. If you have a lot of groups that you are c
 
 If one of your groups is a control or placebo, AND you want only to compare each treatment to the control, this is  what the hypothesis looks like, assuming that the control is group #1.
 
-```{r, fig.width=5, fig.height=0.33, echo=FALSE}
+```{r dunnetts-test-02, fig.width=5, fig.height=0.33, echo=FALSE}
 h0 <- bquote(H[0] ~ ": " ~ mu[i] == mu[1] ~ " for all i=2,...,k")
 par(mar=rep(0.1, 4))
 plot(0:1, 0:1, axes=FALSE, type="n")
@@ -61,7 +62,7 @@ Osorio LB et al. Disinfection of Orthodontic Elastomers and Its Effects on Tensi
 
 Disinfection is important, but does it reduce the tensile strength of the ligatures? Here are the summary statistics for the maximum strength measurement.
 
-```{r, echo=FALSE, comment=""}
+```{r dunnetts-test-03, echo=FALSE, comment=""}
 mn1 <- c(21.39, 22.58, 16.94, 21.93, 19.93, 22.00)
 sd1 <- c( 3.35,  2.88,  3.50,  3.05,  1.86, 3.71)
 data.frame(mean=mn1, standard_deviation=sd1)
@@ -69,7 +70,7 @@ data.frame(mean=mn1, standard_deviation=sd1)
 
 
 
-```{r, echo=FALSE, comment=""}
+```{r dunnetts-test-04, echo=FALSE, comment=""}
 suppressMessages(suppressWarnings(library(tidyverse)))
 mse <- mean(sd1^2)
 d <- 2.73
@@ -80,7 +81,7 @@ hi <- mn1[1] + d*sqrt(2*mse/20)
 
 The paper does not include the raw data, but you can still calculate all the key statistics needed to run Dunnett's test. You can then create a simple graph that identifies if any of the disinfection protocols shows significantly less strength than the control.
 
-```{r, echo=FALSE, comment=""}
+```{r dunnetts-test-05, echo=FALSE, comment=""}
 data.frame(g=2:6, mn=mn1[-1]) %>%
   ggplot(aes(g, mn)) +
     geom_point() +
@@ -120,7 +121,7 @@ $\ $ $\bar X_1 \pm d(\alpha, t, n) \sqrt{2 MSE/n}$
 
 where $\alpha$ is the Type I error rate, t in the number of groups, and n is the number of observations in each group. The value of d can be found in various tables, such as [this one][bob1] or [this one][win1]. While the paper that I drew the example from does not include the raw data, you can calculate Mean Squared Error from the summary statistics. The limits in this example are
 
-```{r echo=FALSE}
+```{r dunnetts-test-06, echo=FALSE}
 # Make the numbers look nice.
 mse <- round(mse, 2)
 lo <- round(lo, 2)

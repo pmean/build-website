@@ -12,7 +12,7 @@ output: html_document
 page_update: complete
 ---
 
-```{r setup}
+```{r cubic-splines-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(Hmisc)))
@@ -27,7 +27,7 @@ suppressMessages(suppressWarnings(library(tidyr)))
 
 Suppose you have some data where you suspect the behavior differs for x=1 to 5, x=6 to 10, x=11 to 15, and x=16 to 20.
 
-```{r}
+```{r cubic-splines-02}
 library(ggplot2)
 x <- 0:20
 y <- rep(40, 21)
@@ -43,13 +43,13 @@ ggplot(simulated_example, aes(x, y)) +
 
 To make the graphs look nice, you need to include some intermediate values.
 
-```{r}
+```{r cubic-splines-03}
 x <- c(0:20, setdiff(seq(0, 20, by=1/64), 0:20))
 ```
 
 You can get a variety of splines by defining constant, linear, quadratic, and cubic terms and then shift those functions to the right. After shifting, fill in the hole to the left with zeros.
 
-```{r}
+```{r cubic-splines-04}
 xm <- data.frame(
   c1 =rep(1, length(x)),
   c2 =x,
@@ -75,13 +75,13 @@ xm$y[1:21] <- y
 
 This is what the various pieces look like numerically ...
 
-```{r}
+```{r cubic-splines-05}
 kable(xm[1:21, 1:16])
 ```
 
 ... and graphically.
 
-```{r}
+```{r cubic-splines-06}
 display_curve <- function(dat, lb) {
   # Plot a line connecting the points in dat
   # Assume that column 1 is x and column 2 is y
@@ -124,7 +124,7 @@ for (j in 1:16) {
 
 The graph shown below represents the best fitting single cubic polynomial.
 
-```{r}
+```{r cubic-splines-07}
 
 lm(y~c2+c3+c4, data=xm) %>%
   augment(newdata=xm) %>%
@@ -139,7 +139,7 @@ So, we could fit a cubic model for the first five data points, for the second fi
 
 The trick to fitting four separate cubic polynomials is to "restart" the intercept, linear, quadratic, and cubic terms after x=5, x=10, and x=15, as shown above. This leads to a model with 16 degrees of freedom. This is way too many degrees of freedom for only 20 data points, but it helps anchor a series of more reasonable models.
 
-```{r}
+```{r cubic-splines-08}
 lm(y~c2+c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16, data=xm)  %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -151,7 +151,7 @@ This function is not continuous or smooth. To make the function continuous, drop
 
 ### Continuous splines
 
-```{r}
+```{r cubic-splines-09}
 lm(y~c2+c3+c4+c6+c7+c8+c10+c11+c12+c14+c15+c16, data=xm)  %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -165,7 +165,7 @@ While this graph is continuous, it still takes some abrupt turns. What this curv
 
 Here is a function that has a continuous first derivative. You fit this model by dropping the extra linear terms beyond the first one. Notice a pattern here. As you place additional restrictions on the spline (continuity, smoothness), you need fewer parameters. The four cubic models with no restrictions used up 16 degrees of freedom. When you added a continuity restriction, you only needed 13 degrees of freedom for the model. Add a smoothness restriction and you only need 10 degrees of freedom.
 
-```{r}
+```{r cubic-splines-10}
 lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -175,7 +175,7 @@ lm(y~c2+c3+c4+c7+c8+c11+c12+c15+c16, data=xm) %>%
 
 Here is a function that has continuous first and second derivatives. This is a greater degree of smoothness than above and it requires only 7 degrees of freedom.
 
-```{r}
+```{r cubic-splines-11}
 lm(y~c2+c3+c4+c8+c12+c16, data=xm) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -191,7 +191,7 @@ Other settings, however, should not necessarily be expected to produce continuou
 
 This approach is simple and easy to follow, but there is one catch. There is an issue with multicollinearity.
 
-```{r}
+```{r cubic-splines-12}
 round(cor(xm[c(2:4, 8, 12, 16)]), 2)
 ```
 
@@ -201,13 +201,13 @@ The correlations are quite high and this can lead to computational problems, inc
 
 B-splines provide a solution with less issues of multi-collinearity. You use the bs function in the splines package to compute B-splines. 
 
-```{r}
+```{r cubic-splines-13}
 cubic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=3, intercept=TRUE)
 ```
 
 The individual columns represent piecwise cubic polynomials. Notice how they are concentrated in certain intervals and there is only a partial overlap between these intervals. Notice also how they transition smoothly to zero outside those intervals.
 
-```{r}
+```{r cubic-splines-14}
 for (j in 1:dim(cubic_spline)[2]) {
   dat <- cbind(xm$c2, cubic_spline[ , j])
   display_curve(dat, "Cubic B-spline terms") %>%
@@ -218,13 +218,13 @@ for (j in 1:dim(cubic_spline)[2]) {
 
 B-splines have less issues with multicollinearity.
 
-```{r}
+```{r cubic-splines-15}
 round(cor(cubic_spline), 1)
 ```
 
 Although there is some correlation, this not nearly as bad as the piecewise approach.
 
-```{r}
+```{r cubic-splines-16}
 lm(xm$y~cubic_spline) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -236,13 +236,13 @@ lm(xm$y~cubic_spline) %>%
 
 Although most applications use cubic B-splines, they are available in other forms. Here is the linear spline.
 
-```{r}
+```{r cubic-splines-17}
 linear_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=1, intercept=TRUE)
 ```
 
 The terms in the linear B-splines are mostly piecewise linear functions. Notice how they are zero outside certain ranges, with only a small amount of overlap between adjacent terms.
 
-```{r}
+```{r cubic-splines-18}
 for (j in 1:dim(linear_spline)[2]) {
   dat <- cbind(xm$c2, linear_spline[ , j])
   display_curve(dat, "Linear B-spline terms") %>%
@@ -253,7 +253,7 @@ for (j in 1:dim(linear_spline)[2]) {
 
 This is a linear spline fit to the data you have been using.
 
-```{r}
+```{r cubic-splines-19}
 lm(xm$y~linear_spline) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -265,14 +265,14 @@ A linear spline has continuity, but the nature of linear function makes it impos
 
 You can also compute quadratic splines.
 
-```{r}
+```{r cubic-splines-20}
 quadratic_spline <- bs(xm$c2, knots=c(5, 10, 15), degree=2, intercept=TRUE)
 kable(quadratic_spline[1:21, ])
 ```
 
 Notice how the quadratic spline terms transition smoothly to zero outside certain intervals.
 
-```{r}
+```{r cubic-splines-21}
 for (j in 1:dim(quadratic_spline)[2]) {
   dat <- cbind(xm$c2, quadratic_spline[ , j])
   display_curve(dat, "Quadratic B-spline terms") %>%
@@ -283,7 +283,7 @@ for (j in 1:dim(quadratic_spline)[2]) {
 
 This is the fit of the quadratic spline. It can only produce smoothness up to a continuous first derivative, but the difference between this and smoothness with continuous first and second derivatives is subtle.
 
-```{r}
+```{r cubic-splines-22}
 lm(xm$y~quadratic_spline) %>%
   augment(newdata=xm) %>%
   select(c2, .fitted) %>%
@@ -301,14 +301,14 @@ A variant on B splines are natural splines (also called restricted cubic splines
 
 You should always be very careful, of course, as any effort to extrapolate beyond the range of data is [dangerous][sim3]. Nevertheless, restricting the extrapolation to a linear function is probably safer than letting the cubic polynomial wiggle around.
 
-```{r}
+```{r cubic-splines-23}
 natural_spline <- ns(xm$c2, knots=c(5, 10, 15), intercept=TRUE)
 kable(natural_spline[1:21, ])
 ```
 
 It is a bit tricky to show the extrapolation of nte natural splines. This approach uses the predict function.
 
-```{r}
+```{r cubic-splines-24}
 extended_x <- seq(-5, 25, by=1/64)
 extended_spline <- predict(natural_spline, extended_x)
 for (j in 1:dim(extended_spline)[2]) {
@@ -322,7 +322,7 @@ for (j in 1:dim(extended_spline)[2]) {
 
 Here is the natural spline fit to your simulated dataset.
 
-```{r}
+```{r cubic-splines-25}
 extended_y <- rep(NA, length(extended_x))
 extended_y[extended_x %in% 0:20] <- simulated_example$y
 lm(extended_y~extended_spline) %>%
@@ -345,7 +345,7 @@ The AIC (Akaike Information Criterion) and the BIC (Bayesian Information Criteri
 
 NOte that a p-value will not work here except in some special cases where all of the knots but one coincide. The p-value fails because (with a few rare exceptions) one spline model is not nested inside another.
 
-```{r}
+```{r cubic-splines-26}
 for (k in 3:7) {
   knots <- 20*((1:k)-0.5)/k
   lm(y~bs(c2, knots=knots), data=xm) -> rcs_fit
@@ -402,7 +402,7 @@ Most references I have looked at state that it is the number of knots rather tha
 
 Here are B-spline models with knots sliding from 3, 8, 13 to 7, 12, 17.
 
-```{r}
+```{r cubic-splines-27}
 for (k in 3:7) {
   knots <- k + c(0, 5, 10)
   lm(y~bs(c2, knots=knots), data=xm) -> rcs_fit

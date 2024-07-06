@@ -48,7 +48,7 @@ There is a complication in Microsoft Excel that you have to work around. The ran
 
 Here's some data with some made up id values
 
-```{r, echo=FALSE}
+```{r anonymizing-ids-01, echo=FALSE}
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(kableExtra)))
@@ -61,7 +61,7 @@ data.frame(private_id=private_id) %>%
 
 Here's what those ID numbers look like when you add my random number. We now have a random nine digit id associated with each eight digit id.
 
-```{r, echo=FALSE}
+```{r anonymizing-ids-02, echo=FALSE}
 e <- data.frame(private_id=as.character(private_id), random_id=as.character(private_id+480035489))
 e %>%
   kbl %>%
@@ -72,7 +72,7 @@ e %>%
 
 Here's the file with the actual data and the private ID code
 
-```{r, echo=FALSE}
+```{r anonymizing-ids-03, echo=FALSE}
 d <- data.frame(
   private_id=c(rep(private_id[1:3], c(4, 3, 2)), "..."),
   report_date=c(as.character(Sys.Date()-round(runif(9, 0, 60))), "..."),
@@ -84,7 +84,7 @@ d %>%
 
 Merge the two files together.
 
-```{r, echo=FALSE}
+```{r anonymizing-ids-04, echo=FALSE}
 e %>%
   bind_rows(data.frame(private_id="...", random_id="...")) -> f
 merge(f, d) -> g
@@ -101,7 +101,7 @@ h %>%
 
 You now have a new random_id in place of the private id.
 
-```{r, echo=FALSE}
+```{r anonymizing-ids-05, echo=FALSE}
 h %>%
   select(-private_id) %>%
   kbl %>%

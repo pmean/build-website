@@ -15,7 +15,7 @@ One of my favorite graphs is the box plot. It is a visualization of a five numbe
 
 It's great for comparing two groups. Here's a boxplot showing two groups. Notice that the first group tends to have larger values. 
 
-```{r, fig.height=1.5, echo=FALSE}
+```{r box-with-no-whiskers-01, fig.height=1.5, echo=FALSE}
 suppressMessages(suppressWarnings(library(tidyverse)))
 n1 <- 10
 n2 <- 10
@@ -35,7 +35,7 @@ pseudo_boxplot(10, 10, 6, 2, 5, 3)
 
 What happens if you try to compute the five number summary with a dataset that only has only two values?
 
-```{r, fig.height=1.5, echo=FALSE}
+```{r box-with-no-whiskers-02, fig.height=1.5, echo=FALSE}
 pseudo_boxplot(10, 2, 6, 2, 5, 3)
 ```
 

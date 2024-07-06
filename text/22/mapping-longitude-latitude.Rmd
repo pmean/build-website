@@ -13,7 +13,7 @@ page_update: complete
 
 I'm trying to understand some of the basics of mapping and found an interesting example on [this website]
 
-```{r usa-map}
+```{r mapping-longitude-latitude-01}
 library(maps); library(ggplot2); library(mapproj)
 states <- map_data("state")
 usamap <- ggplot(states, aes(x=long, y=lat, group=group)) +
@@ -24,13 +24,13 @@ usamap + coord_map("azequalarea")
 
 It helps to peek at the first few rows of data.
 
-```{r peek}
+```{r mapping-longitude-latitude-02}
 head(states)
 ```
 
 The plot is based on longitude/latitude pairs. The first thing to realize is that a degree of longitude is smaller than a degree of latitude, except at the equator. 
 
-```{r plot3d}
+```{r mapping-longitude-latitude-03}
 library(dplyr)
 library(magrittr)
 library(plot3D)
@@ -72,7 +72,7 @@ The red circle, at latitude 40 degrees north (roughly where Columbus Ohio lies) 
 
 The further you go north, the smaller the changes. At a latitude of 70 degrees north (roughly the northernmost part of Alaska), each degree of longitude is only 38 kilometers.
 
-```{r square}
+```{r mapping-longitude-latitude-04}
 scatter3D(
   a_grid[ , 1], 
   a_grid[ , 2], 

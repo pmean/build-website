@@ -5,8 +5,9 @@ date: "2021-09-29"
 categories:
 - Recommendation
 tags:
+- Incomplete page
 - Rmarkdown graphs
-- Website details
+- Secondary data
 output: html_document
 page_update: complete
 ---
@@ -20,7 +21,7 @@ The Bureau of the Census allows computerized systems to access their data. This 
 You can embed this key so that it can be re-used at will. Use the census_api_key function in the tidycensus package.
 
 
-```{r}
+```{r read-acs-data-01}
 library(tidycensus)
 library(tidyverse)
 library(viridis)
