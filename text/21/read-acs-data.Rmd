@@ -5,6 +5,7 @@ date: "2021-09-29"
 categories:
 - Recommendation
 tags:
+- Rmarkdown graphs
 - Website details
 output: html_document
 page_update: complete

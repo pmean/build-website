@@ -7,6 +7,7 @@ categories:
 tags:
 - Data science
 - Incomplete page
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---

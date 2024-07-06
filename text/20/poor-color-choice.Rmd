@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Graphical display
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -27,12 +28,12 @@ Gradients are very useful for showing changes in a continuous variable, and poss
 
 Here's an example of what I mean.
 
-```{r setup, echo=FALSE}
+```{r poor-color-choice-01, echo=FALSE}
 knitr::opts_chunk$set(echo=FALSE, fig.width=5, fig.height=5)
 ```
 
 
-```{r color-circle1, echo=FALSE, fig.width=5, fig.height=5}
+```{r poor-color-choice-02, echo=FALSE, fig.width=5, fig.height=5}
 suppressMessages(suppressWarnings(library(ggplot2)))
 suppressMessages(suppressWarnings(library(RColorBrewer)))
 n <- 500
@@ -67,7 +68,7 @@ ggplot(df0, aes(x, y)) +
 
 This color wheel includes the pure colors (pure yellow, pure green, pure cyan, pure red, pure magenta, pure blue) and these colors are sometimes a bit harsh on your eyes. A darker set of colors is a bit easier to view.
 
-```{r color-circle2, echo=FALSE, fig.width=5, fig.height=5}
+```{r poor-color-choice-03, echo=FALSE, fig.width=5, fig.height=5}
 ggplot(df0, aes(x, y)) +
   geom_point(
       color=hsv(angle_seq, 1, 0.5), 
@@ -90,7 +91,7 @@ ggplot(df0, aes(x, y)) +
 
 You might also consider lighter colors. These are pastel colors. Going lighter or going darker will depend on many factors, but either choice is usually better than using the pure colors.
 
-```{r color-circle3, echo=FALSE, fig.width=5, fig.height=5}
+```{r poor-color-choice-04, echo=FALSE, fig.width=5, fig.height=5}
 ggplot(df0, aes(x, y)) +
   geom_point(
       color=hsv(angle_seq, 0.5, 1), 
@@ -113,7 +114,7 @@ ggplot(df0, aes(x, y)) +
 
 There are lots of choices in various graphics packages. Here is one nice set of categorical color choices in R.
 
-```{r brew1, fig.height=1}
+```{r poor-color-choice-05, fig.height=1}
 par(mar=rep(0, 4))
 display.brewer.pal(5, "Set1")
 pal5 <- brewer.pal(5, "Set1")

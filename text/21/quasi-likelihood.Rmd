@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Generalized linear model
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---

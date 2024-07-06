@@ -5,6 +5,8 @@ date: "2020-11-21"
 categories:
 - Blog post
 tags:
+- R programming
+- Rmarkdown graphics
 - Writing research papers
 output: html_document
 page_update: complete
@@ -29,7 +31,7 @@ I use R Markdown to produce early drafts of research publications. It simplifies
 
 R can produce beautiful graphs, and with R Markdown, you can insert these graphs anywhere in your document. You can't control page breaks easily in R Markdown, however. Here's an example of a simple graph.
 
-```{r, echo=FALSE, fig.width=6, fig.height=3}
+```{r rmarkdown-papers-01, echo=FALSE, fig.width=6, fig.height=3}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(knitr)))
 suppressMessages(suppressWarnings(library(tidyverse)))
@@ -41,7 +43,7 @@ data.frame(x, y) %>%
 
 With the ability to plot polygons, line segments, and arrows, you can create informational diagrams like this.
 
-```{r, echo=FALSE}
+```{r rmarkdown-papers-02, echo=FALSE}
 sz <- 1.2
 xc <- 20
 yc <- 80
@@ -84,7 +86,7 @@ when you sandwich it between two dollar signs.
 
 I used to spend a lot of time retyping numbers from what the statistical software said into a table that was organized to make it more readable. That is a tedious and error prone practice, and if your data set changes, even just a little bit, you have to re-type everything all over again. You can produce nice looking tables in R Markdown. It takes about as much work as just retyping everything, but once the table looks nice, you can use the code over again for other projects. I am still learning how to do tables well, but here is some output that I generated to show the potential value.
 
-```{r}
+```{r rmarkdown-papers-03}
 lm(breaks ~ wool*tension, data = warpbreaks) %>%
   tidy %>%
   rename(t.test=statistic) %>% 

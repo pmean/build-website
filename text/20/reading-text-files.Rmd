@@ -7,15 +7,16 @@ categories:
 - Blog post
 tags:
 - Data management
+- Rmarkdown code
 output: html_document
-page_update: complete
+page_update: partial
 ---
 
 Many data files stored on the Internet use text format. Here is an explanation of what text format is and how you can read it into a program for data analysis.
 
 <!---More--->
 
-```{r ascii, echo=FALSE}
+```{r reading-text-files-01, echo=FALSE}
 symbol_codes <- c(33:126)
 symbols <- NULL
 for (i in symbol_codes) {symbols <- c(symbols, rawToChar(as.raw(i)))} 

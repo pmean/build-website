@@ -7,6 +7,8 @@ categories:
 - Blog post
 tags:
 - Epidemiology
+- Incomplete pages
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---

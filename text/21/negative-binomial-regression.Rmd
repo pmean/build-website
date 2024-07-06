@@ -8,13 +8,14 @@ categories:
 tags:
 - Probability distributions
 - Generalized linear model
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
 
 The negative binomial distribution is similar to the Poisson distribution, but it offers a bit more flexibility. This page will review some basic properties of the negative binomial distribution and show how it can be incorporated into the framework of the generalized linear model.
 
-```{r setup}
+```{r negative-binomial-regression-01}
 suppressMessages(suppressWarnings(library(broom)))
 suppressMessages(suppressWarnings(library(dplyr)))
 suppressMessages(suppressWarnings(library(ggplot2)))
@@ -74,7 +75,7 @@ $X_1+X_2 \sim NB(n_1+n_2, p)$
 
 Here are the probabilities for various negative binomial cases where n changes, and p is held constant at 0.8.
 
-```{r bar-charts-n}
+```{r negative-binomial-regression-02}
 data.frame(x=0:25) %>%
   mutate(p=dnbinom(x,  2, 0.8)) %>%
   ggplot(aes(x,p)) +
@@ -97,7 +98,7 @@ data.frame(x=0:25) %>%
 
 Here are the probabilities for various negative binomial cases where n changes, and p is held constant at 0.8.
 
-```{r bar-charts-p}
+```{r negative-binomial-regression-03}
 data.frame(x=0:25) %>%
   mutate(p=dnbinom(x,  2, 0.8)) %>%
   ggplot(aes(x,p)) +
@@ -172,7 +173,7 @@ summary(pois1)
 ```
 
 
-```{r}
+```{r negative-binomial-regression-01}
 library(MASS)
 nb1 <- glm.nb(art ~ fem + ment + phd + mar + kid5, data = articles)
 summary(nb1)
