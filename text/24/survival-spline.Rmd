@@ -6,8 +6,10 @@ date: 2024-05-07
 categories:
 - Blog post
 tags:
+- Incomplete pages
 - Survival analysis
 - R programming
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -16,7 +18,7 @@ Splines provide a useful way to model relationships that are more complex than a
 
 <!---more--->
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r survival-spline-01, echo=FALSE, message=FALSE, warning=FALSE}
 library(broom)
 library(pspline)
 library(readr)
@@ -36,7 +38,7 @@ Here is a brief description of the whas100 dataset, taken from the [data diction
 
 Here are the first few rows of data and the last few rows of data. Row 101 needs to be removed.
 
-```{r}
+```{r survival-spline-02}
 f2 <- "whas100.dat"
 raw_data <- read.fwf(
   file=paste0(f0, f2),
@@ -60,7 +62,7 @@ wa$lenfol <- wa$lenfol/365.25
 
 Here are a few descriptive statistics
 
-```{r}
+```{r survival-spline-03}
 summary(wa$id)
 summary(wa$los)
 summary(wa$lenfol)
@@ -72,25 +74,25 @@ summary(wa$bmi)
 
 Here is an overall survival curve.
 
-```{r}
+```{r survival-spline-04}
 plot(Surv(wa$lenfol, wa$fstat))
 ```
 
-```{r}
+```{r survival-spline-05}
 linear_fit <- coxph(
   Surv(wa$lenfol, wa$fstat)~age,
   data=wa)
 linear_fit
 ```
 
-```{r}
+```{r survival-spline-06}
 spline_fit <- coxph(
   Surv(wa$lenfol, wa$fstat)~rcs(age),
   data=wa)
 spline_fit
 ```
 
-```{r}
+```{r survival-spline-07}
 age_sequence <- data.frame(
   age = seq(min(wa$age), max(wa$age), length=100))
 age_sequence$prediction <- 

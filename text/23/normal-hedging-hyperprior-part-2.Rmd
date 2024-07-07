@@ -6,11 +6,12 @@ categories:
 - Blog post
 tags:
 - Bayesian statistics
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
 
-```{r setup}
+```{r normal-hedging-prior-20}
 suppressMessages(suppressWarnings(library(MASS)))
 suppressMessages(suppressWarnings(library(tidyverse)))
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
@@ -86,7 +87,7 @@ $\beta_1 = n_0 \tau_0 + \frac{1}{2}\sum(X_i-\mu_0)^2)$
 
 ### A simple numerical example
 
-```{r}
+```{r normal-hedging-prior-21}
 x_max <- 8
 
 n0 <- 4
@@ -125,7 +126,7 @@ post95 <- qgamma(0.975, alpha1, beta1)
 
 Let's illustrate this with an informative prior with $n_0$ = `r n0` and $\tau_0$ = `r tau0`.
 
-```{r}
+```{r normal-hedging-prior-22}
 g_grid <- g(x_grid, alpha0, beta0)
 outside <- x_grid < prior05 | x_grid > prior95
 x_color <- 
@@ -140,7 +141,7 @@ This corresponds to a fairly informative prior distribution. This distribution p
 
 Let's see what happens with this informative prior if you observe `r n` values of x: `r paste0(x, collapse=", ")`. The likelihood is
 
-```{r}
+```{r normal-hedging-prior-23}
 f_grid <- rep(NA, length(x_grid))
 for (i in 1:length(x_grid)) {
   f_grid[i] <- prod(f(x, muF, x_grid[i]))
@@ -153,7 +154,7 @@ data.frame(x=x_grid, y=f_grid) %>%
 
 Multiply these two together to get the posterior distribution.
 
-```{r}
+```{r normal-hedging-prior-24}
 h_grid <- g(x_grid, alpha1, beta1)
 outside <- x_grid < post05 | x_grid > post95
 x_color <- 
@@ -182,11 +183,11 @@ where $\lambda$ ranges between 0 and 1. When $\lambda=0$, the prior precision re
 
 Place a hyperprior on the parameter $\lambda$. The uniform(0,1) distribution is a reasonable choice for the hyperprior, but others are possible.
 
-```{r}
+```{r normal-hedging-prior-25}
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
 ```
 
-```{r}
+```{r normal-hedging-prior-26}
 lambda_grid <- seq(0, 1, length=60)
 tau_grid <- seq(0, x_max, length=60)
 
@@ -212,7 +213,7 @@ This is the joint prior distribution of $\tau$ and $\lambda$.
 
 It is hard to see at this scale, but the prior distribution is higher for small values of $\lambda$ when $\tau$ is very large or very small. This becomes more obvious if you remove the middle of the surface and rescale the Z-axis.
 
-```{r, eval=FALSE}
+```{r normal-hedging-prior-27, eval=FALSE}
 density <- outer(tau_grid, lambda_grid, gstar)
 density[16:44, ] <- NA
 op <- par(bg = "white")
@@ -232,7 +233,7 @@ persp(
 
 The likelihood function is constant across all values of $\tau$, so its surface looks like the following.
 
-```{r, eval=FALSE}
+```{r normal-hedging-prior-28, eval=FALSE}
 lambda_grid <- seq(0, 1, length=60)
 tau_grid <- seq(0, x_max, length=60)
 
@@ -255,7 +256,7 @@ persp(
 
 The product of the prior and the likelihood is proportional to the posterior distribution.
 
-```{r, eval=FALSE}
+```{r normal-hedging-prior-29, eval=FALSE}
 lambda_grid <- seq(0, 1, length=60)
 mu_grid <- seq(0, x_max, length=60)
 
@@ -278,7 +279,7 @@ persp(
 
 A contour plot shows where the probability is concentrated. The labels on the contour lines represent how much probabilty is found inside the contour line.
 
-```{r, eval=FALSE}
+```{r normal-hedging-prior-30, eval=FALSE}
 density <- density / sum(density, na.rm=TRUE)
 density %>%
   as.vector %>%

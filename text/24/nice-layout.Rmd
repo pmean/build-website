@@ -6,7 +6,9 @@ date: 2024-06-27
 categories:
 - Blog post
 tags:
-- Being updated
+- Incomplete pages
+- R programming
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -15,7 +17,7 @@ While it is easy to get R to produce descriptive statistics for categorical outc
 
 <!---more--->
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r nice-layout-01, echo=FALSE, message=FALSE, warning=FALSE}
 library(glue)
 library(mice)
 library(readr)
@@ -40,7 +42,7 @@ Here is a brief description of this dataset, taken from the [data dictionary][si
 
 Here are the first few rows of data.
 
-```{r, echo=FALSE}
+```{r nice-layout-02, echo=FALSE}
 f2 <- "titanic.txt"
 raw_data <- 
   data.frame(
@@ -58,7 +60,7 @@ I have hidden the R code up to this point, as it is mundane and not of great int
 
 Using the `count` command in R shows deaths and survivors among men and women.
 
-```{r}
+```{r nice-layout-03}
 ti0 %>%
   group_by(Sex, Survived) %>%
   summarize(n1=n(), .groups="drop") -> tab01
@@ -71,7 +73,7 @@ Second, the `.groups` argument is new. When you use a `group_by` statement with 
 
 If you examine the results, there are a lot more male deaths than female deaths, but be careful because there were also more men than women on the boat. Calculating the proportions of deaths and survivors among men and women is fairly easy.
 
-```{r}
+```{r nice-layout-04}
 tab01 %>%
   group_by(Sex) %>%
   mutate(n2=sum(n1)) %>%
@@ -83,7 +85,7 @@ There will be times that the `sprintf` function will layout things a bit better 
 
 You can combine the numerator, denominator, and percentage into one nice package using the `glue` function.
 
-```{r}
+```{r nice-layout-05}
 tab02 %>%
   mutate(out=glue("{n1}/{n2} ({pct}%)")) %>%
   select(Sex, Survived, out) -> tab03
@@ -94,7 +96,7 @@ Again, the `sprintf` function might work better than `glue`.
 
 Next, arrange things so that the data on survivors is in one column and the data on deaths is in a separate column. This is done with the `pivot_wider` function.
 
-```{r}
+```{r nice-layout-06}
 tab03 %>%
   pivot_wider(
     names_from=Survived, 
@@ -106,7 +108,7 @@ Use the `set_names` function to produce nicer looking variable names. The `set_n
 
 [mag1]: https://magrittr.tidyverse.org/reference/aliases.html
 
-```{r}
+```{r nice-layout-07}
 tab05 %>%
   set_names(c(
     "Sex", 
@@ -121,7 +123,7 @@ Next, let's use the kableExtra package to make things look really nice. There ar
 [kab1]: https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html
 [mad1]: https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541
 
-```{r}
+```{r nice-layout-08}
 library(kableExtra)
 tab06 %>%
   kbl %>%
@@ -133,7 +135,7 @@ tab07
 
 If you have multiple independent variables, the `pack_rows` function is nice. Notice that we have to set the name of the first column to blank to avoid redundancy.
 
-```{r}
+```{r nice-layout-09}
 library(kableExtra)
 tab06 %>%
   set_names(c(" ", "Deaths", "Survivors")) %>%
@@ -147,7 +149,7 @@ tab08
 
 Here is the code all in one place rather than step by step. It looks quite complex, but if you build things one step at a time, the complex code is not all that complex to generate.
 
-```{r}
+```{r nice-layout-10}
 ti0 %>%
   group_by(Sex, Survived) %>%
   summarize(n1=n(), .groups = "drop") %>%
@@ -165,7 +167,7 @@ ti0 %>%
 
 Here is what the code would look like if you used sprintf instead of glue.
 
-```{r}
+```{r nice-layout-11}
 ti0 %>%
   group_by(Sex, Survived) %>%
   summarize(n1=n(), .groups = "drop") %>%

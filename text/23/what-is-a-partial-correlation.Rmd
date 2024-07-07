@@ -8,6 +8,7 @@ categories:
 tags:
 - Correlation
 - Definitions
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -18,7 +19,7 @@ There are several ways to account for that third variable when examining interfe
 
 <!---more--->
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r partial-correlation-01, echo=FALSE, warning=FALSE, message=FALSE}
 library(broom)
 library(tidyverse)
 fn <- "https://raw.githubusercontent.com/pmean/classes/master/biostats-1/data/data-05-fev.csv"
@@ -50,7 +51,7 @@ If the third variable correlates poorly with both X and Y, then the adjusted cor
 
 ## An example of partial correlation
 
-```{r, echo=FALSE}
+```{r partial-correlation-02, echo=FALSE}
 rxy <- round(cor(init$fev, init$age), 2)
 rxz <- round(cor(init$fev, init$height), 2)
 ryz <- round(cor(init$age, init$height), 2)
@@ -69,7 +70,7 @@ But there is a third factor, height, which might account for this relationship.
 
 If you look at all of the data, you see a strong correlation between age and FEV. This graph shows the individual heights for each child at the X, Y value corresponding to the age and FEV. Notice that the younger children have heights in the high 40s and the low 50s and the older children have heights in the high 60s and low 70s.
 
-```{r, echo=FALSE}
+```{r partial-correlation-03, echo=FALSE}
 ggplot(init, aes(age, fev, label=height)) +
   geom_text() +
   ggtitle(paste0("Correlation = ", rxy))
@@ -80,7 +81,7 @@ h <- 48
 
 When you look at the shortest kids, those with heights between `r h-2` and `r h+1.5`, you see that the correlation is weak.
 
-```{r, echo=FALSE}
+```{r partial-correlation-04, echo=FALSE}
 g <- 4*floor((init$height-2)/4)+4
 control_height <- function(a) {
   rxy <- round(cor(init$age[g==h], init$fev[g==h]), 2)
@@ -104,42 +105,42 @@ You see a similar weak correlation when the height is between `r h-2` and `r h+1
 
 And so forth.
 
-```{r, echo=FALSE}
+```{r partial-correlation-05, echo=FALSE}
 control_height(h)
 h <- h+4
 ```
 
 ## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
 
-```{r, echo=FALSE}
+```{r partial-correlation-06, echo=FALSE}
 control_height(h)
 h <- h+4
 ```
 
 ## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
 
-```{r, echo=FALSE}
+```{r partial-correlation-07, echo=FALSE}
 control_height(h)
 h <- h+4
 ```
 
 ## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
 
-```{r, echo=FALSE}
+```{r partial-correlation-08, echo=FALSE}
 control_height(h)
 h <- h+4
 ```
 
 ## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
 
-```{r, echo=FALSE}
+```{r partial-correlation-09, echo=FALSE}
 control_height(h)
 h <- h+4
 ```
 
 ## Relationship between age and FEV controlling for height between `r h-2` and `r h+1.5`
 
-```{r, echo=FALSE}
+```{r partial-correlation-10, echo=FALSE}
 control_height(h)
 h <- h+4
 ```

@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - R software
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -29,7 +30,7 @@ The example I show below are simple. It helps me to understand things better by 
 
 Suppose you have a data frame with columns labelled w, x, y, and z. If you wanted to create a smaller data frame with just w and x, you could use the following code.
 
-```{r}
+```{r non-standard-evaluation-01}
 old_data <- data.frame(
   w=0:3,
   x=1:4,
@@ -41,7 +42,7 @@ new_data
 
 But `select`, a function in dplyr, can do the same work without the quote marks.
 
-```{r}
+```{r non-standard-evaluation-02}
 new_data <- select(old_data, w, x)
 new_data
 ```
@@ -54,7 +55,7 @@ In a talk I attended many years ago, a really smart R programmer said that you s
 
 Here's an example. Suppose you wanted to select just those rows in a data frame where the variable w is less than two. The r code to do this is
 
-```{r}
+```{r non-standard-evaluation-03}
 new_data <- old_data[old_data$w < 2, ]
 new_data
 ```
@@ -63,7 +64,7 @@ Notice how you had to type `old_data` twice? It is not unusual in R to maybe hav
 
 The `filter` function in dplyr simplifies the code.
 
-```{r}
+```{r non-standard-evaluation-04}
 new_data <- filter(old_data, w < 2)
 new_data
 ```
@@ -94,7 +95,7 @@ Chapter 6 in Greg Wilson. R for Data Engineers, 2021-01-11. Available in [html f
 
 Sometimes you want to do a repetitive task by using the `for` loop in R. Suppose, for example, that you wanted to calculate the median of each column in a data frame. The standard approach in R works easily.
 
-```{r}
+```{r non-standard-evaluation-05}
 for (v in c("w", "x")) {
   print(table(old_data[ , v]))
 }
@@ -102,7 +103,7 @@ for (v in c("w", "x")) {
 
 But this does not work for `count`, the dplyr equivalent to table
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-06, error=TRUE}
 for (v in c("w", "x")) {
   count(old_data, v)
 }
@@ -110,7 +111,7 @@ for (v in c("w", "x")) {
 
 The dplyr functions create a hidden data frame (`.data`) and you need to reference this hidden data.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-07, error=TRUE}
 for (v in c("w", "x")) {
   print(count(old_data, .data[[v]]))
 }
@@ -122,7 +123,7 @@ It gets tricky when you want to write a function that includes something like `s
 
 It's pretty easy with standard R code.
 
-```{r}
+```{r non-standard-evaluation-08}
 reduce <- function(old_data, variable_name) {
   old_data[ , variable_name]
 }
@@ -131,7 +132,7 @@ reduce(old_data, "w")
 
 But the following code won't work.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-09, error=TRUE}
 reduce <- function(old_data, variable_name) {
   select(old_data, variable_name)
 }
@@ -140,13 +141,13 @@ reduce(old_data, w)
 
 Putting the variable_name in quotes does work, but produces a warning.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-10, error=TRUE}
 reduce(old_data, "w")
 ```
 
 If you want to use non-standard evaluation into a function, then you have to "embrace" the one or more of the function arguments. Embracing sounds like something romantic, but it actually just means putting a pair of curly braces around the variable.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-11, error=TRUE}
 reduce <- function(old_data, variable_name) {
   select(old_data, {{variable_name}})
 }
@@ -155,7 +156,7 @@ reduce(old_data, w)
 
 If you want to reduce to two or more columns, use the `...` function argument.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-12, error=TRUE}
 reduce <- function(old_data, ...) {
   select(old_data, ...)
 }
@@ -164,7 +165,7 @@ reduce(old_data, w, x)
 
 If you need to send strings to a function, use `.data[[ ]]`.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-13, error=TRUE}
 reduce <- function(old_data, variable_string) {
   select(old_data, .data[[variable_string]])
 }
@@ -173,7 +174,7 @@ reduce(old_data, "w")
 
 This only works for a single string. If you try to pass a vector of strings, you get an error.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-14, error=TRUE}
 reduce <- function(old_data, variable_string) {
   select(old_data, .data[[variable_string]])
 }
@@ -182,7 +183,7 @@ reduce(old_data, c("w", "x"))
 
 In this case, the dplyr library offer two functions, `any_of` and `all_of`.
 
-```{r, error=TRUE}
+```{r non-standard-evaluation-15, error=TRUE}
 reduce <- function(old_data, variable_string) {
   select(old_data, any_of(variable_string))
 }

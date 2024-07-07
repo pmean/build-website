@@ -8,6 +8,7 @@ categories:
 tags:
 - Missing data
 - R programming
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -16,7 +17,7 @@ Multiple imputation is a way to properly account for missing values without caus
 
 <!---more--->
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r titanic-imputation-01, echo=FALSE, message=FALSE, warning=FALSE}
 library(glue)
 library(mice)
 library(readr)
@@ -41,7 +42,7 @@ Here is a brief description of this dataset, taken from the [data dictionary][si
 
 Here are the first few rows of data.
 
-```{r, echo=FALSE}
+```{r titanic-imputation-02, echo=FALSE}
 f2 <- "titanic.txt"
 raw_data <- 
   data.frame(
@@ -57,7 +58,7 @@ head(ti0)
 
 Here are a few descriptive statistics
 
-```{r, echo=FALSE}
+```{r titanic-imputation-03, echo=FALSE}
 cat(vnames[1], ": ", vlabels[1], "\n")
 summary(ti0$Age)
 cat(vnames[2], ": ", vlabels[2], "\n")
@@ -73,14 +74,14 @@ I have hidden the R code up to this point, as it is mundane and not of great int
 
 Notice the large number of missing values for age. The first three passengers with missing ages are
 
-```{r}
+```{r titanic-imputation-04}
 missing_rows <- which(is.na(ti0$Age))[1:3]
 ti0 %>% slice(missing_rows)
 ```
 
 Create mutliply imputed values for age. The default is to use every variable in the dataset other than age to impute the value of age. You don't want to use the name of the passenger, of course, so be sure to drop it before the imputation step.
 
-```{r}
+```{r titanic-imputation-05}
 ti1 <- select(ti0, -Name)
 ti1$i_female <- as.numeric(ti1$Sex=="female")
 ti1 <- select(ti1, -Sex)
@@ -89,7 +90,7 @@ ti_mice <- mice(ti1)
 
 The mice function creates a complex object. Go ahead and explore the various components, but be forewarned that this is messy. You can extract simple parts of the imputation with various functions. The complete function shows the complete datasets with the imputed values. Here are the first three rows where age was imputed the first time.
 
-```{r}
+```{r titanic-imputation-06}
 ti_mice %>%
   complete(1) %>%
   slice(missing_rows)
@@ -97,7 +98,7 @@ ti_mice %>%
 
 Look at the imputations for the second, third, etc. times. Notice that the values change with each imputation.
 
-```{r}
+```{r titanic-imputation-07}
 ti_mice %>%
   complete(2) %>%
   slice(missing_rows)
@@ -115,7 +116,7 @@ ti_mice %>%
 
 Use the with function of the mice package to fit a model to apply a particular analysis to each of the five imputed datasets.
 
-```{r}
+```{r titanic-imputation-08}
 ti_with <- with(
   ti_mice, 
   glm(
@@ -125,7 +126,7 @@ ti_with <- with(
 
 Again, the object created here is complex. You can extract the individual analyses fairly easily. Here is the analysis of the first imputed dataset.
 
-```{r}
+```{r titanic-imputation-09}
 ti_with$analyses[[1]]
 ```
 
@@ -133,7 +134,7 @@ The key variable here is sexmale, which shows how much different the log odds of
 
 Notice that the estimate for sexmale changes from one analysis to another, though not by much.
 
-```{r}
+```{r titanic-imputation-10}
 ti_with$analyses[[2]]
 ti_with$analyses[[3]]
 ti_with$analyses[[4]]
@@ -142,7 +143,7 @@ ti_with$analyses[[5]]
 
 Combine all these analyses with the pool function.
 
-```{r}
+```{r titanic-imputation-11}
 ti_pool <- pool(ti_with)
 ti_summary <- summary(ti_pool)
 ti_summary
@@ -150,7 +151,7 @@ ti_summary
 
 To complete things, compute the odds ratio and confidence interval.
 
-```{r}
+```{r titanic-imputation-12}
 female <- ti_summary$term=="i_female"
 log_or <- ti_summary[female, "estimate"]
 se <- ti_summary[female, "std.error"]

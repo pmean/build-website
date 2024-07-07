@@ -8,6 +8,7 @@ categories:
 tags:
 - Survival analysis
 - R programming
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---

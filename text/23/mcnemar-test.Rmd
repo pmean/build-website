@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Measuring benefit and risk
+- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -58,7 +59,7 @@ Here's a simple example from page 267 of a classic book, Alan Agresti. An Introd
 
 ![](http://www.pmean.com/new-images/23/mcnemar-test-01.png).
 
-```{r}
+```{r mcnemar-test-01}
 a <- 833; b <- 125; c <- 2; d <- 160
 n <- a + b + c + d
 r1 <- round(100*(a+b)/n)
@@ -129,7 +130,7 @@ Make sure that you designate count as a weight before starting your analysis. He
 
 Here is what it looks like in R
 
-```{r}
+```{r mcnemar-test-02}
 mcnemar.test(matrix(c(833, 125, 2, 160), nrow=2), correct=FALSE)
 ```
 

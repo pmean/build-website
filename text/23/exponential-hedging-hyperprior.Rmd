@@ -6,6 +6,7 @@ categories:
 - Blog post
 tags:
 - Bayesian statistics
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -89,7 +90,7 @@ $\Big(
   
 ### A simple numerical example
 
-```{r}
+```{r exponential-hedging-hyperprior-01}
 x_max <- 3
 
 a0 <- 41
@@ -122,12 +123,11 @@ prior95 <- 1/qgamma(c(0.025), a0, b0)
 
 post05 <- 1/qgamma(c(0.975), a1, b1) 
 post95 <- 1/qgamma(c(0.025), a1, b1) 
-
 ```
 
 Let's illustrate this with an informative prior with $\alpha$ = `r a0` and $\beta$ = `r b0`.
 
-```{r}
+```{r exponential-hedging-hyperprior-02}
 g_grid <- g(x_grid, a0, b0)
 outside <- x_grid < prior05 | x_grid > prior95
 x_color <- 
@@ -142,7 +142,7 @@ This corresponds to a fairly informative prior distribution. This distribution p
 
 Let's see what happens with this informative prior if you observe `r n` values of x with a mean of `r xbar`. The likelihood is
 
-```{r}
+```{r exponential-hedging-hyperprior-03}
 f_grid <- f(xbar, x_grid)^n
 x_color <- "white"
 data.frame(x=x_grid, y=f_grid) %>%
@@ -152,7 +152,7 @@ data.frame(x=x_grid, y=f_grid) %>%
 
 Multiply these two together to get the posterior distribution.
 
-```{r}
+```{r exponential-hedging-hyperprior-04}
 h_grid <- g(x_grid, a1, b1)
 outside <- x_grid < post05 | x_grid > post95
 x_color <- 
@@ -171,11 +171,11 @@ When the likelihood of your data and your informative prior are in conflict, you
 
 Define your prior distribution as an inverse gamma distributions with parameters $1+\lambda (\alpha-1)$ and $\lambda \beta$ where $\lambda$ ranges between 0 and 1. Then place a hyperprior on the parameter $\lambda$. The uniform(0,1) distribution is a reasonable choice for the hyperprior, but others are possible.
 
-```{r}
+```{r exponential-hedging-hyperprior-05}
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=8)
 ```
 
-```{r}
+```{r exponential-hedging-hyperprior-06}
 lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
@@ -201,7 +201,7 @@ It is hard to see at this scale, but the prior distribution is higher for small 
 
 This illustrates how the hedging hyperprior does its magic. It puts more probability on large values of $\lambda$ (gives closer to full weight for the informative prior) when you observe data values close to the prior mean. It puts more probability on small values of $\lambda$ (gives much less weight to the informative prior) when the data values are much larger or much smaller than the prior mean.
 
-```{r}
+```{r exponential-hedging-hyperprior-07}
 density <- outer(theta_grid, lambda_grid, gstar)
 # density[12:32, ] <- NA
 # density[11:40, ] <- NA
@@ -223,7 +223,7 @@ persp(
 
 The likelihood function is constant across all values of $\lambda$, so its surface looks like the following.
 
-```{r}
+```{r exponential-hedging-hyperprior-08}
 lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
@@ -246,7 +246,7 @@ persp(
 
 The product of the prior and the likelihood is proportional to the posterior distribution.
 
-```{r}
+```{r exponential-hedging-hyperprior-09}
 lambda_grid <- seq(0, 1, length=60)
 theta_grid <- seq(0, x_max, length=60)
 
@@ -269,7 +269,7 @@ persp(
 
 A contour plot shows where the probability is concentrated. The labels on the contour lines represent how much probabilty is found inside the contour line.
 
-```{r}
+```{r exponential-hedging-hyperprior-10}
 density <- density / sum(density, na.rm=TRUE)
 density %>%
   as.vector %>%

@@ -33,7 +33,7 @@ Here's a lesson that I learned from Naomi Robbins, another expert on data visual
 
 Restraint is also important for gradients. Often in a graph, you want to show changes in a continuous variable across a range of colors.
 
-```{r, echo=FALSE, warning=FALSE}
+```{r too-many-colors-01, echo=FALSE, warning=FALSE}
 library(usmap)
 library(ggplot2)
 plot_usmap(
@@ -51,7 +51,7 @@ us +
 
 Here's a map showing poverty rates for each state in the United States. It uses a gradient from a very light red to a very dark red.
 
-```{r, echo=FALSE, warning=FALSE}
+```{r too-many-colors-02, echo=FALSE, warning=FALSE}
 gr <- c("green", "yellow", "red")
 us +
   scale_fill_gradientn(
@@ -71,7 +71,7 @@ This image shows the rainbow gradient. It transitions between red, yellow, green
 
 Here's what a map of poverty rates looks like with the rainbow gradient.
 
-```{r, echo=FALSE, warning=FALSE}
+```{r too-many-colors-03, echo=FALSE, warning=FALSE}
 gr <- c("red", "yellow", "green", "cyan", "blue", "magenta")
 us +
   scale_fill_gradientn(

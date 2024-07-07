@@ -43,7 +43,7 @@ Although Unicode offered a lot of flexibility, you wouldn't want to switch from 
 
 This is where the Encoding function in R can help. Consider the string \x66\x61\x63\x69\x6C\x65. These are all smaller than \7F, so this is a 7 bit ASCII string. R has no problems with it.
 
-```{r}
+```{r encoding-example-01}
 #| echo: true
 sample_string_1 <- "\x66\x61\x63\x69\x6C\x65"
 sample_string_1
@@ -51,7 +51,7 @@ sample_string_1
 
 Now look at the string \x66\x61\xE7\x69\x6C\x65. This is now 8 bit ASCII because \xE7 is larger than \x7F. R does not know how to display this, so it defers display of the 8 bit code.
 
-```{r}
+```{r encoding-example-02}
 #| echo: true
 sample_string_2 <- "\x66\x61\xE7\x69\x6C\x65"
 sample_string_2
@@ -59,14 +59,14 @@ sample_string_2
 
 Using the Encoding function to illustrate this choice to defer.
 
-```{r}
+```{r encoding-example-03}
 #| echo: true
 Encoding(sample_string_2)
 ```
 
 You can set the encoding to Latin-1 with
 
-```{r}
+```{r encoding-example-04}
 #| echo: true
 Encoding(sample_string_2) <- "latin1"
 sample_string_2
@@ -76,7 +76,7 @@ Now R can display the string properly because the 8 bit ASCII code known as lati
 
 You can also use the UTF-8 encoding.
 
-```{r}
+```{r encoding-example-05}
 #| echo:true
 sample_string_3 <- 
   iconv(
@@ -84,7 +84,7 @@ sample_string_3 <-
 sample_string_3
 ```
 
-```{r}
+```{r encoding-example-06}
 #| echo: true
 charToRaw(sample_string_1)
 charToRaw(sample_string_2)
@@ -95,7 +95,7 @@ The conversion to UTF-8 requires 7 bytes to represent the third string because U
 
 If a text file using UTF-8 is mistakenly translated to an 8 bit ASCII, you will get a form of gibberish known as [mojibake][moj1].
 
-```{r}
+```{r encoding-example-07}
 #| echo: false
 Encoding(sample_string_3) <- "latin1"
 sample_string_3

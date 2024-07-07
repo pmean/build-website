@@ -6,11 +6,12 @@ categories:
 - Blog post
 tags:
 - Bayesian statistics
+- Incomplete pages
 output: html_document
 page_update: complete
 ---
 
-```{r setup}
+```{r modified-power-prior-01}
 suppressMessages(suppressWarnings(library(tidyverse)))
 knitr::opts_chunk$set(echo=TRUE, fig.width=8, fig.height=2)
 ```

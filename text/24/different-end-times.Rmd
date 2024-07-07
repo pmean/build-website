@@ -25,7 +25,7 @@ Here's a simple simulation using R.
 
 Generate two sets of survival times. The rate is twice as large in the second group, so you should expect to see events occur earlier in the second group and events below a certain threshold should occur more often in the second group.
 
-```{r}
+```{r different-end-times-01}
 suppressMessages(library(survival))
 suppressMessages(library(tidyverse))
 set.seed(190225)
@@ -40,7 +40,7 @@ tail(sim)
 
 How many events occur from 0 to 190 days, from 191 to 225 days, and after 225 days?
 
-```{r}
+```{r different-end-times-02}
 sim %>%
   group_by(g) %>%
   summarize(
@@ -58,7 +58,7 @@ Does this bias things? The way to find out is to run the data with different cen
 
 ## Analysis with censoring thresholds of 190 (A) and 225 (B)
 
-```{r}
+```{r different-end-times-04}
 censor_time_v1 <- rep(c(190, 225), each=100)
 sim %>%
   mutate(t_v1=pmin(raw_time, censor_time_v1)) %>%
@@ -69,7 +69,7 @@ sim_v1 %>%
 
 Run a Cox regression model
 
-```{r}
+```{r different-end-times-05}
 cox_v1 <- coxph(Surv(t_v1, censor_v1)~g, data=sim_v1)
 cox_v1
 ```
@@ -78,7 +78,7 @@ cox_v1
 
 What if you set the censoring times to 190 days for both groups? That effectively converts `r sim_counts$n_191_to_225[2]` patients in the second group from events to observations censored at 190 days.
 
-```{r}
+```{r different-end-times-06}
 censor_time_v2 <- rep(c(190, 190), each=100)
 sim %>%
   mutate(t_v2=pmin(raw_time, censor_time_v2)) %>%
@@ -89,7 +89,7 @@ sim_v2 %>%
 
 Run a Cox regression model
 
-```{r}
+```{r different-end-times-07}
 cox_v2 <- coxph(Surv(t_v2, censor_v2)~g, data=sim_v2)
 cox_v2
 ```

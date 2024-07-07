@@ -7,6 +7,7 @@ categories:
 - Blog post
 tags:
 - Mathematics
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -15,7 +16,7 @@ When I run, I have an app that announces the distance traveled (in kilometers) a
 
 <!---more--->
 
-```{r, echo=FALSE}
+```{r taylor-series-approximation-01, echo=FALSE}
 d0 <- 2.5
 t0 <- 20
 pace0 <- t0 / d0
@@ -69,7 +70,7 @@ Notice that you do divide by nice round numbers like `r d0` and $`r d0`^2$ rathe
 
 Here's a graphical illustration of the linear Taylor series approximation. The green line represents pace as it actually should be calculated and the red line represents the linear Taylor series approximation.
 
-```{r, echo=FALSE}
+```{r taylor-series-approximation-02, echo=FALSE}
 library(ggplot2, quiet=TRUE)
 d <- seq(d0-1, d0+1, length=501)
 pace <- t0/d
@@ -85,7 +86,7 @@ The approximation is good when the distance is close to `r d0` kilometers, but d
 
 Let's zoom in.
 
-```{r, echo=FALSE}
+```{r taylor-series-approximation-03, echo=FALSE}
 library(ggplot2, quiet=TRUE)
 d <- seq(d0-0.1, d0+0.1, length=501)
 pace <- t0/d

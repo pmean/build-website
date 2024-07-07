@@ -8,6 +8,7 @@ categories:
 tags:
 - Nonlinear regression
 - R programming
+- Rmarkdown graphs
 output: html_document
 page_update: complete
 ---
@@ -16,7 +17,7 @@ Splines provide a useful way to model relationships that are more complex than a
 
 <!---more--->
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r titanic-spline-01, echo=FALSE, message=FALSE, warning=FALSE}
 library(broom)
 library(pspline)
 library(readr)
@@ -38,7 +39,7 @@ Here is a brief description of the diamond pricing dataset, taken from the [data
 
 Here are the first few rows of data.
 
-```{r}
+```{r titanic-spline-02}
 f2 <- "titanic.txt"
 ti0 <- 
   data.frame(
@@ -51,7 +52,7 @@ head(ti0)
 
 Here are a few descriptive statistics
 
-```{r}
+```{r titanic-spline-03}
 summary(ti0$Age)
 count(ti0, pclass)
 count(ti0, sex)
@@ -60,14 +61,14 @@ count(ti0, survived)
 
 The boxplots reveal little differences between the ages of survivors and deaths. If something is going on, it is subtle.
 
-```{r}
+```{r titanic-spline-04}
 ggplot(data=ti0, aes(factor(survived), age)) + 
   geom_boxplot()
 ```
 
 Fit a linear model first.
 
-```{r}
+```{r titanic-spline-05}
 ti1 <- filter(ti0, !is.na(age))
 linear_fit <- glm(
   survived ~ age,
@@ -80,7 +81,7 @@ There may be a downward trend in the odds of survival over time, but it is not s
 
 Plot the predicted values.
 
-```{r}
+```{r titanic-spline-06}
 age_sequence <- data.frame(
   age = seq(min(ti1$age), max(ti1$age), length=100))
 age_sequence$prediction <- 
@@ -94,7 +95,7 @@ ggplot(data=ti1, aes(age, survived)) +
 
 The plot is linear, but you should really look at it on the log odds scale because the logistic regression model is linear in the log odds. You need to change the predict function from type="response" to type="link" to get predictions on a log odds scale.
 
-```{r}
+```{r titanic-spline-07}
 age_sequence$prediction <- 
   predict(linear_fit, newdata=age_sequence, type="link")
 ggplot(data=age_sequence, aes(age, prediction)) +
@@ -103,7 +104,7 @@ ggplot(data=age_sequence, aes(age, prediction)) +
 
 Now fit a spline function.
 
-```{r}
+```{r titanic-spline-08}
 spline_fit <- glm(
   survived ~ rcs(age),
   family=binomial,
@@ -113,7 +114,7 @@ tidy(spline_fit)
 
 The coefficients from the restricted cubic spline are pretty much uninterpretable. You have to visualize the spline graphically. First do this on the log odds scale to see how far from linear the spline fit is.
 
-```{r}
+```{r titanic-spline-09}
 age_sequence$prediction <- 
   predict(spline_fit, newdata=age_sequence, type="link")
 ggplot(data=age_sequence, aes(age, prediction)) +
@@ -122,7 +123,7 @@ ggplot(data=age_sequence, aes(age, prediction)) +
 
 Now plot on the original scale to get a picture of what is going on.
 
-```{r}
+```{r titanic-spline-10}
 age_sequence$prediction <- 
   predict(spline_fit, newdata=age_sequence, type="response")
 ggplot(data=ti1, aes(age, survived)) +
