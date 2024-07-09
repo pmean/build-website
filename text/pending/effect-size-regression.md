@@ -1,0 +1,64 @@
+---
+title: Effect sizes in linear regression and analysis of variance
+source: "New"
+author: Steve Simon
+date: 2024-07-08
+categories:
+- Blog post
+tags:
+- Analysis of variance
+- Linear regression
+output: html_document
+page_update: partial
+---
+
+I have been asked to produce effect size measures for a linear regression model. I do not like effect size measures but people who are a lot smarter than me do ask for them and they are often the peer reviewers who insist on them before you can get them published. I want to outline the debate about effect sizes and describe the variety of effect size measures that have been proposed for linear regression and analysis of variance.
+
+<!---more--->
+
+The effect size (ES) was popularized largely by Jacob Cohen in his 1988 book, [Statistical Power Analysis for the Behavioral Sciences][coh1] with a second edition in 2013. This book has lots of tables that will tell you what sample size you need for your experiment. Those tables combine the ES with the desired power to determine an appropriate sample size.
+
+The simplest ES is used in the two-sample t-test, where you test the hypothesis that the population average of one group differs from the population average of another group. This effect size is denoted by the letter d and is computed as 
+
+$d=\frac{\mu_1-\mu_2}{\sigma}$
+
+where $\mu_1$ and $\mu_2$ are chosen to represent the minimum clinically important difference between the two groups and $\sigma$ is the population standard deviation for the two populations. For the simplest case where there are the same number of patients in each group, you use a table like this one from Cohen's book.
+
+![](http://www.pmean.com/new-images/24/effect-size-regression-01.png)
+
+The effect size is a unitless quantity by necessity. You can't have different tables when your outcome is measured in kilograms versus meters.
+
+This is fine, but Jacob Cohen's big mistake, in my opinion, was to advocate for the direct use of an ES when it was too difficult to specify $\mu_1$, $\mu_2$, and/or $\sigma$. He reviewed the existing research and found a range of values for d where he substituted the sample means and sample standard deviation.
+
+$d=\frac{\bar{X}_1-\bar{X}_2}{S}$
+
+The bulk of the studies showed values of d from about 0.2 to 0.8. He then characterized d=0.2 as a "small effect size", d=0.5 as a "medium effect size", and d=0.8 as a "large effect size". He then went on to speculate that certain disciplines were likely to see predominantly small ES and others might be fortunate enough that they could see large ES. Fortunate meaning that these disciplines could get away with using much smaller sample sizes. A large effect size means that you need a few dozen patients in each group to have reasonable power whereas a small effect size requires several hundred patients in each group for reasonable power.
+
+Jacob Cohen then offers some ad hoc advice about effect sizes (page 13 of the second edition).
+
+> Many effects sought in personality, social, and clinical-psychological research are likely to be small effects as here defined, both because of the attenutation in validity of the measures employed and the subtlety of the issues frequently involved.
+
+and 
+
+> Large effects are frequently at issue in such fields as sociology, economics, and experimental and physiological psychology, fields characterized by the study of potent variables or the presence of good experimental control or both.
+
+I find these comments to be overly broad. You cannot consign an entire discipline to the small end or the large end of effect sizes. Furthermore, you can't judge clinical importance using a unitless quantity. I have a joke about this: A large store is having a sale and puts up a large banner bragging. All prices reduced by half a standard deviation.
+
+Some critical commentary about effect sizes appears in Lenth (2001), an excellent article which, sadly, is behind a paywall. When you are planning a research study, you need to make choices that can separately influence the numerator ($\mu_1=\mu_2$) and the denominator ($\sigma$) of ES. If you consider only ES in your planning, you are conflating two very different features of the research.
+
+In my opinion, you can only use ES as an intermediate calculation in power calculations. If you start planning a study with a statement like "We expect to see a medium effect size in this research" then you aren't thinking clearly about the problem.
+
+It gets worse, however, than just sample size calculations. Many researchers have calculated effect sizes after their data is collected using sample statistics and then expound on the scientific merit of their research depending on whether the estimated effect size is small or large. A negative result (accepting the null hypothesis) with a large effect size is evidence that additional study with a larger sample size is warranted. The same negative result combined with a small effect size closes the door on further work. Large effect sizes can "salvage" an otherwise negative study. There are plenty of interpretations possible when you throw an effect size into the paper.
+
+I feel that the only comparison that makes sense is looking at where the confidence interval lies relative to the range of clinical indifference. A confidence interval that lies entirely outside the range of clinical indifference is strong evidence of a definitive positive finding. A confidence interval that lies entirely inside the range of clinical indifference (even if the confidence interval itself implies statistical significance) is a definitive negative result and strong indication that further work is not needed.
+
+Note: I got the table excerpt from Jacob Cohen's book from a [source][coh2] that has the text of the entire book I found the full text of Jacob Cohen's book on the web, all 579 pages. This is probably a copyright violation, but my excerpt of a small table for critical purposes probably falls under the fair use provisions of U.S. copyright law.
+
+[coh1]: https://doi.org/10.4324/9780203771587
+[coh2]: https://www.utstat.toronto.edu/~brunner/oldclass/378f16/readings/CohenPower.pdf
+
+Bibliography
+
+Jacob Cohen (2013). Statistical Power for the Behavioral Sciences, Second Edition. Lawrence Erlbaum Associates: New York, NY.
+
+Russell V. Lenth (2001) Some Practical Guidelines for Effective Sample Size Determination. The American Statistician, 2001, 55(3), 187-193. 
