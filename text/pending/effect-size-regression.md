@@ -72,23 +72,55 @@ When different studies use different outcome measures to assess the same thing, 
 
 Defining an effect size becomes a bit trickier for a linear regression model. I am including analysis of variance models in the umbrella of linear regression, but some researchers prefer to define separate effect measures for analysis of variance models.
 
-### Regression models with a single variable
+### Regression models with a single independent variable
 
 The correlation coefficient is a unitless measure that you can cite as an effect size. In Chapter 3 of Jacob Cohen's book, he defines a correlation of 0.1 as small, 0.3 as medium, and 0.5 as large.
 
 You might report the effect size instead as $r^2$. The obvious choice is 0.01 for small, 0.09 for medium, and 0.25 for large effect sizes.
 
-### Analysis of variance models
+### Regression models with multiple independent variables
 
+The statistic $r^2$ defined above generalizes to 
 
+$R^2=\frac{SS_{regression}}{SS_{total}}$ 
+
+or equivalently
+
+$R^2=\frac{SS_{regression}}{SS_{regression}+SS_{error}}$ 
+
+This is the square of the correlation between the observed data and the predicted values. It is not commonly used as a measure of effect size because it measures the aggregate predictive power of all of the independent variables combined. Instead, the partial $R^2$ is often cited as a measure of effect size.
+
+You estimate partial $R^2$ by fitting a full model, one with every independent variable, and a reduced model, with every independent variable except the variable of interest. Partial $R^2$ is a measure of how much less error that you have with the full model compared to the reduced model.
+
+$R_p^2=\frac{SS_{error}(reduced)-SS_{error}(full)}{SS_{error}(reduced)}$
+
+This measures the effect of an independent variable above and beyond the effects of the other independent variables.
+
+### Single factor analysis of variance
+
+While you can fit an analysis of variance model using indicator variables and linear regression, many researchers prefer to consider these as a separate class. 
+
+A commonly cited measure is eta-squared ($\eta^2$). It is defined as
+
+$\eta^2=\frac{SS_{treatment}}{SS_{total}}$
+
+Equivalently, you can define this as
+
+$\eta^2=\frac{SS_{treatment}}{SS_{treatment}+SS_{error}}$
+
+Most sources point out that this is "analagous" to $R^2$ in a multiple linear regression model. In fact, it is identical to $R^2$, and it is a mystery to me why so many sources use the word "analagous."
+
+### Multifactor analysis of variance
+
+There is a partial $\eta^2$ that is identical to the partial $R^2$.
 
 ## Note
 
-I got the table excerpt from Jacob Cohen's book from a [source][coh2] that has the text of the entire book I found the full text of Jacob Cohen's book on the web, all 579 pages. This is probably a copyright violation, but my excerpt of a small table for critical purposes probably falls under the fair use provisions of U.S. copyright law.
+I got the table excerpt from Jacob Cohen's book from a [source][coh2] that has the text of the entire book. The full text of Jacob Cohen's book on the web, all 579 pages. This is probably a copyright violation, but my excerpt of a small table for critical purposes probably falls under the fair use provisions of U.S. copyright law.
 
 ## Bibliography
 
-Jacob Cohen (2013). Statistical Power for the Behavioral Sciences, Second Edition. Lawrence Erlbaum Associates: New York, NY.
+Jacob Cohen (2013). Statistical Power for the Behavioral Sciences, Second Edition. Lawrence Erlbaum Associates: New York, NY. Available in [PDF format][coh1].
 
 Finnstats. How to perform Eta Squared in R. Finstats blog. Available in [html format][fin1]
 
