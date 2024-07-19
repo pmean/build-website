@@ -42,17 +42,26 @@ How many events occur from 0 to 190 days, from 191 to 225 days, and after 225 da
 
 ```{r different-end-times-02}
 sim %>%
+  mutate(
+    n_0_to_190 =
+      as.numeric(raw_time <= 190)) %>%
+  mutate(
+    n_191_to_225 =
+      as.numeric((raw_time > 190) & (raw_time<=225))) %>%
+  mutate(
+    n_above_225 =
+      as.numeric(raw_time > 225)) %>%
   group_by(g) %>%
   summarize(
-    n_0_to_190=sum(raw_time <= 190),
-    n_191_to_225=sum(raw_time > 190&raw_time<=225),
-    n_above_225=sum(raw_time > 225)) -> sim_counts
+    n_0_to_190=sum(n_0_to_190),
+    n_191_to_225=sum(n_191_to_225),
+    n_above_225=sum(n_above_225)) %>%
+  data.frame -> sim_counts
 sim_counts
+
 ```
 
-There are indeed more events at a threshold of 190 or below in group B (`r sim_counts$n_0_to_190[2]`) than there are in group A (`r sim_counts$n_0_to_190[1]`). There are, as well, more events at a threshold of 225 and below in group B (`r 100-sim_counts$n_above_225[2]`) than there are in group A  (`r 100-sim_counts$n_above_225[1]`).
-
-There are `r sim_counts$n_191_to_225[1]+sim_counts$n_191_to_225[1]` events that are in the "Twilight Zone". This means that `r sim_counts$n_191_to_225[1]` of the Twilight Zone events in group A are censored, while `r sim_counts$n_191_to_225[2]` of the Twilight Zone events in group B are still counted as events.
+There are several events that are in the "Twilight Zone". The Twilight Zone events in group A are censored, while the Twilight Zone events in group B are still counted as events.
 
 Does this bias things? The way to find out is to run the data with different censoring thresholds (190 for group A and 225 for group B) then run it with a common threshold of 190 for both groups.
 
@@ -76,7 +85,7 @@ cox_v1
 
 ## Analysis with censoring thresholds of 190 for both A and B
 
-What if you set the censoring times to 190 days for both groups? That effectively converts `r sim_counts$n_191_to_225[2]` patients in the second group from events to observations censored at 190 days.
+What if you set the censoring times to 190 days for both groups? That effectively converts patients in the Twilight Zone in the second group from events to observations censored at 190 days.
 
 ```{r different-end-times-06}
 censor_time_v2 <- rep(c(190, 190), each=100)
