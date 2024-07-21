@@ -17,7 +17,7 @@ page_update: no
 
 SHAP values provide you a way to interpret the impact of individual independent variables in a variety of "black box" machine learning models, such as Random Forest. It looks at how a prediction changes when a variable is not included in the model. This page shows how to fit SHAP values using R.
 
-Pablo Casas. A gentle introduction to SHAP values in R. Data Science Heroes blog, 2019-03-18. Available in [html format].
+Pablo Casas. A gentle introduction to SHAP values in R. Data Science Heroes blog, 2019-03-18. Available in [html format][cas1].
 
 [cas1]: https://blog.datascienceheroes.com/how-to-interpret-shap-values-in-r/
 
