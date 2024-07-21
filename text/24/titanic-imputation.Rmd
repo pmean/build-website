@@ -51,23 +51,11 @@ raw_data <-
       col_types="ccncn"))
 # Re-arranging columns just for convenient display
 o <-  c(1, 3, 2, 4, 5)
-ti0 <- select(raw_data, o)
-vnames <- vnames[o]
+ti0 <- raw_data
+# ti0 <- raw_data[ , o]
+# vnames <- vnames[o]
+# vlabels <- vlabels[o]
 head(ti0)
-```
-
-Here are a few descriptive statistics
-
-```{r titanic-imputation-03, echo=FALSE}
-cat(vnames[1], ": ", vlabels[1], "\n")
-summary(ti0$Age)
-cat(vnames[2], ": ", vlabels[2], "\n")
-count(ti0, PClass)
-cat(vnames[3], "\n")
-count(ti0, Sex)
-cat(vnames[4], "\n")
-cat(as.yaml(dd$vars$Survived$values), "\n")
-count(ti0, Survived)
 ```
 
 I have hidden the R code up to this point, as it is mundane and not of great interest. I will show the R code and output for the rest of the analysis.
@@ -79,12 +67,12 @@ missing_rows <- which(is.na(ti0$Age))[1:3]
 ti0 %>% slice(missing_rows)
 ```
 
-Create mutliply imputed values for age. The default is to use every variable in the dataset other than age to impute the value of age. You don't want to use the name of the passenger, of course, so be sure to drop it before the imputation step.
+Create multiply imputed values for age. The default is to use every variable in the dataset other than age to impute the value of age. You don't want to use the name of the passenger, of course, so be sure to drop it before the imputation step.
 
 ```{r titanic-imputation-05}
-ti1 <- select(ti0, -Name)
+ti1 <- ti0
 ti1$i_female <- as.numeric(ti1$Sex=="female")
-ti1 <- select(ti1, -Sex)
+ti1 <- ti1[ , c("PClass", "Age", "Survived", "i_female")]
 ti_mice <- mice(ti1)
 ```
 
@@ -130,7 +118,7 @@ Again, the object created here is complex. You can extract the individual analys
 ti_with$analyses[[1]]
 ```
 
-The key variable here is sexmale, which shows how much different the log odds of survival are between men and women. 
+The key variable here is i_female, which shows how much different the log odds of survival are between men and women. 
 
 Notice that the estimate for sexmale changes from one analysis to another, though not by much.
 

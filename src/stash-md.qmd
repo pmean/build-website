@@ -21,7 +21,7 @@ library(glue)
 library(knitr)
 library(magrittr)
 library(stringr)
-yrs <- c(paste0("0", 0:9), as.character(c(10:24, 99)))
+yrs <- c(99, paste0("0", 0:9), 10:24)
 all_files <- NULL
 for (y in rev(yrs)) {
   f0 <- "../text"
@@ -70,7 +70,7 @@ if (length(g) > 0) {
 ```{r set-dir}
 b0 <- "c:/Users"
 b1 <- str_subset(list.files(b0), "steve|simons")
-b2 <- "steve/Dropbox/professional"
+b2 <- "Dropbox/professional"
 b3 <- "fun stuff/update-website/md"
 b4 <- glue("{b0}/{b1}/{b2}/{b3}")
 b5 <- glue("{b4}/{Sys.Date()}")
@@ -102,8 +102,8 @@ all_files %>%
   select(a, b, fn) -> md
 head(md)
 success <- file.copy(from=md$a, to=md$b, overwrite=TRUE)
-if (success) cat("\nAll files copied without error")
-if (!success) {
+if (all(success)) cat("\nAll files copied without error")
+if (!all(success)) {
   cat("\nError in file copy: ")
   cat(paste0(md$fn[!success], collapse=", "))
 }

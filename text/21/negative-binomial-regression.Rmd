@@ -137,7 +137,7 @@ This means that you can't use the glm function in R to fit a negative binomial r
 
 Francis Huang has a [nice web page][hua1] showing two datasets and how to analyze them using the Poisson regression model as well as several more sophisticated models. The first data set is available for anyone to download. The link I originally used no longer works.
 
-```{r, eval=FALSE}
+```{r negative-binomial-04, eval=FALSE}
 fn <- "http://faculty.missouri.edu/huangf/data/poisson/articles.csv"
 articles <- read.csv(fn)
 head(articles)
@@ -145,7 +145,7 @@ head(articles)
 
 Here is a [different link][rod3] for the same file, used at [German Rodriguez's website][rod2]. I've placed a [copy][sim3] on my website in case this link breaks. Also, this dataset is available with the [pscl library][zei1] of R under the name, bioChemists.
 
-```{r}
+```{r negative-binomial-05}
 fn <- "http://www.pmean.com/00files/couart2.dta"
 articles <- read.dta(fn)
 head(articles)
@@ -167,13 +167,13 @@ The variables are
 
 To fit a Poisson regression model in R, use the glm function with the argument, family="poisson".
 
-```{r}
+```{r negative-binomial-06}
 pois1 <- glm(art ~ fem + ment + phd + mar + kid5, family=poisson, data = articles)
 summary(pois1)
 ```
 
 
-```{r negative-binomial-regression-01}
+```{r negative-binomial-regression-07}
 library(MASS)
 nb1 <- glm.nb(art ~ fem + ment + phd + mar + kid5, data = articles)
 summary(nb1)

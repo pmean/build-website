@@ -500,7 +500,7 @@ draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=5)
 
 ### What data science really is
 
-```{r dark-side-02, fig.width=5, fig.height=5, echo=FALSE}
+```{r dark-side-03, fig.width=5, fig.height=5, echo=FALSE}
 o <- 0.88
 draw_circles() + geom_text(x=0, y=-0.1, label="Data\nScience", size=10)
 ```
