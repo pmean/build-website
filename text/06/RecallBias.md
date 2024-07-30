@@ -6,6 +6,7 @@ date: 2006-08-03
 categories:
 - Blog post
 tags:
+- Observational data
 output: html_document
 page_update: partial
 ---

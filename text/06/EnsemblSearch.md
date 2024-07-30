@@ -6,6 +6,7 @@ date: 2006-02-01
 categories:
 - Blog post
 tags:
+- Microarray analysis
 output: html_document
 page_update: partial
 ---

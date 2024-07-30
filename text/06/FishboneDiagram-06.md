@@ -6,6 +6,7 @@ date: 2006-03-24
 categories:
 - Blog post
 tags:
+- Quality improvement
 output: html_document
 page_update: no
 ---

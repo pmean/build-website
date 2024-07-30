@@ -75,7 +75,7 @@ Professor Mean explains that the journals are getting better at presenting the p
 
 + Adjusting the number needed to treat: incorporating adjustments for the utility and timing of benefits and harms. R Riegelman, WS Schroth. Medical Decision Making 1993: 13(3); 247-52. PMID: [8412555][8412555]
 
-[8412555]: ]: https://pubmed.ncbi.nlm.nih.gov/8412555/
+[8412555]: https://pubmed.ncbi.nlm.nih.gov/8412555/
 
 + Applying evidence to the individual patient. S. E. Straus, D. L. Sackett. Ann Oncol 1999: 10(1); 29-32. PMID: [10076718][10076718]
 

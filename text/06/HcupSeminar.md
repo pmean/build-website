@@ -6,6 +6,7 @@ date: 2006-04-11
 categories:
 - Blog post
 tags:
+- Secondary data analysis
 output: html_document
 page_update: partial
 ---

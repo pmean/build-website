@@ -1,0 +1,89 @@
+---
+title: "Stash yaml headers"
+author: "Steve Simon"
+date: "Created 2024-07-30"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+Note to myself. Use the file.info function to move only recently changed files.
+
+## Get files
+
+```{r prelims}
+backup_flag <- TRUE
+library(dplyr)
+library(glue)
+library(knitr)
+library(magrittr)
+library(readr)
+library(stringr)
+library(yaml)
+yrs <- c(99, paste0("0", 0:9), 10:24)
+a <- NULL
+for (y in rev(yrs)) {
+  f0 <- "../text"
+  fn <- list.files(glue("{f0}/{y}"))
+  if (length(fn)==0) next
+  data.frame(y, fn) %>%
+    bind_rows(a) -> a
+}
+count(a, y)
+```
+
+
+## Split files by extension
+
+```{r split}
+a %>%
+  mutate(ext=str_remove(fn, ".*\\.")) %>%
+  mutate(fn=str_remove(fn, "\\..*")) -> a
+count(a, ext)
+```
+
+## Find files without md, Rmd extensions
+
+```{r find}
+a %>%
+  filter(ext != "md") %>%
+  filter(ext != "qmd") %>%
+  filter(ext != "Rmd")
+```
+
+## Remove html files
+
+```{r remove}
+a %>%
+  filter(ext == "html") %>%
+  mutate(f=glue("{f0}/{y}/{fn}.{ext}")) %>%
+  pull(f) -> g
+g
+if (length(g) > 0) {
+  file.remove(g)
+  cat("Removing", length(g), "files:", paste0(g, collapse=", "))
+}
+```
+
+## Read files
+
+```{r read}
+flatten <- function(yaml_list) {
+  # convert yaml list into a data frame
+  yaml_vector <- unlist(yaml_list)
+  data.frame(
+    names=names(yaml_vector),
+    values=yaml_vector)
+}
+for (i in 1:dim(a)[1]) {
+  tx <- read_lines(glue("{f0}/{a$y}/{a$fn}.{a$ext}"))
+  tx %>%
+    str_which("---") -> boundaries
+  tx[boundaries[1]:boundaries[2]] %>%
+    yaml.load -> print
+  if (i > 10) break
+}
+```
