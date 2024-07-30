@@ -54,36 +54,47 @@ a %>%
   filter(ext != "Rmd")
 ```
 
-## Remove html files
-
-```{r remove}
-a %>%
-  filter(ext == "html") %>%
-  mutate(f=glue("{f0}/{y}/{fn}.{ext}")) %>%
-  pull(f) -> g
-g
-if (length(g) > 0) {
-  file.remove(g)
-  cat("Removing", length(g), "files:", paste0(g, collapse=", "))
-}
-```
-
 ## Read files
 
 ```{r read}
-flatten <- function(yaml_list) {
+flatten <- function(yaml_list, fn) {
   # convert yaml list into a data frame
-  yaml_vector <- unlist(yaml_list)
+  yaml_list %>%
+    unlist -> yaml_vector
   data.frame(
+    fn=fn,
     names=names(yaml_vector),
-    values=yaml_vector)
+    values=unname(yaml_vector))
 }
-for (i in 1:dim(a)[1]) {
-  tx <- read_lines(glue("{f0}/{a$y}/{a$fn}.{a$ext}"))
+a <- filter(a, str_detect(a$ext, "md$"))
+file_headers <- NULL
+i <- 0
+for (i in (i+1):dim(a)[1]) {
+  cat(i, a$y[i], a$fn[i], "\n")
+  tx <- read_lines(glue("{f0}/{a$y[i]}/{a$fn[i]}.{a$ext[i]}"))
   tx %>%
     str_which("---") -> boundaries
   tx[boundaries[1]:boundaries[2]] %>%
-    yaml.load -> print
-  if (i > 10) break
+    yaml.load %>%
+    flatten(a$fn[i]) %>%
+    bind_rows(file_headers) -> file_headers
 }
+file_headers$names %>%
+  str_replace("tags.*", "tags") -> file_headers$names
+save(a, file_headers, file="../data/file_headers.RData")
+```
+
+```{r count-tags}
+file_headers %>%
+  filter(names=="tags") %>%
+  count(values) %>%
+  arrange(values) 
+
+file_headers %>%
+  filter(names=="tags") %>%
+  group_by(values) %>%
+  mutate(n=n()) %>%
+  arrange(values) %>%
+  filter(n==1) %>%
+  data.frame
 ```

@@ -1,4 +1,4 @@
- ---
+---
 title: Resources describing biplots
 author: Steve Simon
 source: http://www.pmean.com/07/BiplotResources.html

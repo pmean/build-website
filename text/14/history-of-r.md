@@ -7,7 +7,7 @@ category:
 - Blog post
 tags:
 - R software
-output: powerpoint_presentation
+output: html_document
 page_update: partial
 ---
 

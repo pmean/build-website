@@ -4,7 +4,8 @@ author: "Steve Simon"
 source: "http://blog.pmean.com/crc/"
 date: "2014-11-18"
 category: Blog post
-tags:
+tags: 
+  Human side of statistics
 output: html_document
 page_update: complete
 ---

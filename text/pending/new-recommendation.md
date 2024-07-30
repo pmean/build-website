@@ -3,8 +3,7 @@ title: "New recommendation"
 source: "New"
 author: Steve Simon
 date: "20xx-xx-xx"
-categories:
-- Recommendation
+categories: Recommendation
 tags:
 - Being updated
 output: html_document
