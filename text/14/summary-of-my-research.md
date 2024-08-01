@@ -5,7 +5,7 @@ source: "http://blog.pmean.com/summary-of-my-research/"
 date: "2014-02-15"
 category: Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 output: html_document
 page_update: partial
 ---

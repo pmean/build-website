@@ -5,7 +5,7 @@ date: 2008-01-22
 categories:
 - Blog post
 tags:
-- Adverse events in clinical trials
+- Adverse events
 - Being updated
 output: html_document
 page_update: partial

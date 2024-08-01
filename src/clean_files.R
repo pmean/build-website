@@ -51,6 +51,7 @@ clean_files <- function(
       k2 <- k2+1
       cat("\n\n")
       cat(glue("===> {fn}"))
+      cat("\n")
       if (new != "Not yet") {
         ty <- str_replace_all(tf, old, new)
         tf <- paste(tf, ty, sep="\n")
@@ -75,6 +76,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  fixed("[sim"),
+  "Accrual problems in clinical trials",
+  new="Accrual problems",
   dir_root="text", 
   file_pattern="md$")

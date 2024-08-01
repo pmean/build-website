@@ -56,27 +56,32 @@ a %>%
 
 ## Read files
 
-```{r read}
+```{r flatten}
 flatten <- function(yaml_list, fn) {
   # convert yaml list into a data frame
   yaml_list %>%
     unlist -> yaml_vector
+  n <- length(yaml_vector)
   data.frame(
-    fn=fn,
+    fn=rep(fn, n),
     names=names(yaml_vector),
     values=unname(yaml_vector))
 }
+```
+
+```{r read-yaml}
 a <- filter(a, str_detect(a$ext, "md$"))
 file_headers <- NULL
 i <- 0
 for (i in (i+1):dim(a)[1]) {
   cat(i, a$y[i], a$fn[i], "\n")
-  tx <- read_lines(glue("{f0}/{a$y[i]}/{a$fn[i]}.{a$ext[i]}"))
+  full_filename <- glue("{f0}/{a$y[i]}/{a$fn[i]}.{a$ext[i]}")
+  tx <- read_lines(full_filename)
   tx %>%
     str_which("---") -> boundaries
   tx[boundaries[1]:boundaries[2]] %>%
     yaml.load %>%
-    flatten(a$fn[i]) %>%
+    flatten(full_filename) %>%
     bind_rows(file_headers) -> file_headers
 }
 file_headers$names %>%

@@ -6,7 +6,7 @@ date: "2015-09-21"
 category:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 - Bayesian statistics
 output: html_document
 page_update: complete

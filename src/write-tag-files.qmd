@@ -1,0 +1,42 @@
+---
+title: "Write tag files"
+author: "Steve Simon"
+date: "Created 2024-08-01"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+Note to myself. Use the file.info function to move only recently changed files.
+
+## Get stash-yaml
+
+```{r prelims}
+library(dplyr)
+library(glue)
+library(knitr)
+library(magrittr)
+library(readr)
+library(stringr)
+library(yaml)
+load("../data/file_headers.RData")
+```
+
+
+```{r write-tag-files}
+file_headers %>%
+  filter(names=="tags") %>%
+  count(values) %>%
+  arrange(values) -> tags
+tags$values %>%
+  tolower %>%
+  str_replace_all(" ", "-") %>%
+  paste0("../text/tags/", ., ".qmd")
+list.files()
+```
+
+
+```

@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- Adverse events in clinical trials
+- Adverse events
 output: html_document
 page_update: partial
 ---

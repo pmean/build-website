@@ -6,7 +6,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- Accrual problems in clinical trials
+- Accrual problems
 output: html_document
 page_update: no
 ---

@@ -6,7 +6,7 @@ date: "2017-05-05"
 categories:
 - Recommendation
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 output: html_document
 page_update: complete
 ---
