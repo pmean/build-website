@@ -14,8 +14,8 @@ source(file="src/standard_functions.R")
 
 copy_files <- function(
   old_path="text", 
-  new_path="c:/Users/simons/Documents/b04/content",
-  old_dir_list=c("99", zpad(0:24)),
+  new_path="../qblog",
+  old_dir_list=c("99", zpad(0:24), "tags"),
   file_pattern="md$",
   qc=FALSE) {
 
@@ -32,7 +32,7 @@ copy_files <- function(
     cat(message)
     cat("\n")
     
-    new_dir <- "post"
+    new_dir <- "posts"
     for (i_file in file_list) {
       verb <- ifelse(ok_to_copy,"copied", "to be copied")
       k <- k+1

@@ -76,7 +76,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "Accrual problems in clinical trials",
-  new="Accrual problems",
+  "category:",
+  new="categories:",
   dir_root="text", 
   file_pattern="md$")
