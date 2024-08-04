@@ -14,7 +14,7 @@ This is a major revision of a [March 14, 2007 weblog entry](TrackingAdverseEvent
 
 I have been helping a colleague who is interested in monitoring the safety of kidney biopsy events. He was kind enough to let me use his data set on my web pages in order to illustrate some new methods for monitoring adverse events. This data set allows you to see some examples of the use of control charts to track adverse events. Here is the raw data.
 
-```{}
+```
 2003-01-12 ---- 2003-01-28 ---- 2003-02-01 ---- 2003-02-14 ----
 2003-02-14 ---- 2003-02-15 H-NO 2003-03-09 ---- 2003-03-17 ----
 2003-03-22 ---O 2003-03-25 ---- 2003-03-30 H--- 2003-03-31 ----
@@ -137,7 +137,7 @@ Here are the details on how to construct the control chart for
 hematuria. The table below shows each individual biopsy with an H if the
 biopsy resulted in hematurian and a dash (-) if the biopsy did not.
 
-```{}
+```
       1 2 3 4 5 6 7 8 9 0
   [ ] - - - - - H - - - -
  [10] H - - - - H - - - -
@@ -168,7 +168,7 @@ Note that hematuria occurred with the 6th, 11th, 16th, and 44th biopsy.
 That means we had to wait 6, 5, 5, and 28 patients between each event.
 The full list of waiting times are
 
-```{}
+```
  6  5  5 28  9 27 24 12 13
  3  2 13  8 19  3  8  1  1
  6  1 20
@@ -213,7 +213,7 @@ an XmR chart. This chart requires you to compute a moving range, a range
 for each successive pairs of waiting times. The first three moving
 ranges are
 
-```{}
+```
 |6- 5|= 1
 |5- 5|= 0
 |5-28|=23
@@ -221,7 +221,7 @@ ranges are
 
 and the entire list of moving ranges is shown below.
 
-```{}
+```
  1  0 23 19 18 3 12  1 10
  1 11  5 11 16 5  7  0  5
  5 19  6
@@ -229,7 +229,7 @@ and the entire list of moving ranges is shown below.
 
 The average moving range is 8.48. The formula for the control limits is
 
-```{}
+```
 10.9 +/- 2.66*8.48
 ```
 
@@ -237,7 +237,7 @@ The upper control limit is 33.5. The lower control limit is negative, an
 impossible value to achieve, and is not plotted on the graph. The
 warning limit (or the two sigma limit) is computed as
 
-```{}
+```
 10.9 +/- (2/3)*2.66*8.48
 ```
 

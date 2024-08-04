@@ -79,7 +79,7 @@ $log(ab)=log(a)+log(b)$
 
 Back before computers, tables of logarithms simplified complex calculations. To compute a product of 4,156 and 2,023, you could multiply things out directly, but it would look something like
 
-```{}
+```
    2141
  x 2123
  ------

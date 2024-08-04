@@ -48,7 +48,7 @@ There are three things that are contributing to this problem.
 
 It's not necessarily bad to see an ellipse where you were expecting a circle. But if you do want a perfect circle, you need to calculate the size of the plotting region and adjust appropriately.
 
-```{}
+```
 draw.circle <- function(x0, y0, r, adjust.units=function() {list(x=1, y=1)}, ...) {
   # draw a circle of radius r centered at x0, y0
   # with an adjustment in the horizontal and vertical dimensions
@@ -85,13 +85,13 @@ verbose <- TRUE
 draw.circle(15, 25, 0.5, convert_to_inches, col="red")
 ```
 
-```{}
+```
 ## The range of the plotting region is 21.6 54 in user coordinates
 ## The range of the plotting region is 5.759999 3.159999 in inches
 ## There are 3.75 17.08861 user coordinates per inch
 ```
 
-```{}
+```
 text(15, 25, "r=0.5 (in)")
 ```
 
@@ -105,7 +105,7 @@ You may wish to specify the size of your circle in pixels instead. This may or m
 
 You can also draw a circle using **pch=21** or **pch="o"** or **pch="O"**. The latter two choices are not quite perfect circles, but come pretty close. You can control the size of these circles using the pointsize and/or cex arguments. With **pch=21**, you can control the fill color with the bg argument.
 
-```{}
+```
 plot(0, 0, xlim=c(0, 20), ylim=c(0, 50), type="n", xlab=" ", ylab=" ")
 co <- c("black", "blue", "red", "green")
 points(rep( 5, 4), 10*(1:4), pch=21,  cex=1:4, col=co, bg=rev(co))

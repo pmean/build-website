@@ -35,7 +35,7 @@ The second point of confusion that I had was my failure to recognize a redundanc
 
 This redundancy produces two major insights. First, you can't test for treatment, period, and order effects simultaneously. Second, you can't test for a treatment by period interaction. If you code the treatment and Period columns using -1 and +1, then the product of these two columns would be identical to a -1 and +1 coding for Order.
 
-```{}
+```
 Id Tr Pe Or T*P
  1  1 -1 -1 -1
  1 -1  1 -1 -1

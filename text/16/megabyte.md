@@ -19,7 +19,7 @@ I wanted to test some features of the object.size function in R. I created a vec
 
 Here's the R code.
 
-```{}
+```
 > tst &gt- 1:1000000
 object.size(tst)
 4000040 bytes

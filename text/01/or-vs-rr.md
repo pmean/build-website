@@ -17,7 +17,7 @@ Dear Reader,
 
 Both the odds ratio and the relative risk compare the likelihood of an event between two groups. Consider the following data on survival of passengers on the Titanic. There were **462 female passengers: 308 survived and 154 died**. There were **851 male passengers: 142 survived and 709 died** (see table below).
 
-```{}
+```
   ------------ ----------- ---------- -----------
                  Alive       Dead       Total  
      Female        308        154         462  
@@ -44,7 +44,7 @@ Take the value of the stock and multiply by 0.8 to get the price after the first
 
 It turns out that **to counteract a 20% decrease, you need a 25% increase**. That is because **0.8 and 1.25 are reciprocal**. This is easier to see if you express them as simple fractions: **4/5 and 5/4 are reciprocal fractions**. Listed below is a table of common reciprocal fractions.
 
-```{}
+```
   ---------------- ----------------
      0.8 (4/5)        1.25 (5/4)  
      0.75 (3/4)       1.33 (4/3)  
@@ -75,7 +75,7 @@ Some research designs, particularly the **case-control design**, prevent you fro
 
 Consider a case-control study of prostate cancer risk and male pattern balding. The goal of this research was to examine whether men with certain hair patterns were at greater risk of prostate cancer. In that study, roughly equal numbers of prostate cancer patients and controls were selected. **Among the cancer patients, 72 out of 129 had either vertex or frontal baldness** compared to **82 out of 139 among the controls** (see table below).
 
-```{}
+```
   ------------- ------------------ -------------- -----------
                    Cancer cases       Controls       Total  
      Balding            72               82           154  
@@ -90,7 +90,7 @@ So you would need additional information or a different type of research design 
 
 For example, among the **8,159 doctors with hair, 548 (6.7%) developed coronary heart disease** during the 11 years of the study. Among the **1,351 doctors with severe vertex balding, 127 (9.4%) developed coronary heart disease** (see table below). The **relative risk is 1.4 = 9.4% / 6.7%.**
 
-```{}
+```
   ------------- ------------------- ------------------- -----------
                    Heart disease          Healthy          Total  
      Balding        127 (9.4%)         1,224 (90.6%)       1,351  
@@ -105,7 +105,7 @@ For example, among the **8,159 doctors with hair, 548 (6.7%) developed coronary 
 
 In a study on the **likelihood of pregnancy among people with epilepsy** (Schupf and Ottman 1994), **232 out of 586 males with idiopathic/cryptogenic epilepsy** had fathered one or more children. In the control group, the respective counts were **79 out of 109** (see table below).
 
-```{}
+```
   -------------- --------------- ----------------- -----------
                     Children        No children       Total  
      Epilepsy       232 (40%)        354 (60%)         586  
@@ -128,7 +128,7 @@ Relative risks have the same sort of counter-intuitive behavior. **A small relat
 
 Consider a recent study on **physician recommendations for patients with chest pain** (Schulman et al 1999). This study found that when doctors viewed videotape of hypothetical patients, **race and sex influenced their recommendations**. One of the findings was that doctors were more likely to recommend cardiac catheterization for men than for women. **326 out of 360 (90.6%) doctors** viewing the videotape of male hypothetical patients recommended cardiac catheterization, while only **305 out of 360 (84.7%)** of the doctors who viewed tapes of female hypothetical patients made this recommendation.
 
-```{}
+```
   -------------------- ---------------- ----------------- -----------
                            No cath            Cath           Total  
       Male patient        34 (9.4%)        326 (90.6%)        360  
@@ -147,7 +147,7 @@ This is the same thing that we just saw in the Car Talk puzzler: a small relativ
 
 Thus, **for every problem, there are two possible ways to compute relative risk**. Sometimes, it is obvious which relative risk is appropriate. For the Titanic passengers, the appropriate risk is for death rather than survival. But what about a breast feeding study. Are we trying to measure **how much an intervention increases the probability of breast feeding success** or are we trying to see **how much the intervention decreases the probability of breast feeding failure**? For example, Deeks 1998 expresses concern about an odds ratio calculation in a study aimed at increasing the duration of breast feeding. At three months, **32/51 (63%) of the mothers in the treatment group** had stopped breast feeding compared to **52/57 (91%) in the control group**.
 
-```{}
+```
   --------------- ------------------ ---------------- -----------
                      Continued bf       Stopped bf       Total  
      Treatment        19 (37.3%)        32 (62.7%)        51  

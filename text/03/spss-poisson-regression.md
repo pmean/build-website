@@ -16,7 +16,7 @@ Note: you can now run Poisson regression directly from the SPSS menus, so this s
 
 Here is a nice example of how to run Poisson Regression in SPSS. It was originally posted on the SPSSX-L listerver on July 16, 2003 and is posted here with the author's permission.
 
-```{}
+```
 * Dataset *
 
 DATA LIST list / id(f2.0) agegroup(f8.0) smoker(f1.0) pyears(f8.0)

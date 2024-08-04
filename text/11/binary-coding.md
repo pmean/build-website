@@ -34,7 +34,7 @@ How does this help in Statistics? I had a project with five exclusion factors: c
 
 So I created a new variable:
 
-```{}
+```
 COMPUTE cod=(can=1)*16+(trm=1)*8+(ivd=1)*4+(neu=1)*2+(lbp)*1.
 ```
 
@@ -42,7 +42,7 @@ The variables can, trm, etc. were coded as 1 if the exclusionary criteria were m
 
 If none of the exclusionary criteria were met for a particular patient, you would see a value of 0. This is similar to having seven stacks of genuine coins. A value of 16 means an exclusion only because of cancer, 8 means an exclusion only because of trauma, etc. Here are the frequencies for the newly created variable.
 
-```{}
+```
  0 45020
  1  2095
  2   293
@@ -79,7 +79,7 @@ The only combination of exclusionary factors occuring four times is cancer, trau
 
 This is rather difficult for the average person to follow, so here is a relabeling of the exclusion reasons
 
-```{}
+```
  none  (0) 45020
     b  (1)  2095
    n   (2)   293

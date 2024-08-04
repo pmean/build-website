@@ -17,7 +17,7 @@ I am just learning how to run BUGS software. I've used WinBUGS, which is a stand
 
 Here's the classic accrual model in BUGS
 
-```{}
+```
 ac.model <- function() {
   k <- n*P
   V <- T*P
@@ -75,13 +75,13 @@ c3*c1/c2*qf(p,2*c1,2*c2)
 
 Let's take apart this code section by section.
 
-```{}
+```
 ac.model <- function() {
 ```
 
 The BRugs program allows you to write the model statement within R. You set up a dummy function with no arguments.
 
-```{}
+```
   k <- n*P
   V <- T*P
   lambda ~ dgamma(k,V)
@@ -89,13 +89,13 @@ The BRugs program allows you to write the model statement within R. You set up a
 
 The first three lines define a gamma distribution as the prior distribution on the accrual rate.
 
-```{}
+```
   theta <- 1 / lambda
 ```
 
 Just in case you are interested in monitoring the average waiting time between patients instead of monitoring the average accrual rate, you can define that parameter as well. The average waiting time and the average accrual rate are inversely related and represent two equally valid ways of parameterizing the exponential distribution.
 
-```{}
+```
   for (i in 1:tm) {
     wait[i] ~ dexp(lambda)
   }
@@ -103,7 +103,7 @@ Just in case you are interested in monitoring the average waiting time between p
 
 There's a shortcut for the BUGS code, which involves the simple relationship that the sum of a m exponential waiting times (all with the same rate parameter) is distributed as a Gamma distribution with shape parameter k. But here you should define the distribution for each individual waiting time because it allows you to then consider some alternatives to the exponential waiting time distribution. So I specify the same exponential waiting time for each of the observed waiting times between successive patients.
 
-```{}
+```
   n.rem <- n-m
   t.pred ~ dgamma(n.rem,lambda)
 }
@@ -111,7 +111,7 @@ There's a shortcut for the BUGS code, which involves the simple relationship tha
 
 Finally, get a prediction for the sum of the remaining n-m waiting times.
 
-```{}
+```
 writeModel(ac.model,"SimpleAccrualModel.txt")
 
 ac.data <- list(n=350,T=1095,P=0.5,m=41,
@@ -140,7 +140,7 @@ bugsInits(ac.init,numChains=1,"SimpleAccrualInits.txt")
 
 Place the model, the data, and the initial starting values in special files.
 
-```{}
+```
 modelCheck("SimpleAccrualModel.txt")
 modelData("SimpleAccrualData.txt")
 modelCompile()
@@ -153,7 +153,7 @@ samplesStats("*")
 
 Run the various BUGS steps to check the model, link the data, etc.
 
-```{}
+```
 p <- c(0.025,0.5,0.975)
 c1 <- 350-41
 c2 <- 350*0.5+41
@@ -168,7 +168,7 @@ There is a closed form solution for the simple exponential waiting time case, an
 
 This program works just fine. But let's change things so very slightly. Let's assume a gamma distribution for waiting times rather than an exponential distribution for waiting times. If the shape parameter of the gamma distribution is greater than one, that implies that patients come like clockwork on a more regular basis than you'd expect from an exponential waiting time model. If the shape parameter is less than one, you'd see patients on a very erratic basis (feast or famine) that is much more variable than you'd expect from an exponential model.
 
-```{}
+```
 ac.model <- function() {
   k <- n*P
   V <- T*P
@@ -187,7 +187,7 @@ Here's the code for the new model. You have to place a prior distribution on the
 
 It seems simple enough. But when you run this program (or many different variations of this program), it crashes. I thought it was a problem with BUGS, so I downloaded a competing program, JAGS, and a package to run JAGS from within R (rjags). That program ran the exponential accrual model just fine. Like BUGS, though, it failed to run for the gamma accrual model. But at least it gave an error message rather than crashing.
 
-```{}
+```
 Error in jags.model("NewGammaAccrualModel.txt", data = ac.data, inits = ilist, : Error in node wait[1] Observed node inconsistent with unobserved parents at initialization
 ```
 

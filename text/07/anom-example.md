@@ -54,7 +54,7 @@ You can also compute the critical value using a multivariate t-distribution. The
 
 In R, there is a library, mvtnorm, that will allow you to compute the percentiles needed for ANOM. Here's an example:
 
-```{}
+```
 i <- 25
 co <- matrix(-1/(i-1),nrow=i,ncol=i)
 diag(co) <- rep(1,i)

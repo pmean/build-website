@@ -39,21 +39,21 @@ Notice the classic image of a bell shaped curve, but now it is in three dimensio
 
 R has a library for calculation of multivariate t and multivariate normal distributions. You can compute the probability in question using the following R code.
 
-```{}
+```
 s <- matrix(c(2,1,1,2),nrow=2)
 pmvnorm(upper=c(-1,-1),mean=c(0,0),sigma=s)
 ```
 
 which produces a probability of 0.1132. The calculation you would use if X and Y were independent
 
-```{}
+```
 s <- matrix(c(2,0,0,2),nrow=2)
 pmvnorm(upper=c(-1,-1),mean=c(0,0),sigma=s)
 ```
 
 produces an incorrect answer (0.0575), which you could also get by multiplying the probability that two independent normal random variables with mean 0 and variance 2 would be less than -1.
 
-```{}
+```
 pnorm(-1,mean=0,sd=sqrt(2))^2
 ```
 

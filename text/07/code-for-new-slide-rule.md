@@ -14,7 +14,7 @@ I have made some minor changes to my likelihood ratio slide. The original code w
 
 Here is the code.
 
-```{}
+```
 #####################
 # special functions #
 #####################

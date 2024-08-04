@@ -18,7 +18,7 @@ alpha level of 0.05. It is a continuation of the table
 
 and shows larger values of I.
 
-```{}
+```
        I=14  15   16   17   18   19   20   21   22   23   24
  df= 2 9.12 9.25 9.36 9.45 9.57 9.62 9.74 9.82 9.90 9.98 9.88  
      3 6.16 6.24 6.31 6.37 6.44 6.56 6.56 6.61 6.66 6.70 6.53

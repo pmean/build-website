@@ -13,7 +13,7 @@ page_update: complete
 
 On the web page [Calculating a P control chart][sim3] you were asked to calculate P charts for the following two data sets:
 
-```{}
+```
 Worker #2:
 60 56 78 60 74 70 70 68 82 76 72 76
 68 78 76 68 74 56 74 62 60 70 60 84

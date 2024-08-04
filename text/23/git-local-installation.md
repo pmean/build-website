@@ -74,7 +74,7 @@ You should store information about yourself in the git config files. To get a li
 
 Add your name and email address with
 
-```{}
+```
 git config --global user-name 'First-name Last-name'
 git config --global user-email 'email@umkc.edu'
 ```
@@ -105,7 +105,7 @@ AS you start out, it is probably better to have many narrowly defined projects t
 
 Move to the folder where you want to store your first version controlled project. A logical location would be under your documents folder. On my computer, you would move to this folder by typing `cd c:/Users/steve/Documents` though it would be different on your computer. Then on the CLI, type
 
-```{}
+```
 git init project1
 ```
 
@@ -121,7 +121,7 @@ But every programming project, big or small should have a README file. Sometimes
 
 So create a file, README.md, using notepad. For now, keep the file short and simple.
 
-```{}
+```
 ## Project 1
 
 This is a project to test the features of version control.
@@ -129,7 +129,7 @@ This is a project to test the features of version control.
 
 Save the file. Now type 
 
-```{}
+```
 git status
 ```
 
@@ -137,7 +137,7 @@ on the CLI. You will see that git has noticed something. It warns you that READM
 
 So, type
 
-```{}
+```
 git add README.md
 ```
 
@@ -155,7 +155,7 @@ Your first message can be something simple like "Initial commit" or "Starting ne
 
 Wrap things up with 
 
-```{}
+```
 git commit -m "Initial commit"
 ```
 

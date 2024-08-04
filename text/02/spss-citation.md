@@ -73,7 +73,7 @@ James L. Arbuckle (2003) **Amos 5.0 Update to the Amos User's Guide**. Smallwate
 
 **R**. R is an open source program developed by the R Foundation for Statistical Computing in Vienna, Austria. According the [FAQ for R][rfa1], a proper citation for R (in BibTeX format) is
 
-```{}
+```
 @Manual{,
   title        = {R: A Language and Environment for Statistical
                   Computing},
@@ -95,7 +95,7 @@ R Core Team. R: A Language and Environment for Statistical Computing. R Foundati
 
 **Bioconductor**. Bioconductor is a set of add-on packages that work with R. The authors of Bioconductor suggest that you cite the following publication.
 
-```{}
+```
 *@Article{BIOC,\
 author = {Robert C Gentleman and Vincent J. Carey and Douglas M.
 Bates and Ben Bolstad and Marcel Dettling and Sandrine Dudoit and

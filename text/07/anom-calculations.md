@@ -37,7 +37,7 @@ As a classroom exercise, a group of three volunteers (labeled A, R, and V to pro
 
 Since the group was small, I asked each team member to shoot twice with their dominant hand and twice with their non-dominant hand. For each shot, the distance from the target was measured in centimeters. Here is the data (D=dominant hand, N=non-dominant hand).
 
-```{}
+```
 A-D 14 39
 A-N 60 20
 R-D 26  9
@@ -48,7 +48,7 @@ V-N 53 18`
 
 The means, variances, and standard deviations are:
 
-```{}
+```
     Mean Var   Stdev
 A-D 26.5 312.5 17.68
 A-N 40.0 800.0 28.28
@@ -60,7 +60,7 @@ V-N 35.5 612.5 24.75
 
 The overall mean is 26.42 and the pooled standard deviation is 18.20. The ANOM limits are
 
-```{}
+```
 26.4 - 3.724 * 18.2 * sqrt(5/12) = -17.3 (round this to zero)
 26.4 + 3.724 * 18.2 * sqrt(5/12) =  70.1`
 ```

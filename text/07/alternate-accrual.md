@@ -16,7 +16,7 @@ You can actually monitor accrual in this case, and it requires that the date and
 
 Here's an example of what this type of data might look like (this is simulated data).
 
-```{}
+```
 01-OCT-2007 03:36:00 0
 01-OCT-2007 17:02:24 1
 02-OCT-2007 15:50:24 1
@@ -46,7 +46,7 @@ Here's an example of what this type of data might look like (this is simulated d
 
 There are several ways to approach this data, but a very simple method would be to count the number of EKGs between successive failures to complete the proper paperwork. The values would be
 
-```{}
+```
   1
  11
   9

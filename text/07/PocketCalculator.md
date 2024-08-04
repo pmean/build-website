@@ -23,7 +23,7 @@ First you need to clear out memory. For some calculators, the simple process of 
 
 Now enter each data value in succession and press the M+ button.
 
-```{}
+```
 12 M+
 10 M+
 11 M+
@@ -32,7 +32,7 @@ Now enter each data value in succession and press the M+ button.
 
 Press the recall memory button to get 46   and clear memory. Square this number to get 2116 and divide by the sample size (in this case, 4) to get 529. Write this number down. Now enter each data value again, square it, and add it to memory. For most calculators, the sequence
 
-```{}
+```
 12 X M+
 10 X M+
 11 X M+
@@ -41,7 +41,7 @@ Press the recall memory button to get 46   and clear memory. Square this number 
 
 will suffice because the calculator will finish the squaring operation before adding to memory. For other calculators, you will have to press the equals button before adding to memory.
 
-```{}
+```
 12 X = M+
 10 X = M+
 11 X = M+
@@ -56,7 +56,7 @@ Repetition is the best teacher, so the first few times you do this, run through 
 
 Try to calculate the standard deviation of the following data:
 
-```{}
+```
 2.1, 2.5, 1.1, 5.3, and 2.2.
 ```
 
@@ -66,7 +66,7 @@ You should get 1.57734 for the standard deviation. If you didn't get this value,
 
 Show that the standard deviation of
 
-```{}
+```
 442, 218, and 333
 ```
 

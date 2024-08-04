@@ -17,14 +17,14 @@ In R, the operator %/% produces an integer division, and the operator %% compute
 
 Here's a practical example. Suppose you wanted to take the numbers 0 through 23 and place them in a matrix with 4 rows and 6 columns, filling the matrix row by row. Integer division will help you assign the rows
 
-```{}
+```
 > 1+(0:23)%/%4
 [1] 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6
 ```
 
 and modular artithmetic will help you assign the columns
 
-```{}
+```
 > 1+(0:23)%%4
 [1] 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
 ```

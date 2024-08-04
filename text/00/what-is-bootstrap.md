@@ -62,7 +62,7 @@ There is no easy way to run a bootstap in SPSS, though some of the procedures in
 
 Here's how you would do this in S-plus
 
-```{}
+```
 x <- c(1,3,5,9)
 bootstrap.medians <- bootstrap(x,median)    hist(bootstrap.mediansreplicates,breaks=0.5:9.5)
 ```

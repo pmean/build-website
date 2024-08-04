@@ -70,7 +70,7 @@ Using the rule of 3, we have the 95% confidence interval going up to 3/14=0.214.
 
 Let's compare this to an exact calculation of the confidence interval. The following is an excerpt from the output of a computer program, StatXact, that computes exact confidence intervals for any sample size.
 
-```{}
+```
 Number of Trials =14 Number of Successes =0
 Point Estimation of PI = 0.0000
 95.00% Confidence Interval for PI = ( 0.0000 , 0.2316)

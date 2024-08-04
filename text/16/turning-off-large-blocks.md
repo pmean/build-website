@@ -18,7 +18,7 @@ It's a very simple thing, but one which confounded me for a while, so I am writi
 
 To turn of the evaluation of R Markdown code, insert the following: 
 
-```{}
+```
 ## turn evaluation off (to save time)
 ``{r eval=TRUE, echo=TRUE}
 opts_chunk$set(eval=FALSE, echo=FALSE)
@@ -27,7 +27,7 @@ opts_chunk$set(eval=FALSE, echo=FALSE)
 
 When you are ready to start evaluating R Markdown code again, use
 
-```{}
+```
 ## turn evaluation back on.
 ``{r eval=TRUE, echo=TRUE}
 opts_chunk$set(eval=TRUE, echo=TRUE)

@@ -76,7 +76,7 @@ verbose <- FALSE
 ok_to_replace <- TRUE
 ok_to_replace <- FALSE
 clean_files(
-  "category:",
-  new="categories:",
+  fixed("```{}"),
+  new="```",
   dir_root="text", 
   file_pattern="md$")

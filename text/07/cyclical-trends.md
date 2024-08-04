@@ -13,7 +13,7 @@ page_update: complete
 
 One of the doctors brought by a data set that showed the average volume of business (number of beds filled) in a month for 28 consecutive months starting in January 2005. Here is the data:
 
-```{}
+```
 17,21,18,16,10,
  6, 7, 9,14,16,
 12,12,24,28,21,
@@ -77,7 +77,7 @@ functions of B and C.
 
 The code in R to fit a linear trend in the presence of cyclical variation is
 
-```{}
+```
 t <- seq(0,27)
 sint <- sin(2*pi*t/12)
 cost <- cos(2*pi*t/12)
@@ -86,7 +86,7 @@ lm.0 <- lm(x~t+sint+cost)
 
 The results of this fit are
 
-```{}
+```
 Coefficients:
 (Intercept) 12.5009
 t            0.1550
@@ -96,21 +96,21 @@ cost         7.6939
 
 and you can compute the amplitude as
 
-```{}
+```
 sqrt(1.7619^2+7.6939^2)
 [1] 7.89306
 ```
 
 This means that the peak season has about 8 more filled beds than the overall yearly average and the slow season has about 8 fewer filled beds than the overall yearly average. The phase is computed as
 
-```{}
+```
 > atan(-7.6939/1.7619)*12/(2*pi)
 [1] -2.570058
 ```
 
 Notice that the sine wave starts to the left of zero, but since it repeats every 12 months, you can compute an alternate starting point as
 
-```{}
+```
 > 12-2.570058
 [1] 9.429942`
 ```

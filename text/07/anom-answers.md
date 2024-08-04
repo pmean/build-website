@@ -21,7 +21,7 @@ you were asked to calculate ANOM charts for two different data sets.
 
 The first data set is reproduced below.
 
-```{}
+```
 A 14 39
 B 60 20
 C 26  9
@@ -32,7 +32,7 @@ F 53 18
 
 The summary statistics are
 
-```{}
+```
   Mean Var   Stdev
 A 26.5 312.5 17.68
 B 40.0 800.0 28.28
@@ -51,7 +51,7 @@ $26.4+3.62 \sqrt{331.1 \frac{5}{18}}=61.4$
 
 ![Figure 1. ANOM graph](http://www.pmean.com/new-images/07/AnomAnswers04.gif)
 
-```{}
+```
 26.4+3.62*18.2*v5/18=61.4
 ```
 The lower decision limit is less than zero. Since negative values are impossible in this setting, you should not plot this value. Here is a graphical display.
@@ -60,7 +60,7 @@ The lower decision limit is less than zero. Since negative values are impossible
 
 The second data set represents proportions and is reproduced below.
 
-```{}
+```
 25 23 22 18 24 30 22 28 29 15
 19 35 33 35 33 17 19 19 40 26`
 ```

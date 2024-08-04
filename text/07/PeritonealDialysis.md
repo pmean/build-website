@@ -15,7 +15,7 @@ One of the doctors I was working with had an interesting data set examining adve
 
 Here's the data on when patients began treatment and when they ended their treatment.
 
-```{}
+```
 id t0 t1
 0 58 680
 1 95 1416
@@ -75,7 +75,7 @@ Notice that this graph generally climbs for the first three years, drops of a bi
 
 Here are the times of exit site infections:
 
-```{}
+```
 id tx
 0 643
 0 657
@@ -117,7 +117,7 @@ Notice that some patients experience more than one exit site infection and some 
 
 Here is the data on times of peritonitis.
 
-```{}
+```
 id tx
 0 218
 1 652

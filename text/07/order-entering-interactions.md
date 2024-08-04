@@ -22,7 +22,7 @@ In a balanced design, the contrasts associated with the interaction term are ort
 
 In an unbalanced design, you could still have orthogonality. Consider the following design
 
-```{}
+```
  A  B A*B
 -2 -2  4
 -2  1 -2

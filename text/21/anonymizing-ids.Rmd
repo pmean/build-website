@@ -34,7 +34,7 @@ The process of shredding the random number will prevent anyone from converting t
 
 There are several easy ways to create a random number with a specific range. In Microsoft Excel, you would place the formula
 
-```{}
+```
 =randbetween(100000000, 900000000)
 ```
 

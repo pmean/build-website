@@ -13,7 +13,7 @@ page_update: complete
 
 About three years ago, I started using longer names for my webpages. It makes it easier for me to maintain and upgrade these pages. So instead of a short name like bimodality.asp, that used a single word, or a name that used an abbreviation like mle.asp, I used two or more words strung together, such as AmbiguousDefinition.asp or AccountForDropouts.asp. At it's most extreme, I strung five words together to get AdjustingForAgeAndSex.asp. When you combine this, though, with a fairly long base address (www.childrensmercy.org), you can get a name too long to be easily inserted in email. The address
 
-```{}
+```
 http://www.childrens-mercy.org/stats/weblog2007/ContinuingEducationQuestions.asp
 ```
 

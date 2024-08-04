@@ -26,7 +26,7 @@ He got hundreds of tickets worth tens of thousands of dollars. He got tickets fr
 
 This is caused by a programming error. The four letters N-U-L-L are not the same thing as the internal code of Null in a database. But a programmer writes a statement like
 
-```{}
+```
 if var="NULL" then ...
 ```
 
@@ -44,7 +44,7 @@ The computer database used the common practice of using all 9's to denote a miss
 
 If you recode any variable, always account for missing values first and last. So start off any recodes with the case where the original variable is missing and end with a catch-all code. Consider a variable for gender with 1 for male, 2 for female, and some missing values. Then a recode in SAS might look like
 
-```{}
+```
 if missing(gender) then gender_label="Unknown";
   else if gender=1 then gender_label="Male";
   else if gender=2 then gender_label="Female";

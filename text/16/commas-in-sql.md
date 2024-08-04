@@ -16,7 +16,7 @@ I should know better, but I made a rookie mistake with SQL that took a long time
 
 I was running some SQL code within R, and I could not get what I wanted.
 
-```{}
+```
 > ms <- dbGetQuery(c_connect,
 +   "select patient_num start_date
 +      from blueherondata.observation_fact
@@ -25,7 +25,7 @@ I was running some SQL code within R, and I could not get what I wanted.
 
 was giving me just a single column for start_date, and the start_date values looked nothing like a date. Was I spelling a variable wrong? Did I get the wrong capitalization?
 
-```{}
+```
 > ms <- dbGetQuery(c_connect,
 +   "select patient_num
        from blueherondata.observation_fact
@@ -34,7 +34,7 @@ was giving me just a single column for start_date, and the start_date values loo
 
 worked just fine, and
 
-```{}
+```
 > ms <- dbGetQuery(c_connect,
 +   "select start_date
        from blueherondata.observation_fact
@@ -43,7 +43,7 @@ worked just fine, and
 
 but when you ask for more than one field, you need to separate those fields with a comma. If you don't then this version of SQL considers
 
-```{}
+```
 > ms <- dbGetQuery(c_connect,
 +   "select patient_num start_date
        from blueherondata.observation_fact
@@ -52,7 +52,7 @@ but when you ask for more than one field, you need to separate those fields with
 
 identical to
 
-```{}
+```
 > ms <- dbGetQuery(c_connect,
 +   "select patient_num as start_date
        from blueherondata.observation_fact

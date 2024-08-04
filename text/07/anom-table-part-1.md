@@ -14,7 +14,7 @@ page_update: complete
 Here's a table of critical values for analysis of means (ANOM) at an
 alpha level of 0.05.
 
-```{}
+```
      I=2   3    4    5    6    7    8    9    10   11   12   13
 df=2 4.30 5.88 6.59 7.10 7.49 7.80 8.08 8.31 8.49 8.68 8.84 8.99
    3 3.18 4.18 4.60 4.92 5.14 5.34 5.52 5.64 5.73 5.88 5.98 6.07

@@ -18,7 +18,7 @@ The data is taken from
 
 but I have taken some liberties with the data to simplify the calculations.
 
-```{}
+```
 Week01 0.716 0.771 0.924
 Week02 0.978 1.212 1.176
 Week03 0.644 0.903 0.869
@@ -44,7 +44,7 @@ While many experts in quality control would use an XBAR-R chart for this data, t
 
 The mean and standard deviation for each week are shown below
 
-```{}
+```
        Mean  Stdev        
 Week01 0.804 0.108
 Week02 1.122 0.126
@@ -77,7 +77,7 @@ The final step is to compute control limits. These limits are placed at three si
 
 where the constant A3 comes from the following table.
 
-```{}
+```
   n A3    B3    B4
   2 2.659 0     3.267
   3 1.954 0     2.568
@@ -129,7 +129,7 @@ There are no points outside the control or warning limits.
 
 Compute a control chart for the following data set (see below). This data set represents vaccine potencies, like the above data set, but it uses fixed standards to assess potency. These numbers appear in the same paper, but again some simplifying assumptions have been made. Don't peek until you've done the work, but the answers are available on a [separate web page][sim3].
 
-```{}
+```
 Week01 1.097 1.204
 Week03 1.030 1.362
 Week05 0.682 0.978

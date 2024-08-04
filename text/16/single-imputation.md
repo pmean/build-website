@@ -16,7 +16,7 @@ I wanted to use R to show some simple approaches to imputing missing values. The
 
 Note that you need to change the double backtick to a triple backtick throughout.
 
-```{}
+```
 Impute.Rmd
 ==========
 

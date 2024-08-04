@@ -31,7 +31,7 @@ There is a series of humorous program documentation comments listed by [Nehal Kh
 
 [kha1]: https://nehalk.medium.com/56-funny-code-comments-that-people-actually-wrote-6074215ab387
 
-```{}
+```
 /*
 * You may think you know what the following code does.
 * But you dont. Trust me.
@@ -58,7 +58,7 @@ For this set of webpages about git, I will use a single branch, named develop. I
 
 To create a develop branch, type the following into the CLI.
 
-```{}
+```
 git branch develop
 git checkout develop
 ```
@@ -69,7 +69,7 @@ Now, any changes you make will be on a working copy on the develop branch. The c
 
 Let's make some changes to the README.md file. Open the file in a text editor and add the following lines:
 
-```{}
+```
 Skills developed
 + Install git
 + Initialize a project
@@ -77,13 +77,13 @@ Skills developed
 
 Save the file under the same name. Now go to the CLI and run `git status` again. Your changes have been noticed by git. On the CLI, stage the file by running
 
-```{}
+```
 git add README.md
 ```
 
 Run `git status` again. Now enter
 
-```{}
+```
 git commit -m "Added first two skills to README file"
 ```
 and run `git status` one more time.
@@ -92,13 +92,13 @@ and run `git status` one more time.
 
 To prove that you have not touched the main/master branch, close your text editor and run
 
-```{}
+```
 git checkout master
 ```
 
 or 
 
-```{}
+```
 git checkout main
 ```
 
@@ -108,7 +108,7 @@ Now re-open the README.md file. You have your original README.md file without th
 
 Close your text editor. Enter
 
-```{}
+```
 git checkout develop
 ```
 
@@ -118,7 +118,7 @@ on the CLI and re-open the README.md file. Now you are back to the file that lis
 
 Add a couple of more lines to your README.md file listing two new skills you have developed.
 
-```{}
+```
 + Create a new branch
 + Switch between two branches.
 ```
@@ -131,7 +131,7 @@ Before you stage the file, you can examine what changes you've made with the `di
 
 The command
 
-```{}
+```
 get diff
 ```
 
@@ -139,7 +139,7 @@ will show you not just what file or files have changed. It will show you what li
 
 Go ahead and update the develop branch. First, make sure you are on the develop branch. The output from `git status` will always inform you which branch you are on. If you are not on the develop branch, enter `git checkout develop`. Now enter
 
-```{}
+```
 git add README.me
 git commit -m"Added branching skills to README.md"
 ```
@@ -148,13 +148,13 @@ git commit -m"Added branching skills to README.md"
 
 The `diff` command will also help you view how two branches differ from one another. Try running
 
-```{}
+```
 diff develop master
 ```
 
 or 
 
-```{}
+```
 diff develop main
 ```
 
@@ -165,7 +165,7 @@ to see that the original file on the main trunk has not changed.
 
 You now know a couple more things. Add the following lines to the bottom of README.md.
 
-```{}
+```
 + Display changes to a file
 + Compare changes between two branches
 ```
@@ -180,7 +180,7 @@ Delete the file README.md. You can do this several ways. On the CLI, just type d
 
 After you delete the file, stage and commit the changes.
 
-```{}
+```
 git add README.md
 git commit -m"Deleted an unwanted file"
 ```
@@ -190,7 +190,7 @@ Now play act a little bit. Shout out "Oh no, what have I done? All my hard work,
 
 But, of course, you haven't lost anything, because git tracks a history of everything you've done. You can get a list of every commit you've made with
 
-```{}
+```
 git log
 ```
 
@@ -201,7 +201,7 @@ This shows everything you've done, on both the master/main and the develop branc
 
 Your screen will have some differences. If you used different commit messages, of course. But there are some 40 digit hexadecimal numbers associated with each commit. Find the first seven digits of the version you want to go back to and type 
 
-```{}
+```
 git revert df3ad33 
 ```
 
@@ -213,31 +213,31 @@ For complex changes, you might want to run a few tests. Once you are satisfied t
 
 First, switch back to main/master with
 
-```{}
+```
 git checkout main
 ```
 
 or
 
-```{}
+```
 git checkout master
 ```
 
 Then run
 
-```{}
+```
 git merge develop
 ```
 
 Check that the changes in develop are now reflected in main/master with
 
-```{}
+```
 git diff develop main
 ```
 
 or
 
-```{}
+```
 git diff develop master
 
 ### 

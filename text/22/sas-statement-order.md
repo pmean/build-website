@@ -23,7 +23,7 @@ If you place a comment in the middle of a statement, use the /* */ delimiters ra
 
 So
 
-```{}
+```
 proc means
     min max median /* used because of skewness */
     data=location.dataname;
@@ -33,7 +33,7 @@ proc means
 
 works while
 
-```{}
+```
 proc means
     min max median # used because of skewness;
     data=location.dataname;
@@ -43,7 +43,7 @@ proc means
 
 does not. To be honest, I much prefer putting comments before the statements because (a) it helps to read the comment before you read the code, and (b) you can only squeeze in a very short comment in the middle. So I would have said something like
 
-```{}
+```
 # We use the median rather than the mean because of skewness;
 proc means
     min max median 
@@ -56,7 +56,7 @@ If you create new data with a data step or proc import, that has to go before an
 
 Titles are pretty flexible. I generally put them right before the run statement associated with a procedure, but you can put them earlier, even before the proc statement. So
 
-```{}
+```
 proc print
     data=location.dataname;
   var x y;
@@ -66,7 +66,7 @@ run;
 
 works as does
 
-```{}
+```
 proc print
     data=location.dataname;
   title "Listing of dataname";
@@ -76,7 +76,7 @@ run;
 
 or
 
-```{}
+```
 title "Listing of dataname";
 proc print
     data=location.dataname;
@@ -86,7 +86,7 @@ run;
 
 The only place you can't put it is between two lines associated with a single statement. So
 
-```{}
+```
 proc print
   title "Listing of dataname";
     data=location.dataname;

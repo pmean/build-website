@@ -121,7 +121,7 @@ On some systems, SPSS will ask you for a password, even when the database you ar
 
 2. You can also use SPSS syntax to open the database. Here is an example.
 
-```{}
+```
 GET DATA
 /TYPE = ODBC
 /CONNECT = "DSN=MS Access Database;"

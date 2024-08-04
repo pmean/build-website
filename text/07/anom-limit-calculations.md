@@ -22,7 +22,7 @@ This [data set][nis1] comes from the National Institutes of Standards and Techno
 
 The first three digits of the data values are constant, so you need to be careful in calculating means and standard deviations. Do not round with this data set. Resistivity measurements were recorded five times on five separate instruments. There is some concern that the instruments may have small but important differences in resistivity.
 
-```{}
+```
 Instrument
        1        2        3        4        5        
 196.3052 196.3042 196.1303 196.2795 196.2119
@@ -33,7 +33,7 @@ Instrument
 ```
 Compare these five instruments using an ANOM chart.
 
-```{}
+```
       mean         var      stdev
 1 196.2431 0.007651577 0.08747329
 2 196.2443 0.019037095 0.13797498
@@ -72,7 +72,7 @@ All standard deviations are inside the decision limits, so you would conclude th
 
 I asked a group of three volunteers to collect some data on their accuracy at hitting a target with a toy slingshot. They took three shots with their dominant hand and measured the distance of each shot from the target. Then they took three shots with their non-dominant hand and took three shots at the target. Their results are recorded below
 
-```{}
+```
 Name Shot1 Shot2 Shot3
 J-D       62       20       14
 J-N       21        9       37
@@ -86,7 +86,7 @@ My intention was to treat these six rows as if they represented six separate ind
 
 The summary statistics are easily computed.
 
-```{}
+```
 Name   Mean      Var     Stdev
 J-D   32.00   684.00     26.15          
 J-N   22.33   197.33     14.05          
@@ -131,7 +131,7 @@ and the lower decision limit is
 
 The group then worked on the process and made some improvements. Here is the data after the process was improved
 
-```{}
+```
 J-D 52 12 18        
 J-N  5  2 34         
 A-D  9 22 17         
@@ -142,7 +142,7 @@ M-N 27  3 15
 
 The summary statistics for each group are
 
-```{}
+```
 Name   Mean      Var     Stdev
 J-D   27.33   465.33     21.57
 J-N   13.67   312.33     17.67
@@ -175,7 +175,7 @@ The analysis simplifies somewhat if your data is a set of proportions rather tha
 
 A worker is asked to compare four different hearing tests to assure that they are of comparable difficulty.
 
-```{}
+```
 Test-1 86%
 Test-2 56%
 Test-3 90%
@@ -196,7 +196,7 @@ The second test appears to be more difficult than average.
 
 1. A different group of volunteers was asked to shoot a toy rocket at a target (data shown below). Six different people recorded their accuracy on two consecutive shots. Calculate an ANOM chart for this data.
 
-```{}
+```
 A 14 39
 B 60 20
 C 26  9
@@ -207,7 +207,7 @@ F 53 18
 
 2. The following data is fictional. Twenty separate laboratories were sent identical images of a sperm smear with exactly 100 sperm cells and were asked to estimate the proportion of normal cells on the image using WHO-3 standards (data shown below). Calculate an ANOM chart for these proportions. Don't peek but the answers are available on a [separate web page](PControlChartAnswers.asp).
 
-```{}
+```
 25 23 22 18 24 30 22 28 29 15
 19 35 33 35 33 17 19 19 40 26
 ```
