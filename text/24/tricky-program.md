@@ -17,23 +17,11 @@ I've had a couple of students bring me R programs that did not work. Looking at 
 
 Let's suppose that I asked students in my Introduction to R class to write a program that prints ten random numbers from a standard normal distribution. You can do this with a single line.
 
-```{}
-rnorm(10)
-```
+    rnorm(10)
 
 So your student creates the following program.
 
-````{}
----
-title: "A tricky program to debug"
-author: "Steve Simon"
-output: html_document
----
-
-```{}
-rnorm(10)
-```
-````
+![](http://www.pmean.com/new-images/24/tricky-program-03.png)
 
 and it produces the following output
 
@@ -43,19 +31,11 @@ So where are the ten random numbers? They didn't print. Looking at the output by
 
 To understand what is going on here, you need to understand that RMarkdown (along with Jupyter and Quatro) allows you to run code from a variety of different languages. if you wanted to run Python code, you would enclose it in a program chunk that looks like
 
-````{}
-```{python}
-# Insert Python code here
-```
-````
+![](http://www.pmean.com/new-images/24/tricky-program-04.png)
 
 If you wanted to run Julia code, you would use
 
-````{}
-```{julia}
-# Insert Julia code here
-```
-````
+![](http://www.pmean.com/new-images/24/tricky-program-05.png)
 
 There are [many other languages][xie1] that you can insert here. 
 
@@ -63,32 +43,16 @@ There are [many other languages][xie1] that you can insert here.
 
 So what happens, when you forget to specify the language? What happens when you have a bare set of curly braces? What happens when you run the code shown below?
 
-````{}
-```{}
-rnorm(10)
-```
-````
+![](http://www.pmean.com/new-images/24/tricky-program-06.png)
 
 Well, a bare set of curly braces tells RMarkdown to display the text inside the chunk as is, without any changes to the spacing or line breaks. I use this construct all the time to display code with proper indenting but without any desire to try to run the code.
 
 It is easy enough to forget the "r" inside the curly braces. When you put it back in (see below),
 
-````{}
----
-title: "A tricky program to debug"
-author: "Steve Simon"
-output: html_document
----
-
-```{r}
-rnorm(10)
-```
-````
+![](http://www.pmean.com/new-images/24/tricky-program-07.png)
 
 it produces the following output
 
 ![](http://www.pmean.com/new-images/24/tricky-program-02.png)
 
-
 Voila! Problem solved.
-
