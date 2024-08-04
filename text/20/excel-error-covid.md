@@ -6,7 +6,6 @@ categories:
 - Recommendation
 tags:
 - Data management
-- Covid-19
 output: html_document
 page_update: complete
 ---

@@ -3,7 +3,7 @@ title: "Do you need to name your function arguments in R?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/function-argumentsr/"
 date: "2018-02-04"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

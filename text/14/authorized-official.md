@@ -3,7 +3,7 @@ title: "Who is your authorized official?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/authorized-official/"
 date: "2014-06-27"
-category: Blog post
+categories: Blog post
 tags:
 - Broken link
 - Grant writing

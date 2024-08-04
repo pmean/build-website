@@ -3,7 +3,7 @@ title: "A megabyte is not a million bytes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/megabyte/"
 date: "2016-05-12"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 - Statistical computing

@@ -3,7 +3,7 @@ title: "Using the foreach package"
 author: "Steve Simon"
 source: new
 date: "2022-05-11"
-category: 
+categories: 
 - Recommendation
 tags:
 - R software

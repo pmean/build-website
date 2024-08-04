@@ -3,7 +3,7 @@ title: "Simple string substitutions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/string-substitutions/"
 date: "2016-07-15"
-category:
+categories:
 - Blog post
 - Incomplete page
 tags:

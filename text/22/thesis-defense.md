@@ -3,7 +3,7 @@ title: "Recommendation for the oral presentation at a thesis defense"
 author: "Steve Simon"
 source: new
 date: "2022-09-08"
-category: 
+categories: 
 - Blog post
 tags:
 - Human side of statistics

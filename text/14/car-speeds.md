@@ -3,7 +3,7 @@ title: "A biased sample of car speeds"
 author: "Steve Simon"
 source: "http://blog.pmean.com/car-speeds/"
 date: "2014-06-18"
-category: Blog post
+categories: Blog post
 tags:
 - Survey design
 output: html_document

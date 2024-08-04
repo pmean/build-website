@@ -3,7 +3,7 @@ title: "Improving Representation in Clinical Trials and Research"
 author: "Steve Simon"
 source: new
 date: "2022-05-23"
-category: 
+categories: 
 - Recommendation
 tags:
 - Health disparities

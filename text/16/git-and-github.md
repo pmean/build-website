@@ -3,7 +3,7 @@ title: "Using version control through git, github, and R Studio"
 author: "Steve Simon"
 source: "http://blog.pmean.com/git-and-github/"
 date: "2016-04-17"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

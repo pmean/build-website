@@ -3,7 +3,7 @@ title: "Acceptable response rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/acceptable-response/"
 date: "2015-03-30"
-category: 
+categories: 
 - Blog post
 tags:
 - Observational studies

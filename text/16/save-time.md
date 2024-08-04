@@ -3,7 +3,7 @@ title: "Trying to save time in R ends up costing me time"
 author: "Steve Simon"
 source: "http://blog.pmean.com/save-time/"
 date: "2016-05-18"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

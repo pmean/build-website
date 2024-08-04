@@ -3,7 +3,7 @@ title: "Recommendation: Clinical trials: discerning hype from substance"
 author: "Steve Simon"
 source: "http://blog.pmean.com/clinical-trials-hype/"
 date: "2015-10-29"
-category:
+categories:
 - Recommendation
 tags:
 - Randomization

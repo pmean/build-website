@@ -3,7 +3,7 @@ title: "I want to learn (learn more) about R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/learn-about-r/"
 date: "2015-08-07"
-category:
+categories:
 - Blog post
 tags:
 - R software

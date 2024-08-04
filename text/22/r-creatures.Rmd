@@ -3,7 +3,7 @@ title: "Different creatures in the R zoo"
 author: "Steve Simon"
 source: new
 date: "2022-04-14"
-category: 
+categories: 
 - Blog post
 tags:
 - R software

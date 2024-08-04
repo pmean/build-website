@@ -14,7 +14,7 @@ Note to myself. Use the file.info function to move only recently changed files.
 
 ## Get files
 
-```{r prelims}
+```{r setup}
 backup_flag <- TRUE
 library(dplyr)
 library(glue)
@@ -23,6 +23,10 @@ library(magrittr)
 library(readr)
 library(stringr)
 library(yaml)
+```
+
+
+```{r search-files}
 yrs <- c(99, paste0("0", 0:9), 10:24)
 a <- NULL
 for (y in rev(yrs)) {
@@ -89,17 +93,3 @@ file_headers$names %>%
 save(a, file_headers, file="../data/file_headers.RData")
 ```
 
-```{r count-tags}
-file_headers %>%
-  filter(names=="tags") %>%
-  count(values) %>%
-  arrange(values) 
-
-file_headers %>%
-  filter(names=="tags") %>%
-  group_by(values) %>%
-  mutate(n=n()) %>%
-  arrange(values) %>%
-  filter(n==1) %>%
-  data.frame
-```

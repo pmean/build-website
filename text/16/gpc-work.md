@@ -3,7 +3,7 @@ title: "My current work at the Greater Plains Collaborative"
 author: "Steve Simon"
 source: "http://blog.pmean.com/gpc-work/"
 date: "2016-03-09"
-category: Blog post
+categories: Blog post
 tags:
 - Human side of statistics
 output: html_document

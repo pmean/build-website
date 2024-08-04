@@ -3,7 +3,7 @@ title: "Cases and cohorts and controls, oh my!"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cases-and-cohorts/"
 date: "2017-02-17"
-category: Blog post
+categories: Blog post
 tags:
 - Observational studies
 output: html_document

@@ -3,7 +3,7 @@ title: "What greedy means to a geek"
 author: "Steve Simon"
 source: "http://blog.pmean.com/greedy/"
 date: "2016-10-16"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

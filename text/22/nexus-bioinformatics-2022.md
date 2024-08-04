@@ -3,7 +3,7 @@ title: "Interesting resources discovered during Nexus Informatics 2022"
 author: "Steve Simon"
 source: new
 date: "2022-04-09"
-category: 
+categories: 
 - Blog post
 tags:
 - Informatics

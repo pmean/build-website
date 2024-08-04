@@ -3,7 +3,7 @@ title: "Those darn commas in SQL"
 author: "Steve Simon"
 source: "http://blog.pmean.com/commas-in-sql/"
 date: "2016-10-25"
-category: Blog post
+categories: Blog post
 tags:
 - SQL
 output: html_document

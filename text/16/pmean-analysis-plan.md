@@ -3,7 +3,7 @@ title: "How detailed should I make my data analysis plan."
 author: "Steve Simon"
 source: "http://blog.pmean.com/pmean-analysis-plan/"
 date: "2016-02-03"
-category: Blog post
+categories: Blog post
 tags:
 - Research design
 output: html_document

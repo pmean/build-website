@@ -3,8 +3,9 @@ title: "100 interview questions? A big oops on the very first one."
 author: "Steve Simon"
 source: "http://blog.pmean.com/interview-questions/"
 date: "2017-10-17"
-category: Blog post
+categories: Blog post
 tags:
+- Statistical theory
 output: html_document
 page_update: complete
 ---

@@ -5,7 +5,7 @@ date: 2008-01-18
 categories:
 - Blog post
 tags:
-- Being updated`
+- Being updated
 - Teaching resources
 output: html_document
 page_update: partial

@@ -3,7 +3,7 @@ title: "Odds ratio with a zero in the table"
 author: "Steve Simon"
 source: "http://blog.pmean.com/zero-in-table/"
 date: "2016-01-19"
-category:
+categories:
 - Blog post
 tags:
 - Ask Professor Mean

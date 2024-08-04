@@ -3,7 +3,7 @@ title: "The pros and cons of cluster randomized trials"
 author: "Steve Simon"
 source: "http://blog.pmean.com/cluster-randomized-trials/"
 date: "2015-08-13"
-category: 
+categories: 
 - Blog post
 tags:
 - Multilevel models

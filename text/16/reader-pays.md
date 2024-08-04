@@ -3,7 +3,7 @@ title: "A rant about the reader pays model of publication"
 author: "Steve Simon"
 source: "http://blog.pmean.com/reader-pays/"
 date: "2016-02-04"
-category: Blog post
+categories: Blog post
 tags:
 - Writing research papers
 output: html_document

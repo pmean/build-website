@@ -3,7 +3,7 @@ title: "How big is my graph?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/how-big/"
 date: "2015-10-05"
-category:
+categories:
 - Blog post
 tags:
 - Incomplete page

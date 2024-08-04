@@ -3,7 +3,7 @@ title: "January talk at KU"
 author: "Steve Simon"
 source: "http://blog.pmean.com/talk-at-ku/"
 date: "2017-11-28"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

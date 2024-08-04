@@ -3,7 +3,7 @@ title: "Interesting links from the UseR 2022 conference"
 author: "Steve Simon"
 source: new
 date: "2022-06-21"
-category: 
+categories: 
 - Blog post
 tags:
 - Teaching resources

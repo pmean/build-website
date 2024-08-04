@@ -3,7 +3,7 @@ title: "Turning off large blocks of an R Markdown document"
 author: "Steve Simon"
 source: "http://blog.pmean.com/turning-off-large-blocks/"
 date: "2016-09-13"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

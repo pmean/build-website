@@ -4,7 +4,7 @@ author: "Steve Simon"
 date: "2022-10-30"
 output:
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Data management
 source: new

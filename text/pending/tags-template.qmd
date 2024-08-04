@@ -9,7 +9,7 @@ listing:
   sort-ui: false
   filter-ui: false
   include: 
-    tags: "Insert tage here"
+    tags: "Insert tag here"
 page-layout: full
 title-block-banner: true
 tags: 

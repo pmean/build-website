@@ -3,7 +3,7 @@ title: "Quote: Without data"
 author: "Steve Simon"
 source: "http://blog.pmean.com/without-data/"
 date: "2018-02-09"
-category: Quote
+categories: Quote
 tags:
 - Quality improvement
 output: html_document

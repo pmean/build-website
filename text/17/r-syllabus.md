@@ -3,7 +3,7 @@ title: "Syllabus for Introduction to R, Fall semester 2017"
 author: "Steve Simon"
 source: "http://blog.pmean.com/r-syllabus/"
 date: "2017-08-31"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

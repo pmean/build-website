@@ -3,7 +3,7 @@ title: "The need for documentation standards"
 author: "Steve Simon"
 source: "http://blog.pmean.com/documentation-standards/"
 date: "2016-02-25"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

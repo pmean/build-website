@@ -3,7 +3,7 @@ title: "Measuring pixels in an R graph"
 author: "Steve Simon"
 source: "http://blog.pmean.com/measuring-pixels/"
 date: "2016-11-01"
-category: 
+categories: 
 - Blog post
 - Incomplete page
 tags:

@@ -3,7 +3,7 @@ title: "Information about the Great Plains Collaborative Breast Cancer Study"
 author: "Steve Simon"
 source: "http://blog.pmean.com/breast-cancer-study/"
 date: "2016-01-28"
-category: 
+categories: 
 - Blog post
 tags:
 - Professional details

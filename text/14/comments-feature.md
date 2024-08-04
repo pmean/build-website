@@ -3,7 +3,7 @@ title: "I have turned off the comments feature on all pages"
 author: "Steve Simon"
 source: "http://blog.pmean.com/comments-feature/"
 date: "2014-01-17"
-category: Blog post
+categories: Blog post
 tags:
 - Website details
 output: html_document

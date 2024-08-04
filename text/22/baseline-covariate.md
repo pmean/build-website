@@ -3,10 +3,10 @@ title: "Using change scores"
 author: "Steve Simon"
 source: new
 date: "2022-02-01"
-category: 
+categories: 
 - Blog post
 tags:
-- Analysis of covariance
+- Risk adjustment
 - Incomplete page
 output: html_document
 page_update: complete

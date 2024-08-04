@@ -3,7 +3,7 @@ title: "The data structure in i2b2"
 author: "Steve Simon"
 source: "http://blog.pmean.com/structure-i2b2/"
 date: "2016-03-03"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

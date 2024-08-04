@@ -3,7 +3,7 @@ title: "Pretty good work for a part-timer"
 author: "Steve Simon"
 source: "http://blog.pmean.com/part-timer/"
 date: "2016-05-23"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

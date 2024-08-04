@@ -3,7 +3,7 @@ title: "So you're thinking about a pilot study"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pilot-study/"
 date: "2016-06-14"
-category: Blog post
+categories: Blog post
 tags:
 - Pilot studies
 - Research design

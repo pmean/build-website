@@ -3,7 +3,7 @@ title: "What I like about R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/what-i-like/"
 date: "2014-01-10"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

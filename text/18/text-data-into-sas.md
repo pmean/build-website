@@ -3,7 +3,7 @@ title: "Reading text data into SAS"
 author: "Steve Simon"
 date: "2018-02-09"
 source: "http://blog.pmean.com/text-data-into-sas/"
-category: Blog post
+categories: Blog post
 tags:
 - SAS software
 output: html_document

@@ -3,7 +3,7 @@ title: "Possible webinars on consulting"
 author: "Steve Simon"
 source: "http://blog.pmean.com/consulting-webinars/"
 date: "2018-01-29"
-category: Blog post
+categories: Blog post
 tags:
 - Human side of statistics
 - Professional details

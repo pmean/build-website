@@ -3,7 +3,7 @@ title: "Resolutions for this blog for 2014"
 author: "Steve Simon"
 source: "http://blog.pmean.com/resolutions-for-2014/"
 date: "2014-01-07"
-category: Administrative
+categories: Administrative
 tags:
 output: html_document
 page_update: complete

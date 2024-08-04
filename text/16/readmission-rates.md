@@ -3,7 +3,7 @@ title: "Calculating 90 day readmission rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/readmission-rates/"
 date: "2016-04-27"
-category: Blog post
+categories: Blog post
 tags:
 - Longitudinal data
 - Secondary data analysis

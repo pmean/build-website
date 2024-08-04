@@ -3,7 +3,7 @@ title: "Finding interesting peer-reviewed articles that illustrate statistical t
 author: "Steve Simon"
 source: "http://blog.pmean.com/finding-interesting-articles/"
 date: "2015-09-16"
-category:
+categories:
 - Blog post
 tags:
 - Teaching resources

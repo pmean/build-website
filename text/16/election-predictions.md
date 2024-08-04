@@ -3,7 +3,7 @@ title: "About those awful election predictions"
 author: "Steve Simon"
 source: "http://blog.pmean.com/election-predictions/"
 date: "2016-11-10"
-category: Blog post
+categories: Blog post
 tags:
 - Probability concepts
 output: html_document

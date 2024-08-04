@@ -3,7 +3,7 @@ title: "Another big data publication"
 author: "Steve Simon"
 source: "http://blog.pmean.com/big-data-publication/"
 date: "2017-12-29"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

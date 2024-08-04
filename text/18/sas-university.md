@@ -3,7 +3,7 @@ title: "SAS University. It's SAS and it's free"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sas-university/"
 date: "2018-01-12"
-category: Blog post
+categories: Blog post
 tags:
 - SAS software
 output: html_document

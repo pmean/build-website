@@ -5,7 +5,7 @@ date: "2022-10-23"
 output:
   word_document: default
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Data management
 source: new

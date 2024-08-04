@@ -6,7 +6,7 @@ date: "2024-07-03"
 categories:
 - Recommendation
 tags:
-- Artifical intelligence
+- Artificial intelligence
 output: html_document
 page_update: complete
 ---

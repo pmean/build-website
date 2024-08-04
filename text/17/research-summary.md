@@ -3,7 +3,7 @@ title: "A quick summary of my research"
 author: "Steve Simon"
 source: "http://blog.pmean.com/research-summary/"
 date: "2017-08-28"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

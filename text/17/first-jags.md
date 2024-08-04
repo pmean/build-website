@@ -3,7 +3,7 @@ title: "How to run your first Bayesian analysis using jags software in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/first-jags/"
 date: "2017-01-28"
-category: Blog post
+categories: Blog post
 tags:
 - Bayesian statistics
 - Incomplete page

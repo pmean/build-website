@@ -3,7 +3,7 @@ title: "A brief abstract of my research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/research-interests/"
 date: "2014-07-14"
-category: Blog post
+categories: Blog post
 tags:
 - Grant writing
 output: html_document

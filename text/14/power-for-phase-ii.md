@@ -3,7 +3,7 @@ title: "No power calculation for a Phase II trial"
 author: "Steve Simon"
 source: "http://blog.pmean.com/phase-ii/"
 date: "2014-01-22"
-category: Blog post
+categories: Blog post
 tags:
 - Sample size justification
 output: html_document

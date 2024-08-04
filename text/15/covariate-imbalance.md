@@ -3,7 +3,7 @@ title: "Forget confounding, and think of things in terms of covariate imbalance"
 author: "Steve Simon"
 source: "http://blog.pmean.com/covariate-imbalance/"
 date: "2015-03-04"
-category:
+categories:
 - Blog post
 tags:
 - Risk adjustment

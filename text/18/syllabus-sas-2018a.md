@@ -3,7 +3,7 @@ title: "Syllabus, Introduction to SAS, Spring 2018"
 author: "Steve Simon"
 source: "http://blog.pmean.com/syllabus-sas-2018a/"
 date: "2018-01-14"
-category: Blog post
+categories: Blog post
 tags:
 - SAS software
 output: html_document

@@ -3,7 +3,7 @@ title: "A short biography for the person introducing me"
 author: "Steve Simon"
 source: "http://blog.pmean.com/short-biography/"
 date: "2015-06-01"
-category: 
+categories: 
 - Blog post
 tags:
 - Professional details

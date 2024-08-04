@@ -3,7 +3,7 @@ title: "Recent (and not so recent) advances in statistical computing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/recent-advances/"
 date: "2016-02-22"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

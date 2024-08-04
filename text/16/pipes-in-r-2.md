@@ -3,7 +3,7 @@ title: "Another example of pipes in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pipes-in-r-2/"
 date: "2016-12-29"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

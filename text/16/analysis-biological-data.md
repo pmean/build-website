@@ -3,7 +3,7 @@ title: "Recommendation: The Analysis of Biological Data, 2nd Edition"
 author: "Steve Simon"
 source: "http://blog.pmean.com/analysis-biological-data/"
 date: "2016-08-03"
-category: Blog post
+categories: Blog post
 tags:
 - Teaching resources
 output: html_document

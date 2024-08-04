@@ -3,7 +3,7 @@ title: "Can I replace missing values with zero?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-equals-zero/"
 date: "2015-05-18"
-category: 
+categories: 
 - Blog post
 tags:
 - Missing data

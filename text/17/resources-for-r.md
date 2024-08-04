@@ -3,7 +3,7 @@ title: "Resources for R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/resources-for-r/"
 date: "2017-11-22"
-category: 
+categories: 
 - Blog post
 tags:
 - R software

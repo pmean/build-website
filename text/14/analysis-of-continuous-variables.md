@@ -3,7 +3,7 @@ title: "Two data sets illustrating the analysis of continuous variables"
 author: "Steve Simon"
 source: "http://blog.pmean.com/analysis-of-continuous-variables/"
 date: "2014-04-15"
-category: Blog post
+categories: Blog post
 tags:
 - Datasets
 output: html_document

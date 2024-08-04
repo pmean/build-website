@@ -3,7 +3,7 @@ title: "A simple example of pipes in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pipes-in-r/"
 date: "2016-11-08"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document
@@ -23,13 +23,13 @@ Pipes use the new R operator "%\>%". This operator takes the output of whatever 
 
 So the command
 
-```{}
+```
 level1 %>% table
 ```
 
 is equivalent to
 
-```{}
+```
 table(level1)
 ```
 
@@ -45,7 +45,7 @@ Notice that we have four parentheses at the end. Also, you have to read this fro
 
 Here's how you would do it with pipes.
 
-```{}
+```
 level1 %>% 
   table %>%
   sort  %>%
@@ -57,7 +57,7 @@ Much simpler. Notice that the flow of functions is top to bottom rather than ins
 
 Another advantage of pipes is that you can add comments at the end of each line.
 
-```{}
+```
 level1 %>% 
   table %>%  # count values
   sort  %>%  # sort the counts from low to high

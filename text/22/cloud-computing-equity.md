@@ -3,7 +3,7 @@ title: "How can cloud computing help improve equity in the classroom and data sc
 author: "Steve Simon"
 source: new
 date: "2022-08-26"
-category: 
+categories: 
 - Blog post
 tags:
 - Software engineering

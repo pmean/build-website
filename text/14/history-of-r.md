@@ -3,7 +3,7 @@ title: "History of R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-of-r/"
 date: "2014-05-30"
-category:
+categories:
 - Blog post
 tags:
 - R software

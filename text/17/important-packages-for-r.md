@@ -3,7 +3,7 @@ title: "What are the important packages for R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/important-packages-for-r/"
 date: "2017-07-27"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document

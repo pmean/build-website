@@ -5,7 +5,7 @@ date: "2022-11-12"
 output:
   word_document: default
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Data science
 source: new

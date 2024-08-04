@@ -3,7 +3,7 @@ title: "Pmean: The IRB questions my sample size calculation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/irb-questions/"
 date: "2014-04-30"
-category: Blog post
+categories: Blog post
 tags:
 - Sample size justification
 output: html_document
