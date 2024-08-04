@@ -5,6 +5,7 @@
 data/*.*
 doc/*.*
 images/*.*
+text/tags/*.*
 *.bak
 *.docx
 *.pdf
