@@ -6,7 +6,7 @@ date: "2022-05-16"
 categories: 
 - Recommendation
 tags:
-- Big data
+- Data science
 - Complex surveys
 output: html_document
 page_update: complete
