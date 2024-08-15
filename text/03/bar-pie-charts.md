@@ -79,7 +79,7 @@ For example, you might wonder to yourself "*How much difference is there between
 
 The respective numbers are
 
-```{}
+```
 317.24
 193.08
 ```
@@ -90,7 +90,7 @@ Let's see, four minus eight is ummm, borrow the one, ow, ow, ow, my brain hurts.
 
 You can simplify life by rounding the data to one or two significant figures. Here are the rounded costs
 
-```{}
+```
 320
 190
 ```
@@ -107,7 +107,7 @@ There's a reason for this. Inside your brain is a spot for short term memory sto
 
 A pair of two digit numbers will fit into short term memory very easily, but a pair of three digit numbers will not.In the vet costs example, rounding to three significant figures means rounding to the nearest dollar rather than to the nearest ten spot. This leads to the following subtraction.
 
-```{}
+```
 317
 193
 ```
@@ -118,13 +118,13 @@ Ow, ow, ow, my brain hurts again.
 
 When you arrange these numbers, try to anticipate the possible comparisons and then place the numbers close to one another. You have a choice here. You can orient the numbers horizontally,
 
-```{}
+```
 320 190
 ```
 
 by placing them within the same row. You could also orient the numbers vertically,
 
-```{}
+```
 320
 190
 ```
@@ -135,7 +135,7 @@ Which orientation is best for subtracting?
 
 The vertical orientation appears far more natural for doing a subtraction. Also be sure to place the larger number above the smaller one. If you had the smaller one on top
 
-```{}
+```
 190
 320
 ```

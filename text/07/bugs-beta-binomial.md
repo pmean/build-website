@@ -21,7 +21,7 @@ There is also a version of BUGS that works under R, called BRugs. A nice descrip
 
 Dr. Woodworth starts with the simplest of possible examples, the beta-binomial model. To fit this, you need to prepare a model statement
 
-```{}
+```
 MODEL {
   p ~ dbeta(a,b)
   x ~ dbin(p,n)
@@ -32,7 +32,7 @@ This model specifies that the number of successes x is represented by a binomial
 
 You also need a data statement
 
-```{}
+```
 DATA list(a=1,b=1,x=11,n=25)
 ```
 
@@ -59,13 +59,13 @@ In WinBUGS, you need to open the ***Specification Tool*** dialog box
 
 by selecting ***Model | Specification*** from the menu. Highlight any set of characters inside the curly braces of the MODEL statement and then click on the ***check model*** button. In BRugs, you need to store the model as a text file and then call the function:
 
-```{}
+```
 checkModel("BBModel.txt")
 ```
 
 In either case, you should get a message that reads
 
-```{}
+```
 model is syntactically correct
 ```
 
@@ -73,13 +73,13 @@ model is syntactically correct
 
 In WinBUGS, highlight the word "list" and click on the ***load data*** button. In BRugs, you need to store the data as a text file and then call the function
 
-```{}
+```
 modelData("BBData.txt")
 ```
 
 In either case, you should get a message that reads
 
-```{}
+```
 data loaded
 ```
 
@@ -87,13 +87,13 @@ data loaded
 
 In WinBUGS, click on the ***compile*** button. In BRugs, call the function
 
-```{}
+```
 modelCompile()
 ```
 
 You will see a message
 
-```{}
+```
 model compiled
 ```
 
@@ -103,13 +103,13 @@ The simulation methods in BUGS require starting values. For simple models, BUGS 
 
 In WinBUGs, click on the ***gen inits*** button and in BRugs, call the function
 
-```{}
+```
 modelGenInits()
 ```
 
 You will see a message
 
-```{}
+```
 initial values generated, model initialized
 ```
 
@@ -121,13 +121,13 @@ In WinBUGS, open the ***Sample Monitor Tool*** dialog box
 
 by selecting ***Inference | Samples*** from the menu. Type "p" in the ***node*** field and click on the ***set*** button. In BRugs, call the function
 
-```{}
+```
 samplesSet("p")
 ```
 
 You will get the diagnostic message
 
-```{}
+```
 monitor set for variable 'p'
 ```
 
@@ -139,13 +139,13 @@ In WinBUGS, open the ***Update Tool*** dialog box
 
 by selecting ***Model | Update*** from the menu. For this analysis, 5,000 is a reasonable value for the ***updates*** field. Click on the ***update*** button after you have made this change. In BRugs, call the function
 
-```{}
+```
 modelUpdate(5000)
 ```
 
 You will see the diagnostic message
 
-```{}
+```
 5000 updates took 0 s
 ```
 
@@ -155,7 +155,7 @@ That was fast!
 
 The Markov Chain is dependent on the initial starting value and sometimes takes a while to settle down to a process that reflects the true probability distribution (this is called a steady state). The early values in the Markov Chain may thus exhibit some artefactual patterns that can provide misleading results. You will often get better simulation results if you ignore the first portion of the chain. In WinBUGS, adjust the ***Sample Monitor Tool*** dialog box to exclude the first thousand samples by changing the ***beg*** field from 1 to 1000. In BRugs, call the function
 
-```{}
+```
 samplesSetBeg(1000)
 ```
 
@@ -163,13 +163,13 @@ samplesSetBeg(1000)
 
 In WinBUGS, click on the ***stats*** button in the ***Sample Monitor Tool*** dialog box. In BRugs, call the function
 
-```{}
+```
 samplesStats("p")
 ```
 
 This produces the output
 
-```{}
+```
     mean      sd MC_error val2.5pc median val97.5pc start sample
 p 0.4421 0.09435 0.001237   0.2634  0.441    0.6286  1000   5000
 ```
@@ -192,14 +192,14 @@ The values labeled "start" and "sample" simply remind you what you set for the b
 
 In BRugs, you can combine these steps by using the function BRugsFit. Here's an example:
 
-```{}
+```
 BBOutput <- BRugsFit(modelFile="BBModel.txt",data="BBData.txt",
  numChains=1,parametersToSave="p",nBurnin=1000,nIter=5000)
 ```
 
 The diagnostic messages produced by this function are shown below:
 
-```{}
+```
 model is syntactically correct
 data loaded
 model compiled
@@ -213,7 +213,7 @@ monitor set for variable 'p'
 The output from this function is stored in BBOutput. When you list
 BBOutput, you get the following information:
 
-```{}
+```
 > BBOutput
 $Stats
     mean      sd MC_error   val2.5pc median val97.5pc start sample        

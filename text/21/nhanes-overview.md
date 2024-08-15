@@ -156,7 +156,7 @@ Here's an example of a cautionary statement about combining different
 
 **"Prior to 2011, one single question was used to collect information on language spoken at home for all non-Hispanic participants and the responses were released as variables ACD010A, ACD010B, and ACD010C. Starting 2011, to accommodate the Asian oversample, information on language spoken at home was collected separately for non-Hispanic Asians and other non-Hispanics using two different questions (i.e., ACQ110 and ACQ011). Analysts who wish to include “language spoken at home” data in analyses that use multiple 2-year NHANES cycles, may recode variables ACD011A, ACD011B, ACD011C, and ACD110 to create variables compatible with those released with the NHANES 1999-2010 data (i.e., ACD010A, ACD010B, and ACD010C) using the following SAS programming code:"**
 
-```{}
+```
 If SDDSRVYR in (7, 8, 9) then do;
   ACD010B=ACD011B;
   If ACD110 in (2, 3, 4, 5) then ACD010A=1;
@@ -194,14 +194,14 @@ You will need the complex survey variables: SDMVPSU and SDMVSTRA from DEMO_I and
 
 NHANES stores their raw data in XPT format. This is a format developed by SAS, but the specification is open and other statistical packages should be able to read this format. You use the libname statement in SAS to read XPT files, and it takes a slightly non-standard format.
 
-```{}
+```
 libname xp_demo xport "e:\git\nhanes\data\DEMO_I.xpt";
 libname xp_pbcd xport "e:\git\nhanes\data\PBCD_I.xpt";
 ```
 
 You should convert these two files into standard SAS files and store them in a separate folder.
 
-```{}
+```
 libname mydata "e:\git\nhanes\perm";
 
 data mydata.demo_i;
@@ -217,7 +217,7 @@ run;
 
 Now merge the two datasets together by SEQN. At the same time, create a log transformed measure of lead and a variable to delineate subgroups for children 1-5 years of age. A common threshold used in lead studies is 5 ug/dl, so let's also create an indicator variable for participants with blood lead levels above this threshold.
 
-```{}
+```
 proc sort
    data=mydata.demo_i;
   by seqn;
@@ -244,7 +244,7 @@ run;
 
 The in_demo and in_pbcd variables will tell you how the two datasets match up. Every record in pbcd must also be found in demo, but the reverse will not be true. Here is the code to calculate how many records there are in each dataset and how they match up.
 
-```{}
+```
 proc freq
     data=mydata.merge2015;
   tables in_demo in_pbcd;
@@ -258,7 +258,7 @@ Don't report the unweighted statistics, but it is a good idea to compute them ju
 
 This is code to get unweighted statistics on the continuous variables of age and blood lead levels, and counts for the demographic subgroup variable.
 
-```{}
+```
 proc means
     n nmiss mean std min max
     data=mydata.merge2015;
@@ -269,7 +269,7 @@ run;
 
 and unweighted counts on the demographic subgroup.
 
-```{}
+```
 proc freq
     data=mydata.merge2015;
   tables child1to5;
@@ -283,7 +283,7 @@ It would be a good idea to do a few plots as well. You might draw histograms or 
 
 if you are interested in counts and proportions that are properly weighted, use proc surveyfreq,
 
-```{}
+```
 proc surveyfreq
     data=mydata.merge2015;
   cluster sdmvpsu;
@@ -326,7 +326,7 @@ Note again the aggressive rounding. The standard error of this percentage, 0.332
 
 To get means and standard errors, use proc surveymeans.
 
-```{}
+```
 proc surveymeans
     data=mydata.merge2015
     nobs mean stderr; 

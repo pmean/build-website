@@ -16,7 +16,7 @@ barely noticeable. But when you try to fit too many lines or curves
 together, aliasing can create some false and artificial patterns. I
 wrote a simple program in R to illustrate this.
 
-```{}
+```
 co <- c("black","white")
 f.g <- function(n) {
   par(mar=rep(0,4))

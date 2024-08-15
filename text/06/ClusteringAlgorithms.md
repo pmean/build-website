@@ -6,6 +6,7 @@ date: 2006-01-31
 categories:
 - Blog post
 tags:
+- Cluster analysis
 output: html_document
 page_update: partial
 ---

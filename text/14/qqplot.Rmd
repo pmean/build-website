@@ -3,7 +3,7 @@ title: "The qqplot"
 author: "Steve Simon"
 source: "http://www.pmean.com/qqplot.html"
 date: "2014-01-01"
-category: 
+categories: 
 - Blog post
 tags:
 - Checking assumptions  

@@ -35,7 +35,7 @@ putting you one day earlier or later than the actual date.
 You can use the print.default function to verify the underlying format
 of the output from each of these functions.
 
-```{}
+```
 > Sys.time()
 [1] "2018-08-27 22:05:56 CDT"
 > print.default(Sys.time())
@@ -44,7 +44,7 @@ attr(,"class")
 [1] "POSIXct" "POSIXt" 
 ```
 
-```{}
+```
 > Sys.Date()
 [1] "2018-08-27"
 > print.default(Sys.Date())
@@ -53,7 +53,7 @@ attr(,"class")
 [1] "Date"
 ```
 
-```{}
+```
 > date()
 [1] "Mon Aug 27 21:59:54 2018"
 > print.default(date())

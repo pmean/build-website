@@ -3,7 +3,7 @@ title: "Using statistical design principles to plan a Monte Carlo analysis"
 author: "Steve Simon"
 source: "http://blog.pmean.com/design-monte-carlo/"
 date: "2014-03-09"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

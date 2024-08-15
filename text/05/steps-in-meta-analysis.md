@@ -131,7 +131,7 @@ Most commonly used statistical software does not include programs for meta-analy
 
 Here is an example of an R program, plus the output using the meta library.
 
-```{}
+```
 f0 <- TotalCells.ma <- "X:/webdata/TotalCells.csv"
 Cells.dat <- read.csv(f0)
 attach(Cells.dat)
@@ -169,7 +169,7 @@ Notice that there is no difference between the random effects model and the fixe
 
 Here's what the analysis of the Acetylcysteine data would look like using R and the meta library.
 
-```{}
+```
 f0 <- "X:/webdata/Acetylcysteine1.csv"
 acetyl.dat <- read.csv(f0)
 attach(acetyl.dat)

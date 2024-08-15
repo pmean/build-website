@@ -3,7 +3,7 @@ title: "Why weighting for iid data is inefficient"
 author: "Steve Simon"
 source: new
 date: "2022-09-26"
-category: 
+categories: 
 - Blog post
 tags:
 - Statistical theory

@@ -6,6 +6,7 @@ date: 2006-09-14
 categories:
 - Blog post
 tags:
+- Genetic data analysis
 output: html_document
 page_update: partial
 ---

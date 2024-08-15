@@ -3,7 +3,7 @@ title: "Examining the storage format for sparse matrices in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sparse-matrices/"
 date: "2016-05-16"
-category:
+categories:
 - Blog post
 - Incomplete page
 tags:

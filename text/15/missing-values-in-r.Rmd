@@ -3,7 +3,7 @@ title: "Missing values in R talk"
 author: "Steve Simon"
 source: "http://blog.pmean.com/missing-values-in-r/"
 date: "2015-02-07"
-category:
+categories:
 - Blog post
 tags:
 - R software

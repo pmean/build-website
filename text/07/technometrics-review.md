@@ -6,7 +6,7 @@ date: 2007-01-16
 categories:
 - Blog post
 tags:
-- Book review
+- Professional details
 output: html_document
 page_update: complete
 ---

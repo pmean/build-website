@@ -3,7 +3,7 @@ title: "What does large mean when talking about negative values?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/large-negative/"
 date: "2017-10-13"
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

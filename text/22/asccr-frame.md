@@ -3,7 +3,7 @@ title: "The ASCCR Frame for Learning Essential Collaboration Skills"
 author: "Steve Simon"
 source: new
 date: "2022-02-01"
-category: 
+categories: 
 - Blog post
 tags:
 - Human side of statistics

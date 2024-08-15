@@ -3,7 +3,7 @@ title: "Mapping latitude and longitude"
 author: "Steve Simon"
 source: new
 date: "2022-01-06"
-category: 
+categories: 
 - Blog post
 tags:
 - Geocoding

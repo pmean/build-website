@@ -3,7 +3,7 @@ title: "The problem with incentivizing"
 author: "Steve Simon"
 source: "http://blog.pmean.com/incentivizing/"
 date: "2016-02-23"
-category: Blog post
+categories: Blog post
 tags:
 - Grant writing
 output: html_document

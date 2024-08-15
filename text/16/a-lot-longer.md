@@ -3,7 +3,7 @@ title: "Why secondary data analysis takes a lot longer"
 author: "Steve Simon"
 source: "http://blog.pmean.com/a-lot-longer/"
 date: "2016-12-17"
-category: 
+categories: 
 - Blog post
 tags:
 - Human side of statistics

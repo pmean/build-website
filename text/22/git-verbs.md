@@ -3,7 +3,7 @@ title: "A quick overview of various git verbs"
 author: "Steve Simon"
 source: new
 date: "2022-03-26"
-category: 
+categories: 
 - Blog post
 tags:
 - Software engineering

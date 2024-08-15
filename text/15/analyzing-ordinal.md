@@ -3,7 +3,7 @@ title: "Analyzing ordinal salary categories"
 author: "Steve Simon"
 source: "http://blog.pmean.com/analyzing-ordinal/"
 date: "2015-01-08"
-category: 
+categories: 
 - Blog post
 tags:
 - Logistic regression

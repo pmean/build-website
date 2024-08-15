@@ -6,6 +6,7 @@ date: 2006-08-15
 categories:
 - Blog post
 tags:
+- Professional details
 output: html_document
 page_update: partial
 ---

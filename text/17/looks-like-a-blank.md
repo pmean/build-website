@@ -3,7 +3,7 @@ title: "It only looks like a blank"
 author: "Steve Simon"
 source: "http://blog.pmean.com/looks-like-a-blank/"
 date: "2017-05-24"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document
@@ -21,7 +21,7 @@ do.
 First, there are several ways to remove leading and trailing blanks. I
 used the commands
 
-```{}
+```
 mv1[, i] %<>% sub("^ +", "", .)
 mv1[, i] %<>% sub(" +$", "", .)
 ```
@@ -32,7 +32,7 @@ because searching on "Y " obviously didn't work. I finally said, find
 anything that is not what I thought all the possible values might be. It
 was row 168. When you printed the value,
 
-```{}
+```
 > mv1[168, 14]
 [1] "Y "
 ```
@@ -40,7 +40,7 @@ was row 168. When you printed the value,
 it looked fine. So I figured I had to look at the underlying ascii
 codes. There's a way to do this in R, the charToRaw function.
 
-```{}
+```
 > charToRaw(mv1[168, i])
 [1] 59 a0
 ```
@@ -51,7 +51,7 @@ non-breaking space. How that got into the data set is a mystery to me.
 Now, how do you fix it? There is a rawToChar function, but if you just
 say
 
-```{}
+```
 rawToChar(a0)
 ```
 

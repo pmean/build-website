@@ -21,7 +21,7 @@ But stopping the study early (like any other protocol deviation) does reduce the
 
 Here's a little simulation that you can run in S-plus or R.
 
-```{}
+```
 par(mar=c(4,5,0,0)+0.1,cex=2,pch="+")
 f.p <- function(mua) {
   x1 <- rnorm(12)

@@ -3,7 +3,7 @@ title: "Turning off large blocks of an R Markdown document"
 author: "Steve Simon"
 source: "http://blog.pmean.com/turning-off-large-blocks/"
 date: "2016-09-13"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document
@@ -18,7 +18,7 @@ It's a very simple thing, but one which confounded me for a while, so I am writi
 
 To turn of the evaluation of R Markdown code, insert the following: 
 
-```{}
+```
 ## turn evaluation off (to save time)
 ``{r eval=TRUE, echo=TRUE}
 opts_chunk$set(eval=FALSE, echo=FALSE)
@@ -27,7 +27,7 @@ opts_chunk$set(eval=FALSE, echo=FALSE)
 
 When you are ready to start evaluating R Markdown code again, use
 
-```{}
+```
 ## turn evaluation back on.
 ``{r eval=TRUE, echo=TRUE}
 opts_chunk$set(eval=TRUE, echo=TRUE)

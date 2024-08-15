@@ -69,8 +69,7 @@ really did believe in the mantra "women and children first" though
 perhaps more so among first and second class passengers. The
 crosstabulation of gender and survival would look something like this.
 
-```{}
-{r titanic, echo=FALSE}
+```{r titanic, echo=FALSE}
 d <- list(c("Female", "Male"), c("No", "Yes"))
 ti <- matrix(c(154, 709, 308, 142), 2, 2, dimnames=d)
 print(ti)

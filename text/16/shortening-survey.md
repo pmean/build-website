@@ -3,7 +3,7 @@ title: "The perils of shortening a survey"
 author: "Steve Simon"
 source: "http://blog.pmean.com/shortening-survey/"
 date: "2016-03-22"
-category: Blog post
+categories: Blog post
 tags:
 - Survey design
 output: html_document

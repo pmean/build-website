@@ -3,7 +3,7 @@ title: "Validating a test of diabetes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/validating-diabetes/"
 date: "2015-05-11"
-category: 
+categories: 
 - Blog post
 tags:
 - Diagnostic testing

@@ -3,7 +3,7 @@ title: "A simple example of pipes in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/pipes-in-r/"
 date: "2016-11-08"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 output: html_document
@@ -23,47 +23,37 @@ Pipes use the new R operator "%\>%". This operator takes the output of whatever 
 
 So the command
 
-```{}
-level1 %>% table
-```
+    level1 %>% table
 
 is equivalent to
 
-```{}
-table(level1)
-```
+    table(level1)
 
 You can chain these together, and in fact it is mostly through chaining that you can benefit from pipes.
 
 There are two big advantages to using pipes. First, it avoids many of the nested parentheses that would normally be required. Second, it provides a more readable output. Here's a simple example. I want a list of unique values in a vector, but I want them listed in frequency order with the most frequent value listed first. Here's how you would do it without pipes.
 
-```{r}
-names(rev(sort(table(level1))))
-```
+    names(rev(sort(table(level1))))
 
 Notice that we have four parentheses at the end. Also, you have to read this from the inside out. The sequence is table, then sort, then rev, then names.
 
 Here's how you would do it with pipes.
 
-```{}
-level1 %>% 
-  table %>%
-  sort  %>%
-  rev   %>%
-  names
-```
+    level1 %>% 
+      table %>%
+      sort  %>%
+      rev   %>%
+      names
 
 Much simpler. Notice that the flow of functions is top to bottom rather than inside out. Also notice that there are NO parentheses.
 
 Another advantage of pipes is that you can add comments at the end of each line.
 
-```{}
-level1 %>% 
-  table %>%  # count values
-  sort  %>%  # sort the counts from low to high
-  rev   %>%  # reverse to get high to low ordering
-  names      # list the values only and not the counts
-```
+    level1 %>% 
+      table %>%  # count values
+      sort  %>%  # sort the counts from low to high
+      rev   %>%  # reverse to get high to low ordering
+      names      # list the values only and not the counts
 
 If you want to learn more, check out the [magrittr vignette][mag2].
 

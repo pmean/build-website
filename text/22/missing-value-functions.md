@@ -4,7 +4,7 @@ author: "Steve Simon"
 date: "2022-10-27"
 output:
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Data management
 source: new
@@ -21,7 +21,7 @@ SAS stores the missing value as the most extremely negative number that could be
 
 But there's a trap waiting for you. Consider the following statement:
 
-```{}
+```
 if age<=18 then child="Yes";
   else child="No";
 ```
@@ -34,19 +34,19 @@ In R, comparisons involving missing values are handled quite differently. If you
 
 The statement
 
-```{}
+```
 10==NA
 ```
 
 returns a missing logic value. If the right hand side of the comparison is unknown, it might equal 10 if it were known, but it might not. So a missing logic value seems reasonable. Likewise
 
-```{}
+```
 NA==10
 ```
 
 returns a missing logic value because the left hand side of the comparison is unknown. What's totally surprising is that
 
-```{}
+```
 NA==NA
 ```
 

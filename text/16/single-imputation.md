@@ -3,7 +3,7 @@ title: "Some simple examples of single imputation"
 author: "Steve Simon"
 source: "http://blog.pmean.com/single-imputation/"
 date: "2016-04-17"
-category: Blog post
+categories: Blog post
 tags:
 - Missing data
 output: html_document
@@ -16,7 +16,7 @@ I wanted to use R to show some simple approaches to imputing missing values. The
 
 Note that you need to change the double backtick to a triple backtick throughout.
 
-```{}
+```
 Impute.Rmd
 ==========
 

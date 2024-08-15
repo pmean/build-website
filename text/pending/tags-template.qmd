@@ -1,0 +1,19 @@
+---
+title: "Insert tag here"
+listing:
+  contents: 
+  - "."
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  include: 
+    tags: "Insert tag here"
+page-layout: full
+title-block-banner: true
+tags: 
+  - Tags
+---
+
+

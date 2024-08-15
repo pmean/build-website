@@ -6,7 +6,7 @@ date: 2006-06-20
 categories:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 - Control charts
 output: html_document
 page_update: partial

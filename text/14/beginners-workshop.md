@@ -48,7 +48,7 @@ Here are the R commands and the associated output.
 
 For your convenience, I am also including the R commands file below.
 
-```{}
+```
 # For this example, I am reading data from a text file
 # located at the OzDASL (Australian Data And Story Library)
 # website. It is a tab delimited file with headers in the first row.

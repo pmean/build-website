@@ -4,7 +4,7 @@ author: "Steve Simon"
 date: "2022-12-12"
 output:
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Human side of statistics
 source: new

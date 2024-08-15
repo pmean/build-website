@@ -18,7 +18,7 @@ I am interested in various extensions to the simple Bayesian model for accrual t
 
 The BUGS example shows two different parameterizations of the segmented linear regression model, and demonstrates that the first parameterization is highly sensitive to initial starting values. I will use the preferred second parameterization. Here it is:
 
-```{}
+```
 model {
   for (i in 1 : N) {
     Y[i] ~ dnorm(mu[i], tau)
@@ -37,7 +37,7 @@ model {
 
 I want to run this model within R using the rbugs library. Here is the R code to do this.
 
-```{}
+```
 library("rbugs")
 
 bugs.path <- "c:/Program Files (x86)/OpenBUGS/OpenBUGS321/OpenBUGS.exe"
@@ -76,13 +76,13 @@ changepoint.quant <- apply(changepoint.comb, 2, quantile,
 
 You can get a nice table of the estimated values and 95% credible intervals with
 
-```{}
+```
 round(changepoint.quant,3)
 ```
 
 which produces
 
-```{}
+```
       alpha beta[1] beta[2] deviance sigma x.change
 2.5%  0.484  -0.450  -1.049   -149.4 0.017   -0.289
 50%   0.535  -0.418  -1.014   -144.7 0.022    0.029
@@ -113,7 +113,7 @@ The second chain, in red, has not converged yet, even though I discarded the fir
 
 no longer has the bimodal pattern. The table of estimates and credible intervals
 
-```{}
+```
       alpha beta[1] beta[2] deviance sigma x.change
 2.5%  0.487  -0.449  -1.048   -149.5 0.017   -0.036
 50%   0.534  -0.419  -1.014   -144.9 0.022    0.031

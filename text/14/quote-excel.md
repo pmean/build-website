@@ -3,7 +3,7 @@ title: "Quote: Excel's graphics can be great. The problem occurs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/quote-excel/"
 date: "2014-04-03"
-category: Quote
+categories: Quote
 tags:
 - Graphical display
 output: html_document

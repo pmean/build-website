@@ -26,7 +26,7 @@ library(tidycensus)
 library(tidyverse)
 library(viridis)
 key <- Sys.getenv("CENSUS_API_KEY")
-census_api_key("11bafd82737f7d75b3305ada1e772501d0eab002")
+census_api_key(key)
 tarr <- get_acs(geography = "tract", variables = "B19013_001",
 state = "TX", county = "Tarrant", geometry = TRUE)
 ggplot(tarr, aes(fill = estimate, color = estimate)) +

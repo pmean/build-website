@@ -3,7 +3,7 @@ title: "The Likelihood Ratio Slide Rule poster submission"
 author: "Steve Simon"
 source: "http://blog.pmean.com/slide-rule-poster/"
 date: "2015-12-03"
-category:
+categories:
 - Blog post
 tags:
 - Diagnostic testing

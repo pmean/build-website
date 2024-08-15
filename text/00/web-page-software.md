@@ -38,7 +38,7 @@ I use S-plus to draw a lot of the simple line graphs on my web pages. Here's an 
 
 It is very difficult to get the line graphs to look nice because when you try to scale the graphs, the very fine detail is often lost. I have found with repeated experience that it is best to produce a GIF file at the size that I want for the web page.
 
-```{}
+```
 graphsheet(
   file="histogram##.gif", 
   width=2.67,

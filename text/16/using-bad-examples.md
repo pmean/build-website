@@ -3,7 +3,7 @@ title: "Bad examples of data analysis are bad examples to use in teaching"
 author: "Steve Simon"
 source: "http://blog.pmean.com/using-bad-examples/"
 date: "2016-08-07"
-category: 
+categories: 
 - Blog post
 tags:
 - Critical appraisal

@@ -47,7 +47,7 @@ I'll be putting all of this material together in the next couple of days.
 
 A table of constants for the XBAR-S charts
 
-```{}
+```
  n A3    B3    B4
  2 2.659 0     3.267
  3 1.954 0     2.568

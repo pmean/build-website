@@ -6,7 +6,7 @@ date: 2007-11-12
 categories:
 - Blog post
 tags:
-- Adverse events in clinical trials
+- Adverse events
 output: html_document
 page_update: complete
 ---

@@ -3,7 +3,7 @@ title: "How to run your first Bayesian analysis using jags software in R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/first-jags/"
 date: "2017-01-28"
-category: Blog post
+categories: Blog post
 tags:
 - Bayesian statistics
 - Incomplete page
@@ -25,7 +25,7 @@ Assume you have a beta prior distribution with alpha=4 and beta=16. You collect 
 
 You don’t really need jags for this. The posterior distribution is beta with alpha=4+18=22 and beta=16+42=58. The posterior mean is 0.275 and the posterior standard deviation is 0.05.
 
-```{}
+```
 library("rjags")
 ## Loading required package: coda
 ## Linked to JAGS 4.2.0
@@ -42,7 +42,7 @@ out$bb1 <-
 summary(out$bb1)
 ```
 
-```{}
+```
 ## 
 ## Iterations = 1:1000
 ## Thinning interval = 1 
@@ -67,7 +67,7 @@ Now, try to run one of the examples in the BUGS manuals that is reasonably close
 
 I had to fix two things to get this example to run properly in jags. First, I had to remove some lines of code that used functions like post.p.value. Second, I have to transpose the matrix of data. But with these changes it ran just fine.
 
-```{}
+```
 dat <- list(x = c(8.0, 15.0, 22.0, 29.0, 36.0), xbar = 22, N = 30, T = 5,   
       Y = structure(
          .Data = c(151, 199, 246, 283, 320,
@@ -119,7 +119,7 @@ out$rats <-
 summary(out$rats)
 ```
 
-```{}
+```
 ## 
 ## Iterations = 1:1000
 ## Thinning interval = 1 
@@ -148,7 +148,7 @@ Now let’s see if we can modify this example to fit our particular setting.
 
 Our longitudinal setting has two measurements: pre and post. So strip the last three columns from the matrix Y. There is one within subject factor, time, which is represents by X1. There is a between subjects factor, treatment group, which is represented by X2. Let’s pretend for now that that the first twenty observations represent your treatment group and the last ten observations represent your control group.
 
-```{}
+```
 dat <- list(X1 = c(0, 1), X2 = rep(0:1, c(20, 10)), N = 30, T = 2, 
       Y = structure(
          .Data = c(151, 199,
@@ -199,7 +199,7 @@ out$lon <-
 summary(out$lon)
 ```
 
-```{}
+```
 ## 
 ## Iterations = 1:1000
 ## Thinning interval = 1 

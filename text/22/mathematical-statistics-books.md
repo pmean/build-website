@@ -4,7 +4,7 @@ author: "Steve Simon"
 date: "2022-12-10"
 output:
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - Teaching resources
 source: new

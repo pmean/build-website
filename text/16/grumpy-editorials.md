@@ -3,7 +3,7 @@ title: "Two grumpy editorials at NEJM"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grumpy-editorials/"
 date: "2016-01-22"
-category: Blog post
+categories: Blog post
 tags:
 - Data sharing
 - Quality improvement

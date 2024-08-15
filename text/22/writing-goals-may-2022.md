@@ -44,14 +44,14 @@ It's possible to get very fancy with blogdown, though you have to learn Cascadin
 
 After 23.4 years 
 
-```{}
+```
 # Here are the calculations you would use in R.
 (ymd(20220524)-ymd(19990101))/365.25
 ```
 
 I have written 1,825 pages. Actually a bit more, but some pages, especially from the earlier years have been misplaced. A few of these may be totally lost, but I am hoping to find most of these. Still 1,825 is a reasonable number to work with.
 
-```{}
+```
 n <- 0
 for (i in c(99, paste0("0", 0:9), 10:22)) {
   n <- n+length(list.files(paste0("text/", i), pattern="md$"))
@@ -61,25 +61,25 @@ n
 
 This amounts to 78 papers per year
 
-```{}
+```
 1825*365.25/as.numeric(ymd(20220524)-ymd(19990101))
 ```
 
 or 1.5 pages per week.
 
-```{}
+```
 1825*7/as.numeric(ymd(20220524)-ymd(19990101))
 ```
 
 I've written 30 pages so far in 2022 (including this page),
 
-```{}
+```
 length(list.files("text/22"))
 ```
 
 which is slightly slower, but still rounds to the same overall rate.
 
-```{}
+```
 30*7/as.numeric(ymd(20220524)-ymd(20220101))
 ```
 
@@ -87,7 +87,7 @@ which is slightly slower, but still rounds to the same overall rate.
 
 My updates have been slower. I don't have an exact count, because the work has been haphazard. In the previous two years I updated pretty much all the pages from [2003][si03], [2007][si07], [2011][si11], [2015][si15], [2019][si19]. Still, if you add up all the pages from those years, you get 360.
 
-```{}
+```
 n <- 0
 for (i in c("03", "07", "11", "15", "19")) {
   print(length(list.files(paste0("text/", i), pattern="md$")))
@@ -99,7 +99,7 @@ This is an undercount, because I have also updated a few files from other years.
 
 There are 225 pages written under the new system (blogdown), 
 
-```{}
+```
 n <- 0
 for (i in 20:22) {
   n <- n + length(list.files(paste0("text/", i), pattern="md$"))

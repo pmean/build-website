@@ -5,8 +5,11 @@
 data/*.*
 doc/*.*
 images/*.*
+text/tags/*.*
 *.bak
 *.docx
 *.pdf
 *.html
 *.png
+
+/.quarto/

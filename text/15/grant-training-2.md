@@ -3,7 +3,7 @@ title: "Training on how to write a grant"
 author: "Steve Simon"
 source: "http://blog.pmean.com/grant-training-2/"
 date: "2015-05-08"
-category:
+categories:
 - Blog post
 tags:
 - Grant writing

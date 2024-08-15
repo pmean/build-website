@@ -33,7 +33,7 @@ link]](http://www.bookfinder4u.com/detail/0486612724.html)
 I took this algorithm and checked out the quality using R. Here's the R
 code.
 
-```{}
+```
 x <- seq(-3,3,0.01)
 p <- 0.2316419
 b1 <- 0.319381530

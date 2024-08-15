@@ -6,7 +6,7 @@ date: 2010-04-02
 categories:
 - Blog post
 tags:
-- Big data
+- Data science
 - Being updated
 output: html_document
 page_update: no

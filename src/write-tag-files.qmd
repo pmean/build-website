@@ -1,0 +1,70 @@
+---
+title: "Write tag files"
+author: "Steve Simon"
+date: "Created 2024-08-01"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+Note to myself. Use the file.info function to move only recently changed files.
+
+## Get stash-yaml
+
+```{r prelims}
+library(dplyr)
+library(glue)
+library(knitr)
+library(magrittr)
+library(readr)
+library(stringr)
+library(yaml)
+load("../data/file_headers.RData")
+```
+
+```{r count-tags}
+file_headers %>%
+  filter(names=="tags") %>%
+  count(values) %>%
+  arrange(values) 
+
+file_headers %>%
+  filter(names=="tags") %>%
+  group_by(values) %>%
+  mutate(n=n()) %>%
+  arrange(fn) %>%
+  filter(n==1) %>%
+  data.frame %>%
+  kable
+```
+
+```{r write-tag-files}
+#| eval: false
+file_headers %>%
+  filter(names=="tags") %>%
+  count(values) %>%
+  arrange(values) -> tags
+tags %>%
+  arrange(n) %>%
+  kable
+tags$values %>%
+  tolower %>%
+  str_replace_all(" ", "-") %>%
+  paste0("../text/tags/", ., ".qmd") -> tags$fn
+tags_template <- read_lines("../text/pending/tags-template.qmd")
+for (i in 1:length(tags$values)) {
+  tags_template %>% 
+    str_replace("Insert tag here", tags$values[i]) %>%
+    write_lines(file=tags$fn[i])
+  cat(i, tags$values[i])
+  cat("\n")
+}
+```
+
+
+```

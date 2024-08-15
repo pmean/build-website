@@ -3,7 +3,7 @@ title: "My latest short biography"
 author: "Steve Simon"
 source: "http://blog.pmean.com/biography-2016/"
 date: "2016-02-18"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

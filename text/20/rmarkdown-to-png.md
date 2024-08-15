@@ -23,7 +23,7 @@ The [Pandoc manual](https://pandoc.org/MANUAL.html) is huge, but look for the se
 
 It offers a bit of help, but you have to link to another page, the [geometry package](https://ctan.org/pkg/geometry), which is part of [CTAN, the Comprehensive TeX Archive Network](https://ctan.org/). click on the documentation link and nose around a bit. You have to put two and two together yourself, but here is what I added to the yaml header to get reasonable sizes.
 
-```{}
+```
 geometry: a6paper, landscape, margins=0.25in
 ```
 
@@ -33,13 +33,13 @@ Now to convert from pdf to png, I use a program called [ImagePrinter Pro](https:
 
 You can also control papersize in SAS. You can specify
 
-```{}
+```
 options papersize="4x6 card";
 ```
 
 or
 
-```{}
+```
 options papersize=(4in 6in);
 ```
 

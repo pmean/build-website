@@ -23,6 +23,7 @@ library(broom)
 library(pspline)
 library(readr)
 library(rms)
+library(survival)
 library(tidyverse)
 library(yaml)
 f0 <- "https://raw.githubusercontent.com/pmean/datasets/master/"

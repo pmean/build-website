@@ -7,7 +7,7 @@ categories:
 - Blog post
 tags:
 - Being updated
-- Big data
+- Data science
 output: html_document
 page_update: no
 ---

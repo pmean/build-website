@@ -3,7 +3,7 @@ title: "What greedy means to a geek"
 author: "Steve Simon"
 source: "http://blog.pmean.com/greedy/"
 date: "2016-10-16"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document
@@ -30,37 +30,37 @@ These are very simple examples, but show that a greedy algorithm may optimize th
 
 There is another context in which greedy is used. I was interested in using regular expressions to match certain expressions in a string so I could remove them. Here is an example:
 
-```{}
+```
     "Carcinoma in situ [47,232 facts]"
 ```
 
 I want to remove the square brackets and everything between them. This would involve the sub or gsub functions in R. To match the left square bracket, you need to use an escape sequence because the left square bracket has a special meaning in regular expressions.
 
-```{}
+```
 "\\["
 ```
 
 Then you need to match one or more characters of any type. A dot means any character and a plus means look for one or more.
 
-```{}
+```
     "\\[.+"
 ```
 
 Then you need to match the right square bracket.
 
-```{}
+```
 "\\[.+\\]"
 ```
 
 The R command, then, would be
 
-```{}
+```
     gsub("\\[.+\\]", "", string_vector)
 ```
 
 but there's a potential problem. In regular expressions like this, there may be more than one match possible. Consider, for example, the following string
 
-```{}
+```
     "[274.0] Carcinoma in situ [47,232 facts]"
 ```
 
@@ -70,7 +70,7 @@ The default match in regular expressions is a greedy match. You try to match as 
 
 There's a simple change you can make, though. If you follow the dot with a question mark, the regular expression tries to find the shortest match possible. So the command that works is
 
-```{}
+```
     gsub("\\[.+?\\]", "", string_vector)
 ```
 

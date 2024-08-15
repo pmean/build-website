@@ -6,7 +6,7 @@ date: 2006-05-30
 categories:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 output: html_document
 page_update: partial
 ---
@@ -14,7 +14,7 @@ This scenario is based on real data, but has been adapted slightly to serve as a
 
 Suppose a clinical trial was set up in 1997 and the goal was to recruit one patient per month over a ten year period, for a total sample size of 120 patients. Here are the dates of recruitment for the first 42 patients.
 
-```{}
+```
  "2/26/1997"   "4/4/1997"   "7/7/1997"  "7/25/1997"   "2/5/1998"
  "2/15/1998"   "3/6/1998"   "7/3/1998"   "8/3/1998"   "2/8/1999"
  "3/19/1999"  "4/20/1999"  "5/29/1999"  "6/21/1999"  "7/27/1999"
@@ -28,7 +28,7 @@ Suppose a clinical trial was set up in 1997 and the goal was to recruit one pati
 
 If you set 1/1/1997 as Day 0, then the days on which patients were recruited to the study are
 
-```{}
+```
   56   93  187  205  400  410  429  548  579  768  807  839
  878  901  937  978 1104 1105 1153 1157 1198 1245 1420 1447
 1497 1580 1675 1784 1797 1801 2095 2099 2223 2252 2494 2498
@@ -44,7 +44,7 @@ You might ask some questions about this data, like
 
 A simple approach to help answer these questions is to compute the number of patients recruited each month.
 
-```{}
+```
   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16
   0  1  0  1  0  0  2  0  0  0  0  0  0  2  1  0
   
@@ -70,7 +70,7 @@ Here is a plot of the data:
 
 The accrual could also be summarized as the number of patients recruited per quarter.
 
-```{}
+```
   1  2  3  4  5  6  7  8  9 10 11 12
   1  1  2  0  3  0  2  0  2  2  3  0
   
@@ -84,7 +84,7 @@ which looks like this when you plot the data
 
 or as a yearly rate
 
-```{}
+```
 1 2 3 4 5 6 7 8
 4 5 7 7 6 3 5 5
 ```
@@ -157,7 +157,7 @@ You can improve these rate control charts somewhat by transforming them on a log
 
 What I propose as a better method for evaluating accrual is to look at the date gap, the number of days between recruiting consecutive patients and using this as the basic unit of measure. The   date gap in this example is
 
-```{}
+```
  56  37  94  18 195  10  19 119  31 189   39
  32  39  23  36  41 126   1  48   4  41   47
 175  27  50  83  95 109  13   4 294   4  124

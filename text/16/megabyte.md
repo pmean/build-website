@@ -3,7 +3,7 @@ title: "A megabyte is not a million bytes"
 author: "Steve Simon"
 source: "http://blog.pmean.com/megabyte/"
 date: "2016-05-12"
-category: Blog post
+categories: Blog post
 tags:
 - R software
 - Statistical computing
@@ -19,7 +19,7 @@ I wanted to test some features of the object.size function in R. I created a vec
 
 Here's the R code.
 
-```{}
+```
 > tst &gt- 1:1000000
 object.size(tst)
 4000040 bytes

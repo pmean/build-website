@@ -20,7 +20,7 @@ I have results from four univariate logistic regression models and one multivari
 
 There are several different approaches, but here is one I use frequently. The univariate analyses are labelled as "unadjusted" because they represent the effect without controlling for the other variables in the model. The multivariate model provides four "adjusted" effects because it represents the impact of a given variable after holding all the other variables constant. Your table of odds ratios and confidence intervals would look something like
 
-```{}
+```
      unadjusted      adjusted
      odds ratio     odds ratio
  x1 2.4 (1.6,3.6)  2.3 (1.5,3.5)

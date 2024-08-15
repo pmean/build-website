@@ -3,7 +3,7 @@ title: "History of SPSS"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-of-spss/"
 date: "2014-05-31"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document

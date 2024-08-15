@@ -3,7 +3,7 @@ title: "Scientific writing, Strategies and tools for students and advisors"
 author: "Steve Simon"
 source: new
 date: "2022-02-11"
-category: 
+categories: 
 - Recommendation
 tags:
 - Writing research papers

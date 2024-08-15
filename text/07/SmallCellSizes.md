@@ -14,7 +14,7 @@ page_update: complete
 
 Someone on Edstat-L wrote in asking about using Cohen' Kappa with a small sample size in some of the cells. Here's an example:
 
-```{}
+```
        N    Y Total
 N     890   1  891
 Y       2   2    4

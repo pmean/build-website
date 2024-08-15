@@ -3,7 +3,7 @@ title: "Never consult by email if you can help it"
 author: "Steve Simon"
 source: "http://blog.pmean.com/consult-by-email/"
 date: "2016-07-27"
-category: Blog post
+categories: Blog post
 tags:
 - Human side of statistics
 output: html_document

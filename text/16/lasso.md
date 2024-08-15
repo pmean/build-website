@@ -3,7 +3,7 @@ title: "Understanding the lasso regression model"
 author: "Steve Simon"
 source: "http://blog.pmean.com/lasso/"
 date: "2016-05-25"
-category: Blog post
+categories: Blog post
 tags:
 - Linear regression
 - R software

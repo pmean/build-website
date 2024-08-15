@@ -17,7 +17,7 @@ If you work with longitudinal data, you may see the data arranged in a tall and 
 
 The UCLA Statistics website shows data arranged in a tall and thin format 
 
-```{}
+```
 famid year faminc 
  1    96   40000 
  1    97   40500 
@@ -32,7 +32,7 @@ famid year faminc
 
 which they call the long format. To convert this data to a short and fat format (which they call the wide format)
 
-```{}
+```
 famid faminc96 faminc97 faminc98 
 1     40000    40500    41000 
 2     45000    45400    45800 
@@ -41,7 +41,7 @@ famid faminc96 faminc97 faminc98
 
 they use the following code
 
-```{}
+```
 proc transpose
     data=long1
     out=wide1
@@ -56,7 +56,7 @@ I took the liberty of laying the code out slightly differently, but it's the sam
 
 If you have data in the short and fat format, you can also use proc transpose to convert to a tall and thin format.
 
-```{}
+```
 proc transpose
     data=wide1
     out=long1;

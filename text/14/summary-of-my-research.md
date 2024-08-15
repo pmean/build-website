@@ -3,9 +3,9 @@ title: "Summary of my research interest in patient accrual in clinical trials."
 author: "Steve Simon"
 source: "http://blog.pmean.com/summary-of-my-research/"
 date: "2014-02-15"
-category: Blog post
+categories: Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 output: html_document
 page_update: partial
 ---

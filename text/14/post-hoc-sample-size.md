@@ -3,7 +3,7 @@ title: "Post hoc sample size calculations"
 author: "Steve Simon"
 source: "http://blog.pmean.com/post-hoc-sample-size/"
 date: "2014-04-10"
-category: Blog post
+categories: Blog post
 tags:
 - Post hoc power
 output: html_document

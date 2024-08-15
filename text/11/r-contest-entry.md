@@ -25,7 +25,7 @@ The R code was originally published at
 
 but I have tweaked it a bit here.
 
-```{}
+```
 duration.plot <- function(n,T,P,m,tm,B=1000,Tmax=2*T,sample.paths=0) {
 #
 # n is the target sample size
@@ -114,19 +114,19 @@ duration.plot <- function(n,T,P,m,tm,B=1000,Tmax=2*T,sample.paths=0) {
 
 The function calls that produced the three figures shown below are
 
-```{}
+```
 p0 <- duration.plot(n=350,T=3,P=0.5,m= 0,tm= 0,Tmax=10)
 ```
 
 ![Accrual estimates based on prior distribution only](http://www.pmean.com/new-images/11/contest01.png)
 
-```{}
+```
 p1 <- duration.plot(n=350,T=3,P=0.5,m=41,tm=239/365,Tmax=10)
 ```
 
 ![Accrual estimate based on informative prior and actual accrual data](http://www.pmean.com/new-images/11/contest02.png)
 
-```{}
+```
 p2 <- duration.plot(n=350,T=3,P=0, m=41,tm=239/365,Tmax=10)
 ```
 

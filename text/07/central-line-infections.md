@@ -6,14 +6,14 @@ date: 2007-11-18
 categories:
 - Blog post
 tags:
-- Adverse events in clinical trials
+- Adverse events
 output: html_document
 page_update: complete
 ---
 
 I'm working with a group that is tracking central line infections over time. There were 22 infections over the previous year, and the infants were divided into five risk groups. For this example, I am ignoring the risk groups.
 
-```{}
+```
  ev#  gp      day   | ev#   gp         day
  1     4       24   | 12     2         113
  2     4       43   | 13     1         137
@@ -30,7 +30,7 @@ I'm working with a group that is tracking central line infections over time. The
 
 There are a varying number of patients with central lines being cared for at any given time. The number of central line days in each month is
 
-```{}
+```
 month   all   gp1  gp2  gp3 gp4 gp5
  1       593   70    0   67 188 268
  2       624   66   48   53 222 235
@@ -92,7 +92,7 @@ This graph shows how you would adjust for two events on the same day. A value of
 
 If you continue with the rest of the calculations, the date gaps are
 
-```{}
+```
   23.00
   18.75
    0.50
@@ -138,7 +138,7 @@ When there is substantial variation in the number of patients seen or the amount
 The first event occurred on January 24. There were 593 patients days
 in that month, so the prorated proportion of time until January 24 is
 
-```{}
+```
 593 * (23/31) = 439.97.
 ```
 
@@ -146,19 +146,19 @@ The second event occurred on February 12, so that gets the remainder
 of the January patient days plus a prorated proportion of the February
 patient days.
 
-```{}
+```
 593 * (8/31) + 624 * (10.75/28) = 392.60.
 ```
 
 The half day between the first event on Feb 12 and the second event on Feb 12 translates into
 
-```{}
+```
 624 * (0.5/28) = 11.14.
 ```
 
 The full list of adjusted date gaps are
 
-```{}
+```
   439.97
   392.60
    11.14
@@ -194,7 +194,7 @@ As a technical note, this rule was developed for symmetric distributions. The wa
 
 The control limits can be computed using several different ways. Waiting times often follow an exponential distribution, and you can compute limits based on this distribution. Another approach is to use an individual value control chart (an XmR chart). The XmR chart requires the computation of a moving range, a range between pairs of consecutive data values. The first four date gaps are
 
-```{}
+```
   23.00
   18.75
    0.50
@@ -203,7 +203,7 @@ The control limits can be computed using several different ways. Waiting times o
 
 so the first three moving ranges are
 
-```{}
+```
 |23.00-18.75| =  4.25
 |18.75- 0.50| = 18.25
 | 0.50- 2.75| =  2.25
@@ -211,7 +211,7 @@ so the first three moving ranges are
 
 The entire list of moving ranges is
 
-```{}
+```
     4.25
    18.25
     2.25
@@ -238,7 +238,7 @@ The entire list of moving ranges is
 
 The average of these moving ranges is 17.4. The formula for the control limits is
 
-```{}
+```
 15.9 +/- 2.660 * 17.4.
 ```
 
@@ -248,7 +248,7 @@ Note that the graph above used months rather than days between events. This is s
 
 The adjusted date gaps are
 
-```{}
+```
   459.1
   401.3
     0.0
@@ -277,7 +277,7 @@ The adjusted date gaps are
 and the average adjusted date gap is 328.7. The moving ranges for the
 adjusted date gaps are
 
-```{}
+```
     57.8
    401.3
     66.9
@@ -304,7 +304,7 @@ adjusted date gaps are
 
 and the average moving range is 407.7. The upper control limit is
 
-```{}
+```
 328.7 + 2.660 * 407.7 = 1413.2.
 ```
 

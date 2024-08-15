@@ -3,7 +3,7 @@ title: "Interesting links from the UseR 2022 conference"
 author: "Steve Simon"
 source: new
 date: "2022-06-21"
-category: 
+categories: 
 - Blog post
 tags:
 - Teaching resources
@@ -188,10 +188,10 @@ I asked a question:
 
 Cara Thompson, One thing I would like to do with annotations is to tilt the text to match the slope of a trend line. Do you know an easy way to do this?
 
-She suggested the geom_textpath function, which looks like it is exactly what I want. There is a [vignette][geom1] and a [github repository][came1].
+She suggested the geom_textpath function, which looks like it is exactly what I want. There is a [vignette][geom3] and a [github repository][came1].
 
 [came1]: https://github.com/AllanCameron/geomtextpath
-[geom1]: https://cran.r-project.org/web/packages/geomtextpath/vignettes/geomtextpath.html
+[geom3]: https://cran.r-project.org/web/packages/geomtextpath/vignettes/geomtextpath.html
 [thom1]: https://www.cararthompson.com/talks/user2022
 
 ### Yihui Xie

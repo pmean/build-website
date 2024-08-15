@@ -3,7 +3,7 @@ title: "Will the baby walk away?"
 author: "Steve Simon"
 source: "http://blog.pmean.com/baby-walk/"
 date: "2017-03-25"
-category: Blog post
+categories: Blog post
 tags:
 - Probability concepts
 output: html_document

@@ -3,7 +3,7 @@ title: "Savage Chickens cartoon on optimistic graphs"
 author: "Steve Simon"
 source: "http://blog.pmean.com/optimistic-graphs/"
 date: "2014-01-28"
-category: Recommendation
+categories: Recommendation
 tags:
 - Graphical display
 output: html_document

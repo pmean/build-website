@@ -3,7 +3,7 @@ title: "Getting started with SAS On Demand for Academics"
 author: "Steve Simon"
 source: new
 date: "2022-05-21"
-category: 
+categories: 
 - Blog post
 tags:
 - SAS software

@@ -16,7 +16,7 @@ If you are collecting data on proportions with a consistent denominator for each
 
 Here is the data:
 
-```{}
+```
 28 24 32 30 34 30 36 32 48 32 32 38
 32 40 28 48 34 28 40 18 20 26 36 40`
 ```
@@ -41,7 +41,7 @@ Notice that all data points are inside the upper and lower control limits and th
 
 **On your own**. Two other workers also took the same series of hearing tests (see data below). Compute a P chart for each worker. Don't peek until you've done the work, but the answers are available on a [separate web page][sim3].
 
-```{}
+```
 Worker #2:
 60 56 78 60 74 70 70 68 82 76 72 76
 68 78 76 68 74 56 74 62 60 70 60 84

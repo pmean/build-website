@@ -3,7 +3,7 @@ title: "The data structure in i2b2"
 author: "Steve Simon"
 source: "http://blog.pmean.com/structure-i2b2/"
 date: "2016-03-03"
-category: Blog post
+categories: Blog post
 tags:
 - Statistical computing
 output: html_document
@@ -26,7 +26,7 @@ The i2b2 database has five tables. Across the five tables are only few dozen fie
 
 The i2b2 system uses a model called the Entity Attribute Value (EAV) model. Pretty much any data table, no matter how many fields, can be restructured into a table with only three fields. Here's a simple example.
 
-```{}
+```
     id sex race age  bmi
     01   M    W  72 26.7
     02   F    B  45 24.2
@@ -36,7 +36,7 @@ The i2b2 system uses a model called the Entity Attribute Value (EAV) model. Pret
 
 This is a fairly standard format. There is a primary key, id, and four fields: sex, race, age, and bmi. In the EAV format, the primary key becomes the entity, the field names become the attribute, and the data within the various field names become the values.
 
-```{}
+```
     entity attribute value
         01       sex     M
         01      race     W

@@ -64,7 +64,7 @@ I've also made some major updates to
 
 Upcoming classes:
 
-```{}
+```
     Topic:                     “What Do All These Numbers Mean?  Confidence Intervals and P-Values”        
 
     Date:                       Friday, June 20, 2008

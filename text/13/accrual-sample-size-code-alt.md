@@ -6,7 +6,7 @@ date: 2013-07-29
 categories:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 - Bayesian statistics
 output: html_document
 page_update: partial
@@ -26,7 +26,7 @@ This code was originally presented with a poster at the Joint Statistical meetin
 
 The R code for producing the Bayesian predictive distribution for the sample size given a fixed duration is shown below. This simulation could easily be done in most other reasonable statistical software packages or even in a spreadsheet.
 
-```{}
+```
 accrual.plot <- function(n,T,P,m,tm,B=1000,nmax=2*n,sample.paths=0) {
   # 
   # Code written by Steve Simon and licensed under the Creative Commons 

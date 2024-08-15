@@ -3,7 +3,7 @@ title: "My research interests"
 author: "Steve Simon"
 source: "http://blog.pmean.com/faculty-profile/"
 date: "2016-01-22"
-category: Blog post
+categories: Blog post
 tags:
 - Professional details
 output: html_document

@@ -3,7 +3,7 @@ title: "Stretching an already borderline sample size"
 author: "Steve Simon"
 source: "http://blog.pmean.com/already-borderline/"
 date: "2014-04-16"
-category: Blog post
+categories: Blog post
 tags:
 - Sample size justification
 output: html_document

@@ -136,7 +136,7 @@ Source: Wallengren O, Bosaeus I, Frändin K, Lissner L, Falk Erhag H, Wetterberg
 
 Here's the data.
 
-```{}
+```
                   During
                   Pandemic
 Before
@@ -150,7 +150,7 @@ Total           96        120        216
 
 Let's convert these to cell percentages.
 
-```{}
+```
                   During
                   Pandemic
 Before

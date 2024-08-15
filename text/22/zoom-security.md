@@ -3,7 +3,7 @@ title: "Zoom security options"
 author: "Steve Simon"
 source: new
 date: "2022-06-11"
-category: 
+categories: 
 - Blog post
 tags:
 - Teaching resources

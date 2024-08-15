@@ -3,7 +3,7 @@ title: "Sample size for a study of reproducibility"
 author: "Steve Simon"
 source: "http://blog.pmean.com/sample-size-reproducibility/"
 date: "2014-06-16"
-category: 
+categories: 
 - Blog post
 tags:
 - Measuring agreement

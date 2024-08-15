@@ -3,8 +3,7 @@ title: "Safeguarding Patients in Clinical Trials with High Mortality Rates"
 author: "Steve Simon"
 source: "http://blog.pmean.com/safeguarding/"
 date: "2015-12-02"
-categories:
-- Blog post
+categories: Blog post
 tags:
 - Blinding in research
 - Early stopping

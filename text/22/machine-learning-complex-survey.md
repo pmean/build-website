@@ -3,10 +3,10 @@ title: "Using ML for complex survey data"
 author: "Steve Simon"
 source: new
 date: "2022-05-16"
-category: 
+categories: 
 - Recommendation
 tags:
-- Big data
+- Data science
 - Complex surveys
 output: html_document
 page_update: complete

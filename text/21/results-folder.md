@@ -18,7 +18,7 @@ Yihui Xie explains the general approach to modifying how this works [here](https
 
 To achieve my goal of storing output in the results folder, you need to add the following lines to your yaml header.
 
-```{}
+```
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding,
   output_dir = "../results", output_format = "all") })  

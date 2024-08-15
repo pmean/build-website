@@ -3,11 +3,11 @@ title: "History of R"
 author: "Steve Simon"
 source: "http://blog.pmean.com/history-of-r/"
 date: "2014-05-30"
-category:
+categories:
 - Blog post
 tags:
 - R software
-output: powerpoint_presentation
+output: html_document
 page_update: partial
 ---
 
@@ -256,7 +256,7 @@ Hadley Wickham has written or co-written a large number of libraries in R that h
 
 ### The tidyverse library
 
-![Figure 19. Hex sticker for tidyverse](https://github.com/rstudio/hex-stickers/raw/master/PNG/tidyverse.png)
+![Figure 19. Hex sticker for tidyverse](http://www.pmean.com/new-images/14/tidyverse.png)
 
 <div class="notes">
 
@@ -280,8 +280,7 @@ Here are some of the libraries in core set of libraries.
 
 ### dplyr
 
-![Figure 20. Hex sticker for dplyr](https://github.com/rstudio/hex-stickers/raw/master/PNG/dplyr.png)
-
+![Figure 20. Hex sticker for dplyr](http://www.pmean.com/new-images/14/dplyr.png)
 
 <div class="notes">
 
@@ -291,7 +290,7 @@ dplyr provides a set of functions for data manipulation.
 
 ### ggplot2
 
-![Figure 21. Hex sticker for ggplot2](https://github.com/rstudio/hex-stickers/raw/master/PNG/ggplot2.png)
+![Figure 21. Hex sticker for ggplot2](http://www.pmean.com/new-images/14/ggplot2.png)
 
 <div class="notes">
 
@@ -301,7 +300,7 @@ While R has some excellent graphics capabilities built in, they are somewhat dif
 
 ### magrittr
 
-![Figure 22. Hex sticker for magrittr](https://github.com/rstudio/hex-stickers/raw/master/PNG/pipe.png)
+![Figure 22. Hex sticker for magrittr](http://www.pmean.com/new-images/14/pipe.png)
 
 <div class="notes">
 
@@ -313,7 +312,7 @@ We may or may not cover pipes in this class.
 
 ### readr
 
-![Figure 23. Hex sticker for readr](https://github.com/rstudio/hex-stickers/raw/master/PNG/readr.png)
+![Figure 23. Hex sticker for readr](http://www.pmean.com/new-images/14/readr.png)
 
 <div class="notes">
 
@@ -323,7 +322,7 @@ While R has many functions for reading text data, they are slow for very large f
 
 ### stringr
 
-![Figure 24. Hex sticker for stingr](https://github.com/rstudio/hex-stickers/raw/master/PNG/stringr.png)
+![Figure 24. Hex sticker for stingr](http://www.pmean.com/new-images/14/stringr.png)
 
 <div class="notes">
 
@@ -334,7 +333,7 @@ stringr simplifies the manipulation of string or text data.
 
 ### tibble
 
-![Figure 25. Hex sticker for tibble](https://github.com/rstudio/hex-stickers/raw/master/PNG/tibble.png)
+![Figure 25. Hex sticker for tibble](http://www.pmean.com/new-images/14/tibble.png)
 
 <div class="notes">
 
@@ -344,7 +343,7 @@ R has a variety of internal storage formats: arrays, lists, matrices, and data f
 
 ### tidyr
 
-![Figure 26. Hex sticker for tidyr](https://github.com/rstudio/hex-stickers/raw/master/PNG/tidyr.png)
+![Figure 26. Hex sticker for tidyr](http://www.pmean.com/new-images/14/tidyr.png)
 
 <div class="notes">
 
@@ -384,7 +383,7 @@ Another prolific contributor to R is Yihui Xie.
 
 ### knitr
 
-![Figure 28. Hex sticker for knitr](https://github.com/rstudio/hex-stickers/raw/master/PNG/knitr.png)
+![Figure 28. Hex sticker for knitr](http://www.pmean.com/new-images/14/knitr.png)
 
 <div class="notes">
 
@@ -394,7 +393,7 @@ He wrote the package knitr back in 2012 that has revolutionized the field of rep
 
 ### bookdown
 
-![Figure 29. Hex sticker for bookdown](https://github.com/rstudio/hex-stickers/raw/master/PNG/bookdown.png)
+![Figure 29. Hex sticker for bookdown](http://www.pmean.com/new-images/14/bookdown.png)
 
 <div class="notes">
 

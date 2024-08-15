@@ -3,7 +3,7 @@ title: "Quote: That's not an experiment"
 author: "Steve Simon"
 source: "http://blog.pmean.com/anecdotal-quote/"
 date: "2015-10-29"
-category:
+categories:
 - Quote
 tags:
 - Critical appraisal

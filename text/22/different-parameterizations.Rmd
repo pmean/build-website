@@ -3,7 +3,7 @@ title: "Different parameterizations for one factor ANOVA"
 author: "Steve Simon"
 source: new
 date: "2022-07-06"
-category: 
+categories: 
 - Blog post
 tags:
 - Analysis of variance

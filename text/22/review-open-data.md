@@ -3,7 +3,7 @@ title: "A Reviewer's Quick Guide to Assessing Open Datasets"
 author: "Steve Simon"
 source: new
 date: "2022-02-05"
-category: 
+categories: 
 - Recommendation
 tags:
 - Open data

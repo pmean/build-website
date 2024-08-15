@@ -1,5 +1,5 @@
 ---
-title: 
+title: When can a conservative trust a liberal information source (and vice versa)
 author: Steve Simon
 source: http://www.pmean.com/06/InformationSource.html
 date: 2006-07-10

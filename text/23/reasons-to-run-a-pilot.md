@@ -6,7 +6,8 @@ output:
   word_document: default
   html_document: default
 categories: Blog post
-tags: Pilot studies
+tags: 
+- Pilot studies
 source: New
 page_update: complete
 ---

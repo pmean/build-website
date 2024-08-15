@@ -42,7 +42,7 @@ Not every program needs all of these elements, of course, and you may decide tha
 
 How you structure this information is not important, but for your own sake try to develop a consistent format. I don't have a consistent format myself yet, but here's an example
 
-```{}
+```
 This is a SAS program written by Steve Simon on July 21, 2018 and last
 modified on July 24, 2018. It reads in a text file of fruit fly survival
 times and produces an estimate of the median and quartiles of the

@@ -6,7 +6,7 @@ date: 2006-11-17
 categories:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 - Bayesian statistics
 - Rmarkdown code
 output: html_document

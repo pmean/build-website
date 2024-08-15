@@ -24,7 +24,7 @@ There are four artificial examples for evaluation of Open Epi and a comparison p
 
 Here are the test cases.
 
-```{}
+```
 Test Case 1
 
  5 10

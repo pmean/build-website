@@ -3,7 +3,7 @@ title: "So you're thinking about a complex survey analysis (created 2016-05-10).
 author: "Steve Simon"
 source: "http://www.pmean.com/16/complex.html"
 date: "2016-05-10"
-category: 
+categories: 
 - Blog post
 tags:
 - Complex survey

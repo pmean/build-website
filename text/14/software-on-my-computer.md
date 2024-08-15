@@ -3,7 +3,7 @@ title: "Software on my computer"
 author: "Steve Simon"
 source: "http://www.pmean.com/software.html"
 date: "2014-06-30"
-category: 
+categories: 
 - Blog post
 tags:
 - Obsolete page

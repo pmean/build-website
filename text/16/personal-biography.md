@@ -3,7 +3,7 @@ title: "A personal biography"
 author: "Steve Simon"
 source: "http://blog.pmean.com/personal-biography/"
 date: "2016-12-26"
-category: Administrative
+categories: Administrative
 tags:
 - Personal details
 output: html_document

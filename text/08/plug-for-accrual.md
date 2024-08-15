@@ -5,7 +5,7 @@ date: 2008-07-24
 categories:
 - Blog post
 tags:
-- Accrual problems in research
+- Accrual problems
 - Being updated
 output: html_document
 page_update: no

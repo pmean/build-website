@@ -13,7 +13,7 @@ page_update: partial
 
 The website [www.netfunny.com][net1] has a lot of computer humor. Here's one that caught my eye because I am taking a class in Bioinformatics and am learning a lot about UNIX.
 
-```{}
+```
 MERRY CHRISTMAS
 better !pout !cry   
 better watchout

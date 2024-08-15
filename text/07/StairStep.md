@@ -26,7 +26,7 @@ The programming language R allows you to connect the points either a linear tran
 
 Here's a simple example. The following R code
 
-```{}
+```
 plot(0:5,5:0)
 lines(0:5,5:0,type="s")
 ```
@@ -37,7 +37,7 @@ will produce this plot.
 
 Notice that when you move from (5,0) to (4,1), you produce horizontally along y=5 and then drop down to 4 when x reaches 1. Change the R code to this
 
-```{}
+```
 plot(0:5,5:0)
 lines(0:5,5:0,type="S")
 ```
@@ -48,7 +48,7 @@ and you get this plot instead.
 
 Now when you move from (5,0) to (4,1), you drop veritcally to 4 first and then proceed horizontally until you reach x=1. It a subtle difference, but it is important. Finally, use this code
 
-```{}
+```
 plot(0:5,5:0)
 lines(0:5,5:0,type="l")
 ```

@@ -69,14 +69,14 @@ Do you believe in heaven? Do you believe in hell? Those two questions were asked
 
 If you want to enter this data into a program like SPSS, you can't type it as you see it.
 
-```{}
+```
 833,125
 2,160
 ```
 
 It would be nice if you could do this, but it doesn't work for a variety of reasons. You need to put each count on a separate row. Specify the belief in heaven (yes/no) as the first column and belief in hell (yes/no) as the second column. The count for each combination goes in the third column.
 
-```{}
+```
 heaven,hell,count
 1,1,833
 1,2,125

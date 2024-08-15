@@ -3,10 +3,10 @@ title: "A non-technical answer to why we need Markov Chain Monte Carlo"
 author: "Steve Simon"
 source: "http://blog.pmean.com/non-technical-mcmc/"
 date: "2015-09-21"
-category:
+categories:
 - Blog post
 tags:
-- Accrual problems in clinical trials
+- Accrual problems
 - Bayesian statistics
 output: html_document
 page_update: complete

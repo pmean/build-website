@@ -4,7 +4,8 @@ author: "Steve Simon"
 date: "2023-12-07"
 output: html_document
 categories: Blog post
-tags: Information searching
+tags: 
+- Information searching
 source: New
 page_update: complete
 ---

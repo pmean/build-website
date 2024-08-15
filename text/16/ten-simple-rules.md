@@ -3,7 +3,7 @@ title: "Recommendation: Ten Simple Rules for Effective Statistical Practice"
 author: "Steve Simon"
 source: "http://blog.pmean.com/ten-simple-rules/"
 date: "2016-06-10"
-category: 
+categories: 
 - Recommendation
 - Incomplete page
 tags:

@@ -3,10 +3,10 @@ title: "IPUMS Health Surveys"
 author: "Steve Simon"
 source: new
 date: "2022-05-16"
-category: 
+categories: 
 - Recommendation
 tags:
-- Big data
+- Data science
 output: html_document
 page_update: complete
 ---

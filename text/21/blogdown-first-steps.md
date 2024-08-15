@@ -46,7 +46,7 @@ If you haven't done so already, install the blogdown package.
 
 If you do not already have hugo installed on your computer, there is a function inside of the blogdown library that will do this for you.
 
-```{}
+```
 blogdown::install_hugo()
 ```
 
@@ -62,7 +62,7 @@ I finally settled on a theme that I liked: yihui/hugo-xmin. This is a minimal th
 
 To start a website with a particular theme, type 
 
-```{}
+```
 blogdown::new_site(theme = "yihui/hugo-xmin")
 ```
 
@@ -70,7 +70,7 @@ I may end up using a different theme, but for now I like a minimal theme where I
 
 Almost every Hugo theme comes with a small sample of pages of the "Lorem ipsum" variety. So you can build a small website without having to first create any of your own content. To build a site, use the build_site function. I change two of the default arguments.
 
-```{}
+```
 blogdown::build_site(local=TRUE, build_rmd=TRUE)
 ```
 
@@ -80,13 +80,13 @@ By default, blogdown builds a website without having to store any files on your 
 
 It's only a small site at this point, but you can get a pretty good impression of what your final website will look like by viewing a local version. You do this with the serve_site command.
 
-```{}
+```
 blogdown::serve_site()
 ```
 
 Your entire website now appears in                                                                                                                                          
 
-```{}
+```
 blogdown::serve_site()
 ```
 

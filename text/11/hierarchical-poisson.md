@@ -16,7 +16,7 @@ I am interested in various extensions to the simple Bayesian model for accrual t
 
 The particular example shows the number of failures for 10 mechanical pumps. A slight complication is that there was variation in the amount of time that each pump was monitored for failures. Here's the raw data:
 
-```{}
+```
  i  x      t
  1  5  94.30
  2  1  15.70
@@ -34,7 +34,7 @@ In this table, i represents the number of the pump, x represents the number of f
 
 You can get a crude failure rate by dividing x by t.
 
-```{}
+```
  i  x      t     r
  1  5  94.30 0.053
  2  1  15.70 0.064
@@ -52,7 +52,7 @@ The last column, r, represents the failure rate per unit time. Notice that there
 
 A hierarchical model would assume that each pump would have its own failure rate parameter, but that these parameters would be drawn from a common hyperdistribution. This is model is easy to fit in BUGS. Here's the code for that model, taken directly from the BUGS manual.
 
-```{}
+```
 model {
   for (i in 1 : N) {
     theta[i] ~ dgamma(alpha, beta)
@@ -66,7 +66,7 @@ model {
 
 Now I wanted to use R to fit the BUGS model, but as I noted in an earlier webpage, the BRugs libary does not work with recent versions of R. I switched to the rbugs library, and here is the code I used.
 
-```{}
+```
 library("rbugs")
 
 bugs.path <- "c:/Program Files (x86)/OpenBUGS/OpenBUGS321/OpenBUGS.exe"
@@ -94,7 +94,7 @@ The BUGS code (shown above) is not part of the R program in this example, but in
 
 When this program is completed, the BUGS output is stored in the pumps.sim object. The iterations in the Markov Chain Monte Carlo are stored as matrices with the names chain1 and chain2. Here's the code I used to extract the relevant information and plot it.
 
-```{}
+```
 pumps.comb <- rbind(pumps.sim$chain1, pumps.sim$chain2)
 
 pumps.quant <- apply(pumps.comb,2,quantile,probs=c(0.025,0.5,0.975))
@@ -124,13 +124,13 @@ The second graph shows the hyper distribution for global failure rates.
 
 This looks like an exponential distribution, but actually it is even a bit more skewed than the exponential distribution. With one more line of code,
 
-```{}
+```
 round(t(pumps.quant[,4:13]),2)
 ```
 
 you can also produce a nice table of the credible intervals.
 
-```{}
+```
            2.5%   50% 97.5%
 theta[1]   0.02  0.06  0.12
 theta[2]   0.01  0.08  0.30

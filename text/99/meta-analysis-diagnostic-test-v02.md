@@ -366,7 +366,7 @@ estimate across the range of S values.
 It's unclear whether to use a weighted regression model or an
 unweighted regression model for these data.
 
-```{}
+```
 fn.adj <- pmax(fn,0.5)
 tpr <- tp/(tp+fn.adj)
 fpr <- fp/(tn+fp)

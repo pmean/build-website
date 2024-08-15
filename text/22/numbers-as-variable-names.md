@@ -4,7 +4,7 @@ author: "Steve Simon"
 date: "2022-12-12"
 output:
   html_document: default
-category: Blog post
+categories: Blog post
 tags:
 - SAS software
 source: new
@@ -23,7 +23,7 @@ The variable names are numbers! What has happened is that the students used proc
 
 To avoid this, you must use the command
 
-```{}
+```
   getnames=no;
 ```
 
@@ -33,13 +33,13 @@ Interestingly, you can have the reverse problem. If your data has variable names
 
 If you have variable names in the first row of data, I would recommend that you switch from reading your data in as part of a data step to using proc import to read your data. If you use proc import, be sure to use the command
 
-```{}
+```
   getnames=yes;
 ```
 
 You can instead add the option
 
-```{}
+```
   firstobs=2
 ```
 

@@ -6,7 +6,6 @@ date: "2020-06-13"
 categories:
 - Recommendation
 tags:
-- COVID-19
 - Data mining
 output: html_document
 page_update: complete

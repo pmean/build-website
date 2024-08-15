@@ -59,7 +59,7 @@ Issues arise When you use the group_by statement in dplyr with more than one var
 
 The problem with group_by is that a future call to summarize (which you almost always do after a group_by function) gives the cryptic warning
 
-```{}
+```
 summarise() regrouping output by 'XXXX' (override with .groups argument)
 ```
 
@@ -71,19 +71,19 @@ There are a few situations where this option might make sense. You might want to
 
 You can change this default by adding the argument
 
-```{}
+```
 .groups="drop"
 ```
 
 which gives you what I consider the first preferred default. The argument
 
-```{}
+```
 .group="keep"
 ```
 
 gives you want I consider the second preferred default. This is all explained in [Stakck Overflow query][stac2]. Among the answers is also the tidbit that
 
-```{}
+```
 options(dplyr.summarise.inform=F)
 ```
 
@@ -93,7 +93,7 @@ will also suppress the warning message.
 
 If you run the command
 
-```{}
+```
 options(tidyverse.quiet = TRUE)
 ```
 
