@@ -11,7 +11,7 @@ output: html_document
 page_update: partial
 ---
 
-### R sprouted from S
+## R sprouted from S
 
 ![Figure 1. Book cover](http://www.pmean.com/new-images/14/history-of-r-book-cover-1988.jpg)
 
@@ -27,7 +27,7 @@ Image source: Amazon
 
 <!---More--->
 
-### John Chambers
+## John Chambers
 
 ![Figure 2. Photo of John Chambers](http://www.pmean.com/new-image/14/history-of-r-chambers-pic.jpg)
 
@@ -39,7 +39,7 @@ Image source: [AT&T][att1]
 
 </div>
 
-### Richard Becker
+## Richard Becker
 
 ![Figure 3. Photo of Richard Becker](http://www.pmean.com/new-images/14/history-of-r-becker-pic.jpg)
 
@@ -51,7 +51,7 @@ Image source: [AT&T][att1]
 
 </div>
 
-### Allan Wilks
+## Allan Wilks
 
 ![Figure 4. Photo of Allan Wilks](http://www.pmean.com/new-images/14/history-of-r-wilks-pic.jpg)
 
@@ -66,7 +66,7 @@ Image source: [AT&T][att1]
 
 </div>
 
-### Bell Labs
+## Bell Labs
 
 ![Figure 5. Aerial photograph of Bell Laboratories](http://www.pmean.com/new-images/14/history-of-r-bell-labs.png)
 
@@ -79,7 +79,7 @@ Image source: Wikipedia
 
 </div>
 
-### Features of S.
+## Features of S.
 
 + Intended for internal use.
 + Freely available to anyone.
@@ -98,7 +98,7 @@ Two unique features of the S programming language were the use of functions rath
 
 </div>
 
-### S-plus
+## S-plus
 
 ![Figure 6. Venables and Ripley book cover](http://www.pmean.com/new-images/14/history-of-r-book-cover-2001.jpg)
 
@@ -110,7 +110,7 @@ Image source: Amazon
 
 </div>
 
-### Beginnings of R (1/2)
+## Beginnings of R (1/2)
 
 ![Figure 7. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1996.png)
 
@@ -126,7 +126,7 @@ outlined the features of the R programming language.
 
 </div>
 
-### Beginnings of R (2/2)
+## Beginnings of R (2/2)
 
 ![Figure 8. CD of release 1.0 of R](http://www.pmean.com/new-images/14/history-of-r-cd.png)
 
@@ -134,9 +134,11 @@ outlined the features of the R programming language.
 
 The first major release of R (version 1.0.0) appeared in 2000.
 
+Note: add image source.
+
 </div>
 
-### Growth in popularity
+## Growth in popularity
 
 ![Figure 9. Excerpt from New York Times article](http://www.pmean.com/new-images/14/history-of-r-nytimes-2009.png)
 
@@ -150,7 +152,7 @@ Ashlee Vance. Data Analysts Captivated by R's Power. The New York Times, 2009-01
 
 </div>
 
-### R Foundation
+## R Foundation
 
 ![Figure 10. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-foundation-page.png)
 
@@ -158,9 +160,11 @@ Ashlee Vance. Data Analysts Captivated by R's Power. The New York Times, 2009-01
 
 There is a non-profit group, the R Foundation for Statistical Computing, that coordinates many of the efforts in the maintenance and development of the R programming language.
 
+Note: add image source.
+
 </div>
 
-### Revolution Analytics
+## Revolution Analytics
 
 ![Figure 11. Excerpt from article](http://www.pmean.com/new-images/14/history-of-r-revolution-analytics.png)
 
@@ -174,7 +178,7 @@ https://www.dataversity.net/microsoft-set-acquire-revolution-analytics/
 
 </div>
 
-### R packages
+## R packages
 
 ![Figure 12. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-packages.png)
 
@@ -184,9 +188,11 @@ One of the most popular features of R is the ease with which outside developers 
 
 [cra1]: http://cran.us.r-project.org/
 
+Image source: Comprehensive R Archive Network
+
 </div>
 
-### Bioconductor
+## Bioconductor
 
 ![Figure 13. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-bioconductor)
 
@@ -196,9 +202,11 @@ You can also find a major effort to develop freely available libraries for stati
 
 [bio1]: http://www.bioconductor.org/
 
+Image source: Bioconductor
+
 </div>
 
-### BUGS
+## BUGS
 
 ![Figure 14. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-bugs)
 
@@ -206,9 +214,11 @@ You can also find a major effort to develop freely available libraries for stati
 
 A lot of stand-along programs have leaned heavily on R to provide an interface to run their programs and process their outputs. Notable among these are a series of programs for Bayesian analysis, starting with BUGS. BUGS is an acronym for Bayes Using Gibbs Sampling. While it can be run by itself, it is a lot easier and more convenient to run it from inside R, and most applications of BUGS appear to use R. Other packages, jags (Just Another Gibbls Sampler), and Stan (named after the famous mathematician, Stan Ulam), also rely on R. It is worth noting that these programs are also easily run from Python.
 
+Image source: MRC Biostatistics Unit, University of Cambridge
+
 </div>
 
-### Menu driven version of R
+## Menu driven version of R
 
 ![Figure 15. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rcommander.png)
 
@@ -218,21 +228,42 @@ R is an interactive programming language, but menu driven versions of R are avai
 
 [rco1]: http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/
 
+Note that this link is currently broken.
+
+Image source: McMaster University
+
 </div>
 
-### RStudio
+## RStudio
 
 ![Figure 16. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-rstudio.png)
 
 <div class="notes">
 
-RStudio is an integrated development environment for R. The company that produces RStudio offers both free and commercial versions. They also employ many of the people listed below who have made major contributions to R.
+RStudio is an integrated development environment for R, founded somewhere around 2009 to 2011.in 2009. The company that produces RStudio offers both free and commercial versions. They also employ many of the people listed below who have made major contributions to R.
+
+Image source: R Studio (renamed in 2023 to Posit)
 
 </div>
 
-### Recent major contributions: Frank Harrell
+## RMarkdown
 
-![Figure 17. Title slide from Frank Harrell talk](http://www.pmean.com/new-images/14/history-of-r-harrell.png)
+![Figure 17. Excerpt from website](http://www.pmean.com/new-images/14/rmarkdown.png)
+
+<div class="notes">
+
+RMarkdown is an extension of [Markdown][mar1] syntax. It provides a simple way to denote special formats of text (italics, bold, headings, links, images, bulleted list) and integrate it with code from R, Python, and other software. RMarkdown uses [Pandoc][pan1], a program that produces output in a variety of formats: html, Latex, Microsoft Word, Microsoft PowerPoint, PDF, and others.
+
+[mar1]: https://commonmark.org/help/
+[pan1]: https://pandoc.org/
+
+Image source: RStudio
+
+</div>
+
+## Recent major contributions: Frank Harrell
+
+![Figure 18. Title slide from Frank Harrell talk](http://www.pmean.com/new-images/14/history-of-r-harrell.png)
 
 <div class="notes">
 
@@ -244,23 +275,25 @@ Image source: [R-bloggers][rbl1]
 
 </div>
 
-### Recent major contributions: Hadley Wickham
+## Recent major contributions: Hadley Wickham
 
-![Figure 18. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
+![Figure 19. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-wickham.png)
 
 <div class="notes">
 
-Hadley Wickham has written or co-written a large number of libraries in R that have refashioned R into almost a completely new programming language.
+Hadley Wickham has written or co-written a large number of libraries in R that have refashioned R into almost a completely new programming language. He was hired by RStudio in 2012 and has been a driving force behind almost all of the development in that company.
+
+Image source: Data Science, College of Science, University of Notre Dame
 
 </div>
 
-### The tidyverse library
+## The tidyverse library
 
-![Figure 19. Hex sticker for tidyverse](http://www.pmean.com/new-images/14/tidyverse.png)
+![Figure 20. Hex sticker for tidyverse](http://www.pmean.com/new-images/14/tidyverse.png)
 
 <div class="notes">
 
-Originally, these packages were referred to collectively as the "Hadleyverse." But Hadley Wickham discouraged that in favor of the name "tidyverse."
+Originally, these packages were referred to collectively as the "Hadleyverse." But Hadley Wickham discouraged that in favor of the name ["tidyverse."][tid6]
 
 The tidyverse package is a collection of several different packages which provide enhancements to the R programming language. These libraries share a common programming philosophy. There are several dozen libraries in  total, but only a core set of libraries are loaded with the library(tidyverse) function. Other tidyverse packages must be loaded separately.
 
@@ -273,34 +306,41 @@ The tidyverse packages embrace some guiding principles described in the [tidyver
 [tid3]: https://www.jstatsoft.org/article/view/v059i10
 [tid4]: https://design.tidyverse.org/
 [tid5]: https://style.tidyverse.org/
+[tid6]: https://datascience.nd.edu/news/dive-into-the-tidyverse-with-hadley-wickham/
 
 Here are some of the libraries in core set of libraries.
 
+Image source: RStudio github
+
 </div>
 
-### dplyr
+## dplyr
 
-![Figure 20. Hex sticker for dplyr](http://www.pmean.com/new-images/14/dplyr.png)
+![Figure 21. Hex sticker for dplyr](http://www.pmean.com/new-images/14/dplyr.png)
 
 <div class="notes">
 
 dplyr provides a set of functions for data manipulation.
 
+Image source: RStudio github
+
 </div>
 
-### ggplot2
+## ggplot2
 
-![Figure 21. Hex sticker for ggplot2](http://www.pmean.com/new-images/14/ggplot2.png)
+![Figure 22. Hex sticker for ggplot2](http://www.pmean.com/new-images/14/ggplot2.png)
 
 <div class="notes">
 
 While R has some excellent graphics capabilities built in, they are somewhat difficult to use. The ggplot2 library simplifies the process of graphing by separating the parts of a graph into different layers. It is based on a conceptual framework developed by Leland Wilkinson in his book, The Grammar of Graphics.
 
+Image source: RStudio github
+
 </div>
 
-### magrittr
+## magrittr
 
-![Figure 22. Hex sticker for magrittr](http://www.pmean.com/new-images/14/pipe.png)
+![Figure 23. Hex sticker for magrittr](http://www.pmean.com/new-images/14/pipe.png)
 
 <div class="notes">
 
@@ -308,50 +348,60 @@ magrittr provides a pipe operator. The concept of the pipe was developed first i
 
 We may or may not cover pipes in this class.
 
+Image source: RStudio github
+
 </div>
 
-### readr
+## readr
 
-![Figure 23. Hex sticker for readr](http://www.pmean.com/new-images/14/readr.png)
+![Figure 24. Hex sticker for readr](http://www.pmean.com/new-images/14/readr.png)
 
 <div class="notes">
 
 While R has many functions for reading text data, they are slow for very large files. The readr library reads text files much faster, offers some enhancements, and provides a simpler syntax.
 
+Image source: RStudio github
+
 </div>
 
-### stringr
+## stringr
 
-![Figure 24. Hex sticker for stingr](http://www.pmean.com/new-images/14/stringr.png)
+![Figure 25. Hex sticker for stingr](http://www.pmean.com/new-images/14/stringr.png)
 
 <div class="notes">
 
 stringr simplifies the manipulation of string or text data.
 
+Image source: RStudio github
+
 </div>
 
 
-### tibble
+## tibble
 
-![Figure 25. Hex sticker for tibble](http://www.pmean.com/new-images/14/tibble.png)
+![Figure 26. Hex sticker for tibble](http://www.pmean.com/new-images/14/tibble.png)
 
 <div class="notes">
 
 R has a variety of internal storage formats: arrays, lists, matrices, and data frames. We will focus mostly on data frames in this class. The tibble package offers an internal storage format, a tibble, that is very similar to a data frame, but it offers some extra features for convenience and simplicity.
 
+Image source: RStudio github
+
 </div>
 
-### tidyr
+## tidyr
 
-![Figure 26. Hex sticker for tidyr](http://www.pmean.com/new-images/14/tidyr.png)
+![Figure 27. Hex sticker for tidyr](http://www.pmean.com/new-images/14/tidyr.png)
 
 <div class="notes">
 
 tidyr provides a series of functions that help with data manipulation, especially for longitudinal data.
 
+Image source: RStudio github
+
 </div>
 
-### Other packages in the tidyverse
+## Other packages in the tidyverse
 
 + In the core package
   + forcats
@@ -371,37 +421,45 @@ Outside of the core package, some of the packages that I like are broom (which s
 </div>
 
 
-### Recent major contributions: Yihui Xie
+## Recent major contributions: Yihui Xie
 
-![Figure 27. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
+![Figure 28. Exceprt from github site](http://www.pmean.com/new-images/14/history-of-r-xie.png)
 
 <div class="notes">
 
-Another prolific contributor to R is Yihui Xie.
+Another prolific contributor to R is Yihui Xie. He was an employee of Rstudio from 2013 through 2023, but was [laid off][xie1] as part of the transition to Posit (see below).
+
+[xie1]: https://yihui.org/en/2024/01/bye-rstudio/
+
+Image source: Yihui Xie github
 
 </div>
 
-### knitr
+## knitr
 
-![Figure 28. Hex sticker for knitr](http://www.pmean.com/new-images/14/knitr.png)
+![Figure 29. Hex sticker for knitr](http://www.pmean.com/new-images/14/knitr.png)
 
 <div class="notes">
 
 He wrote the package knitr back in 2012 that has revolutionized the field of reproducible research. knitr is an improvement on the package sweave. It takes R code, runs it and creates documents in a variety of formats using Pandoc.
 
+Image source: RStudio github
+
 </div>
 
-### bookdown
+## bookdown
 
-![Figure 29. Hex sticker for bookdown](http://www.pmean.com/new-images/14/bookdown.png)
+![Figure 30. Hex sticker for bookdown](http://www.pmean.com/new-images/14/bookdown.png)
 
 <div class="notes">
 
 He wrote also wrote a package, bookdown, that has revolutionized the book publishing world. You can now write an entire book in R with the help of this package. It has publication ready graphics, tables, and formulas. It produces the table of contents, and an index. Over a thousand books have been produced using bookdown, including the definitive guide to bookdown itself, bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie.
 
+Image source: RStudio github
+
 </div>
 
-### Other works by Yihui Xie
+## Other works by Yihui Xie
 
 + blogdown
 + tinytex
@@ -417,22 +475,63 @@ xaringan is a presentation format using html that offers an alternative to beame
 
 </div>
 
+## RStudio renamed as Posit
 
-### If you want to learn more: Rickert 2014
-
-![Figure 30. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-rickert-blog.png)
+![Figure 31. Excerpt from Posit blog](http://www.pmean.com/new-images/14/posit.png)
 
 <div class="notes">
 
-The Revolutions Analytic blog posted a [nice summary of a [John Chambers talk][cha2] on the history of S at the Use R! 2014 conference
+In 2022, the company that produces RStudio renamed itself from RStudio to Posit. They felt that the name RStudio was focused just on R and they wanted to branch out with a broader focus to a larger community. In particular, they wanted to attract users of Python and users of Jupyter notebooks.
+
+One major personnel shifts during the transition was the hiring of Wes McKinney, creator of the pandas package for Python. Another was the layoff of Yihui Xie, described above.
+
+Image source: Posit blog
+
+</div>
+
+## Quarto
+
+![Figure 32. Hex sticker for Quarto](http://www.pmean.com/new-images/14/quarto.png)
+
+<div class="notes">
+
+One of the first packages announced by the new Posit company was Quarto. Quarto is an alternative to RMarkdown. While RMarkdown requires that you install R prior to use, Quarto does not. It is part of the broadening strategy of Posit and opens up the features of RMarkdown to those who prefer to use only Python on their systems. It also opens up the features of RMarkdown to those who prefer to use only Jupyter on their systems. 
+
+Posit will continue to maintain RMarkdown for the forseeable future. New features, however, will be added to Quarto and only ported over to RMarkdown if it can be done easily. So you should adopt Quarto if you want to be on the cutting edge. Any files written using RMarkdown will work with Quarto, so the transition, if you are a seasoned user of RMarkdown is easy. The reverse is not necessarily true. There are a few features in Quarto (not too many, at least in 2024) that will not work with RMarkdown. 
+
+Image source: RStudio github
+
+</div>
+
+## Positron
+
+![Figure 33. Excerpt from README file](http://www.pmean.com/new-images/14/positron.png)
+
+<div class="notes">
+
+A new integrated development environment, Positron, is currently (2004) in the beta testing phase. It is intended as an eventual replacement for RStudio, but I would not recommend making the transition to Positron just yet. 
+
+Positron is another part of the broadening strategy of Posit. While it allows you to run Python code, RMarkdown is built on a foundation of R. Positron, based on CODE OSS, uses the same basic integrated development environment as Microsoft Visual Studio. You can use it on a machine that only has Python installed or a machine that only has R installed. Don't try it on a machine that has neither installed, at least not yet. A big advantage of decoupling from R is that Positron will not crash when R (or Python) crashes. it also allows you to use extensions developed for Microsoft Visual Studio.
+
+Image source: posit-dev github
+
+</div>
+
+## If you want to learn more: Rickert 2014
+
+![Figure 34. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-rickert-blog.png)
+
+<div class="notes">
+
+The Revolutions Analytic blog posted a [nice summary of a John Chambers talk][cha2] on the history of S at the Use R! 2014 conference
 
 [cha2]: http://blog.revolutionanalytics.com/2014/07/reflections-on-john-chambers-userr-2014-keynote-address.html
 
 </div>
 
-### If you want to learn more: Chambers 2006
+## If you want to learn more: Chambers 2006
 
-![Figure 31. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-chambers-2006.png)
+![Figure 35. Title slide from presentation](http://www.pmean.com/new-images/14/history-of-r-chambers-2006.png)
 
 <div class="notes">
 
@@ -442,9 +541,9 @@ That article has links to the [slides (PDF format)][cha3] of a 2006 talk (again 
 
 </div>
 
-### If you want to learn more: Hastie 2014
+## If you want to learn more: Hastie 2014
 
-![Figure 32. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-hastie-interview.png)
+![Figure 36. Excerpt from blog post](http://www.pmean.com/new-images/14/history-of-r-hastie-interview.png)
 
 <div class="notes">
 
@@ -454,9 +553,9 @@ as well as a [video interview of John Chambers by Trevor Hastie][has1].
 
 </div>
 
-### If you want to learn more: Ihaka 1998
+## If you want to learn more: Ihaka 1998
 
-![Figure 33. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1998.png)
+![Figure 37. Excerpt from research paper](http://www.pmean.com/new-images/14/history-of-r-ihaka-1998.png)
 
 <div class="notes">
 
@@ -466,9 +565,9 @@ and a [1998 paper (PDF format)][iha2] by Ross Ihaka on the past (!) and future o
 
 </div>
 
-### If you want to learn more: Becker (no date)
+## If you want to learn more: Becker (no date)
 
-![Figure 34. Excerpt from paper](http://www.pmean.com/new-images/14/history-of-r-becker.png)
+![Figure 38. Excerpt from paper](http://www.pmean.com/new-images/14/history-of-r-becker.png)
 
 <div class="notes">
 
@@ -478,9 +577,9 @@ Richard Beckman. A Brief History of S. Available in [pdf format][bec1]
 
 </div>
 
-### If you want to learn more: Smith 2020
+## If you want to learn more: Smith 2020
 
-![Figure 35. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
+![Figure 39. Excerpt from website](http://www.pmean.com/new-images/14/history-of-r-smith-video.png)
 
 <div class="notes">
 
