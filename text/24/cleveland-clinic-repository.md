@@ -10,7 +10,7 @@ output: html_document
 page_update: no
 ---
 
-![Figure 1. Excerpt from xxx](http://www.pmean.com/new-images/24/cleveland-clinic-repository-01.png)
+![Figure 1. Excerpt from website](http://www.pmean.com/new-images/24/cleveland-clinic-repository-01.png)
 
 <div class="notes">
 
