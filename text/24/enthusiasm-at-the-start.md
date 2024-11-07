@@ -1,5 +1,5 @@
 ---
-title: "Enthusiasm at the start... quote here"
+title: "Enthusiasm at the start..."
 author: "Steve Simon"
 source: new
 date: 2024-11-02
