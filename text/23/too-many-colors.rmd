@@ -38,13 +38,13 @@ library(usmap)
 library(ggplot2)
 plot_usmap(
     data = statepov, 
-    values = "pct_pov_2014", 
+    values = "pct_pov_2021", 
     color = "red") -> us
 us +
   scale_fill_continuous(
         low = "white", 
         high = "red", 
-        name = "Poverty rate (2014)", 
+        name = "Poverty rate (2021)", 
         label = scales::comma) + 
   theme(legend.position = "right")
 ```
