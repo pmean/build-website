@@ -22,7 +22,7 @@ There are several ways to account for that third variable when examining interfe
 ```{r partial-correlation-01, echo=FALSE, warning=FALSE, message=FALSE}
 library(broom)
 library(tidyverse)
-fn <- "https://raw.githubusercontent.com/pmean/classes/master/biostats-1/data/data-05-fev.csv"
+fn <- "https://raw.githubusercontent.com/pmean/data/refs/heads/main/files/fev.csv"
 read_csv(
     fn, 
     col_names=FALSE, 
