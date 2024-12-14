@@ -1,0 +1,77 @@
+---
+title: "Copy files from build-website to qblog"
+author: "Steve Simon"
+format: html
+---
+
+This program was written by Steve Simon on 2024-11-09 and is placed in the public domain.
+
+## Preliminaries
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(glue)
+library(tidyverse)
+```
+
+## Set old and new locations
+
+```{r}
+#| label: locations
+old_path <- "../text"
+old_directories <- c("99", paste0("0", (0:9)), 10:24)
+new_path <- "../../qblog/posts"
+file_pattern <- "md$"
+```
+
+## Find files function
+
+```{r}
+#| label: find-files
+files <- NULL
+subdirectories <- NULL
+for (dir in old_directories) {
+  glue("{old_path}/{dir}") |>
+    list.files() |>
+    str_subset(file_pattern) -> to_be_copied
+  
+  n_to_be_copied <- length(to_be_copied)
+  subdirectories <- append(subdirectories, rep(dir, n_to_be_copied))
+  files <- append(files, to_be_copied)
+  
+  message <- glue(
+    "Searching through {n_to_be_copied} files in {old_path}/{dir}")
+  cat(message)
+  cat("\n")
+}
+
+files |>
+  str_remove("\\..*") -> roots
+  
+files |> 
+  str_remove("^.*\\.") -> extensions
+```
+
+```{r}
+#| label: create-file-names
+new_paths <- glue("{new_path}/{roots}")
+new_files <- glue("{new_paths}/index.{extensions}")
+old_files <- glue("{old_path}/{subdirectories}/{roots}.{extensions}")
+```
+
+```{r}
+#| label: move
+n_files <- length(files)
+for (i in 1:n_files) {
+  if (!dir.exists(new_paths[i])) {dir.create(new_paths[i])}
+  test1 <- file.copy(from=old_files[i], to=new_files[i], overwrite=TRUE)
+  cat(glue("{test1}: {old_files[i]} copied to {new_files[i]}"))
+  cat("\n")
+  cat(list.files(new_paths[i]))
+  cat("\n")
+}
+cat(str_glue("Total files copied: {n_files}"))
+```

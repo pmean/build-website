@@ -1,0 +1,71 @@
+---
+title: Survival analysis sample size calculation
+source: "New"
+author: Steve Simon
+date: 2024-11-26
+categories: Blog post
+tags:
+- Sample size justification
+- Survival analysis
+output: html_document
+page_update: no
+---
+
+Someone asked about getting a sample size for a survival analysis project. Here is the scenario. This is a two group comparison. The control group is expected to see 75% survival at one year. The treatment group is expected to do better, with a hazard ratio of 0.8. Patients are going to be recruited for a full calendar year and then accrual will stop. Patients will continue to be followed for another two years. This means that the patients recruited on the first day of the study will be followed for three full years and patients recruited on the last day of accrual will be followed for two full years.
+
+<!---more--->
+
+Let's start with a simple model. Maybe too simple, but you have to start somewhere. Assume that events occur with an exponential distribution. The cumulative density function of the exponential distribution is 
+
+-   $F(x)=1-e^{-\lambda x}$
+
+The value of lambda for the control group has to satisfy the equation
+
+-   $1-e^{-\lambda 1} = 0.25$
+
+With a bit of algebra, you get 
+
+-   $\lambda$ = - ln(0.75) = 0.2876
+
+I always get nervous with this, because it is really easy to make a minor error and all of a sudden, you have something that is off by a full order of magnitude. So check your work. In R, the function
+
+-   pexp(1, rate=0.2876) = `r pexp(1, rate=0.2876)`
+
+There are similar functions, in SAS, Stata, etc.
+
+Now, you expect the treated group to have a hazard ratio of 0.8. For the exponential distribution, this means that they have a smaller parameter,
+
+-   $\lambda$ = -ln(0.75)\*0.8 = `r -log(0.75)*0.8`
+
+Now, if you follow a patient for an average of 2.5 years, what is the probability that they will experience the event?
+
+For the control group, it is 
+
+-   $1-e^{-0.2876 \times 2.5}$ = `r 1-exp(-0.2876*2.5)`
+
+and for the treatment group, it is 
+
+-   $1-e^{-0.2301 \times 2.5}$ = `r 1-exp(-0.2301*2.5)`
+
+Now power is driven by the number of events, not the number of patients. How many events would you need to see? The formula found in Schoenfeld (1983)
+
+Schoenfeld, D. A. (1983). Sample-size formula for the proportional-hazards regression model. Biometrics, 499-503. Available in [html format][sch1] is
+
+
+-   $\frac{(z_\beta + z_{1-alpha/2})^2}{P_A P_B (ln(\Delta))^2}$
+
+where $P_A$ and $P_B$ are the proportions in the control and treatment groups and $\Delta$ is the hazard ratio. Assuming equal sample sizes in each group, you would get
+
+-   $\frac{(0.84 + 1.96)^2}{0.25*(ln(0.8))^2}$ = `r (1.96+0.84)^2/(0.25*log(0.8)^2)`
+
+Now how many patients (not events) would you need? Solve the equation
+
+-   0.5128 n + 0.4374 n = 630
+
+to get
+
+-   n = `r 630/(0.5128+0.4374)`
+
+which is the number of patients in each group.
+
+[sch1]: https://www.biostat.wisc.edu/~chappell/641/papers/paper31.pdf
