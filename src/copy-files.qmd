@@ -1,7 +1,9 @@
 ---
 title: "Copy files from build-website to qblog"
 author: "Steve Simon"
-format: html
+format:
+  html:
+    embed-resources: true
 ---
 
 This program was written by Steve Simon on 2024-11-09 and is placed in the public domain.
