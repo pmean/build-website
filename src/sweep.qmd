@@ -51,7 +51,7 @@ modules <- c(glue("text/0{1:9}"), glue("text/{10:25}"))
 for (s in modules) {
   print(glue("Searching in module {s}"))
   file_list <- character(0)
-  for (ext in c("html", "pdf", "pptx")) {
+  for (ext in c("html$")) {
     file_list <- c(file_list, identify_files(s, ext))
   }
   if (length(file_list) == 0) next
