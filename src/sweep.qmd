@@ -1,0 +1,63 @@
+---
+title: "Sweep html files from src to results"
+format: 
+  html:
+    embed-resources: true
+---
+
+## File details
+
+This program moves files from the src folder to results folder in each of the modules. It was written by Steve Simon on 2025-01-08 and is placed in the public domain. 
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(glue)
+library(tidyverse)
+```
+
+## Identify html files
+
+```{r}
+#| label: identify
+
+identify_files <- function(subdir, ext) {
+  list.files(
+    path=glue("../{subdir}"),
+    pattern=ext)
+}
+```
+
+## Move html files
+
+```{r}
+#| label: sweep
+
+sweep_files <- function(subdir, file_name) {
+  old <- glue("../{subdir}/{file_name}")
+  new <- glue("../results/{file_name}")
+  file.rename(from=old, to=new)
+}
+```
+
+## Loop across all subdirectories
+
+```{r}
+#| label: loop
+
+modules <- c(glue("text/0{1:9}"), glue("text/{10:25}"))
+for (s in modules) {
+  print(glue("Searching in module {s}"))
+  file_list <- character(0)
+  for (ext in c("html", "pdf", "pptx")) {
+    file_list <- c(file_list, identify_files(s, ext))
+  }
+  if (length(file_list) == 0) next
+  print(glue("{s}/{file_list}"))
+  for (f in file_list) {
+    sweep_files(s, f)
+  }
+}
+```
