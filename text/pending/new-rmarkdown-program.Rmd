@@ -1,8 +1,14 @@
 ---
 title: "New RMarkdown program"
 author: "Steve Simon"
-date: "`r Sys.Date()`"
+source: new
+date: "20xx-xx-xx"
+categories:
+- Blog post
+tags:
+- Incomplete
 output: html_document
+page_update: complete
 ---
 
 Here is a brief abstract.

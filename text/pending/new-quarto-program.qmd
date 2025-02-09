@@ -1,6 +1,12 @@
 ---
 title: "New quarto program"
 author: "Steve Simon"
+source: new
+date: "20xx-xx-xx"
+categories:
+- Blog post
+tags:
+- Graphical display
 format: 
   html:
     embed-resources: true
@@ -8,6 +14,7 @@ editor: source
 execute: 
   error: true
   echo: true
+page_update: complete
 ---
 
 Here is a brief abstract.

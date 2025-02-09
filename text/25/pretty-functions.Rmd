@@ -1,8 +1,14 @@
 ---
-title: "New RMarkdown program"
+title: "Functions to make plain R output look nicer"
 author: "Steve Simon"
-date: "`r Sys.Date()`"
+source: new
+date: "2025-02-09"
+categories:
+- Blog post
+tags:
+- R programming
 output: html_document
+page_update: complete
 ---
 
 Most of the statistical summary functions in R produce plain vanilla output. That's actually good because it allows you to customize things the way you like. I have been finding that I use pretty close to the same customizations over and over again, so I thought I should standardize them in a few simple R functions.
@@ -108,8 +114,12 @@ penguins |>
 
 For continuous variables, I usually like to compute a few descriptive statistics: the mean, standard deviation, minimum, maximum, and the number of missing values. This is easy enough to do but the code is long and tedious. The pretty_mean function is just as long and tedious (if not more so), but once you enter it, you can save a lot of time starting with the second variable that you need to summarize. I actually used to like the [summary][ref10] function, but it does not include a standard deviation and it does not work well with the [group_by][ref11] function in dplyr.
 
+[ref10]: https://stat.ethz.ch/R-manual/R-devel/library/base/html/summary.html
+[ref11]: https://dplyr.tidyverse.org/reference/group_by.html
+
 ```{r}
 pretty_mean <- function(d, v) {
+  # d is a data frame or tibble, v is a variable in d.
   d |>
     summarize(n_missing=sum(is.na({{v}}))) -> d1
   d |>
@@ -125,4 +135,39 @@ pretty_mean <- function(d, v) {
 }
 ```
 
+#### Comment on the code
 
+Using tidyverse functions [inside a loop or function][ref12] is tricky. With an argument that represents a variable name, you either enclose the argument in double curly braces ("embrace" is the term they use) or you specify the argument inside of .data[[]].
+
+The [across][ref13] function, part of the dplyr/tidyverse libraries, allows you to select specific variable(s) for further operations within dplyr functions like summarize. I have had some difficulty with this function, but it seems to work well here.
+
+The [bind_cols][ref14] function, part of the dplyr library, combines two data frames or tibbles side by side. 
+
+[ref12]: https://dplyr.tidyverse.org/articles/programming.html
+[ref13]: https://dplyr.tidyverse.org/reference/across.html
+[ref14]: https://dplyr.tidyverse.org/reference/bind_cols.html
+
+#### Example
+
+Here is the code you would write without the pretty_mean function.
+
+```{r}
+penguins |>
+  summarize(
+    body_mass_g_mean=mean(body_mass_g, na.rm=TRUE),
+    body_mass_g_sd=sd(body_mass_g, na.rm=TRUE),
+    body_mass_g_min=min(body_mass_g, na.rm=TRUE),
+    body_mass_g_max=max(body_mass_g, na.rm=TRUE),
+    n_missing=sum(is.na(body_mass_g)))
+```
+
+Here is the code with the pretty_mean function.
+
+```{r}
+penguins |>
+  pretty_mean(body_mass_g)
+```
+
+Writing functions like these only make sense if you find yourself doing the same sort of thing three or more times in one program. There is a nice side effect of writing the function. If you decide that you want a different appearance or you want to round some of your results or you want to feed the data into a [nicely formatted table][ref15], it only takes a small modification in one spot.
+
+[ref15]: https://cran.r-project.org/web/packages/insight/vignettes/display.html
