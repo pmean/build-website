@@ -1,0 +1,128 @@
+---
+title: "New RMarkdown program"
+author: "Steve Simon"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+Most of the statistical summary functions in R produce plain vanilla output. That's actually good because it allows you to customize things the way you like. I have been finding that I use pretty close to the same customizations over and over again, so I thought I should standardize them in a few simple R functions.
+
+<!---more--->
+
+
+```{r setup, message=FALSE, warning=FALSE, echo=FALSE}
+library(broom)
+library(glue)
+library(palmerpenguins)
+# data(package = 'palmerpenguins')
+library(tidyverse)
+```
+
+## pretty_p
+
+The pretty_p function represents my efforts to avoid displaying small p-values using scientific notation. Some researchers get confused when they see something like 7.93e- 2. Even for those researchers who are used to scientific notation, it just makes things hard to read. This function replaces very small p-values with "p < 0.001" and rounds larger p-values to two significant figures.
+
+```{r}
+#| label: function-1
+
+pretty_p <- function(p_table) {
+  # p_table is the output from the tidy function in the broom package
+  p_table |>
+    mutate(p.value =
+      case_when(
+        p.value <  0.001 ~ "p < 0.001",
+        p.value >= 0.001 ~ glue("p = {signif(p.value, 2)}")))
+}
+```
+
+#### Comment on the code
+
+The [mutate][ref01] function modifies an existing variable or creates a new variable. The [case_when][ref02] function uses logic statements to assign values. Both are part of the [dplyr][ref03]/[tidyverse][ref04] libraries. The [signif][ref05] function, part of the base R package rounds a value to a specified number of significant digits. The [glue][ref06] function, part of the [glue][ref07] package, will insert variables inside of a string by surrounding the variable by curly brackets.
+
+[ref01]: https://dplyr.tidyverse.org/reference/mutate.html
+[ref02]: https://dplyr.tidyverse.org/reference/case_when.html
+[ref03]: https://dplyr.tidyverse.org/
+[ref04]: https://www.tidyverse.org/
+[ref05]: https://stat.ethz.ch/R-manual/R-devel/library/base/html/Round.html
+[ref06]: https://glue.tidyverse.org/
+[ref07]: https://glue.tidyverse.org/articles/glue.html
+
+#### Example
+
+Here is an example of how you might use the pretty_p function. I am using the [Palmer Penguins][ref08] dataset. Here is the output from tidy without pretty_p.
+
+[ref08]: https://allisonhorst.github.io/palmerpenguins/
+
+```{r}
+lm(flipper_length_mm ~ species + island, data=penguins) |>
+  tidy()
+```
+
+Here is the output from tidy with pretty_p.
+
+```{r}
+lm(flipper_length_mm ~ species + island, data=penguins) |>
+  tidy() |>
+  pretty_p()
+```
+
+## pretty_n 
+
+I also like to replace counts with percentages, but show the numerator and denominator in parentheses afterwards. This function will take results from the count function (or from any dataset with a variable named "n"), compute a total and percentage, and then display the results in a nice format.
+
+```{r}
+pretty_n <- function(n_table) {
+  # n_table is output from the count function
+  n_table |>
+  	mutate(total=sum(n)) |>
+  	mutate(pct=round(100*n/total)) |>
+	  mutate(pct=glue("{pct}% ({n}/{total})")) |>
+	  select(-n, -total)
+}
+```
+
+#### Comment on the code
+
+The mutate and glue functions are described above. The round function is described in the same link as the signif function. The [select][ref09] function will keep or drop columns of data.
+
+[ref09]: https://dplyr.tidyverse.org/reference/select.html
+
+#### Example
+
+Here is an example of how you might use the pretty_n function. Here is the output from count without pretty_n.
+
+```{r}
+penguins |>
+  count(species)
+```
+
+Here is the output from count with pretty_n.
+
+```{r}
+penguins |>
+  count(species) |>
+  pretty_n()
+```
+
+## pretty_mean
+
+For continuous variables, I usually like to compute a few descriptive statistics: the mean, standard deviation, minimum, maximum, and the number of missing values. This is easy enough to do but the code is long and tedious. The pretty_mean function is just as long and tedious (if not more so), but once you enter it, you can save a lot of time starting with the second variable that you need to summarize. I actually used to like the [summary][ref10] function, but it does not include a standard deviation and it does not work well with the [group_by][ref11] function in dplyr.
+
+```{r}
+pretty_mean <- function(d, v) {
+  d |>
+    summarize(n_missing=sum(is.na({{v}}))) -> d1
+  d |>
+    filter(!is.na({{v}})) |>
+    summarize(
+      across({{v}}, 
+        list(
+          mean=mean, 
+          sd=sd,
+          min=min,
+          max=max))) |>
+    bind_cols(d1)
+}
+```
+
+

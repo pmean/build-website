@@ -1,0 +1,18 @@
+---
+title: "New RMarkdown program"
+author: "Steve Simon"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+Here is a brief abstract.
+
+<!---more--->
+
+Here are more details.
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+Sys.Date()
+```
+

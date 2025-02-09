@@ -1,0 +1,23 @@
+---
+title: "New quarto program"
+author: "Steve Simon"
+format: 
+  html:
+    embed-resources: true
+editor: source
+execute: 
+  error: true
+  echo: true
+---
+
+Here is a brief abstract.
+
+<!---more--->
+
+Here are more details.
+
+```{r}
+#| label: setup
+
+Sys.Date()
+```
