@@ -1,5 +1,5 @@
 ---
-title: "New RMarkdown program"
+title: "Choices with the group_by and summarize functions"
 author: "Steve Simon"
 source: new
 date: "2025-02-11"
@@ -11,7 +11,7 @@ output: html_document
 page_update: complete
 ---
 
-You have an interesting choice in an R program When you use the group_by function with two or more arguments and follow that with the summarize function. Here is a practical illustration of how your choices.
+You have an interesting choice in an R program When you use the group_by function with two or more arguments and follow that with the summarize function. Here is a practical illustration of how your choices can make a difference.
 
 <!---more--->
 
@@ -117,3 +117,10 @@ penguins |>
 ```
 
 Notice that the percentages here add up to 100% within each species.
+
+## More information
+
+Like most of the tidyverse documentation, the information on summarize is very complete. Sometimes so complete as to be overwhelming. Look first at the summarise section in the [vignette on grouping][ref01]. The [documentation page on count][ref02] does not go into detail about the inconsistency between the count function and the group_by followed by summary functions, but is still worth reading.
+
+[ref01]: https://dplyr.tidyverse.org/articles/grouping.html#summarise
+[ref02]: https://dplyr.tidyverse.org/reference/count.html
