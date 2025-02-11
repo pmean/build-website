@@ -20,7 +20,6 @@ Most of the statistical summary functions in R produce plain vanilla output. Tha
 library(broom)
 library(glue)
 library(palmerpenguins)
-# data(package = 'palmerpenguins')
 library(tidyverse)
 ```
 

@@ -47,7 +47,12 @@ sweep_files <- function(subdir, file_name) {
 ```{r}
 #| label: loop
 
-modules <- c(glue("text/0{1:9}"), glue("text/{10:25}"))
+modules <- c(
+  glue("text/0{1:9}"), 
+  glue("text/{10:25}"),
+  "text/pending")
+n_files <- 0
+n_folders <- length(modules)
 for (s in modules) {
   print(glue("Searching in module {s}"))
   file_list <- character(0)
@@ -55,9 +60,15 @@ for (s in modules) {
     file_list <- c(file_list, identify_files(s, ext))
   }
   if (length(file_list) == 0) next
-  print(glue("{s}/{file_list}"))
+  n_files <- n_files + length(file_list)
+  print(glue("  {s}/{file_list}"))
   for (f in file_list) {
     sweep_files(s, f)
   }
 }
+print(
+  glue(
+    "Search completed, ",
+    "{n_files} files found ",
+    "in {n_folders} folders."))
 ```

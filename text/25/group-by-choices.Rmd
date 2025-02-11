@@ -1,0 +1,119 @@
+---
+title: "New RMarkdown program"
+author: "Steve Simon"
+source: new
+date: "2025-02-11"
+categories:
+- Blog post
+tags:
+- R programming
+output: html_document
+page_update: complete
+---
+
+You have an interesting choice in an R program When you use the group_by function with two or more arguments and follow that with the summarize function. Here is a practical illustration of how your choices.
+
+<!---more--->
+
+```{r setup, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(palmerpenguins)
+library(tidyverse)
+```
+
+The palmer penguins library provides an interesting dataset on body measurements of several penguin species conducted by the researchers at Palmer Station, Antarctica. The group_by and summarize functions are part of the dplyr library which is one of the ones loaded when you ask for the tidyverse library.
+
+## Illustration of group_by with two arguments followed by summarize
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  group_by(species, sex) |>
+  summarize(n=n())
+```
+
+To simplify the output, I am removing some missing values. In a real analysis, you should not be so cavalier in just tossing out entire rows of data when one of the important variables is missing.
+
+Notice the warning message produced by summarize. You can suppress this warning by adding warning=FALSE as a chunk option, or by specifying a .groups argument in the summarize function.
+
+Two of the .groups options are "drop_last" and "drop". The options don't matter if you stop with summarize. If you continue onward with additional calculations, the options sometimes (but not always) become important. Here is an example where the .groups options are important.
+
+## Calculating percentages using .groups="drop"
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  group_by(species, sex) |>
+  summarize(n=n(), .groups="drop") |>
+  mutate(total=sum(n)) |>
+  mutate(pct=round(100*n/total))
+```
+
+With the .groups="drop" option, all grouping is removed after the summarize function. This means that mutate(total=sum(n)) calculates the sum across all six of rows produced by summarize. Effectievly that produces percentages in the second mutate function will that add up to 100% across all six rows. Actually, they only add up to 99% but this is because of rounding.
+
+## Calculating percentages using .groups="drop_last"
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  group_by(species, sex) |>
+  summarize(n=n(), .groups="drop_last") |>
+  mutate(total=sum(n)) |>
+  mutate(pct=round(100*n/total))
+```
+
+The default option for the .groups argument in summarize is .groups="drop_last".
+
+With the .groups="drop_last" option, grouping is removed for sex, the last argument in group_by. This means that mutate(total=sum(n)) calculates the sum across each species. Effectively, this produce percentages in the second mutate function that add up to 100% across each species.
+
+## Calculating a third set of percentages
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  group_by(sex, species) |>
+  summarize(n=n(), .groups="drop_last") |>
+  mutate(total=sum(n)) |>
+  mutate(pct=round(100*n/total))
+```
+
+If you reverse the order of the two arguments in the group_by function, you get a third option. In this case, grouping is removed for species instead of sex. This means that mutate(total=sum(n)) calculates the sum across each species. Effectively, this produce percentages in the second mutate function that add up to 100% across each sex.
+
+## The count function works differently
+
+The count function Notice that while the documentation on count says that 
+
+"df %>% count(a, b) is roughly equivalent to df %>% group_by(a, b) %>% summarise(n = n())"
+
+it is not exactly equivalent. It becomes obvious first when you see that replacing group_by and summarize with count does not produce a warning message.
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  count(species, sex)
+```
+
+When you follow up with summarize functions to compute total and pct, you get the following.
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  count(species, sex) |>
+  mutate(total=sum(n)) |>
+  mutate(pct=round(100*n/total))
+```
+
+So count implicitly uses the .groups="drop" argument, which is not the default when you combine group_by with summarize.
+
+The count function does not have a .groups argument. If you wanted to do something effectively the same as .groups="drop_last" you just need to insert group_by statement after count.
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  count(species, sex) |>
+  group_by(species) |>
+  mutate(total=sum(n)) |>
+  mutate(pct=round(100*n/total))
+```
+
+Notice that the percentages here add up to 100% within each species.
