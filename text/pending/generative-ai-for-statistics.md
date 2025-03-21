@@ -1,6 +1,6 @@
 ---
-title: New post
-source: "Uses of generative AI in Statistics"
+title: "Uses of generative AI in Statistics"
+source: "New""
 author: Steve Simon
 date: 2025-02-07
 categories: Blog post
