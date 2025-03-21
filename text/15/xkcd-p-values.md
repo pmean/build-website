@@ -15,9 +15,7 @@ page_update: complete
 
 <div class="notes">
 
-Randall Munroe, author of the xkcd comic strip, will often comment on
-Statistics. This cartoon shows how p-values are typically
-interpreted.
+Randall Munroe, author of the xkcd comic strip, will often comment on Statistics. This cartoon shows how p-values are typically interpreted.
 
 Randall Munroe. P-Values. Available im [html format][mun1].
 

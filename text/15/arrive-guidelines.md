@@ -23,9 +23,7 @@ Kilkenny C, Browne WJ, Cuthill IC, Emerson M, Altman DG. Improving Bioscience Re
 
 There's a follow-up article on these guidelines at
 
-Muhlhausler BS, Bloomfield FH, Gillman MW. Whole Animal Experiments
-Should Be More Like Human Randomized Controlled Trials. PLoS Biol.
-2013;11(2):e1001481. doi:10.1371/journal.pbio.1001481. Available in [html format][muh1].
+Muhlhausler BS, Bloomfield FH, Gillman MW. Whole Animal Experiments Should Be More Like Human Randomized Controlled Trials. PLoS Biol. 2013;11(2):e1001481. doi:10.1371/journal.pbio.1001481. Available in [html format][muh1].
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

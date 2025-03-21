@@ -15,14 +15,9 @@ page_update: complete
 
 <div class="notes">
 
-Nate Silver emphasizes an important point about when statistical models
-can really shine: when there is a rich source of data and lots of
-opportunities to test the predictive power of your models. This is why
-baseball statistics provide such a great platform for teaching modelling
-techniques.
+Nate Silver emphasizes an important point about when statistical models can really shine: when there is a rich source of data and lots of opportunities to test the predictive power of your models. This is why baseball statistics provide such a great platform for teaching modelling techniques.
 
-Silver N (2015) Rick Data, Poor Data. ESPN. The Magazine (February 22).
-Available in [html format][sil1].
+Silver N (2015) Rick Data, Poor Data. ESPN. The Magazine (February 22). Available in [html format][sil1].
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

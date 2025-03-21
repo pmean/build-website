@@ -19,11 +19,11 @@ When you start off a section on limitations by stating that you don't anticipate
 
 If you are using self-report data, state that self-report data has many limitations. You can say this in a positive way like "Although self-report data is the only valid means to assess pain, we do understand that there are limitations for this type of data."
 
-If you are using retrospective data, you can also word this positively. "We chose a retrospective analysis because this is the only way to collect data on a disease with a latency period lasting decades. Nevertheless, retrospective data is likely to have problems with recall bias."
+If you are using retrospective data, you can also word this positively. "We chose a retrospective analysis because this is the only way to collect data on a disease with a latency period lasting decades. Nevertheless, retrospective data is likely to have problems with recall bias.
 
 More importantly, you need to outline what might go wrong with your research and what your contingency plans (alternative strategies) would be when something bad happens.
 
-Think of this as an opportunity. You can outline an alternative research plan that you could implement (assuming circumstances warrant it) without needing to check with anyone first. This is an enormous amount of flexibility that you can gain, if you can just be honest with yourself and think about how even your perfectly thought out research plan might go awry.
+Think of this as an opportunity. You can outline an alternative research plan that you could implement (assuming circumstances warrant it) without needing to check with anyone first This is an enormous amount of flexibility that you can gain, if you can just be honest with yourself and think about how even your perfectly thought out research plan might go awry.
 
 The bigger reason to be upfront about limitations and alternative plans is that it saves you from being pigeon-holed as a naive researcher.
 

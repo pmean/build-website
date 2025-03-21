@@ -22,8 +22,7 @@ The editorial goes further to criticize most Bayesian methods because of the pro
 
 They suggest larger than typical sample sizes, strong descriptive statistics (which they fail to define) and effect sizes. They believe that by "banning the NHSTP will have the effect of increasing the quality of submitted manuscripts by liberating authors from the stultified structure of NHSTP thinking thereby eliminating an important obstacle to creative thinking." It's worth debating this issue though I think that these recommendations are far too extreme.
 
-Trafimow D and Marks M (2015) Editorial. Basic and Applied Psychology,
-37(1). DOI: 10.1080/01973533.2015.1012991. Available in [html format][tra1].
+Trafimow D and Marks M (2015) Editorial. Basic and Applied Psychology, 37(1). DOI: 10.1080/01973533.2015.1012991. Available in [html format][tra1].
 
 You can find an [earlier version][sim1] of this page on my [blog][sim2].
 

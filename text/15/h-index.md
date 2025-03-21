@@ -19,122 +19,71 @@ Looking over the list of publications in order of citation, I see that I have ha
 
 Okay, here's the list of publications in order of citation.
 
-1.  The CYP2D6 Activity Score: Translating Genotype Information
-    into a Qualitative Measure of Phenotype. Cited in 213 publications.
+1.  The CYP2D6 Activity Score: Translating Genotype Information into a Qualitative Measure of Phenotype. Cited in 213 publications.
 
-2.  Optimization of cytochrome P4502D6 (CYP2D6) phenotype
-    assignment using a genotyping algorithm based on allele frequency
-    data. Cited in 121 publications.
+2.  Optimization of cytochrome P4502D6 (CYP2D6) phenotype assignment using a genotyping algorithm based on allele frequency data. Cited in 121 publications.
 
-3.  Vagal nerve stimulation in refractory epilepsy: the first
-    100 patients receiving vagal nerve stimulation at a pediatric
-    epilepsy center. Arch Pediatr Adolesc Med 157: 560-564. Cited in 95
-    publications.
+3.  Vagal nerve stimulation in refractory epilepsy: the first 100 patients receiving vagal nerve stimulation at a pediatric epilepsy center. Arch Pediatr Adolesc Med 157: 560-564. Cited in 95 publications.
 
-4.  High incidence of focal segmental glomerulosclerosis in
-    nephrotic syndrome of childhood. Cited in 91 publications.
+4.  High incidence of focal segmental glomerulosclerosis in nephrotic syndrome of childhood. Cited in 91 publications.
 
-5.  Resource Utilization and Expenditures for Overweight and
-    Obese Children. Cited in 85 publications.
+5.  Resource Utilization and Expenditures for Overweight and Obese Children. Cited in 85 publications.
 
-6.  Effect of rapid diagnosis of influenza virus type A on the
-    emergency department management of febrile infants and toddlers.
-    Cited in 70 publications.
+6.  Effect of rapid diagnosis of influenza virus type A on the emergency department management of febrile infants and toddlers. Cited in 70 publications.
 
-7.  Adverse effects of systemic glucocorticosteroid therapy in
-    infants with hemangiomas. Cited in 69 publications.
+7.  Adverse effects of systemic glucocorticosteroid therapy in infants with hemangiomas. Cited in 69 publications.
 
-8.  Atopic dermatitis in children in the United States,
-    1997-2004: Visit trends, patient and provider characteristics, and
-    prescribing patterns. Cited in 59 publications.
+8.  Atopic dermatitis in children in the United States, 1997-2004: Visit trends, patient and provider characteristics, and  prescribing patterns. Cited in 59 publications.
 
-9.  Low Levels of Tissue Inhibitors of Metalloproteinases With
-    a High Matrix Metalloproteinase-9/Tissue Inhibitor of
-    Metalloproteinase-1 Ratio Are Present in Tracheal Aspirate Fluids of
-    Infants Who Develop Chronic Lung Disease. Cited in 56 publications.
+9.  Low Levels of Tissue Inhibitors of Metalloproteinases With a High Matrix Metalloproteinase-9/Tissue Inhibitor of Metalloproteinase-1 Ratio Are Present in Tracheal Aspirate Fluids of Infants Who Develop Chronic Lung Disease. Cited in 56 publications.
 
-10. Abanses JC, Dowd MD, Simon SD, et al. Impact of rapid
-    influenza testing at triage on management of febrile infants and
-    young children. Cited in 55 publications.
+10. Abanses JC, Dowd MD, Simon SD, et al. Impact of rapid influenza testing at triage on management of febrile infants and young children. Cited in 55 publications.
 
-11. Factors Influencing Infant Visits to Emergency Departments.
-    Cited in 52 publications.
+11. Factors Influencing Infant Visits to Emergency Departments. Cited in 52 publications.
 
-12. Normal urinary calcium/creatinine ratios in
-    African-American and Caucasian children. Cited in 44 publications.
+12. Normal urinary calcium/creatinine ratios in African-American and Caucasian children. Cited in 44 publications.
 
-13. A breast-feeding assessment score to evaluate the risk for
-    cessation of breast-feeding by 7-10 days of age. Cited in 42
-    publications.
+13. A breast-feeding assessment score to evaluate the risk for cessation of breast-feeding by 7-10 days of age. Cited in 42     publications.
 
-14. Quality of Care for Common Pediatric Respiratory Illnesses
-    in United States Emergency Departments: Analysis of 2005 National
-    Hospital Ambulatory Medical Care Survey Data. Cited in 42
-    publications.
+14. Quality of Care for Common Pediatric Respiratory Illnesses in United States Emergency Departments: Analysis of 2005 National Hospital Ambulatory Medical Care Survey Data. Cited in 42 publications.
 
-15. X chromosome gene expression in human tissues: Male and
-    female comparisons. Cited in 41 publications.
+15. X chromosome gene expression in human tissues: Male and female comparisons. Cited in 41 publications.
 
-16. Timing of follow-up voiding cystourethrogram in children
-    with primary vesicoureteral reflux: Development and application of a
-    clinical algorithm. Cited in 41 publications.
+16. Timing of follow-up voiding cystourethrogram in children with primary vesicoureteral reflux: Development and application of a clinical algorithm. Cited in 41 publications.
 
-17. Semen analysis of military personnel associated with
-    military duty assignments. Cited in 32 publications.
+17. Semen analysis of military personnel associated with military duty assignments. Cited in 32 publications.
 
-18. Longitudinal study of semen quality of unexposed
-    workers. I. Study overview. Cited in 32 publications.
+18. Longitudinal study of semen quality of unexposed workers. I. Study overview. Cited in 32 publications.
 
-19. Tracking Trichophyton tonsurans through a large urban child
-    care center: Defining infection prevalence and transmission patterns
-    by molecular strain typing. Cited in 28 publications.
+19. Tracking Trichophyton tonsurans through a large urban child care center: Defining infection prevalence and transmission patterns by molecular strain typing. Cited in 28 publications.
 
-20. Transitioning Preterm Infants With Nasogastric Tube
-    Supplementation: Increased Likelihood of Breastfeeding. Cited in 28
-    publications.
+20. Transitioning Preterm Infants With Nasogastric Tube Supplementation: Increased Likelihood of Breastfeeding. Cited in 28 publications.
 
-21. A time to be promoted. The Prospective Study of Promotion
-    in Academia (Prospective Study of Promotion in Academia). Cited in
-    26 publications.
+21. A time to be promoted. The Prospective Study of Promotion in Academia (Prospective Study of Promotion in Academia). Cited in 26 publications.
 
-22. A Four-Site Study of Stress, Strain, and Coping for
-    Inpatient Registered Nurses. Cited in 26 publications.
+22. A Four-Site Study of Stress, Strain, and Coping for Inpatient Registered Nurses. Cited in 26 publications.
 
-23. Interindividual variability in acetaminophen sulfation by
-    human fetal liver: Implications for pharmacogenetic investigations
-    of drug-induced birth defects. Cited in 25 publications.
+23. Interindividual variability in acetaminophen sulfation by human fetal liver: Implications for pharmacogenetic investigations of drug-induced birth defects. Cited in 25 publications.
 
-24. Double probing of human spermatozoa for persistent
-    histones, surplus cytoplasm, apoptosis and DNA fragmentation. Cited
-    in 24 publications.
+24. Double probing of human spermatozoa for persistent histones, surplus cytoplasm, apoptosis and DNA fragmentation. Cited in 24 publications.
 
-25. Comparison of the Burkard and Allergenco MK-3 volumetric
-    collectors. ??? Cited in 24 publications.
+25. Comparison of the Burkard and Allergenco MK-3 volumetric collectors. ??? Cited in 24 publications.
 
-26. Semen quality and hormone levels among radiofrequency
-    heater operators. Cited in 23 publications.
+26. Semen quality and hormone levels among radiofrequency heater operators. Cited in 23 publications.
 
-27. Measuring Male Reproductive Hormones for Occupational Field
-    Studies. Cited in 23 publications.
+27. Measuring Male Reproductive Hormones for Occupational Field Studies. Cited in 23 publications.
 
-28. Influence of the News Media on Diagnostic Testing in the
-    Emergency Department. Cited in 21 publications.
+28. Influence of the News Media on Diagnostic Testing in the Emergency Department. Cited in 21 publications.
 
-29. Duration of breast-feeding patterns established in the
-    hospital: Influencing factors. Results from a national survey. Cited
-    in 21 publications.
+29. Duration of breast-feeding patterns established in the hospital: Influencing factors. Results from a national survey. Cited in 21 publications.
 
-30. Comparison of two formulae for estimation of glomerular
-    filtration rate in children. Cited in 20 publications.
+30. Comparison of two formulae for estimation of glomerular filtration rate in children. Cited in 20 publications.
 
-31. Predicting accrual in clinical trials with Bayesian
-    posterior predictive distributions. Cited in 19 publications.
+31. Predicting accrual in clinical trials with Bayesian posterior predictive distributions. Cited in 19 publications.
 
-32. Reproductive function in relation to duty assignments among
-    military personnel. Cited in 19 publications.
+32. Reproductive function in relation to duty assignments among military personnel. Cited in 19 publications.
 
-33. Longitudinal study of semen quality of unexposed workers.
-    Sperm motility characteristics. Cited in 19 publications.
+33. Longitudinal study of semen quality of unexposed workers. Sperm motility characteristics. Cited in 19 publications.
 
 I won't list the articles beyond here. I have around a hundred publications. Needless to say, many of my publications have very few citations.
 

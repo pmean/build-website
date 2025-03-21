@@ -54,3 +54,36 @@ You can also separate the words using a delimiter, a special symbol that visuall
 The two most common delimiters that work in R and most other programming languages are the dot (`birth.weight`) and the underscore (`birth_weight`). The latter is also known as snake_case. You should be careful about the dot as a delimiter in other languages, as it often serves a different purpose. It is definitely an issue with SQL and Python but there may be other languages where a dot cannot be uses as a delimiter.
 
 It's nice that R allows you the freedom to use CamelCase or to use dots and underscore as delimiters. The problem is that there is no consistency within the R language on this. It gets worse as you add in the various libraries. The tidyverse programmers try to use underscore delimiters for the most part but even within the tidyverse there are inconsistencies.
+
+## Pipes
+
+There are two different pipes in R (actually more, as discussed later). The first pipe, %>%, is part of the [magrittr][ref04] library. This was developed in [2014][ref05], though other versions were circulating a year or two earlier.
+
+[ref04]: https://magrittr.tidyverse.org/
+[ref05]: http://adolfoalvarez.cl/blog/2021-09-16-plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/
+
+You can load the magirttr pipe with `library(magrittr)` but it is also included when you use `library(tidyverse)`. I had thought that the latter would just include `magrittr` along with `dplyr`, `ggplot2`, etc. But apparently not. The `magrittr` library includes some extra operators (%<>%, %T>%, %$%) that are not available if you rely on the `tidyverse` library.
+
+In 2021, the team responsible for the base R package dedicated to implement a different pipe operator, |>, which works in much the same way as the magrittr pipe. It has several differences due to necessity, but one inconsistency that they made was still quite maddening. The magrittr pipe uses a dot (.) as the placeholder when you need to feed the left hand side of a pipe to something other than the first argument of the right hand side. But the base R development team decided that an underscore (_) was a better choice. As an example, you would feed a dataframe into the `lm` function in the magrittr pipe using
+
+`d %>% lm(y~x, data=.)`
+
+but the base pipe would use
+
+`d |> lm(y~x, data=_)
+
+instead.
+
+Adding to the inconsistency, the layers used in ggplot2 are combined in a "pipe-like" fashion, but you need the plus sign (+) in ggplot2. So a scatterplot using a square root transformation might pipe the dataframe into the `mutate` function of dplyr, then into the `ggplot` function of ggplot2 where the scatterplot is defined with the `geom_point` function. This leads to a rather confusing chain
+
+```{}
+d |>
+  mutate(sqrt_y=sqrt(y)) |>
+  ggplot(aes(x=x, y=sqrt_y)) +
+  geom_point() +
+  <other ggplot2 functions>
+```
+
+## Is there any hope of reconciling these differences?
+
+No. There is so much code written over the 25 years of R's existence. These inconsistencies have been baked into too much code. If you tried to revise the R programming language to remove these inconsistencies, too much code would be broken.
