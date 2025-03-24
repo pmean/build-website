@@ -1,0 +1,83 @@
+---
+title: "Check that all Rmd files render properly"
+author: "Steve Simon"
+format:
+  html:
+    embed-resources: true
+---
+
+This program was written by Steve Simon on 2024-11-09 and is placed in the public domain.
+
+## Preliminaries
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(glue)
+library(quarto)
+library(tidyverse)
+```
+
+## Set old and new locations
+
+```{r}
+#| label: locations
+
+old_path <- "../text"
+old_directories <- c(25:10, paste0("0", (9:0)), "99")
+new_path <- "../../qblog/posts"
+file_pattern <- "Rmd$"
+```
+
+## Find files
+
+```{r}
+#| label: find-files
+
+rmd_files <- NULL
+for (dir in old_directories) {
+  glue("{old_path}/{dir}") |>
+    list.files() |>
+    str_subset(file_pattern) -> to_be_tested
+
+  n_to_be_tested <- length(to_be_tested)
+  message <- glue(
+    "Examining {n_to_be_tested} files in {old_path}/{dir}")
+  cat(message)
+  cat("\n")
+  
+  rmd_files <- append(rmd_files, glue("{old_path}/{dir}/{to_be_tested}"))
+}
+```
+
+## List libraries
+
+```{r}
+#| label: list-libraries
+
+lib <- NULL
+for (i in 1:length(rmd_files)) {
+  read_lines(rmd_files[i]) |>
+    str_subset("library\\(") |>
+    append(lib) -> lib
+}
+lib |>
+  unique() |>
+  sort() -> lib
+cat(lib, sep="\n")
+```
+
+## Render files
+
+```{r}
+#| message: false
+#| warning: false
+#| label: render-files
+
+for (i in 1:length(rmd_files)) {
+  print(glue("{i}: {rmd_files[i]}"))
+  tmp <- quarto_render(input=rmd_files[i], quiet=TRUE)
+}
+```

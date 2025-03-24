@@ -24,7 +24,7 @@ library(tidyverse)
 ```{r}
 #| label: locations
 old_path <- "../text"
-old_directories <- c("99", paste0("0", (0:9)), 10:24)
+old_directories <- c("99", paste0("0", (0:9)), 10:25)
 new_path <- "../../qblog/posts"
 file_pattern <- "md$"
 ```
