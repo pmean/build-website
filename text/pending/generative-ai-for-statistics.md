@@ -16,7 +16,19 @@ I have not been thrilled with all of the hype and hoopla about Generative AI tha
 
 ## what is generative AI?
 
+Generative AI is a form of Artificial Intelligence (AI) using machine learning models that are trained on massive amounts of text or image data. They allow the end user to create original text or image files that meet certain requirements. The files are original in the sense that they are a synthesis of a large number of existing files without being quite like any single one of those files.
 
+Use of AI to create text and images has been around for quite a long time. The distinguishing feature of the recently developed Generative AI models is how realistic the results are. It is very difficult for you and I to distinguish the difference between text or image files created by other humans and text or image files created by Generative AI. It is difficult for computers as well. AI models that have been developed to detect what files were created by Generative AI, but these AI models have not fared so well. It seems that computers have outsmarted themselves. This raises some difficult questions about work being created by Generative AI and then passed off as your own work.
+
+## How do Generative AI models work for text
+
+## How do Generative AI models work for images
+
+How Generative AI models work - Artificial Intelligence for Image Research. Available in [html format]
+
+## Other Generative AI models
+
+Music, programming, videos
 
 ## What are some of the concerns with this new technology?
 
@@ -78,7 +90,7 @@ There is an "unconference" on the use of AI in scholarly works. Details are [her
 
 ## NotebookLM
 
-NoteboolLM lets you can use the methods of large language models on resources of your own choosing.
+NotebookLM lets you can use the methods of large language models on resources of your own choosing.
 
 ## Gemini
 
