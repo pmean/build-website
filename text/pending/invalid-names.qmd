@@ -1,0 +1,201 @@
+---
+title: "Working with invalid names in R"
+author: "Steve Simon"
+source: new
+date: "2025-04-09"
+categories:
+- Blog post
+tags:
+- R programming
+format: 
+  html:
+    embed-resources: true
+editor: source
+execute: 
+  error: true
+  echo: true
+page_update: complete
+---
+
+The R programming language has a few rules about names that you can assign for various objects. This can cause some issues with data frames and tibbles that you might be importing or exporting. There is a fairly standard, but somewhat awkward way to handle this.
+
+<!---more--->
+
+The rules for names in R are fairly restrictive. A name cannot include blanks. It cannot include most special characters, such as the dash (-) or the slash (/). The two exceptions are the dot (.) and the underscore (_). Any combination of those two symbols plus any number (0-9) or any letter (A-Z, a-z) is fine, with one exception. You can't start a name with a number. So a1 is okay, but 1a is not.
+
+## Invalid names during data import
+
+You may encounter invalid names when you import data from a text file, from a spreadsheet, or from other statistical software. You can live with the invalid names with the careful use of backticks and quote marks. You can also change the names to names that are valid. I'll show both approaches, though I strongly prefer changing to valid names.
+
+When you import a text file or a spreadsheet, the file will often include the names of each variable as the first line. These names might not respect the limitations that R imposes.
+
+Less common, but still a problem is the names from files created by other statistical software. The rules that those programs have for variable names may not work with R.
+
+## Use backticks or quote marks
+
+You can still work with data where one or more variables have invalid names by surrounding the name with backticks or quote marks.
+
+Let's work with a small file with two invalid names. First load the tidyverse library. I'll also need the gt package for the last example.
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(gt)
+library(tidyverse)
+```
+
+Read in the file using the read_csv function in the readr library (included when you loaded tidyverse) and display the results.
+
+```{r}
+#| label: read
+
+beatles_1 <- read_csv(
+  file = "invalid-names.csv",
+  col_names = TRUE,
+  col_types = "cc")
+beatles_1
+```
+
+The results display just fine, but if you try to work with individual variables, it all falls apart.
+
+```{r}
+#| label: last-name-1
+
+beatles_1$last-name
+```
+
+You can work with this variable by surrounding it with backticks
+
+```{r}
+#| label: last-name-2
+
+beatles_1$`last-name`
+```
+
+or with quotes.
+
+```{r}
+#| label: last-name-3
+
+beatles_1[ ,"last-name"]
+```
+
+Sometimes the backticks and the quote marks are interchangeable
+
+```{r}
+#| label: last-name-4
+
+beatles_1$"last-name"
+```
+
+and sometimes they are not. With a bit of trial and error, you can figure out what works and what doesn't.
+
+```{r}
+#| label: last-name-5
+
+beatles_1[ ,`last-name`]
+```
+
+## The rename function
+
+Always having to surround your names with backticks or quotes get very tedious very quickly. It's a good idea to change the names right away. The rename function in dplyr is an easy way to do this.
+
+```{r}
+#| label: rename
+
+beatles_1 |>
+  rename(
+    last_name = `last-name`,
+    first_name = `1st-name`) -> beatles_2
+
+beatles_2
+```
+
+You could also use the names function, part of base R.
+
+```{r}
+#| label: names
+
+names(beatles_1) <- c("last_name", "first_name")
+beatles_1
+```
+
+Once you have converted to valid names, you don't have to use backticks and quote marks.
+
+## The name_repair argument
+
+Most (but not all) of the functions in the readr library have a name_repair argument. The default value for the name_repair argument is "unique". This will change the name of a variable to avoid the unpleasant prospect of having two variables with the same name, but it won't fix names that fail to follow the rules of R. 
+
+You can, however, use the "universal" value for the name_repair. This will modify any variables to insure unique names, but will also slightly modify the names to avoid any conflicts with 
+
+```{r}
+#| label: repair
+
+beatles_3 <- read_csv(
+  file = "invalid-names.csv",
+  col_names = TRUE,
+  col_types = "cc",
+  name_repair = "universal")
+beatles_3
+```
+
+The universal repair places dots strategically to make the variable name valid. The results may look a bit ugly at times, but that's a small price to pay.
+
+## Replace with generic names
+
+You can tell R to ignore the names given in the first line. If you do this, R will create generic names. Remember to skip to the second line of the file, or R will use the variable names as the first row of the data frame or tibble.
+
+```{r}
+#| label: generic
+
+beatles_4 <- read_csv(
+  file = "invalid-names.csv",
+  col_names = FALSE,
+  skip = 1,
+  col_types = "cc")
+
+beatles_4
+```
+
+I generally discourage the use of generic names like X1 and X2. But it does work.
+
+## Introducing invalid names during output
+
+There are a few times when you might want to deliberately create invalid names. One reason is that you are outputtng a dataset using a fancy format and want the headings to look nice.
+
+You should look at the gt library, which does an awesome job of creating nice looking tables. Here's some sample code.
+
+```{r}
+#| label: gt-1
+
+beatles_1 |>
+  gt() |> 
+  tab_header(
+    title = "The Fab Four",
+    subtitle = "In alphabetical order")
+```
+
+The table looks nice, except for the names in each column. This table would be greatly improved using mixed capitalization and spaces. You can do this with the rename function and backticks.
+
+```{r}
+#| label: gt-2
+
+beatles_1 |>
+  rename(
+    `Last Name` = last_name,
+    `First Name` = first_name) |>
+  gt() |> 
+  tab_header(
+    title = "The Fab Four",
+    subtitle = "In alphabetical order")
+```
+
+Now doesn't that look so much nicer!
+
+## Summary
+
+You might encounter invalid names for variables in a data frame or tibble when you import data. You can accommodate those invalid names using backticks and/or quote marks. It is usually better to convert to valid names. You can do this several ways.
+
+You may sometimes want to create invalid names intentionally to make nicer looking tables. Use the rename function and backticks to accomplish this.
