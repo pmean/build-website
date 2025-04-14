@@ -10,7 +10,9 @@ output: html_document
 page_update: no
 ---
 
-Here are some resources that I googled while listening to talks at the 2025 Nexus BioinformaticsHere is a brief abstract.
+Here are some resources that I googled while listening to talks at the 2025 Nexus Bioinformatics Conference.
+
+https://www.kcbioinformatics.org/conference/agenda/
 
 <!---more--->
 
