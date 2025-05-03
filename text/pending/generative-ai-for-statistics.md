@@ -1,5 +1,5 @@
 ---
-title: "Uses of generative AI in Statistics"
+title: "Uses of Generative AI in Statistics"
 source: "New""
 author: Steve Simon
 date: 2025-02-07
@@ -14,25 +14,37 @@ I have not been thrilled with all of the hype and hoopla about Generative AI tha
 
 <!---more--->
 
-## what is generative AI?
+## what is Generative AI?
 
 Generative AI is a form of Artificial Intelligence (AI) using machine learning models that are trained on massive amounts of text or image data. They allow the end user to create original text or image files that meet certain requirements. The files are original in the sense that they are a synthesis of a large number of existing files without being quite like any single one of those files.
 
 Use of AI to create text and images has been around for quite a long time. The distinguishing feature of the recently developed Generative AI models is how realistic the results are. It is very difficult for you and I to distinguish the difference between text or image files created by other humans and text or image files created by Generative AI. It is difficult for computers as well. AI models that have been developed to detect what files were created by Generative AI, but these AI models have not fared so well. It seems that computers have outsmarted themselves. This raises some difficult questions about work being created by Generative AI and then passed off as your own work.
 
-## How do Generative AI models work for text
-
 ## How do Generative AI models work for images
 
-How Generative AI models work - Artificial Intelligence for Image Research. Available in [html format]
+There are at least two approaches for generating images: diffusion and generative adversarial networks (University of Toronto, nodate).
 
-## Other Generative AI models
+With diffusion, you train a deep neural network to convert a group of images into static, or random featureless images. Then if you reverse the deep neural network and feed it other random featureless images, it will produce (if all works well) images that are similar to the group of images that was used to trained the deep neural network.
 
-Music, programming, videos
+A generative adversarial network develops two deep neural nets, a generator and a discriminator. The generator develops images that it hopes are similar to real images. Then the real images and the generator images are fed into the discriminator, which tries to identify which images are real and which are not. Information that the discriminator uses to determine realness then helps the generator develop images that are harder to discern from real images. The discriminator then tries to develop a system that is better and still able to indentify which images are real. This goes back and forth, but the generator eventually wins and is able to produce images that look so real that the discriminator can't tell the difference. 
+
+Generating realistic looking images is not enough. You need to select images that are responsive to a text prompt. This requires developing an encoder. An encoder converts a text string into a numeric vector in such a way that a similar text strings produce vector that are close to one another. Where the text strings differ on a common factor, the vectors (hopefully) will reflect this in a consistent way. So the difference in vectors between "man" and "woman" will match the difference in vectors between "king" and "queen". The difference in vectors between "man" and "king" will match the difference in vectors between "woman" and "queen" but in a different way. Encoding attempts to assign meaning to words. The encodings are then matched with images so that a text prompt using the word "king" will produce image features associated with maleness and royalty.
+
+A simple statistical exercise comparing words associated with "geek" or "nerd" (Settles 2013) produced a simple graph that could be thought of as a two dimensional encoding. The encodings used in Generative AI require hundreds if not thousands of dimensions.
+
+## How do Generative AI models work for text
+
+Some of the concepts behind these text models have been around for a long time. Autocorrect looks at a word that is not in your dictionary and finds a word that is reasonably close. Autocomplete will look at string of letters that you type and try to predict the word that you might use. 
+
+Generative AI models for text, also known as large language models, take this concept further by predicting words and phrases that fit well with the previous words and phrases. They rely on some of the same approaches described above for images.
+
+## Generative AI models for programming
+
+These models can also generate music and videos. More importantly from the perspective of Statistics, Generative AI models can produce computer programs. This was an unexpected benefit of these models. They were trained on vast amounts of information found on the Internet, and that included vast amounts of computer code. Generative AI models can produce programs based on text prompts that actually work. It is unclear how well they work in general, but they do a very good job for basic programming tasks.
 
 ## What are some of the concerns with this new technology?
 
-First, I have to say that there are some serious ethical and legal problems with at least some of these generative AI programs. I can't say it is true of all of them, but at least some of them represent a massive theft of intellectual property.
+First, I have to say that there are some serious ethical and legal problems with at least some of these Generative AI programs. I can't say it is true of all of them, but at least some of them represent a massive theft of intellectual property.
 
 ## Copyright concerns
 
@@ -54,7 +66,7 @@ Now I don't care. I find it more amusing than anything. But it illustrates a poi
 
 When you publish your work on the Internet, you have the option of using a Creative Commons open source license. This is a popular choice on the Internet. There are several license options. You can require that anyone using your content has to [cite the original source][cc-by-4.0]. You can require that they only use your content for [non-commercial purposes][cc-by-nc-4.0]. You can require that they use your content [only in an unmodified form][cc-by-nd-4.0] (no derivative works). 
 
-Any one of these licenses could be seen as forbidding the use of your content in training a neural net. Well maybe not. The companies creating these generative AI models would argue that their use of your content falls under the fair use provisions of copyright law. Well, maybe, but I doubt it.
+Any one of these licenses could be seen as forbidding the use of your content in training a neural net. Well maybe not. The companies creating these Generative AI models would argue that their use of your content falls under the fair use provisions of copyright law. Well, maybe, but I doubt it.
 
 ## More restrictive copyrights
 
@@ -68,15 +80,15 @@ See the Appel (2023), Levy (2024), and Metz (2024) references for overviews of s
 
 ## Style and manner
 
-There's a second issue about intellectual theft beyond the theft of those developing the generative AI models. You can use generative AI to create original content, but in a style or manner that is so similar to the original writer or artist that it infringes on their intellectual property. 
+There's a second issue about intellectual theft beyond the theft of those developing the Generative AI models. You can use Generative AI to create original content, but in a style or manner that is so similar to the original writer or artist that it infringes on their intellectual property. 
 
 This is a gray area in copyright law, and many experts say that this is not a violation of copyright, but I still think this should be a concern.
 
 ## Plagiarism concerns
 
-Finally, you might find yourself accused of plagiarism if the content you get from a generative AI program was crafted too closely to a single source. I am unaware of any examples where this has happened, but I would encourage anyone using content from a generative AI program to run their results by a plagiarism detector before publishing it.
+Finally, you might find yourself accused of plagiarism if the content you get from a Generative AI program was crafted too closely to a single source. I am unaware of any examples where this has happened, but I would encourage anyone using content from a Generative AI program to run their results by a plagiarism detector before publishing it.
 
-Peer-reviewed journals have concerns about the use of generative AI both in the publications that they have submitted and in the peer reviews themselves.
+Peer-reviewed journals have concerns about the use of Generative AI both in the publications that they have submitted and in the peer reviews themselves.
 
 ## Hallucinations
 
@@ -146,7 +158,13 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 
 7. Corey Mohler. AI and the Meaning of Life. Existential Comics. No date. Available in [html format][mohler-no-date].
 
+8. Burr Settles. On “Geek” Versus “Nerd”. Slackpropogation blog, 2013-06-03. Available in [html format][settles-2013]. 
+
 8. Riddhi Setty. AI Imitating Artist ‘Style' Drives Call to Rethink Copyright Law. Bloomberg Law, 2023-05-31. Available in [html format][setty-2023].
+
+9. University of Toronto Libraries. How Generative AI models work - Artificial Intelligence for Image Research. Available in [html format][toronto-nodate].
+
+[toronto-nodate]: https://guides.library.utoronto.ca/c.php?g=735513&p=5297039
 
 9. Wikipedia contributors. Sample size determination. Wikipedia, The Free Encyclopedia. 2025-02-07, Available in [html format][widipedia-2025].
 
@@ -162,6 +180,7 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 [mckinsey-2024]: https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai
 [metz-2024]: https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
 [mohler-no-date]: https://existentialcomics.com/comic/557
+[settles-2013]: https://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/
 [setty-2023]: https://news.bloomberglaw.com/ip-law/ai-imitating-artist-style-drives-call-to-rethink-copyright-law
 [wikipedia-2025]: https://en.wikipedia.org/wiki/Sample_size_determination
 
