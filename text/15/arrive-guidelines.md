@@ -13,11 +13,9 @@ page_update: complete
 
 ![Figure 1. First page of research article](http://www.pmean.com/new-images/15/arrive-guidelines01.png)
 
-<div class="notes">
+<!---More--->
 
 A lot of people have adapted and updated the CONSORT Guidelines to reporting clinical trials to handle other types of research. One of these adaptations is the ARRIVE guidelines for reporting animal research. Many of these guidelines follow CONSORT quite closely, but there are details, such as documenting the species and strain of the experimental animals and describing the housing conditions, that are specific to animal experiments.
-
-<!---More--->
 
 Kilkenny C, Browne WJ, Cuthill IC, Emerson M, Altman DG. Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research. PLoS Biol. 2010;8(6). doi:10.1371/journal.pbio.1000412. Available in [html format][kil1].
 
