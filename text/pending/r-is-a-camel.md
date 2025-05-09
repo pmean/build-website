@@ -55,6 +55,8 @@ The two most common delimiters that work in R and most other programming languag
 
 It's nice that R allows you the freedom to use CamelCase or to use dots and underscore as delimiters. The problem is that there is no consistency within the R language on this. It gets worse as you add in the various libraries. The tidyverse programmers try to use underscore delimiters for the most part but even within the tidyverse there are inconsistencies.
 
+The min and max functions use the na.rm argument to tell R how to handle missing values. The slice_min and slice_max functions use the na_rm argument.
+
 ## Pipes
 
 There are two different pipes in R (actually more, as discussed later). The first pipe, %>%, is part of the [magrittr][ref04] library. This was developed in [2014][ref05], though other versions were circulating a year or two earlier.

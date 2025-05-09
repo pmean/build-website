@@ -7,7 +7,6 @@ categories:
 - Blog post
 tags:
 - Measuring benefit and risk
-- Rmarkdown code
 output: html_document
 page_update: complete
 ---
@@ -59,7 +58,8 @@ Here's a simple example from page 267 of a classic book, Alan Agresti. An Introd
 
 ![](http://www.pmean.com/new-images/23/mcnemar-test-01.png).
 
-```{r mcnemar-test-01}
+
+```{r, echo=FALSE}
 a <- 833; b <- 125; c <- 2; d <- 160
 n <- a + b + c + d
 r1 <- round(100*(a+b)/n)
@@ -101,38 +101,40 @@ With a bit of algebra, you can show that this equals
 
 Compare this to a chi-square distribution with one degree of freedom.
 
-In the survey about heaven and hell, b=`r b` and c=`r c`. The test statistic is 
+In the survey about heaven and hell, b=125 and c=2. The test statistic is 
 
--   $T = \frac{(125-2)^2}{127} = `r T`$
+-   $T = \frac{(125-2)^2}{127} = 119.1$
 
 
 
-If you want to enter this data into a program like SPSS, you can't type it as you see it.
+If you want to enter this data into a program like SPSS or R, you can't type it as you see it.
 
-```
+```{}
 833,125
 2,160
 ```
 
-It would be nice if you could do this, but it doesn't work for a variety of reasons. You need to put each count on a separate row. Specify the belief in heaven (yes/no) as the first column and belief in hell (yes/no) as the second column. The count for each combination goes in the third column.
+It would be nice if you could do this, but it doesn't work for a variety of reasons. You need to put each count on a separate row. Specify the belief in heaven (yes/no) as the first column and belief in hell (yes/no) as the second column. Notice how the order is staggered to allow all four combinations to appear. The count for each combination goes in the third column.
 
-```
+```{}
 heaven,hell,count
-1,1,833
-1,2,125
-2,1,2
-2,2,160
+"yes","yes",833
+"yes","no",125
+"no","yes",2
+"no","no",160
 ```
 
-Make sure that you designate count as a weight before starting your analysis. Here is what the output looks like in SPSS
+Make sure that you designate count as a weight before starting your analysis. In SPSS, select 
 
-![](http://www.pmean.com/new-images/23/mcnemar-test-02.png)
+-   Analyze | Nonparametric Tests | Legacy Dialogs | 2 Related Samples
 
-Here is what it looks like in R
+from the menu.
 
-```{r mcnemar-test-02}
-mcnemar.test(matrix(c(833, 125, 2, 160), nrow=2), correct=FALSE)
-```
+In R, use the 
+
+-   mcnemar.test
+
+function.
 
 Thanks are due to Wikipedia for helping me identify the statistician behind the test and the original publication associated with the test.
 
