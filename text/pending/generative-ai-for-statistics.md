@@ -40,7 +40,11 @@ Generative AI models for text, also known as large language models, take this co
 
 ## Generative AI models for programming
 
-These models can also generate music and videos. More importantly from the perspective of Statistics, Generative AI models can produce computer programs. This was an unexpected benefit of these models. They were trained on vast amounts of information found on the Internet, and that included vast amounts of computer code. Generative AI models can produce programs based on text prompts that actually work. It is unclear how well they work in general, but they do a very good job for basic programming tasks.
+These models can also generate music and videos. More importantly from the perspective of Statistics, Generative AI models can produce computer programs. This was an unexpected benefit of these models. They were trained on vast amounts of information found on the Internet, and that included vast amounts of computer code. 
+
+So when people asked programming questions, these Generative AI models could spit out some pretty good code.
+
+Now there are Generative AI models that specialize in programming. They can produce programs based on text prompts that actually work well enough that some teachers are using them in their Statistics classes. I have not had much experience yet with this, but it appears to be a promising area.
 
 ## What are some of the concerns with this new technology?
 
