@@ -168,8 +168,6 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 
 9. University of Toronto Libraries. How Generative AI models work - Artificial Intelligence for Image Research. Available in [html format][toronto-nodate].
 
-[toronto-nodate]: https://guides.library.utoronto.ca/c.php?g=735513&p=5297039
-
 9. Wikipedia contributors. Sample size determination. Wikipedia, The Free Encyclopedia. 2025-02-07, Available in [html format][widipedia-2025].
 
 [cc-by-4.0]: https://creativecommons.org/licenses/by/4.0/
@@ -186,5 +184,6 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 [mohler-no-date]: https://existentialcomics.com/comic/557
 [settles-2013]: https://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/
 [setty-2023]: https://news.bloomberglaw.com/ip-law/ai-imitating-artist-style-drives-call-to-rethink-copyright-law
+[toronto-nodate]: https://guides.library.utoronto.ca/c.php?g=735513&p=5297039
 [wikipedia-2025]: https://en.wikipedia.org/wiki/Sample_size_determination
 
