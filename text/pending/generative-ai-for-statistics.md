@@ -66,7 +66,7 @@ Now I don't care. I find it more amusing than anything. But it illustrates a poi
 
 When you publish your work on the Internet, you have the option of using a Creative Commons open source license. This is a popular choice on the Internet. There are several license options. You can require that anyone using your content has to [cite the original source][cc-by-4.0]. You can require that they only use your content for [non-commercial purposes][cc-by-nc-4.0]. You can require that they use your content [only in an unmodified form][cc-by-nd-4.0] (no derivative works). 
 
-Any one of these licenses could be seen as forbidding the use of your content in training a neural net. Well maybe not. The companies creating these Generative AI models would argue that their use of your content falls under the fair use provisions of copyright law. Well, maybe, but I doubt it.
+Any one of these licenses could be seen as forbidding the use of your content in training a neural net. Well maybe not. The companies creating these Generative AI models would argue that their use of your content falls under the fair use provisions of copyright law. Well, maybe, but I doubt it. There is also a call to modify intellectual property laws to include generate AI uses of copyrighted materials (Crouch 2025).
 
 ## More restrictive copyrights
 
@@ -148,6 +148,9 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 
 2. Kunming Cheng, Zaijie Sun, Xiaojun Liu, Haiyang Wu and Cheng Li. Generative artificial intelligence is infiltrating peer review process. Crit Care 28, 149 (2024). doi: [10.1186/s13054-024-04933-z][cheng-2024]
 
+3. Dennis Crouch. Jack Dorsey and Elon Musk Call for Abolition of "All IP Law". Patentlyo blog, 2025-04-14. Available in [html format][crouch-2025]
+April 14, 2025
+
 3. Katie Hope Grobman. Psychology Humor about Ethics Boards. Copernican Revolution blog. Available in [html format][grobman-no-date].
 
 4. Annelise Levy. Nvidia Illegally Scraped YouTube Videos for AI, Suit Says. Bloomberg Law, 2024-08-15. Available in [html format][levy-2024]
@@ -175,6 +178,7 @@ I think the response is slightly above average. I do prefer the Wikipedia page, 
 
 [appel-2023]: https://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem
 [cheng-2024]: https://doi.org/10.1186/s13054-024-04933-z
+[crouch-2025]: https://patentlyo.com/patent/2025/04/jack-dorsey-abolition.html
 [grobman-no-date]: https://copernicanrevolution.org/humor/irb-ethics-boards
 [levy-2024]: https://news.bloomberglaw.com/ip-law/nvidia-illegally-scrapped-youtube-videos-to-train-ai-suit-says
 [mckinsey-2024]: https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai
