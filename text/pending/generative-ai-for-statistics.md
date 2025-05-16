@@ -40,7 +40,11 @@ Generative AI models for text, also known as large language models, take this co
 
 ## Generative AI models for programming
 
-These models can also generate music and videos. More importantly from the perspective of Statistics, Generative AI models can produce computer programs. This was an unexpected benefit of these models. They were trained on vast amounts of information found on the Internet, and that included vast amounts of computer code. Generative AI models can produce programs based on text prompts that actually work. It is unclear how well they work in general, but they do a very good job for basic programming tasks.
+These models can also generate music and videos. More importantly from the perspective of Statistics, Generative AI models can produce computer programs. This was an unexpected benefit of these models. They were trained on vast amounts of information found on the Internet, and that included vast amounts of computer code. 
+
+So when people asked programming questions, these Generative AI models could spit out some pretty good code.
+
+Now there are Generative AI models that specialize in programming. They can produce programs based on text prompts that actually work well enough that some teachers are using them in their Statistics classes. I have not had much experience yet with this, but it appears to be a promising area.
 
 ## What are some of the concerns with this new technology?
 
@@ -167,8 +171,6 @@ April 14, 2025
 
 9. University of Toronto Libraries. How Generative AI models work - Artificial Intelligence for Image Research. Available in [html format][toronto-nodate].
 
-[toronto-nodate]: https://guides.library.utoronto.ca/c.php?g=735513&p=5297039
-
 9. Wikipedia contributors. Sample size determination. Wikipedia, The Free Encyclopedia. 2025-02-07, Available in [html format][widipedia-2025].
 
 [cc-by-4.0]: https://creativecommons.org/licenses/by/4.0/
@@ -186,5 +188,6 @@ April 14, 2025
 [mohler-no-date]: https://existentialcomics.com/comic/557
 [settles-2013]: https://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/
 [setty-2023]: https://news.bloomberglaw.com/ip-law/ai-imitating-artist-style-drives-call-to-rethink-copyright-law
+[toronto-nodate]: https://guides.library.utoronto.ca/c.php?g=735513&p=5297039
 [wikipedia-2025]: https://en.wikipedia.org/wiki/Sample_size_determination
 
