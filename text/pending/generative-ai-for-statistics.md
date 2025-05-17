@@ -110,7 +110,7 @@ NotebookLM lets you can use the methods of large language models on resources of
 
 ## Gemini
 
-Gemini is 
+Gemini is a large language model developed by Google. It is a multi-modal system, meaning that it can produce images and videos in addition to text. It can also accept images as input.
 
 I sent the query "how do i select an appropriate sample size for a research study" to Gemini.
 
@@ -145,6 +145,106 @@ It is pretty amazing that Gemini was able to put something like this together at
 Perhaps the response could be better if I had written a better question. Perhaps I should have followed up with additional questions. There is not enough time for me to explore this in much greater detail, though.
 
 I think the response is slightly above average. I do prefer the Wikipedia page, bit it is also not without faults. My own pages on sample size calculations are quite uneven, so maybe I shouldn't be so critical.
+
+## Testing Gemini's capabilities to produce images
+
+I tried twice times to produce images using Gemini using the prompt "draw an image of a right skewed histogram".
+
+I also tried "draw a pair of boxplots where both show outliers".
+
+"draw a qq-plot that shows evidence of normality"
+
+"show a statistician hard at work"
+
+"show a female statistician hard at work"
+
+## Testing Gemini's capabilities to write programs
+
+"write an R program to read the file titanic.csv"
+
+```{}
+# Read the titanic.csv file into a data frame called 'titanic_data'
+titanic_data <- read.csv("titanic.csv")
+
+# Display the first few rows of the data frame to verify that the file was read correctly
+head(titanic_data)
+
+# You can also use other functions to explore the data:
+
+# Display the structure of the data frame (variable names, data types, etc.)
+str(titanic_data)
+
+# Get a summary of the data (min, max, mean, median, etc. for numeric variables)
+summary(titanic_data)
+
+# Get the number of rows and columns in the data frame
+dim(titanic_data)
+
+# List the column names
+names(titanic_data)
+```
+
+"write a SAS program to read the file titanic.csv"
+
+```{}
+/* Read the titanic.csv file into a SAS dataset called 'titanic_data' */
+PROC IMPORT DATAFILE="titanic.csv"
+    DBMS=CSV
+    OUT=titanic_data
+    USEOBS=ALL; /* Reads all observations */
+RUN;
+
+/* Display the first few rows of the data to verify that the file was read correctly */
+PROC PRINT DATASET=titanic_data(OBS=10); /* Display the first 10 observations */
+RUN;
+
+/* You can also use other procedures to explore the data: */
+
+/* Display the structure of the dataset (variable names, data types, etc.) */
+PROC CONTENTS DATASET=titanic_data;
+RUN;
+
+/* Get a summary of the data (min, max, mean, median, etc. for numeric variables) */
+PROC MEANS DATASET=titanic_data;
+RUN;
+
+/* Get the number of rows and columns in the data set */
+PROC SQL;
+    SELECT COUNT(*) AS num_rows, COUNT(*) AS num_cols
+    FROM DICTIONARY.COLUMNS
+    WHERE LIBNAME = "WORK" AND MEMNAME = "TITANIC_DATA";
+QUIT;
+
+/* List the column names */
+PROC CONTENTS DATASET=titanic_data;
+RUN;
+```
+
+"write a python program to read the file titanic.csv"
+
+```{}
+import pandas as pd
+
+# Read the titanic.csv file into a pandas DataFrame called 'titanic_data'
+titanic_data = pd.read_csv("titanic.csv")
+
+# Display the first few rows of the DataFrame to verify that the file was read correctly
+print(titanic_data.head())
+
+# You can also use other methods to explore the data:
+
+# Display the structure of the DataFrame (variable names, data types, etc.)
+print(titanic_data.info())
+
+# Get a summary of the data (min, max, mean, median, etc. for numeric variables)
+print(titanic_data.describe())
+
+# Get the number of rows and columns in the DataFrame
+print(titanic_data.shape)
+
+# List the column names
+print(titanic_data.columns)
+```
 
 ## References
 
