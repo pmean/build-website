@@ -2,7 +2,7 @@
 title: New post
 source: "New"
 author: Steve Simon
-date: 20xx-xx-xx
+date: 2025-04-10
 categories: Blog post
 tags:
 - Being updated
@@ -10,11 +10,67 @@ output: html_document
 page_update: no
 ---
 
-Here are some resources that I googled while listening to talks at the 2025 Nexus Bioinformatics Conference.
-
-https://www.kcbioinformatics.org/conference/agenda/
+Here are some resources that I googled while listening to talks at the 2025 Nexus Bioinformatics Conference and the 2025 Innovations in Design, Analysis, and Dissemination.
 
 <!---more--->
+
+# --- IDAD 2025 ---
+
+https://www.idadsymposium.com/program.html
+
+## Keynote Lecture: Lu Wang, PhD
+
+Title: Precision Medicine in Action: Leveraging Causal Learning and Reinforcement Learning for Dynamic Treatment Decisions
+
+## AIPW
+
+https://matteocourthoud.github.io/post/aipw/
+
+## Bayesian CART
+
+https://proceedings.mlr.press/r1/chipman97a.html
+
+## Tree-based Reinforcement Learning
+
+## MOTRL
+
+Song Y, Wang L. Multiobjective tree-based reinforcement learning for estimating tolerant dynamic treatment regimes. Biometrics. 2024 Jan 29;80(1):ujad017. doi: 10.1093/biomtc/ujad017. PMID: 38364801; PMCID: PMC10871869.
+
+## Invited Speaker: Weixing Song, PhD
+
+Model-Free Feature Selection for Ultra-High Dimensional Data with Measurement Error
+
+Computational expediency, statistical accuracy, algorithm stability.
+
+Model-base screening (Sure Independence Screening, Fan and Lv (2008))
+
+Model-fee screening (Sure independence ranking, Zhu (2011))
+
+Cumulative Divergence
+
+Omega_X(x)= Cov(X, I(Y <=y))
+
+## Contributed Speaker: Francisco Diaz, PhD
+
+An experimental design for clinical trials testing the individualization potential of an individualized treatment rule
+
+## Invited Speaker: Xiaokang Liu, PhD luwang@umich.edu
+
+Targeted Learning via Probabilistic Subpopulation Matching
+
+PEDSnet, https://pedsnet.org/
+
+Transfer Learning, https://www.geeksforgeeks.org/ml-introduction-to-transfer-learning/
+
+## Contributed Speaker: Md Saiful Islam Saif, MS
+
+Bridge Sample Selection and Batch Correction in High-Dimensional Data
+
+COMBAT bridge samples
+
+# --- Nexus Bioinformatics 2025 ---
+
+https://www.kcbioinformatics.org/conference/agenda/
 
 ## Merlin app (identifies birds through their songs)
 
